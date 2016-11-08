@@ -1,0 +1,9 @@
+recipes.addShaped(<minecraft:stick>*8,
+    [[<druidry:flint_axe:*>.transformDamage()],
+     [<ore:logWood>]]);
+recipes.addShaped(<minecraft:stick>*4,
+    [[<druidry:flint_axe:*>.transformDamage()],
+     [<ore:plankWood>]]);
+recipes.addShaped(<minecraft:stick>*2,
+    [[<druidry:flint_axe:*>.transformDamage()],
+     [<ore:slabWood>]]);

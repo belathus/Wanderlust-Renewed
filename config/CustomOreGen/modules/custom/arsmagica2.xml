@@ -1,0 +1,178 @@
+<IfModInstalled name="arsmagica2">
+    <ConfigSection>
+        <IfCondition condition=':=dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
+            <!-- Vinteum Ore -->
+            <Cloud name='arsmVinteumCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x600000EE' drawBoundBox='false' boundBoxColor='0x600000EE'>
+                <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+                </Description>
+                <OreBlock block='arsmagica2:ore:0' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Biome name='.*'  />
+                <Setting name='CloudRadius'           avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
+                <Setting name='CloudThickness'        avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='DistributionFrequency' avg=':= 0.990 * _default_ ' range=':= 0.990 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='CloudHeight'           avg=':= 27.5 '              range=':= 17.5 '              type='normal' scaleTo='base' />
+                <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Veins name='arsmVinteumHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x605364EE' drawBoundBox='false' boundBoxColor='0x605364EE'>
+                    <Description>
+                        Single blocks, generously  scattered through all
+                        heights  (density is about that of  vanilla iron
+                        ore). They will  replace dirt and sandstone  (but
+                        not grass or sand), so  they can be found nearer to
+                        the surface than most ores.  Intened to be used as a
+                        child  distribution for large, rare  strategic
+                        deposits that would  otherwise be very difficult  to
+                        find.  Note that the  frequency is multiplied by
+                        ground level to maintain a  constant density, but
+                        not by  ore frequency because it is  assumed that
+                        the frequency of  the parent distribution will
+                        already be scaled by that.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:0' weight='1.0' />
+                    <Replaces block='minecraft:dirt' weight='1.0' />
+                    <Replaces block='minecraft:sandstone' weight='1.0' />
+                    <Replaces block='biomesoplenty:dirt' weight='1.0'/>
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Replaces block='minecraft:gravel' weight='1.0' />
+                    <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                </Veins>
+            </Cloud>
+            <!-- Chimerite Ore -->
+            <Cloud name='arsmChimeriteCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x6022FF22' drawBoundBox='false' boundBoxColor='0x6022FF22'>
+                <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+                </Description>
+                <OreBlock block='arsmagica2:ore:1' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Biome name='.*'  />
+                <Setting name='CloudRadius'           avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
+                <Setting name='CloudThickness'        avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='DistributionFrequency' avg=':= 0.990 * _default_ ' range=':= 0.990 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='CloudHeight'           avg=':= 27.5 '              range=':= 17.5 '              type='normal' scaleTo='base' />
+                <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Veins name='arsmChimeriteHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x6022FF22' drawBoundBox='false' boundBoxColor='0x6022FF22'>
+                    <Description>
+                        Single blocks, generously  scattered through all
+                        heights  (density is about that of  vanilla iron
+                        ore). They will  replace dirt and sandstone  (but
+                        not grass or sand), so  they can be found nearer to
+                        the surface than most ores.  Intened to be used as a
+                        child  distribution for large, rare  strategic
+                        deposits that would  otherwise be very difficult  to
+                        find.  Note that the  frequency is multiplied by
+                        ground level to maintain a  constant density, but
+                        not by  ore frequency because it is  assumed that
+                        the frequency of  the parent distribution will
+                        already be scaled by that.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:1' weight='1.0' />
+                    <Replaces block='minecraft:dirt' weight='1.0' />
+                    <Replaces block='minecraft:sandstone' weight='1.0' />
+                    <Replaces block='biomesoplenty:dirt' weight='1.0'/>
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Replaces block='minecraft:gravel' weight='1.0' />
+                    <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                </Veins>
+            </Cloud>
+            <!-- Blue Topaz Ore -->
+            <Cloud name='arsmBlueTopazCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
+                <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+                </Description>
+                <OreBlock block='arsmagica2:ore:2' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Biome name='.*'  />
+                <Setting name='CloudRadius'           avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
+                <Setting name='CloudThickness'        avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='DistributionFrequency' avg=':= 0.990 * _default_ ' range=':= 0.990 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='CloudHeight'           avg=':= 27.5 '              range=':= 17.5 '              type='normal' scaleTo='base' />
+                <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Veins name='arsmBlueTopazHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x605364EE' drawBoundBox='false' boundBoxColor='0x605364EE'>
+                    <Description>
+                        Single blocks, generously  scattered through all
+                        heights  (density is about that of  vanilla iron
+                        ore). They will  replace dirt and sandstone  (but
+                        not grass or sand), so  they can be found nearer to
+                        the surface than most ores.  Intened to be used as a
+                        child  distribution for large, rare  strategic
+                        deposits that would  otherwise be very difficult  to
+                        find.  Note that the  frequency is multiplied by
+                        ground level to maintain a  constant density, but
+                        not by  ore frequency because it is  assumed that
+                        the frequency of  the parent distribution will
+                        already be scaled by that.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:2' weight='1.0' />
+                    <Replaces block='minecraft:dirt' weight='1.0' />
+                    <Replaces block='minecraft:sandstone' weight='1.0' />
+                    <Replaces block='biomesoplenty:dirt' weight='1.0'/>
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Replaces block='minecraft:gravel' weight='1.0' />
+                    <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                </Veins>
+            </Cloud>
+            <!-- Sunstone Ore -->
+            <IfCondition condition=':=dimension.generator.class = "ChunkProviderHell"'>
+                <Veins name='arsmSunstoneHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0xFF5364EE' drawBoundBox='false' boundBoxColor='0x60FF64EE'>
+                    <Description>
+                        Single blocks, generously  scattered through all
+                        heights  (density is about that of  vanilla iron
+                        ore). They will  replace dirt and sandstone  (but
+                        not grass or sand), so  they can be found nearer to
+                        the surface than most ores.  Intened to be used as a
+                        child  distribution for large, rare  strategic
+                        deposits that would  otherwise be very difficult  to
+                        find.  Note that the  frequency is multiplied by
+                        ground level to maintain a  constant density, but
+                        not by  ore frequency because it is  assumed that
+                        the frequency of  the parent distribution will
+                        already be scaled by that.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:4' weight='1.0' />
+                    <Replaces block='lava' weight='1.0' />
+                    <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                </Veins>
+            </IfCondition>
+        </IfCondition>
+    </ConfigSection>
+</IfModInstalled>

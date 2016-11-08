@@ -1,0 +1,5 @@
+recipes.remove(<mocreatures:woolball>);
+recipes.addShaped(<mocreatures:woolball>,
+    [[null,<minecraft:carpet:*>,null],
+     [<minecraft:carpet:*>,null,<minecraft:carpet:*>],
+     [null,<minecraft:carpet:*>,null]]);

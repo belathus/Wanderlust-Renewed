@@ -1,0 +1,2136 @@
+{
+    name: "Sample File",
+    description: "Sample file for reference.  To use it, remove the '.sample' extension; only .json files are parsed.",
+    sets: [
+        {
+            name: "default",
+            operations: [
+                {
+                    __comment: "You can remove recipes that result in a particular block",
+                    __result: "Removes Lapis blocks from being craftable",
+                    type: "remove",
+                    what: "minecraft:lapis_block"
+                },
+                {
+                    __comment: "You can add shaped recipes",
+                    __result: "Turns 3 sticks in a triangle format into black dye",
+                    type: "addShaped",
+                    output: "minecraft:dye:0",
+                    quantity: 1,
+                    with: [
+                        "", "minecraft:stick","",
+                        "minecraft:stick", "", "minecraft:stick"
+                    ]
+                },
+                {
+                    __comment: "If you want a tall recipe instead, specify the width or height (or both!)",
+                    __result: "Adds in a recipe with five sticks to turn into another dye.",
+                    type: "addShaped",
+                    output: "minecraft:dye:12",
+                    width: 2,
+                    height: 3,
+                    with: ["minecraft:stick","minecraft:stick","minecraft:stick","minecraft:stick","minecraft:stick"]
+                },
+                {
+                    __comment: "You can also specify the quantity on the end of the output; use * to ignore metadata.",
+                    __result: "Adds a recipe turning three sticks into 10 stone.  OP!",
+                    type: "addShaped",
+                    output: "minecraft:stone:0:10",
+                    width: 1,
+                    height: 3,
+                    with: ["minecraft:stick","minecraft:stick","minecraft:stick"]
+                },
+                {
+                    __comment: "You can also specify ore dictionary entries by surrounding the name with chevrons.",
+                    __result: "Adds a lever recipe with two sticks and any log",
+                    type: "addShaped",
+                    output: "minecraft:lever",
+                    width: 1,
+                    height: 3,
+                    with: ["minecraft:stick","minecraft:stick","<logWood>"],
+                    displayName: "Tall Lever"
+                },
+                {
+                    __comment: "You can also add shapeless recipes.",
+                    __result: "Turns one black and one red dye into five red dye.",
+                    type: "addShapeless",
+                    output: "minecraft:dye:1",
+                    quantity: 5,
+                    with: ["minecraft:dye:0", "minecraft:dye:1"]
+                },
+                {
+                    __comment: "Ore dictionary works here as well.",
+                    __result: "Turns three glass panes into a piece of glass.",
+                    type: "addShapeless",
+                    output: "minecraft:glass",
+                    with: ["<paneGlass>","<paneGlass>","<paneGlass>"],
+                    displayName: "Recovered Glass"
+                },
+                {
+                    __comment: "Furnace recipes will also be removed with remove; this actually removes 2 separate recipes.",
+                    __result: "Removes logs from being smelted into charcoal.",
+                    type: "remove",
+                    what: "minecraft:coal:1"
+                },
+                {
+                    __comment: "Furnace recipes can be added in with addFurnace.",
+                    __result: "Turns a stick into 3 charcoal.",
+                    type: "addFurnace",
+                    output: "minecraft:coal:1:3",
+                    with: "minecraft:stick"
+                },
+                {
+                    __comment: "Normally all removes happen before all adds; you can specify priority to change up this order; higher priorities go later.  The default priority is 0.",
+                    __result: "Removes the super OP recipe we just added.",
+                    type: "remove",
+                    what: "minecraft:coal:1",
+                    from: ["furnace"],
+                    priority: 10
+                },
+                {
+                    __comment: "Furnace recipes can (and should) set experience with their recipes; this is capped between 0.1 and 1.0.",
+                    __result: "Gives XP, turning coal into diamonds.",
+                    __bug: "Due to the way Minecraft handles xp from smelting, it will take the experience set for the first item registered; i.e. diamond will always give 1.0, because that's the internal recipe.  You can get around this by unregistering the internal one and re-registering it again, but every one of your outputs must have the same xp value.",
+                    type: "addFurnace",
+                    output: "minecraft:stick",
+                    with: "minecraft:coal:0",
+                    experience: 0.2,
+                    displayName: "Sticky Coal"
+                },
+                {
+                    __comment: "Furnace fuels can be added as well, though not removed; you can only add new fuels or increase pre-existing fuels at the moment.",
+                    __result: "Allows the use of any wool as a fuel for one item",
+                    type: "addFurnaceFuel",
+                    what: "minecraft:wool:*",
+                    burnTime: 200
+                },
+                {
+                    __comment: "Brewing recipes can be added as well; you can either specify the input (ie: water bottles; this cannot be a stackable item) and ingredient (ie nether wart) separately...",
+                    __result: "Brews lava buckets, plus netherrack to make obsidian; you won't get the bucket back.",
+                    type: "addBrew",
+                    output: "minecraft:obsidian",
+                    input: "minecraft:lava_bucket",
+                    ingredient: "minecraft:netherrack"
+                },
+                {
+                    __comment: "Or together in the 'with' property; input first, then ingredient",
+                    __result: "Brews water buckets, plus netherrack to make soul sand; you also won't get the bucket back.",
+                    type: "addBrew",
+                    output: "minecraft:soul_sand",
+                    with: ["minecraft:water_bucket", "minecraft:netherrack"],
+                    displayName: "Wet Netherrack"
+                },
+                {
+                    __comment: "You can also add entries to the ore dictionary; for instance, this will allow you to use glass bottles in place of panes (like in the panes to glass recipe above).",
+                    __result: "Adds glass bottles to the paneGlass list.",
+                    type: "registerOreDictItem",
+                    what: "minecraft:glass_bottle",
+                    oreDict: "paneGlass"
+                },
+                {
+                    __comment: "For more advanced usage, you can set NBT data on any of the added items (shaped, shapeless, furnace, and brew); use the /ch getHeldNBT command in game to log the NBT of the item in your main hand.",
+                    __result: "Creates a spawn egg; can't use an Ender Dragon, so, cat's the next best thing.",
+                    __extra: "I spent more time figuring out the tags than I did coding this feature, and more time deciding on the recipe than either one...",
+                    __warning: "Make sure you properly escape quotes in the NBT, or parsing the file will fail.  Also... make sure you really know what you're doing here.",
+                    type: "addShapeless",
+                    output: "minecraft:spawn_egg",
+                    with: ["minecraft:fish","minecraft:book","minecraft:iron_helmet"],
+                    nbt: "{EntityTag:{id:\"Ozelot\",Invulnerable:1,CustomName:\"Toothless\",Visible:1,CatType:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:10000000}]}}",
+                    displayName: "Summon Useless Feline"
+                },
+                {
+                    __comment: "You can also do a match on the inputs, just specify the NBT data as your fifth parameter.  For an exact match, use =",
+                    __result: "Takes out a few steps turning pigs into porkchops.",
+                    type: "addShaped",
+                    output: "minecraft:cooked_porkchop",
+                    with: ["minecraft:spawn_egg:0:1:={EntityTag:{id:\"Pig\"}}"]
+                },
+                {
+                    __comment: "It works on shapeless recipes too, and for a fuzzy match, use ~",
+                    __result: "Takes out a few steps turning cows into beef as well.",
+                    type: "addShapeless",
+                    output: "minecraft:cooked_beef",
+                    with: ["minecraft:spawn_egg:0:1:~{EntityTag:{id:\"Cow\"}}"]
+                },
+                {
+                    __comment: "You can also set tag compounds as raw JSON now.",
+                    __result: "An overused joke.",
+                    type: "addShapeless",
+                    output: "minecraft:spawn_egg",
+                    with: ["minecraft:book"],
+                    nbt: {
+                        EntityTag: {
+                            id: "Cow",
+                            CustomName: "There Is No Cow Level",
+                            Visible:1
+                        }
+                    },
+                    displayName: "Tome of Town Portal"
+                },
+                {
+                    __comment: "You can also use an expanded format for items, allowing you to specify more properties.",
+                    __result: "Just going with it now...",
+                    type: "addShaped",
+                    output: "minecraft:end_portal_frame",
+                    with: [
+                        {
+                            item: "minecraft:ender_chest",
+                            returnOnCraft: true
+                        },
+                        {
+                            item: "minecraft:spawn_egg:0:1",
+                            nbt: {
+                                display: {Name: "Tome of Town Portal"}
+                            },
+                            fuzzyNbt: true,
+                            replaceOnCraft: "minecraft:cooked_beef"
+                        },
+                        {
+                            item: "<logWood>"
+                        }],
+                    displayName: "Oh Whatever",
+                    quantity: 12
+                },
+                {
+                    __comment: "If you'd like to damage an input, that's possible as well; also, you can combine the text inputs with JSON inputs",
+                    __result: "Creates sticks when combined with an axe.",
+                    type: "addShapeless",
+                    output: "minecraft:stick:0:10",
+                    with: ["<plankWood>",
+                        {
+                            item: "minecraft:stone_axe:*",
+                            damageOnCraft: 25
+                        }
+                    ]
+                },
+                {
+                    __comment: "For even more advanced functionality, you can implement a JavaScript function in onCraft to modify your output",
+                    __result: "Adds a recipe to turn logs into 6 planks, with an axe, and gives a stick as a byproduct.",
+                    type: "addShapeless",
+                    output: "minecraft:stick",
+                    with: [
+                        {
+                            item: "<logWood>",
+                            onCraft: function(event) {
+                                // Note, we're just assuming that the metadata for a log matches the metadata for its plank
+                                // This is something of a contrived example. :)
+                                // Also note: event will always be 'undefined' if you try to print it; this cost me 1+ hour of time
+                                // debugging it before I realized I could still call methods on it...
+                                var metadata = event.item.getMetadata();
+                                event.item.replaceItem("minecraft:planks:"+metadata+":6");
+                            }
+                        },
+                        {
+                            item: "minecraft:stone_axe:*",
+                            damageOnCraft: 15
+                        }
+                    ]
+                },
+                {
+                    __comment: "We also provide a synchronized random; the slightly less contrived example",
+                    __result: "Duplicates diamonds, with a nether star that has a chance of breaking.",
+                    type: "addShapeless",
+                    output: "minecraft:diamond:0:2",
+                    with: [
+                        "minecraft:diamond",
+                        {
+                            item: "minecraft:nether_star",
+                            onCraft: function(event) {
+                                // Make sure you use this one instead of JavaScript's Math.random; its random seed
+                                // is synchronized between client and server.  If this wasn't the case, you would get
+                                // a different result on the client and the server, and bad things would happen.
+
+                                if(event.random.nextFloat() > 0.1) {
+                                    event.item.returnItem();
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    __comment: "You can specify that a craft should be removed only when it's a given recipe",
+                    __result: "Removes the ability to craft torches with charcoal",
+                    __notes: "You must use item strings here; ore dictionary and more advanced matching won't work.",
+                    type: "remove",
+                    what: "minecraft:torch",
+                    with: [ "minecraft:coal:1","",
+                            "minecraft:stick"]
+                },
+                {
+                    __comment: "More specification for testing purposes; for this recipe, since it only has 3 inputs, you have to specify at least width or height",
+                    __result: "Removes paper from being craftable",
+                    type: "remove",
+                    what: "minecraft:paper",
+                    with: [ "minecraft:reeds","minecraft:reeds","minecraft:reeds" ],
+                    width: 3
+                },
+
+
+                // Blood Magic
+                {
+                    __comment: "You can add Blood Magic altar recipes...",
+                    __result: "Turns a cooked chicken into an egg",
+                    type: "addBloodAltarRecipe",
+                    output: "minecraft:egg",
+                    with: ["minecraft:cooked_chicken"],
+                    minTier: 1,
+                    lpCost: 10, // Your tier 1 orb has this as 200...
+                    consumeRate: 1, // ... this as 2 ...
+                    drainRate: 1 // .. and this as 1.
+                },
+                {
+                    __comment: "... and remove them",
+                    __result: "Removes the dagger of sacrifice",
+                    type: "removeBloodAltarRecipe",
+                    what: "bloodmagic:ItemDaggerOfSacrifice",
+                    with: ["minecraft:iron_sword"]  // Optional, as always
+                },
+                {
+                    __comment: "Same with Hellfire (Tartaric) Forge recipes (these accept Ore Dict though)...",
+                    __result: "Makes a nether star out of an end portal frame and some wood",
+                    type: "addHellfireForgeRecipe",
+                    output: "minecraft:nether_star",
+                    with: ["minecraft:end_portal_frame","<logWood>"],
+                    minSouls: 300,
+                    drain: 200
+                },
+                {
+                    __comment: "... and remove them.",
+                    __result: "Makes the Sentient Sword go away.",
+                    type: "removeHellfireForgeRecipe",
+                    what: "bloodmagic:ItemSentientSword"
+                    // Could specify with: [], but too lazy. :)
+                },
+                {
+                    __comment: "Also, add alchemy array recipes",
+                    __result: "Makes a cooked chicken from an egg and a stick",
+                    type: "addAlchemyArray",
+                    output: "minecraft:cooked_chicken",
+                    with: "minecraft:egg", // This can be an oreDict as well
+                    catalyst: "minecraft:stick",
+                    circle: "minecraft:textures/items/feather.png", // This is a resource location, leave out for the default circle; you cannot specify a circle with isBinding: true
+                    isBinding: true, // Adds 100% more lightning if true; time and circle are ignored when using binding mode.
+                    time: 100 // Time in ticks; ignored with isBinding: true
+                },
+                {
+                    __comment: "You can remove them as well, but only with the input/catalyst combo used to register them.",
+                    __result: "Removes the bound shovel",
+                    type: "removeAlchemyArray",
+                    with: "bloodmagic:ItemComponent:8", // Binding component
+                    catalyst: "minecraft:diamond_shovel"
+                },
+                {
+                    __comment: "You can add alchemy table recipes...",
+                    __result: "Soul sand plus any glass and a diamond, with some LP equals a nether star",
+                    type: "BloodMagic.addAlchemyTable",
+                    output: "minecraft:nether_star",
+                    with: ["minecraft:soul_sand","<blockGlass>","minecraft:diamond"], // Both proper names and ore dictionaries are allowed here
+                    lpCost: 1000, // If this is zero, you don't need an orb in the table
+                    minTier: 4, // At least a tier 4 orb is required
+                    time: 200 // 10s
+                },
+                {
+                    __comment: "And remove them",
+                    type: "BloodMagic.removeAlchemyTable",
+                    what: "minecraft:gravel",
+                    with: ["<cobblestone>"] // This is optional, and can be one or more of the items needed to make the thing; ore dictionaries are supported
+                },
+                {
+                    __comment: "You can create your own imperfect rituals",
+                    __result: "Gives the user regen 1 for 2:00 at the cost of 100 LP",
+                    type: "BloodMagic.addImperfectRitual",
+                    name: "Regen Ritual",
+                    capstone: { // The block that sits on top of the ritual stone; in this case, podzol
+                        block: "minecraft:dirt",
+                        state: {
+                            variant: "podzol"
+                        }
+                    },
+                    lpCost: 100, // Use 100 LP.  This will be consumed on right-click regardless of if anything happens or not.
+                    lightShow: true, // Now with 100% more lightning.
+                    onActivate: [
+                        {
+                            type: "applyPotion",
+                            what: "minecraft:regeneration",
+                            duration: 20*60*2, // 20 ticks * 60 seconds * 2 minutes
+                            onApplied: [
+                                {
+                                    // Prevent them from abusing it to get more LP though:
+                                    type: "applyPotion",
+                                    what: "bloodmagic:soulFray",
+                                    duration: 2400
+                                }
+                            ]
+                        },
+                    ]
+                },
+
+
+                // Harvest levels
+                {
+                    __comment: "You can remap harvest levels, in case you want to add additional levels between the existing ones.",
+                    __result: "Makes it so that blocks which normally require only a stone pick now require a diamond pick",
+                    type: "remapHarvestLevel",
+                    from: 1,
+                    to: 3,
+                    with: "pickaxe" // valid options: pickaxe, axe, shovel
+                },
+                {
+                    __comment: "You can, of course, set the harvest level on a single block as well.",
+                    __result: "Makes it to where iron ore can now be broken with a stone shovel (as well as a stone pick)",
+                    type: "setHarvestLevel",
+                    what: "minecraft:iron_ore",
+                    to: 1,
+                    with: "shovel"
+                    // Some additional notes:
+                    // - Pickaxes are still effective for everything.  Blame Minecraft.
+                    // - Harvest levels can't be removed, but you can set them to really high numbers, like 9001
+                    //   (or anything up to Integer.MAX_VALUE: 2147483647)
+                    // - Obsidian and redstone are special cases; just don't bother.
+                },
+                {
+                    __comment: "Finally, you can set the effective harvest level of a given tool; note that this still has to be a tool of some form.",
+                    __result: "Makes wood shovels also count as a diamond pickaxe.",
+                    type: "setToolHarvestLevel",
+                    what: "minecraft:wooden_shovel",
+                    to: 3,
+                    as: "pickaxe"
+                    // Note: this will not work with TiCon tools, as they're handled a bit differently; see the Tinker's entry for setMaterialStats instead.
+                },
+
+
+
+                // Starter sets
+                {
+                    __comment: "You can add starting item sets to the default set, as well as the peaceful, easy, normal, and hard difficulty sets",
+                    __result: "Gives the player a diamond sword when starting off.",
+                    type: "addStarterItem",
+                    what: ["minecraft:diamond_sword","minecraft:golden_apple"] // If you change the starter items, it will re-apply the set
+                },
+
+
+                // JEI Integration
+                {
+                    __comment: "You can add items to the JEI blacklist to hide them from JEI",
+                    __result: "Hides gold blocks from JEI",
+                    type: "hide", // There's also a 'show' command'
+                    what: "minecraft:gold_block"
+                    // Both this, and the 'show' can be added to custom sets, so you can gradually show new items as the game goes on.
+                    // Keep in mind, though, that recipes that still make the item or use the item can be used to get to it.
+                },
+
+                // TechReborn
+                {
+                    __comment: "You can add alloy smelter recipes",
+                    __result: "Makes an alloy out of wheat and steak to yield bread.",
+                    type: "TechReborn.addAlloySmelter",
+                    what: ["minecraft:bread:0:2"], // Most TechReborn machines can have input and output quantities; also note, all of the outputs are arrays, not single outputs
+                    with: ["minecraft:wheat:0:3", "minecraft:cooked_beef"],
+                    ticks: 80, // 4 seconds
+                    euPerTick: 4 // 80 * 4 = 360 EU
+                },
+                {
+                    __comment: "Assembling machine recipes",
+                    __result: "Makes redstone and a stick into 4 redstone torches.",
+                    type: "TechReborn.addAssemblingMachine",
+                    what: ["minecraft:redstone_torch:0:4"],
+                    with: ["minecraft:redstone:0:2", "minecraft:stick:0:4"], // Some machines can take fewer than their max inputs; for instance, this one can take 1 or 2 inputs.
+                    ticks: 20,
+                    euPerTick: 30
+                },
+                {
+                    __comment: "Blast furnace recipes",
+                    __result: "Steak. Steak never changes.",
+                    type: "TechReborn.addBlastFurnace",
+                    // Can have 1-2 outputs and 1-2 inputs
+                    what: ["minecraft:cooked_beef:0:1","minecraft:bread:0:1"],
+                    with: ["minecraft:beef:0:1", "minecraft:wheat:0:1"],
+                    ticks: 2000,  // Blast furnace recipes are generally very long
+                    euPerTick: 120, // And expensive
+                    neededHeat: 1500 // And require a lot of heat
+                },
+                {
+                    __comment: "Centrifuge recipes",
+                    __result: "Turns logs into a variety of things.",
+                    type: "TechReborn.addCentrifuge",
+                    // 1-4 outputs, 1-2 inputs; second input is generally a cell if provided.
+                    what: ["minecraft:paper:0:1","minecraft:coal:1:1","minecraft:coal_block:1:2"],
+                    with: ["minecraft:log:0:30"],
+                    ticks: 200,
+                    euPerTick: 30,
+                    useOreDict: true // Figures out the proper ore dictionaries to use.
+                },
+                {
+                    __comment: "Chemical reactor recipes",
+                    __result: "Turns a glass bottle and redstone into a ghast tear.",
+                    type: "TechReborn.addChemicalReactor",
+                    // 1 output, 1-2 inputs.
+                    what: ["minecraft:ghast_tear:0:1"],
+                    with: ["minecraft:redstone:0:3", "minecraft:glass_bottle:0:1"], // This does oredict, apparently.
+                    ticks: 200,
+                    euPerTick: 30,
+                },
+                {
+                    __comment: "Compressor recipes",
+                    __result: "Turns 32 redstone into a redstone ore.",
+                    type: "TechReborn.addCompressor",
+                    // 1 output, 1 input.
+                    what: ["minecraft:redstone_ore:0:1"],
+                    with: ["minecraft:redstone:0:32"],
+                    ticks: 200,
+                    euPerTick: 30,
+                },
+                {
+                    __comment: "Extractor recipes.  Really, really running out of ideas now",
+                    __result: "Extracts rotten flesh into leather.",
+                    type: "TechReborn.addExtractor",
+                    // 1 output, 1 input.
+                    what: ["minecraft:leather:0:1"],
+                    with: ["minecraft:rotten_flesh:0:2"],
+                    ticks: 200,
+                    euPerTick: 30,
+                },
+                {
+                    __comment: "Grinder recipes.  Not the same as the Industrial Grinder, more of a macerator",
+                    __result: "Grinds nether brick into blaze powder.",
+                    type: "TechReborn.addGrinder",
+                    // 1 output, 1 input.
+                    what: ["minecraft:blaze_powder:0:1"],
+                    with: ["minecraft:netherbrick:0:1"],
+                    ticks: 200,
+                    euPerTick: 30,
+                },
+                {
+                    __comment: "Implosion compressor recipes",
+                    __result: "Implodes diamonds into a nether star.",
+                    type: "TechReborn.addImplosionCompressor",
+                    // 1-2 outputs, 2 inputs.
+                    what: ["minecraft:nether_star:0:1"],
+                    with: ["minecraft:diamond:0:8","minecraft:tnt:0:24"], // Will also be ore dictionary'ed
+                    ticks: 20, // Generally 20
+                    euPerTick: 30,
+                },
+                {
+                    __comment: "Industrial electrolyzer recipes",
+                    __result: "Electrolyzes... something into something else? :)",
+                    type: "TechReborn.addIndustrialElectrolyzer",
+                    // 1-4 outputs, 1-2 inputs; second input is generally a cell.
+                    what: ["minecraft:golden_apple:0:1", "minecraft:golden_sword:0:1"],
+                    with: ["minecraft:gold_block"], // This is going to use the ore dictionary, so, this will also accept iron blocks.
+                    ticks: 120,
+                    euPerTick: 100,
+                },
+                {
+                    __comment: "Industrial grinder recipes",
+                    __result: "Grinds down that gold block into gold nuggets, and bars",
+                    type: "TechReborn.addIndustrialGrinder",
+                    // 1-4 outputs, 1-2 inputs; second input is generally a fluid container (the empty container of which is generally an output).
+                    // Also can accept a fluid (but isn't required) - however, if it's not provided, you will generally provide a fluid container as an input
+                    what: ["minecraft:gold_nugget:0:1", "minecraft:gold_ingot:0:1"],
+                    with: ["minecraft:gold_block"], // This is going to use the ore dictionary, so, this will also accept iron blocks.
+                    fluid: "water:1000",
+                    ticks: 100,
+                    euPerTick: 120,
+                },
+                {
+                    __comment: "Industrial sawmill recipes",
+                    __result: "Throws reeds into the sawmill to produce paper",
+                    type: "TechReborn.addSawmill",
+                    // 1-3 outputs, 1-2 inputs; second input is generally a fluid container (the empty container of which is generally an output).
+                    // Also can accept a fluid (but isn't required) - however, if it's not provided, you will generally provide a fluid container as an input
+                    what: ["minecraft:paper:0:1"],
+                    with: ["minecraft:reeds:0:1"],
+                    fluid: "water:1000",
+                    useOreDict: false, // This one we can set if it uses the ore dictionary.
+                    ticks: 200,
+                    euPerTick: 30,
+                },
+                {
+                    // I couldn't find this machine in the list of blocks, so, it may not be implemented?
+                    __comment: "Plate cutting machine recipes",
+                    __result: "Makes redstone ore into redstone.",
+                    type: "TechReborn.addPlateCutter",
+                    what: ["minecraft:redstone:0:20"],
+                    with: ["minecraft:redstone_ore"],
+                    ticks: 20,
+                    euPerTick: 30
+                },
+                {
+                    __comment: "...and finally, Vacuum freezer recipes",
+                    __result: "Turns snow into ice.",
+                    type: "TechReborn.addVacuumFreezer",
+                    // 1 output, 1 input.
+                    what: ["minecraft:ice:0:1"],
+                    with: ["minecraft:snow:0:1"],
+                    ticks: 40,
+                    euPerTick: 128,
+                },
+                {
+                    __comment: "You can also remove recipes from the various machines.",
+                    __result: "Removes the recipe for turning iron ingots into iron plates in the Compressor",
+                    type: "TechReborn.removeRecipe",
+                    what: ["techreborn:plates:8"], // This must exactly match your full list of outputs.
+                    machine: "Compressor"
+                        // Valid values: Centrifuge, Industrial Electrolyzer, Recycler, Alloy Smelter,
+                        // Scrapbox, Vacuum Freezer, IndustrialGrinder, Compressor, Chemical Reactor,
+                        // Blast Furnace, Plate Cutting Machine, Industrial Sawmill, Extractor,
+                        // Implosion Compressor, Grinder
+                        // The machine is optional, but it makes it faster to check the recipe list if you use it.
+                },
+                {
+                    __comment: "You can define fusion reactions as well",
+                    __result: "Turns a nether star on top, and a ghast tear on bottom, into a diamond, producing a lot of EU per tick.",
+                    type: "TechReborn.addFusionReaction",
+                    top: "minecraft:nether_star",
+                    bottom: "minecraft:ghast_tear",
+                    product: "minecraft:diamond",
+                    euToStart: 40000000, // 40,000,000 - 80,000,000 are general values used
+                    euPerTick: 32768, // This can also be negative to require power to maintain the reaction.
+                    ticks: 2048 // The ticks it will take to burn through the fuel.
+                },
+                {
+                    __comment: "And remove them...",
+                    __result: "Removes Helium3",
+                    type: "TechReborn.removeFusionReaction",
+                    what: "techreborn:cell:10"
+                },
+                {
+                    __comment: "You can also add shaped rolling machine recipes.",
+                    __result: "Adds a recipe turning three sticks into 10 stone, less OP since this requires power.",
+                    type: "TechReborn.addShapedRollingMachine",
+                    output: "minecraft:stone:0:10",
+                    with: ["minecraft:stick","","","minecraft:stick","","","minecraft:stick","",""]
+                },
+                {
+                    __comment: "As well as shapeless rolling machine recipes.",
+                    __result: "Turns three glass panes into a piece of glass.",
+                    type: "TechReborn.addShapelessRollingMachine",
+                    output: "minecraft:glass",
+                    with: ["<paneGlass>","<paneGlass>","<paneGlass>"],
+                    displayName: "Recovered Glass"
+                },
+                {
+                    __comment: "You can also remove  recipes from the rolling machine.",
+                    __result: "Removes the Cupronickel Heating Coil recipe",
+                    type: "TechReborn.removeRollingMachine",
+                    what: "techreborn:part:13"
+                },
+
+
+                /*
+                * AbyssalCraft integration
+                */
+
+                // Crystallizer
+                {
+                    __comment: "You can add recipes to the crystallizer",
+                    __result: "Nether star crystallizes into a diamond and soul sand",
+                    type: "AbyssalCraft.addCrystallization",
+                    with: "minecraft:nether_star",
+                    output: ["minecraft:diamond", "minecraft:soul_sand"], // Only the first output is required.
+                },
+                {
+                    __comment: "And remove them",
+                    __result: "Makes it to where you can no longer crystallize lapis ore",
+                    type: "AbyssalCraft.removeCrystallization",
+                    with: "minecraft:lapis_ore"
+                },
+                {
+                    __comment: "Also, specified by the output",
+                    __result: "Makes it to where you can no longer crystallize anything into abyssalnite shards",
+                    type: "AbyssalCraft.removeCrystallization",
+                    what: "abyssalcraft:crystalshard:12"
+                },
+
+                // Transmutation
+                {
+                    __comment: "You can also add recipes to the transmutator",
+                    __result: "Allows you to transmute iron into gold.",
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "minecraft:iron_ingot",
+                    output: "minecraft:gold_ingot",
+                },
+                {
+                    __comment: "And remove them",
+                    __result: "Makes it to where you can no longer transmute seeds",
+                    type: "AbyssalCraft.removeTransmutation",
+                    with: "minecraft:wheat_seeds"
+                },
+                {
+                    __comment: "Also, specified by the output",
+                    __result: "Makes it to where you can no longer transmute anything into seeds",
+                    type: "AbyssalCraft.removeTransmutation",
+                    what: "minecraft:wheat_seeds"
+                },
+
+            ]
+        },
+        {
+            name: "peaceful",
+            // valid difficulty options: peaceful, easy, normal, hard
+            // Note: this is a little awkward if you change difficulties on a server while a player is crafting something
+            // The player will still be able to craft the recipe once, but some of the counts will be updated oddly.
+            operations: [
+                {
+                    __comment: "You can also set recipes per difficulty level.",
+                    __result: "Adds a recipe for making nether stars in peaceful",
+                    type: "addShapeless",
+                    output: "minecraft:nether_star",
+                    with: [
+                        "minecraft:diamond_sword",
+                        "minecraft:soul_sand",
+                        "minecraft:soul_sand",
+                        "minecraft:soul_sand",
+                        "minecraft:soul_sand"
+                    ]
+                }
+            ]
+        },
+        {
+            // This can be named whatever you want, as long as it isn't 'default', or one of the difficulty based set names
+            name: "custom",
+            operations: [
+                {
+                    __comment: "You can also create custom sets and apply/remove them using the /ch applySet and /ch removeSet commands.",
+                    __result: "Adds a recipe for testing",
+                    type: "addShapeless",
+                    output: "minecraft:golden_apple",
+                    with: [
+                        "minecraft:apple",
+                        "<nuggetGold>"
+                    ]
+                }
+            ]
+        },
+        {
+            // Custom sets can also have some various other things:
+            name: "custom2",
+            duration: 200, // This will cause it to remove itself after 200 ticks (roughly 10s)
+            cooldown: 400, // And can only be applied once every 400 ticks
+            removesSets: ["custom"], // It will also remove the 'custom' set when it's applied
+            operations: [
+                // Teleports everybody back to world spawn, and applies regen 2.
+                {
+                    type: "addEntityEvent",
+                    what: ["net.minecraft.entity.player.EntityPlayerMP"],
+                    events: [
+                        {
+                            type: "teleportSpawn",
+                            dimension: 0,
+                            cooldown: 300 // Make sure it only happens once.
+                        },
+                        {
+                            type: "applyPotion",
+                            what: "minecraft:regeneration",
+                            amplifier: 2,
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+        // Mob and Block drops:
+        {
+            name: "dropTesting",
+            operations: [
+                // Mob drops
+                {
+                    __comment: "You can set custom mob drop tables",
+                    __result: "Replaces the drops from a cow (and a squid)",
+                    type: "setMobDrops",
+                    what: ["Cow", "net.minecraft.entity.passive.EntitySquid"],
+                        // 'what' can be either the entity's simple name ('Cow', 'Squid'), or the full class name ('net.minecraft.entity.passive.EntitySquid')
+                        // You can also leave 'what' as an empty array to affect all mobs, but you probably don't want to use replace: true at that point.
+                        // Note: Named mobs (like the 'There is no Cow Level' from above) won't match 'Cow', but will match 'net.minecraft.entity.passive.EntityCow'
+                    replace: true, // False will simply add items
+                    drops: [ // Items to add / replace on the drop table
+                        {
+                            what: "minecraft:cooked_beef", // Drop cooked steak
+                            chance: 0.75, // 75% chance to get the drop
+                            min: 1, // Which will create at least 1 of them
+                            max: 4, // And at most 4 of them...
+                            lootingMultiplier: 1.5, // But taking looting into account (grants an additional 1.5  per level of looting)
+                            damageType: "player", // only when being killed by the player; this can be left out, or set to other damage sources
+                            inDimensions: [-1,0,1],
+                            inBiomes: ["Plains"],
+                            isBurning: true // When on fire
+                        },
+                        {
+                            what: "minecraft:cooked_chicken", // Make them drop cooked chicken instead when in a Forest
+                            min: 1,
+                            max: 1,
+                            // Composite object to help with dealing with combining checks you might not otherwise be able to do:
+                            and: [
+                                {
+                                    inBiomeTypes: ["Hot", "Sparse"] // If we're in a hot -or- sparse place.
+                                },
+                                {
+                                    inBiomeTypes: ["Dry"] // And it's dry
+                                }
+                            ]
+                            // Valid values include:
+                            // For Temperature: HOT, COLD,
+                            // For Vegetation: SPARSE, DENSE,
+                            // For Moisture: WET, DRY,
+                            // For Trees: SAVANNA, CONIFEROUS, JUNGLE,
+                            // For Misc: SPOOKY, DEAD, LUSH, NETHER, END, MUSHROOM, MAGICAL, OCEAN, RIVER,
+                            // Generic Types: MESA, FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, SANDY, SNOWY, WASTELAND, BEACH;
+                        },
+
+                        // Below, a 100% chance to get 1 leather, but only when killed with shears.
+                        // Note: this does -not- force damageType: 'player'.
+                        // Also note: It's really annoying to kill a cow with shears.  Just saying.
+                        // This also damages the shears by 1 per drop.
+                        {
+                            what: "minecraft:leather",
+                            min: 1,
+                            max: 1,
+                            chance: 1.0,
+                            killedWith: "minecraft:shears",
+                            consume: false, // consume and damagePer are optional
+                            damagePer: 1.0
+                        },
+
+                        // You can also set minimum and maximum looting levels:
+                        {
+                            what: "minecraft:redstone",
+                            min: 3,
+                            max: 10,
+                            minLooting: 1,
+                            maxLooting: 2
+                        },
+
+                        // Check if the attacker is wielding an offhand:
+                        {
+                            // Don't ask why damaging a shield gets wheat; I'm just coming up with random examples at this point...
+                            what: "minecraft:wheat",
+                            min: 1,
+                            max: 10,
+                            attackerHasOffhand: "minecraft:shield",
+                            consumeOffhand: false, // This can be set to true to use the same number of the offhand item as items are dropped
+                            damageOffhandPer: 2.0,
+                                // Damage the offhand by this amount per drop generated.  You must specify consumeOffhand: false (or leave it out) if you want this
+                                // to work.  If the number of drops generated is more than the item could be damaged by, the number of drops
+                                // will be reduced to the proper amount.  Fractional amounts of remaining damage will not yield a drop.
+                            not: { // This is a composite, anything you put here will be inverted...
+                                mobHasPotionEffect: "minecraft:poison" // Specify that they cannot have poison on them
+                            }
+                        },
+
+                        // Now, specifically for players, we can also check to see if they have an item in their inventory:
+                        {
+                            // Yes, this could be applied to a ghast instead of a cow, but I'm not going flying around fighting ghasts for testing...
+                            what: "minecraft:ghast_tear",
+                            min: 2,
+                            max: 4, // This will check across item stacks and decrement each accordingly.
+                            // Composite object for checking two separate sets of conditions; the first one matched will be executed...
+                            or: [
+                                {
+                                    maxLightLevel: 3 // If we're below light level 3...
+                                },
+                                {
+                                    // ... or if the player has glass bottles.
+                                    playerHasInventory: "minecraft:glass_bottle",
+                                    consumeInventory: true,
+                                    damageInventoryPer: 0.0 // This is ignored since consumeInventory is true, but, here for reference.
+                                }
+                                // At light level 3 or lower, the bottles won't be consumed, since it matches the first entry.  At 4 or above, they will.
+                            ]
+                        }
+                    ],
+                    exclude: [ // Items to exclude from being replaced
+                        "bloodmagic:ItemMonsterSoul" // Still allows you to get Demonic Wills from Blood Magic
+                    ]
+                },
+                {
+                    __comment: "You can also use this to specify that a particular drop should be removed from everything.",
+                    __result: "Makes sure you can't get rotten flesh from any mob",
+                    type: "setMobDrops",
+                    what: [],
+                    replace: false,
+                        // Note: 'replace' is false by default, but, note that you want to ensure this is false if you're doing this.
+                        // Specifying replace: true, and not providing drops: [] is basically saying "everything should drop nothing."
+                    includePlayerDrops: true,
+                        // This also defaults to false; if we mark this true, even players won't drop any rotten flesh they're carrying
+                        // Note: depending on if a graves mod is installed, this may override this functionality.
+                    remove: [ "minecraft:rotten_flesh" ]
+                },
+                {
+                    __comment: "You can specify that a mob has to be under a specific potion effect to do give a certain drop...",
+                    __result: "Makes cows drop rotten flesh when under the poison effect.",
+                    // Note that this is applied after the operation that removes rotten flesh drops!
+                    type: "setMobDrops",
+                    what: ["Cow"],
+                    drops: [
+                        {
+                            what: "minecraft:rotten_flesh",
+                            min: 1,
+                            max: 1,
+                            mobHasPotionEffect: "minecraft:poison"
+                        }
+                    ]
+                },
+                {
+                    __comment: "You can also specify that the player (or other entity doing the killing) has to be under a specific effect.",
+                    __result: "Makes mobs drop diamonds if the attacker has the luck effect.",
+                    type: "setMobDrops",
+                    what: [],
+                    drops: [
+                        {
+                            what: "minecraft:diamond",
+                            min: 1,
+                            max: 1,
+                            attackerHasPotionEffect: "minecraft:luck",
+                            // If not, they drop sticks...
+                            otherwise: {
+                                what: "minecraft:stick",
+                                min: 1,
+                                max: 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    // /summon Zombie ~0 ~1 ~0 {HandItems:[{id:iron_sword},{id:shield}]}
+                    __comment: "You can specify that a mob has to be using a particular item for a drop.",
+                    __result: "Drops a golden apple from any Zombie wielding an iron sword, and sticks from those with shields",
+                    type: "setMobDrops",
+                    what: ["Zombie"],
+                    drops: [
+                        {
+                            what: "minecraft:golden_apple",
+                            min: 1,
+                            max: 1,
+                            mobHasMainhand: "minecraft:iron_sword"
+                        },
+                        {
+                            what: "minecraft:stick",
+                            min: 1,
+                            max: 1,
+                            mobHasOffhand: "minecraft:shield"
+                        }
+                    ]
+                },
+
+                // Mob shedding
+                // Most of the conditions that can be used for mob and block drops can be used here, except those that depend on the player.  Reference the wiki for more information.
+                {
+                    __comment: "You can specify that mobs can 'shed' items, much like Botania",
+                    __result: "Makes cows shed beef.",
+                    type: "addMobShed",
+                    what: ["Cow"],
+                    sheds: [
+                        {
+                            what: "minecraft:beef",
+                            min: 1,
+                            max: 2,
+                            chance: 1.0, // 100% chance; like drops, this is optional.  Sheds will happen once every 10 seconds (by default; configured in the Settings.cfg file).
+                            minLightLevel: 12, // This should only happen when the cow is either in direct sunlight, or relatively near a torch
+                            minMobHealth: 5.0, // Make sure the mob has at least this much HP; cows have 10 by default
+                            damageOnShed: 0.5, // Cause a bit of damage when it happens; minimum HP argument is not required, but could help.  Set negative to heal instead.
+                            sheddingDamageType: "starve", // The type of damage, defaults to 'generic',
+                                // Normal Minecraft values are:
+                                // inFire, lightningBolt, onFire, lava, inWall, drown, starve, cactus, fall, flyIntoWall,
+                                // outOfWorld, generic, magic, wither, anvil, fallingBlock, dragonBreath
+                                // (note: This can, of course, cause death, in which case, this would be the damageType in the drop event.)
+                            sheddingDamageIsUnblockable: true, // Make it so armor doesn't effect this, defaults to 'false'
+                            sheddingDamageIsAbsolute: false, // Make it so potions and other effects don't prevent this, defaults to 'false'
+                            sheddingDamageIsCreative: true, // Make this completely unblockable damage, defaults to 'false'.
+                            // Fun fact: You can cause players to shed.  Food for thought.
+                        },
+                        {
+                            what: "minecraft:clay",
+                            min: 1,
+                            max: 1,
+                            insideBlock: "minecraft:water" // Detect if the mob is currently inside a given block (could be quicksand, other fluids, etc); this can also have the expanded NBT
+                        },
+                        {
+                            what: 'minecraft:spawn_egg:0:1:{EntityTag:{id:"Cow"}}',
+                            min: 1,
+                            max: 1,
+                            // Check for a second cow (note: since we're a Cow, checking for Cows, there will always be 1 cow: the one we're checking from)
+                            // This looks in a 5 block radius from the cow.
+                            // 'what' and 'dist' must be provided, though what can be an empty array if you want to check every mob.
+                            // 'min' and 'max' are optional; their defaults are 0 and a really high number, by default.  Don't set max unless you need to.
+                            aroundMobs: { what: ["Cow"], min: 2, dist: 5 }
+                        }
+                    ]
+                },
+
+                // Block drops
+                // Also has most of the same conditions as mob drops.  Reference the wiki for more information.
+                // As usual, these are going to be a lot of non-sensical examples...
+                // Also note: things which involve the the player will generally return false when dealing with things like explosions/quarries/etc
+                {
+                    type: "setBlockDrops",
+                    what: ["minecraft:dirt"], // Also optional, will apply for every block otherwise
+                    state: { // If you don't provide a state map, this will apply every state of the block.  States are logged if you set the config option for it.
+                        // States will be matched by a value check first, and a string conversion second, if both fail, then it doesn't match
+                        snowy: false,
+                        variant: "dirt"
+                        // You can also leave out a property if you don't care about that particular property (for instance, many mod blocks have facing, but you might not necessarily care)
+                    },
+                    replace: false, // No, we shouldn't replace the drop table, just add to it
+                    drops: [
+                        {
+                            what: "minecraft:apple",
+                            min: 1,
+                            max: 3,
+                            // Composites can be chained together to create more complicated effects..
+                            // Gives 100% chance in direct sunlight, or, if lightlevel 10 or above: a 50% chance unless the player has Luck.
+                            or: [
+                                {
+                                    chance: 1.0, // 100% chance, still very optional.
+                                    minLightLevel: 15, // But only in direct sunlight
+                                },
+                                {
+                                    minLightLevel: 10, // Slightly less sunlight
+                                    or: [
+                                        {
+                                            chance: 0.5
+                                        },
+                                        {
+                                            playerHasPotionEffect: "minecraft:luck"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            what: "minecraft:bone",
+                            min: 1,
+                            max: 1,
+                            minedWith: "minecraft:diamond_shovel",
+                            nbt: "{ench:[0:{id:18s}]}", // This has to be specified as a string, because it isn't valid JSON
+                            fuzzyNbt: true, // For reference, the above is "Bane of Arthropods", and, since it's fuzzy, it should allow any level.
+                            maxHeight: 63 // Only when below sea level; F3 shows the Y level that you're on (ie blocks in the same level as your feet count - not below your feet)
+                        },
+                        {
+                            what: "minecraft:wheat",
+                            min: 1,
+                            max: 4,
+                            silkTouch: true,
+                            itemInInventory: "minecraft:shears",
+                            damageInventoryPer: 1.0
+                        },
+                        {
+                            // Makes dirt drop soul sand when -above- soul sand
+                            what: "minecraft:soul_sand",
+                            min: 1,
+                            max: 1,
+                            aboveBlock: "minecraft:soul_sand", // Simple form is acceptable.
+                            // You can also run entity callbacks when a drop occurs; this will target the harvester:
+                            onDrop: [ { type: "smite" } ]
+                        },
+                        {
+                            // And makes it drop a mushroom when above podzol
+                            what: "minecraft:brown_mushroom",
+                            min: 1,
+                            max: 1,
+                            aboveBlock: {
+                                block: "minecraft:dirt",
+                                state: {
+                                    variant: "podzol"
+                                }
+                            }
+                        },
+                        {
+                            // Makes diamonds drop after dusk (and before midnight)
+                            what: "minecraft:diamond",
+                            min: 1,
+                            max: 1,
+                            or: [
+                                { minTimeOfDay: 1080 }, // This time is in in-game minutes, so, this is roughly 6 PM
+                                { maxTimeOfDay: 360 } // Or before 6AM
+                            ],
+                            // Damage the player a bit for this though.  Shares the same properties as the shedding damage.
+                            damagePlayer: 1.0,
+                            playerDamageType: "magic",
+                            playerDamageIsUnblockable: true,
+                            playerDamageIsAbsolute: true,
+                            cooldown: 900, // Also make sure they can only trigger this once every 45 seconds.
+                            playerHasAchievement: "achievement.openInventory" // Make sure they've opened their inventory since the last time their achievements decided to reset...
+                        },
+                        {
+                            // Note: This just makes sure that the moon is the correct phase.  Combine with time of day matchers to make sure it's only night.
+                            what: "minecraft:nether_star",
+                            min: 1,
+                            max: 1,
+                            moonPhase: "Full"
+                            // Valid values are:
+                            // Full, WaningGibbous, ThirdQuarter, WaningCrescent,
+                            // New, WaxingCrescent, FirstQuarter, WaxingGibbous;
+                        },
+                        {
+                            // Sand.  It gets everywhere.  In the cracks.
+                            what: "minecraft:sand",
+                            min: 1,
+                            max: 1,
+                            // If this piece of dirt is around at least 3 other pieces of sand, drop sand...
+                            aroundBlocks: { what: ["minecraft:sand"], min: 3, dist: 1},
+                            isRaining: { presence: false }
+                        },
+                        {
+                            what: "minecraft:clay",
+                            min: 1,
+                            max: 1,
+                            or: [
+                                {
+                                    // Checks if the person breaking the block has the scoreboard 'testObj' between 500 and 5000:
+                                    // This could be simplified using a rangeScore (see below)
+                                    minScore: {name: "testObj", value: 500},
+                                    maxScore: {name: "testObj", value: 5000}
+                                },
+                                {
+                                    // Checks to see if anybody online right now has the 'testObj' score at 200:
+                                    isScore: {name: "testObj", value: 200, player: "ANYONLINE"}
+                                },
+                                {
+                                    // Checks to see if every player who has an entry for this score is between 50 and 125.
+                                    // If a player doesn't have the score, it will be created, with a default value of -100.
+                                    // Note: the scoreboard objective itself still has to exist
+                                    // Also note: defaultValue isn't exclusive to create: true; for instance, if you needed to check
+                                    // a range of  -50 to 50, and didn't want people without the score to match, you could set
+                                    // defaultValue to anything outside the range. By default, defaultValue is 0 and create is false.
+                                    // Lastly: player, defaultValue, and create can be used with minScore, maxScore and isScore as well.
+                                    rangeScore: {name: "testObj", min: 50, max: 125, player: "ALL", defaultValue: -100, create: true}
+                                },
+                                {
+                                    // This object has three properties:
+                                    // - presence: If we should be checking for rain or a lack of; defaults to true
+                                    // - onlyInBiome: Checks to make sure it can rain here; defaults to false
+                                    //      This means that it can be raining anywhere in the world and it will still match.
+                                    // - onlyOnTarget: Checks to see if rain is hitting the block/mob in question; defaults to false
+                                    // Remember that setting presence to false will negate these checks, so:
+                                    // isRaining: { presence: false, onlyOnTarget: true } would ensure that it's not raining on the target.
+                                    isRaining: { onlyOnTarget: true }
+                                }
+                            ]
+                        }
+                    ],
+                    // You can specify 'exclude' the same as with mob drops, though it's probably less useful here.
+                    // Remove is the same thing as mob drops, if you're just wanting to remove a drop, use that and specify 'replace: false'
+                },
+                {
+                    type: "setBlockDrops",
+                    what: [],
+                    drops: [
+                        {
+                            what: "minecraft:diamond",
+                            min: 1,
+                            max: 1,
+                            minedByExplosion: true // Only when caused by an explosion
+                        },
+                        {
+                            // Everything also drops dirt!
+                            what: "minecraft:dirt",
+                            min: 1,
+                            max: 1,
+                            minedByPlayer: true, // ... when mined by a player
+                        }
+                    ]
+                },
+                {
+                    // You can also specify an 'otherwise' which will be matched and applied if the original drop isn't matched:
+                    type: "setBlockDrops",
+                    what: ["minecraft:gravel"],
+                    replace: true,
+                    drops: [
+                        {
+                            // Give a 50% chance of getting sand...
+                            what: "minecraft:sand",
+                            min: 1,
+                            max: 1,
+                            chance: 0.5,
+                            questingIsHardcore: true, // only if we have a quest mod installed in hardcore mode.
+                            otherwise: {
+                                // Otherwise, drop gravel.
+                                what: "minecraft:gravel",
+                                min: 1,
+                                max: 1
+                                // You could also continue chaining more matchers/otherwise combos here.
+                            }
+                        },
+                        {
+                            what: "minecraft:flint",
+                            min: 1,
+                            max: 1,
+
+                            // Checks to see if anybody online has the quest 'Test Quest 1' available, and drops flint.
+                            // Valid statuses are 'Active', 'Locked', 'Complete', and 'Closed'
+                            questingQuestStatus: {name: "Test Quest 1", status: "ACTIVE", player: "ANY"}
+                        }
+                    ]
+                }
+            ]
+        },
+
+        // Mob potion effects and entity events:
+        {
+            name: "playerEvents",
+            operations: [
+                // You can also apply potion effects to entities based on certain conditions, including just if a set is active..
+                {
+                    __comment: "Applies things to the player; I'm leaving cows alone this time... though you could use this on entities as well",
+                    type: "addMobPotionEffect",
+                    what: ["net.minecraft.entity.player.EntityPlayerMP"],
+                    effects: [
+                        {
+                            // Each effect has many of the same matchers as mob sheds
+                            what: "minecraft:luck",
+                            amplifier: 0, // The 'level' to add of the potion.  Defaults to 0. (in this case, 0 is Luck 1, and 1 is Luck 2)
+                            showParticles: false, // If effect particles should be shown while this is active.  Defaults to false; I hate potion particles.
+                            duration: 600,  // The duration in ticks of the effect (600 = 30 seconds).  If not specified, this defaults to the number of ticks between checks +1.
+                                            // If you make this longer than the number of seconds, you can end up stacking effects
+                            cures: "minecraft:milk_bucket", // A list of consumables that can cure this effect.  By default this will be nothing.
+                            cooldown: 800, // Make sure it's only applied every 40 seconds as well.
+                            // We also have event callbacks when these occur:
+                            onNew: [ // Called when a new potion is applied
+                                // These can be either an object...
+                                {
+                                    type: "runPlayerCommand",
+                                    command: "/tell @p You've got some extra luck.",
+                                    name: "The Server" // For commands that show a name, you can set the name here.
+                                }
+                            ],
+                            onExtended: [ // Called when an existing effect's duration is extended
+                                // Or functions, which get passed the entity being effected, and the world
+                                function(entity, world) {
+                                    console.log(entity.getName() + "'s luck was extended.");
+                                }
+                            ],
+                            onApplied: [ // Called every time the potion is either first applied or when its duration is extended (after onNew/onExtended both have been called)
+                            ],
+
+                            // All three of these rely on a coremod (because I haven't been bothered to PR it to Forge proper), so, they may fail if the coremod fails.
+                            // You will get errors in the console log near the very beginning if this is the case, but the game should not crash, please report any errors to me.
+                            onExpired: [ // Called when the duration expires without being cured
+                                // Note: if your duration and cooldown are exactly the same, this will be called right before its renewed
+                                function(entity, world) {
+                                    console.log(entity.getName() + "'s luck expired.");
+                                }
+                            ],
+                            onCured: [ // Called when the potion is cured with a curative item.
+                                function(entity, world) {
+                                    console.log(entity.getName() + "'s luck was cured.");
+                                },
+                                {
+                                    // Cause an explosion five blocks behind the player
+                                    type: "explode",
+
+                                    // Explosions can be specified in terms of look vectors:
+                                    magnitude: 5, // 5 blocks out...
+                                    yaw: 1.0, // Counter-clockwise in terms of PI on a circle, so, 1.0 will be directly behind the entity.
+                                    pitch: 0.0, // Also in terms of PI
+
+                                    // Or you could specify a relative offset from the source in terms of x/y/z.
+                                    // Specifying neither will cause an explosion on the source.
+
+                                    strength: 1.0,
+                                    isSmoking: true
+                                }
+                            ],
+                            onRemoved: [ // Called when the potion is removed, either by expiring, or being cured.
+                                function(entity, world) {
+                                    console.log(entity.getName() + "'s luck was removed.");
+                                },
+                                {
+                                    type: "applyPotion",
+                                    what: "minecraft:unluck",
+                                    duration: 100,
+
+                                    // Callbacks can have their own matchers and their own callbacks, in case you
+                                    // need to do something else when one is actually applied.
+                                    chance: 0.5,
+                                    onApplied: [
+                                        {
+                                            type: "runPlayerCommand",
+                                            command: "/tell @p You start to feel a little unlucky though...",
+                                            name: "The Server"
+                                        }
+                                    ]
+                                },
+                                {
+                                    // Set's doDaylightCycle to false for the specified number of ticks.
+                                    // May have more effects in the future such as extending potion effects/etc.
+                                    // But these will be configurable, and set to false by default.
+                                    type: "stopTime",
+
+                                    // Every time stop must have a unique ID in order to persist between saves.
+                                    id: "playerLuckTimeStop",
+
+                                    // 300 ticks long.
+                                    duration: 300,
+
+                                    onTimeStopStart: [
+                                        function(entity, world) {
+                                            console.log("Time slows to a standstill.");
+                                        }
+                                    ],
+                                    onTimeStopExtended: [
+                                        function(entity, world) {
+                                            console.log("Something continues to hold time back.");
+                                        }
+                                    ],
+                                    onTimeStopEnd: [
+                                        function(entity, world) {
+                                            console.log("Time resumes its flow.");
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            // Gives a chance of soul sand dissolving and causing a momentary wither effect
+                            what: "minecraft:wither",
+                            duration: 40,
+
+                            // Inventory matchers work similarly to the other versions, though each application of the effect only counts for 1 item.
+                            or: [
+                                {
+                                    playerHasInventory: "minecraft:soul_sand",
+                                    consumeInventory: true,
+                                    minMobHealth: 3, // Only if they're at a level of HP that won't kill them.
+                                    chance: 0.01 // 1% chance
+                                },
+                                {
+                                    // If Blood Magic is installed, you can also check to see if there's
+                                    // a particular quantity of demon will in the chunk:
+                                    // Types: default, corrosive, destructive, vengeful, steadfast
+                                    // Valid common values are 0 - 100
+                                    bloodMagicHasDemonWill: { type: "default", min: 10, max: 100 },
+                                    chance: 0.1 // 10% chance
+                                }
+                            ]
+                        },
+                        {
+                            // Makes players move slowly in near pitch darkness
+                            what: "minecraft:slowness",
+                            amplifier: 1,
+                            or: [
+                                {
+                                    maxLightLevel: 3
+                                },
+                                {
+                                    // For a brief time when they've walked between 16m and 32m...
+                                    // Note: SSP has some problems showing updates, but the value still gets checked fine.
+                                    minStat: { name: "stat.walkOneCm", value: 1600 },
+                                    maxStat: { name: "stat.walkOneCm", value: 3200 }
+                                },
+                                {
+                                    // Check if the player is wearing between 8 and 16 points of armor...
+                                    // Each point of armor being half an 'armor' icon on your bar.
+                                    armorRange: { min: 8, max: 16 }
+                                }
+                            ]
+                        },
+                        {
+                            // 5% Chance of poison when swimming in swampy biomes
+                            what: "minecraft:poison",
+                            duration: 1200, // A full minute...
+                            cures: ["minecraft:milk_bucket"],
+                            inBiomeTypes: ["Swamp"],
+                            insideBlock: "minecraft:water",
+                            chance: 0.05
+                        },
+                        {
+                            // Gives varying levels of regeneration based on the light level...
+                            what: "minecraft:regeneration",
+                            amplifier: 2,
+                            or: [
+                                {minLightLevel: 15},
+                                // If you have Roots, you can check the player's mana:
+                                {rootsHasMana: {min: 38, max: 40}},
+                            ],
+                            otherwise: {
+                                what: "minecraft:regeneration",
+                                amplifier: 1,
+                                minLightLevel: 13,
+                                otherwise: {
+                                    what: "minecraft:regeneration",
+                                    minLightLevel: 11
+                                }
+                            }
+                        }
+                    ]
+                },
+
+                // Entity events
+                {
+                    __comment: "Similar to potion effects, you can also just register a generic effect on an entity",
+                    type: "addEntityEvent",
+                    what: ["net.minecraft.entity.player.EntityPlayerMP"],
+                    events: [
+                        // Events can be just a regular callback, with matchers...
+                        {
+                            // We're going to make lightning strike the player once every 30 seconds if they're holding an iron sword in a storm
+                            type: "smite",
+                            mobHasMainhand: "minecraft:iron_sword",
+                            isStorming: { onlyOnTarget: true },
+                            cooldown: 600
+                        },
+
+                        // Or a bit more extended:
+                        {
+                            aroundMobs: { what: ["Ocelot"], min: 1, dist: 3 },
+                            cooldown: 1200,
+                            then: [
+                                {
+                                    // Will always fire once a minute when around an ocelot
+                                    type: "runPlayerCommand",
+                                    command: "/tell @p Oooh, look!  A kitty!  Be careful he doesn't bite your hat."
+                                },
+                                {
+                                    // Will only run if its matchers match:
+                                    type: "heal",
+                                    amount: 1.0,
+
+                                    // 50% chance of gaining 1hp
+                                    chance: 0.5,
+
+                                    // Target modifier: Apply to everything in a 5 block radius...
+                                    area: 5,
+
+                                    // This will only run if the event was matched:
+                                    // Each 'on...' callback is actually an entire event object, so you can continue to nest them, add more matchers, etc.
+                                    onComplete: [
+                                        {
+                                            // Target modifier: apply to the original source (ie: the player).
+                                            // Works in most, but not all, situations, and will only fire if the original source still exists (in a loaded chunk)
+                                            // at the time the callback occurs.
+                                            target: "original",
+                                            type: "runPlayerCommand",
+                                            command: "/tell @p It made you feel a little better too."
+                                        }
+                                    ],
+
+                                    // Will only apply to the player themselves (because the 'area' is applied to the heal callback only)...
+                                    // We could have written this instead as { area: 5, then: [{ type: 'heal', otherwise: { ... } }] }, and the 'otherwise' would
+                                    // be applied to everything in the area, instead of just the original player.
+                                    otherwise: {
+                                        type: "runPlayerCommand",
+                                        command: "/tell @p You feel good; not great, but good."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "smite",
+                            mobHasMainhand: "minecraft:nether_star", // When holding a nether star...
+                            cooldown: 20,
+                            // Target everything within 5 meters of the player...
+                            multitarget: {
+                                area: 5
+                            },
+                            // Except the player themselves... (note: 'except' can only be used with 'multitarget')
+                            except: {
+                                target: "original"
+                            }
+                        },
+
+                        // We can even affect the quest system, if a quest mod is installed...
+                        {
+                            type: "questingGiveLives",
+                            lives: 1,
+                            aboveBlock: "minecraft:diamond_block",
+                            cooldown: 200,
+
+                            // onSuccess will run only if the player received as many lives as you asked to give them.
+                            onSuccess: [
+                                {
+                                    type: "runPlayerCommand",
+                                    command: "/tell @p You've gained a life."
+                                }
+                            ]
+                        },
+                        {
+                            type: "questingTakeLives",
+                            lives: 1,
+                            aboveBlock: "minecraft:soul_sand",
+                            cooldown: 200,
+
+                            // Similarly, this will only run if you were able to take the correct number of lives from a player.
+                            onSuccess: [
+                                {
+                                    type: "runPlayerCommand",
+                                    command: "/tell @p You've lost a life!"
+                                }
+                            ]
+                        },
+                        {
+                            type: "questingCompleteQuest",
+                            quest: "Test Quest 2",
+                            aboveBlock: "minecraft:gold_block"
+                        },
+                        {
+                            type: "questingResetQuest",
+                            quest: "Test Quest 2",
+                            aboveBlock: "minecraft:iron_block"
+                        },
+                    ]
+                }
+            ]
+        },
+
+
+        // Sky color stuff
+        {
+            name: "skyTransitions",
+            operations: [
+                {
+                    type: "addEntityEvent",
+                    what: ["net.minecraft.entity.player.EntityPlayerMP"],
+                    events: [
+                        {
+                            type: "setSkyColor",
+                            aboveBlock: "minecraft:redstone_block",
+                            transitionTime: 80,
+                            global: false, // Affects only the target player
+                            colormap: [
+                                // Hex color reference: http://prideout.net/archive/colors.php
+                                { minY:   0, r: 1.0  , g: 0.753, b: 0.796 }
+                            ]
+                        },
+                        {
+                            type: "setSkyColor",
+                            aboveBlock: "minecraft:lapis_block",
+                            transitionTime: 80,
+                            global: true, // Affects all players
+                            colormap: [
+                                // Gradually darken the sky as we go further up...
+                                // Note that even though minY on the first entry is at 60, it will still be used below 60
+                                // The blending will only occur between 60 and 200.
+                                { minY:  60,  r: 0.878, g: 1.000, b: 1.000 },
+                                { minY: 200,  r: 0.255, g: 0.412, b: 0.882 }
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+
+        // Tile entity events
+        {
+            name: "teEvents",
+            operations: [
+                {
+                    __comment: "Ticking tile entities in the game can also have events associated with them.",
+                    type: "addTileEntityEvent",
+                    what: ["net.minecraft.tileentity.TileEntityChest"],
+                    events: [
+                        // This is the same format as the entity events
+                        {
+                            // Makes chests holding gunpowder explode if they're near fire or lava.
+                            type: "explode",
+                            strength: 3,
+                            isSmoking: true,
+                            aroundBlocks: { what: ["minecraft:fire","minecraft:lava"], min: 1, dist: 2},
+                            itemInInventory: {what: "minecraft:gunpowder", consume: 1000, partial: true} // Consume up to 1k gunpowder in the process
+                        },
+                        {
+                            // This will target entities around the tile entity every 15 seconds...
+                            type: "targetEntities",
+                            cooldown: 300,
+
+                            // Any chests with rotten flesh...
+                            itemInInventory: {what: "minecraft:rotten_flesh"},
+
+                            multitarget: {
+                                players: 5, // Will affect any players within 5 blocks
+                                not: {aroundBlocks: { what: ["minecraft:air"], min: 24, dist: 3}} // Unless they're in fairly clear air
+                            },
+                            perTarget: [
+                                {
+                                    type: "applyPotion",
+                                    what: "minecraft:nausea",
+                                    duration: 300,
+                                    // Remember that matchers can be applied here too...
+                                    onApplied: [
+                                        {
+                                            type: "runPlayerCommand",
+                                            command: "/tell @p A foul stench wafts from a nearby chest..."
+                                        }
+                                    ]
+                                }
+                            ],
+                            // Will run once per every target that was targeted, not necessarily if they were matched or not.
+                            onEachSuccess: [
+                                function() {
+                                    console.log("The smell of rotten flesh nauseates a nearby player.");
+                                }
+                            ],
+                            // Will run as long as at least one target was targeted, not necessarily if they were matched or not.
+                            onSuccess: [
+                                function() {
+                                    console.log("Some nearby players were nauseated.");
+                                }
+                            ],
+                            // I don't recommend onFailure logging, unless testing, as it gets spammy.
+                            onFailure: [
+                                function() {
+                                    console.log("The rotten flesh smells, but nobody is around to notice.");
+                                }
+                            ]
+                        }
+                    ]
+                },
+            ]
+        },
+
+        // Botania Integration
+        {
+            name: "botania",
+            operations: [
+                {
+                    __comment: "You can add recipes to the petal apothecary",
+                    type: "Botania.addPetalRecipe",
+                    output: "minecraft:gold_block",
+                    with: ["botania:petal:4", "botania:petal:4", "botania:petal:4", "botania:petal:4", "botania:petal:4"]
+                },
+                {
+                    __comment: "And remove them...",
+                    __result: "Removes any recipe using the white petals.",
+                    type: "Botania.removePetalRecipe",
+                    // Both 'what' and 'with' are optional.  If both are left out, it will remove every recipe.
+                    with: ["botania:petal:0"]
+                },
+                {
+                    __comment: "You can add 'recipes' to the pure daisy",
+                    type: "Botania.addPureDaisy",
+                    with: "minecraft:grass",
+                    output: {
+                        block: "minecraft:dirt",
+                        state: {
+                            variant: "podzol"
+                        }
+                    },
+                    time: 50 // The number of ticks it takes; can be left out for the 'default'.
+                },
+                {
+                    __comment: "You can also remove recipes from the pure daisy.",
+                    type: "Botania.removePureDaisy",
+                    what: "minecraft:sand" // You have to specify this one by the output.
+                },
+                {
+                    __comment: "You can also add recipes to the mana pool",
+                    type: "Botania.addManaInfusion",
+                    output: "minecraft:nether_star",
+                    with: "minecraft:golden_apple:1",
+                    mana: 100,
+                    // Both of these are optional, and default to false. Only one can be true, though.
+                    isConjuration: false,
+                    isAlchemy: true
+                },
+                {
+                    __comment: "You can also remove recipes from it.",
+                    type: "Botania.removeManaInfusion",
+                    // 'what' and 'with' are, again, optional.
+                    with: "minecraft:diamond"
+                },
+                {
+                    __comment: "The runic altar...",
+                    type: "Botania.addRunicAltar",
+                    output: "minecraft:nether_star",
+                    with: ["minecraft:golden_apple:1","<nuggetGold>"],
+                    mana: 10000 // This is roughly 1/10th of mana pool...
+                },
+                {
+                    __comment: "... and removing recipes.",
+                    type: "Botania.removeRunicAltar",
+                    what: "botania:rune:7"
+                },
+                {
+                    __comment: "Adding Elven trades...",
+                    type: "Botania.addElvenTrade",
+                    output: "minecraft:nether_star",
+                    with: ["minecraft:golden_apple:1","<nuggetGold>"],
+                },
+                {
+                    __comment: "... and removing them.",
+                    type: "Botania.removeElvenTrade",
+                    with: ["minecraft:quartz"]
+                }
+            ]
+        },
+
+        // Calendar and Temperature matching
+        {
+            name: "calendarAndTemp",
+            operations: [
+                {
+                    type: "setMobDrops",
+                    what: ["Sheep"],
+                    replace: false,
+                    drops: [
+                        {
+                            what: "minecraft:wool:0",
+                            min: 2,
+                            max: 3,
+                            or: [
+                                {
+                                    calendarIsSeason: "winter", // Depending on your provider, this could be named something else.
+                                    calendarProvider: "CalendarAPI"
+                                        // Use only Calendar API for this; if left out, it will default to the first installed
+                                        // and supported providers - which is currently only Calendar API.
+                                },
+                                {
+                                    // You can also query temperature; this will always be in degrees Celsius:
+                                    temperatureMin: 0.0, // TIP: Calendar API is configured in Kelvin; Tc = Tk - 273.15.
+                                    temperatureMax: 10.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        // Tinker's Construct
+        {
+            name: "ticon",
+            operations: [
+                {
+                    __comment: "You can register new smeltery melting recipes",
+                    __result: "Adds a recipe to melt down a water bucket into 1000mb of water",
+                    type: "addSmelteryMelt",
+                    what: "water",
+                    amount: 1000,
+                    with: "minecraft:water_bucket"
+                },
+                {
+                    __comment: "You can also add alloys to the smeltery",
+                    __result: "Adds an 'alloy' of iron and water to make pigiron.",
+                    type: "addSmelteryAlloy",
+                    what: "pigiron:500",
+                    with: ["iron:200","water:300"]
+                },
+                {
+                    __comment: "You can remove alloys...",
+                    __result: "Removes the obsidian alloy",
+                    type: "removeSmelteryAlloy",
+                    what: "obsidian"
+                },
+                {
+                    __comment: "... and be specific about it.",
+                    __result: "Removes only the other recipe for pig iron",
+                    type: "removeSmelteryAlloy",
+                    what: "pigiron",
+                    with: ["blood","iron","emerald"]
+                },
+                {
+                    __comment: "You can also remove melting recipes...",
+                    __result: "Removes all ways to melt things into iron",
+                    __notes: "You can be specific about it too, just supply 'with', like normal; you should probably be more specific unless you really intend to add them back in later",
+                    type: "removeSmelteryMelt",
+                    what: "iron"
+                },
+                {
+                    __comment: "You can also add fuels from the smeltery",
+                    __result: "Adds molten iron as a fuel.",
+                    __sideEffect: "Incidentally, removes it from being able to be melted down.",
+                    type: "addSmelteryFuel",
+                    what: "iron:10", // The fluid and how much of it to consume per use
+                    duration: 200 // How many ticks one use of fuel will last
+                },
+                {
+                    __comment: "And remove them...",
+                    __result: "Makes it pretty much impossible to do anything",
+                    type: "removeSmelteryFuel",
+                    what: "lava"
+                },
+                {
+                    __comment: "You can add casting table recipes...",
+                    __result: "Pour gold over a stick and get a sword; worst tasting popsicle ever.",
+                    type: "addSmelteryTableCast",
+                    what: "minecraft:golden_sword",
+                    with: "gold:288",
+                    cast: "minecraft:stick",
+                    consumeCast: true
+                },
+                {
+                    __comment: "And casting basin recipes...",
+                    __result: "Pour water out into a basin and get an ice block...",
+                    __notes: "That's... that's not how melting things down works...",
+                    type: "addSmelteryBasinCast",
+                    what: "minecraft:ice",
+                    with: "water:1000",
+                    // Note, we're leaving out the 'cast' here, and consumeCast defaults to false
+                },
+                {
+                    __comment: "You can also remove both of them...",
+                    type: "removeSmelteryBasinCast",
+                    what: "minecraft:gold_block"
+                    // We could be more specific here, but, we don't need to be
+                },
+                {
+                    __comment: "You can set material stats.",
+                    __result: "Makes Cobalt much less effective",
+                    type: "setMaterialStats",
+                    material: "cobalt",
+                    // Note: You can leave any of the these out, and it won't modify that aspect of the tool
+                    head: {
+                        durability: 25, // The base durability for the tool; Cobalt is 780 normally
+                        harvestLevel: 5, // above existing materials; Cobalt is 4 normally
+                        attack: 2, // number of half hearts of damage to do; Cobalt is 4.1 normally
+                        miningSpeed: 2 // usually between 1 and 10; Cobalt is 12.0 normally
+                    },
+                    handle: {
+                        modifier: 0.5, // between 0 and 1, the amount of durability using it for modifiers grants; Cobalt is 0.9 normally
+                        durability: 25 // How much durability to add/take away from the tool; Cobalt is 100 normally
+                    },
+                    extra: {
+                        extraDurability: 0 // Added durability to give the tool when used as a binding/etc; Cobalt is 300 normally
+                    }
+                },
+                {
+                    __comment: "You can create new harvest levels",
+                    __result: "Creates a new harvest level 'Manyullyn', at level 5",
+                    type: "setHarvestLevelName",
+                    level: 5,
+                    name: "Manyullyn",
+                    color: "#912CEE" // Color in RGB hex
+                },
+                {
+                    __comment: "Or change existing levels",
+                    __result: "Modifies the Diamond level to be called 'Steel/Diamond'",
+                    type: "setHarvestLevelName",
+                    level: 2,
+                    name: "Steel/Diamond",
+                    color: "#ADEAEA" // Color in RGB hex
+                },
+                {
+                    __comment: "You can add drying rack recipes...",
+                    type: "TConstruct.addDryingRecipe",
+                    output: "minecraft:wool:0",
+                    with: "minecraft:string", // No, this doesn't make sense.
+                    time: 50 // Time in ticks
+                },
+                {
+                    __comment: "And remove them",
+                    type: "TConstruct.removeDryingRecipe",
+                    // 'what' and 'with' are both optional.
+                },
+                {
+                    // You can disable/enable modifiers
+                    // Currently, modifiers include...
+                    // luck, fortifyendstone, infitool, harvestheight, fortifybone,
+                    // fortifyobsidian, fortifyknightslime, fiery, stiff, crude,
+                    // fortify, duritos, writable, silktouch, fortifyardite,
+                    // enderference, fortifywood, momentum, fortifymagmaslime,
+                    // prickly, diamond, unnatural, squeaky, crude1,
+                    // harvestwidth, fortifymanyullyn, tasty, fortifycobalt,
+                    // fortifycactus, fortifypaper, baconlicious, slimey_green,
+                    // ecological, knockback, lightweight, splintering, fractured,
+                    // poisonous, autosmelt, hellish, glowing, splinters, aridiculous,
+                    // coldblooded, spiky, haste, shulking, soulbound, aquadynamic,
+                    // fortifypigiron, reinforced, fortifyslime, fortifyfirewood,
+                    // writable2, writable1, alien, flammable, slimey_blue,
+                    // fortifyiron, superheat, established, shocking, beheading,
+                    // petramor, holy, fortifysponge, stonebound, depthdigger,
+                    // fortifyprismarine, beheading_cleaver, blasting, cheap, crumbling,
+                    // fortifyflint, fortifystone, bane_of_arthopods, sharp, dense, smite,
+                    // webbed, emerald, creative, crude2, insatiable, mending_moss, magnetic,
+                    // magnetic2, magnetic1, necrotic, fortifynetherrack, jagged,
+                    // fortifyblueslime, sharpness, cheapskate
+                    // ... though some should probably not be disabled, as they're linked directly to materials.
+                    type: "TConstruct.disableModifier",
+                    what: "glowing"
+                }
+            ]
+        },
+
+        {
+            name: "blocking",
+            operations: [
+                {
+                    __comment: "You can prevent the placing of blocks...",
+                    __result: "Prevents placing a gold block, and podzol while the set is active...",
+                    type: "preventBlock",
+                    what: [
+                        "minecraft:gold_block",
+                        {
+                            block: "minecraft:dirt",
+                            state: {
+                                variant: "podzol"
+                            }
+                        }
+                    ]
+                    // For performance reasons, this does not currently accept matchers/callbacks.
+                },
+                {
+                    __comment: "... and the using of items.",
+                    __result: "Prevents using flint and steel when it's raining",
+                    type: "preventItem",
+                    what: [
+                        "minecraft:flint_and_steel"
+                    ],
+                    // Unlike blocks, items can use all entity matchers...
+                    isRaining: { onlyOnTarget: true },
+                    // And can have a callback when they prevent something from happening:
+                    onBlock: [
+                        {
+                            type: "runPlayerCommand",
+                            command: "/tell @p Now is not the time to use that.",
+                            name: "The Server"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            name: "misc",
+            operations: [
+                {
+                    // Makes iron blocks give off a decent amount of light.
+                    // Should generally only be used in base sets, as it will only affect
+                    // blocks when they're picked up / placed down.
+                    type: "setLightLevel",
+                    what: "minecraft:iron_block",
+                    lightLevel: 0.75
+                },
+                {
+                    // Makes iron blocks take as long as Obsidian:
+                    type: "setBlockHardness",
+                    what: "minecraft:iron_block",
+                    hardness: 50.0
+                },
+                {
+                    // Make it to where sheep can walk up 2 blocks:
+                    // Note that this will always cause them to go up that much,
+                    // regardless of the actual required height of the step.
+                    // Also note: this does not work for players in 1.10
+                    type: "addEntityEvent",
+                    what: ["Sheep"],
+                    events: [
+                        {
+                            type: "setStepHeight",
+                            height: 2.0
+                        }
+                    ]
+                },
+                {
+                    // You can rename items.  This will make all diamonds be named "DIAMONDS!" instead of just "Diamond"
+                    type: "rename",
+                    what: "minecraft:diamond",
+                    name: "DIAMONDS!"
+                },
+                {
+                    // You can also adjust the durability of tools and such:
+                    type: "setItemDurability",
+                    what: "minecraft:diamond_pickaxe",
+                    // This can be set to 0 to make the tool have infinite durability, but I wouldn't suggest
+                    // doing that in a custom set, as it will cause havoc with tools that are already in-game:
+                    durability: 5
+                },
+                {
+                    // You can also force the weather in a given dimension
+                    type: "forceWeather",
+                    dimension: 0,
+                    weather: "storm"
+                }
+            ]
+        },
+
+        {
+            name: "entityInteractions",
+            operations: [
+                {
+                    // You can also define some complex interactions (right-click events) for dealing with entities...
+                    type: "addEntityInteraction",
+                    what: ["net.minecraft.entity.passive.EntityVillager"], // You may also specify any parent class for this one
+                    defaultDeny: true, // When true, this will block interactions that reach the end of the list without having an explicit action
+                    interactions: [
+                        // Each element defines a matched interaction that should be tested, in order from top to bottom:
+                        {
+                            matchedAction: "allow", // Allow the normal right-click handler to go through.  Valid options are: allow/deny/pass
+                            unmatchedAction: "pass", // Move on to the next item in the list.
+                            // The first interaction matcher to allow or deny will run, and no further processing will occur.
+                            // Otherwise, If all interactions end up passing, it either denies (if defaultDeny: true) or
+                            // allows the interaction (if defaultDeny is false, or unspecified).
+                            // These will both default to 'pass'
+
+                            // Matchers and callbacks to run on the source (ie: the player)
+                            source: {
+                                mobHasMainhand: "minecraft:stick"
+                            },
+                            target: {
+                                // Callbacks can be defined for: onAllowed, onDenied, and onPassed, though only two of those three
+                                // will ever make sense for the given interaction (for instance, in this case, our only actions are allow and pass,
+                                // therefore, 'onDenied' will never be run for this set).
+                                onAllowed: [
+                                    {
+                                        // Whisper to all players within a 5 meter radius:
+                                        type: "runPlayerCommand",
+                                        command: "/tell @a[r=5] Oh, I see you have a stick... let me trade with you.",
+                                        name: "@p" // Use the villager's name (profession)
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            // If you need to run a callback on your default action, add it in as the last element, with no matchers,
+                            // and a matchedAction of the default action you want to apply:
+                            matchedAction: "deny",
+                            target: {
+                                onDenied: [
+                                    {
+                                        type: "runPlayerCommand",
+                                        command: "/tell @a[r=5] I'm sorry, but I cannot trade with you if you aren't wielding our sacred item.",
+                                        name: "@p"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            name: "blockInteractions",
+            operations: [
+                {
+                    // Blocks can also have interaction handlers....
+                    type: "addBlockInteraction",
+                    what: ["minecraft:chest"], // These can be simple blocks or full block matchers with states.
+                    interactions: [
+                        {
+                            // They accept any block drop matcher:
+                            maxLightLevel: 6,
+                            onUsed: [
+                                // Any entity callback may be run here, and will fire when matched:
+                                {
+                                    type: "runPlayerCommand",
+                                    command: "/tell @p You cannot see well enough to open this right now.",
+                                    name: "The chest"
+                                }
+                            ],
+                            // Set this true if you want to stop processing afterwards; much like
+                            // entity interactions, interactions are processed top to bottom, and
+                            // this will stop processing after the first event that cancels.
+                            cancelAfterMatch: true
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            name: "forestry",
+            operations: [
+                {
+                    type: "Forestry.addCarpenterRecipe",
+                    output: "minecraft:gold_ingot:0:8",
+                    input: [
+                        "minecraft:gold_ore","minecraft:gold_ore","",
+                        "minecraft:cobblestone"
+                    ],
+                    fluid: "lava:1000",
+                    time: 2000 // Amount of time in ticks to complete the recipe.
+                    // There's also an option for 'box' for cartoning-type recipes
+                },
+                {
+                    type: "Forestry.addCentrifugeRecipe",
+                    input: "minecraft:slime",
+                    output: [
+                        // Each entry must have a valid item, and a chance between 0.0 and 1.0
+                        {what: "minecraft:slime_ball", chance: 1.0},
+                        {what: "minecraft:gold_nugget", chance: 0.05}
+                    ],
+                    time: 2000 // Amount of time in ticks to complete the recipe.
+                },
+                {
+                    type: "Forestry.addFabricatorRecipe",
+                    output: "minecraft:slime",
+                    input: ["minecraft:slime_ball"],
+                    fluid: "glass:500" // This must be glass, only the value matters.
+                },
+                {
+                    type: "Forestry.addFermenterRecipe",
+                    output: "water", // The output fluid
+                    input: "lava:500", // How much of what input fluid is required
+                    multiplier: 2.0, // How much more of the input fluid gets converted to the output
+                    catalyst: "minecraft:slime_ball" // The required item to ferment
+                },
+                {
+                    type: "Forestry.addMoistenerRecipe",
+                    input: "minecraft:clay_ball", // The item to use with the wheat.
+                    output: "minecraft:slime_ball", // The item to receive as a result of moistening wheat amd the input.
+                    time: 10000
+                },
+                {
+                    type: "Forestry.addSqueezerRecipe",
+                    input: ["minecraft:slime_ball"],
+                    fluid: "water:250", // The fluid the above items will be squeezed into
+                    output: "minecraft:wheat_seeds", // A random drop that has a chance of ocurring
+                    chance: 0.05, // The chance
+                    time: 200
+                },
+                {
+                    type: "Forestry.addStillRecipe",
+                    input: "water:1000",
+                    output: "lava:10",
+                    time: 10000
+                }
+            ]
+        },
+
+        {
+            name: "roots",
+            operations: [
+                {
+                    type: "Roots.addRitual",
+                    output: "minecraft:diamond_sword",
+                    input: [
+                        "minecraft:diamond"
+                    ],
+                    incense: [
+                        "minecraft:stick"
+                    ],
+                    // An array of standing stones to be used in the ritual:
+                    stones: [
+                        { tier: 1, x: -3, z: -3 }, // You can use y here as well.
+                        { tier: 1, x: -3, z:  3 },
+                        { tier: 1, x:  3, z: -3 },
+                        { tier: 1, x:  3, z:  3 },
+                        { tier: 1, x:  0, z: -3 },
+                        { tier: 1, x:  0, z:  3 },
+                        { tier: 1, x: -3, z:  0 },
+                        { tier: 1, x:  3, z:  0 }
+                    ],
+                    name: "swordyCraftingRitual", // The name of the ritual
+                    color: "#FF5555", // The primary color
+                    color2: "#99FF55" // The secondary color
+                },
+                {
+                    // A list of rituals/names can be found at:
+                    // https://github.com/RootsTeam/Roots/blob/master/src/main/java/elucent/roots/ritual/RitualManager.java
+                    type: "Roots.removeRitual",
+                    name: "banishrain"
+                },
+                {
+                    // A list of components can be found at:
+                    // https://github.com/RootsTeam/Roots/blob/master/src/main/java/elucent/roots/component/ComponentManager.java#L52-L166
+                    type: "Roots.disableDust",
+                    what: "dandelion"
+                    // There is also a "Roots.enableDust" operation to reverse this; though you can also just remove the
+                    // set the operation is a part of to enable the dust again.
+                },
+                {
+                    // Make Rose's Thorns cost quite a bit more:
+                    type: "Roots.setSpellCost",
+                    what: "rosebush",
+                    cost: 20 // About half a mana bar
+                },
+                {
+                    // You can also change the reagents used in a dust; there must be at least 3 reagents used:
+                    type: "Roots.setReagents",
+                    what: "rosebush",
+                    reagents: ["minecraft:diamond","minecraft:string","minecraft:diamond_sword"]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name" : "botania_lvl_1",
+    "loot_rules" : [
+        {    
+            "type" : "ARMOUR",
+            "level" : 0,
+            "each" : true,
+            "quantity" : 3,
+            "loot" : [
+                {"data" : {"name" : "botania:manaweaveHelm", "ench" : 1}, "weight" : 1},
+                {"data" : {"name" : "botania:manaweaveChest", "ench" : 1}, "weight" : 1},
+                {"data" : {"name" : "botania:manaweaveLegs", "ench" : 1}, "weight" : 1},
+                {"data" : {"name" : "botania:manaweaveBoots", "ench" : 1}, "weight" : 1}
+            ]
+        },
+        {    
+            "type" : "ORE",
+            "level" : 0,
+            "each" : true,
+            "quantity" : 6,
+            "loot" : [
+                {"data" : {"name" : "botania:manaResource", "min" : 2, "max" : 12}, "weight" : 1},
+                {"data" : {"name" : "botania:manaResource", "min" : 2, "max" : 3}, "weight" : 1}
+            ]
+        }
+    ]
+}
+

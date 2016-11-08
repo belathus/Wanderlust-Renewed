@@ -1,0 +1,15 @@
+{
+    "name" : "botania",
+    "criteria" : {
+        "dimensionWL" : [ 0 ],
+        "weight" : 1
+    },
+    "inherit" : [
+        "botania_lvl_0",
+        "botania_lvl_1"
+    ],
+    "tower" : {
+        "type" : "ETHO",
+        "theme" : { "base" : "DARKOAK" }
+    }
+}

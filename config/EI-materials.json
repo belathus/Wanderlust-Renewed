@@ -1,0 +1,39 @@
+{
+  "Gold": {
+    "materialName": "Gold",
+    "locName": "drill.gold",
+    "harvestLevel": 1,
+    "standard": true,
+    "color": "#CED652"
+  },
+  "Brass": {
+    "materialName": "Brass",
+    "locName": "drill.brass",
+    "harvestLevel": 2,
+    "standard": true,
+    "color": "#FABD3F"
+  },
+  "Emerald": {
+    "materialName": "Emerald",
+    "locName": "drill.emerald",
+    "harvestLevel": 3,
+    "standard": false,
+    "oreName": "gemEmerald",
+    "color": "#17DD62"
+  },
+  "Iron": {
+    "materialName": "Iron",
+    "locName": "drill.iron",
+    "harvestLevel": 2,
+    "standard": true,
+    "color": "#DEDEDE"
+  },
+  "Diamond": {
+    "materialName": "Diamond",
+    "locName": "drill.diamond",
+    "harvestLevel": 3,
+    "standard": false,
+    "oreName": "gemDiamond",
+    "color": "#29C6AD"
+  }
+}
