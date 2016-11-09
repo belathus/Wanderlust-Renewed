@@ -2,7 +2,7 @@
 
 <IfModInstalled name="rockhounding_oretiers">
     <ConfigSection>
-        <IfCondition condition=':=dimension.generator.class="ChunkProviderGenerator" | dimension.generator.class="ChunkProviderGeneratorBOP"'>
+        <IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
             <!-- Clay Globs -->
             <Veins name='vaniClayVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
                 <Description>
@@ -63,7 +63,7 @@
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             </Veins>
             <!-- Coal Ores, like lignite, anthracite, sub-bituminous coal, bituminous coal, moist peat, smouldering coal blocks -->
-            <Veins name='vaniCoalVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
+            <Veins name='vaniCoalVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x602A2A2A' drawBoundBox='false' boundBoxColor='0x602A2A2A'>
                 <Description>
                     Large veins filled very lightly with ore.  Because they
                     contain less ore per volume,  these veins are relatively
@@ -104,7 +104,7 @@
                 <!-- Make magnetite iron ore spawn high in sandy biomes -->
                 <BiomeType name="BEACH"/>
                 <BiomeType name="SANDY"/>
-                <OreBlock block='rockhounding_oretiers:magnetite_ore' weight='1.0' />
+                <OreBlock block='rockhounding_oretiers:ironOres:0' weight='1.0' />
                 <ReplacesOre block='stone'           weight='1.0' />
                 <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -130,7 +130,7 @@
             <Veins name='rockHematiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60771111' drawBoundBox='false' boundBoxColor='0x60771111'>
                 <!-- Making hematite iron ore very common in cold biomes -->
                 <BiomeType name="COLD"/>
-                <OreBlock block='rockhounding_oretiers:hematite_ore' weight='1.0' />
+                <OreBlock block='rockhounding_oretiers:ironOres:1' weight='1.0' />
                 <ReplacesOre block='stone'           weight='1.0' />
                 <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -157,7 +157,7 @@
             <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                 <!-- Making goethite ore spawn anywhere, but less common than other ores -->
                 <Biome name=".*"/>
-                <OreBlock block='rockhounding_oretiers:goethite_ore' weight='1.0'/>
+                <OreBlock block='rockhounding_oretiers:ironOres:2' weight='1.0'/>
                 <Setting name='MotherlodeFrequency'   avg=':= 0.769 * _default_ ' range=':= 0.769 * _default_ ' type='normal'  scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
                 <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
@@ -190,7 +190,7 @@
             <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                 <!-- Making bog iron ore spawn in swampy biomes -->
                 <BiomeType name="SWAMP"/>
-                <OreBlock block='rockhounding_oretiers:bogiron_ore' weight='1.0'/>
+                <OreBlock block='rockhounding_oretiers:ironOres:5' weight='1.0'/>
                 <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
                 <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
@@ -223,7 +223,7 @@
                     then set up a semi-permanent  mining base and spend some
                     time actually  mining the ore.
                 </Description>
-                <OreBlock block='rockhounding_oretiers:bandediron_ore' weight='1.0' />
+                <OreBlock block='rockhounding_oretiers:ironOres:7' weight='1.0' />
                 <Replaces block='minecraft:stone' weight='1.0' />
                 <BiomeType name='PLAINS'/>
                 <BiomeType name='SAVANNA'/>
@@ -256,7 +256,7 @@
                     <Replaces block='minecraft:sandstone' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0' />
                     <Replaces block='minecraft:gravel' weight='1.0' />
-                    <Setting name='MotherlodeFrequency' avg=':= 6.247 * _default_ * vnlaNetherQuartzFreq  * 0.1 ' range=':= 6.247 * _default_ * vnlaNetherQuartzFreq  * 0.1 ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeFrequency' avg=':= 0.625 * _default_ ' range=':= 0.625 * _default_ ' type='normal' scaleTo='base' />
                 </Veins>
             </Cloud>
             

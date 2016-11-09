@@ -127,7 +127,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Veins name='arsmBlueTopazHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x605364EE' drawBoundBox='false' boundBoxColor='0x605364EE'>
+                <Veins name='arsmBlueTopazHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
                     <Description>
                         Single blocks, generously  scattered through all
                         heights  (density is about that of  vanilla iron
