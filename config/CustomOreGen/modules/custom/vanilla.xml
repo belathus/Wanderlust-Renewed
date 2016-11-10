@@ -4,7 +4,7 @@
     <ConfigSection>
         <IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
             <!-- Clay Globs -->
-            <Veins name='vaniClayVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+            <Veins name='vaniClayVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
                 <Description>
                     Small motherlodes without any branches. Similar to the
                     deposits produced by StandardGen distributions.
@@ -13,6 +13,7 @@
                 <ReplacesOre block='sand' weight='1.0' />
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
                 <Biome name='.*'  />
                 <Biome name='Ocean'  weight='-1' />
                 <Biome name='Desert'  weight='-1' />
@@ -34,7 +35,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             </Veins>
-            <Veins name='vaniClayPreferredVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+            <Veins name='vaniClayPreferredVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
                 <Description>
                 Ore generation is doubled in preferred  biomes.
                 </Description>
@@ -42,6 +43,7 @@
                 <ReplacesOre block='sand' weight='1.0' />
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
                 <BiomeType name='Swamp'  />
                 <BiomeType name='Beach'  />
                 <BiomeType name='River'  />
@@ -97,7 +99,7 @@
             
             
             <!-- Iron Veins: magnetite -->
-            <Veins name='rockMagnetiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60CC7722' drawBoundBox='false' boundBoxColor='0x60CC7722'>
+            <Veins name='rockMagnetiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60CC7722' drawBoundBox='false' boundBoxColor='0x60CC7722'>
                 <Description>
                     Small, fairly rare motherlodes with 2-4 horizontal veins each.
                 </Description>
@@ -127,7 +129,7 @@
             
             
             <!-- Iron Veins: hematite -->
-            <Veins name='rockHematiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60771111' drawBoundBox='false' boundBoxColor='0x60771111'>
+            <Veins name='rockHematiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60771111' drawBoundBox='false' boundBoxColor='0x60771111'>
                 <!-- Making hematite iron ore very common in cold biomes -->
                 <BiomeType name="COLD"/>
                 <OreBlock block='rockhounding_oretiers:ironOres:1' weight='1.0' />
@@ -154,7 +156,7 @@
             
             
             <!-- Iron Veins: Goethite -->
-            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
+            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                 <!-- Making goethite ore spawn anywhere, but less common than other ores -->
                 <Biome name=".*"/>
                 <OreBlock block='rockhounding_oretiers:ironOres:2' weight='1.0'/>
@@ -187,7 +189,7 @@
             
             
             <!-- Iron Veins: bog iron -->
-            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
+            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                 <!-- Making bog iron ore spawn in swampy biomes -->
                 <BiomeType name="SWAMP"/>
                 <OreBlock block='rockhounding_oretiers:ironOres:5' weight='1.0'/>
@@ -212,7 +214,7 @@
             
             
             <!-- Iron Veins: Banded Iron: this ore can be super common, as each ore is only worth 25% of one ingot; this should be a cloud distribution in plains and savannah -->
-            <Cloud name='rockBandedIronCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
+            <Cloud name='rockBandedIronCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
                 <Description>
                     Large irregular clouds filled lightly  with ore.  These
                     are huge, spanning  several adjacent chunks, and
@@ -237,7 +239,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ ' range=':= _default_ ' type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ ' range=':= _default_ ' type='normal' />
-                <Veins name='vnlaNetherQuartzHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
+                <Veins name='RockBandedIronHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
                     <Description>
                         Single blocks, generously scattered  through all heights
                         (density is about  that of vanilla iron ore). They will
@@ -266,7 +268,7 @@
             
             
             <!-- Gold Ore -->
-            <Veins name='vaniGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+            <Veins name='vaniGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                 <Description>
                     Small, fairly rare motherlodes with 2-4  horizontal veins
                     each.
@@ -291,7 +293,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             </Veins>
-            <Veins name='vaniMountainGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+            <Veins name='vaniMountainGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                 <Description>
                     Small, fairly rare motherlodes with 2-4  horizontal veins
                     each.
@@ -321,7 +323,7 @@
             
             
             <!-- Lapis Lazuli -->
-            <Veins name='vaniLapisVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
+            <Veins name='vaniLapisVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
                 <Description>
                     Single vertical veins that occur with no  motherlodes.
                 </Description>
@@ -350,7 +352,7 @@
             
             
             <!-- Vertical Redstone Veins -->
-            <Veins name='vaniRedstoneVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
+            <Veins name='vaniRedstoneVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
                 <Description>
                     Single vertical veins that occur with no  motherlodes.
                 </Description>
@@ -383,7 +385,7 @@
                 <!-- This works by setting the seed for both of the veins to the same number and allowing the lava vein to inherit the diamond vein -->
                 <!-- As such, both veins have the same frequency, etc. and should spawn on top of each other but, the lava vein is thinner, so we get tubes -->
                 <!-- There is a possible consequence: diamond ores may spawn in the same location all the time in every world -->
-                <Veins name='vaniDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='vaniDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Short sparsely filled veins sloping up  from near the
                         bottom of the map.
@@ -410,7 +412,7 @@
                 </Veins>
     
                 <!-- Configuring contained material. -->
-                <Veins name='vaniDiamondVeinsPipe'  inherits='vaniDiamondVeins' branchType='Bezier' seed='0x197B' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='vaniDiamondVeinsPipe'  inherits='vaniDiamondVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:lava' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0' />
                     <Replaces block='minecraft:diamond_ore' weight='1.0' />
@@ -425,7 +427,7 @@
             
             <!-- Emerald Ore -->
             <ConfigSection>
-                <Veins name='vaniEmeraldVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x54B3' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='vaniEmeraldVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Short sparsely filled veins sloping up  from near the
                         bottom of the map.
@@ -452,7 +454,7 @@
                 </Veins>
     
                 <!-- Configuring contained material. -->
-                <Veins name='vaniEmeraldVeinsPipe'  inherits='vaniEmeraldVeins' branchType='Bezier' seed='0x54B3' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='vaniEmeraldVeinsPipe'  inherits='vaniEmeraldVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:monster_egg' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0' />
                     <Replaces block='minecraft:emerald_ore' weight='1.0' />
@@ -468,7 +470,7 @@
         
         <!-- Nether Quartz Ore -->
         <IfCondition condition=':=dimension.generator.class="ChunkProviderHell"'>
-            <Veins name='vnlaNetherQuartzVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
+            <Veins name='vnlaNetherQuartzVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
                 <Description>
                     Large veins filled very lightly with ore.  Because they
                     contain less ore per volume,  these veins are relatively

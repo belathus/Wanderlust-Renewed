@@ -8,7 +8,7 @@
 		<!-- PresetSmallDeposits: this is how most ores are distributed in Vanilla. -->
 		<!-- PresetHugeVeins: rare, huge motherlodes with 6 to 10 branches that are 300-700 blocks long; it might be a good idea to put hint veins above these, as they're pretty rare -->
 		<IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
-			<Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+			<Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -53,7 +53,7 @@
 			</Veins>
 		</IfCondition>
 		<IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
-			<Veins name='iengMountainCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+			<Veins name='iengMountainCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -81,7 +81,7 @@
 		<!-- Copper Veins Complete. -->
 		<!-- Bauxite Veins -->
 		<IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
-			<Veins name='iengBauxiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60FF0000' drawBoundBox='false' boundBoxColor='0x60FF0000'>
+			<Veins name='iengBauxiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60FF0000' drawBoundBox='false' boundBoxColor='0x60FF0000'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -109,7 +109,7 @@
 		<!-- Bauxite Veins Complete. -->
 		<!-- Lead and Silver Veins -->
 		<IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
-			<Veins name='iengLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x606666FF' drawBoundBox='false' boundBoxColor='0x606666FF'>
+			<Veins name='iengLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x606666FF' drawBoundBox='false' boundBoxColor='0x606666FF'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -134,7 +134,7 @@
 				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
 				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			</Veins>
-			<Veins name='iengMountainLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x606666FF' drawBoundBox='false' boundBoxColor='0x606666FF'>
+			<Veins name='iengMountainLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x606666FF' drawBoundBox='false' boundBoxColor='0x606666FF'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -161,9 +161,12 @@
 			</Veins>
 		</IfCondition>
 		<!-- Lead Veins Complete. -->
+        
+        
+        
 		<!-- Nickel Veins. -->
 		<IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
-			<Veins name='iengNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
+			<Veins name='iengNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -189,9 +192,12 @@
 			</Veins>
 		</IfCondition>
 		<!-- Nickel Veins Complete. -->
-		<!-- Uranium Veins. -->
+		
+        
+        
+        <!-- Uranium Veins. -->
 		<IfCondition condition=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ChunkProviderGenerateBOP"'>
-			<Veins name='iengUraniumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
+			<Veins name='iengUraniumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
 				<Description>
 					Small, fairly rare motherlodes with 2-4 horizontal veins each.
 				</Description>
@@ -217,7 +223,7 @@
 			</Veins>
 		</IfCondition>
 		<IfCondition condition=':=dimension.generator.class = "ChunkProviderHell"' >
-			<Veins name='iengUraniumOre' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='true' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+			<Veins name='iengUraniumOre' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
 				<Description> 
 				  Small motherlodes without any branches.
 				  Similar to the deposits produced by StandardGen distributions.
