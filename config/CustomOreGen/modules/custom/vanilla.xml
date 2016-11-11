@@ -99,7 +99,7 @@
             
             
             <!-- Iron Veins: magnetite -->
-            <Veins name='rockMagnetiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60CC7722' drawBoundBox='false' boundBoxColor='0x60CC7722'>
+            <Veins name='rockMagnetiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60CC7722' drawBoundBox='false' boundBoxColor='0x60CC7722'>
                 <Description>
                     Small, fairly rare motherlodes with 2-4 horizontal veins each.
                 </Description>
@@ -129,7 +129,7 @@
             
             
             <!-- Iron Veins: hematite -->
-            <Veins name='rockHematiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60771111' drawBoundBox='false' boundBoxColor='0x60771111'>
+            <Veins name='rockHematiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60771111' drawBoundBox='false' boundBoxColor='0x60771111'>
                 <!-- Making hematite iron ore very common in cold biomes -->
                 <BiomeType name="COLD"/>
                 <OreBlock block='rockhounding_oretiers:ironOres:1' weight='1.0' />
@@ -156,10 +156,11 @@
             
             
             <!-- Iron Veins: Goethite -->
-            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
+            <Veins name='rockGoethiteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                 <!-- Making goethite ore spawn anywhere, but less common than other ores -->
                 <Biome name=".*"/>
                 <OreBlock block='rockhounding_oretiers:ironOres:2' weight='1.0'/>
+                <ReplacesOre block='stone'/>
                 <Setting name='MotherlodeFrequency'   avg=':= 0.769 * _default_ ' range=':= 0.769 * _default_ ' type='normal'  scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
                 <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
@@ -189,13 +190,15 @@
             
             
             <!-- Iron Veins: bog iron -->
-            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
+            <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                 <!-- Making bog iron ore spawn in swampy biomes -->
                 <BiomeType name="SWAMP"/>
                 <OreBlock block='rockhounding_oretiers:ironOres:5' weight='1.0'/>
+                <ReplacesOre block='dirt' weight='1.0'/>
+                <ReplacesOre block='blockDirt' weight='1.0'/>
                 <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
-                <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
+                <Setting name='MotherlodeHeight'      avg=':= 62 '                range=':= 10 '                type='uniform' scaleTo='biome' />
                 <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -214,7 +217,7 @@
             
             
             <!-- Iron Veins: Banded Iron: this ore can be super common, as each ore is only worth 25% of one ingot; this should be a cloud distribution in plains and savannah -->
-            <Cloud name='rockBandedIronCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
+            <Cloud name='rockBandedIronCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60DBCCBF' drawBoundBox='false' boundBoxColor='0x60DBCCBF'>
                 <Description>
                     Large irregular clouds filled lightly  with ore.  These
                     are huge, spanning  several adjacent chunks, and
@@ -253,7 +256,7 @@
                         that  the frequency of the parent  distribution will
                         already be scaled  by that.
                     </Description>
-                    <OreBlock block='minecraft:quartz_ore' weight='1.0' />
+                    <OreBlock block='rockhounding_oretiers:ironOres:7' weight='1.0' />
                     <Replaces block='minecraft:dirt' weight='1.0' />
                     <Replaces block='minecraft:sandstone' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0' />

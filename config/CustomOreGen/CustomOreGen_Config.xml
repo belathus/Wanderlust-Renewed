@@ -418,6 +418,9 @@
     <Import file='modules/custom/vanilla.xml'/>
     <Import file='modules/custom/arsmagica2.xml'/>
     <Import file='modules/custom/immersiveengineering.xml'/>
+    <Import file='modules/custom/evilcraft.xml'/>
+    <Import file='modules/custom/deepresonance.xml'/>
+    <Import file='modules/custom/forestry.xml'/>
 
     <IfChoice name='debugDist' value='true'>
        
