@@ -1,7 +1,7 @@
 {
-    "name" : "botania_lvl_0",
+    "name" : "_futurepack_lvl_0",
     "levels" : {
-        "all" : {
+        "0" : {
             "range" : 40,
             "numRooms" : 10,
             "theme" : {
@@ -9,7 +9,7 @@
                 "rooms" : [
                     {
                         "mode" : "single",
-                        "type" : "ETHO"
+                        "type" : "BRICK"
                     },
                     {
                         "mode" : "random",
@@ -21,28 +21,28 @@
                     "walls" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta": 6
+                            "name" : "fp:color_iron",
+                            "meta": 0
                         }
                     },
                     "pillar" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:quartzTypeMana",
-                            "meta" : 2
+                            "name" : "fp:color_luftung",
+                            "meta" : 0
                         }
                     },
                     "stair" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneA6Stairs"
+                            "name" : "fp:color_iron_stair0"
                         }
                     },
                     "floor" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 2
+                            "name" : "fp:color_iron",
+                            "meta" : 5
                         }
                     }
                 },

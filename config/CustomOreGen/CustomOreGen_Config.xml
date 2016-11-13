@@ -395,8 +395,7 @@
             <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
             <Setting name='CloudRadius' avg=':= 16 * oreSize' range=':= 8 * oreSize' type='normal'/>
             <Setting name='CloudThickness' avg=':= 1 * oreSize' range=':= 0.5 * oreSize' type='normal'/>
-            <Setting name='CloudHeight' avg=':=32' range='16' 
-                     type='uniform' scaleTo='sealevel'/>
+            <Setting name='CloudHeight' avg=':=32' range='16' type='uniform' scaleTo='sealevel'/>
             <Setting name='CloudInclination' avg='0' range='0'/>
             <Setting name='OreDensity' avg='1.0'/>
             <Setting name='OreVolumeNoiseCutoff' avg='0'/>
@@ -417,10 +416,11 @@
 
     <Import file='modules/custom/vanilla.xml'/>
     <Import file='modules/custom/arsmagica2.xml'/>
-    <Import file='modules/custom/immersiveengineering.xml'/>
-    <Import file='modules/custom/evilcraft.xml'/>
     <Import file='modules/custom/deepresonance.xml'/>
+    <Import file='modules/custom/evilcraft.xml'/>
     <Import file='modules/custom/forestry.xml'/>
+    <Import file='modules/custom/futurepack.xml'/>
+    <Import file='modules/custom/immersiveengineering.xml'/>
 
     <IfChoice name='debugDist' value='true'>
        

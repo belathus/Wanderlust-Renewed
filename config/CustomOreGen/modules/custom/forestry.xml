@@ -57,7 +57,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Veins name='foreApatiteHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+                <Veins name='foreApatiteHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
                     <Description>
                         Single blocks, generously  scattered through all
                         heights  (density is about that of  vanilla iron
@@ -83,7 +83,7 @@
             
             
             <!-- Apatite Ore Preferred Deposits; make more common in Forests -->
-            <Veins name='foreApatitePreferredVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Veins name='foreApatitePreferredVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
                 <Description>
                     Small motherlodes without any branches. Similar to the
                     deposits produced by StandardGen distributions.
@@ -108,7 +108,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             </Veins>
-            <Cloud name='foreApatitePreferredCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Cloud name='foreApatitePreferredCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
                 <Description>
                     A large irregular cloud of ore that is 5x more common
                     in forest biomes.
@@ -126,7 +126,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Veins name='foreApatitePreferredHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+                <Veins name='foreApatitePreferredHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
                     <Description>
                         Single blocks, generously  scattered through all
                         heights  (density is about that of  vanilla iron

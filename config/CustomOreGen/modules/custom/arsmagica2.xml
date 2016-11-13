@@ -181,7 +181,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Veins name='arsmAumBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
+                <Veins name='arsmAumBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
                     <Description>
                         Single blocks, generously  scattered through all
                         heights.
@@ -204,7 +204,7 @@
                 </Veins>
             </cloud>
             <!-- Cerublossom -->
-            <cloud name='arsmAumCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+            <cloud name='arsmAumCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
                 <Description>
                     Create a phantom "cloud" where nothing spawns
                     Then create a group of flowers on the surface.
@@ -221,7 +221,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Veins name='arsmAumBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+                <Veins name='arsmAumBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
                     <Description>
                         Single blocks, generously  scattered through all
                         heights.
