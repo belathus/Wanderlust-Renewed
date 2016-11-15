@@ -5,11 +5,31 @@
         "weight" : 1
     },
     "inherit" : [
-        "botania_lvl_0",
-        "botania_lvl_1"
-    ],
-    "tower" : {
-        "type" : "ETHO",
-        "theme" : { "base" : "DARKOAK" }
-    }
+        "loot0",
+        "loot1",
+        "loot2",
+        "loot3",
+        "loot4",
+        "botania0",
+        "botania1",
+        "botania2",
+        "botania3",
+        "botania4",
+        "botaniaLoot0",
+        "botaniaLoot1",
+        "botaniaLoot2",
+        "botaniaLoot3",
+        "botaniaLoot4"
+    ],	
+    "overrides" : [
+		"LOOTRULES"
+	],
+    "levels" : {
+		"0" : {
+			"secrets" : [
+				{"type": "SMITH", "num" : 2},
+				{"type": "BEDROOM", "num" : 2}
+			]
+		}	
+	}
 }
