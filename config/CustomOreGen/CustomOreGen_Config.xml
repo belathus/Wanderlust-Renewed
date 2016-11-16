@@ -421,6 +421,7 @@
     <Import file='modules/custom/forestry.xml'/>
     <Import file='modules/custom/futurepack.xml'/>
     <Import file='modules/custom/immersiveengineering.xml'/>
+    <Import file='modules/custom/nether.xml'/>
 
     <IfChoice name='debugDist' value='true'>
        
