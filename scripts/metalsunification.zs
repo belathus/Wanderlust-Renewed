@@ -9,6 +9,12 @@ recipes.addShapeless(<immersiveengineering:metal:1>,
 recipes.addShapeless(<immersiveengineering:storage:1>, 
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
 
+# Bronze
+recipes.remove(<forestry:ingotBronze>);
+recipes.addShaped(<forestry:ingotBronze>,
+    [[<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>],
+     [<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>],
+     [<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>]]);
 
 # Copper
 recipes.remove(<basemetals:copper_nugget>);

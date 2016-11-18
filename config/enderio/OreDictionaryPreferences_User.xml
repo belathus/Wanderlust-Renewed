@@ -4,4 +4,81 @@ Entries in this file take precedence over the values in the core file
 
 <OreDictionaryPreferences>
 
+  <!-- Vanilla -->
+  <preference oreDictionary="sand" >
+    <itemStack modID="minecraft" itemName="sand" itemMeta="0" />
+  </preference>
+
+  <!-- Dusts -->
+  <preference oreDictionary="dustCoal" >
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="dustCharcoal" >
+    <itemStack modID="railcraft" itemName="dust" itemMeta="3" />
+  </preference>
+  <preference oreDictionary="dustObsidian" >
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="7" />
+  </preference>
+  <preference oreDictionary="dustIron" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="18" />
+  </preference>
+  <preference oreDictionary="dustGold" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="19" />
+  </preference>
+  <preference oreDictionary="dustCopper" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="9" />
+  </preference>
+  <preference oreDictionary="dustTin" >
+    <itemStack modID="primal" itemName="tin_dust" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="dustSilver" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="12" />
+  </preference>
+  <preference oreDictionary="dustLead" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="11" />
+  </preference>
+  <preference oreDictionary="dustNickel" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="13" />
+  </preference>
+  <preference oreDictionary="dustSulfur" >
+    <itemStack modID="railcraft" itemName="dust" itemMeta="1" />
+  </preference>
+  <preference oreDictionary="dustBronze" >
+    <itemStack modID="primal" itemName="bronze_dust" itemMeta="0" />
+  </preference>
+  <!-- Ingots -->
+  <preference oreDictionary="ingotCopper" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="ingotAluminum" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="1" />
+  </preference>
+  <preference oreDictionary="ingotLead" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="2" />
+  </preference>
+  <preference oreDictionary="ingotSilver" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="3" />
+  </preference>
+  <preference oreDictionary="ingotNickel" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="4" />
+  </preference>
+  <preference oreDictionary="ingotUranium" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="5" />
+  </preference>
+  <preference oreDictionary="ingotConstantan" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="6" />
+  </preference>
+  <preference oreDictionary="ingotElectrum" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="7" />
+  </preference>
+  <preference oreDictionary="ingotSteel" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="8" />
+  </preference>
+  <preference oreDictionary="ingotTin" >
+    <itemStack modID="primal" itemName="tin_ingot" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="ingotBronze" >
+    <itemStack modID="forestry" itemName="ingotBronze" itemMeta="0" />
+  </preference>
+
 </OreDictionaryPreferences>
