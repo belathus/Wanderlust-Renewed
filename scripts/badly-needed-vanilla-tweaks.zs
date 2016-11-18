@@ -1,3 +1,8 @@
+#recipes.addShaped(<>,
+#    [[<>,<>,<>],
+#     [<>,<>,<>],
+#     [<>,<>,<>]]);
+
 recipes.addShaped(<minecraft:dispenser>,
     [[<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
      [<ore:cobblestone>,<minecraft:bow:*>,<ore:cobblestone>],
