@@ -90,6 +90,7 @@ recipes.addShapeless(<immersiveengineering:storage:3>,
 
 
 # Steel
+recipes.remove(<basemetals:steel_blend>);
 recipes.remove(<libvulpes:productnugget:6>);
 recipes.remove(<railcraft:nugget:1>);
 recipes.remove(<basemetals:steel_nugget>);
