@@ -4,7 +4,7 @@ recipes.remove(<railcraft:generic:5>);
 recipes.remove(<immersiveengineering:treatedWood>);
 recipes.addShaped(<immersiveengineering:treatedWood>*8,
     [[<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn()],
-     [<ore:plankWood>.noReturn(),<railcraft:fluid_bottle_creosote>.noReturn().transformReplace(<minecraft:glass_bottle>),<ore:plankWood>.noReturn()],
+     [<ore:plankWood>.noReturn(),<railcraft:fluid_bottle_creosote>.transformReplace(<minecraft:glass_bottle>),<ore:plankWood>.noReturn()],
      [<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn()]]);
 recipes.addShaped(<immersiveengineering:treatedWood>*3,
     [[<immersiveengineering:treatedWoodStairs0>,<immersiveengineering:treatedWoodStairs0>],
