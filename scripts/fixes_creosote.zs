@@ -4,7 +4,7 @@ recipes.remove(<railcraft:generic:5>);
 recipes.remove(<immersiveengineering:treatedWood>);
 recipes.addShaped(<immersiveengineering:treatedWood>*8,
     [[<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn()],
-     [<ore:plankWood>.noReturn(),<railcraft:fluid_bottle_creosote>.transformReplace(<minecraft:glass_bottle>),<ore:plankWood>.noReturn()],
+     [<ore:plankWood>.noReturn(),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>),<ore:plankWood>.noReturn()],
      [<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn(),<ore:plankWood>.noReturn()]]);
 recipes.addShaped(<immersiveengineering:treatedWood>*3,
     [[<immersiveengineering:treatedWoodStairs0>,<immersiveengineering:treatedWoodStairs0>],
@@ -16,5 +16,5 @@ recipes.addShaped(<railcraft:tie>,
     [[null,<railcraft:fluid_bottle_creosote>,null],
      [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
 recipes.addShapeless(<railcraft:generic:5>,
-    [<ore:logWood>,<railcraft:fluid_bottle_creosote>.transformReplace(<minecraft:glass_bottle>)]);
+    [<ore:logWood>,<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<immersiveengineering:treatedWood>*4,[<railcraft:generic:5>]);

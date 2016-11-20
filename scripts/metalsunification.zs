@@ -2,6 +2,7 @@
 #recipes.remove(<modernmetals:aluminum_nugget>);
 #recipes.remove(<modernmetals:aluminum_ingot>);
 #recipes.remove(<modernmetals:aluminum_block>);
+recipes.remove(<libvulpes:metal0:9>);
 recipes.addShapeless(<immersiveengineering:metal:22>*9,
     [<ore:ingotLead>]);
 recipes.addShapeless(<immersiveengineering:metal:1>, 
@@ -27,6 +28,7 @@ recipes.remove(<railcraft:ingot:1>);
 recipes.remove(<libvulpes:productnugget:4>);
 recipes.remove(<basemetals:copper_ingot>);
 recipes.remove(<basemetals:copper_block>);
+recipes.remove(<libvulpes:metal0:4>);                     # Libvulpes Copper
 recipes.addShapeless(<immersiveengineering:metal:20>*9,
     [<ore:ingotCopper>]);
 recipes.addShapeless(<immersiveengineering:metal:0>, 
@@ -46,6 +48,10 @@ recipes.addShapeless(<immersiveengineering:storage:6>,
 recipes.remove(<basemetals:iron_nugget>);
 recipes.remove(<esteemedinnovation:nugget:4>);
 recipes.remove(<rockhounding_chemistry:miscItems:2>);
+recipes.remove(<basemetals:iron_plate>);
+recipes.remove(<embers:plateIron>);
+recipes.remove(<railcraft:plate:0>);
+recipes.addShapeless(<embers:plateIron>,[<ore:ingotIron>,<embers:tinkerHammer:*>.reuse()])
 
 
 # Lead
@@ -92,10 +98,12 @@ recipes.addShapeless(<immersiveengineering:storage:3>,
 # Steel
 recipes.remove(<basemetals:steel_blend>);
 recipes.remove(<libvulpes:productnugget:6>);
+recipes.remove(<libvulpes:metal0:6>);
 recipes.remove(<railcraft:nugget:1>);
 recipes.remove(<basemetals:steel_nugget>);
 recipes.remove(<basemetals:steel_ingot>);
 recipes.remove(<basemetals:steel_block>);
+recipes.remove(<basemetals:steel_plate>);
 recipes.addShapeless(<immersiveengineering:metal:28>*9,
     [<ore:ingotSteel>]);
 recipes.addShapeless(<immersiveengineering:metal:8>, 
@@ -107,6 +115,7 @@ recipes.addShapeless(<immersiveengineering:storage:8>,
 # Tin
 recipes.remove(<basemetals:tin_nugget>);
 recipes.remove(<libvulpes:productnugget:5>);
+recipes.remove(<libvulpes:metal0:5>);
 recipes.remove(<railcraft:nugget:3>);
 
 
