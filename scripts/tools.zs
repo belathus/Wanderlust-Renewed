@@ -18,7 +18,7 @@ recipes.addShaped(<grapplemod:launcheritem>,
      [<ore:dustVinteum>,<ore:ingotSteel>,<ore:dustVinteum>],
      [<ore:ingotSteel>,<ore:dustVinteum>,null]]);
 
-recipes.addShaped(<grapplemad:magnetbow>,
+recipes.addShaped(<grapplemod:magnetbow>,
     [[null,<grapplemod:grapplinghook>,null],
      [<ore:gemChimerite>,<ore:wireSteel>,<ore:gemChimerite>],
      [null,<grapplemod:launcheritem>,null]]);
