@@ -1,5 +1,6 @@
 <ore:stickIron>.add(<fp:spaceship:12>);
 <ore:dustAsh>.add(<biomesoplenty:ash>);
+<ore:clumpMud>add(<biomesoplenty:mudball>);
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
