@@ -51,7 +51,7 @@ recipes.remove(<rockhounding_chemistry:miscItems:2>);
 recipes.remove(<basemetals:iron_plate>);
 recipes.remove(<embers:plateIron>);
 recipes.remove(<railcraft:plate:0>);
-recipes.addShapeless(<embers:plateIron>,[<ore:ingotIron>,<embers:tinkerHammer:*>.reuse()])
+recipes.addShapeless(<embers:plateIron>,[<ore:ingotIron>,<embers:tinkerHammer:*>.reuse()]);
 
 
 # Lead
