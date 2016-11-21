@@ -1,7 +1,11 @@
 <ore:stickIron>.add(<fp:spaceship:12>);
 <ore:dustAsh>.add(<biomesoplenty:ash>);
+<<<<<<< HEAD
 <ore:gearSteel>.add(<railcraft:gear:2>);
 <ore:gearGilded>.add(<railcraft:gear:0>);
+=======
+<ore:clumpMud>add(<biomesoplenty:mudball>);
+>>>>>>> origin/master
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
