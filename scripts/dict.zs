@@ -1,5 +1,7 @@
 <ore:stickIron>.add(<fp:spaceship:12>);
 <ore:dustAsh>.add(<biomesoplenty:ash>);
+<ore:gearSteel>.add(<railcraft:gear:2>);
+<ore:gearGilded>.add(<railcraft:gear:0>);
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
