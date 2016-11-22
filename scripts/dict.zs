@@ -2,7 +2,7 @@
 <ore:dustAsh>.add(<biomesoplenty:ash>);
 <ore:gearSteel>.add(<railcraft:gear:2>);
 <ore:gearGilded>.add(<railcraft:gear:0>);
-<ore:clumpMud>add(<biomesoplenty:mudball>);
+<ore:clumpMud>.add(<biomesoplenty:mudball>);
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
