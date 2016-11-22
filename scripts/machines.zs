@@ -7,7 +7,7 @@
 # Ars Magica 2
     recipes.remove(<arsmagica2:arcane_reconstructor>);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
-        [[<ore:dustVinteum>,<minecraft:enchanted_book>.onlyWithTag({StoredEnchantmens:[{id:70,lvl:1}]}).withTag({StoredEnchantmens:[{id:70,lvl:1}]}),<ore:dustVinteum>],
+        [[<ore:dustVinteum>,<minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantmens:[{id:70,lvl:1}]}),<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
     recipes.remove(<arsmagica2:armor_imbuer>);
@@ -18,7 +18,7 @@
     recipes.remove(<arsmagica2:crafting_altar>);
     recipes.addShaped(<arsmagica2:crafting_altar>,
         [[<ore:nuggetSilver>,<ore:dustVinteum>,<ore:nuggetSilver>],
-         [<ore:nuggetSilver>,<ore:brickStone>,<ore:nuggetSilver>],
+         [<ore:nuggetSilver>,<ore:bricksStone>,<ore:nuggetSilver>],
          [<ore:nuggetSilver>,<ore:ingotSilver>,<ore:nuggetSilver>]]);
     recipes.remove(<arsmagica2:occulus>);
     recipes.addShaped(<arsmagica2:occulus>,

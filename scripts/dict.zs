@@ -3,6 +3,10 @@
 <ore:gearSteel>.add(<railcraft:gear:2>);
 <ore:gearGilded>.add(<railcraft:gear:0>);
 <ore:clumpMud>.add(<biomesoplenty:mudball>);
+<ore:bricksStone>.add(<minecraft:stonebrick:1>);
+<ore:bricksStone>.add(<minecraft:stonebrick:2>);
+<ore:bricksStone>.add(<minecraft:stonebrick:3>);
+#<ore:bricksStone>.add(<botania:biomeStoneB:*>);
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
