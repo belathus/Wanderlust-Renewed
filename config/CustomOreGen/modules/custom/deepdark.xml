@@ -1,6 +1,629 @@
+
 <IfModInstalled name="extrautils2">
     <ConfigSection>
         <IfCondition condition=':=dimension.generator.class="ChunkProviderUnderdark"'>
+            
+            <!-- Vanilla! -->
+            <!-- Covers: clay, gold, lapis, redstone, diamond, emerald -->
+            <ConfigSection>
+                <!-- Clay Globs -->
+                <Veins name='vaniDDClayVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+                    <Description>
+                        Small motherlodes without any branches. Similar to the
+                        deposits produced by StandardGen distributions.
+                    </Description>
+                    <OreBlock block='minecraft:clay' weight='1.0' />
+                    <ReplacesOre block='sand' weight='1.0' />
+                    <Replaces block='minecraft:gravel' weight='1.0' />
+                    <Replaces block='minecraft:dirt' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Biome name='Ocean'  weight='-1' />
+                    <Biome name='Desert'  weight='-1' />
+                    <Biome name='Mountain'  weight='-1' />
+                    <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 0 '                 range=':= 0 '                 type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 0 '                 range=':= 0 '                 type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+                
+                
+                
+                
+                <!-- Gold Ore -->
+                <Veins name='vaniDDGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4  horizontal veins
+                        each.
+                    </Description>
+                    <OreBlock block='minecraft:gold_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.708 * _default_ ' range=':= 0.708 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.944 * _default_ ' range=':= 0.944 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 16 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 0.841 * _default_ ' range=':= 0.841 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 0.917 * _default_ ' range=':= 0.917 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+                
+                
+                
+                
+                <!-- Lapis Lazuli -->
+                <Veins name='vaniDDLapisVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x600800A2' drawBoundBox='false' boundBoxColor='0x600800A2'>
+                    <Description>
+                        Single vertical veins that occur with no  motherlodes.
+                    </Description>
+                    <OreBlock block='minecraft:lapis_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.787 * _default_ ' range=':= 0.787 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 0 '                 type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= -_default_ '        range=':= -_default_ '        type='normal' />
+                    <Setting name='BranchLength'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 0.887 * _default_ ' range=':= 0.887 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+                
+                
+                
+                
+                <!-- Vertical Redstone Veins -->
+                <Veins name='vaniDDRedstoneVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
+                    <Description>
+                        Single vertical veins that occur with no  motherlodes.
+                    </Description>
+                    <OreBlock block='minecraft:redstone_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 2.406 * _default_ ' range=':= 2.406 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= -_default_ '        range=':= -_default_ '        type='normal' />
+                    <Setting name='BranchLength'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.551 * _default_ ' range=':= 1.551 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+                
+                
+                
+                
+                <!-- Diamond ore pipe veins filled with lava -->
+                <ConfigSection>
+                    <!-- This works by setting the seed for both of the veins to the same number and allowing the lava vein to inherit the diamond vein -->
+                    <!-- As such, both veins have the same frequency, etc. and should spawn on top of each other but, the lava vein is thinner, so we get tubes -->
+                    <!-- There is a possible consequence: diamond ores may spawn in the same location all the time in every world -->
+                    <Veins name='vaniDDDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                        <Description>
+                            Short sparsely filled veins sloping up  from near the
+                            bottom of the map.
+                        </Description>
+                        <OreBlock block='minecraft:diamond_ore' weight='1.0' />
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.714 * _default_ ' range=':= 0.714 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchLength'          avg=':= 0.845 * _default_ ' range=':= 0.845 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 0.919 * _default_ ' range=':= 0.919 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+        
+                    <!-- Configuring contained material. -->
+                    <Veins name='vaniDDDiamondVeinsPipe'  inherits='vaniDDDiamondVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                        <OreBlock block='minecraft:lava' weight='1.0' />
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Replaces block='minecraft:diamond_ore' weight='1.0' />
+                        <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
+                        <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
+                        <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
+                    </Veins>
+                </ConfigSection>
+                
+                
+                
+                
+                <!-- Emerald Ore -->
+                <ConfigSection>
+                    <Veins name='vaniDDEmeraldVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                        <Description>
+                            Short sparsely filled veins sloping up  from near the
+                            bottom of the map.
+                        </Description>
+                        <OreBlock block='minecraft:emerald_ore' weight='1.0' />
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.357 * _default_ ' range=':= 0.357 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchLength'          avg=':= 0.845 * _default_ ' range=':= 0.845 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 0.919 * _default_ ' range=':= 0.919 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+        
+                    <!-- Configuring contained material. -->
+                    <Veins name='vaniDDEmeraldVeinsPipe'  inherits='vaniDDEmeraldVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                        <OreBlock block='minecraft:monster_egg' weight='1.0' />
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Replaces block='minecraft:emerald_ore' weight='1.0' />
+                        <Biome name='.*'  />
+                        <BiomeType name='MOUNTAIN' weight='-1' />
+                        <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
+                        <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
+                        <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
+                    </Veins>
+                </ConfigSection>
+            </ConfigSection>
+            
+            <!-- Ars Magica 2 -->
+            <IfModInstalled name="arsmagica2">
+                <!-- Vinteum Ore -->
+                <Cloud name='arsmDDVinteumCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x600000EE' drawBoundBox='false' boundBoxColor='0x600000EE'>
+                    <Description>
+                    Large irregular clouds filled  lightly with ore.
+                    These are  huge, spanning several adjacent  chunks,
+                    and consequently rather  rare.  They contain a
+                    sizeable  amount of ore, but it takes some  time and
+                    effort to mine due to  low density. The intent for
+                    strategic clouds is that the  player will need to
+                    actively  search for one and then set up a  semi-
+                    permanent mining base and  spend some time actually
+                    mining  the ore.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:0' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='CloudRadius'           avg=':= 1.295 * _default_ ' range=':= 1.295 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness'        avg=':= 1.495 * _default_ ' range=':= 1.495 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='DistributionFrequency' avg=':= 0.990 * _default_ ' range=':= 0.990 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight'           avg=':= 27.5 '              range=':= 17.5 '              type='normal' scaleTo='base' />
+                    <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Veins name='arsmDDVinteumHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x605364EE' drawBoundBox='false' boundBoxColor='0x605364EE'>
+                        <Description>
+                            Single blocks, generously  scattered through all
+                            heights  (density is about that of  vanilla iron
+                            ore). They will  replace dirt and sandstone  (but
+                            not grass or sand), so  they can be found nearer to
+                            the surface than most ores.  Intened to be used as a
+                            child  distribution for large, rare  strategic
+                            deposits that would  otherwise be very difficult  to
+                            find.  Note that the  frequency is multiplied by
+                            ground level to maintain a  constant density, but
+                            not by  ore frequency because it is  assumed that
+                            the frequency of  the parent distribution will
+                            already be scaled by that.
+                        </Description>
+                        <OreBlock block='arsmagica2:ore:0' weight='1.0' />
+                        <Replaces block='minecraft:dirt' weight='1.0' />
+                        <Replaces block='minecraft:sandstone' weight='1.0' />
+                        <Replaces block='biomesoplenty:dirt' weight='1.0'/>
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Replaces block='minecraft:gravel' weight='1.0' />
+                        <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                    </Veins>
+                </Cloud>
+                
+                <!-- Chimerite Ore -->
+                <Cloud name='arsmDDChimeriteCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x6022FF22' drawBoundBox='false' boundBoxColor='0x6022FF22'>
+                    <Description>
+                    Large irregular clouds filled  lightly with ore.
+                    These are  huge, spanning several adjacent  chunks,
+                    and consequently rather  rare.  They contain a
+                    sizeable  amount of ore, but it takes some  time and
+                    effort to mine due to  low density. The intent for
+                    strategic clouds is that the  player will need to
+                    actively  search for one and then set up a  semi-
+                    permanent mining base and  spend some time actually
+                    mining  the ore.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:1' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='CloudRadius'           avg=':= 1.295 * _default_ ' range=':= 1.295 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness'        avg=':= 1.395 * _default_ ' range=':= 1.395 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='DistributionFrequency' avg=':= 0.990 * _default_ ' range=':= 0.990 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight'           avg=':= 27.5 '              range=':= 17.5 '              type='normal' scaleTo='base' />
+                    <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Veins name='arsmDDChimeriteHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x6022FF22' drawBoundBox='false' boundBoxColor='0x6022FF22'>
+                        <Description>
+                            Single blocks, generously  scattered through all
+                            heights  (density is about that of  vanilla iron
+                            ore). They will  replace dirt and sandstone  (but
+                            not grass or sand), so  they can be found nearer to
+                            the surface than most ores.  Intened to be used as a
+                            child  distribution for large, rare  strategic
+                            deposits that would  otherwise be very difficult  to
+                            find.  Note that the  frequency is multiplied by
+                            ground level to maintain a  constant density, but
+                            not by  ore frequency because it is  assumed that
+                            the frequency of  the parent distribution will
+                            already be scaled by that.
+                        </Description>
+                        <OreBlock block='arsmagica2:ore:1' weight='1.0' />
+                        <Replaces block='minecraft:dirt' weight='1.0' />
+                        <Replaces block='minecraft:sandstone' weight='1.0' />
+                        <Replaces block='biomesoplenty:dirt' weight='1.0'/>
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Replaces block='minecraft:gravel' weight='1.0' />
+                        <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                    </Veins>
+                </Cloud>
+                
+                <!-- Blue Topaz Ore -->
+                <Cloud name='arsmDDBlueTopazCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
+                    <Description>
+                        Large irregular clouds filled  lightly with ore.
+                        These are  huge, spanning several adjacent  chunks,
+                        and consequently rather  rare.  They contain a
+                        sizeable  amount of ore, but it takes some  time and
+                        effort to mine due to  low density. The intent for
+                        strategic clouds is that the  player will need to
+                        actively  search for one and then set up a  semi-
+                        permanent mining base and  spend some time actually
+                        mining  the ore.
+                    </Description>
+                    <OreBlock block='arsmagica2:ore:2' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='CloudRadius'           avg=':= 1.195 * _default_ ' range=':= 1.195 * _default_ ' type='normal' />
+                    <Setting name='CloudThickness'        avg=':= 1.295 * _default_ ' range=':= 1.295 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='DistributionFrequency' avg=':= 0.990 * _default_ ' range=':= 0.990 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='CloudHeight'           avg=':= 27.5 '              range=':= 17.5 '              type='normal' scaleTo='base' />
+                    <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Veins name='arsmDDBlueTopazHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
+                        <Description>
+                            Single blocks, generously  scattered through all
+                            heights  (density is about that of  vanilla iron
+                            ore). They will  replace dirt and sandstone  (but
+                            not grass or sand), so  they can be found nearer to
+                            the surface than most ores.  Intened to be used as a
+                            child  distribution for large, rare  strategic
+                            deposits that would  otherwise be very difficult  to
+                            find.  Note that the  frequency is multiplied by
+                            ground level to maintain a  constant density, but
+                            not by  ore frequency because it is  assumed that
+                            the frequency of  the parent distribution will
+                            already be scaled by that.
+                        </Description>
+                        <OreBlock block='arsmagica2:ore:2' weight='1.0' />
+                        <Replaces block='minecraft:dirt' weight='1.0' />
+                        <Replaces block='minecraft:sandstone' weight='1.0' />
+                        <Replaces block='biomesoplenty:dirt' weight='1.0'/>
+                        <ReplacesOre block='stone' weight='1.0' />
+                        <Replaces block='minecraft:gravel' weight='1.0' />
+                        <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
+                    </Veins>
+                </Cloud>
+            </IfModInstalled>
+            
+            <!-- Base Metals -->
+            <IfModInstalled name="basemetals">
+                <Veins name='baseDDMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='basemetals:mercury_ore' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 1.583 * _default_ ' range=':= 1.583 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.222 * _default_ ' range=':= 1.222 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+            </IfModInstalled>
+            
+            <!-- EvilCraft -->
+            <IfModInstalled name="evilcraft">
+                <Veins name='evilDDDarkGemVeins'  inherits='PresetHintVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60554444' drawBoundBox='false' boundBoxColor='0x60554444'>
+                    <Description>
+                        Small individual ores that spawn from heights 6 to 66. Welcome to EvilCraft.
+                    </Description>
+                    <OreBlock block='evilcraft:darkOre' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'     avg='30'                range='8'                   type='normal'  scaleTo='base' />
+                    <Setting name='MotherlodeSize'          avg='0.6'               range='0'                   type='normal' />
+                    <Setting name='MotherlodeHeight'        avg='36'                range='30'                  type='uniform' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'    avg=':= _default_ '     range=':= _default_ '       type='normal' />
+                    <Setting name='BranchFrequency'         avg='0'                 range='0'                   type='normal' />
+                    <Setting name='BranchInclination'       avg='0'                 range='0'                   type='normal' />
+                    <Setting name='BranchLength'            avg='0'                 range='0'                   type='normal' />
+                    <Setting name='BranchHeightLimit'       avg=':= _default_ '     range=':= _default_ '       type='normal'  scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'    avg='0'                 range='0'                   type='normal' />
+                    <Setting name='SegmentForkLengthMult'   avg='0'                 range='0'                   type='normal' />
+                    <Setting name='SegmentLength'           avg='0'                 range='0'                   type='normal' />
+                    <Setting name='SegmentAngle'            avg='0'                 range='0'                   type='normal' />
+                    <Setting name='SegmentPitch'            avg='0'                 range='0'                   type='normal' />
+                    <Setting name='SegmentRadius'           avg='0'                 range='0'                   type='normal' />
+                    <Setting name='OreDensity'              avg='1.0'               range='0'                   type='normal' />
+                    <Setting name='OreRadiusMult'           avg=':= _default_ '     range=':= _default_ '       type='normal' />
+                </Veins>
+            </IfModInstalled>
+            
+            <!-- Forestry -->
+            <IfModInstalled name="forestry">
+                <Veins name='foreDDApatiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='forestry:resources' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 1.413 * _default_ ' range=':= 1.413 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 2.122 * _default_ ' range=':= 2.122 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+            </IfModInstalled>
+            
+            <!-- FuturePack -->
+            <IfModInstalled name="futurepack">
+                <Veins name='fupaDDZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='fp:erze:1' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 1.413 * _default_ ' range=':= 1.413 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.922 * _default_ ' range=':= 1.922 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 46 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+            </IfModInstalled>
+            
+            <!-- Immersive Engineering -->
+            <!-- Covers: copper, aluminum, lead, silver, nickel, uranium -->
+            <IfModInstalled name="immersiveengineering">
+                <!-- Copper Veins -->
+                <Veins name='iengDDCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='ImmersiveEngineering:ore:0' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.620 * _default_ ' range=':= 1.620 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+    			
+    			
+    			<!-- Aluminum Veins -->
+                <Veins name='iengDDAluminumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 1.016 * _default_ ' range=':= 1.016 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.420 * _default_ ' range=':= 1.420 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+    			
+    			
+    			<!-- Lead (80%) and Silver (20%) Veins -->
+                <Veins name='iengDDLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='ImmersiveEngineering:ore:2' weight='0.8' />
+    				<OreBlock block='ImmersiveEngineering:ore:3' weight='0.2' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.867 * _default_ ' range=':= 0.867 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.320 * _default_ ' range=':= 1.320 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 22 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+    			
+    			
+    			<!-- Nickel Veins -->
+                <Veins name='iengDDNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.816 * _default_ ' range=':= 0.816 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.420 * _default_ ' range=':= 1.420 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+    			
+    			
+    			<!-- Uranium Veins -->
+                <Veins name='iengDDUraniumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.216 * _default_ ' range=':= 0.216 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 0.920 * _default_ ' range=':= 0.920 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 14 '                range=':= 12 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+            </IfModInstalled>
+            
             <!-- Rockhounding! -->
             <!-- Covers: coal ore, magnetite, hematite, limonite, goethite, siderite, taconite, bog iron, banded iron -->
             <IfModInstalled name="rockhounding_oretiers">
@@ -283,233 +906,97 @@
                 </Cloud>
             </IfModInstalled>
             
-            
-            
-            <!-- Vanilla! -->
-            <!-- Covers: clay, gold, lapis, redstone, diamond, emerald -->
-            <ConfigSection>
-                <!-- Clay Globs -->
-                <Veins name='vaniDDClayVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
-                    <Description>
-                        Small motherlodes without any branches. Similar to the
-                        deposits produced by StandardGen distributions.
-                    </Description>
-                    <OreBlock block='minecraft:clay' weight='1.0' />
-                    <ReplacesOre block='sand' weight='1.0' />
-                    <Replaces block='minecraft:gravel' weight='1.0' />
-                    <Replaces block='minecraft:dirt' weight='1.0' />
-                    <ReplacesOre block='stone' weight='1.0' />
-                    <Biome name='.*'  />
-                    <Biome name='Ocean'  weight='-1' />
-                    <Biome name='Desert'  weight='-1' />
-                    <Biome name='Mountain'  weight='-1' />
-                    <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
-                    <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
-                    <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
-                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchLength'          avg=':= 0 '                 range=':= 0 '                 type='normal' />
-                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
-                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentRadius'         avg=':= 0 '                 range=':= 0 '                 type='normal' />
-                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                </Veins>
-                
-                
-                
-                
-                <!-- Gold Ore -->
-                <Veins name='vaniDDGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                    <Description>
-                        Small, fairly rare motherlodes with 2-4  horizontal veins
-                        each.
-                    </Description>
-                    <OreBlock block='minecraft:gold_ore' weight='1.0' />
-                    <ReplacesOre block='stone' weight='1.0' />
-                    <Biome name='.*'  />
-                    <Setting name='MotherlodeFrequency'   avg=':= 0.708 * _default_ ' range=':= 0.708 * _default_ ' type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeSize'        avg=':= 0.944 * _default_ ' range=':= 0.944 * _default_ ' type='normal' />
-                    <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 16 '                type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchLength'          avg=':= 0.841 * _default_ ' range=':= 0.841 * _default_ ' type='normal' />
-                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentRadius'         avg=':= 0.917 * _default_ ' range=':= 0.917 * _default_ ' type='normal' />
-                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                </Veins>
-                
-                
-                
-                
-                <!-- Lapis Lazuli -->
-                <Veins name='vaniDDLapisVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x600800A2' drawBoundBox='false' boundBoxColor='0x600800A2'>
-                    <Description>
-                        Single vertical veins that occur with no  motherlodes.
-                    </Description>
-                    <OreBlock block='minecraft:lapis_ore' weight='1.0' />
-                    <ReplacesOre block='stone' weight='1.0' />
-                    <Biome name='.*'  />
-                    <Setting name='MotherlodeFrequency'   avg=':= 0.787 * _default_ ' range=':= 0.787 * _default_ ' type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
-                    <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 0 '                 type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchInclination'     avg=':= -_default_ '        range=':= -_default_ '        type='normal' />
-                    <Setting name='BranchLength'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentRadius'         avg=':= 0.887 * _default_ ' range=':= 0.887 * _default_ ' type='normal' />
-                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                </Veins>
-                
-                
-                
-                
-                <!-- Vertical Redstone Veins -->
-                <Veins name='vaniDDRedstoneVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
-                    <Description>
-                        Single vertical veins that occur with no  motherlodes.
-                    </Description>
-                    <OreBlock block='minecraft:redstone_ore' weight='1.0' />
-                    <ReplacesOre block='stone' weight='1.0' />
-                    <Biome name='.*'  />
-                    <Setting name='MotherlodeFrequency'   avg=':= 2.406 * _default_ ' range=':= 2.406 * _default_ ' type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
-                    <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchInclination'     avg=':= -_default_ '        range=':= -_default_ '        type='normal' />
-                    <Setting name='BranchLength'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentRadius'         avg=':= 1.551 * _default_ ' range=':= 1.551 * _default_ ' type='normal' />
-                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                </Veins>
-                
-                
-                
-                
-                <!-- Diamond ore pipe veins filled with lava -->
-                <ConfigSection>
-                    <!-- This works by setting the seed for both of the veins to the same number and allowing the lava vein to inherit the diamond vein -->
-                    <!-- As such, both veins have the same frequency, etc. and should spawn on top of each other but, the lava vein is thinner, so we get tubes -->
-                    <!-- There is a possible consequence: diamond ores may spawn in the same location all the time in every world -->
-                    <Veins name='vaniDDDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                        <Description>
-                            Short sparsely filled veins sloping up  from near the
-                            bottom of the map.
-                        </Description>
-                        <OreBlock block='minecraft:diamond_ore' weight='1.0' />
-                        <ReplacesOre block='stone' weight='1.0' />
-                        <Biome name='.*'  />
-                        <Setting name='MotherlodeFrequency'   avg=':= 0.714 * _default_ ' range=':= 0.714 * _default_ ' type='normal' scaleTo='base' />
-                        <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
-                        <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
-                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='BranchLength'          avg=':= 0.845 * _default_ ' range=':= 0.845 * _default_ ' type='normal' />
-                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentRadius'         avg=':= 0.919 * _default_ ' range=':= 0.919 * _default_ ' type='normal' />
-                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    </Veins>
-        
-                    <!-- Configuring contained material. -->
-                    <Veins name='vaniDDDiamondVeinsPipe'  inherits='vaniDDDiamondVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                        <OreBlock block='minecraft:lava' weight='1.0' />
-                        <ReplacesOre block='stone' weight='1.0' />
-                        <Replaces block='minecraft:diamond_ore' weight='1.0' />
-                        <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
-                        <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
-                        <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
-                    </Veins>
-                </ConfigSection>
-                
-                
-                
-                
-                <!-- Emerald Ore -->
-                <ConfigSection>
-                    <Veins name='vaniDDEmeraldVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                        <Description>
-                            Short sparsely filled veins sloping up  from near the
-                            bottom of the map.
-                        </Description>
-                        <OreBlock block='minecraft:emerald_ore' weight='1.0' />
-                        <ReplacesOre block='stone' weight='1.0' />
-                        <Biome name='.*'  />
-                        <Setting name='MotherlodeFrequency'   avg=':= 0.357 * _default_ ' range=':= 0.357 * _default_ ' type='normal' scaleTo='base' />
-                        <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
-                        <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
-                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='BranchLength'          avg=':= 0.845 * _default_ ' range=':= 0.845 * _default_ ' type='normal' />
-                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='SegmentRadius'         avg=':= 0.919 * _default_ ' range=':= 0.919 * _default_ ' type='normal' />
-                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    </Veins>
-        
-                    <!-- Configuring contained material. -->
-                    <Veins name='vaniDDEmeraldVeinsPipe'  inherits='vaniDDEmeraldVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                        <OreBlock block='minecraft:monster_egg' weight='1.0' />
-                        <ReplacesOre block='stone' weight='1.0' />
-                        <Replaces block='minecraft:emerald_ore' weight='1.0' />
-                        <Biome name='.*'  />
-                        <BiomeType name='MOUNTAIN' weight='-1' />
-                        <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
-                        <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
-                        <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
-                    </Veins>
-                </ConfigSection>
-            </ConfigSection>
-            
-            
-            
             <!-- TAIGA -->
             <IfModInstalled name="taiga">
+                <!-- Bismuth Ore -->
+                <Veins name='taigaDDBismuthVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='taiga:bismuth_ore' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<ReplacesOre block='cobblestone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 1.786 * _default_ ' range=':= 1.786 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 16 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+                
+                <!-- Karmesine Ore -->
+                <Veins name='taigaDDKarmesineVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='taiga:karmesine_ore' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<ReplacesOre block='cobblestone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+                
+                <!-- Meteorite Ore -->
+                <Veins name='taigaDDMeteoriteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='taiga:meteorite_ore' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<ReplacesOre block='cobblestone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.585 * _default_ ' range=':= 0.585 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 0.890 * _default_ ' range=':= 0.890 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+    			
                 <!-- Granite/Arcanite Ore Geode -->
-                <Veins name='taigaGraniteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDGraniteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
                     <OreBlock block='minecraft:stone:3' weight='1.00' />
-                    <Replaces block='.*' weight='1.0'/>
+                    <ReplacesOre block='stone' weight='1.0'/>
+                    <ReplacesOre block='cobblestone' weight='1.0'/>
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.800 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -528,15 +1015,18 @@
                     <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
-                <Veins name='taigaGraniteGeodeMiddle'  inherits='taigaGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDGraniteGeodeMiddle'  inherits='taigaDDGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='taiga:arcanite_ore' weight='0.06' />
                     <Replaces block='minecraft:stone:1' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='taigaGraniteGeodeCenter'  inherits='taigaGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDGraniteGeodeCenter'  inherits='taigaDDGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:air' weight='1.0' />
-                    <Replaces block='.*' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0'/>
+                    <ReplacesOre block='cobblestone' weight='1.0'/>
+                    <Replaces block='minecraft:stone:1' weight='1.0'/>
+                    <Replaces block='taiga:arcanite_ore' weight='1.0'/>
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
@@ -544,12 +1034,13 @@
                 
                 
                 <!-- Diorite/Mindorite Ore Geode -->
-                <Veins name='taigaDioriteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDDioriteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
                     <OreBlock block='minecraft:stone:3' weight='1.00' />
-                    <Replaces block='.*' weight='1.0'/>
+                    <ReplacesOre block='stone' weight='1.0'/>
+                    <ReplacesOre block='cobblestone' weight='1.0'/>
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.800 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -568,15 +1059,18 @@
                     <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
-                <Veins name='taigaDioriteGeodeMiddle'  inherits='taigaDioriteGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDDioriteGeodeMiddle'  inherits='taigaDDDioriteGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='taiga:mindorite_ore' weight='0.06' />
                     <Replaces block='minecraft:stone:3' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='taigaDioriteGeodeCenter'  inherits='taigaDioriteGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDDioriteGeodeCenter'  inherits='taigaDDDioriteGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:air' weight='1.0' />
-                    <Replaces block='.*' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0'/>
+                    <ReplacesOre block='cobblestone' weight='1.0'/>
+                    <Replaces block='minecraft:stone:3' weight='1.0'/>
+                    <Replaces block='taiga:mindorite_ore' weight='1.0'/>
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
@@ -585,12 +1079,13 @@
                 
                 <!-- Andesite/Eternite Ore Geode -->
                 <!-- Diorite/Mindorite Ore Geode -->
-                <Veins name='taigaAndesiteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDAndesiteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
                     <OreBlock block='minecraft:stone:5' weight='1.00' />
-                    <Replaces block='.*' weight='1.0'/>
+                    <ReplacesOre block='stone' weight='1.0'/>
+                    <ReplacesOre block='cobblestone' weight='1.0'/>
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.800 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -609,15 +1104,18 @@
                     <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
-                <Veins name='taigaAndesiteGeodeMiddle'  inherits='taigaAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDAndesiteGeodeMiddle'  inherits='taigaDDAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='taiga:eternite_ore' weight='0.06' />
                     <Replaces block='minecraft:stone:5' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='taigaAndesiteGeodeCenter'  inherits='taigaAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDAndesiteGeodeCenter'  inherits='taigaDDAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:air' weight='1.0' />
-                    <Replaces block='.*' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0'/>
+                    <ReplacesOre block='cobblestone' weight='1.0'/>
+                    <Replaces block='minecraft:stone:5' weight='1.0'/>
+                    <Replaces block='taiga:eternite_ore' weight='1.0'/>
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
