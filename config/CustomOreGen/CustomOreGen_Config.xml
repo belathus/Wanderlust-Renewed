@@ -422,7 +422,8 @@
     <Import file='modules/custom/futurepack.xml'/>
     <Import file='modules/custom/immersiveengineering.xml'/>
     <Import file='modules/custom/nether.xml'/>
-
+    <Import file='modules/custom/deepdark.xml'/>
+    
     <IfChoice name='debugDist' value='true'>
        
         <!-- Experimental distributions should go here -->
