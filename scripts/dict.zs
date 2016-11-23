@@ -18,3 +18,12 @@ recipes.remove(<basemetals:iron_rod>);
 recipes.remove(<fp:spaceship:12>);
 
 recipes.addShapeless(<fp:spaceship:12>,[<ore:stickIron>]);
+
+# Removing the nether ore oredict entries and making it normal ore.
+<ore:oreNetherCoal>.remove(<nethercore:ore:0>);
+<ore:oreNetherIron>.remove(<nethercore:ore:1>);
+<ore:oreNetherGold>.remove(<nethercore:ore:2>);
+<ore:oreNetherRedstone>.remove(<nethercore:ore:3>);
+<ore:oreNetherLapis>.remove(<nethercore:ore:4>);
+<ore:oreNetherDiamond>.remove(<nethercore:ore:5>);
+<ore:oreNetherEmerald>.remove(<nethercore:ore:6>);
