@@ -129,5 +129,29 @@
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
       </output>
     </recipe>
+    <!-- Adamantine -->
+    <recipe name="ColdironOre" energyCost="3600" >
+      <!-- 150% output compared to vanilla iron ore -->
+      <input>
+        <itemStack oreDictionary="oreAdamantine" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAdamantine" number="2" />
+        <itemStack oreDictionary="dustColdiron" number="1" chance="0.10" />
+        <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="FuturePack" >
+    <!-- Alutine -->
+    <recipe name="MercuryOre" energyCost="1200" >
+      <input>
+        <itemStack oreDictionary="gemAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminum" number="1" />
+      </output>
+    </recipe>
   </recipeGroup>
 </SAGMillRecipes>

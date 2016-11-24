@@ -39,3 +39,10 @@
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
          [<ore:gearGilded>,null,<ore:gearGilded>],
          [<ore:plateSteel>,<ore:dustRedstone>,<ore:plateSteel>]]);
+
+# Roots
+    recipes.remove(<roots:altar>);
+    recipes.addShaped(<roots:altar>,
+        [[<roots:verdantSprig>,<ore:flowerRed>,<roots:verdantSprig>],
+         [<roots:runeStone>,<ore:ingotSilver>,<roots:runeStone>],
+         [null,<roots:runeStone>,null]]);

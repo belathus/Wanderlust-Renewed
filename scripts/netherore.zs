@@ -32,6 +32,14 @@ furnace.remove(<*>, <nethermetals:nether_tungsten_ore>);
 furnace.remove(<*>, <nethermetals:nether_uranium_ore>);
 furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
 
+furnace.remove(<*>, <nethercore:ore:0>);
+furnace.remove(<*>, <nethercore:ore:1>);
+furnace.remove(<*>, <nethercore:ore:2>);
+furnace.remove(<*>, <nethercore:ore:3>);
+furnace.remove(<*>, <nethercore:ore:4>);
+furnace.remove(<*>, <nethercore:ore:5>);
+furnace.remove(<*>, <nethercore:ore:6>);
+
 
 <ore:oreEmerald>.add(<nethermetals:nether_emerald_ore>);
 <ore:oreDiamond>.add(<nethermetals:nether_diamond_ore>);
@@ -64,3 +72,12 @@ furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
 <ore:oreTungsten>.add(<nethermetals:nether_tungsten_ore>);
 <ore:oreUranium>.add(<nethermetals:nether_uranium_ore>);
 <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
+
+<ore:oreCoal>.add(<nethercore:ore:0>);
+<ore:oreIron>.add(<nethercore:ore:1>);
+<ore:oreGold>.add(<nethercore:ore:2>);
+<ore:oreRedstone>.add(<nethercore:ore:3>);
+<ore:oreLapis>.add(<nethercore:ore:4>);
+<ore:oreDiamond>.add(<nethercore:ore:5>);
+<ore:oreEmerald>.add(<nethercore:ore:6>);
+

@@ -3,14 +3,17 @@ recipes.addShapeless(<tconstruct:soil>,
     [<primal:carbonate_slack>,<ore:dustAsh>,<ore:clumpMud>]);
     
 recipes.addShapeless(<tconstruct:soil>,
-    [<minecraft:clay>,<ore:mortar>,<biomesoplenty:dirt>]);
+    [<minecraft:clay>,<ore:mortar>,<biomesoplenty:dirt:2>]);
 
 recipes.addShapeless(<tconstruct:soil>,
-    [<primal:terraclay>,<minecraft:dye:15>,<biomesoplenty:dirt>]);
+    [<primal:terraclay>,<minecraft:dye:15>,<biomesoplenty:dirt:2>]);
 
 recipes.addShapeless(<tconstruct:soil>,
     [<primal:earthwax_clump>,<ore:gunpowder>,<ore:gravel>]);
 
+recipes.remove(<abyssalcraft:necronomicon>);
+recipes.addShapeless(<abyssalcraft:necronomicon>,
+    [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
 
 # Ars Magica 2 Parchment
 recipes.remove(<arsmagica2:spell_parchment>);

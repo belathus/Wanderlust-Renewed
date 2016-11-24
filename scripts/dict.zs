@@ -7,6 +7,11 @@
 <ore:bricksStone>.add(<minecraft:stonebrick:2>);
 <ore:bricksStone>.add(<minecraft:stonebrick:3>);
 #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
+<ore:nuggetCopper>.remove(<esteemedinnovation:nugget:1>);
+<ore:nuggetZinc>.add(<esteemedinnovation:nugget:1>);
+<ore:flowerRed>.add(<minecraft:red_flower:4>);
+<ore:flowerRed>.add(<biomesoplenty:flower_1>);
+<ore:flowerRed>.add(<botania:flower:14>);
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
