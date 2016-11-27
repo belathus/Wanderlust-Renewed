@@ -2,8 +2,50 @@
 
   // New entities are added, one already in _Core will have their values replaced with those in this file
   "costMultiplier": {
-  }
+    "abyssalcraft.abyssalzombie" : "1",
+    "abyssalcraft.antibat" : "2",
+    "abyssalcraft.antichicken" : "2",
+    "abyssalcraft.anticow" : "2",
+    "abyssalcraft.anticreeper" : "2",
+    "abyssalcraft.antighoul" : "2",
+    "abyssalcraft.antipig" : "2",
+    "abyssalcraft.antiplayer" : "2",
+    "abyssalcraft.antispider" : "2",
+    "abyssalcraft.antizombie" : "2",
+    "abyssalcraft.chagaroth" : "3",
+    "abyssalcraft.chagarothfist" : "3",
+    "abyssalcraft.chagarothspawn" : "3",
+    "abyssalcraft.demonchicken" : "1",
+    "abyssalcraft.demoncow" : "1",
+    "abyssalcraft.demonpig" : "1",
+    "abyssalcraft.demonsheep" : "1",
+    "abyssalcraft.depthsghoul" : "1",
+    "abyssalcraft.dragonminion" : "1",
+    "abyssalcraft.dreadminion" : "1",
+    "abyssalcraft.dreadguard" : "1",
+    "abyssalcraft.dreadling" : "1",
+    "abyssalcraft.dreadspawn" : "1",
+    "abyssalcraft.evilcow" : "3",
+    "abyssalcraft.evilchicken" : "3",
+    "abyssalcraft.evilsheep" : "3",
+    "abyssalcraft.evilpig" : "3",
+    "abyssalcraft.Jzaharminion" : "1",
+    "abyssalcraft.lesserdreadbeast" : "1",
+    "abyssalcraft.lessershoggoth" : "1",
+    "abyssalcraft.omotholghoul" : "4",
+    "abyssalcraft.remnant" : "5",
+    "abyssalcraft.shadowbeast" : "3",
+    "abyssalcraft.shadowcreature" : "2",
+    "abyssalcraft.shadowmonster" : "5",
+    "roots.greaterSprite" : "15"
+  },
 
-  // Adding a blackList section will completely replace the one in the core file.
-
+  "blackList": [
+    "VillagerGolem",
+    "Villager",
+    "abyssalcraft.abygolem",
+    "abyssalcraft.dreadgolem",
+    "abyssalcraft.Jzahar",
+    "evilcraft.vengeanceSpirit"
+  ]
 }
