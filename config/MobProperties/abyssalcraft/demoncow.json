@@ -1,14 +1,18 @@
 {
   "_name": "abyssalcraft.demoncow",
-"drops": [
-    "_comment" : "Demonic cows in the nether should drop leather",
-    "function" : "!if_in_dimension_0",
-    "functions" : [{
-      "_comment" : "add leather drop",
-      "function" : "add",
-      "id" : "leather",
-      "count" : "0~1"
-    }]
+  "drops": [
+    {
+      "_comment" : "Demonic cows in the nether should drop leather",
+      "function" : "!if_in_dimension_0",
+      "functions" : [
+        {
+          "_comment" : "add leather drop",
+          "function" : "add",
+          "id" : "leather",
+          "count" : "0~1"
+        }
+      ]
+    }  
   ],
   "pre_stats": [],
   "stats": [
