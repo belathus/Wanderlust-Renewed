@@ -3,13 +3,35 @@
         <version>0.1-Dev</version>
         <minecraft>1.10.2</minecraft>
         <memory>5120</memory>
+        <noconfigs>true</noconfigs>
+        <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
+        <extraarguments>--tweakClass=net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge</extraarguments>
     </pack>
+    
     <libraries>
-        
+        <library url="packs/WanderlustRenewed/files/launchwrapper-1.12.jar" download="server" file="launchwrapper-1.12.jar" md5="934b2d91c7c5be4a49577c9e6b40e8da" server="net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"/>
+        <library url="packs/WanderlustRenewed/files/asm-all-5.0.3.jar" download="server" file="asm-all-5.0.3.jar" md5="c5cc4613bbdfba3ccf5f0ab85390d0b8" server="org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"/>
+        <library url="packs/WanderlustRenewed/files/jline-2.13.jar" download="server" file="jline-2.13.jar" md5="f251ba666cccb260ff7215b2cbeee8d4" server="jline/jline/2.13/jline-2.13.jar"/>
+        <library url="packs/WanderlustRenewed/files/akka-actor_2.11-2.3.3.jar" download="server" file="akka-actor_2.11-2.3.3.jar" md5="2a3d8946f684f928c48a2dd298c5cd29" server="com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"/>
+        <library url="packs/WanderlustRenewed/files/config-1.2.1.jar" download="server" file="config-1.2.1.jar" md5="a88c2f8be90a5c41b87155cdff21e0db" server="com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-actors-migration_2.11-1.1.0.jar" download="server" file="scala-actors-migration_2.11-1.1.0.jar" md5="f5e79398daa1806f8b17311a3c782723" server="org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-compiler-2.11.1.jar" download="server" file="scala-compiler-2.11.1.jar" md5="06030143bf86ca896fb6ccfd679b5760" server="org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-continuations-library_2.11-1.0.2.jar" download="server" file="scala-continuations-library_2.11-1.0.2.jar" md5="c7d01e5a88182df7f22b7418abb51085" server="org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-continuations-plugin_2.11.1-1.0.2.jar" download="server" file="scala-continuations-plugin_2.11.1-1.0.2.jar" md5="daecef8fab296b764a8fb41fc07f2428" server="org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-library-2.11.1.jar" download="server" file="scala-library-2.11.1.jar" md5="1d88f665219e6006c5dd82d71c525c0f" server="org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-parser-combinators_2.11-1.0.1.jar" download="server" file="scala-parser-combinators_2.11-1.0.1.jar" md5="4e694499c965af4a02599c99d4f0b196" server="org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-reflect-2.11.1.jar" download="server" file="scala-reflect-2.11.1.jar" md5="7878fac044e4e4b576bb35a77ccc34fc" server="org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-swing_2.11-1.0.1.jar" download="server" file="scala-swing_2.11-1.0.1.jar" md5="1009d69e4948045383f2a7a334348af5" server="org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/scala-xml_2.11-1.0.2.jar" download="server" file="scala-xml_2.11-1.0.2.jar" md5="c2d7e66495afe14545c31b21e99879ef" server="org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"/>
+        <library url="packs/WanderlustRenewed/files/lzma-0.0.1.jar" download="server" file="lzma-0.0.1.jar" md5="a3e3c3186e41c4a1a3027ba2bb23cdc6" server="lzma/lzma/0.0.1/lzma-0.0.1.jar"/>
+        <library url="packs/WanderlustRenewed/files/jopt-simple-4.6.jar" download="server" file="jopt-simple-4.6.jar" md5="13560a58a79b46b82057686543e8d727" server="net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"/>
+        <library url="packs/WanderlustRenewed/files/vecmath-1.5.2.jar" download="server" file="vecmath-1.5.2.jar" md5="e5d2b7f46c4800a32f62ce75676a5710" server="java3d/vecmath/1.5.2/vecmath-1.5.2.jar"/>
+        <library url="packs/WanderlustRenewed/files/trove4j-3.0.3.jar" download="server" file="trove4j-3.0.3.jar" md5="8fc4d4e0129244f9fd39650c5f30feb2" server="net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"/>
     </libraries>
+
     <mods>
         <!-- Minecraft Forge -->
-        <mod name="Minecraft Forge" version="12.18.2.2125" url="packs/WanderlustRenewed/files/mods/forge-1.10.2-12.18.2.2125-universal.jar" file="forge-1.10.2-12.18.2.2125-universal.jar" md5="adf52e15f58ad10bdc129500f60b951b" download="server" type="forge" website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" description="Minecraft Forge is a modding API used by alot of mods." />
+        <mod name="Minecraft Forge" version="12.18.2.2125" url="packs/WanderlustRenewed/files/mods/forge-1.10.2-12.18.2.2125-universal.jar" file="forge-1.10.2-12.18.2.2125-universal.jar" md5="adf52e15f58ad10bdc129500f60b951b" download="server" type="forge" website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" description="Minecraft Forge is a modding API used by alot of mods."/>
         
         <!-- Other Mods -->
         <mod name="AbyssalCraft" version="1.10.2-1.9.3.8" url="packs/WanderlustRenewed/files/mods/AbyssalCraft-1.10.2-1.9.3.8.jar" file="AbyssalCraft-1.10.2-1.9.3.8.jar" md5="d950e8c4897c8b54558ad415ab8cfb86" download="server" type="mods" website="https://shinoow.github.io/AbyssalCraft/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/abyssalcraft?gameCategorySlug=mc-mods&amp;projectID=53686&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=felix%40lundquist.ws&amp;bn=PP-DonationsBF:btn_donateCC_LG." authors="shinoow" description="This mod adds new things to the game, including 3 new dimensions and 7 overworld biomes."/>
@@ -51,6 +73,8 @@
         <mod name="ChatFlow" version="ANT:VERSION" url="packs/WanderlustRenewed/files/mods/ChatFlow-1.2-5.jar" file="ChatFlow-1.2-5.jar" md5="2a9c54ee4ebdc09cfb4c01515263c7c9" download="server" type="mods" website="http://www.curseforge.com/projects/231453/" authors="Vazkii" description="A mod that allows for control of incoming chat messages using RegEx. It also adds toast notifications."/>
         
         <mod name="Chisel" version="0.0.7.3" url="packs/WanderlustRenewed/files/mods/Chisel-MC1.10.2-0.0.7.3.jar" file="Chisel-MC1.10.2-0.0.7.3.jar" md5="988126cdb5b496d9dabafae5928b659f" download="server" type="mods" website="http://www.curseforge.com/projects/235279/" authors="tterrag1098,Drullkus,Minecreatr" description="Chisel: A New Hope. For 1.7+!"/>
+       
+        <mod name="CodeChicken Lib" version="2.4.3.145" url="packs/WanderlustRenewed/files/mods/CodeChickenLib-1.10.2-2.4.3.145-universal.jar" file="CodeChickenLib-1.10.2-2.4.3.145-universal.jar" md5="783e262d6436ea2e18367c43ccf1f225" download="server" type="dependency" website="http://chickenbones.net/Pages/links.html" authors="ChickenBones,covers1624" description="CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things.."/>
         
         <mod name="CommonCapabilities" version="1.9.4-1.2.1" url="packs/WanderlustRenewed/files/mods/CommonCapabilities-1.9.4-1.2.1.jar" file="CommonCapabilities-1.9.4-1.2.1.jar" md5="e944467097f989bbce736331f35ef18f" download="server" type="mods" website="https://github.com/CyclopsMC/CommonCapabilities" authors="rubensworks (aka kroeserr)" description="Forge Capabilities that can be shared by multiple mods"/>
         
@@ -86,6 +110,8 @@
         
         <mod name="Enderthing" version="0.7.1" url="packs/WanderlustRenewed/files/mods/enderthing-1.10.2-0.7.1.jar" file="enderthing-1.10.2-0.7.1.jar" md5="e728c78aa22084759caae48e229b1e76" download="server" type="mods" website="http://www.curseforge.com/projects/244421/" authors="gigaherz" description="Shared inventories with chests and keys"/>
         
+        <mod name="Esteemed Innovation" version="1.0.0-alpha6-a488de" url="packs/WanderlustRenewed/files/mods/EsteemedInnovation-1.10-1.0.0-alpha6-a488de.jar" file="EsteemedInnovation-1.10-1.0.0-alpha6-a488de.jar" md5="aaf154233bae365831f28364fd75ea92" download="server" type="mods" website="https://github.com/Esteemed-Innovation/Esteemed-Innovation" authors="SatanicSanta,xbony2,dmillerw,Flaxbeard,Zenith" description="An innovative tech mod revolving around steam and pressure."/>
+        
         <mod name="Ender Zoo" version="1.10-1.2.3.43" url="packs/WanderlustRenewed/files/mods/EnderZoo-1.10-1.2.3.43.jar" file="EnderZoo-1.10-1.2.3.43.jar" md5="98ee1f5abf0fe484b0cccbf4ba0e54e4" download="server" type="mods" website="http://enderio.com" authors="crazypants" description="More Mobs"/>
         
         <mod name="EverlastingAbilities" version="1.9.4-1.2.2" url="packs/WanderlustRenewed/files/mods/EverlastingAbilities-1.9.4-1.2.2.jar" file="EverlastingAbilities-1.9.4-1.2.2.jar" md5="37434968f6c9e526b47e86ea538728e0" download="server" type="mods" website="https://github.com/CyclopsMC/EverlastingAbilities" authors="rubensworks (aka kroeserr)" description="Discover, share and conquer abilities that stick."/>
@@ -99,6 +125,8 @@
         <mod name="Fast Leave Decay" version="1.2.3" url="packs/WanderlustRenewed/files/mods/FastLeaveDecay-MC1.10.2-1.2.3.jar" file="FastLeaveDecay-MC1.10.2-1.2.3.jar" md5="816301259f069c9c39d6fd324be65991" download="server" type="mods" website="http://www.curseforge.com/projects/225839/" authors="lumien" description="Makes leave decay faster"/>
         
         <mod name="Forestry" version="5.2.16.328" url="packs/WanderlustRenewed/files/mods/forestry_1.10.2-5.2.16.328.jar" file="forestry_1.10.2-5.2.16.328.jar" md5="5116918296192a2115335efaa256e342" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir,mezz" description="Trees, bees and more."/>
+        
+        <mod name="Futurepack" version="24.2.17" url="packs/WanderlustRenewed/files/mods/Futurepack-1.10.2-24.2.17.jar" file="Futurepack-1.10.2-24.2.17.jar" md5="6f5bf217fe37daf8c9713372b4ea05d2" download="server" type="mods" website="http://www.curseforge.com/projects/237333/" authors="MCenderdragon" description="The Futurepack is a modification adding future-themed materials, resources and other stuff."/>
         
         <mod name="GenDustry" version="1.6.4.25" url="packs/WanderlustRenewed/files/mods/gendustry-1.6.4.25-mc1.10.2.jar" file="gendustry-1.6.4.25-mc1.10.2.jar" md5="7f19e71be10b10a2aa0bae53172f6683" download="server" type="mods" website="http://bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/gendustry?gameCategorySlug=mc-mods&amp;projectID=70492&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif" authors="bdew" description="Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon)"/>
         
@@ -214,11 +242,11 @@
         
         <mod name="Stackie" version="1.6.0.44" url="packs/WanderlustRenewed/files/mods/Stackie-1.10.2-1.6.0.44-universal.jar" file="Stackie-1.10.2-1.6.0.44-universal.jar" md5="3536b88eb691fdc7ca133aefb268029b" download="server" type="mods" website="http://mc.lunatri.us/" authors="Lunatrius" description="Stack entities into groups to decrease lag."/>
         
-        <mod name="Surge" version="1.10.2-1.0.0.50" url="packs/WanderlustRenewed/files/mods/Surge-1.10.2-1.0.0.50.jar" file="Surge-1.10.2-1.0.0.50.jar" md5="17417bd727569435ef2017903d8f0f41" download="server" type="mods" website="http://www.curseforge.com/projects/250290/" authors="Darkhax,lclc98" description="A tweak mod that improves Minecraft performance and stability."/>
+        <mod name="Surge" version="1.10.2-1.0.0.50" url="packs/WanderlustRenewed/files/mods/Surge-1.10.2-1.0.0.50.jar" file="Surge-1.10.2-1.0.0.50.jar" md5="17417bd727569435ef2017903d8f0f41" download="server" server="no" type="mods" website="http://www.curseforge.com/projects/250290/" authors="Darkhax,lclc98" description="A tweak mod that improves Minecraft performance and stability."/>
         
         <mod name="Tinkers Alloying Addon" version="1.10.2-1.1.4" url="packs/WanderlustRenewed/files/mods/taiga-1.10.2-1.1.4.jar" file="taiga-1.10.2-1.1.4.jar" md5="d6497fcd1249d77c0d2774fe9ac9e170" download="server" type="mods" website="https://github.com/Zkaface/TAIGA" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/taiga-tinkers-alloying-addon?gameCategorySlug=mc-mods&amp;projectID=247661&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=robert.sosnitzka%40gmail.com&amp;bn=PP-Don" authors="Zkaface,Chefe" description="An addon for Tinkers' Construct! 32 New Materials including 16 various alloys."/>
         
-        <mod name="Tinkers' Construct" version="1.10.2-2.6.0" url="packs/WanderlustRenewed/files/mods/TConstruct-1.10.2-2.6.0.jar" file="TConstruct-1.10.2-2.6.0.jar" md5="e1c222753adaae1de1b1d6d89511b923" download="server" type="mods" website="https://github.com/SlimeKnights/TinkersConstruct" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/tinkers-construct?gameCategorySlug=mc-mods&amp;projectID=74072&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=bernhard.bonigl%40gmail.com&amp;bn=PP-DonationsBF:btn_" authors="boni,KnightMiner" description="A little of this, a little of that, a lot of tinkering, and a lot of tools"/>
+        <mod name="Tinkers' Construct" version="1.10.2-2.5.6b" url="packs/WanderlustRenewed/files/mods/TConstruct-1.10.2-2.5.6b.jar" file="TConstruct-1.10.2-2.5.6b.jar" md5="19e8988621e8413c8d7e13f6cc0ba85a" download="server" type="mods" website="https://github.com/SlimeKnights/TinkersConstruct" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/tinkers-construct?gameCategorySlug=mc-mods&amp;projectID=74072&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=bernhard.bonigl%40gmail.com&amp;bn=PP-DonationsBF:btn_" authors="boni,KnightMiner" description="A little of this, a little of that, a lot of tinkering, and a lot of tools"/>
         
         <mod name="TESLA" version="1.10.2-1.2.1.50" url="packs/WanderlustRenewed/files/mods/Tesla-1.10.2-1.2.1.50.jar" file="Tesla-1.10.2-1.2.1.50.jar" md5="924d5f4d7df30c829855ce3cc277fc98" download="server" type="mods" website="http://www.curseforge.com/projects/244651/" authors="Darkhax" description="A modern power API"/>
         
