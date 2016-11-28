@@ -1,6 +1,96 @@
 {
   "_name": "cyberware.cyberzombie",
-  "drops": [],
+  "drops": [
+    {
+      "_comment" : "Adds a basic capacitor as a rare drop (0.025%)",
+      "function" : "if_rare",
+      "functions" : [
+        {
+          "function":"add",
+          "id" : "enderio:itemBasicCapacitor",
+          "damage" : 0,
+          "count" : 1
+        }
+      ]
+    },
+    {
+      "_comment" : "Adds cyberware components as a drop",
+      "function" : "choose",
+      "count" : 0.3,
+      "functions" : [
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 0,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 1,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 2,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 3,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 4,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 5,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 6,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 7,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 8,
+          "count" : 1
+        },
+        {
+          "weight" : 1,
+          "function":"add",
+          "id" : "cyberware:component",
+          "damage" : 9,
+          "count" : 1
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
