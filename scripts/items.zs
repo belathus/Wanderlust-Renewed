@@ -63,6 +63,10 @@
         [[<ore:vine>,<minecraft:log:*>,<ore:vine>],
          [<minecraft:log:*>,<roots:oldRoot>,<minecraft:log:*>],
          [<ore:vine>,<minecraft:log:*>,<ore:vine>]]);
+    recipes.addShaped(<naturescompass:NaturesCompass>,
+        [[<minecraft:log:*>,<ore:vine>,<minecraft:log:*>],
+         [<ore:vine>,<roots:oldRoot>,<ore:vine>],
+         [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);
