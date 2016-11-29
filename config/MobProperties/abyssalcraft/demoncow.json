@@ -36,14 +36,14 @@
               "_comment" : "This multiplies damage by 3 to 5; a random cow can possibly hit pretty hard.",
               "function" : "modifier",
               "attribute" : "generic.attackDamage",
-              "value" : "2.0-4.0"
+              "value" : "2.0~4.0"
             },
             {
               "weight" : 1,
               "_comment" : "Remember, 1+VALUE, meaning this multiplies speed by 1.4 to 1.6.",
               "function" : "modifier",
               "attribute" : "generic.movementSpeed",
-              "value" : "0.4-0.6",
+              "value" : "0.4~0.6",
               "operator" : 1
             }
           ]
