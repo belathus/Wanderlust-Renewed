@@ -3,13 +3,13 @@
   "drops": [
     {
       "_comment" : "Adds a basic capacitor as a rare drop (0.025%)",
-      "function" : "if_rare",
+      "function" : "if_recently_hit",
       "functions" : [
         {
           "function":"add",
           "id" : "enderio:itemBasicCapacitor",
           "damage" : 0,
-          "count" : 1
+          "count" : 0.025
         }
       ]
     },
