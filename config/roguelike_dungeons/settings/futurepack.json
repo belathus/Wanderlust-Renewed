@@ -93,27 +93,27 @@
                         "type": "METABLOCK",
                         "data" : {
                             "name" : "fp:color_iron",
-                            "meta": 0
+                            "meta": 12
                         }
                     },
                     "pillar" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "fp:color_luftung",
+                            "name" : "chisel:futura",
                             "meta" : 0
                         }
                     },
                     "stair" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "fp:color_iron_stair0"
+                            "name" : "fp:color_iron_stair5"
                         }
                     },
                     "floor" : {
                         "type": "METABLOCK",
                         "data" : {
                             "name" : "fp:color_iron",
-                            "meta" : 5
+                            "meta" : 13
                         }
                     }
                 },
@@ -121,28 +121,28 @@
                     "walls" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta" : 5
+                            "name" : "fp:stone",
+                            "meta" : 0
                         }
                     },
                     "pillar" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneA",
-                            "meta" : 5
+                            "name" : "chisel:sandstoneredextra",
+                            "meta" : 4
                         }
                     },
                     "stair" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:livingwood1Stairs"
+                            "name" : "fp:color_iron_stair12"
                         }
                     },
                     "floor" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 0
+                            "name" : "fp:color_iron",
+                            "meta" : 1
                         }
                     }
                 }
