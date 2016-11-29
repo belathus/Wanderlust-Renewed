@@ -22,7 +22,7 @@
       "functions" : [
         {
           "_comment" :  "Doubles maximum health; the way this works is it multiplies base health by (1 + VALUE)",
-          "__comment" : "1+1=2, so health is doubled. If OPERATOR is 0, then it adds VALUE to damage instead.",
+          "_comment" : "1+1=2, so health is doubled. If OPERATOR is 0, then it adds VALUE to damage instead.",
           "function" : "modifier",
           "attribute" : "generic.maxHealth",
           "value" : 1,
