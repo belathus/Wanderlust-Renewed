@@ -86,3 +86,7 @@
     recipes.addShapeless(<abyssalcraft:necronomicon>,
         [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
 
+    recipes.remove(<tconstruct:stone_torch>);
+    recipes.addShaped(<tconstruct:stone_torch>,
+        [[<ore:powderBlaze>],
+         [<ore:rodStone>]]);
