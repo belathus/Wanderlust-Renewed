@@ -1,6 +1,33 @@
 {
   "_name": "arsmagica2.Dryad",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "if_recently_hit",
+      "functions" : [ 
+        {
+          "_comment" : "Adds magical saplings as a drop",
+          "function" : "choose",
+          "count" : 0.025, 
+          "functions" : [
+            {
+              "weight" : 1,
+              "function":"add",
+              "id" : "integrateddynamics:menrilSapling",
+              "damage" : 0,
+              "count" : 1
+            },
+            {
+              "weight" : 1,
+              "function":"add",
+              "id" : "arsmagica2:witchwood_sapling",
+              "damage" : 1,
+              "count" : 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
