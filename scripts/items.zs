@@ -6,6 +6,11 @@
 
 
 
+# AbyssalCraft
+    recipes.remove(<abyssalcraft:necronomicon>);
+    recipes.addShapeless(<abyssalcraft:necronomicon>,
+        [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
+
 # Ars Magica 2 Parchment
     recipes.remove(<arsmagica2:spell_parchment>);
     #recipes.addShapeless(<arsmagica2:spell_parchment>,
@@ -81,10 +86,6 @@
 
     recipes.addShapeless(<tconstruct:soil>,
         [<primal:earthwax_clump>,<ore:gunpowder>,<ore:gravel>]);
-
-    recipes.remove(<abyssalcraft:necronomicon>);
-    recipes.addShapeless(<abyssalcraft:necronomicon>,
-        [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
 
     recipes.remove(<tconstruct:stone_torch>);
     recipes.addShaped(<tconstruct:stone_torch>,
