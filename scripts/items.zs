@@ -4,7 +4,8 @@
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
 
-
+# Vanilla
+    recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[minecraft:wool:*]]);
 
 # AbyssalCraft
     recipes.remove(<abyssalcraft:necronomicon>);
