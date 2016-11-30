@@ -2,5 +2,40 @@
   "_name": "PigZombie",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+    {
+      "_comment" : "If not in the overworld ...",
+      "function" : "!if_in_dimension_0",
+      "functions" : [
+        {
+          "_comment" :  "Increases maximum health by 50%; the way this works is it multiplies base health by (1 + VALUE)",
+          "_comment" : "1+0.5=1.5, so health is multiplied by 1.5. If OPERATOR is 0, then it adds VALUE to damage instead.",
+          "function" : "modifier",
+          "attribute" : "generic.maxHealth",
+          "value" : 0.5,
+          "operator" : 1
+        },
+        {
+          "function" : "choose",
+          "functions" : [
+            {
+              "weight" : 2,
+              "_comment" : "This adds 2 to 4 to the attack damage",
+              "function" : "modifier",
+              "attribute" : "generic.attackDamage",
+              "value" : "2.0~4.0"
+            },
+            {
+              "weight" : 1,
+              "_comment" : "Remember, 1+VALUE, meaning this multiplies speed by 1.4 to 1.6.",
+              "function" : "modifier",
+              "attribute" : "generic.movementSpeed",
+              "value" : "0.4~0.6",
+              "operator" : 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
