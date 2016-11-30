@@ -3,11 +3,13 @@
     #    [[<>,<>,<>],
     #     [<>,<>,<>],
     #     [<>,<>,<>]]);
+    
+var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantmens:[{id:70,lvl:1}]});
 
 # Ars Magica 2
     recipes.remove(<arsmagica2:arcane_reconstructor>);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
-        [[<ore:dustVinteum>,<minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantmens:[{id:70,lvl:1}]}),<ore:dustVinteum>],
+        [[<ore:dustVinteum>,mending,<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
     recipes.remove(<arsmagica2:armor_imbuer>);
@@ -32,6 +34,19 @@
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
          [<ore:gearGilded>,null,<ore:gearGilded>],
          [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
+
+# Evilcraft
+    recipes.remove(<evilcraft:bloodChest>);
+    recipes.addShaped(<evilcraft:bloodChest>,
+        [[<ore:plankWood>,mending,<ore:plankWood>],
+         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
+         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
+         
+    recipes.remove(<evilcraft:colossalBloodChest>);
+    recipes.addShaped(<evilcraft:colossalBloodChest>,
+        [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,evilcraft:reinforcedUndeadPlank>],
+         [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
+         [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
 # RFTools
     recipes.remove(<rftools:machine_frame>);
