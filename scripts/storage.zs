@@ -13,10 +13,10 @@
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:1>,<liquid:gold>*288,<ironchest:BlockIronChest:0>, true, 80);
     
     recipes.remove(<ironchest:BlockIronChest:2>);
-    recipes.addShaped(<ironchest:BlockIronChest:2>,
-        [[<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>],
-         [<ore:nuggetDiamond>,<ironchest:BlockIronChest:1>,<ore:nuggetDiamond>],
-         [<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>]]);
+#    recipes.addShaped(<ironchest:BlockIronChest:2>,
+#        [[<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>],
+#         [<ore:nuggetDiamond>,<ironchest:BlockIronChest:1>,<ore:nuggetDiamond>],
+#         [<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>]]);
 
     recipes.remove(<ironchest:BlockIronChest:3>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:3>,<liquid:copper>*288,<minecraft:chest>, true, 80);
@@ -26,19 +26,19 @@
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:4>,<liquid:silver>*288,<ironchest:BlockIronChest:3>, true, 80);
 
     recipes.remove(<ironchest:BlockIronChest:5>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*2000,<ironchest:BlockIronChest:2>, true, 80);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*2000,<ironchest:BlockIronChest:1>, true, 80);
 
     recipes.remove(<ironchest:BlockIronChest:6>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*576,<ironchest:BlockIronChest:2>, true, 80);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*576,<ironchest:BlockIronChest:1>, true, 80);
 
 # Backpacks
     recipes.remove(<backpack:backpack_frame:2>);
     recipes.addShaped(<backpack:backpack_frame:2>,
-        [[<ore:stickIron>,<ore:string>,<ore:stickIron>],
-         [<ore:string>,null,<ore:string>],
-         [<ore:stickIron>,<ore:string>,<ore:stickIron>]]);
+        [[<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>],
+         [<ore:fabricHemp>,null,<ore:fabricHemp>],
+         [<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>]]);
 
     recipes.addShaped(<backpack:backpack_frame:2>,
-        [[<ore:string>,<ore:stickIron>,<ore:string>],
+        [[<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>],
          [<ore:stickIron>,null,<ore:stickIron>],
-         [<ore:string>,<ore:stickIron>,<ore:string>]]);
+         [<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>]]);
