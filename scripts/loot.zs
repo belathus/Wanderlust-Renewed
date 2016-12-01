@@ -1,1 +1,1 @@
-vanilla.loot.removeChestLoot("blacksmith", <abyssalcraft:corpick>);
+#vanilla.loot.removeChestLoot("blacksmith", <abyssalcraft:corpick>);

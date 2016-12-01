@@ -44,7 +44,7 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          
     recipes.remove(<evilcraft:colossalBloodChest>);
     recipes.addShaped(<evilcraft:colossalBloodChest>,
-        [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,evilcraft:reinforcedUndeadPlank>],
+        [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>],
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
