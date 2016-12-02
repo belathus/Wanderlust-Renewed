@@ -4,6 +4,20 @@
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
 
+
+# Embers
+    recipes.remove(<embers:ashenStone>);
+    recipes.addShaped(<embers:ashenStone>*4,
+        [[null,<ore:stone>,null],
+         [<ore:stone>,<ore:dustAsh>,<ore:stone>],
+         [null,<ore:stone>,null]]);
+
+    recipes.remove(<embers:ashenBrick>);
+    recipes.addShaped(<embers:ashenBrick>*4,
+        [[null,<ore:bricksStone>,null],
+         [<ore:bricksStone>,<ore:dustAsh>,<ore:bricksStone>],
+         [null,<ore:bricksStone>,null]]);
+
 # Extra Utilities
     # Portal to the Deep Dark
     recipes.remove(<extrautils2:Teleporter>);
@@ -18,3 +32,4 @@
         [[<ore:bricksStone>,null,<ore:bricksStone>],
          [null,null,null],
          [<ore:bricksStone>,null,<ore:bricksStone>]]);
+

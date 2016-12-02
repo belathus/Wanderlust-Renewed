@@ -12,6 +12,11 @@
 <ore:flowerRed>.add(<minecraft:red_flower:4>);
 <ore:flowerRed>.add(<biomesoplenty:flower_1>);
 <ore:flowerRed>.add(<botania:flower:14>);
+<ore:stone>.add(<abyssalcraft:abydreadstone>);
+<ore:stone>.add(<abyssalcraft:dreadstone>);
+<ore:stone>.add(<biomesoplenty:stone>);
+<ore:stone>.add(<chisel:limestoneextra:7>);
+<ore:dustAsh>.add(<embers:dustAsh>);
 
 recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp>,
