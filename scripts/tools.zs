@@ -6,6 +6,15 @@
 #     [<>,<>,<>],
 #     [<>,<>,<>]]);
 
+# Vanilla
+    recipes.addShaped(<minecraft:shield>,
+        [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:ingotBronze>,<ore:plankWood>],
+         [null,<ore:plankWood>,null]]);
+    recipes.remove(<minecraft:flint_and_steel>);
+    recipes.addShapeless(<minecraft:flint_and_steel>,
+        [<ore:knappedFlint>,<ore:ringIron>]);
+
 # Extra Utilities
     recipes.remove(<extrautils2:ItemDestructionWand>);
     recipes.addShaped(<extrautils2:ItemDestructionWand>,
@@ -39,10 +48,12 @@
          [<ore:gemChimerite>,<ore:wireSteel>,<ore:gemChimerite>],
          [null,<grapplemod:launcheritem>,null]]);
 
-# Minecraft
-    recipes.remove(<minecraft:flint_and_steel>);
-    recipes.addShapeless(<minecraft:flint_and_steel>,
-        [<ore:knappedFlint>,<ore:ringIron>]);
+# Nomadic Tents
+    recipes.remove(<yurtmod:mallet>);
+    recipes.addShaped(<yurtmod:mallet>,
+        [[null,<primal:rock>,<ore:stickWood>],
+         [null,<yurtmod:tent_canvas>,<primal:rock>],
+         [<ore:stickWood>,null,null]]);
 
 # Roots
     recipes.remove(<roots:druidKnife>);
