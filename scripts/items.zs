@@ -74,6 +74,10 @@
          [<ore:vine>,<roots:oldRoot>,<ore:vine>],
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
+# PrimalCore
+    recipes.addShapeless(<primal:plant_fiber>,
+        [<ore:fiberHemp>,<ore:fiberHemp>]);
+
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);
     recipes.addShapeless(<tconstruct:soil>,
