@@ -916,7 +916,79 @@
 			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
 		</Veins>
-		
+		<Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+            <Description>
+                Small motherlodes without any branches. Similar to the
+                deposits produced by StandardGen distributions.
+            </Description>
+            <OreBlock block='immersiveengineering:ore:0' weight='1.0' />
+            <ReplacesOre block='sand' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+            <Description>
+                Large irregular clouds filled lightly  with ore.  These
+                are huge, spanning  several adjacent chunks, and
+                consequently  rather rare.  They contain a sizeable
+                amount of ore, but it takes some time and  effort to mine
+                due to low density. The  intent for strategic clouds is
+                that the  player will need to actively search for  one and
+                then set up a semi-permanent  mining base and spend some
+                time actually  mining the ore.
+             </Description>
+            <OreBlock block='immersiveengineering:ore:0' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'/>
+            <Setting name='CloudRadius'           avg=':= 1.707 * _default_ ' range=':= 1.707 * _default_ ' type='normal' />
+            <Setting name='CloudThickness'        avg=':= 1.707 * _default_ ' range=':= 1.707 * _default_ ' type='normal'  scaleTo='base' />
+            <Setting name='DistributionFrequency' avg=':= 2.914 * _default_ ' range=':= 2.914 * _default_ ' type='normal'  scaleTo='base' />
+            <Setting name='CloudHeight'           avg=':= 43 '                range=':= 20 '                type='uniform' scaleTo='base' />
+            <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+            <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Veins name='iengCopperHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+                <Description>
+                    Single blocks, generously scattered  through all heights
+                    (density is about  that of vanilla iron ore). They will
+                    replace dirt and sandstone (but not  grass or sand), so
+                    they can be found  nearer to the surface than most ores.
+                    Intened to be used as a child  distribution for large,
+                    rare  strategic deposits that would  otherwise be very
+                    difficult to find.  Note that the frequency is
+                    multiplied  by ground level to maintain a  constant
+                    density, but not by ore  frequency because it is assumed
+                    that  the frequency of the parent  distribution will
+                    already be scaled  by that.
+                </Description>
+                <OreBlock block='fp:erze:0' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 0.925 * _default_ ' range=':= 0.925 * _default_ ' type='normal' scaleTo='base' />
+            </Veins>
+        </Cloud>
+
 		<!-- Aluminum (Bauxite) Veins -->
 		<Veins name='iengBauxiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60FF0000' drawBoundBox='false' boundBoxColor='0x60FF0000'>
 			<Description>
