@@ -75,7 +75,7 @@
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
 # PrimalCore
-    recipes.addShapeless(<primal:plant_fiber>,
+    recipes.addShapeless(<primal:plant_cordage>,
         [<ore:fiberHemp>,<ore:fiberHemp>]);
 
 # Tinker's Construct
