@@ -455,7 +455,7 @@
                 <IfModInstalled name="abyssalcraft">
                     <!-- Iron Geode -->
                     <ConfigSection>
-                        <Veins name='quarkIronGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x8B6C' drawWireframe='true' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Veins name='quarkIronGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                             <Description>
                                 Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                             </Description>
@@ -500,7 +500,7 @@
                             <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                         </Veins>
                         
-                        <Veins name='quarkIronLavaGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x138B' drawWireframe='true' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Veins name='quarkIronLavaGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                             <Description>
                                 Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                             </Description>
@@ -548,7 +548,7 @@
                     
                     <!-- Tin/Nitre Geode -->
                     <ConfigSection>
-                        <Veins name='quarkTinGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x4D15' drawWireframe='true' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Veins name='quarkTinGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                             <Description>
                                 Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                             </Description>
@@ -595,7 +595,7 @@
                             <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                         </Veins>
                         
-                        <Veins name='quarkTinQuickGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xA0F8' drawWireframe='true' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Veins name='quarkTinQuickGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                             <Description>
                                 Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                             </Description>

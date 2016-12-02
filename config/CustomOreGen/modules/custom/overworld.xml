@@ -571,7 +571,7 @@
     <!-- Forestry -->
     <!-- Apatite -->
     <IfModInstalled name="forestry">
-        <Veins name='foreApatiteVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60FF4500' drawBoundBox='false' boundBoxColor='0x60FF4500'>
+        <Veins name='foreApatiteVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60FF4500' drawBoundBox='false' boundBoxColor='0x60FF4500'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.
@@ -719,7 +719,7 @@
     <!-- Futurepack -->
     <!-- Tin and Zinc -->
     <IfModInstalled name="fp">
-        <Veins name='fupaZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
+        <Veins name='fupaZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
 			<Description>
 				Small, fairly rare motherlodes with 2-4 horizontal veins each.
 			</Description>
@@ -744,7 +744,7 @@
 			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
 		</Veins>
 		<!-- Zinc clouds -->
-        <Cloud name='fupaZincCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
+        <Cloud name='fupaZincCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
@@ -768,7 +768,7 @@
             <Setting name='OreDensity'            avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
             <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ ' range=':= _default_ ' type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ ' range=':= _default_ ' type='normal' />
-            <Veins name='fupaZincHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
+            <Veins name='fupaZincHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
                 <Description>
                     Single blocks, generously scattered  through all heights
                     (density is about  that of vanilla iron ore). They will
@@ -791,7 +791,7 @@
             </Veins>
         </Cloud>
         <!-- Tin Veins -->
-        <Veins name='fupaTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Veins name='fupaTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
 			<Description>
 				Small, fairly rare motherlodes with 2-4 horizontal veins each.
 			</Description>
@@ -816,7 +816,7 @@
 			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
 		</Veins>
         <!-- Tin clouds -->
-        <Cloud name='fupaTinCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Cloud name='fupaTinCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
@@ -840,7 +840,7 @@
             <Setting name='OreDensity'            avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
             <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ ' range=':= _default_ ' type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ ' range=':= _default_ ' type='normal' />
-            <Veins name='fupaZincHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+            <Veins name='fupaZincHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
                 <Description>
                     Single blocks, generously scattered  through all heights
                     (density is about  that of vanilla iron ore). They will
@@ -868,7 +868,7 @@
     <!-- Copper, Aluminum, Lead, Silver, Uranium (rare)-->
     <IfModInstalled name="immersiveengineering">
         <!-- Starting Copper Veins. -->
-        <Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+        <Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -892,7 +892,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-		<Veins name='iengMountainCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+		<Veins name='iengMountainCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
 			<Description>
 				Small, fairly rare motherlodes with 2-4 horizontal veins each.
 			</Description>
@@ -942,7 +942,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
@@ -966,7 +966,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
             <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-            <Veins name='iengCopperHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+            <Veins name='iengCopperHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
                 <Description>
                     Single blocks, generously scattered  through all heights
                     (density is about  that of vanilla iron ore). They will

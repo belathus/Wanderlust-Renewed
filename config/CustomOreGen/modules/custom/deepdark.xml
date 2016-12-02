@@ -987,7 +987,7 @@
     			</Veins>
     			
                 <!-- Granite/Arcanite Ore Geode -->
-                <Veins name='taigaDDGraniteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x3621' drawWireframe='true' wireframeColor='0x609C661F' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDGraniteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x609C661F' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
@@ -1018,7 +1018,7 @@
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='taigaDDGraniteGeodeCenter'  inherits='taigaDDGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='true' wireframeColor='0x60D2B48C' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDGraniteGeodeCenter'  inherits='taigaDDGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x60D2B48C' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:air' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0'/>
                     <ReplacesOre block='cobblestone' weight='1.0'/>
@@ -1031,7 +1031,7 @@
                 
                 
                 <!-- Diorite/Mindorite Ore Geode -->
-                <Veins name='taigaDDDioriteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='true' wireframeColor='0x60EEDFCC' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='taigaDDDioriteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x60EEDFCC' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
@@ -1075,7 +1075,7 @@
                 
                 
                 <!-- Andesite/Eternite Ore Geode -->
-                <Veins name='taigaDDAndesiteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x83D8' drawWireframe='true' wireframeColor='0x608B8989' drawBoundBox='false' boundBoxColor='0x608B8989'>
+                <Veins name='taigaDDAndesiteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608B8989' drawBoundBox='false' boundBoxColor='0x608B8989'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
@@ -1106,7 +1106,7 @@
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='taigaDDAndesiteGeodeCenter'  inherits='taigaDDAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='true' wireframeColor='0x608B6969' drawBoundBox='false' boundBoxColor='0x608B6969'>
+                <Veins name='taigaDDAndesiteGeodeCenter'  inherits='taigaDDAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608B6969' drawBoundBox='false' boundBoxColor='0x608B6969'>
                     <OreBlock block='minecraft:air' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0'/>
                     <ReplacesOre block='cobblestone' weight='1.0'/>
