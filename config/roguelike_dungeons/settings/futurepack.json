@@ -5,7 +5,10 @@
         "weight" : 1
     },
     "tower" : {
-        "type" : "WITCH"
+        "type" : "WITCH",
+		"theme" : {
+			"base" : "ETHOTOWER"
+		}
     },
     "loot_rules" : [
         {
@@ -144,6 +147,271 @@
                             "name" : "fp:color_iron",
                             "meta" : 1
                         }
+                    }
+                }
+            }
+        },
+		"1" : {
+            "range" : 45,
+            "numRooms" : 15,
+            "theme" : {
+                "base" : "QUARTZ",
+                "rooms" : [
+                    {
+                        "mode" : "single",
+                        "type" : "BRICK"
+                    },
+                    {
+                        "mode" : "random",
+                        "type" : "ETHO",
+                        "weight" : 1
+                    }
+                ],
+                "primary" : {
+                    "walls" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:futura",
+                            "meta": 1
+                        }
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:blockLead",
+                            "meta" : 0
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "fp:color_iron_stair11"
+                        }
+                    },
+                    "floor" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "fp:color_iron",
+                            "meta" : 11
+                        }
+                    }
+                },
+				"secondary" : {
+                    "walls" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:marble1",
+                            "meta": 2
+                        }
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:factory1",
+                            "meta" : 4
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "fp:metal_treppe"
+                        }
+                    },
+                    "floor" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:technical",
+                            "meta" : 7
+                        }
+                    }
+                }
+            }
+        },
+		"2" : {
+            "range" : 50,
+            "numRooms" : 20,
+            "theme" : {
+                "base" : "QUARTZ",
+                "rooms" : [
+                    {
+                        "mode" : "single",
+                        "type" : "BRICK"
+                    },
+                    {
+                        "mode" : "random",
+                        "type" : "ETHO",
+                        "weight" : 1
+                    }
+                ],
+                "primary" : {
+                    "walls" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:technical",
+                            "meta": 1
+                        }
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:futura",
+                            "meta" : 2
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "fp:color_iron_stair12"
+                        }
+                    },
+                    "floor" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "fp:color_iron",
+                            "meta" : 12
+                        }
+                    }
+                }
+            }
+        },
+		"3" : {
+            "range" : 55,
+            "numRooms" : 25,
+            "theme" : {
+                "base" : "SEWER",
+                "rooms" : [
+                    {
+                        "mode" : "single",
+                        "type" : "STORAGE"
+                    },
+                    {
+                        "mode" : "random",
+                        "type" : "NEBRIS",
+                        "weight" : 1
+                    }
+                ],
+                "primary" : {
+                    "walls" : {
+                        "type": "WEIGHTED",
+                        "data" : [
+                            {
+								"name" : "chisel:technical",
+								"meta": 12,
+								"weight" : 1
+							},
+							{
+								"name" : "chisel:technicalNew",
+								"meta": 6,
+								"weight": 2
+							}
+                        ]
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:technical",
+                            "meta" : 7
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "quark:iron_plate_stairs"
+                        }
+                    },
+                    "floor" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:technical",
+                            "meta" : 7
+                        }
+                    }
+                }
+            }
+        },
+		"4" : {
+            "range" : 60,
+            "numRooms" : 30,
+            "theme" : {
+                "base" : "SANDSTONERED",
+                "rooms" : [
+                    {
+                        "mode" : "single",
+                        "type" : "STORAGE"
+                    },
+					{
+                        "mode" : "single",
+                        "type" : "BEDROOM"
+                    },
+                    {
+                        "mode" : "random",
+                        "type" : "NEBRIS",
+                        "weight" : 1
+                    }
+                ],
+                "primary" : {
+                    "walls" : {
+                        "type": "WEIGHTED",
+                        "data" : [
+                            {
+								"name" : "fp:color_iron",
+								"meta" : 15,
+								"weight" : 4
+							},
+							{
+								"name" : "fp:color_iron",
+								"meta" : 14,
+								"weight" : 2
+							},
+							{
+								"name" : "chisel:netherbrick",
+								"meta" : 7,
+								"weight" : 4
+							},
+							{
+								"name" : "fp:color_luftung",
+								"meta" : 15,
+								"weight" : 1
+							}
+                        ]
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "chisel:futura",
+                            "meta" : 2
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "fp:color_iron_stair14"
+                        }
+                    },
+                    "floor" : {
+                        "type": "WEIGHTED",
+                        "data" : [
+                            {
+								"name" : "fp:color_iron",
+								"meta" : 14,
+								"weight" : 4
+							},
+							{
+								"name" : "chisel:netherbrick",
+								"meta" : 7,
+								"weight" : 4
+							},
+							{
+								"name" : "fp:color_iron",
+								"meta" : 15,
+								"weight" : 1
+							},
+							{
+								"name" : "fp:color_luftung",
+								"meta" : 15,
+								"weight" : 1
+							}
+                        ]
                     }
                 }
             }
