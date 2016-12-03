@@ -35,6 +35,22 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [<ore:gearGilded>,null,<ore:gearGilded>],
          [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
 
+# EnderIo
+    recipes.remove(<enderio:itemMachinePart>);
+    recipes.addShaped(<enderio:itemMachinePart>,
+        [[<ore:barsSteel>,<ore:ingotSteel>,<ore:barsSteel>],
+         [<ore:ingotSteel>,<enderio:itemBasicCapacitor>,<ore:ingotSteel>],
+         [<ore:barsSteel>,<ore:ingotSteel>,<ore:barsSteel>]]);
+    recipes.addShaped(<enderio:itemMachinePart>,
+        [[<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>],
+         [<ore:barsSteel>,<enderio:itemBasicCapacitor>,<ore:barsSteel>],
+         [<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>]]);
+    recipes.remove(<enderio:blockSagMill>);
+    recipes.addShaped(<enderio:blockSagMill>,
+        [[<ore:gearSteel>,<railcraft:borehead_diamond>,<ore:gearSteel>],
+         [<ore:ingotSteel>,<enderio:itemMachinePart>,<ore:ingotSteel>],
+         [<ore:ingotSteel>,<minecraft:piston>,       <ore:ingotSteel>]]);
+
 # Evilcraft
     recipes.remove(<evilcraft:bloodChest>);
     recipes.addShaped(<evilcraft:bloodChest>,
