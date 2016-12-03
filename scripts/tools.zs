@@ -55,6 +55,11 @@
          [null,<yurtmod:tent_canvas>,<primal:rock>],
          [<ore:stickWood>,null,null]]);
 
+# PrimalCore
+    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.marked("sticks").noReturn()], function(output, inputs, crafting) {
+        return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25));
+    });
+         
 # Roots
     recipes.remove(<roots:druidKnife>);
     recipes.addShaped(<roots:druidKnife>,

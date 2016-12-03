@@ -1,0 +1,1372 @@
+{
+  "name": "Starting in the Stone Age",
+  "description": "The Stone Age is a rather rough time to survive in. The wooden and stone tools you may be familiar with won\u0027t be availible to you, and even logs and crafting tables may present a challenge.",
+  "quests": [
+    {
+      "uuid": "590dd83a-b8ac-489e-b956-cb25adecafd8",
+      "name": "Technically Almost Planks",
+      "description": "Wattle can be made from branches and sticks, and counts as a type of plank.",
+      "x": 46,
+      "y": 15,
+      "icon": {
+        "id": "druidry:wattle"
+      },
+      "prerequisites": [
+        "a5d687f7-fc1f-48e4-ad51-8307c4469f2d"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Wattle",
+          "items": [
+            {
+              "item": {
+                "id": "druidry:wattle"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Crafting a Crafting Table",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "druidry:branch",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:stick",
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8d67c1f-25c4-4ae4-b8f1-899539069380",
+      "name": "Soggy Garden",
+      "description": "Look in Swamps",
+      "x": 191,
+      "y": 36,
+      "icon": {
+        "id": "harvestcraft:soggygarden"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:soggygarden"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6a0576f5-7f2e-4078-84b5-79060169c0d1",
+      "name": "Hunting",
+      "x": 171,
+      "y": 58,
+      "bigicon": true,
+      "icon": {
+        "id": "primal:sharp_bone"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "primal:sharp_bone"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b18f2b37-87db-4fe6-b2f5-ad46f06787ca",
+      "name": "Nets",
+      "description": "Nets can be made from string, these can snare mobs, buying you valuable time to kill or escape from monsters, as well as be used to catch fish. ",
+      "x": 190,
+      "y": 83,
+      "icon": {
+        "id": "fishing:itemNet"
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "fishing:itemNet"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "fishing:itemNet",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:string",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:fish",
+          "amount": 6
+        },
+        {
+          "id": "minecraft:fish",
+          "damage": 1,
+          "amount": 4
+        },
+        {
+          "id": "harvestcraft:mudfishrawItem",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc57b8e9-a3a8-4139-a9e2-265a949fe513",
+      "name": "Arid Gardens",
+      "x": 202,
+      "y": 16,
+      "icon": {
+        "id": "harvestcraft:aridgarden"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:aridgarden"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d349c5f4-4d20-4ecf-a09b-3a6f7a5a8be7",
+      "name": "Nature\u0027s Compass",
+      "x": 114,
+      "y": 87,
+      "icon": {
+        "id": "naturescompass:NaturesCompass"
+      },
+      "prerequisites": [
+        "7d764be1-9b65-44d9-94d2-8f90d5189347"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "600a3b50-cd40-4ec5-a096-f307289d24fa",
+      "name": "Unnamed",
+      "x": 89,
+      "y": 87,
+      "icon": {
+        "id": "primal:flint_hoe"
+      },
+      "prerequisites": [
+        "4042bc83-2f46-4da1-aa4d-bc5d05ceddfd"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "998dd725-5e03-4151-a286-68ff7a5db464",
+      "name": "Gatherer",
+      "description": "The Stone Age life is one of hunger. At least until you learn to tend, and transplant gardens and other sources of renewable food.",
+      "x": 173,
+      "y": 10,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:tallgrass",
+        "damage": 1
+      },
+      "commandrewards": []
+    },
+    {
+      "uuid": "0bea846d-dcbe-4fd8-adaf-5e347cbaef3e",
+      "name": "Seed Collection",
+      "x": 59,
+      "y": 162,
+      "icon": {
+        "id": "minecraft:wheat_seeds"
+      },
+      "prerequisites": [
+        "6ab25de9-2bf7-4e13-85c8-e1d02e6e55b3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Collect Seeds for Wheat \u0026 Hemp",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:seed"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:wheat_seeds",
+          "amount": 8
+        },
+        {
+          "id": "immersiveengineering:seed",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4042bc83-2f46-4da1-aa4d-bc5d05ceddfd",
+      "name": "Workblade",
+      "x": 77,
+      "y": 107,
+      "icon": {
+        "id": "primal:flint_workblade"
+      },
+      "prerequisites": [
+        "19f05e96-6f16-4d5c-997e-f0ba9c40a78c"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "df7c4ea3-4196-4ac4-a651-7e225297b815",
+      "name": "Replanting Apples",
+      "description": "Apples are great. It\u0027d be better if they were easier to get more regularly. You might be onto something here.",
+      "x": 260,
+      "y": 35,
+      "icon": {
+        "id": "harvestcraft:apple_sapling"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:apple"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:apple_sapling"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0f0ac340-873b-4865-9ac6-a1a05615ce26",
+      "name": "Berry Bushes",
+      "description": "Berry Bushes grow vertically when harvested, but out into clouds when left wild.",
+      "x": 271,
+      "y": 16,
+      "icon": {
+        "id": "natura:overworld_berrybush_raspberry"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "natura:overworld_berrybush_raspberry"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "natura:overworld_berrybush_blueberry"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "natura:overworld_berrybush_blackberry"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "natura:overworld_berrybush_maloberry"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "natura:soups",
+          "damage": 9,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e23d42b8-2877-4156-ba47-bf7a6cceb5df",
+      "name": "Shaded Garden",
+      "x": 248,
+      "y": 16,
+      "icon": {
+        "id": "harvestcraft:shadedgarden"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:shadedgarden"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "318cd241-41e3-4f23-93d1-5d80a0072ed2",
+      "name": "Unnamed",
+      "x": 220,
+      "y": 171,
+      "icon": {
+        "id": "primal:flint_pickaxe"
+      },
+      "prerequisites": [
+        "19f05e96-6f16-4d5c-997e-f0ba9c40a78c"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "88fd2bc4-602d-478e-bcf7-a2217ef3c367",
+      "name": "Unnamed",
+      "x": 244,
+      "y": 171,
+      "icon": {
+        "id": "minecraft:furnace"
+      },
+      "prerequisites": [
+        "318cd241-41e3-4f23-93d1-5d80a0072ed2"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d6a90d73-ec6f-4209-acc6-3d50e98b43b2",
+      "name": "Unnamed",
+      "x": 232,
+      "y": 150,
+      "icon": {
+        "id": "primal:stone_basin"
+      },
+      "prerequisites": [
+        "318cd241-41e3-4f23-93d1-5d80a0072ed2"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bfd41b0d-3399-4a4a-90e8-b62b238e037e",
+      "name": "Hunting Monsters",
+      "x": 270,
+      "y": 64,
+      "icon": {
+        "id": "minecraft:web"
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Kill Spiders",
+              "icon": {
+                "id": "minecraft:string"
+              },
+              "mob": "Spider",
+              "kills": 5,
+              "exact": false
+            },
+            {
+              "name": "Kill Creepers",
+              "icon": {
+                "id": "minecraft:gunpowder"
+              },
+              "mob": "Creeper",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de15d4b6-5231-44f6-9187-e2d3191c8931",
+      "name": "Unnamed",
+      "x": 72,
+      "y": 141,
+      "icon": {
+        "id": "primal:torch_wood"
+      },
+      "prerequisites": [
+        "e49da191-9077-4f0d-b692-2ac825fc4bd2",
+        "70ed9e51-3675-4ae3-ac1d-0300c37602a8"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ab416da5-6fd9-47fa-8bf8-25ed573c39da",
+      "name": "Unnamed",
+      "x": 232,
+      "y": 192,
+      "icon": {
+        "id": "primal:stone_gallagher"
+      },
+      "prerequisites": [
+        "318cd241-41e3-4f23-93d1-5d80a0072ed2"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7d764be1-9b65-44d9-94d2-8f90d5189347",
+      "name": "Unnamed",
+      "x": 101,
+      "y": 108,
+      "icon": {
+        "id": "primal:flint_shears"
+      },
+      "prerequisites": [
+        "4042bc83-2f46-4da1-aa4d-bc5d05ceddfd"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d5133f2c-1af9-4b7a-91f5-d82d1f90d2e7",
+      "name": "Flint",
+      "description": "Flint is all around you, in dirt and sand, but most especially in gravel.",
+      "x": 29,
+      "y": 78,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:flint"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:flint"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:flint",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:flint",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:gravel",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8e480fcf-2550-4c5b-9b2a-04aba0688d47",
+      "name": "Hunting Predators",
+      "x": 224,
+      "y": 64,
+      "icon": {
+        "id": "evilcraft:werewolfFur"
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Kill Wolves",
+              "icon": {
+                "id": "minecraft:bone"
+              },
+              "mob": "Wolf",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Kill Bears",
+              "icon": {
+                "id": "minecraft:fish",
+                "damage": 1
+              },
+              "mob": "PolarBear",
+              "kills": 3,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "63b33fc9-cccb-4060-a992-b974f7fe67af",
+      "name": "Unnamed",
+      "x": 21,
+      "y": 57,
+      "icon": {
+        "id": "primal:flint_shovel"
+      },
+      "prerequisites": [
+        "d5133f2c-1af9-4b7a-91f5-d82d1f90d2e7"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c452f5d-25a0-43e2-ab5a-1e26efe35017",
+      "name": "Packed Dirt Bricks",
+      "description": "What to do with all that  dirt? Pack it into bricks. These bricks don\u0027t allow grass to grow atop them, and also protect you from monster spawning atop as well. This is a not uncommon feature of Primal Core Blocks.",
+      "x": 46,
+      "y": 185,
+      "icon": {
+        "id": "primal:dirt_brick"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "primal:dirt_brick"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4121a95e-dda2-44ea-b556-d1b7842cb1bf",
+      "name": "Master Gatherer",
+      "description": "You\u0027ve gathered a lot, here have a reward  for your hard work.",
+      "x": 283,
+      "y": 33,
+      "bigicon": true,
+      "icon": {
+        "id": "forestry:foresterBag"
+      },
+      "prerequisites": [
+        "b8d67c1f-25c4-4ae4-b8f1-899539069380",
+        "cc57b8e9-a3a8-4139-a9e2-265a949fe513",
+        "df7c4ea3-4196-4ac4-a651-7e225297b815",
+        "0f0ac340-873b-4865-9ac6-a1a05615ce26",
+        "e23d42b8-2877-4156-ba47-bf7a6cceb5df",
+        "b229fe78-7711-41a8-977c-a91aead2c521",
+        "131e3627-5374-428e-b1c5-b82064903412",
+        "bb6dc615-113d-4e2c-ac84-6587183ad410"
+      ],
+      "reward": [
+        {
+          "id": "forestry:foresterBag"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "db55fb11-2396-4c42-a807-37ac53045e3d",
+      "name": "Unnamed",
+      "x": 258,
+      "y": 83,
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c3936473-0c53-45f3-8d9b-d8c169d0fe32",
+      "name": "Archery",
+      "x": 235,
+      "y": 83,
+      "icon": {
+        "id": "minecraft:bow"
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bow"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:arrow"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8cca9a7-4050-4758-940e-c4aecbeaa773",
+      "name": "Simple Flint Hatchet",
+      "description": "With a Single Flint and two sticks you can make a Simple Flint Hatchet (Druidry).  This tool counts as an axe for breaking logs, and repairs when crafted with sticks for long lifespan.",
+      "x": 45,
+      "y": 57,
+      "icon": {
+        "id": "druidry:flint_axe"
+      },
+      "prerequisites": [
+        "d5133f2c-1af9-4b7a-91f5-d82d1f90d2e7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft a Simple Flint Hatchet",
+          "items": [
+            {
+              "item": {
+                "id": "druidry:flint_axe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:flint",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:sapling",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:sapling",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:sapling",
+          "damage": 2,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c8a185c-ee3f-4f88-a4ce-2bba4df549eb",
+      "name": "Campfire",
+      "description": "Pile some branches together in your crafting  grid to gain a basic method of cooking food.  *Warning Do Not Stand on Fire!*",
+      "x": 34,
+      "y": 36,
+      "icon": {
+        "id": "druidry:campfire"
+      },
+      "prerequisites": [
+        "a5d687f7-fc1f-48e4-ad51-8307c4469f2d"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft a Campfire",
+          "items": [
+            {
+              "item": {
+                "id": "druidry:campfire"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc15c282-0167-4f53-b84d-3813a8e94fe9",
+      "name": "Smeltery",
+      "x": 290,
+      "y": 149,
+      "bigicon": true,
+      "icon": {
+        "id": "tconstruct:smeltery_controller"
+      },
+      "prerequisites": [
+        "83923676-17a8-4cd4-9941-da5a3f8c601e",
+        "85085215-82b4-43d1-8278-2ee53f470a12"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "19f05e96-6f16-4d5c-997e-f0ba9c40a78c",
+      "name": "Knap Time!",
+      "description": "Knapping Flint is simpler then one might think. just hit flint against stone or similarly hard blocks as if you were trying to break them.",
+      "x": 45,
+      "y": 105,
+      "bigicon": true,
+      "icon": {
+        "id": "primal:flint_knapp"
+      },
+      "prerequisites": [
+        "d5133f2c-1af9-4b7a-91f5-d82d1f90d2e7",
+        "70ed9e51-3675-4ae3-ac1d-0300c37602a8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "primal:flint_knapp"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "primal:flint_knapp",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:flint",
+          "amount": 12
+        },
+        {
+          "id": "minecraft:gravel",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "83923676-17a8-4cd4-9941-da5a3f8c601e",
+      "name": "Unnamed",
+      "x": 268,
+      "y": 171,
+      "icon": {
+        "id": "tconstruct:materials"
+      },
+      "prerequisites": [
+        "88fd2bc4-602d-478e-bcf7-a2217ef3c367",
+        "412e4890-d089-41be-b34d-7d90dbe7e975"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f1d308db-c502-4d27-9382-ebcea2d446ca",
+      "name": "Hunting Prey",
+      "x": 201,
+      "y": 64,
+      "icon": {
+        "id": "minecraft:leather"
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Kill Cows",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 92
+              },
+              "mob": "Cow",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Kill Chickens",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 93
+              },
+              "mob": "Chicken",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Kill Rabbits",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 101
+              },
+              "mob": "Rabbit",
+              "kills": 3,
+              "exact": false
+            },
+            {
+              "name": "Kill Pigs",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 90
+              },
+              "mob": "Pig",
+              "kills": 3,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a0fad5d5-fef0-413f-ab3d-27473408e54e",
+      "name": "Unnamed",
+      "x": 60,
+      "y": 80,
+      "icon": {
+        "id": "primal:flint_hatchet"
+      },
+      "prerequisites": [
+        "19f05e96-6f16-4d5c-997e-f0ba9c40a78c"
+      ],
+      "reward": [
+        {
+          "id": "primal:flint_hatchet"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b229fe78-7711-41a8-977c-a91aead2c521",
+      "name": "Windy Garden",
+      "description": "Look in Plains and Hills",
+      "x": 237,
+      "y": 35,
+      "icon": {
+        "id": "harvestcraft:windygarden"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:windygarden"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0238bf07-7acb-497d-a367-b54af41fe560",
+      "name": "Flint Saw",
+      "x": 95,
+      "y": 54,
+      "bigicon": true,
+      "prerequisites": [
+        "1dfcfaa8-3971-44f9-a522-31408cdaaaa1"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "85085215-82b4-43d1-8278-2ee53f470a12",
+      "name": "Tinker\u0027s Construct",
+      "description": "Tinker\u0027s tools are pretty  cool, but we\u0027re not  walking you through all of it. It\u0027s also pretty substantial and has lots of intricacies.",
+      "x": 104,
+      "y": 14,
+      "icon": {
+        "id": "tconstruct:tooltables"
+      },
+      "prerequisites": [
+        "590dd83a-b8ac-489e-b956-cb25adecafd8",
+        "0238bf07-7acb-497d-a367-b54af41fe560"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:pattern"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "tconstruct:book"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9841ac32-a100-4b29-aeee-740560a37792",
+      "name": "Hunting The Dead",
+      "x": 247,
+      "y": 64,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 2
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Kill Zombies",
+              "icon": {
+                "id": "minecraft:rotten_flesh"
+              },
+              "mob": "Zombie",
+              "kills": 7,
+              "exact": false
+            },
+            {
+              "name": "Kill Skeletons",
+              "icon": {
+                "id": "minecraft:bone"
+              },
+              "mob": "Skeleton",
+              "kills": 7,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e49da191-9077-4f0d-b692-2ac825fc4bd2",
+      "name": "Charcoal Lumps",
+      "description": "Charcoal is a pretty convenient material... oh wait, no it isn\u0027t.",
+      "x": 58,
+      "y": 36,
+      "icon": {
+        "id": "rockhounding_oretiers:tiersItems",
+        "damage": 4
+      },
+      "prerequisites": [
+        "f8cca9a7-4050-4758-940e-c4aecbeaa773",
+        "9c8a185c-ee3f-4f88-a4ce-2bba4df549eb"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "rockhounding_oretiers:tiersItems",
+                "damage": 4
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4bd9b59d-46bc-4eda-aa12-737bcfbd5c4a",
+      "name": "Unnamed",
+      "x": 291,
+      "y": 184,
+      "bigicon": true,
+      "icon": {
+        "id": "esteemedinnovation:crucible"
+      },
+      "prerequisites": [
+        "83923676-17a8-4cd4-9941-da5a3f8c601e"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "80d3c187-6d97-48e1-baa9-b38a24388219",
+      "name": "Master Hunter",
+      "x": 281,
+      "y": 82,
+      "bigicon": true,
+      "icon": {
+        "id": "forestry:hunterBag"
+      },
+      "prerequisites": [
+        "b18f2b37-87db-4fe6-b2f5-ad46f06787ca",
+        "bfd41b0d-3399-4a4a-90e8-b62b238e037e",
+        "8e480fcf-2550-4c5b-9b2a-04aba0688d47",
+        "db55fb11-2396-4c42-a807-37ac53045e3d",
+        "c3936473-0c53-45f3-8d9b-d8c169d0fe32",
+        "f1d308db-c502-4d27-9382-ebcea2d446ca",
+        "9841ac32-a100-4b29-aeee-740560a37792",
+        "8d09b7a7-0c16-4b1f-acda-9d8494b3f0fe"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "412e4890-d089-41be-b34d-7d90dbe7e975",
+      "name": "Unnamed",
+      "x": 256,
+      "y": 150,
+      "icon": {
+        "id": "tconstruct:soil"
+      },
+      "prerequisites": [
+        "d6a90d73-ec6f-4209-acc6-3d50e98b43b2"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0f800be-d4b3-4687-af53-65acd9b3994f",
+      "name": "Unnamed",
+      "x": 96,
+      "y": 141,
+      "icon": {
+        "id": "primal:fire_bow"
+      },
+      "prerequisites": [
+        "de15d4b6-5231-44f6-9187-e2d3191c8931"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "131e3627-5374-428e-b1c5-b82064903412",
+      "name": "Tropical Garden",
+      "description": "Look in Jungles and Tropical Locales.",
+      "x": 214,
+      "y": 35,
+      "icon": {
+        "id": "harvestcraft:tropicalgarden"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d09b7a7-0c16-4b1f-acda-9d8494b3f0fe",
+      "name": "Punji Sticks",
+      "x": 213,
+      "y": 83,
+      "icon": {
+        "id": "tconstruct:punji"
+      },
+      "prerequisites": [
+        "6a0576f5-7f2e-4078-84b5-79060169c0d1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:punji"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "70ed9e51-3675-4ae3-ac1d-0300c37602a8",
+      "name": "Entwining",
+      "description": "Roll those grass fibers into useful twine.",
+      "x": 48,
+      "y": 140,
+      "icon": {
+        "id": "primal:plant_fiber"
+      },
+      "prerequisites": [
+        "6ab25de9-2bf7-4e13-85c8-e1d02e6e55b3"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft 3 Twine",
+          "items": [
+            {
+              "item": {
+                "id": "primal:plant_cordage"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bb6dc615-113d-4e2c-ac84-6587183ad410",
+      "name": "Frost Garden",
+      "x": 225,
+      "y": 16,
+      "icon": {
+        "id": "harvestcraft:frostgarden"
+      },
+      "prerequisites": [
+        "998dd725-5e03-4151-a286-68ff7a5db464"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:frostgarden"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6ab25de9-2bf7-4e13-85c8-e1d02e6e55b3",
+      "name": "Punching Grass",
+      "description": "While you can\u0027t punch a log and get anything you need, you can punch grass (Block or tall), and get handfulls of grass fiber.",
+      "x": 28,
+      "y": 158,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:grass"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Collect Fiber",
+          "items": [
+            {
+              "item": {
+                "id": "primal:plant_fiber"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:grass",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 8
+        },
+        {
+          "id": "primal:plant_fiber",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a5d687f7-fc1f-48e4-ad51-8307c4469f2d",
+      "name": "Leaves not Logs",
+      "description": "You may notice you can\u0027t break logs with your bare hands (or bear hands) and get anything worth dropping. Try scavenging by breaking leaves to get some starting resources.",
+      "x": 15,
+      "y": 9,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:leaves"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "druidry:branch"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:stick"
+              },
+              "required": 8,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:berries",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "harvestcraft:raspberryItem",
+          "amount": 8
+        },
+        {
+          "id": "harvestcraft:blackberryItem",
+          "amount": 8
+        },
+        {
+          "id": "harvestcraft:blueberryItem",
+          "amount": 8
+        },
+        {
+          "id": "harvestcraft:gooseberryItem",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfc44e59-d39c-4c9f-bc9a-daa2747e1dfb",
+      "name": "Unnamed",
+      "x": 208,
+      "y": 192,
+      "commandrewards": []
+    },
+    {
+      "uuid": "1dfcfaa8-3971-44f9-a522-31408cdaaaa1",
+      "name": "Unnamed",
+      "x": 70,
+      "y": 57,
+      "icon": {
+        "id": "primal:flint_axe"
+      },
+      "prerequisites": [
+        "f8cca9a7-4050-4758-940e-c4aecbeaa773",
+        "a0fad5d5-fef0-413f-ab3d-27473408e54e"
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
