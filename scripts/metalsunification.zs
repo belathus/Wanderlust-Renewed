@@ -70,6 +70,7 @@
     recipes.remove(<embers:plateIron>);
     recipes.remove(<railcraft:plate:0>);
     recipes.addShapeless(<embers:plateIron>,[<ore:ingotIron>,<embers:tinkerHammer:*>.reuse()]);
+    furnace.remove(<minecraft:iron_ingot>);
 
 
 # Lead
