@@ -11,17 +11,185 @@
 		}
     },
     "loot_rules" : [
-        {
+		{
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "fp:magnet_helmet", "ench" : 1}, "weight" : 1},
-				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 1}, "weight" : 1},
-				{"data" : {"name" : "fp:magnet_leggings", "ench" : 1}, "weight" : 1},
-				{"data" : {"name" : "fp:magnet_boots", "ench" : 1}, "weight" : 1}
+				{"data" : {"name" : "fp:magnet_helmet", "ench" : 2}, "weight" : 1}
 			],
-			"level" : [0, 1, 2, 3, 4],
-			"each" : true,
-			"quantity" : 1
+			"level" : 0,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 2}, "weight" : 1}
+			],
+			"level" : 0,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_leggings", "ench" : 2}, "weight" : 1}
+			],
+			"level" : 0,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_boots", "ench" : 2}, "weight" : 1}
+			],
+			"level" : 0,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_helmet", "ench" : 8}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 8}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_leggings", "ench" : 8}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_boots", "ench" : 8}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_helmet", "ench" : 14}, "weight" : 1}
+			],
+			"level" : 2,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 14}, "weight" : 1}
+			],
+			"level" : 2,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_leggings", "ench" : 14}, "weight" : 1}
+			],
+			"level" : 2,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_boots", "ench" : 14}, "weight" : 1}
+			],
+			"level" : 2,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_helmet", "ench" : 22}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 22}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_leggings", "ench" : 22}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_boots", "ench" : 22}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_helmet", "ench" : 30}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 30}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_leggings", "ench" : 30}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 2
+        },
+		{
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "fp:magnet_boots", "ench" : 30}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 2
         },
 		{	
 			"type" : "TOOLS", 
@@ -34,6 +202,114 @@
 			"level" : 0,
 			"each" : true,
 			"quantity" : 3
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_pickaxe", "ench" : 10}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_axe", "ench" : 10}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_hoe", "ench" : 10}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_spade", "ench" : 10}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_pickaxe"}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_axe"}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_hoe"}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_spade"}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_pickaxe", "ench" : 20}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_axe", "ench" : 20}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_hoe", "ench" : 20}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"name" : "fp:composite_spade", "ench" : 20}, "weight" : 1}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 1
 		},
 		{	
 			"type" : "FOOD", 
