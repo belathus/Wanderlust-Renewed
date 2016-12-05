@@ -20,5 +20,59 @@
     }
   ],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+    {
+      "function" : "choose",
+      "functions" : [
+        {
+          "weight" : 100,
+          "function" : "all",
+          "functions" : [
+            {
+              "function" : "equip",
+              "override" : "true",
+              "id" : "primal:sharp_bone",
+              "slot" : 0
+            }
+          ]
+        },
+        {
+          "weight" : 10,
+          "function" : "all",
+          "functions" : [
+            {
+              "function" : "equip",
+              "override" : "true",
+              "id" : "primal:flint_workblade",
+              "slot" : 0
+            }
+          ]
+        },
+        {
+          "weight" : 8,
+          "function" : "all",
+          "functions" : [
+            {
+              "function" : "equip",
+              "override" : "true",
+              "id" : "dungeontactics:bronze_knife",
+              "slot" : 0
+            }
+          ]
+        },
+        {
+          "weight" : 5,
+          "function" : "all",
+          "functions" : [
+            {
+              "function" : "equip",
+              "override" : "true",
+              "id" : "dungeontactics:bronze_sword",
+              "slot" : 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
