@@ -1,6 +1,24 @@
 {
   "_name": "Zombie",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "remove",
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "function" : "if_recently_hit",
+      "functions" : [
+        {
+          "_comment" : "Adding copper ingots to the zombie's drops",
+          "function" : "add",
+          "count" : 0.025,
+          "id" : "immersiveengineering:metal",
+          "damage" : 0,
+          "count" : 1
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
