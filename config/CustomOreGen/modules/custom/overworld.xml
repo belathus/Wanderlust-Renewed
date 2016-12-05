@@ -868,7 +868,7 @@
     <!-- Copper, Aluminum, Lead, Silver, Uranium (rare)-->
     <IfModInstalled name="immersiveengineering">
         <!-- Starting Copper Veins. -->
-        <Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+        <Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -916,7 +916,7 @@
 			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
 		</Veins>
-		<Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+		<Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.
@@ -942,7 +942,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
@@ -966,7 +966,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
             <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-            <Veins name='iengCopperHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+            <Veins name='iengCopperHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
                 <Description>
                     Single blocks, generously scattered  through all heights
                     (density is about  that of vanilla iron ore). They will
