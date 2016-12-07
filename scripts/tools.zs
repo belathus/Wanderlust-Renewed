@@ -14,7 +14,25 @@
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
         [<ore:flakeFlint>,<ore:ringIron>]);
-        
+
+# Base Metals
+    recipes.remove(<basemetals:copper_crackhammer>);
+    recipes.remove(<basemetals:lead_crackhammer>);
+    recipes.remove(<basemetals:nickel_crackhammer>);
+    recipes.remove(<basemetals:platinum_crackhammer>);
+    recipes.remove(<basemetals:silver_crackhammer>);
+    recipes.remove(<basemetals:stone_crackhammer>);
+    recipes.remove(<basemetals:tin_crackhammer>);
+    recipes.remove(<basemetals:wood_crackhammer>);
+    JEI.hide(<basemetals:copper_crackhammer>);
+    JEI.hide(<basemetals:lead_crackhammer>);
+    JEI.hide(<basemetals:nickel_crackhammer>);
+    JEI.hide(<basemetals:platinum_crackhammer>);
+    JEI.hide(<basemetals:silver_crackhammer>);
+    JEI.hide(<basemetals:stone_crackhammer>);
+    JEI.hide(<basemetals:tin_crackhammer>);
+    JEI.hide(<basemetals:wood_crackhammer>);
+
 # Blood Magic
     # Sacrificial Dagger
     recipes.remove(<bloodmagic:ItemSacrificialDagger>);
