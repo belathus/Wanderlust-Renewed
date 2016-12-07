@@ -14,7 +14,12 @@
 #    recipes.remove(<minecraft:flint_and_steel>);
 #    recipes.addShapeless(<minecraft:flint_and_steel>,
 #        [<ore:knappedFlint>,<ore:ringIron>]);
-
+# Blood Magic
+    recipes.remove(<bloodmagic:ItemSacrificialDagger>);
+    recipes.addShaped(<bloodmagic:ItemSacrificialDagger>,
+        [[null,<ore:pointFlint>,null],
+         [<evilcraft:hardenedBloodShard>,<ore:flakeFlint>,<evilcraft:hardenedBloodShard>],
+         [null,<ore:stickWood>,null]]);
 # Extra Utilities
     recipes.remove(<extrautils2:ItemDestructionWand>);
     recipes.addShaped(<extrautils2:ItemDestructionWand>,
