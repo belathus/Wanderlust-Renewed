@@ -28,6 +28,13 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [null,<ore:ingotSilver>,null],
          [<ore:bricksStone>,<ore:bricksStone>,<ore:bricksStone>]]);
 
+# Blood Magic
+    recipes.remove(<bloodmagic:BlockAltar>);
+    recipes.addShaped(<bloodmagic:BlockAltar>,
+        [[<ore:stone>,null,<ore:stone>],
+         [<ore:stone>,<minecraft:furnace>,<ore:stone>],
+         [<ore:nuggetSilver>,<bloodmagic:ItemMonsterSoul>,<ore:nuggetSilver>]]);
+
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);
     recipes.addShaped(<deepresonance:machine_frame>,
