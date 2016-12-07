@@ -14,12 +14,25 @@
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
         [<ore:flakeFlint>,<ore:ringIron>]);
+        
 # Blood Magic
+    # Sacrificial Dagger
     recipes.remove(<bloodmagic:ItemSacrificialDagger>);
     recipes.addShaped(<bloodmagic:ItemSacrificialDagger>,
         [[null,<ore:pointFlint>,null],
          [<evilcraft:hardenedBloodShard>,<ore:flakeFlint>,<evilcraft:hardenedBloodShard>],
          [null,<ore:stickWood>,null]]);
+    # Rudimentary Soul Snare
+    recipes.remove(<bloodmagic:ItemSoulSnare>);
+    recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
+        [[<primal:rock>,null,<primal:rock>],
+         [null,<fishing:itemNet>,null],
+         [<primal:rock>,null,<primal:rock>]]);
+    recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
+        [[null,<primal:rock>,null],
+         [<primal:rock>,<fishing:itemNet>,<primal:rock>],
+         [null,<primal:rock>,null]]);
+         
 # Extra Utilities
     recipes.remove(<extrautils2:ItemDestructionWand>);
     recipes.addShaped(<extrautils2:ItemDestructionWand>,
@@ -32,22 +45,18 @@
     recipes.remove(<grapplemod:hookshot>);
     recipes.remove(<grapplemod:launcheritem>);
     recipes.remove(<grapplemod:magnetbow>);
-
     recipes.addShaped(<grapplemod:grapplinghook>,
         [[<ore:nuggetSteel>,<ore:ingotSteel>,<ore:nuggetSteel>],
          [<ore:nuggetSteel>,<ore:wireSteel>,<ore:nuggetSteel>],
          [null,<ore:wireSteel>,null]]);
-
     recipes.addShaped(<grapplemod:hookshot>,
         [[null,<grapplemod:grapplinghook>,null],
          [<ore:gearGilded>,<ore:wireSteel>,<ore:gearGilded>],
          [null,<forestry:sturdyMachine>,null]]);
-
     recipes.addShaped(<grapplemod:launcheritem>,
         [[null,<ore:dustVinteum>,<ore:enderpearl>],
          [<ore:dustVinteum>,<ore:ingotSteel>,<ore:dustVinteum>],
          [<ore:ingotSteel>,<ore:dustVinteum>,null]]);
-
     recipes.addShaped(<grapplemod:magnetbow>,
         [[null,<grapplemod:grapplinghook>,null],
          [<ore:gemChimerite>,<ore:wireSteel>,<ore:gemChimerite>],
