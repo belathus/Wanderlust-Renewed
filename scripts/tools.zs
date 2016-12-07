@@ -11,9 +11,9 @@
         [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
          [<ore:plankWood>,<ore:ingotBronze>,<ore:plankWood>],
          [null,<ore:plankWood>,null]]);
-    recipes.remove(<minecraft:flint_and_steel>);
-    recipes.addShapeless(<minecraft:flint_and_steel>,
-        [<ore:knappedFlint>,<ore:ringIron>]);
+#    recipes.remove(<minecraft:flint_and_steel>);
+#    recipes.addShapeless(<minecraft:flint_and_steel>,
+#        [<ore:knappedFlint>,<ore:ringIron>]);
 
 # Extra Utilities
     recipes.remove(<extrautils2:ItemDestructionWand>);

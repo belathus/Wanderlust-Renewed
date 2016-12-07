@@ -26,7 +26,7 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
     recipes.addShaped(<arsmagica2:occulus>,
         [[<ore:ingotSilver>,<ore:gemBlueTopaz>,<ore:ingotSilver>],
          [null,<ore:ingotSilver>,null],
-         [<ore:brickStone>,<ore:brickStone>,<ore:brickStone>]]);
+         [<ore:bricksStone>,<ore:bricksStone>,<ore:bricksStone>]]);
 
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);

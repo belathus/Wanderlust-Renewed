@@ -1,78 +1,100 @@
 {
-  "_name": "Zombie",
-  "drops": [
-    {
-      "function" : "remove",
-      "id": "minecraft:iron_ingot"
-    },
-    {
-      "function" : "if_recently_hit",
-      "functions" : [
+    "_name": "Zombie",
+    "drops": [
         {
-          "_comment" : "Adding copper ingots to the zombie's drops",
-          "function" : "add",
-          "count" : 0.025,
-          "id" : "immersiveengineering:metal",
-          "damage" : 0,
-          "count" : 1
+          "function" : "remove",
+          "id": "minecraft:iron_ingot"
+        },
+        {
+            "function" : "if_recently_hit",
+            "count" : 0.025,
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "_comment" : "Adding copper ingots to the zombie's drops",
+                            "weight" : 6,
+                            "function" : "add",
+                            "id" : "immersiveengineering:metal",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "_comment" : "Adding tin ingots to the zombie's drops",
+                            "weight" : 1,
+                            "function" : "add",
+                            "id" : "fp:ItemErze",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "_comment" : "Adding zinc ingots to the zombie's drops",
+                            "weight" : 1,
+                            "function" : "add",
+                            "id" : "fp:ItemErze",
+                            "damage" : 1,
+                            "count" : 1
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "pre_stats": [],
-  "stats": [
-    {
-      "function" : "choose",
-      "functions" : [
+    ],
+    "pre_stats": [],
+    "stats": [
         {
-          "weight" : 100,
-          "function" : "all",
-          "functions" : [
-            {
-              "function" : "equip",
-              "override" : "true",
-              "id" : "primal:sharp_bone",
-              "slot" : 0
-            }
-          ]
-        },
-        {
-          "weight" : 10,
-          "function" : "all",
-          "functions" : [
-            {
-              "function" : "equip",
-              "override" : "true",
-              "id" : "primal:flint_workblade",
-              "slot" : 0
-            }
-          ]
-        },
-        {
-          "weight" : 8,
-          "function" : "all",
-          "functions" : [
-            {
-              "function" : "equip",
-              "override" : "true",
-              "id" : "dungeontactics:bronze_knife",
-              "slot" : 0
-            }
-          ]
-        },
-        {
-          "weight" : 5,
-          "function" : "all",
-          "functions" : [
-            {
-              "function" : "equip",
-              "override" : "true",
-              "id" : "dungeontactics:bronze_sword",
-              "slot" : 0
-            }
-          ]
+            "function" : "choose",
+            "functions" : [
+                {
+                    "weight" : 100,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "id" : "primal:sharp_bone",
+                            "slot" : 0
+                        }
+                    ]
+                },
+                {
+                    "weight" : 10,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "id" : "primal:flint_workblade",
+                            "slot" : 0
+                        }
+                    ]
+                },
+                {
+                    "weight" : 8,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "id" : "dungeontactics:bronze_knife",
+                            "slot" : 0
+                        }
+                    ]
+                },
+                {
+                    "weight" : 5,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "id" : "dungeontactics:bronze_sword",
+                            "slot" : 0
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
