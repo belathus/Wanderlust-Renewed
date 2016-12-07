@@ -6,6 +6,12 @@
     
 var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantmens:[{id:70,lvl:1}]});
 
+# Vanilla
+    recipes.addShaped(<minecraft:hopper>,
+        [[<ore:ingotTin>,null,<ore:ingotTin>],
+         [<ore:ingotTin>,<ore:chest>,<ore:ingotTin>],
+         [null,<ore:ingotTin>,null]]);
+    
 # Ars Magica 2
     recipes.remove(<arsmagica2:arcane_reconstructor>);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
