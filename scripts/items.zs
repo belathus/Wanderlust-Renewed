@@ -77,6 +77,22 @@
 # PrimalCore
     recipes.addShapeless(<primal:plant_cordage>,
         [<ore:fiberHemp>,<ore:fiberHemp>]);
+    recipes.addShaped(<primal:torch_wood>*8,
+        [[<ore:fuelCoke>],
+         [<ore:cordagePlant>],
+         [<ore:stickWood>]]);
+    recipes.addShaped(<primal:torch_wood>*8,
+        [[<ore:itemAnthracite>],
+         [<ore:cordagePlant>],
+         [<ore:stickWood>]]);
+    recipes.addShaped(<primal:torch_wood>*6,
+        [[<ore:itemBituminous>],
+         [<ore:cordagePlant>],
+         [<ore:stickWood>]]);
+    recipes.addShaped(<primal:torch_wood>*2,
+        [[<ore:itemLignite>],
+         [<ore:cordagePlant>],
+         [<ore:stickWood>]]);
 
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);
