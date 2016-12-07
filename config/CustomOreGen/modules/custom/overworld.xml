@@ -210,7 +210,7 @@
             <!-- This works by setting the seed for both of the veins to the same number and allowing the lava vein to inherit the diamond vein -->
             <!-- As such, both veins have the same frequency, etc. and should spawn on top of each other but, the lava vein is thinner, so we get tubes -->
             <!-- There is a possible consequence: diamond ores may spawn in the same location all the time in every world -->
-            <Veins name='vaniDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+            <Veins name='vaniDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <Description>
                     Short sparsely filled veins sloping up  from near the
                     bottom of the map.
