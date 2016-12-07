@@ -17,6 +17,7 @@
 
 # Base Metals
     recipes.remove(<basemetals:copper_crackhammer>);
+    recipes.remove(<basemetals:gold_crackhammer>);
     recipes.remove(<basemetals:lead_crackhammer>);
     recipes.remove(<basemetals:nickel_crackhammer>);
     recipes.remove(<basemetals:platinum_crackhammer>);
@@ -25,6 +26,7 @@
     recipes.remove(<basemetals:tin_crackhammer>);
     recipes.remove(<basemetals:wood_crackhammer>);
     JEI.hide(<basemetals:copper_crackhammer>);
+    JEI.hide(<basemetals:gold_crackhammer>);
     JEI.hide(<basemetals:lead_crackhammer>);
     JEI.hide(<basemetals:nickel_crackhammer>);
     JEI.hide(<basemetals:platinum_crackhammer>);
