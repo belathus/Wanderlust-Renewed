@@ -95,6 +95,121 @@
                     ]
                 }
             ]
+        },
+        {
+            "function" : "choose",
+            "functions" : [
+                {
+                    "weight" : 100,
+                    "function" : "all",
+                    "functions" : [ ]
+                },
+                {
+                    "_comment" ; "Hardened leather armor",
+                    "weight" : 10,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "harvestcraft:hardenedleatherhelmItem",
+                            "slot" : 4
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "harvestcraft:hardenedleatherchestItem",
+                            "slot" : 3
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "harvestcraft:hardenedleatherleggingsItem",
+                            "slot" : 2
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "harvestcraft:hardenedleatherbootsItem",
+                            "slot" : 1
+                        }
+                    ]
+                },
+                {
+                    "_comment" : "Druidry's silver armor",
+                    "weight" : 3,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "druidry:armor_silver_helmet",
+                            "slot" : 4
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "druidry:armor_silver_chestplate",
+                            "slot" : 3
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "druidry:armor_silver_leggings",
+                            "slot" : 2
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "druidry:armor_silver_boots",
+                            "slot" : 1
+                        }
+                    ]
+                },
+                {
+                    "_comment" : "Esteemed Innovation's brass armor",
+                    "weight" : 5,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "esteemedinnovation:brass_helmet",
+                            "slot" : 4
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "esteemedinnovation:brass_chestplate",
+                            "slot" : 3
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "esteemedinnovation:brass_leggings",
+                            "slot" : 2
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "esteemedinnovation:brass_boots",
+                            "slot" : 1
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
