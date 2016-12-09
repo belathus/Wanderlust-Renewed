@@ -25,15 +25,15 @@
     recipes.remove(<basemetals:stone_crackhammer>);
     recipes.remove(<basemetals:tin_crackhammer>);
     recipes.remove(<basemetals:wood_crackhammer>);
-    JEI.hide(<basemetals:copper_crackhammer>);
-    JEI.hide(<basemetals:gold_crackhammer>);
-    JEI.hide(<basemetals:lead_crackhammer>);
-    JEI.hide(<basemetals:nickel_crackhammer>);
-    JEI.hide(<basemetals:platinum_crackhammer>);
-    JEI.hide(<basemetals:silver_crackhammer>);
-    JEI.hide(<basemetals:stone_crackhammer>);
-    JEI.hide(<basemetals:tin_crackhammer>);
-    JEI.hide(<basemetals:wood_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:copper_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:gold_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:lead_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:nickel_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:platinum_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:silver_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:stone_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:tin_crackhammer>);
+    mods.jei.JEI.hide(<basemetals:wood_crackhammer>);
 
 # Blood Magic
     # Sacrificial Dagger
