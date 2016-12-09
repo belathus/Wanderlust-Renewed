@@ -533,9 +533,9 @@
             </Description>
             <Biome name='.*'  />
             <OreBlock block='arsmagica2:cerublossom' weight='1.0' />
-            <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
-            <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
-            <Setting name='DistributionFrequency' avg=':= 8.900 * _default_ ' range=':= 8.990 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' />
+            <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='DistributionFrequency' avg=':= 9.000 * _default_ ' range=':= 9.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='CloudHeight'           avg=':= 70 '              range=':= 20 '              type='normal' scaleTo='base' />
             <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -566,7 +566,161 @@
                 <Setting name='MotherlodeFrequency' avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
         </cloud>
+
+        <!-- Wakebloom -->
+        <cloud name='arsmWakebloomCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+            <Description>
+                Create a phantom "cloud" where nothing spawns
+                Then create a group of flowers on the surface.
+            </Description>
+            <BiomeType name='OCEAN' />
+            <BiomeType name='RIVER' />
+            <OreBlock block='arsmagica2:wakebloom' weight='1.0' />
+            <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' />
+            <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='DistributionFrequency' avg=':= 9.000 * _default_ ' range=':= 9.000 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='CloudHeight'           avg=':= 70 '              range=':= 20 '              type='normal' scaleTo='base' />
+            <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Veins name='arsmWakebloomBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+                <Description>
+                    Single blocks, generously  scattered through all
+                    heights.
+                </Description>
+                <OreBlock block='arsmagica2:wakebloom' weight='1.0' />
+                <PlacesAbove block='minecraft:dirt' weight='1.0' />
+                <PlacesAbove block='minecraft:grass' weight='1.0' />
+                <PlacesAbove block='biomesoplenty:grass:2' weight='1.0' />
+                <PlacesAbove block='biomesoplenty:grass:3' weight='1.0' />
+                <PlacesAbove block='biomesoplenty:grass:4' weight='1.0' />
+                <PlacesAbove block='biomesoplenty:grass:5' weight='1.0' />
+                <PlacesAbove block='biomesoplenty:grass:7' weight='1.0' />
+                <PlacesAboveOre block='blockGrass' weight='1.0'/>
+                <Replaces block='minecraft:air' weight='1.0' />
+                <Replaces block='minecraft:tallgrass' weight='1.0' />
+                <Replaces block='biomesoplenty:plant_0' weight='1.0' />
+                <ReplacesOre block='snowLayer' weight='1.0' />
+                <Setting name='MotherlodeRangeLimit' avg=' 20 ' range=' 5 ' type='uniform' />
+                <Setting name='MotherlodeHeight' avg=' 63' range='1' scaleTo='biome' />
+                <Setting name='MotherlodeFrequency' avg=':= 1.222 * _default_ ' range=':= 1.222 * _default_ ' type='normal' scaleTo='base' />
+            </Veins>
+        </cloud>
+
+        <!-- Desert Nova -->
+        <cloud name='arsmDesertNovaCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+            <Description>
+                Create a phantom "cloud" where nothing spawns
+                Then create a group of flowers on the surface.
+            </Description>
+            <BiomeType name='DESERT' />
+            <OreBlock block='arsmagica2:desert_nova' weight='1.0' />
+            <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' />
+            <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='DistributionFrequency' avg=':= 9.000 * _default_ ' range=':= 9.000 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='CloudHeight'           avg=':= 70 '              range=':= 20 '              type='normal' scaleTo='base' />
+            <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Veins name='arsmDesertNovaBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+                <Description>
+                    Single blocks, generously  scattered through all
+                    heights.
+                </Description>
+                <OreBlock block='arsmagica2:desert_nova' weight='1.0' />
+                <PlacesAbove block='minecraft:sand' weight='1.0' />
+                <PlacesAbove block='minecraft:sand:1' weight='1.0' />
+                <Replaces block='minecraft:air' weight='1.0' />
+                <Replaces block='minecraft:tallgrass' weight='1.0' />
+                <Replaces block='biomesoplenty:plant_0' weight='1.0' />
+                <ReplacesOre block='snowLayer' weight='1.0' />
+                <Setting name='MotherlodeRangeLimit' avg=' 20 ' range=' 5 ' type='uniform' />
+                <Setting name='MotherlodeHeight' avg=' 68' range='12' scaleTo='biome' />
+                <Setting name='MotherlodeFrequency' avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
+            </Veins>
+        </cloud>
+        
+        <!-- Tarma Root -->
+        <Veins name='arsmTarmaRootBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+            <Description>
+                Single blocks, generously  scattered through all
+                heights.
+            </Description>
+            <OreBlock block='arsmagica2:desert_nova' weight='1.0' />
+            <PlacesAbove block='minecraft:stone' weight='1.0' />
+            <PlacesAbove block='minecraft:stone:1' weight='1.0' />
+            <PlacesAbove block='minecraft:stone:3' weight='1.0' />
+            <PlacesAbove block='minecraft:stone:5' weight='1.0' />
+            <Replaces block='minecraft:air' weight='1.0' />
+            <Setting name='MotherlodeRangeLimit' avg=' 20 '                  range=' 5 '                   type='uniform' />
+            <Setting name='MotherlodeHeight'     avg='34'                    range='28'                    scaleTo='biome' />
+            <Setting name='MotherlodeFrequency'  avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
+        </Veins>
+        
+        <!-- Liquid Essence Geode -->
+        <IfModInstalled name="railcraft">
+            <Veins name='arsmEssenceGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Description>
+                    Large geodes of abyssal stone filled with air. An inside
+                    layer has a small rate of spawning emerald or diamond ore.
+                    Instead of being air-filled, this one is filled with
+                    liquid essence.
+                </Description>
+                <OreBlock block='railcraft:generic:8' weight='1.00' />
+                <ReplacesOre block='stone' weight='1.0'/>
+                <ReplacesOre block='stoneGranite' weight='1.0'/>
+                <ReplacesOre block='stoneDiorite' weight='1.0'/>
+                <ReplacesOre block='stoneAndesite' weight='1.0'/>
+                <Replaces block='minecraft:air' weight='1.0'/>
+                <Replaces block='minecraft:lava' weight='1.0'/>
+                <Replaces block='minecraft:water' weight='1.0'/>
+                <Replaces block='minecraft:gravel' weight='1.0'/>
+                <Replaces block='minecraft:dirt' weight='1.0'/>
+                <Biome name='.*'  />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                <Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 14 '                type='uniform' scaleTo='base' />
+                <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchInclination'     avg=':= 1.31 '              range=':= 0.550 '             type='uniform' />
+                <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            </Veins>
+            <Veins name='arsmEssenceGeodeMiddle'  inherits='railAbyssalGeode' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <OreBlock block='railcraft:ore:2' weight='0.005' />
+                <OreBlock block='railcraft:ore:3' weight='0.002' />
+                <OreBlock block='railcraft:ore:4' weight='0.010' />
+                <Replaces block='railcraft:generic:8' weight='1.0' />
+                <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+            </Veins>
+            <Veins name='arsmEssenceGeodeCenter'  inherits='railAbyssalGeode' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <OreBlock block='arsmagica2:liquid_essence' weight='1.0' />
+                <Replaces block='railcraft:generic:8' weight='1.0' />
+                <Replaces block='railcraft:ore:2' weight='1.0' />
+                <Replaces block='railcraft:ore:3' weight='1.0' />
+                <Replaces block='railcraft:ore:4' weight='1.0' />
+                <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+            </Veins>
+        </IfModInstalled>
     </IfModInstalled>
+    
+    <!-- Base Metals -->
     <IfModInstalled name="basemetals">
         <Veins name='bmetMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60990000' drawBoundBox='false' boundBoxColor='0x60990000'>
             <Description>
@@ -593,6 +747,7 @@
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
     </IfModInstalled>
+    
     <!-- Forestry -->
     <!-- Apatite -->
     <IfModInstalled name="forestry">
