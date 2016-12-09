@@ -50,3 +50,6 @@
     furnace.remove(<*>, <nethermetals:nether_tungsten_ore>);
     furnace.remove(<*>, <nethermetals:nether_uranium_ore>);
     furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
+    
+# TAIGA
+    furnace.remove(<rockhounding_chemistry:miscItems:2>, <taiga:slagiron_ingot>);
