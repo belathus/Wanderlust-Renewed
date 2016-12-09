@@ -135,9 +135,9 @@
             <OreBlock block='minecraft:gold_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <BiomeType name='Mountain'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 0.708 * _default_ ' range=':= 0.708 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.944 * _default_ ' range=':= 0.944 * _default_ ' type='normal' />
-            <Setting name='MotherlodeHeight'      avg=':= 112 '               range=':= 48 '                type='normal' scaleTo='base' />
+            <Setting name='MotherlodeHeight'      avg=':= 112 '               range=':= 48 '                type='uniform' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -161,7 +161,7 @@
             <OreBlock block='minecraft:lapis_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 0.787 * _default_ ' range=':= 0.787 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.574 * _default_ ' range=':= 1.574 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 0 '                 type='normal' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -174,7 +174,7 @@
             <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-            <Setting name='SegmentRadius'         avg=':= 0.887 * _default_ ' range=':= 0.887 * _default_ ' type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 1.887 * _default_ ' range=':= 1.887 * _default_ ' type='normal' />
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
@@ -187,7 +187,7 @@
             <OreBlock block='minecraft:redstone_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 2.406 * _default_ ' range=':= 2.406 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency'   avg=':= 2.906 * _default_ ' range=':= 2.906 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -218,7 +218,7 @@
                 <OreBlock block='minecraft:diamond_ore' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
                 <Biome name='.*'  />
-                <Setting name='MotherlodeFrequency'   avg=':= 0.714 * _default_ ' range=':= 0.714 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.914 * _default_ ' range=':= 0.914 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
                 <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
                 <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -241,9 +241,9 @@
                 <OreBlock block='minecraft:lava' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
                 <Replaces block='minecraft:diamond_ore' weight='1.0' />
-                <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
-                <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
-                <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
+                <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ ' range=':= 0.000 * _default_ ' type='normal' />
+                <Setting name='SegmentRadius'  avg=':= 0.400 * _default_ ' range=':= 0.400 * _default_ ' type='normal' />
+                <Setting name='OreDensity'     avg=':= 1.000 '             range=':= 0.000 '             type='normal' />
             </Veins>
         </ConfigSection>
         
@@ -283,9 +283,9 @@
                 <Replaces block='minecraft:emerald_ore' weight='1.0' />
                 <Biome name='.*'  />
                 <BiomeType name='MOUNTAIN' weight='-1' />
-                <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
-                <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
-                <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
+                <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ ' range=':= 0.000 * _default_ ' type='normal' />
+                <Setting name='SegmentRadius'  avg=':= 0.400 * _default_ ' range=':= 0.400 * _default_ ' type='normal' />
+                <Setting name='OreDensity'     avg=':= 1.000 '             range=':= 0.000 '             type='normal' />
             </Veins>
         </ConfigSection>
         <!-- Emerald Ore Preferred Veins -->
@@ -1079,7 +1079,7 @@
             <OreBlock block='ImmersiveEngineering:ore:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <BiomeType name='Mountain'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency'   avg=':= 2.816 * _default_ ' range=':= 2.816 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 102 '               range=':= 46 '                type='uniform' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -1096,7 +1096,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-		<Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+        <Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.
@@ -1201,9 +1201,9 @@
 			<OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
 			<ReplacesOre block='stone' weight='1.0' />
 			<Biome name='.*'  />
-			<Setting name='MotherlodeFrequency'   avg=':= 1.001 * _default_ ' range=':= 1.001 * _default_ ' type='normal' scaleTo='base' />
+			<Setting name='MotherlodeFrequency'   avg=':= 2.001 * _default_ ' range=':= 2.001 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
-			<Setting name='MotherlodeHeight'      avg=':= 122.5 '              range=':= 42.5 '              type='normal' scaleTo='base' />
+			<Setting name='MotherlodeHeight'      avg=':= 122.5 '              range=':= 42.5 '             type='uniform' scaleTo='base' />
 			<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -1253,9 +1253,9 @@
 			<OreBlock block='ImmersiveEngineering:ore:3' weight='0.3' />
 			<ReplacesOre block='stone' weight='1.0' />
 			<BiomeType name='Mountain'  />
-			<Setting name='MotherlodeFrequency'   avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' scaleTo='base' />
+			<Setting name='MotherlodeFrequency'   avg=':= 2.500 * _default_ ' range=':= 2.500 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
-			<Setting name='MotherlodeHeight'      avg=':= 136 '                range=':= 48 '                type='normal' scaleTo='base' />
+			<Setting name='MotherlodeHeight'      avg=':= 136 '                range=':= 48 '               type='uniform' scaleTo='base' />
 			<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -1303,9 +1303,9 @@
             <OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.213 * _default_ ' range=':= 1.213 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
-            <Setting name='MotherlodeHeight'      avg=':= 186 '                range=':= 56 '                type='normal' scaleTo='base' />
+            <Setting name='MotherlodeHeight'      avg=':= 186 '               range=':= 56 '                type='uniform' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -1329,9 +1329,34 @@
             <OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 0.013 * _default_ ' range=':= 0.013 * _default_ ' type='normal' scaleTo='base' />
+            <BiomeType name='WASTELAND' weight='-1' />
+            <Setting name='MotherlodeFrequency'   avg=':= 0.063 * _default_ ' range=':= 0.063 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
-            <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 8 '                type='normal' scaleTo='base' />
+            <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 8 '                 type='normal' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0.783 * _default_ ' range=':= 0.783 * _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0.885 * _default_ ' range=':= 0.885 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+        <Veins name='iengUraniumPreferredVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
+            <Description>
+            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+            </Description>
+            <OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <BiomeType name='WASTELAND' weight='1.0' />
+            <Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 16 '                range=':= 8 '                 type='normal' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
