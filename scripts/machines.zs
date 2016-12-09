@@ -41,6 +41,13 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [<ore:stone>,<minecraft:furnace>,<ore:stone>],
          [<ore:nuggetSilver>,<bloodmagic:ItemMonsterSoul>,<ore:nuggetSilver>]]);
 
+# Cyberware
+    recipes.remove(<cyberware:engineeringTable>);
+    recipes.addShaped(<cyberware:engineeringTable>,
+        [[<embers:tinkerHammer:*>,<ore:gearSteel>,<ore:ingotSteel>],
+         [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+         [<ore:ingotSteel>,<forestry:sturdyMachine>,<ore:ingotSteel>]]);
+
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);
     recipes.addShaped(<deepresonance:machine_frame>,
@@ -63,6 +70,13 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
         [[<ore:gearSteel>,<railcraft:borehead_diamond>,<ore:gearSteel>],
          [<ore:ingotSteel>,<enderio:itemMachinePart>,<ore:ingotSteel>],
          [<ore:ingotSteel>,<minecraft:piston>,       <ore:ingotSteel>]]);
+
+# Esteemed Innovation
+    recipes.remove(<esteemedinnovation:crucible>);
+    recipes.addShaped(<esteemedinnovation:crucible>,
+        [[<ore:ingotBrickSeared>,null,<ore:ingotBrickSeared>],
+         [<ore:ingotBrickSeared>,<minecraft:magma_cream>,<ore:ingotBrickSeared>],
+         [<ore:ingotBrickSeared>,<ore:ingotBrickSeared>,<ore:ingotBrickSeared>]]);
 
 # Evilcraft
     recipes.remove(<evilcraft:bloodChest>);

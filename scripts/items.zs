@@ -47,21 +47,18 @@
     recipes.addShapeless(<arsmagica2:spell_parchment>,
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:quartz_workblade:*>.transformDamage()]);
 
-# Recall Scrolls
-    recipes.remove(<waystones:warpScroll>);
-    recipes.addShapeless(<waystones:warpScroll>,
-        [<arsmagica2:spell_parchment>,<ore:dustRedstone>]);
-    recipes.addShapeless(<waystones:warpScroll>,
-        [<arsmagica2:spell_parchment>,<ore:powderMana>]);
-    recipes.addShapeless(<waystones:warpScroll>,
-        [<arsmagica2:spell_parchment>,<ore:dustVinteum>]);
-    recipes.addShapeless(<waystones:warpScroll>*3,
-        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<ore:dustGlowstone>]);
-    recipes.addShapeless(<waystones:warpScroll>*3,
-        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<ore:powderBlaze>]);
-    recipes.addShapeless(<waystones:warpScroll>*8,
-        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,
-        <arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<evilcraft:darkGemCrushed>]);
+# Esteemed Innovation
+    recipes.remove(<esteemedinnovation:blank_mold>);
+    recipes.addShaped(<esteemedinnovation:blank_mold>,
+        [[<ore:ingotBrick>,<embers:plateCaminiteRaw>,<ore:ingotBrick>],
+         [<ore:ingotBrick>,<ore:ingotBrickSeared>,<ore:ingotBrick>]]);
+
+# Fishing Net Mod
+    recipes.remove(<fishing:itemNet>);
+    recipes.addShaped(<fishing:itemNet>,
+        [[null,<ore:cordageGeneral>,null],
+         [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+         [null,<ore:cordageGeneral>,null]]);
 
 # Nature's Compass
     recipes.remove(<naturescompass:NaturesCompass>);
@@ -114,3 +111,19 @@
     recipes.addShaped(<tconstruct:stone_torch>,
         [[<ore:powderBlaze>],
          [<ore:rodStone>]]);
+
+# Waystones
+    recipes.remove(<waystones:warpScroll>);
+    recipes.addShapeless(<waystones:warpScroll>,
+        [<arsmagica2:spell_parchment>,<ore:dustRedstone>]);
+    recipes.addShapeless(<waystones:warpScroll>,
+        [<arsmagica2:spell_parchment>,<ore:powderMana>]);
+    recipes.addShapeless(<waystones:warpScroll>,
+        [<arsmagica2:spell_parchment>,<ore:dustVinteum>]);
+    recipes.addShapeless(<waystones:warpScroll>*3,
+        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<ore:dustGlowstone>]);
+    recipes.addShapeless(<waystones:warpScroll>*3,
+        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<ore:powderBlaze>]);
+    recipes.addShapeless(<waystones:warpScroll>*8,
+        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,
+        <arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<evilcraft:darkGemCrushed>]);
