@@ -18,6 +18,11 @@
          [<ore:slabWood>]]);
 
 # AbyssalCraft
+    recipes.remove(<abyssalcraft:ironp>);
+    recipes.addShaped(<abyssalcraft:ironp>,
+       [[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>]]);
+
+    recipes.addShapeless(<fp:spaceship:12>,[<ore:stickIron>]);
     recipes.remove(<abyssalcraft:necronomicon>);
     recipes.addShapeless(<abyssalcraft:necronomicon>,
         [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
@@ -57,6 +62,13 @@
     recipes.addShapeless(<arsmagica2:spell_parchment>,
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:quartz_workblade:*>.transformDamage()]);
 
+# Backpack
+    recipes.remove(<backpack:stick:0>);
+    recipes.remove(<backpack:stick:1>);
+
+# Base Metals
+    recipes.remove(<basemetals:iron_rod>);
+
 # Esteemed Innovation
     recipes.remove(<esteemedinnovation:blank_mold>);
     recipes.addShaped(<esteemedinnovation:blank_mold>,
@@ -69,6 +81,9 @@
         [[null,<ore:cordageGeneral>,null],
          [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
          [null,<ore:cordageGeneral>,null]]);
+
+# Futurepack
+    recipes.remove(<fp:spaceship:12>);
 
 # Nature's Compass
     recipes.remove(<naturescompass:NaturesCompass>);
