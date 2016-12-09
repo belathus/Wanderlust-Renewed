@@ -120,6 +120,10 @@
          [<ore:cordagePlant>],
          [<ore:stickWood>]]);
 
+# Rockhounding
+    # Fuel to fuel pellets
+    recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
+
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);
     recipes.addShapeless(<tconstruct:soil>,
