@@ -7,13 +7,17 @@
 #     [<>,<>,<>]]);
 
 # Vanilla
-    recipes.addShaped(<minecraft:shield>,
-        [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-         [<ore:plankWood>,<ore:ingotBronze>,<ore:plankWood>],
-         [null,<ore:plankWood>,null]]);
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
         [<ore:flakeFlint>,<ore:ringIron>]);
+    recipes.addShaped(<minecraft:lead>*2,
+        [[<ore:cordageGeneral>,<ore:cordageGeneral>,null],
+         [<ore:cordageGeneral>,<ore:slimeball>,null],
+         [null,null,<ore:cordageGeneral>]]);
+    recipes.addShaped(<minecraft:shield>,
+        [[<ore:plankWood>,<ore:ingotBronze>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+         [null,<ore:plankWood>,null]]);
 
 # Base Metals
     recipes.remove(<basemetals:copper_crackhammer>);
@@ -66,9 +70,9 @@
     recipes.remove(<grapplemod:launcheritem>);
     recipes.remove(<grapplemod:magnetbow>);
     recipes.addShaped(<grapplemod:grapplinghook>,
-        [[<ore:nuggetSteel>,<ore:ingotSteel>,<ore:nuggetSteel>],
-         [<ore:nuggetSteel>,<ore:wireSteel>,<ore:nuggetSteel>],
-         [null,<ore:wireSteel>,null]]);
+        [[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>],
+         [<ore:nuggetIron>,<ore:cordageGeneral>,<ore:nuggetIron>],
+         [null,<ore:cordageGeneral>,null]]);
     recipes.addShaped(<grapplemod:hookshot>,
         [[null,<grapplemod:grapplinghook>,null],
          [<ore:gearGilded>,<ore:wireSteel>,<ore:gearGilded>],
