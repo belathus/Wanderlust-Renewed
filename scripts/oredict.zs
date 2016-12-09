@@ -17,6 +17,8 @@
     <ore:stone>.add(<biomesoplenty:stone>);
     <ore:stone>.add(<chisel:limestoneextra:7>);
     <ore:dustAsh>.add(<embers:dustAsh>);
+    <ore:nuggetDiamod>.remove(<morebees:diamondFragment>);
+    <ore:nuggetDiamond>.add(<morebees:diamondFragment>);
 
 # Removing the nether ore oredict entries and making it normal ore.
     <ore:oreNetherCoal>.remove(<nethercore:ore:0>);
