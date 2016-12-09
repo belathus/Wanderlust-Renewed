@@ -41,6 +41,12 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [<ore:stone>,<minecraft:furnace>,<ore:stone>],
          [<ore:nuggetSilver>,<bloodmagic:ItemMonsterSoul>,<ore:nuggetSilver>]]);
 
+# Botania
+    recipes.addShaped(<botania:spreader>,
+        [[<botania:livingwood>,<botania:livingwood>,<botania:livingwood>],
+         [<ore:ingotSilver>,<botania:petal:*>,null],
+         [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
+
 # Cyberware
     recipes.remove(<cyberware:engineeringTable>);
     recipes.addShaped(<cyberware:engineeringTable>,
