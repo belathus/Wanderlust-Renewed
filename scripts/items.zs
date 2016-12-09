@@ -85,6 +85,10 @@
 # Futurepack
     recipes.remove(<fp:spaceship:12>);
 
+# More Bees
+    recipes.addShapeless(<morebees:diamondFragment>*9,[<ore:gemDiamond>]);
+    recipes.addShapeless(<morebees:emeraldFragment>*9,[<ore:gemEmerald>]);
+
 # Nature's Compass
     recipes.remove(<naturescompass:NaturesCompass>);
     recipes.addShaped(<naturescompass:NaturesCompass>,
