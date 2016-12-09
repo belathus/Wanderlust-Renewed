@@ -6,6 +6,9 @@
     furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreGoethite>, 0.5);
     furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreLimonite>, 0.5);
 
+# Forestry
+    furnace.addRecipe(<forestry:peat>*2,<rockhounding_oretiers:coalBlocks:3>,0.5);
+
 # Nethercore
     furnace.remove(<*>, <nethercore:ore:0>);
     furnace.remove(<*>, <nethercore:ore:1>);
