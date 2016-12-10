@@ -1,0 +1,89 @@
+{
+	"name" : "loot1",
+	"loot_rules" : [
+		{	
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "chainmail_helmet", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "chainmail_chestplate", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "chainmail_leggings", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "chainmail_boots", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "iron_helmet", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "iron_chestplate", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "iron_leggings", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "iron_boots", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "golden_helmet", "ench" : 5}, "weight" : 1},
+				{"data" : {"name" : "golden_chestplate", "ench" : 5}, "weight" : 1},
+				{"data" : {"name" : "golden_leggings", "ench" : 5}, "weight" : 1},
+				{"data" : {"name" : "golden_boots", "ench" : 5}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "WEAPONS", 
+			"loot" : [
+				{"data" : {"name" : "wooden_sword", "ench" : 5}, "weight" : 6},
+				{"data" : {"name" : "stone_sword", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "iron_sword", "ench" : 5}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : true,
+			"quantity" : 2
+		},
+		{	
+			"type" : "TOOLS", 
+			"loot" : [
+				{"data" : {"name" : "stone_pickaxe", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "stone_axe", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "stone_shovel", "ench" : 5}, "weight" : 2},
+				{"data" : {"name" : "iron_pickaxe", "ench" : 5}, "weight" : 1},
+				{"data" : {"name" : "iron_axe", "ench" : 5}, "weight" : 1},
+				{"data" : {"name" : "iron_shovel", "ench" : 5}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : true,
+			"quantity" : 3
+		},
+		{
+			"type" : "FOOD", 
+			"loot" : [
+				{"data" : {"name" : "bread", "min" : 1, "max" : 3}},
+				{"data" : {"name" : "cookie", "min" : 1, "max" : 3}},
+				{"data" : {"name" : "apple", "min" : 1, "max" : 3}},
+				{"data" : {"name" : "pumpkin_pie", "min" : 1, "max" : 3}},
+				{"data" : {"name" : "carrot", "min" : 1, "max" : 3}},
+				{"data" : {"name" : "potato", "min" : 1, "max" : 3}},
+				{"data" : {"name" : "cooked_chicken", "min" : 1, "max" : 3}}
+			],
+			"level" : 1,
+			"each" : true,
+			"quantity" : 5
+		},
+		{	
+			"type" : "ORE", 
+			"loot" : [
+				{"data" : {"name" : "coal", "min" : 1, "max" : 3}, "weight" : 5},
+				{"data" : {"name" : "iron_ingot", "min" : 1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "gold_ingot", "min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "diamond", "min" : 1, "max" : 1}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : true,
+			"quantity" : 6
+		},
+		{	
+			"loot" : [
+				{"data" : {"name" : "slime_ball"}, "weight" : 5},
+				{"data" : {"name" : "snowball"}, "weight" : 2},
+				{"data" : {"name" : "leather"}, "weight" : 3},
+				{"data" : {"name" : "string"}, "weight" : 5},
+				{"data" : {"name" : "gunpowder", "min" : 1, "max" : 3}, "weight" : 1}
+			],
+			"level" : 1,
+			"each" : true,
+			"quantity" : 6
+		}
+	]
+}
