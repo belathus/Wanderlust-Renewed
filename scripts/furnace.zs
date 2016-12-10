@@ -2,9 +2,9 @@
 #    furnace.addRecipe(<>, <>, 0.5);
 
 # Vanilla
-    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreIron>, 0.5);
-    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreGoethite>, 0.5);
-    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreLimonite>, 0.5);
+#    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreIron>, 0.5);
+#    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreGoethite>, 0.5);
+#    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreLimonite>, 0.5);
 
 # Forestry
     furnace.addRecipe(<forestry:peat>*2,<rockhounding_oretiers:coalBlocks:3>,0.5);
@@ -52,4 +52,4 @@
     furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
     
 # TAIGA
-    furnace.remove(<rockhounding_chemistry:miscItems:2>, <taiga:slagiron_ingot>);
+#    furnace.remove(<rockhounding_chemistry:miscItems:2>, <taiga:slagiron_ingot>);
