@@ -1,802 +1,561 @@
 {
-  "name": "abyssalcraft",
-  "criteria": {
-    "dimensionWL": [
-      0
+    "name":"abyssalcraft",
+    "criteria":{
+        "dimensionWL":[ 0 ],
+        "weight":1
+    },
+    "inherit":[
+		"abyssalcraftLoot",
+		"loot0",
+		"loot1",
+		"loot2",
+		"loot3",
+		"loot4"
     ],
-    "weight": 1
-  },
-  "inherit": [],
-  "tower": {
-    "type": "ETHO",
-    "theme": {
-      "base": "ENIKO",
-      "primary": {
-        "walls": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "railcraft:brick_frostbound"
-          }
-        },
-        "pillar": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "minecraft:bone_block"
-          }
-        },
-        "stair": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "quark:stone_andesite_stairs"
-          }
-        },
-        "floor": {
-          "name": "quark:stained_clay_tiles",
-          "meta": 3
+	"overrides" : [
+		"ROOMS",
+		"LOOTRULES"
+	],
+    "tower":{
+        "type":"ETHO",
+        "theme":{
+            "base":"ENIKO",
+            "primary":{
+                "walls":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"railcraft:brick_frostbound"
+                    }
+                },
+                "pillar":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"minecraft:bone_block"
+                    }
+                },
+                "stair":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"quark:stone_andesite_stairs"
+                    }
+                },
+                "floor":{
+                    "name":"quark:stained_clay_tiles",
+                    "meta":3
+                }
+            },
+            "secondary":{
+                "walls":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"chisel:temple",
+                        "meta":13
+                    }
+                },
+                "pillar":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"botania:customBrick",
+                        "meta":15
+                    }
+                },
+                "stair":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"biomesoplenty:magic_stairs"
+                    }
+                },
+                "floor":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"chisel:wool_cyan",
+                        "meta":1
+                    }
+                }
+            }
         }
-      },
-      "secondary": {
-        "walls": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "chisel:temple",
-            "meta": 13
-          }
+    },
+    "levels":{
+        "0":{
+            "range":40,
+            "numRooms":12,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
+                    }
+                ],
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:tyrian",
+                            "meta":2
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:tyrian",
+                            "meta":3
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneB3Stairs"
+                        }
+                    },
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:basalt1",
+                            "meta":1
+                        }
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:tyrian",
+                            "meta":13
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"abyssalcraft:dltplank",
+                            "meta":5
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"quark:stone_basalt_bricks_stairs"
+                        }
+                    },
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:basalt",
+                            "meta":9
+                        }
+                    }
+                }
+            }
         },
-        "pillar": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "botania:customBrick",
-            "meta": 15
-          }
+        "1":{
+            "range":50,
+            "numRooms":15,
+            "theme":{
+                "base":"SEWER",
+                "rooms":[
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
+                    }
+                ],
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"railcraft:brick_abyssal",
+                            "meta":1
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"quark:biotite_block",
+                            "meta":2
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneB4Stairs"
+                        }
+                    },
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneB",
+                            "meta":4
+                        }
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:temple",
+                            "meta":6
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"biomesoplenty:log_1",
+                            "meta":4
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneA4Stairs"
+                        }
+                    },
+                    "floor":{
+                        "name":"biomesoplenty:stone",
+                        "meta":0
+                    }
+                }
+            }
         },
-        "stair": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "biomesoplenty:magic_stairs"
-          }
+        "2":{
+            "range":60,
+            "numRooms":20,
+            "theme":{
+                "base":"SEWER",
+                "rooms":[
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
+                    }
+                ],
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneA",
+                            "meta":7
+                        }
+                    },
+                    "pillar":{
+                        "type":"WEIGHTED",
+                        "data":[
+                            {
+                                "name":"biomesoplenty:leaves_2",
+                                "meta":11,
+                                "weight":4
+                            },
+                            {
+                                "name":"chisel:basaltextra",
+                                "meta":4,
+                                "weight":5
+                            },
+                            {
+                                "name":"abyssalcraft:monolithpillar",
+                                "weight":1
+                            }
+                        ]
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneB7Stairs"
+                        }
+                    },
+                    "floor":{
+                        "type":"WEIGHTED",
+                        "data":[
+                            {
+                                "name":"abyssalcraft:shoggothbiomass",
+                                "weight":1
+                            },
+                            {
+                                "name":"nethercore:stone",
+                                "meta":5,
+                                "weight":30
+                            },
+                            {
+                                "name":"minecraft:red_nether_brick",
+                                "weight":30
+                            },
+                            {
+                                "name":"nethercore:stone",
+                                "meta":3,
+                                "weight":30
+                            },
+                            {
+                                "name":"railcraft:brick_bloodstained",
+                                "meta":1,
+                                "weight":30
+                            }
+                        ]
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"JUMBLE",
+                        "data":[
+                            {
+                                "name":"botania:biomeStoneA",
+                                "meta":3
+                            },
+                            {
+                                "name":"botania:biomeStoneB",
+                                "meta":3
+                            }
+                        ]
+                    },
+                    "pillar":{
+                        "type":"JUMBLE",
+                        "data":[
+                            {
+                                "name":"biomesoplenty:leaves_3",
+                                "meta":10
+                            },
+                            {
+                                "name":"chisel:tyrian",
+                                "meta":3
+                            },
+                            {
+                                "name":"abyssalcraft:monolithpillar"
+                            }
+                        ]
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:biomeStoneB3Stairs"
+                        }
+                    },
+                    "floor":{
+                        "name":"botania:biomeStoneA",
+                        "meta":3
+                    }
+                }
+            }
         },
-        "floor": {
-          "type": "METABLOCK",
-          "data": {
-            "name": "chisel:wool_cyan",
-            "meta": 1
-          }
+        "3":{
+            "range":70,
+            "numRooms":25,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
+                    {
+                        "mode":"single",
+                        "type":"ENCHANT"
+                    },
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"random",
+                        "type":"QUARTZ",
+                        "weight":2
+                    },
+                    {
+                        "mode":"random",
+                        "type":"ENDER",
+                        "weight":1
+                    },
+                    {
+                        "mode":"random",
+                        "type":"FIRE",
+                        "weight":1
+                    }
+                ],
+                "primary":{
+                    "walls":{
+                        "type":"JUMBLE",
+                        "data":[
+                            {
+                                "name":"chisel:basalt",
+                                "meta":5
+                            },
+                            {
+                                "name":"chisel:basalt",
+                                "meta":13
+                            }
+                        ]
+                    },
+                    "pillar":{
+                        "type":"JUMBLE",
+                        "data":[
+                            {
+                                "name":"chisel:basaltextra",
+                                "meta":4
+                            },
+                            {
+                                "name":"abyssalcraft:monolithpillar"
+                            }
+                        ]
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"quark:stone_basalt_bricks_stairs"
+                        }
+                    },
+                    "floor":{
+                        "type":"WEIGHTED",
+                        "data":[
+                            {
+                                "name":"abyssalcraft:shoggothbiomass",
+                                "weight":1
+                            },
+                            {
+                                "name":"chisel:tyrian",
+                                "meta":1,
+                                "weight":75
+                            }
+                        ]
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:diorite1",
+                            "meta":6
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:basaltextra",
+                            "meta":4
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"embers:stairsAshenTile"
+                        }
+                    },
+                    "floor":{
+                        "name":"chisel:marble",
+                        "meta":9
+                    }
+                }
+            }
+        },
+        "4":{
+            "range":80,
+            "numRooms":30,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
+                    {
+                        "mode":"single",
+                        "type":"ENCHANT"
+                    },
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"random",
+                        "type":"QUARTZ",
+                        "weight":2
+                    },
+                    {
+                        "mode":"random",
+                        "type":"ENDER",
+                        "weight":1
+                    },
+                    {
+                        "mode":"random",
+                        "type":"FIRE",
+                        "weight":1
+                    },
+                    {
+                        "mode":"random",
+                        "type":"MESS",
+                        "weight":1
+                    }
+                ],
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzTypeDark",
+                            "meta":1
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzTypeDark",
+                            "meta":2
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzStairsDark"
+                        }
+                    },
+                    "floor":{
+                        "type":"WEIGHTED",
+                        "data":[
+                            {
+                                "name":"abyssalcraft:shoggothbiomass",
+                                "weight":1
+                            },
+                            {
+                                "name":"botania:quartzTypeDark",
+                                "weight":50
+                            }
+                        ]
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:obsidian",
+                            "meta":6
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"biomesoplenty:log_0",
+                            "meta":6
+                        }
+                    },
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"biomesoplenty:umbran_stairs"
+                        }
+                    },
+                    "floor":{
+                        "name":"quark:stained_clay_tiles",
+                        "meta":11
+                    }
+                }
+            }
         }
-      }
     }
-  },
-  "levels": {
-    "0": {
-      "range": 40,
-      "numRooms": 12,
-      "theme": {
-        "base": "QUARTZ",
-        "rooms": [
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "random",
-            "type": "ETHO",
-            "weight": 1
-          }
-        ],
-        "primary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:tyrian",
-              "meta": 2
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:tyrian",
-              "meta": 3
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneB3Stairs"
-            }
-          },
-          "floor": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:basalt1",
-              "meta": 1
-            }
-          }
-        },
-        "secondary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:tyrian",
-              "meta": 13
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "abyssalcraft:dltplank",
-              "meta": 5
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "quark:stone_basalt_bricks_stairs"
-            }
-          },
-          "floor": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:basalt",
-              "meta": 9
-            }
-          }
-        }
-      }
-    },
-    "1": {
-      "range": 50,
-      "numRooms": 15,
-      "theme": {
-        "base": "SEWER",
-        "rooms": [
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "random",
-            "type": "ETHO",
-            "weight": 1
-          }
-        ],
-        "primary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "railcraft:brick_abyssal",
-              "meta": 1
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "quark:biotite_block",
-              "meta": 2
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneB4Stairs"
-            }
-          },
-          "floor": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneB",
-              "meta": 4
-            }
-          }
-        },
-        "secondary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:temple",
-              "meta": 6
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "biomesoplenty:log_1",
-              "meta": 4
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneA4Stairs"
-            }
-          },
-          "floor": {
-            "name": "biomesoplenty:stone",
-            "meta": 0
-          }
-        }
-      }
-    },
-    "2": {
-      "range": 60,
-      "numRooms": 20,
-      "theme": {
-        "base": "SEWER",
-        "rooms": [
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "random",
-            "type": "ETHO",
-            "weight": 1
-          }
-        ],
-        "primary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneA",
-              "meta": 7
-            }
-          },
-          "pillar": {
-            "type": "WEIGHTED",
-            "data": [
-              {
-                "name": "biomesoplenty:leaves_2",
-                "meta": 11,
-                "weight": 4
-              },
-              {
-                "name": "chisel:basaltextra",
-                "meta": 4,
-                "weight": 5
-              },
-              {
-                "name": "abyssalcraft:monolithpillar",
-                "weight": 1
-              }
-            ]
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneB7Stairs"
-            }
-          },
-          "floor": {
-            "type": "WEIGHTED",
-            "data": [
-              {
-                "name": "abyssalcraft:shoggothbiomass",
-                "weight": 1
-              },
-              {
-                "name": "nethercore:stone",
-                "meta": 5,
-                "weight": 30
-              },
-              {
-                "name": "minecraft:red_nether_brick",
-                "weight": 30
-              },
-              {
-                "name": "nethercore:stone",
-                "meta": 3,
-                "weight": 30
-              },
-              {
-                "name": "railcraft:brick_bloodstained",
-                "meta": 1,
-                "weight": 30
-              }
-            ]
-          }
-        },
-        "secondary": {
-          "walls": {
-            "type": "JUMBLE",
-            "data": [
-              {
-                "name": "botania:biomeStoneA",
-                "meta": 3
-              },
-              {
-                "name": "botania:biomeStoneB",
-                "meta": 3
-              }
-            ]
-          },
-          "pillar": {
-            "type": "JUMBLE",
-            "data": [
-              {
-                "name": "biomesoplenty:leaves_3",
-                "meta": 10
-              },
-              {
-                "name": "chisel:tyrian",
-                "meta": 3
-              },
-              {
-                "name": "abyssalcraft:monolithpillar"
-              }
-            ]
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:biomeStoneB3Stairs"
-            }
-          },
-          "floor": {
-            "name": "botania:biomeStoneA",
-            "meta": 3
-          }
-        }
-      }
-    },
-    "3": {
-      "range": 70,
-      "numRooms": 25,
-      "theme": {
-        "base": "QUARTZ",
-        "rooms": [
-          {
-            "mode": "single",
-            "type": "ENCHANT"
-          },
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "random",
-            "type": "QUARTZ",
-            "weight": 2
-          },
-          {
-            "mode": "random",
-            "type": "ENDER",
-            "weight": 1
-          },
-          {
-            "mode": "random",
-            "type": "FIRE",
-            "weight": 1
-          }
-        ],
-        "primary": {
-          "walls": {
-            "type": "JUMBLE",
-            "data": [
-              {
-                "name": "chisel:basalt",
-                "meta": 5
-              },
-              {
-                "name": "chisel:basalt",
-                "meta": 13
-              }
-            ]
-          },
-          "pillar": {
-            "type": "JUMBLE",
-            "data": [
-              {
-                "name": "chisel:basaltextra",
-                "meta": 4
-              },
-              {
-                "name": "abyssalcraft:monolithpillar"
-              }
-            ]
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "quark:stone_basalt_bricks_stairs"
-            }
-          },
-          "floor": {
-            "type": "WEIGHTED",
-            "data": [
-              {
-                "name": "abyssalcraft:shoggothbiomass",
-                "weight": 1
-              },
-              {
-                "name": "chisel:tyrian",
-                "meta": 1,
-                "weight": 75
-              }
-            ]
-          }
-        },
-        "secondary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:diorite1",
-              "meta": 6
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:basaltextra",
-              "meta": 4
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "embers:stairsAshenTile"
-            }
-          },
-          "floor": {
-            "name": "chisel:marble",
-            "meta": 9
-          }
-        }
-      }
-    },
-    "4": {
-      "range": 80,
-      "numRooms": 30,
-      "theme": {
-        "base": "QUARTZ",
-        "rooms": [
-          {
-            "mode": "single",
-            "type": "ENCHANT"
-          },
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "single",
-            "type": "BEDROOM"
-          },
-          {
-            "mode": "random",
-            "type": "QUARTZ",
-            "weight": 2
-          },
-          {
-            "mode": "random",
-            "type": "ENDER",
-            "weight": 1
-          },
-          {
-            "mode": "random",
-            "type": "FIRE",
-            "weight": 1
-          },
-		  {
-			"mode": "random",
-			"type": "MESS",
-			"weight": 1
-		  }
-        ],
-        "primary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:quartzTypeDark",
-              "meta": 1
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:quartzTypeDark",
-              "meta": 2
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "botania:quartzStairsDark"
-            }
-          },
-          "floor": {
-            "type": "WEIGHTED",
-            "data": [
-              {
-                "name": "abyssalcraft:shoggothbiomass",
-                "weight": 1
-              },
-              {
-                "name": "botania:quartzTypeDark",
-                "weight": 50
-              }
-            ]
-          }
-        },
-        "secondary": {
-          "walls": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "chisel:obsidian",
-              "meta": 6
-            }
-          },
-          "pillar": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "biomesoplenty:log_0",
-              "meta": 6
-            }
-          },
-          "stair": {
-            "type": "METABLOCK",
-            "data": {
-              "name": "biomesoplenty:umbran_stairs"
-            }
-          },
-          "floor": {
-            "name": "quark:stained_clay_tiles",
-            "meta": 11
-          }
-        }
-      }
-    }
-  },
-  "loot_rules": [
-    {
-      "type": "ARMOUR",
-      "loot": [
-        {
-          "data": {
-            "name": "esteemedinnovation:brass_helmet",
-            "ench": 5
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "basemetals:brass_chestplate",
-            "ench": 5
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "basemetals:brass_leggings",
-            "ench": 5
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "basemetals:brass_boots",
-            "ench": 5
-          },
-          "weight": 1
-        }
-      ],
-      "level": [
-        0,
-        1
-      ],
-      "each": true,
-      "quantity": 2
-    },
-    {
-      "type": "TOOLS",
-      "loot": [
-        {
-          "data": {
-            "name": "abyssalcraft:dsword",
-            "ench": 2
-          },
-          "weight": 4
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:dpick",
-            "ench": 2
-          },
-          "weight": 4
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:dshovel",
-            "ench": 2
-          },
-          "weight": 4
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:daxe",
-            "ench": 2
-          },
-          "weight": 4
-        }
-      ],
-      "level": [
-        0,
-        1
-      ],
-      "each": true,
-      "quantity": 3
-    },
-    {
-      "type": "FOOD",
-      "loot": [
-        {
-          "data": {
-            "name": "abyssalcraft:friedegg",
-            "min": 1,
-            "max": 5
-          },
-          "weight": 10
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:eggp",
-            "min": 1,
-            "max": 3
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:porkp",
-            "min": 1,
-            "max": 3
-          },
-          "weight": 3
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:chickenp",
-            "min": 1,
-            "max": 3
-          },
-          "weight": 3
-        },
-        {
-          "data": {
-            "name": "tconstruct:edible",
-            "meta": 14,
-            "min": 1,
-            "max": 3
-          },
-          "weight": 3
-        },
-        {
-          "data": {
-            "name": "tconstruct:edible",
-            "meta": 15,
-            "min": 1,
-            "max": 3
-          },
-          "weight": 4
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:antispidereye",
-            "min": 1,
-            "max": 1
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:anticorflesh",
-            "min": 1,
-            "max": 1
-          },
-          "weight": 1
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:mre"
-          },
-          "min": 1,
-          "max": 1,
-          "weight": 3
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:antiflesh",
-            "min": 1,
-            "max": 1
-          },
-          "weight": 2
-        }
-      ],
-      "level": [
-        0,
-        1
-      ],
-      "each": true,
-      "quantity": 3
-    },
-    {
-      "type": "SUPPLIES",
-      "loot": [
-        {
-          "data": {
-            "name": "primal:tin_ingot"
-          },
-          "min": 1,
-          "max": 3,
-          "weight": 8
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:coralium",
-            "min": 1,
-            "max": 3
-          },
-          "weight": 5
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:shadowshard",
-            "min": 1,
-            "max": 3
-          },
-          "weight": 5
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:dltsapling",
-            "min": 1,
-            "max": 3
-          },
-          "weight": 4
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:crate",
-            "min": 1,
-            "max": 2
-          },
-          "weight": 4
-        },
-        {
-          "data": {
-            "name": "abyssalcraft:antibucket",
-            "min": 1,
-            "max": 2
-          },
-          "weight": 2
-        }
-      ],
-      "level": [
-        0,
-        1
-      ],
-      "each": true,
-      "quantity": 6
-    },
-    {
-      "type": "STARTER",
-      "loot": [
-        {
-          "data": {
-            "name": "abyssalcraft:necronomicon",
-            "min": 1,
-            "max": 1
-          },
-          "weight": 4
-        }
-      ],
-      "level": [
-        0
-      ],
-      "each": true,
-      "quantity": 1
-    }
-  ]
 }
