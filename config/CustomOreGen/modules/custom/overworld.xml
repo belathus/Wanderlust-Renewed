@@ -210,7 +210,7 @@
             <!-- This works by setting the seed for both of the veins to the same number and allowing the lava vein to inherit the diamond vein -->
             <!-- As such, both veins have the same frequency, etc. and should spawn on top of each other but, the lava vein is thinner, so we get tubes -->
             <!-- There is a possible consequence: diamond ores may spawn in the same location all the time in every world -->
-            <Veins name='vaniDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='true' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+            <Veins name='vaniDiamondVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <Description>
                     Short sparsely filled veins sloping up  from near the
                     bottom of the map.
@@ -722,7 +722,7 @@
     
     <!-- Base Metals -->
     <IfModInstalled name="basemetals">
-        <Veins name='bmetMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60990000' drawBoundBox='false' boundBoxColor='0x60990000'>
+        <Veins name='bmetMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60990000' drawBoundBox='false' boundBoxColor='0x60990000'>
             <Description>
             Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -1048,7 +1048,7 @@
     <!-- Copper, Aluminum, Lead, Silver, Uranium (rare)-->
     <IfModInstalled name="immersiveengineering">
         <!-- Starting Copper Veins. -->
-        <Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+        <Veins name='iengCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -1096,7 +1096,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-        <Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+        <Veins name='iengCopperClusters'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.
@@ -1122,7 +1122,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+        <Cloud name='iengCopperCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
