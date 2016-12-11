@@ -104,6 +104,13 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [<ore:gearGilded>,null,<ore:gearGilded>],
          [<ore:plateSteel>,<ore:dustRedstone>,<ore:plateSteel>]]);
 
+# Rockhounding
+    recipes.remove(<rockhounding_oretiers:bloomery>);
+    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+         [<minecraft:stone_brick_stairs>,<minecraft:fire_charge>,<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+
 # Roots
     recipes.remove(<roots:altar>);
     recipes.addShaped(<roots:altar>,
