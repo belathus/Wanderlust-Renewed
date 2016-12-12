@@ -94,7 +94,7 @@
     for i, log_pair in list_logs {
         var log = log_pair[0];
         var plank = log_pair[1];
-        recipes.remove(log, plank);
+        recipes.remove(plank);
         recipes.addShaped(plank * 2, 
             [[<primal:flint_saw:*>],[log]]);
         recipes.addShaped(plank * 4, 
