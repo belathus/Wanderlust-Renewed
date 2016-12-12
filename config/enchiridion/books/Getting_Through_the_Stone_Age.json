@@ -485,11 +485,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "  Welcome\n   to the\n Stone Age",
+              "text": "   Getting\n  Through\n     the\n Stone Age",
               "size": 3.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
         },
@@ -749,7 +749,7 @@
           "xPos": 72,
           "yPos": 96,
           "width": 84.0,
-          "height": 42.0,
+          "height": 84.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -799,7 +799,7 @@
           "xPos": 236,
           "yPos": 159,
           "width": 77.0,
-          "height": 38.5,
+          "height": 77.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -833,7 +833,7 @@
           "xPos": 236,
           "yPos": 117,
           "width": 77.0,
-          "height": 38.5,
+          "height": 77.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -851,7 +851,7 @@
           "xPos": 320,
           "yPos": 118,
           "width": 75.0,
-          "height": 37.5,
+          "height": 75.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -869,7 +869,7 @@
           "xPos": 320,
           "yPos": 159,
           "width": 75.0,
-          "height": 37.5,
+          "height": 75.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1465,7 +1465,7 @@
           "xPos": 149,
           "yPos": 22,
           "width": 46.0,
-          "height": 50.6,
+          "height": 46.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1549,7 +1549,7 @@
           "xPos": 25,
           "yPos": 112,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1567,7 +1567,7 @@
           "xPos": 113,
           "yPos": 111,
           "width": 82.0,
-          "height": 41.0,
+          "height": 82.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1585,7 +1585,7 @@
           "xPos": 329,
           "yPos": 19,
           "width": 82.0,
-          "height": 41.0,
+          "height": 82.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1603,7 +1603,7 @@
           "xPos": 233,
           "yPos": 16,
           "width": 88.0,
-          "height": 44.0,
+          "height": 88.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1621,7 +1621,7 @@
           "xPos": 233,
           "yPos": 64,
           "width": 88.0,
-          "height": 44.0,
+          "height": 88.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1639,7 +1639,7 @@
           "xPos": 328,
           "yPos": 67,
           "width": 86.0,
-          "height": 43.0,
+          "height": 86.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1672,8 +1672,5 @@
       "pageNumber": 20,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }
