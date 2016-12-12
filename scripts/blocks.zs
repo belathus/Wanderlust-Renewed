@@ -33,3 +33,6 @@
          [null,null,null],
          [<ore:bricksStone>,null,<ore:bricksStone>]]);
 
+# PrimalCore
+    recipes.remove(<primal:netherstone>);
+    recipes.addShapeless(<primal:netherstone>,[<nethercore:stone:1>]);
