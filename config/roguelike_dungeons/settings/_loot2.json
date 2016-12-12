@@ -1,5 +1,5 @@
 {
-	"name" : "loot2",
+	"name" : "_loot2",
 	"loot_rules" : [
 		{	
 			"type" : "ARMOUR", 
@@ -59,9 +59,9 @@
 		{	
 			"type" : "FOOD", 
 			"loot" : [
-				{"data" : {"name" : "cooked_chicken", "min" : 1, "max" : 3}},
-				{"data" : {"name" : "cooked_porkchop", "min" : 1, "max" : 3}},
-				{"data" : {"name" : "cooked_beef", "min" : 1, "max" : 3}}
+				{"data" : {"name" : "cooked_chicken", "min" : 1, "max" : 3}, "weight" : 1},
+				{"data" : {"name" : "cooked_porkchop", "min" : 1, "max" : 3}, "weight" : 2},
+				{"data" : {"name" : "cooked_beef", "min" : 1, "max" : 3}, "weight" : 3}
 			],
 			"level" : 2,
 			"each" : true,

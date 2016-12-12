@@ -1,28 +1,24 @@
 {
     "name" : "botania",
     "criteria" : {
-        "biomeTypes" : ["PLAINS"],
+        "biomeTypes" : [ "PLAINS", "FOREST", "MAGICAL", "LUSH", "WET" ],
         "dimensionWL" : [ 0 ],
         "weight" : 1
     },
     "inherit" : [
-        "loot0"
+		"_botania_lvl_0",
+		"_botania_lvl_0_loot",
+		"_botania_lvl_1",
+		"_allLoot"
     ],	
     "overrides" : [
-        "LOOTRULES"
+        "LOOTRULES",
+		"ROOMS"
     ],
-    "levels" : {
-        "0" : {
-            "secrets" : [
-                {"type": "SMITH", "num" : 2},
-                {"type": "BEDROOM", "num" : 2}
-            ],
-            "spawners" : [
-                {
-                    "spawnerType" : "CREEPER",
-                    "spawnable" : {"name":"minecraft.creeper", "equip":"false", "weight":1}
-                }
-            ]
-        }	
-    }
+	"tower" : {
+		"type" : "HOUSE",
+		"theme" : {
+			"base" : "ETHO"
+		}
+	}
 }

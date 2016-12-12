@@ -1,0 +1,82 @@
+{
+    "name" : "_botania_lvl_0",
+    "levels" : {
+        "0" : {
+            "range" : 40,
+            "numRooms" : 10,
+            "theme" : {
+                "base" : "QUARTZ",
+                "rooms" : [
+                    {
+                        "mode" : "single",
+                        "type" : "ETHO"
+                    },
+                    {
+                        "mode" : "random",
+                        "type" : "ETHO",
+                        "weight" : 1
+                    }
+                ],
+                "primary" : {
+                    "walls" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:biomeStoneB",
+                            "meta": 6
+                        }
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:quartzTypeMana",
+                            "meta" : 2
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:biomeStoneA6Stairs"
+                        }
+                    },
+                    "floor" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:pavement",
+                            "meta" : 2
+                        }
+                    }
+                },
+                "secondary" : {
+                    "walls" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:biomeStoneB",
+                            "meta" : 5
+                        }
+                    },
+                    "pillar" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:biomeStoneA",
+                            "meta" : 5
+                        }
+                    },
+                    "stair" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:livingwood1Stairs"
+                        }
+                    },
+                    "floor" : {
+                        "type": "METABLOCK",
+                        "data" : {
+                            "name" : "botania:pavement",
+                            "meta" : 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

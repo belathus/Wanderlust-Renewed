@@ -1,0 +1,92 @@
+{
+	"name" : "_loot_all",
+	"loot_rules" : [
+		{	
+			"type" : "ENCHANTING", 
+			"loot" : [
+				{"data" : {"name" : "experience_bottle", "min" : 1, "max" : 3}, "weight" : 10}
+			],
+			"level" : 0,
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "POTIONS", 
+			"loot" : [
+				{"data" : {"name" : "potion", "meta" : 8197}},
+				{"data" : {"name" : "potion", "meta" : 8193}},
+				{"data" : {"name" : "potion", "meta" : 8194}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "SUPPLIES", 
+			"loot" : [
+				{"data" : {"name" : "wheat", "min" : 2, "max" : 7 }, "weight" : 1},
+				{"data" : {"name" : "saddle"}},
+				{"data" : {"name" : "bucket"}, "weight" : 2}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "MUSIC", 
+			"loot" : [
+				{"data" : {"name" : "record_13"}},
+				{"data" : {"name" : "record_cat"}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "REWARD", 
+			"loot" : [
+				{"data" : {"name" : "nether_star"}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "STARTER", 
+			"loot" : [
+				{"data" : {"name" : "wooden_pickaxe", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "wooden_axe", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "wooden_shovel", "ench" : 5}, "weight" : 3},
+				{"data" : {"name" : "wooden_sword", "ench" : 5}, "weight" : 6},
+				{"data" : {"name" : "stone_sword", "ench" : 5}, "weight" : 3},
+				{"data" : {
+					"name" : "leather_leggings",
+					"nbt" : {
+							"display" : { "type" : "COMPOUND", "value" : {
+									"Name" : {"type" : "STRING", "value" : "Surplus Pantaloons"},
+									"Lore" : {"type" : "STRING", "value" : "Always a favourite"}
+								}
+							},
+							"ench" : { "type" : "LIST", "value" : {"type" : "COMPOUND", "value" : [
+									{"id" : {"type" : "INT", "value" : 0}, "lvl" : {"type" : "INT", "value" : 1}},
+									{"id" : {"type" : "INT", "value" : 34}, "lvl" : {"type" : "INT", "value" : 2}}
+								]}
+							}
+						}
+					}, "weight" : 10
+				}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 7
+		},
+		{	
+			"loot" : [
+				{"data" : {"name" : "emerald"}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : false,
+			"quantity" : 5
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
-    "name" : "botania 0",
+    "name" : "_botania_lvl_1",
     "levels" : {
-        "all" : {
+        "1" : {
             "range" : 40,
             "numRooms" : 10,
             "theme" : {
@@ -21,21 +21,21 @@
                     "walls" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta": 6
+                            "name" : "minecraft:stained_hardened_clay",
+                            "meta": 0
                         }
                     },
                     "pillar" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:quartzTypeMana",
+                            "name" : "chisel:marblepillar",
                             "meta" : 2
                         }
                     },
                     "stair" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneA6Stairs"
+                            "name" : "biomesoplenty:magic_stairs"
                         }
                     },
                     "floor" : {
@@ -50,28 +50,28 @@
                     "walls" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta" : 5
+                            "name" : "botania:quartzTypeElf",
+                            "meta" : 1
                         }
                     },
                     "pillar" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:biomeStoneA",
-                            "meta" : 5
+                            "name" : "botania:quartzTypeElf",
+                            "meta" : 2
                         }
                     },
                     "stair" : {
                         "type": "METABLOCK",
                         "data" : {
-                            "name" : "botania:livingwood1Stairs"
+                            "name" : "quark:midori_block_stairs"
                         }
                     },
                     "floor" : {
                         "type": "METABLOCK",
                         "data" : {
                             "name" : "botania:pavement",
-                            "meta" : 0
+                            "meta" : 5
                         }
                     }
                 }
@@ -79,4 +79,3 @@
         }
     }
 }
-

@@ -1,511 +1,504 @@
 {
-   "name":"loot0",
-   "loot_rules":[
-      {
-         "type":"ARMOUR",
-         "loot":[
-            {
-               "data":{
-                  "name":"leather_helmet",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"leather_chestplate",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"leather_leggings",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"leather_boots",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"chainmail_helmet",
-                  "ench":1
-               },
-               "weight":2
-            },
-            {
-               "data":{
-                  "name":"chainmail_chestplate",
-                  "ench":1
-               },
-               "weight":2
-            },
-            {
-               "data":{
-                  "name":"chainmail_leggings",
-                  "ench":1
-               },
-               "weight":2
-            },
-            {
-               "data":{
-                  "name":"chainmail_boots",
-                  "ench":1
-               },
-               "weight":2
-            }
-
-         ],
-         "level":0,
-         "each":true,
-         "quantity":3
-      },
-      {
-         "type":"WEAPONS",
-         "loot":[
-            {
-               "data":{
-                  "name":"primal:flint_workblade",
-                  "ench":3
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:stone_gallagher",
-                  "ench":3
-               },
-               "weight":1
-            }
-         ],
-         "level":0,
-         "each":false,
-         "quantity":2
-      },
-      {
-         "type":"TOOLS",
-         "loot":[
-            {
-               "data":{
-                  "name":"druidry:flint_axe",
-                  "ench":1
-               },
-               "weight":6
-            },
-            {
-               "data":{
-                  "name":"primal:flint_axe",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:flint_hatchet",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:flint_hoe",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:flint_pickaxe",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:flint_shears",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:flint_shovel",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:flint_workblade",
-                  "ench":1
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_gallagher",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_axe",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_hatchet",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_hoe",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_pickaxe",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_shears",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_shovel",
-                  "ench":1
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:quartz_workblade",
-                  "ench":1
-               },
-               "weight":1
-            }
-         ],
-         "level":0,
-         "each":true,
-         "quantity":3
-      },
-      {
-         "type":"FOOD",
-         "loot":[
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":10,
-                  "min":1,
-                  "max":3
-               },
-               "weight":10,
-               "_comment":"monster jerky"
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":11,
-                  "min":1,
-                  "max":3
-               },
-               "weight":1,
-               "_comment":"beef jerky"
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":12,
-                  "min":1,
-                  "max":3
-               },
-               "weight":2
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":13,
-                  "min":1,
-                  "max":3
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":14,
-                  "min":1,
-                  "max":3
-               },
-               "weight":2
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":15,
-                  "min":1,
-                  "max":3
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":20,
-                  "min":1,
-                  "max":3
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":21,
-                  "min":1,
-                  "max":3
-               },
-               "weight":4
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":22,
-                  "min":1,
-                  "max":3
-               },
-               "weight":4
-            },
-            {
-               "data":{
-                  "name":"tconstruct:edible",
-                  "meta":23,
-                  "min":1,
-                  "max":3
-               },
-               "weight":4
-            }
-         ],
-         "level":0,
-         "each":true,
-         "quantity":3
-      },
-      {
-         "type":"ORE",
-         "loot":[
-            {
-               "data":{
-                  "name":"primal:tin_ingot",
-                  "min":1,
-                  "max":3
-               },
-               "weight":10
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":0,
-                  "min":1,
-                  "max":3
-               },
-               "weight":9
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":1,
-                  "min":1,
-                  "max":3
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":2,
-                  "min":1,
-                  "max":3
-               },
-               "weight":6
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":3,
-                  "min":1,
-                  "max":3
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":4,
-                  "min":1,
-                  "max":3
-               },
-               "weight":4
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":5,
-                  "min":1,
-                  "max":3
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":6,
-                  "min":1,
-                  "max":3
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":7,
-                  "min":1,
-                  "max":3
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"immersiveengineering:metal",
-                  "meta":8,
-                  "min":1,
-                  "max":3
-               },
-               "weight":1
-            }
-         ],
-         "level":0,
-         "each":true,
-         "quantity":6
-      },
-      {
-         "type":"SMITH",
-         "loot":[
-            {
-               "data":{
-                  "name":"basemetals:bronze_sword",
-                  "nbt":{
-                     "display":{
-                        "type":"COMPOUND",
-                        "value":{
-                           "Name":{
-                              "type":"STRING",
-                              "value":"Tempered Blade"
-                           },
-                           "Lore":{
-                              "type":"STRING",
-                              "value":"Reasonably Sharp"
-                           }
-                        }
-                     },
-                     "ench":{
-                        "type":"LIST",
-                        "value":{
-                           "type":"COMPOUND",
-                           "value":[
-                              {
-                                 "id":{
-                                    "type":"INT",
-                                    "value":16
-                                 },
-                                 "lvl":{
-                                    "type":"INT",
-                                    "value":1
-                                 }
-                              },
-                              {
-                                 "id":{
-                                    "type":"INT",
-                                    "value":34
-                                 },
-                                 "lvl":{
-                                    "type":"INT",
-                                    "value":3
-                                 }
-                              }
-                           ]
-                        }
-                     }
+  "name": "_loot0",
+  "loot_rules": [
+    {
+      "type": "ARMOUR",
+      "loot": [
+        {
+          "data": {
+            "name": "leather_helmet",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "leather_chestplate",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "leather_leggings",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "leather_boots",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "chainmail_helmet",
+            "ench": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "chainmail_chestplate",
+            "ench": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "chainmail_leggings",
+            "ench": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "chainmail_boots",
+            "ench": 1
+          },
+          "weight": 2
+        }
+      ],
+      "level": 0,
+      "each": true,
+      "quantity": 3
+    },
+    {
+      "type": "WEAPONS",
+      "loot": [
+        {
+          "data": {
+            "name": "primal:flint_workblade",
+            "ench": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:stone_gallagher",
+            "ench": 3
+          },
+          "weight": 1
+        }
+      ],
+      "level": 0,
+      "each": false,
+      "quantity": 2
+    },
+    {
+      "type": "TOOLS",
+      "loot": [
+        {
+          "data": {
+            "name": "druidry:flint_axe",
+            "ench": 1
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "primal:flint_axe",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:flint_hatchet",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:flint_hoe",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:flint_pickaxe",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:flint_shears",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:flint_shovel",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:flint_workblade",
+            "ench": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "primal:quartz_gallagher",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_axe",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_hatchet",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_hoe",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_pickaxe",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_shears",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_shovel",
+            "ench": 1
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "primal:quartz_workblade",
+            "ench": 1
+          },
+          "weight": 1
+        }
+      ],
+      "level": 0,
+      "each": true,
+      "quantity": 3
+    },
+    {
+      "type": "FOOD",
+      "loot": [
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 10,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 10,
+          "_comment": "monster jerky"
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 11,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1,
+          "_comment": "beef jerky"
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 12,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 13,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 14,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 15,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 20,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 21,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 22,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "tconstruct:edible",
+            "meta": 23,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        }
+      ],
+      "level": 0,
+      "each": true,
+      "quantity": 3
+    },
+    {
+      "type": "ORE",
+      "loot": [
+        {
+          "data": {
+            "name": "primal:tin_ingot",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 0,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 9
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 1,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 2,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 3,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 4,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 5,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 6,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 7,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "immersiveengineering:metal",
+            "meta": 8,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        }
+      ],
+      "level": 0,
+      "each": true,
+      "quantity": 6
+    },
+    {
+      "type": "SMITH",
+      "loot": [
+        {
+          "data": {
+            "name": "basemetals:bronze_sword",
+            "nbt": {
+              "display": {
+                "type": "COMPOUND",
+                "value": {
+                  "Name": {
+                    "type": "STRING",
+                    "value": "Tempered Blade"
+                  },
+                  "Lore": {
+                    "type": "STRING",
+                    "value": "Reasonably Sharp"
                   }
-               },
-               "weight":10
+                }
+              },
+              "ench": {
+                "type": "LIST",
+                "value": {
+                  "type": "COMPOUND",
+                  "value": [
+                    {
+                      "id": {
+                        "type": "INT",
+                        "value": 16
+                      },
+                      "lvl": {
+                        "type": "INT",
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": {
+                        "type": "INT",
+                        "value": 34
+                      },
+                      "lvl": {
+                        "type": "INT",
+                        "value": 3
+                      }
+                    }
+                  ]
+                }
+              }
             }
-         ],
-         "level":0,
-         "each":true,
-         "quantity":1
-      },
-      {
-         "loot":[
-            {
-               "data":{
-                  "name":"egg"
-               },
-               "weight":5
-            },
-            {
-               "data":{
-                  "name":"snowball"
-               },
-               "weight":2
-            },
-            {
-               "data":{
-                  "name":"lead"
-               },
-               "weight":3
-            },
-            {
-               "data":{
-                  "name":"string"
-               },
-               "weight":5
-            },
-            {
-               "data":{
-                  "name":"gunpowder",
-                  "min":1,
-                  "max":3
-               },
-               "weight":1
-            },
-            {
-               "data":{
-                  "name":"primal:plant_fiber"
-               },
-               "weight":5
-            }
-         ],
-         "level":0,
-         "each":true,
-         "quantity":6
-      }
-   ]
+          },
+          "weight": 10
+        }
+      ],
+      "level": 0,
+      "each": true,
+      "quantity": 1
+    },
+    {
+      "loot": [
+        {
+          "data": {
+            "name": "egg"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "snowball"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "lead"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "string"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "gunpowder",
+            "min": 1,
+            "max": 3
+          },
+          "weight": 1
+        }
+      ],
+      "level": 0,
+      "each": true,
+      "quantity": 6
+    }
+  ]
 }

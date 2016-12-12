@@ -2,15 +2,18 @@
     "name":"abyssalcraft",
     "criteria":{
         "dimensionWL":[ 0 ],
-        "weight":1
+        "biomeTypes":[
+			"DEAD", "SPOOKY", "MAGICAL", "WASTELAND"
+		],
+		"weight":1
     },
     "inherit":[
-		"abyssalcraftLoot",
-		"loot0",
-		"loot1",
-		"loot2",
-		"loot3",
-		"loot4"
+		"_abyssalcraft_lvl_0_loot",
+		"_loot0",
+		"_loot1",
+		"_loot2",
+		"_loot3",
+		"_loot4"
     ],
 	"overrides" : [
 		"ROOMS",
