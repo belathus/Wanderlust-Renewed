@@ -177,10 +177,10 @@
           "layerIndex": 7
         },
         {
-          "xPos": 199,
-          "yPos": 210,
-          "width": 32.0,
-          "height": 29.0,
+          "xPos": 206,
+          "yPos": 225,
+          "width": 18.0,
+          "height": 10.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureButton",
             "properties": {
@@ -202,11 +202,11 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 8
         }
@@ -725,7 +725,7 @@
               "size": 1.0
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 3
         },
@@ -741,7 +741,7 @@
               "size": 1.0
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -759,9 +759,129 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 5
+        },
+        {
+          "xPos": 21,
+          "yPos": 146,
+          "width": 179.0,
+          "height": 48.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The furnace will allow you to smelt most ores into their ingot forms -- a notable exception to this is iron. Sadly, the heat produced by the furnace is not enough for iron.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 236,
+          "yPos": 17,
+          "width": 175.0,
+          "height": 64.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "At this point, you\u0027ll have materials like copper, tin, and zinc. The next step is to turn these into alloys such as bronze and brass. There are two methods to make these alloys: the smeltery and the crucible.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 236,
+          "yPos": 159,
+          "width": 77.0,
+          "height": 38.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "minecraft:clay:0:mortar:biomesoplenty:dirt:2",
+              "recipeType": "ShapelessOreRecipe",
+              "item": "tconstruct:soil 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 236,
+          "yPos": 88,
+          "width": 173.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Smeltery\nYou\u0027ll need grout. There are four different recipes for grout:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 236,
+          "yPos": 117,
+          "width": 77.0,
+          "height": 38.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "primal:terraclay_clump:0:minecraft:dye:15:biomesoplenty:dirt:2",
+              "recipeType": "ShapelessRecipes",
+              "item": "tconstruct:soil 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 320,
+          "yPos": 118,
+          "width": 75.0,
+          "height": 37.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "primal:carbonate_slack:0:dustAsh:clumpMud",
+              "recipeType": "ShapelessOreRecipe",
+              "item": "tconstruct:soil 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 320,
+          "yPos": 159,
+          "width": 75.0,
+          "height": 37.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "primal:earthwax_clump:0:gunpowder:gravel",
+              "recipeType": "ShapelessOreRecipe",
+              "item": "tconstruct:soil 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
         }
       ],
       "pageNumber": 19,
@@ -863,7 +983,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 4
+          "layerIndex": 3
         },
         {
           "xPos": 238,
@@ -879,7 +999,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 5
+          "layerIndex": 4
         },
         {
           "xPos": 308,
@@ -895,7 +1015,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 6
+          "layerIndex": 5
         },
         {
           "xPos": 26,
@@ -911,7 +1031,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 7
+          "layerIndex": 6
         },
         {
           "xPos": 45,
@@ -929,7 +1049,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 8
+          "layerIndex": 7
         },
         {
           "xPos": 97,
@@ -947,7 +1067,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 9
+          "layerIndex": 8
         },
         {
           "xPos": 234,
@@ -963,7 +1083,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 10
+          "layerIndex": 9
         },
         {
           "xPos": 272,
@@ -981,7 +1101,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 11
+          "layerIndex": 10
         },
         {
           "xPos": 199,
@@ -1015,7 +1135,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 12
+          "layerIndex": 11
         }
       ],
       "pageNumber": 10,
@@ -1275,6 +1395,281 @@
         }
       ],
       "pageNumber": 11,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 149,
+          "yPos": 22,
+          "width": 46.0,
+          "height": 50.6,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:soil:0",
+              "recipeType": "VanillaFurnace",
+              "item": "tconstruct:materials 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 21,
+          "yPos": 20,
+          "width": 122.0,
+          "height": 54.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Then you just process the grout in the smeltery to make seared bricks. From there, you can make the rest of the smeltery\u0027s components.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 206,
+          "yPos": 225,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "Return to Index",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 21,
+          "yPos": 74,
+          "width": 180.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "At a minimum, you\u0027ll need a smeltery controller, a tank, a drain, a smeltery faucet, and a casting table or basin.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 25,
+          "yPos": 112,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
+              "recipeType": "ShapedRecipes",
+              "item": "tconstruct:smeltery_controller 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 113,
+          "yPos": 111,
+          "width": 82.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:materials:0:blockGlass:tconstruct:materials:0:blockGlass:blockGlass:blockGlass:tconstruct:materials:0:blockGlass:tconstruct:materials:0",
+              "recipeType": "ShapedOreRecipe",
+              "item": "tconstruct:seared_tank 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 329,
+          "yPos": 19,
+          "width": 82.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
+              "recipeType": "ShapedRecipes",
+              "item": "tconstruct:smeltery_io 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 233,
+          "yPos": 16,
+          "width": 88.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
+              "recipeType": "ShapedRecipes",
+              "item": "tconstruct:faucet 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 233,
+          "yPos": 64,
+          "width": 88.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
+              "recipeType": "ShapedRecipes",
+              "item": "tconstruct:casting 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 328,
+          "yPos": 67,
+          "width": 86.0,
+          "height": 43.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
+              "recipeType": "ShapedRecipes",
+              "item": "tconstruct:casting 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 228,
+          "yPos": 119,
+          "width": 88.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureBox",
+            "properties": {
+              "color": "ffffe599"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        }
+      ],
+      "pageNumber": 20,
       "isScrollable": false
     }
   ],
