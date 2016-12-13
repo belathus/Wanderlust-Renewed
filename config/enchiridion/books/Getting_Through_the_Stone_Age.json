@@ -9,7 +9,7 @@
   "hasCustomIcon": true,
   "showBackground": true,
   "legacyTexture": false,
-  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "backgroundResource": "enchiridion:images/Getting_Through_the_Stone_Age/stone_bg2.png",
   "backgroundStartX": -10,
   "backgroundStartY": -10,
   "backgroundEndX": 440,
@@ -21,7 +21,7 @@
     {
       "features": [
         {
-          "xPos": 19,
+          "xPos": 21,
           "yPos": 200,
           "width": 18.0,
           "height": 10.0,
@@ -52,7 +52,7 @@
           "layerIndex": 0
         },
         {
-          "xPos": 392,
+          "xPos": 387,
           "yPos": 200,
           "width": 18.0,
           "height": 10.0,
@@ -90,11 +90,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Welcome to the world. First thing is first: you need to survive. For that, you\u0027ll need food and shelter.\n\nLook around. Depending on where you are, you\u0027ll find plants on the ground that contain edibles.",
+              "text": "[color\u003dblack]Welcome to the world. First thing is first: you need to survive. For that, you\u0027ll need food and shelter.\n\nLook around. Depending on where you are, you\u0027ll find plants on the ground that contain edibles.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
         },
@@ -121,11 +121,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Erse for the World.",
+              "text": "[color\u003dblack]Erse for the World.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -137,11 +137,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Erse is a fast growing nutritious plant that looks a bit like a strawberry. It tastes nothing like a strawberry. In fact, it tastes pretty bland, but it is good for you.",
+              "text": "[color\u003dblack]Erse is a fast growing nutritious plant that looks a bit like a strawberry. It tastes nothing like a strawberry. In fact, it tastes pretty bland, but it is good for you.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
         },
@@ -168,11 +168,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Corn. Grows fast, grows tall.",
+              "text": "[color\u003dblack]Corn. Grows fast, grows tall.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 7
         },
@@ -315,12 +315,12 @@
         {
           "xPos": 26,
           "yPos": 21,
-          "width": 101.0,
-          "height": 12.0,
+          "width": 126.0,
+          "height": 11.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Acquiring Hardware",
+              "text": "[b][color\u003dblack]Acquiring Hardware",
               "size": 1.0
             }
           },
@@ -347,65 +347,65 @@
           "layerIndex": 4
         },
         {
-          "xPos": 30,
-          "yPos": 102,
+          "xPos": 18,
+          "yPos": 103,
           "width": 168.0,
           "height": 84.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "One of the first tools you\u0027ll want to make is this simple flint hatchet. The ingredients are simple: sticks come from harvesting the branches and leaves of trees. You do not need to chop the tree down to acquire sticks -- in fact, you cannot harvest the tree\u0027s logs without a hatchet.",
+              "text": "[color\u003dblack]One of the first tools you\u0027ll want to make is this simple flint hatchet. The ingredients are simple: sticks come from harvesting the branches and leaves of trees. You do not need to chop the tree down to acquire sticks -- in fact, you cannot harvest the tree\u0027s logs without a hatchet.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
         },
         {
-          "xPos": 234,
-          "yPos": 131,
-          "width": 176.0,
-          "height": 57.0,
+          "xPos": 237,
+          "yPos": 126,
+          "width": 162.0,
+          "height": 65.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Flint is acquired as expected: digging through gravel. However, you can also gather flint in sand if gravel proves difficult to find. It might also be wise to make a shovel, especially if you want lots of flint.",
+              "text": "[color\u003dblack]Flint is acquired as expected: digging through gravel. However, you can also gather flint in sand if gravel proves difficult to find. It might also be wise to make a shovel, especially if you want lots of flint.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
         },
         {
-          "xPos": 234,
-          "yPos": 18,
-          "width": 178.0,
-          "height": 79.0,
+          "xPos": 244,
+          "yPos": 16,
+          "width": 159.0,
+          "height": 74.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
               "path": "enchiridion:images/Getting_Through_the_Stone_Age/felled tree.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 7
         },
         {
-          "xPos": 249,
-          "yPos": 99,
+          "xPos": 250,
+          "yPos": 96,
           "width": 148.0,
           "height": 11.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The results of a felled tree.",
+              "text": "[color\u003dblack]The results of a felled tree.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 8
         }
@@ -478,14 +478,14 @@
           "layerIndex": 1
         },
         {
-          "xPos": 27,
-          "yPos": 24,
+          "xPos": 13,
+          "yPos": 23,
           "width": 182.0,
-          "height": 95.0,
+          "height": 106.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "   Getting\n  Through\n     the\n Stone Age",
+              "text": "[color\u003dblack]   Getting\n  Through\n     the\n Stone Age",
               "size": 3.0
             }
           },
@@ -513,17 +513,17 @@
               "rightClick": true,
               "otherClick": false,
               "tooltip": "",
-              "hoverText": "Collecting Food",
+              "hoverText": "[color\u003dblue]Collecting Food",
               "hoverXOffset": 0,
               "hoverYOffset": 0,
-              "unhoveredText": "Collecting Food",
+              "unhoveredText": "[color\u003dblack]Collecting Food",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
               "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
         },
@@ -547,17 +547,17 @@
               "rightClick": true,
               "otherClick": false,
               "tooltip": "",
-              "hoverText": "Acquiring Hardware",
+              "hoverText": "[color\u003dblue]Acquiring Hardware",
               "hoverXOffset": 0,
               "hoverYOffset": 0,
-              "unhoveredText": "Acquiring Hardware",
+              "unhoveredText": "[color\u003dblack]Acquiring Hardware",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
               "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -569,11 +569,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Index (click on text)",
+              "text": "[color\u003dblack]Index (click on text)",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
         },
@@ -597,17 +597,17 @@
               "rightClick": true,
               "otherClick": false,
               "tooltip": "",
-              "hoverText": "Processing Ores",
+              "hoverText": "[color\u003dblue]Processing Ores",
               "hoverXOffset": 0,
               "hoverYOffset": 0,
-              "unhoveredText": "Processing Ores",
+              "unhoveredText": "[color\u003dblack]Processing Ores",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
               "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
         }
@@ -714,42 +714,42 @@
           "layerIndex": 2
         },
         {
-          "xPos": 29,
-          "yPos": 17,
+          "xPos": 31,
+          "yPos": 14,
           "width": 80.0,
           "height": 9.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Ore Processing",
+              "text": "[color\u003dblack]Ore Processing",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
         },
         {
           "xPos": 21,
           "yPos": 30,
-          "width": 185.0,
-          "height": 71.0,
+          "width": 170.0,
+          "height": 70.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "While there are several methods of processing ore, while we\u0027re in the Stone Age, we are very limited. For the most part, you\u0027re limited to processing copper, tin, zinc, lead, and silver. The easiest method to process these may be the furnace.",
+              "text": "[color\u003dblack]While there are several methods of processing ore, while we\u0027re in the Stone Age, we are very limited. For the most part, you\u0027re limited to processing copper, tin, zinc, lead, and silver. The easiest method to process these may be the furnace.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
         {
-          "xPos": 72,
-          "yPos": 96,
+          "xPos": 64,
+          "yPos": 105,
           "width": 84.0,
-          "height": 84.0,
+          "height": 42.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -759,19 +759,19 @@
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
         },
         {
-          "xPos": 21,
-          "yPos": 146,
+          "xPos": 19,
+          "yPos": 151,
           "width": 179.0,
           "height": 48.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The furnace will allow you to smelt most ores into their ingot forms -- a notable exception to this is iron. Sadly, the heat produced by the furnace is not enough for iron.",
+              "text": "[color\u003dblack]The furnace will allow you to smelt most ores into their ingot forms -- a notable exception to this is iron. Sadly, the heat produced by the furnace is not enough for iron.",
               "size": 1.0
             }
           },
@@ -780,14 +780,14 @@
           "layerIndex": 6
         },
         {
-          "xPos": 236,
+          "xPos": 240,
           "yPos": 17,
           "width": 175.0,
-          "height": 64.0,
+          "height": 57.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "At this point, you\u0027ll have materials like copper, tin, and zinc. The next step is to turn these into alloys such as bronze and brass. There are two methods to make these alloys: the smeltery and the crucible.",
+              "text": "[color\u003dblack]At this point, you\u0027ll have materials like copper, tin, and zinc. The next step is to turn these into alloys such as bronze and brass. There are two methods to make these alloys: the smeltery and the crucible.",
               "size": 1.0
             }
           },
@@ -799,7 +799,7 @@
           "xPos": 236,
           "yPos": 159,
           "width": 77.0,
-          "height": 77.0,
+          "height": 38.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -814,14 +814,14 @@
           "layerIndex": 8
         },
         {
-          "xPos": 236,
-          "yPos": 88,
-          "width": 173.0,
-          "height": 27.0,
+          "xPos": 240,
+          "yPos": 85,
+          "width": 166.0,
+          "height": 32.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The Smeltery\nYou\u0027ll need grout. There are four different recipes for grout:",
+              "text": "[color\u003dblack]The Smeltery\nYou\u0027ll need grout. There are four different recipes for grout:",
               "size": 1.0
             }
           },
@@ -833,7 +833,7 @@
           "xPos": 236,
           "yPos": 117,
           "width": 77.0,
-          "height": 77.0,
+          "height": 38.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -851,7 +851,7 @@
           "xPos": 320,
           "yPos": 118,
           "width": 75.0,
-          "height": 75.0,
+          "height": 37.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -869,7 +869,7 @@
           "xPos": 320,
           "yPos": 159,
           "width": 75.0,
-          "height": 75.0,
+          "height": 37.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -977,7 +977,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Flaked Flint",
+              "text": "[color\u003dblack]Flaked Flint",
               "size": 1.0
             }
           },
@@ -988,12 +988,12 @@
         {
           "xPos": 238,
           "yPos": 125,
-          "width": 174.0,
-          "height": 56.0,
+          "width": 163.0,
+          "height": 67.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Most of the more useful tools will require you to knap your flint. Knapping flint is done by holding flint in your hand and hitting the flint against a hard surface, such as stone.",
+              "text": "[color\u003dblack]Most of the more useful tools will require you to knap your flint. Knapping flint is done by holding flint in your hand and hitting the flint against a hard surface, such as stone.",
               "size": 1.0
             }
           },
@@ -1018,14 +1018,14 @@
           "layerIndex": 5
         },
         {
-          "xPos": 26,
-          "yPos": 72,
+          "xPos": 17,
+          "yPos": 71,
           "width": 173.0,
           "height": 47.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Which, you\u0027ll notice, the shovel reqires a station to craft it. You\u0027ll also note that planks are a bit harder to acquire. The solution? Wattle or work tables.",
+              "text": "[color\u003dblack]Which, you\u0027ll notice, the shovel reqires a station to craft it. You\u0027ll also note that planks are a bit harder to acquire. The solution? Wattle or work tables.",
               "size": 1.0
             }
           },
@@ -1070,14 +1070,14 @@
           "layerIndex": 8
         },
         {
-          "xPos": 234,
-          "yPos": 18,
-          "width": 175.0,
-          "height": 30.0,
+          "xPos": 246,
+          "yPos": 12,
+          "width": 159.0,
+          "height": 36.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Wattle can be used just like planks can, allowing you to craft a normal crafting table.",
+              "text": "[color\u003dblack]Wattle can be used just like planks can, allowing you to craft a normal crafting table.",
               "size": 1.0
             }
           },
@@ -1240,18 +1240,18 @@
           "layerIndex": 2
         },
         {
-          "xPos": 23,
+          "xPos": 21,
           "yPos": 20,
           "width": 173.0,
           "height": 28.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The Flint Pickaxe\nYou\u0027ll need this to collect stone and ore.",
+              "text": "[color\u003dblack]The Flint Pickaxe\nYou\u0027ll need this to collect stone and ore.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
         },
@@ -1287,23 +1287,23 @@
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
         },
         {
-          "xPos": 27,
-          "yPos": 104,
+          "xPos": 17,
+          "yPos": 103,
           "width": 171.0,
           "height": 46.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The Work Blade\nYou\u0027ll need a work blade to make wooden pins, which are needed to make the saw, but it has several other uses as well.",
+              "text": "[color\u003dblack]The Work Blade\nYou\u0027ll need a work blade to make wooden pins, which are needed to make the saw, but it has several other uses as well.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
         },
@@ -1315,11 +1315,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The Flint Saw\nYou may have noticed that planks are harder to craft. You can get around this with a saw. The flint saw is the inferior option, but we can get past that later.",
+              "text": "[color\u003dblack]The Flint Saw\nYou may have noticed that planks are harder to craft. You can get around this with a saw. The flint saw is the inferior option, but we can get past that later.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 7
         },
@@ -1349,11 +1349,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "The Stone Gallagher\nOnce you have a pickaxe, you can make this tool.",
+              "text": "[color\u003dblack]The Stone Gallagher\nOnce you have a pickaxe, you can make this tool.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 9
         },
@@ -1463,9 +1463,9 @@
         },
         {
           "xPos": 149,
-          "yPos": 22,
-          "width": 46.0,
-          "height": 46.0,
+          "yPos": 26,
+          "width": 39.0,
+          "height": 42.900000000000006,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1475,7 +1475,7 @@
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
         },
@@ -1487,7 +1487,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Then you just process the grout in the smeltery to make seared bricks. From there, you can make the rest of the smeltery\u0027s components.",
+              "text": "[color\u003dblack]Then you just process the grout in the smeltery to make seared bricks. From there, you can make the rest of the smeltery\u0027s components.",
               "size": 1.0
             }
           },
@@ -1496,10 +1496,10 @@
           "layerIndex": 3
         },
         {
-          "xPos": 206,
-          "yPos": 225,
-          "width": 18.0,
-          "height": 10.0,
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureButton",
             "properties": {
@@ -1521,8 +1521,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
             }
           },
           "isLocked": true,
@@ -1532,16 +1532,16 @@
         {
           "xPos": 21,
           "yPos": 74,
-          "width": 180.0,
-          "height": 38.0,
+          "width": 163.0,
+          "height": 37.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "At a minimum, you\u0027ll need a smeltery controller, a tank, a drain, a smeltery faucet, and a casting table or basin.",
+              "text": "[color\u003dblack]At a minimum, you\u0027ll need a smeltery controller, a tank, a drain, a smeltery faucet, and a casting table or basin.",
               "size": 1.0
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 5
         },
@@ -1549,7 +1549,7 @@
           "xPos": 25,
           "yPos": 112,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1559,15 +1559,15 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 6
         },
         {
-          "xPos": 113,
-          "yPos": 111,
+          "xPos": 91,
+          "yPos": 162,
           "width": 82.0,
-          "height": 82.0,
+          "height": 41.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1577,15 +1577,15 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 7
         },
         {
-          "xPos": 329,
-          "yPos": 19,
+          "xPos": 324,
+          "yPos": 62,
           "width": 82.0,
-          "height": 82.0,
+          "height": 41.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1595,15 +1595,15 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 8
         },
         {
-          "xPos": 233,
-          "yPos": 16,
+          "xPos": 252,
+          "yPos": 18,
           "width": 88.0,
-          "height": 88.0,
+          "height": 44.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1613,15 +1613,15 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 9
         },
         {
-          "xPos": 233,
-          "yPos": 64,
+          "xPos": 254,
+          "yPos": 105,
           "width": 88.0,
-          "height": 88.0,
+          "height": 44.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1631,15 +1631,15 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 10
         },
         {
-          "xPos": 328,
-          "yPos": 67,
+          "xPos": 316,
+          "yPos": 160,
           "width": 86.0,
-          "height": 86.0,
+          "height": 43.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1649,28 +1649,528 @@
               "hideTooltip": false
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 11
+        }
+      ],
+      "pageNumber": 21,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
         },
         {
-          "xPos": 228,
-          "yPos": 119,
-          "width": 88.0,
-          "height": 46.0,
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
           "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureBox",
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
             "properties": {
-              "color": "ffffe599"
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        }
+      ],
+      "pageNumber": 29,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 17,
+          "yPos": 19,
+          "width": 171.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]See the next chapter in my popular \"Getting Through\" series: Getting through the Bronze Age!",
+              "size": 1.0
             }
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 12
+          "layerIndex": 5
+        },
+        {
+          "xPos": 16,
+          "yPos": 55,
+          "width": 160.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "paper:paper:paper:ingotCopper",
+              "recipeType": "ShapelessOreRecipe",
+              "item": "enchiridion:book 0 {identifier:\"Getting_Through_the_Bronze_Age\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 39,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 17,
+          "yPos": 14,
+          "width": 60.0,
+          "height": 9.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Terra Clay:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 73,
+          "yPos": 10,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "primal:terraclay_clump",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 9,
+          "yPos": 27,
+          "width": 182.0,
+          "height": 81.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Terra clay is found in plains and near rivers.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
         }
       ],
       "pageNumber": 20,
       "isScrollable": false
     }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
   ]
 }

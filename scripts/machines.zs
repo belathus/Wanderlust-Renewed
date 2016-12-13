@@ -4,7 +4,7 @@
     #     [<>,<>,<>],
     #     [<>,<>,<>]]);
     
-var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantmens:[{id:70,lvl:1}]});
+var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantments:[{id:70,lvl:1}]});
 
 # Vanilla
     recipes.addShaped(<minecraft:hopper>,
