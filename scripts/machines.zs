@@ -35,13 +35,21 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [<ore:bricksStone>,<ore:bricksStone>,<ore:bricksStone>]]);
 
 # Blood Magic
+    # Altar
     recipes.remove(<bloodmagic:BlockAltar>);
     recipes.addShaped(<bloodmagic:BlockAltar>,
         [[<ore:stone>,null,<ore:stone>],
          [<ore:stone>,<minecraft:furnace>,<ore:stone>],
          [<ore:nuggetSilver>,<bloodmagic:ItemMonsterSoul>,<ore:nuggetSilver>]]);
-
+    # Soul Forge
+    recipes.remove(<bloodmagic:BlockSoulForge>);
+    recipes.addShaped(<bloodmagic:BlockSoulForge>,
+        [[<ore:ingotSilver>,null,<ore:ingotSilver>],
+         [<ore:hardenedClay>,<ore:ingotGold>,<ore:hardenedClay>],
+         [<ore:hardenedClay>,<ore:blockSilver>,<ore:hardenedClay>]]);
+    
 # Botania
+    # Mana Spreader
     recipes.addShaped(<botania:spreader>,
         [[<botania:livingwood>,<botania:livingwood>,<botania:livingwood>],
          [<ore:ingotSilver>,<botania:petal:*>,null],
