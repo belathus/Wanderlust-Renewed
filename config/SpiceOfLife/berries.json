@@ -1,19 +1,15 @@
 {
-	"food": {
-		"oredict": [
-			"listAllberry"
-		],
-		"items": [
-		]
-	},
-	"exclude": {
-		"items": [
-		]
-	},
-	"name": "Berries",
-	"enabled": false,
-	"blacklist": false,
-	"hidden": false,
-	"formula": "MAX(0, 1 - count/2)",
-	"color": "gray"
+    "food": {
+        "oredict": [ "listAllberry" ],
+        "items": [ ]
+    },
+    "exclude": {
+        "items": [ ]
+    },
+    "name": "Berries",
+    "enabled": true,
+    "blacklist": false,
+    "hidden": false,
+    "formula": "MAX(0, 1 - count/2)",
+    "color": "gray"
 }
