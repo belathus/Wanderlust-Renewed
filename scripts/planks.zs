@@ -91,36 +91,74 @@
         [<natura:nether_logs:1>, <natura:nether_planks:2>,<natura:nether_stairs_fusewood>,<natura:nether_slab:2>],
         [<natura:nether_logs:2>, <natura:nether_planks:3>,<natura:nether_stairs_darkwood>,<natura:nether_slab:3>],
         [<roots:logWildwood>,<roots:plankWildwood>,<roots:plankWildwoodStairs>,<roots:plankWildwoodSlabItem>],
-        [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>],
-        [<abyssalcraft:dreadlog>,<abyssalcraft:dreadplanks>,null,null],
-        [<botanicaladdons:irisLog0:0>,<botanicaladdons:irisPlanks>,null,null],
-        [<botanicaladdons:irisLog0:1>,<botanicaladdons:irisPlanks:1>,null,null],
-        [<botanicaladdons:irisLog0:2>,<botanicaladdons:irisPlanks:2>,null,null],
-        [<botanicaladdons:irisLog0:3>,<botanicaladdons:irisPlanks:3>,null,null],
-        [<botanicaladdons:irisLog1:0>,<botanicaladdons:irisPlanks:4>,null,null],
-        [<botanicaladdons:irisLog1:1>,<botanicaladdons:irisPlanks:5>,null,null],
-        [<botanicaladdons:irisLog1:2>,<botanicaladdons:irisPlanks:6>,null,null],
-        [<botanicaladdons:irisLog1:3>,<botanicaladdons:irisPlanks:7>,null,null],
-        [<botanicaladdons:irisLog2:0>,<botanicaladdons:irisPlanks:8>,null,null],
-        [<botanicaladdons:irisLog2:1>,<botanicaladdons:irisPlanks:9>,null,null],
-        [<botanicaladdons:irisLog2:2>,<botanicaladdons:irisPlanks:10>,null,null],
-        [<botanicaladdons:irisLog2:3>,<botanicaladdons:irisPlanks:11>,null,null],
-        [<botanicaladdons:irisLog3:0>,<botanicaladdons:irisPlanks:12>,null,null],
-        [<botanicaladdons:irisLog3:1>,<botanicaladdons:irisPlanks:13>,null,null],
-        [<botanicaladdons:irisLog3:2>,<botanicaladdons:irisPlanks:14>,null,null],
-        [<botanicaladdons:irisLog3:3>,<botanicaladdons:irisPlanks:15>,null,null],
-        [<botanicaladdons:altLog0:0>,<botanicaladdons:altPlanks>,null,null],
-        [<botanicaladdons:altLog0:1>,<botanicaladdons:altPlanks:1>,null,null],
-        [<botanicaladdons:altLog0:2>,<botanicaladdons:altPlanks:2>,null,null],
-        [<botanicaladdons:altLog0:3>,<botanicaladdons:altPlanks:3>,null,null],
-        [<botanicaladdons:altLog1:0>,<botanicaladdons:altPlanks:4>,null,null],
-        [<botanicaladdons:altLog1:1>,<botanicaladdons:altPlanks:5>,null,null],
-        [<integrateddynamics:menrilLog>,<integrateddynamics:menrilPlanks>,null,null],
-        [<evilcraft:undeadLog>,<evilcraft:undeadPlank>,null,null]
+        [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>]
     ] as minetweaker.item.IItemStack[][];
     
+    var list_logs2 = [
+        [<abyssalcraft:dreadlog>,       <abyssalcraft:dreadplanks>,         null, null],
+        [<botanicaladdons:irisLog0:0>,  <botanicaladdons:irisPlanks>,       null, null],
+        [<botanicaladdons:irisLog0:1>,  <botanicaladdons:irisPlanks:1>,     null, null],
+        [<botanicaladdons:irisLog0:2>,  <botanicaladdons:irisPlanks:2>,     null, null],
+        [<botanicaladdons:irisLog0:3>,  <botanicaladdons:irisPlanks:3>,     null, null],
+        [<botanicaladdons:irisLog1:0>,  <botanicaladdons:irisPlanks:4>,     null, null],
+        [<botanicaladdons:irisLog1:1>,  <botanicaladdons:irisPlanks:5>,     null, null],
+        [<botanicaladdons:irisLog1:2>,  <botanicaladdons:irisPlanks:6>,     null, null],
+        [<botanicaladdons:irisLog1:3>,  <botanicaladdons:irisPlanks:7>,     null, null],
+        [<botanicaladdons:irisLog2:0>,  <botanicaladdons:irisPlanks:8>,     null, null],
+        [<botanicaladdons:irisLog2:1>,  <botanicaladdons:irisPlanks:9>,     null, null],
+        [<botanicaladdons:irisLog2:2>,  <botanicaladdons:irisPlanks:10>,    null, null],
+        [<botanicaladdons:irisLog2:3>,  <botanicaladdons:irisPlanks:11>,    null, null],
+        [<botanicaladdons:irisLog3:0>,  <botanicaladdons:irisPlanks:12>,    null, null],
+        [<botanicaladdons:irisLog3:1>,  <botanicaladdons:irisPlanks:13>,    null, null],
+        [<botanicaladdons:irisLog3:2>,  <botanicaladdons:irisPlanks:14>,    null, null],
+        [<botanicaladdons:irisLog3:3>,  <botanicaladdons:irisPlanks:15>,    null, null],
+        [<botanicaladdons:altLog0:0>,   <botanicaladdons:altPlanks>,        null, null],
+        [<botanicaladdons:altLog0:1>,   <botanicaladdons:altPlanks:1>,      null, null],
+        [<botanicaladdons:altLog0:2>,   <botanicaladdons:altPlanks:2>,      null, null],
+        [<botanicaladdons:altLog0:3>,   <botanicaladdons:altPlanks:3>,      null, null],
+        [<botanicaladdons:altLog1:0>,   <botanicaladdons:altPlanks:4>,      null, null],
+        [<botanicaladdons:altLog1:1>,   <botanicaladdons:altPlanks:5>,      null, null],
+        [<integrateddynamics:menrilLog>,<integrateddynamics:menrilPlanks>,  null, null],
+        [<evilcraft:undeadLog>,         <evilcraft:undeadPlank>,            null, null]
+    ] as minetweaker.item.IItemStack[][];
 # For Loop; removes all plank recipes then re-adds them using the above nested array.
     for i, log_pair in list_logs {
+        var log = log_pair[0];
+        var plank = log_pair[1];
+        var stair = log_pair[2];
+        var slab = log_pair[3];
+        recipes.remove(plank);
+        recipes.remove(slab);
+        recipes.addShaped(plank * 2, 
+            [[<primal:flint_saw:*>],[log]]);
+        recipes.addShaped(plank * 4, 
+            [[<primal:quartz_saw:*>],[log]]);
+        recipes.addShaped(plank * 4, 
+            [[<primal:iron_saw:*>],[log]]);
+        recipes.addShaped(plank * 4, 
+            [[<primal:copper_saw:*>],[log]]);
+        recipes.addShaped(plank * 4, 
+            [[<primal:diamond_saw:*>],[log]]);
+        recipes.addShaped(plank * 4, 
+            [[<primal:emerald_saw:*>],[log]]);
+        recipes.addShaped(slab * 2, 
+            [[<primal:flint_saw:*>, plank]]);
+        recipes.addShaped(slab * 2, 
+            [[<primal:quartz_saw:*>, plank]]);
+        recipes.addShaped(slab * 2, 
+            [[<primal:iron_saw:*>, plank]]);
+        recipes.addShaped(slab * 2, 
+            [[<primal:copper_saw:*>, plank]]);
+        recipes.addShaped(slab * 2, 
+            [[<primal:diamond_saw:*>, plank]]);
+        recipes.addShaped(slab * 2, 
+            [[<primal:emerald_saw:*>, plank]]);
+        recipes.addShapeless(plank * 3, 
+            [[stair, stair, stair]);
+        recipes.addShapeless(plank, 
+            [[slab, slab]);
+    }
+    for i, log_pair in list_logs2 {
         var log = log_pair[0];
         var plank = log_pair[1];
         recipes.remove(plank);
