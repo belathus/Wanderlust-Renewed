@@ -748,6 +748,62 @@
         </Veins>
     </IfModInstalled>
     
+    
+    <IfModInstalled name="evilcraft">
+        <!-- Dark Gem Ore Deposits; more common in SPOOKY biomes; the non-preferred vein is barred from SPOOKY biomes -->
+        <Veins name='evilDarkGemVeins'  inherits='PresetHintVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60554444' drawBoundBox='false' boundBoxColor='0x60554444'>
+            <Description>
+                Small individual ores that spawn from heights 6 to 66. Welcome to EvilCraft.
+            </Description>
+            <OreBlock block='evilcraft:darkOre' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <Biome name='.*'  />
+            <BiomeType name='SPOOKY' weight='-1' />
+            <Setting name='MotherlodeFrequency'     avg='20'                range='5'                   type='normal'  scaleTo='base' />
+            <Setting name='MotherlodeSize'          avg='0.6'               range='0'                   type='normal' />
+            <Setting name='MotherlodeHeight'        avg='36'                range='30'                  type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'    avg=':= _default_ '     range=':= _default_ '       type='normal' />
+            <Setting name='BranchFrequency'         avg='0'                 range='0'                   type='normal' />
+            <Setting name='BranchInclination'       avg='0'                 range='0'                   type='normal' />
+            <Setting name='BranchLength'            avg='0'                 range='0'                   type='normal' />
+            <Setting name='BranchHeightLimit'       avg=':= _default_ '     range=':= _default_ '       type='normal'  scaleTo='base' />
+            <Setting name='SegmentForkFrequency'    avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentForkLengthMult'   avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentLength'           avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentAngle'            avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentPitch'            avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentRadius'           avg='0'                 range='0'                   type='normal' />
+            <Setting name='OreDensity'              avg='1.0'               range='0'                   type='normal' />
+            <Setting name='OreRadiusMult'           avg=':= _default_ '     range=':= _default_ '       type='normal' />
+        </Veins>
+        
+        <!-- Dark Gem Ore Preferred Deposits; make 3x more common in SPOOKY biomes -->
+        <Veins name='evilDarkGemPreferredVeins'  inherits='PresetHintVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60554444' drawBoundBox='false' boundBoxColor='0x60554444'>
+            <Description>
+                Small individual ores that spawn from heights 6 to 66. Welcome to EvilCraft.
+            </Description>
+            <OreBlock block='evilcraft:darkOre' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <BiomeType name='SPOOKY' weight='1.0' />
+            <Setting name='MotherlodeFrequency'     avg='60'                range='15'                  type='normal'  scaleTo='base' />
+            <Setting name='MotherlodeSize'          avg='0.6'               range='0'                   type='normal' />
+            <Setting name='MotherlodeHeight'        avg='36'                range='30'                  type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'    avg=':= _default_ '     range=':= _default_ '       type='normal' />
+            <Setting name='BranchFrequency'         avg='0'                 range='0'                   type='normal' />
+            <Setting name='BranchInclination'       avg='0'                 range='0'                   type='normal' />
+            <Setting name='BranchLength'            avg='0'                 range='0'                   type='normal' />
+            <Setting name='BranchHeightLimit'       avg=':= _default_ '     range=':= _default_ '       type='normal'  scaleTo='base' />
+            <Setting name='SegmentForkFrequency'    avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentForkLengthMult'   avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentLength'           avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentAngle'            avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentPitch'            avg='0'                 range='0'                   type='normal' />
+            <Setting name='SegmentRadius'           avg='0'                 range='0'                   type='normal' />
+            <Setting name='OreDensity'              avg='1.0'               range='0'                   type='normal' />
+            <Setting name='OreRadiusMult'           avg=':= _default_ '     range=':= _default_ '       type='normal' />
+        </Veins>
+    </IfModInstalled> 
+
     <!-- Forestry -->
     <!-- Apatite -->
     <IfModInstalled name="forestry">
