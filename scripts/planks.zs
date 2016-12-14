@@ -142,17 +142,17 @@
         recipes.addShaped(plank * 4, 
             [[<primal:emerald_saw:*>],[log]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:flint_saw:*>, plank]]);
+            [[<primal:flint_saw:*>],   [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:quartz_saw:*>, plank]]);
+            [[<primal:quartz_saw:*>],  [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:iron_saw:*>, plank]]);
+            [[<primal:iron_saw:*>],    [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:copper_saw:*>, plank]]);
+            [[<primal:copper_saw:*>],  [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:diamond_saw:*>, plank]]);
+            [[<primal:diamond_saw:*>], [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:emerald_saw:*>, plank]]);
+            [[<primal:emerald_saw:*>], [plank]]);
         recipes.addShapeless(plank * 3, 
             [stair, stair, stair]);
         recipes.addShapeless(plank, 

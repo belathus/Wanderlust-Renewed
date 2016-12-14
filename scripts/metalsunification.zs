@@ -132,10 +132,18 @@
 
 
 # Tin
+    recipes.addShapeless(<primal:tin_nugget>*9n,[<ore:ingotTin>]);
+    recipes.addShaped(<fp:ItemErze>,
+        [[<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],
+         [<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],
+         [<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>]]);
     recipes.remove(<basemetals:tin_nugget>);
     recipes.remove(<libvulpes:productnugget:5>);
     recipes.remove(<libvulpes:metal0:5>);
     recipes.remove(<railcraft:nugget:3>);
+    recipes.remove(<railcraft:ingot:2>);
+    recipes.remove(<basemetals:tin_ingot>);
+    recipes.remove(<libvulpes:productingot:5>);
 
 
 # Uranium
@@ -150,5 +158,15 @@
     recipes.addShapeless(<immersiveengineering:storage:5>, 
         [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>]);
 
-
+# Zinc
+    recipes.addShapeless(<primal:tin_nugget>*9n,[<ore:ingotZinc>]);
+    recipes.addShaped(<fp:ItemErze:1>,
+        [[<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>],
+         [<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>],
+         [<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>]]);
+    recipes.remove(<basemetals:zinc_block>);
+    recipes.remove(<esteemedinnovation:metal_storage_block:1>);
+    recipes.remove(<esteemedinnovation:ingot:1>);
+    recipes.remove(<basemetals:zinc_ingot>);
+    recipes.remove(<primal:zinc_ingot>);
 
