@@ -154,9 +154,9 @@
         recipes.addShaped(slab * 2, 
             [[<primal:emerald_saw:*>, plank]]);
         recipes.addShapeless(plank * 3, 
-            [[stair, stair, stair]);
+            [stair, stair, stair]);
         recipes.addShapeless(plank, 
-            [[slab, slab]);
+            [slab, slab]);
     }
     for i, log_pair in list_logs2 {
         var log = log_pair[0];

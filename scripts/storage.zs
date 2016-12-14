@@ -43,7 +43,7 @@
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
          [<ore:stone>,<ore:chest>,<ore:stone>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
-    recipes.addShaped(<forestry:foresterfBag>,
+    recipes.addShaped(<forestry:foresterBag>,
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
          [<ore:logWood>,<ore:chest>,<ore:logWood>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
