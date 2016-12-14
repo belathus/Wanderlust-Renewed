@@ -616,7 +616,7 @@
                 Create a phantom "cloud" where nothing spawns
                 Then create a group of flowers on the surface.
             </Description>
-            <BiomeType name='DESERT' />
+            <BiomeType name='SANDY' />
             <OreBlock block='arsmagica2:desert_nova' weight='1.0' />
             <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' />
             <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' scaleTo='base' />
