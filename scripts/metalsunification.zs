@@ -132,7 +132,7 @@
 
 
 # Tin
-    recipes.addShapeless(<primal:tin_nugget>*9n,[<ore:ingotTin>]);
+    recipes.addShapeless(<primal:tin_nugget>*9,[<ore:ingotTin>]);
     recipes.addShaped(<fp:ItemErze>,
         [[<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],
          [<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],
