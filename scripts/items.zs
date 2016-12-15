@@ -4,6 +4,143 @@
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
 
+
+    var list_gallagher = [
+        <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
+    ] as minetweaker.item.IItemStack[];
+    val hammers = [
+        <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
+    ] as minetweaker.item.IItemStack[];
+    val plate_list = [
+        <immersiveengineering:metal:30>,
+        <immersiveengineering:metal:31>,
+        <immersiveengineering:metal:32>,
+        <immersiveengineering:metal:36>,
+        <immersiveengineering:metal:37>,
+        <immersiveengineering:metal:38>,
+        <immersiveengineering:metal:39>,
+        <embers:plateDawnstone>,
+        <basemetals:adamantine_plate>,
+        <basemetals:aquarium_plate>,
+        <basemetals:brass_plate>,
+        <basemetals:bronze_plate>,
+        <basemetals:coldiron_plate>,
+        <basemetals:cupronickel_plate>,
+        <basemetals:invar_plate>,
+        <basemetals:mithril_plate>,
+        <basemetals:platinum_plate>,
+        <basemetals:silver_plate>,
+        <basemetals:starsteel_plate>,
+        <basemetals:tin_plate>,
+        <basemetals:zinc_plate>,
+        <base:plate:1>,
+        <base:plate:2>,
+        <base:plate:3>,
+        <base:plate:4>,
+        <base:plate:5>,
+        <base:plate:6>,
+        <base:plate:7>,
+        <base:plate:8>,
+        <base:plate:9>,
+        <base:plate:10>,
+        <base:plate:11>,
+        <base:plate:12>,
+        <base:plate:13>,
+        <base:plate:14>,
+        <base:plate:15>,
+        <base:plate:16>,
+        <base:plate:17>,
+        <base:plate:18>,
+        <base:plate:19>,
+        <base:plate:20>,
+        <base:plate:21>,
+        <base:plate:22>,
+        <base:plate:23>,
+        <base:plate:24>,
+        <base:plate:25>,
+        <base:plate:26>,
+        <base:plate:27>,
+        <base:plate:28>,
+        <base:plate:29>,
+        <base:plate:30>,
+        <base:plate:31>,
+        <base:plate:32>,
+        <advancedrocketry:productplate:0>,
+        <advancedrocketry:productplate:1>,
+        <libvulpes:productplate:3>,
+        <libvulpes:productplate:7>,
+        <libvulpes:productplate:10>
+    ] as minetweaker.item.IItemStack[];
+    val ingot_list = [
+        <ore:ingotCopper>,
+        <ore:ingotAluminum>,
+        <ore:ingotLead>,
+        <ore:ingotConstantan>,
+        <ore:ingotElectrum>,
+        <ore:ingotSteel>,
+        <ore:ingotIron>,
+        <ore:ingotDawnstone>,
+        <ore:ingotAdamantine>,
+        <ore:ingotAquarium>,
+        <ore:ingotBrass>,
+        <ore:ingotBronze>,
+        <ore:ingotColdiron>,
+        <ore:ingotCupronickel>,
+        <ore:ingotInvar>,
+        <ore:ingotMithril>,
+        <ore:ingotPlatinum>,
+        <ore:ingotSilver>,
+        <ore:ingotStarsteel>,
+        <ore:ingotTin>,
+        <ore:ingotZinc>,
+        <ore:ingotAdamantite>,
+        <ore:ingotAegisalt>,
+        <ore:ingotArcanite>,
+        <ore:ingotAstrium>,
+        <ore:ingotBismuth>,
+        <ore:ingotBysmuid>,
+        <ore:ingotCryptogen>,
+        <ore:ingotDyonite>,
+        <ore:ingotEternite>,
+        <ore:ingotFractoryte>,
+        <ore:ingotIgnitite>,
+        <ore:ingotImperomite>,
+        <ore:ingotKarmesine>,
+        <ore:ingotLumixyl>,
+        <ore:ingotMeteorite>,
+        <ore:ingotMindorite>,
+        <ore:ingotMythril>,
+        <ore:ingotNitronite>,
+        <ore:ingotNoctunyx>,
+        <ore:ingotNucleum>,
+        <ore:ingotPalladium>,
+        <ore:ingotPrometheum>,
+        <ore:ingotProxideum>,
+        <ore:ingotRubium>,
+        <ore:ingotSeismodium>,
+        <ore:ingotSolarium>,
+        <ore:ingotTerramite>,
+        <ore:ingotTiberium>,
+        <ore:ingotTitanite>,
+        <ore:ingotUltranite>,
+        <ore:ingotVibranium>,
+        <ore:ingotViolium>,
+        <ore:ingotTitaniumAluminide>,
+        <ore:ingotTitaniumIridium>,
+        <ore:ingotSilicon>,
+        <ore:ingotTitanium>,
+        <ore:ingotIridium>
+    ] as minetweaker.item.IIngredient[];
+    for i, hammer in list_gallagher {
+        for j, plate in plate_list {
+            recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
+        }
+    }
+    for i, plate in plate_list {
+        recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
+        recipes.addShaped(plate, [[<immersiveengineering:tool:*>.transformDamage()],[ingot_list[i]]]);
+    }
+    
 # Vanilla
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
     # making sticks
@@ -85,6 +222,8 @@
 # Futurepack
     recipes.remove(<fp:spaceship:12>);
 
+# Immersive Engineering
+    
 # More Bees
     recipes.addShapeless(<morebees:diamondFragment>*9,[<ore:gemDiamond>]);
     recipes.addShapeless(<morebees:emeraldFragment>*9,[<ore:gemEmerald>]);
@@ -119,9 +258,7 @@
         [[<ore:itemLignite>],
          [<ore:cordagePlant>],
          [<ore:stickWood>]]);
-    var list_gallagher = [
-        <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
-    ] as minetweaker.item.IItemStack[];
+    recipes.remove(<primal:iron_sheet>);
         
     for i, galla in list_gallagher {
         recipes.addShaped(<primal:carbonate_slack> * 4, 
@@ -130,6 +267,8 @@
             [[galla],[<chisel:limestoneextra:7>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
             [[galla],[<primal:carbonate_stone>]]);
+        recipes.addShaped(<primal:iron_sheet> * 2,
+            [[galla],[<ore:plateIron>]]);
     }
     
 # Rockhounding
