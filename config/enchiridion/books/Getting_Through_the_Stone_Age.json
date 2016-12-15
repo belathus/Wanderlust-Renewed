@@ -478,22 +478,6 @@
           "layerIndex": 1
         },
         {
-          "xPos": 13,
-          "yPos": 23,
-          "width": 182.0,
-          "height": 106.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]   Getting\n  Through\n     the\n Stone Age",
-              "size": 3.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 2
-        },
-        {
           "xPos": 239,
           "yPos": 35,
           "width": 166.0,
@@ -523,9 +507,9 @@
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
-          "layerIndex": 3
+          "layerIndex": 2
         },
         {
           "xPos": 239,
@@ -557,9 +541,9 @@
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
-          "layerIndex": 4
+          "layerIndex": 3
         },
         {
           "xPos": 268,
@@ -573,9 +557,9 @@
               "size": 1.0
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
-          "layerIndex": 5
+          "layerIndex": 4
         },
         {
           "xPos": 239,
@@ -607,7 +591,22 @@
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
             }
           },
-          "isLocked": false,
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": -9,
+          "yPos": -11,
+          "width": 450.0,
+          "height": 250.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/stone_age_title.png"
+            }
+          },
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 6
         }
@@ -2118,14 +2117,14 @@
           "layerIndex": 4
         },
         {
-          "xPos": 17,
-          "yPos": 14,
-          "width": 60.0,
-          "height": 9.0,
+          "xPos": 255,
+          "yPos": 8,
+          "width": 48.0,
+          "height": 10.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Terra Clay:",
+              "text": "[color\u003dblack]Ash:",
               "size": 1.0
             }
           },
@@ -2150,10 +2149,74 @@
           "layerIndex": 6
         },
         {
-          "xPos": 9,
-          "yPos": 27,
-          "width": 182.0,
-          "height": 81.0,
+          "xPos": 242,
+          "yPos": 25,
+          "width": 175.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Ash can be made by putting torches in enclosed areas. The torch will create a cloud that eventually settles into a pile of ash, which can be then picked up.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 63,
+          "yPos": 55,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "biomesoplenty:dirt 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 17,
+          "yPos": 14,
+          "width": 60.0,
+          "height": 9.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Terra Clay:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 19,
+          "yPos": 123,
+          "width": 158.0,
+          "height": 17.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Tip: use nature\u0027s compass to find a specific biome!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 12,
+          "yPos": 26,
+          "width": 177.0,
+          "height": 25.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
@@ -2163,14 +2226,107 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 7
+          "layerIndex": 11
+        },
+        {
+          "xPos": 58,
+          "yPos": 148,
+          "width": 77.0,
+          "height": 38.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "vine:minecraft:log:32767:vine:minecraft:log:32767:roots:oldRoot:0:minecraft:log:32767:vine:minecraft:log:32767:vine",
+              "recipeType": "ShapedOreRecipe",
+              "item": "naturescompass:NaturesCompass {}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 11,
+          "yPos": 117,
+          "width": 177.0,
+          "height": 77.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureBox",
+            "properties": {
+              "color": "ffffa64d"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 9,
+          "yPos": 115,
+          "width": 181.0,
+          "height": 81.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureBox",
+            "properties": {
+              "color": "ffd96d00"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 12,
+          "yPos": 74,
+          "width": 175.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Silty dirt is extremely common in the following biomes: cherry blossom grove, lavender fields, prairie, snowy forest, and tundra.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 15
+        },
+        {
+          "xPos": 17,
+          "yPos": 59,
+          "width": 48.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Silty Dirt:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 16
+        },
+        {
+          "xPos": 277,
+          "yPos": 4,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "biomesoplenty:ash",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 17
         }
       ],
       "pageNumber": 20,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }

@@ -56,7 +56,11 @@
         [[null,<primal:rock>,null],
          [<primal:rock>,<fishing:itemNet>,<primal:rock>],
          [null,<primal:rock>,null]]);
-         
+
+# Dungeon Tactics
+    recipes.remove(<dungeontactics:wooden_sword>);
+    recipes.remove(<dungeontactics:stone_sword>);
+    
 # Extra Utilities
     recipes.remove(<extrautils2:ItemDestructionWand>);
     recipes.addShaped(<extrautils2:ItemDestructionWand>,
@@ -97,6 +101,11 @@
     recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.marked("sticks").noReturn()], function(output, inputs, crafting) {
         return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25));
     });
+    # Copper Saw
+    recipes.addShaped(<primal:copper_saw>,
+        [[<ore:plateCopper>,null,null],
+         [null,<ore:plateCopper>,<ore:pinBasic>],
+         [null,<ore:stickWood>,<ore:stickWood>]]);
          
 # Roots
     recipes.remove(<roots:druidKnife>);

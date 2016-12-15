@@ -486,7 +486,7 @@
                             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                         </Veins>
                         <Veins name='quarkIronGeodeMiddle'  inherits='quarkIronGeode' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abyiroore' weight='0.67' />
+                            <OreBlock block='abyssalcraft:abyiroore' weight='0.20' />
                             <Replaces block='quark:basalt' weight='1.0' />
                             <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                             <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
