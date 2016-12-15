@@ -119,7 +119,19 @@
         [[<ore:itemLignite>],
          [<ore:cordagePlant>],
          [<ore:stickWood>]]);
-
+    var list_gallagher = [
+        <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
+    ] as minetweaker.item.IItemStack[];
+        
+    for i, galla in list_gallagher {
+        recipes.addShaped(<primal:carbonate_slack> * 4, 
+            [[galla],[<biomesoplenty:stone>]]);
+        recipes.addShaped(<primal:carbonate_slack> * 4, 
+            [[galla],[<chisel:limestoneextra:7>]]);
+        recipes.addShaped(<primal:carbonate_slack> * 4, 
+            [[galla],[<primal:carbonate_stone>]]);
+    }
+    
 # Rockhounding
     # Fuel to fuel pellets
     recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
