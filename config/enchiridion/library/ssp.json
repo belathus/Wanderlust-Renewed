@@ -1,6 +1,54 @@
 {
   "books": [
     {
+      "item": "arsmagica2:arcane_compendium",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "cookingforblockheads:recipeBook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "extrautils2:Book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "guideapi:ItemGuideBook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "bloodmagic:ItemSanguineBook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "esteemedinnovation:book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "actuallyadditions:itemBooklet",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "druidry:introbook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "enchiridion:book",
       "handlerType": "enchiridion",
       "matchDamage": true,
