@@ -1,428 +1,293 @@
 {
-    "name" : "futurepack",
-    "criteria" : {
-        "dimensionWL" : [ 0 ],
-		"biomeTypes": [
-			"WASTELAND",
-			"COLD",
-			"DRY",
-			"SANDY"
-		],
-        "weight" : 1
+    "name":"futurepack",
+    "criteria":{
+        "dimensionWL":[
+            0
+        ],
+        "biomeTypes":[
+            "WASTELAND",
+            "COLD",
+            "DRY",
+            "SANDY"
+        ],
+        "weight":1
     },
-	"inherit": [
-		"_allLoot"
-	],
-	"override": [
-		"LOOTRULES"
-	],
-    "tower" : {
-        "type" : "WITCH",
-		"theme" : {
-			"base" : "ETHOTOWER"
-		}
-    },
-    "loot_rules" : [
-        {
-			"type" : "ARMOUR", 
-			"loot" : [
-				{"data" : {"name" : "fp:magnet_helmet", "ench" : 1}, "weight" : 1},
-				{"data" : {"name" : "fp:magnet_chestplate", "ench" : 1}, "weight" : 1},
-				{"data" : {"name" : "fp:magnet_leggings", "ench" : 1}, "weight" : 1},
-				{"data" : {"name" : "fp:magnet_boots", "ench" : 1}, "weight" : 1}
-			],
-			"level" : [0, 1, 2, 3, 4],
-			"each" : true,
-			"quantity" : 1
-        },
-		{	
-			"type" : "TOOLS", 
-			"loot" : [
-				{"data" : {"name" : "fp:escenner"}, "weight" : 4},
-				{"data" : {"name" : "fp:airBrush"}, "weight" : 4},
-				{"data" : {"name" : "fp:scrench"}, "weight" : 4},
-                {"data" : {"name" : "fp:telescope"}, "weight" : 4}
-			],
-			"level" : 0,
-			"each" : true,
-			"quantity" : 3
-		},
-		{	
-			"type" : "FOOD", 
-			"loot" : [
-				{"data" : {"name" : "fp:erse"}, "min" : 1, "max" : 3},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 10}, "min" : 1, "max" : 3, "weight" : 10},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 11}, "min" : 1, "max" : 3, "weight" : 1},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 12}, "min" : 1, "max" : 3, "weight" : 3},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 13}, "min" : 1, "max" : 3, "weight" : 2},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 14}, "min" : 1, "max" : 3, "weight" : 3},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 15}, "min" : 1, "max" : 3, "weight" : 4},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 20}, "min" : 1, "max" : 3, "weight" : 4},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 21}, "min" : 1, "max" : 3, "weight" : 5},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 22}, "min" : 1, "max" : 3, "weight" : 5},
-				{"data" : {"name" : "tconstruct:edible", "meta" : 23}, "min" : 1, "max" : 3, "weight" : 5},
-				{"data" : {"name" : "apple"}, "min" : 1, "max" : 3}
-			],
-			"level" : 0,
-			"each" : true,
-			"quantity" : 3
-		},
-		{	
-			"type" : "ORE", 
-			"loot" : [
-				{"data" : {"name" : "primal:tin_ingot", "min" : 1, "max" : 3}, "weight" : 10},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 0, "min" : 1, "max" : 3}, "weight" : 9},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 1, "min" : 1, "max" : 3}, "weight" : 3},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 2, "min" : 1, "max" : 3}, "weight" : 6},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 3, "min" : 1, "max" : 3}, "weight" : 3},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 4, "min" : 1, "max" : 3}, "weight" : 4},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 5, "min" : 1, "max" : 3}, "weight" : 1},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 6, "min" : 1, "max" : 3}, "weight" : 1},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 7, "min" : 1, "max" : 3}, "weight" : 1},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 8, "min" : 1, "max" : 3}, "weight" : 1}
-			],
-			"level" : 0,
-			"each" : true,
-			"quantity" : 6
-		}
+    "inherit":[
+        "_allLoot",
+		"_futurepack_lvl_0",
+		"_futurepack_lvl_0_loot",
+		"_futurepack_lvl_all_loot"
     ],
-    "levels" : {
-        "0" : {
-            "range" : 40,
-            "numRooms" : 10,
-            "theme" : {
-                "base" : "QUARTZ",
-                "rooms" : [
+    "override":[
+        "LOOTRULES"
+    ],
+    "tower":{
+        "type":"WITCH",
+        "theme":{
+            "base":"ETHOTOWER"
+        }
+    },
+    "levels":{
+        "1":{
+            "range":45,
+            "numRooms":15,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "BRICK"
+                        "mode":"single",
+                        "type":"BRICK"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "ETHO",
-                        "weight" : 1
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta": 12
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:futura",
+                            "meta":1
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:futura",
-                            "meta" : 0
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:blockLead",
+                            "meta":0
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron_stair5"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron_stair11"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta" : 13
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron",
+                            "meta":11
                         }
                     }
                 },
-                "secondary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:stone",
-                            "meta" : 0
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:marble1",
+                            "meta":2
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:sandstoneredextra",
-                            "meta" : 4
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:factory1",
+                            "meta":4
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron_stair12"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:metal_treppe"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta" : 1
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:technical",
+                            "meta":7
                         }
                     }
                 }
             }
         },
-		"1" : {
-            "range" : 45,
-            "numRooms" : 15,
-            "theme" : {
-                "base" : "QUARTZ",
-                "rooms" : [
+        "2":{
+            "range":50,
+            "numRooms":20,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "BRICK"
+                        "mode":"single",
+                        "type":"BRICK"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "ETHO",
-                        "weight" : 1
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:futura",
-                            "meta": 1
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:technical",
+                            "meta":1
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:blockLead",
-                            "meta" : 0
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:futura",
+                            "meta":2
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron_stair11"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron_stair12"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta" : 11
-                        }
-                    }
-                },
-				"secondary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:marble1",
-                            "meta": 2
-                        }
-                    },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:factory1",
-                            "meta" : 4
-                        }
-                    },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:metal_treppe"
-                        }
-                    },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:technical",
-                            "meta" : 7
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron",
+                            "meta":12
                         }
                     }
                 }
             }
         },
-		"2" : {
-            "range" : 50,
-            "numRooms" : 20,
-            "theme" : {
-                "base" : "QUARTZ",
-                "rooms" : [
+        "3":{
+            "range":55,
+            "numRooms":25,
+            "theme":{
+                "base":"SEWER",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "BRICK"
+                        "mode":"single",
+                        "type":"STORAGE"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "ETHO",
-                        "weight" : 1
+                        "mode":"random",
+                        "type":"NEBRIS",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:technical",
-                            "meta": 1
-                        }
-                    },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:futura",
-                            "meta" : 2
-                        }
-                    },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron_stair12"
-                        }
-                    },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta" : 12
-                        }
-                    }
-                }
-            }
-        },
-		"3" : {
-            "range" : 55,
-            "numRooms" : 25,
-            "theme" : {
-                "base" : "SEWER",
-                "rooms" : [
-                    {
-                        "mode" : "single",
-                        "type" : "STORAGE"
-                    },
-                    {
-                        "mode" : "random",
-                        "type" : "NEBRIS",
-                        "weight" : 1
-                    }
-                ],
-                "primary" : {
-                    "walls" : {
-                        "type": "WEIGHTED",
-                        "data" : [
+                "primary":{
+                    "walls":{
+                        "type":"WEIGHTED",
+                        "data":[
                             {
-								"name" : "chisel:technical",
-								"meta": 12,
-								"weight" : 1
-							},
-							{
-								"name" : "chisel:technicalNew",
-								"meta": 6,
-								"weight": 2
-							}
+                                "name":"chisel:technical",
+                                "meta":12,
+                                "weight":1
+                            },
+                            {
+                                "name":"chisel:technicalNew",
+                                "meta":6,
+                                "weight":2
+                            }
                         ]
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:technical",
-                            "meta" : 7
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:technical",
+                            "meta":7
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "quark:iron_plate_stairs"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"quark:iron_plate_stairs"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:technical",
-                            "meta" : 7
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:technical",
+                            "meta":7
                         }
                     }
                 }
             }
         },
-		"4" : {
-            "range" : 60,
-            "numRooms" : 30,
-            "theme" : {
-                "base" : "SANDSTONERED",
-                "rooms" : [
+        "4":{
+            "range":60,
+            "numRooms":30,
+            "theme":{
+                "base":"SANDSTONERED",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "STORAGE"
-                    },
-					{
-                        "mode" : "single",
-                        "type" : "BEDROOM"
+                        "mode":"single",
+                        "type":"STORAGE"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "NEBRIS",
-                        "weight" : 1
+                        "mode":"single",
+                        "type":"BEDROOM"
+                    },
+                    {
+                        "mode":"random",
+                        "type":"NEBRIS",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "WEIGHTED",
-                        "data" : [
+                "primary":{
+                    "walls":{
+                        "type":"WEIGHTED",
+                        "data":[
                             {
-								"name" : "fp:color_iron",
-								"meta" : 15,
-								"weight" : 4
-							},
-							{
-								"name" : "fp:color_iron",
-								"meta" : 14,
-								"weight" : 2
-							},
-							{
-								"name" : "chisel:netherbrick",
-								"meta" : 7,
-								"weight" : 4
-							},
-							{
-								"name" : "fp:color_luftung",
-								"meta" : 15,
-								"weight" : 1
-							}
+                                "name":"fp:color_iron",
+                                "meta":15,
+                                "weight":4
+                            },
+                            {
+                                "name":"fp:color_iron",
+                                "meta":14,
+                                "weight":2
+                            },
+                            {
+                                "name":"chisel:netherbrick",
+                                "meta":7,
+                                "weight":4
+                            },
+                            {
+                                "name":"fp:color_luftung",
+                                "meta":15,
+                                "weight":1
+                            }
                         ]
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:futura",
-                            "meta" : 2
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:futura",
+                            "meta":2
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron_stair14"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron_stair14"
                         }
                     },
-                    "floor" : {
-                        "type": "WEIGHTED",
-                        "data" : [
+                    "floor":{
+                        "type":"WEIGHTED",
+                        "data":[
                             {
-								"name" : "fp:color_iron",
-								"meta" : 14,
-								"weight" : 4
-							},
-							{
-								"name" : "chisel:netherbrick",
-								"meta" : 7,
-								"weight" : 4
-							},
-							{
-								"name" : "fp:color_iron",
-								"meta" : 15,
-								"weight" : 1
-							},
-							{
-								"name" : "fp:color_luftung",
-								"meta" : 15,
-								"weight" : 1
-							}
+                                "name":"fp:color_iron",
+                                "meta":14,
+                                "weight":4
+                            },
+                            {
+                                "name":"chisel:netherbrick",
+                                "meta":7,
+                                "weight":4
+                            },
+                            {
+                                "name":"fp:color_iron",
+                                "meta":15,
+                                "weight":1
+                            },
+                            {
+                                "name":"fp:color_luftung",
+                                "meta":15,
+                                "weight":1
+                            }
                         ]
                     }
                 }

@@ -86,11 +86,11 @@
 		},
 		{	
 			"loot" : [
-				{"data" : {"name" : "diamond"}}
+				{"data" : {"name" : "diamond", "min" : 0, "max" : 2}}
 			],
 			"level" : 4,
-			"each" : false,
-			"quantity" : 5
+			"each" : true,
+			"quantity" : 1
 		}
 	]
 }

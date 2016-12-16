@@ -1,77 +1,77 @@
 {
-    "name" : "_futurepack_lvl_0",
-    "levels" : {
-        "0" : {
-            "range" : 40,
-            "numRooms" : 10,
-            "theme" : {
-                "base" : "QUARTZ",
-                "rooms" : [
+    "name":"_futurepack_lvl_0",
+    "levels":{
+        "0":{
+            "range":40,
+            "numRooms":10,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "BRICK"
+                        "mode":"single",
+                        "type":"BRICK"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "ETHO",
-                        "weight" : 1
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta": 0
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron",
+                            "meta":12
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_luftung",
-                            "meta" : 0
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:futura",
+                            "meta":0
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron_stair0"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron_stair5"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "fp:color_iron",
-                            "meta" : 5
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron",
+                            "meta":13
                         }
                     }
                 },
-                "secondary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta" : 5
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:stone",
+                            "meta":0
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:biomeStoneA",
-                            "meta" : 5
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:sandstoneredextra",
+                            "meta":4
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:livingwood1Stairs"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron_stair12"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 0
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"fp:color_iron",
+                            "meta":1
                         }
                     }
                 }
@@ -79,4 +79,3 @@
         }
     }
 }
-

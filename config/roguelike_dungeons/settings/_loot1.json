@@ -15,17 +15,17 @@
 			],
 			"level" : 1,
 			"each" : true,
-			"quantity" : 3
+			"quantity" : 2
 		},
 		{	
 			"type" : "WEAPONS", 
 			"loot" : [
-				{"data" : {"name" : "wooden_sword", "ench" : 5}, "weight" : 6},
-				{"data" : {"name" : "stone_sword", "ench" : 5}, "weight" : 3}
+				{"data" : {"name" : "dungeontactics:bronze_sword", "ench" : 5}, "weight" : 6},
+				{"data" : {"name" : "esteemedinnovation:brass_sword", "ench" : 5}, "weight" : 3}
 			],
 			"level" : 1,
 			"each" : true,
-			"quantity" : 2
+			"quantity" : 1
 		},
 		{	
 			"type" : "TOOLS", 
@@ -36,7 +36,7 @@
 			],
 			"level" : 1,
 			"each" : true,
-			"quantity" : 3
+			"quantity" : 2
 		},
 		{
 			"type" : "FOOD", 
@@ -74,7 +74,7 @@
 			],
 			"level" : 1,
 			"each" : true,
-			"quantity" : 6
+			"quantity" : 5
 		}
 	]
 }
