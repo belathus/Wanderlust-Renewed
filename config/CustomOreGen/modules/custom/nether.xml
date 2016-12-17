@@ -161,6 +161,44 @@
                 </IfModInstalled>
             </IfModInstalled>
             
+            <!-- Silver / Lead -->
+            <IfModInstalled name="nethermetals">
+                <IfModInstalled name="tconstruct">
+                    <Veins name='ncoreSilverVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                        <OreBlock block='minecraft:netherrack' weight='0.75' />
+                        <OreBlock block='nethermetals:nether_silver_ore' weight='0.08' />
+                        <OreBlock block='nethermetals:nether_lead_ore' weight='0.17' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.350 * _default_ ' range=':= 0.350 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                </IfModInstalled>
+            </IfModInstalled>
+
             <!-- Nether Redstone Ore Veins -->
             <IfModInstalled name="nethercore">
                 <IfModInstalled name="taiga">
