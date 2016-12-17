@@ -71,7 +71,7 @@
          [null,<primal:rock>,null]]);
 
 # Druidry
-    <druidry:flint_axe>.maxDamage(50);
+#    <druidry:flint_axe>.maxDamage(50);
 
 # Dungeon Tactics
     recipes.remove(<dungeontactics:wooden_sword>);
@@ -114,18 +114,18 @@
          [<ore:stickWood>,null,null]]);
 
 # PrimalCore
-    <primal:flint_hatchet>.maxDamage(100);
+#    <primal:flint_hatchet>.maxDamage(100);
     recipes.addShapeless(<primal:flint_hatchet>, 
         [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.marked("sticks")],
         function(output, inputs, crafting) {
             inputs.sticks.amount(inputs.sticks.getAmount() - 1);
-            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25)).withTag(inputs.hatchet.tag());
+            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25)).withTag(inputs.hatchet.tag);
         });
         recipes.addShapeless(<primal:flint_hatchet>, 
         [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <druidry:branch>.marked("branch")],
         function(output, inputs, crafting) {
             inputs.branch.amount(inputs.branch.getAmount() - 1);
-            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 50)).withTag(inputs.hatchet.tag());
+            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 50)).withTag(inputs.hatchet.tag);
         });
 
 # Copper Saw
