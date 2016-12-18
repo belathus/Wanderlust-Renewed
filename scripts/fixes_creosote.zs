@@ -3,10 +3,10 @@
     recipes.remove(<railcraft:tie>);
     recipes.remove(<railcraft:generic:5>);
     recipes.remove(<immersiveengineering:treatedWood>);
-    recipes.addShaped(<immersiveengineering:treatedWood>*8,
-        [[<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1)],
-         [<ore:plankWood>.transformConsume(1),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>),<ore:plankWood>.transformConsume(1)],
-         [<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1)]]);
+#    recipes.addShaped(<immersiveengineering:treatedWood>*8,
+#        [[<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1)],
+#         [<ore:plankWood>.transformConsume(1),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>),<ore:plankWood>.transformConsume(1)],
+#         [<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1)]]);
 #    recipes.addShaped(<immersiveengineering:treatedWood>*8,
 #        [[<ore:plankWood>.marked("plank1"),<ore:plankWood>.marked("plank2"),<ore:plankWood>.marked("plank3")],
 #         [<ore:plankWood>.marked("plank4"),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>),<ore:plankWood>.marked("plank5")],
@@ -31,8 +31,8 @@
     recipes.addShaped(<railcraft:tie>,
         [[null,<railcraft:fluid_bottle_creosote>,null],
          [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
-    recipes.addShapeless(<railcraft:generic:5>,
-        [<ore:logWood>.transformConsume(1),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>)]);
+#    recipes.addShapeless(<railcraft:generic:5>,
+#        [<ore:logWood>.transformConsume(1),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>)]);
 #    recipes.addShapeless(<railcraft:generic:5>,
 #        [<ore:logWood>.marked("log"),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>)],
 #        function(output, inputs, crafting) {
