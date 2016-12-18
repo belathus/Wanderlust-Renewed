@@ -8,15 +8,17 @@
                 "base":"SEWER",
                 "rooms":[
                     {
-                        "mode":"single",
-                        "type":"BEDROOM"
-                    },
-                    {
                         "mode":"random",
                         "type":"ETHO",
                         "weight":1
                     }
                 ],
+				"secrets":[
+					{
+                        "type":"BEDROOM",
+						"num":1
+                    }
+				],
                 "primary":{
                     "walls":{
                         "type":"METABLOCK",
