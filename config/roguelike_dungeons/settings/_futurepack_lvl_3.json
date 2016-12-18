@@ -8,8 +8,9 @@
                 "base":"SEWER",
                 "rooms":[
                     {
-                        "mode":"single",
-                        "type":"STORAGE"
+                        "mode":"random",
+                        "type":"STORAGE",
+						"weight":3
                     },
                     {
                         "mode":"random",
