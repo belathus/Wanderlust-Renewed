@@ -28,6 +28,16 @@
 
 <AlloySmelterRecipes>
     <recipeGroup name="EnderIO">
+        <recipe name="Dark Steel" energyCost="20000" >
+            <input>
+                <itemStack oreDictionary="ingotAdamantine" />
+                <itemStack oreDictionary="dustCoal" />
+                <itemStack oreDictionary="dustObsidian" />
+            </input>
+            <output>
+                <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.8" />
+            </output>
+        </recipe>
         <recipe name="Soularium" energyCost="10000" >
             <input>
                 <itemStack modID="minecraft" itemName="soul_sand" />
