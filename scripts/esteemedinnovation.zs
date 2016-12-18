@@ -24,5 +24,5 @@
 #    mods.esteemedinnovation.Crucible.removeDunkRecipe(<random:item>, <random:tin_coated_item>);
 #    mods.esteemedinnovation.Crucible.removeOreDunkRecipe("randomItem", "tin");
 
-    mods.esteemedinnovation.Crucible.addBasicLiquid("tin", <primal:tin_nugget>, <primal:tin_ingot>, <libvulpes:productplate:5>, 225, 245, 225);
-    mods.esteemedinnovation.Crucible.addAlloyLiquid("bronze", <primal:bronze_nugget>, <primal:bronze_ingot>, <basemetals:bronze_plate>, "copper", 3, "tin", 1, 4, 205, 127, 50);
+#    mods.esteemedinnovation.Crucible.addBasicLiquid("tin", <primal:tin_nugget>, <primal:tin_ingot>, <libvulpes:productplate:5>, 225, 245, 225);
+#    mods.esteemedinnovation.Crucible.addAlloyLiquid("bronze", <primal:bronze_nugget>, <primal:bronze_ingot>, <basemetals:bronze_plate>, "copper", 3, "tin", 1, 4, 205, 127, 50);
