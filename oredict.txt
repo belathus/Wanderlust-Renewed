@@ -542,6 +542,8 @@ Ore entries for <ore:slimeball> :
     <tconstruct:edible:2>
     <tconstruct:edible:3>
     <tconstruct:edible:4>
+    <rockhounding_chemistry:siliconeCartridge:*>
+    <actuallyadditions:itemMisc:12>
     <minecraft:magma_cream>
 Ore entries for <ore:enderpearl> :
     <minecraft:ender_pearl>
@@ -692,6 +694,7 @@ Ore entries for <ore:dyeBlack> :
     <botanicaladdons:irisDye:15>
     <botanicaladdons:irisDyeAwakened:15>
     <botanicaladdons:dyeShard:15>
+    <actuallyadditions:itemMisc:17>
     <charsettweaks:graphite>
     <druidry:newdye>
     <gendustry:HoneyDrop:10>
@@ -1130,6 +1133,7 @@ Ore entries for <ore:dustIron> :
     <esteemedinnovation:smashed_ore>
     <immersiveengineering:metal:18>
     <rockhounding_chemistry:chemicalDusts:16>
+    <actuallyadditions:itemDust>
     <bloodmagic:ItemComponent:19>
 Ore entries for <ore:plateIron> :
     <libvulpes:productplate:1>
@@ -1151,6 +1155,7 @@ Ore entries for <ore:dustGold> :
     <esteemedinnovation:smashed_ore:1>
     <immersiveengineering:metal:19>
     <rockhounding_chemistry:chemicalDusts:45>
+    <actuallyadditions:itemDust:1>
     <bloodmagic:ItemComponent:20>
 Ore entries for <ore:plateGold> :
     <libvulpes:productplate:2>
@@ -1229,8 +1234,8 @@ Ore entries for <ore:blockTin> :
     <railcraft:generic:1>
 Ore entries for <ore:dustSteel> :
     <libvulpes:productdust:6>
-    <basemetals:steel_blend>
     <basemetals:steel_powder>
+    <basemetals:steel_blend>
     <immersiveengineering:metal:17>
 Ore entries for <ore:ingotSteel> :
     <libvulpes:productingot:6>
@@ -1426,9 +1431,8 @@ Ore entries for <ore:gemMoonstone> :
     <arsmagica2:item_ore:3>
 Ore entries for <ore:gemSunstone> :
     <arsmagica2:item_ore:4>
-Ore entries for <ore:shardGlass> :
-    <quark:glass_shards>
-    <charsettweaks:shard:*>
+Ore entries for <ore:gemEnderBiotite> :
+    <quark:biotite>
 Ore entries for <ore:trapdoorWood> :
     <quark:spruce_trapdoor>
     <quark:birch_trapdoor>
@@ -1450,12 +1454,13 @@ Ore entries for <ore:bookshelfAcacia> :
     <quark:custom_bookshelf:3>
 Ore entries for <ore:bookshelfDarkOak> :
     <quark:custom_bookshelf:4>
-Ore entries for <ore:gemEnderBiotite> :
-    <quark:biotite>
 Ore entries for <ore:stoneBasalt> :
     <quark:basalt>
 Ore entries for <ore:stoneBasaltPolished> :
     <quark:basalt:1>
+Ore entries for <ore:shardGlass> :
+    <quark:glass_shards>
+    <charsettweaks:shard:*>
 Ore entries for <ore:dustMythril> :
     <base:dust:17>
 Ore entries for <ore:gearMythril> :
@@ -1488,24 +1493,28 @@ Ore entries for <ore:plateEternite> :
     <base:plate:9>
 Ore entries for <ore:dustViolium> :
     <base:dust:32>
+    <taiga:violium_dust>
 Ore entries for <ore:gearViolium> :
     <base:gear:32>
 Ore entries for <ore:plateViolium> :
     <base:plate:32>
 Ore entries for <ore:dustMeteorite> :
     <base:dust:15>
+    <taiga:meteorite_dust>
 Ore entries for <ore:gearMeteorite> :
     <base:gear:15>
 Ore entries for <ore:plateMeteorite> :
     <base:plate:15>
 Ore entries for <ore:dustDyonite> :
     <base:dust:8>
+    <taiga:dyonite_dust>
 Ore entries for <ore:gearDyonite> :
     <base:gear:8>
 Ore entries for <ore:plateDyonite> :
     <base:plate:8>
 Ore entries for <ore:dustVibranium> :
     <base:dust:31>
+    <taiga:vibranium_dust>
 Ore entries for <ore:gearVibranium> :
     <base:gear:31>
 Ore entries for <ore:plateVibranium> :
@@ -1530,6 +1539,7 @@ Ore entries for <ore:plateUltranite> :
     <base:plate:30>
 Ore entries for <ore:dustKarmesine> :
     <base:dust:13>
+    <taiga:karmesine_dust>
 Ore entries for <ore:gearKarmesine> :
     <base:gear:13>
 Ore entries for <ore:plateKarmesine> :
@@ -1548,15 +1558,16 @@ Ore entries for <ore:plateTitanite> :
     <base:plate:29>
 Ore entries for <ore:oreTitanite> :
     <base:ore_titanite>
-    <taiga:titanite_ore>
 Ore entries for <ore:dustImperomite> :
     <base:dust:12>
+    <taiga:imperomite_dust>
 Ore entries for <ore:gearImperomite> :
     <base:gear:12>
 Ore entries for <ore:plateImperomite> :
     <base:plate:12>
 Ore entries for <ore:dustPrometheum> :
     <base:dust:22>
+    <taiga:prometheum_dust>
 Ore entries for <ore:gearPrometheum> :
     <base:gear:22>
 Ore entries for <ore:platePrometheum> :
@@ -1570,18 +1581,21 @@ Ore entries for <ore:plateBismuth> :
     <base:plate:5>
 Ore entries for <ore:dustTiberium> :
     <base:dust:28>
+    <taiga:tiberium_dust>
 Ore entries for <ore:gearTiberium> :
     <base:gear:28>
 Ore entries for <ore:plateTiberium> :
     <base:plate:28>
 Ore entries for <ore:dustPalladium> :
     <base:dust:21>
+    <taiga:palladium_dust>
 Ore entries for <ore:gearPalladium> :
     <base:gear:21>
 Ore entries for <ore:platePalladium> :
     <base:plate:21>
 Ore entries for <ore:dustAstrium> :
     <base:dust:4>
+    <taiga:astrium_dust>
 Ore entries for <ore:gearAstrium> :
     <base:gear:4>
 Ore entries for <ore:plateAstrium> :
@@ -1594,6 +1608,7 @@ Ore entries for <ore:plateTerramite> :
     <base:plate:27>
 Ore entries for <ore:dustNucleum> :
     <base:dust:20>
+    <taiga:nucleum_dust>
 Ore entries for <ore:gearNucleum> :
     <base:gear:20>
 Ore entries for <ore:plateNucleum> :
@@ -1606,9 +1621,9 @@ Ore entries for <ore:plateArcanite> :
     <base:plate:3>
 Ore entries for <ore:oreArcanite> :
     <base:ore_arcanite>
-    <taiga:arcanite_ore>
 Ore entries for <ore:dustSolarium> :
     <base:dust:26>
+    <taiga:solarium_dust>
 Ore entries for <ore:gearSolarium> :
     <base:gear:26>
 Ore entries for <ore:plateSolarium> :
@@ -1645,7 +1660,6 @@ Ore entries for <ore:plateAdamantite> :
     <base:plate:1>
 Ore entries for <ore:oreAdamantite> :
     <base:ore_adamantite>
-    <taiga:adamantite_ore>
 Ore entries for <ore:dustRubium> :
     <base:dust:24>
 Ore entries for <ore:gearRubium> :
@@ -1660,7 +1674,6 @@ Ore entries for <ore:plateIgnitite> :
     <base:plate:11>
 Ore entries for <ore:oreIgnitite> :
     <base:ore_ignitite>
-    <taiga:ignitite_ore>
 Ore entries for <ore:oreMercury> :
     <basemetals:mercury_ore>
     <nethermetals:nether_mercury_ore>
@@ -1856,6 +1869,7 @@ Ore entries for <ore:gearBronze> :
 Ore entries for <ore:dustCoal> :
     <basemetals:carbon_powder>
     <enderio:itemPowderIngot>
+    <actuallyadditions:itemDust:6>
     <bloodmagic:ItemComponent:21>
 Ore entries for <ore:dustCarbon> :
     <basemetals:carbon_powder>
@@ -1878,120 +1892,57 @@ Ore entries for <ore:gearMithril> :
     <basemetals:mithril_gear>
 Ore entries for <ore:gearStarsteel> :
     <basemetals:starsteel_gear>
-Ore entries for <ore:nuggetZinc> :
-    <basemetals:zinc_nugget>
-    <esteemedinnovation:nugget:1>
-    <primal:zinc_nugget>
-Ore entries for <ore:dustColdiron> :
-    <basemetals:coldiron_powder>
-Ore entries for <ore:dustLead> :
-    <basemetals:lead_powder>
-    <esteemedinnovation:smashed_ore:7>
-    <immersiveengineering:metal:11>
-    <primal:lead_dust>
-    <rockhounding_chemistry:chemicalDusts:19>
-Ore entries for <ore:nuggetLead> :
-    <basemetals:lead_nugget>
-    <embers:nuggetLead>
-    <immersiveengineering:metal:22>
-    <primal:lead_nugget>
-    <railcraft:nugget:4>
-Ore entries for <ore:ingotAdamantine> :
-    <basemetals:adamantine_ingot>
-Ore entries for <ore:dustZinc> :
-    <basemetals:zinc_powder>
-    <esteemedinnovation:smashed_ore:3>
-    <primal:zinc_dust>
-    <rockhounding_chemistry:chemicalDusts:20>
-Ore entries for <ore:doorNickel> :
-    <basemetals:nickel_door_item>
-Ore entries for <ore:nuggetColdiron> :
-    <basemetals:coldiron_nugget>
-Ore entries for <ore:dustCupronickel> :
-    <basemetals:cupronickel_blend>
-    <basemetals:cupronickel_powder>
-    <rockhounding_chemistry:alloyItems:12>
-Ore entries for <ore:doorPlatinum> :
-    <basemetals:platinum_door_item>
-Ore entries for <ore:doorAquarium> :
-    <basemetals:aquarium_door_item>
-Ore entries for <ore:doorSteel> :
-    <basemetals:steel_door_item>
-Ore entries for <ore:nuggetAquarium> :
-    <basemetals:aquarium_nugget>
-Ore entries for <ore:dustAquarium> :
-    <basemetals:aquarium_powder>
-    <basemetals:aquarium_blend>
-Ore entries for <ore:nuggetSilver> :
-    <basemetals:silver_nugget>
-    <embers:nuggetSilver>
-    <immersiveengineering:metal:23>
-    <primal:silver_nugget>
-    <railcraft:nugget:5>
-    <druidry:silvernugget>
-Ore entries for <ore:nuggetInvar> :
-    <basemetals:invar_nugget>
-Ore entries for <ore:dustSilver> :
-    <basemetals:silver_powder>
-    <esteemedinnovation:smashed_ore:6>
-    <immersiveengineering:metal:12>
-    <primal:silver_dust>
-    <rockhounding_chemistry:chemicalDusts:23>
-    <druidry:silverdust>
-Ore entries for <ore:ingotColdiron> :
-    <basemetals:coldiron_ingot>
-Ore entries for <ore:dustBronze> :
-    <basemetals:bronze_blend>
-    <basemetals:bronze_powder>
-    <primal:bronze_dust>
-Ore entries for <ore:ingotCupronickel> :
-    <basemetals:cupronickel_ingot>
-    <rockhounding_chemistry:alloyItems:13>
-Ore entries for <ore:ingotStarsteel> :
-    <basemetals:starsteel_ingot>
-Ore entries for <ore:doorAdamantine> :
-    <basemetals:adamantine_door_item>
-Ore entries for <ore:nuggetStarsteel> :
-    <basemetals:starsteel_nugget>
-Ore entries for <ore:dustStarsteel> :
-    <basemetals:starsteel_powder>
-Ore entries for <ore:dustMithril> :
-    <basemetals:mithril_powder>
-    <basemetals:mithril_blend>
-Ore entries for <ore:nuggetPlatinum> :
-    <basemetals:platinum_nugget>
-Ore entries for <ore:doorLead> :
-    <basemetals:lead_door_item>
-Ore entries for <ore:doorBronze> :
-    <basemetals:bronze_door_item>
-Ore entries for <ore:dustBrass> :
-    <basemetals:brass_powder>
-    <basemetals:brass_blend>
-    <primal:brass_dust>
-Ore entries for <ore:dustInvar> :
-    <basemetals:invar_blend>
-    <basemetals:invar_powder>
 Ore entries for <ore:ingotElectrum> :
     <basemetals:electrum_ingot>
     <immersiveengineering:metal:7>
+Ore entries for <ore:doorBronze> :
+    <basemetals:bronze_door_item>
 Ore entries for <ore:dustElectrum> :
     <basemetals:electrum_blend>
     <basemetals:electrum_powder>
     <immersiveengineering:metal:16>
-Ore entries for <ore:dustNickel> :
-    <basemetals:nickel_powder>
-    <esteemedinnovation:smashed_ore:5>
-    <immersiveengineering:metal:13>
-    <rockhounding_chemistry:chemicalDusts:26>
-Ore entries for <ore:doorCupronickel> :
-    <basemetals:cupronickel_door_item>
-Ore entries for <ore:nuggetBrass> :
-    <basemetals:brass_nugget>
-    <esteemedinnovation:nugget:2>
-    <primal:brass_nugget>
-Ore entries for <ore:nuggetBronze> :
-    <basemetals:bronze_nugget>
-    <primal:bronze_nugget>
+Ore entries for <ore:ingotColdiron> :
+    <basemetals:coldiron_ingot>
+Ore entries for <ore:ingotCupronickel> :
+    <basemetals:cupronickel_ingot>
+    <rockhounding_chemistry:alloyItems:13>
+Ore entries for <ore:dustMithril> :
+    <basemetals:mithril_blend>
+    <basemetals:mithril_powder>
+Ore entries for <ore:doorStarsteel> :
+    <basemetals:starsteel_door_item>
+Ore entries for <ore:nuggetPlatinum> :
+    <basemetals:platinum_nugget>
+Ore entries for <ore:dustBrass> :
+    <basemetals:brass_powder>
+    <basemetals:brass_blend>
+    <primal:brass_dust>
+Ore entries for <ore:doorLead> :
+    <basemetals:lead_door_item>
+Ore entries for <ore:doorAquarium> :
+    <basemetals:aquarium_door_item>
+Ore entries for <ore:nuggetMithril> :
+    <basemetals:mithril_nugget>
+Ore entries for <ore:doorPlatinum> :
+    <basemetals:platinum_door_item>
+Ore entries for <ore:dustCupronickel> :
+    <basemetals:cupronickel_blend>
+    <basemetals:cupronickel_powder>
+    <rockhounding_chemistry:alloyItems:12>
+Ore entries for <ore:dustAquarium> :
+    <basemetals:aquarium_powder>
+    <basemetals:aquarium_blend>
+Ore entries for <ore:doorCopper> :
+    <basemetals:copper_door_item>
+Ore entries for <ore:nuggetNickel> :
+    <basemetals:nickel_nugget>
+    <immersiveengineering:metal:24>
+Ore entries for <ore:ingotBronze> :
+    <basemetals:bronze_ingot>
+    <forestry:ingotBronze>
+    <primal:bronze_ingot>
+Ore entries for <ore:nuggetStarsteel> :
+    <basemetals:starsteel_nugget>
 Ore entries for <ore:ingotLead> :
     <basemetals:lead_ingot>
     <embers:ingotLead>
@@ -1999,27 +1950,73 @@ Ore entries for <ore:ingotLead> :
     <primal:lead_ingot>
     <railcraft:ingot:3>
     <rockhounding_chemistry:miscItems:27>
-Ore entries for <ore:ingotMithril> :
-    <basemetals:mithril_ingot>
-Ore entries for <ore:ingotBrass> :
-    <basemetals:brass_ingot>
-    <esteemedinnovation:ingot:2>
-    <primal:brass_ingot>
-Ore entries for <ore:doorCopper> :
-    <basemetals:copper_door_item>
+Ore entries for <ore:ingotNickel> :
+    <basemetals:nickel_ingot>
+    <immersiveengineering:metal:4>
+Ore entries for <ore:ingotAdamantine> :
+    <basemetals:adamantine_ingot>
+Ore entries for <ore:doorBrass> :
+    <basemetals:brass_door_item>
+Ore entries for <ore:dustBronze> :
+    <
+basemetals:bronze_blend>
+    <basemetals:bronze_powder>
+    <primal:bronze_dust>
 Ore entries for <ore:nuggetCupronickel> :
     <basemetals:cupronickel_nugget>
     <rockhounding_chemistry:alloyItems:14>
-Ore entries for <ore:ingotInvar> :
-    <basemetals:invar_ingot>
-Ore entries for <ore:doorColdiron> :
-    <basemetals:coldiron_door_item>
-Ore entries for <ore:ingotBronze> :
-    <basemetals:bronze_ingot>
-    <forestry:ingotBronze>
-    <primal:bronze_ingot>
+Ore entries for <ore:dustInvar> :
+    <basemetals:invar_blend>
+    <basemetals:invar_powder>
+Ore entries for <ore:nuggetBronze> :
+    <basemetals:bronze_nugget>
+    <primal:bronze_nugget>
+Ore entries for <ore:nuggetColdiron> :
+    <basemetals:coldiron_nugget>
+Ore entries for <ore:doorCupronickel> :
+    <basemetals:cupronickel_door_item>
 Ore entries for <ore:dustAdamantine> :
     <basemetals:adamantine_powder>
+Ore entries for <ore:dustColdiron> :
+    <basemetals:coldiron_powder>
+Ore entries for <ore:dustNickel> :
+    <basemetals:nickel_powder>
+    <esteemedinnovation:smashed_ore:5>
+    <immersiveengineering:metal:13>
+    <rockhounding_chemistry:chemicalDusts:26>
+Ore entries for <ore:nuggetAdamantine> :
+    <basemetals:adamantine_nugget>
+Ore entries for <ore:doorSilver> :
+    <basemetals:silver_door_item>
+Ore entries for <ore:doorTin> :
+    <basemetals:tin_door_item>
+Ore entries for <ore:dustStarsteel> :
+    <basemetals:starsteel_powder>
+Ore entries for <ore:dustLead> :
+    <basemetals:lead_powder>
+    <esteemedinnovation:smashed_ore:7>
+    <immersiveengineering:metal:11>
+    <primal:lead_dust>
+    <rockhounding_chemistry:chemicalDusts:19>
+Ore entries for <ore:nuggetInvar> :
+    <basemetals:invar_nugget>
+Ore entries for <ore:ingotZinc> :
+    <basemetals:zinc_ingot>
+    <esteemedinnovation:ingot:1>
+    <fp:ItemErze:1>
+    <primal:zinc_ingot>
+Ore entries for <ore:nuggetZinc> :
+    <basemetals:zinc_nugget>
+    <esteemedinnovation:nugget:1>
+    <primal:zinc_nugget>
+Ore entries for <ore:nuggetBrass> :
+    <basemetals:brass_nugget>
+    <esteemedinnovation:nugget:2>
+    <primal:brass_nugget>
+Ore entries for <ore:doorColdiron> :
+    <basemetals:coldiron_door_item>
+Ore entries for <ore:doorElectrum> :
+    <basemetals:electrum_door_item>
 Ore entries for <ore:nuggetIron> :
     <basemetals:iron_nugget>
     <embers:nuggetIron>
@@ -2028,16 +2025,39 @@ Ore entries for <ore:nuggetIron> :
     <primal:iron_nugget>
     <railcraft:nugget>
     <rockhounding_chemistry:miscItems:2>
-Ore entries for <ore:ingotPlatinum> :
-    <basemetals:platinum_ingot>
-Ore entries for <ore:doorInvar> :
-    <basemetals:invar_door_item>
+Ore entries for <ore:ingotMithril> :
+    <basemetals:mithril_ingot>
+Ore entries for <ore:doorNickel> :
+    <basemetals:nickel_door_item>
 Ore entries for <ore:ingotAquarium> :
     <basemetals:aquarium_ingot>
-Ore entries for <ore:doorElectrum> :
-    <basemetals:electrum_door_item>
-Ore entries for <ore:nuggetMithril> :
-    <basemetals:mithril_nugget>
+Ore entries for <ore:nuggetElectrum> :
+    <basemetals:electrum_nugget>
+    <immersiveengineering:metal:27>
+Ore entries for <ore:nuggetLead> :
+    <basemetals:lead_nugget>
+    <embers:nuggetLead>
+    <immersiveengineering:metal:22>
+    <primal:lead_nugget>
+    <railcraft:nugget:4>
+Ore entries for <ore:nuggetAquarium> :
+    <basemetals:aquarium_nugget>
+Ore entries for <ore:doorMithril> :
+    <basemetals:mithril_door_item>
+Ore entries for <ore:doorAdamantine> :
+    <basemetals:adamantine_door_item>
+Ore entries for <ore:dustZinc> :
+    <basemetals:zinc_powder>
+    <esteemedinnovation:smashed_ore:3>
+    <primal:zinc_dust>
+    <rockhounding_chemistry:chemicalDusts:20>
+Ore entries for <ore:dustSilver> :
+    <basemetals:silver_powder>
+    <esteemedinnovation:smashed_ore:6>
+    <immersiveengineering:metal:12>
+    <primal:silver_dust>
+    <rockhounding_chemistry:chemicalDusts:23>
+    <druidry:silverdust>
 Ore entries for <ore:ingotSilver> :
     <basemetals:silver_ingot>
     <embers:ingotSilver>
@@ -2045,35 +2065,30 @@ Ore entries for <ore:ingotSilver> :
     <primal:silver_ingot>
     <railcraft:ingot:4>
     <druidry:silveringot>
-Ore entries for <ore:doorSilver> :
-    <basemetals:silver_door_item>
-Ore entries for <ore:ingotNickel> :
-    <basemetals:nickel_ingot>
-    <immersiveengineering:metal:4>
-Ore entries for <ore:doorTin> :
-    <basemetals:tin_door_item>
-Ore entries for <ore:doorStarsteel> :
-    <basemetals:starsteel_door_item>
-Ore entries for <ore:ingotZinc> :
-    <basemetals:zinc_ingot>
-    <esteemedinnovation:ingot:1>
-    <fp:ItemErze:1>
-    <primal:zinc_ingot>
-Ore entries for <ore:nuggetNickel> :
-    <basemetals:nickel_nugget>
-    <immersiveengineering:metal:24>
-Ore entries for <ore:nuggetElectrum> :
-    <basemetals:electrum_nugget>
-    <immersiveengineering:metal:27>
-Ore entries for <ore:nuggetAdamantine> :
-    <basemetals:adamantine_nugget>
-Ore entries for <ore:doorMithril> :
-    <basemetals:mithril_door_item>
-Ore entries for <ore:doorBrass> :
-    <basemetals:brass_door_item>
+Ore entries for <ore:doorSteel> :
+    <basemetals:steel_door_item>
 Ore entries for <ore:dustPlatinum> :
     <basemetals:platinum_powder>
     <rockhounding_chemistry:chemicalDusts:44>
+Ore entries for <ore:ingotStarsteel> :
+    <basemetals:starsteel_ingot>
+Ore entries for <ore:ingotInvar> :
+    <basemetals:invar_ingot>
+Ore entries for <ore:ingotPlatinum> :
+    <basemetals:platinum_ingot>
+Ore entries for <ore:ingotBrass> :
+    <basemetals:brass_ingot>
+    <esteemedinnovation:ingot:2>
+    <primal:brass_ingot>
+Ore entries for <ore:nuggetSilver> :
+    <basemetals:silver_nugget>
+    <embers:nuggetSilver>
+    <immersiveengineering:metal:23>
+    <primal:silver_nugget>
+    <railcraft:nugget:5>
+    <druidry:silvernugget>
+Ore entries for <ore:doorInvar> :
+    <basemetals:invar_door_item>
 Ore entries for <ore:blockMeatRaw> :
     <biomesoplenty:flesh>
 Ore entries for <ore:blockGrass> :
@@ -2746,6 +2761,10 @@ Ore entries for <ore:oreApatite> :
     <forestry:resources>
 Ore entries for <ore:blockApatite> :
     <forestry:resourceStorage>
+Ore entries for <ore:emptiedLetter> :
+    <forestry:letters:3>
+    <forestry:letters:19>
+    <forestry:letters:35>
 Ore entries for <ore:doorWood> :
     <forestry:doors.larch:*>
     <forestry:doors.teak:*>
@@ -2795,10 +2814,6 @@ Ore entries for <ore:dropRoyalJelly> :
 Ore entries for <ore:beeComb> :
     <forestry:beeCombs:*>
     <gendustry:HoneyComb:*>
-Ore entries for <ore:emptiedLetter> :
-    <forestry:letters:3>
-    <forestry:letters:19>
-    <forestry:letters:35>
 Ore entries for <ore:oreResonating> :
     <deepresonance:resonating_ore>
 Ore entries for <ore:ingotDawnstone> :
@@ -2955,6 +2970,7 @@ Ore entries for <ore:itemSkull> :
     <enderio:blockEndermanSkull>
 Ore entries for <ore:itemSilicon> :
     <enderio:itemMaterial>
+    <refinedstorage:silicon>
 Ore entries for <ore:itemConduitBinder> :
     <enderio:itemMaterial:1>
 Ore entries for <ore:itemBinderComposite> :
@@ -3177,12 +3193,16 @@ Ore entries for <ore:xuUpgradeBlank> :
     <extrautils2:Ingredients:9>
 Ore entries for <ore:dropofevil> :
     <extrautils2:Ingredients:10>
-Ore entries for <ore:ingotDemonic> :
+Ore entries for <ore:ingotDemonicMetal> :
     <extrautils2:Ingredients:11>
-Ore entries for <ore:ingotEnchanted> :
+Ore entries for <ore:ingotEnchantedMetal> :
     <extrautils2:Ingredients:12>
 Ore entries for <ore:xuRedstoneCoil> :
     <extrautils2:Ingredients:13>
+Ore entries for <ore:blockEnchantedMetal> :
+    <extrautils2:SimpleDecorative>
+Ore entries for <ore:blockDemonicMetal> :
+    <extrautils2:SimpleDecorative:1>
 Ore entries for <ore:bricksStone> :
     <minecraft:stonebrick>
     <minecraft:stonebrick:1>
@@ -3233,6 +3253,8 @@ Ore entries for <ore:ingotNeodymium> :
     <fp:ItemErze:13>
 Ore entries for <ore:gemBitripentium> :
     <fp:ItemErze:14>
+Ore entries for <ore:fish> :
+    <minecraft:fish:*>
 Ore entries for <ore:prismarine> :
     <minecraft:prismarine:*>
 Ore entries for <ore:blockMossy> :
@@ -3677,6 +3699,10 @@ Ore entries for <ore:materialPressedwax> :
 Ore entries for <ore:dustSalt> :
     <harvestcraft:saltItem>
     <rockhounding_chemistry:chemicalItems:1>
+    <primal:salt_halite_dust>
+    <primal:salt_netjry_dust>
+    <primal:salt_fire_dust>
+    <primal:salt_void_dust>
 Ore entries for <ore:itemSalt> :
     <harvestcraft:saltItem>
 Ore entries for <ore:foodHoneydrop> :
@@ -3908,8 +3934,10 @@ Ore entries for <ore:seedRadish> :
     <harvestcraft:radishseedItem>
 Ore entries for <ore:cropRice> :
     <harvestcraft:riceItem>
+    <actuallyadditions:itemFood:16>
 Ore entries for <ore:seedRice> :
     <harvestcraft:riceseedItem>
+    <actuallyadditions:itemRiceSeed>
 Ore entries for <ore:foodRicecake> :
     <harvestcraft:ricecakeItem>
 Ore entries for <ore:cropRutabaga> :
@@ -3985,8 +4013,10 @@ Ore entries for <ore:seedChilipepper> :
     <harvestcraft:chilipepperseedItem>
 Ore entries for <ore:cropCoffee> :
     <harvestcraft:coffeebeanItem>
+    <actuallyadditions:itemCoffeeBeans>
 Ore entries for <ore:seedCoffee> :
     <harvestcraft:coffeeseedItem>
+    <actuallyadditions:itemCoffeeSeed>
 Ore entries for <ore:foodCoffee> :
     <harvestcraft:coffeeItem>
 Ore entries for <ore:cropCorn> :
@@ -5570,6 +5600,7 @@ Ore entries for <ore:dustPigiron> :
     <primal:pigiron_dust>
 Ore entries for <ore:dustVanadium> :
     <primal:vanadium_dust>
+    <rockhounding_chemistry:chemicalDusts:50>
 Ore entries for <ore:ingotVanadium> :
     <primal:vanadium_ingot>
 Ore entries for <ore:nuggetVanadium> :
@@ -5730,7 +5761,7 @@ Ore entries for <ore:nuggetBam> :
     <rockhounding_chemistry:alloyItems:8>
 Ore entries for <ore:dustYag> :
     <rockhounding_chemistry:alloyItems:9>
-Ore entries for <ore:gemYag> :
+Ore entries for <ore:ingotYag> :
     <rockhounding_chemistry:alloyItems:10>
 Ore entries for <ore:nuggetYag> :
     <rockhounding_chemistry:alloyItems:11>
@@ -5858,223 +5889,300 @@ Ore entries for <ore:itemDryPeat> :
     <rockhounding_oretiers:tiersItems:8>
 Ore entries for <ore:stairsWood> :
     <roots:plankWildwoodStairs>
-Ore entries for <ore:nuggetTitanite> :
-    <taiga:titanite_nugget>
-Ore entries for <ore:nuggetAdamantite> :
-    <taiga:adamantite_nugget>
-Ore entries for <ore:nuggetArcanite> :
-    <taiga:arcanite_nugget>
-Ore entries for <ore:nuggetViolium> :
-    <taiga:violium_nugget>
-Ore entries for <ore:nuggetBismuth> :
-    <taiga:bismuth_nugget>
-Ore entries for <ore:nuggetEternite> :
-    <taiga:eternite_nugget>
-Ore entries for <ore:nuggetIgnitite> :
-    <taiga:ignitite_nugget>
-Ore entries for <ore:nuggetKarmesine> :
-    <taiga:karmesine_nugget>
-Ore entries for <ore:nuggetMeteorite> :
-    <taiga:meteorite_nugget>
-Ore entries for <ore:nuggetMindorite> :
-    <taiga:mindorite_nugget>
-Ore entries for <ore:nuggetMythril> :
-    <taiga:mythril_nugget>
-Ore entries for <ore:nuggetPalladium> :
-    <taiga:palladium_nugget>
-Ore entries for <ore:nuggetPrometheum> :
-    <taiga:prometheum_nugget>
-Ore entries for <ore:nuggetVibranium> :
-    <taiga:vibranium_nugget>
-Ore entries for <ore:nuggetRubium> :
-    <taiga:rubium_nugget>
-Ore entries for <ore:nuggetAstrium> :
-    <taiga:astrium_nugget>
-Ore entries for <ore:nuggetNitronite> :
-    <taiga:nitronite_nugget>
-Ore entries for <ore:nuggetProxideum> :
-    <taiga:proxideum_nugget>
-Ore entries for <ore:nuggetNoctunyx> :
-    <taiga:noctunyx_nugget>
-Ore entries for <ore:nuggetImperomite> :
-    <taiga:imperomite_nugget>
-Ore entries for <ore:nuggetCryptogen> :
-    <taiga:cryptogen_nugget>
-Ore entries for <ore:nuggetFractoryte> :
-    <taiga:fractoryte_nugget>
-Ore entries for <ore:nuggetSeismodium> :
-    <taiga:seismodium_nugget>
-Ore entries for <ore:nuggetTiberium> :
-    <taiga:tiberium_nugget>
-Ore entries for <ore:nuggetTerramite> :
-    <taiga:terramite_nugget>
-Ore entries for <ore:nuggetLumixyl> :
-    <taiga:lumixyl_nugget>
-Ore entries for <ore:nuggetSolarium> :
-    <taiga:solarium_nugget>
-Ore entries for <ore:nuggetDyonite> :
-    <taiga:dyonite_nugget>
-Ore entries for <ore:nuggetUltranite> :
-    <taiga:ultranite_nugget>
-Ore entries for <ore:nuggetNucleum> :
-    <taiga:nucleum_nugget>
-Ore entries for <ore:nuggetAegisalt> :
-    <taiga:aegisalt_nugget>
-Ore entries for <ore:nuggetBysmuid> :
-    <taiga:bysmuid_nugget>
-Ore entries for <ore:ingotTitanite> :
-    <taiga:titanite_ingot>
-Ore entries for <ore:ingotAdamantite> :
-    <taiga:adamantite_ingot>
-Ore entries for <ore:ingotArcanite> :
-    <taiga:arcanite_ingot>
-Ore entries for <ore:ingotViolium> :
-    <taiga:violium_ingot>
-Ore entries for <ore:ingotBismuth> :
-    <taiga:bismuth_ingot>
-Ore entries for <ore:ingotEternite> :
-    <taiga:eternite_ingot>
-Ore entries for <ore:ingotIgnitite> :
-    <taiga:ignitite_ingot>
-Ore entries for <ore:ingotKarmesine> :
-    <taiga:karmesine_ingot>
-Ore entries for <ore:ingotMeteorite> :
-    <taiga:meteorite_ingot>
-Ore entries for <ore:ingotMindorite> :
-    <taiga:mindorite_ingot>
-Ore entries for <ore:ingotMythril> :
-    <taiga:mythril_ingot>
-Ore entries for <ore:ingotPalladium> :
-    <taiga:palladium_ingot>
-Ore entries for <ore:ingotPrometheum> :
-    <taiga:prometheum_ingot>
 Ore entries for <ore:ingotTiberium> :
     <taiga:tiberium_ingot>
+Ore entries for <ore:nuggetTiberium> :
+    <taiga:tiberium_nugget>
+Ore entries for <ore:ingotAurorium> :
+    <taiga:aurorium_ingot>
+Ore entries for <ore:dustAurorium> :
+    <taiga:aurorium_dust>
+Ore entries for <ore:nuggetAurorium> :
+    <taiga:aurorium_nugget>
+Ore entries for <ore:ingotPrometheum> :
+    <taiga:prometheum_ingot>
+Ore entries for <ore:nuggetPrometheum> :
+    <taiga:prometheum_nugget>
+Ore entries for <ore:ingotDuranite> :
+    <taiga:duranite_ingot>
+Ore entries for <ore:dustDuranite> :
+    <taiga:duranite_dust>
+Ore entries for <ore:nuggetDuranite> :
+    <taiga:duranite_nugget>
+Ore entries for <ore:ingotValyrium> :
+    <taiga:valyrium_ingot>
+Ore entries for <ore:dustValyrium> :
+    <taiga:valyrium_dust>
+Ore entries for <ore:nuggetValyrium> :
+    <taiga:valyrium_nugget>
 Ore entries for <ore:ingotVibranium> :
     <taiga:vibranium_ingot>
-Ore entries for <ore:ingotRubium> :
-    <taiga:rubium_ingot>
-Ore entries for <ore:ingotAstrium> :
-    <taiga:astrium_ingot>
-Ore entries for <ore:ingotNitronite> :
-    <taiga:nitronite_ingot>
-Ore entries for <ore:ingotProxideum> :
-    <taiga:proxideum_ingot>
-Ore entries for <ore:ingotNoctunyx> :
-    <taiga:noctunyx_ingot>
+Ore entries for <ore:nuggetVibranium> :
+    <taiga:vibranium_nugget>
+Ore entries for <ore:ingotKarmesine> :
+    <taiga:karmesine_ingot>
+Ore entries for <ore:nuggetKarmesine> :
+    <taiga:karmesine_nugget>
+Ore entries for <ore:ingotPalladium> :
+    <taiga:palladium_ingot>
+Ore entries for <ore:nuggetPalladium> :
+    <taiga:palladium_nugget>
+Ore entries for <ore:ingotUru> :
+    <taiga:uru_ingot>
+Ore entries for <ore:dustUru> :
+    <taiga:uru_dust>
+Ore entries for <ore:nuggetUru> :
+    <taiga:uru_nugget>
+Ore entries for <ore:ingotOsram> :
+    <taiga:osram_ingot>
+Ore entries for <ore:dustOsram> :
+    <taiga:osram_dust>
+Ore entries for <ore:nuggetOsram> :
+    <taiga:osram_nugget>
+Ore entries for <ore:ingotAbyssum> :
+    <taiga:abyssum_ingot>
+Ore entries for <ore:dustAbyssum> :
+    <taiga:abyssum_dust>
+Ore entries for <ore:nuggetAbyssum> :
+    <taiga:abyssum_nugget>
+Ore entries for <ore:ingotEezo> :
+    <taiga:eezo_ingot>
+Ore entries for <ore:dustEezo> :
+    <taiga:eezo_dust>
+Ore entries for <ore:nuggetEezo> :
+    <taiga:eezo_nugget>
+Ore entries for <ore:ingotTriberium> :
+    <taiga:triberium_ingot>
+Ore entries for <ore:dustTriberium> :
+    <taiga:triberium_dust>
+Ore entries for <ore:nuggetTriberium> :
+    <taiga:triberium_nugget>
+Ore entries for <ore:ingotFractum> :
+    <taiga:fractum_ingot>
+Ore entries for <ore:dustFractum> :
+    <taiga:fractum_dust>
+Ore entries for <ore:nuggetFractum> :
+    <taiga:fractum_nugget>
+Ore entries for <ore:ingotViolium> :
+    <taiga:violium_ingot>
+Ore entries for <ore:nuggetViolium> :
+    <taiga:violium_nugget>
+Ore entries for <ore:ingotProxii> :
+    <taiga:proxii_ingot>
+Ore entries for <ore:dustProxii> :
+    <taiga:proxii_dust>
+Ore entries for <ore:nuggetProxii> :
+    <taiga:proxii_nugget>
+Ore entries for <ore:ingotTritonite> :
+    <taiga:tritonite_ingot>
+Ore entries for <ore:dustTritonite> :
+    <taiga:tritonite_dust>
+Ore entries for <ore:nuggetTritonite> :
+    <taiga:tritonite_nugget>
+Ore entries for <ore:ingotIgnitz> :
+    <taiga:ignitz_ingot>
+Ore entries for <ore:dustIgnitz> :
+    <taiga:ignitz_dust>
+Ore entries for <ore:nuggetIgnitz> :
+    <taiga:ignitz_nugget>
 Ore entries for <ore:ingotImperomite> :
     <taiga:imperomite_ingot>
-Ore entries for <ore:ingotCryptogen> :
-    <taiga:cryptogen_ingot>
-Ore entries for <ore:ingotFractoryte> :
-    <taiga:fractoryte_ingot>
-Ore entries for <ore:ingotSeismodium> :
-    <taiga:seismodium_ingot>
-Ore entries for <ore:ingotTerramite> :
-    <taiga:terramite_ingot>
-Ore entries for <ore:ingotLumixyl> :
-    <taiga:lumixyl_ingot>
+Ore entries for <ore:nuggetImperomite> :
+    <taiga:imperomite_nugget>
 Ore entries for <ore:ingotSolarium> :
     <taiga:solarium_ingot>
+Ore entries for <ore:nuggetSolarium> :
+    <taiga:solarium_nugget>
+Ore entries for <ore:ingotNihilite> :
+    <taiga:nihilite_ingot>
+Ore entries for <ore:dustNihilite> :
+    <taiga:nihilite_dust>
+Ore entries for <ore:nuggetNihilite> :
+    <taiga:nihilite_nugget>
+Ore entries for <ore:ingotAdamant> :
+    <taiga:adamant_ingot>
+Ore entries for <ore:dustAdamant> :
+    <taiga:adamant_dust>
+Ore entries for <ore:nuggetAdamant> :
+    <taiga:adamant_nugget>
 Ore entries for <ore:ingotDyonite> :
     <taiga:dyonite_ingot>
-Ore entries for <ore:ingotUltranite> :
-    <taiga:ultranite_ingot>
+Ore entries for <ore:nuggetDyonite> :
+    <taiga:dyonite_nugget>
 Ore entries for <ore:ingotNucleum> :
     <taiga:nucleum_ingot>
-Ore entries for <ore:ingotAegisalt> :
-    <taiga:aegisalt_ingot>
-Ore entries for <ore:ingotBysmuid> :
-    <taiga:bysmuid_ingot>
-Ore entries for <ore:oreMeteorite> :
-    <taiga:meteorite_ore>
-Ore entries for <ore:oreVibranium> :
-    <taiga:vibranium_ore>
-Ore entries for <ore:orePrometheum> :
-    <taiga:prometheum_ore>
-Ore entries for <ore:oreRubium> :
-    <taiga:rubium_ore>
+Ore entries for <ore:nuggetNucleum> :
+    <taiga:nucleum_nugget>
+Ore entries for <ore:ingotLumix> :
+    <taiga:lumix_ingot>
+Ore entries for <ore:dustLumix> :
+    <taiga:lumix_dust>
+Ore entries for <ore:nuggetLumix> :
+    <taiga:lumix_nugget>
+Ore entries for <ore:ingotSeismum> :
+    <taiga:seismum_ingot>
+Ore entries for <ore:dustSeismum> :
+    <taiga:seismum_dust>
+Ore entries for <ore:nuggetSeismum> :
+    <taiga:seismum_nugget>
+Ore entries for <ore:ingotAstrium> :
+    <taiga:astrium_ingot>
+Ore entries for <ore:nuggetAstrium> :
+    <taiga:astrium_nugget>
+Ore entries for <ore:ingotNiob> :
+    <taiga:niob_ingot>
+Ore entries for <ore:dustNiob> :
+    <taiga:niob_dust>
+Ore entries for <ore:nuggetNiob> :
+    <taiga:niob_nugget>
+Ore entries for <ore:ingotYrdeen> :
+    <taiga:yrdeen_ingot>
+Ore entries for <ore:dustYrdeen> :
+    <taiga:yrdeen_dust>
+Ore entries for <ore:nuggetYrdeen> :
+    <taiga:yrdeen_nugget>
+Ore entries for <ore:ingotIox> :
+    <taiga:iox_ingot>
+Ore entries for <ore:dustIox> :
+    <taiga:iox_dust>
+Ore entries for <ore:nuggetIox> :
+    <taiga:iox_nugget>
+Ore entries for <ore:ingotMeteorite> :
+    <taiga:meteorite_ingot>
+Ore entries for <ore:nuggetMeteorite> :
+    <taiga:meteorite_nugget>
+Ore entries for <ore:ingotBasalt> :
+    <taiga:basalt_ingot>
+Ore entries for <ore:dustBasalt> :
+    <taiga:basalt_dust>
+Ore entries for <ore:nuggetBasalt> :
+    <taiga:basalt_nugget>
+Ore entries for <ore:ingotObsidiorite> :
+    <taiga:obsidiorite_ingot>
+Ore entries for <ore:dustObsidiorite> :
+    <taiga:obsidiorite_dust>
+Ore entries for <ore:nuggetObsidiorite> :
+    <taiga:obsidiorite_nugget>
+Ore entries for <ore:blockBasalt> :
+    <taiga:basalt_block>
 Ore entries for <ore:oreTiberium> :
     <taiga:tiberium_ore>
-Ore entries for <ore:oreEternite> :
-    <taiga:eternite_ore>
-Ore entries for <ore:oreMythril> :
-    <taiga:mythril_ore>
-Ore entries for <ore:orePalladium> :
-    <taiga:palladium_ore>
-Ore entries for <ore:oreViolium> :
-    <taiga:violium_ore>
-Ore entries for <ore:oreBismuth> :
-    <taiga:bismuth_ore>
-    <nethermetals:nether_bismuth_ore>
-Ore entries for <ore:oreMindorite> :
-    <taiga:mindorite_ore>
+Ore entries for <ore:oreAurorium> :
+    <taiga:aurorium_ore>
+Ore entries for <ore:orePrometheum> :
+    <taiga:prometheum_ore>
+Ore entries for <ore:oreDuranite> :
+    <taiga:duranite_ore>
+Ore entries for <ore:oreValyrium> :
+    <taiga:valyrium_ore>
+Ore entries for <ore:oreVibranium> :
+    <taiga:vibranium_ore>
 Ore entries for <ore:oreKarmesine> :
     <taiga:karmesine_ore>
-Ore entries for <ore:blockTitanite> :
-    <taiga:titanite_block>
-Ore entries for <ore:blockMeteorite> :
-    <taiga:meteorite_block>
-Ore entries for <ore:blockVibranium> :
-    <taiga:vibranium_block>
-Ore entries for <ore:blockAdamantite> :
-    <taiga:adamantite_block>
-Ore entries for <ore:blockPrometheum> :
-    <taiga:prometheum_block>
-Ore entries for <ore:blockRubium> :
-    <taiga:rubium_block>
+Ore entries for <ore:orePalladium> :
+    <taiga:palladium_ore>
+Ore entries for <ore:oreUru> :
+    <taiga:uru_ore>
+Ore entries for <ore:oreOsram> :
+    <taiga:osram_ore>
+Ore entries for <ore:oreEezo> :
+    <taiga:eezo_ore>
+Ore entries for <ore:oreAbyssum> :
+    <taiga:abyssum_ore>
 Ore entries for <ore:blockTiberium> :
     <taiga:tiberium_block>
-Ore entries for <ore:blockArcanite> :
-    <taiga:arcanite_block>
-Ore entries for <ore:blockEternite> :
-    <taiga:eternite_block>
-Ore entries for <ore:blockMythril> :
-    <taiga:mythril_block>
-Ore entries for <ore:blockPalladium> :
-    <taiga:palladium_block>
-Ore entries for <ore:blockIgnitite> :
-    <taiga:ignitite_block>
-Ore entries for <ore:blockViolium> :
-    <taiga:violium_block>
-Ore entries for <ore:blockBismuth> :
-    <taiga:bismuth_block>
-Ore entries for <ore:blockMindorite> :
-    <taiga:mindorite_block>
+Ore entries for <ore:blockAurorium> :
+    <taiga:aurorium_block>
+Ore entries for <ore:blockPrometheum> :
+    <taiga:prometheum_block>
+Ore entries for <ore:blockDuranite> :
+    <taiga:duranite_block>
+Ore entries for <ore:blockValyrium> :
+    <taiga:valyrium_block>
+Ore entries for <ore:blockVibranium> :
+    <taiga:vibranium_block>
 Ore entries for <ore:blockKarmesine> :
     <taiga:karmesine_block>
+Ore entries for <ore:blockPalladium> :
+    <taiga:palladium_block>
+Ore entries for <ore:blockUru> :
+    <taiga:uru_block>
+Ore entries for <ore:blockOsram> :
+    <taiga:osram_block>
+Ore entries for <ore:blockAbyssum> :
+    <taiga:abyssum_block>
+Ore entries for <ore:blockEezo> :
+    <taiga:eezo_block>
+Ore entries for <ore:blockTriberium> :
+    <taiga:triberium_block>
+Ore entries for <ore:blockFractum> :
+    <taiga:fractum_block>
+Ore entries for <ore:blockViolium> :
+    <taiga:violium_block>
+Ore entries for <ore:blockProxii> :
+    <taiga:proxii_block>
+Ore entries for <ore:blockTritonite> :
+    <taiga:tritonite_block>
+Ore entries for <ore:blockIgnitz> :
+    <taiga:ignitz_block>
 Ore entries for <ore:blockImperomite> :
     <taiga:imperomite_block>
-Ore entries for <ore:blockFractoryte> :
-    <taiga:fractoryte_block>
-Ore entries for <ore:blockNoctunyx> :
-    <taiga:noctunyx_block>
-Ore entries for <ore:blockNitronite> :
-    <taiga:nitronite_block>
-Ore entries for <ore:blockCryptogen> :
-    <taiga:cryptogen_block>
-Ore entries for <ore:blockSeismodium> :
-    <taiga:seismodium_block>
-Ore entries for <ore:blockAegisalt> :
-    <taiga:aegisalt_block>
-Ore entries for <ore:blockUltranite> :
-    <taiga:ultranite_block>
-Ore entries for <ore:blockBysmuid> :
-    <taiga:bysmuid_block>
-Ore entries for <ore:blockNucleum> :
-    <taiga:nucleum_block>
-Ore entries for <ore:blockTerramite> :
-    <taiga:terramite_block>
 Ore entries for <ore:blockSolarium> :
     <taiga:solarium_block>
-Ore entries for <ore:blockLumixyl> :
-    <taiga:lumixyl_block>
+Ore entries for <ore:blockNihilite> :
+    <taiga:nihilite_block>
+Ore entries for <ore:blockAdamant> :
+    <taiga:adamant_block>
 Ore entries for <ore:blockDyonite> :
     <taiga:dyonite_block>
-Ore entries for <ore:blockProxideum> :
-    <taiga:proxideum_block>
+Ore entries for <ore:blockNucleum> :
+    <taiga:nucleum_block>
+Ore entries for <ore:blockLumix> :
+    <taiga:lumix_block>
+Ore entries for <ore:blockSeismum> :
+    <taiga:seismum_block>
 Ore entries for <ore:blockAstrium> :
     <taiga:astrium_block>
+Ore entries for <ore:blockNiob> :
+    <taiga:niob_block>
+Ore entries for <ore:blockYrdeen> :
+    <taiga:yrdeen_block>
+Ore entries for <ore:blockIox> :
+    <taiga:iox_block>
+Ore entries for <ore:blockMeteoritecobble> :
+    <taiga:meteoritecobble_block>
+Ore entries for <ore:blockObsidioritecobble> :
+    <taiga:obsidioritecobble_block>
+Ore entries for <ore:blockMeteorite> :
+    <taiga:meteorite_block>
+Ore entries for <ore:blockObsidiorite> :
+    <taiga:obsidiorite_block>
+Ore entries for <ore:coal> :
+    <minecraft:coal>
+Ore entries for <ore:dustDiamond> :
+    <actuallyadditions:itemDust:2>
+Ore entries for <ore:dustEmerald> :
+    <actuallyadditions:itemDust:3>
+Ore entries for <ore:dustLapis> :
+    <actuallyadditions:itemDust:4>
+Ore entries for <ore:dustQuartz> :
+    <actuallyadditions:itemDust:5>
+Ore entries for <ore:dustQuartzBlack> :
+    <actuallyadditions:itemDust:7>
+Ore entries for <ore:oreQuartzBlack> :
+    <actuallyadditions:blockMisc:3>
+Ore entries for <ore:gemQuartzBlack> :
+    <actuallyadditions:itemMisc:5>
+Ore entries for <ore:seedCanola> :
+    <actuallyadditions:itemCanolaSeed>
+Ore entries for <ore:cropCanola> :
+    <actuallyadditions:itemMisc:13>
+Ore entries for <ore:seedFlax> :
+    <actuallyadditions:itemFlaxSeed>
+Ore entries for <ore:cropFlax> :
+    <minecraft:string>
+Ore entries for <ore:blockCharcoal> :
+    <actuallyadditions:blockMisc:5>
 Ore entries for <ore:bars> :
     <minecraft:iron_bars>
     <basemetals:nickel_bars>
@@ -6295,16 +6403,14 @@ Ore entries for <ore:dustDarkSteel> :
     <fp:dust:32125>
 Ore entries for <ore:dustDawnstone> :
     <fp:dust:28675>
-Ore entries for <ore:dustDemonic> :
-    <fp:dust:22989>
 Ore entries for <ore:dustDreadium> :
     <fp:dust:15357>
 Ore entries for <ore:dustElectricalSteel> :
     <fp:dust:16386>
 Ore entries for <ore:dustElvenElementium> :
     <fp:dust:2>
-Ore entries for <ore:dustEnchanted> :
-    <fp:dust:16387>
+Ore entries for <ore:dustEnchantedMetal> :
+    <fp:dust:3>
 Ore entries for <ore:dustEnergeticAlloy> :
     <fp:dust:258>
 Ore entries for <ore:dustEthaxium> :
@@ -6336,9 +6442,9 @@ Ore entries for <ore:dustSoularium> :
 Ore entries for <ore:dustTerrasteel> :
     <fp:dust:4099>
 Ore entries for <ore:dustThundersteel> :
-    <fp:dust:3>
-Ore entries for <ore:dustThundersteelAwakened> :
     <fp:dust:5>
+Ore entries for <ore:dustThundersteelAwakened> :
+    <fp:dust:6>
 Ore entries for <ore:dustVibrantAlloy> :
     <fp:dust:16545>
 Ore entries for <ore:dustWakurum> :
@@ -6356,6 +6462,8 @@ Ore entries for <ore:gearGilded> :
     <railcraft:gear>
 Ore entries for <ore:oreAntimony> :
     <nethermetals:nether_antimony_ore>
+Ore entries for <ore:oreBismuth> :
+    <nethermetals:nether_bismuth_ore>
 Ore entries for <ore:oreCadmium> :
     <nethermetals:nether_cadmium_ore>
 Ore entries for <ore:oreChromium> :
