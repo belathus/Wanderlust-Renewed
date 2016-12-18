@@ -244,6 +244,7 @@
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
 # PrimalCore
+    recipes.remove(<primal:iron_ring>);
     recipes.addShapeless(<primal:plant_cordage>,
         [<ore:fiberHemp>,<ore:fiberHemp>]);
     recipes.addShaped(<primal:torch_wood>*8,
@@ -273,6 +274,8 @@
             [[galla],[<primal:carbonate_stone>]]);
         recipes.addShaped(<primal:iron_sheet> * 2,
             [[galla],[<ore:plateIron>]]);
+        recipes.addShaped(<primal:iron_ring> * 4,
+            [[galla],[<ore:sheetIron>]]);
     }
     
 # Rockhounding
