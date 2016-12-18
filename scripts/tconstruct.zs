@@ -1,7 +1,7 @@
 # Planks List
     var list_logs = [
         <minecraft:log:*>, <minecraft:log2>,
-        <biomesoplenty:log_0:*, <biomesoplenty:log_1:*, <biomesoplenty:log_2:*,<biomesoplenty:log_3:*>,
+        <biomesoplenty:log_0:*>, <biomesoplenty:log_1:*>, <biomesoplenty:log_2:*>,<biomesoplenty:log_3:*>,
         <forestry:logs.0:*>, <forestry:logs.1:*>, <forestry:logs.2:*>, <forestry:logs.3:*>,
         <forestry:logs.4:*>, <forestry:logs.5:*>, <forestry:logs.6:*>, <forestry:logs.7:*>,
         <forestry:logs.fireproof.0:*>, <forestry:logs.fireproof.1:*>, <forestry:logs.fireproof.2:*>,
@@ -34,7 +34,6 @@
 
     mods.tconstruct.Casting.addBasinRecipe(<integrateddynamics:menrilSapling>, <liquid:menrilresin>*8000, <minecraft:sapling:*>, true, 3600);
     mods.tconstruct.Casting.addBasinRecipe(<arsmagica2:witchwood_sapling>, <liquid:liquid_essence>*8000, <minecraft:sapling:*>, true, 3600);
-    mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treatedWood>, <liquid:creosote>*125, <:*>, true, 3600);
 
 #   <material:mythril>.durabilityHead = 5;
 #   <material:mythril>.harvestLevelHead = 5;
