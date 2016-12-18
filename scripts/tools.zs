@@ -116,7 +116,7 @@
 # PrimalCore
 #    <primal:flint_hatchet>.maxDamage(100);
     recipes.addShapeless(<primal:flint_hatchet>, 
-        [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.withAmount(1)],
+        [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25)).withTag(inputs.hatchet.tag);
         });
