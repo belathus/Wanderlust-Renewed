@@ -5,7 +5,7 @@
 #    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreIron>, 0.5);
 #    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreGoethite>, 0.5);
 #    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreLimonite>, 0.5);
-    furnace.addRecipe(<minecraft:ingot_iron>, <ore:dustIron>, 0.5);
+    furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 0.5);
 
 # Biomes O' Plenty
     furnace.addRecipe(<biomesoplenty:mud_brick>, <ore:clumpMud>);
