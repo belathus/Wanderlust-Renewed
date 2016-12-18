@@ -1,77 +1,82 @@
 {
-    "name" : "_botania_lvl_1",
-    "levels" : {
-        "1" : {
-            "range" : 40,
-            "numRooms" : 10,
-            "theme" : {
-                "base" : "QUARTZ",
-                "rooms" : [
+    "name":"_botania_lvl_1",
+    "levels":{
+        "1":{
+            "range":40,
+            "numRooms":10,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "ETHO"
+                        "mode":"single",
+                        "type":"ETHO"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "ETHO",
-                        "weight" : 1
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "minecraft:stained_hardened_clay",
-                            "meta": 0
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"railcraft:brick_frostbound",
+                            "meta":1
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "chisel:marblepillar",
-                            "meta" : 2
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botanicaladdons:irisLog0",
+                            "meta":3
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "biomesoplenty:magic_stairs"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"biomesoplenty:magic_stairs"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 2
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botanicaladdons:irisDirt",
+                            "meta":3
                         }
                     }
                 },
-                "secondary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:quartzTypeElf",
-                            "meta" : 1
+                "secondary":{
+                    "walls":{
+                        "type":"LAYERS",
+                        "data":[
+                            {
+                                "name":"botania:quartzTypeMana",
+                                "meta":1
+                            },
+                            {
+                                "name":"chisel:diorite1",
+                                "meta":6
+                            }
+                        ]
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzTypeMana",
+                            "meta":2
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:quartzTypeElf",
-                            "meta" : 2
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzStairsMana"
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "quark:midori_block_stairs"
-                        }
-                    },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 5
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"ore:stoneDioritePolished"
                         }
                     }
                 }

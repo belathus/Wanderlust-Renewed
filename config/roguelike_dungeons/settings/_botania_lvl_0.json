@@ -1,77 +1,77 @@
 {
-    "name" : "_botania_lvl_0",
-    "levels" : {
-        "0" : {
-            "range" : 40,
-            "numRooms" : 10,
-            "theme" : {
-                "base" : "QUARTZ",
-                "rooms" : [
+    "name":"_botania_lvl_0",
+    "levels":{
+        "0":{
+            "range":25,
+            "numRooms":12,
+            "theme":{
+                "base":"QUARTZ",
+                "rooms":[
                     {
-                        "mode" : "single",
-                        "type" : "ETHO"
+                        "mode":"single",
+                        "type":"BEDROOM"
                     },
                     {
-                        "mode" : "random",
-                        "type" : "ETHO",
-                        "weight" : 1
+                        "mode":"random",
+                        "type":"ETHO",
+                        "weight":1
                     }
                 ],
-                "primary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta": 6
+                "primary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:livingwood",
+                            "meta":2
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:quartzTypeMana",
-                            "meta" : 2
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"minecraft:log",
+                            "meta":1
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:biomeStoneA6Stairs"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"quark:stained_clay_tiles_brown_stairs"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 2
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botanicaladdons:irisDirt",
+                            "meta":12
                         }
                     }
                 },
-                "secondary" : {
-                    "walls" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:biomeStoneB",
-                            "meta" : 5
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:limestone1",
+                            "meta":2
                         }
                     },
-                    "pillar" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:biomeStoneA",
-                            "meta" : 5
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:limestoneextra",
+                            "meta":4
                         }
                     },
-                    "stair" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:livingwood1Stairs"
+                    "stair":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"natura:overworld_stairs_silverbell"
                         }
                     },
-                    "floor" : {
-                        "type": "METABLOCK",
-                        "data" : {
-                            "name" : "botania:pavement",
-                            "meta" : 0
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"chisel:limestone",
+                            "meta":5
                         }
                     }
                 }
@@ -79,4 +79,3 @@
         }
     }
 }
-

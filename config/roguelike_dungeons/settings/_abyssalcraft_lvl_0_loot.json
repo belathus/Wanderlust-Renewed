@@ -1,33 +1,33 @@
 {
-	"name": "_abyssalcraft_lvl_0_loot",
+    "name":"_abyssalcraft_lvl_0_loot",
     "loot_rules":[
         {
             "type":"ARMOUR",
             "loot":[
                 {
                     "data":{
-                        "name":"esteemedinnovation:brass_helmet",
+                        "name":"basemetals:copper_helmet",
                         "ench":5
                     },
                     "weight":1
                 },
                 {
                     "data":{
-                        "name":"basemetals:brass_chestplate",
+                        "name":"basemetals:basemetals:copper_chestplate",
                         "ench":5
                     },
                     "weight":1
                 },
                 {
                     "data":{
-                        "name":"basemetals:brass_leggings",
+                        "name":"basemetals:basemetals:copper_leggings",
                         "ench":5
                     },
                     "weight":1
                 },
                 {
                     "data":{
-                        "name":"basemetals:brass_boots",
+                        "name":"basemetals:basemetals:copper_boots",
                         "ench":5
                     },
                     "weight":1
@@ -41,7 +41,7 @@
             "quantity":2
         },
         {
-            "type":"TOOLS",
+            "type":"WEAPONS",
             "loot":[
                 {
                     "data":{
@@ -49,7 +49,18 @@
                         "ench":2
                     },
                     "weight":4
-                },
+                }
+            ],
+            "level":[
+                0,
+                1
+            ],
+            "each":true,
+            "quantity":1
+        },
+        {
+            "type":"TOOLS",
+            "loot":[
                 {
                     "data":{
                         "name":"abyssalcraft:dpick",

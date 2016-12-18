@@ -2,21 +2,10 @@
     "name":"_futurepack_lvl_0",
     "levels":{
         "0":{
-            "range":40,
+            "range":30,
             "numRooms":10,
             "theme":{
                 "base":"QUARTZ",
-                "rooms":[
-                    {
-                        "mode":"single",
-                        "type":"BRICK"
-                    },
-                    {
-                        "mode":"random",
-                        "type":"ETHO",
-                        "weight":1
-                    }
-                ],
                 "primary":{
                     "walls":{
                         "type":"METABLOCK",
