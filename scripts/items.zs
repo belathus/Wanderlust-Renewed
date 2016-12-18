@@ -154,6 +154,10 @@
         [[<druidry:flint_axe:*>.transformDamage()],
          [<ore:slabWood>]]);
 
+# Actually Additions
+    recipes.remove(<actuallyadditions:itemMisc:10>);
+    recipes.remove(<actuallyadditions:itemMisc:11>);
+         
 # AbyssalCraft
     recipes.remove(<abyssalcraft:ironp>);
     recipes.addShaped(<abyssalcraft:ironp>,
