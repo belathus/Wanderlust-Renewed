@@ -47,8 +47,14 @@
     recipes.remove(<libvulpes:productnugget:4>);
     recipes.remove(<libvulpes:productingot:4>);
     recipes.remove(<libvulpes:metal0:4>);                     # Libvulpes Copper
+    mods.tconstruct.Casting.removeBasinRecipe(<libvulpes:metal0:4>);
+    mods.tconstruct.Casting.removeTableRecipe(<abyssalcraft:copperingot>);
+    mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:0>, <liquid:copper>*144, <tconstruct:cast_custom:0>, false, 100);
+    mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:storage:0>, <liquid:copper>*1296, null, false, 100);
     recipes.addShapeless(<immersiveengineering:metal:20>*9,
         [<ore:ingotCopper>]);
+    recipes.addShapeless(<immersiveengineering:metal:0>*9,
+        [<ore:blockCopper>]);
     recipes.addShapeless(<immersiveengineering:metal:0>, 
         [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]);
     recipes.addShapeless(<immersiveengineering:storage:0>, 
