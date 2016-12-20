@@ -33,38 +33,23 @@
         <basemetals:starsteel_plate>,
         <basemetals:tin_plate>,
         <basemetals:zinc_plate>,
-        <base:plate:1>,
-        <base:plate:2>,
-        <base:plate:3>,
-        <base:plate:4>,
-        <base:plate:5>,
-        <base:plate:6>,
-        <base:plate:7>,
-        <base:plate:8>,
-        <base:plate:9>,
-        <base:plate:10>,
-        <base:plate:11>,
-        <base:plate:12>,
-        <base:plate:13>,
-        <base:plate:14>,
-        <base:plate:15>,
-        <base:plate:16>,
-        <base:plate:17>,
-        <base:plate:18>,
-        <base:plate:19>,
-        <base:plate:20>,
-        <base:plate:21>,
-        <base:plate:22>,
-        <base:plate:23>,
-        <base:plate:24>,
-        <base:plate:25>,
-        <base:plate:26>,
-        <base:plate:27>,
-        <base:plate:28>,
-        <base:plate:29>,
-        <base:plate:30>,
-        <base:plate:31>,
-        <base:plate:32>,
+        
+        <base:plate:33>, # Astrium
+        <base:plate:36>, # Dyonite
+        <base:plate:40>, # Imperomite
+        <base:plate:41>, # Kormesine
+        <base:plate:42>, # Lumix
+        <base:plate:43>, # Meteorite
+        <base:plate:45>, # Nucleum
+        <base:plate:47>, # Palladium
+        <base:plate:48>, # Prometheum
+        <base:plate:49>, # Proxii
+        <base:plate:50>, # Seismum
+        <base:plate:51>, # Solarium
+        <base:plate:52>, # Tiberium
+        <base:plate:57>, # Vibranium
+        <base:plate:58>, # Violium
+        
         <advancedrocketry:productplate:0>,
         <advancedrocketry:productplate:1>,
         <libvulpes:productplate:3>,
@@ -93,38 +78,23 @@
         <ore:ingotStarsteel>,
         <ore:ingotTin>,
         <ore:ingotZinc>,
-        <ore:ingotAdamantite>,
-        <ore:ingotAegisalt>,
-        <ore:ingotArcanite>,
+        
         <ore:ingotAstrium>,
-        <ore:ingotBismuth>,
-        <ore:ingotBysmuid>,
-        <ore:ingotCryptogen>,
         <ore:ingotDyonite>,
-        <ore:ingotEternite>,
-        <ore:ingotFractoryte>,
-        <ore:ingotIgnitite>,
         <ore:ingotImperomite>,
         <ore:ingotKarmesine>,
-        <ore:ingotLumixyl>,
+        <ore:ingotLumix>,
         <ore:ingotMeteorite>,
-        <ore:ingotMindorite>,
-        <ore:ingotMythril>,
-        <ore:ingotNitronite>,
-        <ore:ingotNoctunyx>,
         <ore:ingotNucleum>,
         <ore:ingotPalladium>,
         <ore:ingotPrometheum>,
-        <ore:ingotProxideum>,
-        <ore:ingotRubium>,
-        <ore:ingotSeismodium>,
+        <ore:ingotProxii>,
+        <ore:ingotSeismum>,
         <ore:ingotSolarium>,
-        <ore:ingotTerramite>,
         <ore:ingotTiberium>,
-        <ore:ingotTitanite>,
-        <ore:ingotUltranite>,
         <ore:ingotVibranium>,
         <ore:ingotViolium>,
+        
         <ore:ingotTitaniumAluminide>,
         <ore:ingotTitaniumIridium>,
         <ore:ingotSilicon>,
