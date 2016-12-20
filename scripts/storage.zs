@@ -55,6 +55,7 @@
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
          [<ore:stickWood>,<forestry:butterfly_chest>,<ore:stickWood>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
+/*
     recipes.addShaped(<forestry:minerBag>,
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
          [<ore:ingotCopper>,<ore:chest>,<ore:ingotCopper>],
@@ -67,13 +68,14 @@
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
          [<ore:ingotZinc>,<ore:chest>,<ore:ingotZinc>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
+*/
     recipes.addShaped(<forestry:minerBag>,
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
-         [<ore:nuggetBronze>,<ore:chest>,<ore:nuggetBronze>],
+         [<ore:ingotBronze>,<ore:chest>,<ore:ingotBronze>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
     recipes.addShaped(<forestry:minerBag>,
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
-         [<ore:nuggetBrass>,<ore:chest>,<ore:nuggetBrass>],
+         [<ore:ingotBrass>,<ore:chest>,<ore:ingotBrass>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
 
 
