@@ -1,20 +1,20 @@
 import com.acronym.base.IMaterialType;
 
-    var astrium    = mods.base.Materials.getOrRegister("Astrium",     4,  5256299, false);
-    var dyonite    = mods.base.Materials.getOrRegister("Dyonite",     8, 16763238, false);
-    var imperomite = mods.base.Materials.getOrRegister("Imperomite", 12,  2459224, false);
-    var karmesine  = mods.base.Materials.getOrRegister("Karmesine",  13, 15821394, false);
-    var lumix      = mods.base.Materials.getOrRegister("Lumix",      14, 14283090, false);
-    var meteorite  = mods.base.Materials.getOrRegister("Meteorite",  15,  4668432, false);
-    var nucleum    = mods.base.Materials.getOrRegister("Nucleum",    20,  5628278, false);
-    var palladium  = mods.base.Materials.getOrRegister("Palladium",  21, 15959893, false);
-    var prometheum = mods.base.Materials.getOrRegister("Prometheum", 22,  3028529, false);
-    var proxii     = mods.base.Materials.getOrRegister("Proxii",     23,  7659769, false);
-    var seismum    = mods.base.Materials.getOrRegister("Seismum",    25,  7222573, false);
-    var solarium   = mods.base.Materials.getOrRegister("Solarium",   26, 16753920, false);
-    var tiberium   = mods.base.Materials.getOrRegister("Tiberium",   28,    32768, false);
-    var vibranium  = mods.base.Materials.getOrRegister("Vibranium",  31, 11519952, false);
-    var violium    = mods.base.Materials.getOrRegister("Violium",    32,  8421541, false);
+    var astrium    = mods.base.Materials.getOrRegister("Astrium",    31,  5256299, false);
+    var dyonite    = mods.base.Materials.getOrRegister("Dyonite",    32, 16763238, false);
+    var imperomite = mods.base.Materials.getOrRegister("Imperomite", 33,  2459224, false);
+    var karmesine  = mods.base.Materials.getOrRegister("Karmesine",  34, 15821394, false);
+    var lumix      = mods.base.Materials.getOrRegister("Lumix",      35, 14283090, false);
+    var meteorite  = mods.base.Materials.getOrRegister("Meteorite",  36,  4668432, false);
+    var nucleum    = mods.base.Materials.getOrRegister("Nucleum",    37,  5628278, false);
+    var palladium  = mods.base.Materials.getOrRegister("Palladium",  38, 15959893, false);
+    var prometheum = mods.base.Materials.getOrRegister("Prometheum", 39,  3028529, false);
+    var proxii     = mods.base.Materials.getOrRegister("Proxii",     40,  7659769, false);
+    var seismum    = mods.base.Materials.getOrRegister("Seismum",    41,  7222573, false);
+    var solarium   = mods.base.Materials.getOrRegister("Solarium",   42, 16753920, false);
+    var tiberium   = mods.base.Materials.getOrRegister("Tiberium",   43,    32768, false);
+    var vibranium  = mods.base.Materials.getOrRegister("Vibranium",  44, 11519952, false);
+    var violium    = mods.base.Materials.getOrRegister("Violium",    45,  8421541, false);
 
     astrium.registerGear();
     astrium.registerPlate();
