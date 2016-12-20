@@ -40,7 +40,7 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
     recipes.addShaped(<bloodmagic:BlockAltar>,
         [[<ore:stone>,null,<ore:stone>],
          [<ore:stone>,<minecraft:furnace>,<ore:stone>],
-         [<ore:nuggetSilver>,<bloodmagic:ItemMonsterSoul>,<ore:nuggetSilver>]]);
+         [<ore:ingotSilver>,<bloodmagic:ItemMonsterSoul>,<ore:ingotSilver>]]);
     # Soul Forge
     recipes.remove(<bloodmagic:BlockSoulForge>);
     recipes.addShaped(<bloodmagic:BlockSoulForge>,
