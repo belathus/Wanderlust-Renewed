@@ -1,4 +1,5 @@
 # Single objects
+
     # Ingots
     global adamantine = <ore:ingotAdamantine>;
     global aluminum = <ore:ingotAluminum>;
@@ -12,8 +13,9 @@
     global zinc = <ore:ingotZinc>;
     
 # Arrays
+
     # Metals
-    global list_copper_ingots [
+    global list_copper_ingots = [
         <immersiveengineering:metal>,
         <abyssalcraft:copperingot>,
         <libvulpes:productingot:4>,
@@ -26,7 +28,7 @@
         <railcraft:ingot:1>,
         <rockhounding_chemistry:miscItems:25>
     ] as minetweaker.item.IItemStack[];
-    global list_copper_blocks [
+    global list_copper_blocks = [
         <immersiveengineering:storage>,
         <libvulpes:metal0:4>,
         <basemetals:copper_block>,
@@ -37,7 +39,7 @@
         <primal:copper_block>,
         <railcraft:generic>
     ] as minetweaker.item.IItemStack[];
-    global list_copper_nuggets [
+    global list_copper_nuggets = [
         <immersiveengineering:metal:20>,
         <libvulpes:productnugget:4>,
         <basemetals:copper_nugget>,
