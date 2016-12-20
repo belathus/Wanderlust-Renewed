@@ -23,6 +23,12 @@
     <ore:dustSalt>.add(<primal:salt_netjry_dust>);
     <ore:dustSalt>.add(<primal:salt_fire_dust>);
     <ore:dustSalt>.add(<primal:salt_void_dust>);
+    <ore:itemSalt>.add(<primal:salt_halite_dust>);
+    <ore:itemSalt>.add(<primal:salt_netjry_dust>);
+    <ore:itemSalt>.add(<primal:salt_fire_dust>);
+    <ore:itemSalt>.add(<primal:salt_void_dust>);
+    <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
+    <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 
 # Removing the nether ore oredict entries and making it normal ore.
     <ore:oreNetherCoal>.remove(<nethercore:ore:0>);
