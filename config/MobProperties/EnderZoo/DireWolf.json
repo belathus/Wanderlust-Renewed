@@ -3,7 +3,6 @@
     "drops": [
         {
             "_comment" : "Adding pelts to a direwolf's drops; 0-2 by default",
-            "weight" : 6,
             "function" : "add",
             "id" : "primal:wolf_pelt",
             "damage" : 0,
@@ -11,7 +10,6 @@
         },
         {
             "_comment" : "Adding wolf meat to a direwolf's drops",
-            "weight" : 6,
             "function" : "add",
             "id" : "primal:wolf_meat_raw",
             "damage" : 0,
