@@ -1,5 +1,5 @@
+/*
 # Single objects
-
     # Ingots
     global adamantine = <ore:ingotAdamantine>;
     global aluminum = <ore:ingotAluminum>;
@@ -199,3 +199,4 @@
         [<integrateddynamics:menrilLog>,<integrateddynamics:menrilPlanks>,  null, null],
         [<evilcraft:undeadLog>,         <evilcraft:undeadPlank>,            null, null]
     ] as minetweaker.item.IItemStack[][];
+*/

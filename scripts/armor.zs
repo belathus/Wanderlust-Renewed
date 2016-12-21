@@ -50,14 +50,13 @@
     recipes.remove(<basemetals:mithril_chestplate>);
     recipes.remove(<basemetals:mithril_leggings>);
     recipes.remove(<basemetals:mithril_boots>);
-    var imphide_helm = <minecraft:leather_helmet>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Cap",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
-    var imphide_chest = <minecraft:leather_chestplate>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Tunic",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
-    var imphide_legs = <minecraft:leather_leggings>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Pants",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
-    var imphide_boots = <minecraft:leather_boots>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Boots",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
+    var imphide_helm = <minecraft:leather_helmet>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Cap",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}});
+    var imphide_chest = <minecraft:leather_chestplate>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Tunic",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}});
+    var imphide_legs = <minecraft:leather_leggings>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Pants",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}});
+    var imphide_boots = <minecraft:leather_boots>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Boots",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}});
     recipes.addShaped(<basemetals:coldiron_helmet>,
         [[<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
-         [<ore:ingotColdiron>,imphide_helm,<ore:ingotColdiron>],
-         [<ore:cordageLeather>,null,<ore:cordageLeather>]]);
+         [<ore:ingotColdiron>,imphide_helm,<ore:ingotColdiron>]]);
     recipes.addShaped(<basemetals:coldiron_chestplate>,
         [[<ore:ingotColdiron>,imphide_chest,<ore:ingotColdiron>],
          [<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
@@ -71,8 +70,7 @@
          [<ore:ingotColdiron>,null,<ore:ingotColdiron>]]);
     recipes.addShaped(<basemetals:mithril_helmet>,
         [[<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
-         [<ore:ingotMithril>,imphide_helm,<ore:ingotMithril>],
-         [<ore:cordageLeather>,null,<ore:cordageLeather>]]);
+         [<ore:ingotMithril>,imphide_helm,<ore:ingotMithril>]]);
     recipes.addShaped(<basemetals:mithril_chestplate>,
         [[<ore:ingotMithril>,imphide_chest,<ore:ingotMithril>],
          [<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
