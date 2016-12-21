@@ -3,6 +3,22 @@
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
 
+# Vanilla
+    recipes.addShaped(<minecraft:leather_helmet>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Cap",Lore:["Made from imphide"]}}),
+        [[<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
+         [<natura:materials:6>,null,<natura:materials:6>]]);
+    recipes.addShaped(<minecraft:leather_chestplate>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Tunic",Lore:["Made from imphide"]}}),
+        [[<natura:materials:6>,null,<natura:materials:6>],
+         [<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
+         [<natura:materials:6>,<natura:materials:6>,<natura:materials:6>]]);
+    recipes.addShaped(<minecraft:leather_leggings>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Pants",Lore:["Made from imphide"]}}),
+        [[<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
+         [<natura:materials:6>,null,<natura:materials:6>],
+         [<natura:materials:6>,null,<natura:materials:6>]]);
+    recipes.addShaped(<minecraft:leather_boots>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Boots",Lore:["Made from imphide"]}}),
+        [[<natura:materials:6>,null,<natura:materials:6>],
+         [<natura:materials:6>,null,<natura:materials:6>]]);
+
 # Ars Magica
     recipes.remove(<arsmagica2:helmet_battlemage>);
     recipes.remove(<arsmagica2:chest_battlemage>);
@@ -34,36 +50,40 @@
     recipes.remove(<basemetals:mithril_chestplate>);
     recipes.remove(<basemetals:mithril_leggings>);
     recipes.remove(<basemetals:mithril_boots>);
-#    recipes.addShaped(<basemetals:coldiron_helmet>,
-#        [[<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
-#         [<ore:ingotColdiron>,<>,<ore:ingotColdiron>],
-#         [<ore:cordageLeather>,<>,<ore:cordageLeather>]]);
-#    recipes.addShaped(<basemetals:coldiron_chestplate>,
-#        [[<ore:ingotColdiron>,<>,<ore:ingotColdiron>],
-#         [<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
-#         [<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>]]);
-#    recipes.addShaped(<basemetals:coldiron_leggings>,
-#        [[<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
-#         [<ore:ingotColdiron>,<>,<ore:ingotColdiron>],
-#         [<ore:ingotColdiron>,<>,<ore:ingotColdiron>]]);
-#    recipes.addShaped(<basemetals:coldiron_boots>,
-#        [[<ore:ingotColdiron>,<>,<ore:ingotColdiron>],
-#         [<ore:ingotColdiron>,<>,<ore:ingotColdiron>]]);
-#    recipes.addShaped(<basemetals:mithril_helmet>,
-#        [[<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
-#         [<ore:ingotMithril>,<>,<ore:ingotMithril>],
-#         [<ore:cordageLeather>,<>,<ore:cordageLeather>]]);
-#    recipes.addShaped(<basemetals:mithril_chestplate>,
-#        [[<ore:ingotMithril>,<>,<ore:ingotMithril>],
-#         [<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
-#         [<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>]]);
-#    recipes.addShaped(<basemetals:mithril_leggings>,
-#        [[<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
-#         [<ore:ingotMithril>,<>,<ore:ingotMithril>],
-#         [<ore:ingotMithril>,<>,<ore:ingotMithril>]]);
-#    recipes.addShaped(<basemetals:mithril_boots>,
-#        [[<ore:ingotMithril>,<>,<ore:ingotMithril>],
-#         [<ore:ingotMithril>,<>,<ore:ingotMithril>]]);
+    var imphide_helm = <minecraft:leather_helmet>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Cap",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
+    var imphide_chest = <minecraft:leather_chestplate>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Tunic",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
+    var imphide_legs = <minecraft:leather_leggings>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Pants",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
+    var imphide_boots = <minecraft:leather_boots>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Boots",Lore:["Made from imphide"]}}).onlyWithTag({display:{Lore:["Made from imphide"]}})
+    recipes.addShaped(<basemetals:coldiron_helmet>,
+        [[<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
+         [<ore:ingotColdiron>,imphide_helm,<ore:ingotColdiron>],
+         [<ore:cordageLeather>,null,<ore:cordageLeather>]]);
+    recipes.addShaped(<basemetals:coldiron_chestplate>,
+        [[<ore:ingotColdiron>,imphide_chest,<ore:ingotColdiron>],
+         [<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
+         [<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>]]);
+    recipes.addShaped(<basemetals:coldiron_leggings>,
+        [[<ore:ingotColdiron>,<ore:ingotColdiron>,<ore:ingotColdiron>],
+         [<ore:ingotColdiron>,imphide_legs,<ore:ingotColdiron>],
+         [<ore:ingotColdiron>,null,<ore:ingotColdiron>]]);
+    recipes.addShaped(<basemetals:coldiron_boots>,
+        [[<ore:ingotColdiron>,imphide_boots,<ore:ingotColdiron>],
+         [<ore:ingotColdiron>,null,<ore:ingotColdiron>]]);
+    recipes.addShaped(<basemetals:mithril_helmet>,
+        [[<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
+         [<ore:ingotMithril>,imphide_helm,<ore:ingotMithril>],
+         [<ore:cordageLeather>,null,<ore:cordageLeather>]]);
+    recipes.addShaped(<basemetals:mithril_chestplate>,
+        [[<ore:ingotMithril>,imphide_chest,<ore:ingotMithril>],
+         [<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
+         [<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>]]);
+    recipes.addShaped(<basemetals:mithril_leggings>,
+        [[<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>],
+         [<ore:ingotMithril>,imphide_legs,<ore:ingotMithril>],
+         [<ore:ingotMithril>,null,<ore:ingotMithril>]]);
+    recipes.addShaped(<basemetals:mithril_boots>,
+        [[<ore:ingotMithril>,imphide_boots,<ore:ingotMithril>],
+         [<ore:ingotMithril>,null,<ore:ingotMithril>]]);
 
 # Grapple Mod
     # Long Fall Boots
