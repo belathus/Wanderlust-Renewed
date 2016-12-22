@@ -35,5 +35,9 @@
     <dimensionExclude name="Twilight Forest"/>
   </entry>
 -->
-
+    <entry id="EnderMiny" mobName="EnderZoo.Enderminy" rate="30">
+        <biomeFilter type="any">
+              <biome type="END" />
+        </biomeFilter>
+    </entry>
 </SpawnConfig>
