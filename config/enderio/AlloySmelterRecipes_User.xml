@@ -41,7 +41,7 @@
         <recipe name="Soularium" energyCost="10000" >
             <input>
                 <itemStack modID="minecraft" itemName="soul_sand" />
-                <itemStack oredictionary="ingotSilver" />
+                <itemStack oreDictionary="ingotSilver" />
             </input>
             <output>
                 <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="7" exp="0.7" />
