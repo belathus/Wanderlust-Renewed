@@ -105,6 +105,13 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
+# Persistent Bits
+    recipes.remove(<persistentbits:chunk_loader>);
+    recipes.addShaped(<persistentbits:chunk_loader>,
+        [[null, <xreliquary:void_tear_empty>, null],
+         [<ore:gemDiamond>, <ore:ingotAdamantine>, <ore:gemDiamond>],
+         [<ore:ingotAdamantine>, <minecraft:enchanting_table:*>, <ore:ingotAdamantine>]]);
+
 # RFTools
     recipes.remove(<rftools:machine_frame>);
     recipes.addShaped(<rftools:machine_frame>,
