@@ -32,6 +32,13 @@
         [[<ore:bricksStone>,null,<ore:bricksStone>],
          [null,null,null],
          [<ore:bricksStone>,null,<ore:bricksStone>]]);
+         
+    # Wooden Spikes
+    recipes.remove(<extrautils2:spike_wood>);
+    recipes.addShaped(<extrautils2:spike_wood> * 4,
+        [[null,<druidry:palisade>,null],
+         [<druidry:palisade>,<ore:plankWood>,<druidry:palisade>],
+         [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
 
 # PrimalCore
     recipes.remove(<primal:netherstone>);
