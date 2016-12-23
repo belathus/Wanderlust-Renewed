@@ -29,7 +29,7 @@ import com.acronym.base.IMaterialType;
     var vibranium  = mods.base.Materials.getOrRegister("Vibranium",  61, 11519952, false);
     var violium    = mods.base.Materials.getOrRegister("Violium",    62,  8421541, false);
 
-    var metal_list = [adamant, astrium, dyonite, imperomite, karmesine, lumix, meteorite, nucleum, palladium, prometheum, proxii, seismum, solarium, tiberium, vibranium, violium];
+    var metal_list = [adamant, astrium, dyonite, imperomite, karmesine, lumix, meteorite, nucleum, palladium, prometheum, proxii, seismum, solarium, tiberium, vibranium, violium] as com.acronym.base.IMaterialType[];
 
 # Register dusts
     for i, metal in metal_list {
