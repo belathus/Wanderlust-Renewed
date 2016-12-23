@@ -54,7 +54,7 @@
                             "function" : "equip",
                             "override" : "true",
                             "id" : "primal:sharp_bone",
-                            "slot" : 0
+                            "slot" : "mainhand"
                         }
                     ]
                 },
@@ -66,7 +66,7 @@
                             "function" : "equip",
                             "override" : "true",
                             "id" : "primal:flint_workblade",
-                            "slot" : 0
+                            "slot" : "mainhand"
                         }
                     ]
                 },
@@ -78,7 +78,7 @@
                             "function" : "equip",
                             "override" : "true",
                             "id" : "dungeontactics:bronze_knife",
-                            "slot" : 0
+                            "slot" : "mainhand"
                         }
                     ]
                 },
@@ -90,7 +90,7 @@
                             "function" : "equip",
                             "override" : "true",
                             "id" : "dungeontactics:bronze_sword",
-                            "slot" : 0
+                            "slot" : "mainhand"
                         }
                     ]
                 }
@@ -114,28 +114,28 @@
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "harvestcraft:hardenedleatherhelmItem",
-                            "slot" : 4
+                            "slot" : "head"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "harvestcraft:hardenedleatherchestItem",
-                            "slot" : 3
+                            "slot" : "chest"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "harvestcraft:hardenedleatherleggingsItem",
-                            "slot" : 2
+                            "slot" : "legs"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "harvestcraft:hardenedleatherbootsItem",
-                            "slot" : 1
+                            "slot" : "feet"
                         }
                     ]
                 },
@@ -149,28 +149,28 @@
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "druidry:armor_silver_helmet",
-                            "slot" : 4
+                            "slot" : "head"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "druidry:armor_silver_chestplate",
-                            "slot" : 3
+                            "slot" : "chest"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "druidry:armor_silver_leggings",
-                            "slot" : 2
+                            "slot" : "legs"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "druidry:armor_silver_boots",
-                            "slot" : 1
+                            "slot" : "feet"
                         }
                     ]
                 },
@@ -184,28 +184,28 @@
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "esteemedinnovation:brass_helmet",
-                            "slot" : 4
+                            "slot" : "head"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "esteemedinnovation:brass_chestplate",
-                            "slot" : 3
+                            "slot" : "chest"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "esteemedinnovation:brass_leggings",
-                            "slot" : 2
+                            "slot" : "legs"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
                             "id" : "esteemedinnovation:brass_boots",
-                            "slot" : 1
+                            "slot" : "feet"
                         }
                     ]
                 }
