@@ -141,7 +141,7 @@
         [<base:gear:23>, <base:plate:23>], # Mithril
         [<base:gear:24>, <base:plate:24>], # Nickel
         [<base:gear:25>, <base:plate:25>], # Platinum
-        [<charsetlib:icon>, <libvulpes:productplate:3>], # Silicon
+#        [null, <libvulpes:productplate:3>], # Silicon
         [<base:gear:26>, <base:plate:26>], # Silver
         [<base:gear:27>, <base:plate:27>], # Star-Steel
         [<base:gear:28>, <base:plate:28>], # Steel
