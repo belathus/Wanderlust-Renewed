@@ -42,7 +42,7 @@
         <basemetals:starsteel_plate>,      # Star-Steel
         <immersiveengineering:metal:38>,   # Steel
         <basemetals:tin_plate>,            # Tin
-        <libvulpes:productplate:7>,        # Titanium
+        <libvulpes:productplate:7>,        # Titanium
         <advancedrocketry:productplate:0>, # TitaniumAluminide
         <advancedrocketry:productplate:1>, # TitaniumIridium
         <base:plate:33>,                   # Uranium
@@ -94,7 +94,7 @@
         <ore:ingotStarsteel>,              # Star-Steel
         <ore:ingotSteel>,                  # Steel
         <ore:ingotTin>,                    # Tin
-        <ore:ingotTitanium>,               # Titanium
+        <ore:ingotTitanium>,               # Titanium
         <ore:ingotTitaniumAluminide>,      # TitaniumAluminide
         <ore:ingotTitaniumIridium>,        # TitaniumIridium
         <ore:ingotUranium>,                # Uranium
@@ -141,12 +141,12 @@
         [<base:gear:23>, <base:plate:23>], # Mithril
         [<base:gear:24>, <base:plate:24>], # Nickel
         [<base:gear:25>, <base:plate:25>], # Platinum
-        [null, <libvulpes:productplate:3>], # Silicon
+        [<charsetlib:icon>, <libvulpes:productplate:3>], # Silicon
         [<base:gear:26>, <base:plate:26>], # Silver
         [<base:gear:27>, <base:plate:27>], # Star-Steel
         [<base:gear:28>, <base:plate:28>], # Steel
         [<base:gear:29>, <base:plate:29>], # Tin
-        [<base:gear:30>, <base:plate:30>], # Titanium
+        [<base:gear:30>, <base:plate:30>], # Titanium
         [<advancedrocketry:productgear:0>, <advancedrocketry:productplate:0>], # TitaniumAluminide
         [<advancedrocketry:productgear:1>, <advancedrocketry:productplate:1>], # TitaniumIridium
         [<base:gear:33>, <base:plate:33>], # Uranium
@@ -169,16 +169,16 @@
     ] as minetweaker.item.IItemStack[][];
     for i, hammer in list_gallagher {
         for j, plate in plate_list {
-            if plate != null {
+#            if plate != <charsetlib:icon> {
                 recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
-            }
+#            }
         }
     }
     for i, plate in plate_list {
-        if plate != null {
+#        if (plate == <charsetlib:icon>) {
             recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
             recipes.addShaped(plate, [[<immersiveengineering:tool:*>.transformDamage()],[ingot_list[i]]]);
-        }
+#        }
     }
     
 # Vanilla

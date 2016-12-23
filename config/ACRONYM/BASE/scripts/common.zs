@@ -37,7 +37,7 @@ import com.acronym.base.IMaterialType;
 
 var metal_list = [abyssalnite, adamantine, aluminum, aquarium, ardite, brass, bronze, cobalt, coldiron,
     copper, constantan, coralium, cupronickel, dawnstone, dilithium, dreadium, electrum, gold, invar, iridium, iron, lead,
-    mithril, nickel, platinum, silver, starsteel, steel, tin, titanium, uranium, zinc];
+    mithril, nickel, platinum, silver, starsteel, steel, tin, titanium, uranium, zinc] as mods.base.Materials[];
 
 # Register dusts
     for i, metal in metal_list {
