@@ -1,0 +1,14 @@
+{
+	"name":"_lootCompilation",
+	"overrides" : [
+        "LOOTRULES"
+    ],
+	"inherit":[
+		"_loot_all",
+		"_loot0",
+		"_loot1",
+		"_loot2",
+		"_loot3",
+		"_loot4"
+	]
+}

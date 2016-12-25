@@ -22,20 +22,8 @@
             "loot":[
                 {
                     "data":{
-                        "name":"potion",
-                        "meta":8197
-                    }
-                },
-                {
-                    "data":{
-                        "name":"potion",
-                        "meta":8193
-                    }
-                },
-                {
-                    "data":{
-                        "name":"potion",
-                        "meta":8194
+                        "name":"natura:soups",
+                        "meta":4
                     }
                 }
             ],
@@ -186,33 +174,26 @@
                 4
             ],
             "each":true,
-            "quantity":7
+            "quantity":4
         },
-		{	
-			"type" : "ORE", 
-			"loot" : [
-				{"data" : {"name" : "primal:tin_ingot", "min" : 1, "max" : 3}, "weight" : 10},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 0, "min" : 1, "max" : 3}, "weight" : 9},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 1, "min" : 1, "max" : 3}, "weight" : 3},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 2, "min" : 1, "max" : 3}, "weight" : 6},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 3, "min" : 1, "max" : 3}, "weight" : 3},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 4, "min" : 1, "max" : 3}, "weight" : 4},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 5, "min" : 1, "max" : 3}, "weight" : 1},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 6, "min" : 1, "max" : 3}, "weight" : 1},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 7, "min" : 1, "max" : 3}, "weight" : 1},
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 8, "min" : 1, "max" : 3}, "weight" : 1}
-			],
-			"level" : 0,
-			"each" : true,
-			"quantity" : 6
-		},
         {
             "loot":[
                 {
                     "data":{
-                        "name":"emerald"
+                        "name":"emerald",
+						"min":1,
+						"max":2,
+						"weight":1
                     }
-                }
+                },
+				{
+					"data":{
+						"name":"morebees:emeraldFragment",
+						"min":1,
+						"max":8,
+						"weight":2
+					}
+				}
             ],
             "level":[
                 0,
@@ -221,8 +202,8 @@
                 3,
                 4
             ],
-            "each":false,
-            "quantity":9
+            "each":true,
+            "quantity":1
         }
     ]
 }

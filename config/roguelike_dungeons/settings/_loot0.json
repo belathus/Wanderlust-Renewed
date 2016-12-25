@@ -31,34 +31,6 @@
                         "ench":1
                     },
                     "weight":3
-                },
-                {
-                    "data":{
-                        "name":"chainmail_helmet",
-                        "ench":1
-                    },
-                    "weight":2
-                },
-                {
-                    "data":{
-                        "name":"chainmail_chestplate",
-                        "ench":1
-                    },
-                    "weight":2
-                },
-                {
-                    "data":{
-                        "name":"chainmail_leggings",
-                        "ench":1
-                    },
-                    "weight":2
-                },
-                {
-                    "data":{
-                        "name":"chainmail_boots",
-                        "ench":1
-                    },
-                    "weight":2
                 }
             ],
             "level":0,
@@ -92,56 +64,43 @@
             "loot":[
                 {
                     "data":{
-                        "name":"druidry:flint_axe",
-                        "ench":1
-                    },
-                    "weight":6
-                },
-                {
-                    "data":{
                         "name":"primal:flint_axe",
-                        "ench":1
+                        "ench":2
                     },
                     "weight":3
                 },
                 {
                     "data":{
                         "name":"primal:flint_hatchet",
-                        "ench":1
+                        "ench":2
                     },
                     "weight":3
                 },
                 {
                     "data":{
                         "name":"primal:flint_hoe",
-                        "ench":1
+                        "ench":2
                     },
                     "weight":3
                 },
                 {
                     "data":{
                         "name":"primal:flint_pickaxe",
-                        "ench":1
+                        "ench":2
                     },
                     "weight":3
                 },
                 {
                     "data":{
                         "name":"primal:flint_shears",
-                        "ench":1
+                        "ench":2
                     },
                     "weight":3
                 },
                 {
                     "data":{
                         "name":"primal:flint_shovel",
-                        "ench":1
-                    },
-                    "weight":3
-                },
-                {
-                    "data":{
-                        "name":"primal:flint_workblade"
+                        "ench":2
                     },
                     "weight":3
                 }
@@ -251,115 +210,18 @@
             "quantity":3
         },
         {
-            "type":"ORE",
-            "loot":[
-                {
-                    "data":{
-                        "name":"primal:tin_ingot",
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":10
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":0,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":9
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":1,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":3
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":2,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":6
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":3,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":3
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":4,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":4
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":5,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":1
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":6,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":1
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":7,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":1
-                },
-                {
-                    "data":{
-                        "name":"immersiveengineering:metal",
-                        "meta":8,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":1
-                }
-            ],
-            "level":0,
-            "each":true,
-            "quantity":6
-        },
-        {
             "type":"SMITH",
             "loot":[
                 {
                     "data":{
-                        "name":"stone_sword",
+                        "name":"primal:flint_workblade",
                         "nbt":{
                             "display":{
                                 "type":"COMPOUND",
                                 "value":{
                                     "Name":{
                                         "type":"STRING",
-                                        "value":"Tempered Blade"
+                                        "value":"Tempered Workblade"
                                     },
                                     "Lore":{
                                         "type":"STRING",
