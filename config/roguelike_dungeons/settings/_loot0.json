@@ -7,31 +7,101 @@
                 {
                     "data":{
                         "name":"leather_helmet",
-                        "ench":1
+                        "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"leather_chestplate",
-                        "ench":1
+                        "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"leather_leggings",
-                        "ench":1
+                        "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"leather_boots",
-                        "ench":1
+                        "ench":2
                     },
-                    "weight":3
-                }
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"harvestcraft:hardenedleatherhelmItem",
+                        "ench":2
+                    },
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"harvestcraft:hardenedleatherchestItem",
+                        "ench":2
+                    },
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"harvestcraft:hardenedleatherleggingsItem",
+                        "ench":2
+                    },
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"harvestcraft:hardenedleatherbootsItem",
+                        "ench":2
+                    },
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"spartanshields:shieldBasicWood",
+                        "ench":2
+                    },
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"spartanshields:shieldBasicStone",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+				{
+					"data":{
+                        "name":"dungeontactics:studded_helmet",
+                        "ench":2
+                    },
+                    "weight":1
+				},
+				{
+					"data":{
+                        "name":"dungeontactics:studded_chestplate",
+                        "ench":2
+                    },
+                    "weight":1
+				},
+				{
+					"data":{
+                        "name":"dungeontactics:studded_leggings",
+                        "ench":2
+                    },
+                    "weight":1
+				},
+				{
+					"data":{
+                        "name":"dungeontactics:studded_boots",
+                        "ench":2
+                    },
+                    "weight":1
+				}
             ],
             "level":0,
             "each":true,
@@ -43,20 +113,34 @@
                 {
                     "data":{
                         "name":"primal:flint_workblade",
-                        "ench":3
+                        "ench":2
                     },
-                    "weight":1
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"primal:stone_gallagher",
-                        "ench":3
+                        "ench":2
                     },
-                    "weight":1
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"primal:quartz_workblade",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+				{
+                    "data":{
+                        "name":"primal:quartz_gallagher",
+                        "ench":2
+                    },
+                    "weight":2
                 }
             ],
             "level":0,
-            "each":false,
+            "each":true,
             "quantity":1
         },
         {
@@ -67,43 +151,128 @@
                         "name":"primal:flint_axe",
                         "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"primal:flint_hatchet",
                         "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"primal:flint_hoe",
                         "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"primal:flint_pickaxe",
                         "ench":2
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"primal:flint_shears",
                         "ench":2
                     },
-                    "weight":3
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"primal:flint_saw",
+                        "ench":2
+                    },
+                    "weight":5
                 },
                 {
                     "data":{
                         "name":"primal:flint_shovel",
                         "ench":2
                     },
-                    "weight":3
-                }
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"fishing:itemNet",
+                        "min":1,
+						"max":5
+                    },
+                    "weight":5
+                },
+				{
+                    "data":{
+                        "name":"primal:quartz_axe",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"primal:quartz_hatchet",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"primal:quartz_hoe",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"primal:quartz_pickaxe",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"primal:quartz_shears",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"primal:quartz_shovel",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+				{
+                    "data":{
+                        "name":"primal:quartz_saw",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+				{
+					"data":{
+						"name":"abyssalcraft:dpick",
+						"ench":2
+					},
+					"weight":2
+				},
+				{
+					"data":{
+						"name":"abyssalcraft:dshovel",
+						"ench":2
+					},
+					"weight":2
+				},
+				{
+					"data":{
+						"name":"abyssalcraft:daxe",
+						"ench":2
+					},
+					"weight":2
+				}
             ],
             "level":0,
             "each":true,
@@ -119,7 +288,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":10,
+                    "weight":5,
                     "_comment":"monster jerky"
                 },
                 {
@@ -129,7 +298,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":1,
+                    "weight":5,
                     "_comment":"beef jerky"
                 },
                 {
@@ -139,7 +308,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":2
+                    "weight":5
                 },
                 {
                     "data":{
@@ -148,7 +317,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":1
+                    "weight":5
                 },
                 {
                     "data":{
@@ -157,7 +326,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":2
+                    "weight":5
                 },
                 {
                     "data":{
@@ -166,7 +335,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
@@ -175,7 +344,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":3
+                    "weight":5
                 },
                 {
                     "data":{
@@ -184,7 +353,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":4
+                    "weight":5
                 },
                 {
                     "data":{
@@ -193,7 +362,7 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":4
+                    "weight":5
                 },
                 {
                     "data":{
@@ -202,12 +371,12 @@
                         "min":1,
                         "max":3
                     },
-                    "weight":4
+                    "weight":5
                 }
             ],
             "level":0,
             "each":true,
-            "quantity":3
+            "quantity":5
         },
         {
             "type":"SMITH",
@@ -270,35 +439,139 @@
             "loot":[
                 {
                     "data":{
-                        "name":"egg"
+                        "name":"leather"
                     },
-                    "weight":3
+                    "weight":7
                 },
-                {
+				{
                     "data":{
-                        "name":"snowball"
+                        "name":"rabbit_hide"
                     },
-                    "weight":2
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"primal:wolf_pelt"
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"harvestcraft:hardenedleatherItem"
+                    },
+                    "weight":7
                 },
                 {
                     "data":{
                         "name":"lead"
                     },
-                    "weight":2
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"saddle"
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"paper",
+						"min":1,
+						"max":2
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"name_tag"
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"egg"
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"druidry:wattle"
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"botania:grassSeeds"
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":1
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":2
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":3
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":4
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":5
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":6
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":7
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":8
+                    },
+                    "weight":1
                 },
                 {
                     "data":{
                         "name":"string"
                     },
-                    "weight":3
+                    "weight":7
                 },
 				{
 					"data":{
-						"name":"primal:flint_knapp",
-						"min":1,
-						"max":2
+						"name":"primal:flint_knapp"
 					},
-					"weight":2
+					"weight":7
 				},
 				{
 					"data":{
@@ -306,7 +579,7 @@
 						"min":1,
 						"max":2
 					},
-					"weight":2
+					"weight":7
 				},
 				{
 					"data":{
@@ -314,7 +587,7 @@
 						"min":4,
 						"max":8
 					},
-					"weight":2
+					"weight":7
 				},
                 {
                     "data":{
@@ -322,12 +595,224 @@
                         "min":1,
                         "max":3
                     },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"primal:torch_wood",
+                        "min":4,
+                        "max":16
+                    },
+                    "weight":7
+                },
+				{
+                    "data":{
+                        "name":"primal:ash",
+                        "min":1,
+                        "max":2
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"roots:oldRoot",
+                        "min":1,
+                        "max":2
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"book",
+                        "min":1,
+                        "max":3
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"minecraft:brick",
+                        "min":1,
+                        "max":3
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"botania:fertilizer",
+                        "min":1,
+                        "max":4
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"waystones:warpScroll"
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"ender_pearl"
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"dye",
+                        "meta":4,
+						"min":1,
+                        "max":4
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"rabbit_foot"
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"redstone",
+                        "min":1,
+                        "max":4
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"slime_ball",
+                        "min":1,
+                        "max":2
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"emerald"
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"evilcraft:darkGem"
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"bloodmagic:ItemSlate",
+                        "min":1,
+                        "max":4
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"stone",
+						"meta":1,
+                        "min":32,
+                        "max":64
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"stone",
+						"meta":3,
+                        "min":32,
+                        "max":64
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"stone",
+						"meta":5,
+                        "min":32,
+                        "max":64
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"embers:blockCaminiteBrick",
+                        "min":32,
+                        "max":64
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"naturescompass:NaturesCompass"
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"biomesoplenty:coral",
+                        "min":1,
+                        "max":4
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"abyssalcraft:coralium",
+                        "min":1,
+                        "max":3
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"obsidian",
+                        "min":2,
+                        "max":5
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"vine",
+						"min":4,
+                        "max":8
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"primal:iron_ring",
+						"min":1,
+						"max":2
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"lava_bucket"
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"arsmagica2:ore",
+						"min":1,
+						"max":2
+                    },
+                    "weight":1
+                },
+				{
+                    "data":{
+                        "name":"waystones:warpStone"
+                    },
                     "weight":1
                 }
             ],
             "level":0,
             "each":true,
-            "quantity":5
+            "quantity":10
         }
     ]
 }

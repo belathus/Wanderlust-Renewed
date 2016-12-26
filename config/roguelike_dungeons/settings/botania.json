@@ -1,17 +1,25 @@
 {
-    "name" : "botania",
-    "criteria" : {
-        "biomeTypes" : [ "PLAINS", "FOREST", "MAGICAL", "LUSH", "WET" ],
-        "dimensionWL" : [ 0 ],
-        "weight" : 1
+    "name":"botania",
+    "criteria":{
+        "biomeTypes":[
+            "PLAINS",
+            "FOREST",
+            "MAGICAL",
+            "LUSH",
+            "WET"
+        ],
+        "dimensionWL":[
+            0
+        ],
+        "weight":1
     },
-	"tower" : {
-		"type" : "HOUSE",
-		"theme" : {
-			"base" : "ETHO"
-		}
-	},
-	"levels":{
+    "tower":{
+        "type":"HOUSE",
+        "theme":{
+            "base":"ETHO"
+        }
+    },
+    "levels":{
         "0":{
             "range":25,
             "numRooms":12,
@@ -77,7 +85,7 @@
                 }
             }
         },
-		"1":{
+        "1":{
             "range":40,
             "numRooms":10,
             "theme":{
@@ -147,89 +155,139 @@
                 }
             }
         },
-		"2":{
-			"range":45,
+        "2":{
+            "range":45,
             "numRooms":14,
-			"theme":{
-				"base":"ENIKO",
-				"primary":{
-					"walls":{
-						"name":"quark:reed_block"
-					},
-					"pillar":{
-						"name":"quark:midori_pillar"
-					},
-					"stair":{
-						"name":"quark:midori_block_stairs"
-					},
-					"floor":{
-						"type":"METABLOCK",
+            "theme":{
+                "base":"ENIKO",
+                "primary":{
+                    "walls":{
+                        "name":"quark:reed_block"
+                    },
+                    "pillar":{
+                        "name":"quark:midori_pillar"
+                    },
+                    "stair":{
+                        "name":"quark:midori_block_stairs"
+                    },
+                    "floor":{
+                        "type":"METABLOCK",
                         "data":{
                             "name":"botanicaladdons:irisDirt",
                             "meta":13
                         }
-					}
-				},
-				"secondary":{
-					"walls":{
-						"type":"METABLOCK",
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
                         "data":{
                             "name":"chisel:marble1",
-							"meta":7
+                            "meta":7
                         }
-					},
-					"pillar":{
-						"type":"METABLOCK",
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
                         "data":{
                             "name":"botania:quartzTypeMana",
-							"meta":2
+                            "meta":2
                         }
-					},
-					"stair":{
-						"name":"botania:quartzStairsMana"
-					},
-					"floor":{
-						"type":"METABLOCK",
+                    },
+                    "stair":{
+                        "name":"botania:quartzStairsMana"
+                    },
+                    "floor":{
+                        "type":"METABLOCK",
                         "data":{
                             "name":"botania:altGrass",
-							"meta":4
+                            "meta":4
                         }
-					}
-				}
-			}
-		}
+                    }
+                }
+            }
+        }
     },
-	"loot_rules":[
+    "loot_rules":[
         {
             "type":"ARMOUR",
             "loot":[
-                {
+				{
                     "data":{
                         "name":"leather_helmet",
                         "ench":1
                     },
-                    "weight":3
+                    "weight":1
                 },
                 {
                     "data":{
                         "name":"leather_chestplate",
                         "ench":1
                     },
-                    "weight":3
+                    "weight":1
                 },
                 {
                     "data":{
                         "name":"leather_leggings",
                         "ench":1
                     },
-                    "weight":3
+                    "weight":1
                 },
                 {
                     "data":{
                         "name":"leather_boots",
                         "ench":1
                     },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:manaweaveHelm",
+                        "ench":2
+                    },
                     "weight":3
+                },
+                {
+                    "data":{
+                        "name":"botania:manaweaveChest",
+                        "ench":2
+                    },
+                    "weight":3
+                },
+                {
+                    "data":{
+                        "name":"botania:manaweaveLegs",
+                        "ench":2
+                    },
+                    "weight":3
+                },
+                {
+                    "data":{
+                        "name":"botania:manaweaveBoots",
+                        "ench":2
+                    },
+                    "weight":3
+                }
+            ],
+            "level":0,
+            "each":true,
+            "quantity":2
+        },
+        {
+            "type":"STARTER",
+            "loot":[
+                {
+                    "data":{
+                        "name":"botania:lexicon"
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:fertilizer",
+                        "min":1,
+                        "max":8
+                    },
+                    "weight":1
                 }
             ],
             "level":0,
@@ -255,7 +313,7 @@
                 }
             ],
             "level":0,
-            "each":false,
+            "each":true,
             "quantity":1
         },
         {
@@ -302,6 +360,12 @@
                         "ench":2
                     },
                     "weight":3
+                },
+                {
+                    "data":{
+                        "name":"botania:teruTeruBozu"
+                    },
+                    "weight":1
                 }
             ],
             "level":0,
@@ -491,30 +555,30 @@
                     },
                     "weight":3
                 },
-				{
-					"data":{
-						"name":"primal:flint_knapp",
-						"min":1,
-						"max":2
-					},
-					"weight":2
-				},
-				{
-					"data":{
-						"name":"flint",
-						"min":1,
-						"max":2
-					},
-					"weight":2
-				},
-				{
-					"data":{
-						"name":"primal:plant_fiber",
-						"min":4,
-						"max":8
-					},
-					"weight":2
-				},
+                {
+                    "data":{
+                        "name":"primal:flint_knapp",
+                        "min":1,
+                        "max":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"flint",
+                        "min":1,
+                        "max":2
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"primal:plant_fiber",
+                        "min":4,
+                        "max":8
+                    },
+                    "weight":2
+                },
                 {
                     "data":{
                         "name":"gunpowder",
@@ -523,11 +587,95 @@
                     },
                     "weight":2
                 },
-				{
+                {
+                    "data":{
+                        "name":"druidry:branch",
+                        "min":1,
+                        "max":5
+                    },
+                    "weight":2
+                },
+                {
+                    "data":{
+                        "name":"stick",
+                        "min":1,
+                        "max":5
+                    },
+                    "weight":2
+                },
+                {
                     "data":{
                         "name":"emerald",
-						"weight":1
+                        "weight":1
                     }
+                },
+                {
+                    "data":{
+                        "name":"botania:tinyPotato"
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds"
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":1
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":2
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":3
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":4
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":5
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":6
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":7
+                    },
+                    "weight":1
+                },
+                {
+                    "data":{
+                        "name":"botania:grassSeeds",
+                        "meta":8
+                    },
+                    "weight":1
                 }
             ],
             "level":0,
