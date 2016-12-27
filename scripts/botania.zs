@@ -6,6 +6,7 @@
     
     mods.botania.ManaInfusion.removeRecipe(<botania:manaResource>);
     mods.botania.ManaInfusion.addInfusion(<botania:manaResource>, <ore:ingotSilver>, 3000);
+    mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tacoItem>.withTag({display:{Lore:["It is taco night!"]}}), <ore:oreTaconite>, 300);
     
 # Orechid
 #    mods.botania.Orechid.removeOre("*");
