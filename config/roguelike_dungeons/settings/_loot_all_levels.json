@@ -174,36 +174,7 @@
                 4
             ],
             "each":true,
-            "quantity":4
-        },
-        {
-            "loot":[
-                {
-                    "data":{
-                        "name":"emerald",
-						"min":1,
-						"max":2,
-						"weight":1
-                    }
-                },
-				{
-					"data":{
-						"name":"morebees:emeraldFragment",
-						"min":1,
-						"max":8,
-						"weight":2
-					}
-				}
-            ],
-            "level":[
-                0,
-                1,
-                2,
-                3,
-                4
-            ],
-            "each":true,
-            "quantity":1
+            "quantity":2
         }
     ]
 }
