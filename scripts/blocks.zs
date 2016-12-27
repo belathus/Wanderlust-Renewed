@@ -4,6 +4,8 @@
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
 
+# Vanilla
+    recipes.remove(<minecraft:iron_ore>);
 
 # Embers
     recipes.remove(<embers:ashenStone>);
