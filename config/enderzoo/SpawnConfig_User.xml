@@ -1,10 +1,10 @@
 <SpawnConfig>
     <!-- Enabling this section will stop all slime spawns
-        <entry id="Slime" mobName="Slime" creatureType="MONSTER" rate="80" remove="true">
-            <biomeFilter type="any">
-                <biome type="BASE_LAND_TYPES" />
-            </biomeFilter>
-        </entry>
+    <entry id="Slime" mobName="Slime" creatureType="MONSTER" rate="80" remove="true">
+        <biomeFilter type="any">
+            <biome type="BASE_LAND_TYPES" />
+        </biomeFilter>
+    </entry>
     --> 
 
     <!-- Enabling this section will remove the default wither witch spawn config and replace it with
@@ -40,15 +40,18 @@
               <biome type="END" />
         </biomeFilter>
     </entry>
+    
+    <!-- Ars Magica 2 -->
     <entry id="DarkMage" mobName="arsmagica2.DarkMage" rate="5">
         <biomeFilter type="any">
+            <biome type="DEAD" />
             <biome type="PLAINS" />
             <biome type="HILLS" />
+            <biome type="SPOOKY" />
             <biome type="NETHER" exclude="true" />
             <biome type="END" exclude="true" />
         </biomeFilter>
     </entry>
-    
     <entry id="Darkling" mobName="arsmagica2.Darkling" rate="5">
         <biomeFilter type="any">
             <biome type="NETHER" />
@@ -67,6 +70,7 @@
         <biomeFilter type="any">
             <biome type="PLAINS" />
             <biome type="HILLS" />
+            <biome type="SANDY" />
             <biome type="NETHER" exclude="true" />
             <biome type="END" exclude="true" />
         </biomeFilter>
@@ -110,6 +114,9 @@
         <biomeFilter type="any">
             <biome type="OCEAN" />
             <biome type="RIVER" />
+            <biome type="SWAMP" />
+            <biome type="NETHER" exclude="true" />
+            <biome type="END" exclude="true" />
         </biomeFilter>
     </entry>
 </SpawnConfig>
