@@ -172,7 +172,12 @@
     recipes.addShapeless(<primal:quartz_workblade>, 
         [<primal:quartz_workblade>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
-            return inputs.tool.withDamage(max(0, inputs.tool.damage - 120)).withTag(inputs.tool.tag);
+            if crafting.player.xp > 5 {
+               return inputs.tool.withDamage(max(0, inputs.tool.damage - 120)).withTag(inputs.tool.tag);
+            }
+            return null;
+        }, function(output, crafting, player){
+            player.removeXP(5);
         });
     recipes.addShapeless(<primal:quartz_shears>, 
         [<primal:quartz_shears>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
