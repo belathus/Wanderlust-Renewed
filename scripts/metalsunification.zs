@@ -1,14 +1,48 @@
 # Aluminum
-    #recipes.remove(<modernmetals:aluminum_nugget>);
-    #recipes.remove(<modernmetals:aluminum_ingot>);
-    #recipes.remove(<modernmetals:aluminum_block>);
-    recipes.remove(<libvulpes:metal0:9>);
-    recipes.addShapeless(<immersiveengineering:metal:22>*9,
-        [<ore:ingotLead>]);
-    recipes.addShapeless(<immersiveengineering:metal:1>, 
-        [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]);
-    recipes.addShapeless(<immersiveengineering:storage:1>, 
-        [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
+    val list_aluminum = [
+    #    nugget                            ingot                           block                             plate                            gear
+        [<immersiveengineering:metal:21>, <immersiveengineering:metal:1>, <immersiveengineering:storage:1>, <immersiveengineering:metal:31>, <base:gear:3>]
+        [<libvulpes:productnugget:9>,     <libvulpes:productingot:9>,     <libvulpes:metal0:9>,             <libvulpes:productplate:9>,      <minecraft:air>],
+        [<minecraft:air>,                 <fp:spaceship:13>,              <minecraft:air>,                  <minecraft:air>,                 <minecraft:air>]
+    ] as minetweaker.item.IItemStack[][];
+    var oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>] as minetweaker.item.IIngredient[];
+    
+    for i, metal in list_aluminum {
+        if (i == 0) && !metal[0].matches(<minecraft:air>) && !metal[1].matches(<minecraft:air>) && !metal[2].matches(<minecraft:air>) {
+            recipes.addShapeless(metal[0]*9,
+                [oredict[1]]);
+            recipes.addShapeless(metal[1]*9,
+                [oredict[2]]);
+            recipes.addShapeless(metal[1], 
+                [oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0]);
+            recipes.addShapeless(metal[2], 
+                [oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1]);
+        }
+        if (i == 0) && !metal[4].matches(<minecraft:air>) {
+            recipes.addShaped(metal[4],
+                [[null,      metal[1],          null],
+                 [metal[1], <railcraft:gear:3>, metal[1]],
+                 [null,      metal[1],          null]);
+        }
+        if i != 0 {
+            if !metal[0].matches(<minecraft:air>) {
+                recipes.remove(metal[0]);
+            }
+            if !metal[1].matches(<minecraft:air>) {
+                recipes.remove(metal[1]);
+            }
+            if !metal[2].matches(<minecraft:air>) {
+                recipes.remove(metal[2]);
+            }
+        }
+    }
+    #recipes.remove(<libvulpes:metal0:9>);
+    #recipes.addShapeless(<immersiveengineering:metal:21>*9,
+    #    [<ore:ingotAluminum>]);
+    #recipes.addShapeless(<immersiveengineering:metal:1>, 
+    #    [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]);
+    #recipes.addShapeless(<immersiveengineering:storage:1>, 
+    #    [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
 
 # Bronze
     recipes.remove(<forestry:ingotBronze>);
@@ -18,6 +52,21 @@
          [<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>]]);
 
 # Copper
+    val list_copper = [
+    #    nugget                            ingot                           block                             plate                            gear
+        [<immersiveengineering:metal:20>, <immersiveengineering:metal>,   <immersiveengineering:storage>,   <immersiveengineering:metal:30>, <base:gear:11>]
+        [<libvulpes:productnugget:4>,     <libvulpes:productingot:4>,     <libvulpes:metal0:4>,             <libvulpes:productplate:4>,      <minecraft:air>],
+        [<minecraft:air>,                 <fp:ItemErze:2>,                <fp:erz_blocke:2>,                <minecraft:air>,                 <minecraft:air>],
+        [<minecraft:air>,                 <abyssalcraft:copperingot>,     <minecraft:air>,                  <minecraft:air>,                 <minecraft:air>],
+        [<basemetals:copper_nugget>,      <basemetals:copper_ingot>,      <basemetals:copper_block>,        <basemetals:copper_plate>,       <minecraft:air>],
+        [<minecraft:air>,                 <forestry:ingotCopper>,         <forestry:resourceStorage:1>,     <minecraft:air>,                 <forestry:gearCopper>],
+        [<embers:nuggetCopper>,           <embers:ingotCopper>,           <embers:blockCopper>,             <embers:plateCopper>,            <minecraft:air>],
+        [<esteemedinnovation:nugget>,     <esteemedinnovation:ingot>,     <esteemedinnovation:metal_storage_block>, <minecraft:air>,         <minecraft:air>],
+        [<primal:copper_nugget>,          <primal:copper_ingot>,          <primal:copper_block>,            <minecraft:air>,                 <minecraft:air>],
+        [<railcraft:nugget:2>,            <railcraft:ingot:1>,            <railcraft:generic>,              <minecraft:air>,                 <minecraft:air>],
+        [<minecraft:air>,                 <rockhounding_chemistry:miscItems:25>, <minecraft:air>,           <minecraft:air>,                 <minecraft:air>]
+    ] as minetweaker.item.IItemStack[][];
+    var oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>] as minetweaker.item.IIngredient[];
     furnace.remove(<abyssalcraft:copperingot>);
     furnace.remove(<basemetals:copper_ingot>);
     furnace.remove(<basemetals:copper_nugget>);
@@ -77,6 +126,7 @@
     recipes.remove(<railcraft:plate:0>);
     recipes.addShapeless(<embers:plateIron>,[<ore:ingotIron>,<embers:tinkerHammer:*>.reuse()]);
     furnace.remove(<minecraft:iron_ingot>);
+    furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 0.5);
 
 
 # Lead
@@ -87,8 +137,8 @@
     recipes.remove(<basemetals:lead_nugget>);
     recipes.remove(<basemetals:lead_ingot>);
     recipes.remove(<basemetals:lead_block>);
-    recipes.addShapeless(<immersiveengineering:metal:21>*9,
-        [<ore:ingotAluminum>]);
+    recipes.addShapeless(<immersiveengineering:metal:22>*9,
+        [<ore:ingotLead>]);
     recipes.addShapeless(<immersiveengineering:metal:2>, 
         [<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]);
     recipes.addShapeless(<immersiveengineering:storage:2>, 
