@@ -1,19 +1,32 @@
-mods.chisel.Groups.removeVariation(<minecraft:gold_block>);
-mods.chisel.Groups.removeVariation(<minecraft:iron_block>);
+/*
+mods.chisel.Groups.removeGroup("blockGold");
+mods.chisel.Groups.removeGroup("blockIron");
+mods.chisel.Groups.addGroup("dummyGold");
+mods.chisel.Groups.addGroup("dummyIron");
 
-recipes.addShaped(<chisel:blockGold>*4, 
-    [[<ore:nuggetGold>,<ore:stickWood>,<ore:nuggetGold>],
-     [<ore:stickWood>,null,<ore:stickWood>],
-     [<ore:nuggetGold>,<ore:stickWood>,<ore:nuggetGold>]]);
+val list_chisel_gold = [
+    <chisel:blockGold:*>,
+    <chisel:gold:*>
+] as minetweaker.item.IItemStack[];
 
-recipes.addShaped(<chisel:blockIron>*4, 
-    [[<ore:nuggetIron>,<ore:stickWood>,<ore:nuggetIron>],
-     [<ore:stickWood>,null,<ore:stickWood>],
-     [<ore:nuggetIron>,<ore:stickWood>,<ore:nuggetIron>]]);
+for i, block in list_chisel_gold {
+    mods.chisel.Groups.addVariation("dummyGold", block);
+}
 
-recipes.addShaped(<chisel:blockUranium>*4, 
-    [[<ore:nuggetUranium>,<ore:stickWood>,<ore:nuggetUranium>],
-     [<ore:stickWood>,null,<ore:stickWood>],
-     [<ore:nuggetUranium>,<ore:stickWood>,<ore:nuggetUranium>]]);
+recipes.addShaped(<chisel:blockGold>*16,
+    [[<primal:rock>,<ore:plateGold>,<primal:rock>],
+     [<ore:plateGold>,null,<ore:plateGold>],
+     [<primal:rock>,<ore:plateGold>,<primal:rock>]]);
+
+recipes.addShaped(<chisel:blockIron>*16,
+    [[<primal:rock>,<ore:plateIron>,<primal:rock>],
+     [<ore:plateIron>,null,<ore:plateIron>],
+     [<primal:rock>,<ore:plateIron>,<primal:rock>]]);
+
+recipes.addShaped(<chisel:blockUranium>*16,
+    [[<primal:rock>,<ore:plateUranium>,<primal:rock>],
+     [<ore:plateUranium>,null,<ore:plateUranium>],
+     [<primal:rock>,<ore:plateUranium>,<primal:rock>]]);
+*/
      
      
