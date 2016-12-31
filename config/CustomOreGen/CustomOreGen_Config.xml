@@ -418,7 +418,7 @@
     <Import file='modules/custom/nether.xml'/>
     <Import file='modules/custom/deepdark.xml'/>
     <Import file='modules/custom/end.xml'/>
-    <Import file='modules/custom/planet.xml'/>
+    <Import file='modules/custom/planets.xml'/>
     
     <IfChoice name='debugDist' value='true'>
         <!-- Experimental distributions should go here -->

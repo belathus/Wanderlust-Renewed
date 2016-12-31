@@ -186,10 +186,10 @@
         });
 
 # Copper Saw
-    recipes.addShaped(<primal:copper_saw>,
-        [[<ore:plateCopper>,null,null],
-         [null,<ore:plateCopper>,<ore:pinBasic>],
-         [null,<ore:stickWood>,<ore:stickWood>]]);
+#    recipes.addShaped(<primal:copper_saw>,
+#        [[<ore:plateSmallCopper>,null,null],
+#         [null,<ore:plateSmallCopper>,<ore:pinBasic>],
+#         [null,<ore:stickWood>,<ore:stickWood>]]);
 
 # Roots
     recipes.remove(<roots:druidKnife>);

@@ -303,7 +303,6 @@
         [[<ore:itemLignite>],
          [<ore:cordagePlant>],
          [<ore:stickWood>]]);
-    recipes.remove(<primal:iron_sheet>);
         
     for i, galla in list_gallagher {
         recipes.addShaped(<primal:carbonate_slack> * 4, 
@@ -312,10 +311,8 @@
             [[galla],[<chisel:limestoneextra:7>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
             [[galla],[<primal:carbonate_stone>]]);
-        recipes.addShaped(<primal:iron_sheet> * 2,
-            [[galla],[<ore:plateIron>]]);
         recipes.addShaped(<primal:iron_ring> * 4,
-            [[galla],[<ore:sheetIron>]]);
+            [[galla],[<ore:plateSmallIron>]]);
     }
     
 # Rockhounding
