@@ -62,20 +62,6 @@
                 },
                 {
                     "data":{
-                        "name":"spartanshields:shieldBasicWood",
-                        "ench":2
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"spartanshields:shieldBasicStone",
-                        "ench":2
-                    },
-                    "weight":2
-                },
-                {
-                    "data":{
                         "name":"dungeontactics:studded_helmet",
                         "ench":2
                     },
@@ -134,6 +120,20 @@
                 {
                     "data":{
                         "name":"primal:quartz_gallagher",
+                        "ench":2
+                    },
+                    "weight":2
+                },
+				{
+                    "data":{
+                        "name":"spartanshields:shieldBasicWood",
+                        "ench":2
+                    },
+                    "weight":5
+                },
+                {
+                    "data":{
+                        "name":"spartanshields:shieldBasicStone",
                         "ench":2
                     },
                     "weight":2
@@ -277,106 +277,6 @@
             "level":0,
             "each":true,
             "quantity":2
-        },
-        {
-            "type":"FOOD",
-            "loot":[
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":10,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5,
-                    "_comment":"monster jerky"
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":11,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5,
-                    "_comment":"beef jerky"
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":12,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":13,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":14,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":15,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":20,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":21,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":22,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":23,
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":5
-                }
-            ],
-            "level":0,
-            "each":true,
-            "quantity":5
         },
         {
             "type":"SMITH",
@@ -755,6 +655,21 @@
                     },
                     "weight":3
                 },
+				{
+                    "data":{
+                        "name":"book",
+						"ench":2
+                    },
+                    "weight":3
+                },
+				{
+                    "data":{
+                        "name":"tconstruct:throwball",
+						"min":1,
+						"max":4
+                    },
+                    "weight":3
+                },
                 {
                     "data":{
                         "name":"naturescompass:NaturesCompass"
@@ -946,11 +861,18 @@
                         "name":"waystones:warpStone"
                     },
                     "weight":1
+                },
+				{
+                    "data":{
+                        "name":"book",
+						"ench":6
+                    },
+                    "weight":3
                 }
             ],
             "level":0,
             "each":true,
-            "quantity":10
+            "quantity":8
         }
     ]
 }
