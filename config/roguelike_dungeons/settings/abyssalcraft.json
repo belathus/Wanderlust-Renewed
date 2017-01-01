@@ -24,7 +24,7 @@
 		"_loot4"
 	],
     "tower":{
-        "type":"ETHO",
+        "type":"JUNGLE",
         "theme":{
             "base":"ENIKO",
             "primary":{
@@ -37,7 +37,8 @@
                 "pillar":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"minecraft:bone_block"
+                        "name":"railcraft:brick_bleachedbone",
+						"meta":2
                     }
                 },
                 "stair":{
