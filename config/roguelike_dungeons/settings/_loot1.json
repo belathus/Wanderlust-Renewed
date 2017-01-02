@@ -283,6 +283,24 @@
             "each":false,
             "quantity":2
         },
+		{
+            "type":"TOOLS",
+            "loot":[
+                {
+                    "data":{
+                        "name":"theoneprobe:probe"
+                    }
+                },
+				{
+					"data":{
+                        "name":"theoneprobe:probe_goggles"
+                    }
+				}
+            ],
+            "level":1,
+            "each":false,
+            "quantity":2
+        },
         {
             "type":"ORE",
             "loot":[
@@ -570,6 +588,30 @@
                         "meta":11
                     },
                     "weight":12
+                },
+				{
+                    "data":{
+                        "name":"botania:manaGlass",
+                        "min":1,
+                        "max":4
+                    },
+                    "weight":23
+                },
+				{
+                    "data":{
+                        "name":"tconstruct:clear_glass",
+                        "min":4,
+                        "max":16
+                    },
+                    "weight":23
+                },
+				{
+                    "data":{
+                        "name":"glass",
+                        "min":16,
+                        "max":32
+                    },
+                    "weight":23
                 },
                 {
                     "data":{
