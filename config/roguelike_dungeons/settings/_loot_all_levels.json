@@ -78,24 +78,25 @@
             "each":true,
             "quantity":3
         },
-        {
-            "type":"MUSIC",
+		{
+            "type":"ORE",
             "loot":[
                 {
                     "data":{
-                        "name":"dungeontactics:bag_record"
+                        "name":"dungeontactics:bag_ore",
+                        "min":1,
+                        "max":4
                     }
                 }
             ],
             "level":[
-                0,
                 1,
                 2,
                 3,
                 4
             ],
             "each":true,
-            "quantity":1
+            "quantity":5
         },
         {
             "type":"REWARD",
@@ -414,6 +415,13 @@
                     "data":{
                         "name":"tconstruct:edible",
                         "meta":23,
+                        "min":1,
+                        "max":3
+                    }
+                },
+				{
+                    "data":{
+                        "name":"dungeontactics:bag_food",
                         "min":1,
                         "max":3
                     }
