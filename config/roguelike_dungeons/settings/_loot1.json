@@ -4,13 +4,7 @@
         {
             "type":"ARMOUR",
             "loot":[
-                {
-                    "data":{
-                        "name":"dungeontactics:studded_boots",
-                        "ench":5
-                    },
-                    "weight":3
-                },
+                {"data" : {"name" : "dungeontactics:studded_boots", "ench" : 5}, "weight":3},
                 {
                     "data":{
                         "name":"dungeontactics:studded_chestplate",
