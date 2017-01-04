@@ -35,6 +35,11 @@ import com.acronym.base.IMaterialType;
     var uranium     = mods.base.Materials.getOrRegister("Uranium",     33,  7772956, false);
     var zinc        = mods.base.Materials.getOrRegister("Zinc",        34, 12240072, false);
 
+tin.registerOre();
+tin.registerIngot();
+zinc.registerOre();
+zinc.registerIngot();
+
 var metal_list = [abyssalnite, adamantine, aluminum, aquarium, ardite, brass, bronze, cobalt, coldiron,
     copper, constantan, coralium, cupronickel, dawnstone, dilithium, dreadium, electrum, gold, invar, iridium, iron, lead,
     mithril, nickel, platinum, silver, starsteel, steel, tin, titanium, uranium, zinc] as com.acronym.base.IMaterialType[];
