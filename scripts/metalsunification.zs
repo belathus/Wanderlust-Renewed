@@ -5,43 +5,8 @@
         [<libvulpes:productnugget:9>,     <libvulpes:productingot:9>,     <libvulpes:metal0:9>,             <libvulpes:productplate:9>,      <charsetlib:icon>],
         [<charsetlib:icon>,                 <fp:spaceship:13>,              <charsetlib:icon>,                  <charsetlib:icon>,                 <charsetlib:icon>]
     ] as minetweaker.item.IItemStack[][];
-    var oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>] as minetweaker.item.IIngredient[];
+    var aluminum_oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>] as minetweaker.item.IIngredient[];
     
-    if list_aluminum[1][3].matches(<charsetlib:icon>) {
-        recipes.addShaped(<minecraft:stick>, [[<minecraft:stick>]]);
-    }
-    
-    /*
-    for i, metal in list_aluminum {
-        if (i == 0) && !metal[0].matches(<charsetlib:icon>) && !metal[1].matches(<charsetlib:icon>) && !metal[2].matches(<charsetlib:icon>) {
-            recipes.addShapeless(metal[0]*9,
-                [oredict[1]]);
-            recipes.addShapeless(metal[1]*9,
-                [oredict[2]]);
-            recipes.addShapeless(metal[1], 
-                [oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0]]);
-            recipes.addShapeless(metal[2], 
-                [oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1]]);
-        }
-        if (i == 0) && !metal[4].matches(<charsetlib:icon>) {
-            recipes.addShaped(metal[4],
-                [[null,      metal[1],          null],
-                 [metal[1], <railcraft:gear:3>, metal[1]],
-                 [null,      metal[1],          null]]);
-        }
-        if i != 0 {
-            if !metal[0].matches(<charsetlib:icon>) {
-                recipes.remove(metal[0]);
-            }
-            if !metal[1].matches(<charsetlib:icon>) {
-                recipes.remove(metal[1]);
-            }
-            if !metal[2].matches(<charsetlib:icon>) {
-                recipes.remove(metal[2]);
-            }
-        }
-    }
-    */
     #recipes.remove(<libvulpes:metal0:9>);
     #recipes.addShapeless(<immersiveengineering:metal:21>*9,
     #    [<ore:ingotAluminum>]);
@@ -51,6 +16,14 @@
     #    [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
 
 # Bronze
+    val list_bronze = [
+    #    nugget                            ingot                           block                             plate                            gear
+        [<basemetals:bronze_nugget>,      <forestry:ingotBronze>,         <forestry:resourceStorage:3>,     <basemetals:bronze_plate>,       <forestry:gearBronze>],
+        [<primal:bronze_nugget>,          <basemetals:bronze_ingot>,      <basemetals:bronze_block>,        <charsetlib:icon>,               <charsetlib:icon>],
+        [<charsetlib:icon>,               <primal:bronze_ingot>,          <primal:bronze_block>,            <charsetlib:icon>,               <charsetlib:icon>]
+    ] as minetweaker.item.IItemStack[][];
+    var bronze_oredict = [<ore:nuggetBronze>,<ore:ingotBronze>,<ore:blockBronze>,<ore:plateBronze>,<ore:gearBronze>] as minetweaker.item.IIngredient[];
+
     recipes.remove(<forestry:ingotBronze>);
     recipes.addShaped(<forestry:ingotBronze>,
         [[<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>],
@@ -72,7 +45,7 @@
         [<railcraft:nugget:2>,            <railcraft:ingot:1>,            <railcraft:generic>,              <charsetlib:icon>,              <charsetlib:icon>],
         [<charsetlib:icon>,               <rockhounding_chemistry:miscItems:25>, <charsetlib:icon>,         <charsetlib:icon>,              <charsetlib:icon>]
     ] as minetweaker.item.IItemStack[][];
-    oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>] as minetweaker.item.IIngredient[];
+    var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>] as minetweaker.item.IIngredient[];
     furnace.remove(<abyssalcraft:copperingot>);
     furnace.remove(<basemetals:copper_ingot>);
     furnace.remove(<basemetals:copper_nugget>);
@@ -124,6 +97,17 @@
 
 
 # Iron
+    var list_iron = [
+        [<immersiveengineering:metal:29>,      <minecraft:iron_ingot>,<minecraft:iron_block>,<immersiveengineering:metal:39>,<railcraft:gear:1>],
+        [<basemetals:iron_nugget>,             <charsetlib:icon>,     <charsetlib:icon>,     <basemetals:iron_plate>,        <basemetals:iron_gear>],
+        [<charsetlib:icon>,                    <charsetlib:icon>,     <charsetlib:icon>,     <libvulpes:productplate:1>,     <charsetlib:icon>],
+        [<embers:nuggetIron>,                  <charsetlib:icon>,     <charsetlib:icon>,     <embers:plateIron>,             <charsetlib:icon>],
+        [<esteemedinnovation:nugget:4>,        <charsetlib:icon>,     <charsetlib:icon>,     <charsetlib:icon>,              <charsetlib:icon>],
+        [<primal:iron_nugget>,                 <charsetlib:icon>,     <charsetlib:icon>,     <charsetlib:icon>,              <charsetlib:icon>],
+        [<railcraft:nugget>,                   <charsetlib:icon>,     <charsetlib:icon>,     <charsetlib:icon>,              <charsetlib:icon>],
+        [<rockhounding_chemistry:miscItems:2>, <charsetlib:icon>,     <charsetlib:icon>,     <charsetlib:icon>,              <charsetlib:icon>]
+    ] as minetweaker.item.IItemStack[][];
+    iron_oredict = [<ore:nuggetIron>,<ore:ingotIron>,<ore:blockIron>,<ore:plateIron>,<ore:gearIron>] as minetweaker.item.IIngredient[];
     recipes.remove(<basemetals:iron_nugget>);
     recipes.remove(<esteemedinnovation:nugget:4>);
     recipes.remove(<rockhounding_chemistry:miscItems:2>);
@@ -233,5 +217,45 @@
     recipes.remove(<esteemedinnovation:ingot:1>);
     recipes.remove(<basemetals:zinc_ingot>);
     recipes.remove(<primal:zinc_ingot>);
-    
 
+/*
+var list_of_lists = [
+    [list_aluminum, aluminum_oredict],
+    [list_bronze, bronze_oredict],
+    [list_copper, copper_oredict],
+    [list_iron, iron_oredict]
+] as Array[][];
+
+for i, list in list_of_lists {
+    for i, metal in list[0] {
+        if ((i == 0) && !metal[0].matches(<charsetlib:icon>) && !metal[1].matches(<charsetlib:icon>) && !metal[2].matches(<charsetlib:icon>)) {
+            recipes.addShapeless(metal[0]*9,
+                [list[1][1]]);
+            recipes.addShapeless(metal[1]*9,
+                [list[1][2]]);
+            recipes.addShapeless(metal[1], 
+                [list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0]]);
+            recipes.addShapeless(metal[2], 
+                [list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1]]);
+        }
+        # Add plates
+        if (i == 0) && !metal[4].matches(<charsetlib:icon>) {
+            recipes.addShaped(metal[4],
+                [[null,      list[1][1],          null],
+                 [list[1][1], <railcraft:gear:3>, list[1][1]],
+                 [null,      list[1][1],          null]]);
+        }
+        if (i != 0) {
+            if !metal[0].matches(<charsetlib:icon>) {
+                recipes.remove(metal[0]);
+            }
+            if !metal[1].matches(<charsetlib:icon>) {
+                recipes.remove(metal[1]);
+            }
+            if !metal[2].matches(<charsetlib:icon>) {
+                recipes.remove(metal[2]);
+            }
+        }
+    }
+}
+*/
