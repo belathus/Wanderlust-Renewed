@@ -1,6 +1,6 @@
 # Planks List
     var list_logs = [
-        <minecraft:log:*>, <minecraft:log2>,
+        <minecraft:log:*>, <minecraft:log2:*>,
         <biomesoplenty:log_0:*>, <biomesoplenty:log_1:*>, <biomesoplenty:log_2:*>,<biomesoplenty:log_3:*>,
         <forestry:logs.0:*>, <forestry:logs.1:*>, <forestry:logs.2:*>, <forestry:logs.3:*>,
         <forestry:logs.4:*>, <forestry:logs.5:*>, <forestry:logs.6:*>, <forestry:logs.7:*>,

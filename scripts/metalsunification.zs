@@ -178,6 +178,10 @@
 
 
 # Tin
+    val list_tin = [
+    # nugget, ingot, block, plate, gear
+        [<primal:tin_nugget>, <primal:tin_ingot>, <primal:tin_block>, <primal:tin_plate>, <forestry:gearTin>]
+    ] as minetweaker.item.IItemStack[][];
     recipes.addShapeless(<primal:tin_nugget>*9,[<ore:ingotTin>]);
     recipes.addShaped(<fp:ItemErze>,
         [[<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],

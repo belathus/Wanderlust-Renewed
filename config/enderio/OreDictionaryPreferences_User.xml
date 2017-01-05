@@ -10,6 +10,9 @@ Entries in this file take precedence over the values in the core file
   </preference>
 
   <!-- Dusts -->
+  <preference oreDictionary="dustAluminum" >
+    <itemStack modID="immersiveengineering" itemName="metal" itemMeta="10" />
+  </preference>
   <preference oreDictionary="dustCoal" >
     <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="0" />
   </preference>

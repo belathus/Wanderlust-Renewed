@@ -195,5 +195,5 @@
     recipes.remove(<roots:druidKnife>);
     recipes.addShaped(<roots:druidKnife>,
         [[<roots:verdantSprig>],
-         [<ore:knappedFlint>],
+         [<ore:flakeFlint>],
          [<ore:stickWood>]]);
