@@ -107,7 +107,7 @@
         [<railcraft:nugget>,                   <charsetlib:icon>,     <charsetlib:icon>,     <charsetlib:icon>,              <charsetlib:icon>],
         [<rockhounding_chemistry:miscItems:2>, <charsetlib:icon>,     <charsetlib:icon>,     <charsetlib:icon>,              <charsetlib:icon>]
     ] as minetweaker.item.IItemStack[][];
-    iron_oredict = [<ore:nuggetIron>,<ore:ingotIron>,<ore:blockIron>,<ore:plateIron>,<ore:gearIron>] as minetweaker.item.IIngredient[];
+    var iron_oredict = [<ore:nuggetIron>,<ore:ingotIron>,<ore:blockIron>,<ore:plateIron>,<ore:gearIron>] as minetweaker.item.IIngredient[];
     recipes.remove(<basemetals:iron_nugget>);
     recipes.remove(<esteemedinnovation:nugget:4>);
     recipes.remove(<rockhounding_chemistry:miscItems:2>);
