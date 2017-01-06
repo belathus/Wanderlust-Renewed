@@ -9,22 +9,24 @@
     recipes.addShapeless(<minecraft:iron_ore>, 
         [<rockhounding_oretiers:ironOres:2>],
         function(output, inputs, crafting) {
-            if crafting.player.xp > 160 {
-               crafting.player.removeXP(160);
+            if crafting.player.xp > 10 {
                return output;
             } else {
                 return null;
             }
+        }, function(output, crafting, player){
+            player.removeXP(10);
         });
     recipes.addShapeless(<minecraft:iron_ore>, 
         [<rockhounding_oretiers:ironOres:3>],
         function(output, inputs, crafting) {
-            if crafting.player.xp > 160 {
-               crafting.player.removeXP(160);
+            if crafting.player.xp > 10 {
                return output;
             } else {
                 return null;
             }
+        }, function(output, crafting, player){
+            player.removeXP(10);
         });
 
 # Embers
