@@ -50,17 +50,6 @@
 			"quantity" : 2
 		},
 		{	
-			"type" : "FOOD", 
-			"loot" : [
-				{"data" : {"name" : "cooked_chicken", "min" : 2, "max" : 5}, "weight" : 1},
-				{"data" : {"name" : "cooked_porkchop", "min" : 2, "max" : 5}, "weight" : 2},
-				{"data" : {"name" : "cooked_beef", "min" : 2, "max" : 5}, "weight" : 3}
-			],
-			"level" : 3,
-			"each" : true,
-			"quantity" : 5
-		},
-		{	
 			"loot" : [
 				{"data" : {"name" : "coal", "min" : 3, "max" : 9}, "weight" : 1},
 				{"data" : {"name" : "iron_ingot", "min" : 2, "max" : 3}, "weight" : 1},
