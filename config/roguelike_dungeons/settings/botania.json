@@ -19,9 +19,6 @@
             "base":"ETHO"
         }
     },
-	"overrides":[
-		"LOOTRULES"
-	],
 	"inherit":[
 		"_loot_all",
 		"_loot0",
@@ -160,7 +157,8 @@
                     "floor":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"ore:stoneDioritePolished"
+                            "name":"chisel:diorite1",
+							"meta":1
                         }
                     }
                 }
@@ -173,49 +171,118 @@
                 "base":"ENIKO",
                 "primary":{
                     "walls":{
-                        "name":"quark:reed_block"
+                        "name":"quark:midori_block"
                     },
                     "pillar":{
-                        "name":"quark:midori_pillar"
+                        "name":"forestry:logs.4",
+						"meta":1
                     },
                     "stair":{
                         "name":"quark:midori_block_stairs"
                     },
                     "floor":{
-                        "type":"METABLOCK",
-                        "data":{
-                            "name":"botanicaladdons:irisDirt",
-                            "meta":13
-                        }
+						"name":"botanicaladdons:irisDirt",
+						"meta":13
                     }
                 },
                 "secondary":{
                     "walls":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"chisel:marble1",
-                            "meta":7
+                            "name":"botania:quartzTypeElf",
+                            "meta":1
                         }
                     },
                     "pillar":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"botania:quartzTypeMana",
+                            "name":"botania:quartzTypeElf",
                             "meta":2
                         }
                     },
                     "stair":{
-                        "name":"botania:quartzStairsMana"
+                        "name":"botania:quartzStairsElf"
                     },
                     "floor":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"botania:altGrass",
+                            "name":"botania:quartzTypeElf",
                             "meta":4
                         }
                     }
                 }
             }
-        }
+        },
+		"3":{
+            "numRooms":15,
+            "theme":{
+                "base":"ENIKO",
+                "primary":{
+                    "walls":{
+                        "type":"JUMBLE",
+						"data":[
+							{
+								"name":"chisel:valentines",
+								"meta":4
+							},
+							{
+								"name":"chisel:valentines",
+								"meta":5
+							},
+							{
+								"name":"chisel:valentines",
+								"meta":6
+							},
+							{
+								"name":"chisel:valentines",
+								"meta":8
+							}
+						]
+                    },
+                    "pillar":{
+                        "name":"botanicaladdons:irisLog1",
+						"meta":2
+                    },
+                    "stair":{
+                        "name":"natura:overworld_stairs_eucalyptus"
+                    },
+                    "floor":{
+						"name":"botanicaladdons:irisDirt",
+						"meta":6
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzTypeLavender",
+                            "meta":1
+                        }
+                    },
+                    "pillar":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzTypeLavender",
+                            "meta":2
+                        }
+                    },
+                    "stair":{
+                        "name":"botania:quartzStairsLavender"
+                    },
+                    "floor":{
+                        "type":"METABLOCK",
+                        "data":{
+                            "name":"botania:quartzTypeLavender",
+                            "meta":4
+                        }
+                    }
+                }
+            }
+        },
+		"4":{
+			"theme":{
+				"base":"RAINBOW"
+			}
+		}
     }
 }

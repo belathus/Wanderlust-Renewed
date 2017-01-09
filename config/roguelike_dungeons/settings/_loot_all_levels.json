@@ -1,5 +1,8 @@
 {
     "name":"_loot_all",
+	"overrides":[
+		"LOOTRULES"
+	],
     "loot_rules":[
         {
             "type":"ENCHANTING",
