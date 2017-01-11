@@ -37,22 +37,55 @@
 		},
 		{	
 			"loot" : [
-				{"data" : {"name" : "ender_pearl"}, "weight" : 5},
-				{"data" : {"name" : "redstone"}, "weight" : 5},
-				{"data" : {"name" : "glowstone_dust"}, "weight" : 5},
-				{"data" : {"name" : "emerald", "min" : 1, "max" : 3}, "weight" : 5},
-				{"data" : {"name" : "diamond", "min" : 1, "max" : 3}, "weight" : 5},
+				{
+					"data" : [
+						{"data" : {"name" : "ender_pearl"}},
+						{"data" : {"name" : "redstone", "min" : 2, "max" : 16}},
+						{"data" : {"name" : "glowstone_dust", "min" : 2, "max" : 16}},
+						{"data" : {"name" : "emerald", "min" : 1, "max" : 3}},
+						{"data" : {"name" : "diamond", "min" : 1, "max" : 3}}
+					],
+					"weight" : 5
+				},
+				{
+					"data" : [
+						{"data" : {"name" : "abyssalcraft:mre"}},
+						{"data" : {"name" : "botania:blackLotus"}
+					],
+					"weight" : 3
+				},
+				{
+					"data" : [
+						{"data" : {"name" : "botania:lightRelay", "min" : 1, "max" : 2}},
+						{"data" : {"name" : "book", "ench" : 42}},
+						{
+							"data" : [
+								{"data" : {"name" : "botania:rune", "meta" : 9}},
+								{"data" : {"name" : "botania:rune", "meta" : 10}},
+								{"data" : {"name" : "botania:rune", "meta" : 11}},
+								{"data" : {"name" : "botania:rune", "meta" : 12}},
+								{"data" : {"name" : "botania:rune", "meta" : 13}},
+								{"data" : {"name" : "botania:rune", "meta" : 14}},
+								{"data" : {"name" : "botania:rune", "meta" : 15}}
+							]
+						}
+					],
+					"weight" : 2
+				}
 				
-				{"data" : {"name" : "abyssalcraft:mre"}, "weight" : 2},
-				{"data" : {"name" : "botania:blackLotus", "meta" : 1}, "weight" : 2},
 				
-				{"data" : {"name" : "abyssalcraft:anticorflesh"}, "weight" : 1},
-				{"data" : {"name" : "botania:lightRelay", "min" : 1, "max" : 2}, "weight" : 1},
-				{"data" : {"name" : "book", "ench" : 42}, "weight" : 1}
 			],
 			"level" : 4,
 			"each" : true,
-			"quantity" : 9
+			"quantity" : 10
+		},
+		{
+			"loot" : [
+				{"data" : {"name" : "abyssalcraft:anticorflesh"}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 1
 		}
 	]
 }
