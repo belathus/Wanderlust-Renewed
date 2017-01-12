@@ -1,5 +1,8 @@
 {
     "name":"_loot_all",
+	"overrides":[
+		"LOOTRULES"
+	],
     "loot_rules":[
         {
             "type":"ENCHANTING",
@@ -96,7 +99,7 @@
                 4
             ],
             "each":true,
-            "quantity":5
+            "quantity":2
         },
         {
             "type":"REWARD",

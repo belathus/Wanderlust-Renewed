@@ -4,18 +4,14 @@
 		{	
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "iron_helmet", "ench" : 20}, "weight" : 1},
-				{"data" : {"name" : "iron_chestplate", "ench" : 20}, "weight" : 1},
-				{"data" : {"name" : "iron_leggings", "ench" : 20}, "weight" : 1},
-				{"data" : {"name" : "iron_boots", "ench" : 20}, "weight" : 1},
-				{"data" : {"name" : "golden_helmet", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "golden_chestplate", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "golden_leggings", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "golden_boots", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "diamond_helmet", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "diamond_chestplate", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "diamond_leggings", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "diamond_boots", "ench" : 20}, "weight" : 2}
+				{"data" : {"name" : "dungeontactics:gilded_helmet", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:gilded_chestplate", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:gilded_leggings", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:gilded_boots", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:jewelled_helmet", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "dungeontactics:jewelled_chestplate", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "dungeontactics:jewelled_leggings", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "dungeontactics:jewelled_boots", "ench" : 20}, "weight" : 2}
 			],
 			"level" : 3,
 			"each" : true,
@@ -24,9 +20,23 @@
 		{	
 			"type" : "WEAPONS", 
 			"loot" : [
-				{"data" : {"name" : "iron_sword", "ench" : 20}, "weight" : 3},
-				{"data" : {"name" : "golden_sword", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "diamond_sword", "ench" : 20}, "weight" : 1}
+				{
+					"data" : [
+						{"data" : {"name" : "dungeontactics:gilded_sword", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:gilded_hammer", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:gilded_knife", "ench" : 20}}
+					],
+					"min" : 1, "max" : 1, "weight" : 5
+				},
+				{
+					"data" : [
+						{"data" : {"name" : "dungeontactics:jewelled_sword", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:jewelled_hammer", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:jewelled_knife", "ench" : 20}}
+					],
+					"min" : 1, "max" : 1, "weight" : 2
+				},
+				{"data" : {"name" : "botania:manaGun"}, "weight" : 1}
 			],
 			"level" : 3,
 			"each" : true,
@@ -35,55 +45,68 @@
 		{	
 			"type" : "TOOLS", 
 			"loot" : [
-				{"data" : {"name" : "iron_pickaxe", "ench" : 20}, "weight" : 3},
-				{"data" : {"name" : "iron_axe", "ench" : 20}, "weight" : 3},
-				{"data" : {"name" : "iron_shovel", "ench" : 20}, "weight" : 3},
-				{"data" : {"name" : "golden_pickaxe", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "golden_axe", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "golden_shovel", "ench" : 20}, "weight" : 2},
-				{"data" : {"name" : "diamond_pickaxe", "ench" : 20}, "weight" : 1},
-				{"data" : {"name" : "diamond_axe", "ench" : 20}, "weight" : 1},
-				{"data" : {"name" : "diamond_shovel", "ench" : 20}, "weight" : 1}
+				{"data" : {"name" : "dungeontactics:gilded_pickaxe", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:gilded_shovel", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:gilded_axe", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:gilded_hoe", "ench" : 20}, "weight" : 5},
+				{"data" : {"name" : "dungeontactics:jewelled_pickaxe", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "dungeontactics:jewelled_shovel", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "dungeontactics:jewelled_axe", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "dungeontactics:jewelled_hoe", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "actuallyadditions:diamondPaxel", "ench" : 20}, "weight" : 4}
 			],
 			"level" : 3,
 			"each" : true,
 			"quantity" : 2
 		},
 		{	
-			"type" : "FOOD", 
 			"loot" : [
-				{"data" : {"name" : "cooked_chicken", "min" : 2, "max" : 5}, "weight" : 1},
-				{"data" : {"name" : "cooked_porkchop", "min" : 2, "max" : 5}, "weight" : 2},
-				{"data" : {"name" : "cooked_beef", "min" : 2, "max" : 5}, "weight" : 3}
+				{"data" : {"name" : "evilcraft:blook", "min" : 1, "max" : 2}, "weight" : 5},
+				{"data" : {"name" : "coal", "min" : 3, "max" : 9}, "weight" : 5},
+				{"data" : {"name" : "iron_ingot", "min" : 2, "max" : 3}, "weight" : 5},
+				{"data" : {"name" : "redstone", "min" : 2, "max" : 16}, "weight" : 5},
+				{"data" : {"name" : "glowstone_dust", "min" : 2, "max" : 8}, "weight" : 5},
+				{"data" : {"name" : "gold_ingot", "min" : 2, "max" : 4}, "weight" : 5},
+				{"data" : {"name" : "emerald", "min" : 1, "max" : 2}, "weight" : 5},
+				{"data" : {"name" : "dye", "meta" : 4, "min" : 4, "max" : 16}, "weight" : 5},
+				{"data" : {"name" : "evilcraft:bloodWaxedCoal", "min" : 1, "max" : 4}, "weight" : 5},
+				{"data" : {"name" : "evilcraft:bloodPotash", "min" : 1, "max" : 4}, "weight" : 5},
+				
+				{"data" : {"name" : "diamond", "min" : 1, "max" : 1}, "weight" : 2},
+				{
+					"data" : [
+						{"data" : {"name" : "botania:lens", "meta" : 17}},
+						{"data" : {"name" : "botania:lens", "meta" : 20}},
+						{"data" : {"name" : "botania:lens", "meta" : 21}, "nbt":{"display" : {"type":"COMPOUND","value" : {"Name" : {"type" : "STRING","value" : "Bubble Blower"}, "Lore" : {"type" : "STRING" , "value" : "Shieldmaker's Favorite"}}}}}
+					],
+					"min":1, "max":1, "weight":2
+				},
+				{"data" : {"name" : "book", "ench" : 20}, "weight" : 2},
+				{"data" : {"name" : "integrateddynamics:menrilTorch", "min" : 1, "max" : 2}, "weight" : 2},
+				{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 8}, "weight" : 2},
+				{
+					"data" : [
+						{"data" : {"name" : "evilcraft:weatherContainer", "meta" : 1}},
+						{"data" : {"name" : "evilcraft:weatherContainer", "meta" : 2}}
+					],
+					"min" : 1, "max" : 1, "weight" : 2
+				},
+				
+				{"data" : {"name" : "botania:starfield"}, "weight" : 1},
+				{
+					"data" : [
+						{"data" : {"name" : "botania:lens", "meta" : 5}},
+						{"data" : {"name" : "botania:lens", "meta" : 8}}
+					],
+					"min":1, "max":1, "weight":1
+				},
+				{"data" : {"name" : "book", "ench" : 24}, "weight" : 1},
+				{"data" : {"name" : "botania:blackLotus", "meta" : 1}, "weight" : 1}
+				
 			],
 			"level" : 3,
 			"each" : true,
-			"quantity" : 5
-		},
-		{	
-			"type" : "ORE", 
-			"loot" : [
-				{"data" : {"name" : "coal", "min" : 3, "max" : 9}, "weight" : 2},
-				{"data" : {"name" : "iron_ingot", "min" : 2, "max" : 6}, "weight" : 3},
-				{"data" : {"name" : "gold_ingot", "min" : 2, "max" : 6}, "weight" : 3},
-				{"data" : {"name" : "emerald", "min" : 1, "max" : 2}, "weight" : 2},
-				{"data" : {"name" : "diamond", "min" : 1, "max" : 1}, "weight" : 1}
-			],
-			"level" : 3,
-			"each" : true,
-			"quantity" : 6
-		},
-		{	
-			"loot" : [
-				{"data" : {"name" : "bone"}, "weight" : 5},
-				{"data" : {"name" : "snowball"}, "weight" : 2},
-				{"data" : {"name" : "redstone"}, "weight" : 3},
-				{"data" : {"name" : "glowstone_dust"}, "weight" : 5},
-				{"data" : {"name" : "gunpowder", "min" : 3, "max" : 7}, "weight" : 1}
-			],
-			"level" : 3,
-			"each" : true,
-			"quantity" : 5
+			"quantity" : 8
 		}
 	]
 }

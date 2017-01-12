@@ -4,14 +4,6 @@
 		{	
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "iron_helmet", "ench" : 30}, "weight" : 1},
-				{"data" : {"name" : "iron_chestplate", "ench" : 30}, "weight" : 1},
-				{"data" : {"name" : "iron_leggings", "ench" : 30}, "weight" : 1},
-				{"data" : {"name" : "iron_boots", "ench" : 30}, "weight" : 1},
-				{"data" : {"name" : "golden_helmet", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "golden_chestplate", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "golden_leggings", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "golden_boots", "ench" : 30}, "weight" : 2},
 				{"data" : {"name" : "diamond_helmet", "ench" : 30}, "weight" : 3},
 				{"data" : {"name" : "diamond_chestplate", "ench" : 30}, "weight" : 3},
 				{"data" : {"name" : "diamond_leggings", "ench" : 30}, "weight" : 3},
@@ -19,77 +11,80 @@
 			],
 			"level" : 4,
 			"each" : true,
-			"quantity" : 3
+			"quantity" : 2
 		},
 		{	
 			"type" : "WEAPONS", 
 			"loot" : [
-				{"data" : {"name" : "iron_sword", "ench" : 30}, "weight" : 6},
-				{"data" : {"name" : "golden_sword", "ench" : 30}, "weight" : 1},
 				{"data" : {"name" : "diamond_sword", "ench" : 30}, "weight" : 2}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "TOOLS", 
+			"loot" : [
+				{"data" : {"name" : "diamond_pickaxe", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "diamond_axe", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "diamond_shovel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "botania:openBucket"}, "weight" : 2},
+				{"data" : {"name" : "actuallyadditions:emeraldPaxel", "ench" : 30}, "weight" : 1}
 			],
 			"level" : 4,
 			"each" : true,
 			"quantity" : 2
 		},
 		{	
-			"type" : "TOOLS", 
 			"loot" : [
-				{"data" : {"name" : "iron_pickaxe", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "iron_axe", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "iron_shovel", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "golden_pickaxe", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "golden_axe", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "golden_shovel", "ench" : 30}, "weight" : 2},
-				{"data" : {"name" : "diamond_pickaxe", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_axe", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_shovel", "ench" : 30}, "weight" : 3}
+				{
+					"data" : [
+						{"data" : {"name" : "ender_pearl"}},
+						{"data" : {"name" : "redstone", "min" : 2, "max" : 16}},
+						{"data" : {"name" : "glowstone_dust", "min" : 2, "max" : 16}},
+						{"data" : {"name" : "emerald", "min" : 1, "max" : 3}},
+						{"data" : {"name" : "diamond", "min" : 1, "max" : 3}}
+					],
+					"weight" : 5
+				},
+				{
+					"data" : [
+						{"data" : {"name" : "abyssalcraft:mre"}},
+						{"data" : {"name" : "botania:blackLotus"}}
+					],
+					"weight" : 3
+				},
+				{
+					"data" : [
+						{"data" : {"name" : "botania:lightRelay", "min" : 1, "max" : 2}},
+						{"data" : {"name" : "book", "ench" : 42}},
+						{
+							"data" : [
+								{"data" : {"name" : "botania:rune", "meta" : 9}},
+								{"data" : {"name" : "botania:rune", "meta" : 10}},
+								{"data" : {"name" : "botania:rune", "meta" : 11}},
+								{"data" : {"name" : "botania:rune", "meta" : 12}},
+								{"data" : {"name" : "botania:rune", "meta" : 13}},
+								{"data" : {"name" : "botania:rune", "meta" : 14}},
+								{"data" : {"name" : "botania:rune", "meta" : 15}}
+							]
+						}
+					],
+					"weight" : 2
+				}
+				
+				
 			],
 			"level" : 4,
 			"each" : true,
-			"quantity" : 3
+			"quantity" : 10
 		},
-		{	
-			"type" : "FOOD", 
+		{
 			"loot" : [
-				{"data" : {"name" : "golden_carrot", "min" : 2, "max" : 5}},
-				{"data" : {"name" : "golden_apple", "min" : 1, "max" : 1}}
+				{"data" : {"name" : "abyssalcraft:anticorflesh"}, "weight" : 1}
 			],
 			"level" : 4,
-			"each" : true,
-			"quantity" : 5
-		},
-		{	
-			"type" : "ORE", 
-			"loot" : [
-				{"data" : {"name" : "coal", "min" : 4, "max" : 12}, "weight" : 1},
-				{"data" : {"name" : "iron_ingot", "min" : 2, "max" : 6}, "weight" : 2},
-				{"data" : {"name" : "gold_ingot", "min" : 2, "max" : 6}, "weight" : 2},
-				{"data" : {"name" : "emerald", "min" : 1, "max" : 2}, "weight" : 2},
-				{"data" : {"name" : "diamond", "min" : 1, "max" : 1}, "weight" : 3}
-			],
-			"level" : 4,
-			"each" : true,
-			"quantity" : 6
-		},
-		{	
-			"loot" : [
-				{"data" : {"name" : "bone"}, "weight" : 5},
-				{"data" : {"name" : "ender_pearl"}, "weight" : 2},
-				{"data" : {"name" : "redstone"}, "weight" : 3},
-				{"data" : {"name" : "glowstone_dust"}, "weight" : 5},
-				{"data" : {"name" : "gunpowder", "min" : 3, "max" : 8}, "weight" : 1}
-			],
-			"level" : 4,
-			"each" : true,
-			"quantity" : 6
-		},
-		{	
-			"loot" : [
-				{"data" : {"name" : "diamond", "min" : 0, "max" : 2}}
-			],
-			"level" : 4,
-			"each" : true,
+			"each" : false,
 			"quantity" : 1
 		}
 	]
