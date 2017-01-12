@@ -59,7 +59,7 @@
             <biome type="END" />
         </biomeFilter>
     </entry>
-    <entry id="Dryad" mobName="arsmagica2.Dryad" rate="5">
+    <entry id="Dryad" mobName="arsmagica2.Dryad" creaturetype="CREATURE" rate="5">
         <biomeFilter type="any">
             <biome type="LUSH" />
             <biome type="NETHER" exclude="true" />
@@ -85,7 +85,7 @@
             <biome type="SPOOKY" />
         </biomeFilter>
     </entry>
-    <entry id="HellCow" mobName="arsmagica2.HellCow" rate="1">
+    <entry id="HellCow" mobName="arsmagica2.HellCow" rate="1" minGroupSize="1" maxGroupSize="1">
         <biomeFilter type="any">
             <biome type="NETHER" />
         </biomeFilter>
