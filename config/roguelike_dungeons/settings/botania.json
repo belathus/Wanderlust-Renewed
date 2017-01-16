@@ -19,6 +19,9 @@
             "base":"ETHO"
         }
     },
+    "overrides":[
+        "LOOTRULES"
+    ],
 	"inherit":[
 		"_loot_all",
 		"_loot0",
