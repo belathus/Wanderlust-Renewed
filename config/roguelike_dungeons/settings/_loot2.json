@@ -126,10 +126,14 @@
 				{
 					"data":[
 						{"data" : {"name" : "immersiveengineering:metal", "meta" : 8}},
-						{"data" : {"name" : "botania:rune", "meta" : 4}},
-						{"data" : {"name" : "botania:rune", "meta" : 5}},
-						{"data" : {"name" : "botania:rune", "meta" : 6}},
-						{"data" : {"name" : "botania:rune", "meta" : 7}},
+						{
+							"data":[
+								{"data" : {"name" : "botania:rune", "meta" : 4}},
+								{"data" : {"name" : "botania:rune", "meta" : 5}},
+								{"data" : {"name" : "botania:rune", "meta" : 6}},
+								{"data" : {"name" : "botania:rune", "meta" : 7}}
+							]
+						},
 						{"data" : {"name" : "book", "ench" : 18}},
 						{"data" : {"name" : "abyssalcraft:mre"}},
 						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 4}}
