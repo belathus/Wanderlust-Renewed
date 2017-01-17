@@ -4,19 +4,34 @@
 		{	
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "chainmail_helmet", "ench" : 12}, "weight" : 6},
-				{"data" : {"name" : "chainmail_chestplate", "ench" : 12}, "weight" : 6},
-				{"data" : {"name" : "chainmail_leggings", "ench" : 12}, "weight" : 6},
-				{"data" : {"name" : "chainmail_boots", "ench" : 12}, "weight" : 6},
-				{"data" : {"name" : "iron_helmet", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "iron_chestplate", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "iron_leggings", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "iron_boots", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "dungeontactics:gilded_helmet", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_chestplate", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_leggings", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_boots", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "theoneprobe:iron_helmet_probe", "ench" : 12}, "weight" : 1}
+				{
+					"data":[
+						{"data" : {"name" : "chainmail_helmet", "ench" : 12}},
+						{"data" : {"name" : "chainmail_chestplate", "ench" : 12}},
+						{"data" : {"name" : "chainmail_leggings", "ench" : 12}},
+						{"data" : {"name" : "chainmail_boots", "ench" : 12}}
+					],
+					"weight":5
+				},
+				{
+					"data":[
+						{"data" : {"name" : "iron_helmet", "ench" : 12}},
+						{"data" : {"name" : "iron_chestplate", "ench" : 12}},
+						{"data" : {"name" : "iron_leggings", "ench" : 12}},
+						{"data" : {"name" : "iron_boots", "ench" : 12}}
+					],
+					"weight":3
+				},
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:gilded_helmet", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_chestplate", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_leggings", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_boots", "ench" : 12}},
+						{"data" : {"name" : "theoneprobe:iron_helmet_probe", "ench" : 12}}
+					],
+					"weight":2
+				}
 			],
 			"level" : 2,
 			"each" : true,
@@ -25,13 +40,23 @@
 		{	
 			"type" : "WEAPONS", 
 			"loot" : [
-				{"data" : {"name" : "iron_sword", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "dungeontactics:iron_knife", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "dungeontactics:iron_hammer", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "dungeontactics:gilded_sword", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_hammer", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_knife", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "botania:enderDagger", "ench" : 12}, "weight" : 1}
+				{
+					"data":[
+						{"data" : {"name" : "iron_sword", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:iron_knife", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:iron_hammer", "ench" : 12}}
+					],
+					"weight":3
+				},
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:gilded_sword", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_hammer", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_knife", "ench" : 12}},
+						{"data" : {"name" : "botania:enderDagger", "ench" : 12}}
+					],
+					"weight":2
+				}
 			],
 			"level" : 2,
 			"each" : true,
@@ -40,16 +65,26 @@
 		{	
 			"type" : "TOOLS", 
 			"loot" : [
-				{"data" : {"name" : "iron_pickaxe", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "iron_axe", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "iron_shovel", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "chisel:chisel_iron"}, "weight" : 2},
-				{"data" : {"name" : "extrautils2:sickle_iron", "ench" : 12}, "weight" : 2},
-				{"data" : {"name" : "fp:escenner"}, "weight" : 2},
-				{"data" : {"name" : "dungeontactics:gilded_pickaxe", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_shovel", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_axe", "ench" : 12}, "weight" : 1},
-				{"data" : {"name" : "dungeontactics:gilded_hoe", "ench" : 12}, "weight" : 1}
+				{
+					"data":[
+						{"data" : {"name" : "iron_pickaxe", "ench" : 12}},
+						{"data" : {"name" : "iron_axe", "ench" : 12}},
+						{"data" : {"name" : "iron_shovel", "ench" : 12}},
+						{"data" : {"name" : "chisel:chisel_iron"}},
+						{"data" : {"name" : "extrautils2:sickle_iron", "ench" : 12}},
+						{"data" : {"name" : "fp:escenner"}}
+					],
+					"weight":3
+				},
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:gilded_pickaxe", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_shovel", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_axe", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:gilded_hoe", "ench" : 12}}
+					],
+					"weight":2
+				}
 			],
 			"level" : 2,
 			"each" : true,
@@ -57,37 +92,54 @@
 		},
 		{	
 			"loot" : [
-				{"data" : {"name" : "redstone", "min" : 1, "max" : 8}, "weight" : 7},
-				{"data" : {"name" : "leather", "min" : 1, "max" : 3}, "weight" : 7},
-				{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 6}, "weight" : 3},
-                {"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 11}, "weight":3},
 				{
-					"data" : [
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":0, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":1, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":2, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":3, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":4, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":5, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":6, "min":1, "max":2}, "weight":1},
-						{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":7, "min":1, "max":2}, "weight":1}
-					]
-					,"weight":7
+					"data":[
+						{"data" : {"name" : "redstone", "min" : 1, "max" : 8}},
+						{"data" : {"name" : "leather", "min" : 1, "max" : 3}},
+						{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 6}},
+						{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 11}},
+						{
+							"data" : [
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":0, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":1, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":2, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":3, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":4, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":5, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":6, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":7, "min":1, "max":2}}
+							]
+						}
+					],
+					"weight":5
 				},
-				{"data" : {"name" : "glowstone_dust", "min" : 1, "max" : 4}, "weight" : 3},
-				{"data" : {"name" : "iron_ingot", "min" : 1, "max" : 3}, "weight" : 3},
-				{"data" : {"name" : "book", "ench" : 12}, "weight" : 3},
-				{"data" : {"name" : "ender_pearl", "min" : 1, "max" : 3}, "weight" : 3},
-				{"data" : {"name" : "botania:blackLotus", "min" : 1, "max" : 3}, "weight" : 3},
-				
-				{"data" : {"name" : "immersiveengineering:metal", "meta" : 8}, "weight" : 2},
-				{"data" : {"name" : "book", "ench" : 18}, "weight" : 2},
-				{"data" : {"name" : "abyssalcraft:mre"}, "weight" : 2},
-				{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 4}, "weight" : 2}
+				{
+					"data":[
+						{"data" : {"name" : "glowstone_dust", "min" : 1, "max" : 4}},
+						{"data" : {"name" : "iron_ingot", "min" : 1, "max" : 3}},
+						{"data" : {"name" : "book", "ench" : 12}},
+						{"data" : {"name" : "ender_pearl", "min" : 1, "max" : 3}},
+						{"data" : {"name" : "botania:blackLotus", "min" : 1, "max" : 3}}
+					],
+					"weight":3
+				},
+				{
+					"data":[
+						{"data" : {"name" : "immersiveengineering:metal", "meta" : 8}},
+						{"data" : {"name" : "botania:rune", "meta" : 4}},
+						{"data" : {"name" : "botania:rune", "meta" : 5}},
+						{"data" : {"name" : "botania:rune", "meta" : 6}},
+						{"data" : {"name" : "botania:rune", "meta" : 7}},
+						{"data" : {"name" : "book", "ench" : 18}},
+						{"data" : {"name" : "abyssalcraft:mre"}},
+						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 4}}
+					],
+					"weight":2
+				}
 			],
 			"level" : 2,
 			"each" : true,
-			"quantity" : 8
+			"quantity" : 10
 		}
 	]
 }
