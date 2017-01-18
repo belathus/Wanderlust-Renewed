@@ -82,6 +82,18 @@
 			"quantity" : 12
 		},
 		{
+			"loot":[
+				{"data":{"name":"primal:arrow_torch_nether"}, "min":1, "max":8},
+				{"data":{"name":"tconstruct:throwball"}, "min":1, "max":6},
+				{"data":{"name":"integrateddynamics:menrilTorch"}, "min":1, "max":6},
+				{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
+				{"data":{"name":"primal:lantern_nether"}, "min":1, "max":2}
+			],
+			"level":4,
+			"each":true,
+			"quantity":1
+		},
+		{
 			"loot" : [
 				{"data" : {"name" : "abyssalcraft:anticorflesh"}, "weight" : 1}
 			],
