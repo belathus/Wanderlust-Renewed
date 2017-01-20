@@ -314,13 +314,9 @@
                                 "weight":100
                             },
                             {
-                                "name":"botania:altGrass",
-                                "weight":25
-                            },
-                            {
                                 "name":"biomesoplenty:grass",
                                 "meta":6,
-                                "weight":25
+                                "weight":75
                             },
                             {
                                 "name":"magma",
@@ -353,11 +349,11 @@
                         ]
                     },
                     "pillar":{
-                        "name":"chisel:lavastone1",
-                        "meta":1
+                        "name":"chisel:netherbrick",
+                        "meta":7
                     },
                     "stair":{
-                        "name":"quark:stained_clay_tiles_silver_stairs"
+                        "name":"tconstruct:lavawood_stairs"
                     }
                 }
 			}
