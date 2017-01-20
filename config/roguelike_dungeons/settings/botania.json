@@ -5,8 +5,7 @@
             "PLAINS",
             "FOREST",
             "MAGICAL",
-            "LUSH",
-            "WET"
+            "LUSH"
         ],
         "dimensionWL":[
             0
@@ -284,7 +283,83 @@
         },
 		"4":{
 			"theme":{
-				"base":"RAINBOW"
+				"base":"RAINBOW",
+                "primary":{
+                    "walls":{
+                        "type":"JUMBLE",
+                        "data":[
+                            {
+                                "name":"railcraft:brick_bloodstained",
+                                "meta":5
+                            },
+                            {
+                                "name":"railcraft:brick_bloodstained",
+                                "meta":1
+                            }
+                        ]    
+                    },
+                    "pillar":{
+                        "name":"forestry:logs.fireproof.6",
+                        "meta":1
+                    },
+                    "stair":{
+                        "name":"forestry:stairs.fireproof.cocobolo"
+                    },
+                    "floor":{
+                        "type":"WEIGHTED",
+                        "data":[
+                            {
+                                "name":"botania:altGrass",
+                                "meta":3,
+                                "weight":100
+                            },
+                            {
+                                "name":"botania:altGrass",
+                                "weight":25
+                            },
+                            {
+                                "name":"biomesoplenty:grass",
+                                "meta":6,
+                                "weight":25
+                            },
+                            {
+                                "name":"magma",
+                                "weight":10
+                            },
+                            {
+                                "name":"botania:enchantedSoil",
+                                "weight":1
+                            }
+                        ]
+                    }
+                },
+                "secondary":{
+                    "walls":{
+                        "type":"JUMBLE",
+                        "data":[
+                            {
+                                "name":"botania:biomeStoneB",
+                                "meta":7
+                            },
+                            {
+                                "name":"botania:biomeStoneA",
+                                "meta":7
+                            },
+                            {
+                                "name":"botania:biomeStoneA",
+                                "meta":15
+                            }
+                            
+                        ]
+                    },
+                    "pillar":{
+                        "name":"chisel:lavastone1",
+                        "meta":1
+                    },
+                    "stair":{
+                        "name":"quark:stained_clay_tiles_silver_stairs"
+                    }
+                }
 			}
 		}
     }
