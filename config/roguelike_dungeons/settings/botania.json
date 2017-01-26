@@ -200,7 +200,7 @@
                 {"mode":"single", "type":"LINKER"},
                 {"mode":"single", "type":"PRISON"},
                 {"mode":"random", "type":"CREEPER", "weight":4},
-                {"mode":"random", "type":"SPIDER", "weight":4},
+                {"mode":"random", "type":"SPIDER", "weight":1},
                 {"mode":"random", "type":"BRICK", "weight":10}
             ],
             "secrets":[
