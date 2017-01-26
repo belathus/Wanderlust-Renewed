@@ -4,116 +4,48 @@
         {
             "type":"ENCHANTING",
             "loot":[
-                {
-                    "data":{
-                        "name":"experience_bottle",
-                        "min":1,
-                        "max":3
-                    },
-                    "weight":10
-                }
+                {"data":{"name":"experience_bottle","min":1,"max":3},"weight":10}
             ],
-            "level":0,
+            "level":[0,1,2,3,4],
             "each":true,
             "quantity":3
         },
         {
             "type":"POTIONS",
             "loot":[
-                {
-                    "data":{
-                        "name":"natura:soups",
-                        "meta":4
-                    },
-                    "weight":1
-                },
-                {
-                    "data":{
-                        "name":"dungeontactics:bag_potion"
-                    },
-                    "weight":5
-                }
+                {"data":{"name":"natura:soups","meta":4},"weight":1},
+                {"data":{"name":"dungeontactics:bag_potion"},"weight":5}
             ],
-            "level":[
-                0,
-                1,
-                2,
-                3,
-                4
-            ],
+            "level":[0,1,2,3,4],
             "each":true,
             "quantity":3
         },
         {
             "type":"SUPPLIES",
             "loot":[
-                {
-                    "data":{
-                        "name":"wheat",
-                        "min":2,
-                        "max":7
-                    },
-                    "weight":1
-                },
-                {
-                    "data":{
-                        "name":"saddle"
-                    },
-                    "weight":1
-                },
-                {
-                    "data":{
-                        "name":"bucket"
-                    },
-                    "weight":2
-                }
+                {"data":{"name":"wheat","min":2,"max":7},"weight":1},
+                {"data":{"name":"saddle"},"weight":1},
+                {"data":{"name":"bucket"},"weight":2}
             ],
-            "level":[
-                0,
-                1,
-                2,
-                3,
-                4
-            ],
+            "level":[0,1,2,3,4],
             "each":true,
             "quantity":3
         },
 		{
             "type":"ORE",
             "loot":[
-                {
-                    "data":{
-                        "name":"dungeontactics:bag_ore",
-                        "min":1,
-                        "max":4
-                    }
-                }
+                {"data":{"name":"dungeontactics:bag_ore","min":1,"max":4}}
             ],
-            "level":[
-                1,
-                2,
-                3,
-                4
-            ],
+            "level":[0,1,2,3,4],
             "each":true,
             "quantity":5
         },
         {
             "type":"REWARD",
             "loot":[
-                {
-                    "data":{
-                        "name":"nether_star"
-                    }
-                }
+                {"data":{"name":"nether_star"}}
             ],
-            "level":[
-                0,
-                1,
-                2,
-                3,
-                4
-            ],
+            "level":[0,1,2,3,4],
             "each":true,
             "quantity":1
         },
@@ -183,249 +115,39 @@
         {
             "type":"FOOD",
             "loot":[
-                {
-                    "data":{
-                        "name":"primal:fish_clown_salted",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_cod_salted",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_lava_worm_salted",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_puffer_salted",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_salmon_salted",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:pigman_meat_salted",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"harvestcraft:saltedsunflowerseedsItem",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_clown_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_cod_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_lava_worm_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_puffer_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_salmon_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:horse_meat_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:ovis_meat_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:pigman_meat_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:wolf_meat_dried",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_clown_cured",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_cod_cured",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_lava_worm_cured",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_puffer_cured",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:fish_salmon_cured",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"primal:pigman_meat_cured",
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":10,
-                        "min":1,
-                        "max":3
-                    },
-                    "_comment":"monster jerky"
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":11,
-                        "min":1,
-                        "max":3
-                    },
-                    "_comment":"beef jerky"
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":12,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":13,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":14,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":15,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":20,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":21,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":22,
-                        "min":1,
-                        "max":3
-                    }
-                },
-                {
-                    "data":{
-                        "name":"tconstruct:edible",
-                        "meta":23,
-                        "min":1,
-                        "max":3
-                    }
-                },
-				{
-                    "data":{
-                        "name":"dungeontactics:bag_food",
-                        "min":1,
-                        "max":3
-                    }
-                }
+                {"data":{"name":"primal:fish_clown_salted","min":1,"max":3}},
+                {"data":{"name":"primal:fish_cod_salted","min":1,"max":3}},
+                {"data":{"name":"primal:fish_lava_worm_salted","min":1,"max":3}},
+                {"data":{"name":"primal:fish_puffer_salted","min":1,"max":3}},
+                {"data":{"name":"primal:fish_salmon_salted","min":1,"max":3}},
+                {"data":{"name":"primal:pigman_meat_salted","min":1,"max":3}},
+                {"data":{"name":"harvestcraft:saltedsunflowerseedsItem","min":1,"max":8}},
+                {"data":{"name":"primal:fish_clown_dried","min":1,"max":3}},
+                {"data":{"name":"primal:fish_cod_dried","min":1,"max":3}},
+                {"data":{"name":"primal:fish_lava_worm_dried","min":1,"max":3}},
+                {"data":{"name":"primal:fish_puffer_dried","min":1,"max":3}},
+                {"data":{"name":"primal:fish_salmon_dried","min":1,"max":3}},
+                {"data":{"name":"primal:horse_meat_dried","min":1,"max":3}},
+                {"data":{"name":"primal:ovis_meat_dried","min":1,"max":3}},
+                {"data":{"name":"primal:pigman_meat_dried","min":1,"max":3}},
+                {"data":{"name":"primal:wolf_meat_dried","min":1,"max":3}},
+                {"data":{"name":"primal:fish_clown_cured","min":1,"max":3}},
+                {"data":{"name":"primal:fish_cod_cured","min":1,"max":3}},
+                {"data":{"name":"primal:fish_lava_worm_cured","min":1,"max":3}},
+                {"data":{"name":"primal:fish_puffer_cured","min":1,"max":3}},
+                {"data":{"name":"primal:fish_salmon_cured","min":1,"max":3}},
+                {"data":{"name":"primal:pigman_meat_cured","min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":10,"min":1,"max":3},"_comment":"monster jerky"},
+                {"data":{"name":"tconstruct:edible","meta":11,"min":1,"max":3},"_comment":"beef jerky"},
+                {"data":{"name":"tconstruct:edible","meta":12,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":13,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":14,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":15,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":20,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":21,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":22,"min":1,"max":3}},
+                {"data":{"name":"tconstruct:edible","meta":23,"min":1,"max":3}},
+				{"data":{"name":"dungeontactics:bag_food","min":1,"max":3}}
             ],
             "level":[
                 0,

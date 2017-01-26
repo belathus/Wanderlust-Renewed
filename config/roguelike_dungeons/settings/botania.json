@@ -23,16 +23,33 @@
     ],
 	"inherit":[
 		"_loot_all",
-		"_loot0",
-		"_loot1",
-		"_loot2",
-		"_loot3",
-		"_loot4"
+        "_loot0",
+        "_loot1",
+        "_loot2",
+        "_loot3",
+        "_loot4"
 	],
     "levels":{
         "0":{
-            "range":25,
-            "numRooms":12,
+            "range":40,
+            "numRooms":15,
+            "rooms":[
+                {"mode":"single", "type":"CAKE"},
+                {"mode":"single", "type":"TREETHO"},
+                {"mode":"single", "type":"FIRE"},
+                {"mode":"random", "type":"LINKER", "weight":4},
+                {"mode":"random", "type":"BRICK", "weight":4},
+                {"mode":"random", "type":"CORNER", "weight":4},
+                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":4},
+                {"mode":"random", "type":"PYRAMIDCORNER", "weight":2}
+            ],
+            "secrets":[
+                {"type":"BEDROOM", "num":1},
+                {"type":"SMITH", "num":1},
+                {"type":"FIREWORK", "num":1},
+                {"type":"PYRAMIDTOMB", "num":1},
+                {"type":"STORAGE", "num":1}
+            ],
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -96,8 +113,14 @@
             }
         },
         "1":{
-            "range":40,
-            "numRooms":10,
+            "range":55,
+            "numRooms":17,
+            "secrets":[
+                {"type":"BTEAM", "num":1},
+                {"type":"STORAGE", "num":1},
+                {"type":"LIBRARY", "num":1},
+                {"type":"PYRAMIDTOMB", "num":2}
+            ],
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -167,8 +190,25 @@
             }
         },
         "2":{
-            "range":45,
-            "numRooms":14,
+            "range":70,
+            "numRooms":19,
+            "rooms":[
+                {"mode":"single", "type":"CRYPT"},
+                {"mode":"single", "type":"OSSUARY"},
+                {"mode":"single", "type":"LIBRARY"},
+                {"mode":"single", "type":"CORNER"},
+                {"mode":"single", "type":"LINKER"},
+                {"mode":"single", "type":"PRISON"},
+                {"mode":"random", "type":"CREEPER", "weight":4},
+                {"mode":"random", "type":"SPIDER", "weight":4},
+                {"mode":"random", "type":"BRICK", "weight":10}
+            ],
+            "secrets":[
+                {"type":"ETHO", "num":1},
+                {"type":"ENCHANT", "num":1},
+                {"type":"CAKE", "num":1},
+                {"type":"STORAGE", "num":1}
+            ],
             "theme":{
                 "base":"ENIKO",
                 "primary":{
@@ -217,6 +257,25 @@
         },
 		"3":{
             "numRooms":15,
+            "range":70,
+            "rooms":[
+                {"mode":"single","type":"OSSUARY"},
+                {"mode":"single","type":"CRYPT"},
+                {"mode":"single","type":"ENDER"},
+                {"mode":"single","type":"CORNER"},
+                {"mode":"random","type":"PRISON","weight":1},
+                {"mode":"random","type":"BRICK","weight":5},
+                {"mode":"random","type":"SLIME","weight":1},
+                {"mode":"random","type":"CREEPER","weight":1},
+                {"mode":"random","type":"SPIDER","weight":1},
+                {"mode":"random","type":"PIT","weight":1}
+            ],
+            "secrets":[
+                {"type":"MESS", "num":1},
+                {"type":"AVIDYA", "num":1},
+                {"type":"SMITH", "num":1},
+                {"type":"STORAGE", "num":1}
+            ],
             "theme":{
                 "base":"ENIKO",
                 "primary":{
@@ -282,6 +341,30 @@
             }
         },
 		"4":{
+            "numRooms":15,
+            "range":80,
+            "rooms":[
+                {"mode":"single","type":"DARKHALL"},
+                {"mode":"single","type":"REWARD"},
+                {"mode":"single","type":"NETHERFORT"},
+                {"mode":"single","type":"CORNER"},
+                {"mode":"single","type":"BLAZE"},
+                {"mode":"single","type":"NETHER"},
+                {"mode":"single","type":"OSSUARY"},
+                {"mode":"random","type":"CRYPT", "weight":2},
+                {"mode":"random","type":"BRICK", "weight":1},
+                {"mode":"random","type":"OBSIDIAN", "weight":1},
+                {"mode":"random","type":"PRISON", "weight":2},
+                {"mode":"random","type":"SPIDER", "weight":1},
+                {"mode":"random","type":"ENDER", "weight":1},
+                {"mode":"random","type":"SLIME", "weight":1}
+            ],
+            "secrets":[
+                {"type":"MUSIC", "num":1},
+                {"type":"ENIKO", "num":1},
+                {"type":"STORAGE", "num":1},
+                {"type":"LAB", "num":1}
+            ],
 			"theme":{
 				"base":"RAINBOW",
                 "primary":{
