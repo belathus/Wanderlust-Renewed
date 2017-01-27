@@ -4,10 +4,10 @@
 		{	
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "diamond_helmet", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_chestplate", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_leggings", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_boots", "ench" : 30}, "weight" : 3}
+				{"data" : {"name" : "diamond_helmet", "ench" : 30}},
+				{"data" : {"name" : "diamond_chestplate", "ench" : 30}},
+				{"data" : {"name" : "diamond_leggings", "ench" : 30}},
+				{"data" : {"name" : "diamond_boots", "ench" : 30}}
 			],
 			"level" : 4,
 			"each" : true,
@@ -25,10 +25,21 @@
 		{	
 			"type" : "TOOLS", 
 			"loot" : [
-				{"data" : {"name" : "diamond_pickaxe", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_axe", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "diamond_shovel", "ench" : 30}, "weight" : 3},
-				{"data" : {"name" : "botania:openBucket"}, "weight" : 2},
+				{
+					"data":[
+						{"data" : {"name" : "diamond_pickaxe", "ench" : 30}},
+						{"data" : {"name" : "diamond_axe", "ench" : 30}},
+						{"data" : {"name" : "diamond_shovel", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:bag_tool"}}
+					],
+					"weight":5
+				},
+				{
+					"data":[
+						{"data" : {"name" : "botania:openBucket"}}
+					],
+					"weight":3
+				},
 				{"data" : {"name" : "actuallyadditions:emeraldPaxel", "ench" : 30}, "weight" : 1}
 			],
 			"level" : 4,
@@ -40,6 +51,7 @@
 				{
 					"data" : [
 						{"data" : {"name" : "ender_pearl"}},
+						{"data" : {"name" : "dungeontactics:bag_book"}},
 						{"data" : {"name" : "redstone", "min" : 2, "max" : 16}},
 						{"data" : {"name" : "glowstone_dust", "min" : 2, "max" : 16}},
 						{"data" : {"name" : "dye", "meta" : 4, "min" : 4, "max" : 32}},
@@ -52,6 +64,7 @@
 					"data" : [
 						{"data" : {"name" : "abyssalcraft:mre"}},
 						{"data" : {"name" : "botania:blackLotus"}},
+						{"data" : {"name" : "book", "ench" : 30}},
 						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 16}, "weight" : 2}
 					],
 					"weight" : 3
@@ -86,6 +99,7 @@
 			"loot":[
 				{"data":{"name":"primal:arrow_torch_nether"}, "min":1, "max":8},
 				{"data":{"name":"tconstruct:throwball"}, "min":1, "max":6},
+				{"data":{"name":"fishing:itemNet"}, "min":1, "max":4},
 				{"data":{"name":"integrateddynamics:menrilTorch"}, "min":1, "max":6},
 				{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
 				{"data":{"name":"primal:lantern_nether"}, "min":1, "max":2}

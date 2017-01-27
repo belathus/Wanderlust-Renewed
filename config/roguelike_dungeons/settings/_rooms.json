@@ -1,0 +1,101 @@
+{
+    "name":"_rooms",
+    "levels":{
+        "0":{
+            "range":40,
+            "numRooms":15,
+            "rooms":[
+                {"mode":"single", "type":"CAKE"},
+                {"mode":"single", "type":"TREETHO"},
+                {"mode":"single", "type":"FIRE"},
+                {"mode":"random", "type":"LINKER", "weight":4},
+                {"mode":"random", "type":"BRICK", "weight":4},
+                {"mode":"random", "type":"CORNER", "weight":4},
+                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":4},
+                {"mode":"random", "type":"PYRAMIDCORNER", "weight":2}
+            ],
+            "secrets":[
+                {"type":"BEDROOM", "num":1},
+                {"type":"SMITH", "num":1},
+                {"type":"FIREWORK", "num":1},
+                {"type":"PYRAMIDTOMB", "num":1},
+                {"type":"STORAGE", "num":1}
+            ]
+        },
+        "1":{
+            "range":55,
+            "numRooms":17,
+            "secrets":[
+                {"type":"BTEAM", "num":1},
+                {"type":"STORAGE", "num":1},
+                {"type":"LIBRARY", "num":1},
+                {"type":"PYRAMIDTOMB", "num":2}
+            ]
+        },
+        "2":{
+            "range":70,
+            "numRooms":19,
+            "rooms":[
+                {"mode":"single", "type":"OSSUARY"},
+                {"mode":"single", "type":"LIBRARY"},
+                {"mode":"single", "type":"CORNER"},
+                {"mode":"single", "type":"LINKER"},
+                {"mode":"single", "type":"PRISON"},
+                {"mode":"single", "type":"ETHO"},
+                {"mode":"single", "type":"ENCHANT"},
+                {"mode":"single", "type":"CAKE"},
+                {"mode":"single", "type":"STORAGE"},
+                {"mode":"random", "type":"CRYPT", "weight":2},
+                {"mode":"random", "type":"CREEPER", "weight":4},
+                {"mode":"random", "type":"SPIDER", "weight":1},
+                {"mode":"random", "type":"BRICK", "weight":10}
+            ]
+        },
+        "3":{
+            "range":85,
+            "numRooms":21,
+            "rooms":[
+                {"mode":"single","type":"OSSUARY"},
+                {"mode":"single","type":"ENDER"},
+                {"mode":"single","type":"CORNER"},
+                {"mode":"single","type":"MESS"},
+                {"mode":"single","type":"AVIDYA"},
+                {"mode":"single","type":"SMITH"},
+                {"mode":"single","type":"STORAGE"},
+                {"mode":"random","type":"CRYPT", "weight":1},
+                {"mode":"random","type":"PRISON","weight":2},
+                {"mode":"random","type":"BRICK","weight":5},
+                {"mode":"random","type":"SLIME","weight":1},
+                {"mode":"random","type":"CREEPER","weight":1},
+                {"mode":"random","type":"SPIDER","weight":1},
+                {"mode":"random","type":"PIT","weight":1},
+                {"mode":"random","type":"PYRAMIDTOMB","weight":1}
+            ]
+        },
+        "4":{
+            "range":100,
+            "numRooms":23,
+            "rooms":[
+                {"mode":"single","type":"DARKHALL"},
+                {"mode":"single","type":"REWARD"},
+                {"mode":"single","type":"NETHERFORT"},
+                {"mode":"single","type":"CORNER"},
+                {"mode":"single","type":"NETHER"},
+                {"mode":"single","type":"OSSUARY"},
+                {"mode":"single","type":"MUSIC"},
+                {"mode":"single","type":"ENIKO"},
+                {"mode":"single","type":"STORAGE"},
+                {"mode":"single","type":"LAB"},
+                {"mode":"random","type":"BLAZE", "weight":1},
+                {"mode":"random","type":"PYRAMIDTOMB", "weight":1},
+                {"mode":"random","type":"CRYPT", "weight":2},
+                {"mode":"random","type":"BRICK", "weight":1},
+                {"mode":"random","type":"OBSIDIAN", "weight":1},
+                {"mode":"random","type":"PRISON", "weight":2},
+                {"mode":"random","type":"SPIDER", "weight":1},
+                {"mode":"random","type":"ENDER", "weight":1},
+                {"mode":"random","type":"SLIME", "weight":1}
+            ]
+        }
+    }
+}
