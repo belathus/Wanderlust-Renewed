@@ -147,7 +147,8 @@
                         {"data":{"name":"netherbrick","min":1,"max":3}},
                         {"data":{"name":"book","ench":7}},
                         {"data":{"name":"primal:torch_wood_lit"},"min":1,"max":4},
-                        {"data":{"name":"primal:arrow_torch_wood"}, "min":1, "max":2}
+                        {"data":{"name":"primal:arrow_torch_wood"}, "min":1, "max":2},
+                        {"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}}
                     ],
                     "weight":3
                 },
@@ -170,7 +171,6 @@
                         {"data":{"name":"anvil"}},
                         {"data":{"name":"extrautils2:RedOrchid","min":1,"max":2}},
                         {"data":{"name":"extrautils2:EnderLilly","min":1,"max":2}},
-                        {"data":{"name":"actuallyadditions:itemCrateKeeper"}},
                         {
                             "data":[
                                 {"data":{"name":"quark:rune","meta":0,"min":1,"max":2}},
@@ -191,7 +191,8 @@
                                 {"data":{"name":"quark:rune","meta":15,"min":1,"max":2}}
                             ]
                         },
-                        {"data":{"name":"book","ench":12}}
+                        {"data":{"name":"book","ench":12}},
+                        {"data":{"name":"actuallyadditions:itemCrateKeeper"}}
                     ],
                     "weight":2
                 }
