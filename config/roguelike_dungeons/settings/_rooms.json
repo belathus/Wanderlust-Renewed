@@ -8,11 +8,12 @@
                 {"mode":"single", "type":"CAKE"},
                 {"mode":"single", "type":"TREETHO"},
                 {"mode":"single", "type":"FIRE"},
-                {"mode":"random", "type":"LINKER", "weight":4},
-                {"mode":"random", "type":"BRICK", "weight":4},
-                {"mode":"random", "type":"CORNER", "weight":4},
-                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":4},
-                {"mode":"random", "type":"PYRAMIDCORNER", "weight":2}
+                {"mode":"single", "type":"ENIKO"},
+                {"mode":"random", "type":"LINKERTOP", "weight":1},
+                {"mode":"random", "type":"BRICK", "weight":2},
+                {"mode":"random", "type":"CORNER", "weight":1},
+                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":2},
+                {"mode":"random", "type":"PYRAMIDCORNER", "weight":1}
             ],
             "secrets":[
                 {"type":"BEDROOM", "num":1},
@@ -39,14 +40,16 @@
                 {"mode":"single", "type":"OSSUARY"},
                 {"mode":"single", "type":"LIBRARY"},
                 {"mode":"single", "type":"CORNER"},
-                {"mode":"single", "type":"LINKER"},
+                {"mode":"single", "type":"LINKERTOP"},
                 {"mode":"single", "type":"PRISON"},
                 {"mode":"single", "type":"ETHO"},
                 {"mode":"single", "type":"ENCHANT"},
                 {"mode":"single", "type":"CAKE"},
                 {"mode":"single", "type":"STORAGE"},
-                {"mode":"random", "type":"CRYPT", "weight":2},
-                {"mode":"random", "type":"CREEPER", "weight":4},
+                {"mode":"single", "type":"FIRE"},
+                {"mode":"random", "type":"CRYPT", "weight":5},
+                {"mode":"random", "type":"ENIKO", "weight":2},
+                {"mode":"random", "type":"CREEPER", "weight":2},
                 {"mode":"random", "type":"SPIDER", "weight":1},
                 {"mode":"random", "type":"BRICK", "weight":10}
             ]
@@ -65,7 +68,7 @@
                 {"mode":"random","type":"CRYPT", "weight":1},
                 {"mode":"random","type":"PRISON","weight":2},
                 {"mode":"random","type":"BRICK","weight":5},
-                {"mode":"random","type":"SLIME","weight":1},
+                {"mode":"random","type":"SLIME","weight":5},
                 {"mode":"random","type":"CREEPER","weight":1},
                 {"mode":"random","type":"SPIDER","weight":1},
                 {"mode":"random","type":"PIT","weight":1},
@@ -86,15 +89,16 @@
                 {"mode":"single","type":"ENIKO"},
                 {"mode":"single","type":"STORAGE"},
                 {"mode":"single","type":"LAB"},
+                {"mode":"single","type":"FIRE"},
                 {"mode":"random","type":"BLAZE", "weight":1},
-                {"mode":"random","type":"PYRAMIDTOMB", "weight":1},
+                {"mode":"random","type":"BRICK", "weight":5},
+                {"mode":"random","type":"PYRAMIDTOMB", "weight":2},
                 {"mode":"random","type":"CRYPT", "weight":2},
-                {"mode":"random","type":"BRICK", "weight":1},
-                {"mode":"random","type":"OBSIDIAN", "weight":1},
+                {"mode":"random","type":"OBSIDIAN", "weight":3},
                 {"mode":"random","type":"PRISON", "weight":2},
                 {"mode":"random","type":"SPIDER", "weight":1},
                 {"mode":"random","type":"ENDER", "weight":1},
-                {"mode":"random","type":"SLIME", "weight":1}
+                {"mode":"random","type":"SLIME", "weight":5}
             ]
         }
     }
