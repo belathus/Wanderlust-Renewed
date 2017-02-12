@@ -4,6 +4,20 @@
         "0":{
             "range":40,
             "numRooms":15,
+            "spawners" : {
+				"SPIDER" : [
+					{"name" : "abyssalcraft.demonsheep"},
+					{"name" : "Spider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "Skeleton", "equip":true}
+				]
+			},
             "rooms":[
                 {"mode":"single", "type":"CAKE"},
                 {"mode":"single", "type":"TREETHO"},
@@ -26,6 +40,23 @@
         "1":{
             "range":55,
             "numRooms":17,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "abyssalcraft.demonsheep"},
+					{"name" : "BiomesOPlenty.wasp"},
+					{"name" : "Spider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Skeleton", "equip":true}
+				]
+            },
             "secrets":[
                 {"type":"BTEAM", "num":1},
                 {"type":"STORAGE", "num":1},
@@ -36,6 +67,30 @@
         "2":{
             "range":70,
             "numRooms":19,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "natura.imp"},
+					{"name" : "arsmagica2.Hecate", "equip":true},
+					{"name" : "Spider"},
+                    {"name": "CaveSpider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "arsmagica2.Dryad", "equip":true},
+					{"name" : "cyberware.cyberzombie", "equip":true},
+					{"name" : "arsmagica2.EarthElemental", "equip":true},
+					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Quark.wraith"},
+					{"name" : "Quark.pirate"},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "Skeleton", "equip":true}
+				]
+            },
             "rooms":[
                 {"mode":"single", "type":"OSSUARY"},
                 {"mode":"single", "type":"LIBRARY"},
@@ -57,6 +112,34 @@
         "3":{
             "range":85,
             "numRooms":21,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "natura.imp"},
+					{"name" : "arsmagica2.Hecate", "equip":true},
+					{"name" : "abyssalcraft.shadowmonster", "equip":true},
+					{"name" : "Spider"},
+                    {"name": "CaveSpider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "cyberware.cyberzombie", "equip":true},
+					{"name" : "arsmagica2.EarthElemental", "equip":true},
+					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "embers.ancientGolem", "equip":true},
+					{"name" : "abyssalcraft.depthsghoul", "equip":true},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Quark.wraith"},
+					{"name" : "Quark.pirate"},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true},
+                    {"name" : "EnderZoo.WitherWitch", "equip":true},
+                    {"name" : "arsmagica2.ManaElemental", "equip":true},
+					{"name" : "Skeleton", "equip":true}
+				]
+            },
             "rooms":[
                 {"mode":"single","type":"OSSUARY"},
                 {"mode":"single","type":"ENDER"},
@@ -78,6 +161,41 @@
         "4":{
             "range":100,
             "numRooms":23,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "natura.imp"},
+					{"name" : "arsmagica2.Hecate", "equip":true},
+					{"name" : "abyssalcraft.shadowmonster", "equip":true},
+					{"name" : "abyssalcraft.shadowbeast", "equip":true},
+					{"name" : "Spider"},
+                    {"name": "CaveSpider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "cyberware.cyberzombie", "equip":true},
+					{"name" : "arsmagica2.EarthElemental", "equip":true},
+					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "embers.ancientGolem", "equip":true},
+					{"name" : "abyssalcraft.depthsghoul", "equip":true},
+                    {"name" : "arsmagica2.HellCow", "equip":true},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Quark.wraith"},
+					{"name" : "Quark.pirate"},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true},
+                    {"name" : "EnderZoo.WitherWitch", "equip":true},
+                    {"name" : "arsmagica2.ManaElemental", "equip":true},
+                    {"name" : "abyssalcraft.gskeleton", "equip":true},
+					{"name" : "Skeleton", "equip":true}
+				],
+                "BLAZE":[
+                    {"name":"Blaze"},
+                    {"name":"arsmagica2.FireElemental"}
+                ]
+            },
             "rooms":[
                 {"mode":"single","type":"DARKHALL"},
                 {"mode":"single","type":"REWARD"},
@@ -100,6 +218,15 @@
                 {"mode":"random","type":"ENDER", "weight":1},
                 {"mode":"random","type":"SLIME", "weight":5}
             ]
+        },
+        "all":{
+            "spawners":{
+                "CREEPER":[
+                    {"name":"Creeper"},
+                    {"name":"EnderZoo.ConcussionCreeper"},
+                    {"name":"arsmagica2.ManaCreeper"}
+                ]
+            }
         }
     }
 }
