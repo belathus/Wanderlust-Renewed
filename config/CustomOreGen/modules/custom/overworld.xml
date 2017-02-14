@@ -722,7 +722,7 @@
     
     <!-- Base Metals -->
     <IfModInstalled name="basemetals">
-        <Veins name='bmetMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60990000' drawBoundBox='false' boundBoxColor='0x60990000'>
+        <Veins name='bmetMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60990000' drawBoundBox='false' boundBoxColor='0x60990000'>
             <Description>
             Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -1488,7 +1488,56 @@
             </Veins>
         </IfModInstalled>
     </IfModInstalled>
-	
+
+	<!-- LibVulpes -->
+    <IfModInstalled name="libVulpes">
+        <Veins name='lvulRutileVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
+            <!-- Making taconite ore spawn anywhere, and more common than other ores, but only at high altitudes -->
+            <Biome name=".*"/>
+            <BiomeType name="OCEAN" weight='-1.0'/>
+            <OreBlock block='libvulpes:ore0' weight='1.0'/>
+            <ReplacesOre block='stone'/>
+			<Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
+			<Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
+			<Setting name='MotherlodeHeight'      avg=':= 40 '                range=':= 10 '                type='normal' scaleTo='base' />
+			<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='BranchLength'          avg=':= 0.783 * _default_ ' range=':= 0.783 * _default_ ' type='normal' />
+			<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+			<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentRadius'         avg=':= 0.885 * _default_ ' range=':= 0.885 * _default_ ' type='normal' />
+			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+        <Veins name='lvulRutilePreferredVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
+            <!-- More common in oceans -->
+            <BiomeType name="OCEAN"/>
+            <OreBlock block='libvulpes:ore0' weight='1.0'/>
+            <ReplacesOre block='stone'/>
+			<Setting name='MotherlodeFrequency'   avg=':= 1.613 * _default_ ' range=':= 1.613 * _default_ ' type='normal' scaleTo='base' />
+			<Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
+			<Setting name='MotherlodeHeight'      avg=':= 30 '                range=':= 10 '                type='normal' scaleTo='base' />
+			<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='BranchLength'          avg=':= 0.783 * _default_ ' range=':= 0.783 * _default_ ' type='normal' />
+			<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+			<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='SegmentRadius'         avg=':= 0.885 * _default_ ' range=':= 0.885 * _default_ ' type='normal' />
+			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+    </IfModInstalled>
+
     <!-- Rockhounding Oretiers -->
     <!-- Magnetite, Hematite, Limonite, Goethite, Siderite, Taconite, Bog Iron, Banded Iron -->
     <IfModInstalled name="rockhounding_oretiers">
