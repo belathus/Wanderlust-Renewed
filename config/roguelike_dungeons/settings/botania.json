@@ -5,7 +5,11 @@
             "PLAINS",
             "FOREST",
             "MAGICAL",
-            "LUSH"
+            "LUSH",
+            "JUNGLE",
+            "WET",
+            "SAVANNA",
+            "DENSE"
         ],
         "dimensionWL":[
             0
@@ -23,16 +27,15 @@
     ],
 	"inherit":[
 		"_loot_all",
-		"_loot0",
-		"_loot1",
-		"_loot2",
-		"_loot3",
-		"_loot4"
+        "_loot0",
+        "_loot1",
+        "_loot2",
+        "_loot3",
+        "_loot4",
+        "_rooms"
 	],
     "levels":{
         "0":{
-            "range":25,
-            "numRooms":12,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -96,8 +99,6 @@
             }
         },
         "1":{
-            "range":40,
-            "numRooms":10,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -167,8 +168,6 @@
             }
         },
         "2":{
-            "range":45,
-            "numRooms":14,
             "theme":{
                 "base":"ENIKO",
                 "primary":{
@@ -216,7 +215,6 @@
             }
         },
 		"3":{
-            "numRooms":15,
             "theme":{
                 "base":"ENIKO",
                 "primary":{

@@ -79,6 +79,7 @@
 				{
 					"data":[
 						{"data" : {"name" : "diamond", "min" : 1, "max" : 4}},
+						{"data" : {"name" : "ghast_tear", "min" : 1, "max" : 4}},
 						{
 							"data" : [
 								{"data" : {"name" : "botania:lens", "meta" : 17}},
@@ -95,7 +96,8 @@
 								{"data" : {"name" : "evilcraft:weatherContainer", "meta" : 2}}
 							]
 						},
-						{"data" : {"name" : "tconstruct:punji", "min" : 1, "max" : 8}}
+						{"data" : {"name" : "tconstruct:punji", "min" : 1, "max" : 8}},
+						{"data" : {"name" : "actuallyadditions:itemSmallToMediumCrateUpgrade"}}
 					],
 					"weight":3
 				},
@@ -110,7 +112,7 @@
 						},
 						{"data" : {"name" : "book", "ench" : 24}},
 						{"data" : {"name" : "botania:blackLotus", "meta" : 1}},
-						{"data" : {"name":"extrautils2:IneffableGlass"}}
+						{"data" : {"name":"extrautils2:ineffableglass"}}
 					],
 					"weight":2
 				}

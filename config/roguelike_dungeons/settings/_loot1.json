@@ -101,8 +101,21 @@
                         {"data":{"name":"redstone","min":2,"max":8}},
                         {"data":{"name":"esteemedinnovation:soil_sampling_kit","min":1,"max":2}},
                         {"data":{"name":"arsmagica2:item_ore","min":1,"max":3}},
-                        {"data":{"name":"xreliquary:mob_ingredient","meta":6}},
-                        {"data":{"name":"xreliquary:mob_ingredient","meta":11}},
+                        {
+							"data":[
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 0}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 1}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 2}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 3}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 4}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 5}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 6}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 8}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 10}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 11}},
+								{"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 12}}
+							]
+						},
                         {"data":{"name":"botania:manaGlass","min":1,"max":4}},
                         {"data":{"name":"tconstruct:clear_glass","min":4,"max":16}},
                         {"data":{"name":"glass","min":16,"max":32}}
@@ -134,7 +147,8 @@
                         {"data":{"name":"netherbrick","min":1,"max":3}},
                         {"data":{"name":"book","ench":7}},
                         {"data":{"name":"primal:torch_wood_lit"},"min":1,"max":4},
-                        {"data":{"name":"primal:arrow_torch_wood"}, "min":1, "max":2}
+                        {"data":{"name":"primal:arrow_torch_wood"}, "min":1, "max":2},
+                        {"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}}
                     ],
                     "weight":3
                 },
@@ -151,13 +165,12 @@
                         {"data":{"name":"arsmagica2:item_ore","meta":4,"min":1,"max":2}},
                         {"data":{"name":"arsmagica2:item_ore","meta":3,"min":1,"max":2}},
                         {"data":{"name":"abyssalcraft:shadowgem","min":1,"max":2}},
-                        {"data":{"name":"extrautils2:DecorativeSolidWood","meta":1,"min":1,"max":2}},
+                        {"data":{"name":"extrautils2:decorativesolidwood","meta":1,"min":1,"max":2}},
                         {"data":{"name":"botania:manaResource","min":1,"max":4}},
                         {"data":{"name":"piston"}},
                         {"data":{"name":"anvil"}},
-                        {"data":{"name":"extrautils2:RedOrchid","min":1,"max":2}},
-                        {"data":{"name":"extrautils2:EnderLilly","min":1,"max":2}},
-                        {"data":{"name":"actuallyadditions:itemCrateKeeper"}},
+                        {"data":{"name":"extrautils2:redorchid","min":1,"max":2}},
+                        {"data":{"name":"extrautils2:enderlilly","min":1,"max":2}},
                         {
                             "data":[
                                 {"data":{"name":"quark:rune","meta":0,"min":1,"max":2}},
@@ -178,7 +191,8 @@
                                 {"data":{"name":"quark:rune","meta":15,"min":1,"max":2}}
                             ]
                         },
-                        {"data":{"name":"book","ench":12}}
+                        {"data":{"name":"book","ench":12}},
+                        {"data":{"name":"actuallyadditions:itemCrateKeeper"}}
                     ],
                     "weight":2
                 }

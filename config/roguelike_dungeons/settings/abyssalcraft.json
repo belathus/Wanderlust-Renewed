@@ -7,8 +7,11 @@
         "biomeTypes":[
             "DEAD",
             "SPOOKY",
-            "WET",
-            "WASTELAND"
+            "SWAMP",
+            "WASTELAND",
+            "WARM",
+            "MOUNTAIN",
+            "HILLS"
         ],
         "weight":1
     },
@@ -21,7 +24,8 @@
 		"_loot1",
 		"_loot2",
 		"_loot3",
-		"_loot4"
+		"_loot4",
+        "_rooms"
 	],
     "tower":{
         "type":"JUNGLE",
@@ -85,8 +89,6 @@
     },
     "levels":{
         "0":{
-            "range":25,
-            "numRooms":12,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -150,8 +152,6 @@
             }
         },
         "1":{
-            "range":30,
-            "numRooms":15,
             "theme":{
                 "base":"SEWER",
                 "primary":{
@@ -212,8 +212,6 @@
             }
         },
         "2":{
-            "range":40,
-            "numRooms":20,
             "theme":{
                 "base":"SEWER",
                 "primary":{
@@ -322,16 +320,8 @@
             }
         },
         "3":{
-            "range":50,
-            "numRooms":25,
             "theme":{
                 "base":"QUARTZ",
-                "secrets":[
-                    {
-                        "type":"BEDROOM",
-                        "num":1
-                    }
-                ],
                 "primary":{
                     "walls":{
                         "type":"JUMBLE",
@@ -418,8 +408,6 @@
             }
         },
         "4":{
-            "range":60,
-            "numRooms":30,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{

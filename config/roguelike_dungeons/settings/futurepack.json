@@ -8,7 +8,10 @@
             "WASTELAND",
             "COLD",
             "DRY",
-            "SANDY"
+            "SANDY",
+            "BEACH",
+            "CONIFEROUS",
+            "HOT"
         ],
         "weight":1
     },
@@ -21,7 +24,8 @@
 		"_loot1",
 		"_loot2",
 		"_loot3",
-		"_loot4"
+		"_loot4",
+        "_rooms"
 	],
     "tower":{
         "type":"WITCH",
@@ -31,8 +35,6 @@
     },
     "levels":{
         "0":{
-            "range":30,
-            "numRooms":10,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -96,8 +98,6 @@
             }
         },
         "1":{
-            "range":45,
-            "numRooms":15,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -161,8 +161,6 @@
             }
         },
         "2":{
-            "range":50,
-            "numRooms":20,
             "theme":{
                 "base":"QUARTZ",
                 "primary":{
@@ -197,8 +195,6 @@
             }
         },
         "3":{
-            "range":55,
-            "numRooms":25,
             "theme":{
                 "base":"SEWER",
                 "primary":{
@@ -241,8 +237,6 @@
             }
         },
         "4":{
-            "range":60,
-            "numRooms":30,
             "theme":{
                 "base":"SANDSTONERED",
                 "primary":{

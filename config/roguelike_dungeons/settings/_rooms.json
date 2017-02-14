@@ -1,0 +1,232 @@
+{
+    "name":"_rooms",
+    "levels":{
+        "0":{
+            "range":40,
+            "numRooms":15,
+            "spawners" : {
+				"SPIDER" : [
+					{"name" : "abyssalcraft.demonsheep"},
+					{"name" : "Spider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "Skeleton", "equip":true}
+				]
+			},
+            "rooms":[
+                {"mode":"single", "type":"CAKE"},
+                {"mode":"single", "type":"TREETHO"},
+                {"mode":"single", "type":"FIRE"},
+                {"mode":"single", "type":"ENIKO"},
+                {"mode":"random", "type":"LINKERTOP", "weight":1},
+                {"mode":"random", "type":"BRICK", "weight":2},
+                {"mode":"random", "type":"CORNER", "weight":1},
+                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":2},
+                {"mode":"random", "type":"PYRAMIDCORNER", "weight":1}
+            ],
+            "secrets":[
+                {"type":"BEDROOM", "num":1},
+                {"type":"SMITH", "num":1},
+                {"type":"FIREWORK", "num":1},
+                {"type":"PYRAMIDTOMB", "num":1},
+                {"type":"STORAGE", "num":1}
+            ]
+        },
+        "1":{
+            "range":55,
+            "numRooms":17,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "abyssalcraft.demonsheep"},
+					{"name" : "BiomesOPlenty.wasp"},
+					{"name" : "Spider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "abyssalcraft.demoncow"},
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Skeleton", "equip":true}
+				]
+            },
+            "secrets":[
+                {"type":"BTEAM", "num":1},
+                {"type":"STORAGE", "num":1},
+                {"type":"LIBRARY", "num":1},
+                {"type":"PYRAMIDTOMB", "num":2}
+            ]
+        },
+        "2":{
+            "range":70,
+            "numRooms":19,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "natura.imp"},
+					{"name" : "arsmagica2.Hecate", "equip":true},
+					{"name" : "Spider"},
+                    {"name": "CaveSpider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "arsmagica2.Dryad", "equip":true},
+					{"name" : "cyberware.cyberzombie", "equip":true},
+					{"name" : "arsmagica2.EarthElemental", "equip":true},
+					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Quark.wraith"},
+					{"name" : "Quark.pirate"},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "Skeleton", "equip":true}
+				]
+            },
+            "rooms":[
+                {"mode":"single", "type":"OSSUARY"},
+                {"mode":"single", "type":"LIBRARY"},
+                {"mode":"single", "type":"CORNER"},
+                {"mode":"single", "type":"LINKERTOP"},
+                {"mode":"single", "type":"PRISON"},
+                {"mode":"single", "type":"ETHO"},
+                {"mode":"single", "type":"ENCHANT"},
+                {"mode":"single", "type":"CAKE"},
+                {"mode":"single", "type":"STORAGE"},
+                {"mode":"single", "type":"FIRE"},
+                {"mode":"random", "type":"CRYPT", "weight":5},
+                {"mode":"random", "type":"ENIKO", "weight":2},
+                {"mode":"random", "type":"CREEPER", "weight":2},
+                {"mode":"random", "type":"SPIDER", "weight":1},
+                {"mode":"random", "type":"BRICK", "weight":10}
+            ]
+        },
+        "3":{
+            "range":85,
+            "numRooms":21,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "natura.imp"},
+					{"name" : "arsmagica2.Hecate", "equip":true},
+					{"name" : "abyssalcraft.shadowmonster", "equip":true},
+					{"name" : "Spider"},
+                    {"name": "CaveSpider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "cyberware.cyberzombie", "equip":true},
+					{"name" : "arsmagica2.EarthElemental", "equip":true},
+					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "embers.ancientGolem", "equip":true},
+					{"name" : "abyssalcraft.depthsghoul", "equip":true},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Quark.wraith"},
+					{"name" : "Quark.pirate"},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true},
+                    {"name" : "EnderZoo.WitherWitch", "equip":true},
+                    {"name" : "arsmagica2.ManaElemental", "equip":true},
+					{"name" : "Skeleton", "equip":true}
+				]
+            },
+            "rooms":[
+                {"mode":"single","type":"OSSUARY"},
+                {"mode":"single","type":"ENDER"},
+                {"mode":"single","type":"CORNER"},
+                {"mode":"single","type":"MESS"},
+                {"mode":"single","type":"AVIDYA"},
+                {"mode":"single","type":"SMITH"},
+                {"mode":"single","type":"STORAGE"},
+                {"mode":"random","type":"CRYPT", "weight":1},
+                {"mode":"random","type":"PRISON","weight":2},
+                {"mode":"random","type":"BRICK","weight":5},
+                {"mode":"random","type":"SLIME","weight":5},
+                {"mode":"random","type":"CREEPER","weight":1},
+                {"mode":"random","type":"SPIDER","weight":1},
+                {"mode":"random","type":"PIT","weight":1},
+                {"mode":"random","type":"PYRAMIDTOMB","weight":1}
+            ]
+        },
+        "4":{
+            "range":100,
+            "numRooms":23,
+            "spawners":{
+                "SPIDER" : [
+					{"name" : "natura.imp"},
+					{"name" : "arsmagica2.Hecate", "equip":true},
+					{"name" : "abyssalcraft.shadowmonster", "equip":true},
+					{"name" : "abyssalcraft.shadowbeast", "equip":true},
+					{"name" : "Spider"},
+                    {"name": "CaveSpider"}
+				],
+				"ZOMBIE" : [
+					{"name" : "abyssalcraft.shadowcreature"},
+					{"name" : "EnderZoo.FallenKnight", "equip":true},
+					{"name" : "cyberware.cyberzombie", "equip":true},
+					{"name" : "arsmagica2.EarthElemental", "equip":true},
+					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "embers.ancientGolem", "equip":true},
+					{"name" : "abyssalcraft.depthsghoul", "equip":true},
+                    {"name" : "arsmagica2.HellCow", "equip":true},
+					{"name" : "Zombie", "equip":true}
+				],
+				"SKELETON" : [
+					{"name" : "arsmagica2.WaterElemental"},
+					{"name" : "Quark.wraith"},
+					{"name" : "Quark.pirate"},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true},
+                    {"name" : "EnderZoo.WitherWitch", "equip":true},
+                    {"name" : "arsmagica2.ManaElemental", "equip":true},
+                    {"name" : "abyssalcraft.gskeleton", "equip":true},
+					{"name" : "Skeleton", "equip":true}
+				],
+                "BLAZE":[
+                    {"name":"Blaze"},
+                    {"name":"arsmagica2.FireElemental"}
+                ]
+            },
+            "rooms":[
+                {"mode":"single","type":"DARKHALL"},
+                {"mode":"single","type":"REWARD"},
+                {"mode":"single","type":"NETHERFORT"},
+                {"mode":"single","type":"CORNER"},
+                {"mode":"single","type":"NETHER"},
+                {"mode":"single","type":"OSSUARY"},
+                {"mode":"single","type":"MUSIC"},
+                {"mode":"single","type":"ENIKO"},
+                {"mode":"single","type":"STORAGE"},
+                {"mode":"single","type":"LAB"},
+                {"mode":"single","type":"FIRE"},
+                {"mode":"random","type":"BLAZE", "weight":1},
+                {"mode":"random","type":"BRICK", "weight":5},
+                {"mode":"random","type":"PYRAMIDTOMB", "weight":2},
+                {"mode":"random","type":"CRYPT", "weight":2},
+                {"mode":"random","type":"OBSIDIAN", "weight":3},
+                {"mode":"random","type":"PRISON", "weight":2},
+                {"mode":"random","type":"SPIDER", "weight":1},
+                {"mode":"random","type":"ENDER", "weight":1},
+                {"mode":"random","type":"SLIME", "weight":5}
+            ]
+        },
+        "all":{
+            "spawners":{
+                "CREEPER":[
+                    {"name":"Creeper"},
+                    {"name":"EnderZoo.ConcussionCreeper"},
+                    {"name":"arsmagica2.ManaCreeper"}
+                ]
+            }
+        }
+    }
+}
