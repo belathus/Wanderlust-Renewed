@@ -78,11 +78,11 @@
     recipes.remove(<dungeontactics:stone_sword>);
 
 # Extra Utilities
-    recipes.remove(<extrautils2:ItemDestructionWand>);
-    recipes.addShaped(<extrautils2:ItemDestructionWand>,
+    recipes.remove(<extrautils2:itemdestructionwand>);
+    recipes.addShaped(<extrautils2:itemdestructionwand>,
         [[null,<ore:ingotNoctunyx>,<ore:ingotAstrium>],
-         [null,<extrautils2:DecorativeSolidWood:1>,<ore:ingotNoctunyx>],
-         [<extrautils2:DecorativeSolidWood:1>,null,null]]);
+         [null,<extrautils2:decorativesolidwood:1>,<ore:ingotNoctunyx>],
+         [<extrautils2:decorativesolidwood:1>,null,null]]);
 
 # Grappling Hooks
     recipes.remove(<grapplemod:grapplinghook>);

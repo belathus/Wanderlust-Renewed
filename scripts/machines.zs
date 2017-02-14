@@ -5,6 +5,7 @@
     #     [<>,<>,<>]]);
     
 var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantments:[{id:70,lvl:1}]});
+var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id:70}]}).onlyWithTag({StoredEnchantments:[{lvl:1,id:70}]});
 
 # Vanilla
     recipes.addShaped(<minecraft:hopper>,
@@ -16,6 +17,10 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
     recipes.remove(<arsmagica2:arcane_reconstructor>);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
         [[<ore:dustVinteum>,mending,<ore:dustVinteum>],
+         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
+         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
+    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
+        [[<ore:dustVinteum>,mending2,<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
     recipes.remove(<arsmagica2:armor_imbuer>);
@@ -96,6 +101,10 @@ var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl
     recipes.remove(<evilcraft:bloodChest>);
     recipes.addShaped(<evilcraft:bloodChest>,
         [[<ore:plankWood>,mending,<ore:plankWood>],
+         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
+         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
+    recipes.addShaped(<evilcraft:bloodChest>,
+        [[<ore:plankWood>,mending2,<ore:plankWood>],
          [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
          [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
          
