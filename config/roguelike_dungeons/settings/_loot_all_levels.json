@@ -51,6 +51,15 @@
             "quantity":1
         },
         {
+            "type":"REWARD",
+            "loot":[
+                {"data" : {"name" : "xreliquary:mob_ingredient", "meta" : 8}}
+            ],
+            "level":[0,1,2,3,4],
+            "each":true,
+            "quantity":1
+        },
+        {
             "type":"STARTER",
             "loot":[
                 {
