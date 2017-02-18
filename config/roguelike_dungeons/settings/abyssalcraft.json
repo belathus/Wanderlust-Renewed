@@ -227,7 +227,6 @@
                         "data":[
                             {
                                 "name":"air",
-                                "meta":11,
                                 "weight":4
                             },
                             {
@@ -248,30 +247,22 @@
                         }
                     },
                     "floor":{
-                        "type":"WEIGHTED",
+                        "type":"JUMBLE",
                         "data":[
                             {
-                                "name":"abyssalcraft:shoggothbiomass",
-                                "weight":1
+                                "name":"chisel:netherrack",
+                                "meta":11
                             },
                             {
-                                "name":"nethercore:stone",
-                                "meta":5,
-                                "weight":30
+                                "name":"minecraft:red_nether_brick"
                             },
                             {
-                                "name":"minecraft:red_nether_brick",
-                                "weight":30
-                            },
-                            {
-                                "name":"nethercore:stone",
-                                "meta":3,
-                                "weight":30
+                                "name":"chisel:netherrack",
+                                "meta":6
                             },
                             {
                                 "name":"railcraft:brick_bloodstained",
-                                "meta":1,
-                                "weight":30
+                                "meta":1
                             }
                         ]
                     }
@@ -294,8 +285,7 @@
                         "type":"JUMBLE",
                         "data":[
                             {
-                                "name":"air",
-                                "meta":10
+                                "name":"air"
                             },
                             {
                                 "name":"chisel:tyrian",
@@ -368,6 +358,16 @@
                                 "weight":1
                             },
                             {
+                                "name":"immersiveengineering:storage",
+                                "meta":4,
+                                "weight":1
+                            },
+                            {
+                                "name":"tconstruct:metal",
+                                "meta":4,
+                                "weight":1
+                            },
+                            {
                                 "name":"chisel:tyrian",
                                 "meta":1,
                                 "weight":40
@@ -436,6 +436,15 @@
                         "data":[
                             {
                                 "name":"abyssalcraft:shoggothbiomass",
+                                "weight":1
+                            },
+                            {
+                                "name":"taiga:prometheum_block",
+                                "weight":1
+                            },
+                            {
+                                "name":"rockhounding_chemistry:alloyBBlocks",
+                                "meta":8,
                                 "weight":1
                             },
                             {
