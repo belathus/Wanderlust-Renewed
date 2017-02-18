@@ -9,7 +9,6 @@
             "SPOOKY",
             "SWAMP",
             "WASTELAND",
-            "WARM",
             "MOUNTAIN",
             "HILLS"
         ],
@@ -28,14 +27,15 @@
         "_rooms"
 	],
     "tower":{
-        "type":"JUNGLE",
+        "type":"PYRAMID",
         "theme":{
             "base":"ENIKO",
             "primary":{
                 "walls":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"railcraft:brick_frostbound"
+                        "name":"chisel:wool_blue",
+                        "meta":0
                     }
                 },
                 "pillar":{
