@@ -63,7 +63,3 @@
         [[null,<druidry:palisade>,null],
          [<druidry:palisade>,<ore:plankWood>,<druidry:palisade>],
          [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
-
-# PrimalCore
-    recipes.remove(<primal:netherstone>);
-    recipes.addShapeless(<primal:netherstone>,[<nethercore:stone:1>]);
