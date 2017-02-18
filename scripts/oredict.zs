@@ -29,15 +29,6 @@
     <ore:itemSalt>.add(<primal:salt_void_dust>);
     <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
     <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
-
-# Removing the nether ore oredict entries and making it normal ore.
-    <ore:oreNetherCoal>.remove(<nethercore:ore:0>);
-    <ore:oreNetherIron>.remove(<nethercore:ore:1>);
-    <ore:oreNetherGold>.remove(<nethercore:ore:2>);
-    <ore:oreNetherRedstone>.remove(<nethercore:ore:3>);
-    <ore:oreNetherLapis>.remove(<nethercore:ore:4>);
-    <ore:oreNetherDiamond>.remove(<nethercore:ore:5>);
-    <ore:oreNetherEmerald>.remove(<nethercore:ore:6>);
     
 # Adding ores to the normal oredict entries
     <ore:oreEmerald>.add(<nethermetals:nether_emerald_ore>);

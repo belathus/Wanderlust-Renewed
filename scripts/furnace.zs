@@ -13,15 +13,6 @@
 # Forestry
     furnace.addRecipe(<forestry:peat>*2, <rockhounding_oretiers:coalBlocks:3>, 0.5);
 
-# Nethercore
-    furnace.remove(<*>, <nethercore:ore:0>);
-    furnace.remove(<*>, <nethercore:ore:1>);
-    furnace.remove(<*>, <nethercore:ore:2>);
-    furnace.remove(<*>, <nethercore:ore:3>);
-    furnace.remove(<*>, <nethercore:ore:4>);
-    furnace.remove(<*>, <nethercore:ore:5>);
-    furnace.remove(<*>, <nethercore:ore:6>);
-
 # Nethermetals
     furnace.remove(<*>, <nethermetals:nether_emerald_ore>);
     furnace.remove(<*>, <nethermetals:nether_diamond_ore>);
