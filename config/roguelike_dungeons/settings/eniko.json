@@ -21,6 +21,8 @@
 	],
     "tower":{
         "type":"ENIKO",
-        "theme":"ENIKO"
+        "theme":{
+            "base":"ENIKO"
+        }
     }
 }

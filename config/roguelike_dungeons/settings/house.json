@@ -24,6 +24,8 @@
 	],
     "tower":{
         "type":"HOUSE",
-        "theme":"HOUSE"
+        "theme":{
+            "base":"HOUSE"
+        }
     }
 }

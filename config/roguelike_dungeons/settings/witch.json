@@ -24,6 +24,8 @@
 	],
     "tower":{
         "type":"WITCH",
-        "theme":"MUDDY"
+        "theme":{
+            "base":"MUDDY"
+        }
     }
 }

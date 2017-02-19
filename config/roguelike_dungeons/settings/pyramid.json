@@ -26,6 +26,8 @@
 	],
     "tower":{
         "type":"PYRAMID",
-        "theme":"PYRAMID"
+        "theme":{
+            "base":"PYRAMID"
+        }
     }
 }

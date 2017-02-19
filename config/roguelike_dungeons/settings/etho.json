@@ -24,6 +24,8 @@
 	],
     "tower":{
         "type":"ETHO",
-        "theme":"ETHO"
+        "theme":{
+            "base":"ETHO"
+        }
     }
 }

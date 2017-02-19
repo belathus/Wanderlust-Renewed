@@ -24,6 +24,8 @@
 	],
     "tower":{
         "type":"JUNGLE",
-        "theme":"JUNGLE"
+        "theme":{
+            "base":"JUNGLE"
+        }
     }
 }

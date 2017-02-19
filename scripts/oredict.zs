@@ -63,10 +63,3 @@
     <ore:oreUranium>.add(<nethermetals:nether_uranium_ore>);
     <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
 
-    <ore:oreCoal>.add(<nethercore:ore:0>);
-    <ore:oreIron>.add(<nethercore:ore:1>);
-    <ore:oreGold>.add(<nethercore:ore:2>);
-    <ore:oreRedstone>.add(<nethercore:ore:3>);
-    <ore:oreLapis>.add(<nethercore:ore:4>);
-    <ore:oreDiamond>.add(<nethercore:ore:5>);
-    <ore:oreEmerald>.add(<nethercore:ore:6>);
