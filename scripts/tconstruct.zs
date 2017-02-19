@@ -30,7 +30,6 @@
 
     mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_ore>);
     mods.tconstruct.Smeltery.removeMelting(<railcraft:ore:5>);
-    mods.tconstruct.Smeltery.removeMelting(<nethercore:ore:1>);
 
     mods.tconstruct.Casting.addBasinRecipe(<integrateddynamics:menrilSapling>, <liquid:menrilresin>*8000, <minecraft:sapling:*>, true, 3600);
     mods.tconstruct.Casting.addBasinRecipe(<arsmagica2:witchwood_sapling>, <liquid:liquid_essence>*8000, <minecraft:sapling:*>, true, 3600);
