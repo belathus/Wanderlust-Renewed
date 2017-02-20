@@ -101,15 +101,68 @@
 
 
     recipes.remove(<ironchest:BlockIronChest:4>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:4>,<liquid:silver>*288,<ironchest:BlockIronChest:3>, true, 80);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:4>,<liquid:silver>*144,<ironchest:BlockIronChest:3>, true, 80);
 
 
     recipes.remove(<ironchest:BlockIronChest:5>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*2000,<ironchest:BlockIronChest:1>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*3000,<ironchest:BlockIronChest:4>, true, 80);
 
 
     recipes.remove(<ironchest:BlockIronChest:6>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*576,<ironchest:BlockIronChest:1>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*864,<ironchest:BlockIronChest:4>, true, 80);
+
+	
+	recipes.remove(<ironchest:woodIronUpgrade:0>);
+	
+	# Planks List
+    var list_all_planks = [
+        <minecraft:planks:*>,
+        <biomesoplenty:planks_0:*>, <forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,
+        <forestry:planks.fireproof.1:*>, <arsmagica2:witchwood_planks>, <botania:dreamwood:1>, <botania:livingwood:1>,
+        <natura:overworld_planks:*>, <natura:nether_planks:*>, <roots:plankWildwood>, <abyssalcraft:dltplank>
+    ] as minetweaker.item.IItemStack[];
+	
+	recipes.remove(<ironchest:woodIronUpgrade:0>);
+    for i, plank in list_all_planks {
+        mods.tconstruct.Casting.addBasinRecipe(<ironchest:woodIronUpgrade:0>,<liquid:iron>*288,plank, true, 80);
+    }
+	
+	recipes.remove(<ironchest:woodCopperUpgrade:0>);
+	for i, plank in list_all_planks {
+        mods.tconstruct.Casting.addBasinRecipe(<ironchest:woodCopperUpgrade:0>,<liquid:copper>*288,plank, true, 80);
+    }
+	
+	recipes.remove(<ironchest:copperIronUpgrade:0>);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:copperIronUpgrade:0>,<liquid:iron>*144,<ironchest:woodCopperUpgrade:0>, true, 80);
+
+	
+	recipes.remove(<ironchest:copperSilverUpgrade:0>);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:copperSilverUpgrade:0>,<liquid:silver>*288,<ironchest:woodCopperUpgrade:0>, true, 80);
+
+	
+	recipes.remove(<ironchest:silverGoldUpgrade:0>);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:silverGoldUpgrade:0>,<liquid:gold>*144,<ironchest:copperSilverUpgrade:0>, true, 80);
+	
+	
+	recipes.remove(<ironchest:ironGoldUpgrade:0>);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:ironGoldUpgrade:0>,<liquid:gold>*288,<ironchest:woodIronUpgrade:0>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:ironGoldUpgrade:0>,<liquid:gold>*288,<ironchest:copperIronUpgrade:0>, true, 80);
+	
+	
+	recipes.remove(<ironchest:goldDiamondUpgrade:0>);
+#    recipes.addShaped(<ironchest:goldDiamondUpgrade:0>,
+#        [[<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>],
+#         [<ore:nuggetDiamond>,<ironchest:silverGoldUpgrade>,<ore:nuggetDiamond>],
+#         [<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>]]);
+	
+	
+	recipes.remove(<ironchest:diamondCrystalUpgrade:0>);
+	
+	
+	recipes.remove(<ironchest:diamondObsidianUpgrade:0>);
+
 
 
 
