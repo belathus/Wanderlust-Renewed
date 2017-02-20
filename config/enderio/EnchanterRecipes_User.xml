@@ -26,10 +26,10 @@ An example of how to add the enchantments from Thaumcraft.
 		<itemStack modID="basemetals" itemName="aquarium_ingot" />
 	</enchantment>
 	<enchantment name="minecraft:aqua_affinity" costPerLevel="4" >
-		<itemStack modID="basemetals" itemName="aquarium_ingot" />
+		<itemStack modID="basemetals" itemName="aquarium_blend" />
 	</enchantment>
 	<enchantment name="minecraft:depth_strider" costPerLevel="4"  >
-		<itemStack modID="basemetals" itemName="aquarium_ingot" itemMeta="0" />
+		<itemStack modID="basemetals" itemName="aquarium_plate" />
 	</enchantment>
 	<enchantment name="minecraft:mending" costPerLevel="7">
 		<itemStack modID="basemetals" itemName="starsteel_ingot"/>
