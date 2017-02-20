@@ -129,7 +129,7 @@
         var slab = log_pair[3];
         recipes.remove(plank);
         recipes.remove(slab);
-        recipes.addShaped(plank * 2, 
+        recipes.addShaped(plank * 4, 
             [[<primal:flint_saw:*>],[log]]);
         recipes.addShaped(plank * 4, 
             [[<primal:quartz_saw:*>],[log]]);
@@ -162,7 +162,7 @@
         var log = log_pair[0];
         var plank = log_pair[1];
         recipes.remove(plank);
-        recipes.addShaped(plank * 2, 
+        recipes.addShaped(plank * 4, 
             [[<primal:flint_saw:*>],[log]]);
         recipes.addShaped(plank * 4, 
             [[<primal:quartz_saw:*>],[log]]);
