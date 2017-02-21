@@ -1,5 +1,6 @@
-An example of how to add the enchantments from Thaumcraft.
 <!--
+An example of how to add the enchantments from Thaumcraft.
+
   <enchantment name="Thaumcraft:potency" costPerLevel="5" >
     <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="1" />
   </enchantment>
@@ -21,17 +22,30 @@ An example of how to add the enchantments from Thaumcraft.
   </enchantment>
 -->
 
+
 <enchaterRecipes>
 	<enchantment name="minecraft:respiration" costPerLevel="4" >
 		<itemStack modID="basemetals" itemName="aquarium_ingot" />
 	</enchantment>
+	<enchantment name="minecraft:respiration" costPerLevel="8" >
+		<itemStack modID="minecraft" itemName="glass_bottle" />
+	</enchantment>
 	<enchantment name="minecraft:aqua_affinity" costPerLevel="4" >
 		<itemStack modID="basemetals" itemName="aquarium_blend" />
+	</enchantment>
+	<enchantment name="minecraft:aqua_affinity" costPerLevel="8" >
+		<itemStack modID="minecraft" itemName="waterlily" />
 	</enchantment>
 	<enchantment name="minecraft:depth_strider" costPerLevel="4"  >
 		<itemStack modID="basemetals" itemName="aquarium_plate" />
 	</enchantment>
+	<enchantment name="minecraft:depth_strider" costPerLevel="8" >
+		<itemStack modID="minecraft" itemName="prismarine" itemMeta="0" />
+	</enchantment>
 	<enchantment name="minecraft:mending" costPerLevel="7">
 		<itemStack modID="basemetals" itemName="starsteel_ingot"/>
+	</enchantment>
+	<enchantment name="minecraft:mending" costPerLevel = "15">
+		<itemStack modID="EnderIO" itemName="itemXpTransfer"/>
 	</enchantment>
 </enchaterRecipes>
