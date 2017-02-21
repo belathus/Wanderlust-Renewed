@@ -111,12 +111,12 @@
 	# Crystal
     recipes.remove(<ironchest:BlockIronChest:5>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*2000,<ironchest:BlockIronChest:1>, true, 80);
-	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*3000,<ironchest:BlockIronChest:4>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*1000,<ironchest:BlockIronChest:2>, true, 80);
 
 	# Obsidian
     recipes.remove(<ironchest:BlockIronChest:6>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*576,<ironchest:BlockIronChest:1>, true, 80);
-	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*864,<ironchest:BlockIronChest:4>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*288,<ironchest:BlockIronChest:2>, true, 80);
 
 # Chest Upgrades
 	
