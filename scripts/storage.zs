@@ -95,9 +95,9 @@
 	<ironchest:BlockIronChest:2>.displayName = "Mithril Chest";
     recipes.remove(<ironchest:BlockIronChest:2>);
 	recipes.addShaped(<ironchest:BlockIronChest:2>,
-		[[null, null, null],
-		 [<ore:ingotMithril>,<ironchest:BlockIronChest:1>,<ore:ingotMithril>],
-		[null, null, null]]);
+        [[null, null, null],
+		[<ore:ingotMithril>,<ironchest:BlockIronChest:1>,<ore:ingotMithril>],
+        [null, null, null]]);
 
     # Copper
 	recipes.remove(<ironchest:BlockIronChest:3>);
