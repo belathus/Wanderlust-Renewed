@@ -80,39 +80,45 @@
 
 
 # Iron Chests
-    recipes.remove(<ironchest:BlockIronChest:0>);
+    # Iron
+	recipes.remove(<ironchest:BlockIronChest:0>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*288,<minecraft:chest>, true, 80);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*288,<quark:custom_chest>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*144,<ironchest:BlockIronChest:3>, true, 80);
 
-
-    recipes.remove(<ironchest:BlockIronChest:1>);
+    # Gold
+	recipes.remove(<ironchest:BlockIronChest:1>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:1>,<liquid:gold>*288,<ironchest:BlockIronChest:0>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:1>,<liquid:gold>*144,<ironchest:BlockIronChest:4>, true, 80);
     
+	# Mithril (AKA Diamond)
+	<ironchest:BlockIronChest:2>.displayName = "Mithril Chest";
     recipes.remove(<ironchest:BlockIronChest:2>);
-#    recipes.addShaped(<ironchest:BlockIronChest:2>,
-#        [[<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>],
-#         [<ore:nuggetDiamond>,<ironchest:BlockIronChest:1>,<ore:nuggetDiamond>],
-#         [<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>]]);
+	recipes.addShaped(<ironchest:BlockIronChest:2>,
+        [[null, null, null],
+		[<ore:ingotMithril>,<ironchest:BlockIronChest:1>,<ore:ingotMithril>],
+        [null, null, null]]);
 
-
-    recipes.remove(<ironchest:BlockIronChest:3>);
+    # Copper
+	recipes.remove(<ironchest:BlockIronChest:3>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:3>,<liquid:copper>*288,<minecraft:chest>, true, 80);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:3>,<liquid:copper>*288,<quark:custom_chest:*>, true, 80);
 
-
+	# Silver
     recipes.remove(<ironchest:BlockIronChest:4>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:4>,<liquid:silver>*144,<ironchest:BlockIronChest:3>, true, 80);
 
-
+	# Crystal
     recipes.remove(<ironchest:BlockIronChest:5>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*2000,<ironchest:BlockIronChest:1>, true, 80);
 	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:5>,<liquid:glass>*3000,<ironchest:BlockIronChest:4>, true, 80);
 
-
+	# Obsidian
     recipes.remove(<ironchest:BlockIronChest:6>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*576,<ironchest:BlockIronChest:1>, true, 80);
 	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:6>,<liquid:obsidian>*864,<ironchest:BlockIronChest:4>, true, 80);
 
+# Chest Upgrades
 	
 	recipes.remove(<ironchest:woodIronUpgrade:0>);
 	
@@ -148,20 +154,22 @@
 	
 	recipes.remove(<ironchest:ironGoldUpgrade:0>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:ironGoldUpgrade:0>,<liquid:gold>*288,<ironchest:woodIronUpgrade:0>, true, 80);
-	mods.tconstruct.Casting.addBasinRecipe(<ironchest:ironGoldUpgrade:0>,<liquid:gold>*288,<ironchest:copperIronUpgrade:0>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:ironGoldUpgrade:0>,<liquid:gold>*144,<ironchest:copperIronUpgrade:0>, true, 80);
 	
-	
+	<ironchest:goldDiamondUpgrade>.displayName = "Gold to Mithril Chest Upgrade";
 	recipes.remove(<ironchest:goldDiamondUpgrade:0>);
-#    recipes.addShaped(<ironchest:goldDiamondUpgrade:0>,
-#        [[<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>],
-#         [<ore:nuggetDiamond>,<ironchest:silverGoldUpgrade>,<ore:nuggetDiamond>],
-#         [<ore:nuggetDiamond>,<ore:nuggetDiamond>,<ore:nuggetDiamond>]]);
-	
-	
+    recipes.addShaped(<ironchest:goldDiamondUpgrade:0>,
+        [[<>,<>,<>],
+        [<ore:ingotMithril>,<ironchest:ironGoldUpgrade>,<ore:ingotMithril>],
+        [<>,<>,<>]]);
+		
+	<ironchest:diamondCrystalUpgrade:0>.displayName = "Mithril to Crystal Chest Upgrade";
 	recipes.remove(<ironchest:diamondCrystalUpgrade:0>);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondCrystalUpgrade:0>,<liquid:glass>*2000,<ironchest:goldDiamondUpgrade>, true, 80);
 	
-	
+	<ironchest:diamondObsidianUpgrade:0>.displayName = "Mithril to Obsidian Chest Upgrade";
 	recipes.remove(<ironchest:diamondObsidianUpgrade:0>);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondObsidianUpgrade:0>,<liquid:obsidian>*576,<ironchest:goldDiamondUpgrade>, true, 80);
 
 
 
