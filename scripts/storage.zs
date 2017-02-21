@@ -165,11 +165,11 @@
 		
 	<ironchest:diamondCrystalUpgrade:0>.displayName = "Mithril to Crystal Chest Upgrade";
 	recipes.remove(<ironchest:diamondCrystalUpgrade:0>);
-	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondCrystalUpgrade:0>,<liquid:glass>*2000,<ironchest:goldDiamondUpgrade>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondCrystalUpgrade:0>,<liquid:glass>*1000,<ironchest:goldDiamondUpgrade>, true, 80);
 	
 	<ironchest:diamondObsidianUpgrade:0>.displayName = "Mithril to Obsidian Chest Upgrade";
 	recipes.remove(<ironchest:diamondObsidianUpgrade:0>);
-	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondObsidianUpgrade:0>,<liquid:obsidian>*576,<ironchest:goldDiamondUpgrade>, true, 80);
+	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondObsidianUpgrade:0>,<liquid:obsidian>*288,<ironchest:goldDiamondUpgrade>, true, 80);
 
 
 
