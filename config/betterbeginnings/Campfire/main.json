@@ -1,0 +1,281 @@
+{
+  "recipes": [
+    {
+      "input": {
+        "itemName": "logWood",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:coal",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 1,
+        "stackSize": 1
+      },
+      "experience": 0.15
+    },
+    {
+      "input": {
+        "itemName": "minecraft:sponge",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 1
+      },
+      "output": {
+        "itemName": "minecraft:sponge",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "betterbeginnings:roasting_stick_raw_mallow",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:roasting_stick_cooked_mallow",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.5
+    },
+    {
+      "input": {
+        "itemName": "minecraft:beef",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:porkchop",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:chicken",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 1,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 4,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 1
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 4,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:rabbit",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 3,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:mutton",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "betterbeginnings:charred_meat",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 2,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    }
+  ],
+  "panRecipes": [
+    {
+      "input": {
+        "itemName": "minecraft:beef",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:cooked_beef",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:porkchop",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:cooked_porkchop",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:chicken",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:cooked_chicken",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:cooked_fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 1
+      },
+      "output": {
+        "itemName": "minecraft:cooked_fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 1,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:rabbit",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:cooked_rabbit",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "minecraft:mutton",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "minecraft:cooked_mutton",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.1
+    }
+  ],
+  "includes": [],
+  "modDependencies": [],
+  "version": 1
+}

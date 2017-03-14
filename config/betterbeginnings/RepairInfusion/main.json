@@ -1,0 +1,277 @@
+{
+  "enchantmentAssociations": [
+    {
+      "enchantmentID": "minecraft:protection",
+      "associatedItem": {
+        "itemName": "minecraft:iron_bars",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      }
+    },
+    {
+      "enchantmentID": "minecraft:fire_protection",
+      "associatedItem": {
+        "itemName": "minecraft:bucket",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:feather_falling",
+      "associatedItem": {
+        "itemName": "minecraft:feather",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      }
+    },
+    {
+      "enchantmentID": "minecraft:blast_protection",
+      "associatedItem": {
+        "itemName": "cobblestone",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:projectile_protection",
+      "associatedItem": {
+        "itemName": "minecraft:snowball",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 4
+      }
+    },
+    {
+      "enchantmentID": "minecraft:respiration",
+      "associatedItem": {
+        "itemName": "minecraft:glass_bottle",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:aqua_affinity",
+      "associatedItem": {
+        "itemName": "minecraft:clay",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:thorns",
+      "associatedItem": {
+        "itemName": "minecraft:cactus",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 4
+      }
+    },
+    {
+      "enchantmentID": "minecraft:depth_strider",
+      "associatedItem": {
+        "itemName": "minecraft:prismarine",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:frost_walker",
+      "associatedItem": {
+        "itemName": "minecraft:ice",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 4
+      }
+    },
+    {
+      "enchantmentID": "minecraft:sharpness",
+      "associatedItem": {
+        "itemName": "gemQuartz",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:smite",
+      "associatedItem": {
+        "itemName": "minecraft:soul_sand",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      }
+    },
+    {
+      "enchantmentID": "minecraft:bane_of_arthropods",
+      "associatedItem": {
+        "itemName": "minecraft:fermented_spider_eye",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:knockback",
+      "associatedItem": {
+        "itemName": "minecraft:piston",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:fire_aspect",
+      "associatedItem": {
+        "itemName": "minecraft:blaze_powder",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      }
+    },
+    {
+      "enchantmentID": "minecraft:looting",
+      "associatedItem": {
+        "itemName": "ingotGold",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:efficiency",
+      "associatedItem": {
+        "itemName": "minecraft:sugar",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 4
+      }
+    },
+    {
+      "enchantmentID": "minecraft:silk_touch",
+      "associatedItem": {
+        "itemName": "betterbeginnings:cloth",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 8
+      }
+    },
+    {
+      "enchantmentID": "minecraft:unbreaking",
+      "associatedItem": {
+        "itemName": "minecraft:obsidian",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:fortune",
+      "associatedItem": {
+        "itemName": "gemLapis",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:power",
+      "associatedItem": {
+        "itemName": "betterbeginnings:leather_strip",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:punch",
+      "associatedItem": {
+        "itemName": "minecraft:gunpowder",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:flame",
+      "associatedItem": {
+        "itemName": "minecraft:fire_charge",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:infinity",
+      "associatedItem": {
+        "itemName": "minecraft:arrow",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 16
+      }
+    },
+    {
+      "enchantmentID": "minecraft:luck_of_the_sea",
+      "associatedItem": {
+        "itemName": "minecraft:waterlily",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:lure",
+      "associatedItem": {
+        "itemName": "minecraft:fish",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 3,
+        "stackSize": 1
+      }
+    },
+    {
+      "enchantmentID": "minecraft:mending",
+      "associatedItem": {
+        "itemName": "minecraft:slime_ball",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      }
+    }
+  ],
+  "includes": [],
+  "modDependencies": [],
+  "version": 1
+}
