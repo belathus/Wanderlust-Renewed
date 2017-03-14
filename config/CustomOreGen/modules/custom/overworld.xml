@@ -950,36 +950,11 @@
                 <Setting name='MotherlodeFrequency' avg=':= 0.260 * _default_ ' range=':= 0.260 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
         </Cloud>
-        <!-- Tin Veins -->
-        <Veins name='foreTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
-			<Description>
-				Small, fairly rare motherlodes with 2-4 horizontal veins each.
-			</Description>
-			<OreBlock block='forestry:resources:2' weight='1.0' />
-			<ReplacesOre block='stone' weight='1.0' />
-			<Biome name='.*' />
-			<Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
-			<Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
-			<Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 12 '                type='normal' scaleTo='base' />
-			<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-			<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-			<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-		</Veins>
     </IfModInstalled>
     
     <!-- Futurepack -->
     <!-- Tin and Zinc -->
-    <!-- <IfModInstalled name="fp">
+    <IfModInstalled name="fp">
         <Veins name='fupaZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
 			<Description>
 				Small, fairly rare motherlodes with 2-4 horizontal veins each.
@@ -1003,9 +978,9 @@
 			<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
 			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-		</Veins> -->
+		</Veins>
 		<!-- Zinc clouds -->
-        <!-- <Cloud name='fupaZincCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
+        <Cloud name='fupaZincCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
@@ -1050,9 +1025,9 @@
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.925 * _default_ ' range=':= 0.925 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </Cloud> -->
+        </Cloud>
         <!-- Tin Veins -->
-        <!-- <Veins name='fupaTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Veins name='fupaTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
 			<Description>
 				Small, fairly rare motherlodes with 2-4 horizontal veins each.
 			</Description>
@@ -1075,9 +1050,9 @@
 			<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
 			<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
 			<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-		</Veins> -->
+		</Veins>
         <!-- Tin clouds -->
-        <!-- <Cloud name='fupaTinCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Cloud name='fupaTinCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
             <Description>
                 Large irregular clouds filled lightly  with ore.  These
                 are huge, spanning  several adjacent chunks, and
@@ -1123,7 +1098,7 @@
                 <Setting name='MotherlodeFrequency' avg=':= 0.925 * _default_ ' range=':= 0.925 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
         </Cloud>
-    </IfModInstalled> -->
+    </IfModInstalled>
     
     <!-- Immersive Engineering -->
     <!-- Copper, Aluminum, Lead, Silver, Uranium (rare)-->

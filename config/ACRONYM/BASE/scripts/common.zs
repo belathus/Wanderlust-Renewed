@@ -28,7 +28,7 @@ import com.acronym.base.IMaterialType;
     var silver      = mods.base.Materials.getOrRegister("Silver",      26, 12632256, false);
     var starsteel   = mods.base.Materials.getOrRegister("Starsteel",   27,  3289650,  true);
     var steel       = mods.base.Materials.getOrRegister("Steel",       28,  4408907, false);
-    var tin         = mods.base.Materials.getOrRegister("Tin",         29,  8355711, false);
+    var tin         = mods.base.Materials.getOrRegister("Nin",         29,  8355711, false);
     var titanium    = mods.base.Materials.getOrRegister("Titanium",    30, 11972521, false);
     #var titaniumaluminide = mods.base.Materials.getOrRegister("TitaniumAluminide", 31, 11972521, false);
     #var titaniumiridium = mods.base.Materials.getOrRegister("TitaniumIridium", 32, 11972521, false);

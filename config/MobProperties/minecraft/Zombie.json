@@ -24,18 +24,18 @@
                             "_comment" : "Adding tin ingots to the zombie's drops",
                             "weight" : 1,
                             "function" : "add",
-                            "id" : "forestry:ingotTin",
+                            "id" : "fp:ItemErze",
                             "damage" : 0,
                             "count" : 1
-                        }#,
- #                       {
- #                           "_comment" : "Adding zinc ingots to the zombie's drops",
- #                           "weight" : 1,
- #                           "function" : "add",
- #                           "id" : "base:ingot:34",
- #                           "damage" : 1,
- #                           "count" : 1
- #                      }
+                        },
+                        {
+                            "_comment" : "Adding zinc ingots to the zombie's drops",
+                            "weight" : 1,
+                            "function" : "add",
+                            "id" : "fp:ItemErze",
+                            "damage" : 1,
+                            "count" : 1
+                        }
                     ]
                 }
             ]
