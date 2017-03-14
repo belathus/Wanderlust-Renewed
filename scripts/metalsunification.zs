@@ -6,87 +6,87 @@
         #[<enderzoo:enderZooIcon>,         <fp:spaceship:13>,              <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>]
     ] as minetweaker.item.IItemStack[][];
     var aluminum_oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>] as minetweaker.item.IIngredient[];
-    
-    #recipes.remove(<libvulpes:metal0:9>);
-    #recipes.addShapeless(<immersiveengineering:metal:21>*9,
-    #    [<ore:ingotAluminum>]);
-    #recipes.addShapeless(<immersiveengineering:metal:1>, 
-    #    [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]);
-    #recipes.addShapeless(<immersiveengineering:storage:1>, 
-    #    [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
+    for i, group in list_aluminum {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[1]); }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if i == 0 {
+            recipes.addShapeless(group[0]*9, [aluminum_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [aluminum_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1]]);
+        }
+    }
 
 # Bronze
     val list_bronze = [
     #    nugget                            ingot                           block                             plate                            gear
-        [<base:nugget:7>,                 <base:ingot:7>,                 <base:block:7>,                   <base:plate:7>,                  <base:gear:7>],
+        [<base:nugget:7>,                 <base:ingot:7>,                 <base:storage_bronze>,            <base:plate:7>,                  <base:gear:7>],
         #[<basemetals:bronze_nugget>,      <basemetals:bronze_ingot>,      <basemetals:bronze_block>,        <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
         [<primal:bronze_nugget>,          <primal:bronze_ingot>,          <primal:bronze_block>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>]
     ] as minetweaker.item.IItemStack[][];
     var bronze_oredict = [<ore:nuggetBronze>,<ore:ingotBronze>,<ore:blockBronze>,<ore:plateBronze>,<ore:gearBronze>] as minetweaker.item.IIngredient[];
-
-    recipes.remove(<forestry:ingotBronze>);
-    recipes.addShaped(<forestry:ingotBronze>,
-        [[<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>],
-         [<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>],
-         [<ore:nuggetBronze>,<ore:nuggetBronze>,<ore:nuggetBronze>]]);
+    for i, group in list_bronze {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[1]); }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if i == 0 {
+            recipes.addShapeless(group[0]*9, [bronze_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [bronze_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1]]);
+        }
+    }
 
 # Copper
     val list_copper = [
-    #    nugget                            ingot                           block                             plate                            gear
-        [<immersiveengineering:metal:20>, <immersiveengineering:metal>,   <immersiveengineering:storage>,   <immersiveengineering:metal:30>, <base:gear:11>],
-        [<libvulpes:productnugget:4>,     <libvulpes:productingot:4>,     <libvulpes:metal0:4>,             <libvulpes:productplate:4>,      <enderzoo:enderZooIcon>],
-        #[<enderzoo:enderZooIcon>,         <fp:ItemErze:2>,                <fp:erz_blocke:2>,                <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<enderzoo:enderZooIcon>,         <abyssalcraft:copperingot>,     <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        #[<basemetals:copper_nugget>,      <basemetals:copper_ingot>,      <basemetals:copper_block>,        <basemetals:copper_plate>,       <enderzoo:enderZooIcon>],
-        [<enderzoo:enderZooIcon>,         <forestry:ingotCopper>,         <forestry:resourceStorage:1>,     <enderzoo:enderZooIcon>,         <forestry:gearCopper>],
-        #[<embers:nuggetCopper>,           <embers:ingotCopper>,           <embers:blockCopper>,             <embers:plateCopper>,            <enderzoo:enderZooIcon>],
-        #[<esteemedinnovation:nugget>,     <esteemedinnovation:ingot>,     <esteemedinnovation:metal_storage_block>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
-        [<primal:copper_nugget>,          <primal:copper_ingot>,          <primal:copper_block>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        #[<railcraft:nugget:2>,            <railcraft:ingot:1>,            <railcraft:generic>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<enderzoo:enderZooIcon>,         <rockhounding_chemistry:miscItems:25>, <enderzoo:enderZooIcon>,   <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>]
+    #    nugget                            ingot                           block                             plate                            gear                     ore                           dust
+        [<immersiveengineering:metal:20>, <immersiveengineering:metal>,   <immersiveengineering:storage>,   <immersiveengineering:metal:30>, <base:gear:11>,          <immersiveengineering:ore:0>, <immersiveengineering:metal:9>],
+        [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderio:itemPowderIngot:3>],
+        [<enderzoo:enderZooIcon>,         <abyssalcraft:copperingot>,     <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <abyssalcraft:abycopore>,     <enderzoo:enderZooIcon>],
+        [<libvulpes:productnugget:4>,     <libvulpes:productingot:4>,     <libvulpes:metal0:4>,             <libvulpes:productplate:4>,      <enderzoo:enderZooIcon>, <libvulpes:ore0:4>,           <enderzoo:enderZooIcon>],
+        #[<enderzoo:enderZooIcon>,         <fp:ItemErze:2>,                <fp:erz_blocke:2>,                <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>],
+        #[<basemetals:copper_nugget>,      <basemetals:copper_ingot>,      <basemetals:copper_block>,        <basemetals:copper_plate>,       <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,     <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <forestry:ingotCopper>,         <forestry:resourceStorage:1>,     <enderzoo:enderZooIcon>,         <forestry:gearCopper>,   <forestry:resources:1>,       <enderzoo:enderZooIcon>],
+        #[<embers:nuggetCopper>,           <embers:ingotCopper>,           <embers:blockCopper>,             <embers:plateCopper>,            <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,     <enderzoo:enderZooIcon>],
+        #[<esteemedinnovation:nugget>,     <esteemedinnovation:ingot>,     <esteemedinnovation:metal_storage_block>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>],
+        [<primal:copper_nugget>,          <primal:copper_ingot>,          <primal:copper_block>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <primal:copper_dust>],
+        #[<railcraft:nugget:2>,            <railcraft:ingot:1>,            <railcraft:generic>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <rockhounding_chemistry:miscItems:25>, <enderzoo:enderZooIcon>,   <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,       <rockhounding_chemistry:chemicalDusts:17>]
     ] as minetweaker.item.IItemStack[][];
-    var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>] as minetweaker.item.IIngredient[];
-    furnace.remove(<abyssalcraft:copperingot>);
-    #furnace.remove(<basemetals:copper_ingot>);
-    #furnace.remove(<basemetals:copper_nugget>);
-    #furnace.remove(<embers:ingotCopper>);
-    #furnace.remove(<esteemedinnovation:ingot>);
-    furnace.remove(<forestry:ingotCopper>);
-    #furnace.remove(<fp:ItemErze:2>);
-    furnace.remove(<rockhounding_chemistry:miscItems:25>);
-    furnace.remove(<libvulpes:productingot:4>);
-    #recipes.remove(<thaumcraft:nugget:1>);
-    #recipes.remove(<basemetals:copper_nugget>);
-    #recipes.remove(<basemetals:copper_ingot>);
-    #recipes.remove(<basemetals:copper_block>);
-    #recipes.remove(<embers:nuggetCopper>);
-    #recipes.remove(<embers:ingotCopper>);
-    #recipes.remove(<embers:blockCopper>);
-    #recipes.remove(<esteemedinnovation:nugget:0>);
-    #recipes.remove(<esteemedinnovation:ingot:0>);
-    #recipes.remove(<esteemedinnovation:metal_storage_block:0>);
-    recipes.remove(<forestry:ingotCopper>);
-    recipes.remove(<forestry:resourceStorage:1>);
-    #recipes.remove(<fp:ItemErze:2>);
-    #recipes.remove(<fp:erz_blocke:2>);
-    #recipes.remove(<railcraft:nugget:2>);
-    #recipes.remove(<railcraft:ingot:1>);
-    #recipes.remove(<railcraft:generic:0>);
-    #recipes.remove(<libvulpes:productnugget:4>);
-    recipes.remove(<libvulpes:productingot:4>);
-    recipes.remove(<libvulpes:metal0:4>);                     # Libvulpes Copper
-    mods.tconstruct.Casting.removeBasinRecipe(<libvulpes:metal0:4>);
-    mods.tconstruct.Casting.removeTableRecipe(<abyssalcraft:copperingot>);
-    mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:metal:0>, <liquid:copper>*144, <tconstruct:cast_custom:0>, false, 100);
-    mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:storage:0>, <liquid:copper>*1296, null, false, 100);
-    recipes.addShapeless(<immersiveengineering:metal:20>*9,
-        [<ore:ingotCopper>]);
-    recipes.addShapeless(<immersiveengineering:metal:0>*9,
-        [<ore:blockCopper>]);
-    recipes.addShapeless(<immersiveengineering:metal:0>, 
-        [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]);
-    recipes.addShapeless(<immersiveengineering:storage:0>, 
-        [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+        var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>, <ore:dustCopper>] as minetweaker.item.IIngredient[];
+    for i, group in list_copper {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_copper[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [copper_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [copper_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [copper_oredict[0],copper_oredict[0],copper_oredict[0],copper_oredict[0],copper_oredict[0],copper_oredict[0],copper_oredict[0],copper_oredict[0],copper_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, copper_oredict[5]]);
+        }
+    }
 
 
 # Constantan
@@ -184,37 +184,41 @@
 
 # Tin
     val list_tin = [
-    # nugget, ingot, block, plate, gear
-        [<base:nugget:29>],
-        [<primal:tin_nugget>, <primal:tin_ingot>, <primal:tin_block>, <primal:tin_plate>, <forestry:gearTin>]
+    #     nugget,                     ingot,                     block,                         plate,                    gear                     ore                      dust
+        [<base:nugget:29>,           <base:ingot:29>,           <base:storage_tin>,           <base:plate:29>,           <base:gear:29>,          <base:ore_tin>,          <base:dust:29>],
+        [<enderzoo:enderZooIcon>,    <abyssalcraft:tiningot>,   <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>,   <enderzoo:enderZooIcon>, <abyssalcraft:abytinore>,<enderzoo:enderZooIcon>],
+        #[<basemetals:tin_nugget>,   <basemetals:tin_ingot>]
+        [<enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderio:itemPowderIngot:4>],
+        [<enderzoo:enderZooIcon>,    <forestry:ingotTin>,       <forestry:resourceStorage:2>, <enderzoo:enderZooIcon>,   <forestry:gearTin>,      <forestry:resources:2>,  <enderzoo:enderZooIcon>],
+        [<libvulpes:productnugget:5>,<libvulpes:productingot:5>,<libvulpes:metal0:5>,         <libvulpes:productplate:5>,<enderzoo:enderZooIcon>, <libvulpes:ore0:5>,     <libvulpes:productdust:5>],
+        [<primal:tin_nugget>,        <primal:tin_ingot>,        <primal:tin_block>,           <primal:tin_plate>,        <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <primal:tin_dust>]
+        #[<railcraft:nugget:3>,<railcraft:ingot:2>]
     ] as minetweaker.item.IItemStack[][];
+    var tin_oredict = [<ore:nuggetTin>,<ore:ingotTin>,<ore:blockTin>,<ore:plateTin>,<ore:gearTin>,<ore:oreTin>, <ore:dustTin>] as minetweaker.item.IIngredient[];
     for i, group in list_tin {
-        recipes.remove(group[0]);
-        recipes.remove(group[1]);
-        recipes.remove(group[2]);
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_tin[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
         if i == 0 {
-            recipes.addShapeless(group[0]*9, [group[1]]);
-            recipes.addShapeless(group[1]*9, [group[2]]);
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [tin_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [tin_oredict[2]]);
             recipes.addShapeless(group[1], 
-                [group[0],group[0],group[0],group[0],group[0],group[0],group[0],group[0],group[0]]);
+                [tin_oredict[0],tin_oredict[0],tin_oredict[0],tin_oredict[0],tin_oredict[0],tin_oredict[0],tin_oredict[0],tin_oredict[0],tin_oredict[0]]);
             recipes.addShapeless(group[2], 
-                [group[1],group[1],group[1],group[1],group[1],group[1],group[1],group[1],group[1]]);
+                [tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, tin_oredict[5]]);
         }
     }
-    recipes.addShapeless(<primal:tin_nugget>*9,[<ore:ingotTin>]);
-    recipes.addShaped(<forestry:ingotTin>,
-        [[<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],
-         [<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>],
-         [<ore:nuggetTin>,<ore:nuggetTin>,<ore:nuggetTin>]]);
-    recipes.remove(<abyssalcraft:tiningot>);
-    #recipes.remove(<basemetals:tin_nugget>);
-    #recipes.remove(<basemetals:tin_ingot>);
-    recipes.remove(<forestry:ingotTin>);
-    recipes.remove(<libvulpes:productnugget:5>);
-    recipes.remove(<libvulpes:metal0:5>);
-    #recipes.remove(<railcraft:nugget:3>);
-    #recipes.remove(<railcraft:ingot:2>);
-    recipes.remove(<libvulpes:productingot:5>);
 
 
 # Uranium
@@ -241,14 +245,8 @@
     #recipes.remove(<basemetals:zinc_ingot>);
     recipes.remove(<primal:zinc_ingot>);
 
+    
 /*
-var list_of_lists = [
-    [list_aluminum, aluminum_oredict],
-    [list_bronze, bronze_oredict],
-    [list_copper, copper_oredict],
-    [list_iron, iron_oredict]
-] as Array[][];
-
 for i, list in list_of_lists {
     for i, metal in list[0] {
         if ((i == 0) && !metal[0].matches(<enderzoo:enderZooIcon>) && !metal[1].matches(<enderzoo:enderZooIcon>) && !metal[2].matches(<enderzoo:enderZooIcon>)) {

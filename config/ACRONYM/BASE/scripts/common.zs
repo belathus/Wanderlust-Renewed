@@ -37,13 +37,14 @@ import com.acronym.base.IMaterialType;
 
 bronze.registerNugget();
 bronze.registerIngot();
-bronze.registerBlock();
-tin.registerOre();
+bronze.registerBlock(5, 30, "pickaxe", 1);
+tin.registerOre(3, 15, "pickaxe", 1);
 tin.registerNugget();
 tin.registerBlock();
 tin.registerIngot();
-zinc.registerOre();
-zinc.registerIngot();
+tin.registerBlock(5, 30, "pickaxe", 1);
+zinc.registerNugget();
+zinc.registerOre(3, 15, "pickaxe", 1);
 
 var metal_list = [abyssalnite, adamantine, aluminum, aquarium, ardite, brass, bronze, cobalt, coldiron,
     copper, constantan, coralium, cupronickel, dawnstone, dilithium, dreadium, electrum, gold, invar, iridium, iron, lead,

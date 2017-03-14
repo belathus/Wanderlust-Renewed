@@ -177,7 +177,7 @@
     for i, plate in plate_list {
 #        if (plate == <charsetlib:icon>) {
             #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
-            recipes.addShaped(plate, [[<immersiveengineering:tool:*>.transformDamage()],[ingot_list[i]]]);
+            recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
 #        }
     }
     
