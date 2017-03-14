@@ -62,13 +62,13 @@
     # Rudimentary Soul Snare
     recipes.remove(<bloodmagic:ItemSoulSnare>);
     recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
-        [[<primal:rock>,null,<primal:rock>],
+        [[<ore:rock>,null,<ore:rock>],
          [null,<fishing:itemNet>,null],
-         [<primal:rock>,null,<primal:rock>]]);
+         [<ore:rock>,null,<ore:rock>]]);
     recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
-        [[null,<primal:rock>,null],
-         [<primal:rock>,<fishing:itemNet>,<primal:rock>],
-         [null,<primal:rock>,null]]);
+        [[null,<ore:rock>,null],
+         [<ore:rock>,<fishing:itemNet>,<ore:rock>],
+         [null,<ore:rock>,null]]);
 
 # Druidry
     recipes.remove(<druidry:flint_axe>);
@@ -109,8 +109,8 @@
 # Nomadic Tents
     recipes.remove(<yurtmod:mallet>);
     recipes.addShaped(<yurtmod:mallet>,
-        [[null,<primal:rock>,<ore:stickWood>],
-         [null,<yurtmod:tent_canvas>,<primal:rock>],
+        [[null,<ore:rock>,<ore:stickWood>],
+         [null,<yurtmod:tent_canvas>,<ore:rock>],
          [<ore:stickWood>,null,null]]);
 
 # PrimalCore

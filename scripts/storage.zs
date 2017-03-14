@@ -159,9 +159,9 @@
 	<ironchest:goldDiamondUpgrade>.displayName = "Gold to Mithril Chest Upgrade";
 	recipes.remove(<ironchest:goldDiamondUpgrade:0>);
     recipes.addShaped(<ironchest:goldDiamondUpgrade:0>,
-        [[<>,<>,<>],
+        [[<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithrilv>],
         [<ore:ingotMithril>,<ironchest:ironGoldUpgrade>,<ore:ingotMithril>],
-        [<>,<>,<>]]);
+        [<ore:ingotMithril>,<ore:ingotMithril>,<ore:ingotMithril>]]);
 		
 	<ironchest:diamondCrystalUpgrade:0>.displayName = "Mithril to Crystal Chest Upgrade";
 	recipes.remove(<ironchest:diamondCrystalUpgrade:0>);
