@@ -113,6 +113,13 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>],
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
+         
+# Minecolonies
+    recipes.remove(<minecolonies:supplyChestDeployer>);
+    recipes.addShaped(<minecolonies:supplyChestDeployer>,
+        [[null, null, null],
+         [<ore:boatWood>, <Forestry:hardenedMachine>, <ore:boatWood>],
+         [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
 
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
