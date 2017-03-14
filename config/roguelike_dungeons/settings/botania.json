@@ -22,17 +22,14 @@
             "base":"ETHO"
         }
     },
-    "overrides":[
-        "LOOTRULES"
-    ],
 	"inherit":[
-		"_loot_all",
-        "_loot0",
-        "_loot1",
-        "_loot2",
-        "_loot3",
-        "_loot4",
-        "_rooms"
+		"default:_loot_all",
+        "default:_loot0",
+        "default:_loot1",
+        "default:_loot2",
+        "default:_loot3",
+        "default:_loot4",
+        "default:_rooms"
 	],
     "levels":{
         "0":{
