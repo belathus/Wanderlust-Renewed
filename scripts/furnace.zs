@@ -14,7 +14,7 @@
     furnace.addRecipe(<forestry:peat>*2, <rockhounding_oretiers:coalBlocks:3>, 0.5);
 
 # Nethermetals
-    furnace.remove(<*>, <nethermetals:nether_emerald_ore>);
+/*    furnace.remove(<*>, <nethermetals:nether_emerald_ore>);
     furnace.remove(<*>, <nethermetals:nether_diamond_ore>);
     furnace.remove(<*>, <nethermetals:nether_coal_ore>);
     furnace.remove(<*>, <nethermetals:nether_gold_ore>);
@@ -45,6 +45,6 @@
     furnace.remove(<*>, <nethermetals:nether_tungsten_ore>);
     furnace.remove(<*>, <nethermetals:nether_uranium_ore>);
     furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
-    
+*/
 # TAIGA
 #    furnace.remove(<rockhounding_chemistry:miscItems:2>, <taiga:slagiron_ingot>);

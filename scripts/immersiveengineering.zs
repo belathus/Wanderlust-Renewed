@@ -1,7 +1,7 @@
 # This file will cover recipes added to Immersive Engineering's crusher, coke oven, and other machines
 
 # Railcraft Firestone
-    mods.immersiveengineering.Crusher.addRecipe(<railcraft:firestone_raw>,<railcraft:ore_magic:0>,3600);
+    #mods.immersiveengineering.Crusher.addRecipe(<railcraft:firestone_raw>,<railcraft:ore_magic:0>,3600);
 
 # Rockhounding Ores
     # Magnetite

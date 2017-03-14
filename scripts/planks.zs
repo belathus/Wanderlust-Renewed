@@ -90,7 +90,7 @@
         [<natura:nether_logs:0>, <natura:nether_planks:0>,<natura:nether_stairs_ghostwood>,<natura:nether_slab:0>],
         [<natura:nether_logs:1>, <natura:nether_planks:2>,<natura:nether_stairs_fusewood>,<natura:nether_slab:2>],
         [<natura:nether_logs:2>, <natura:nether_planks:3>,<natura:nether_stairs_darkwood>,<natura:nether_slab:3>],
-        [<roots:logWildwood>,<roots:plankWildwood>,<roots:plankWildwoodStairs>,<roots:plankWildwoodSlabItem>],
+        #[<roots:logWildwood>,<roots:plankWildwood>,<roots:plankWildwoodStairs>,<roots:plankWildwoodSlabItem>],
         [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>]
     ] as minetweaker.item.IItemStack[][];
     

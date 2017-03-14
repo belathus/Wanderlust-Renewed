@@ -5,7 +5,7 @@
 
 
 # Backpacks
-    recipes.remove(<backpack:backpack_frame:2>);
+/*    recipes.remove(<backpack:backpack_frame:2>);
     recipes.addShaped(<backpack:backpack_frame:2>,
         [[<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>],
          [<ore:fabricHemp>,null,<ore:fabricHemp>],
@@ -16,7 +16,7 @@
         [[<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>],
          [<ore:stickIron>,null,<ore:stickIron>],
          [<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>]]);
-
+*/
 
 # Forestry
     recipes.remove(<forestry:adventurerBag>);
@@ -127,7 +127,7 @@
         <minecraft:planks:*>,
         <biomesoplenty:planks_0:*>, <forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,
         <forestry:planks.fireproof.1:*>, <arsmagica2:witchwood_planks>, <botania:dreamwood:1>, <botania:livingwood:1>,
-        <natura:overworld_planks:*>, <natura:nether_planks:*>, <roots:plankWildwood>, <abyssalcraft:dltplank>
+        <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>
     ] as minetweaker.item.IItemStack[];
 	
 	recipes.remove(<ironchest:woodIronUpgrade:0>);

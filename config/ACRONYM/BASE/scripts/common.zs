@@ -35,7 +35,12 @@ import com.acronym.base.IMaterialType;
     var uranium     = mods.base.Materials.getOrRegister("Uranium",     33,  7772956, false);
     var zinc        = mods.base.Materials.getOrRegister("Zinc",        34, 12240072, false);
 
+bronze.registerNugget();
+bronze.registerIngot();
+bronze.registerBlock();
 tin.registerOre();
+tin.registerNugget();
+tin.registerBlock();
 tin.registerIngot();
 zinc.registerOre();
 zinc.registerIngot();

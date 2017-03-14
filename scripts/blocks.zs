@@ -30,7 +30,7 @@
         });
 
 # Embers
-    recipes.remove(<embers:ashenStone>);
+/*    recipes.remove(<embers:ashenStone>);
     recipes.addShaped(<embers:ashenStone>*4,
         [[null,<ore:stone>,null],
          [<ore:stone>,<ore:dustAsh>,<ore:stone>],
@@ -41,7 +41,7 @@
         [[null,<ore:bricksStone>,null],
          [<ore:bricksStone>,<ore:dustAsh>,<ore:bricksStone>],
          [null,<ore:bricksStone>,null]]);
-
+*/
 # Extra Utilities
     # Portal to the Deep Dark
     recipes.remove(<extrautils2:teleporter>);
@@ -60,6 +60,6 @@
     # Wooden Spikes
     recipes.remove(<extrautils2:spike_wood>);
     recipes.addShaped(<extrautils2:spike_wood> * 4,
-        [[null,<druidry:palisade>,null],
-         [<druidry:palisade>,<ore:plankWood>,<druidry:palisade>],
+        [[null,<arsmagica2:wooden_leg>,null],
+         [<arsmagica2:wooden_leg>,<ore:plankWood>,<arsmagica2:wooden_leg>],
          [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);

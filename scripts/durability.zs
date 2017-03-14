@@ -11,7 +11,7 @@
     <minecraft:stone_sword>.maxDamage = 1;
 
 # Base Metals
-    <basemetals:bronze_crackhammer>.maxDamage = 192;
+#    <basemetals:bronze_crackhammer>.maxDamage = 192;
 
 # Druidry
-    <druidry:flint_axe>.maxDamage = 73;
+#    <druidry:flint_axe>.maxDamage = 73;

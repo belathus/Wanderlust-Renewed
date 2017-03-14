@@ -1,7 +1,7 @@
-    furnace.remove(<railcraft:fluid_bottle_creosote>);
+#    furnace.remove(<railcraft:fluid_bottle_creosote>);
 
-    recipes.remove(<railcraft:tie>);
-    recipes.remove(<railcraft:generic:5>);
+#    recipes.remove(<railcraft:tie>);
+#    recipes.remove(<railcraft:generic:5>);
     recipes.remove(<immersiveengineering:treatedWood>);
 #    recipes.addShaped(<immersiveengineering:treatedWood>*8,
 #        [[<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1),<ore:plankWood>.transformConsume(1)],
@@ -28,9 +28,9 @@
     recipes.addShaped(<immersiveengineering:treatedWood>,
         [[<immersiveengineering:treatedWoodSlab>],
          [<immersiveengineering:treatedWoodSlab>]]);
-    recipes.addShaped(<railcraft:tie>,
-        [[null,<railcraft:fluid_bottle_creosote>,null],
-         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
+#    recipes.addShaped(<railcraft:tie>,
+#        [[null,<railcraft:fluid_bottle_creosote>,null],
+#         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
 #    recipes.addShapeless(<railcraft:generic:5>,
 #        [<ore:logWood>.transformConsume(1),<railcraft:fluid_bottle_creosote>.giveBack(<minecraft:glass_bottle>)]);
 #    recipes.addShapeless(<railcraft:generic:5>,
@@ -39,4 +39,4 @@
 #            inputs.log.amount(inputs.log.getAmount() - 1);
 #            return output;
 #        });
-    recipes.addShapeless(<immersiveengineering:treatedWood>*4,[<railcraft:generic:5>]);
+#    recipes.addShapeless(<immersiveengineering:treatedWood>*4,[<railcraft:generic:5>]);

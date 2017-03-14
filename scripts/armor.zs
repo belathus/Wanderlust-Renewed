@@ -26,23 +26,23 @@
     recipes.remove(<arsmagica2:boots_battlemage>);
     recipes.addShaped(<arsmagica2:helmet_battlemage>,
         [[null,<arsmagica2:essence:2>,null],
-         [<arsmagica2:gold_inlay>,<basemetals:adamantine_helmet>,<arsmagica2:gold_inlay>],
+         [<arsmagica2:gold_inlay>,<abyssalcraft:ahelmet>,<arsmagica2:gold_inlay>],
          [null,<arsmagica2:essence:2>,null]]);
     recipes.addShaped(<arsmagica2:chest_battlemage>,
         [[null,<arsmagica2:essence:4>,null],
-         [<arsmagica2:gold_inlay>,<basemetals:adamantine_chestplate>,<arsmagica2:gold_inlay>],
+         [<arsmagica2:gold_inlay>,<abyssalcraft:aplate>,<arsmagica2:gold_inlay>],
          [null,<arsmagica2:essence:4>,null]]);
     recipes.addShaped(<arsmagica2:legs_battlemage>,
         [[null,<arsmagica2:essence:3>,null],
-         [<arsmagica2:gold_inlay>,<basemetals:adamantine_leggings>,<arsmagica2:gold_inlay>],
+         [<arsmagica2:gold_inlay>,<abyssalcraft:alegs>,<arsmagica2:gold_inlay>],
          [null,<arsmagica2:essence:3>,null]]);
     recipes.addShaped(<arsmagica2:boots_battlemage>,
         [[null,<arsmagica2:essence:5>,null],
-         [<arsmagica2:gold_inlay>,<basemetals:adamantine_boots>,<arsmagica2:gold_inlay>],
+         [<arsmagica2:gold_inlay>,<abyssalcraft:aboots>,<arsmagica2:gold_inlay>],
          [null,<arsmagica2:essence:5>,null]]);
          
 # Base Metals
-    recipes.remove(<basemetals:coldiron_helmet>);
+/*    recipes.remove(<basemetals:coldiron_helmet>);
     recipes.remove(<basemetals:coldiron_chestplate>);
     recipes.remove(<basemetals:coldiron_leggings>);
     recipes.remove(<basemetals:coldiron_boots>);
@@ -82,9 +82,9 @@
     recipes.addShaped(<basemetals:mithril_boots>,
         [[<ore:ingotMithril>,imphide_boots,<ore:ingotMithril>],
          [<ore:ingotMithril>,null,<ore:ingotMithril>]]);
-
+*/
 # Grapple Mod
-    # Long Fall Boots
+/*    # Long Fall Boots
     recipes.remove(<grapplemod:longfallboots>);
     recipes.addShaped(<grapplemod:longfallboots>,
         [[<ore:gemDiamond>,null,<ore:gemDiamond>],
@@ -93,3 +93,4 @@
     recipes.addShaped(<grapplemod:longfallboots>,
         [[null,<minecraft:diamond_boots>, null],
          [<ore:blockSlime>,null,<ore:blockSlime>]]);
+*/

@@ -63,9 +63,29 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
 # Cyberware
     recipes.remove(<cyberware:engineeringTable>);
     recipes.addShaped(<cyberware:engineeringTable>,
-        [[<embers:tinkerHammer:*>,<ore:gearSteel>,<ore:ingotSteel>],
+        [[<immersiveengineering:tool>,<ore:gearSteel>,<ore:ingotSteel>],
          [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
          [<ore:ingotSteel>,<forestry:sturdyMachine>,<ore:ingotSteel>]]);
+    recipes.remove(<cyberware:charger>);
+    recipes.addShaped(<cyberware:charger>,
+        [[<ore:ingotAluminum>,<ore:barsIron>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<immersiveengineering:metalDecoration0>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+    recipes.remove(<cyberware:scanner>);
+    recipes.addShaped(<cyberware:scanner>,
+        [[<ore:ingotAluminum>,<cyberware:cybereyes>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<forestry:hardenedMachine>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+    recipes.remove(<cyberware:beacon>);
+    recipes.addShaped(<cyberware:beacon>,
+        [[<cyberware:component:5>,null,null],
+         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
+    recipes.remove(<cyberware:beaconLarge>);
+    recipes.addShaped(<cyberware:beaconLarge>,
+        [[<ore:ingotAluminum>,<ore:pearlEnderEye>,<ore:ingotAluminum>],
+         [<cyberware:component:2>,<cyberware:beacon>,<cyberware:component:2>],
+         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
 
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);
@@ -86,17 +106,18 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>]]);
     recipes.remove(<enderio:blockSagMill>);
     recipes.addShaped(<enderio:blockSagMill>,
-        [[<ore:gearSteel>,<railcraft:borehead_diamond>,<ore:gearSteel>],
+        [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
          [<ore:ingotSteel>,<enderio:itemMachinePart>,<ore:ingotSteel>],
          [<ore:ingotSteel>,<minecraft:piston>,       <ore:ingotSteel>]]);
 
 # Esteemed Innovation
+/*
     recipes.remove(<esteemedinnovation:crucible>);
     recipes.addShaped(<esteemedinnovation:crucible>,
         [[<ore:ingotBrickSeared>,null,<ore:ingotBrickSeared>],
          [<ore:ingotBrickSeared>,<minecraft:magma_cream>,<ore:ingotBrickSeared>],
          [<ore:ingotBrickSeared>,<ore:ingotBrickSeared>,<ore:ingotBrickSeared>]]);
-
+*/
 # Evilcraft
     recipes.remove(<evilcraft:bloodChest>);
     recipes.addShaped(<evilcraft:bloodChest>,
@@ -149,16 +170,17 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
          [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.withTag({display:{Lore:["Not used up when crafting"]}}).reuse(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
-    recipes.addShaped(<rockhounding_oretiers:bloomery>,
-        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>,<railcraft:firestone_refined>.withTag({display:{Lore:["Not used up when crafting.","Must be fully charged."]}}).reuse(),<minecraft:stone_brick_stairs>],
-         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+#    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+#        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+#         [<minecraft:stone_brick_stairs>,<railcraft:firestone_refined>.withTag({display:{Lore:["Not used up when crafting.","Must be fully charged."]}}).reuse(),<minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
          [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({isStub:1, entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
 
 # Roots
+/*
     recipes.remove(<roots:altar>);
     recipes.addShaped(<roots:altar>,
         [[<roots:verdantSprig>,<ore:flowerRed>,<roots:verdantSprig>],
@@ -169,3 +191,4 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<ore:rodStone>,<minecraft:string>,<ore:rodStone>],
          [<ore:rodStone>,<primal:stone_basin>,<ore:rodStone>],
          [<ore:rodStone>,null,<ore:rodStone>]]);
+*/

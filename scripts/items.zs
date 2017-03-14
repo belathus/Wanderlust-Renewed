@@ -13,40 +13,40 @@
     ] as minetweaker.item.IItemStack[];
     val plate_list = [
         <base:plate:1>,                    # Abyssalnite
-        <basemetals:adamantine_plate>,     # Adamantine
+        <base:plate:2>,                    # Adamantine
         <immersiveengineering:metal:31>,   # Aluminum
-        <basemetals:aquarium_plate>,       # Aquarium
+        <base:plate:4>,                    # Aquarium
         <base:plate:5>,                    # Ardite
-        <basemetals:brass_plate>,          # Brass
-        <basemetals:bronze_plate>,         # Bronze
+        <base:plate:6>,                    # Brass
+        <base:plate:7>,                    # Bronze
         <base:plate:8>,                    # Cobalt
-        <basemetals:coldiron_plate>,       # Cold Iron
+        <base:plate:9>,                    # Cold Iron
         <immersiveengineering:metal:36>,   # Constantan
         <immersiveengineering:metal:30>,   # Copper
         <base:plate:12>,                   # Coralium
-        <basemetals:cupronickel_plate>,    # Cupronickel
-        <embers:plateDawnstone>,           # Dawnstone
+        <base:plate:13>,                   # Cupronickel
+        <base:plate:14>,           # Dawnstone
         <base:plate:15>,                   # Dilithium
         <base:plate:16>,                   # Dreadium
         <immersiveengineering:metal:37>,   # Electrum
-        <basemetals:gold_plate>,           # Gold
-        <basemetals:invar_plate>,          # Invar
+        <base:plate:18>,                   # Gold
+        <base:plate:19>,                   # Invar
         <libvulpes:productplate:10>,       # Iridium
         <immersiveengineering:metal:39>,   # Iron
         <immersiveengineering:metal:32>,   # Lead
-        <basemetals:mithril_plate>,        # Mithril
-        <basemetals:nickel_plate>,         # Nickel
-        <basemetals:platinum_plate>,       # Platinum
+        <base:plate:23>,                   # Mithril
+        <base:plate:24>,                   # Nickel
+        <base:plate:25>,                   # Platinum
         <libvulpes:productplate:3>,        # Silicon
-        <basemetals:silver_plate>,         # Silver
-        <basemetals:starsteel_plate>,      # Star-Steel
+        <base:plate:26>,                   # Silver
+        <base:plate:27>,                   # Star-Steel
         <immersiveengineering:metal:38>,   # Steel
-        <basemetals:tin_plate>,            # Tin
+        <base:plate:29>,                   # Tin
         <libvulpes:productplate:7>,        # Titanium
         <advancedrocketry:productplate:0>, # TitaniumAluminide
         <advancedrocketry:productplate:1>, # TitaniumIridium
         <base:plate:33>,                   # Uranium
-        <basemetals:zinc_plate>,           # Zinc
+        <base:plate:34>,                   # Zinc
         <base:plate:37>,                   # Astrium
         <base:plate:40>,                   # Dyonite
         <base:plate:44>,                   # Imperomite
@@ -129,7 +129,7 @@
         [<base:gear:11>, <base:plate:11>], # Copper
         [<base:gear:12>, <base:plate:12>], # Coralium
         [<base:gear:13>, <base:plate:13>], # Cupronickel
-        [<base:gear:14>, <embers:plateDawnstone>], # Dawnstone
+        [<base:gear:14>, <base:plate:14>], # Dawnstone
         [<base:gear:15>, <base:plate:15>], # Dilithium
         [<base:gear:16>, <base:plate:16>], # Dreadium
         [<base:gear:17>, <base:plate:17>], # Electrum
@@ -176,7 +176,7 @@
     }
     for i, plate in plate_list {
 #        if (plate == <charsetlib:icon>) {
-            recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
+            #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
             recipes.addShaped(plate, [[<immersiveengineering:tool:*>.transformDamage()],[ingot_list[i]]]);
 #        }
     }
@@ -184,6 +184,7 @@
 # Vanilla
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
     # making sticks
+/*
     recipes.addShaped(<minecraft:stick>*8,
         [[<druidry:flint_axe:*>.transformDamage()],
          [<ore:logWood>]]);
@@ -193,7 +194,7 @@
     recipes.addShaped(<minecraft:stick>*2,
         [[<druidry:flint_axe:*>.transformDamage()],
          [<ore:slabWood>]]);
-
+*/
 # Actually Additions
     recipes.remove(<actuallyadditions:itemMisc:10>);
     recipes.remove(<actuallyadditions:itemMisc:11>);
@@ -203,7 +204,7 @@
     recipes.addShaped(<abyssalcraft:ironp>,
        [[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>]]);
 
-    recipes.addShapeless(<fp:spaceship:12>,[<ore:stickIron>]);
+    #recipes.addShapeless(<fp:spaceship:12>,[<ore:stickIron>]);
     recipes.remove(<abyssalcraft:necronomicon>);
     recipes.addShapeless(<abyssalcraft:necronomicon>,
         [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
@@ -244,17 +245,17 @@
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:quartz_workblade:*>.transformDamage()]);
 
 # Backpack
-    recipes.remove(<backpack:stick:0>);
-    recipes.remove(<backpack:stick:1>);
+#    recipes.remove(<backpack:stick:0>);
+#    recipes.remove(<backpack:stick:1>);
 
 # Base Metals
-    recipes.remove(<basemetals:iron_rod>);
+#    recipes.remove(<basemetals:iron_rod>);
 
 # Esteemed Innovation
-    recipes.remove(<esteemedinnovation:blank_mold>);
-    recipes.addShaped(<esteemedinnovation:blank_mold>,
-        [[<ore:ingotBrick>,<embers:plateCaminiteRaw>,<ore:ingotBrick>],
-         [<ore:ingotBrick>,<ore:ingotBrickSeared>,<ore:ingotBrick>]]);
+#    recipes.remove(<esteemedinnovation:blank_mold>);
+#    recipes.addShaped(<esteemedinnovation:blank_mold>,
+#        [[<ore:ingotBrick>,<embers:plateCaminiteRaw>,<ore:ingotBrick>],
+#         [<ore:ingotBrick>,<ore:ingotBrickSeared>,<ore:ingotBrick>]]);
 
 # Fishing Net Mod
     recipes.remove(<fishing:itemNet>);
@@ -264,7 +265,7 @@
          [null,<ore:cordageGeneral>,null]]);
 
 # Futurepack
-    recipes.remove(<fp:spaceship:12>);
+    #recipes.remove(<fp:spaceship:12>);
 
 # Immersive Engineering
     
@@ -276,11 +277,11 @@
     recipes.remove(<naturescompass:NaturesCompass>);
     recipes.addShaped(<naturescompass:NaturesCompass>,
         [[<ore:vine>,<minecraft:log:*>,<ore:vine>],
-         [<minecraft:log:*>,<roots:oldRoot>,<minecraft:log:*>],
+         [<minecraft:log:*>,<arsmagica2:tarma_root>,<minecraft:log:*>],
          [<ore:vine>,<minecraft:log:*>,<ore:vine>]]);
     recipes.addShaped(<naturescompass:NaturesCompass>,
         [[<minecraft:log:*>,<ore:vine>,<minecraft:log:*>],
-         [<ore:vine>,<roots:oldRoot>,<ore:vine>],
+         [<ore:vine>,<arsmagica2:tarma_root>,<ore:vine>],
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
 # PrimalCore
