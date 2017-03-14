@@ -33,24 +33,24 @@
          [null,<ore:plankWood>,null]]);
 
 # Base Metals
-    recipes.remove(<basemetals:copper_crackhammer>);
-    recipes.remove(<basemetals:gold_crackhammer>);
-    recipes.remove(<basemetals:lead_crackhammer>);
-    recipes.remove(<basemetals:nickel_crackhammer>);
-    recipes.remove(<basemetals:platinum_crackhammer>);
-    recipes.remove(<basemetals:silver_crackhammer>);
-    recipes.remove(<basemetals:stone_crackhammer>);
-    recipes.remove(<basemetals:tin_crackhammer>);
-    recipes.remove(<basemetals:wood_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:copper_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:gold_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:lead_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:nickel_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:platinum_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:silver_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:stone_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:tin_crackhammer>);
-    mods.jei.JEI.hide(<basemetals:wood_crackhammer>);
+#    recipes.remove(<basemetals:copper_crackhammer>);
+#    recipes.remove(<basemetals:gold_crackhammer>);
+#    recipes.remove(<basemetals:lead_crackhammer>);
+#    recipes.remove(<basemetals:nickel_crackhammer>);
+#    recipes.remove(<basemetals:platinum_crackhammer>);
+#    recipes.remove(<basemetals:silver_crackhammer>);
+#    recipes.remove(<basemetals:stone_crackhammer>);
+#    recipes.remove(<basemetals:tin_crackhammer>);
+#    recipes.remove(<basemetals:wood_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:copper_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:gold_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:lead_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:nickel_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:platinum_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:silver_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:stone_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:tin_crackhammer>);
+#    mods.jei.JEI.hide(<basemetals:wood_crackhammer>);
 
 # Blood Magic
     # Sacrificial Dagger
@@ -71,7 +71,7 @@
          [null,<ore:rock>,null]]);
 
 # Druidry
-    recipes.remove(<druidry:flint_axe>);
+#    recipes.remove(<druidry:flint_axe>);
 
 # Dungeon Tactics
     recipes.remove(<dungeontactics:wooden_sword>);
@@ -85,26 +85,26 @@
          [<extrautils2:decorativesolidwood:1>,null,null]]);
 
 # Grappling Hooks
-    recipes.remove(<grapplemod:grapplinghook>);
-    recipes.remove(<grapplemod:hookshot>);
-    recipes.remove(<grapplemod:launcheritem>);
-    recipes.remove(<grapplemod:magnetbow>);
-    recipes.addShaped(<grapplemod:grapplinghook>,
-        [[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>],
-         [<ore:nuggetIron>,<ore:cordageGeneral>,<ore:nuggetIron>],
-         [null,<ore:cordageGeneral>,null]]);
-    recipes.addShaped(<grapplemod:hookshot>,
-        [[null,<grapplemod:grapplinghook>,null],
-         [<ore:gearGilded>,<ore:wireSteel>,<ore:gearGilded>],
-         [null,<forestry:sturdyMachine>,null]]);
-    recipes.addShaped(<grapplemod:launcheritem>,
-        [[null,<ore:dustVinteum>,<ore:enderpearl>],
-         [<ore:dustVinteum>,<ore:ingotSteel>,<ore:dustVinteum>],
-         [<ore:ingotSteel>,<ore:dustVinteum>,null]]);
-    recipes.addShaped(<grapplemod:magnetbow>,
-        [[null,<grapplemod:grapplinghook>,null],
-         [<ore:gemChimerite>,<ore:wireSteel>,<ore:gemChimerite>],
-         [null,<grapplemod:launcheritem>,null]]);
+#    recipes.remove(<grapplemod:grapplinghook>);
+#    recipes.remove(<grapplemod:hookshot>);
+#    recipes.remove(<grapplemod:launcheritem>);
+#    recipes.remove(<grapplemod:magnetbow>);
+#    recipes.addShaped(<grapplemod:grapplinghook>,
+#        [[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>],
+#         [<ore:nuggetIron>,<ore:cordageGeneral>,<ore:nuggetIron>],
+#         [null,<ore:cordageGeneral>,null]]);
+#    recipes.addShaped(<grapplemod:hookshot>,
+#        [[null,<grapplemod:grapplinghook>,null],
+#         [<ore:gearGilded>,<ore:wireSteel>,<ore:gearGilded>],
+#         [null,<forestry:sturdyMachine>,null]]);
+#    recipes.addShaped(<grapplemod:launcheritem>,
+#        [[null,<ore:dustVinteum>,<ore:enderpearl>],
+#         [<ore:dustVinteum>,<ore:ingotSteel>,<ore:dustVinteum>],
+#         [<ore:ingotSteel>,<ore:dustVinteum>,null]]);
+#    recipes.addShaped(<grapplemod:magnetbow>,
+#        [[null,<grapplemod:grapplinghook>,null],
+#         [<ore:gemChimerite>,<ore:wireSteel>,<ore:gemChimerite>],
+#         [null,<grapplemod:launcheritem>,null]]);
 
 # Nomadic Tents
     recipes.remove(<yurtmod:mallet>);
@@ -124,11 +124,11 @@
         function(output, inputs, crafting) {
             return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25));
         });
-    recipes.addShapeless(<primal:flint_hatchet>, 
-        [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <druidry:branch>.noReturn()],
-        function(output, inputs, crafting) {
-            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 50));
-        });
+#    recipes.addShapeless(<primal:flint_hatchet>, 
+#        [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <druidry:branch>.noReturn()],
+#        function(output, inputs, crafting) {
+#            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 50));
+#        });
     recipes.addShapeless(<primal:flint_axe>, 
         [<primal:flint_axe>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
         function(output, inputs, crafting) {
@@ -192,8 +192,8 @@
 #         [null,<ore:stickWood>,<ore:stickWood>]]);
 
 # Roots
-    recipes.remove(<roots:druidKnife>);
-    recipes.addShaped(<roots:druidKnife>,
-        [[<roots:verdantSprig>],
-         [<ore:flakeFlint>],
-         [<ore:stickWood>]]);
+#    recipes.remove(<roots:druidKnife>);
+#    recipes.addShaped(<roots:druidKnife>,
+#        [[<roots:verdantSprig>],
+#         [<ore:flakeFlint>],
+#         [<ore:stickWood>]]);
