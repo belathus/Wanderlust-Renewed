@@ -5,7 +5,7 @@
 <minecraft:stone_pickaxe>.addTooltip(format.green("Try making a flint pickaxe instead."));
 <minecraft:wooden_axe>.addTooltip(format.green("Try making a flint hatchet instead."));
 <minecraft:stone_axe>.addTooltip(format.green("Try making a flint hatchet instead."));
-<primal:rock>.addTooltip(format.green("You can throw this or make a cool book."));
+<primal:rock_stone>.addTooltip(format.green("You can throw this or make a cool book."));
 
 <minecraft:wooden_hoe>.addTooltip(format.green("Incredibly low durability."));
 <minecraft:stone_hoe>.addTooltip(format.green("Incredibly low durability."));
