@@ -1,5 +1,5 @@
 
-<IfModInstalled name="ExtraUtils2">
+<IfModInstalled name="extrautils2">
     <ConfigSection>
         <IfCondition condition=':=dimension.generator.class="ChunkProviderDark"'>
             
@@ -457,66 +457,33 @@
             </IfModInstalled>
             
             <!-- FuturePack -->
-            <IfModInstalled name="fp">
-                <Veins name='fupaDDZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='fp:erze:1' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 1.413 * _default_ ' range=':= 1.413 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.922 * _default_ ' range=':= 1.922 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 46 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-                
-                <cloud name='fupaDDNeonCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+            <IfModInstalled name="base">
+                <Veins name='baseDDZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
                     <Description>
-                        Create a phantom "cloud" where nothing spawns
-                        Then create a group of flowers on the surface.
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
                     </Description>
-                    <Biome name='.*' />
-                    <OreBlock block='fp:neon_sand' weight='1.0' />
-                    <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' />
-                    <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' scaleTo='base' />
-                    <Setting name='DistributionFrequency' avg=':= 20.000 * _default_ ' range=':= 9.000 * _default_ ' type='normal' scaleTo='base' />
-                    <Setting name='CloudHeight'           avg=':= 70 '              range=':= 20 '              type='normal' scaleTo='base' />
-                    <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                    <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <OreBlock block='base:ore_zinc' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 1.413 * _default_ ' range=':= 1.413 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.922 * _default_ ' range=':= 1.922 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 46 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Veins name='fupaDDNeonBlocks' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
-                        <Description>
-                            Nope.
-                        </Description>
-                        <OreBlock block='fp:neon_sand' weight='1.0' />
-                        <PlacesBelow block='minecraft:air' weight='1.0' />
-                        <Replaces block='minecraft:cobblestone' weight='1.0' />
-                        <Replaces block='minecraft:stone' weight='1.0' />
-                        <Setting name='MotherlodeSize'        avg=':= 1.922 * _default_ ' range=':= 1.922 * _default_ ' type='normal' />
-                        <Setting name='MotherlodeRangeLimit'  avg=' 20 '                  range=' 5 ' type='uniform' />
-                        <Setting name='MotherlodeHeight'      avg='64'                    range='2' scaleTo='base' />
-                        <Setting name='MotherlodeFrequency'   avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
-                        <Setting name='BranchFrequency'       avg=':= 0 '                 range=':= 0 '         type='normal' />
-                    </Veins>
-                </cloud>
+                </Veins>
             </IfModInstalled>
-            
+
             <!-- Immersive Engineering -->
             <!-- Covers: copper, aluminum, lead, silver, nickel, uranium -->
             <IfModInstalled name="immersiveengineering">
@@ -938,7 +905,7 @@
             
             <!-- TAIGA -->
             <IfModInstalled name="taiga">
-                <!-- Bismuth Ore -->
+                <!-- Bismuth Ore --><!--
                 <Veins name='taigaDDBismuthVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
     				<Description>
     					Small, fairly rare motherlodes with 2-4 horizontal veins each.
@@ -963,7 +930,7 @@
     				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
     				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
     				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
+    			</Veins>-->
                 
                 <!-- Karmesine Ore -->
                 <Veins name='taigaDDKarmesineVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
@@ -997,7 +964,7 @@
     				<Description>
     					Small, fairly rare motherlodes with 2-4 horizontal veins each.
     				</Description>
-    				<OreBlock block='taiga:meteorite_ore' weight='1.0' />
+    				<OreBlock block='taiga:meteoritecobble_block' weight='1.0' />
     				<ReplacesOre block='stone' weight='1.0' />
     				<ReplacesOre block='cobblestone' weight='1.0' />
     				<Biome name='.*'  />
@@ -1046,7 +1013,7 @@
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
                 <Veins name='taigaDDGraniteGeodeMiddle'  inherits='taigaDDGraniteGeode' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x60D2B48C' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                    <OreBlock block='taiga:arcanite_ore' weight='0.06' />
+                    <OreBlock block='taiga:jauxum_ore' weight='0.06' />
                     <Replaces block='minecraft:stone:1' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -1090,7 +1057,7 @@
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
                 <Veins name='taigaDDDioriteGeodeMiddle'  inherits='taigaDDDioriteGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x60CDC0B0' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                    <OreBlock block='taiga:mindorite_ore' weight='0.06' />
+                    <OreBlock block='taiga:ovium_ore' weight='0.06' />
                     <Replaces block='minecraft:stone:3' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -1134,7 +1101,7 @@
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
                 <Veins name='taigaDDAndesiteGeodeMiddle'  inherits='taigaDDAndesiteGeode' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608B8989' drawBoundBox='false' boundBoxColor='0x608B6969'>
-                    <OreBlock block='taiga:eternite_ore' weight='0.06' />
+                    <OreBlock block='taiga:karmesine_ore' weight='0.06' />
                     <Replaces block='minecraft:stone:5' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.800 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
