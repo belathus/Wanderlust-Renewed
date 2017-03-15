@@ -222,7 +222,10 @@
                 {"data":{"name":"chisel:tyrian","min":60,"max":64,"weight":1}},
                 {"data":{"name":"chisel:valentines","min":60,"max":64,"weight":1}},
                 {"data":{"name":"chisel:voidstone","min":60,"max":64,"weight":1}},
-                {"data":{"name":"chisel:waterstone","min":60,"max":64,"weight":1}}
+                {"data":{"name":"chisel:waterstone","min":60,"max":64,"weight":1}},
+				{"data":{"name":"stone","meta":1,"min":32,"max":64}},
+				{"data":{"name":"stone","meta":3,"min":32,"max":64}},
+				{"data":{"name":"stone","meta":5,"min":32,"max":64}}
             ],
             "level":[0,1,2,3,4],
             "each":true,

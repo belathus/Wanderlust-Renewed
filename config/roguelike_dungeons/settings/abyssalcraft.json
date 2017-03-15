@@ -36,11 +36,25 @@
                     }
                 },
                 "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"railcraft:brick_bleachedbone",
-						"meta":2
-                    }
+                    "type":"JUMBLE",
+                    "data":[
+						{"name":"chisel:sandstone-scribbles","meta":0},
+						{"name":"chisel:sandstone-scribbles","meta":1},
+						{"name":"chisel:sandstone-scribbles","meta":2},
+						{"name":"chisel:sandstone-scribbles","meta":3},
+						{"name":"chisel:sandstone-scribbles","meta":4},
+						{"name":"chisel:sandstone-scribbles","meta":5},
+						{"name":"chisel:sandstone-scribbles","meta":6},
+						{"name":"chisel:sandstone-scribbles","meta":7},
+						{"name":"chisel:sandstone-scribbles","meta":8},
+						{"name":"chisel:sandstone-scribbles","meta":9},
+						{"name":"chisel:sandstone-scribbles","meta":10},
+						{"name":"chisel:sandstone-scribbles","meta":11},
+						{"name":"chisel:sandstone-scribbles","meta":12},
+						{"name":"chisel:sandstone-scribbles","meta":13},
+						{"name":"chisel:sandstone-scribbles","meta":14},
+						{"name":"chisel:sandstone-scribbles","meta":15}
+					]
                 },
                 "stair":{
                     "type":"METABLOCK",
@@ -155,8 +169,8 @@
                     "walls":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"railcraft:brick_abyssal",
-                            "meta":1
+                            "name":"rockhounding_rocks:bricksA",
+                            "meta":0
                         }
                     },
                     "pillar":{
@@ -258,8 +272,12 @@
                                 "meta":6
                             },
                             {
-                                "name":"railcraft:brick_bloodstained",
-                                "meta":1
+                                "name":"rockhounding_rocks:bricksVanilla",
+                                "meta":14
+                            },
+                            {
+                                "name":"rockhounding_rocks:shortsVanilla",
+                                "meta":14
                             }
                         ]
                     }
@@ -394,7 +412,7 @@
                     "stair":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"embers:stairsAshenTile"
+                            "name":"quark:stone_limestone_bricks_stairs"
                         }
                     },
                     "floor":{

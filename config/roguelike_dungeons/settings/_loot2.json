@@ -111,9 +111,9 @@
 						},
 						{"data" : {"name" : "tconstruct:brownstone", "min" : 16, "max":32}},
 						{"data" : {"name" : "emerald", "min" : 1, "max":2}},
-						{"data":{"name":"basemetals:nickel_ingot","min":1,"max":4}},
-                        {"data":{"name":"basemetals:silver_ingot","min":1,"max":4}},
-                        {"data":{"name":"basemetals:lead_ingot","min":1,"max":4}},
+						{"data":{"name":"immersiveengineering:metal","meta":4,"comment":"Nickel","min":1,"max":4}},
+                        {"data":{"name":"immersiveengineering:metal","meta":3,"comment":"Silver","min":1,"max":4}},
+                        {"data":{"name":"immersiveengineering:metal","meta":2,"comment":"Lead","min":1,"max":4}},
 						{
 							"data" : [
 								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":0, "min":1, "max":2}},

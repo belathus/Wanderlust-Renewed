@@ -162,7 +162,7 @@
 						{"data":{"name":"paper","min":1,"max":2}},
 						{"data":{"name":"name_tag"}},
 						{"data":{"name":"egg"}},
-						{"data":{"name":"druidry:wattle"}},
+						{"data":{"name":"primal:wattle_oak"}},
 						{
 							"data":[						
 								{"data":{"name":"botania:grassSeeds"}},
@@ -190,7 +190,7 @@
 				{
 					"data":[
 						{"data":{"name":"primal:ash","min":1,"max":2}},
-						{"data":{"name":"roots:oldRoot","min":1,"max":2}},
+						{"data":{"name":"arsmagica2:tarma_root","min":1,"max":2}},
 						{"data":{"name":"book","min":1,"max":3}},
 						{"data":{"name":"minecraft:brick","min":1,"max":3}},
 						{"data":{"name":"botania:fertilizer","min":1,"max":4}},
@@ -203,14 +203,6 @@
 						{"data":{"name":"emerald"}},
 						{"data":{"name":"evilcraft:darkGem"}},
 						{"data":{"name":"bloodmagic:ItemSlate","min":1,"max":4}},
-						{
-							"data":[
-								{"data":{"name":"stone","meta":1,"min":32,"max":64}},
-								{"data":{"name":"stone","meta":3,"min":32,"max":64}},
-								{"data":{"name":"stone","meta":5,"min":32,"max":64}},
-								{"data":{"name":"embers:blockCaminiteBrick","min":32,"max":64}}
-							]
-						},
 						{"data":{"name":"botania:teruTeruBozu"}},
 						{"data":{"name":"book","ench":2}},
 						{"data":{"name":"tconstruct:throwball","min":1,"max":3}},
@@ -248,9 +240,9 @@
 						{"data":{"name":"arsmagica2:blank_rune","meta":0,"min":1,"max":2}},
 						{"data":{"name":"bloodmagic:BlockBloodRune","min":1,"max":5}},
 						{"data":{"name":"vine","min":4,"max":8}},
-						{"data":{"name":"basemetals:zinc_nugget","min":4,"max":8}},
-						{"data":{"name":"immersiveengineering:metal","meta":20,"min":6,"max":8}},
-						{"data":{"name":"basemetals:tin_nugget","min":4,"max":8}},
+						{"data":{"name":"base:nugget","meta":34,"comment":"Zinc","min":4,"max":8}},
+						{"data":{"name":"immersiveengineering:metal","comment":"Copper","meta":20,"min":6,"max":8}},
+						{"data":{"name":"base:nugget","meta":29,"comment":"Tin","min":4,"max":8}},
 						{"data":{"name":"primal:iron_ring","min":1,"max":2}},
 						{"data":{"name":"lava_bucket"}},
 						{"data":{"name":"arsmagica2:ore","min":1,"max":2}},

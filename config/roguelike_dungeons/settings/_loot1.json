@@ -6,7 +6,7 @@
             "loot":[
                 {
                     "data":[
-                        {"data" : {"name":"dungeontactics:studded_boots", "ench" : 5}},
+                        {"data":{"name":"dungeontactics:studded_boots", "ench" : 5}},
                         {"data":{"name":"dungeontactics:studded_chestplate","ench":5}},
                         {"data":{"name":"dungeontactics:studded_helmet","ench":5}},
                         {"data":{"name":"dungeontactics:studded_leggings","ench":5}}
@@ -15,15 +15,11 @@
                 },
                 {
                     "data":[
-                        {"data":{"name":"basemetals:brass_helmet","ench":5}},
-                        {"data":{"name":"basemetals:brass_chestplate","ench":5}},
-                        {"data":{"name":"basemetals:brass_leggings","ench":5}},
-                        {"data":{"name":"basemetals:brass_boots","ench":5}},
-                        {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}},
-                        {"data":{"name":"basemetals:bronze_helmet","ench":5}},
-                        {"data":{"name":"basemetals:bronze_chestplate","ench":5}},
-                        {"data":{"name":"basemetals:bronze_leggings","ench":5}},
-                        {"data":{"name":"basemetals:bronze_boots","ench":5}}
+                        {"data":{"name":"chainmail_helmet","ench":5}},
+                        {"data":{"name":"chainmail_chestplate","ench":5}},
+                        {"data":{"name":"chainmail_leggings","ench":5}},
+                        {"data":{"name":"chainmail_boots","ench":5}},
+                        {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
                     ],
                     "weight":3
                 }
@@ -36,7 +32,7 @@
             "type":"WEAPONS",
             "loot":[
                 {"data":{"name":"dungeontactics:bronze_sword","ench":5}},
-                {"data":{"name":"esteemedinnovation:brass_sword","ench":5}},
+                {"data":{"name":"actuallyadditions:itemSwordQuartz","ench":5}},
                 {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
             ],
             "level":1,
@@ -46,37 +42,23 @@
         {
             "type":"TOOLS",
             "loot":[
-                {"data":{"name":"basemetals:bronze_crackhammer","ench":5}},
-                {"data":{"name":"basemetals:bronze_pickaxe","ench":5}},
-                {"data":{"name":"basemetals:bronze_shovel","ench":5}},
-                {"data":{"name":"basemetals:bronze_axe","ench":5}},
-                {"data":{"name":"basemetals:bronze_hoe","ench":5}},
-                {"data":{"name":"basemetals:brass_crackhammer","ench":5}},
-                {"data":{"name":"esteemedinnovation:brass_pickaxe","ench":5}},
-                {"data":{"name":"esteemedinnovation:brass_shovel","ench":5}},
-                {"data":{"name":"esteemedinnovation:brass_axe","ench":5}},
-                {"data":{"name":"esteemedinnovation:brass_hoe","ench":5}},
-                {"data":{"name":"forestry:apiaristBag"}},
-                {"data":{"name":"forestry:lepidopteristBag"}},
-                {"data":{"name":"forestry:minerBag"}},
-                {"data":{"name":"forestry:diggerBag"}},
-                {"data":{"name":"forestry:foresterBag"}},
-                {"data":{"name":"forestry:hunterBag"}},
-                {"data":{"name":"forestry:adventurerBag"}},
-                {"data":{"name":"forestry:builderBag"}}
+                {"data":{"name":"forestry:bronzePickaxe","ench":5}},
+                {"data":{"name":"forestry:bronzeShovel","ench":5}},
+                {"data":[
+					{"data":{"name":"forestry:apiaristBag"}},
+					{"data":{"name":"forestry:lepidopteristBag"}},
+					{"data":{"name":"forestry:minerBag"}},
+					{"data":{"name":"forestry:diggerBag"}},
+					{"data":{"name":"forestry:foresterBag"}},
+					{"data":{"name":"forestry:hunterBag"}},
+					{"data":{"name":"forestry:adventurerBag"}},
+					{"data":{"name":"forestry:builderBag"}}
+					]
+				}
             ],
             "level":1,
             "each":true,
             "quantity":3
-        },
-        {
-            "type":"TOOLS",
-            "loot":[
-                {"data":{"name":"fp:escenner","meta":1}}
-            ],
-            "level":1,
-            "each":false,
-            "quantity":2
         },
 		{
             "type":"TOOLS",
@@ -93,13 +75,12 @@
                 {
                     "data":[
                         {"data":{"name":"book","min":1,"max":4}},
-                        {"data":{"name":"basemetals:bronze_ingot","min":1,"max":3}},
-                        {"data":{"name":"basemetals:tin_ingot","min":1,"max":3}},
-                        {"data":{"name":"basemetals:zinc_ingot","min":1,"max":3}},
-                        {"data":{"name":"basemetals:copper_ingot","min":1,"max":3}},
+                        {"data":{"name":"base:ingot","meta":7,"comment":"Bronze","min":1,"max":3}},
+                        {"data":{"name":"abyssalcraft:tiningot","min":1,"max":3}},
+                        {"data":{"name":"primal:zinc_ingot","min":1,"max":3}},
+                        {"data":{"name":"immersiveengineering:metal","comment":"Copper","min":1,"max":3}},
                         {"data":{"name":"primal:iron_ring","min":1,"max":2}},
                         {"data":{"name":"redstone","min":2,"max":8}},
-                        {"data":{"name":"esteemedinnovation:soil_sampling_kit","min":1,"max":2}},
                         {"data":{"name":"arsmagica2:item_ore","min":1,"max":3}},
                         {
 							"data":[
@@ -124,9 +105,9 @@
                 {
                     "data":[
                         {"data":{"name":"gold_ingot","min":1,"max":3}},
-                        {"data":{"name":"basemetals:nickel_ingot","min":1,"max":3}},
-                        {"data":{"name":"basemetals:silver_ingot","min":1,"max":3}},
-                        {"data":{"name":"basemetals:lead_ingot","min":1,"max":3}},
+                        {"data":{"name":"immersiveengineering:metal","meta":4,"comment":"Nickel","min":1,"max":3}},
+                        {"data":{"name":"immersiveengineering:metal","meta":3,"comment":"Silver","min":1,"max":3}},
+                        {"data":{"name":"immersiveengineering:metal","meta":2,"comment":"Lead","min":1,"max":3}},
                         {"data":{"name":"emerald","min":1,"max":3}},
                         {"data":{"name":"arsmagica2:mana_cake","min":1,"max":3}},
                         {

@@ -100,11 +100,17 @@
                 "base":"QUARTZ",
                 "primary":{
                     "walls":{
-                        "type":"METABLOCK",
-                        "data":{
-                            "name":"railcraft:brick_frostbound",
-                            "meta":1
-                        }
+                        "type":"JUMBLE",
+                        "data":[
+							{
+								"name":"rockhounding_rocks:bricksA",
+								"meta":11
+							},
+							{
+								"name":"rockhounding_rocks:shortsA",
+								"meta":11
+							}
+						]
                     },
                     "pillar":{
                         "type":"METABLOCK",
@@ -284,12 +290,12 @@
                         "type":"JUMBLE",
                         "data":[
                             {
-                                "name":"railcraft:brick_bloodstained",
-                                "meta":5
+                                "name":"rockhounding_rocks:bricksVanilla",
+                                "meta":14
                             },
                             {
-                                "name":"railcraft:brick_bloodstained",
-                                "meta":1
+                                "name":"rockhounding_rocks:shortsVanilla",
+                                "meta":14
                             }
                         ]    
                     },
