@@ -1,6 +1,14 @@
 {
-  "_name": "arsmagica2.HellCow",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "arsmagica2.HellCow",
+    "drops": [
+        {
+            "_comment" : "Adding steak to the HellCow's drops",
+            "function" : "add",
+            "id" : "minecraft:beef",
+            "damage" : 0,
+            "count" : "0~6"
+        }
+    ],
+    "pre_stats": [],
+    "stats": []
 }
