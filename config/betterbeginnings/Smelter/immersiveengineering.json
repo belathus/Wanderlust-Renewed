@@ -1,0 +1,24 @@
+{
+    "recipes": [
+        {
+            "input": {
+                "itemName": "oreCopper",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "immersiveengineering:metal",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 0,
+                "stackSize": 1
+            },
+            "experience": 0.7,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        }],
+    "includes": [],
+    "modDependencies": ["immersiveengineering"],
+    "version": 0
+}
