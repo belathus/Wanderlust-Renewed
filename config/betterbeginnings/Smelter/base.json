@@ -1,0 +1,42 @@
+{
+    "recipes": [
+        {
+            "input": {
+                "itemName": "oreTin",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 29,
+                "stackSize": 1
+            },
+            "experience": 0.7,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        },
+        {
+            "input": {
+                "itemName": "oreZinc",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 34,
+                "stackSize": 1
+            },
+            "experience": 0.7,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        }],
+    "includes": [],
+    "modDependencies": ["base"],
+    "version": 0
+}
