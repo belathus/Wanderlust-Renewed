@@ -178,6 +178,14 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
          [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({isStub:1, entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze", isStub:1}), <minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
 
 # Roots
 /*
