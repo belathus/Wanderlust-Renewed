@@ -36,7 +36,7 @@
     
     recipes.remove(<minecolonies:blockHutGuardTower>);
     recipes.addShapeless(<minecolonies:blockHutGuardTower>,
-         [[<minecraft:bow>, <abyssalcraft:engraver_on>, <dungeontactics:bronze_sword>]);
+         [<minecraft:bow>, <abyssalcraft:engraver_on>, <dungeontactics:bronze_sword>]);
           
     recipes.remove(<minecolonies:blockHutWareHouse>);
     recipes.addShapeless(<minecolonies:blockHutWareHouse>,

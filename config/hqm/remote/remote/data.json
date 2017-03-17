@@ -1278,7 +1278,6 @@
   },
   {
     "uuid": "ee0d3beb-aa3a-4400-84f0-abebdfa4ad3d",
-    "name": "soulhakr",
     "lives": 3,
     "team": {
       "id": -1,
@@ -1307,14 +1306,6 @@
             "time": 0,
             "tasksSize": 2,
             "tasks": [
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
-              },
               {
                 "type": "ITEMS",
                 "completed": false,
@@ -1567,14 +1558,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -1689,14 +1672,6 @@
             "time": 0,
             "tasksSize": 2,
             "tasks": [
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
-              },
               {
                 "type": "LOCATION",
                 "completed": false,
@@ -2303,14 +2278,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -2624,14 +2591,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -2877,14 +2836,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -3000,11 +2951,12 @@
             "tasksSize": 2,
             "tasks": [
               {
-                "type": "ITEMS",
+                "type": "LOCATION",
                 "completed": false,
-                "count": 1,
-                "progress": [
-                  0
+                "count": 2,
+                "visited": [
+                  false,
+                  false
                 ]
               },
               {
@@ -3613,14 +3565,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -3887,7 +3831,7 @@
         0,
         0,
         0,
-        1,
+        2,
         16,
         2,
         0,
@@ -3927,14 +3871,6 @@
             "time": 69,
             "tasksSize": 2,
             "tasks": [
-              {
-                "type": "ITEMS",
-                "completed": true,
-                "count": 1,
-                "progress": [
-                  1
-                ]
-              },
               {
                 "type": "ITEMS",
                 "completed": true,
@@ -4187,14 +4123,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -4310,11 +4238,12 @@
             "tasksSize": 2,
             "tasks": [
               {
-                "type": "ITEMS",
+                "type": "LOCATION",
                 "completed": false,
-                "count": 1,
-                "progress": [
-                  0
+                "count": 2,
+                "visited": [
+                  false,
+                  false
                 ]
               },
               {
@@ -4923,14 +4852,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -5244,14 +5165,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -5497,14 +5410,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -5620,11 +5525,12 @@
             "tasksSize": 2,
             "tasks": [
               {
-                "type": "ITEMS",
+                "type": "LOCATION",
                 "completed": false,
-                "count": 1,
-                "progress": [
-                  0
+                "count": 2,
+                "visited": [
+                  false,
+                  false
                 ]
               },
               {
@@ -6233,14 +6139,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -6518,7 +6416,6 @@
   },
   {
     "uuid": "9f85e1aa-2ae1-4e59-81a4-dc28266caac7",
-    "name": "Divineaspect",
     "lives": 3,
     "team": {
       "id": -1,
@@ -6547,14 +6444,6 @@
             "time": 0,
             "tasksSize": 2,
             "tasks": [
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
-              },
               {
                 "type": "ITEMS",
                 "completed": true,
@@ -6807,14 +6696,6 @@
                 "progress": [
                   0
                 ]
-              },
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
               }
             ]
           }
@@ -6929,14 +6810,6 @@
             "time": 0,
             "tasksSize": 2,
             "tasks": [
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
-              },
               {
                 "type": "LOCATION",
                 "completed": false,
@@ -7536,14 +7409,6 @@
             "time": 0,
             "tasksSize": 2,
             "tasks": [
-              {
-                "type": "ITEMS",
-                "completed": false,
-                "count": 1,
-                "progress": [
-                  0
-                ]
-              },
               {
                 "type": "ITEMS",
                 "completed": false,
@@ -9096,7 +8961,7 @@
         0,
         0,
         0,
-        4,
+        5,
         0,
         0,
         0,
