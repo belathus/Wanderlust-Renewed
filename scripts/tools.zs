@@ -31,6 +31,9 @@
         [[<ore:plankWood>,<ore:ingotBronze>,<ore:plankWood>],
          [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
          [null,<ore:plankWood>,null]]);
+    recipes.addShaped(<minecraft:bucket>,
+        [[<ore:ingotTin>,null,<ore:ingotTin>],
+         [null,<ore:ingotTin>,null]]);
 
 # Base Metals
 #    recipes.remove(<basemetals:copper_crackhammer>);
