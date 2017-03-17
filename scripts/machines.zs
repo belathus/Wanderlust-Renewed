@@ -91,7 +91,7 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
     recipes.remove(<deepresonance:machine_frame>);
     recipes.addShaped(<deepresonance:machine_frame>,
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
-         [<ore:gearGilded>,null,<ore:gearGilded>],
+         [<ore:gearAluminum>,null,<ore:gearAluminum>],
          [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
 
 # EnderIo
@@ -153,7 +153,7 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
     recipes.remove(<rftools:machine_frame>);
     recipes.addShaped(<rftools:machine_frame>,
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
-         [<ore:gearGilded>,null,<ore:gearGilded>],
+         [<ore:gearAluminum>,null,<ore:gearAluminum>],
          [<ore:plateSteel>,<ore:dustRedstone>,<ore:plateSteel>]]);
 
 # Rockhounding
