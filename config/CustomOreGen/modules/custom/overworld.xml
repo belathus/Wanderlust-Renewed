@@ -749,6 +749,35 @@
     </IfModInstalled>
     
     
+    <IfModInstalled name="deepresonance">
+        <Veins name='deepResonatingVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
+            <Description>
+                Single vertical veins that occur with no  motherlodes.
+            </Description>
+            <OreBlock block='minecraft:redstone_ore' weight='0.8' />
+            <OreBlock block='deepresonance:resonating_ore' weight='0.2' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= -_default_ '        range=':= -_default_ '        type='normal' />
+            <Setting name='BranchLength'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 1.551 * _default_ ' range=':= 1.551 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+    </IfModInstalled>
+    
+    
     <IfModInstalled name="evilcraft">
         <!-- Dark Gem Ore Deposits; more common in SPOOKY biomes; the non-preferred vein is barred from SPOOKY biomes -->
         <Veins name='evilDarkGemVeins'  inherits='PresetHintVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60554444' drawBoundBox='false' boundBoxColor='0x60554444'>
