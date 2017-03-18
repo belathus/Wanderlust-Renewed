@@ -91,7 +91,19 @@
         [<natura:nether_logs:1>, <natura:nether_planks:2>,<natura:nether_stairs_fusewood>,<natura:nether_slab:2>],
         [<natura:nether_logs:2>, <natura:nether_planks:3>,<natura:nether_stairs_darkwood>,<natura:nether_slab:3>],
         #[<roots:logWildwood>,<roots:plankWildwood>,<roots:plankWildwoodStairs>,<roots:plankWildwoodSlabItem>],
-        [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>]
+        [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>],
+        [<rockhounding_surface:bogLogs:0>,<rockhounding_surface:fossilPlanks:0>,<rockhounding_surface:oakStairs>,<rockhounding_surface:fossilSlabsLo:0>],
+        [<rockhounding_surface:bogLogs:1>,<rockhounding_surface:fossilPlanks:1>,<rockhounding_surface:spruceStairs>,<rockhounding_surface:fossilSlabsLo:1>],
+        [<rockhounding_surface:bogLogs:2>,<rockhounding_surface:fossilPlanks:2>,<rockhounding_surface:kauriStairs>,<rockhounding_surface:fossilSlabsLo:2>],
+        [<rockhounding_surface:bogLogs:3>,<rockhounding_surface:fossilPlanks:3>,<rockhounding_surface:mophaneStairs>,<rockhounding_surface:fossilSlabsLo:3>],
+        [<rockhounding_surface:fossilLogs:0>,<rockhounding_surface:fossilPlanks:4>,<rockhounding_surface:palmStairs>,<rockhounding_surface:fossilSlabsLo:4>],
+        [<rockhounding_surface:fossilLogs:1>,<rockhounding_surface:fossilPlanks:5>,<rockhounding_surface:pineStairs>,<rockhounding_surface:fossilSlabsLo:5>],
+        [<rockhounding_surface:fossilLogs:2>,<rockhounding_surface:fossilPlanks:6>,<rockhounding_surface:driftwoodStairs>,<rockhounding_surface:fossilSlabsLo:6>],
+        [<rockhounding_surface:fossilLogs:3>,<rockhounding_surface:fossilPlanks:7>,<rockhounding_surface:araucariaStairs>,<rockhounding_surface:fossilSlabsLo:7>],
+        [<rockhounding_surface:petrifiedLogs:0>,<rockhounding_surface:fossilPlanks:8>,<rockhounding_surface:betulaStairs>,<rockhounding_surface:fossilSlabsLo:8>],
+        [<rockhounding_surface:petrifiedLogs:1>,<rockhounding_surface:fossilPlanks:9>,<rockhounding_surface:castanoStairs>,<rockhounding_surface:fossilSlabsLo:9>],
+        [<rockhounding_surface:petrifiedLogs:2>,<rockhounding_surface:fossilPlanks:10>,<rockhounding_surface:opalizedStairs>,<rockhounding_surface:fossilSlabsLo:10>],
+        [<rockhounding_surface:petrifiedLogs:3>,<rockhounding_surface:fossilPlanks:11>,<rockhounding_surface:rainbowStairs>,<rockhounding_surface:fossilSlabsLo:11>]
     ] as minetweaker.item.IItemStack[][];
     
     var list_logs2 = [
