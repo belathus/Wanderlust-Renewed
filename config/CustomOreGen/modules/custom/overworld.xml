@@ -722,13 +722,13 @@
             </Veins>
             <Veins name='arsmEssenceGeodeMiddle'  inherits='arsmEssenceGeode' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='abyssalcraft:abydiaore' weight='0.005' />
-                <Replaces block='rockhounding_rocks:rockA:2' weight='1.0' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='arsmEssenceGeodeCenter'  inherits='arsmEssenceGeode' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='arsmagica2:liquid_essence' weight='1.0' />
-                <Replaces block='rockhounding_rocks:rockA:2' weight='1.0' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
                 <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -1534,7 +1534,7 @@
                     Instead of being air-filled, this one is filled with
                     liquid essence.
                 </Description>
-                <OreBlock block='rockhounding_rocks:rockA:2' weight='1.00' />
+                <OreBlock block='rockhounding_rocks:rocksA:2' weight='1.00' />
                 <ReplacesOre block='stone' weight='1.0'/>
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <ReplacesOre block='stoneGranite' weight='1.0'/>
@@ -1565,13 +1565,13 @@
             </Veins>
             <Veins name='intdMenrilGeodeMiddle'  inherits='intdMenrilGeode' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='abyssalcraft:abydiaore' weight='0.005' />
-                <Replaces block='rockhounding_rocks:rockA:2' weight='1.0' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='intdMenrilGeodeCenter'  inherits='intdMenrilGeode' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='integrateddynamics:blockMenrilResin' weight='1.0' />
-                <Replaces block='rockhounding_rocks:rockA:2' weight='1.0' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
                 <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
