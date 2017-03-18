@@ -1,14 +1,3 @@
 <enchaterRecipes>
-	<enchantment name="minecraft:respiration" costPerLevel="8" >
-		<itemStack modID="minecraft" itemName="glass_bottle" />
- 	</enchantment>
-	<enchantment name="minecraft:aqua_affinity" costPerLevel="8" >
-		<itemStack modID="minecraft" itemName="waterlily" />
-	</enchantment>
-	<enchantment name="minecraft:depth_strider" costPerLevel="8" >
-		<itemStack modID="minecraft" itemName="prismarine" itemMeta="0" />
- 	</enchantment>
-	<enchantment name="minecraft:mending" costPerLevel = "15">
- 		<itemStack modID="EnderIO" itemName="itemXpTransfer"/>
- 	</enchantment>
+
 </enchaterRecipes>
