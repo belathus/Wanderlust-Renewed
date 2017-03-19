@@ -1,41 +1,293 @@
 {
-  "_name": "PigZombie",
-  "drops": [],
-  "pre_stats": [],
-  "stats": [
-    {
-      "_comment" : "If not in the overworld ...",
-      "function" : "!if_in_dimension_0",
-      "functions" : [
+    "_name": "PigZombie",
+    "drops": [
         {
-          "_comment" :  "Increases maximum health by 50%; the way this works is it multiplies base health by (1 + VALUE)",
-          "_comment" : "1+0.5=1.5, so health is multiplied by 1.5. If OPERATOR is 0, then it adds VALUE to damage instead.",
-          "function" : "modifier",
-          "attribute" : "generic.maxHealth",
-          "value" : 0.5,
-          "operator" : 1
+            "function" : "if_recently_hit",
+            "count" : 0.085,
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "_comment" : "Adding bronze ingots to the pigzombie's drops",
+                            "weight" : 6,
+                            "function" : "add",
+                            "id" : "base:ingot",
+                            "damage" : 7,
+                            "count" : 1
+                        },
+                        {
+                            "_comment" : "Adding bronze ingots to the pigzombie's drops",
+                            "weight" : 4,
+                            "function" : "add",
+                            "id" : "primal:brass_ingot",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "_comment" : "Adding bronze ingots to the pigzombie's drops",
+                            "weight" : 4,
+                            "function" : "add",
+                            "id" : "tconstruct:ingots",
+                            "damage" : 5,
+                            "count" : 1
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "function" : "choose",
-          "functions" : [
-            {
-              "weight" : 2,
-              "_comment" : "This adds 2 to 4 to the attack damage",
-              "function" : "modifier",
-              "attribute" : "generic.attackDamage",
-              "value" : "2.0~4.0"
-            },
-            {
-              "weight" : 1,
-              "_comment" : "Remember, 1+VALUE, meaning this multiplies speed by 1.4 to 1.6.",
-              "function" : "modifier",
-              "attribute" : "generic.movementSpeed",
-              "value" : "0.4~0.6",
-              "operator" : 1
-            }
-          ]
+            "function" : "choose",
+            "functions" : [
+                {
+                    "function" : "add",
+                    "weight" : 10,
+                    "id" : "base:nugget",
+                    "damage" : 7,
+                    "count" : "0~1"
+                },
+                {
+                    "function" : "add",
+                    "weight" : 7,
+                    "id" : "primal:brass_nugget",
+                    "damage" : 0,
+                    "count" : "0~1"
+                },
+                {
+                    "function" : "add",
+                    "weight" : 5,
+                    "id" : "tconstruct:nuggets",
+                    "damage" : 5,
+                    "count" : "0~1"
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_0",
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "function" : "add",
+                            "weight" : 10,
+                            "id" : "base:nugget",
+                            "damage" : 7,
+                            "count" : "0~1"
+                        },
+                        {
+                            "function" : "add",
+                            "weight" : 7,
+                            "id" : "primal:brass_nugget",
+                            "damage" : 0,
+                            "count" : "0~1"
+                        },
+                        {
+                            "function" : "add",
+                            "weight" : 5,
+                            "id" : "tconstruct:nuggets",
+                            "damage" : 5,
+                            "count" : "0~1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_1",
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "function" : "add",
+                            "weight" : 10,
+                            "id" : "base:nugget",
+                            "damage" : 7,
+                            "count" : "0~1"
+                        },
+                        {
+                            "function" : "add",
+                            "weight" : 7,
+                            "id" : "primal:brass_nugget",
+                            "damage" : 0,
+                            "count" : "0~1"
+                        },
+                        {
+                            "function" : "add",
+                            "weight" : 5,
+                            "id" : "tconstruct:nuggets",
+                            "damage" : 5,
+                            "count" : "0~1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_2",
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "function" : "add",
+                            "weight" : 10,
+                            "id" : "base:nugget",
+                            "damage" : 7,
+                            "count" : "0~1"
+                        },
+                        {
+                            "function" : "add",
+                            "weight" : 7,
+                            "id" : "primal:brass_nugget",
+                            "damage" : 0,
+                            "count" : "0~1"
+                        },
+                        {
+                            "function" : "add",
+                            "weight" : 5,
+                            "id" : "tconstruct:nuggets",
+                            "damage" : 5,
+                            "count" : "0~1"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "pre_stats": [],
+    "stats": [
+        {
+            "_comment" : "If not in the overworld ...",
+            "function" : "!if_in_dimension_0",
+            "functions" : [
+                {
+                    "_comment" :  "Increases maximum health by 50%; the way this works is it multiplies base health by (1 + VALUE)",
+                    "_comment" : "1+0.5=1.5, so health is multiplied by 1.5. If OPERATOR is 0, then it adds VALUE to damage instead.",
+                    "function" : "modifier",
+                    "attribute" : "generic.maxHealth",
+                    "value" : 0.5,
+                    "operator" : 1
+                },
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "weight" : 2,
+                            "_comment" : "This adds 2 to 4 to the attack damage",
+                            "function" : "modifier",
+                            "attribute" : "generic.attackDamage",
+                            "value" : "2.0~4.0"
+                        },
+                        {
+                            "weight" : 1,
+                            "_comment" : "Remember, 1+VALUE, meaning this multiplies speed by 1.4 to 1.6.",
+                            "function" : "modifier",
+                            "attribute" : "generic.movementSpeed",
+                            "value" : "0.4~0.6",
+                            "operator" : 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "function" : "all",
+            "count" : 0.2,
+            "functions" : [
+                {
+                    "function" : "choose",
+                        "functions" : [
+                        {
+                            "weight" : 20,
+                            "function" : "all",
+                            "functions" : [
+                                {
+                                    "function" : "equip",
+                                    "override" : "true",
+                                    "id" : "dungeontactics:bronze_sword",
+                                    "slot" : "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "weight" : 8,
+                            "function" : "all",
+                            "functions" : [
+                                {
+                                    "function" : "equip",
+                                    "override" : "true",
+                                    "id" : "dungeontactics:bronze_hammer",
+                                    "slot" : "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "weight" : 12,
+                            "function" : "all",
+                            "functions" : [
+                                {
+                                    "function" : "equip",
+                                    "override" : "true",
+                                    "id" : "dungeontactics:bronze_knife",
+                                    "slot" : "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "all",
+                            "functions" : [
+                                {
+                                    "function" : "equip",
+                                    "override" : "true",
+                                    "id" : "dungeontactics:bronze_sword",
+                                    "slot" : "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "function" : "choose",
+            "count" : 0.25,
+            "functions" :[
+                {
+                    "weight" : 5,
+                    "function" : "equip",
+                    "override" : "true",
+                    "id" : "biomesoplenty:sapling_1",
+                    "damage" : 4,
+                    "slot" : "offhand",
+                    "drop_chance" : 1.0
+                },
+                {
+                    "weight" : 5,
+                    "function" : "equip",
+                    "override" : "true",
+                    "id" : "natura:materials",
+                    "damage" : 6,
+                    "slot" : "offhand",
+                    "drop_chance" : 1.0
+                },
+                {
+                    "weight" : 10,
+                    "function" : "equip",
+                    "override" : "true",
+                    "id" : "spartanshields:shield_basic_bronze",
+                    "slot" : "offhand"
+                },
+                {
+                    "weight" : 10,
+                    "function" : "equip",
+                    "override" : "true",
+                    "id" : "spartanshields:shield_basic_wood",
+                    "slot" : "offhand"
+                }
+            ]
+        }
+    ]
 }
