@@ -312,8 +312,10 @@
             [[galla],[<chisel:limestoneextra:7>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
             [[galla],[<primal:carbonate_stone>]]);
+        recipes.addShaped(<primal:carbonate_slack> * 4, 
+            [[galla],[<ore:stoneLimestone>]]);
         recipes.addShaped(<primal:iron_ring> * 4,
-            [[galla],[<ore:plateSmallIron>]]);
+            [[galla],[<ore:plateIron>]]);
     }
     
 # Rockhounding

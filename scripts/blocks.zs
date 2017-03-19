@@ -29,6 +29,12 @@
             player.removeXP(1);
         });
 
+# Chisel
+    recipes.addShapeless(<chisel:basalt>,
+        [<ore:stoneBasalt>]);
+    recipes.addShapeless(<chisel:limestone>,
+        [<ore:stoneLimestone]);
+        
 # Embers
 /*    recipes.remove(<embers:ashenStone>);
     recipes.addShaped(<embers:ashenStone>*4,
@@ -63,3 +69,5 @@
         [[null,<arsmagica2:wooden_leg>,null],
          [<arsmagica2:wooden_leg>,<ore:plankWood>,<arsmagica2:wooden_leg>],
          [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
+         
+
