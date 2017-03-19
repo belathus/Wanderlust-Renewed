@@ -33,7 +33,7 @@
     recipes.addShapeless(<chisel:basalt>,
         [<ore:stoneBasalt>]);
     recipes.addShapeless(<chisel:limestone>,
-        [<ore:stoneLimestone]);
+        [<ore:stoneLimestone>]);
         
 # Embers
 /*    recipes.remove(<embers:ashenStone>);
