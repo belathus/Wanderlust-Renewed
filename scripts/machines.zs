@@ -60,6 +60,20 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:ingotSilver>,<botania:petal:*>,null],
          [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
 
+# Cooking For Blockheads
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotAluminum>,<minecraft:furnace>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotBrass>,<minecraft:furnace>,<ore:ingotBrass>],
+         [<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]]);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotBronze>,<minecraft:furnace>,<ore:ingotBronze>],
+         [<ore:ingotBronze>,<ore:ingotBronze>,<ore:ingotBronze>]]);
+
 # Cyberware
     recipes.remove(<cyberware:engineeringTable>);
     recipes.addShaped(<cyberware:engineeringTable>,
