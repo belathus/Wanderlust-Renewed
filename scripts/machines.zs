@@ -61,17 +61,22 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
 
 # Cooking For Blockheads
+    recipes.remove(<cookingforblockheads:oven>);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotAluminum>,<minecraft:furnace>,<ore:ingotAluminum>],
+         [<ore:ingotIron>,<betterbeginnings:brick_oven>,<ore:ingotIron>],
+         [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotAluminum>,<betterbeginnings:brick_oven>,<ore:ingotAluminum>],
          [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotBrass>,<minecraft:furnace>,<ore:ingotBrass>],
+         [<ore:ingotBrass>,<betterbeginnings:brick_oven>,<ore:ingotBrass>],
          [<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]]);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotBronze>,<minecraft:furnace>,<ore:ingotBronze>],
+         [<ore:ingotBronze>,<betterbeginnings:brick_oven>,<ore:ingotBronze>],
          [<ore:ingotBronze>,<ore:ingotBronze>,<ore:ingotBronze>]]);
 
 # Cyberware
