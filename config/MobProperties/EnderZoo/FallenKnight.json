@@ -1,6 +1,14 @@
 {
-  "_name": "EnderZoo.FallenKnight",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "EnderZoo.FallenKnight",
+    "drops": [
+        {
+            "_comment" : "Adding shrubbery to the knight's drops",
+            "function" : "add",
+            "id" : "minecraft:deadbush",
+            "damage" : 0,
+            "count" : "0~1"
+        }
+    ],
+    "pre_stats": [],
+    "stats": []
 }
