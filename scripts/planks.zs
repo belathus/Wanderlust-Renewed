@@ -103,7 +103,8 @@
         [<rockhounding_surface:petrifiedLogs:0>,<rockhounding_surface:fossilPlanks:8>,<rockhounding_surface:betulaStairs>,<rockhounding_surface:fossilSlabsLo:8>],
         [<rockhounding_surface:petrifiedLogs:1>,<rockhounding_surface:fossilPlanks:9>,<rockhounding_surface:castanoStairs>,<rockhounding_surface:fossilSlabsLo:9>],
         [<rockhounding_surface:petrifiedLogs:2>,<rockhounding_surface:fossilPlanks:10>,<rockhounding_surface:opalizedStairs>,<rockhounding_surface:fossilSlabsLo:10>],
-        [<rockhounding_surface:petrifiedLogs:3>,<rockhounding_surface:fossilPlanks:11>,<rockhounding_surface:rainbowStairs>,<rockhounding_surface:fossilSlabsLo:11>]
+        [<rockhounding_surface:petrifiedLogs:3>,<rockhounding_surface:fossilPlanks:11>,<rockhounding_surface:rainbowStairs>,<rockhounding_surface:fossilSlabsLo:11>],
+        [<primal:netherpalm_log>,<primal:netherpalm_plank>,<primal:stairs_netherpalm>,<primal:slab_netherpalm>]
     ] as minetweaker.item.IItemStack[][];
     
     var list_logs2 = [
