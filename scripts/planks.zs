@@ -167,7 +167,12 @@
         recipes.addShaped(slab * 2, 
             [[<primal:emerald_saw:*>], [plank]]);
         recipes.addShapeless(plank * 3, 
-            [stair, stair, stair]);
+            [stair, stair, stair, stair]);
+        recipes.remove(stair);
+        recipes.addShapedMirrored(stair * 8, 
+            [[plank, null, null],
+             [plank, plank, null],
+             [plank, plank, plank]]);
         recipes.addShapeless(plank, 
             [slab, slab]);
     }
