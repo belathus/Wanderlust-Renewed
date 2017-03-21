@@ -47,7 +47,7 @@
               "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 0
         },
@@ -78,13 +78,13 @@
               "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 1
         },
         {
-          "xPos": 25,
-          "yPos": 24,
+          "xPos": 14,
+          "yPos": 21,
           "width": 177.0,
           "height": 65.0,
           "feature": {
@@ -99,55 +99,8 @@
           "layerIndex": 2
         },
         {
-          "xPos": 60,
-          "yPos": 92,
-          "width": 101.0,
-          "height": 76.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
-            "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/erse.png"
-            }
-          },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 3
-        },
-        {
-          "xPos": 60,
-          "yPos": 172,
-          "width": 103.0,
-          "height": 16.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Erse for the World.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 4
-        },
-        {
-          "xPos": 237,
-          "yPos": 23,
-          "width": 168.0,
-          "height": 59.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Erse is a fast growing nutritious plant that looks a bit like a strawberry. It tastes nothing like a strawberry. In fact, it tastes pretty bland, but it is good for you.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 5
-        },
-        {
-          "xPos": 237,
-          "yPos": 80,
+          "xPos": 15,
+          "yPos": 88,
           "width": 162.0,
           "height": 62.0,
           "feature": {
@@ -156,25 +109,9 @@
               "path": "enchiridion:images/Getting_Through_the_Stone_Age/corn.png"
             }
           },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 246,
-          "yPos": 145,
-          "width": 147.0,
-          "height": 10.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Corn. Grows fast, grows tall.",
-              "size": 1.0
-            }
-          },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 7
+          "layerIndex": 3
         },
         {
           "xPos": 206,
@@ -208,7 +145,54 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 8
+          "layerIndex": 4
+        },
+        {
+          "xPos": 13,
+          "yPos": 155,
+          "width": 178.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Corn. Grows fast, grows tall. You can harvest the ears of corn without harvesting the rest of the plant.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 248,
+          "yPos": 17,
+          "width": 150.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/chicken-n-egg.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 237,
+          "yPos": 106,
+          "width": 176.0,
+          "height": 79.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Chickens need a nest to lay eggs. They also need to be well fed and hydrated, so toss them some seeds and give them a trough full of water.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
         }
       ],
       "pageNumber": 1,
@@ -243,7 +227,7 @@
               "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 0
         },
@@ -274,7 +258,7 @@
               "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 1
         },
@@ -308,7 +292,7 @@
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
         },
@@ -324,25 +308,25 @@
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
         },
         {
-          "xPos": 50,
-          "yPos": 37,
+          "xPos": 57,
+          "yPos": 41,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:flint:0:minecraft:stick:0:minecraft:stick:0",
-              "recipeType": "ShapedRecipes",
-              "item": "druidry:flint_axe 0",
+              "ingredients": "minecraft:flint:0:betterbeginnings:leather_strip:0:stickWood",
+              "recipeType": "ShapedOreRecipe",
+              "item": "betterbeginnings:flint_hatchet 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -354,7 +338,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]One of the first tools you\u0027ll want to make is this simple flint hatchet. The ingredients are simple: sticks come from harvesting the branches and leaves of trees. You do not need to chop the tree down to acquire sticks -- in fact, you cannot harvest the tree\u0027s logs without a hatchet.",
+              "text": "[color\u003dblack]One of the first tools you\u0027ll want to make is this flint hatchet. The ingredients are simple: sticks come from harvesting the leaves of trees. You do not need to chop the tree down to acquire sticks -- in fact, you cannot harvest the tree\u0027s logs without a hatchet.",
               "size": 1.0
             }
           },
@@ -798,7 +782,7 @@
           "xPos": 64,
           "yPos": 105,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -848,7 +832,7 @@
           "xPos": 236,
           "yPos": 159,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -882,7 +866,7 @@
           "xPos": 236,
           "yPos": 117,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -900,7 +884,7 @@
           "xPos": 320,
           "yPos": 118,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -918,7 +902,7 @@
           "xPos": 320,
           "yPos": 159,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -965,7 +949,7 @@
               "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 0
         },
@@ -996,7 +980,7 @@
               "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 1
         },
@@ -1014,7 +998,7 @@
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
         },
@@ -1030,7 +1014,7 @@
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
         },
@@ -1046,7 +1030,7 @@
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -1062,47 +1046,29 @@
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
         },
         {
           "xPos": 17,
           "yPos": 71,
-          "width": 173.0,
-          "height": 47.0,
+          "width": 174.0,
+          "height": 65.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Which, you\u0027ll notice, the shovel reqires a station to craft it. You\u0027ll also note that planks are a bit harder to acquire. The solution? Wattle or work tables.",
+              "text": "[color\u003dblack]Which, you\u0027ll notice, the shovel reqires a station to craft it. You\u0027ll also note that planks are a bit harder to acquire. The solution? Using that hatchet you made earlier can be used to make a work table.",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
         },
         {
-          "xPos": 45,
-          "yPos": 122,
-          "width": 80.0,
-          "height": 40.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "druidry:branch:0:minecraft:stick:0:minecraft:stick:0:druidry:branch:0",
-              "recipeType": "ShapedRecipes",
-              "item": "druidry:wattle",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 7
-        },
-        {
-          "xPos": 97,
-          "yPos": 160,
+          "xPos": 65,
+          "yPos": 148,
           "width": 80.0,
           "height": 40.0,
           "feature": {
@@ -1114,9 +1080,9 @@
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
-          "layerIndex": 8
+          "layerIndex": 7
         },
         {
           "xPos": 246,
@@ -1130,9 +1096,9 @@
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
-          "layerIndex": 9
+          "layerIndex": 8
         },
         {
           "xPos": 272,
@@ -1142,15 +1108,15 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:plankWood",
-              "recipeType": "ShapedOreRecipe",
+              "ingredients": "betterbeginnings:double_workbench:32767",
+              "recipeType": "ShapedRecipes",
               "item": "minecraft:crafting_table",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
-          "layerIndex": 10
+          "layerIndex": 9
         },
         {
           "xPos": 199,
@@ -1182,9 +1148,9 @@
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
-          "layerIndex": 11
+          "layerIndex": 10
         }
       ],
       "pageNumber": 10,
@@ -1308,7 +1274,7 @@
           "xPos": 65,
           "yPos": 49,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1326,7 +1292,7 @@
           "xPos": 28,
           "yPos": 153,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1376,7 +1342,7 @@
           "xPos": 283,
           "yPos": 78,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1410,7 +1376,7 @@
           "xPos": 277,
           "yPos": 156,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1428,7 +1394,7 @@
           "xPos": 115,
           "yPos": 153,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1514,7 +1480,7 @@
           "xPos": 149,
           "yPos": 26,
           "width": 40.0,
-          "height": 44.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1598,7 +1564,7 @@
           "xPos": 25,
           "yPos": 112,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1616,7 +1582,7 @@
           "xPos": 91,
           "yPos": 162,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1634,7 +1600,7 @@
           "xPos": 324,
           "yPos": 62,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1652,7 +1618,7 @@
           "xPos": 252,
           "yPos": 18,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1670,7 +1636,7 @@
           "xPos": 254,
           "yPos": 105,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1688,7 +1654,7 @@
           "xPos": 316,
           "yPos": 160,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2036,7 +2002,7 @@
           "xPos": 16,
           "yPos": 55,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2330,7 +2296,7 @@
           "xPos": 58,
           "yPos": 148,
           "width": 77.0,
-          "height": 38.5,
+          "height": 77.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
