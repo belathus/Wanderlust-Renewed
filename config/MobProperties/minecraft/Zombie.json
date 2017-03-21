@@ -9,35 +9,7 @@
             "function" : "if_recently_hit",
             "count" : 0.085,
             "functions" : [
-                {
-                    "function" : "choose",
-                    "functions" : [
-                        {
-                            "_comment" : "Adding copper ingots to the zombie's drops",
-                            "weight" : 6,
-                            "function" : "add",
-                            "id" : "immersiveengineering:metal",
-                            "damage" : 0,
-                            "count" : 1
-                        },
-                        {
-                            "_comment" : "Adding tin ingots to the zombie's drops",
-                            "weight" : 1,
-                            "function" : "add",
-                            "id" : "forestry:ingotTin",
-                            "damage" : 0,
-                            "count" : 1
-                        }#,
- #                       {
- #                           "_comment" : "Adding zinc ingots to the zombie's drops",
- #                           "weight" : 1,
- #                           "function" : "add",
- #                           "id" : "base:ingot:34",
- #                           "damage" : 1,
- #                           "count" : 1
- #                      }
-                    ]
-                }
+                { "function" : "external", "file" : "zombieraredrops" }
             ]
         }
     ],
