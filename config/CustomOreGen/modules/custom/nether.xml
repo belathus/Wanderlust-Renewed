@@ -2,7 +2,7 @@
      "nether.xml" : This configuration file covers ore generation in
      the nether and other dimensions using ChunkProviderHell. Ores that
      should generate in the Nether include: Nether Quartz, Coal/Adamantine
-     veins, Iron/Cold Iron veins, Gold/Copper/Ardite veins, Redstone
+     veins, Iron veins, Gold/Copper/Ardite veins, Redstone
      veins, Lapis/Cobalt veins, (tiny) diamond veins, emerald veins,
      geodes of emerald/diamond (and a lava-filled version), geodes of
      abyssalcraft's iron ore, geodes of abyssalcraft's copper and gold
@@ -263,15 +263,16 @@
         <!-- Diamond Veins -->
         <Veins name='ncoreDiamondVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
             <Description>
-                Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                Tiny motherlode, mostly stone, but has some diamond ore.
             </Description>
-            <OreBlock block='minecraft:diamond_ore' weight='1.0' />
-            <Replaces block='minecraft:netherrack' weight='1.0'/>
-            <Replaces block='minecraft:magma' weight='1.0'/>
+            <OreBlock block='minecraft:stone'              weight='0.99' />
+            <OreBlock block='minecraft:diamond_ore'        weight='0.01' />
+            <Replaces block='minecraft:netherrack'         weight='1.0'/>
+            <Replaces block='minecraft:magma'              weight='1.0'/>
             <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
             <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-            <Setting name='MotherlodeSize'        avg=':= 1.600 '             range=':= 0.100 '             type='normal' />
+            <Setting name='MotherlodeFrequency'   avg=':= 0.300 * _default_ ' range=':= 0.300 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 3.600 '             range=':= 0.800 '             type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 34 '                range=':= 30 '                type='uniform' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -378,11 +379,11 @@
         <IfModInstalled name="abyssalcraft">
             <!-- Emerald/Diamond Geodes -->
             <ConfigSection>
-                <Veins name='railAbyssalGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='vaniDiamondEmeraldGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
-                    <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                    <OreBlock block='minecraft:stone' weight='1.00' />
                     <Replaces block='minecraft:netherrack' weight='1.0'/>
                     <Replaces block='minecraft:magma' weight='1.0'/>
                     <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
@@ -408,26 +409,26 @@
                     <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
-                <Veins name='railAbyssalGeodeMiddle'  inherits='railAbyssalGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                    <OreBlock block='abyssalcraft:abydiaore' weight='0.04' />
-                    <OreBlock block='abyssalcraft:abycopore' weight='0.02' />
-                    <OreBlock block='abyssalcraft:abytinore' weight='0.06' />
-                    <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                <Veins name='vaniDiamondEmeraldGeodeMiddle'  inherits='vaniDiamondEmeraldGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                    <OreBlock block='minecraft:diamond_ore' weight='0.04' />
+                    <OreBlock block='minecraft:emerald_ore' weight='0.02' />
+                    <OreBlock block='minecraft:lapis_ore' weight='0.06' />
+                    <Replaces block='minecraft:stone' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='railAbyssalGeodeCenter'  inherits='railAbyssalGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+                <Veins name='vaniDiamondEmeraldGeodeCenter'  inherits='vaniDiamondEmeraldGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:air' weight='1.0' />
-                    <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                    <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
-                    <Replaces block='abyssalcraft:abycopore' weight='1.0' />
-                    <Replaces block='abyssalcraft:abytinore' weight='1.0' />
+                    <Replaces block='minecraft:stone' weight='1.0' />
+                    <Replaces block='minecraft:diamond_ore' weight='1.0' />
+                    <Replaces block='minecraft:emerald_ore' weight='1.0' />
+                    <Replaces block='minecraft:lapis_ore' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
                 
-                <!-- Emerald/Diamond Lava Geodes -->
-                <Veins name='railAbyssalLavaGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
+                <!-- Copper/Diamond Abyssalcraft Lava Geodes -->
+                <Veins name='abysLavaGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
@@ -457,14 +458,14 @@
                     <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
-                <Veins name='railAbyssalLavaGeodeMiddle'  inherits='railAbyssalLavaGeode' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
+                <Veins name='abysLavaGeodeMiddle'  inherits='abysLavaGeode' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
                     <OreBlock block='abyssalcraft:abydiaore' weight='0.06' />
                     <OreBlock block='abyssalcraft:abycopore' weight='0.03' />
                     <Replaces block='abyssalcraft:abystone' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
-                <Veins name='railAbyssalLavaGeodeCenter'  inherits='railAbyssalLavaGeode' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
+                <Veins name='abysLavaGeodeCenter'  inherits='abysLavaGeode' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
                     <OreBlock block='minecraft:lava' weight='1.0' />
                     <Replaces block='abyssalcraft:abystone' weight='1.0' />
                     <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
@@ -476,299 +477,297 @@
             
             <!-- Other Abyssal Geodes -->
             <IfModInstalled name="abyssalcraft">
-                <IfModInstalled name="abyssalcraft">
-                    <!-- Iron Geode -->
-                    <ConfigSection>
-                        <Veins name='abysIronGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <Description>
-                                Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
-                            </Description>
-                            <OreBlock block='abyssalcraft:abystone' weight='1.00' />
-                            <Replaces block='minecraft:netherrack' weight='1.0'/>
-                            <Replaces block='minecraft:magma' weight='1.0'/>
-                            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                            <Replaces block='minecraft:air' weight='1.0'/>
-                            <Replaces block='minecraft:lava' weight='1.0'/>
-                            <Replaces block='minecraft:soul_sand' weight='1.0'/>
-                            <Replaces block='minecraft:gravel' weight='1.0'/>
-                            <Biome name='.*'  />
-                            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-                            <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                            <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
-                            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
-                            <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        </Veins>
-                        <Veins name='abysIronGeodeMiddle'  inherits='abysIronGeode' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abyiroore' weight='0.20' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        <Veins name='abysIronGeodeCenter'  inherits='abysIronGeode' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='minecraft:air' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abyiroore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        
-                        <Veins name='abysIronLavaGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <Description>
-                                Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
-                            </Description>
-                            <OreBlock block='abyssalcraft:abystone' weight='1.00' />
-                            <Replaces block='minecraft:netherrack' weight='1.0'/>
-                            <Replaces block='minecraft:magma' weight='1.0'/>
-                            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                            <Replaces block='minecraft:air' weight='1.0'/>
-                            <Replaces block='minecraft:lava' weight='1.0'/>
-                            <Replaces block='minecraft:soul_sand' weight='1.0'/>
-                            <Replaces block='minecraft:gravel' weight='1.0'/>
-                            <Biome name='.*'  />
-                            <Setting name='MotherlodeFrequency'   avg=':= 0.075 * _default_ ' range=':= 0.075 * _default_ ' type='normal' scaleTo='base' />
-                            <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                            <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
-                            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
-                            <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        </Veins>
-                        <Veins name='abysIronLavaGeodeMiddle'  inherits='abysIronLavaGeode' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abyiroore' weight='0.67' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        <Veins name='abysIronLavaGeodeCenter'  inherits='abysIronLavaGeode' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='minecraft:lava' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abyiroore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                    </ConfigSection>
-                    
-                    <!-- Tin/Nitre Geode -->
-                    <ConfigSection>
-                        <Veins name='abysTinGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <Description>
-                                Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
-                            </Description>
-                            <OreBlock block='abyssalcraft:abystone' weight='1.00' />
-                            <Replaces block='minecraft:netherrack' weight='1.0'/>
-                            <Replaces block='minecraft:magma' weight='1.0'/>
-                            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                            <Replaces block='minecraft:air' weight='1.0'/>
-                            <Replaces block='minecraft:lava' weight='1.0'/>
-                            <Replaces block='minecraft:soul_sand' weight='1.0'/>
-                            <Replaces block='minecraft:gravel' weight='1.0'/>
-                            <Biome name='.*'  />
-                            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-                            <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                            <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
-                            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
-                            <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        </Veins>
-                        <Veins name='abysTinGeodeMiddle'  inherits='abysTinGeode' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abytinore' weight='0.15' />
-                            <OreBlock block='abyssalcraft:abynitore' weight='0.25' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        <Veins name='abysTinGeodeCenter'  inherits='abysTinGeode' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='minecraft:air' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abytinore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abynitore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        
-                        <Veins name='abysTinQuickGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <Description>
-                                Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
-                            </Description>
-                            <OreBlock block='abyssalcraft:abystone' weight='1.00' />
-                            <Replaces block='minecraft:netherrack' weight='1.0'/>
-                            <Replaces block='minecraft:magma' weight='1.0'/>
-                            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                            <Replaces block='minecraft:air' weight='1.0'/>
-                            <Replaces block='minecraft:lava' weight='1.0'/>
-                            <Replaces block='minecraft:soul_sand' weight='1.0'/>
-                            <Replaces block='minecraft:gravel' weight='1.0'/>
-                            <Biome name='.*'  />
-                            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-                            <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                            <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
-                            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
-                            <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        </Veins>
-                        <Veins name='abysTinQuickGeodeMiddle'  inherits='abysTinQuickGeode' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abytinore' weight='0.15' />
-                            <OreBlock block='abyssalcraft:abynitore' weight='0.25' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        <Veins name='abysTinQuickGeodeCenter'  inherits='abysTinQuickGeode' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='minecraft:air' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abytinore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abynitore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                    </ConfigSection>
-                    
-                    <!-- Copper Geode -->
-                    <ConfigSection>
-                        <Veins name='abysCopperGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <Description>
-                                Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
-                            </Description>
-                            <OreBlock block='abyssalcraft:abystone' weight='1.00' />
-                            <Replaces block='minecraft:netherrack' weight='1.0'/>
-                            <Replaces block='minecraft:magma' weight='1.0'/>
-                            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                            <Replaces block='minecraft:air' weight='1.0'/>
-                            <Replaces block='minecraft:lava' weight='1.0'/>
-                            <Replaces block='minecraft:soul_sand' weight='1.0'/>
-                            <Replaces block='minecraft:gravel' weight='1.0'/>
-                            <Biome name='.*'  />
-                            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-                            <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                            <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
-                            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
-                            <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        </Veins>
-                        <Veins name='abysCopperGeodeMiddle'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abygolore' weight='0.08' />
-                            <OreBlock block='abyssalcraft:abycopore' weight='0.36' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        <Veins name='abysCopperGeodeCenter'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='minecraft:air' weight='1.0' />
-                            <Replaces block='abyssalcraft:abygolore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abycopore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                    </ConfigSection>
-                    
-                    <!-- Gold Geode -->
-                    <ConfigSection>
-                        <Veins name='abysGoldGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <Description>
-                                Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
-                            </Description>
-                            <OreBlock block='abyssalcraft:abystone' weight='1.00' />
-                            <Replaces block='minecraft:netherrack' weight='1.0'/>
-                            <Replaces block='minecraft:magma' weight='1.0'/>
-                            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                            <Replaces block='minecraft:air' weight='1.0'/>
-                            <Replaces block='minecraft:lava' weight='1.0'/>
-                            <Replaces block='minecraft:soul_sand' weight='1.0'/>
-                            <Replaces block='minecraft:gravel' weight='1.0'/>
-                            <Biome name='.*'  />
-                            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-                            <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                            <Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 14 '                type='uniform' scaleTo='base' />
-                            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='BranchInclination'     avg=':= 1.310 '             range=':= 0.980 '             type='uniform' />
-                            <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                        </Veins>
-                        <Veins name='abysGoldGeodeMiddle'  inherits='abysGoldGeode' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='abyssalcraft:abygolore' weight='0.16' />
-                            <OreBlock block='abyssalcraft:abycopore' weight='0.06' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                        <Veins name='abysGoldGeodeCenter'  inherits='abysGoldGeode' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                            <OreBlock block='minecraft:lava' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abycopore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abygolore' weight='1.0' />
-                            <Replaces block='abyssalcraft:abystone' weight='1.0' />
-                            <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
-                            <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
-                        </Veins>
-                    </ConfigSection>
-                </IfModInstalled>
+                <!-- Iron Geode -->
+                <ConfigSection>
+                    <Veins name='abysIronGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                        </Description>
+                        <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
+                        <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                    <Veins name='abysIronGeodeMiddle'  inherits='abysIronGeode' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='abyssalcraft:abyiroore' weight='0.20' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                    <Veins name='abysIronGeodeCenter'  inherits='abysIronGeode' branchType='Bezier' seed='0x8B6C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='minecraft:air' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abyiroore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+
+                    <Veins name='abysIronLavaGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                        </Description>
+                        <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.075 * _default_ ' range=':= 0.075 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
+                        <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                    <Veins name='abysIronLavaGeodeMiddle'  inherits='abysIronLavaGeode' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='abyssalcraft:abyiroore' weight='0.67' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                    <Veins name='abysIronLavaGeodeCenter'  inherits='abysIronLavaGeode' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='minecraft:lava' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abyiroore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                </ConfigSection>
+
+                <!-- Tin/Nitre Geode -->
+                <ConfigSection>
+                    <Veins name='abysTinGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                        </Description>
+                        <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
+                        <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                    <Veins name='abysTinGeodeMiddle'  inherits='abysTinGeode' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='abyssalcraft:abytinore' weight='0.15' />
+                        <OreBlock block='abyssalcraft:abynitore' weight='0.25' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                    <Veins name='abysTinGeodeCenter'  inherits='abysTinGeode' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='minecraft:air' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abytinore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abynitore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+
+                    <Veins name='abysTinQuickGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                        </Description>
+                        <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
+                        <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                    <Veins name='abysTinQuickGeodeMiddle'  inherits='abysTinQuickGeode' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='abyssalcraft:abytinore' weight='0.15' />
+                        <OreBlock block='abyssalcraft:abynitore' weight='0.25' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                    <Veins name='abysTinQuickGeodeCenter'  inherits='abysTinQuickGeode' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='minecraft:air' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abytinore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abynitore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                </ConfigSection>
+
+                <!-- Copper Geode -->
+                <ConfigSection>
+                    <Veins name='abysCopperGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                        </Description>
+                        <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
+                        <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                    <Veins name='abysCopperGeodeMiddle'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='abyssalcraft:abygolore' weight='0.08' />
+                        <OreBlock block='abyssalcraft:abycopore' weight='0.36' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                    <Veins name='abysCopperGeodeCenter'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='minecraft:air' weight='1.0' />
+                        <Replaces block='abyssalcraft:abygolore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abycopore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                </ConfigSection>
+
+                <!-- Gold Geode -->
+                <ConfigSection>
+                    <Veins name='abysGoldGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <Description>
+                            Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                        </Description>
+                        <OreBlock block='abyssalcraft:abystone' weight='1.00' />
+                        <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='minecraft:soul_sand' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Biome name='.*'  />
+                        <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                        <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                        <Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 14 '                type='uniform' scaleTo='base' />
+                        <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='BranchInclination'     avg=':= 1.310 '             range=':= 0.980 '             type='uniform' />
+                        <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                        <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                        <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                        <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                        <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    </Veins>
+                    <Veins name='abysGoldGeodeMiddle'  inherits='abysGoldGeode' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='abyssalcraft:abygolore' weight='0.16' />
+                        <OreBlock block='abyssalcraft:abycopore' weight='0.06' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                    <Veins name='abysGoldGeodeCenter'  inherits='abysGoldGeode' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                        <OreBlock block='minecraft:lava' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abycopore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abygolore' weight='1.0' />
+                        <Replaces block='abyssalcraft:abystone' weight='1.0' />
+                        <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                        <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+                    </Veins>
+                </ConfigSection>
             </IfModInstalled>
         </IfModInstalled>
         <!-- Nether Core ores complete -->
