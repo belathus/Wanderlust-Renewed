@@ -17,10 +17,24 @@
                     "count" : 0.085,
                     "functions" : [
                         {
-                            "weight" : 1,
+                            "weight" : 2,
                             "function" : "add",
                             "id" : "xreliquary:mob_ingredient",
                             "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 2,
+                            "function" : "add",
+                            "id" : "xreliquary:mob_ingredient",
+                            "damage" : 6,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 1,
+                            "function" : "add",
+                            "id" : "xreliquary:mob_ingredient",
+                            "damage" : 1,
                             "count" : 1
                         }
                     ]
@@ -29,54 +43,90 @@
                     "function" : "if_above_looting_0",
                     "count" : 0.01,
                     "functions" : [
-                        {
-                            "function" : "choose",
-                            "functions" : [
-                                {
-                                    "weight" : 1,
-                                    "function" : "add",
-                                    "id" : "xreliquary:mob_ingredient",
-                                    "damage" : 0,
-                                    "count" : 1
-                                }
-                            ]
-                        }
+                        "function" : "choose",
+                        "functions" : [
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 0,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 6,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 1,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 1,
+                                "count" : 1
+                            }
+                        ]
                     ]
                 },
                 {
                     "function" : "if_above_looting_1",
                     "count" : 0.01,
                     "functions" : [
-                        {
-                            "function" : "choose",
-                            "functions" : [
-                                {
-                                    "weight" : 1,
-                                    "function" : "add",
-                                    "id" : "xreliquary:mob_ingredient",
-                                    "damage" : 0,
-                                    "count" : 1
-                                }
-                            ]
-                        }
+                        "function" : "choose",
+                        "functions" : [
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 0,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 6,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 1,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 1,
+                                "count" : 1
+                            }
+                        ]
                     ]
                 },
                 {
                     "function" : "if_above_looting_2",
                     "count" : 0.01,
                     "functions" : [
-                        {
-                            "function" : "choose",
-                            "functions" : [
-                                {
-                                    "weight" : 1,
-                                    "function" : "add",
-                                    "id" : "xreliquary:mob_ingredient",
-                                    "damage" : 0,
-                                    "count" : 1
-                                }
-                            ]
-                        }
+                        "function" : "choose",
+                        "functions" : [
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 0,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 6,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 1,
+                                "function" : "add",
+                                "id" : "xreliquary:mob_ingredient",
+                                "damage" : 1,
+                                "count" : 1
+                            }
+                        ]
                     ]
                 }
             ]
