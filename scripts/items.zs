@@ -183,6 +183,9 @@
     
 # Vanilla
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
+    recipes.addShaped(<minecraft:paper>*3,
+        [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
+    
     # making sticks
 /*
     recipes.addShaped(<minecraft:stick>*8,
