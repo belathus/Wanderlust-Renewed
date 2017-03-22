@@ -44,6 +44,8 @@ tin.registerBlock();
 tin.registerIngot();
 tin.registerBlock(5, 30, "pickaxe", 1);
 zinc.registerNugget();
+zinc.registerBlock();
+zinc.registerIngot();
 zinc.registerOre(3, 15, "pickaxe", 1);
 
 var metal_list = [abyssalnite, adamantine, aluminum, aquarium, ardite, brass, bronze, cobalt, coldiron,
