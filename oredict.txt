@@ -40,8 +40,6 @@ Ore entries for <ore:logWood> :
     <forestry:logs.vanilla.fireproof.0:*>
     <forestry:logs.vanilla.fireproof.1:*>
     <evilcraft:undeadLog>
-    <fp:wood>
-    <fp:wood:1>
     <integrateddynamics:menrilLog>
     <integrateddynamics:menrilLogFilled>
     <natura:overworld_logs:*>
@@ -64,23 +62,31 @@ Ore entries for <ore:logWood> :
     <botanicaladdons:irisLog3:1>
     <botanicaladdons:irisLog3:2>
     <botanicaladdons:irisLog3:3>
+    <botanicaladdons:rainbowLog>
     <botanicaladdons:altLog0>
     <botanicaladdons:altLog0:1>
     <botanicaladdons:altLog0:2>
     <botanicaladdons:altLog0:3>
     <botanicaladdons:altLog1>
     <botanicaladdons:altLog1:1>
+    <botanicaladdons:sealLog>
+    <botanicaladdons:thunderLog>
+    <botanicaladdons:circuitLog>
+    <botanicaladdons:calicoLog>
     <harvestcraft:pamMaple>
     <harvestcraft:pamPaperbark>
     <harvestcraft:pamCinnamon>
-    <primal:stripped_log_acacia>
-    <primal:stripped_log_bigoak>
-    <primal:stripped_log_birch>
-    <primal:stripped_log_jungle>
-    <primal:stripped_log_oak>
-    <primal:stripped_log_spruce>
-    <primal:stripped_log_ironwood>
-    <roots:logWildwood>
+    <primal:stripped_log_acacia:*>
+    <primal:stripped_log_bigoak:*>
+    <primal:stripped_log_birch:*>
+    <primal:stripped_log_jungle:*>
+    <primal:stripped_log_oak:*>
+    <primal:stripped_log_spruce:*>
+    <primal:stripped_log_ironwood:*>
+    <thebetweenlands:weedwood>
+    <thebetweenlands:log_weedwood>
+    <thebetweenlands:log_sap>
+    <thebetweenlands:log_rubber>
 Ore entries for <ore:plankWood> :
     <minecraft:planks:*>
     <abyssalcraft:dltplank>
@@ -127,15 +133,18 @@ Ore entries for <ore:plankWood> :
     <botanicaladdons:irisPlanks:13>
     <botanicaladdons:irisPlanks:14>
     <botanicaladdons:irisPlanks:15>
+    <botanicaladdons:rainbowPlanks>
     <botanicaladdons:altPlanks>
     <botanicaladdons:altPlanks:1>
     <botanicaladdons:altPlanks:2>
     <botanicaladdons:altPlanks:3>
     <botanicaladdons:altPlanks:4>
     <botanicaladdons:altPlanks:5>
-    <roots:plankWildwood>
-    <druidry:newplanks>
-    <druidry:wattle>
+    <botanicaladdons:sealPlanks>
+    <botanicaladdons:thunderPlanks>
+    <botanicaladdons:circuitPlanks>
+    <botanicaladdons:calicoPlanks>
+    <thebetweenlands:weedwood_planks>
 Ore entries for <ore:slabWood> :
     <minecraft:wooden_slab:*>
     <biomesoplenty:wood_slab_0>
@@ -166,7 +175,8 @@ Ore entries for <ore:slabWood> :
     <natura:overworld_slab:*>
     <natura:overworld_slab2:*>
     <natura:nether_slab:*>
-    <roots:plankWildwoodSlabItem>
+    <thebetweenlands:weedwood_plank_slab>
+    <thebetweenlands:rubber_tree_plank_slab>
 Ore entries for <ore:stairWood> :
     <minecraft:oak_stairs>
     <minecraft:spruce_stairs>
@@ -272,6 +282,7 @@ Ore entries for <ore:stickWood> :
     <biomesoplenty:bamboo>
     <biomesoplenty:plant_1:5>
     <evilcraft:darkStick>
+    <thebetweenlands:items_misc:20>
 Ore entries for <ore:treeSapling> :
     <minecraft:sapling:*>
     <abyssalcraft:dltsapling>
@@ -303,14 +314,20 @@ Ore entries for <ore:treeSapling> :
     <forestry:sapling:*>
     <forestry:saplingGE:*>
     <evilcraft:undeadSapling>
-    <fp:sapling>
-    <fp:sapling:1>
     <tconstruct:slime_sapling:*>
     <integrateddynamics:menrilSapling>
     <natura:overworld_sapling:*>
     <natura:overworld_sapling2:*>
     <natura:redwood_sapling:*>
     <natura:nether_sapling:*>
+    <botanicaladdons:irisSapling>
+    <botanicaladdons:sealSapling>
+    <botanicaladdons:thunderSapling>
+    <botanicaladdons:circuitSapling>
+    <botanicaladdons:calicoSapling>
+    <thebetweenlands:sapling_weedwood>
+    <thebetweenlands:sapling_sap>
+    <thebetweenlands:sapling_rubber>
 Ore entries for <ore:treeLeaves> :
     <minecraft:leaves:*>
     <minecraft:leaves2:*>
@@ -346,7 +363,6 @@ Ore entries for <ore:treeLeaves> :
     <forestry:leaves.decorative.0:*>
     <forestry:leaves.decorative.1:*>
     <forestry:leaves.decorative.2:*>
-    <fp:leaves>
     <tconstruct:slime_leaves:*>
     <integrateddynamics:menrilLeaves>
     <natura:overworld_leaves:*>
@@ -370,12 +386,20 @@ Ore entries for <ore:treeLeaves> :
     <botanicaladdons:irisLeaves3:1>
     <botanicaladdons:irisLeaves3:2>
     <botanicaladdons:irisLeaves3:3>
+    <botanicaladdons:rainbowLeaves>
     <botanicaladdons:altLeaves0>
     <botanicaladdons:altLeaves0:1>
     <botanicaladdons:altLeaves0:2>
     <botanicaladdons:altLeaves0:3>
     <botanicaladdons:altLeaves1>
     <botanicaladdons:altLeaves1:1>
+    <botanicaladdons:sealLeaves>
+    <botanicaladdons:thunderLeaves>
+    <botanicaladdons:circuitLeaves>
+    <botanicaladdons:calicoLeaves>
+    <thebetweenlands:leaves_weedwood_tree>
+    <thebetweenlands:leaves_sap_tree>
+    <thebetweenlands:leaves_rubber_tree>
 Ore entries for <ore:vine> :
     <minecraft:vine>
     <minecraft:vine:*>
@@ -385,44 +409,28 @@ Ore entries for <ore:vine> :
     <tconstruct:slime_vine_purple:*>
     <tconstruct:slime_vine_purple_mid:*>
     <tconstruct:slime_vine_purple_end:*>
+    <thebetweenlands:poison_ivy>
+    <thebetweenlands:thorns>
 Ore entries for <ore:oreGold> :
     <minecraft:gold_ore>
     <abyssalcraft:abygolore>
     <dungeontactics:ore_nethergold>
-    <nethermetals:nether_gold_ore>
-    <nethercore:ore:2>
 Ore entries for <ore:oreIron> :
     <minecraft:iron_ore>
     <abyssalcraft:abyiroore>
-    <nethermetals:nether_iron_ore>
-    <nethercore:ore:1>
 Ore entries for <ore:oreLapis> :
     <minecraft:lapis_ore>
-    <railcraft:ore:4>
-    <nethermetals:nether_lapis_ore>
-    <nethercore:ore:4>
 Ore entries for <ore:oreDiamond> :
     <minecraft:diamond_ore>
     <abyssalcraft:abydiaore>
-    <railcraft:ore:2>
-    <nethermetals:nether_diamond_ore>
-    <nethercore:ore:5>
 Ore entries for <ore:oreRedstone> :
     <minecraft:redstone_ore>
-    <nethermetals:nether_redstone_ore>
-    <nethercore:ore:3>
 Ore entries for <ore:oreEmerald> :
     <minecraft:emerald_ore>
-    <railcraft:ore:3>
-    <nethermetals:nether_emerald_ore>
-    <nethercore:ore:6>
 Ore entries for <ore:oreQuartz> :
     <minecraft:quartz_ore>
-    <nex:quartz_ore>
 Ore entries for <ore:oreCoal> :
     <minecraft:coal_ore>
-    <nethermetals:nether_coal_ore>
-    <nethercore:ore>
 Ore entries for <ore:ingotIron> :
     <minecraft:iron_ingot>
 Ore entries for <ore:ingotGold> :
@@ -475,13 +483,14 @@ Ore entries for <ore:cropNetherWart> :
     <minecraft:nether_wart>
 Ore entries for <ore:sugarcane> :
     <minecraft:reeds>
+    <thebetweenlands:swamp_reed_item>
 Ore entries for <ore:blockCactus> :
     <minecraft:cactus>
     <minecraft:cactus:*>
 Ore entries for <ore:dye> :
     <minecraft:dye:*>
     <botania:dye:*>
-    <extrautils2:Ingredients:14>
+    <extrautils2:ingredients:14>
     <botanicaladdons:irisDye>
     <botanicaladdons:irisDye:1>
     <botanicaladdons:irisDye:2>
@@ -542,6 +551,7 @@ Ore entries for <ore:slimeball> :
     <tconstruct:edible:2>
     <tconstruct:edible:3>
     <tconstruct:edible:4>
+    <primal:sinuous_resin:*>
     <rockhounding_chemistry:siliconeCartridge:*>
     <actuallyadditions:itemMisc:12>
     <minecraft:magma_cream>
@@ -549,7 +559,8 @@ Ore entries for <ore:enderpearl> :
     <minecraft:ender_pearl>
 Ore entries for <ore:bone> :
     <minecraft:bone>
-    <primal:sharp_bone>
+    <primal:sharp_bone:*>
+    <thebetweenlands:items_misc:14>
 Ore entries for <ore:gunpowder> :
     <minecraft:gunpowder>
 Ore entries for <ore:string> :
@@ -558,10 +569,12 @@ Ore entries for <ore:netherStar> :
     <minecraft:nether_star>
 Ore entries for <ore:leather> :
     <minecraft:leather>
+    <primal:leather_boiled:*>
 Ore entries for <ore:feather> :
     <minecraft:feather>
 Ore entries for <ore:egg> :
     <minecraft:egg>
+    <animania:brown_egg>
 Ore entries for <ore:record> :
     <minecraft:record_13>
     <minecraft:record_cat>
@@ -577,44 +590,51 @@ Ore entries for <ore:record> :
     <minecraft:record_wait>
     <biomesoplenty:record_corruption>
     <biomesoplenty:record_wanderer>
+    <thebetweenlands:astatos>
+    <thebetweenlands:between_you_and_me>
+    <thebetweenlands:christmas_on_the_marsh>
+    <thebetweenlands:the_explorer>
+    <thebetweenlands:hag_dance>
+    <thebetweenlands:lonely_fire>
+    <thebetweenlands:mysterious_record>
+    <thebetweenlands:ancient>
+    <thebetweenlands:beneath_a_green_sky>
+    <thebetweenlands:dj_wights_mixtape>
+    <thebetweenlands:onwards>
+    <thebetweenlands:stuck_in_the_mud>
+    <thebetweenlands:wandering_wisps>
+    <thebetweenlands:waterlogged>
 Ore entries for <ore:dirt> :
     <minecraft:dirt>
-    <fp:dirt>
     <minecraft:dirt:*>
     <botanicaladdons:irisDirt:*>
     <botanicaladdons:rainbowDirt:*>
+    <thebetweenlands:swamp_dirt>
+    <thebetweenlands:coarse_swamp_dirt>
 Ore entries for <ore:grass> :
     <minecraft:grass>
+    <thebetweenlands:swamp_grass>
 Ore entries for <ore:stone> :
     <minecraft:stone>
-    <fp:stone>
+    <thebetweenlands:smooth_betweenstone>
     <abyssalcraft:abydreadstone>
     <abyssalcraft:dreadstone>
     <biomesoplenty:stone>
     <chisel:limestoneextra:7>
 Ore entries for <ore:cobblestone> :
     <minecraft:cobblestone>
-    <fp:stone:1>
-    <nethercore:stone:1>
+    <thebetweenlands:betweenstone>
 Ore entries for <ore:gravel> :
     <minecraft:gravel>
-    <fp:gravel>
 Ore entries for <ore:sand> :
     <minecraft:sand:*>
-    <fp:sand>
-    <fp:neon_sand>
-    <fp:neon_sand:1>
-    <fp:neon_sand:2>
-    <fp:neon_sand:3>
-    <fp:neon_sand:4>
+    <thebetweenlands:silt>
 Ore entries for <ore:sandstone> :
     <minecraft:sandstone:*>
     <minecraft:red_sandstone:*>
-    <fp:stone:4>
 Ore entries for <ore:netherrack> :
     <minecraft:netherrack>
     <minecraft:netherrack:*>
-    <nex:netherrack>
 Ore entries for <ore:obsidian> :
     <minecraft:obsidian>
     <minecraft:obsidian:*>
@@ -625,13 +645,17 @@ Ore entries for <ore:endstone> :
 Ore entries for <ore:torch> :
     <minecraft:torch>
     <tconstruct:stone_torch:*>
-    <primal:ignis_fatuus>
-    <primal:torch_wood_lit>
-    <primal:torch_nether_lit>
+    <integrateddynamics:menrilTorch>
+    <integrateddynamics:menrilTorchStone>
+    <primal:ignis_fatuus:*>
+    <primal:torch_wood_lit:*>
+    <primal:torch_nether_lit:*>
+    <thebetweenlands:sulfur_torch>
 Ore entries for <ore:workbench> :
     <minecraft:crafting_table>
     <minecraft:crafting_table:*>
     <tconstruct:tooltables>
+    <thebetweenlands:weedwood_workbench>
 Ore entries for <ore:blockSlime> :
     <minecraft:slime>
     <minecraft:slime:*>
@@ -657,31 +681,38 @@ Ore entries for <ore:stoneAndesitePolished> :
 Ore entries for <ore:blockGlassColorless> :
     <minecraft:glass>
     <enderio:blockFusedQuartz:1>
+    <thebetweenlands:silt_glass>
 Ore entries for <ore:blockGlass> :
     <minecraft:glass>
     <minecraft:stained_glass:*>
+    <abyssalcraft:abyssalsandglass>
     <enderio:blockFusedQuartz:1>
     <enderio:blockFusedQuartz_fusedGlass:*>
     <evilcraft:obscuredGlass>
     <tconstruct:clear_glass:*>
     <tconstruct:clear_stained_glass:*>
     <botanicaladdons:aquaGlass:*>
+    <thebetweenlands:silt_glass>
 Ore entries for <ore:paneGlassColorless> :
     <minecraft:glass_pane>
+    <thebetweenlands:silt_glass_pane>
 Ore entries for <ore:paneGlass> :
     <minecraft:glass_pane>
     <minecraft:stained_glass_pane:*>
+    <thebetweenlands:silt_glass_pane>
 Ore entries for <ore:chest> :
     <minecraft:chest>
     <minecraft:ender_chest>
     <minecraft:trapped_chest>
     <quark:custom_chest:*>
     <quark:custom_chest_trap:*>
+    <thebetweenlands:weedwood_chest>
 Ore entries for <ore:chestWood> :
     <minecraft:chest>
     <quark:custom_chest:*>
     <minecraft:chest:*>
     <minecraft:trapped_chest:*>
+    <thebetweenlands:weedwood_chest>
 Ore entries for <ore:chestEnder> :
     <minecraft:ender_chest>
 Ore entries for <ore:chestTrapped> :
@@ -694,9 +725,8 @@ Ore entries for <ore:dyeBlack> :
     <botanicaladdons:irisDye:15>
     <botanicaladdons:irisDyeAwakened:15>
     <botanicaladdons:dyeShard:15>
+    <primal:netherwax_clump:*>
     <actuallyadditions:itemMisc:17>
-    <charsettweaks:graphite>
-    <druidry:newdye>
     <gendustry:HoneyDrop:10>
 Ore entries for <ore:blockGlassBlack> :
     <minecraft:stained_glass:15>
@@ -739,6 +769,7 @@ Ore entries for <ore:dyeBrown> :
     <botanicaladdons:irisDye:12>
     <botanicaladdons:irisDyeAwakened:12>
     <botanicaladdons:dyeShard:12>
+    <primal:earthwax_clump:*>
     <gendustry:HoneyDrop:13>
 Ore entries for <ore:blockGlassBrown> :
     <minecraft:stained_glass:12>
@@ -750,12 +781,11 @@ Ore entries for <ore:dyeBlue> :
     <minecraft:dye:4>
     <biomesoplenty:blue_dye>
     <botania:dye:11>
-    <extrautils2:Ingredients:14>
+    <extrautils2:ingredients:14>
     <natura:materials:8>
     <botanicaladdons:irisDye:11>
     <botanicaladdons:irisDyeAwakened:11>
     <botanicaladdons:dyeShard:11>
-    <druidry:newdye:4>
     <gendustry:HoneyDrop:14>
 Ore entries for <ore:blockGlassBlue> :
     <minecraft:stained_glass:11>
@@ -769,6 +799,7 @@ Ore entries for <ore:dyePurple> :
     <botanicaladdons:irisDye:10>
     <botanicaladdons:irisDyeAwakened:10>
     <botanicaladdons:dyeShard:10>
+    <primal:sinuous_resin:*>
     <gendustry:HoneyDrop:15>
 Ore entries for <ore:blockGlassPurple> :
     <minecraft:stained_glass:10>
@@ -870,7 +901,7 @@ Ore entries for <ore:paneGlassLightBlue> :
 Ore entries for <ore:dyeMagenta> :
     <minecraft:dye:13>
     <botania:dye:2>
-    <extrautils2:Ingredients:3>
+    <extrautils2:ingredients:3>
     <botanicaladdons:irisDye:2>
     <botanicaladdons:irisDyeAwakened:2>
     <botanicaladdons:dyeShard:2>
@@ -901,7 +932,6 @@ Ore entries for <ore:dyeWhite> :
     <botanicaladdons:irisDye>
     <botanicaladdons:irisDyeAwakened>
     <botanicaladdons:dyeShard>
-    <druidry:newdye:15>
     <gendustry:HoneyDrop:25>
 Ore entries for <ore:blockGlassWhite> :
     <minecraft:stained_glass>
@@ -946,17 +976,14 @@ Ore entries for <ore:ingotDreadium> :
 Ore entries for <ore:dustSulfur> :
     <abyssalcraft:sulfur>
     <natura:materials:4>
-    <railcraft:dust:1>
     <rockhounding_chemistry:chemicalDusts:37>
 Ore entries for <ore:dustSaltpeter> :
     <abyssalcraft:nitre>
-    <railcraft:dust:2>
 Ore entries for <ore:materialMethane> :
     <abyssalcraft:methane>
 Ore entries for <ore:oreSaltpeter> :
     <abyssalcraft:nitreore>
     <abyssalcraft:abynitore>
-    <railcraft:ore:1>
 Ore entries for <ore:crystalIron> :
     <abyssalcraft:crystal>
 Ore entries for <ore:crystalGold> :
@@ -1012,43 +1039,25 @@ Ore entries for <ore:foodFriedEgg> :
 Ore entries for <ore:oreTin> :
     <abyssalcraft:abytinore>
     <libvulpes:ore0:5>
-    <basemetals:tin_ore>
+    <base:ore_tin>
     <forestry:resources:2>
-    <fp:erze>
-    <railcraft:ore:12>
-    <nethermetals:nether_tin_ore>
 Ore entries for <ore:oreCopper> :
     <abyssalcraft:abycopore>
     <libvulpes:ore0:4>
-    <basemetals:copper_ore>
     <forestry:resources:1>
-    <embers:oreCopper>
-    <esteemedinnovation:ore>
-    <esteemedinnovation:ore:2>
-    <esteemedinnovation:ore:4>
-    <fp:erze:2>
     <immersiveengineering:ore>
-    <railcraft:ore:11>
-    <nethermetals:nether_copper_ore>
 Ore entries for <ore:ingotTin> :
     <abyssalcraft:tiningot>
     <libvulpes:productingot:5>
-    <basemetals:tin_ingot>
+    <base:ingot:29>
     <forestry:ingotTin>
-    <fp:ItemErze>
-    <primal:tin_ingot>
-    <railcraft:ingot:2>
+    <primal:tin_ingot:*>
 Ore entries for <ore:ingotCopper> :
     <abyssalcraft:copperingot>
     <libvulpes:productingot:4>
-    <basemetals:copper_ingot>
     <forestry:ingotCopper>
-    <embers:ingotCopper>
-    <esteemedinnovation:ingot>
-    <fp:ItemErze:2>
     <immersiveengineering:metal>
-    <primal:copper_ingot>
-    <railcraft:ingot:1>
+    <primal:copper_ingot:*>
     <rockhounding_chemistry:miscItems:25>
 Ore entries for <ore:orePearlescentCoralium> :
     <abyssalcraft:abypcorore>
@@ -1118,49 +1127,123 @@ Ore entries for <ore:crystalShardMagnesia> :
     <abyssalcraft:crystalshard:23>
 Ore entries for <ore:crystalShardZinc> :
     <abyssalcraft:crystalshard:24>
+Ore entries for <ore:crystalFragmentIron> :
+    <abyssalcraft:crystalfragment>
+Ore entries for <ore:crystalFragmentGold> :
+    <abyssalcraft:crystalfragment:1>
+Ore entries for <ore:crystalFragmentSulfur> :
+    <abyssalcraft:crystalfragment:2>
+Ore entries for <ore:crystalFragmentCarbon> :
+    <abyssalcraft:crystalfragment:3>
+Ore entries for <ore:crystalFragmentOxygen> :
+    <abyssalcraft:crystalfragment:4>
+Ore entries for <ore:crystalFragmentHydrogen> :
+    <abyssalcraft:crystalfragment:5>
+Ore entries for <ore:crystalFragmentNitrogen> :
+    <abyssalcraft:crystalfragment:6>
+Ore entries for <ore:crystalFragmentPhosphorus> :
+    <abyssalcraft:crystalfragment:7>
+Ore entries for <ore:crystalFragmentPotassium> :
+    <abyssalcraft:crystalfragment:8>
+Ore entries for <ore:crystalFragmentNitrate> :
+    <abyssalcraft:crystalfragment:9>
+Ore entries for <ore:crystalFragmentMethane> :
+    <abyssalcraft:crystalfragment:10>
+Ore entries for <ore:crystalFragmentRedstone> :
+    <abyssalcraft:crystalfragment:11>
+Ore entries for <ore:crystalFragmentAbyssalnite> :
+    <abyssalcraft:crystalfragment:12>
+Ore entries for <ore:crystalFragmentCoralium> :
+    <abyssalcraft:crystalfragment:13>
+Ore entries for <ore:crystalFragmentDreadium> :
+    <abyssalcraft:crystalfragment:14>
+Ore entries for <ore:crystalFragmentBlaze> :
+    <abyssalcraft:crystalfragment:15>
+Ore entries for <ore:crystalFragmentTin> :
+    <abyssalcraft:crystalfragment:16>
+Ore entries for <ore:crystalFragmentCopper> :
+    <abyssalcraft:crystalfragment:17>
+Ore entries for <ore:crystalFragmentSilicon> :
+    <abyssalcraft:crystalfragment:18>
+Ore entries for <ore:crystalFragmentMagnesium> :
+    <abyssalcraft:crystalfragment:19>
+Ore entries for <ore:crystalFragmentAluminium> :
+    <abyssalcraft:crystalfragment:20>
+Ore entries for <ore:crystalFragmentSilica> :
+    <abyssalcraft:crystalfragment:21>
+Ore entries for <ore:crystalFragmentAlumina> :
+    <abyssalcraft:crystalfragment:22>
+Ore entries for <ore:crystalFragmentMagnesia> :
+    <abyssalcraft:crystalfragment:23>
+Ore entries for <ore:crystalFragmentZinc> :
+    <abyssalcraft:crystalfragment:24>
+Ore entries for <ore:hookPudge> :
+    <adhooks:pudge_hook>
+Ore entries for <ore:launcherPudge> :
+    <adhooks:pudge_launcher>
+Ore entries for <ore:hookSpear> :
+    <adhooks:spear_hook>
+Ore entries for <ore:launcherSpear> :
+    <adhooks:spear_launcher>
+Ore entries for <ore:hookWeb> :
+    <adhooks:web_hook>
+Ore entries for <ore:launcherWeb> :
+    <adhooks:web_launcher>
 Ore entries for <ore:itemBattery> :
     <libvulpes:battery>
+Ore entries for <ore:blockMotor> :
+    <libvulpes:motor>
+    <libvulpes:advancedMotor>
+    <libvulpes:enhancedMotor>
+    <libvulpes:eliteMotor>
 Ore entries for <ore:dustDilithium> :
     <libvulpes:productdust>
+    <base:dust:15>
+    <taiga:dilithium_dust>
 Ore entries for <ore:crystalDilithium> :
     <libvulpes:productcrystal>
+    <taiga:dilithium_crystal>
 Ore entries for <ore:oreDilithium> :
     <libvulpes:ore0>
+    <taiga:dilithium_block>
 Ore entries for <ore:dustIron> :
     <libvulpes:productdust:1>
-    <basemetals:iron_powder>
+    <base:dust:21>
     <enderio:itemPowderIngot:1>
-    <esteemedinnovation:smashed_ore>
     <immersiveengineering:metal:18>
+    <primal:iron_dust:*>
     <rockhounding_chemistry:chemicalDusts:16>
     <actuallyadditions:itemDust>
     <bloodmagic:ItemComponent:19>
 Ore entries for <ore:plateIron> :
     <libvulpes:productplate:1>
-    <basemetals:iron_plate>
-    <embers:plateIron>
+    <base:plate:21>
     <immersiveengineering:metal:39>
+    <primal:iron_plate:*>
 Ore entries for <ore:stickIron> :
     <libvulpes:productrod:1>
     <immersiveengineering:material:1>
-    <basemetals:iron_rod>
-    <fp:spaceship:12>
 Ore entries for <ore:sheetIron> :
     <libvulpes:productsheet:1>
-    <primal:iron_sheet>
 Ore entries for <ore:dustGold> :
     <libvulpes:productdust:2>
-    <basemetals:gold_powder>
+    <base:dust:18>
     <enderio:itemPowderIngot:2>
-    <esteemedinnovation:smashed_ore:1>
     <immersiveengineering:metal:19>
     <rockhounding_chemistry:chemicalDusts:45>
     <actuallyadditions:itemDust:1>
     <bloodmagic:ItemComponent:20>
 Ore entries for <ore:plateGold> :
     <libvulpes:productplate:2>
-    <basemetals:gold_plate>
-    <embers:plateGold>
+    <base:plate:18>
+Ore entries for <ore:coilGold> :
+    <libvulpes:coil0:2>
+Ore entries for <ore:blockCoil> :
+    <libvulpes:coil0:2>
+    <libvulpes:coil0:4>
+    <libvulpes:coil0:7>
+    <libvulpes:coil0:9>
+    <libvulpes:coil0:10>
 Ore entries for <ore:dustSilicon> :
     <libvulpes:productdust:3>
     <rockhounding_chemistry:chemicalDusts:42>
@@ -1174,102 +1257,83 @@ Ore entries for <ore:plateSilicon> :
     <libvulpes:productplate:3>
 Ore entries for <ore:dustCopper> :
     <libvulpes:productdust:4>
-    <basemetals:copper_powder>
-    <esteemedinnovation:smashed_ore:2>
+    <base:dust:11>
     <immersiveengineering:metal:9>
-    <primal:copper_dust>
+    <primal:copper_dust:*>
     <rockhounding_chemistry:chemicalDusts:17>
     <enderio:itemPowderIngot:3>
 Ore entries for <ore:nuggetCopper> :
     <libvulpes:productnugget:4>
-    <basemetals:copper_nugget>
-    <embers:nuggetCopper>
-    <esteemedinnovation:nugget>
     <immersiveengineering:metal:20>
-    <primal:copper_nugget>
-    <railcraft:nugget:2>
+    <primal:copper_nugget:*>
 Ore entries for <ore:plateCopper> :
     <libvulpes:productplate:4>
-    <basemetals:copper_plate>
-    <embers:plateCopper>
+    <base:plate:11>
     <immersiveengineering:metal:30>
+    <primal:copper_plate:*>
 Ore entries for <ore:stickCopper> :
     <libvulpes:productrod:4>
-    <basemetals:copper_rod>
 Ore entries for <ore:sheetCopper> :
     <libvulpes:productsheet:4>
 Ore entries for <ore:blockCopper> :
     <libvulpes:metal0:4>
-    <basemetals:copper_block>
     <forestry:resourceStorage:1>
-    <embers:blockCopper>
-    <esteemedinnovation:metal_storage_block>
-    <fp:erz_blocke:2>
     <immersiveengineering:storage>
-    <primal:copper_block>
-    <railcraft:generic>
+    <primal:copper_block:*>
 Ore entries for <ore:coilCopper> :
     <libvulpes:coil0:4>
 Ore entries for <ore:dustTin> :
     <libvulpes:productdust:5>
-    <basemetals:tin_powder>
-    <esteemedinnovation:smashed_ore:4>
-    <primal:tin_dust>
+    <base:dust:29>
+    <primal:tin_dust:*>
     <rockhounding_chemistry:chemicalDusts:18>
     <enderio:itemPowderIngot:4>
 Ore entries for <ore:nuggetTin> :
     <libvulpes:productnugget:5>
-    <basemetals:tin_nugget>
-    <primal:tin_nugget>
-    <railcraft:nugget:3>
+    <base:nugget:29>
+    <primal:tin_nugget:*>
 Ore entries for <ore:plateTin> :
     <libvulpes:productplate:5>
-    <basemetals:tin_plate>
+    <base:plate:29>
+    <primal:tin_plate:*>
 Ore entries for <ore:blockTin> :
     <libvulpes:metal0:5>
-    <basemetals:tin_block>
+    <base:storage_tin>
     <forestry:resourceStorage:2>
-    <fp:erz_blocke>
-    <primal:tin_block>
-    <railcraft:generic:1>
+    <primal:tin_block:*>
 Ore entries for <ore:dustSteel> :
     <libvulpes:productdust:6>
-    <basemetals:steel_powder>
-    <basemetals:steel_blend>
+    <base:dust:28>
     <immersiveengineering:metal:17>
 Ore entries for <ore:ingotSteel> :
     <libvulpes:productingot:6>
-    <basemetals:steel_ingot>
     <immersiveengineering:metal:8>
-    <railcraft:ingot>
+    <primal:steel_ingot:*>
 Ore entries for <ore:nuggetSteel> :
     <libvulpes:productnugget:6>
-    <basemetals:steel_nugget>
     <immersiveengineering:metal:28>
-    <railcraft:nugget:1>
 Ore entries for <ore:plateSteel> :
     <libvulpes:productplate:6>
-    <basemetals:steel_plate>
+    <base:plate:28>
     <immersiveengineering:metal:38>
+    <primal:steel_plate:*>
 Ore entries for <ore:stickSteel> :
     <libvulpes:productrod:6>
     <immersiveengineering:material:2>
-    <basemetals:steel_rod>
 Ore entries for <ore:fanSteel> :
     <libvulpes:productfan:6>
 Ore entries for <ore:sheetSteel> :
     <libvulpes:productsheet:6>
 Ore entries for <ore:gearSteel> :
     <libvulpes:productgear:6>
-    <basemetals:steel_gear>
-    <railcraft:gear:2>
+    <base:gear:28>
 Ore entries for <ore:blockSteel> :
     <libvulpes:metal0:6>
-    <basemetals:steel_block>
     <immersiveengineering:storage:8>
-    <railcraft:generic:3>
+    <primal:steel_block:*>
 Ore entries for <ore:dustTitanium> :
     <libvulpes:productdust:7>
+    <base:dust:30>
     <rockhounding_chemistry:chemicalDusts:29>
 Ore entries for <ore:ingotTitanium> :
     <libvulpes:productingot:7>
@@ -1277,46 +1341,50 @@ Ore entries for <ore:nuggetTitanium> :
     <libvulpes:productnugget:7>
 Ore entries for <ore:plateTitanium> :
     <libvulpes:productplate:7>
+    <base:plate:30>
 Ore entries for <ore:stickTitanium> :
     <libvulpes:productrod:7>
 Ore entries for <ore:sheetTitanium> :
     <libvulpes:productsheet:7>
 Ore entries for <ore:gearTitanium> :
     <libvulpes:productgear:7>
+    <base:gear:30>
 Ore entries for <ore:blockTitanium> :
     <libvulpes:metal0:7>
+Ore entries for <ore:coilTitanium> :
+    <libvulpes:coil0:7>
 Ore entries for <ore:oreRutile> :
     <libvulpes:ore0:8>
-    <nethermetals:nether_rutile_ore>
 Ore entries for <ore:oreTitanium> :
     <libvulpes:ore0:8>
-    <nethermetals:nether_titanium_ore>
 Ore entries for <ore:dustAluminum> :
     <libvulpes:productdust:9>
-    <esteemedinnovation:smashed_ore:8>
+    <base:dust:3>
     <immersiveengineering:metal:10>
     <rockhounding_chemistry:chemicalDusts:24>
 Ore entries for <ore:ingotAluminum> :
     <libvulpes:productingot:9>
-    <fp:spaceship:13>
     <immersiveengineering:metal:1>
 Ore entries for <ore:nuggetAluminum> :
     <libvulpes:productnugget:9>
     <immersiveengineering:metal:21>
 Ore entries for <ore:plateAluminum> :
     <libvulpes:productplate:9>
+    <base:plate:3>
     <immersiveengineering:metal:31>
 Ore entries for <ore:sheetAluminum> :
     <libvulpes:productsheet:9>
 Ore entries for <ore:oreAluminum> :
     <libvulpes:ore0:9>
     <immersiveengineering:ore:1>
-    <nethermetals:nether_aluminum_ore>
 Ore entries for <ore:blockAluminum> :
     <libvulpes:metal0:9>
     <immersiveengineering:storage:1>
+Ore entries for <ore:coilAluminum> :
+    <libvulpes:coil0:9>
 Ore entries for <ore:dustIridium> :
     <libvulpes:productdust:10>
+    <base:dust:20>
     <rockhounding_chemistry:chemicalDusts:48>
 Ore entries for <ore:ingotIridium> :
     <libvulpes:productingot:10>
@@ -1324,19 +1392,15 @@ Ore entries for <ore:nuggetIridium> :
     <libvulpes:productnugget:10>
 Ore entries for <ore:plateIridium> :
     <libvulpes:productplate:10>
+    <base:plate:20>
+Ore entries for <ore:stickIridium> :
+    <libvulpes:productrod:10>
 Ore entries for <ore:oreIridium> :
     <libvulpes:ore0:10>
-    <nethermetals:nether_iridium_ore>
 Ore entries for <ore:blockIridium> :
     <libvulpes:metal0:10>
-Ore entries for <ore:waferSilicon> :
-    <advancedrocketry:wafer>
-Ore entries for <ore:ingotCarbon> :
-    <advancedrocketry:misc:1>
-Ore entries for <ore:concrete> :
-    <advancedrocketry:concrete>
-    <immersiveengineering:stoneDecoration:5>
-    <immersiveengineering:stoneDecoration:6>
+Ore entries for <ore:coilIridium> :
+    <libvulpes:coil0:10>
 Ore entries for <ore:dustTitaniumAluminide> :
     <advancedrocketry:productdust>
 Ore entries for <ore:ingotTitaniumAluminide> :
@@ -1369,6 +1433,18 @@ Ore entries for <ore:gearTitaniumIridium> :
     <advancedrocketry:productgear:1>
 Ore entries for <ore:blockTitaniumIridium> :
     <advancedrocketry:metal0:1>
+Ore entries for <ore:waferSilicon> :
+    <advancedrocketry:wafer>
+Ore entries for <ore:ingotCarbon> :
+    <advancedrocketry:misc:1>
+Ore entries for <ore:concrete> :
+    <advancedrocketry:concrete>
+    <immersiveengineering:stoneDecoration:5>
+    <immersiveengineering:stoneDecoration:6>
+Ore entries for <ore:itemSilicon> :
+    <libvulpes:productingot:3>
+    <enderio:itemMaterial>
+    <refinedstorage:silicon>
 Ore entries for <ore:fenceWood> :
     <minecraft:acacia_fence>
     <minecraft:fence>
@@ -1419,6 +1495,7 @@ Ore entries for <ore:blockSunstone> :
     <arsmagica2:block:4>
 Ore entries for <ore:craftingTableWood> :
     <minecraft:crafting_table>
+    <betterbeginnings:double_workbench>
 Ore entries for <ore:dustVinteum> :
     <arsmagica2:item_ore>
 Ore entries for <ore:arcaneAsh> :
@@ -1431,8 +1508,13 @@ Ore entries for <ore:gemMoonstone> :
     <arsmagica2:item_ore:3>
 Ore entries for <ore:gemSunstone> :
     <arsmagica2:item_ore:4>
-Ore entries for <ore:gemEnderBiotite> :
-    <quark:biotite>
+Ore entries for <ore:stoneMarble> :
+    <astralsorcery:BlockMarble>
+    <quark:marble>
+Ore entries for <ore:blockMarble> :
+    <astralsorcery:BlockMarble>
+Ore entries for <ore:stonePolished> :
+    <quark:polished_stone>
 Ore entries for <ore:trapdoorWood> :
     <quark:spruce_trapdoor>
     <quark:birch_trapdoor>
@@ -1454,641 +1536,365 @@ Ore entries for <ore:bookshelfAcacia> :
     <quark:custom_bookshelf:3>
 Ore entries for <ore:bookshelfDarkOak> :
     <quark:custom_bookshelf:4>
+Ore entries for <ore:shardGlass> :
+    <quark:glass_shards>
+Ore entries for <ore:stoneMarblePolished> :
+    <quark:marble:1>
+Ore entries for <ore:stoneLimestone> :
+    <quark:limestone>
+Ore entries for <ore:stoneLimestonePolished> :
+    <quark:limestone:1>
+Ore entries for <ore:gemEnderBiotite> :
+    <quark:biotite>
 Ore entries for <ore:stoneBasalt> :
     <quark:basalt>
 Ore entries for <ore:stoneBasaltPolished> :
     <quark:basalt:1>
-Ore entries for <ore:shardGlass> :
-    <quark:glass_shards>
-    <charsettweaks:shard:*>
-Ore entries for <ore:dustMythril> :
+Ore entries for <ore:dustElectrum> :
     <base:dust:17>
-Ore entries for <ore:gearMythril> :
+    <immersiveengineering:metal:16>
+Ore entries for <ore:gearElectrum> :
     <base:gear:17>
-Ore entries for <ore:plateMythril> :
+Ore entries for <ore:plateElectrum> :
     <base:plate:17>
-Ore entries for <ore:dustProxideum> :
-    <base:dust:23>
-Ore entries for <ore:gearProxideum> :
-    <base:gear:23>
-Ore entries for <ore:plateProxideum> :
-    <base:plate:23>
-Ore entries for <ore:dustFractoryte> :
-    <base:dust:10>
-Ore entries for <ore:gearFractoryte> :
-    <base:gear:10>
-Ore entries for <ore:plateFractoryte> :
-    <base:plate:10>
-Ore entries for <ore:dustMindorite> :
-    <base:dust:16>
-Ore entries for <ore:gearMindorite> :
-    <base:gear:16>
-Ore entries for <ore:plateMindorite> :
-    <base:plate:16>
-Ore entries for <ore:dustEternite> :
-    <base:dust:9>
-Ore entries for <ore:gearEternite> :
-    <base:gear:9>
-Ore entries for <ore:plateEternite> :
-    <base:plate:9>
-Ore entries for <ore:dustViolium> :
-    <base:dust:32>
-    <taiga:violium_dust>
-Ore entries for <ore:gearViolium> :
-    <base:gear:32>
-Ore entries for <ore:plateViolium> :
-    <base:plate:32>
-Ore entries for <ore:dustMeteorite> :
-    <base:dust:15>
-    <taiga:meteorite_dust>
-Ore entries for <ore:gearMeteorite> :
-    <base:gear:15>
-Ore entries for <ore:plateMeteorite> :
-    <base:plate:15>
+    <immersiveengineering:metal:37>
 Ore entries for <ore:dustDyonite> :
-    <base:dust:8>
+    <base:dust:40>
     <taiga:dyonite_dust>
 Ore entries for <ore:gearDyonite> :
-    <base:gear:8>
+    <base:gear:40>
 Ore entries for <ore:plateDyonite> :
-    <base:plate:8>
-Ore entries for <ore:dustVibranium> :
-    <base:dust:31>
-    <taiga:vibranium_dust>
-Ore entries for <ore:gearVibranium> :
-    <base:gear:31>
-Ore entries for <ore:plateVibranium> :
-    <base:plate:31>
-Ore entries for <ore:dustLumixyl> :
-    <base:dust:14>
-Ore entries for <ore:gearLumixyl> :
-    <base:gear:14>
-Ore entries for <ore:plateLumixyl> :
-    <base:plate:14>
-Ore entries for <ore:dustCryptogen> :
-    <base:dust:7>
-Ore entries for <ore:gearCryptogen> :
-    <base:gear:7>
-Ore entries for <ore:plateCryptogen> :
-    <base:plate:7>
-Ore entries for <ore:dustUltranite> :
-    <base:dust:30>
-Ore entries for <ore:gearUltranite> :
-    <base:gear:30>
-Ore entries for <ore:plateUltranite> :
-    <base:plate:30>
-Ore entries for <ore:dustKarmesine> :
-    <base:dust:13>
-    <taiga:karmesine_dust>
-Ore entries for <ore:gearKarmesine> :
-    <base:gear:13>
-Ore entries for <ore:plateKarmesine> :
-    <base:plate:13>
-Ore entries for <ore:dustBysmuid> :
-    <base:dust:6>
-Ore entries for <ore:gearBysmuid> :
-    <base:gear:6>
-Ore entries for <ore:plateBysmuid> :
-    <base:plate:6>
-Ore entries for <ore:dustTitanite> :
-    <base:dust:29>
-Ore entries for <ore:gearTitanite> :
-    <base:gear:29>
-Ore entries for <ore:plateTitanite> :
-    <base:plate:29>
-Ore entries for <ore:oreTitanite> :
-    <base:ore_titanite>
-Ore entries for <ore:dustImperomite> :
-    <base:dust:12>
-    <taiga:imperomite_dust>
-Ore entries for <ore:gearImperomite> :
-    <base:gear:12>
-Ore entries for <ore:plateImperomite> :
-    <base:plate:12>
-Ore entries for <ore:dustPrometheum> :
-    <base:dust:22>
-    <taiga:prometheum_dust>
-Ore entries for <ore:gearPrometheum> :
-    <base:gear:22>
-Ore entries for <ore:platePrometheum> :
-    <base:plate:22>
-Ore entries for <ore:dustBismuth> :
-    <base:dust:5>
-    <rockhounding_chemistry:chemicalDusts:38>
-Ore entries for <ore:gearBismuth> :
-    <base:gear:5>
-Ore entries for <ore:plateBismuth> :
-    <base:plate:5>
-Ore entries for <ore:dustTiberium> :
-    <base:dust:28>
-    <taiga:tiberium_dust>
-Ore entries for <ore:gearTiberium> :
-    <base:gear:28>
-Ore entries for <ore:plateTiberium> :
-    <base:plate:28>
-Ore entries for <ore:dustPalladium> :
-    <base:dust:21>
-    <taiga:palladium_dust>
-Ore entries for <ore:gearPalladium> :
-    <base:gear:21>
-Ore entries for <ore:platePalladium> :
-    <base:plate:21>
-Ore entries for <ore:dustAstrium> :
-    <base:dust:4>
-    <taiga:astrium_dust>
-Ore entries for <ore:gearAstrium> :
-    <base:gear:4>
-Ore entries for <ore:plateAstrium> :
-    <base:plate:4>
-Ore entries for <ore:dustTerramite> :
-    <base:dust:27>
-Ore entries for <ore:gearTerramite> :
-    <base:gear:27>
-Ore entries for <ore:plateTerramite> :
-    <base:plate:27>
-Ore entries for <ore:dustNucleum> :
-    <base:dust:20>
-    <taiga:nucleum_dust>
-Ore entries for <ore:gearNucleum> :
-    <base:gear:20>
-Ore entries for <ore:plateNucleum> :
-    <base:plate:20>
-Ore entries for <ore:dustArcanite> :
-    <base:dust:3>
-Ore entries for <ore:gearArcanite> :
-    <base:gear:3>
-Ore entries for <ore:plateArcanite> :
-    <base:plate:3>
-Ore entries for <ore:oreArcanite> :
-    <base:ore_arcanite>
+    <base:plate:40>
+Ore entries for <ore:dustMithril> :
+    <base:dust:23>
+Ore entries for <ore:gearMithril> :
+    <base:gear:23>
+Ore entries for <ore:plateMithril> :
+    <base:plate:23>
+Ore entries for <ore:dustLumix> :
+    <base:dust:46>
+    <taiga:lumix_dust>
+Ore entries for <ore:gearLumix> :
+    <base:gear:46>
+Ore entries for <ore:plateLumix> :
+    <base:plate:46>
+Ore entries for <ore:dustColdiron> :
+    <base:dust:9>
+Ore entries for <ore:gearColdiron> :
+    <base:gear:9>
+Ore entries for <ore:plateColdiron> :
+    <base:plate:9>
+Ore entries for <ore:gearDilithium> :
+    <base:gear:15>
+Ore entries for <ore:plateDilithium> :
+    <base:plate:15>
 Ore entries for <ore:dustSolarium> :
-    <base:dust:26>
+    <base:dust:55>
     <taiga:solarium_dust>
 Ore entries for <ore:gearSolarium> :
-    <base:gear:26>
+    <base:gear:55>
 Ore entries for <ore:plateSolarium> :
-    <base:plate:26>
-Ore entries for <ore:dustNoctunyx> :
-    <base:dust:19>
-Ore entries for <ore:gearNoctunyx> :
-    <base:gear:19>
-Ore entries for <ore:plateNoctunyx> :
-    <base:plate:19>
-Ore entries for <ore:dustAegisalt> :
-    <base:dust:2>
-Ore entries for <ore:gearAegisalt> :
-    <base:gear:2>
-Ore entries for <ore:plateAegisalt> :
-    <base:plate:2>
-Ore entries for <ore:dustSeismodium> :
-    <base:dust:25>
-Ore entries for <ore:gearSeismodium> :
-    <base:gear:25>
-Ore entries for <ore:plateSeismodium> :
-    <base:plate:25>
-Ore entries for <ore:dustNitronite> :
-    <base:dust:18>
-Ore entries for <ore:gearNitronite> :
-    <base:gear:18>
-Ore entries for <ore:plateNitronite> :
-    <base:plate:18>
-Ore entries for <ore:dustAdamantite> :
-    <base:dust:1>
-Ore entries for <ore:gearAdamantite> :
-    <base:gear:1>
-Ore entries for <ore:plateAdamantite> :
-    <base:plate:1>
-Ore entries for <ore:oreAdamantite> :
-    <base:ore_adamantite>
-Ore entries for <ore:dustRubium> :
-    <base:dust:24>
-Ore entries for <ore:gearRubium> :
-    <base:gear:24>
-Ore entries for <ore:plateRubium> :
-    <base:plate:24>
-Ore entries for <ore:dustIgnitite> :
-    <base:dust:11>
-Ore entries for <ore:gearIgnitite> :
-    <base:gear:11>
-Ore entries for <ore:plateIgnitite> :
-    <base:plate:11>
-Ore entries for <ore:oreIgnitite> :
-    <base:ore_ignitite>
-Ore entries for <ore:oreMercury> :
-    <basemetals:mercury_ore>
-    <nethermetals:nether_mercury_ore>
-Ore entries for <ore:oreAdamantine> :
-    <basemetals:adamantine_ore>
-Ore entries for <ore:trapdoorColdiron> :
-    <basemetals:coldiron_trapdoor>
-Ore entries for <ore:blockStarsteel> :
-    <basemetals:starsteel_block>
-Ore entries for <ore:oreNickel> :
-    <basemetals:nickel_ore>
-    <immersiveengineering:ore:4>
-    <nethermetals:nether_nickel_ore>
-Ore entries for <ore:plateElectrum> :
-    <basemetals:electrum_plate>
-    <immersiveengineering:metal:37>
-Ore entries for <ore:barsStarsteel> :
-    <basemetals:starsteel_bars>
-Ore entries for <ore:trapdoorAdamantine> :
-    <basemetals:adamantine_trapdoor>
-Ore entries for <ore:trapdoorCopper> :
-    <basemetals:copper_trapdoor>
-Ore entries for <ore:blockMithril> :
-    <basemetals:mithril_block>
-Ore entries for <ore:barsNickel> :
-    <basemetals:nickel_bars>
-Ore entries for <ore:blockLead> :
-    <basemetals:lead_block>
-    <embers:blockLead>
-    <immersiveengineering:storage:2>
-    <primal:lead_block>
-    <railcraft:generic:2>
-Ore entries for <ore:barsCupronickel> :
-    <basemetals:cupronickel_bars>
-Ore entries for <ore:trapdoorPlatinum> :
-    <basemetals:platinum_trapdoor>
-Ore entries for <ore:barsTin> :
-    <basemetals:tin_bars>
-Ore entries for <ore:plateAdamantine> :
-    <basemetals:adamantine_plate>
-Ore entries for <ore:trapdoorCupronickel> :
-    <basemetals:cupronickel_trapdoor>
-Ore entries for <ore:blockAquarium> :
-    <basemetals:aquarium_block>
-Ore entries for <ore:barsLead> :
-    <basemetals:lead_bars>
-Ore entries for <ore:blockZinc> :
-    <basemetals:zinc_block>
-    <esteemedinnovation:metal_storage_block:1>
-    <fp:erz_blocke:1>
-    <primal:zinc_block>
-Ore entries for <ore:trapdoorSilver> :
-    <basemetals:silver_trapdoor>
-Ore entries for <ore:plateInvar> :
-    <basemetals:invar_plate>
-Ore entries for <ore:plateAquarium> :
-    <basemetals:aquarium_plate>
-Ore entries for <ore:oreSilver> :
-    <basemetals:silver_ore>
-    <embers:oreSilver>
-    <immersiveengineering:ore:3>
-    <railcraft:ore:14>
-    <druidry:silverore>
-    <nethermetals:nether_silver_ore>
-Ore entries for <ore:trapdoorInvar> :
-    <basemetals:invar_trapdoor>
-Ore entries for <ore:barsColdiron> :
-    <basemetals:coldiron_bars>
-Ore entries for <ore:plateStarsteel> :
-    <basemetals:starsteel_plate>
-Ore entries for <ore:oreZinc> :
-    <basemetals:zinc_ore>
-    <esteemedinnovation:ore:1>
-    <esteemedinnovation:ore:3>
-    <esteemedinnovation:ore:5>
-    <fp:erze:1>
-    <nethermetals:nether_zinc_ore>
-Ore entries for <ore:trapdoorLead> :
-    <basemetals:lead_trapdoor>
-Ore entries for <ore:barsMithril> :
-    <basemetals:mithril_bars>
-Ore entries for <ore:blockBronze> :
-    <basemetals:bronze_block>
-    <forestry:resourceStorage:3>
-    <primal:bronze_block>
-Ore entries for <ore:barsPlatinum> :
-    <basemetals:platinum_bars>
-Ore entries for <ore:blockElectrum> :
-    <basemetals:electrum_block>
-    <immersiveengineering:storage:7>
-Ore entries for <ore:orePlatinum> :
-    <basemetals:platinum_ore>
-    <nethermetals:nether_platinum_ore>
-Ore entries for <ore:barsAquarium> :
-    <basemetals:aquarium_bars>
-Ore entries for <ore:barsBronze> :
-    <basemetals:bronze_bars>
-Ore entries for <ore:blockCupronickel> :
-    <basemetals:cupronickel_block>
-    <rockhounding_chemistry:alloyBlocks:4>
-Ore entries for <ore:trapdoorSteel> :
-    <basemetals:steel_trapdoor>
-Ore entries for <ore:plateZinc> :
-    <basemetals:zinc_plate>
-Ore entries for <ore:blockAdamantine> :
-    <basemetals:adamantine_block>
-Ore entries for <ore:platePlatinum> :
-    <basemetals:platinum_plate>
-Ore entries for <ore:plateNickel> :
-    <basemetals:nickel_plate>
-Ore entries for <ore:oreLead> :
-    <basemetals:lead_ore>
-    <embers:oreLead>
-    <immersiveengineering:ore:2>
-    <railcraft:ore:13>
-    <nethermetals:nether_lead_ore>
-Ore entries for <ore:barsInvar> :
-    <basemetals:invar_bars>
-Ore entries for <ore:blockColdiron> :
-    <basemetals:coldiron_block>
-Ore entries for <ore:trapdoorElectrum> :
-    <basemetals:electrum_trapdoor>
-Ore entries for <ore:blockInvar> :
-    <basemetals:invar_block>
-Ore entries for <ore:trapdoorNickel> :
-    <basemetals:nickel_trapdoor>
-Ore entries for <ore:plateBronze> :
-    <basemetals:bronze_plate>
-Ore entries for <ore:blockBrass> :
-    <basemetals:brass_block>
-    <esteemedinnovation:metal_storage_block:2>
-    <primal:brass_block>
-Ore entries for <ore:plateSilver> :
-    <basemetals:silver_plate>
-    <embers:plateSilver>
-Ore entries for <ore:oreStarsteel> :
-    <basemetals:starsteel_ore>
-Ore entries for <ore:blockNickel> :
-    <basemetals:nickel_block>
-    <immersiveengineering:storage:4>
-Ore entries for <ore:barsCopper> :
-    <basemetals:copper_bars>
-Ore entries for <ore:trapdoorAquarium> :
-    <basemetals:aquarium_trapdoor>
-Ore entries for <ore:plateBrass> :
-    <basemetals:brass_plate>
-Ore entries for <ore:trapdoorBrass> :
-    <basemetals:brass_trapdoor>
-Ore entries for <ore:trapdoorStarsteel> :
-    <basemetals:starsteel_trapdoor>
-Ore entries for <ore:plateColdiron> :
-    <basemetals:coldiron_plate>
-Ore entries for <ore:plateLead> :
-    <basemetals:lead_plate>
-    <embers:plateLead>
-    <immersiveengineering:metal:32>
-Ore entries for <ore:barsElectrum> :
-    <basemetals:electrum_bars>
-Ore entries for <ore:plateMithril> :
-    <basemetals:mithril_plate>
-Ore entries for <ore:trapdoorBronze> :
-    <basemetals:bronze_trapdoor>
-Ore entries for <ore:blockPlatinum> :
-    <basemetals:platinum_block>
-Ore entries for <ore:barsSteel> :
-    <basemetals:steel_bars>
-Ore entries for <ore:oreColdiron> :
-    <basemetals:coldiron_ore>
-Ore entries for <ore:trapdoorMithril> :
-    <basemetals:mithril_trapdoor>
-Ore entries for <ore:plateCupronickel> :
-    <basemetals:cupronickel_plate>
-Ore entries for <ore:barsAdamantine> :
-    <basemetals:adamantine_bars>
-Ore entries for <ore:blockSilver> :
-    <basemetals:silver_block>
-    <embers:blockSilver>
-    <immersiveengineering:storage:3>
-    <primal:silver_block>
-    <railcraft:generic:10>
-    <druidry:silverblock>
-Ore entries for <ore:trapdoorTin> :
-    <basemetals:tin_trapdoor>
-Ore entries for <ore:barsBrass> :
-    <basemetals:brass_bars>
-Ore entries for <ore:barsSilver> :
-    <basemetals:silver_bars>
-Ore entries for <ore:gearAdamantine> :
-    <basemetals:adamantine_gear>
-Ore entries for <ore:gearBronze> :
-    <basemetals:bronze_gear>
-    <forestry:gearBronze>
-Ore entries for <ore:dustCoal> :
-    <basemetals:carbon_powder>
-    <enderio:itemPowderIngot>
-    <actuallyadditions:itemDust:6>
-    <bloodmagic:ItemComponent:21>
-Ore entries for <ore:dustCarbon> :
-    <basemetals:carbon_powder>
-Ore entries for <ore:gearColdiron> :
-    <basemetals:coldiron_gear>
-Ore entries for <ore:gearCupronickel> :
-    <basemetals:cupronickel_gear>
-Ore entries for <ore:gearInvar> :
-    <basemetals:invar_gear>
-Ore entries for <ore:gearIron> :
-    <basemetals:iron_gear>
-    <railcraft:gear:1>
-Ore entries for <ore:ingotMercury> :
-    <basemetals:mercury_ingot>
-Ore entries for <ore:quicksilver> :
-    <basemetals:mercury_ingot>
-Ore entries for <ore:dustMercury> :
-    <basemetals:mercury_powder>
-Ore entries for <ore:gearMithril> :
-    <basemetals:mithril_gear>
-Ore entries for <ore:gearStarsteel> :
-    <basemetals:starsteel_gear>
-Ore entries for <ore:ingotElectrum> :
-    <basemetals:electrum_ingot>
-    <immersiveengineering:metal:7>
-Ore entries for <ore:doorBronze> :
-    <basemetals:bronze_door_item>
-Ore entries for <ore:dustElectrum> :
-    <basemetals:electrum_blend>
-    <basemetals:electrum_powder>
-    <immersiveengineering:metal:16>
-Ore entries for <ore:ingotColdiron> :
-    <basemetals:coldiron_ingot>
-Ore entries for <ore:ingotCupronickel> :
-    <basemetals:cupronickel_ingot>
-    <rockhounding_chemistry:alloyItems:13>
-Ore entries for <ore:dustMithril> :
-    <basemetals:mithril_blend>
-    <basemetals:mithril_powder>
-Ore entries for <ore:doorStarsteel> :
-    <basemetals:starsteel_door_item>
-Ore entries for <ore:nuggetPlatinum> :
-    <basemetals:platinum_nugget>
-Ore entries for <ore:dustBrass> :
-    <basemetals:brass_powder>
-    <basemetals:brass_blend>
-    <primal:brass_dust>
-Ore entries for <ore:doorLead> :
-    <basemetals:lead_door_item>
-Ore entries for <ore:doorAquarium> :
-    <basemetals:aquarium_door_item>
-Ore entries for <ore:nuggetMithril> :
-    <basemetals:mithril_nugget>
-Ore entries for <ore:doorPlatinum> :
-    <basemetals:platinum_door_item>
-Ore entries for <ore:dustCupronickel> :
-    <basemetals:cupronickel_blend>
-    <basemetals:cupronickel_powder>
-    <rockhounding_chemistry:alloyItems:12>
-Ore entries for <ore:dustAquarium> :
-    <basemetals:aquarium_powder>
-    <basemetals:aquarium_blend>
-Ore entries for <ore:doorCopper> :
-    <basemetals:copper_door_item>
-Ore entries for <ore:nuggetNickel> :
-    <basemetals:nickel_nugget>
-    <immersiveengineering:metal:24>
-Ore entries for <ore:ingotBronze> :
-    <basemetals:bronze_ingot>
-    <forestry:ingotBronze>
-    <primal:bronze_ingot>
-Ore entries for <ore:nuggetStarsteel> :
-    <basemetals:starsteel_nugget>
-Ore entries for <ore:ingotLead> :
-    <basemetals:lead_ingot>
-    <embers:ingotLead>
-    <immersiveengineering:metal:2>
-    <primal:lead_ingot>
-    <railcraft:ingot:3>
-    <rockhounding_chemistry:miscItems:27>
-Ore entries for <ore:ingotNickel> :
-    <basemetals:nickel_ingot>
-    <immersiveengineering:metal:4>
-Ore entries for <ore:ingotAdamantine> :
-    <basemetals:adamantine_ingot>
-Ore entries for <ore:doorBrass> :
-    <basemetals:brass_door_item>
-Ore entries for <ore:dustBronze> :
-    <
-basemetals:bronze_blend>
-    <basemetals:bronze_powder>
-    <primal:bronze_dust>
-Ore entries for <ore:nuggetCupronickel> :
-    <basemetals:cupronickel_nugget>
-    <rockhounding_chemistry:alloyItems:14>
-Ore entries for <ore:dustInvar> :
-    <basemetals:invar_blend>
-    <basemetals:invar_powder>
+    <base:plate:55>
+Ore entries for <ore:dustVibranium> :
+    <base:dust:61>
+    <taiga:vibranium_dust>
+Ore entries for <ore:gearVibranium> :
+    <base:gear:61>
+Ore entries for <ore:plateVibranium> :
+    <base:plate:61>
 Ore entries for <ore:nuggetBronze> :
-    <basemetals:bronze_nugget>
-    <primal:bronze_nugget>
-Ore entries for <ore:nuggetColdiron> :
-    <basemetals:coldiron_nugget>
-Ore entries for <ore:doorCupronickel> :
-    <basemetals:cupronickel_door_item>
-Ore entries for <ore:dustAdamantine> :
-    <basemetals:adamantine_powder>
-Ore entries for <ore:dustColdiron> :
-    <basemetals:coldiron_powder>
+    <base:nugget:7>
+    <primal:bronze_nugget:*>
+Ore entries for <ore:ingotBronze> :
+    <base:ingot:7>
+    <forestry:ingotBronze>
+    <primal:bronze_ingot:*>
+Ore entries for <ore:blockBronze> :
+    <base:storage_bronze>
+    <forestry:resourceStorage:3>
+    <primal:bronze_block:*>
+Ore entries for <ore:dustBronze> :
+    <base:dust:7>
+    <primal:bronze_dust:*>
+Ore entries for <ore:gearBronze> :
+    <base:gear:7>
+    <forestry:gearBronze>
+Ore entries for <ore:plateBronze> :
+    <base:plate:7>
+    <primal:bronze_plate:*>
+Ore entries for <ore:dustCupronickel> :
+    <base:dust:13>
+    <rockhounding_chemistry:alloyItems:12>
+Ore entries for <ore:gearCupronickel> :
+    <base:gear:13>
+Ore entries for <ore:plateCupronickel> :
+    <base:plate:13>
+Ore entries for <ore:dustProxii> :
+    <base:dust:53>
+    <taiga:proxii_dust>
+Ore entries for <ore:gearProxii> :
+    <base:gear:53>
+Ore entries for <ore:plateProxii> :
+    <base:plate:53>
+Ore entries for <ore:dustAdamant> :
+    <base:dust:36>
+    <taiga:adamant_dust>
+Ore entries for <ore:gearAdamant> :
+    <base:gear:36>
+Ore entries for <ore:plateAdamant> :
+    <base:plate:36>
+Ore entries for <ore:dustArdite> :
+    <base:dust:5>
+    <enderio:itemPowderIngot:9>
+Ore entries for <ore:gearArdite> :
+    <base:gear:5>
+Ore entries for <ore:plateArdite> :
+    <base:plate:5>
+Ore entries for <ore:dustLead> :
+    <base:dust:22>
+    <immersiveengineering:metal:11>
+    <primal:lead_dust:*>
+    <rockhounding_chemistry:chemicalDusts:19>
+Ore entries for <ore:gearLead> :
+    <base:gear:22>
+Ore entries for <ore:plateLead> :
+    <base:plate:22>
+    <immersiveengineering:metal:32>
+    <primal:lead_plate:*>
+Ore entries for <ore:dustKarmesine> :
+    <base:dust:45>
+    <taiga:karmesine_dust>
+Ore entries for <ore:gearKarmesine> :
+    <base:gear:45>
+Ore entries for <ore:plateKarmesine> :
+    <base:plate:45>
+Ore entries for <ore:dustPalladium> :
+    <base:dust:51>
+    <taiga:palladium_dust>
+Ore entries for <ore:gearPalladium> :
+    <base:gear:51>
+Ore entries for <ore:platePalladium> :
+    <base:plate:51>
+Ore entries for <ore:nuggetZinc> :
+    <base:nugget:34>
+    <primal:zinc_nugget:*>
+Ore entries for <ore:oreZinc> :
+    <base:ore_zinc>
+Ore entries for <ore:dustZinc> :
+    <base:dust:34>
+    <primal:zinc_dust:*>
+    <rockhounding_chemistry:chemicalDusts:20>
+Ore entries for <ore:gearZinc> :
+    <base:gear:34>
+Ore entries for <ore:plateZinc> :
+    <base:plate:34>
+    <primal:zinc_plate:*>
+Ore entries for <ore:gearAluminum> :
+    <base:gear:3>
+Ore entries for <ore:gearIridium> :
+    <base:gear:20>
+Ore entries for <ore:dustSilver> :
+    <base:dust:26>
+    <immersiveengineering:metal:12>
+    <primal:silver_dust:*>
+    <rockhounding_chemistry:chemicalDusts:23>
+Ore entries for <ore:gearSilver> :
+    <base:gear:26>
+Ore entries for <ore:plateSilver> :
+    <base:plate:26>
+    <primal:silver_plate:*>
+Ore entries for <ore:dustNucleum> :
+    <base:dust:49>
+    <taiga:nucleum_dust>
+Ore entries for <ore:gearNucleum> :
+    <base:gear:49>
+Ore entries for <ore:plateNucleum> :
+    <base:plate:49>
+Ore entries for <ore:dustAbyssalnite> :
+    <base:dust:1>
+Ore entries for <ore:gearAbyssalnite> :
+    <base:gear:1>
+Ore entries for <ore:plateAbyssalnite> :
+    <base:plate:1>
+Ore entries for <ore:gearGold> :
+    <base:gear:18>
 Ore entries for <ore:dustNickel> :
-    <basemetals:nickel_powder>
-    <esteemedinnovation:smashed_ore:5>
+    <base:dust:24>
     <immersiveengineering:metal:13>
     <rockhounding_chemistry:chemicalDusts:26>
-Ore entries for <ore:nuggetAdamantine> :
-    <basemetals:adamantine_nugget>
-Ore entries for <ore:doorSilver> :
-    <basemetals:silver_door_item>
-Ore entries for <ore:doorTin> :
-    <basemetals:tin_door_item>
+Ore entries for <ore:gearNickel> :
+    <base:gear:24>
+Ore entries for <ore:plateNickel> :
+    <base:plate:24>
+Ore entries for <ore:dustMeteorite> :
+    <base:dust:47>
+    <taiga:meteorite_dust>
+Ore entries for <ore:gearMeteorite> :
+    <base:gear:47>
+Ore entries for <ore:plateMeteorite> :
+    <base:plate:47>
+Ore entries for <ore:dustConstantan> :
+    <base:dust:10>
+    <immersiveengineering:metal:15>
+Ore entries for <ore:gearConstantan> :
+    <base:gear:10>
+Ore entries for <ore:plateConstantan> :
+    <base:plate:10>
+    <immersiveengineering:metal:36>
+Ore entries for <ore:dustDreadium> :
+    <base:dust:16>
+Ore entries for <ore:gearDreadium> :
+    <base:gear:16>
+Ore entries for <ore:plateDreadium> :
+    <base:plate:16>
+Ore entries for <ore:dustUranium> :
+    <base:dust:33>
+    <immersiveengineering:metal:14>
+    <rockhounding_chemistry:chemicalDusts:43>
+Ore entries for <ore:gearUranium> :
+    <base:gear:33>
+Ore entries for <ore:plateUranium> :
+    <base:plate:33>
+Ore entries for <ore:dustTiberium> :
+    <base:dust:56>
+    <taiga:tiberium_dust>
+Ore entries for <ore:gearTiberium> :
+    <base:gear:56>
+Ore entries for <ore:plateTiberium> :
+    <base:plate:56>
+Ore entries for <ore:dustViolium> :
+    <base:dust:62>
+    <taiga:violium_dust>
+Ore entries for <ore:gearViolium> :
+    <base:gear:62>
+Ore entries for <ore:plateViolium> :
+    <base:plate:62>
+Ore entries for <ore:dustCobalt> :
+    <base:dust:8>
+    <rockhounding_chemistry:chemicalDusts:27>
+    <enderio:itemPowderIngot:10>
+Ore entries for <ore:gearCobalt> :
+    <base:gear:8>
+Ore entries for <ore:plateCobalt> :
+    <base:plate:8>
+Ore entries for <ore:dustDawnstone> :
+    <base:dust:14>
+Ore entries for <ore:gearDawnstone> :
+    <base:gear:14>
+Ore entries for <ore:plateDawnstone> :
+    <base:plate:14>
+Ore entries for <ore:dustSeismum> :
+    <base:dust:54>
+    <taiga:seismum_dust>
+Ore entries for <ore:gearSeismum> :
+    <base:gear:54>
+Ore entries for <ore:plateSeismum> :
+    <base:plate:54>
+Ore entries for <ore:dustAstrium> :
+    <base:dust:37>
+    <taiga:astrium_dust>
+Ore entries for <ore:gearAstrium> :
+    <base:gear:37>
+Ore entries for <ore:plateAstrium> :
+    <base:plate:37>
+Ore entries for <ore:dustBrass> :
+    <base:dust:6>
+    <primal:brass_dust:*>
+Ore entries for <ore:gearBrass> :
+    <base:gear:6>
+Ore entries for <ore:plateBrass> :
+    <base:plate:6>
+    <primal:brass_plate:*>
+Ore entries for <ore:dustCoralium> :
+    <base:dust:12>
+Ore entries for <ore:gearCoralium> :
+    <base:gear:12>
+Ore entries for <ore:plateCoralium> :
+    <base:plate:12>
+Ore entries for <ore:gearTin> :
+    <base:gear:29>
+    <forestry:gearTin>
+Ore entries for <ore:dustPrometheum> :
+    <base:dust:52>
+    <taiga:prometheum_dust>
+Ore entries for <ore:gearPrometheum> :
+    <base:gear:52>
+Ore entries for <ore:platePrometheum> :
+    <base:plate:52>
+Ore entries for <ore:dustAquarium> :
+    <base:dust:4>
+Ore entries for <ore:gearAquarium> :
+    <base:gear:4>
+Ore entries for <ore:plateAquarium> :
+    <base:plate:4>
+Ore entries for <ore:gearIron> :
+    <base:gear:21>
+Ore entries for <ore:dustImperomite> :
+    <base:dust:44>
+    <taiga:imperomite_dust>
+Ore entries for <ore:gearImperomite> :
+    <base:gear:44>
+Ore entries for <ore:plateImperomite> :
+    <base:plate:44>
 Ore entries for <ore:dustStarsteel> :
-    <basemetals:starsteel_powder>
-Ore entries for <ore:dustLead> :
-    <basemetals:lead_powder>
-    <esteemedinnovation:smashed_ore:7>
-    <immersiveengineering:metal:11>
-    <primal:lead_dust>
-    <rockhounding_chemistry:chemicalDusts:19>
-Ore entries for <ore:nuggetInvar> :
-    <basemetals:invar_nugget>
-Ore entries for <ore:ingotZinc> :
-    <basemetals:zinc_ingot>
-    <esteemedinnovation:ingot:1>
-    <fp:ItemErze:1>
-    <primal:zinc_ingot>
-Ore entries for <ore:nuggetZinc> :
-    <basemetals:zinc_nugget>
-    <esteemedinnovation:nugget:1>
-    <primal:zinc_nugget>
-Ore entries for <ore:nuggetBrass> :
-    <basemetals:brass_nugget>
-    <esteemedinnovation:nugget:2>
-    <primal:brass_nugget>
-Ore entries for <ore:doorColdiron> :
-    <basemetals:coldiron_door_item>
-Ore entries for <ore:doorElectrum> :
-    <basemetals:electrum_door_item>
-Ore entries for <ore:nuggetIron> :
-    <basemetals:iron_nugget>
-    <embers:nuggetIron>
-    <esteemedinnovation:nugget:4>
-    <immersiveengineering:metal:29>
-    <primal:iron_nugget>
-    <railcraft:nugget>
-    <rockhounding_chemistry:miscItems:2>
-Ore entries for <ore:ingotMithril> :
-    <basemetals:mithril_ingot>
-Ore entries for <ore:doorNickel> :
-    <basemetals:nickel_door_item>
-Ore entries for <ore:ingotAquarium> :
-    <basemetals:aquarium_ingot>
-Ore entries for <ore:nuggetElectrum> :
-    <basemetals:electrum_nugget>
-    <immersiveengineering:metal:27>
-Ore entries for <ore:nuggetLead> :
-    <basemetals:lead_nugget>
-    <embers:nuggetLead>
-    <immersiveengineering:metal:22>
-    <primal:lead_nugget>
-    <railcraft:nugget:4>
-Ore entries for <ore:nuggetAquarium> :
-    <basemetals:aquarium_nugget>
-Ore entries for <ore:doorMithril> :
-    <basemetals:mithril_door_item>
-Ore entries for <ore:doorAdamantine> :
-    <basemetals:adamantine_door_item>
-Ore entries for <ore:dustZinc> :
-    <basemetals:zinc_powder>
-    <esteemedinnovation:smashed_ore:3>
-    <primal:zinc_dust>
-    <rockhounding_chemistry:chemicalDusts:20>
-Ore entries for <ore:dustSilver> :
-    <basemetals:silver_powder>
-    <esteemedinnovation:smashed_ore:6>
-    <immersiveengineering:metal:12>
-    <primal:silver_dust>
-    <rockhounding_chemistry:chemicalDusts:23>
-    <druidry:silverdust>
-Ore entries for <ore:ingotSilver> :
-    <basemetals:silver_ingot>
-    <embers:ingotSilver>
-    <immersiveengineering:metal:3>
-    <primal:silver_ingot>
-    <railcraft:ingot:4>
-    <druidry:silveringot>
-Ore entries for <ore:doorSteel> :
-    <basemetals:steel_door_item>
+    <base:dust:27>
+Ore entries for <ore:gearStarsteel> :
+    <base:gear:27>
+Ore entries for <ore:plateStarsteel> :
+    <base:plate:27>
+Ore entries for <ore:dustAdamantine> :
+    <base:dust:2>
+Ore entries for <ore:gearAdamantine> :
+    <base:gear:2>
+Ore entries for <ore:plateAdamantine> :
+    <base:plate:2>
+Ore entries for <ore:dustInvar> :
+    <base:dust:19>
+Ore entries for <ore:gearInvar> :
+    <base:gear:19>
+Ore entries for <ore:plateInvar> :
+    <base:plate:19>
 Ore entries for <ore:dustPlatinum> :
-    <basemetals:platinum_powder>
+    <base:dust:25>
     <rockhounding_chemistry:chemicalDusts:44>
-Ore entries for <ore:ingotStarsteel> :
-    <basemetals:starsteel_ingot>
-Ore entries for <ore:ingotInvar> :
-    <basemetals:invar_ingot>
-Ore entries for <ore:ingotPlatinum> :
-    <basemetals:platinum_ingot>
-Ore entries for <ore:ingotBrass> :
-    <basemetals:brass_ingot>
-    <esteemedinnovation:ingot:2>
-    <primal:brass_ingot>
-Ore entries for <ore:nuggetSilver> :
-    <basemetals:silver_nugget>
-    <embers:nuggetSilver>
-    <immersiveengineering:metal:23>
-    <primal:silver_nugget>
-    <railcraft:nugget:5>
-    <druidry:silvernugget>
-Ore entries for <ore:doorInvar> :
-    <basemetals:invar_door_item>
+Ore entries for <ore:gearPlatinum> :
+    <base:gear:25>
+Ore entries for <ore:platePlatinum> :
+    <base:plate:25>
+Ore entries for <ore:gearCopper> :
+    <base:gear:11>
+    <forestry:gearCopper>
+Ore entries for <ore:nuggetIron> :
+    <betterbeginnings:iron_nugget>
+    <immersiveengineering:metal:29>
+    <primal:iron_nugget:*>
+    <rockhounding_chemistry:miscItems:2>
+Ore entries for <ore:itemKnife> :
+    <betterbeginnings:flint_knife:*>
+    <betterbeginnings:bone_knife:*>
+    <betterbeginnings:iron_knife:*>
+    <betterbeginnings:gold_knife:*>
+    <betterbeginnings:diamond_knife:*>
+    <primal:flint_workblade:*>
+    <primal:quartz_workblade:*>
+    <primal:iron_workblade:*>
+    <primal:emerald_workblade:*>
+    <primal:diamond_workblade:*>
+    <primal:opal_workblade:*>
+    <primal:obsidian_workblade:*>
+Ore entries for <ore:itemString> :
+    <minecraft:string>
+    <betterbeginnings:thread>
+    <betterbeginnings:twine>
+Ore entries for <ore:itemStringTough> :
+    <minecraft:string>
+    <betterbeginnings:twine>
+Ore entries for <ore:itemKindling> :
+    <minecraft:sapling:*>
+    <minecraft:leaves:*>
+    <minecraft:leaves2:*>
+    <minecraft:vine>
+    <minecraft:tallgrass:*>
 Ore entries for <ore:blockMeatRaw> :
     <biomesoplenty:flesh>
 Ore entries for <ore:blockGrass> :
@@ -2162,6 +1968,8 @@ Ore entries for <ore:listAllfruit> :
     <harvestcraft:figItem>
     <harvestcraft:grapefruitItem>
     <harvestcraft:persimmonItem>
+    <rockhounding_surface:sourberry_fruit>
+    <rockhounding_surface:purplepear_fruit>
 Ore entries for <ore:listAllrootveggie> :
     <biomesoplenty:turnip>
     <harvestcraft:parsnipItem>
@@ -2171,9 +1979,6 @@ Ore entries for <ore:listAllrootveggie> :
     <harvestcraft:turnipItem>
 Ore entries for <ore:listAllveggie> :
     <biomesoplenty:turnip>
-    <esteemedinnovation:steamed_carrot>
-    <esteemedinnovation:steamed_beetroot>
-    <esteemedinnovation:steamed_potato>
     <minecraft:carrot>
     <minecraft:potato>
     <minecraft:pumpkin>
@@ -2277,6 +2082,7 @@ Ore entries for <ore:listAllseed> :
     <harvestcraft:bellpepperseedItem>
     <harvestcraft:turnipseedItem>
     <harvestcraft:ryeseedItem>
+    <minecraft:wheat_seeds>
 Ore entries for <ore:gemRuby> :
     <biomesoplenty:gem:1>
 Ore entries for <ore:oreRuby> :
@@ -2493,6 +2299,12 @@ Ore entries for <ore:fenceGateWood> :
     <minecraft:jungle_fence_gate>
     <minecraft:dark_oak_fence_gate>
     <minecraft:acacia_fence_gate>
+Ore entries for <ore:oreLead> :
+    <immersiveengineering:ore:2>
+Ore entries for <ore:oreNickel> :
+    <immersiveengineering:ore:4>
+Ore entries for <ore:oreSilver> :
+    <immersiveengineering:ore:3>
 Ore entries for <ore:mysticFlowerWhite> :
     <botania:flower>
 Ore entries for <ore:mysticFlowerOrange> :
@@ -2571,7 +2383,6 @@ Ore entries for <ore:snowLayer> :
     <minecraft:snow_layer>
 Ore entries for <ore:mycelium> :
     <minecraft:mycelium>
-    <nex:mycelium>
 Ore entries for <ore:podzol> :
     <minecraft:dirt:2>
 Ore entries for <ore:soulSand> :
@@ -2725,13 +2536,8 @@ Ore entries for <ore:brickPeat> :
     <forestry:peat>
 Ore entries for <ore:dustAsh> :
     <forestry:ash>
-    <primal:ash>
+    <primal:ash:*>
     <biomesoplenty:ash>
-    <embers:dustAsh>
-Ore entries for <ore:gearCopper> :
-    <forestry:gearCopper>
-Ore entries for <ore:gearTin> :
-    <forestry:gearTin>
 Ore entries for <ore:pulpWood> :
     <forestry:woodPulp>
 Ore entries for <ore:itemBeeswax> :
@@ -2765,6 +2571,19 @@ Ore entries for <ore:emptiedLetter> :
     <forestry:letters:3>
     <forestry:letters:19>
     <forestry:letters:35>
+Ore entries for <ore:dropHoney> :
+    <forestry:honeyDrop>
+    <harvestcraft:honeyItem>
+    <gendustry:HoneyDrop:*>
+Ore entries for <ore:itemPollen> :
+    <forestry:pollen>
+Ore entries for <ore:dropHoneydew> :
+    <forestry:honeydew>
+Ore entries for <ore:dropRoyalJelly> :
+    <forestry:royalJelly>
+Ore entries for <ore:beeComb> :
+    <forestry:beeCombs:*>
+    <gendustry:HoneyComb:*>
 Ore entries for <ore:doorWood> :
     <forestry:doors.larch:*>
     <forestry:doors.teak:*>
@@ -2795,35 +2614,8 @@ Ore entries for <ore:doorWood> :
     <forestry:doors.padauk:*>
     <forestry:doors.cocobolo:*>
     <forestry:doors.zebrawood:*>
-    <minecraft:wooden_door>
-    <minecraft:jungle_door>
-    <minecraft:spruce_door>
-    <minecraft:dark_oak_door>
-    <minecraft:birch_door>
-    <minecraft:acacia_door>
-Ore entries for <ore:dropHoney> :
-    <forestry:honeyDrop>
-    <harvestcraft:honeyItem>
-    <gendustry:HoneyDrop:*>
-Ore entries for <ore:itemPollen> :
-    <forestry:pollen>
-Ore entries for <ore:dropHoneydew> :
-    <forestry:honeydew>
-Ore entries for <ore:dropRoyalJelly> :
-    <forestry:royalJelly>
-Ore entries for <ore:beeComb> :
-    <forestry:beeCombs:*>
-    <gendustry:HoneyComb:*>
 Ore entries for <ore:oreResonating> :
     <deepresonance:resonating_ore>
-Ore entries for <ore:ingotDawnstone> :
-    <embers:ingotDawnstone>
-Ore entries for <ore:nuggetDawnstone> :
-    <embers:nuggetDawnstone>
-Ore entries for <ore:plateDawnstone> :
-    <embers:plateDawnstone>
-Ore entries for <ore:blockDawnstone> :
-    <embers:blockDawnstone>
 Ore entries for <ore:slabWoodOak> :
     <minecraft:wooden_slab>
 Ore entries for <ore:slabWoodSpruce> :
@@ -2870,10 +2662,12 @@ Ore entries for <ore:itemGhastTear> :
     <minecraft:ghast_tear>
 Ore entries for <ore:itemLeather> :
     <minecraft:leather>
+Ore entries for <ore:dustCoal> :
+    <enderio:itemPowderIngot>
+    <actuallyadditions:itemDust:6>
+    <bloodmagic:ItemComponent:21>
 Ore entries for <ore:dustObsidian> :
     <enderio:itemPowderIngot:7>
-    <fp:spaceship:37>
-    <railcraft:dust>
 Ore entries for <ore:dustWheat> :
     <enderio:itemPowderIngot:8>
 Ore entries for <ore:ingotElectricalSteel> :
@@ -2968,9 +2762,6 @@ Ore entries for <ore:darkFusedGlass> :
 Ore entries for <ore:itemSkull> :
     <minecraft:skull:*>
     <enderio:blockEndermanSkull>
-Ore entries for <ore:itemSilicon> :
-    <enderio:itemMaterial>
-    <refinedstorage:silicon>
 Ore entries for <ore:itemConduitBinder> :
     <enderio:itemMaterial:1>
 Ore entries for <ore:itemBinderComposite> :
@@ -3005,91 +2796,17 @@ Ore entries for <ore:itemPrecientPowder> :
     <enderio:itemMaterial:16>
 Ore entries for <ore:itemChassiParts> :
     <enderio:itemMaterial:17>
+Ore entries for <ore:itemPlantgreen> :
+    <enderio:itemMaterial:18>
+Ore entries for <ore:itemPlantbrown> :
+    <enderio:itemMaterial:19>
 Ore entries for <ore:itemMachineChassi> :
     <enderio:itemMachinePart>
 Ore entries for <ore:gearStone> :
     <enderio:itemMachinePart:1>
-Ore entries for <ore:blockGildedIron> :
-    <esteemedinnovation:metal_storage_block:3>
-Ore entries for <ore:listAllfishcooked> :
-    <esteemedinnovation:steamed_fish>
-    <esteemedinnovation:steamed_salmon>
-    <harvestcraft:cookedtofishItem>
-    <minecraft:cooked_fish>
-    <minecraft:cooked_fish:1>
-    <harvestcraft:calamaricookedItem>
-Ore entries for <ore:listAllchickencooked> :
-    <esteemedinnovation:steamed_chicken>
-    <harvestcraft:cookedtofickenItem>
-    <minecraft:cooked_chicken>
-Ore entries for <ore:listAllporkcooked> :
-    <esteemedinnovation:steamed_porkchop>
-    <harvestcraft:cookedtofaconItem>
-    <minecraft:cooked_porkchop>
-Ore entries for <ore:listAllbeefcooked> :
-    <esteemedinnovation:steamed_beef>
-    <harvestcraft:cookedtofeakItem>
-    <minecraft:cooked_beef>
-Ore entries for <ore:listAllmeatcooked> :
-    <esteemedinnovation:steamed_fish>
-    <esteemedinnovation:steamed_salmon>
-    <esteemedinnovation:steamed_chicken>
-    <esteemedinnovation:steamed_porkchop>
-    <esteemedinnovation:steamed_beef>
-    <minecraft:cooked_beef:*>
-    <minecraft:cooked_chicken:*>
-    <minecraft:cooked_fish:*>
-    <minecraft:cooked_mutton:*>
-    <minecraft:cooked_porkchop:*>
-    <minecraft:cooked_rabbit:*>
-    <harvestcraft:cookedtofeakItem>
-    <harvestcraft:cookedtofaconItem>
-    <harvestcraft:cookedtofuttonItem>
-    <harvestcraft:cookedtofickenItem>
-    <harvestcraft:cookedtofabbitItem>
-    <harvestcraft:cookedtofurkeyItem>
-    <harvestcraft:cookedtofenisonItem>
-    <minecraft:cooked_beef>
-    <minecraft:cooked_chicken>
-    <minecraft:cooked_porkchop>
-    <minecraft:cooked_mutton>
-    <harvestcraft:turkeycookedItem>
-    <minecraft:cooked_rabbit>
-    <harvestcraft:venisoncookedItem>
-Ore entries for <ore:ingotGildedIron> :
-    <esteemedinnovation:ingot:3>
-Ore entries for <ore:nuggetGildedIron> :
-    <esteemedinnovation:nugget:3>
-Ore entries for <ore:plateThinCopper> :
-    <esteemedinnovation:plate>
-Ore entries for <ore:plateThinZinc> :
-    <esteemedinnovation:plate:1>
-Ore entries for <ore:plateThinBrass> :
-    <esteemedinnovation:plate:2>
-Ore entries for <ore:plateThinGildedIron> :
-    <esteemedinnovation:plate:3>
-Ore entries for <ore:plateThinIron> :
-    <esteemedinnovation:plate:4>
-Ore entries for <ore:plateThinGold> :
-    <esteemedinnovation:plate:5>
-Ore entries for <ore:oreOsmium> :
-    <nethermetals:nether_osmium_ore>
-Ore entries for <ore:oreCobalt> :
-    <tconstruct:ore>
-Ore entries for <ore:oreArdite> :
-    <tconstruct:ore:1>
-Ore entries for <ore:dustOsmium> :
-    <esteemedinnovation:smashed_ore:9>
-    <rockhounding_chemistry:chemicalDusts:47>
-Ore entries for <ore:dustCobalt> :
-    <esteemedinnovation:smashed_ore:10>
-    <rockhounding_chemistry:chemicalDusts:27>
-Ore entries for <ore:dustArdite> :
-    <esteemedinnovation:smashed_ore:11>
-Ore entries for <ore:dustCinnabar> :
-    <esteemedinnovation:smashed_ore:12>
 Ore entries for <ore:materialPoisonous> :
     <minecraft:poisonous_potato>
+    <minecraft:fish:3>
     <evilcraft:poisonSac>
 Ore entries for <ore:materialBone> :
     <minecraft:bone>
@@ -3128,81 +2845,81 @@ Ore entries for <ore:materialBowlOfPromises3> :
 Ore entries for <ore:dustDull> :
     <evilcraft:dullDust>
 Ore entries for <ore:compressed1xCobblestone> :
-    <extrautils2:CompressedCobblestone>
+    <extrautils2:compressedcobblestone>
 Ore entries for <ore:compressed2xCobblestone> :
-    <extrautils2:CompressedCobblestone:1>
+    <extrautils2:compressedcobblestone:1>
 Ore entries for <ore:compressed3xCobblestone> :
-    <extrautils2:CompressedCobblestone:2>
+    <extrautils2:compressedcobblestone:2>
 Ore entries for <ore:compressed4xCobblestone> :
-    <extrautils2:CompressedCobblestone:3>
+    <extrautils2:compressedcobblestone:3>
 Ore entries for <ore:compressed5xCobblestone> :
-    <extrautils2:CompressedCobblestone:4>
+    <extrautils2:compressedcobblestone:4>
 Ore entries for <ore:compressed6xCobblestone> :
-    <extrautils2:CompressedCobblestone:5>
+    <extrautils2:compressedcobblestone:5>
 Ore entries for <ore:compressed7xCobblestone> :
-    <extrautils2:CompressedCobblestone:6>
+    <extrautils2:compressedcobblestone:6>
 Ore entries for <ore:compressed8xCobblestone> :
-    <extrautils2:CompressedCobblestone:7>
+    <extrautils2:compressedcobblestone:7>
 Ore entries for <ore:compressed1xDirt> :
-    <extrautils2:CompressedDirt>
+    <extrautils2:compresseddirt>
 Ore entries for <ore:compressed2xDirt> :
-    <extrautils2:CompressedDirt:1>
+    <extrautils2:compresseddirt:1>
 Ore entries for <ore:compressed3xDirt> :
-    <extrautils2:CompressedDirt:2>
+    <extrautils2:compresseddirt:2>
 Ore entries for <ore:compressed4xDirt> :
-    <extrautils2:CompressedDirt:3>
+    <extrautils2:compresseddirt:3>
 Ore entries for <ore:compressed1xSand> :
-    <extrautils2:CompressedSand>
+    <extrautils2:compressedsand>
 Ore entries for <ore:compressed2xSand> :
-    <extrautils2:CompressedSand:1>
+    <extrautils2:compressedsand:1>
 Ore entries for <ore:compressed1xGravel> :
-    <extrautils2:CompressedGravel>
+    <extrautils2:compressedgravel>
 Ore entries for <ore:compressed2xGravel> :
-    <extrautils2:CompressedGravel:1>
+    <extrautils2:compressedgravel:1>
 Ore entries for <ore:compressed1xNetherrack> :
-    <extrautils2:CompressedNetherrack>
+    <extrautils2:compressednetherrack>
 Ore entries for <ore:compressed2xNetherrack> :
-    <extrautils2:CompressedNetherrack:1>
+    <extrautils2:compressednetherrack:1>
 Ore entries for <ore:compressed3xNetherrack> :
-    <extrautils2:CompressedNetherrack:2>
+    <extrautils2:compressednetherrack:2>
 Ore entries for <ore:compressed4xNetherrack> :
-    <extrautils2:CompressedNetherrack:3>
+    <extrautils2:compressednetherrack:3>
 Ore entries for <ore:compressed5xNetherrack> :
-    <extrautils2:CompressedNetherrack:4>
+    <extrautils2:compressednetherrack:4>
 Ore entries for <ore:compressed6xNetherrack> :
-    <extrautils2:CompressedNetherrack:5>
+    <extrautils2:compressednetherrack:5>
 Ore entries for <ore:gemRedstone> :
-    <extrautils2:Ingredients>
+    <extrautils2:ingredients>
 Ore entries for <ore:gearRedstone> :
-    <extrautils2:Ingredients:1>
+    <extrautils2:ingredients:1>
 Ore entries for <ore:eyeofredstone> :
-    <extrautils2:Ingredients:2>
+    <extrautils2:ingredients:2>
 Ore entries for <ore:dustLunar> :
-    <extrautils2:Ingredients:3>
+    <extrautils2:ingredients:3>
 Ore entries for <ore:coalPowered> :
-    <extrautils2:Ingredients:4>
+    <extrautils2:ingredients:4>
 Ore entries for <ore:gemMoon> :
-    <extrautils2:Ingredients:5>
+    <extrautils2:ingredients:5>
 Ore entries for <ore:xuUpgradeSpeed> :
-    <extrautils2:Ingredients:6>
+    <extrautils2:ingredients:6>
 Ore entries for <ore:xuUpgradeStack> :
-    <extrautils2:Ingredients:7>
+    <extrautils2:ingredients:7>
 Ore entries for <ore:xuUpgradeMining> :
-    <extrautils2:Ingredients:8>
+    <extrautils2:ingredients:8>
 Ore entries for <ore:xuUpgradeBlank> :
-    <extrautils2:Ingredients:9>
+    <extrautils2:ingredients:9>
 Ore entries for <ore:dropofevil> :
-    <extrautils2:Ingredients:10>
+    <extrautils2:ingredients:10>
 Ore entries for <ore:ingotDemonicMetal> :
-    <extrautils2:Ingredients:11>
+    <extrautils2:ingredients:11>
 Ore entries for <ore:ingotEnchantedMetal> :
-    <extrautils2:Ingredients:12>
+    <extrautils2:ingredients:12>
 Ore entries for <ore:xuRedstoneCoil> :
-    <extrautils2:Ingredients:13>
+    <extrautils2:ingredients:13>
 Ore entries for <ore:blockEnchantedMetal> :
-    <extrautils2:SimpleDecorative>
+    <extrautils2:simpledecorative>
 Ore entries for <ore:blockDemonicMetal> :
-    <extrautils2:SimpleDecorative:1>
+    <extrautils2:simpledecorative:1>
 Ore entries for <ore:bricksStone> :
     <minecraft:stonebrick>
     <minecraft:stonebrick:1>
@@ -3212,49 +2929,55 @@ Ore entries for <ore:slimeballBlood> :
     <tconstruct:edible:3>
 Ore entries for <ore:slimeballPurple> :
     <tconstruct:edible:2>
-Ore entries for <ore:oreBauxite> :
-    <fp:erze:3>
-Ore entries for <ore:oreMagnetite> :
-    <fp:erze:4>
-    <rockhounding_oretiers:ironOres>
-Ore entries for <ore:gemNeon> :
-    <fp:cristall>
-Ore entries for <ore:gemRetium> :
-    <fp:cristall:3>
-Ore entries for <ore:gemGlowtite> :
-    <fp:cristall:6>
-Ore entries for <ore:gemBioterium> :
-    <fp:cristall:9>
-Ore entries for <ore:gemAluminum> :
-    <fp:cristall:12>
-Ore entries for <ore:keramik> :
-    <fp:spaceship:38>
-Ore entries for <ore:ingotNeon> :
-    <fp:ItemErze:3>
-Ore entries for <ore:ingotMagnetite> :
-    <fp:ItemErze:4>
-Ore entries for <ore:ingotRetium> :
-    <fp:ItemErze:5>
-Ore entries for <ore:ingotGlowtite> :
-    <fp:ItemErze:6>
-Ore entries for <ore:ingotBioterium> :
-    <fp:ItemErze:7>
-Ore entries for <ore:ingotWakurum> :
-    <fp:ItemErze:8>
-Ore entries for <ore:ingotQuantanium> :
-    <fp:ItemErze:9>
-Ore entries for <ore:ingotRareEarthMetal> :
-    <fp:ItemErze:10>
-Ore entries for <ore:ingotGadolinium> :
-    <fp:ItemErze:11>
-Ore entries for <ore:ingotLanthanum> :
-    <fp:ItemErze:12>
-Ore entries for <ore:ingotNeodymium> :
-    <fp:ItemErze:13>
-Ore entries for <ore:gemBitripentium> :
-    <fp:ItemErze:14>
+Ore entries for <ore:ingotLead> :
+    <immersiveengineering:metal:2>
+    <primal:lead_ingot:*>
+    <rockhounding_chemistry:miscItems:27>
+Ore entries for <ore:ingotSilver> :
+    <immersiveengineering:metal:3>
+    <primal:silver_ingot:*>
+Ore entries for <ore:ingotNickel> :
+    <immersiveengineering:metal:4>
 Ore entries for <ore:fish> :
     <minecraft:fish:*>
+Ore entries for <ore:listAllmeatcooked> :
+    <minecraft:cooked_beef:*>
+    <minecraft:cooked_chicken:*>
+    <minecraft:cooked_fish:*>
+    <minecraft:cooked_mutton:*>
+    <minecraft:cooked_porkchop:*>
+    <minecraft:cooked_rabbit:*>
+    <harvestcraft:cookedtofeakItem>
+    <harvestcraft:cookedtofaconItem>
+    <harvestcraft:cookedtofuttonItem>
+    <harvestcraft:cookedtofickenItem>
+    <harvestcraft:cookedtofabbitItem>
+    <harvestcraft:cookedtofurkeyItem>
+    <harvestcraft:cookedtofenisonItem>
+    <minecraft:cooked_beef>
+    <minecraft:cooked_chicken>
+    <minecraft:cooked_porkchop>
+    <minecraft:cooked_mutton>
+    <harvestcraft:turkeycookedItem>
+    <minecraft:cooked_rabbit>
+    <harvestcraft:venisoncookedItem>
+    <animania:cooked_angus_roast>
+    <animania:cooked_angus_steak>
+    <animania:cooked_duroc_bacon>
+    <animania:cooked_duroc_roast>
+    <animania:cooked_hampshire_bacon>
+    <animania:cooked_hampshire_roast>
+    <animania:cooked_hereford_roast>
+    <animania:cooked_hereford_steak>
+    <animania:cooked_large_black_bacon>
+    <animania:cooked_large_black_roast>
+    <animania:cooked_longhorn_roast>
+    <animania:cooked_longhorn_steak>
+    <animania:cooked_old_spot_bacon>
+    <animania:cooked_old_spot_roast>
+    <animania:cooked_orpington_chicken>
+    <animania:cooked_plymouth_rock_chicken>
+    <animania:cooked_wyandotte_chicken>
 Ore entries for <ore:prismarine> :
     <minecraft:prismarine:*>
 Ore entries for <ore:blockMossy> :
@@ -3292,13 +3015,13 @@ Ore entries for <ore:blockKnightslime> :
     <tconstruct:metal:3>
 Ore entries for <ore:nuggetPigiron> :
     <tconstruct:nuggets:4>
-    <primal:pigiron_nugget>
+    <primal:pigiron_nugget:*>
 Ore entries for <ore:ingotPigiron> :
     <tconstruct:ingots:4>
-    <primal:pigiron_ingot>
+    <primal:pigiron_ingot:*>
 Ore entries for <ore:blockPigiron> :
     <tconstruct:metal:4>
-    <primal:pigiron_block>
+    <primal:pigiron_block:*>
 Ore entries for <ore:nuggetAlubrass> :
     <tconstruct:nuggets:5>
 Ore entries for <ore:ingotAlubrass> :
@@ -3320,6 +3043,10 @@ Ore entries for <ore:slimecrystalBlue> :
     <tconstruct:materials:10>
 Ore entries for <ore:slimecrystalMagma> :
     <tconstruct:materials:11>
+Ore entries for <ore:oreCobalt> :
+    <tconstruct:ore>
+Ore entries for <ore:oreArdite> :
+    <tconstruct:ore:1>
 Ore entries for <ore:partPickHead> :
     <tconstruct:pick_head:*>
 Ore entries for <ore:partBinding> :
@@ -3340,13 +3067,22 @@ Ore entries for <ore:blockSlimeGrass> :
     <tconstruct:slime_grass:*>
 Ore entries for <ore:rodStone> :
     <tconstruct:stone_stick:*>
+Ore entries for <ore:blockLead> :
+    <immersiveengineering:storage:2>
+    <primal:lead_block:*>
+Ore entries for <ore:blockSilver> :
+    <immersiveengineering:storage:3>
+    <primal:silver_block:*>
+Ore entries for <ore:blockNickel> :
+    <immersiveengineering:storage:4>
 Ore entries for <ore:oreUranium> :
     <immersiveengineering:ore:5>
-    <nethermetals:nether_uranium_ore>
 Ore entries for <ore:blockUranium> :
     <immersiveengineering:storage:5>
 Ore entries for <ore:blockConstantan> :
     <immersiveengineering:storage:6>
+Ore entries for <ore:blockElectrum> :
+    <immersiveengineering:storage:7>
 Ore entries for <ore:slabCopper> :
     <immersiveengineering:storageSlab>
 Ore entries for <ore:slabAluminum> :
@@ -3389,17 +3125,22 @@ Ore entries for <ore:ingotUranium> :
     <immersiveengineering:metal:5>
 Ore entries for <ore:ingotConstantan> :
     <immersiveengineering:metal:6>
-Ore entries for <ore:dustUranium> :
-    <immersiveengineering:metal:14>
-    <rockhounding_chemistry:chemicalDusts:43>
-Ore entries for <ore:dustConstantan> :
-    <immersiveengineering:metal:15>
+Ore entries for <ore:ingotElectrum> :
+    <immersiveengineering:metal:7>
+Ore entries for <ore:nuggetLead> :
+    <immersiveengineering:metal:22>
+    <primal:lead_nugget:*>
+Ore entries for <ore:nuggetSilver> :
+    <immersiveengineering:metal:23>
+    <primal:silver_nugget:*>
+Ore entries for <ore:nuggetNickel> :
+    <immersiveengineering:metal:24>
 Ore entries for <ore:nuggetUranium> :
     <immersiveengineering:metal:25>
 Ore entries for <ore:nuggetConstantan> :
     <immersiveengineering:metal:26>
-Ore entries for <ore:plateConstantan> :
-    <immersiveengineering:metal:36>
+Ore entries for <ore:nuggetElectrum> :
+    <immersiveengineering:metal:27>
 Ore entries for <ore:stickTreatedWood> :
     <immersiveengineering:material>
 Ore entries for <ore:stickAluminum> :
@@ -3410,7 +3151,6 @@ Ore entries for <ore:fabricHemp> :
     <immersiveengineering:material:5>
 Ore entries for <ore:fuelCoke> :
     <immersiveengineering:material:6>
-    <railcraft:fuel_coke>
 Ore entries for <ore:itemSlag> :
     <immersiveengineering:material:7>
 Ore entries for <ore:dustCoke> :
@@ -3455,6 +3195,8 @@ Ore entries for <ore:blockPackedIce> :
     <minecraft:packed_ice>
 Ore entries for <ore:charcoal> :
     <minecraft:coal:1>
+Ore entries for <ore:dustOsmium> :
+    <rockhounding_chemistry:chemicalDusts:47>
 Ore entries for <ore:nuggetDiamond> :
     <morebees:diamondFragment>
 Ore entries for <ore:nuggetEmerald> :
@@ -3465,6 +3207,19 @@ Ore entries for <ore:bowlWood> :
     <natura:empty_bowls>
     <natura:empty_bowls:2>
     <natura:empty_bowls:3>
+Ore entries for <ore:foodFlour> :
+    <natura:materials:1>
+    <natura:materials:2>
+    <harvestcraft:flourItem>
+    <rockhounding_surface:gypsumItems:5>
+Ore entries for <ore:cropBarley> :
+    <natura:materials>
+    <harvestcraft:barleyItem>
+Ore entries for <ore:cropCotton> :
+    <natura:materials:3>
+    <harvestcraft:cottonItem>
+Ore entries for <ore:dustSulphur> :
+    <natura:materials:4>
 Ore entries for <ore:cropRaspberry> :
     <natura:edibles:2>
     <harvestcraft:raspberryItem>
@@ -3476,16 +3231,12 @@ Ore entries for <ore:cropBlackberry> :
     <harvestcraft:blackberryItem>
 Ore entries for <ore:cropMaloberry> :
     <natura:edibles:5>
-Ore entries for <ore:foodFlour> :
-    <natura:materials:1>
-    <natura:materials:2>
-    <harvestcraft:flourItem>
-Ore entries for <ore:cropBarley> :
-    <natura:materials>
-    <harvestcraft:barleyItem>
-Ore entries for <ore:cropCotton> :
-    <natura:materials:3>
-    <harvestcraft:cottonItem>
+Ore entries for <ore:seedBarley> :
+    <natura:overworld_seeds>
+    <harvestcraft:barleyseedItem>
+Ore entries for <ore:seedCotton> :
+    <natura:overworld_seeds:1>
+    <harvestcraft:cottonseedItem>
 Ore entries for <ore:cropBlightberry> :
     <natura:edibles:6>
 Ore entries for <ore:cropDuskberry> :
@@ -3494,23 +3245,21 @@ Ore entries for <ore:cropSkyberry> :
     <natura:edibles:8>
 Ore entries for <ore:cropStingberry> :
     <natura:edibles:9>
-Ore entries for <ore:dustSulphur> :
-    <natura:materials:4>
 Ore entries for <ore:taintedSoil> :
     <natura:nether_tainted_soil:*>
 Ore entries for <ore:glassSoul> :
     <natura:nether_glass>
 Ore entries for <ore:glass> :
     <natura:nether_glass:*>
-Ore entries for <ore:foodEqualswheat> :
-    <natura:materials:2>
 Ore entries for <ore:listAllGrain> :
     <natura:materials>
+Ore entries for <ore:foodEqualswheat> :
+    <natura:materials:2>
 Ore entries for <ore:dyeRainbow> :
     <botanicaladdons:irisDye:16>
     <botanicaladdons:irisDyeAwakened:16>
     <botanicaladdons:dyeShard:16>
-    <botania:bifrostPerm:*>
+    <botania:bifrostPerm>
 Ore entries for <ore:irisDyeWhite> :
     <botanicaladdons:irisDye>
     <botanicaladdons:irisDyeAwakened>
@@ -3666,8 +3415,14 @@ Ore entries for <ore:plankCalico> :
 Ore entries for <ore:irisDirt> :
     <botanicaladdons:irisDirt:*>
     <botanicaladdons:rainbowDirt:*>
-Ore entries for <ore:oreNetherNetherCoal> :
-    <nethercore:ore:7>
+Ore entries for <ore:blockManasteel> :
+    <botania:storage>
+Ore entries for <ore:blockTerrasteel> :
+    <botania:storage:1>
+Ore entries for <ore:blockElvenElementium> :
+    <botania:storage:2>
+Ore entries for <ore:book> :
+    <overlord:squad_editor>
 Ore entries for <ore:toolPot> :
     <harvestcraft:potItem>
 Ore entries for <ore:toolSkillet> :
@@ -3684,8 +3439,6 @@ Ore entries for <ore:toolMixingbowl> :
     <harvestcraft:mixingbowlItem>
 Ore entries for <ore:toolJuicer> :
     <harvestcraft:juicerItem>
-Ore entries for <ore:seedCotton> :
-    <harvestcraft:cottonseedItem>
 Ore entries for <ore:materialCloth> :
     <harvestcraft:wovencottonItem>
 Ore entries for <ore:cropCandle> :
@@ -3705,6 +3458,11 @@ Ore entries for <ore:dustSalt> :
     <primal:salt_void_dust>
 Ore entries for <ore:itemSalt> :
     <harvestcraft:saltItem>
+    <primal:salt_halite_dust>
+    <primal:salt_netjry_dust>
+    <primal:salt_fire_dust>
+    <primal:salt_void_dust>
+    <rockhounding_chemistry:chemicalItems:1>
 Ore entries for <ore:foodHoneydrop> :
     <harvestcraft:honeyItem>
 Ore entries for <ore:flowerRed> :
@@ -3731,18 +3489,79 @@ Ore entries for <ore:listAllmeatraw> :
     <harvestcraft:turkeyrawItem>
     <minecraft:rabbit>
     <harvestcraft:venisonrawItem>
+    <animania:raw_angus_beef>
+    <animania:raw_angus_steak>
+    <animania:raw_duroc_bacon>
+    <animania:raw_duroc_pork>
+    <animania:raw_hampshire_bacon>
+    <animania:raw_hampshire_pork>
+    <animania:raw_hereford_beef>
+    <animania:raw_hereford_steak>
+    <animania:raw_large_black_bacon>
+    <animania:raw_large_black_pork>
+    <animania:raw_longhorn_beef>
+    <animania:raw_longhorn_steak>
+    <animania:raw_old_spot_bacon>
+    <animania:raw_old_spot_pork>
+    <animania:raw_orpington_chicken>
+    <animania:raw_plymouth_rock_chicken>
+    <animania:raw_wyandotte_chicken>
 Ore entries for <ore:listAllchickenraw> :
     <harvestcraft:rawtofickenItem>
     <minecraft:chicken>
+    <animania:raw_orpington_chicken>
+    <animania:raw_plymouth_rock_chicken>
+    <animania:raw_wyandotte_chicken>
 Ore entries for <ore:listAllegg> :
     <harvestcraft:rawtofeegItem>
     <minecraft:egg>
+    <animania:brown_egg>
+Ore entries for <ore:listAllchickencooked> :
+    <harvestcraft:cookedtofickenItem>
+    <minecraft:cooked_chicken>
+    <animania:cooked_orpington_chicken>
+    <animania:cooked_plymouth_rock_chicken>
+    <animania:cooked_wyandotte_chicken>
 Ore entries for <ore:listAllporkraw> :
     <harvestcraft:rawtofaconItem>
     <minecraft:porkchop>
+    <animania:raw_duroc_bacon>
+    <animania:raw_duroc_pork>
+    <animania:raw_hampshire_bacon>
+    <animania:raw_hampshire_pork>
+    <animania:raw_large_black_bacon>
+    <animania:raw_large_black_pork>
+    <animania:raw_old_spot_bacon>
+    <animania:raw_old_spot_pork>
+Ore entries for <ore:listAllporkcooked> :
+    <harvestcraft:cookedtofaconItem>
+    <minecraft:cooked_porkchop>
+    <animania:cooked_duroc_bacon>
+    <animania:cooked_duroc_roast>
+    <animania:cooked_hampshire_bacon>
+    <animania:cooked_hampshire_roast>
+    <animania:cooked_large_black_bacon>
+    <animania:cooked_large_black_roast>
+    <animania:cooked_old_spot_bacon>
+    <animania:cooked_old_spot_roast>
 Ore entries for <ore:listAllbeefraw> :
     <harvestcraft:rawtofeakItem>
     <minecraft:beef>
+    <animania:raw_angus_beef>
+    <animania:raw_angus_steak>
+    <animania:raw_hereford_beef>
+    <animania:raw_hereford_steak>
+    <animania:raw_longhorn_beef>
+    <animania:raw_longhorn_steak>
+Ore entries for <ore:listAllbeefcooked> :
+    <harvestcraft:cookedtofeakItem>
+    <minecraft:cooked_beef>
+    <animania:cooked_angus_roast>
+    <animania:cooked_angus_steak>
+    <animania:cooked_hereford_roast>
+    <animania:cooked_hereford_steak>
+    <animania:cooked_longhorn_roast>
+    <animania:cooked_longhorn_steak>
 Ore entries for <ore:listAllmuttonraw> :
     <harvestcraft:rawtofuttonItem>
     <minecraft:mutton>
@@ -3785,6 +3604,11 @@ Ore entries for <ore:listAllfishraw> :
     <harvestcraft:tunarawItem>
     <harvestcraft:walleyerawItem>
     <harvestcraft:greenheartfishItem>
+Ore entries for <ore:listAllfishcooked> :
+    <harvestcraft:cookedtofishItem>
+    <minecraft:cooked_fish>
+    <minecraft:cooked_fish:1>
+    <harvestcraft:calamaricookedItem>
 Ore entries for <ore:listAllheavycream> :
     <harvestcraft:silkentofuItem>
     <harvestcraft:heavycreamItem>
@@ -3795,6 +3619,8 @@ Ore entries for <ore:listAllmilk> :
     <harvestcraft:soymilkItem>
     <minecraft:milk_bucket>
     <harvestcraft:freshmilkItem>
+    <animania:friesian_bucket_milk>
+    <animania:holstein_bucket_milk>
 Ore entries for <ore:listAllwater> :
     <minecraft:water_bucket>
     <harvestcraft:freshwaterItem>
@@ -3810,6 +3636,7 @@ Ore entries for <ore:listAllgrain> :
     <harvestcraft:barleyItem>
     <harvestcraft:oatsItem>
     <harvestcraft:ryeItem>
+    <rockhounding_surface:ricegrassItem>
 Ore entries for <ore:listAllmushroom> :
     <minecraft:red_mushroom>
     <minecraft:brown_mushroom>
@@ -3842,8 +3669,6 @@ Ore entries for <ore:seedAsparagus> :
     <harvestcraft:asparagusseedItem>
 Ore entries for <ore:foodGrilledasparagus> :
     <harvestcraft:grilledasparagusItem>
-Ore entries for <ore:seedBarley> :
-    <harvestcraft:barleyseedItem>
 Ore entries for <ore:cropBean> :
     <harvestcraft:beanItem>
 Ore entries for <ore:seedBean> :
@@ -3873,6 +3698,7 @@ Ore entries for <ore:listAllberry> :
     <harvestcraft:raspberryItem>
     <harvestcraft:strawberryItem>
     <harvestcraft:gooseberryItem>
+    <rockhounding_surface:sourberry_fruit>
 Ore entries for <ore:cropCranberry> :
     <harvestcraft:cranberryItem>
 Ore entries for <ore:seedCranberry> :
@@ -3890,6 +3716,7 @@ Ore entries for <ore:listAllspice> :
     <harvestcraft:spiceleafItem>
     <harvestcraft:mustardseedsItem>
     <harvestcraft:currypowderItem>
+    <rockhounding_surface:truffle_slices>
 Ore entries for <ore:seedGinger> :
     <harvestcraft:gingerseedItem>
 Ore entries for <ore:cropLeek> :
@@ -4021,10 +3848,10 @@ Ore entries for <ore:foodCoffee> :
     <harvestcraft:coffeeItem>
 Ore entries for <ore:cropCorn> :
     <harvestcraft:cornItem>
-    <primal:corn_cob>
+    <primal:corn_cob:*>
 Ore entries for <ore:seedCorn> :
     <harvestcraft:cornseedItem>
-    <primal:corn_seeds>
+    <primal:corn_seeds:*>
 Ore entries for <ore:cropCucumber> :
     <harvestcraft:cucumberItem>
 Ore entries for <ore:seedCucumber> :
@@ -4162,10 +3989,11 @@ Ore entries for <ore:cropPistachio> :
     <harvestcraft:pistachioItem>
 Ore entries for <ore:foodSalt> :
     <harvestcraft:saltItem>
-    <primal:salt_halite_dust>
-    <primal:salt_netjry_dust>
-    <primal:salt_fire_dust>
-    <primal:salt_void_dust>
+    <primal:salt_halite_dust:*>
+    <primal:salt_netjry_dust:*>
+    <primal:salt_fire_dust:*>
+    <primal:salt_void_dust:*>
+    <rockhounding_chemistry:chemicalItems:1>
 Ore entries for <ore:foodDough> :
     <harvestcraft:doughItem>
 Ore entries for <ore:foodToast> :
@@ -4178,8 +4006,11 @@ Ore entries for <ore:foodButter> :
     <harvestcraft:butterItem>
 Ore entries for <ore:foodCheese> :
     <harvestcraft:cheeseItem>
-    <primal:cheese_white>
-    <druidry:cheese>
+    <primal:cheese_white:*>
+    <animania:friesian_cheese_wedge>
+    <animania:holstein_cheese_wedge>
+    <animania:friesian_cheese_wheel>
+    <animania:holstein_cheese_wheel>
 Ore entries for <ore:foodIcecream> :
     <harvestcraft:icecreamItem>
 Ore entries for <ore:foodGrilledcheese> :
@@ -4764,6 +4595,7 @@ Ore entries for <ore:foodGroundnutmeg> :
     <harvestcraft:groundnutmegItem>
 Ore entries for <ore:foodOliveoil> :
     <harvestcraft:oliveoilItem>
+    <rockhounding_surface:truffle_oil>
 Ore entries for <ore:foodBaklava> :
     <harvestcraft:baklavaItem>
 Ore entries for <ore:foodGummybears> :
@@ -5388,183 +5220,403 @@ Ore entries for <ore:foodCreepercookie> :
     <harvestcraft:creepercookieItem>
 Ore entries for <ore:foodPatreonpie> :
     <harvestcraft:patreonpieItem>
+Ore entries for <ore:ingotAlumite> :
+    <plustic:alumiteingot>
+Ore entries for <ore:nuggetAlumite> :
+    <plustic:alumitenugget>
+Ore entries for <ore:blockAlumite> :
+    <plustic:alumiteblock>
+Ore entries for <ore:coal> :
+    <minecraft:coal>
 Ore entries for <ore:blockAsh> :
-    <primal:ash_block>
-    <primal:ash_stabilized>
+    <primal:ash_block:*>
+    <primal:ash_stabilized:*>
 Ore entries for <ore:blockFuel> :
-    <primal:earthwax_block>
-    <primal:netherwax_block>
+    <primal:earthwax_block:*>
+    <primal:netherwax_block:*>
 Ore entries for <ore:blockTerra> :
-    <primal:terraclay_block>
-    <primal:cinisclay_block>
+    <primal:terraclay_block:*>
+    <primal:cinisclay_block:*>
 Ore entries for <ore:blockCotta> :
-    <primal:ciniscotta_brick>
-    <primal:terracotta_brick>
+    <primal:ciniscotta_brick:*>
+    <primal:terracotta_brick:*>
+Ore entries for <ore:blockSarsen> :
+    <primal:sarsen_stone:*>
+    <primal:sarsen_smooth:*>
+    <primal:sarsen_brick_large:*>
+    <primal:sarsen_brick_small:*>
+    <primal:sarsen_carved:*>
+    <primal:sarsen_face:*>
 Ore entries for <ore:blockLimestone> :
-    <primal:carbonate_stone>
-    <primal:carbonate_flag>
-    <primal:carbonate_brick>
-    <primal:ferro_stone>
-    <primal:ferro_flag>
-    <primal:ferro_brick>
+    <primal:carbonate_stone:*>
+    <primal:carbonate_flag:*>
+    <primal:carbonate_brick:*>
+    <primal:ferro_stone:*>
+    <primal:ferro_flag:*>
+    <primal:ferro_brick:*>
+Ore entries for <ore:plankNether> :
+    <primal:netherpalm_plank:*>
+Ore entries for <ore:plankLacquer> :
+    <primal:lacquer_plank:*>
 Ore entries for <ore:blockSoulstone> :
-    <primal:soulstone_normal>
-    <primal:soulstone_smooth>
-    <primal:soulstone_chiseled>
-    <primal:soulstone_flagstone>
-Ore entries for <ore:logNether> :
-    <primal:stripped_log_netherpalm>
-Ore entries for <ore:blockStair> :
-    <primal:stairs_carbonate_flag>
-    <primal:stairs_carbonate_brick>
-    <primal:stairs_ferro_flag>
-    <primal:stairs_ferro_brick>
-    <primal:stairs_cobblestone_mossy>
-    <primal:stairs_stonebrick_mossy>
-    <primal:stairs_soulstone>
+    <primal:soulstone_normal:*>
+    <primal:soulstone_smooth:*>
+    <primal:soulstone_chiseled:*>
+    <primal:soulstone_flagstone:*>
+Ore entries for <ore:wattleCommon> :
+    <primal:wattle_acacia:*>
+    <primal:wattle_bigoak:*>
+    <primal:wattle_birch:*>
+    <primal:wattle_jungle:*>
+    <primal:wattle_oak:*>
+    <primal:wattle_spruce:*>
+    <primal:wattle_ironwood:*>
+    <primal:wattle_netherpalm:*>
+    <primal:wattle_lacquer:*>
+Ore entries for <ore:wattleWood> :
+    <primal:wattle_acacia:*>
+    <primal:wattle_bigoak:*>
+    <primal:wattle_birch:*>
+    <primal:wattle_jungle:*>
+    <primal:wattle_oak:*>
+    <primal:wattle_spruce:*>
+Ore entries for <ore:wattleLacquer> :
+    <primal:wattle_lacquer:*>
+Ore entries for <ore:stairStone> :
+    <primal:stairs_carbonate_flag:*>
+    <primal:stairs_carbonate_brick:*>
+    <primal:stairs_ferro_flag:*>
+    <primal:stairs_ferro_brick:*>
+    <primal:stairs_stonebrick_mossy:*>
+    <primal:stairs_soulstone:*>
+Ore entries for <ore:blostairStoneckStair> :
+    <primal:stairs_cobblestone_mossy:*>
+Ore entries for <ore:stairLacquer> :
+    <primal:stairs_lacquer:*>
 Ore entries for <ore:blockWall> :
-    <primal:wall_netherrack>
-    <primal:wall_netherstone>
-    <primal:wall_carbonate_flag>
-    <primal:wall_carbonate_brick>
-    <primal:wall_ferro_flag>
-    <primal:wall_ferro_brick>
+    <primal:wall_netherrack:*>
+    <primal:wall_netherstone:*>
+    <primal:wall_carbonate_flag:*>
+    <primal:wall_carbonate_brick:*>
+    <primal:wall_ferro_flag:*>
+    <primal:wall_ferro_brick:*>
+Ore entries for <ore:fenceLacquer> :
+    <primal:fence_lacquer:*>
 Ore entries for <ore:blockLever> :
-    <primal:lever_wood>
-    <primal:lever_nether>
+    <primal:lever_wood:*>
+    <primal:lever_nether:*>
+    <minecraft:lever>
+Ore entries for <ore:blockBrass> :
+    <primal:brass_block:*>
 Ore entries for <ore:blockVanadium> :
-    <primal:vanadium_block>
+    <primal:vanadium_block:*>
 Ore entries for <ore:blockWootz> :
-    <primal:wootz_block>
+    <primal:wootz_block:*>
+Ore entries for <ore:blockZinc> :
+    <primal:zinc_block:*>
+Ore entries for <ore:blockTamahagane> :
+    <primal:tamahagane_block:*>
 Ore entries for <ore:blockSalt> :
-    <primal:salt_netjry_block>
-    <primal:salt_halite_block>
-    <primal:salt_fire_block>
-    <primal:salt_void_block>
+    <primal:salt_netjry_block:*>
+    <primal:salt_halite_block:*>
+    <primal:salt_fire_block:*>
+    <primal:salt_void_block:*>
+Ore entries for <ore:worktableWood> :
+    <primal:worktable_acacia_slab:*>
+    <primal:worktable_bigoak_slab:*>
+    <primal:worktable_birch_slab:*>
+    <primal:worktable_jungle_slab:*>
+    <primal:worktable_oak_slab:*>
+    <primal:worktable_spruce_slab:*>
+Ore entries for <ore:shelfWood> :
+    <primal:shelf_half_acacia:*>
+    <primal:shelf_half_bigoak:*>
+    <primal:shelf_half_birch:*>
+    <primal:shelf_half_jungle:*>
+    <primal:shelf_half_oak:*>
+    <primal:shelf_half_spruce:*>
+Ore entries for <ore:shelfLacquer> :
+    <primal:shelf_half_lacquer:*>
+Ore entries for <ore:ladderCommon> :
+    <primal:ladder_acacia:*>
+    <primal:ladder_bigoak:*>
+    <primal:ladder_birch:*>
+    <primal:ladder_jungle:*>
+    <primal:ladder_oak:*>
+    <primal:ladder_spruce:*>
+    <primal:ladder_ironwood:*>
+    <primal:ladder_netherpalm:*>
+    <primal:ladder_lacquer:*>
+Ore entries for <ore:ladderWood> :
+    <primal:ladder_acacia:*>
+    <primal:ladder_bigoak:*>
+    <primal:ladder_birch:*>
+    <primal:ladder_jungle:*>
+    <primal:ladder_oak:*>
+    <primal:ladder_spruce:*>
+    <primal:ladder_lacquer:*>
+Ore entries for <ore:dryingrackWood> :
+    <primal:drying_rack_acacia:*>
+    <primal:drying_rack_bigoak:*>
+    <primal:drying_rack_birch:*>
+    <primal:drying_rack_jungle:*>
+    <primal:drying_rack_oak:*>
+    <primal:drying_rack_spruce:*>
+Ore entries for <ore:ashbinWood> :
+    <primal:ash_bin_acacia:*>
+    <primal:ash_bin_bigoak:*>
+    <primal:ash_bin_birch:*>
+    <primal:ash_bin_jungle:*>
+    <primal:ash_bin_oak:*>
+    <primal:ash_bin_spruce:*>
+Ore entries for <ore:ashbinLacquer> :
+    <primal:ash_bin_lacquer:*>
+Ore entries for <ore:thinWood> :
+    <primal:thin_slab_acacia:*>
+    <primal:thin_slab_bigoak:*>
+    <primal:thin_slab_birch:*>
+    <primal:thin_slab_jungle:*>
+    <primal:thin_slab_oak:*>
+    <primal:thin_slab_spruce:*>
 Ore entries for <ore:torchUnlit> :
-    <primal:torch_wood>
-    <primal:torch_nether>
-Ore entries for <ore:blockAshbin> :
-    <primal:ash_bin_acacia>
-    <primal:ash_bin_bigoak>
-    <primal:ash_bin_birch>
-    <primal:ash_bin_jungle>
-    <primal:ash_bin_oak>
-    <primal:ash_bin_spruce>
-    <primal:ash_bin_ironwood>
-    <primal:ash_bin_netherpalm>
+    <primal:torch_wood:*>
+    <primal:torch_nether:*>
 Ore entries for <ore:muck> :
-    <primal:muck>
+    <primal:muck:*>
+Ore entries for <ore:clayball> :
+    <primal:muck:*>
+    <primal:cinisclay_clump:*>
+    <primal:terraclay_clump:*>
+    <minecraft:clay_ball>
 Ore entries for <ore:rock> :
-    <primal:rock>
+    <primal:rock_stone:*>
+    <primal:rock_andesite:*>
+    <primal:rock_diorite:*>
+    <primal:rock_granite:*>
+    <primal:rock_netherrack:*>
+    <primal:rock_sarsen:*>
+    <primal:rock_vitrified:*>
+Ore entries for <ore:rockStone> :
+    <primal:rock_stone:*>
+Ore entries for <ore:rockAndesite> :
+    <primal:rock_andesite:*>
+Ore entries for <ore:rockDiorite> :
+    <primal:rock_diorite:*>
+Ore entries for <ore:rockGranite> :
+    <primal:rock_granite:*>
+Ore entries for <ore:rockNetherrack> :
+    <primal:rock_netherrack:*>
+Ore entries for <ore:rockSarsen> :
+    <primal:rock_sarsen:*>
+Ore entries for <ore:rockVitrified> :
+    <primal:rock_vitrified:*>
+Ore entries for <ore:peltLarge> :
+    <primal:pelt_bear_polar:*>
+    <primal:pelt_cow:*>
+Ore entries for <ore:pelt> :
+    <primal:pelt_dog:*>
+    <primal:pelt_pig:*>
+    <primal:wolf_pelt:*>
+Ore entries for <ore:dryhide> :
+    <primal:hide_dried:*>
+Ore entries for <ore:rawhide> :
+    <primal:hide_raw:*>
+Ore entries for <ore:salthide> :
+    <primal:hide_salted:*>
+Ore entries for <ore:tannedhide> :
+    <primal:hide_tanned:*>
 Ore entries for <ore:mortar> :
-    <primal:mortar>
-Ore entries for <ore:cordagePlant> :
-    <primal:plant_cordage>
-    <primal:nether_cordage>
+    <primal:mortar:*>
 Ore entries for <ore:cordageGeneral> :
-    <primal:plant_cordage>
-    <primal:leather_cordage>
-    <primal:silk_cordage>
-    <primal:nether_cordage>
+    <primal:leather_cordage:*>
+    <primal:silk_cordage:*>
+    <primal:nether_cordage:*>
+    <primal:plant_cordage:*>
+    <primal:void_cordage:*>
+    <primal:sinuous_fiber:*>
+    <primal:sinuous_cordage:*>
 Ore entries for <ore:cordageLeather> :
-    <primal:leather_cordage>
+    <primal:leather_cordage:*>
+Ore entries for <ore:leatherBoiled> :
+    <primal:leather_boiled:*>
 Ore entries for <ore:cordageQuality> :
-    <primal:silk_cordage>
-Ore entries for <ore:strandIron> :
-    <primal:iron_strands>
-Ore entries for <ore:stickPigiron> :
-    <primal:iron_bar>
-Ore entries for <ore:pinIron> :
-    <primal:iron_pin>
-Ore entries for <ore:pinMetal> :
-    <primal:iron_pin>
-Ore entries for <ore:pinBasic> :
-    <primal:iron_pin>
-    <primal:wood_pin>
-    <primal:netherpalm_pin>
-Ore entries for <ore:ringIron> :
-    <primal:iron_ring>
-Ore entries for <ore:meshIron> :
-    <primal:iron_mesh>
+    <primal:silk_cordage:*>
+    <primal:void_cordage:*>
+    <primal:sinuous_cordage:*>
+Ore entries for <ore:cordageSilk> :
+    <primal:silk_cordage:*>
 Ore entries for <ore:pinWood> :
-    <primal:wood_pin>
-    <primal:netherpalm_pin>
-Ore entries for <ore:thatchingWet> :
-    <primal:thatching_wet>
-Ore entries for <ore:thatchingDry> :
-    <primal:thatching_dry>
+    <primal:wood_pin:*>
+    <primal:netherpalm_pin:*>
+Ore entries for <ore:pinBasic> :
+    <primal:wood_pin:*>
+    <primal:iron_pin:*>
+    <primal:netherpalm_pin:*>
 Ore entries for <ore:barkWood> :
-    <primal:bark_acacia>
-    <primal:bark_bigoak>
-    <primal:bark_birch>
-    <primal:bark_ironwood>
-    <primal:bark_jungle>
-    <primal:bark_oak>
-    <primal:bark_spruce>
+    <primal:bark_acacia:*>
+    <primal:bark_bigoak:*>
+    <primal:bark_birch:*>
+    <primal:bark_ironwood:*>
+    <primal:bark_jungle:*>
+    <primal:bark_oak:*>
+    <primal:bark_netherpalm:*>
+    <primal:bark_spruce:*>
+Ore entries for <ore:barkAcacia> :
+    <primal:bark_acacia:*>
+Ore entries for <ore:barkDarkOak> :
+    <primal:bark_bigoak:*>
+Ore entries for <ore:barkBirch> :
+    <primal:bark_birch:*>
+Ore entries for <ore:barkIronwood> :
+    <primal:bark_ironwood:*>
+Ore entries for <ore:barkJungle> :
+    <primal:bark_jungle:*>
+Ore entries for <ore:barkOak> :
+    <primal:bark_oak:*>
+Ore entries for <ore:barkNether> :
+    <primal:bark_netherpalm:*>
+Ore entries for <ore:barkSpruce> :
+    <primal:bark_spruce:*>
+Ore entries for <ore:stickLacquer> :
+    <primal:lacquer_stick:*>
+Ore entries for <ore:dustTannin> :
+    <primal:tannin_ground:*>
+Ore entries for <ore:bottleTannin> :
+    <primal:tannin_bottle:*>
+Ore entries for <ore:dustUrushi> :
+    <primal:urushi_ground:*>
+Ore entries for <ore:bottleUrishi> :
+    <primal:urushi_bottle:*>
 Ore entries for <ore:flakeBone> :
-    <primal:bone_knapp>
+    <primal:bone_knapp:*>
 Ore entries for <ore:pointBone> :
-    <primal:bone_point>
+    <primal:bone_point:*>
 Ore entries for <ore:flakeFlint> :
-    <primal:flint_knapp>
+    <primal:flint_knapp:*>
 Ore entries for <ore:pointFlint> :
-    <primal:flint_point>
+    <primal:flint_point:*>
 Ore entries for <ore:flakeQuartz> :
-    <primal:quartz_knapp>
+    <primal:quartz_knapp:*>
 Ore entries for <ore:pointQuartz> :
-    <primal:quartz_point>
+    <primal:quartz_point:*>
 Ore entries for <ore:shardObsidian> :
-    <primal:obsidian_shard>
+    <primal:obsidian_shard:*>
 Ore entries for <ore:flakeObsidian> :
-    <primal:obsidian_knapp>
+    <primal:obsidian_knapp:*>
 Ore entries for <ore:pointObsidian> :
-    <primal:obsidian_point>
+    <primal:obsidian_point:*>
+Ore entries for <ore:gemBloodOpal> :
+    <primal:opal:*>
 Ore entries for <ore:flakeOpal> :
-    <primal:opal_knapp>
+    <primal:opal_knapp:*>
 Ore entries for <ore:pointOpal> :
-    <primal:opal_point>
+    <primal:opal_point:*>
 Ore entries for <ore:flakeDiamond> :
-    <primal:diamond_knapp>
+    <primal:diamond_knapp:*>
 Ore entries for <ore:pointDiamond> :
-    <primal:diamond_point>
+    <primal:diamond_point:*>
 Ore entries for <ore:flakeEmerald> :
-    <primal:emerald_knapp>
+    <primal:emerald_knapp:*>
 Ore entries for <ore:pointEmerald> :
-    <primal:emerald_point>
+    <primal:emerald_point:*>
+Ore entries for <ore:strandIron> :
+    <primal:iron_strand:*>
+Ore entries for <ore:pinIron> :
+    <primal:iron_pin:*>
+Ore entries for <ore:pinMetal> :
+    <primal:iron_pin:*>
+Ore entries for <ore:ringIron> :
+    <primal:iron_ring:*>
+Ore entries for <ore:meshIron> :
+    <primal:iron_mesh:*>
+Ore entries for <ore:platePigiron> :
+    <primal:pigiron_plate:*>
+Ore entries for <ore:standCopper> :
+    <primal:copper_strand:*>
+Ore entries for <ore:plateWootz> :
+    <primal:wootz_plate:*>
+Ore entries for <ore:plateVanadium> :
+    <primal:vanadium_plate:*>
+Ore entries for <ore:plateTamahagane> :
+    <primal:tamahagane_plate:*>
+Ore entries for <ore:plateCarbon> :
+    <primal:carbon_plate:*>
+Ore entries for <ore:clumpDaub> :
+    <primal:daub_clump_basic:*>
+Ore entries for <ore:clumpDaubWhite> :
+    <primal:daub_clump_white:*>
+Ore entries for <ore:clumpDaubBlack> :
+    <primal:daub_clump_black:*>
+Ore entries for <ore:clumpDaubBlue> :
+    <primal:daub_clump_blue:*>
+Ore entries for <ore:clumpDaubBrown> :
+    <primal:daub_clump_brown:*>
+Ore entries for <ore:clumpDaubCyan> :
+    <primal:daub_clump_cyan:*>
+Ore entries for <ore:clumpDaubGray> :
+    <primal:daub_clump_gray:*>
+Ore entries for <ore:clumpDaubGreen> :
+    <primal:daub_clump_green:*>
+Ore entries for <ore:clumpDaubLightBlue> :
+    <primal:daub_clump_lightblue:*>
+Ore entries for <ore:clumpDaubLime> :
+    <primal:daub_clump_lime:*>
+Ore entries for <ore:clumpDaubMagenta> :
+    <primal:daub_clump_magenta:*>
+Ore entries for <ore:clumpDaubOrange> :
+    <primal:daub_clump_orange:*>
+Ore entries for <ore:clumpDaubPink> :
+    <primal:daub_clump_pink:*>
+Ore entries for <ore:clumpDaubPurple> :
+    <primal:daub_clump_purple:*>
+Ore entries for <ore:clumpDaubRed> :
+    <primal:daub_clump_red:*>
+Ore entries for <ore:clumpDaubSilver> :
+    <primal:daub_clump_silver:*>
+Ore entries for <ore:clumpDaubYellow> :
+    <primal:daub_clump_yellow:*>
+Ore entries for <ore:cordagePlant> :
+    <primal:nether_cordage:*>
+    <primal:plant_cordage:*>
 Ore entries for <ore:cordageNether> :
-    <primal:nether_cordage>
+    <primal:nether_cordage:*>
 Ore entries for <ore:clothPlant> :
-    <primal:nether_cloth>
+    <primal:nether_cloth:*>
 Ore entries for <ore:clothGeneral> :
-    <primal:nether_cloth>
+    <primal:nether_cloth:*>
 Ore entries for <ore:stickNether> :
-    <primal:netherpalm_stick>
+    <primal:netherpalm_stick:*>
 Ore entries for <ore:pinNether> :
-    <primal:netherpalm_pin>
+    <primal:netherpalm_pin:*>
 Ore entries for <ore:foodFat> :
-    <primal:lard>
-    <primal:suet>
+    <primal:lard:*>
+    <primal:suet:*>
+Ore entries for <ore:foodBait> :
+    <primal:lard:*>
+    <primal:suet:*>
+    <primal:chum:*>
+Ore entries for <ore:rot> :
+    <primal:rot:*>
 Ore entries for <ore:ingredientChumMedium> :
-    <primal:fish_cod_rotten>
-    <primal:fish_salmon_rotten>
-    <primal:fish_clown_rotten>
-    <primal:fish_puffer_rotten>
-    <primal:fish_lava_worm_rotten>
-    <primal:fish_lava_worm_raw>
+    <primal:fish_cod_rotten:*>
+    <primal:fish_salmon_rotten:*>
+    <primal:fish_clown_rotten:*>
+    <primal:fish_puffer_rotten:*>
+    <primal:fish_lava_worm_rotten:*>
+    <primal:fish_lava_worm_raw:*>
     <minecraft:fish>
     <minecraft:fish:1>
     <minecraft:fish:2>
     <minecraft:fish:3>
 Ore entries for <ore:ingredientChumLarge> :
-    <primal:horse_meat_rotten>
-    <primal:wolf_meat_rotten>
-    <primal:ovis_meat_rotten>
-    <primal:pigman_meat_rotten>
-    <primal:horse_meat_raw>
-    <primal:wolf_meat_raw>
-    <primal:ovis_meat_raw>
-    <primal:pigman_meat_raw>
+    <primal:horse_meat_rotten:*>
+    <primal:wolf_meat_rotten:*>
+    <primal:ovis_meat_rotten:*>
+    <primal:pigman_meat_rotten:*>
+    <primal:horse_meat_raw:*>
+    <primal:wolf_meat_raw:*>
+    <primal:ovis_meat_raw:*>
+    <primal:pigman_meat_raw:*>
     <minecraft:rotten_flesh>
     <minecraft:rabbit>
     <minecraft:chicken>
@@ -5572,75 +5624,142 @@ Ore entries for <ore:ingredientChumLarge> :
     <minecraft:porkchop>
     <minecraft:beef>
 Ore entries for <ore:foodBread> :
-    <primal:corn_bread>
+    <primal:corn_bread:*>
+    <primal:valus_bread:*>
     <minecraft:bread>
+Ore entries for <ore:cropValus> :
+    <primal:valus_melon:*>
+Ore entries for <ore:rocksalt> :
+    <primal:salt_halite_dust:*>
+Ore entries for <ore:puresalt> :
+    <primal:salt_netjry_dust:*>
+Ore entries for <ore:firesalt> :
+    <primal:salt_fire_dust:*>
+Ore entries for <ore:voidsalt> :
+    <primal:salt_void_dust:*>
 Ore entries for <ore:seedRush> :
-    <primal:rush_seeds>
+    <primal:rush_seeds:*>
+Ore entries for <ore:seedGrassNether> :
+    <primal:nether_root:*>
+Ore entries for <ore:seedEmber> :
+    <primal:searing_ember:*>
+Ore entries for <ore:seedValus> :
+    <primal:valus_seed:*>
+Ore entries for <ore:seedCorypha> :
+    <primal:netherpalm_seed:*>
+Ore entries for <ore:seedGrassVoid> :
+    <primal:void_seed:*>
+Ore entries for <ore:seedSinuous> :
+    <primal:sinuous_spores:*>
+Ore entries for <ore:cordageVoid> :
+    <primal:void_cordage:*>
+Ore entries for <ore:cordageSinuous> :
+    <primal:sinuous_cordage:*>
+Ore entries for <ore:itemRubber> :
+    <primal:sinuous_resin:*>
 Ore entries for <ore:thatchingMaterial> :
-    <primal:rush_stems>
+    <primal:rush_stems:*>
 Ore entries for <ore:thatchingMaterialBasic> :
-    <primal:rush_tips>
-    <primal:rush_tips_bloom>
+    <primal:rush_tips:*>
+    <primal:rush_tips_bloom:*>
+Ore entries for <ore:thatchingWet> :
+    <primal:thatching_wet:*>
+Ore entries for <ore:thatchingDry> :
+    <primal:thatching_dry:*>
+Ore entries for <ore:stalkCornWet> :
+    <primal:corn_stalk_wet:*>
+Ore entries for <ore:stalkCornDry> :
+    <primal:corn_stalk_dry:*>
 Ore entries for <ore:clumpFuel> :
-    <primal:earthwax_clump>
-    <primal:netherwax_clump>
+    <primal:earthwax_clump:*>
+    <primal:netherwax_clump:*>
     <minecraft:coal>
     <minecraft:coal:1>
 Ore entries for <ore:clumpMud> :
-    <primal:mud_clump>
+    <primal:mud_clump:*>
     <biomesoplenty:mudball>
-Ore entries for <ore:clayball> :
-    <primal:cinisclay_clump>
-    <primal:terraclay_clump>
-    <minecraft:clay_ball>
 Ore entries for <ore:clumpLime> :
-    <primal:carbonate_slack>
-    <primal:ferro_slack>
+    <primal:carbonate_slack:*>
+    <primal:ferro_slack:*>
+Ore entries for <ore:ingotBrass> :
+    <primal:brass_ingot:*>
+Ore entries for <ore:nuggetBrass> :
+    <primal:brass_nugget:*>
 Ore entries for <ore:dustPigiron> :
-    <primal:pigiron_dust>
+    <primal:pigiron_dust:*>
 Ore entries for <ore:dustVanadium> :
-    <primal:vanadium_dust>
+    <primal:vanadium_dust:*>
     <rockhounding_chemistry:chemicalDusts:50>
 Ore entries for <ore:ingotVanadium> :
-    <primal:vanadium_ingot>
+    <primal:vanadium_ingot:*>
 Ore entries for <ore:nuggetVanadium> :
-    <primal:vanadium_nugget>
+    <primal:vanadium_nugget:*>
 Ore entries for <ore:dustWootz> :
-    <primal:wootz_dust>
+    <primal:wootz_dust:*>
 Ore entries for <ore:ingotWootz> :
-    <primal:wootz_ingot>
+    <primal:wootz_ingot:*>
 Ore entries for <ore:nuggetWootz> :
-    <primal:wootz_nugget>
-Ore entries for <ore:gateWood> :
-    <minecraft:acacia_fence_gate>
-    <minecraft:birch_fence_gate>
-    <minecraft:dark_oak_fence_gate>
-    <minecraft:jungle_fence_gate>
-    <minecraft:fence_gate>
-    <minecraft:spruce_fence_gate>
-Ore entries for <ore:toolCrowbar> :
-    <railcraft:tool_crowbar_iron:*>
-    <railcraft:tool_crowbar_steel:*>
-Ore entries for <ore:dustCharcoal> :
-    <railcraft:dust:3>
-Ore entries for <ore:dustSlag> :
-    <railcraft:dust:4>
-Ore entries for <ore:oreSulfur> :
-    <railcraft:ore>
-Ore entries for <ore:orePoorGold> :
-    <railcraft:ore:6>
-Ore entries for <ore:orePoorIron> :
-    <railcraft:ore:5>
-Ore entries for <ore:orePoorCopper> :
-    <railcraft:ore:7>
-Ore entries for <ore:orePoorTin> :
-    <railcraft:ore:8>
-Ore entries for <ore:orePoorLead> :
-    <railcraft:ore:9>
-Ore entries for <ore:orePoorSilver> :
-    <railcraft:ore:10>
-Ore entries for <ore:oreFirestone> :
-    <railcraft:ore_magic>
+    <primal:wootz_nugget:*>
+Ore entries for <ore:ingotZinc> :
+    <primal:zinc_ingot:*>
+Ore entries for <ore:ingotTamahagane> :
+    <primal:tamahagane_ingot:*>
+Ore entries for <ore:toolMalletStone> :
+    <primal:stone_gallagher:*>
+    <primal:nether_gallagher:*>
+Ore entries for <ore:toolWorkBlade> :
+    <primal:flint_workblade:*>
+    <primal:quartz_workblade:*>
+    <primal:iron_workblade:*>
+    <primal:emerald_workblade:*>
+    <primal:diamond_workblade:*>
+    <primal:opal_workblade:*>
+    <primal:obsidian_workblade:*>
+Ore entries for <ore:craftingToolKnife> :
+    <primal:flint_workblade:*>
+    <primal:quartz_workblade:*>
+    <primal:iron_workblade:*>
+    <primal:emerald_workblade:*>
+    <primal:diamond_workblade:*>
+    <primal:opal_workblade:*>
+    <primal:obsidian_workblade:*>
+Ore entries for <ore:toolSawFlint> :
+    <primal:flint_saw:*>
+Ore entries for <ore:toolShears> :
+    <primal:flint_shears:*>
+    <primal:quartz_clippers:*>
+    <primal:quartz_shears:*>
+    <primal:iron_clippers:*>
+Ore entries for <ore:toolAxe> :
+    <primal:flint_hatchet:*>
+    <primal:flint_axe:*>
+    <primal:quartz_hatchet:*>
+    <primal:quartz_axe:*>
+    <primal:diamond_hatchet:*>
+    <primal:diamond_axe:*>
+    <primal:emerald_hatchet:*>
+    <primal:emerald_axe:*>
+    <primal:opal_hatchet:*>
+    <primal:opal_axe:*>
+    <primal:obsidian_hatchet:*>
+    <primal:obsidian_axe:*>
+Ore entries for <ore:toolMallet> :
+    <primal:quartz_gallagher:*>
+    <primal:iron_gallagher:*>
+Ore entries for <ore:toolSawMetal> :
+    <primal:quartz_saw:*>
+    <primal:iron_saw:*>
+    <primal:copper_saw:*>
+    <primal:diamond_saw:*>
+    <primal:emerald_saw:*>
+Ore entries for <ore:toolClippers> :
+    <primal:quartz_clippers:*>
+    <primal:iron_clippers:*>
+Ore entries for <ore:toolSawGem> :
+    <primal:diamond_saw:*>
+    <primal:emerald_saw:*>
+Ore entries for <ore:drawerBasic> :
+    <storagedrawers:basicDrawers:*>
 Ore entries for <ore:dustCerium> :
     <rockhounding_chemistry:chemicalDusts>
 Ore entries for <ore:dustDysprosium> :
@@ -5695,6 +5814,8 @@ Ore entries for <ore:dustPotassium> :
     <rockhounding_chemistry:chemicalDusts:35>
 Ore entries for <ore:dustBeryllium> :
     <rockhounding_chemistry:chemicalDusts:36>
+Ore entries for <ore:dustBismuth> :
+    <rockhounding_chemistry:chemicalDusts:38>
 Ore entries for <ore:dustNiobium> :
     <rockhounding_chemistry:chemicalDusts:39>
 Ore entries for <ore:dustTantalum> :
@@ -5717,6 +5838,8 @@ Ore entries for <ore:blockBam> :
     <rockhounding_chemistry:alloyBlocks:2>
 Ore entries for <ore:blockYag> :
     <rockhounding_chemistry:alloyBlocks:3>
+Ore entries for <ore:blockCupronickel> :
+    <rockhounding_chemistry:alloyBlocks:4>
 Ore entries for <ore:blockNimonic> :
     <rockhounding_chemistry:alloyBlocks:5>
 Ore entries for <ore:blockHastelloy> :
@@ -5741,6 +5864,10 @@ Ore entries for <ore:blockPewter> :
     <rockhounding_chemistry:alloyBBlocks:6>
 Ore entries for <ore:blockCorten> :
     <rockhounding_chemistry:alloyBBlocks:7>
+Ore entries for <ore:blockShakudo> :
+    <rockhounding_chemistry:alloyBBlocks:8>
+Ore entries for <ore:blockPurplegold> :
+    <rockhounding_chemistry:alloyBBlocks:9>
 Ore entries for <ore:dustCube> :
     <rockhounding_chemistry:alloyItems>
 Ore entries for <ore:ingotCube> :
@@ -5765,6 +5892,10 @@ Ore entries for <ore:ingotYag> :
     <rockhounding_chemistry:alloyItems:10>
 Ore entries for <ore:nuggetYag> :
     <rockhounding_chemistry:alloyItems:11>
+Ore entries for <ore:ingotCupronickel> :
+    <rockhounding_chemistry:alloyItems:13>
+Ore entries for <ore:nuggetCupronickel> :
+    <rockhounding_chemistry:alloyItems:14>
 Ore entries for <ore:dustNimonic> :
     <rockhounding_chemistry:alloyItems:15>
 Ore entries for <ore:ingotNimonic> :
@@ -5837,6 +5968,18 @@ Ore entries for <ore:ingotCorten> :
     <rockhounding_chemistry:alloyBItems:22>
 Ore entries for <ore:nuggetCorten> :
     <rockhounding_chemistry:alloyBItems:23>
+Ore entries for <ore:dustShakudo> :
+    <rockhounding_chemistry:alloyBItems:24>
+Ore entries for <ore:ingotShakudo> :
+    <rockhounding_chemistry:alloyBItems:25>
+Ore entries for <ore:nuggetShakudo> :
+    <rockhounding_chemistry:alloyBItems:26>
+Ore entries for <ore:dustPurplegold> :
+    <rockhounding_chemistry:alloyBItems:27>
+Ore entries for <ore:ingotPurplegold> :
+    <rockhounding_chemistry:alloyBItems:28>
+Ore entries for <ore:nuggetPurplegold> :
+    <rockhounding_chemistry:alloyBItems:29>
 Ore entries for <ore:oreAnthracite> :
     <rockhounding_oretiers:coalOres>
 Ore entries for <ore:oreBituminous> :
@@ -5845,6 +5988,8 @@ Ore entries for <ore:oreLignite> :
     <rockhounding_oretiers:coalOres:2>
 Ore entries for <ore:orePeat> :
     <rockhounding_oretiers:coalOres:3>
+Ore entries for <ore:oreMagnetite> :
+    <rockhounding_oretiers:ironOres>
 Ore entries for <ore:oreHematite> :
     <rockhounding_oretiers:ironOres:1>
 Ore entries for <ore:oreGoethite> :
@@ -5887,8 +6032,32 @@ Ore entries for <ore:lumpIron> :
     <rockhounding_oretiers:tiersItems:7>
 Ore entries for <ore:itemDryPeat> :
     <rockhounding_oretiers:tiersItems:8>
-Ore entries for <ore:stairsWood> :
-    <roots:plankWildwoodStairs>
+Ore entries for <ore:dustGypsum> :
+    <rockhounding_surface:gypsumItems>
+Ore entries for <ore:gypsum> :
+    <rockhounding_surface:gypsum>
+Ore entries for <ore:blockGypsum> :
+    <rockhounding_surface:gypsum:1>
+Ore entries for <ore:cropTruffle> :
+    <rockhounding_surface:truffles>
+    <rockhounding_surface:truffles:1>
+    <rockhounding_surface:truffles:2>
+    <rockhounding_surface:truffles:3>
+    <rockhounding_surface:truffles:4>
+Ore entries for <ore:foodTruffle> :
+    <rockhounding_surface:truffle_slices>
+Ore entries for <ore:cropRicegrass> :
+    <rockhounding_surface:ricegrassItem>
+Ore entries for <ore:listAllseeds> :
+    <rockhounding_surface:ricegrassSeeds>
+Ore entries for <ore:cropSourberry> :
+    <rockhounding_surface:sourberry_fruit>
+Ore entries for <ore:cropPurplepear> :
+    <rockhounding_surface:purplepear_fruit>
+Ore entries for <ore:cropMesquite> :
+    <rockhounding_surface:mesquite_fruit>
+Ore entries for <ore:flourEqualsWheat> :
+    <rockhounding_surface:gypsumItems:5>
 Ore entries for <ore:ingotTiberium> :
     <taiga:tiberium_ingot>
 Ore entries for <ore:nuggetTiberium> :
@@ -5923,6 +6092,24 @@ Ore entries for <ore:ingotKarmesine> :
     <taiga:karmesine_ingot>
 Ore entries for <ore:nuggetKarmesine> :
     <taiga:karmesine_nugget>
+Ore entries for <ore:ingotOvium> :
+    <taiga:ovium_ingot>
+Ore entries for <ore:dustOvium> :
+    <taiga:ovium_dust>
+Ore entries for <ore:nuggetOvium> :
+    <taiga:ovium_nugget>
+Ore entries for <ore:ingotJauxum> :
+    <taiga:jauxum_ingot>
+Ore entries for <ore:dustJauxum> :
+    <taiga:jauxum_dust>
+Ore entries for <ore:nuggetJauxum> :
+    <taiga:jauxum_nugget>
+Ore entries for <ore:ingotTerrax> :
+    <taiga:terrax_ingot>
+Ore entries for <ore:dustTerrax> :
+    <taiga:terrax_dust>
+Ore entries for <ore:nuggetTerrax> :
+    <taiga:terrax_nugget>
 Ore entries for <ore:ingotPalladium> :
     <taiga:palladium_ingot>
 Ore entries for <ore:nuggetPalladium> :
@@ -5969,8 +6156,6 @@ Ore entries for <ore:nuggetViolium> :
     <taiga:violium_nugget>
 Ore entries for <ore:ingotProxii> :
     <taiga:proxii_ingot>
-Ore entries for <ore:dustProxii> :
-    <taiga:proxii_dust>
 Ore entries for <ore:nuggetProxii> :
     <taiga:proxii_nugget>
 Ore entries for <ore:ingotTritonite> :
@@ -6001,8 +6186,6 @@ Ore entries for <ore:nuggetNihilite> :
     <taiga:nihilite_nugget>
 Ore entries for <ore:ingotAdamant> :
     <taiga:adamant_ingot>
-Ore entries for <ore:dustAdamant> :
-    <taiga:adamant_dust>
 Ore entries for <ore:nuggetAdamant> :
     <taiga:adamant_nugget>
 Ore entries for <ore:ingotDyonite> :
@@ -6015,14 +6198,10 @@ Ore entries for <ore:nuggetNucleum> :
     <taiga:nucleum_nugget>
 Ore entries for <ore:ingotLumix> :
     <taiga:lumix_ingot>
-Ore entries for <ore:dustLumix> :
-    <taiga:lumix_dust>
 Ore entries for <ore:nuggetLumix> :
     <taiga:lumix_nugget>
 Ore entries for <ore:ingotSeismum> :
     <taiga:seismum_ingot>
-Ore entries for <ore:dustSeismum> :
-    <taiga:seismum_dust>
 Ore entries for <ore:nuggetSeismum> :
     <taiga:seismum_nugget>
 Ore entries for <ore:ingotAstrium> :
@@ -6063,6 +6242,12 @@ Ore entries for <ore:dustObsidiorite> :
     <taiga:obsidiorite_dust>
 Ore entries for <ore:nuggetObsidiorite> :
     <taiga:obsidiorite_nugget>
+Ore entries for <ore:ingotDilithium> :
+    <taiga:dilithium_ingot>
+Ore entries for <ore:crystalTiberium> :
+    <taiga:tiberium_crystal>
+Ore entries for <ore:nuggetDilithium> :
+    <taiga:dilithium_nugget>
 Ore entries for <ore:blockBasalt> :
     <taiga:basalt_block>
 Ore entries for <ore:oreTiberium> :
@@ -6079,6 +6264,10 @@ Ore entries for <ore:oreVibranium> :
     <taiga:vibranium_ore>
 Ore entries for <ore:oreKarmesine> :
     <taiga:karmesine_ore>
+Ore entries for <ore:oreOvium> :
+    <taiga:ovium_ore>
+Ore entries for <ore:oreJauxum> :
+    <taiga:jauxum_ore>
 Ore entries for <ore:orePalladium> :
     <taiga:palladium_ore>
 Ore entries for <ore:oreUru> :
@@ -6103,6 +6292,10 @@ Ore entries for <ore:blockVibranium> :
     <taiga:vibranium_block>
 Ore entries for <ore:blockKarmesine> :
     <taiga:karmesine_block>
+Ore entries for <ore:blockOvium> :
+    <taiga:ovium_block>
+Ore entries for <ore:blockJauxum> :
+    <taiga:jauxum_block>
 Ore entries for <ore:blockPalladium> :
     <taiga:palladium_block>
 Ore entries for <ore:blockUru> :
@@ -6113,6 +6306,8 @@ Ore entries for <ore:blockAbyssum> :
     <taiga:abyssum_block>
 Ore entries for <ore:blockEezo> :
     <taiga:eezo_block>
+Ore entries for <ore:blockTerrax> :
+    <taiga:terrax_block>
 Ore entries for <ore:blockTriberium> :
     <taiga:triberium_block>
 Ore entries for <ore:blockFractum> :
@@ -6157,8 +6352,6 @@ Ore entries for <ore:blockMeteorite> :
     <taiga:meteorite_block>
 Ore entries for <ore:blockObsidiorite> :
     <taiga:obsidiorite_block>
-Ore entries for <ore:coal> :
-    <minecraft:coal>
 Ore entries for <ore:dustDiamond> :
     <actuallyadditions:itemDust:2>
 Ore entries for <ore:dustEmerald> :
@@ -6183,294 +6376,78 @@ Ore entries for <ore:cropFlax> :
     <minecraft:string>
 Ore entries for <ore:blockCharcoal> :
     <actuallyadditions:blockMisc:5>
-Ore entries for <ore:bars> :
-    <minecraft:iron_bars>
-    <basemetals:nickel_bars>
-    <basemetals:steel_bars>
-    <basemetals:electrum_bars>
-    <basemetals:mithril_bars>
-    <basemetals:coldiron_bars>
-    <basemetals:brass_bars>
-    <basemetals:starsteel_bars>
-    <basemetals:lead_bars>
-    <basemetals:aquarium_bars>
-    <basemetals:bronze_bars>
-    <basemetals:cupronickel_bars>
-    <basemetals:platinum_bars>
-    <basemetals:tin_bars>
-    <basemetals:copper_bars>
-    <basemetals:invar_bars>
-    <basemetals:silver_bars>
-    <basemetals:adamantine_bars>
-Ore entries for <ore:doorIron> :
-    <minecraft:iron_door>
-Ore entries for <ore:door> :
-    <minecraft:iron_door>
-    <minecraft:wooden_door>
-    <minecraft:jungle_door>
-    <minecraft:spruce_door>
-    <minecraft:dark_oak_door>
-    <minecraft:birch_door>
-    <minecraft:acacia_door>
-    <basemetals:nickel_door_item>
-    <basemetals:steel_door_item>
-    <basemetals:electrum_door_item>
-    <basemetals:mithril_door_item>
-    <basemetals:coldiron_door_item>
-    <basemetals:brass_door_item>
-    <basemetals:starsteel_door_item>
-    <basemetals:lead_door_item>
-    <basemetals:aquarium_door_item>
-    <basemetals:bronze_door_item>
-    <basemetals:cupronickel_door_item>
-    <basemetals:platinum_door_item>
-    <basemetals:tin_door_item>
-    <basemetals:copper_door_item>
-    <basemetals:invar_door_item>
-    <basemetals:silver_door_item>
-    <basemetals:adamantine_door_item>
-Ore entries for <ore:rodIron> :
-    <basemetals:iron_rod>
-Ore entries for <ore:rod> :
-    <basemetals:iron_rod>
-    <basemetals:gold_rod>
-    <basemetals:nickel_rod>
-    <basemetals:steel_rod>
-    <basemetals:electrum_rod>
-    <basemetals:mithril_rod>
-    <basemetals:coldiron_rod>
-    <basemetals:brass_rod>
-    <basemetals:starsteel_rod>
-    <basemetals:lead_rod>
-    <basemetals:aquarium_rod>
-    <basemetals:bronze_rod>
-    <basemetals:cupronickel_rod>
-    <basemetals:platinum_rod>
-    <basemetals:tin_rod>
-    <basemetals:copper_rod>
-    <basemetals:invar_rod>
-    <basemetals:silver_rod>
-    <basemetals:adamantine_rod>
-    <basemetals:zinc_rod>
-Ore entries for <ore:gear> :
-    <basemetals:iron_gear>
-    <basemetals:steel_gear>
-    <basemetals:mithril_gear>
-    <basemetals:coldiron_gear>
-    <basemetals:starsteel_gear>
-    <basemetals:bronze_gear>
-    <basemetals:cupronickel_gear>
-    <basemetals:invar_gear>
-    <basemetals:adamantine_gear>
-Ore entries for <ore:stickGold> :
-    <basemetals:gold_rod>
-Ore entries for <ore:rodGold> :
-    <basemetals:gold_rod>
-Ore entries for <ore:stickNickel> :
-    <basemetals:nickel_rod>
-Ore entries for <ore:rodNickel> :
-    <basemetals:nickel_rod>
-Ore entries for <ore:trapdoor> :
-    <basemetals:nickel_trapdoor>
-    <basemetals:steel_trapdoor>
-    <basemetals:electrum_trapdoor>
-    <basemetals:mithril_trapdoor>
-    <basemetals:coldiron_trapdoor>
-    <basemetals:brass_trapdoor>
-    <basemetals:starsteel_trapdoor>
-    <basemetals:lead_trapdoor>
-    <basemetals:aquarium_trapdoor>
-    <basemetals:bronze_trapdoor>
-    <basemetals:cupronickel_trapdoor>
-    <basemetals:platinum_trapdoor>
-    <basemetals:tin_trapdoor>
-    <basemetals:copper_trapdoor>
-    <basemetals:invar_trapdoor>
-    <basemetals:silver_trapdoor>
-    <basemetals:adamantine_trapdoor>
-Ore entries for <ore:rodSteel> :
-    <basemetals:steel_rod>
-Ore entries for <ore:sprocket> :
-    <basemetals:steel_gear>
-Ore entries for <ore:stickElectrum> :
-    <basemetals:electrum_rod>
-Ore entries for <ore:rodElectrum> :
-    <basemetals:electrum_rod>
-Ore entries for <ore:stickMithril> :
-    <basemetals:mithril_rod>
-Ore entries for <ore:rodMithril> :
-    <basemetals:mithril_rod>
-Ore entries for <ore:stickColdiron> :
-    <basemetals:coldiron_rod>
-Ore entries for <ore:rodColdiron> :
-    <basemetals:coldiron_rod>
-Ore entries for <ore:stickBrass> :
-    <basemetals:brass_rod>
-Ore entries for <ore:rodBrass> :
-    <basemetals:brass_rod>
-Ore entries for <ore:stickStarsteel> :
-    <basemetals:starsteel_rod>
-Ore entries for <ore:rodStarsteel> :
-    <basemetals:starsteel_rod>
-Ore entries for <ore:stickLead> :
-    <basemetals:lead_rod>
-Ore entries for <ore:rodLead> :
-    <basemetals:lead_rod>
-Ore entries for <ore:stickAquarium> :
-    <basemetals:aquarium_rod>
-Ore entries for <ore:rodAquarium> :
-    <basemetals:aquarium_rod>
-Ore entries for <ore:stickBronze> :
-    <basemetals:bronze_rod>
-Ore entries for <ore:rodBronze> :
-    <basemetals:bronze_rod>
-Ore entries for <ore:stickCupronickel> :
-    <basemetals:cupronickel_rod>
-Ore entries for <ore:rodCupronickel> :
-    <basemetals:cupronickel_rod>
-Ore entries for <ore:stickPlatinum> :
-    <basemetals:platinum_rod>
-Ore entries for <ore:rodPlatinum> :
-    <basemetals:platinum_rod>
-Ore entries for <ore:stickTin> :
-    <basemetals:tin_rod>
-Ore entries for <ore:rodTin> :
-    <basemetals:tin_rod>
-Ore entries for <ore:rodCopper> :
-    <basemetals:copper_rod>
-Ore entries for <ore:stickInvar> :
-    <basemetals:invar_rod>
-Ore entries for <ore:rodInvar> :
-    <basemetals:invar_rod>
-Ore entries for <ore:stickSilver> :
-    <basemetals:silver_rod>
-Ore entries for <ore:rodSilver> :
-    <basemetals:silver_rod>
-Ore entries for <ore:stickAdamantine> :
-    <basemetals:adamantine_rod>
-Ore entries for <ore:rodAdamantine> :
-    <basemetals:adamantine_rod>
-Ore entries for <ore:stickZinc> :
-    <basemetals:zinc_rod>
-Ore entries for <ore:rodZinc> :
-    <basemetals:zinc_rod>
-Ore entries for <ore:shardGlassColorless> :
-    <charsettweaks:shard>
-Ore entries for <ore:shardGlassWhite> :
-    <charsettweaks:shard:1>
-Ore entries for <ore:shardGlassOrange> :
-    <charsettweaks:shard:2>
-Ore entries for <ore:shardGlassMagenta> :
-    <charsettweaks:shard:3>
-Ore entries for <ore:shardGlassLightBlue> :
-    <charsettweaks:shard:4>
-Ore entries for <ore:shardGlassYellow> :
-    <charsettweaks:shard:5>
-Ore entries for <ore:shardGlassLime> :
-    <charsettweaks:shard:6>
-Ore entries for <ore:shardGlassPink> :
-    <charsettweaks:shard:7>
-Ore entries for <ore:shardGlassGray> :
-    <charsettweaks:shard:8>
-Ore entries for <ore:shardGlassLightGray> :
-    <charsettweaks:shard:9>
-Ore entries for <ore:shardGlassCyan> :
-    <charsettweaks:shard:10>
-Ore entries for <ore:shardGlassPurple> :
-    <charsettweaks:shard:11>
-Ore entries for <ore:shardGlassBlue> :
-    <charsettweaks:shard:12>
-Ore entries for <ore:shardGlassBrown> :
-    <charsettweaks:shard:13>
-Ore entries for <ore:shardGlassGreen> :
-    <charsettweaks:shard:14>
-Ore entries for <ore:shardGlassRed> :
-    <charsettweaks:shard:15>
-Ore entries for <ore:shardGlassBlack> :
-    <charsettweaks:shard:16>
-Ore entries for <ore:foodMilk> :
-    <druidry:bowl>
-    <minecraft:milk_bucket>
 Ore entries for <ore:nuggetEnderpearl> :
     <enderio:itemPowderIngot:5>
-Ore entries for <ore:dustAlubrass> :
-    <fp:dust:1302>
-Ore entries for <ore:dustBioterium> :
-    <fp:dust:2309>
-Ore entries for <ore:dustConductiveIron> :
-    <fp:dust:8258>
-Ore entries for <ore:dustDarkSteel> :
-    <fp:dust:32125>
-Ore entries for <ore:dustDawnstone> :
-    <fp:dust:28675>
-Ore entries for <ore:dustDreadium> :
-    <fp:dust:15357>
-Ore entries for <ore:dustElectricalSteel> :
-    <fp:dust:16386>
-Ore entries for <ore:dustElvenElementium> :
-    <fp:dust:2>
-Ore entries for <ore:dustEnchantedMetal> :
-    <fp:dust:3>
-Ore entries for <ore:dustEnergeticAlloy> :
-    <fp:dust:258>
-Ore entries for <ore:dustEthaxium> :
-    <fp:dust:18366>
-Ore entries for <ore:dustGildedIron> :
-    <fp:dust:296>
-Ore entries for <ore:dustGlowtite> :
-    <fp:dust:25328>
-Ore entries for <ore:dustKnightslime> :
-    <fp:dust:9476>
-Ore entries for <ore:dustManasteel> :
-    <fp:dust:23926>
-Ore entries for <ore:dustManyullyn> :
-    <fp:dust:24406>
-Ore entries for <ore:dustNeon> :
-    <fp:dust:7721>
-Ore entries for <ore:dustPulsatingIron> :
-    <fp:dust:22521>
-Ore entries for <ore:dustQuantanium> :
-    <fp:dust:38>
-Ore entries for <ore:dustRareEarthMetal> :
-    <fp:dust:517>
-Ore entries for <ore:dustRedstoneAlloy> :
-    <fp:dust:16389>
-Ore entries for <ore:dustRetium> :
-    <fp:dust:30171>
-Ore entries for <ore:dustSoularium> :
-    <fp:dust:4>
-Ore entries for <ore:dustTerrasteel> :
-    <fp:dust:4099>
-Ore entries for <ore:dustThundersteel> :
-    <fp:dust:5>
-Ore entries for <ore:dustThundersteelAwakened> :
-    <fp:dust:6>
-Ore entries for <ore:dustVibrantAlloy> :
-    <fp:dust:16545>
-Ore entries for <ore:dustWakurum> :
-    <fp:dust:20832>
-Ore entries for <ore:oreTungsten> :
-    <nethermetals:nether_tungsten_ore>
-Ore entries for <ore:oreManganese> :
-    <nethermetals:nether_manganese_ore>
-Ore entries for <ore:oreMagnesium> :
-    <nethermetals:nether_magnesium_ore>
 Ore entries for <ore:wool> :
     <modularutilities:feathers>
     <minecraft:wool>
-Ore entries for <ore:gearGilded> :
-    <railcraft:gear>
-Ore entries for <ore:oreAntimony> :
-    <nethermetals:nether_antimony_ore>
-Ore entries for <ore:oreBismuth> :
-    <nethermetals:nether_bismuth_ore>
-Ore entries for <ore:oreCadmium> :
-    <nethermetals:nether_cadmium_ore>
-Ore entries for <ore:oreChromium> :
-    <nethermetals:nether_chromium_ore>
-Ore entries for <ore:orePlutonium> :
-    <nethermetals:nether_plutonium_ore>
-Ore entries for <ore:oreTantalum> :
-    <nethermetals:nether_tantalum_ore>
-Ore entries for <ore:oreZirconium> :
-    <nethermetals:nether_zirconium_ore>
+Ore entries for <ore:oreSulfur> :
+    <thebetweenlands:sulfur_ore>
+Ore entries for <ore:oreSyrmorite> :
+    <thebetweenlands:syrmorite_ore>
+Ore entries for <ore:oreBone> :
+    <thebetweenlands:slimy_bone_ore>
+Ore entries for <ore:oreOctine> :
+    <thebetweenlands:octine_ore>
+Ore entries for <ore:oreValonite> :
+    <thebetweenlands:valonite_ore>
+Ore entries for <ore:oreAquaMiddleGem> :
+    <thebetweenlands:aqua_middle_gem_ore>
+Ore entries for <ore:oreGreenMiddleGem> :
+    <thebetweenlands:green_middle_gem_ore>
+Ore entries for <ore:oreCrimsonMiddleGem> :
+    <thebetweenlands:crimson_middle_gem_ore>
+Ore entries for <ore:oreLifeCrystal> :
+    <thebetweenlands:life_crystal_stalactite>
+Ore entries for <ore:blockSulfur> :
+    <thebetweenlands:sulfur_block>
+Ore entries for <ore:blockSyrmorite> :
+    <thebetweenlands:syrmorite_block>
+Ore entries for <ore:blockBone> :
+    <thebetweenlands:slimy_bone_block>
+Ore entries for <ore:blockOctine> :
+    <thebetweenlands:octine_block>
+Ore entries for <ore:blockValonite> :
+    <thebetweenlands:valonite_block>
+Ore entries for <ore:blockAquaMiddleGem> :
+    <thebetweenlands:aqua_middle_gem_block>
+Ore entries for <ore:blockGreenMiddleGem> :
+    <thebetweenlands:green_middle_gem_block>
+Ore entries for <ore:blockCrimsonMiddleGem> :
+    <thebetweenlands:crimson_middle_gem_block>
+Ore entries for <ore:foodMushroom> :
+    <thebetweenlands:bulb_capped_mushroom_item>
+    <thebetweenlands:black_hat_mushroom_item>
+    <thebetweenlands:flat_head_mushroom_item>
+Ore entries for <ore:ingotSyrmorite> :
+    <thebetweenlands:items_misc:11>
+Ore entries for <ore:ingotOctine> :
+    <thebetweenlands:octine_ingot>
+Ore entries for <ore:gemValonite> :
+    <thebetweenlands:items_misc:19>
+Ore entries for <ore:gemAquaMiddleGem> :
+    <thebetweenlands:aqua_middle_gem>
+Ore entries for <ore:gemCrimsonMiddleGem> :
+    <thebetweenlands:crimson_middle_gem>
+Ore entries for <ore:gemGreenMiddleGem> :
+    <thebetweenlands:green_middle_gem>
+Ore entries for <ore:gemLifeCrystal> :
+    <thebetweenlands:life_crystal>
+Ore entries for <ore:gateWood> :
+    <minecraft:acacia_fence_gate>
+    <minecraft:dark_oak_fence_gate>
+    <minecraft:birch_fence_gate>
+    <minecraft:jungle_fence_gate>
+    <minecraft:fence_gate>
+    <minecraft:spruce_fence_gate>
+Ore entries for <ore:blockGravel> :
+    <minecraft:gravel>
+Ore entries for <ore:bottleWater> :
+    <minecraft:potion>
+Ore entries for <ore:boatWood> :
+    <minecraft:boat>
+    <minecraft:spruce_boat>
+    <minecraft:birch_boat>
+    <minecraft:jungle_boat>
+    <minecraft:acacia_boat>
+    <minecraft:dark_oak_boat>
