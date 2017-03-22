@@ -51,9 +51,11 @@
     mods.botania.Orechid.addOre(<ore:oreSulfur>, 1);                        # Sulfur Ore
     mods.botania.Orechid.addOre(<ore:oreIridium>, 1);                       # Iridium Ore
     mods.botania.Orechid.addOre(<ore:oreDilithium>, 1);                     # Dilithium Ore
-    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        # Rutile Ore
-    
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
+    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        # Rutile Ore    
+    #mods.botania.Orechid.addOre(<>, 1);                              # 
+    #mods.botania.Orechid.addOre(<>, 1);                              # 
+    #mods.botania.Orechid.addOre(<>, 1);                              # 
+    #mods.botania.Orechid.addOre(<>, 1);                              # 
+
+# Pure Daisy
+    mods.botania.PureDaisy.addRecipe(<primal:cinisclay_block:*>, <minecraft:clay>);
