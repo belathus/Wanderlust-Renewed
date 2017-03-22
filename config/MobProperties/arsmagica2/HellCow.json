@@ -1,33 +1,30 @@
 {
     "_name": "arsmagica2.HellCow",
     "drops": [
+        { "function" : "external", "file" : "rawsteak" },
+        { "function" : "external", "file" : "leather" },
         {
-            "function" : "choose",
+            "function" : "if_above_looting_0",
+            "count" : 0.1,
             "functions" : [
-                {
-                    "_comment" : "Adding steak to the hellcow's drops",
-                    "weight" : 4,
-                    "function" : "add",
-                    "id" : "animania:raw_hereford_beef",
-                    "damage" : 0,
-                    "count" : 1
-                },
-                {
-                    "_comment" : "Adding steak to the hellcow's drops",
-                    "weight" : 3,
-                    "function" : "add",
-                    "id" : "animania:raw_longhorn_beef",
-                    "damage" : 0,
-                    "count" : 1
-                },
-                {
-                    "_comment" : "Adding steak to the hellcow's drops",
-                    "weight" : 2,
-                    "function" : "add",
-                    "id" : "animania:raw_angus_beef",
-                    "damage" : 0,
-                    "count" : 1
-                }
+                { "function" : "external", "file" : "rawsteak" },
+                { "function" : "external", "file" : "leather" }
+            ]
+        },
+        {
+            "function" : "if_above_looting_1",
+            "count" : 0.1,
+            "functions" : [
+                { "function" : "external", "file" : "rawsteak" },
+                { "function" : "external", "file" : "leather" }
+            ]
+        },
+        {
+            "function" : "if_above_looting_2",
+            "count" : 0.1,
+            "functions" : [
+                { "function" : "external", "file" : "rawsteak" },
+                { "function" : "external", "file" : "leather" }
             ]
         }
     ],
