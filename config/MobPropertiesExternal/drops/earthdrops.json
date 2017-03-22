@@ -88,109 +88,107 @@
             "function" : "if_has_potion_18",
             "functions" : [
                 {
-                    {
-                        "function" : "choose",
-                        "functions" : [
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "arsmagica2:item_ore",
-                                "damage" : 2,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "arsmagica2:item_ore",
-                                "damage" : 3,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "arsmagica2:item_ore",
-                                "damage" : 4,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "arsmagica2:item_ore",
-                                "damage" : 5,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 2,
-                                "function" : "add",
-                                "id" : "abyssalcraft:shadowgem",
-                                "damage" : 0,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "extrautils2:ingredients",
-                                "damage" : 0,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "extrautils2:ingredients",
-                                "damage" : 0,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 1,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 2,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 3,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 4,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 5,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 6,
-                                "count" : 1
-                            },
-                            {
-                                "weight" : 5,
-                                "function" : "add",
-                                "id" : "biomesoplenty:gem",
-                                "damage" : 7,
-                                "count" : 1
-                            }
-                        ]
-                    }
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "arsmagica2:item_ore",
+                            "damage" : 2,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "arsmagica2:item_ore",
+                            "damage" : 3,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "arsmagica2:item_ore",
+                            "damage" : 4,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "arsmagica2:item_ore",
+                            "damage" : 5,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 2,
+                            "function" : "add",
+                            "id" : "abyssalcraft:shadowgem",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "extrautils2:ingredients",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "extrautils2:ingredients",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 1,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 2,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 3,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 4,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 5,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 6,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "biomesoplenty:gem",
+                            "damage" : 7,
+                            "count" : 1
+                        }
+                    ]
                 }
             ]
         }
