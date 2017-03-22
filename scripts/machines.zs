@@ -153,12 +153,33 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>],
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
-         
+
+# Immersive Engineering
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
+         [<primal:ciniscotta>,<ore:sandstone>,<primal:ciniscotta>],
+         [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
+         [<primal:terracotta>,<ore:sandstone>,<primal:terracotta>],
+         [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<ore:ingotBrick>,<ore:clayball>],
+         [<ore:ingotBrick>,<ore:blockSoulstone>,<ore:ingotBrick>],
+         [<ore:clayball>,<ore:ingotBrick>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
+         [<primal:ciniscotta>,<ore:blockSoulstone>,<primal:ciniscotta>],
+         [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
+         [<primal:terracotta>,<ore:blockSoulstone>,<primal:terracotta>],
+         [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
+
 # Minecolonies
     recipes.remove(<minecolonies:supplyChestDeployer>);
     recipes.addShaped(<minecolonies:supplyChestDeployer>,
-        [[null, null, null],
-         [<ore:boatWood>, <forestry:hardenedMachine>, <ore:boatWood>],
+        [[<ore:boatWood>, <forestry:hardenedMachine>, <ore:boatWood>],
          [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
 
 # Persistent Bits
