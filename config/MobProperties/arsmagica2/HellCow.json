@@ -29,5 +29,17 @@
         }
     ],
     "pre_stats": [],
-    "stats": []
+    "stats": [
+        {
+            "_comment" : "If in the nether ...",
+            "function" : "if_in_dimension_-1",
+            "functions" : [
+                {
+                    "function" : "potion",
+                    "id" : "potion.fireResistance",
+                    "ambient" : "true"
+                }
+            ]
+        }
+    ]
 }
