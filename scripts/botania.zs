@@ -52,10 +52,13 @@
     mods.botania.Orechid.addOre(<ore:oreIridium>, 1);                       # Iridium Ore
     mods.botania.Orechid.addOre(<ore:oreDilithium>, 1);                     # Dilithium Ore
     mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        # Rutile Ore    
-    #mods.botania.Orechid.addOre(<>, 1);                              # 
-    #mods.botania.Orechid.addOre(<>, 1);                              # 
-    #mods.botania.Orechid.addOre(<>, 1);                              # 
-    #mods.botania.Orechid.addOre(<>, 1);                              # 
 
 # Pure Daisy
     mods.botania.PureDaisy.addRecipe(<primal:cinisclay_block:*>, <minecraft:clay>);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_stone:*>, <primal:carbonate_stone>);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_flag:*>, <primal:carbonate_flag>);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_brick:*>, <primal:carbonate_brick>);
+    mods.botania.PureDaisy.addRecipe(<natura:nether_tainted_soil>,<minecraft:dirt>);
+    mods.botania.PureDaisy.addRecipe(<primal:nether_earth>,<minecraft:dirt>);
+    mods.botania.PureDaisy.addRecipe(<primal:netherpalm_plank:*>,<minecraft:planks>);
+    mods.botania.PureDaisy.addRecipe(<natura:nether_heat_sand>,<minecraft:sand:1>);
