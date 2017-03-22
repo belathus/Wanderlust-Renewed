@@ -1,6 +1,23 @@
 {
   "_name": "arsmagica2.EarthElemental",
-  "drops": [],
+  "drops": [
+    { "function" : "external", "file" : "earthdrops" },
+    {
+        "function" : "if_above_looting_0",
+        "count" : 0.2,
+        "functions" : [{ "function" : "external", "file" : "earthdrops" }]
+    },
+    {
+        "function" : "if_above_looting_1",
+        "count" : 0.2,
+        "functions" : [{ "function" : "external", "file" : "earthdrops" }]
+    },
+    {
+        "function" : "if_above_looting_2",
+        "count" : 0.2,
+        "functions" : [{ "function" : "external", "file" : "earthdrops" }]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

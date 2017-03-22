@@ -212,7 +212,7 @@
     recipes.addShapeless(<abyssalcraft:necronomicon>,
         [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
 
-# Ars Magica 2 Parchment
+# Ars Magica 2
     recipes.remove(<arsmagica2:spell_parchment>);
     #recipes.addShapeless(<arsmagica2:spell_parchment>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<roots:druidKnife:*>.transformDamage()]);
@@ -246,6 +246,9 @@
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:flint_workblade:*>.transformDamage()]);
     recipes.addShapeless(<arsmagica2:spell_parchment>,
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:quartz_workblade:*>.transformDamage()]);
+    furnace.remove(<arsmagica2:item_ore:6>);
+    recipes.addShapeless(<arsmagica2:item_ore:6>,
+        [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
 
 # Backpack
 #    recipes.remove(<backpack:stick:0>);

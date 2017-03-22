@@ -1,0 +1,198 @@
+{
+    "function" : "all",
+    "functions" : [
+        {
+            "_comment" : "this file is largely to list the possible drops from earth elementals",
+            "function" : "choose",
+            "functions" : [
+                {
+                    "weight" : 100,
+                    "function" : "add",
+                    "id" : "minecraft:cobblestone",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 20,
+                    "function" : "add",
+                    "id" : "primal:rock_stone",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 20,
+                    "function" : "add",
+                    "id" : "primal:rock_andesite",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 20,
+                    "function" : "add",
+                    "id" : "primal:rock_diorite",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 20,
+                    "function" : "add",
+                    "id" : "primal:rock_granite",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 10,
+                    "function" : "add",
+                    "id" : "primal:rock_netherrack",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 10,
+                    "function" : "add",
+                    "id" : "primal:rock_sarsen",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 10,
+                    "function" : "add",
+                    "id" : "minecraft:clay_ball",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 5,
+                    "function" : "add",
+                    "id" : "botania:livingrock",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 5,
+                    "function" : "add",
+                    "id" : "bloodmagic:ItemSlate",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 5,
+                    "function" : "add",
+                    "id" : "minecraft:redstone",
+                    "damage" : 0,
+                    "count" : 1
+                }
+            ]
+        },
+        {
+            "function" : "if_has_potion_18",
+            "functions" : [
+                {
+                    {
+                        "function" : "choose",
+                        "functions" : [
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "arsmagica2:item_ore",
+                                "damage" : 2,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "arsmagica2:item_ore",
+                                "damage" : 3,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "arsmagica2:item_ore",
+                                "damage" : 4,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "arsmagica2:item_ore",
+                                "damage" : 5,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 2,
+                                "function" : "add",
+                                "id" : "abyssalcraft:shadowgem",
+                                "damage" : 0,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "extrautils2:ingredients",
+                                "damage" : 0,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "extrautils2:ingredients",
+                                "damage" : 0,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 1,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 2,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 3,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 4,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 5,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 6,
+                                "count" : 1
+                            },
+                            {
+                                "weight" : 5,
+                                "function" : "add",
+                                "id" : "biomesoplenty:gem",
+                                "damage" : 7,
+                                "count" : 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
