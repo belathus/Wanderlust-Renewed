@@ -5,7 +5,7 @@
 
 # Vanilla
     recipes.addShapeless(<minecraft:chest>,
-        [[<ore:chestWood>]);
+        [<ore:chestWood>]);
 
 # Backpacks
 /*    recipes.remove(<backpack:backpack_frame:2>);
