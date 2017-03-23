@@ -1,6 +1,47 @@
 {
-  "_name": "LavaSlime",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "LavaSlime",
+    "drops": [
+        {
+            "_comment" : "Adding slime pearls to the magma slime's drops",
+            "function" : "add",
+            "id" : "xreliquary:mob_ingredient",
+            "damage" : 4,
+            "count" : 0.1
+        },
+        {
+            "function" : "if_above_looting_0"
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "xreliquary:mob_ingredient",
+                    "damage" : 4,
+                    "count" : 0.05
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_1"
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "xreliquary:mob_ingredient",
+                    "damage" : 4,
+                    "count" : 0.05
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_2"
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "xreliquary:mob_ingredient",
+                    "damage" : 4,
+                    "count" : 0.05
+                }
+            ]
+        }
+    ],
+    "pre_stats": [],
+    "stats": []
 }
