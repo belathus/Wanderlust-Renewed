@@ -70,4 +70,11 @@
          [<arsmagica2:wooden_leg>,<ore:plankWood>,<arsmagica2:wooden_leg>],
          [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
          
+# Immersive Engineering
+    recipes.addShaped(<immersiveengineering:treatedWood>*3,
+        [[<immersiveengineering:treatedWoodStairs0>,<immersiveengineering:treatedWoodStairs0>],
+         [<immersiveengineering:treatedWoodStairs0>,<immersiveengineering:treatedWoodStairs0>]]);
+    recipes.addShaped(<immersiveengineering:treatedWood>,
+        [[<immersiveengineering:treatedWoodSlab>],
+         [<immersiveengineering:treatedWoodSlab>]]);
 

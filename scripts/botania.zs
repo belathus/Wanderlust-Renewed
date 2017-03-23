@@ -54,11 +54,12 @@
     mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        # Rutile Ore    
 
 # Pure Daisy
-    mods.botania.PureDaisy.addRecipe(<primal:cinisclay_block:*>, <minecraft:clay>);
-    mods.botania.PureDaisy.addRecipe(<primal:ferro_stone:*>, <primal:carbonate_stone>);
-    mods.botania.PureDaisy.addRecipe(<primal:ferro_flag:*>, <primal:carbonate_flag>);
-    mods.botania.PureDaisy.addRecipe(<primal:ferro_brick:*>, <primal:carbonate_brick>);
-    mods.botania.PureDaisy.addRecipe(<natura:nether_tainted_soil>,<minecraft:dirt>);
-    mods.botania.PureDaisy.addRecipe(<primal:nether_earth>,<minecraft:dirt>);
-    mods.botania.PureDaisy.addRecipe(<primal:netherpalm_plank:*>,<minecraft:planks>);
-    mods.botania.PureDaisy.addRecipe(<natura:nether_heat_sand>,<minecraft:sand:1>);
+    mods.botania.PureDaisy.addRecipe(<primal:cinisclay_block:*>, <minecraft:clay>, 1200);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_stone:*>, <primal:carbonate_stone>, 1200);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_flag:*>, <primal:carbonate_flag>, 1200);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_brick:*>, <primal:carbonate_brick>, 1200);
+    mods.botania.PureDaisy.addRecipe(<natura:nether_tainted_soil>,<minecraft:dirt>, 1200);
+    mods.botania.PureDaisy.addRecipe(<primal:nether_earth>,<minecraft:dirt>, 1200);
+    mods.botania.PureDaisy.addRecipe(<primal:netherpalm_plank:*>,<minecraft:planks>, 1200);
+    mods.botania.PureDaisy.addRecipe(<natura:nether_heat_sand>,<minecraft:sand:1>, 1200);
+    mods.botania.PureDaisy.addRecipe(<primal:ash_block>,<minecraft:snow>, 1200);
