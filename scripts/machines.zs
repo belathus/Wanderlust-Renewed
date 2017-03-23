@@ -116,13 +116,13 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
 # EnderIo
     recipes.remove(<enderio:itemMachinePart>);
     recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:barsSteel>,<ore:ingotSteel>,<ore:barsSteel>],
+        [[<ore:plateSteel>,<ore:ingotSteel>,<ore:plateSteel>],
          [<ore:ingotSteel>,<enderio:itemBasicCapacitor>,<ore:ingotSteel>],
-         [<ore:barsSteel>,<ore:ingotSteel>,<ore:barsSteel>]]);
+         [<ore:plateSteel>,<ore:ingotSteel>,<ore:plateSteel>]]);
     recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>],
-         [<ore:barsSteel>,<enderio:itemBasicCapacitor>,<ore:barsSteel>],
-         [<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>]]);
+        [[<ore:ingotSteel>,<ore:plateSteel>,<ore:ingotSteel>],
+         [<ore:plateSteel>,<enderio:itemBasicCapacitor>,<ore:plateSteel>],
+         [<ore:ingotSteel>,<ore:plateSteel>,<ore:ingotSteel>]]);
     recipes.remove(<enderio:blockSagMill>);
     recipes.addShaped(<enderio:blockSagMill>,
         [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
