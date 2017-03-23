@@ -6,9 +6,16 @@
             "function" : "choose",
             "functions" : [
                 {
-                    "weight" : 100,
+                    "weight" : 30,
                     "function" : "add",
                     "id" : "minecraft:cobblestone",
+                    "damage" : 0,
+                    "count" : 1
+                },
+                {
+                    "weight" : 5,
+                    "function" : "add",
+                    "id" : "extrautils2:compressedcobblestone",
                     "damage" : 0,
                     "count" : 1
                 },
@@ -126,6 +133,7 @@
                             "count" : 1
                         },
                         {
+                            "_comment" : "Resonating Redstone Crystal",
                             "weight" : 5,
                             "function" : "add",
                             "id" : "extrautils2:ingredients",
@@ -133,27 +141,31 @@
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Extra Utilities' moonstone",
+                            "weight" : 1,
                             "function" : "add",
                             "id" : "extrautils2:ingredients",
-                            "damage" : 0,
+                            "damage" : 4,
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Ruby",
+                            "weight" : 2,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
                             "damage" : 1,
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Peridot",
+                            "weight" : 6,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
                             "damage" : 2,
                             "count" : 1
                         },
                         {
+                            "_comment" : "Topaz",
                             "weight" : 5,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
@@ -161,28 +173,32 @@
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Tanzanite",
+                            "weight" : 1,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
                             "damage" : 4,
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Malachite",
+                            "weight" : 7,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
                             "damage" : 5,
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Sapphire",
+                            "weight" : 3,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
                             "damage" : 6,
                             "count" : 1
                         },
                         {
-                            "weight" : 5,
+                            "_comment" : "Amber",
+                            "weight" : 10,
                             "function" : "add",
                             "id" : "biomesoplenty:gem",
                             "damage" : 7,
