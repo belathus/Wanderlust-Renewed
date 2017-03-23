@@ -288,6 +288,117 @@
                     "slot" : "offhand"
                 }
             ]
+        },
+        {
+            "function" : "choose",
+            "count" : 0.50,
+            "functions" : [
+                {
+                    "_comment" : "Hardened leather armor",
+                    "weight" : 10,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "harvestcraft:hardenedleatherhelmItem",
+                            "slot" : "head"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "harvestcraft:hardenedleatherchestItem",
+                            "slot" : "chest"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "harvestcraft:hardenedleatherleggingsItem",
+                            "slot" : "legs"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "harvestcraft:hardenedleatherbootsItem",
+                            "slot" : "feet"
+                        }
+                    ]
+                },
+                {
+                    "_comment" : "Imphide armor",
+                    "weight" : 13,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "natura:imp_armor_helmet",
+                            "slot" : "head"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "natura:imp_armor_chestplate",
+                            "slot" : "chest"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "natura:imp_armor_leggings",
+                            "slot" : "legs"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "natura:imp_armor_boots",
+                            "slot" : "feet"
+                        }
+                    ]
+                },
+                {
+                    "_comment" : "Gilded armor",
+                    "weight" : 7,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "dungeontactics:gilded_helmet",
+                            "slot" : "head"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "dungeontactics:gilded_chestplate",
+                            "slot" : "chest"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "dungeontactics:gilded_leggings",
+                            "slot" : "legs"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.33,
+                            "id" : "dungeontactics:gilded_boots",
+                            "slot" : "feet"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
