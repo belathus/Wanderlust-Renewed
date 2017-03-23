@@ -186,8 +186,8 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
     recipes.remove(<persistentbits:chunk_loader>);
     recipes.addShaped(<persistentbits:chunk_loader>,
         [[null, <xreliquary:void_tear_empty>, null],
-         [<ore:gemDiamond>, <ore:ingotAdamantine>, <ore:gemDiamond>],
-         [<ore:ingotAdamantine>, <minecraft:enchanting_table:*>, <ore:ingotAdamantine>]]);
+         [<ore:gemDiamond>, <ore:ingotAdamant>, <ore:gemDiamond>],
+         [<ore:ingotAdamant>, <minecraft:enchanting_table:*>, <ore:ingotAdamant>]]);
 
 # RFTools
     recipes.remove(<rftools:machine_frame>);

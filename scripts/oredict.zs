@@ -35,6 +35,15 @@
     <ore:boatWood>.add(<minecraft:jungle_boat>);
     <ore:boatWood>.add(<minecraft:acacia_boat>);
     <ore:boatWood>.add(<minecraft:dark_oak_boat>);
+    <ore:stoneLimestone>.add(<primal:carbonate_stone>);
+    <ore:stoneLimestone>.add(<primal:ferro_stone>);
+    <ore:blockLimestone>.add(<quark:limestone>);
+    <ore:stoneLimestone>.add(<chisel:limestone:*>);
+    <ore:blockLimestone>.add(<chisel:limestone:*>);
+    <ore:stoneLimestone>.add(<chisel:limestone1:*>);
+    <ore:blockLimestone>.add(<chisel:limestone1:*>);
+    <ore:blockLimestone>.add(<biomesoplenty:stone>);
+    
     
 # Adding ores to the normal oredict entries
 #    <ore:oreEmerald>.add(<nethermetals:nether_emerald_ore>);
