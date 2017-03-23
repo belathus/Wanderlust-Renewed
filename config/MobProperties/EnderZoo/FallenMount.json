@@ -1,6 +1,51 @@
 {
-  "_name": "EnderZoo.FallenMount",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "EnderZoo.FallenMount",
+    "drops": [
+        {
+            "function" : "if_recently_hit",
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "minecraft:saddle",
+                    "damage" : 0,
+                    "count" : 0.085
+                },
+                {
+                    "function" : "if_above_looting_0",
+                    "functions" : [
+                        {
+                            "function" : "add",
+                            "id" : "minecraft:saddle",
+                            "damage" : 0,
+                            "count" : 0.01
+                        }
+                    ]
+                },
+                {
+                    "function" : "if_above_looting_1",
+                    "functions" : [
+                        {
+                            "function" : "add",
+                            "id" : "minecraft:saddle",
+                            "damage" : 0,
+                            "count" : 0.01
+                        }
+                    ]
+                },
+                {
+                    "function" : "if_above_looting_2",
+                    "functions" : [
+                        {
+                            "function" : "add",
+                            "id" : "minecraft:saddle",
+                            "damage" : 0,
+                            "count" : 0.01
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "pre_stats": [],
+    "stats": []
 }
