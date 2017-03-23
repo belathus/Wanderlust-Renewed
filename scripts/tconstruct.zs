@@ -21,7 +21,7 @@
         mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treatedWood>, <liquid:creosote>*125, plank, true, 200);    
     }
 #    for i, log in list_logs {
-#        mods.tconstruct.Casting.addBasinRecipe(<railcraft:generic:5>, <liquid:creosote>*500, log, true, 800);    
+        mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treatedWood> * 4, <liquid:creosote>*500, log, true, 800);    
 #    }
 
 
