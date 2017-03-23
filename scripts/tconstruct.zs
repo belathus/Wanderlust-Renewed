@@ -26,13 +26,17 @@
         mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treatedWood> * 4, <liquid:creosote>*500, log, true, 800);    
     }
 
+# Treated wood crates via basin
+    mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:woodenDevice0>, <liquid:creosote>*1000, <minecraft:chest>, true, 1600);
 
 # pouring water on burning coal deposits should put the fire out
     mods.tconstruct.Casting.addBasinRecipe(<minecraft:coal_block>,<liquid:water>*200,<rockhounding_oretiers:seamFire>, true, 40);
 
+# Remove iron ore processing from the Smeltery
     mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_ore>);
     #mods.tconstruct.Smeltery.removeMelting(<railcraft:ore:5>);
 
+# Making magic saplings
     mods.tconstruct.Casting.addBasinRecipe(<integrateddynamics:menrilSapling>, <liquid:menrilresin>*8000, <minecraft:sapling:*>, true, 3600);
     mods.tconstruct.Casting.addBasinRecipe(<arsmagica2:witchwood_sapling>, <liquid:liquid_essence>*8000, <minecraft:sapling:*>, true, 3600);
 
