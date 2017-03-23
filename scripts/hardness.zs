@@ -5,7 +5,7 @@
 <taiga:aurorium_ore>.hardness = 5;
 
 # Basalt: 20, 35, iron
-<taiga:basalt_ore>.hardness = 5;
+#<taiga:basalt_ore>.hardness = 5;
 
 # Duranite: 25, 1000, duranite
 <taiga:duranite_ore>.hardness = 5;
