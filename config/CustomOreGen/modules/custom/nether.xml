@@ -657,7 +657,7 @@
                         <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                     </Veins>
                     <Veins name='abysTinQuickGeodeCenter'  inherits='abysTinQuickGeode' branchType='Bezier' seed='0xA0F8' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                        <OreBlock block='minecraft:air' weight='1.0' />
+                        <OreBlock block='biomesoplenty:sand' weight='1.0' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
                         <Replaces block='abyssalcraft:abytinore' weight='1.0' />
                         <Replaces block='abyssalcraft:abynitore' weight='1.0' />
