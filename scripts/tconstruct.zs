@@ -22,9 +22,9 @@
     for i, plank in list_planks {
         mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treatedWood>, <liquid:creosote>*125, plank, true, 200);    
     }
-#    for i, log in list_logs {
+    for i, log in list_logs {
         mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:treatedWood> * 4, <liquid:creosote>*500, log, true, 800);    
-#    }
+    }
 
 
 # pouring water on burning coal deposits should put the fire out
