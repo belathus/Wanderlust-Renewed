@@ -29,12 +29,12 @@
                 { "function" : "external", "file" : "leather" }
             ]
         },
-        { "function":"if_recently_hit", "functions":[
+        { "function":"if_recently_hit", "functions":[{
             "function":"if_killed_with_magic","functions":[
                 { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.035 },
                 { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.035 }
             ]
-        ]}
+        }]}
     ],
     "pre_stats": [],
     "stats": [
