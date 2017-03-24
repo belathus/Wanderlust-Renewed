@@ -1,8 +1,10 @@
 {
     "_name": "arsmagica2.HellCow",
     "drops": [
-        { "function" : "external", "file" : "rawsteak" },
-        { "function" : "external", "file" : "leather" },
+        { "function":"remove", "id":"minecraft:diamond" },
+        { "function":"remove", "id":"minecraft:emerald" },
+        { "function":"external", "file":"rawsteak" },
+        { "function":"external", "file":"leather" },
         {
             "function" : "if_above_looting_0",
             "count" : 0.1,
@@ -26,7 +28,13 @@
                 { "function" : "external", "file" : "rawsteak" },
                 { "function" : "external", "file" : "leather" }
             ]
-        }
+        },
+        { "function":"if_recently_hit", "functions":[
+            "function":"if_killed_with_magic","functions":[
+                { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.035 },
+                { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.035 }
+            ]
+        ]}
     ],
     "pre_stats": [],
     "stats": [
