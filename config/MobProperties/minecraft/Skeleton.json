@@ -39,9 +39,9 @@
     },
     {
         "function" : "if_wither_skeleton",
+        "count" : 0.15,
         "functions" : [
             {
-                "count" : 0.15,
                 "function" : "equip",
                 "override" : "true",
                 "id" : "cyberware:katana",
