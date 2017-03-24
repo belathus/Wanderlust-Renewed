@@ -503,6 +503,23 @@
           "damage": 0
         }
       ]
+    },
+    {
+      "output": {
+        "itemName": "primal:valus_bread",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "inputs": [
+        {
+          "itemName": "primal:valus_melon",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        }
+      ]
     }
   ],
   "includes": [],
