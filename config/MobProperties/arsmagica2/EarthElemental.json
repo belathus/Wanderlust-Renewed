@@ -21,7 +21,7 @@
     "pre_stats": [],
     "stats": [
         {
-            "functions":"if_in_dimension_-1",
+            "function":"if_in_dimension_-1",
             "functions":[
                 {
                     "function":"if_below_90",
@@ -30,7 +30,7 @@
                             "function":"command",
                             "value":"tp @e[type=arsmagica2.EarthElemental,r=1] ~ -1000 ~",
                             "count":1,
-                            "supress_output":true
+                            "suppress_output":true
                         }
                     ]
                 }
