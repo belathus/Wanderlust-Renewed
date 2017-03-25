@@ -29,12 +29,26 @@
                 { "function" : "external", "file" : "leather" }
             ]
         },
-        { "function":"if_recently_hit", "functions":[{
-            "function":"if_killed_with_magic","functions":[
-                { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.035 },
-                { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.035 }
-            ]
-        }]}
+        { "function":"if_recently_hit", "functions":[
+            { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.035 },
+            { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.035 },
+            { "function":"add", "id":"evilcraft:darkGem", "damage":0, "count":0.035 },
+            { "function":"if_above_looting_0", "functions": [
+                { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.01 },
+                { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.01 },
+                { "function":"add", "id":"evilcraft:darkGem", "damage":0, "count":0.01 }
+            ]},
+            { "function":"if_above_looting_1", "functions": [
+                { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.01 },
+                { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.01 },
+                { "function":"add", "id":"evilcraft:darkGem", "damage":0, "count":0.01 }
+            ]},
+            { "function":"if_above_looting_2", "functions": [
+                { "function":"add", "id":"minecraft:diamond", "damage":0, "count":0.01 },
+                { "function":"add", "id":"minecraft:emerald", "damage":0, "count":0.01 },
+                { "function":"add", "id":"evilcraft:darkGem", "damage":0, "count":0.01 }
+            ]}
+        ]}
     ],
     "pre_stats": [],
     "stats": [
