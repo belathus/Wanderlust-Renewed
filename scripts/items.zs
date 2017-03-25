@@ -171,12 +171,6 @@
         for j, plate in plate_list {
             recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
         }
-        recipes.addShaped(<minecraft:quartz>*4,
-            [[hammer],[<minecraft:quartz_block:*>]]);
-        recipes.addShaped(<minecraft:quartz>*3,
-            [[hammer],[<minecraft:quartz_stairs>]]);
-        recipes.addShaped(<minecraft:quartz>*2,
-            [[hammer],[<minecraft:stone_slab:7>]]);
     }
     for i, plate in plate_list {
         #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
@@ -189,7 +183,14 @@
         [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
          [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
     recipes.remove(<minecraft:quartz>);
-    
+    for i, hammer in list_gallagher {
+        recipes.addShaped(<minecraft:quartz>*4,
+            [[hammer],[<minecraft:quartz_block:*>]]);
+        recipes.addShaped(<minecraft:quartz>*3,
+            [[hammer],[<minecraft:quartz_stairs>]]);
+        recipes.addShaped(<minecraft:quartz>*2,
+            [[hammer],[<minecraft:stone_slab:7>]]);
+    }
     # making sticks
 /*
     recipes.addShaped(<minecraft:stick>*8,
