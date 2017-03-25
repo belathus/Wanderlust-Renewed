@@ -169,16 +169,18 @@
     ] as minetweaker.item.IItemStack[][];
     for i, hammer in list_gallagher {
         for j, plate in plate_list {
-#            if plate != <charsetlib:icon> {
-                recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
-#            }
+            recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
         }
+        recipes.addShaped(<minecraft:quartz>*4,
+            [[hammer],[<minecraft:quartz_block:*>]]);
+        recipes.addShaped(<minecraft:quartz>*3,
+            [[hammer],[<minecraft:quartz_stairs>]]);
+        recipes.addShaped(<minecraft:quartz>*2,
+            [[hammer],[<minecraft:stone_slab:7>]]);
     }
     for i, plate in plate_list {
-#        if (plate == <charsetlib:icon>) {
-            #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
-            recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
-#        }
+        #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
+        recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
     }
     
 # Vanilla
@@ -186,6 +188,7 @@
     recipes.addShaped(<minecraft:paper>*3,
         [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
          [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
+    recipes.remove(<minecraft:quartz>);
     
     # making sticks
 /*
