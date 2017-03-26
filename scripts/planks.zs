@@ -132,7 +132,8 @@
         [<botanicaladdons:altLog1:0>,   <botanicaladdons:altPlanks:4>,      null, null],
         [<botanicaladdons:altLog1:1>,   <botanicaladdons:altPlanks:5>,      null, null],
         [<integrateddynamics:menrilLog>,<integrateddynamics:menrilPlanks>,  null, null],
-        [<evilcraft:undeadLog>,         <evilcraft:undeadPlank>,            null, null]
+        [<evilcraft:undeadLog>,         <evilcraft:undeadPlank>,            null, null],
+        [<primal:netherpalm_log:1>,       <primal:netherpalm_plank>,        null, null]
     ] as minetweaker.item.IItemStack[][];
 # For Loop; removes all plank recipes then re-adds them using the above nested array.
     for i, log_pair in list_logs {
