@@ -4,6 +4,7 @@
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
 
+
 # Vanilla
     recipes.remove(<minecraft:iron_ore>);
     recipes.addShapeless(<minecraft:iron_ore>, 
@@ -28,12 +29,23 @@
         }, function(output, crafting, player){
             player.removeXP(1);
         });
+    recipes.addShapeless(<minecraft:piston>,
+        [<minecraft:sticky_piston>,<evilcraft:bucketEternalWater>]);
+    recipes.addShapeless(<minecraft:piston>,
+        [<minecraft:sticky_piston>,<botania:waterRod>.reuse()]);
 
+# Animania
+    recipes.addShapeless(<animania:block_mud> * 2,
+        [<evilcraft:bucketEternalWater>,<ore:dirt>]);
 # Chisel
     recipes.addShapeless(<chisel:basalt>,
         [<ore:stoneBasalt>]);
     recipes.addShapeless(<chisel:limestone>,
         [<ore:stoneLimestone>]);
+    recipes.addShaped(<chisel:waterstone>*8,
+        [[<ore:stone>,<ore:stone>,<ore:stone>],
+         [<ore:stone>,<evilcraft:bucketEternalWater>,<ore:stone>],
+         [<ore:stone>,<ore:stone>,<ore:stone>]]);
         
 # Embers
 /*    recipes.remove(<embers:ashenStone>);
@@ -77,4 +89,48 @@
     recipes.addShaped(<immersiveengineering:treatedWood>,
         [[<immersiveengineering:treatedWoodSlab>],
          [<immersiveengineering:treatedWoodSlab>]]);
+    # Alternative Concrete recipes
+    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 8,[
+        [<ore:sand>, <ore:clayball>, <ore:sand>],
+        [<ore:gravel>, <evilcraft:bucketEternalWater>, <ore:gravel>],
+        [<ore:sand>, <ore:clayball>, <ore:sand>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 8,[
+        [<ore:sand>, <ore:clayball>, <ore:sand>],
+        [<ore:gravel>, <botania:waterRod>.reuse(), <ore:gravel>],
+        [<ore:sand>, <ore:clayball>, <ore:sand>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 8,[
+        [<ore:sand>, <ore:clayball>, <ore:sand>],
+        [<ore:gravel>, <minecraft:potion:0>, <ore:gravel>],
+        [<ore:sand>, <ore:clayball>, <ore:sand>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 12,[
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
+        [<ore:gravel>, <evilcraft:bucketEternalWater>, <ore:gravel>],
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 12,[
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
+        [<ore:gravel>, <botania:waterRod>.reuse(), <ore:gravel>],
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 12,[
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
+        [<ore:gravel>, <minecraft:potion:0>, <ore:gravel>],
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
 
+# PrimalCore
+    recipes.addShaped(<primal:mud_clump>*64,
+        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
+         [<ore:dirt>,<evilcraft:bucketEternalWater>,<ore:dirt>],
+         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+    recipes.addShaped(<primal:mud_clump>*64,
+        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
+         [<ore:dirt>,<botania:waterRod>.reuse(),<ore:dirt>],
+         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+
+# Rockhounding
+    recipes.addShaped(<rockhounding_surface:gypsum>*8,
+        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
+         [<rockhounding_surface:whiteSand>,<evilcraft:bucketEternalWater>,<rockhounding_surface:whiteSand>],
+         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
+    recipes.addShaped(<rockhounding_surface:gypsum>*8,
+        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
+         [<rockhounding_surface:whiteSand>,<botania:waterRod>.reuse(),<rockhounding_surface:whiteSand>],
+         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
