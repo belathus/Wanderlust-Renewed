@@ -1,6 +1,23 @@
 {
   "_name": "arsmagica2.FireElemental",
-  "drops": [],
+  "drops": [
+    { "function" : "external", "file" : "firedrops" },
+        {
+            "function" : "if_above_looting_0",
+            "count" : 0.2,
+            "functions" : [{ "function" : "external", "file" : "firedrops" }]
+        },
+        {
+            "function" : "if_above_looting_1",
+            "count" : 0.2,
+            "functions" : [{ "function" : "external", "file" : "firedrops" }]
+        },
+        {
+            "function" : "if_above_looting_2",
+            "count" : 0.2,
+            "functions" : [{ "function" : "external", "file" : "firedrops" }]
+        }
+  ],
   "pre_stats": [],
   "stats": [
     {

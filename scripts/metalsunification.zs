@@ -24,10 +24,11 @@
 
 # Bronze
     val list_bronze = [
-    #    nugget                            ingot                           block                             plate                            gear
-        [<base:nugget:7>,                 <base:ingot:7>,                 <base:storage_bronze>,            <base:plate:7>,                  <base:gear:7>],
-        #[<basemetals:bronze_nugget>,      <basemetals:bronze_ingot>,      <basemetals:bronze_block>,        <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<primal:bronze_nugget>,          <primal:bronze_ingot>,          <primal:bronze_block>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>]
+    #    nugget                             ingot                           block                               plate                            gear
+        [<base:nugget:7>,                  <base:ingot:7>,                 <base:storage_bronze>,              <base:plate:7>,                  <base:gear:7>],
+        #[<basemetals:bronze_nugget>,      <basemetals:bronze_ingot>,      <basemetals:bronze_block>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
+        [<primal:bronze_nugget>,           <primal:bronze_ingot>,          <primal:bronze_block>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
+        [<thermalfoundation:material:227>,<thermalfoundation:material:163>,<thermalfoundation:storage_alloy:3>,<thermalfoundation:material:355>,<thermalfoundation:material:291>]
     ] as minetweaker.item.IItemStack[][];
     var bronze_oredict = [<ore:nuggetBronze>,<ore:ingotBronze>,<ore:blockBronze>,<ore:plateBronze>,<ore:gearBronze>] as minetweaker.item.IIngredient[];
     for i, group in list_bronze {
