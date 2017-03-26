@@ -104,7 +104,7 @@
         [<rockhounding_surface:petrifiedLogs:1>,<rockhounding_surface:fossilPlanks:9>,<rockhounding_surface:castanoStairs>,<rockhounding_surface:fossilSlabsLo:9>],
         [<rockhounding_surface:petrifiedLogs:2>,<rockhounding_surface:fossilPlanks:10>,<rockhounding_surface:opalizedStairs>,<rockhounding_surface:fossilSlabsLo:10>],
         [<rockhounding_surface:petrifiedLogs:3>,<rockhounding_surface:fossilPlanks:11>,<rockhounding_surface:rainbowStairs>,<rockhounding_surface:fossilSlabsLo:11>],
-        [<primal:netherpalm_log>,<primal:netherpalm_plank>,<primal:stairs_netherpalm>,<primal:slab_netherpalm>]
+        [<primal:netherpalm_log:*>,<primal:netherpalm_plank>,<primal:stairs_netherpalm>,<primal:slab_netherpalm>]
     ] as minetweaker.item.IItemStack[][];
     
     var list_logs2 = [
@@ -132,8 +132,7 @@
         [<botanicaladdons:altLog1:0>,   <botanicaladdons:altPlanks:4>,      null, null],
         [<botanicaladdons:altLog1:1>,   <botanicaladdons:altPlanks:5>,      null, null],
         [<integrateddynamics:menrilLog>,<integrateddynamics:menrilPlanks>,  null, null],
-        [<evilcraft:undeadLog>,         <evilcraft:undeadPlank>,            null, null],
-        [<primal:netherpalm_log:1>,       <primal:netherpalm_plank>,        null, null]
+        [<evilcraft:undeadLog>,         <evilcraft:undeadPlank>,            null, null]
     ] as minetweaker.item.IItemStack[][];
 # For Loop; removes all plank recipes then re-adds them using the above nested array.
     for i, log_pair in list_logs {
@@ -167,6 +166,10 @@
             [[<primal:diamond_saw:*>], [plank]]);
         recipes.addShaped(slab * 2, 
             [[<primal:emerald_saw:*>], [plank]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawMetal>], [log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawGem>], [log]]);
         recipes.addShapeless(plank * 3, 
             [stair, stair, stair, stair]);
         recipes.remove(stair);
@@ -193,4 +196,8 @@
             [[<primal:diamond_saw:*>],[log]]);
         recipes.addShaped(plank * 4, 
             [[<primal:emerald_saw:*>],[log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawMetal>], [log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawGem>], [log]]);
     }
