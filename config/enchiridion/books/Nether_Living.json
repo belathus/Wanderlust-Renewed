@@ -251,7 +251,7 @@
           "layerIndex": 4
         }
       ],
-      "pageNumber": 1,
+      "pageNumber": 2,
       "isScrollable": false
     },
     {
@@ -351,13 +351,26 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
+        },
+        {
+          "xPos": 31,
+          "yPos": 25,
+          "width": 163.0,
+          "height": 17.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Mining in the Nether",
+              "size": 1.6000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
         }
       ],
-      "pageNumber": 2,
+      "pageNumber": 4,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }
