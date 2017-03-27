@@ -273,24 +273,42 @@
 
 # Steel
     val list_steel = [
-    #     nugget,                          ingot,                          block,                            plate,                           gear,                      dust,                            rod
-        [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>, <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,            <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
-        [<libvulpes:productnugget:6>,     <libvulpes:productingot:6>,     <libvulpes:metal0:6>,             <libvulpes:productplate:6>,      <libvulpes:productgear:6>, <libvulpes:productdust:6>,       <libvulpes:productrod:6>]
+    #     nugget,                          ingot,                           block,                            plate,                           gear,                            dust,                            stick
+        [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>,  <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,                  <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
+        [<libvulpes:productnugget:6>,     <libvulpes:productingot:6>,      <libvulpes:metal0:6>,             <libvulpes:productplate:6>,      <libvulpes:productgear:6>,       <libvulpes:productdust:6>,       <libvulpes:productrod:6>],
+        [<base:nugget:28>,                <base:ingot:28>,                 <base:storage_steel>,             <base:plate:28>,                 <enderzoo:enderZooIcon>,         <base:dust:28>,                  <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <primal:steel_ingot>,            <primal:steel_block>,             <primal:steel_plate>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
+        [<thermalfoundation:material:224>,<thermalfoundation:material:160>,<thermalfoundation:storage_alloy>,<thermalfoundation:material:352>,<thermalfoundation:material:288>,<thermalfoundation:material:96>, <enderzoo:enderZooIcon>]
     ] as minetweaker.item.IItemStack[][];
-    #recipes.remove(<basemetals:steel_blend>);
-    recipes.remove(<libvulpes:productnugget:6>);
-    recipes.remove(<libvulpes:metal0:6>);
-    #recipes.remove(<railcraft:nugget:1>);
-    #recipes.remove(<basemetals:steel_nugget>);
-    #recipes.remove(<basemetals:steel_ingot>);
-    #recipes.remove(<basemetals:steel_block>);
-    #recipes.remove(<basemetals:steel_plate>);
-    recipes.addShapeless(<immersiveengineering:metal:28>*9,
-        [<ore:ingotSteel>]);
-    recipes.addShapeless(<immersiveengineering:metal:8>, 
-        [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]);
-    recipes.addShapeless(<immersiveengineering:storage:8>, 
-        [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]);
+    val steel_oredict = [<ore:nuggetSteel>,<ore:ingotSteel>,<ore:blockSteel>,<ore:plateSteel>,<ore:gearSteel>,<ore:oreSteel>,<ore:dustSteel>] as minetweaker.item.IIngredient[];
+    for i, group in list_steel {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_steel[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [steel_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [steel_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [steel_oredict[0],steel_oredict[0],steel_oredict[0],steel_oredict[0],steel_oredict[0],steel_oredict[0],steel_oredict[0],steel_oredict[0],steel_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, steel_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
+        }
+    }
 
 
 # Tin
