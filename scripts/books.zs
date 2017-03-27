@@ -23,6 +23,6 @@
 		[<thermalfoundation:tool.shovel_bronze>, <base:plate:22>, <thermalfoundation:tool.axe_bronze>]]);
 	#Book of Unlearning with Class Change	
 	recipes.addShaped(<levelup:respec_book:1>, 
-		[[<minecraft:iron_sword>, <base:plate:21>, <minecraft:iron_pickaxe>],
-		[null, <minecraft:book>, null],
-		[<minecraft:iron_shovel>, <base:plate:21>, <minecraft:iron_axe>]]);
+		[[<minecraft:iron_sword>, <cyberware:bodyPart:1>, <minecraft:iron_pickaxe>],
+		[<base:plate:21>, <minecraft:book>, <base:plate:21>],
+		[<minecraft:iron_shovel>, null, <minecraft:iron_axe>]]);

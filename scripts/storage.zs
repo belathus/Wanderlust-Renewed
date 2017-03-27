@@ -188,8 +188,8 @@
 	
 	for i, block in primal_storage_crates{
 		recipes.addShaped(<actuallyadditions:itemCrateKeeper>, 
-		[[null, block, null],
-		[<actuallyadditions:itemMisc:5>, <minecraft:book>, <actuallyadditions:itemMisc:5>],
+		[[null, <actuallyadditions:itemMisc:5>, null],
+		[<actuallyadditions:itemMisc:5>, block, <actuallyadditions:itemMisc:5>],
 		[null, null, null]]);
 	}
 
