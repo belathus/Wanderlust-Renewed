@@ -108,6 +108,96 @@ Ore entries for <ore:plankWood> :
     <biomesoplenty:planks_0:13>
     <biomesoplenty:planks_0:14>
     <biomesoplenty:planks_0:15>
+    <chisel:planks-oak>
+    <chisel:planks-oak:1>
+    <chisel:planks-oak:2>
+    <chisel:planks-oak:3>
+    <chisel:planks-oak:4>
+    <chisel:planks-oak:5>
+    <chisel:planks-oak:6>
+    <chisel:planks-oak:7>
+    <chisel:planks-oak:8>
+    <chisel:planks-oak:9>
+    <chisel:planks-oak:10>
+    <chisel:planks-oak:11>
+    <chisel:planks-oak:12>
+    <chisel:planks-oak:13>
+    <chisel:planks-oak:14>
+    <chisel:planks-spruce>
+    <chisel:planks-spruce:1>
+    <chisel:planks-spruce:2>
+    <chisel:planks-spruce:3>
+    <chisel:planks-spruce:4>
+    <chisel:planks-spruce:5>
+    <chisel:planks-spruce:6>
+    <chisel:planks-spruce:7>
+    <chisel:planks-spruce:8>
+    <chisel:planks-spruce:9>
+    <chisel:planks-spruce:10>
+    <chisel:planks-spruce:11>
+    <chisel:planks-spruce:12>
+    <chisel:planks-spruce:13>
+    <chisel:planks-spruce:14>
+    <chisel:planks-birch>
+    <chisel:planks-birch:1>
+    <chisel:planks-birch:2>
+    <chisel:planks-birch:3>
+    <chisel:planks-birch:4>
+    <chisel:planks-birch:5>
+    <chisel:planks-birch:6>
+    <chisel:planks-birch:7>
+    <chisel:planks-birch:8>
+    <chisel:planks-birch:9>
+    <chisel:planks-birch:10>
+    <chisel:planks-birch:11>
+    <chisel:planks-birch:12>
+    <chisel:planks-birch:13>
+    <chisel:planks-birch:14>
+    <chisel:planks-jungle>
+    <chisel:planks-jungle:1>
+    <chisel:planks-jungle:2>
+    <chisel:planks-jungle:3>
+    <chisel:planks-jungle:4>
+    <chisel:planks-jungle:5>
+    <chisel:planks-jungle:6>
+    <chisel:planks-jungle:7>
+    <chisel:planks-jungle:8>
+    <chisel:planks-jungle:9>
+    <chisel:planks-jungle:10>
+    <chisel:planks-jungle:11>
+    <chisel:planks-jungle:12>
+    <chisel:planks-jungle:13>
+    <chisel:planks-jungle:14>
+    <chisel:planks-acacia>
+    <chisel:planks-acacia:1>
+    <chisel:planks-acacia:2>
+    <chisel:planks-acacia:3>
+    <chisel:planks-acacia:4>
+    <chisel:planks-acacia:5>
+    <chisel:planks-acacia:6>
+    <chisel:planks-acacia:7>
+    <chisel:planks-acacia:8>
+    <chisel:planks-acacia:9>
+    <chisel:planks-acacia:10>
+    <chisel:planks-acacia:11>
+    <chisel:planks-acacia:12>
+    <chisel:planks-acacia:13>
+    <chisel:planks-acacia:14>
+    <chisel:planks-dark-oak>
+    <chisel:planks-dark-oak:1>
+    <chisel:planks-dark-oak:2>
+    <chisel:planks-dark-oak:3>
+    <chisel:planks-dark-oak:4>
+    <chisel:planks-dark-oak:5>
+    <chisel:planks-dark-oak:6>
+    <chisel:planks-dark-oak:7>
+    <chisel:planks-dark-oak:8>
+    <chisel:planks-dark-oak:9>
+    <chisel:planks-dark-oak:10>
+    <chisel:planks-dark-oak:11>
+    <chisel:planks-dark-oak:12>
+    <chisel:planks-dark-oak:13>
+    <chisel:planks-dark-oak:14>
     <forestry:planks.0:*>
     <forestry:planks.1:*>
     <forestry:planks.fireproof.0:*>
@@ -414,10 +504,12 @@ Ore entries for <ore:vine> :
 Ore entries for <ore:oreGold> :
     <minecraft:gold_ore>
     <abyssalcraft:abygolore>
+    <base:ore_gold>
     <dungeontactics:ore_nethergold>
 Ore entries for <ore:oreIron> :
     <minecraft:iron_ore>
     <abyssalcraft:abyiroore>
+    <base:ore_iron>
 Ore entries for <ore:oreLapis> :
     <minecraft:lapis_ore>
 Ore entries for <ore:oreDiamond> :
@@ -433,14 +525,17 @@ Ore entries for <ore:oreCoal> :
     <minecraft:coal_ore>
 Ore entries for <ore:ingotIron> :
     <minecraft:iron_ingot>
+    <base:ingot:21>
 Ore entries for <ore:ingotGold> :
     <minecraft:gold_ingot>
+    <base:ingot:18>
 Ore entries for <ore:ingotBrick> :
     <minecraft:brick>
 Ore entries for <ore:ingotBrickNether> :
     <minecraft:netherbrick>
 Ore entries for <ore:nuggetGold> :
     <minecraft:gold_nugget>
+    <base:nugget:18>
 Ore entries for <ore:gemDiamond> :
     <minecraft:diamond>
 Ore entries for <ore:gemEmerald> :
@@ -459,18 +554,158 @@ Ore entries for <ore:gemLapis> :
     <minecraft:dye:4>
 Ore entries for <ore:blockGold> :
     <minecraft:gold_block>
+    <base:storage_gold>
+    <chisel:blockGold>
+    <chisel:blockGold:1>
+    <chisel:blockGold:2>
+    <chisel:blockGold:3>
+    <chisel:blockGold:4>
+    <chisel:blockGold:5>
+    <chisel:blockGold:6>
+    <chisel:gold>
+    <chisel:gold:1>
+    <chisel:gold:2>
+    <chisel:gold:3>
+    <chisel:gold:4>
+    <chisel:gold:5>
+    <chisel:gold:6>
+    <chisel:gold:7>
+    <chisel:gold:8>
+    <chisel:gold:9>
+    <chisel:gold:10>
+    <chisel:gold:11>
+    <chisel:gold:12>
+    <chisel:gold:13>
+    <chisel:gold:14>
 Ore entries for <ore:blockIron> :
     <minecraft:iron_block>
+    <base:storage_iron>
+    <chisel:blockIron>
+    <chisel:blockIron:1>
+    <chisel:blockIron:2>
+    <chisel:blockIron:3>
+    <chisel:blockIron:4>
+    <chisel:blockIron:5>
+    <chisel:blockIron:6>
+    <chisel:iron>
+    <chisel:iron:1>
+    <chisel:iron:2>
+    <chisel:iron:3>
+    <chisel:iron:4>
+    <chisel:iron:5>
+    <chisel:iron:6>
+    <chisel:iron:7>
+    <chisel:iron:8>
+    <chisel:iron:9>
+    <chisel:iron:10>
+    <chisel:iron:11>
+    <chisel:iron:12>
+    <chisel:iron:13>
+    <chisel:iron:14>
 Ore entries for <ore:blockLapis> :
     <minecraft:lapis_block>
+    <chisel:lapis>
+    <chisel:lapis:1>
+    <chisel:lapis:2>
+    <chisel:lapis:3>
+    <chisel:lapis:4>
+    <chisel:lapis:5>
+    <chisel:lapis:6>
+    <chisel:lapis:7>
+    <chisel:lapis:8>
 Ore entries for <ore:blockDiamond> :
     <minecraft:diamond_block>
+    <chisel:diamond>
+    <chisel:diamond:1>
+    <chisel:diamond:2>
+    <chisel:diamond:3>
+    <chisel:diamond:4>
+    <chisel:diamond:5>
+    <chisel:diamond:6>
+    <chisel:diamond:7>
+    <chisel:diamond:8>
+    <chisel:diamond:9>
+    <chisel:diamond:10>
+    <chisel:diamond:11>
 Ore entries for <ore:blockRedstone> :
     <minecraft:redstone_block>
+    <chisel:redstone>
+    <chisel:redstone:1>
+    <chisel:redstone:2>
+    <chisel:redstone:3>
+    <chisel:redstone:4>
+    <chisel:redstone:5>
+    <chisel:redstone:6>
+    <chisel:redstone:7>
+    <chisel:redstone:8>
+    <chisel:redstone:9>
+    <chisel:redstone:10>
+    <chisel:redstone:11>
+    <chisel:redstone:12>
+    <chisel:redstone:13>
+    <chisel:redstone:14>
+    <chisel:redstone:15>
+    <chisel:redstone1>
+    <chisel:redstone1:1>
+    <chisel:redstone1:2>
+    <chisel:redstone1:3>
+    <chisel:redstone1:4>
+    <chisel:redstone1:5>
+    <chisel:redstone1:6>
+    <chisel:redstone1:7>
+    <chisel:redstone1:8>
+    <chisel:redstone1:9>
+    <chisel:redstone1:10>
+    <chisel:redstone1:11>
 Ore entries for <ore:blockEmerald> :
     <minecraft:emerald_block>
+    <chisel:emerald>
+    <chisel:emerald:1>
+    <chisel:emerald:2>
+    <chisel:emerald:3>
+    <chisel:emerald:4>
+    <chisel:emerald:5>
+    <chisel:emerald:6>
+    <chisel:emerald:7>
+    <chisel:emerald:8>
+    <chisel:emerald:9>
+    <chisel:emerald:10>
+    <chisel:emerald:11>
+    <chisel:emerald:12>
+    <chisel:emerald:13>
 Ore entries for <ore:blockQuartz> :
     <minecraft:quartz_block>
+    <chisel:quartz>
+    <chisel:quartz:1>
+    <chisel:quartz:2>
+    <chisel:quartz:3>
+    <chisel:quartz:4>
+    <chisel:quartz:5>
+    <chisel:quartz:6>
+    <chisel:quartz:7>
+    <chisel:quartz:8>
+    <chisel:quartz:9>
+    <chisel:quartz:10>
+    <chisel:quartz:11>
+    <chisel:quartz:12>
+    <chisel:quartz:13>
+    <chisel:quartz:14>
+    <chisel:quartz:15>
+    <chisel:quartz1>
+    <chisel:quartz1:1>
+    <chisel:quartz1:2>
+    <chisel:quartz1:3>
+    <chisel:quartz1:4>
+    <chisel:quartz1:5>
+    <chisel:quartz1:6>
+    <chisel:quartz1:7>
+    <chisel:quartz1:8>
+    <chisel:quartz1:9>
+    <chisel:quartz1:10>
+    <chisel:quartz1:11>
+    <chisel:quartz1:12>
+    <chisel:quartz1:13>
+    <chisel:quartz1:14>
 Ore entries for <ore:blockCoal> :
     <minecraft:coal_block>
 Ore entries for <ore:cropWheat> :
@@ -606,6 +841,22 @@ Ore entries for <ore:record> :
     <thebetweenlands:waterlogged>
 Ore entries for <ore:dirt> :
     <minecraft:dirt>
+    <chisel:dirt>
+    <chisel:dirt:1>
+    <chisel:dirt:2>
+    <chisel:dirt:3>
+    <chisel:dirt:4>
+    <chisel:dirt:5>
+    <chisel:dirt:6>
+    <chisel:dirt:7>
+    <chisel:dirt:8>
+    <chisel:dirt:9>
+    <chisel:dirt:10>
+    <chisel:dirt:11>
+    <chisel:dirt:12>
+    <chisel:dirt:13>
+    <chisel:dirt:14>
+    <chisel:dirt:15>
     <minecraft:dirt:*>
     <botanicaladdons:irisDirt:*>
     <botanicaladdons:rainbowDirt:*>
@@ -616,6 +867,39 @@ Ore entries for <ore:grass> :
     <thebetweenlands:swamp_grass>
 Ore entries for <ore:stone> :
     <minecraft:stone>
+    <chisel:stonebrick>
+    <chisel:stonebrick:1>
+    <chisel:stonebrick:2>
+    <chisel:stonebrick:3>
+    <chisel:stonebrick:4>
+    <chisel:stonebrick:5>
+    <chisel:stonebrick:6>
+    <chisel:stonebrick:7>
+    <chisel:stonebrick:8>
+    <chisel:stonebrick:9>
+    <chisel:stonebrick:10>
+    <chisel:stonebrick:11>
+    <chisel:stonebrick:12>
+    <chisel:stonebrick:13>
+    <chisel:stonebrick:14>
+    <chisel:stonebrick:15>
+    <chisel:stonebrick1>
+    <chisel:stonebrick1:1>
+    <chisel:stonebrick1:2>
+    <chisel:stonebrick1:3>
+    <chisel:stonebrick1:4>
+    <chisel:stonebrick1:5>
+    <chisel:stonebrick1:6>
+    <chisel:stonebrick1:7>
+    <chisel:stonebrick1:8>
+    <chisel:stonebrickextra>
+    <chisel:stonebrickextra:1>
+    <chisel:stonebrickextra:2>
+    <chisel:stonebrickextra:3>
+    <chisel:stonebrickextra:4>
+    <chisel:stonebrickextra:5>
+    <chisel:stonebrickextra:6>
+    <chisel:stonebrickextra:7>
     <thebetweenlands:smooth_betweenstone>
     <abyssalcraft:abydreadstone>
     <abyssalcraft:dreadstone>
@@ -623,6 +907,41 @@ Ore entries for <ore:stone> :
     <chisel:limestoneextra:7>
 Ore entries for <ore:cobblestone> :
     <minecraft:cobblestone>
+    <chisel:cobblestone>
+    <chisel:cobblestone:1>
+    <chisel:cobblestone:2>
+    <chisel:cobblestone:3>
+    <chisel:cobblestone:4>
+    <chisel:cobblestone:5>
+    <chisel:cobblestone:6>
+    <chisel:cobblestone:7>
+    <chisel:cobblestone:8>
+    <chisel:cobblestone:9>
+    <chisel:cobblestone:10>
+    <chisel:cobblestone:11>
+    <chisel:cobblestone:12>
+    <chisel:cobblestone:13>
+    <chisel:cobblestone:14>
+    <chisel:cobblestone:15>
+    <chisel:cobblestone1>
+    <chisel:cobblestone1:1>
+    <chisel:cobblestone1:2>
+    <chisel:cobblestone1:3>
+    <chisel:cobblestone1:4>
+    <chisel:cobblestone1:5>
+    <chisel:cobblestone1:6>
+    <chisel:cobblestone1:7>
+    <chisel:cobblestone1:8>
+    <chisel:cobblestoneextra>
+    <chisel:cobblestoneextra:1>
+    <chisel:cobblestoneextra:2>
+    <chisel:cobblestoneextra:3>
+    <chisel:cobblestoneextra:4>
+    <chisel:cobblestoneextra:5>
+    <chisel:cobblestoneextra:6>
+    <chisel:cobblestoneextra:7>
+    <chisel:cobblestoneextra:8>
+    <chisel:cobblestoneextra:9>
     <thebetweenlands:betweenstone>
 Ore entries for <ore:gravel> :
     <minecraft:gravel>
@@ -632,16 +951,189 @@ Ore entries for <ore:sand> :
 Ore entries for <ore:sandstone> :
     <minecraft:sandstone:*>
     <minecraft:red_sandstone:*>
+    <chisel:sandstoneyellow>
+    <chisel:sandstoneyellow:1>
+    <chisel:sandstoneyellow:2>
+    <chisel:sandstoneyellow:3>
+    <chisel:sandstoneyellow:4>
+    <chisel:sandstoneyellow:5>
+    <chisel:sandstoneyellow:6>
+    <chisel:sandstoneyellow:7>
+    <chisel:sandstoneyellow:8>
+    <chisel:sandstoneyellow:9>
+    <chisel:sandstoneyellow:10>
+    <chisel:sandstoneyellow:11>
+    <chisel:sandstoneyellow:12>
+    <chisel:sandstoneyellow:13>
+    <chisel:sandstoneyellow:14>
+    <chisel:sandstoneyellow:15>
+    <chisel:sandstoneyellow1>
+    <chisel:sandstoneyellow1:1>
+    <chisel:sandstoneyellow1:2>
+    <chisel:sandstoneyellow1:3>
+    <chisel:sandstoneyellow1:4>
+    <chisel:sandstoneyellow1:5>
+    <chisel:sandstoneyellow1:6>
+    <chisel:sandstoneyellow1:7>
+    <chisel:sandstoneyellow1:8>
+    <chisel:sandstoneyellowextra>
+    <chisel:sandstoneyellowextra:1>
+    <chisel:sandstoneyellowextra:2>
+    <chisel:sandstoneyellowextra:3>
+    <chisel:sandstoneyellowextra:4>
+    <chisel:sandstoneyellowextra:5>
+    <chisel:sandstoneyellowextra:6>
+    <chisel:sandstonered>
+    <chisel:sandstonered:1>
+    <chisel:sandstonered:2>
+    <chisel:sandstonered:3>
+    <chisel:sandstonered:4>
+    <chisel:sandstonered:5>
+    <chisel:sandstonered:6>
+    <chisel:sandstonered:7>
+    <chisel:sandstonered:8>
+    <chisel:sandstonered:9>
+    <chisel:sandstonered:10>
+    <chisel:sandstonered:11>
+    <chisel:sandstonered:12>
+    <chisel:sandstonered:13>
+    <chisel:sandstonered:14>
+    <chisel:sandstonered:15>
+    <chisel:sandstonered1>
+    <chisel:sandstonered1:1>
+    <chisel:sandstonered1:2>
+    <chisel:sandstonered1:3>
+    <chisel:sandstonered1:4>
+    <chisel:sandstonered1:5>
+    <chisel:sandstonered1:6>
+    <chisel:sandstonered1:7>
+    <chisel:sandstonered1:8>
+    <chisel:sandstoneredextra>
+    <chisel:sandstoneredextra:1>
+    <chisel:sandstoneredextra:2>
+    <chisel:sandstoneredextra:3>
+    <chisel:sandstoneredextra:4>
+    <chisel:sandstoneredextra:5>
+    <chisel:sandstoneredextra:6>
+    <chisel:sandstone-scribbles>
+    <chisel:sandstone-scribbles:1>
+    <chisel:sandstone-scribbles:2>
+    <chisel:sandstone-scribbles:3>
+    <chisel:sandstone-scribbles:4>
+    <chisel:sandstone-scribbles:5>
+    <chisel:sandstone-scribbles:6>
+    <chisel:sandstone-scribbles:7>
+    <chisel:sandstone-scribbles:8>
+    <chisel:sandstone-scribbles:9>
+    <chisel:sandstone-scribbles:10>
+    <chisel:sandstone-scribbles:11>
+    <chisel:sandstone-scribbles:12>
+    <chisel:sandstone-scribbles:13>
+    <chisel:sandstone-scribbles:14>
+    <chisel:sandstone-scribbles:15>
 Ore entries for <ore:netherrack> :
     <minecraft:netherrack>
+    <chisel:netherrack>
+    <chisel:netherrack:1>
+    <chisel:netherrack:2>
+    <chisel:netherrack:3>
+    <chisel:netherrack:4>
+    <chisel:netherrack:5>
+    <chisel:netherrack:6>
+    <chisel:netherrack:7>
+    <chisel:netherrack:8>
+    <chisel:netherrack:9>
+    <chisel:netherrack:10>
+    <chisel:netherrack:11>
+    <chisel:netherrack:12>
+    <chisel:netherrack:13>
     <minecraft:netherrack:*>
 Ore entries for <ore:obsidian> :
     <minecraft:obsidian>
+    <chisel:obsidian>
+    <chisel:obsidian:1>
+    <chisel:obsidian:2>
+    <chisel:obsidian:3>
+    <chisel:obsidian:4>
+    <chisel:obsidian:5>
+    <chisel:obsidian:6>
+    <chisel:obsidian:7>
+    <chisel:obsidian:8>
+    <chisel:obsidian:9>
+    <chisel:obsidian:10>
+    <chisel:obsidian:11>
+    <chisel:obsidian:12>
+    <chisel:obsidian:13>
+    <chisel:obsidian:14>
     <minecraft:obsidian:*>
 Ore entries for <ore:glowstone> :
     <minecraft:glowstone>
+    <chisel:glowstone>
+    <chisel:glowstone:1>
+    <chisel:glowstone:2>
+    <chisel:glowstone:3>
+    <chisel:glowstone:4>
+    <chisel:glowstone:5>
+    <chisel:glowstone:6>
+    <chisel:glowstone:7>
+    <chisel:glowstone:8>
+    <chisel:glowstone:9>
+    <chisel:glowstone:10>
+    <chisel:glowstone:11>
+    <chisel:glowstone:12>
+    <chisel:glowstone:13>
+    <chisel:glowstone:14>
+    <chisel:glowstone:15>
+    <chisel:glowstone1>
+    <chisel:glowstone1:1>
+    <chisel:glowstone1:2>
+    <chisel:glowstone1:3>
+    <chisel:glowstone1:4>
+    <chisel:glowstone1:5>
+    <chisel:glowstone1:6>
+    <chisel:glowstone1:7>
+    <chisel:glowstone1:8>
+    <chisel:glowstone1:9>
+    <chisel:glowstone1:10>
+    <chisel:glowstone1:11>
+    <chisel:glowstone1:12>
+    <chisel:glowstone1:13>
+    <chisel:glowstone1:14>
+    <chisel:glowstone1:15>
+    <chisel:glowstone2>
 Ore entries for <ore:endstone> :
     <minecraft:end_stone>
+    <chisel:endstone>
+    <chisel:endstone:1>
+    <chisel:endstone:2>
+    <chisel:endstone:3>
+    <chisel:endstone:4>
+    <chisel:endstone:5>
+    <chisel:endstone:6>
+    <chisel:endstone:7>
+    <chisel:endstone:8>
+    <chisel:endstone:9>
+    <chisel:endstone:10>
+    <chisel:endstone:11>
+    <chisel:endstone:12>
+    <chisel:endstone:13>
+    <chisel:endstone:14>
+    <chisel:endstone:15>
+    <chisel:endstone1>
+    <chisel:endstone1:1>
+    <chisel:endstone1:2>
+    <chisel:endstone1:3>
+    <chisel:endstone1:4>
+    <chisel:endstone1:5>
+    <chisel:endstone1:6>
+    <chisel:endstone1:7>
+    <chisel:endstone1:8>
+    <chisel:endstoneextra>
+    <chisel:endstoneextra:1>
+    <chisel:endstoneextra:2>
+    <chisel:endstoneextra:3>
+    <chisel:endstoneextra:4>
+    <chisel:endstoneextra:5>
 Ore entries for <ore:torch> :
     <minecraft:torch>
     <tconstruct:stone_torch:*>
@@ -668,24 +1160,344 @@ Ore entries for <ore:blockPrismarineDark> :
     <minecraft:prismarine:2>
 Ore entries for <ore:stoneGranite> :
     <minecraft:stone:1>
+    <chisel:granite>
+    <chisel:granite:1>
+    <chisel:granite:2>
+    <chisel:granite:3>
+    <chisel:granite:4>
+    <chisel:granite:5>
+    <chisel:granite:6>
+    <chisel:granite:7>
+    <chisel:granite:8>
+    <chisel:granite:9>
+    <chisel:granite:10>
+    <chisel:granite:11>
+    <chisel:granite:12>
+    <chisel:granite:13>
+    <chisel:granite:14>
+    <chisel:granite:15>
+    <chisel:granite1>
+    <chisel:granite1:1>
+    <chisel:granite1:2>
+    <chisel:granite1:3>
+    <chisel:granite1:4>
+    <chisel:granite1:5>
+    <chisel:granite1:6>
+    <chisel:granite1:7>
+    <chisel:granite1:8>
+    <chisel:granite1:9>
+    <chisel:granite1:10>
+    <chisel:granite1:11>
+    <chisel:granite1:12>
+    <chisel:granite1:13>
+    <chisel:granite1:14>
+    <chisel:granite1:15>
 Ore entries for <ore:stoneGranitePolished> :
     <minecraft:stone:2>
+    <chisel:granite>
+    <chisel:granite:1>
+    <chisel:granite:2>
+    <chisel:granite:3>
+    <chisel:granite:4>
+    <chisel:granite:5>
+    <chisel:granite:6>
+    <chisel:granite:7>
+    <chisel:granite:8>
+    <chisel:granite:9>
+    <chisel:granite:10>
+    <chisel:granite:11>
+    <chisel:granite:12>
+    <chisel:granite:13>
+    <chisel:granite:14>
+    <chisel:granite:15>
+    <chisel:granite1>
+    <chisel:granite1:1>
+    <chisel:granite1:2>
+    <chisel:granite1:3>
+    <chisel:granite1:4>
+    <chisel:granite1:5>
+    <chisel:granite1:6>
+    <chisel:granite1:7>
+    <chisel:granite1:8>
+    <chisel:granite1:9>
+    <chisel:granite1:10>
+    <chisel:granite1:11>
+    <chisel:granite1:12>
+    <chisel:granite1:13>
+    <chisel:granite1:14>
+    <chisel:granite1:15>
 Ore entries for <ore:stoneDiorite> :
     <minecraft:stone:3>
+    <chisel:diorite>
+    <chisel:diorite:1>
+    <chisel:diorite:2>
+    <chisel:diorite:3>
+    <chisel:diorite:4>
+    <chisel:diorite:5>
+    <chisel:diorite:6>
+    <chisel:diorite:7>
+    <chisel:diorite:8>
+    <chisel:diorite:9>
+    <chisel:diorite:10>
+    <chisel:diorite:11>
+    <chisel:diorite:12>
+    <chisel:diorite:13>
+    <chisel:diorite:14>
+    <chisel:diorite:15>
+    <chisel:diorite1>
+    <chisel:diorite1:1>
+    <chisel:diorite1:2>
+    <chisel:diorite1:3>
+    <chisel:diorite1:4>
+    <chisel:diorite1:5>
+    <chisel:diorite1:6>
+    <chisel:diorite1:7>
+    <chisel:diorite1:8>
+    <chisel:diorite1:9>
+    <chisel:diorite1:10>
+    <chisel:diorite1:11>
+    <chisel:diorite1:12>
+    <chisel:diorite1:13>
+    <chisel:diorite1:14>
+    <chisel:diorite1:15>
 Ore entries for <ore:stoneDioritePolished> :
     <minecraft:stone:4>
+    <chisel:diorite>
+    <chisel:diorite:1>
+    <chisel:diorite:2>
+    <chisel:diorite:3>
+    <chisel:diorite:4>
+    <chisel:diorite:5>
+    <chisel:diorite:6>
+    <chisel:diorite:7>
+    <chisel:diorite:8>
+    <chisel:diorite:9>
+    <chisel:diorite:10>
+    <chisel:diorite:11>
+    <chisel:diorite:12>
+    <chisel:diorite:13>
+    <chisel:diorite:14>
+    <chisel:diorite:15>
+    <chisel:diorite1>
+    <chisel:diorite1:1>
+    <chisel:diorite1:2>
+    <chisel:diorite1:3>
+    <chisel:diorite1:4>
+    <chisel:diorite1:5>
+    <chisel:diorite1:6>
+    <chisel:diorite1:7>
+    <chisel:diorite1:8>
+    <chisel:diorite1:9>
+    <chisel:diorite1:10>
+    <chisel:diorite1:11>
+    <chisel:diorite1:12>
+    <chisel:diorite1:13>
+    <chisel:diorite1:14>
+    <chisel:diorite1:15>
 Ore entries for <ore:stoneAndesite> :
     <minecraft:stone:5>
+    <chisel:andesite>
+    <chisel:andesite:1>
+    <chisel:andesite:2>
+    <chisel:andesite:3>
+    <chisel:andesite:4>
+    <chisel:andesite:5>
+    <chisel:andesite:6>
+    <chisel:andesite:7>
+    <chisel:andesite:8>
+    <chisel:andesite:9>
+    <chisel:andesite:10>
+    <chisel:andesite:11>
+    <chisel:andesite:12>
+    <chisel:andesite:13>
+    <chisel:andesite:14>
+    <chisel:andesite:15>
+    <chisel:andesite1>
+    <chisel:andesite1:1>
+    <chisel:andesite1:2>
+    <chisel:andesite1:3>
+    <chisel:andesite1:4>
+    <chisel:andesite1:5>
+    <chisel:andesite1:6>
+    <chisel:andesite1:7>
+    <chisel:andesite1:8>
+    <chisel:andesite1:9>
+    <chisel:andesite1:10>
+    <chisel:andesite1:11>
+    <chisel:andesite1:12>
+    <chisel:andesite1:13>
+    <chisel:andesite1:14>
+    <chisel:andesite1:15>
 Ore entries for <ore:stoneAndesitePolished> :
     <minecraft:stone:6>
+    <chisel:andesite>
+    <chisel:andesite:1>
+    <chisel:andesite:2>
+    <chisel:andesite:3>
+    <chisel:andesite:4>
+    <chisel:andesite:5>
+    <chisel:andesite:6>
+    <chisel:andesite:7>
+    <chisel:andesite:8>
+    <chisel:andesite:9>
+    <chisel:andesite:10>
+    <chisel:andesite:11>
+    <chisel:andesite:12>
+    <chisel:andesite:13>
+    <chisel:andesite:14>
+    <chisel:andesite:15>
+    <chisel:andesite1>
+    <chisel:andesite1:1>
+    <chisel:andesite1:2>
+    <chisel:andesite1:3>
+    <chisel:andesite1:4>
+    <chisel:andesite1:5>
+    <chisel:andesite1:6>
+    <chisel:andesite1:7>
+    <chisel:andesite1:8>
+    <chisel:andesite1:9>
+    <chisel:andesite1:10>
+    <chisel:andesite1:11>
+    <chisel:andesite1:12>
+    <chisel:andesite1:13>
+    <chisel:andesite1:14>
+    <chisel:andesite1:15>
 Ore entries for <ore:blockGlassColorless> :
     <minecraft:glass>
+    <chisel:glass>
+    <chisel:glass:1>
+    <chisel:glass:2>
+    <chisel:glass:3>
+    <chisel:glass:4>
+    <chisel:glass:5>
+    <chisel:glass:6>
+    <chisel:glass:7>
+    <chisel:glass:8>
+    <chisel:glass:9>
+    <chisel:glass:10>
+    <chisel:glass:11>
+    <chisel:glass:12>
+    <chisel:glass:13>
+    <chisel:glass:14>
+    <chisel:glass:15>
     <enderio:blockFusedQuartz:1>
     <thebetweenlands:silt_glass>
 Ore entries for <ore:blockGlass> :
     <minecraft:glass>
     <minecraft:stained_glass:*>
     <abyssalcraft:abyssalsandglass>
+    <chisel:glass>
+    <chisel:glass:1>
+    <chisel:glass:2>
+    <chisel:glass:3>
+    <chisel:glass:4>
+    <chisel:glass:5>
+    <chisel:glass:6>
+    <chisel:glass:7>
+    <chisel:glass:8>
+    <chisel:glass:9>
+    <chisel:glass:10>
+    <chisel:glass:11>
+    <chisel:glass:12>
+    <chisel:glass:13>
+    <chisel:glass:14>
+    <chisel:glass:15>
+    <chisel:glassdyedblack>
+    <chisel:glassdyedblack:1>
+    <chisel:glassdyedblack:2>
+    <chisel:glassdyedblack:3>
+    <chisel:glassdyedblack:4>
+    <chisel:glassdyedblack:5>
+    <chisel:glassdyedred>
+    <chisel:glassdyedred:1>
+    <chisel:glassdyedred:2>
+    <chisel:glassdyedred:3>
+    <chisel:glassdyedred:4>
+    <chisel:glassdyedred:5>
+    <chisel:glassdyedgreen>
+    <chisel:glassdyedgreen:1>
+    <chisel:glassdyedgreen:2>
+    <chisel:glassdyedgreen:3>
+    <chisel:glassdyedgreen:4>
+    <chisel:glassdyedgreen:5>
+    <chisel:glassdyedbrown>
+    <chisel:glassdyedbrown:1>
+    <chisel:glassdyedbrown:2>
+    <chisel:glassdyedbrown:3>
+    <chisel:glassdyedbrown:4>
+    <chisel:glassdyedbrown:5>
+    <chisel:glassdyedblue>
+    <chisel:glassdyedblue:1>
+    <chisel:glassdyedblue:2>
+    <chisel:glassdyedblue:3>
+    <chisel:glassdyedblue:4>
+    <chisel:glassdyedblue:5>
+    <chisel:glassdyedpurple>
+    <chisel:glassdyedpurple:1>
+    <chisel:glassdyedpurple:2>
+    <chisel:glassdyedpurple:3>
+    <chisel:glassdyedpurple:4>
+    <chisel:glassdyedpurple:5>
+    <chisel:glassdyedcyan>
+    <chisel:glassdyedcyan:1>
+    <chisel:glassdyedcyan:2>
+    <chisel:glassdyedcyan:3>
+    <chisel:glassdyedcyan:4>
+    <chisel:glassdyedcyan:5>
+    <chisel:glassdyedlightgray>
+    <chisel:glassdyedlightgray:1>
+    <chisel:glassdyedlightgray:2>
+    <chisel:glassdyedlightgray:3>
+    <chisel:glassdyedlightgray:4>
+    <chisel:glassdyedlightgray:5>
+    <chisel:glassdyedgray>
+    <chisel:glassdyedgray:1>
+    <chisel:glassdyedgray:2>
+    <chisel:glassdyedgray:3>
+    <chisel:glassdyedgray:4>
+    <chisel:glassdyedgray:5>
+    <chisel:glassdyedpink>
+    <chisel:glassdyedpink:1>
+    <chisel:glassdyedpink:2>
+    <chisel:glassdyedpink:3>
+    <chisel:glassdyedpink:4>
+    <chisel:glassdyedpink:5>
+    <chisel:glassdyedlime>
+    <chisel:glassdyedlime:1>
+    <chisel:glassdyedlime:2>
+    <chisel:glassdyedlime:3>
+    <chisel:glassdyedlime:4>
+    <chisel:glassdyedlime:5>
+    <chisel:glassdyedyellow>
+    <chisel:glassdyedyellow:1>
+    <chisel:glassdyedyellow:2>
+    <chisel:glassdyedyellow:3>
+    <chisel:glassdyedyellow:4>
+    <chisel:glassdyedyellow:5>
+    <chisel:glassdyedlightblue>
+    <chisel:glassdyedlightblue:1>
+    <chisel:glassdyedlightblue:2>
+    <chisel:glassdyedlightblue:3>
+    <chisel:glassdyedlightblue:4>
+    <chisel:glassdyedlightblue:5>
+    <chisel:glassdyedmagenta>
+    <chisel:glassdyedmagenta:1>
+    <chisel:glassdyedmagenta:2>
+    <chisel:glassdyedmagenta:3>
+    <chisel:glassdyedmagenta:4>
+    <chisel:glassdyedmagenta:5>
+    <chisel:glassdyedorange>
+    <chisel:glassdyedorange:1>
+    <chisel:glassdyedorange:2>
+    <chisel:glassdyedorange:3>
+    <chisel:glassdyedorange:4>
+    <chisel:glassdyedorange:5>
+    <chisel:glassdyedwhite>
+    <chisel:glassdyedwhite:1>
+    <chisel:glassdyedwhite:2>
+    <chisel:glassdyedwhite:3>
+    <chisel:glassdyedwhite:4>
+    <chisel:glassdyedwhite:5>
     <enderio:blockFusedQuartz:1>
     <enderio:blockFusedQuartz_fusedGlass:*>
     <evilcraft:obscuredGlass>
@@ -730,6 +1542,12 @@ Ore entries for <ore:dyeBlack> :
     <gendustry:HoneyDrop:10>
 Ore entries for <ore:blockGlassBlack> :
     <minecraft:stained_glass:15>
+    <chisel:glassdyedblack>
+    <chisel:glassdyedblack:1>
+    <chisel:glassdyedblack:2>
+    <chisel:glassdyedblack:3>
+    <chisel:glassdyedblack:4>
+    <chisel:glassdyedblack:5>
     <enderio:blockFusedQuartz_fusedGlass:15>
     <tconstruct:clear_stained_glass:15>
 Ore entries for <ore:paneGlassBlack> :
@@ -744,6 +1562,12 @@ Ore entries for <ore:dyeRed> :
     <gendustry:HoneyDrop:11>
 Ore entries for <ore:blockGlassRed> :
     <minecraft:stained_glass:14>
+    <chisel:glassdyedred>
+    <chisel:glassdyedred:1>
+    <chisel:glassdyedred:2>
+    <chisel:glassdyedred:3>
+    <chisel:glassdyedred:4>
+    <chisel:glassdyedred:5>
     <enderio:blockFusedQuartz_fusedGlass:14>
     <tconstruct:clear_stained_glass:14>
 Ore entries for <ore:paneGlassRed> :
@@ -758,6 +1582,12 @@ Ore entries for <ore:dyeGreen> :
     <gendustry:HoneyDrop:12>
 Ore entries for <ore:blockGlassGreen> :
     <minecraft:stained_glass:13>
+    <chisel:glassdyedgreen>
+    <chisel:glassdyedgreen:1>
+    <chisel:glassdyedgreen:2>
+    <chisel:glassdyedgreen:3>
+    <chisel:glassdyedgreen:4>
+    <chisel:glassdyedgreen:5>
     <enderio:blockFusedQuartz_fusedGlass:13>
     <tconstruct:clear_stained_glass:13>
 Ore entries for <ore:paneGlassGreen> :
@@ -773,6 +1603,12 @@ Ore entries for <ore:dyeBrown> :
     <gendustry:HoneyDrop:13>
 Ore entries for <ore:blockGlassBrown> :
     <minecraft:stained_glass:12>
+    <chisel:glassdyedbrown>
+    <chisel:glassdyedbrown:1>
+    <chisel:glassdyedbrown:2>
+    <chisel:glassdyedbrown:3>
+    <chisel:glassdyedbrown:4>
+    <chisel:glassdyedbrown:5>
     <enderio:blockFusedQuartz_fusedGlass:12>
     <tconstruct:clear_stained_glass:12>
 Ore entries for <ore:paneGlassBrown> :
@@ -789,6 +1625,12 @@ Ore entries for <ore:dyeBlue> :
     <gendustry:HoneyDrop:14>
 Ore entries for <ore:blockGlassBlue> :
     <minecraft:stained_glass:11>
+    <chisel:glassdyedblue>
+    <chisel:glassdyedblue:1>
+    <chisel:glassdyedblue:2>
+    <chisel:glassdyedblue:3>
+    <chisel:glassdyedblue:4>
+    <chisel:glassdyedblue:5>
     <enderio:blockFusedQuartz_fusedGlass:11>
     <tconstruct:clear_stained_glass:11>
 Ore entries for <ore:paneGlassBlue> :
@@ -803,6 +1645,12 @@ Ore entries for <ore:dyePurple> :
     <gendustry:HoneyDrop:15>
 Ore entries for <ore:blockGlassPurple> :
     <minecraft:stained_glass:10>
+    <chisel:glassdyedpurple>
+    <chisel:glassdyedpurple:1>
+    <chisel:glassdyedpurple:2>
+    <chisel:glassdyedpurple:3>
+    <chisel:glassdyedpurple:4>
+    <chisel:glassdyedpurple:5>
     <enderio:blockFusedQuartz_fusedGlass:10>
     <tconstruct:clear_stained_glass:10>
 Ore entries for <ore:paneGlassPurple> :
@@ -816,6 +1664,12 @@ Ore entries for <ore:dyeCyan> :
     <gendustry:HoneyDrop:16>
 Ore entries for <ore:blockGlassCyan> :
     <minecraft:stained_glass:9>
+    <chisel:glassdyedcyan>
+    <chisel:glassdyedcyan:1>
+    <chisel:glassdyedcyan:2>
+    <chisel:glassdyedcyan:3>
+    <chisel:glassdyedcyan:4>
+    <chisel:glassdyedcyan:5>
     <enderio:blockFusedQuartz_fusedGlass:9>
     <tconstruct:clear_stained_glass:9>
 Ore entries for <ore:paneGlassCyan> :
@@ -829,6 +1683,12 @@ Ore entries for <ore:dyeLightGray> :
     <gendustry:HoneyDrop:17>
 Ore entries for <ore:blockGlassLightGray> :
     <minecraft:stained_glass:8>
+    <chisel:glassdyedlightgray>
+    <chisel:glassdyedlightgray:1>
+    <chisel:glassdyedlightgray:2>
+    <chisel:glassdyedlightgray:3>
+    <chisel:glassdyedlightgray:4>
+    <chisel:glassdyedlightgray:5>
     <enderio:blockFusedQuartz_fusedGlass:8>
     <tconstruct:clear_stained_glass:8>
 Ore entries for <ore:paneGlassLightGray> :
@@ -842,6 +1702,12 @@ Ore entries for <ore:dyeGray> :
     <gendustry:HoneyDrop:18>
 Ore entries for <ore:blockGlassGray> :
     <minecraft:stained_glass:7>
+    <chisel:glassdyedgray>
+    <chisel:glassdyedgray:1>
+    <chisel:glassdyedgray:2>
+    <chisel:glassdyedgray:3>
+    <chisel:glassdyedgray:4>
+    <chisel:glassdyedgray:5>
     <enderio:blockFusedQuartz_fusedGlass:7>
     <tconstruct:clear_stained_glass:7>
 Ore entries for <ore:paneGlassGray> :
@@ -855,6 +1721,12 @@ Ore entries for <ore:dyePink> :
     <gendustry:HoneyDrop:19>
 Ore entries for <ore:blockGlassPink> :
     <minecraft:stained_glass:6>
+    <chisel:glassdyedpink>
+    <chisel:glassdyedpink:1>
+    <chisel:glassdyedpink:2>
+    <chisel:glassdyedpink:3>
+    <chisel:glassdyedpink:4>
+    <chisel:glassdyedpink:5>
     <enderio:blockFusedQuartz_fusedGlass:6>
     <tconstruct:clear_stained_glass:6>
 Ore entries for <ore:paneGlassPink> :
@@ -868,6 +1740,12 @@ Ore entries for <ore:dyeLime> :
     <gendustry:HoneyDrop:20>
 Ore entries for <ore:blockGlassLime> :
     <minecraft:stained_glass:5>
+    <chisel:glassdyedlime>
+    <chisel:glassdyedlime:1>
+    <chisel:glassdyedlime:2>
+    <chisel:glassdyedlime:3>
+    <chisel:glassdyedlime:4>
+    <chisel:glassdyedlime:5>
     <enderio:blockFusedQuartz_fusedGlass:5>
     <tconstruct:clear_stained_glass:5>
 Ore entries for <ore:paneGlassLime> :
@@ -881,6 +1759,12 @@ Ore entries for <ore:dyeYellow> :
     <gendustry:HoneyDrop:21>
 Ore entries for <ore:blockGlassYellow> :
     <minecraft:stained_glass:4>
+    <chisel:glassdyedyellow>
+    <chisel:glassdyedyellow:1>
+    <chisel:glassdyedyellow:2>
+    <chisel:glassdyedyellow:3>
+    <chisel:glassdyedyellow:4>
+    <chisel:glassdyedyellow:5>
     <enderio:blockFusedQuartz_fusedGlass:4>
     <tconstruct:clear_stained_glass:4>
 Ore entries for <ore:paneGlassYellow> :
@@ -894,6 +1778,12 @@ Ore entries for <ore:dyeLightBlue> :
     <gendustry:HoneyDrop:22>
 Ore entries for <ore:blockGlassLightBlue> :
     <minecraft:stained_glass:3>
+    <chisel:glassdyedlightblue>
+    <chisel:glassdyedlightblue:1>
+    <chisel:glassdyedlightblue:2>
+    <chisel:glassdyedlightblue:3>
+    <chisel:glassdyedlightblue:4>
+    <chisel:glassdyedlightblue:5>
     <enderio:blockFusedQuartz_fusedGlass:3>
     <tconstruct:clear_stained_glass:3>
 Ore entries for <ore:paneGlassLightBlue> :
@@ -908,6 +1798,12 @@ Ore entries for <ore:dyeMagenta> :
     <gendustry:HoneyDrop:23>
 Ore entries for <ore:blockGlassMagenta> :
     <minecraft:stained_glass:2>
+    <chisel:glassdyedmagenta>
+    <chisel:glassdyedmagenta:1>
+    <chisel:glassdyedmagenta:2>
+    <chisel:glassdyedmagenta:3>
+    <chisel:glassdyedmagenta:4>
+    <chisel:glassdyedmagenta:5>
     <enderio:blockFusedQuartz_fusedGlass:2>
     <tconstruct:clear_stained_glass:2>
 Ore entries for <ore:paneGlassMagenta> :
@@ -921,6 +1817,12 @@ Ore entries for <ore:dyeOrange> :
     <gendustry:HoneyDrop:24>
 Ore entries for <ore:blockGlassOrange> :
     <minecraft:stained_glass:1>
+    <chisel:glassdyedorange>
+    <chisel:glassdyedorange:1>
+    <chisel:glassdyedorange:2>
+    <chisel:glassdyedorange:3>
+    <chisel:glassdyedorange:4>
+    <chisel:glassdyedorange:5>
     <enderio:blockFusedQuartz_fusedGlass:1>
     <tconstruct:clear_stained_glass:1>
 Ore entries for <ore:paneGlassOrange> :
@@ -935,12 +1837,19 @@ Ore entries for <ore:dyeWhite> :
     <gendustry:HoneyDrop:25>
 Ore entries for <ore:blockGlassWhite> :
     <minecraft:stained_glass>
+    <chisel:glassdyedwhite>
+    <chisel:glassdyedwhite:1>
+    <chisel:glassdyedwhite:2>
+    <chisel:glassdyedwhite:3>
+    <chisel:glassdyedwhite:4>
+    <chisel:glassdyedwhite:5>
     <enderio:blockFusedQuartz_fusedGlass>
     <tconstruct:clear_stained_glass>
 Ore entries for <ore:paneGlassWhite> :
     <minecraft:stained_glass_pane>
 Ore entries for <ore:ingotAbyssalnite> :
     <abyssalcraft:abyingot>
+    <base:ingot:1>
 Ore entries for <ore:ingotLiquifiedCoralium> :
     <abyssalcraft:cingot>
 Ore entries for <ore:gemCoralium> :
@@ -948,9 +1857,11 @@ Ore entries for <ore:gemCoralium> :
 Ore entries for <ore:oreAbyssalnite> :
     <abyssalcraft:abyore>
     <abyssalcraft:abydreadore>
+    <base:ore_abyssalnite>
 Ore entries for <ore:oreCoralium> :
     <abyssalcraft:coraliumore>
     <abyssalcraft:abycorore>
+    <base:ore_coralium>
 Ore entries for <ore:oreDreadedAbyssalnite> :
     <abyssalcraft:dreadore>
 Ore entries for <ore:oreCoraliumStone> :
@@ -965,20 +1876,25 @@ Ore entries for <ore:liquidAntimatter> :
     <abyssalcraft:antiwater>
 Ore entries for <ore:blockAbyssalnite> :
     <abyssalcraft:abyblock>
+    <base:storage_abyssalnite>
 Ore entries for <ore:blockLiquifiedCoralium> :
     <abyssalcraft:corblock>
 Ore entries for <ore:blockDreadium> :
     <abyssalcraft:dreadiumblock>
+    <base:storage_dreadium>
 Ore entries for <ore:ingotCoraliumBrick> :
     <abyssalcraft:cbrick>
 Ore entries for <ore:ingotDreadium> :
     <abyssalcraft:dreadiumingot>
+    <base:ingot:16>
 Ore entries for <ore:dustSulfur> :
     <abyssalcraft:sulfur>
     <natura:materials:4>
+    <thermalfoundation:material:771>
     <rockhounding_chemistry:chemicalDusts:37>
 Ore entries for <ore:dustSaltpeter> :
     <abyssalcraft:nitre>
+    <thermalfoundation:material:772>
 Ore entries for <ore:materialMethane> :
     <abyssalcraft:methane>
 Ore entries for <ore:oreSaltpeter> :
@@ -1041,22 +1957,28 @@ Ore entries for <ore:oreTin> :
     <libvulpes:ore0:5>
     <base:ore_tin>
     <forestry:resources:2>
+    <thermalfoundation:ore:1>
 Ore entries for <ore:oreCopper> :
     <abyssalcraft:abycopore>
     <libvulpes:ore0:4>
+    <base:ore_copper>
     <forestry:resources:1>
     <immersiveengineering:ore>
+    <thermalfoundation:ore>
 Ore entries for <ore:ingotTin> :
     <abyssalcraft:tiningot>
     <libvulpes:productingot:5>
     <base:ingot:29>
     <forestry:ingotTin>
+    <thermalfoundation:material:129>
     <primal:tin_ingot:*>
 Ore entries for <ore:ingotCopper> :
     <abyssalcraft:copperingot>
     <libvulpes:productingot:4>
+    <base:ingot:11>
     <forestry:ingotCopper>
     <immersiveengineering:metal>
+    <thermalfoundation:material:128>
     <primal:copper_ingot:*>
     <rockhounding_chemistry:miscItems:25>
 Ore entries for <ore:orePearlescentCoralium> :
@@ -1071,10 +1993,12 @@ Ore entries for <ore:blockEthaxium> :
     <abyssalcraft:ethaxiumblock>
 Ore entries for <ore:nuggetAbyssalnite> :
     <abyssalcraft:ingotnugget>
+    <base:nugget:1>
 Ore entries for <ore:nuggetLiquifiedCoralium> :
     <abyssalcraft:ingotnugget:1>
 Ore entries for <ore:nuggetDreadium> :
     <abyssalcraft:ingotnugget:2>
+    <base:nugget:16>
 Ore entries for <ore:nuggetEthaxium> :
     <abyssalcraft:ingotnugget:3>
 Ore entries for <ore:crystalShardIron> :
@@ -1177,6 +2101,45 @@ Ore entries for <ore:crystalFragmentMagnesia> :
     <abyssalcraft:crystalfragment:23>
 Ore entries for <ore:crystalFragmentZinc> :
     <abyssalcraft:crystalfragment:24>
+Ore entries for <ore:blockWool> :
+    <minecraft:wool:*>
+    <chisel:wool_black>
+    <chisel:wool_black:1>
+    <chisel:wool_red>
+    <chisel:wool_red:1>
+    <chisel:wool_green>
+    <chisel:wool_green:1>
+    <chisel:wool_brown>
+    <chisel:wool_brown:1>
+    <chisel:wool_blue>
+    <chisel:wool_blue:1>
+    <chisel:wool_purple>
+    <chisel:wool_purple:1>
+    <chisel:wool_cyan>
+    <chisel:wool_cyan:1>
+    <chisel:wool_lightgray>
+    <chisel:wool_lightgray:1>
+    <chisel:wool_gray>
+    <chisel:wool_gray:1>
+    <chisel:wool_pink>
+    <chisel:wool_pink:1>
+    <chisel:wool_lime>
+    <chisel:wool_lime:1>
+    <chisel:wool_yellow>
+    <chisel:wool_yellow:1>
+    <chisel:wool_lightblue>
+    <chisel:wool_lightblue:1>
+    <chisel:wool_magenta>
+    <chisel:wool_magenta:1>
+    <chisel:wool_orange>
+    <chisel:wool_orange:1>
+    <chisel:wool_white>
+    <chisel:wool_white:1>
+    <primal:nether_wool:*>
+Ore entries for <ore:coal> :
+    <minecraft:coal>
+Ore entries for <ore:charcoal> :
+    <minecraft:coal:1>
 Ore entries for <ore:hookPudge> :
     <adhooks:pudge_hook>
 Ore entries for <ore:launcherPudge> :
@@ -1205,12 +2168,14 @@ Ore entries for <ore:crystalDilithium> :
     <taiga:dilithium_crystal>
 Ore entries for <ore:oreDilithium> :
     <libvulpes:ore0>
+    <base:ore_dilithium>
     <taiga:dilithium_block>
 Ore entries for <ore:dustIron> :
     <libvulpes:productdust:1>
     <base:dust:21>
     <enderio:itemPowderIngot:1>
     <immersiveengineering:metal:18>
+    <thermalfoundation:material>
     <primal:iron_dust:*>
     <rockhounding_chemistry:chemicalDusts:16>
     <actuallyadditions:itemDust>
@@ -1219,6 +2184,7 @@ Ore entries for <ore:plateIron> :
     <libvulpes:productplate:1>
     <base:plate:21>
     <immersiveengineering:metal:39>
+    <thermalfoundation:material:32>
     <primal:iron_plate:*>
 Ore entries for <ore:stickIron> :
     <libvulpes:productrod:1>
@@ -1230,12 +2196,15 @@ Ore entries for <ore:dustGold> :
     <base:dust:18>
     <enderio:itemPowderIngot:2>
     <immersiveengineering:metal:19>
+    <thermalfoundation:material:1>
     <rockhounding_chemistry:chemicalDusts:45>
     <actuallyadditions:itemDust:1>
     <bloodmagic:ItemComponent:20>
 Ore entries for <ore:plateGold> :
     <libvulpes:productplate:2>
     <base:plate:18>
+    <thermalfoundation:material:33>
+    <primal:gold_plate:*>
 Ore entries for <ore:coilGold> :
     <libvulpes:coil0:2>
 Ore entries for <ore:blockCoil> :
@@ -1259,17 +2228,21 @@ Ore entries for <ore:dustCopper> :
     <libvulpes:productdust:4>
     <base:dust:11>
     <immersiveengineering:metal:9>
+    <thermalfoundation:material:64>
     <primal:copper_dust:*>
     <rockhounding_chemistry:chemicalDusts:17>
     <enderio:itemPowderIngot:3>
 Ore entries for <ore:nuggetCopper> :
     <libvulpes:productnugget:4>
+    <base:nugget:11>
     <immersiveengineering:metal:20>
+    <thermalfoundation:material:192>
     <primal:copper_nugget:*>
 Ore entries for <ore:plateCopper> :
     <libvulpes:productplate:4>
     <base:plate:11>
     <immersiveengineering:metal:30>
+    <thermalfoundation:material:320>
     <primal:copper_plate:*>
 Ore entries for <ore:stickCopper> :
     <libvulpes:productrod:4>
@@ -1277,45 +2250,71 @@ Ore entries for <ore:sheetCopper> :
     <libvulpes:productsheet:4>
 Ore entries for <ore:blockCopper> :
     <libvulpes:metal0:4>
+    <base:storage_copper>
+    <chisel:blockCopper>
+    <chisel:blockCopper:1>
+    <chisel:blockCopper:2>
+    <chisel:blockCopper:3>
+    <chisel:blockCopper:4>
+    <chisel:blockCopper:5>
+    <chisel:blockCopper:6>
     <forestry:resourceStorage:1>
     <immersiveengineering:storage>
+    <thermalfoundation:storage>
     <primal:copper_block:*>
 Ore entries for <ore:coilCopper> :
     <libvulpes:coil0:4>
 Ore entries for <ore:dustTin> :
     <libvulpes:productdust:5>
     <base:dust:29>
+    <thermalfoundation:material:65>
     <primal:tin_dust:*>
     <rockhounding_chemistry:chemicalDusts:18>
     <enderio:itemPowderIngot:4>
 Ore entries for <ore:nuggetTin> :
     <libvulpes:productnugget:5>
     <base:nugget:29>
+    <thermalfoundation:material:193>
     <primal:tin_nugget:*>
 Ore entries for <ore:plateTin> :
     <libvulpes:productplate:5>
     <base:plate:29>
+    <thermalfoundation:material:321>
     <primal:tin_plate:*>
 Ore entries for <ore:blockTin> :
     <libvulpes:metal0:5>
     <base:storage_tin>
+    <chisel:blockTin>
+    <chisel:blockTin:1>
+    <chisel:blockTin:2>
+    <chisel:blockTin:3>
+    <chisel:blockTin:4>
+    <chisel:blockTin:5>
+    <chisel:blockTin:6>
     <forestry:resourceStorage:2>
+    <thermalfoundation:storage:1>
     <primal:tin_block:*>
 Ore entries for <ore:dustSteel> :
     <libvulpes:productdust:6>
     <base:dust:28>
     <immersiveengineering:metal:17>
+    <thermalfoundation:material:96>
 Ore entries for <ore:ingotSteel> :
     <libvulpes:productingot:6>
+    <base:ingot:28>
     <immersiveengineering:metal:8>
+    <thermalfoundation:material:160>
     <primal:steel_ingot:*>
 Ore entries for <ore:nuggetSteel> :
     <libvulpes:productnugget:6>
+    <base:nugget:28>
     <immersiveengineering:metal:28>
+    <thermalfoundation:material:224>
 Ore entries for <ore:plateSteel> :
     <libvulpes:productplate:6>
     <base:plate:28>
     <immersiveengineering:metal:38>
+    <thermalfoundation:material:352>
     <primal:steel_plate:*>
 Ore entries for <ore:stickSteel> :
     <libvulpes:productrod:6>
@@ -1327,9 +2326,19 @@ Ore entries for <ore:sheetSteel> :
 Ore entries for <ore:gearSteel> :
     <libvulpes:productgear:6>
     <base:gear:28>
+    <thermalfoundation:material:288>
 Ore entries for <ore:blockSteel> :
     <libvulpes:metal0:6>
+    <base:storage_steel>
+    <chisel:blockSteel>
+    <chisel:blockSteel:1>
+    <chisel:blockSteel:2>
+    <chisel:blockSteel:3>
+    <chisel:blockSteel:4>
+    <chisel:blockSteel:5>
+    <chisel:blockSteel:6>
     <immersiveengineering:storage:8>
+    <thermalfoundation:storage_alloy>
     <primal:steel_block:*>
 Ore entries for <ore:dustTitanium> :
     <libvulpes:productdust:7>
@@ -1337,8 +2346,10 @@ Ore entries for <ore:dustTitanium> :
     <rockhounding_chemistry:chemicalDusts:29>
 Ore entries for <ore:ingotTitanium> :
     <libvulpes:productingot:7>
+    <base:ingot:30>
 Ore entries for <ore:nuggetTitanium> :
     <libvulpes:productnugget:7>
+    <base:nugget:30>
 Ore entries for <ore:plateTitanium> :
     <libvulpes:productplate:7>
     <base:plate:30>
@@ -1351,54 +2362,83 @@ Ore entries for <ore:gearTitanium> :
     <base:gear:30>
 Ore entries for <ore:blockTitanium> :
     <libvulpes:metal0:7>
+    <base:storage_titanium>
 Ore entries for <ore:coilTitanium> :
     <libvulpes:coil0:7>
 Ore entries for <ore:oreRutile> :
     <libvulpes:ore0:8>
 Ore entries for <ore:oreTitanium> :
     <libvulpes:ore0:8>
+    <base:ore_titanium>
 Ore entries for <ore:dustAluminum> :
     <libvulpes:productdust:9>
     <base:dust:3>
     <immersiveengineering:metal:10>
+    <thermalfoundation:material:68>
     <rockhounding_chemistry:chemicalDusts:24>
 Ore entries for <ore:ingotAluminum> :
     <libvulpes:productingot:9>
+    <base:ingot:3>
     <immersiveengineering:metal:1>
+    <thermalfoundation:material:132>
 Ore entries for <ore:nuggetAluminum> :
     <libvulpes:productnugget:9>
+    <base:nugget:3>
     <immersiveengineering:metal:21>
+    <thermalfoundation:material:196>
 Ore entries for <ore:plateAluminum> :
     <libvulpes:productplate:9>
     <base:plate:3>
     <immersiveengineering:metal:31>
+    <thermalfoundation:material:324>
 Ore entries for <ore:sheetAluminum> :
     <libvulpes:productsheet:9>
 Ore entries for <ore:oreAluminum> :
     <libvulpes:ore0:9>
+    <base:ore_aluminum>
     <immersiveengineering:ore:1>
+    <thermalfoundation:ore:4>
 Ore entries for <ore:blockAluminum> :
     <libvulpes:metal0:9>
+    <base:storage_aluminum>
+    <chisel:blockAluminum>
+    <chisel:blockAluminum:1>
+    <chisel:blockAluminum:2>
+    <chisel:blockAluminum:3>
+    <chisel:blockAluminum:4>
+    <chisel:blockAluminum:5>
+    <chisel:blockAluminum:6>
     <immersiveengineering:storage:1>
+    <thermalfoundation:storage:4>
 Ore entries for <ore:coilAluminum> :
     <libvulpes:coil0:9>
 Ore entries for <ore:dustIridium> :
     <libvulpes:productdust:10>
     <base:dust:20>
+    <thermalfoundation:material:71>
     <rockhounding_chemistry:chemicalDusts:48>
 Ore entries for <ore:ingotIridium> :
     <libvulpes:productingot:10>
+    <base:ingot:20>
+    <thermalfoundation:material:135>
 Ore entries for <ore:nuggetIridium> :
     <libvulpes:productnugget:10>
+    <base:nugget:20>
+    <thermalfoundation:material:199>
 Ore entries for <ore:plateIridium> :
     <libvulpes:productplate:10>
     <base:plate:20>
+    <thermalfoundation:material:327>
 Ore entries for <ore:stickIridium> :
     <libvulpes:productrod:10>
 Ore entries for <ore:oreIridium> :
     <libvulpes:ore0:10>
+    <base:ore_iridium>
+    <thermalfoundation:ore:7>
 Ore entries for <ore:blockIridium> :
     <libvulpes:metal0:10>
+    <base:storage_iridium>
+    <thermalfoundation:storage:7>
 Ore entries for <ore:coilIridium> :
     <libvulpes:coil0:10>
 Ore entries for <ore:dustTitaniumAluminide> :
@@ -1511,10 +2551,258 @@ Ore entries for <ore:gemSunstone> :
 Ore entries for <ore:stoneMarble> :
     <astralsorcery:BlockMarble>
     <quark:marble>
+    <chisel:marble>
+    <chisel:marble:1>
+    <chisel:marble:2>
+    <chisel:marble:3>
+    <chisel:marble:4>
+    <chisel:marble:5>
+    <chisel:marble:6>
+    <chisel:marble:7>
+    <chisel:marble:8>
+    <chisel:marble:9>
+    <chisel:marble:10>
+    <chisel:marble:11>
+    <chisel:marble:12>
+    <chisel:marble:13>
+    <chisel:marble:14>
+    <chisel:marble:15>
+    <chisel:marble1>
+    <chisel:marble1:1>
+    <chisel:marble1:2>
+    <chisel:marble1:3>
+    <chisel:marble1:4>
+    <chisel:marble1:5>
+    <chisel:marble1:6>
+    <chisel:marble1:7>
+    <chisel:marble1:8>
+    <chisel:marbleextra>
+    <chisel:marbleextra:1>
+    <chisel:marbleextra:2>
+    <chisel:marbleextra:3>
+    <chisel:marbleextra:4>
+    <chisel:marbleextra:5>
+    <chisel:marbleextra:6>
+    <chisel:marbleextra:7>
+    <chisel:marblepillar>
+    <chisel:marblepillar:1>
+    <chisel:marblepillar:2>
+    <chisel:marblepillar:3>
+    <chisel:marblepillar:4>
+    <chisel:marblepillar:5>
+    <chisel:marblepillar:6>
+    <chisel:marblepillar:7>
+    <chisel:marblepillar:8>
+    <chisel:marblepillar:9>
+    <chisel:marblepillar:10>
+    <chisel:marblepillar:11>
+    <chisel:marblepillar:12>
+    <chisel:marblepillar:13>
+    <chisel:marblepillar:14>
+    <chisel:marblepillar:15>
 Ore entries for <ore:blockMarble> :
     <astralsorcery:BlockMarble>
+Ore entries for <ore:shardGlass> :
+    <quark:glass_shards>
+Ore entries for <ore:gemEnderBiotite> :
+    <quark:biotite>
 Ore entries for <ore:stonePolished> :
     <quark:polished_stone>
+Ore entries for <ore:stoneMarblePolished> :
+    <quark:marble:1>
+    <chisel:marble>
+    <chisel:marble:1>
+    <chisel:marble:2>
+    <chisel:marble:3>
+    <chisel:marble:4>
+    <chisel:marble:5>
+    <chisel:marble:6>
+    <chisel:marble:7>
+    <chisel:marble:8>
+    <chisel:marble:9>
+    <chisel:marble:10>
+    <chisel:marble:11>
+    <chisel:marble:12>
+    <chisel:marble:13>
+    <chisel:marble:14>
+    <chisel:marble:15>
+    <chisel:marble1>
+    <chisel:marble1:1>
+    <chisel:marble1:2>
+    <chisel:marble1:3>
+    <chisel:marble1:4>
+    <chisel:marble1:5>
+    <chisel:marble1:6>
+    <chisel:marble1:7>
+    <chisel:marble1:8>
+    <chisel:marbleextra>
+    <chisel:marbleextra:1>
+    <chisel:marbleextra:2>
+    <chisel:marbleextra:3>
+    <chisel:marbleextra:4>
+    <chisel:marbleextra:5>
+    <chisel:marbleextra:6>
+    <chisel:marbleextra:7>
+    <chisel:marblepillar>
+    <chisel:marblepillar:1>
+    <chisel:marblepillar:2>
+    <chisel:marblepillar:3>
+    <chisel:marblepillar:4>
+    <chisel:marblepillar:5>
+    <chisel:marblepillar:6>
+    <chisel:marblepillar:7>
+    <chisel:marblepillar:8>
+    <chisel:marblepillar:9>
+    <chisel:marblepillar:10>
+    <chisel:marblepillar:11>
+    <chisel:marblepillar:12>
+    <chisel:marblepillar:13>
+    <chisel:marblepillar:14>
+    <chisel:marblepillar:15>
+Ore entries for <ore:stoneLimestone> :
+    <quark:limestone>
+    <chisel:limestone>
+    <chisel:limestone:1>
+    <chisel:limestone:2>
+    <chisel:limestone:3>
+    <chisel:limestone:4>
+    <chisel:limestone:5>
+    <chisel:limestone:6>
+    <chisel:limestone:7>
+    <chisel:limestone:8>
+    <chisel:limestone:9>
+    <chisel:limestone:10>
+    <chisel:limestone:11>
+    <chisel:limestone:12>
+    <chisel:limestone:13>
+    <chisel:limestone:14>
+    <chisel:limestone:15>
+    <chisel:limestone1>
+    <chisel:limestone1:1>
+    <chisel:limestone1:2>
+    <chisel:limestone1:3>
+    <chisel:limestone1:4>
+    <chisel:limestone1:5>
+    <chisel:limestone1:6>
+    <chisel:limestone1:7>
+    <chisel:limestone1:8>
+    <chisel:limestoneextra>
+    <chisel:limestoneextra:1>
+    <chisel:limestoneextra:2>
+    <chisel:limestoneextra:3>
+    <chisel:limestoneextra:4>
+    <chisel:limestoneextra:5>
+    <chisel:limestoneextra:6>
+    <chisel:limestoneextra:7>
+    <primal:carbonate_stone>
+    <primal:ferro_stone>
+    <chisel:limestone:*>
+    <chisel:limestone1:*>
+Ore entries for <ore:stoneLimestonePolished> :
+    <quark:limestone:1>
+    <chisel:limestone>
+    <chisel:limestone:1>
+    <chisel:limestone:2>
+    <chisel:limestone:3>
+    <chisel:limestone:4>
+    <chisel:limestone:5>
+    <chisel:limestone:6>
+    <chisel:limestone:7>
+    <chisel:limestone:8>
+    <chisel:limestone:9>
+    <chisel:limestone:10>
+    <chisel:limestone:11>
+    <chisel:limestone:12>
+    <chisel:limestone:13>
+    <chisel:limestone:14>
+    <chisel:limestone:15>
+    <chisel:limestone1>
+    <chisel:limestone1:1>
+    <chisel:limestone1:2>
+    <chisel:limestone1:3>
+    <chisel:limestone1:4>
+    <chisel:limestone1:5>
+    <chisel:limestone1:6>
+    <chisel:limestone1:7>
+    <chisel:limestone1:8>
+    <chisel:limestoneextra>
+    <chisel:limestoneextra:1>
+    <chisel:limestoneextra:2>
+    <chisel:limestoneextra:3>
+    <chisel:limestoneextra:4>
+    <chisel:limestoneextra:5>
+    <chisel:limestoneextra:6>
+    <chisel:limestoneextra:7>
+Ore entries for <ore:stoneBasalt> :
+    <quark:basalt>
+    <chisel:basalt>
+    <chisel:basalt:1>
+    <chisel:basalt:2>
+    <chisel:basalt:3>
+    <chisel:basalt:4>
+    <chisel:basalt:5>
+    <chisel:basalt:6>
+    <chisel:basalt:7>
+    <chisel:basalt:8>
+    <chisel:basalt:9>
+    <chisel:basalt:10>
+    <chisel:basalt:11>
+    <chisel:basalt:12>
+    <chisel:basalt:13>
+    <chisel:basalt:14>
+    <chisel:basalt:15>
+    <chisel:basalt1>
+    <chisel:basalt1:1>
+    <chisel:basalt1:2>
+    <chisel:basalt1:3>
+    <chisel:basalt1:4>
+    <chisel:basalt1:5>
+    <chisel:basalt1:6>
+    <chisel:basalt1:7>
+    <chisel:basalt1:8>
+    <chisel:basaltextra>
+    <chisel:basaltextra:1>
+    <chisel:basaltextra:2>
+    <chisel:basaltextra:3>
+    <chisel:basaltextra:4>
+    <chisel:basaltextra:5>
+    <chisel:basaltextra:6>
+    <chisel:basaltextra:7>
+Ore entries for <ore:stoneBasaltPolished> :
+    <quark:basalt:1>
+    <chisel:basalt>
+    <chisel:basalt:1>
+    <chisel:basalt:2>
+    <chisel:basalt:3>
+    <chisel:basalt:4>
+    <chisel:basalt:5>
+    <chisel:basalt:6>
+    <chisel:basalt:7>
+    <chisel:basalt:8>
+    <chisel:basalt:9>
+    <chisel:basalt:10>
+    <chisel:basalt:11>
+    <chisel:basalt:12>
+    <chisel:basalt:13>
+    <chisel:basalt:14>
+    <chisel:basalt:15>
+    <chisel:basalt1>
+    <chisel:basalt1:1>
+    <chisel:basalt1:2>
+    <chisel:basalt1:3>
+    <chisel:basalt1:4>
+    <chisel:basalt1:5>
+    <chisel:basalt1:6>
+    <chisel:basalt1:7>
+    <chisel:basalt1:8>
+    <chisel:basaltextra>
+    <chisel:basaltextra:1>
+    <chisel:basaltextra:2>
+    <chisel:basaltextra:3>
+    <chisel:basaltextra:4>
+    <chisel:basaltextra:5>
+    <chisel:basaltextra:6>
+    <chisel:basaltextra:7>
 Ore entries for <ore:trapdoorWood> :
     <quark:spruce_trapdoor>
     <quark:birch_trapdoor>
@@ -1525,39 +2813,159 @@ Ore entries for <ore:trapdoorWood> :
     <minecraft:trapdoor:*>
 Ore entries for <ore:bookshelf> :
     <quark:custom_bookshelf:*>
+    <chisel:bookshelf_oak>
+    <chisel:bookshelf_oak:1>
+    <chisel:bookshelf_oak:2>
+    <chisel:bookshelf_oak:3>
+    <chisel:bookshelf_oak:4>
+    <chisel:bookshelf_oak:5>
+    <chisel:bookshelf_oak:6>
+    <chisel:bookshelf_oak:7>
+    <chisel:bookshelf_oak:8>
+    <chisel:bookshelf_oak:9>
+    <chisel:bookshelf_spruce>
+    <chisel:bookshelf_spruce:1>
+    <chisel:bookshelf_spruce:2>
+    <chisel:bookshelf_spruce:3>
+    <chisel:bookshelf_spruce:4>
+    <chisel:bookshelf_spruce:5>
+    <chisel:bookshelf_spruce:6>
+    <chisel:bookshelf_spruce:7>
+    <chisel:bookshelf_spruce:8>
+    <chisel:bookshelf_spruce:9>
+    <chisel:bookshelf_birch>
+    <chisel:bookshelf_birch:1>
+    <chisel:bookshelf_birch:2>
+    <chisel:bookshelf_birch:3>
+    <chisel:bookshelf_birch:4>
+    <chisel:bookshelf_birch:5>
+    <chisel:bookshelf_birch:6>
+    <chisel:bookshelf_birch:7>
+    <chisel:bookshelf_birch:8>
+    <chisel:bookshelf_birch:9>
+    <chisel:bookshelf_jungle>
+    <chisel:bookshelf_jungle:1>
+    <chisel:bookshelf_jungle:2>
+    <chisel:bookshelf_jungle:3>
+    <chisel:bookshelf_jungle:4>
+    <chisel:bookshelf_jungle:5>
+    <chisel:bookshelf_jungle:6>
+    <chisel:bookshelf_jungle:7>
+    <chisel:bookshelf_jungle:8>
+    <chisel:bookshelf_jungle:9>
+    <chisel:bookshelf_acacia>
+    <chisel:bookshelf_acacia:1>
+    <chisel:bookshelf_acacia:2>
+    <chisel:bookshelf_acacia:3>
+    <chisel:bookshelf_acacia:4>
+    <chisel:bookshelf_acacia:5>
+    <chisel:bookshelf_acacia:6>
+    <chisel:bookshelf_acacia:7>
+    <chisel:bookshelf_acacia:8>
+    <chisel:bookshelf_acacia:9>
+    <chisel:bookshelf_darkoak>
+    <chisel:bookshelf_darkoak:1>
+    <chisel:bookshelf_darkoak:2>
+    <chisel:bookshelf_darkoak:3>
+    <chisel:bookshelf_darkoak:4>
+    <chisel:bookshelf_darkoak:5>
+    <chisel:bookshelf_darkoak:6>
+    <chisel:bookshelf_darkoak:7>
+    <chisel:bookshelf_darkoak:8>
+    <chisel:bookshelf_darkoak:9>
     <minecraft:bookshelf>
 Ore entries for <ore:bookshelfSpruce> :
     <quark:custom_bookshelf>
+    <chisel:bookshelf_spruce>
+    <chisel:bookshelf_spruce:1>
+    <chisel:bookshelf_spruce:2>
+    <chisel:bookshelf_spruce:3>
+    <chisel:bookshelf_spruce:4>
+    <chisel:bookshelf_spruce:5>
+    <chisel:bookshelf_spruce:6>
+    <chisel:bookshelf_spruce:7>
+    <chisel:bookshelf_spruce:8>
+    <chisel:bookshelf_spruce:9>
 Ore entries for <ore:bookshelfBirch> :
     <quark:custom_bookshelf:1>
+    <chisel:bookshelf_birch>
+    <chisel:bookshelf_birch:1>
+    <chisel:bookshelf_birch:2>
+    <chisel:bookshelf_birch:3>
+    <chisel:bookshelf_birch:4>
+    <chisel:bookshelf_birch:5>
+    <chisel:bookshelf_birch:6>
+    <chisel:bookshelf_birch:7>
+    <chisel:bookshelf_birch:8>
+    <chisel:bookshelf_birch:9>
 Ore entries for <ore:bookshelfJungle> :
     <quark:custom_bookshelf:2>
+    <chisel:bookshelf_jungle>
+    <chisel:bookshelf_jungle:1>
+    <chisel:bookshelf_jungle:2>
+    <chisel:bookshelf_jungle:3>
+    <chisel:bookshelf_jungle:4>
+    <chisel:bookshelf_jungle:5>
+    <chisel:bookshelf_jungle:6>
+    <chisel:bookshelf_jungle:7>
+    <chisel:bookshelf_jungle:8>
+    <chisel:bookshelf_jungle:9>
 Ore entries for <ore:bookshelfAcacia> :
     <quark:custom_bookshelf:3>
+    <chisel:bookshelf_acacia>
+    <chisel:bookshelf_acacia:1>
+    <chisel:bookshelf_acacia:2>
+    <chisel:bookshelf_acacia:3>
+    <chisel:bookshelf_acacia:4>
+    <chisel:bookshelf_acacia:5>
+    <chisel:bookshelf_acacia:6>
+    <chisel:bookshelf_acacia:7>
+    <chisel:bookshelf_acacia:8>
+    <chisel:bookshelf_acacia:9>
 Ore entries for <ore:bookshelfDarkOak> :
     <quark:custom_bookshelf:4>
-Ore entries for <ore:shardGlass> :
-    <quark:glass_shards>
-Ore entries for <ore:stoneMarblePolished> :
-    <quark:marble:1>
-Ore entries for <ore:stoneLimestone> :
-    <quark:limestone>
-Ore entries for <ore:stoneLimestonePolished> :
-    <quark:limestone:1>
-Ore entries for <ore:gemEnderBiotite> :
-    <quark:biotite>
-Ore entries for <ore:stoneBasalt> :
-    <quark:basalt>
-Ore entries for <ore:stoneBasaltPolished> :
-    <quark:basalt:1>
+    <chisel:bookshelf_darkoak>
+    <chisel:bookshelf_darkoak:1>
+    <chisel:bookshelf_darkoak:2>
+    <chisel:bookshelf_darkoak:3>
+    <chisel:bookshelf_darkoak:4>
+    <chisel:bookshelf_darkoak:5>
+    <chisel:bookshelf_darkoak:6>
+    <chisel:bookshelf_darkoak:7>
+    <chisel:bookshelf_darkoak:8>
+    <chisel:bookshelf_darkoak:9>
 Ore entries for <ore:dustElectrum> :
     <base:dust:17>
     <immersiveengineering:metal:16>
+    <thermalfoundation:material:97>
 Ore entries for <ore:gearElectrum> :
     <base:gear:17>
+    <thermalfoundation:material:289>
 Ore entries for <ore:plateElectrum> :
     <base:plate:17>
     <immersiveengineering:metal:37>
+    <thermalfoundation:material:353>
+Ore entries for <ore:nuggetElectrum> :
+    <base:nugget:17>
+    <immersiveengineering:metal:27>
+    <thermalfoundation:material:225>
+Ore entries for <ore:ingotElectrum> :
+    <base:ingot:17>
+    <immersiveengineering:metal:7>
+    <thermalfoundation:material:161>
+Ore entries for <ore:oreElectrum> :
+    <base:ore_electrum>
+Ore entries for <ore:blockElectrum> :
+    <base:storage_electrum>
+    <chisel:blockElectrum>
+    <chisel:blockElectrum:1>
+    <chisel:blockElectrum:2>
+    <chisel:blockElectrum:3>
+    <chisel:blockElectrum:4>
+    <chisel:blockElectrum:5>
+    <chisel:blockElectrum:6>
+    <immersiveengineering:storage:7>
+    <thermalfoundation:storage_alloy:1>
 Ore entries for <ore:dustDyonite> :
     <base:dust:40>
     <taiga:dyonite_dust>
@@ -1567,10 +2975,25 @@ Ore entries for <ore:plateDyonite> :
     <base:plate:40>
 Ore entries for <ore:dustMithril> :
     <base:dust:23>
+    <thermalfoundation:material:72>
 Ore entries for <ore:gearMithril> :
     <base:gear:23>
+    <thermalfoundation:material:264>
 Ore entries for <ore:plateMithril> :
     <base:plate:23>
+    <thermalfoundation:material:328>
+Ore entries for <ore:nuggetMithril> :
+    <base:nugget:23>
+    <thermalfoundation:material:200>
+Ore entries for <ore:ingotMithril> :
+    <base:ingot:23>
+    <thermalfoundation:material:136>
+Ore entries for <ore:oreMithril> :
+    <base:ore_mithril>
+    <thermalfoundation:ore:8>
+Ore entries for <ore:blockMithril> :
+    <base:storage_mithril>
+    <thermalfoundation:storage:8>
 Ore entries for <ore:dustLumix> :
     <base:dust:46>
     <taiga:lumix_dust>
@@ -1584,10 +3007,26 @@ Ore entries for <ore:gearColdiron> :
     <base:gear:9>
 Ore entries for <ore:plateColdiron> :
     <base:plate:9>
+Ore entries for <ore:nuggetColdiron> :
+    <base:nugget:9>
+Ore entries for <ore:ingotColdiron> :
+    <base:ingot:9>
+Ore entries for <ore:oreColdiron> :
+    <base:ore_coldiron>
+Ore entries for <ore:blockColdiron> :
+    <base:storage_coldiron>
 Ore entries for <ore:gearDilithium> :
     <base:gear:15>
 Ore entries for <ore:plateDilithium> :
     <base:plate:15>
+Ore entries for <ore:nuggetDilithium> :
+    <base:nugget:15>
+    <taiga:dilithium_nugget>
+Ore entries for <ore:ingotDilithium> :
+    <base:ingot:15>
+    <taiga:dilithium_ingot>
+Ore entries for <ore:blockDilithium> :
+    <base:storage_dilithium>
 Ore entries for <ore:dustSolarium> :
     <base:dust:55>
     <taiga:solarium_dust>
@@ -1602,26 +3041,41 @@ Ore entries for <ore:gearVibranium> :
     <base:gear:61>
 Ore entries for <ore:plateVibranium> :
     <base:plate:61>
-Ore entries for <ore:nuggetBronze> :
-    <base:nugget:7>
-    <primal:bronze_nugget:*>
-Ore entries for <ore:ingotBronze> :
-    <base:ingot:7>
-    <forestry:ingotBronze>
-    <primal:bronze_ingot:*>
-Ore entries for <ore:blockBronze> :
-    <base:storage_bronze>
-    <forestry:resourceStorage:3>
-    <primal:bronze_block:*>
 Ore entries for <ore:dustBronze> :
     <base:dust:7>
+    <thermalfoundation:material:99>
     <primal:bronze_dust:*>
 Ore entries for <ore:gearBronze> :
     <base:gear:7>
     <forestry:gearBronze>
+    <thermalfoundation:material:291>
 Ore entries for <ore:plateBronze> :
     <base:plate:7>
+    <thermalfoundation:material:355>
     <primal:bronze_plate:*>
+Ore entries for <ore:nuggetBronze> :
+    <base:nugget:7>
+    <thermalfoundation:material:227>
+    <primal:bronze_nugget:*>
+Ore entries for <ore:ingotBronze> :
+    <base:ingot:7>
+    <forestry:ingotBronze>
+    <thermalfoundation:material:163>
+    <primal:bronze_ingot:*>
+Ore entries for <ore:oreBronze> :
+    <base:ore_bronze>
+Ore entries for <ore:blockBronze> :
+    <base:storage_bronze>
+    <chisel:blockBronze>
+    <chisel:blockBronze:1>
+    <chisel:blockBronze:2>
+    <chisel:blockBronze:3>
+    <chisel:blockBronze:4>
+    <chisel:blockBronze:5>
+    <chisel:blockBronze:6>
+    <forestry:resourceStorage:3>
+    <thermalfoundation:storage_alloy:3>
+    <primal:bronze_block:*>
 Ore entries for <ore:dustCupronickel> :
     <base:dust:13>
     <rockhounding_chemistry:alloyItems:12>
@@ -1629,6 +3083,17 @@ Ore entries for <ore:gearCupronickel> :
     <base:gear:13>
 Ore entries for <ore:plateCupronickel> :
     <base:plate:13>
+Ore entries for <ore:nuggetCupronickel> :
+    <base:nugget:13>
+    <rockhounding_chemistry:alloyItems:14>
+Ore entries for <ore:ingotCupronickel> :
+    <base:ingot:13>
+    <rockhounding_chemistry:alloyItems:13>
+Ore entries for <ore:oreCupronickel> :
+    <base:ore_cupronickel>
+Ore entries for <ore:blockCupronickel> :
+    <base:storage_cupronickel>
+    <rockhounding_chemistry:alloyBlocks:4>
 Ore entries for <ore:dustProxii> :
     <base:dust:53>
     <taiga:proxii_dust>
@@ -1650,17 +3115,59 @@ Ore entries for <ore:gearArdite> :
     <base:gear:5>
 Ore entries for <ore:plateArdite> :
     <base:plate:5>
+Ore entries for <ore:nuggetArdite> :
+    <base:nugget:5>
+    <tconstruct:nuggets:1>
+Ore entries for <ore:ingotArdite> :
+    <base:ingot:5>
+    <tconstruct:ingots:1>
+Ore entries for <ore:oreArdite> :
+    <base:ore_ardite>
+    <tconstruct:ore:1>
+Ore entries for <ore:blockArdite> :
+    <base:storage_ardite>
+    <tconstruct:metal:1>
 Ore entries for <ore:dustLead> :
     <base:dust:22>
     <immersiveengineering:metal:11>
+    <thermalfoundation:material:67>
     <primal:lead_dust:*>
     <rockhounding_chemistry:chemicalDusts:19>
 Ore entries for <ore:gearLead> :
     <base:gear:22>
+    <thermalfoundation:material:259>
 Ore entries for <ore:plateLead> :
     <base:plate:22>
     <immersiveengineering:metal:32>
+    <thermalfoundation:material:323>
     <primal:lead_plate:*>
+Ore entries for <ore:nuggetLead> :
+    <base:nugget:22>
+    <immersiveengineering:metal:22>
+    <thermalfoundation:material:195>
+    <primal:lead_nugget:*>
+Ore entries for <ore:ingotLead> :
+    <base:ingot:22>
+    <immersiveengineering:metal:2>
+    <thermalfoundation:material:131>
+    <primal:lead_ingot:*>
+    <rockhounding_chemistry:miscItems:27>
+Ore entries for <ore:oreLead> :
+    <base:ore_lead>
+    <immersiveengineering:ore:2>
+    <thermalfoundation:ore:3>
+Ore entries for <ore:blockLead> :
+    <base:storage_lead>
+    <chisel:blockLead>
+    <chisel:blockLead:1>
+    <chisel:blockLead:2>
+    <chisel:blockLead:3>
+    <chisel:blockLead:4>
+    <chisel:blockLead:5>
+    <chisel:blockLead:6>
+    <immersiveengineering:storage:2>
+    <thermalfoundation:storage:3>
+    <primal:lead_block:*>
 Ore entries for <ore:dustKarmesine> :
     <base:dust:45>
     <taiga:karmesine_dust>
@@ -1668,6 +3175,8 @@ Ore entries for <ore:gearKarmesine> :
     <base:gear:45>
 Ore entries for <ore:plateKarmesine> :
     <base:plate:45>
+Ore entries for <ore:oreSteel> :
+    <base:ore_steel>
 Ore entries for <ore:dustPalladium> :
     <base:dust:51>
     <taiga:palladium_dust>
@@ -1675,11 +3184,6 @@ Ore entries for <ore:gearPalladium> :
     <base:gear:51>
 Ore entries for <ore:platePalladium> :
     <base:plate:51>
-Ore entries for <ore:nuggetZinc> :
-    <base:nugget:34>
-    <primal:zinc_nugget:*>
-Ore entries for <ore:oreZinc> :
-    <base:ore_zinc>
 Ore entries for <ore:dustZinc> :
     <base:dust:34>
     <primal:zinc_dust:*>
@@ -1689,20 +3193,62 @@ Ore entries for <ore:gearZinc> :
 Ore entries for <ore:plateZinc> :
     <base:plate:34>
     <primal:zinc_plate:*>
+Ore entries for <ore:nuggetZinc> :
+    <base:nugget:34>
+    <primal:zinc_nugget:*>
+Ore entries for <ore:ingotZinc> :
+    <base:ingot:34>
+    <primal:zinc_ingot:*>
+Ore entries for <ore:oreZinc> :
+    <base:ore_zinc>
+Ore entries for <ore:blockZinc> :
+    <base:storage_zinc>
+    <primal:zinc_block:*>
 Ore entries for <ore:gearAluminum> :
     <base:gear:3>
+    <thermalfoundation:material:260>
 Ore entries for <ore:gearIridium> :
     <base:gear:20>
+    <thermalfoundation:material:263>
 Ore entries for <ore:dustSilver> :
     <base:dust:26>
     <immersiveengineering:metal:12>
+    <thermalfoundation:material:66>
     <primal:silver_dust:*>
     <rockhounding_chemistry:chemicalDusts:23>
 Ore entries for <ore:gearSilver> :
     <base:gear:26>
+    <thermalfoundation:material:258>
 Ore entries for <ore:plateSilver> :
     <base:plate:26>
+    <thermalfoundation:material:322>
     <primal:silver_plate:*>
+Ore entries for <ore:nuggetSilver> :
+    <base:nugget:26>
+    <immersiveengineering:metal:23>
+    <thermalfoundation:material:194>
+    <primal:silver_nugget:*>
+Ore entries for <ore:ingotSilver> :
+    <base:ingot:26>
+    <immersiveengineering:metal:3>
+    <thermalfoundation:material:130>
+    <primal:silver_ingot:*>
+Ore entries for <ore:oreSilver> :
+    <base:ore_silver>
+    <immersiveengineering:ore:3>
+    <thermalfoundation:ore:2>
+Ore entries for <ore:blockSilver> :
+    <base:storage_silver>
+    <chisel:blockSilver>
+    <chisel:blockSilver:1>
+    <chisel:blockSilver:2>
+    <chisel:blockSilver:3>
+    <chisel:blockSilver:4>
+    <chisel:blockSilver:5>
+    <chisel:blockSilver:6>
+    <immersiveengineering:storage:3>
+    <thermalfoundation:storage:2>
+    <primal:silver_block:*>
 Ore entries for <ore:dustNucleum> :
     <base:dust:49>
     <taiga:nucleum_dust>
@@ -1718,14 +3264,41 @@ Ore entries for <ore:plateAbyssalnite> :
     <base:plate:1>
 Ore entries for <ore:gearGold> :
     <base:gear:18>
+    <thermalfoundation:material:25>
 Ore entries for <ore:dustNickel> :
     <base:dust:24>
     <immersiveengineering:metal:13>
+    <thermalfoundation:material:69>
     <rockhounding_chemistry:chemicalDusts:26>
 Ore entries for <ore:gearNickel> :
     <base:gear:24>
+    <thermalfoundation:material:261>
 Ore entries for <ore:plateNickel> :
     <base:plate:24>
+    <thermalfoundation:material:325>
+Ore entries for <ore:nuggetNickel> :
+    <base:nugget:24>
+    <immersiveengineering:metal:24>
+    <thermalfoundation:material:197>
+Ore entries for <ore:ingotNickel> :
+    <base:ingot:24>
+    <immersiveengineering:metal:4>
+    <thermalfoundation:material:133>
+Ore entries for <ore:oreNickel> :
+    <base:ore_nickel>
+    <immersiveengineering:ore:4>
+    <thermalfoundation:ore:5>
+Ore entries for <ore:blockNickel> :
+    <base:storage_nickel>
+    <chisel:blockNickel>
+    <chisel:blockNickel:1>
+    <chisel:blockNickel:2>
+    <chisel:blockNickel:3>
+    <chisel:blockNickel:4>
+    <chisel:blockNickel:5>
+    <chisel:blockNickel:6>
+    <immersiveengineering:storage:4>
+    <thermalfoundation:storage:5>
 Ore entries for <ore:dustMeteorite> :
     <base:dust:47>
     <taiga:meteorite_dust>
@@ -1736,17 +3309,36 @@ Ore entries for <ore:plateMeteorite> :
 Ore entries for <ore:dustConstantan> :
     <base:dust:10>
     <immersiveengineering:metal:15>
+    <thermalfoundation:material:100>
 Ore entries for <ore:gearConstantan> :
     <base:gear:10>
+    <thermalfoundation:material:292>
 Ore entries for <ore:plateConstantan> :
     <base:plate:10>
     <immersiveengineering:metal:36>
+    <thermalfoundation:material:356>
+Ore entries for <ore:nuggetConstantan> :
+    <base:nugget:10>
+    <immersiveengineering:metal:26>
+    <thermalfoundation:material:228>
+Ore entries for <ore:ingotConstantan> :
+    <base:ingot:10>
+    <immersiveengineering:metal:6>
+    <thermalfoundation:material:164>
+Ore entries for <ore:oreConstantan> :
+    <base:ore_constantan>
+Ore entries for <ore:blockConstantan> :
+    <base:storage_constantan>
+    <immersiveengineering:storage:6>
+    <thermalfoundation:storage_alloy:4>
 Ore entries for <ore:dustDreadium> :
     <base:dust:16>
 Ore entries for <ore:gearDreadium> :
     <base:gear:16>
 Ore entries for <ore:plateDreadium> :
     <base:plate:16>
+Ore entries for <ore:oreDreadium> :
+    <base:ore_dreadium>
 Ore entries for <ore:dustUranium> :
     <base:dust:33>
     <immersiveengineering:metal:14>
@@ -1755,6 +3347,25 @@ Ore entries for <ore:gearUranium> :
     <base:gear:33>
 Ore entries for <ore:plateUranium> :
     <base:plate:33>
+Ore entries for <ore:nuggetUranium> :
+    <base:nugget:33>
+    <immersiveengineering:metal:25>
+Ore entries for <ore:ingotUranium> :
+    <base:ingot:33>
+    <immersiveengineering:metal:5>
+Ore entries for <ore:oreUranium> :
+    <base:ore_uranium>
+    <immersiveengineering:ore:5>
+Ore entries for <ore:blockUranium> :
+    <base:storage_uranium>
+    <chisel:blockUranium>
+    <chisel:blockUranium:1>
+    <chisel:blockUranium:2>
+    <chisel:blockUranium:3>
+    <chisel:blockUranium:4>
+    <chisel:blockUranium:5>
+    <chisel:blockUranium:6>
+    <immersiveengineering:storage:5>
 Ore entries for <ore:dustTiberium> :
     <base:dust:56>
     <taiga:tiberium_dust>
@@ -1777,12 +3388,39 @@ Ore entries for <ore:gearCobalt> :
     <base:gear:8>
 Ore entries for <ore:plateCobalt> :
     <base:plate:8>
+Ore entries for <ore:nuggetCobalt> :
+    <base:nugget:8>
+    <tconstruct:nuggets>
+Ore entries for <ore:ingotCobalt> :
+    <base:ingot:8>
+    <tconstruct:ingots>
+Ore entries for <ore:oreCobalt> :
+    <base:ore_cobalt>
+    <tconstruct:ore>
+Ore entries for <ore:blockCobalt> :
+    <base:storage_cobalt>
+    <chisel:blockCobalt>
+    <chisel:blockCobalt:1>
+    <chisel:blockCobalt:2>
+    <chisel:blockCobalt:3>
+    <chisel:blockCobalt:4>
+    <chisel:blockCobalt:5>
+    <chisel:blockCobalt:6>
+    <tconstruct:metal>
 Ore entries for <ore:dustDawnstone> :
     <base:dust:14>
 Ore entries for <ore:gearDawnstone> :
     <base:gear:14>
 Ore entries for <ore:plateDawnstone> :
     <base:plate:14>
+Ore entries for <ore:nuggetDawnstone> :
+    <base:nugget:14>
+Ore entries for <ore:ingotDawnstone> :
+    <base:ingot:14>
+Ore entries for <ore:oreDawnstone> :
+    <base:ore_dawnstone>
+Ore entries for <ore:blockDawnstone> :
+    <base:storage_dawnstone>
 Ore entries for <ore:dustSeismum> :
     <base:dust:54>
     <taiga:seismum_dust>
@@ -1805,15 +3443,33 @@ Ore entries for <ore:gearBrass> :
 Ore entries for <ore:plateBrass> :
     <base:plate:6>
     <primal:brass_plate:*>
+Ore entries for <ore:nuggetBrass> :
+    <base:nugget:6>
+    <primal:brass_nugget:*>
+Ore entries for <ore:ingotBrass> :
+    <base:ingot:6>
+    <primal:brass_ingot:*>
+Ore entries for <ore:oreBrass> :
+    <base:ore_brass>
+Ore entries for <ore:blockBrass> :
+    <base:storage_brass>
+    <primal:brass_block:*>
 Ore entries for <ore:dustCoralium> :
     <base:dust:12>
 Ore entries for <ore:gearCoralium> :
     <base:gear:12>
 Ore entries for <ore:plateCoralium> :
     <base:plate:12>
+Ore entries for <ore:nuggetCoralium> :
+    <base:nugget:12>
+Ore entries for <ore:ingotCoralium> :
+    <base:ingot:12>
+Ore entries for <ore:blockCoralium> :
+    <base:storage_coralium>
 Ore entries for <ore:gearTin> :
     <base:gear:29>
     <forestry:gearTin>
+    <thermalfoundation:material:257>
 Ore entries for <ore:dustPrometheum> :
     <base:dust:52>
     <taiga:prometheum_dust>
@@ -1827,8 +3483,23 @@ Ore entries for <ore:gearAquarium> :
     <base:gear:4>
 Ore entries for <ore:plateAquarium> :
     <base:plate:4>
+Ore entries for <ore:nuggetAquarium> :
+    <base:nugget:4>
+Ore entries for <ore:ingotAquarium> :
+    <base:ingot:4>
+Ore entries for <ore:oreAquarium> :
+    <base:ore_aquarium>
+Ore entries for <ore:blockAquarium> :
+    <base:storage_aquarium>
 Ore entries for <ore:gearIron> :
     <base:gear:21>
+    <thermalfoundation:material:24>
+Ore entries for <ore:nuggetIron> :
+    <base:nugget:21>
+    <betterbeginnings:iron_nugget>
+    <immersiveengineering:metal:29>
+    <primal:iron_nugget:*>
+    <rockhounding_chemistry:miscItems:2>
 Ore entries for <ore:dustImperomite> :
     <base:dust:44>
     <taiga:imperomite_dust>
@@ -1842,33 +3513,88 @@ Ore entries for <ore:gearStarsteel> :
     <base:gear:27>
 Ore entries for <ore:plateStarsteel> :
     <base:plate:27>
+Ore entries for <ore:nuggetStarsteel> :
+    <base:nugget:27>
+Ore entries for <ore:ingotStarsteel> :
+    <base:ingot:27>
+Ore entries for <ore:oreStarsteel> :
+    <base:ore_starsteel>
+Ore entries for <ore:blockStarsteel> :
+    <base:storage_starsteel>
 Ore entries for <ore:dustAdamantine> :
     <base:dust:2>
 Ore entries for <ore:gearAdamantine> :
     <base:gear:2>
 Ore entries for <ore:plateAdamantine> :
     <base:plate:2>
+Ore entries for <ore:nuggetAdamantine> :
+    <base:nugget:2>
+Ore entries for <ore:ingotAdamantine> :
+    <base:ingot:2>
+Ore entries for <ore:oreAdamantine> :
+    <base:ore_adamantine>
+Ore entries for <ore:blockAdamantine> :
+    <base:storage_adamantine>
 Ore entries for <ore:dustInvar> :
     <base:dust:19>
+    <thermalfoundation:material:98>
 Ore entries for <ore:gearInvar> :
     <base:gear:19>
+    <thermalfoundation:material:290>
 Ore entries for <ore:plateInvar> :
     <base:plate:19>
+    <thermalfoundation:material:354>
+Ore entries for <ore:nuggetInvar> :
+    <base:nugget:19>
+    <thermalfoundation:material:226>
+Ore entries for <ore:ingotInvar> :
+    <base:ingot:19>
+    <thermalfoundation:material:162>
+Ore entries for <ore:oreInvar> :
+    <base:ore_invar>
+Ore entries for <ore:blockInvar> :
+    <base:storage_invar>
+    <chisel:blockInvar>
+    <chisel:blockInvar:1>
+    <chisel:blockInvar:2>
+    <chisel:blockInvar:3>
+    <chisel:blockInvar:4>
+    <chisel:blockInvar:5>
+    <chisel:blockInvar:6>
+    <thermalfoundation:storage_alloy:2>
 Ore entries for <ore:dustPlatinum> :
     <base:dust:25>
+    <thermalfoundation:material:70>
     <rockhounding_chemistry:chemicalDusts:44>
 Ore entries for <ore:gearPlatinum> :
     <base:gear:25>
+    <thermalfoundation:material:262>
 Ore entries for <ore:platePlatinum> :
     <base:plate:25>
+    <thermalfoundation:material:326>
+Ore entries for <ore:nuggetPlatinum> :
+    <base:nugget:25>
+    <thermalfoundation:material:198>
+Ore entries for <ore:ingotPlatinum> :
+    <base:ingot:25>
+    <thermalfoundation:material:134>
+Ore entries for <ore:orePlatinum> :
+    <base:ore_platinum>
+    <thermalfoundation:ore:6>
+Ore entries for <ore:blockPlatinum> :
+    <base:storage_platinum>
+    <chisel:blockPlatinum>
+    <chisel:blockPlatinum:1>
+    <chisel:blockPlatinum:2>
+    <chisel:blockPlatinum:3>
+    <chisel:blockPlatinum:4>
+    <chisel:blockPlatinum:5>
+    <chisel:blockPlatinum:6>
+    <thermalfoundation:storage:6>
 Ore entries for <ore:gearCopper> :
     <base:gear:11>
     <forestry:gearCopper>
-Ore entries for <ore:nuggetIron> :
-    <betterbeginnings:iron_nugget>
-    <immersiveengineering:metal:29>
-    <primal:iron_nugget:*>
-    <rockhounding_chemistry:miscItems:2>
+    <thermalfoundation:material:256>
 Ore entries for <ore:itemKnife> :
     <betterbeginnings:flint_knife:*>
     <betterbeginnings:bone_knife:*>
@@ -2299,12 +4025,6 @@ Ore entries for <ore:fenceGateWood> :
     <minecraft:jungle_fence_gate>
     <minecraft:dark_oak_fence_gate>
     <minecraft:acacia_fence_gate>
-Ore entries for <ore:oreLead> :
-    <immersiveengineering:ore:2>
-Ore entries for <ore:oreNickel> :
-    <immersiveengineering:ore:4>
-Ore entries for <ore:oreSilver> :
-    <immersiveengineering:ore:3>
 Ore entries for <ore:mysticFlowerWhite> :
     <botania:flower>
 Ore entries for <ore:mysticFlowerOrange> :
@@ -2379,6 +4099,38 @@ Ore entries for <ore:blockBlaze> :
     <botania:blazeBlock>
 Ore entries for <ore:hardenedClay> :
     <minecraft:hardened_clay:*>
+    <chisel:hardenedclay>
+    <chisel:hardenedclay:1>
+    <chisel:hardenedclay:2>
+    <chisel:hardenedclay:3>
+    <chisel:hardenedclay:4>
+    <chisel:hardenedclay:5>
+    <chisel:hardenedclay:6>
+    <chisel:hardenedclay:7>
+    <chisel:hardenedclay:8>
+    <chisel:hardenedclay:9>
+    <chisel:hardenedclay:10>
+    <chisel:hardenedclay:11>
+    <chisel:hardenedclay:12>
+    <chisel:hardenedclay:13>
+    <chisel:hardenedclay:14>
+    <chisel:hardenedclay:15>
+    <chisel:hardenedclay1>
+    <chisel:hardenedclay1:1>
+    <chisel:hardenedclay1:2>
+    <chisel:hardenedclay1:3>
+    <chisel:hardenedclay1:4>
+    <chisel:hardenedclay1:5>
+    <chisel:hardenedclay1:6>
+    <chisel:hardenedclay1:7>
+    <chisel:hardenedclay1:8>
+    <chisel:hardenedclayextra>
+    <chisel:hardenedclayextra:1>
+    <chisel:hardenedclayextra:2>
+    <chisel:hardenedclayextra:3>
+    <chisel:hardenedclayextra:4>
+    <chisel:hardenedclayextra:5>
+    <chisel:hardenedclayextra:6>
 Ore entries for <ore:snowLayer> :
     <minecraft:snow_layer>
 Ore entries for <ore:mycelium> :
@@ -2389,6 +4141,13 @@ Ore entries for <ore:soulSand> :
     <minecraft:soul_sand>
 Ore entries for <ore:ice> :
     <minecraft:ice>
+    <chisel:icepillar>
+    <chisel:icepillar:1>
+    <chisel:icepillar:2>
+    <chisel:icepillar:3>
+    <chisel:icepillar:4>
+    <chisel:icepillar:5>
+    <chisel:icepillar:6>
 Ore entries for <ore:slabCobblestone> :
     <minecraft:stone_slab:3>
 Ore entries for <ore:lexicaBotania> :
@@ -2530,6 +4289,192 @@ Ore entries for <ore:rodBlaze> :
     <minecraft:blaze_rod>
 Ore entries for <ore:powderBlaze> :
     <minecraft:blaze_powder>
+Ore entries for <ore:bookshelfOak> :
+    <chisel:bookshelf_oak>
+    <chisel:bookshelf_oak:1>
+    <chisel:bookshelf_oak:2>
+    <chisel:bookshelf_oak:3>
+    <chisel:bookshelf_oak:4>
+    <chisel:bookshelf_oak:5>
+    <chisel:bookshelf_oak:6>
+    <chisel:bookshelf_oak:7>
+    <chisel:bookshelf_oak:8>
+    <chisel:bookshelf_oak:9>
+Ore entries for <ore:blockMossy> :
+    <chisel:cobblestonemossy>
+    <chisel:cobblestonemossy:1>
+    <chisel:cobblestonemossy:2>
+    <chisel:cobblestonemossy:3>
+    <chisel:cobblestonemossy:4>
+    <chisel:cobblestonemossy:5>
+    <chisel:cobblestonemossy:6>
+    <chisel:cobblestonemossy:7>
+    <chisel:cobblestonemossy:8>
+    <chisel:cobblestonemossy:9>
+    <chisel:cobblestonemossy:10>
+    <chisel:cobblestonemossy:11>
+    <chisel:cobblestonemossy:12>
+    <chisel:cobblestonemossy:13>
+    <chisel:cobblestonemossy:14>
+    <chisel:cobblestonemossy:15>
+    <chisel:cobblestonemossy1>
+    <chisel:cobblestonemossy1:1>
+    <chisel:cobblestonemossy1:2>
+    <chisel:cobblestonemossy1:3>
+    <chisel:cobblestonemossy1:4>
+    <chisel:cobblestonemossy1:5>
+    <chisel:cobblestonemossy1:6>
+    <chisel:cobblestonemossy1:7>
+    <chisel:cobblestonemossy1:8>
+    <chisel:cobblestonemossy1:9>
+    <chisel:cobblestonemossy1:10>
+    <chisel:cobblestonemossy1:11>
+    <chisel:cobblestonemossy1:12>
+    <chisel:cobblestonemossy1:13>
+    <chisel:cobblestonemossy1:14>
+    <chisel:cobblestonemossy1:15>
+    <minecraft:mossy_cobblestone:*>
+    <minecraft:stonebrick:1>
+Ore entries for <ore:blockIce> :
+    <chisel:icepillar>
+    <chisel:icepillar:1>
+    <chisel:icepillar:2>
+    <chisel:icepillar:3>
+    <chisel:icepillar:4>
+    <chisel:icepillar:5>
+    <chisel:icepillar:6>
+    <minecraft:ice>
+Ore entries for <ore:prismarine> :
+    <chisel:prismarine>
+    <chisel:prismarine:1>
+    <chisel:prismarine:2>
+    <chisel:prismarine:3>
+    <chisel:prismarine:4>
+    <chisel:prismarine:5>
+    <chisel:prismarine:6>
+    <chisel:prismarine:7>
+    <chisel:prismarine:8>
+    <chisel:prismarine:9>
+    <chisel:prismarine:10>
+    <chisel:prismarine:11>
+    <chisel:prismarine:12>
+    <chisel:prismarine:13>
+    <chisel:prismarine:14>
+    <chisel:prismarine:15>
+    <chisel:prismarine1>
+    <chisel:prismarine1:1>
+    <chisel:prismarine1:2>
+    <chisel:prismarine1:3>
+    <chisel:prismarine1:4>
+    <chisel:prismarine1:5>
+    <chisel:prismarine1:6>
+    <chisel:prismarine1:7>
+    <chisel:prismarine1:8>
+    <chisel:prismarineextra>
+    <chisel:prismarineextra:1>
+    <chisel:prismarineextra:2>
+    <chisel:prismarineextra:3>
+    <chisel:prismarineextra:4>
+    <chisel:prismarineextra:5>
+    <minecraft:prismarine:*>
+Ore entries for <ore:prismarineBrick> :
+    <chisel:prismarine>
+    <chisel:prismarine:1>
+    <chisel:prismarine:2>
+    <chisel:prismarine:3>
+    <chisel:prismarine:4>
+    <chisel:prismarine:5>
+    <chisel:prismarine:6>
+    <chisel:prismarine:7>
+    <chisel:prismarine:8>
+    <chisel:prismarine:9>
+    <chisel:prismarine:10>
+    <chisel:prismarine:11>
+    <chisel:prismarine:12>
+    <chisel:prismarine:13>
+    <chisel:prismarine:14>
+    <chisel:prismarine:15>
+    <chisel:prismarine1>
+    <chisel:prismarine1:1>
+    <chisel:prismarine1:2>
+    <chisel:prismarine1:3>
+    <chisel:prismarine1:4>
+    <chisel:prismarine1:5>
+    <chisel:prismarine1:6>
+    <chisel:prismarine1:7>
+    <chisel:prismarine1:8>
+    <chisel:prismarineextra>
+    <chisel:prismarineextra:1>
+    <chisel:prismarineextra:2>
+    <chisel:prismarineextra:3>
+    <chisel:prismarineextra:4>
+    <chisel:prismarineextra:5>
+Ore entries for <ore:prismarineDark> :
+    <chisel:prismarine>
+    <chisel:prismarine:1>
+    <chisel:prismarine:2>
+    <chisel:prismarine:3>
+    <chisel:prismarine:4>
+    <chisel:prismarine:5>
+    <chisel:prismarine:6>
+    <chisel:prismarine:7>
+    <chisel:prismarine:8>
+    <chisel:prismarine:9>
+    <chisel:prismarine:10>
+    <chisel:prismarine:11>
+    <chisel:prismarine:12>
+    <chisel:prismarine:13>
+    <chisel:prismarine:14>
+    <chisel:prismarine:15>
+    <chisel:prismarine1>
+    <chisel:prismarine1:1>
+    <chisel:prismarine1:2>
+    <chisel:prismarine1:3>
+    <chisel:prismarine1:4>
+    <chisel:prismarine1:5>
+    <chisel:prismarine1:6>
+    <chisel:prismarine1:7>
+    <chisel:prismarine1:8>
+    <chisel:prismarineextra>
+    <chisel:prismarineextra:1>
+    <chisel:prismarineextra:2>
+    <chisel:prismarineextra:3>
+    <chisel:prismarineextra:4>
+    <chisel:prismarineextra:5>
+Ore entries for <ore:brickStone> :
+    <chisel:stonebrick>
+    <chisel:stonebrick:1>
+    <chisel:stonebrick:2>
+    <chisel:stonebrick:3>
+    <chisel:stonebrick:4>
+    <chisel:stonebrick:5>
+    <chisel:stonebrick:6>
+    <chisel:stonebrick:7>
+    <chisel:stonebrick:8>
+    <chisel:stonebrick:9>
+    <chisel:stonebrick:10>
+    <chisel:stonebrick:11>
+    <chisel:stonebrick:12>
+    <chisel:stonebrick:13>
+    <chisel:stonebrick:14>
+    <chisel:stonebrick:15>
+    <chisel:stonebrick1>
+    <chisel:stonebrick1:1>
+    <chisel:stonebrick1:2>
+    <chisel:stonebrick1:3>
+    <chisel:stonebrick1:4>
+    <chisel:stonebrick1:5>
+    <chisel:stonebrick1:6>
+    <chisel:stonebrick1:7>
+    <chisel:stonebrick1:8>
+    <chisel:stonebrickextra>
+    <chisel:stonebrickextra:1>
+    <chisel:stonebrickextra:2>
+    <chisel:stonebrickextra:3>
+    <chisel:stonebrickextra:4>
+    <chisel:stonebrickextra:5>
+    <chisel:stonebrickextra:6>
+    <chisel:stonebrickextra:7>
 Ore entries for <ore:gemApatite> :
     <forestry:apatite>
 Ore entries for <ore:brickPeat> :
@@ -2571,19 +4516,6 @@ Ore entries for <ore:emptiedLetter> :
     <forestry:letters:3>
     <forestry:letters:19>
     <forestry:letters:35>
-Ore entries for <ore:dropHoney> :
-    <forestry:honeyDrop>
-    <harvestcraft:honeyItem>
-    <gendustry:HoneyDrop:*>
-Ore entries for <ore:itemPollen> :
-    <forestry:pollen>
-Ore entries for <ore:dropHoneydew> :
-    <forestry:honeydew>
-Ore entries for <ore:dropRoyalJelly> :
-    <forestry:royalJelly>
-Ore entries for <ore:beeComb> :
-    <forestry:beeCombs:*>
-    <gendustry:HoneyComb:*>
 Ore entries for <ore:doorWood> :
     <forestry:doors.larch:*>
     <forestry:doors.teak:*>
@@ -2614,6 +4546,19 @@ Ore entries for <ore:doorWood> :
     <forestry:doors.padauk:*>
     <forestry:doors.cocobolo:*>
     <forestry:doors.zebrawood:*>
+Ore entries for <ore:dropHoney> :
+    <forestry:honeyDrop>
+    <harvestcraft:honeyItem>
+    <gendustry:HoneyDrop:*>
+Ore entries for <ore:itemPollen> :
+    <forestry:pollen>
+Ore entries for <ore:dropHoneydew> :
+    <forestry:honeydew>
+Ore entries for <ore:dropRoyalJelly> :
+    <forestry:royalJelly>
+Ore entries for <ore:beeComb> :
+    <forestry:beeCombs:*>
+    <gendustry:HoneyComb:*>
 Ore entries for <ore:oreResonating> :
     <deepresonance:resonating_ore>
 Ore entries for <ore:slabWoodOak> :
@@ -2664,10 +4609,12 @@ Ore entries for <ore:itemLeather> :
     <minecraft:leather>
 Ore entries for <ore:dustCoal> :
     <enderio:itemPowderIngot>
+    <thermalfoundation:material:768>
     <actuallyadditions:itemDust:6>
     <bloodmagic:ItemComponent:21>
 Ore entries for <ore:dustObsidian> :
     <enderio:itemPowderIngot:7>
+    <thermalfoundation:material:770>
 Ore entries for <ore:dustWheat> :
     <enderio:itemPowderIngot:8>
 Ore entries for <ore:ingotElectricalSteel> :
@@ -2709,6 +4656,8 @@ Ore entries for <ore:nuggetVibrantAlloy> :
 Ore entries for <ore:blockGlassHardened> :
     <enderio:blockFusedQuartz>
     <enderio:blockFusedQuartz_fusedQuartz:*>
+    <thermalfoundation:glass:*>
+    <thermalfoundation:glass_alloy:*>
 Ore entries for <ore:blockGlassHardenedBlack> :
     <enderio:blockFusedQuartz_fusedQuartz:15>
 Ore entries for <ore:blockGlassHardenedRed> :
@@ -2929,15 +4878,6 @@ Ore entries for <ore:slimeballBlood> :
     <tconstruct:edible:3>
 Ore entries for <ore:slimeballPurple> :
     <tconstruct:edible:2>
-Ore entries for <ore:ingotLead> :
-    <immersiveengineering:metal:2>
-    <primal:lead_ingot:*>
-    <rockhounding_chemistry:miscItems:27>
-Ore entries for <ore:ingotSilver> :
-    <immersiveengineering:metal:3>
-    <primal:silver_ingot:*>
-Ore entries for <ore:ingotNickel> :
-    <immersiveengineering:metal:4>
 Ore entries for <ore:fish> :
     <minecraft:fish:*>
 Ore entries for <ore:listAllmeatcooked> :
@@ -2978,29 +4918,12 @@ Ore entries for <ore:listAllmeatcooked> :
     <animania:cooked_orpington_chicken>
     <animania:cooked_plymouth_rock_chicken>
     <animania:cooked_wyandotte_chicken>
-Ore entries for <ore:prismarine> :
-    <minecraft:prismarine:*>
-Ore entries for <ore:blockMossy> :
-    <minecraft:mossy_cobblestone:*>
-    <minecraft:stonebrick:1>
 Ore entries for <ore:slimeballGreen> :
     <minecraft:slime_ball:*>
 Ore entries for <ore:slimeballBlue> :
     <tconstruct:edible:1>
 Ore entries for <ore:slimeballMagma> :
     <tconstruct:edible:4>
-Ore entries for <ore:nuggetCobalt> :
-    <tconstruct:nuggets>
-Ore entries for <ore:ingotCobalt> :
-    <tconstruct:ingots>
-Ore entries for <ore:blockCobalt> :
-    <tconstruct:metal>
-Ore entries for <ore:nuggetArdite> :
-    <tconstruct:nuggets:1>
-Ore entries for <ore:ingotArdite> :
-    <tconstruct:ingots:1>
-Ore entries for <ore:blockArdite> :
-    <tconstruct:metal:1>
 Ore entries for <ore:nuggetManyullyn> :
     <tconstruct:nuggets:2>
 Ore entries for <ore:ingotManyullyn> :
@@ -3043,10 +4966,6 @@ Ore entries for <ore:slimecrystalBlue> :
     <tconstruct:materials:10>
 Ore entries for <ore:slimecrystalMagma> :
     <tconstruct:materials:11>
-Ore entries for <ore:oreCobalt> :
-    <tconstruct:ore>
-Ore entries for <ore:oreArdite> :
-    <tconstruct:ore:1>
 Ore entries for <ore:partPickHead> :
     <tconstruct:pick_head:*>
 Ore entries for <ore:partBinding> :
@@ -3067,22 +4986,6 @@ Ore entries for <ore:blockSlimeGrass> :
     <tconstruct:slime_grass:*>
 Ore entries for <ore:rodStone> :
     <tconstruct:stone_stick:*>
-Ore entries for <ore:blockLead> :
-    <immersiveengineering:storage:2>
-    <primal:lead_block:*>
-Ore entries for <ore:blockSilver> :
-    <immersiveengineering:storage:3>
-    <primal:silver_block:*>
-Ore entries for <ore:blockNickel> :
-    <immersiveengineering:storage:4>
-Ore entries for <ore:oreUranium> :
-    <immersiveengineering:ore:5>
-Ore entries for <ore:blockUranium> :
-    <immersiveengineering:storage:5>
-Ore entries for <ore:blockConstantan> :
-    <immersiveengineering:storage:6>
-Ore entries for <ore:blockElectrum> :
-    <immersiveengineering:storage:7>
 Ore entries for <ore:slabCopper> :
     <immersiveengineering:storageSlab>
 Ore entries for <ore:slabAluminum> :
@@ -3121,26 +5024,6 @@ Ore entries for <ore:slabSheetmetalSteel> :
     <immersiveengineering:sheetmetalSlab:8>
 Ore entries for <ore:slabSheetmetalIron> :
     <immersiveengineering:sheetmetalSlab:9>
-Ore entries for <ore:ingotUranium> :
-    <immersiveengineering:metal:5>
-Ore entries for <ore:ingotConstantan> :
-    <immersiveengineering:metal:6>
-Ore entries for <ore:ingotElectrum> :
-    <immersiveengineering:metal:7>
-Ore entries for <ore:nuggetLead> :
-    <immersiveengineering:metal:22>
-    <primal:lead_nugget:*>
-Ore entries for <ore:nuggetSilver> :
-    <immersiveengineering:metal:23>
-    <primal:silver_nugget:*>
-Ore entries for <ore:nuggetNickel> :
-    <immersiveengineering:metal:24>
-Ore entries for <ore:nuggetUranium> :
-    <immersiveengineering:metal:25>
-Ore entries for <ore:nuggetConstantan> :
-    <immersiveengineering:metal:26>
-Ore entries for <ore:nuggetElectrum> :
-    <immersiveengineering:metal:27>
 Ore entries for <ore:stickTreatedWood> :
     <immersiveengineering:material>
 Ore entries for <ore:stickAluminum> :
@@ -3189,16 +5072,13 @@ Ore entries for <ore:scaffoldingAluminum> :
     <immersiveengineering:metalDecoration1:5>
     <immersiveengineering:metalDecoration1:6>
     <immersiveengineering:metalDecoration1:7>
-Ore entries for <ore:blockIce> :
-    <minecraft:ice>
 Ore entries for <ore:blockPackedIce> :
     <minecraft:packed_ice>
-Ore entries for <ore:charcoal> :
-    <minecraft:coal:1>
 Ore entries for <ore:dustOsmium> :
     <rockhounding_chemistry:chemicalDusts:47>
 Ore entries for <ore:nuggetDiamond> :
     <morebees:diamondFragment>
+    <thermalfoundation:material:16>
 Ore entries for <ore:nuggetEmerald> :
     <morebees:emeraldFragment>
 Ore entries for <ore:bowlWood> :
@@ -4009,8 +5889,6 @@ Ore entries for <ore:foodCheese> :
     <primal:cheese_white:*>
     <animania:friesian_cheese_wedge>
     <animania:holstein_cheese_wedge>
-    <animania:friesian_cheese_wheel>
-    <animania:holstein_cheese_wheel>
 Ore entries for <ore:foodIcecream> :
     <harvestcraft:icecreamItem>
 Ore entries for <ore:foodGrilledcheese> :
@@ -5220,14 +7098,118 @@ Ore entries for <ore:foodCreepercookie> :
     <harvestcraft:creepercookieItem>
 Ore entries for <ore:foodPatreonpie> :
     <harvestcraft:patreonpieItem>
+Ore entries for <ore:blockSignalum> :
+    <thermalfoundation:storage_alloy:5>
+Ore entries for <ore:blockLumium> :
+    <thermalfoundation:storage_alloy:6>
+Ore entries for <ore:blockEnderium> :
+    <thermalfoundation:storage_alloy:7>
+Ore entries for <ore:coinIron> :
+    <thermalfoundation:coin>
+Ore entries for <ore:coinGold> :
+    <thermalfoundation:coin:1>
+Ore entries for <ore:coinCopper> :
+    <thermalfoundation:coin:64>
+Ore entries for <ore:coinTin> :
+    <thermalfoundation:coin:65>
+Ore entries for <ore:coinSilver> :
+    <thermalfoundation:coin:66>
+Ore entries for <ore:coinLead> :
+    <thermalfoundation:coin:67>
+Ore entries for <ore:coinAluminum> :
+    <thermalfoundation:coin:68>
+Ore entries for <ore:coinNickel> :
+    <thermalfoundation:coin:69>
+Ore entries for <ore:coinPlatinum> :
+    <thermalfoundation:coin:70>
+Ore entries for <ore:coinIridium> :
+    <thermalfoundation:coin:71>
+Ore entries for <ore:coinMithril> :
+    <thermalfoundation:coin:72>
+Ore entries for <ore:coinSteel> :
+    <thermalfoundation:coin:96>
+Ore entries for <ore:coinElectrum> :
+    <thermalfoundation:coin:97>
+Ore entries for <ore:coinInvar> :
+    <thermalfoundation:coin:98>
+Ore entries for <ore:coinBronze> :
+    <thermalfoundation:coin:99>
+Ore entries for <ore:coinConstantan> :
+    <thermalfoundation:coin:100>
+Ore entries for <ore:coinSignalum> :
+    <thermalfoundation:coin:101>
+Ore entries for <ore:coinLumium> :
+    <thermalfoundation:coin:102>
+Ore entries for <ore:coinEnderium> :
+    <thermalfoundation:coin:103>
+Ore entries for <ore:dustSignalum> :
+    <thermalfoundation:material:101>
+Ore entries for <ore:dustLumium> :
+    <thermalfoundation:material:102>
+Ore entries for <ore:dustEnderium> :
+    <thermalfoundation:material:103>
+Ore entries for <ore:ingotSignalum> :
+    <thermalfoundation:material:165>
+Ore entries for <ore:ingotLumium> :
+    <thermalfoundation:material:166>
+Ore entries for <ore:ingotEnderium> :
+    <thermalfoundation:material:167>
+Ore entries for <ore:nuggetSignalum> :
+    <thermalfoundation:material:229>
+Ore entries for <ore:nuggetLumium> :
+    <thermalfoundation:material:230>
+Ore entries for <ore:nuggetEnderium> :
+    <thermalfoundation:material:231>
+Ore entries for <ore:gearSignalum> :
+    <thermalfoundation:material:293>
+Ore entries for <ore:gearLumium> :
+    <thermalfoundation:material:294>
+Ore entries for <ore:gearEnderium> :
+    <thermalfoundation:material:295>
+Ore entries for <ore:plateSignalum> :
+    <thermalfoundation:material:357>
+Ore entries for <ore:plateLumium> :
+    <thermalfoundation:material:358>
+Ore entries for <ore:plateEnderium> :
+    <thermalfoundation:material:359>
+Ore entries for <ore:dustCharcoal> :
+    <thermalfoundation:material:769>
+Ore entries for <ore:dustWood> :
+    <thermalfoundation:material:800>
+Ore entries for <ore:crystalSlag> :
+    <thermalfoundation:material:864>
+Ore entries for <ore:crystalSlagRich> :
+    <thermalfoundation:material:865>
+Ore entries for <ore:crystalCinnabar> :
+    <thermalfoundation:material:866>
+Ore entries for <ore:dustPyrotheum> :
+    <thermalfoundation:material:1024>
+Ore entries for <ore:dustCryotheum> :
+    <thermalfoundation:material:1025>
+Ore entries for <ore:dustAerotheum> :
+    <thermalfoundation:material:1026>
+Ore entries for <ore:dustPetrotheum> :
+    <thermalfoundation:material:1027>
+Ore entries for <ore:dustMana> :
+    <thermalfoundation:material:1028>
+Ore entries for <ore:rodBlizz> :
+    <thermalfoundation:material:2048>
+Ore entries for <ore:dustBlizz> :
+    <thermalfoundation:material:2049>
+Ore entries for <ore:rodBlitz> :
+    <thermalfoundation:material:2050>
+Ore entries for <ore:dustBlitz> :
+    <thermalfoundation:material:2051>
+Ore entries for <ore:rodBasalz> :
+    <thermalfoundation:material:2052>
+Ore entries for <ore:dustBasalz> :
+    <thermalfoundation:material:2053>
 Ore entries for <ore:ingotAlumite> :
     <plustic:alumiteingot>
 Ore entries for <ore:nuggetAlumite> :
     <plustic:alumitenugget>
 Ore entries for <ore:blockAlumite> :
     <plustic:alumiteblock>
-Ore entries for <ore:coal> :
-    <minecraft:coal>
 Ore entries for <ore:blockAsh> :
     <primal:ash_block:*>
     <primal:ash_stabilized:*>
@@ -5254,6 +7236,10 @@ Ore entries for <ore:blockLimestone> :
     <primal:ferro_stone:*>
     <primal:ferro_flag:*>
     <primal:ferro_brick:*>
+    <quark:limestone>
+    <chisel:limestone:*>
+    <chisel:limestone1:*>
+    <biomesoplenty:stone>
 Ore entries for <ore:plankNether> :
     <primal:netherpalm_plank:*>
 Ore entries for <ore:plankLacquer> :
@@ -5284,9 +7270,7 @@ Ore entries for <ore:wattleLacquer> :
     <primal:wattle_lacquer:*>
 Ore entries for <ore:stairStone> :
     <primal:stairs_carbonate_flag:*>
-    <primal:stairs_carbonate_brick:*>
     <primal:stairs_ferro_flag:*>
-    <primal:stairs_ferro_brick:*>
     <primal:stairs_stonebrick_mossy:*>
     <primal:stairs_soulstone:*>
 Ore entries for <ore:blostairStoneckStair> :
@@ -5297,23 +7281,17 @@ Ore entries for <ore:blockWall> :
     <primal:wall_netherrack:*>
     <primal:wall_netherstone:*>
     <primal:wall_carbonate_flag:*>
-    <primal:wall_carbonate_brick:*>
     <primal:wall_ferro_flag:*>
-    <primal:wall_ferro_brick:*>
 Ore entries for <ore:fenceLacquer> :
     <primal:fence_lacquer:*>
 Ore entries for <ore:blockLever> :
     <primal:lever_wood:*>
     <primal:lever_nether:*>
     <minecraft:lever>
-Ore entries for <ore:blockBrass> :
-    <primal:brass_block:*>
 Ore entries for <ore:blockVanadium> :
     <primal:vanadium_block:*>
 Ore entries for <ore:blockWootz> :
     <primal:wootz_block:*>
-Ore entries for <ore:blockZinc> :
-    <primal:zinc_block:*>
 Ore entries for <ore:blockTamahagane> :
     <primal:tamahagane_block:*>
 Ore entries for <ore:blockSalt> :
@@ -5580,6 +7558,7 @@ Ore entries for <ore:cordagePlant> :
     <primal:plant_cordage:*>
 Ore entries for <ore:cordageNether> :
     <primal:nether_cordage:*>
+    <primal:sinuous_cordage:*>
 Ore entries for <ore:clothPlant> :
     <primal:nether_cloth:*>
 Ore entries for <ore:clothGeneral> :
@@ -5681,10 +7660,6 @@ Ore entries for <ore:clumpMud> :
 Ore entries for <ore:clumpLime> :
     <primal:carbonate_slack:*>
     <primal:ferro_slack:*>
-Ore entries for <ore:ingotBrass> :
-    <primal:brass_ingot:*>
-Ore entries for <ore:nuggetBrass> :
-    <primal:brass_nugget:*>
 Ore entries for <ore:dustPigiron> :
     <primal:pigiron_dust:*>
 Ore entries for <ore:dustVanadium> :
@@ -5700,8 +7675,6 @@ Ore entries for <ore:ingotWootz> :
     <primal:wootz_ingot:*>
 Ore entries for <ore:nuggetWootz> :
     <primal:wootz_nugget:*>
-Ore entries for <ore:ingotZinc> :
-    <primal:zinc_ingot:*>
 Ore entries for <ore:ingotTamahagane> :
     <primal:tamahagane_ingot:*>
 Ore entries for <ore:toolMalletStone> :
@@ -5826,6 +7799,8 @@ Ore entries for <ore:dustTungsten> :
     <rockhounding_chemistry:chemicalDusts:46>
 Ore entries for <ore:dustCadmium> :
     <rockhounding_chemistry:chemicalDusts:49>
+Ore entries for <ore:dustCarbon> :
+    <rockhounding_chemistry:chemicalDusts:51>
 Ore entries for <ore:itemFluorite> :
     <rockhounding_chemistry:halideShards:4>
 Ore entries for <ore:itemPyrite> :
@@ -5838,8 +7813,6 @@ Ore entries for <ore:blockBam> :
     <rockhounding_chemistry:alloyBlocks:2>
 Ore entries for <ore:blockYag> :
     <rockhounding_chemistry:alloyBlocks:3>
-Ore entries for <ore:blockCupronickel> :
-    <rockhounding_chemistry:alloyBlocks:4>
 Ore entries for <ore:blockNimonic> :
     <rockhounding_chemistry:alloyBlocks:5>
 Ore entries for <ore:blockHastelloy> :
@@ -5892,10 +7865,6 @@ Ore entries for <ore:ingotYag> :
     <rockhounding_chemistry:alloyItems:10>
 Ore entries for <ore:nuggetYag> :
     <rockhounding_chemistry:alloyItems:11>
-Ore entries for <ore:ingotCupronickel> :
-    <rockhounding_chemistry:alloyItems:13>
-Ore entries for <ore:nuggetCupronickel> :
-    <rockhounding_chemistry:alloyItems:14>
 Ore entries for <ore:dustNimonic> :
     <rockhounding_chemistry:alloyItems:15>
 Ore entries for <ore:ingotNimonic> :
@@ -6242,12 +8211,8 @@ Ore entries for <ore:dustObsidiorite> :
     <taiga:obsidiorite_dust>
 Ore entries for <ore:nuggetObsidiorite> :
     <taiga:obsidiorite_nugget>
-Ore entries for <ore:ingotDilithium> :
-    <taiga:dilithium_ingot>
 Ore entries for <ore:crystalTiberium> :
     <taiga:tiberium_crystal>
-Ore entries for <ore:nuggetDilithium> :
-    <taiga:dilithium_nugget>
 Ore entries for <ore:blockBasalt> :
     <taiga:basalt_block>
 Ore entries for <ore:oreTiberium> :
@@ -6378,9 +8343,13 @@ Ore entries for <ore:blockCharcoal> :
     <actuallyadditions:blockMisc:5>
 Ore entries for <ore:nuggetEnderpearl> :
     <enderio:itemPowderIngot:5>
+Ore entries for <ore:ingotEnderiumBase> :
+    <enderio:itemPowderIngot:6>
 Ore entries for <ore:wool> :
     <modularutilities:feathers>
     <minecraft:wool>
+Ore entries for <ore:blockRockwool> :
+    <thermalfoundation:rockwool:*>
 Ore entries for <ore:oreSulfur> :
     <thebetweenlands:sulfur_ore>
 Ore entries for <ore:oreSyrmorite> :
