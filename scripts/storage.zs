@@ -174,7 +174,24 @@
 	recipes.remove(<ironchest:diamondObsidianUpgrade:0>);
 	mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamondObsidianUpgrade:0>,<liquid:obsidian>*288,<ironchest:goldDiamondUpgrade>, true, 80);
 
-
+#Storage Crate Keeper
+	val primal_storage_crates = [
+		<primal:storage_crate_acacia>,
+		<primal:storage_crate_bigoak>,
+		<primal:storage_crate_birch>,
+		<primal:storage_crate_jungle>,
+		<primal:storage_crate_oak>,
+		<primal:storage_crate_ironwood>,
+		<primal:storage_crate_netherpalm>,
+		<primal:storage_crate_lacquer>
+	] as minetweaker.item.IItemStack[];
+	
+	for i, block in primal_storage_crates{
+		recipes.addShaped(<actuallyadditions:itemCrateKeeper>, 
+		[[null, block, null],
+		[<actuallyadditions:itemMisc:5>, <minecraft:book>, <actuallyadditions:itemMisc:5>],
+		[null, null, null]]);
+	}
 
 
 
