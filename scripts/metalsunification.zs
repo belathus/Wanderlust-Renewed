@@ -1,69 +1,98 @@
 # Aluminum
     val list_aluminum = [
-    #    nugget                            ingot                           block                             plate                            gear
-        [<immersiveengineering:metal:21>, <immersiveengineering:metal:1>, <immersiveengineering:storage:1>, <immersiveengineering:metal:31>, <base:gear:3>],
-        [<libvulpes:productnugget:9>,     <libvulpes:productingot:9>,     <libvulpes:metal0:9>,             <libvulpes:productplate:9>,      <enderzoo:enderZooIcon>]#,
-        #[<enderzoo:enderZooIcon>,         <fp:spaceship:13>,              <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>]
+    #    nugget                            ingot                           block                             plate                            gear          ore                          dust
+        [<immersiveengineering:metal:21>, <immersiveengineering:metal:1>, <immersiveengineering:storage:1>, <immersiveengineering:metal:31>, <base:gear:3>,<immersiveengineering:ore:1>,<immersiveengineering:metal:10>],
+        [<libvulpes:productnugget:9>,     <libvulpes:productingot:9>,     <libvulpes:metal0:9>,             <libvulpes:productplate:9>,      <enderzoo:enderZooIcon>],
+        #[<enderzoo:enderZooIcon>,         <fp:spaceship:13>,              <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
+        [<thermalfoundation:material:196>,<thermalfoundation:material:132>,<thermalfoundation:storage:4>,<thermalfoundation:material:324>,<thermalfoundation:material:260>,<thermalfoundation:ore:4>,<thermalfoundation:material:68>]
     ] as minetweaker.item.IItemStack[][];
     var aluminum_oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>] as minetweaker.item.IIngredient[];
     for i, group in list_aluminum {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[1]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_aluminum[0][1], group[5], 0.5);
+            } 
+        }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
         if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
         if i == 0 {
+            furnace.remove(group[1]);
             recipes.addShapeless(group[0]*9, [aluminum_oredict[1]]);
             recipes.addShapeless(group[1]*9, [aluminum_oredict[2]]);
             recipes.addShapeless(group[1], 
                 [aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0],aluminum_oredict[0]]);
             recipes.addShapeless(group[2], 
                 [aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, aluminum_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
         }
     }
 
 # Bronze
     val list_bronze = [
-    #    nugget                             ingot                           block                               plate                            gear
-        [<base:nugget:7>,                  <base:ingot:7>,                 <base:storage_bronze>,              <base:plate:7>,                  <base:gear:7>],
-        #[<basemetals:bronze_nugget>,      <basemetals:bronze_ingot>,      <basemetals:bronze_block>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<primal:bronze_nugget>,           <primal:bronze_ingot>,          <primal:bronze_block>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<thermalfoundation:material:227>,<thermalfoundation:material:163>,<thermalfoundation:storage_alloy:3>,<thermalfoundation:material:355>,<thermalfoundation:material:291>]
+    #    nugget                            ingot                            block                               plate                            gear                             ore                      dust
+        [<base:nugget:7>,                 <base:ingot:7>,                  <base:storage_bronze>,              <base:plate:7>,                  <base:gear:7>,                   <base:ore_bronze>,       <base:dust:7>],
+        #[<basemetals:bronze_nugget>,     <basemetals:bronze_ingot>,       <basemetals:bronze_block>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <forestry:ingotBronze>,          <forestry:resourceStorage:3>,       <enderzoo:enderZooIcon>,         <forestry:gearBronze>,           <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
+        [<primal:bronze_nugget>,          <primal:bronze_ingot>,           <primal:bronze_block>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <primal:bronze_dust>],
+        [<thermalfoundation:material:227>,<thermalfoundation:material:163>,<thermalfoundation:storage_alloy:3>,<thermalfoundation:material:355>,<thermalfoundation:material:291>,<enderzoo:enderZooIcon>, <thermalfoundation:material:99>]
     ] as minetweaker.item.IItemStack[][];
-    var bronze_oredict = [<ore:nuggetBronze>,<ore:ingotBronze>,<ore:blockBronze>,<ore:plateBronze>,<ore:gearBronze>] as minetweaker.item.IIngredient[];
+    var bronze_oredict = [<ore:nuggetBronze>,<ore:ingotBronze>,<ore:blockBronze>,<ore:plateBronze>,<ore:gearBronze>,<ore:oreBronze>,<ore:dustBronze>] as minetweaker.item.IIngredient[];
     for i, group in list_bronze {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[1]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_bronze[0][1], group[5], 0.5);
+            } 
+        }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
         if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
         if i == 0 {
+            furnace.remove(group[1]);
             recipes.addShapeless(group[0]*9, [bronze_oredict[1]]);
             recipes.addShapeless(group[1]*9, [bronze_oredict[2]]);
             recipes.addShapeless(group[1], 
                 [bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0],bronze_oredict[0]]);
             recipes.addShapeless(group[2], 
                 [bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, bronze_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
         }
     }
 
 # Copper
     val list_copper = [
-    #    nugget                            ingot                           block                             plate                            gear                     ore                           dust
-        [<immersiveengineering:metal:20>, <immersiveengineering:metal>,   <immersiveengineering:storage>,   <immersiveengineering:metal:30>, <base:gear:11>,          <immersiveengineering:ore:0>, <immersiveengineering:metal:9>],
-        [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderio:itemPowderIngot:3>],
-        [<enderzoo:enderZooIcon>,         <abyssalcraft:copperingot>,     <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <abyssalcraft:abycopore>,     <enderzoo:enderZooIcon>],
-        [<libvulpes:productnugget:4>,     <libvulpes:productingot:4>,     <libvulpes:metal0:4>,             <libvulpes:productplate:4>,      <enderzoo:enderZooIcon>, <libvulpes:ore0:4>,           <enderzoo:enderZooIcon>],
-        #[<enderzoo:enderZooIcon>,         <fp:ItemErze:2>,                <fp:erz_blocke:2>,                <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>],
-        #[<basemetals:copper_nugget>,      <basemetals:copper_ingot>,      <basemetals:copper_block>,        <basemetals:copper_plate>,       <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,     <enderzoo:enderZooIcon>],
-        [<enderzoo:enderZooIcon>,         <forestry:ingotCopper>,         <forestry:resourceStorage:1>,     <enderzoo:enderZooIcon>,         <forestry:gearCopper>,   <forestry:resources:1>,       <enderzoo:enderZooIcon>],
-        #[<embers:nuggetCopper>,           <embers:ingotCopper>,           <embers:blockCopper>,             <embers:plateCopper>,            <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,     <enderzoo:enderZooIcon>],
-        #[<esteemedinnovation:nugget>,     <esteemedinnovation:ingot>,     <esteemedinnovation:metal_storage_block>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>],
-        [<primal:copper_nugget>,          <primal:copper_ingot>,          <primal:copper_block>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <primal:copper_dust>],
-        #[<railcraft:nugget:2>,            <railcraft:ingot:1>,            <railcraft:generic>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>],
-        [<enderzoo:enderZooIcon>,         <rockhounding_chemistry:miscItems:25>, <enderzoo:enderZooIcon>,   <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,       <rockhounding_chemistry:chemicalDusts:17>]
+    #    nugget                            ingot                                  block                                     plate                            gear                             ore                            dust
+        [<immersiveengineering:metal:20>,  <immersiveengineering:metal>,         <immersiveengineering:storage>,           <immersiveengineering:metal:30>, <base:gear:11>,                  <immersiveengineering:ore:0>,  <immersiveengineering:metal:9>],
+        [<enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>,                  <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <enderio:itemPowderIngot:3>],
+        [<enderzoo:enderZooIcon>,          <abyssalcraft:copperingot>,           <enderzoo:enderZooIcon>,                  <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <abyssalcraft:abycopore>,      <enderzoo:enderZooIcon>],
+        [<libvulpes:productnugget:4>,      <libvulpes:productingot:4>,           <libvulpes:metal0:4>,                     <libvulpes:productplate:4>,      <enderzoo:enderZooIcon>,         <libvulpes:ore0:4>,            <enderzoo:enderZooIcon>],
+        #[<enderzoo:enderZooIcon>,         <fp:ItemErze:2>,                      <fp:erz_blocke:2>,                        <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <enderzoo:enderZooIcon>],
+        #[<basemetals:copper_nugget>,      <basemetals:copper_ingot>,            <basemetals:copper_block>,                <basemetals:copper_plate>,       <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,          <forestry:ingotCopper>,               <forestry:resourceStorage:1>,             <enderzoo:enderZooIcon>,         <forestry:gearCopper>,           <forestry:resources:1>,        <enderzoo:enderZooIcon>],
+        #[<embers:nuggetCopper>,           <embers:ingotCopper>,                 <embers:blockCopper>,                     <embers:plateCopper>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <enderzoo:enderZooIcon>],
+        #[<esteemedinnovation:nugget>,     <esteemedinnovation:ingot>,           <esteemedinnovation:metal_storage_block>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <enderzoo:enderZooIcon>],
+        [<primal:copper_nugget>,           <primal:copper_ingot>,                <primal:copper_block>,                    <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <primal:copper_dust>],
+        #[<railcraft:nugget:2>,            <railcraft:ingot:1>,                  <railcraft:generic>,                      <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,          <rockhounding_chemistry:miscItems:25>,<enderzoo:enderZooIcon>,                  <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <rockhounding_chemistry:chemicalDusts:17>],
+        [<thermalfoundation:material:192>, <thermalfoundation:material:128>,     <thermalfoundation:storage>,              <thermalfoundation:material:320>,<thermalfoundation:material:256>,<thermalfoundation:ore>,       <thermalfoundation:material:64>]
     ] as minetweaker.item.IItemStack[][];
-        var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>, <ore:dustCopper>] as minetweaker.item.IIngredient[];
+        var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>,<ore:dustCopper>] as minetweaker.item.IIngredient[];
     for i, group in list_copper {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
         if !group[1].matches(<enderzoo:enderZooIcon>) { 
@@ -86,54 +115,135 @@
             recipes.addShapeless(group[2], 
                 [copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, copper_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
         }
     }
 
 
 # Constantan
-    recipes.addShapeless(<immersiveengineering:metal:6>, 
-        [<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>]);
-    recipes.addShapeless(<immersiveengineering:storage:6>, 
-        [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]);
+    var list_constantan = [
+        [<immersiveengineering:metal:26>, <immersiveengineering:metal:6>,  <immersiveengineering:storage:6>,   <immersiveengineering:metal:36>  <base:gear:10>,                  <base:ore_constantan>,  <immersiveengineering:metal:15>],
+        [<base:nugget:10>,                <base:ingot:10>,                 <base:storage_constantan>,          <base:plate:10>,                 <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<base:dust:10>],
+        [<thermalfoundation:material:228>,<thermalfoundation:material:164>,<thermalfoundation:storage_alloy:4>,<thermalfoundation:material:356>,<thermalfoundation:material:292>,<enderzoo:enderZooIcon>,<thermalfoundation:material:100>]
+    ] as minetweaker.item.IItemStack[][];
+    var constantan_oredict = [<ore:nuggetConstantan>,<ore:ingotConstantan>,<ore:blockConstantan>,<ore:plateConstantan>,<ore:gearConstantan>,<ore:oreConstantan>,<ore:dustConstantan>] as minetweaker.item.IIngredient[];
+        for i, group in list_constantan {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_constantan[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [constantan_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [constantan_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [constantan_oredict[0],constantan_oredict[0],constantan_oredict[0],constantan_oredict[0],constantan_oredict[0],constantan_oredict[0],constantan_oredict[0],constantan_oredict[0],constantan_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, constantan_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
+        }
+    }
 
 
 # Iron
-    var list_iron = [
-        [<immersiveengineering:metal:29>,      <minecraft:iron_ingot>,  <minecraft:iron_block>,  <immersiveengineering:metal:39>, <base:gear:21>],
-        #[<basemetals:iron_nugget>,            <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <basemetals:iron_plate>,         <base:gear:21>],
-        [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <libvulpes:productplate:1>,      <enderzoo:enderZooIcon>],
-        #[<embers:nuggetIron>,                 <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <embers:plateIron>,              <enderzoo:enderZooIcon>],
-        #[<esteemedinnovation:nugget:4>,       <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<primal:iron_nugget>,                 <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        #[<railcraft:nugget>,                   <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<rockhounding_chemistry:miscItems:2>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>]
+    var list_iron = [ # nugget                  ingot                    block                    plate                            gear                            ore                     dust
+        [<immersiveengineering:metal:29>,      <minecraft:iron_ingot>,  <minecraft:iron_block>,  <immersiveengineering:metal:39>, <base:gear:21>,                 <minecraft:iron_ore>,    <immersiveengineering:metal:18>],
+        [<betterbeginnings:iron_nugget>,       <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <actuallyadditions:itemDust>],
+        [<base:nugget:21>,                     <base:ingot:21>,         <base:storage_iron>,     <base:plate:21>,                 <enderzoo:enderZooIcon>,        <base:ore_iron>,         <base:dust:21>]
+        [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <abyssalcraft:abyiroore>,<bloodmagic:ItemComponent:19>],
+        #[<basemetals:iron_nugget>,            <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <basemetals:iron_plate>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <enderio:itemPowderIngot:1>],
+        [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <libvulpes:productplate:1>,      <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <libvulpes:productdust:1>],
+        #[<embers:nuggetIron>,                 <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <embers:plateIron>,              <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>],
+        #[<esteemedinnovation:nugget:4>,       <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>],
+        [<primal:iron_nugget>,                 <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <primal:iron_plate>,             <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <primal:iron_dust>],
+        #[<railcraft:nugget>,                  <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>],
+        [<rockhounding_chemistry:miscItems:2>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>,<rockhounding_chemistry:chemicalDusts:16>],
+        [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <thermalfoundation:material:32>, <thermalfoundation:material:24>,<enderzoo:enderZooIcon>,<thermalfoundation:material>]
     ] as minetweaker.item.IItemStack[][];
-    var iron_oredict = [<ore:nuggetIron>,<ore:ingotIron>,<ore:blockIron>,<ore:plateIron>,<ore:gearIron>] as minetweaker.item.IIngredient[];
-    #recipes.remove(<basemetals:iron_nugget>);
-    #recipes.remove(<esteemedinnovation:nugget:4>);
-    recipes.remove(<rockhounding_chemistry:miscItems:2>);
-    #recipes.remove(<basemetals:iron_plate>);
-    #recipes.remove(<embers:plateIron>);
-    #recipes.remove(<railcraft:plate:0>);
-    #recipes.addShapeless(<embers:plateIron>,[<ore:ingotIron>,<embers:tinkerHammer:*>.reuse()]);
-    furnace.remove(<minecraft:iron_ingot>);
-    furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 0.5);
+    var iron_oredict = [<ore:nuggetIron>,<ore:ingotIron>,<ore:blockIron>,<ore:plateIron>,<ore:gearIron>,<ore:oreIron>,<ore:dustIron>] as minetweaker.item.IIngredient[];
+    for i, group in list_iron {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_iron[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [iron_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [iron_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [iron_oredict[0],iron_oredict[0],iron_oredict[0],iron_oredict[0],iron_oredict[0],iron_oredict[0],iron_oredict[0],iron_oredict[0],iron_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, iron_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
+        }
+    }
 
 
 # Lead
-    #recipes.remove(<thaumcraft:nugget:4>);
-    #recipes.remove(<embers:nuggetLead>);
-    recipes.remove(<primal:lead_nugget>);
-    #recipes.remove(<railcraft:nugget:4>);
-    #recipes.remove(<basemetals:lead_nugget>);
-    #recipes.remove(<basemetals:lead_ingot>);
-    #recipes.remove(<basemetals:lead_block>);
-    recipes.addShapeless(<immersiveengineering:metal:22>*9,
-        [<ore:ingotLead>]);
-    recipes.addShapeless(<immersiveengineering:metal:2>, 
-        [<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]);
-    recipes.addShapeless(<immersiveengineering:storage:2>, 
-        [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]);
+    var list_lead = [ # nugget             ingot                                 block                            plate                            gear                             ore                          dust
+        [<immersiveengineering:metal:22>, <immersiveengineering:metal:2>,       <immersiveengineering:storage:2>,<immersiveengineering:metal:32>, <base:gear:22>,                  <immersiveengineering:ore:2>,<immersiveengineering:metal:11>],
+        [<base:nugget:22>,                <base:ingot:22>,                      <base:storage_lead>,             <base:plate:22>,                 <enderzoo:enderZooIcon>,         <base:ore_lead>,             <base:dust:22>],
+        [<primal:lead_nugget>,            <primal:lead_ingot>,                  <primal:lead_block>,             <primal:lead_plate>,             <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,     <primal:lead_dust>],
+        [<enderzoo:enderZooIcon>,         <rockhounding_chemistry:miscItems:27>,<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,     <rockhounding_chemistry:chemicalDusts:19>],
+        [<thermalfoundation:material:195>,<thermalfoundation:material:131>,     <thermalfoundation:storage:3>,   <thermalfoundation:material:323>,<thermalfoundation:material:259>,<thermalfoundation:ore:3>,   <thermalfoundation:material:67>]
+    ]
+    var lead_oredict = [<ore:nuggetLead>,<ore:ingotLead>,<ore:blockLead>,<ore:plateLead>,<ore:gearLead>,<ore:oreLead>,<ore:dustLead>] as minetweaker.item.IIngredient[];
+    for i, group in list_lead {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_lead[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [lead_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [lead_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [lead_oredict[0],lead_oredict[0],lead_oredict[0],lead_oredict[0],lead_oredict[0],lead_oredict[0],lead_oredict[0],lead_oredict[0],lead_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, lead_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,group[1],null],
+                 [group[1],<ore:ingotIron>,group[1]],
+                 [null,group[1],null]]);
+        }
+    }
 
 
 # Nickel
@@ -185,15 +295,15 @@
 
 # Tin
     val list_tin = [
-    #     nugget,                     ingot,                     block,                         plate,                    gear                     ore                      dust
-        [<base:nugget:29>,           <base:ingot:29>,           <base:storage_tin>,           <base:plate:29>,           <base:gear:29>,          <base:ore_tin>,          <base:dust:29>],
-        [<enderzoo:enderZooIcon>,    <abyssalcraft:tiningot>,   <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>,   <enderzoo:enderZooIcon>, <abyssalcraft:abytinore>,<enderzoo:enderZooIcon>],
-        #[<basemetals:tin_nugget>,   <basemetals:tin_ingot>]
-        [<enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>,    <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderio:itemPowderIngot:4>],
-        [<enderzoo:enderZooIcon>,    <forestry:ingotTin>,       <forestry:resourceStorage:2>, <enderzoo:enderZooIcon>,   <forestry:gearTin>,      <forestry:resources:2>,  <enderzoo:enderZooIcon>],
-        [<libvulpes:productnugget:5>,<libvulpes:productingot:5>,<libvulpes:metal0:5>,         <libvulpes:productplate:5>,<enderzoo:enderZooIcon>, <libvulpes:ore0:5>,     <libvulpes:productdust:5>],
-        [<primal:tin_nugget>,        <primal:tin_ingot>,        <primal:tin_block>,           <primal:tin_plate>,        <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <primal:tin_dust>]
-        #[<railcraft:nugget:3>,<railcraft:ingot:2>]
+    #     nugget,                          ingot,                           block,                        plate,                           gear                             ore                       dust
+        [<base:nugget:29>,                <base:ingot:29>,                 <base:storage_tin>,           <base:plate:29>,                 <base:gear:29>,                  <base:ore_tin>,           <base:dust:29>],
+        [<enderzoo:enderZooIcon>,         <abyssalcraft:tiningot>,         <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <abyssalcraft:abytinore>, <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,  <enderio:itemPowderIngot:4>],
+        [<enderzoo:enderZooIcon>,         <forestry:ingotTin>,             <forestry:resourceStorage:2>, <enderzoo:enderZooIcon>,         <forestry:gearTin>,              <forestry:resources:2>,   <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,      <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,  <rockhounding_chemistry:chemicalDusts:18>],
+        [<libvulpes:productnugget:5>,     <libvulpes:productingot:5>,      <libvulpes:metal0:5>,         <libvulpes:productplate:5>,      <enderzoo:enderZooIcon>,         <libvulpes:ore0:5>,       <libvulpes:productdust:5>],
+        [<primal:tin_nugget>,             <primal:tin_ingot>,              <primal:tin_block>,           <primal:tin_plate>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,  <primal:tin_dust>],
+        [<thermalfoundation:material:193>,<thermalfoundation:material:129>,<thermalfoundation:storage:1>,<thermalfoundation:material:321>,<thermalfoundation:material:257>,<thermalfoundation:ore:1>,<thermalfoundation:material:65>]
     ] as minetweaker.item.IItemStack[][];
     var tin_oredict = [<ore:nuggetTin>,<ore:ingotTin>,<ore:blockTin>,<ore:plateTin>,<ore:gearTin>,<ore:oreTin>, <ore:dustTin>] as minetweaker.item.IIngredient[];
     for i, group in list_tin {
@@ -235,7 +345,7 @@
         [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>]);
 
 # Zinc
-    recipes.addShapeless(<primal:tin_nugget>*9,[<ore:ingotZinc>]);
+    recipes.addShapeless(<primal:zinc_nugget>*9,[<ore:ingotZinc>]);
     #recipes.addShaped(<fp:ItemErze:1>,
     #    [[<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>],
     #     [<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>],
