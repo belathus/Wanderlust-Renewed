@@ -38,6 +38,43 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<ore:ingotSilver>,<ore:gemBlueTopaz>,<ore:ingotSilver>],
          [null,<ore:ingotSilver>,null],
          [<ore:bricksStone>,<ore:bricksStone>,<ore:bricksStone>]]);
+    recipes.addShaped(<arsmagica2:flicker_habitat>,
+        [[<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
+         [<ore:dustVinteum>, <arsmagica2:block:1>, <ore:dustVinteum>],
+         [<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>]]);
+    recipes.addShaped(<arsmagica2:flicker_lure>,
+        [[<ore:gemChimerite>, <ore:ingotSilver>],
+         [<ore:dustVinteum>, <minecraft:stonebrick:*>],
+         [<minecraft:stonebrick:*>, <minecraft:stonebrick:*>]]);
+    recipes.remove(<arsmagica2:iron_inlay>);
+    recipes.addShaped(<arsmagica2:iron_inlay>,
+        [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+         [<ore:ingotSilver>, <ore:arcaneAsh>, <ore:ingotSilver>],
+         [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
+    recipes.addShaped(<arsmagica2:flicker_focus:1>,
+        [[<minecraft:porkchop>, <minecraft:beef>, <minecraft:chicken>],
+         [<arsmagica2:flicker_jar:3>, <dungeontactics:silver_sword>, <arsmagica2:flicker_jar:9>],
+         [<arsmagica2:rune:1>, <arsmagica2:evil_book>, <arsmagica2:rune:1>]]);
+#    recipes.addShaped(<arsmagica2:flicker_focus:4>,                # Change iron tools to silver tools
+#        [[<minecraft:iron_shovel>, null, <minecraft:iron_pickaxe>],
+#         [<arsmagica2:flicker_jar:4>, <arsmagica2:essence:4>, <arsmagica2:flicker_jar:7>],
+#         [null, <arsmagica2:rune>, null]]);
+    recipes.addShaped(<arsmagica2:summoner>,
+        [[<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
+         [<ore:ingotSilver>, <minecraft:obsidian:*>, <ore:ingotSilver>],
+         [<minecraft:obsidian:*>, <minecraft:obsidian:*>, <minecraft:obsidian:*>]]);
+    recipes.addShaped(<arsmagica2:crystal_wrench>,
+        [[<ore:ingotSilver>, null, <ore:ingotSilver>],
+         [<arsmagica2:cerublossom:*>, <ore:dustVinteum>, <arsmagica2:desert_nova:*>],
+         [null, <ore:ingotSilver>, null]]);
+    recipes.addShaped(<arsmagica2:flicker_jar>,
+        [[<ore:nuggetSilver>, <arsmagica2:magic_wall:*>, <ore:nuggetSilver>],
+         [<ore:paneGlassColorless>, null, <ore:paneGlassColorless>],
+         [null, <ore:paneGlassColorless>, null]]);
+    recipes.addShaped(<arsmagica2:keystone>,
+        [[<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>],
+         [<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
+         [<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>]]);
 
 # Blood Magic
     # Altar
