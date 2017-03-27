@@ -52,5 +52,8 @@
 # Vanilla
 #    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*8,<minecraft:cobblestone>, 200, <minecraft:cobblestone>);
 
+# EnderIO
+    mods.tconstruct.Smeltery.removeAlloy(<liquid:darkSteel>);
+
 # Extra Utilities
 #    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*72,<extrautils2:compressedcobblestone>, 200, <extrautils2:compressedcobblestone>);
