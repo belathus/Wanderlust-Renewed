@@ -1,6 +1,8 @@
 {
-  "_name": "arsmagica2.Darkling",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "arsmagica2.Darkling",
+    "drops": [
+        { "function" : "external" , "file" : "shadowgemdrops" }
+    ],
+    "pre_stats": [],
+    "stats": []
 }

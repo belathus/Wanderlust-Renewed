@@ -21,6 +21,7 @@
             <Replaces block='minecraft:gravel' weight='1.0' />
             <Replaces block='minecraft:dirt' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Biome name='Ocean'  weight='-1' />
             <Biome name='Desert'  weight='-1' />
@@ -51,6 +52,7 @@
             <Replaces block='minecraft:gravel' weight='1.0' />
             <Replaces block='minecraft:dirt' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='Swamp'  />
             <BiomeType name='Beach'  />
             <BiomeType name='River'  />
@@ -83,6 +85,7 @@
             </Description>
             <OreBlock block='minecraft:coal_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 7.748 * _default_ ' range=':= 7.748 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
@@ -109,6 +112,7 @@
             </Description>
             <OreBlock block='minecraft:gold_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 0.708 * _default_ ' range=':= 0.708 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.944 * _default_ ' range=':= 0.944 * _default_ ' type='normal' />
@@ -134,6 +138,7 @@
             </Description>
             <OreBlock block='minecraft:gold_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='Mountain'  />
             <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.944 * _default_ ' range=':= 0.944 * _default_ ' type='normal' />
@@ -160,6 +165,7 @@
             </Description>
             <OreBlock block='minecraft:lapis_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 1.574 * _default_ ' range=':= 1.574 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
@@ -186,6 +192,7 @@
             </Description>
             <OreBlock block='minecraft:redstone_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 2.906 * _default_ ' range=':= 2.906 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
@@ -217,6 +224,7 @@
                 </Description>
                 <OreBlock block='minecraft:diamond_ore' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.914 * _default_ ' range=':= 0.914 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
@@ -240,6 +248,7 @@
             <Veins name='vaniDiamondVeinsPipe'  inherits='vaniDiamondVeins' branchType='Bezier' seed='0x197B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='minecraft:lava' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:diamond_ore' weight='1.0' />
                 <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ ' range=':= 0.000 * _default_ ' type='normal' />
                 <Setting name='SegmentRadius'  avg=':= 0.400 * _default_ ' range=':= 0.400 * _default_ ' type='normal' />
@@ -256,6 +265,7 @@
                 </Description>
                 <OreBlock block='minecraft:emerald_ore' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Biome name='.*'  />
                 <BiomeType name='MOUNTAIN' weight='-1' />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.357 * _default_ ' range=':= 0.357 * _default_ ' type='normal' scaleTo='base' />
@@ -280,6 +290,7 @@
             <Veins name='vaniEmeraldVeinsPipe'  inherits='vaniEmeraldVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='minecraft:monster_egg' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:emerald_ore' weight='1.0' />
                 <Biome name='.*'  />
                 <BiomeType name='MOUNTAIN' weight='-1' />
@@ -297,6 +308,7 @@
                 </Description>
                 <OreBlock block='minecraft:emerald_ore' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <BiomeType name='MOUNTAIN' weight='1.0' />
                 <Setting name='MotherlodeFrequency'   avg=':= 1.071 * _default_ ' range=':= 1.071 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
@@ -320,6 +332,7 @@
             <Veins name='vaniEmeraldVeinsPipe'  inherits='vaniEmeraldPreferredVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='minecraft:monster_egg' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:emerald_ore' weight='1.0' />
                 <Setting name='MotherlodeSize' avg=':= 0.000 * _default_ * 0.5 ' range=':= 0.000 * _default_ * 0.5 ' type='normal' />
                 <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
@@ -346,6 +359,7 @@
             </Description>
             <OreBlock block='arsmagica2:ore:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='CloudRadius'           avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
             <Setting name='CloudThickness'        avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
@@ -377,6 +391,7 @@
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <Replaces block='biomesoplenty:dirt' weight='1.0'/>
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
@@ -397,6 +412,7 @@
             </Description>
             <OreBlock block='arsmagica2:ore:1' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='CloudRadius'           avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
             <Setting name='CloudThickness'        avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
@@ -428,6 +444,7 @@
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <Replaces block='biomesoplenty:dirt' weight='1.0'/>
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
@@ -448,6 +465,7 @@
             </Description>
             <OreBlock block='arsmagica2:ore:2' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='CloudRadius'           avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' />
             <Setting name='CloudThickness'        avg=':= 0.995 * _default_ ' range=':= 0.995 * _default_ ' type='normal' scaleTo='base' />
@@ -479,6 +497,7 @@
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <Replaces block='biomesoplenty:dirt' weight='1.0'/>
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
@@ -664,7 +683,7 @@
         </Veins>
         
         <!-- Liquid Essence Geode -->
-        <IfModInstalled name="railcraft">
+        <IfModInstalled name="rockhounding_rocks">
             <Veins name='arsmEssenceGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <Description>
                     Large geodes of abyssal stone filled with air. An inside
@@ -672,8 +691,9 @@
                     Instead of being air-filled, this one is filled with
                     liquid essence.
                 </Description>
-                <OreBlock block='railcraft:generic:8' weight='1.00' />
+                <OreBlock block='rockhounding_rocks:rocksA:2' weight='1.00' />
                 <ReplacesOre block='stone' weight='1.0'/>
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <ReplacesOre block='stoneGranite' weight='1.0'/>
                 <ReplacesOre block='stoneDiorite' weight='1.0'/>
                 <ReplacesOre block='stoneAndesite' weight='1.0'/>
@@ -701,19 +721,15 @@
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             </Veins>
             <Veins name='arsmEssenceGeodeMiddle'  inherits='arsmEssenceGeode' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                <OreBlock block='railcraft:ore:2' weight='0.005' />
-                <OreBlock block='railcraft:ore:3' weight='0.002' />
-                <OreBlock block='railcraft:ore:4' weight='0.010' />
-                <Replaces block='railcraft:generic:8' weight='1.0' />
+                <OreBlock block='abyssalcraft:abydiaore' weight='0.005' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='arsmEssenceGeodeCenter'  inherits='arsmEssenceGeode' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='arsmagica2:liquid_essence' weight='1.0' />
-                <Replaces block='railcraft:generic:8' weight='1.0' />
-                <Replaces block='railcraft:ore:2' weight='1.0' />
-                <Replaces block='railcraft:ore:3' weight='1.0' />
-                <Replaces block='railcraft:ore:4' weight='1.0' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
+                <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
@@ -728,6 +744,7 @@
             </Description>
             <OreBlock block='basemetals:mercury_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 0.530 * _default_ ' range=':= 0.530 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
@@ -757,6 +774,7 @@
             <OreBlock block='minecraft:redstone_ore' weight='0.8' />
             <OreBlock block='deepresonance:resonating_ore' weight='0.2' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
@@ -786,6 +804,7 @@
             </Description>
             <OreBlock block='evilcraft:darkOre' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <BiomeType name='SPOOKY' weight='-1' />
             <Setting name='MotherlodeFrequency'     avg='20'                range='5'                   type='normal'  scaleTo='base' />
@@ -813,6 +832,7 @@
             </Description>
             <OreBlock block='evilcraft:darkOre' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='SPOOKY' weight='1.0' />
             <Setting name='MotherlodeFrequency'     avg='60'                range='15'                  type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'          avg='0.6'               range='0'                   type='normal' />
@@ -843,6 +863,7 @@
             </Description>
             <OreBlock block='forestry:resources:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <BiomeType name='FOREST' weight='-1' />
             <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
@@ -876,6 +897,7 @@
             </Description>
             <OreBlock block='forestry:resources:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <BiomeType name='FOREST' weight='-1' />
             <Setting name='CloudRadius'           avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' />
@@ -907,6 +929,7 @@
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.260 * _default_ ' range=':= 0.260 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
@@ -920,6 +943,7 @@
             </Description>
             <OreBlock block='forestry:resources:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='FOREST'  />
             <Setting name='MotherlodeFrequency'   avg=':= 3.756 * _default_ ' range=':= 3.756 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 2.148 * _default_ ' range=':= 2.148 * _default_ ' type='normal' />
@@ -945,6 +969,7 @@
             </Description>
             <OreBlock block='forestry:resources:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='FOREST' weight='1.0' />
             <Setting name='CloudRadius'           avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' />
             <Setting name='CloudThickness'        avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' scaleTo='base' />
@@ -975,6 +1000,7 @@
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.260 * _default_ ' range=':= 0.260 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
@@ -986,6 +1012,7 @@
 			</Description>
 			<OreBlock block='forestry:resources:2' weight='1.0' />
 			<ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Biome name='.*' />
 			<Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
@@ -1164,6 +1191,7 @@
             </Description>
             <OreBlock block='immersiveengineering:ore:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
@@ -1188,6 +1216,7 @@
             </Description>
             <OreBlock block='ImmersiveEngineering:ore:0' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='Mountain'  />
             <Setting name='MotherlodeFrequency'   avg=':= 2.816 * _default_ ' range=':= 2.816 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
@@ -1214,6 +1243,7 @@
             <OreBlock block='immersiveengineering:ore:0' weight='1.0' />
             <ReplacesOre block='sand' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
@@ -1274,6 +1304,7 @@
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.925 * _default_ ' range=':= 0.925 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
@@ -1286,6 +1317,7 @@
 			</Description>
 			<OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
 			<ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Biome name='.*'  />
 			<Setting name='MotherlodeFrequency'   avg=':= 1.001 * _default_ ' range=':= 1.001 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
@@ -1310,6 +1342,7 @@
 			</Description>
 			<OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
 			<ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Biome name='.*'  />
 			<Setting name='MotherlodeFrequency'   avg=':= 2.001 * _default_ ' range=':= 2.001 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
@@ -1337,6 +1370,7 @@
 			<OreBlock block='ImmersiveEngineering:ore:2' weight='0.7' />
 			<OreBlock block='ImmersiveEngineering:ore:3' weight='0.3' />
 			<ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Biome name='.*'  />
 			<Setting name='MotherlodeFrequency'   avg=':= 0.867 * _default_ ' range=':= 0.867 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 0.976 * _default_ ' range=':= 0.976 * _default_ ' type='normal' />
@@ -1362,6 +1396,7 @@
 			<OreBlock block='ImmersiveEngineering:ore:2' weight='0.7' />
 			<OreBlock block='ImmersiveEngineering:ore:3' weight='0.3' />
 			<ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<BiomeType name='Mountain'  />
 			<Setting name='MotherlodeFrequency'   avg=':= 2.500 * _default_ ' range=':= 2.500 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
@@ -1388,6 +1423,7 @@
 			</Description>
 			<OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
 			<ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Biome name='.*'  />
 			<Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
@@ -1412,6 +1448,7 @@
             </Description>
             <OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 1.213 * _default_ ' range=':= 1.213 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
@@ -1438,6 +1475,7 @@
             </Description>
             <OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
             <BiomeType name='WASTELAND' weight='-1' />
             <Setting name='MotherlodeFrequency'   avg=':= 0.063 * _default_ ' range=':= 0.063 * _default_ ' type='normal' scaleTo='base' />
@@ -1463,6 +1501,7 @@
             </Description>
             <OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <BiomeType name='WASTELAND' weight='1.0' />
             <Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
@@ -1487,7 +1526,7 @@
 	<!-- Integrated Dynamics -->
 	<!-- Menril Resin Geode -->
     <IfModInstalled name="integrateddynamics">
-        <IfModInstalled name="railcraft">
+        <IfModInstalled name="rockhounding_rocks">
             <Veins name='intdMenrilGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <Description>
                     Large geodes of abyssal stone filled with air. An inside
@@ -1495,8 +1534,9 @@
                     Instead of being air-filled, this one is filled with
                     liquid essence.
                 </Description>
-                <OreBlock block='railcraft:generic:8' weight='1.00' />
+                <OreBlock block='rockhounding_rocks:rocksA:2' weight='1.00' />
                 <ReplacesOre block='stone' weight='1.0'/>
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <ReplacesOre block='stoneGranite' weight='1.0'/>
                 <ReplacesOre block='stoneDiorite' weight='1.0'/>
                 <ReplacesOre block='stoneAndesite' weight='1.0'/>
@@ -1524,19 +1564,15 @@
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
             </Veins>
             <Veins name='intdMenrilGeodeMiddle'  inherits='intdMenrilGeode' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                <OreBlock block='railcraft:ore:2' weight='0.005' />
-                <OreBlock block='railcraft:ore:3' weight='0.002' />
-                <OreBlock block='railcraft:ore:4' weight='0.010' />
-                <Replaces block='railcraft:generic:8' weight='1.0' />
+                <OreBlock block='abyssalcraft:abydiaore' weight='0.005' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='intdMenrilGeodeCenter'  inherits='intdMenrilGeode' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='integrateddynamics:blockMenrilResin' weight='1.0' />
-                <Replaces block='railcraft:generic:8' weight='1.0' />
-                <Replaces block='railcraft:ore:2' weight='1.0' />
-                <Replaces block='railcraft:ore:3' weight='1.0' />
-                <Replaces block='railcraft:ore:4' weight='1.0' />
+                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
+                <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
@@ -1546,11 +1582,12 @@
 	<!-- LibVulpes -->
     <IfModInstalled name="libVulpes">
         <Veins name='lvulRutileVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
-            <!-- Making taconite ore spawn anywhere, and more common than other ores, but only at high altitudes -->
+            <!-- Rutile ore! -->
             <Biome name=".*"/>
             <BiomeType name="OCEAN" weight='-1.0'/>
             <OreBlock block='libvulpes:ore0' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
 			<Setting name='MotherlodeHeight'      avg=':= 40 '                range=':= 10 '                type='normal' scaleTo='base' />
@@ -1573,6 +1610,7 @@
             <BiomeType name="OCEAN"/>
             <OreBlock block='libvulpes:ore0' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Setting name='MotherlodeFrequency'   avg=':= 1.613 * _default_ ' range=':= 1.613 * _default_ ' type='normal' scaleTo='base' />
 			<Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
 			<Setting name='MotherlodeHeight'      avg=':= 30 '                range=':= 10 '                type='normal' scaleTo='base' />
@@ -1605,6 +1643,7 @@
             <BiomeType name="SANDY"/>
             <OreBlock block='rockhounding_oretiers:ironOres:0' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 16 '                type='normal' scaleTo='base' />
@@ -1631,6 +1670,7 @@
             <BiomeType name="HOT" weight='-1'/>
             <OreBlock block='rockhounding_oretiers:ironOres:0' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 31 '                range=':= 11 '                type='normal' scaleTo='base' />
@@ -1655,6 +1695,7 @@
             <BiomeType name="COLD"/>
             <OreBlock block='rockhounding_oretiers:ironOres:1' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 16 '                type='normal' scaleTo='base' />
@@ -1679,6 +1720,7 @@
             <Biome name=".*"/>
             <OreBlock block='rockhounding_oretiers:ironOres:2' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.769 * _default_ ' range=':= 0.769 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 47.5 '              range=':= 7.5 '               type='uniform' scaleTo='seaLevel' />
@@ -1707,6 +1749,7 @@
             <BiomeType name="SANDY"/>
             <OreBlock block='rockhounding_oretiers:ironOres:3' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 16 '                type='normal' scaleTo='base' />
@@ -1732,6 +1775,7 @@
             <BiomeType name='WET' weight='-1' />
             <OreBlock block='rockhounding_oretiers:ironOres:4' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.769 * _default_ ' range=':= 0.769 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 47.5 '              range=':= 7.5 '               type='uniform' scaleTo='base' />
@@ -1756,6 +1800,7 @@
             <Biome name=".*"/>
             <OreBlock block='rockhounding_oretiers:ironOres:6' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.309 * _default_ ' range=':= 2.309 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 2.148 * _default_ ' range=':= 2.148 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 80 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
@@ -1778,6 +1823,7 @@
             <Biome name=".*"/>
             <OreBlock block='rockhounding_oretiers:ironOres:6' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.309 * _default_ ' range=':= 2.309 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 2.148 * _default_ ' range=':= 2.148 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 150 '               range=':= 50 '                type='uniform' scaleTo='seaLevel' />
@@ -1865,6 +1911,7 @@
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 1.725 * _default_ ' range=':= 1.725 * _default_ ' type='normal' scaleTo='base' />
             </Veins>

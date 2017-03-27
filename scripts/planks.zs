@@ -88,10 +88,23 @@
         [<natura:overworld_logs2:3>, <natura:overworld_planks:7>,<natura:overworld_stairs_sakura>,<natura:overworld_slab2:2>],
         [<natura:redwood_logs:1>, <natura:overworld_planks:8>,<natura:overworld_stairs_redwood>,<natura:overworld_slab2:3>],
         [<natura:nether_logs:0>, <natura:nether_planks:0>,<natura:nether_stairs_ghostwood>,<natura:nether_slab:0>],
-        [<natura:nether_logs:1>, <natura:nether_planks:2>,<natura:nether_stairs_fusewood>,<natura:nether_slab:2>],
-        [<natura:nether_logs:2>, <natura:nether_planks:3>,<natura:nether_stairs_darkwood>,<natura:nether_slab:3>],
+        [<natura:nether_logs:1>, <natura:nether_planks:2>,<natura:nether_stairs_darkwood>,<natura:nether_slab:2>],
+        [<natura:nether_logs:2>, <natura:nether_planks:3>,<natura:nether_stairs_fusewood>,<natura:nether_slab:3>],
         #[<roots:logWildwood>,<roots:plankWildwood>,<roots:plankWildwoodStairs>,<roots:plankWildwoodSlabItem>],
-        [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>]
+        [<abyssalcraft:dltlog>,<abyssalcraft:dltplank>,<abyssalcraft:dltstairs>,<abyssalcraft:dltslab1>],
+        [<rockhounding_surface:bogLogs:0>,<rockhounding_surface:fossilPlanks:0>,<rockhounding_surface:oakStairs>,<rockhounding_surface:fossilSlabsLo:0>],
+        [<rockhounding_surface:bogLogs:1>,<rockhounding_surface:fossilPlanks:1>,<rockhounding_surface:spruceStairs>,<rockhounding_surface:fossilSlabsLo:1>],
+        [<rockhounding_surface:bogLogs:2>,<rockhounding_surface:fossilPlanks:2>,<rockhounding_surface:kauriStairs>,<rockhounding_surface:fossilSlabsLo:2>],
+        [<rockhounding_surface:bogLogs:3>,<rockhounding_surface:fossilPlanks:3>,<rockhounding_surface:mophaneStairs>,<rockhounding_surface:fossilSlabsLo:3>],
+        [<rockhounding_surface:fossilLogs:0>,<rockhounding_surface:fossilPlanks:4>,<rockhounding_surface:palmStairs>,<rockhounding_surface:fossilSlabsLo:4>],
+        [<rockhounding_surface:fossilLogs:1>,<rockhounding_surface:fossilPlanks:5>,<rockhounding_surface:pineStairs>,<rockhounding_surface:fossilSlabsLo:5>],
+        [<rockhounding_surface:fossilLogs:2>,<rockhounding_surface:fossilPlanks:6>,<rockhounding_surface:driftwoodStairs>,<rockhounding_surface:fossilSlabsLo:6>],
+        [<rockhounding_surface:fossilLogs:3>,<rockhounding_surface:fossilPlanks:7>,<rockhounding_surface:araucariaStairs>,<rockhounding_surface:fossilSlabsLo:7>],
+        [<rockhounding_surface:petrifiedLogs:0>,<rockhounding_surface:fossilPlanks:8>,<rockhounding_surface:betulaStairs>,<rockhounding_surface:fossilSlabsLo:8>],
+        [<rockhounding_surface:petrifiedLogs:1>,<rockhounding_surface:fossilPlanks:9>,<rockhounding_surface:castanoStairs>,<rockhounding_surface:fossilSlabsLo:9>],
+        [<rockhounding_surface:petrifiedLogs:2>,<rockhounding_surface:fossilPlanks:10>,<rockhounding_surface:opalizedStairs>,<rockhounding_surface:fossilSlabsLo:10>],
+        [<rockhounding_surface:petrifiedLogs:3>,<rockhounding_surface:fossilPlanks:11>,<rockhounding_surface:rainbowStairs>,<rockhounding_surface:fossilSlabsLo:11>],
+        [<primal:netherpalm_log:*>,<primal:netherpalm_plank>,<primal:stairs_netherpalm>,<primal:slab_netherpalm>]
     ] as minetweaker.item.IItemStack[][];
     
     var list_logs2 = [
@@ -153,8 +166,17 @@
             [[<primal:diamond_saw:*>], [plank]]);
         recipes.addShaped(slab * 2, 
             [[<primal:emerald_saw:*>], [plank]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawMetal>], [log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawGem>], [log]]);
         recipes.addShapeless(plank * 3, 
-            [stair, stair, stair]);
+            [stair, stair, stair, stair]);
+        recipes.remove(stair);
+        recipes.addShapedMirrored(stair * 8, 
+            [[plank, null, null],
+             [plank, plank, null],
+             [plank, plank, plank]]);
         recipes.addShapeless(plank, 
             [slab, slab]);
     }
@@ -174,4 +196,8 @@
             [[<primal:diamond_saw:*>],[log]]);
         recipes.addShaped(plank * 4, 
             [[<primal:emerald_saw:*>],[log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawMetal>], [log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawGem>], [log]]);
     }

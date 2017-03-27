@@ -1,6 +1,143 @@
 {
-  "_name": "EnderZoo.FallenKnight",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "EnderZoo.FallenKnight",
+    "drops": [
+        {
+            "_comment" : "Adding shrubbery to the knight's drops",
+            "function" : "add",
+            "id" : "minecraft:deadbush",
+            "damage" : 0,
+            "count" : "0~1"
+        },
+        {
+            "_comment" : "Adding Reliquary drops to the knight's drops, with an 8.5% drop rate",
+            "function" : "if_recently_hit",
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "count" : 0.085,
+                    "functions" : [
+                        {
+                            "weight" : 2,
+                            "function" : "add",
+                            "id" : "xreliquary:mob_ingredient",
+                            "damage" : 0,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 2,
+                            "function" : "add",
+                            "id" : "xreliquary:mob_ingredient",
+                            "damage" : 6,
+                            "count" : 1
+                        },
+                        {
+                            "weight" : 1,
+                            "function" : "add",
+                            "id" : "xreliquary:mob_ingredient",
+                            "damage" : 1,
+                            "count" : 1
+                        }
+                    ]
+                },
+                {
+                    "function" : "if_above_looting_0",
+                    "count" : 0.01,
+                    "functions" : [
+                        {
+                            "function" : "choose",
+                            "functions" : [
+                                {
+                                    "weight" : 2,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 0,
+                                    "count" : 1
+                                },
+                                {
+                                    "weight" : 2,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 6,
+                                    "count" : 1
+                                },
+                                {
+                                    "weight" : 1,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 1,
+                                    "count" : 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function" : "if_above_looting_1",
+                    "count" : 0.01,
+                    "functions" : [
+                        {
+                            "function" : "choose",
+                            "functions" : [
+                                {
+                                    "weight" : 2,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 0,
+                                    "count" : 1
+                                },
+                                {
+                                    "weight" : 2,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 6,
+                                    "count" : 1
+                                },
+                                {
+                                    "weight" : 1,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 1,
+                                    "count" : 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function" : "if_above_looting_2",
+                    "count" : 0.01,
+                    "functions" : [
+                        {
+                            "function" : "choose",
+                            "functions" : [
+                                {
+                                    "weight" : 2,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 0,
+                                    "count" : 1
+                                },
+                                {
+                                    "weight" : 2,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 6,
+                                    "count" : 1
+                                },
+                                {
+                                    "weight" : 1,
+                                    "function" : "add",
+                                    "id" : "xreliquary:mob_ingredient",
+                                    "damage" : 1,
+                                    "count" : 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "pre_stats": [],
+    "stats": []
 }

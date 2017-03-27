@@ -169,20 +169,28 @@
     ] as minetweaker.item.IItemStack[][];
     for i, hammer in list_gallagher {
         for j, plate in plate_list {
-#            if plate != <charsetlib:icon> {
-                recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
-#            }
+            recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
         }
     }
     for i, plate in plate_list {
-#        if (plate == <charsetlib:icon>) {
-            #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
-            recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
-#        }
+        #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
+        recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
     }
     
 # Vanilla
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
+    recipes.addShaped(<minecraft:paper>*3,
+        [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
+         [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
+    recipes.remove(<minecraft:quartz>);
+    for i, hammer in list_gallagher {
+        recipes.addShaped(<minecraft:quartz>*4,
+            [[hammer],[<minecraft:quartz_block:*>]]);
+        recipes.addShaped(<minecraft:quartz>*3,
+            [[hammer],[<minecraft:quartz_stairs>]]);
+        recipes.addShaped(<minecraft:quartz>*2,
+            [[hammer],[<minecraft:stone_slab:7>]]);
+    }
     # making sticks
 /*
     recipes.addShaped(<minecraft:stick>*8,
@@ -195,6 +203,11 @@
         [[<druidry:flint_axe:*>.transformDamage()],
          [<ore:slabWood>]]);
 */
+    recipes.addShapeless(<minecraft:clay_ball>*4,
+        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucketEternalWater>]);
+    recipes.addShapeless(<minecraft:clay_ball>*4,
+        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterRod>.reuse()]);
+    
 # Actually Additions
     recipes.remove(<actuallyadditions:itemMisc:10>);
     recipes.remove(<actuallyadditions:itemMisc:11>);
@@ -209,7 +222,7 @@
     recipes.addShapeless(<abyssalcraft:necronomicon>,
         [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
 
-# Ars Magica 2 Parchment
+# Ars Magica 2
     recipes.remove(<arsmagica2:spell_parchment>);
     #recipes.addShapeless(<arsmagica2:spell_parchment>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<roots:druidKnife:*>.transformDamage()]);
@@ -243,6 +256,9 @@
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:flint_workblade:*>.transformDamage()]);
     recipes.addShapeless(<arsmagica2:spell_parchment>,
         [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:quartz_workblade:*>.transformDamage()]);
+    furnace.remove(<arsmagica2:item_ore:6>);
+    recipes.addShapeless(<arsmagica2:item_ore:6>,
+        [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
 
 # Backpack
 #    recipes.remove(<backpack:stick:0>);
@@ -264,6 +280,16 @@
          [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
          [null,<ore:cordageGeneral>,null]]);
 
+# Forestry
+    recipes.addShaped(<forestry:bogEarth>*6,
+        [[<ore:dirt>,<ore:sand>,<ore:dirt>],
+         [<ore:sand>,<evilcraft:bucketEternalWater>,<ore:sand>],
+         [<ore:dirt>,<ore:sand>,<ore:dirt>]]);
+    recipes.addShaped(<forestry:bogEarth>*6,
+        [[<ore:dirt>,<ore:sand>,<ore:dirt>],
+         [<ore:sand>,<botania:waterRod>.reuse(),<ore:sand>],
+         [<ore:dirt>,<ore:sand>,<ore:dirt>]]);
+
 # Futurepack
     #recipes.remove(<fp:spaceship:12>);
 
@@ -283,6 +309,12 @@
         [[<minecraft:log:*>,<ore:vine>,<minecraft:log:*>],
          [<ore:vine>,<arsmagica2:tarma_root>,<ore:vine>],
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
+
+# Pam's Harvestcraft
+    recipes.addShapeless(<harvestcraft:freshwaterItem> * 64,
+        [<evilcraft:bucketEternalWater>]);
+    recipes.addShapeless(<harvestcraft:freshwaterItem> * 64,
+        [<botania:waterRod>.reuse()]);
 
 # PrimalCore
     recipes.remove(<primal:iron_ring>);
@@ -304,7 +336,6 @@
         [[<ore:itemLignite>],
          [<ore:cordagePlant>],
          [<ore:stickWood>]]);
-        
     for i, galla in list_gallagher {
         recipes.addShaped(<primal:carbonate_slack> * 4, 
             [[galla],[<biomesoplenty:stone>]]);
@@ -312,10 +343,26 @@
             [[galla],[<chisel:limestoneextra:7>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
             [[galla],[<primal:carbonate_stone>]]);
+        recipes.addShaped(<primal:carbonate_slack> * 4, 
+            [[galla],[<ore:stoneLimestone>]]);
         recipes.addShaped(<primal:iron_ring> * 4,
-            [[galla],[<ore:plateSmallIron>]]);
+            [[galla],[<ore:plateIron>]]);
     }
-    
+
+# Reliquary
+    recipes.addShaped(<xreliquary:glowing_water>*5,
+        [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+         [<ore:paneGlass>,<ore:dustGlowstone>,<ore:paneGlass>],
+         [<ore:cropNetherWart>,<ore:paneGlass>,<ore:gunpowder>]]);
+    recipes.addShaped(<xreliquary:attraction_potion>*5,
+        [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+         [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
+         [<minecraft:dye:1>,<ore:paneGlass>,<minecraft:dye:3>]]);
+    recipes.addShaped(<xreliquary:fertile_potion>*5,
+        [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+         [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
+         [<minecraft:dye:2>,<ore:paneGlass>,<minecraft:dye:11>]]);
+
 # Rockhounding
     # Fuel to fuel pellets
     recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
@@ -324,16 +371,12 @@
     recipes.remove(<tconstruct:soil>);
     recipes.addShapeless(<tconstruct:soil>,
         [<primal:carbonate_slack>,<ore:dustAsh>,<ore:clumpMud>]);
-
     recipes.addShapeless(<tconstruct:soil>,
         [<minecraft:clay>,<ore:mortar>,<biomesoplenty:dirt:2>]);
-
     recipes.addShapeless(<tconstruct:soil>,
         [<primal:terraclay_clump>,<minecraft:dye:15>,<biomesoplenty:dirt:2>]);
-
     recipes.addShapeless(<tconstruct:soil>,
         [<primal:earthwax_clump>,<ore:gunpowder>,<ore:gravel>]);
-
     recipes.remove(<tconstruct:stone_stick>);
     recipes.addShaped(<tconstruct:stone_stick>,[[<ore:stone>],[<ore:stone>]]);
     recipes.remove(<tconstruct:stone_torch>);

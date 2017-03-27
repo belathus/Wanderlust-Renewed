@@ -1,0 +1,27 @@
+{
+    "_comment" : "This script adds Animania's steaks to the drop-list",
+    "function" : "choose",
+    "functions" : [
+        {
+            "weight" : 4,
+            "function" : "add",
+            "id" : "animania:raw_hereford_beef",
+            "damage" : 0,
+            "count" : 1
+        },
+        {
+            "weight" : 3,
+            "function" : "add",
+            "id" : "animania:raw_longhorn_beef",
+            "damage" : 0,
+            "count" : 1
+        },
+        {
+            "weight" : 2,
+            "function" : "add",
+            "id" : "animania:raw_angus_beef",
+            "damage" : 0,
+            "count" : 1
+        }
+    ]
+}

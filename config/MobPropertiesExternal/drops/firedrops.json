@@ -1,0 +1,35 @@
+{
+    "function" : "all",
+    "functions" : [
+        {
+            "_comment" : "this file is largely to list the possible drops from fire elementals",
+            "function" : "choose",
+            "functions" : [
+                {
+                    "weight" : 30,
+                    "function" : "add",
+                    "id" : "tconstruct:throwball",
+                    "damage" : 1,
+                    "count" : 1
+                }
+            ]
+        },
+        {
+            "function" : "if_has_potion_18",
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "arsmagica2:item_ore",
+                            "damage" : 4,
+                            "count" : 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

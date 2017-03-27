@@ -8,6 +8,14 @@
     mods.botania.ManaInfusion.addInfusion(<botania:manaResource>, <ore:ingotSilver>, 3000);
     mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tacoItem>.withTag({display:{Lore:["It is taco night!"]}}), <ore:oreTaconite>, 300);
     
+    # interrupt the stone cycle
+    mods.botania.ManaInfusion.removeRecipe(<minecraft:stone:5>);
+    mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:5>,<minecraft:stone>,200);
+    mods.botania.ManaInfusion.addAlchemy(<quark:limestone>,<minecraft:stone:5>,200);
+    mods.botania.ManaInfusion.addAlchemy(<quark:marble>,<ore:stoneLimestone>,200);
+    mods.botania.ManaInfusion.addAlchemy(<quark:basalt>,<ore:stoneMarble>,200);
+    mods.botania.ManaInfusion.addAlchemy(<minecraft:stone>,<ore:stoneBasalt>,200);
+    
 # Orechid
 #    mods.botania.Orechid.removeOre("*");
     mods.botania.Orechid.addOre(<ore:oreCoal>, 40);                         # Coal Ore
@@ -51,9 +59,15 @@
     mods.botania.Orechid.addOre(<ore:oreSulfur>, 1);                        # Sulfur Ore
     mods.botania.Orechid.addOre(<ore:oreIridium>, 1);                       # Iridium Ore
     mods.botania.Orechid.addOre(<ore:oreDilithium>, 1);                     # Dilithium Ore
-    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        # Rutile Ore
-    
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
-#    mods.botania.Orechid.addOre(<>, 1);                              # 
+    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        # Rutile Ore    
+
+# Pure Daisy
+    mods.botania.PureDaisy.addRecipe(<primal:cinisclay_block:*>, <minecraft:clay>, 150);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_stone:*>, <primal:carbonate_stone>, 150);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_flag:*>, <primal:carbonate_flag>, 150);
+    mods.botania.PureDaisy.addRecipe(<primal:ferro_brick:*>, <primal:carbonate_brick>, 150);
+    mods.botania.PureDaisy.addRecipe(<natura:nether_tainted_soil>,<minecraft:dirt>, 150);
+    mods.botania.PureDaisy.addRecipe(<primal:nether_earth>,<minecraft:dirt>, 150);
+    mods.botania.PureDaisy.addRecipe(<primal:netherpalm_plank:*>,<minecraft:planks>, 150);
+    mods.botania.PureDaisy.addRecipe(<natura:nether_heat_sand>,<minecraft:sand:1>, 150);
+    mods.botania.PureDaisy.addRecipe(<primal:ash_block>,<minecraft:snow>, 150);

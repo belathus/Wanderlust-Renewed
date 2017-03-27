@@ -1,0 +1,69 @@
+{
+    "_comment" : "Adding shadow gems and shadow shard drops",
+    "function" : "all",
+    "functions" : [
+        {
+            "function" : "add",
+            "id" : "abyssalcraft:shadowgem",
+            "damage" : 0,
+            "count" : 0.025
+        },
+        {
+            "function" : "add",
+            "id" : "abyssalcraft:shadowshard",
+            "damage" : 0,
+            "count" : 0.50
+        },
+        {
+            "function" : "if_above_looting_0",
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowshard",
+                    "damage" : 0,
+                    "count" : 0.50
+                },
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowgem",
+                    "damage" : 0,
+                    "count" : 0.01
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_1",
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowshard",
+                    "damage" : 0,
+                    "count" : 0.50
+                },
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowgem",
+                    "damage" : 0,
+                    "count" : 0.01
+                }
+            ]
+        },
+        {
+            "function" : "if_above_looting_2",
+            "functions" : [
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowshard",
+                    "damage" : 0,
+                    "count" : 0.50
+                },
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowgem",
+                    "damage" : 0,
+                    "count" : 0.01
+                }
+            ]
+        }
+    ]
+}

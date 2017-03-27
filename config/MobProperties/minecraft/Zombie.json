@@ -7,37 +7,8 @@
         },
         {
             "function" : "if_recently_hit",
-            "count" : 0.085,
             "functions" : [
-                {
-                    "function" : "choose",
-                    "functions" : [
-                        {
-                            "_comment" : "Adding copper ingots to the zombie's drops",
-                            "weight" : 6,
-                            "function" : "add",
-                            "id" : "immersiveengineering:metal",
-                            "damage" : 0,
-                            "count" : 1
-                        },
-                        {
-                            "_comment" : "Adding tin ingots to the zombie's drops",
-                            "weight" : 1,
-                            "function" : "add",
-                            "id" : "forestry:ingotTin",
-                            "damage" : 0,
-                            "count" : 1
-                        }#,
- #                       {
- #                           "_comment" : "Adding zinc ingots to the zombie's drops",
- #                           "weight" : 1,
- #                           "function" : "add",
- #                           "id" : "base:ingot:34",
- #                           "damage" : 1,
- #                           "count" : 1
- #                      }
-                    ]
-                }
+                { "function" : "external", "file" : "zombieraredrops" }
             ]
         }
     ],
@@ -45,6 +16,7 @@
     "stats": [
         {
             "function" : "choose",
+            "count" : 0.75,
             "functions" : [
                 {
                     "weight" : 100,
@@ -98,12 +70,8 @@
         },
         {
             "function" : "choose",
+            "count" : 0.25,
             "functions" : [
-                {
-                    "weight" : 100,
-                    "function" : "all",
-                    "functions" : [ ]
-                },
                 {
                     "_comment" : "Hardened leather armor",
                     "weight" : 10,
@@ -112,7 +80,7 @@
                         {
                             "function" : "equip",
                             "override" : "true",
-                            "count" : 0.25,
+                            "count" : 0.5,
                             "id" : "harvestcraft:hardenedleatherhelmItem",
                             "slot" : "head"
                         },
@@ -140,71 +108,71 @@
                     ]
                 },
                 {
-                    "_comment" : "Druidry's silver armor",
-                    "weight" : 3,
-                    "function" : "all",
-                    "functions" : [
-                        {
-                            "function" : "equip",
-                            "override" : "true",
-                            "count" : 0.25,
-                            "id" : "druidry:armor_silver_helmet",
-                            "slot" : "head"
-                        },
-                        {
-                            "function" : "equip",
-                            "override" : "true",
-                            "count" : 0.25,
-                            "id" : "druidry:armor_silver_chestplate",
-                            "slot" : "chest"
-                        },
-                        {
-                            "function" : "equip",
-                            "override" : "true",
-                            "count" : 0.25,
-                            "id" : "druidry:armor_silver_leggings",
-                            "slot" : "legs"
-                        },
-                        {
-                            "function" : "equip",
-                            "override" : "true",
-                            "count" : 0.25,
-                            "id" : "druidry:armor_silver_boots",
-                            "slot" : "feet"
-                        }
-                    ]
-                },
-                {
-                    "_comment" : "Esteemed Innovation's brass armor",
+                    "_comment" : "Studded Leather armor",
                     "weight" : 5,
                     "function" : "all",
                     "functions" : [
                         {
                             "function" : "equip",
                             "override" : "true",
-                            "count" : 0.25,
-                            "id" : "esteemedinnovation:brass_helmet",
+                            "count" : 0.5,
+                            "id" : "dungeontactics:studded_helmet",
                             "slot" : "head"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
-                            "id" : "esteemedinnovation:brass_chestplate",
+                            "id" : "dungeontactics:studded_chestplate",
                             "slot" : "chest"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
-                            "id" : "esteemedinnovation:brass_leggings",
+                            "id" : "dungeontactics:studded_leggings",
                             "slot" : "legs"
                         },
                         {
                             "function" : "equip",
                             "override" : "true",
                             "count" : 0.25,
-                            "id" : "esteemedinnovation:brass_boots",
+                            "id" : "dungeontactics:studded_boots",
+                            "slot" : "feet"
+                        }
+                    ]
+                },
+                {
+                    "_comment" : "Abyssalnite armor",
+                    "weight" : 1,
+                    "function" : "all",
+                    "functions" : [
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.5,
+                            "id" : "abyssalcraft:ahelmet",
+                            "slot" : "head"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "abyssalcraft:aplate",
+                            "slot" : "chest"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "abyssalcraft:alegs",
+                            "slot" : "legs"
+                        },
+                        {
+                            "function" : "equip",
+                            "override" : "true",
+                            "count" : 0.25,
+                            "id" : "abyssalcraft:aboots",
                             "slot" : "feet"
                         }
                     ]

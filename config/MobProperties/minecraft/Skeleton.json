@@ -36,6 +36,18 @@
           ]
         }
       ]
+    },
+    {
+        "function" : "if_wither_skeleton",
+        "count" : 0.15,
+        "functions" : [
+            {
+                "function" : "equip",
+                "override" : "true",
+                "id" : "cyberware:katana",
+                "slot" : "mainhand"
+            }
+        ]
     }
   ]
 }

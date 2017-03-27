@@ -60,6 +60,25 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:ingotSilver>,<botania:petal:*>,null],
          [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
 
+# Cooking For Blockheads
+    recipes.remove(<cookingforblockheads:oven>);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotIron>,<betterbeginnings:brick_oven>,<ore:ingotIron>],
+         [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotAluminum>,<betterbeginnings:brick_oven>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotBrass>,<betterbeginnings:brick_oven>,<ore:ingotBrass>],
+         [<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]]);
+    recipes.addShaped(<cookingforblockheads:oven>,
+        [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
+         [<ore:ingotBronze>,<betterbeginnings:brick_oven>,<ore:ingotBronze>],
+         [<ore:ingotBronze>,<ore:ingotBronze>,<ore:ingotBronze>]]);
+
 # Cyberware
     recipes.remove(<cyberware:engineeringTable>);
     recipes.addShaped(<cyberware:engineeringTable>,
@@ -97,13 +116,13 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
 # EnderIo
     recipes.remove(<enderio:itemMachinePart>);
     recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:barsSteel>,<ore:ingotSteel>,<ore:barsSteel>],
+        [[<ore:plateSteel>,<ore:ingotSteel>,<ore:plateSteel>],
          [<ore:ingotSteel>,<enderio:itemBasicCapacitor>,<ore:ingotSteel>],
-         [<ore:barsSteel>,<ore:ingotSteel>,<ore:barsSteel>]]);
+         [<ore:plateSteel>,<ore:ingotSteel>,<ore:plateSteel>]]);
     recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>],
-         [<ore:barsSteel>,<enderio:itemBasicCapacitor>,<ore:barsSteel>],
-         [<ore:ingotSteel>,<ore:barsSteel>,<ore:ingotSteel>]]);
+        [[<ore:ingotSteel>,<ore:plateSteel>,<ore:ingotSteel>],
+         [<ore:plateSteel>,<enderio:itemBasicCapacitor>,<ore:plateSteel>],
+         [<ore:ingotSteel>,<ore:plateSteel>,<ore:ingotSteel>]]);
     recipes.remove(<enderio:blockSagMill>);
     recipes.addShaped(<enderio:blockSagMill>,
         [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
@@ -134,20 +153,41 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>],
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
-         
+
+# Immersive Engineering
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
+         [<primal:ciniscotta>,<ore:sandstone>,<primal:ciniscotta>],
+         [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
+         [<primal:terracotta>,<ore:sandstone>,<primal:terracotta>],
+         [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<ore:ingotBrick>,<ore:clayball>],
+         [<ore:ingotBrick>,<ore:blockSoulstone>,<ore:ingotBrick>],
+         [<ore:clayball>,<ore:ingotBrick>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
+         [<primal:ciniscotta>,<ore:blockSoulstone>,<primal:ciniscotta>],
+         [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+        [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
+         [<primal:terracotta>,<ore:blockSoulstone>,<primal:terracotta>],
+         [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
+
 # Minecolonies
     recipes.remove(<minecolonies:supplyChestDeployer>);
     recipes.addShaped(<minecolonies:supplyChestDeployer>,
-        [[null, null, null],
-         [<ore:boatWood>, <forestry:hardenedMachine>, <ore:boatWood>],
+        [[<ore:boatWood>, <forestry:hardenedMachine>, <ore:boatWood>],
          [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
 
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
     recipes.addShaped(<persistentbits:chunk_loader>,
         [[null, <xreliquary:void_tear_empty>, null],
-         [<ore:gemDiamond>, <ore:ingotAdamantine>, <ore:gemDiamond>],
-         [<ore:ingotAdamantine>, <minecraft:enchanting_table:*>, <ore:ingotAdamantine>]]);
+         [<ore:gemDiamond>, <ore:ingotAdamant>, <ore:gemDiamond>],
+         [<ore:ingotAdamant>, <minecraft:enchanting_table:*>, <ore:ingotAdamant>]]);
 
 # RFTools
     recipes.remove(<rftools:machine_frame>);

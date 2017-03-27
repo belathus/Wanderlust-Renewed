@@ -1,6 +1,99 @@
 {
-  "_name": "wired.cyberskeleton",
-  "drops": [],
-  "pre_stats": [],
-  "stats": []
+    "_name": "wired.cyberskeleton",
+    "drops": [
+        {
+            "function" : "remove",
+            "id": "minecraft:iron_ingot"
+        },
+        {
+            "function" : "if_recently_hit",
+            "functions" : [
+                { "function":"add", "id":"wired:energydrink",          "damage":0, "count":0.085 },
+                { "function":"add", "id":"enderio:itemBasicCapacitor", "damage":0, "count":0.025 }
+            ]
+        },
+        {
+            "_comment" : "Adds cyberware components as a drop",
+            "function" : "choose",
+            "count" : 0.4,
+            "functions" : [
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":0, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":1, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":2, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":3, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":4, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":5, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":6, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":7, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":8, "count":1 },
+                { "weight":1, "function":"add", "id":"cyberware:component", "damage":9, "count":1 }
+            ]
+        }
+    ],
+    "pre_stats": [],
+    "stats": [
+        {
+            "function" : "choose",
+            "count" : 1.0,
+            "functions" : [
+                { "weight":30, "function":"equip", "override":"true", "id":"minecraft:bow", "slot":"mainhand", "item_stats":[{ "function" : "enchant", "id":-1, "level":20 }]},
+                { "weight":10, "function":"equip", "override":"true", "id":"primal:iron_workblade", "slot":"mainhand", "item_stats":[{ "function" : "enchant", "id":-1, "level":20 }]},
+                { "weight":5,  "function":"equip", "override":"true", "id":"cyberware:katana", "slot":"mainhand", "item_stats" : [{"function":"enchant", "id":-1, "level":20 }]},
+                { "weight":6,  "function":"equip", "override":"true", "id":"wired:baton.riot", "slot":"mainhand", "item_stats":[{ "function" : "enchant", "id":-1, "level":20 }]},
+                { "weight":3,  "function":"equip", "override":"true", "id":"wired:baton.reinforced", "slot":"mainhand", "item_stats":[{ "function" : "enchant", "id":-1, "level":20 }]},
+                { "weight":1,  "function":"equip", "override":"true", "id":"wired:baton.alloyed", "slot":"mainhand", "item_stats":[{ "function" : "enchant", "id":-1, "level":20 }]}
+            ]
+        },
+        {
+            "function" : "choose",
+            "count" : 0.40,
+            "functions" : [
+                {
+                    "_comment" : "Hardened leather armor",
+                    "weight" : 10,
+                    "function" : "all",
+                    "functions" : [
+                        { "function":"equip", "override":"true", "count":0.5, "id":"harvestcraft:hardenedleatherhelmItem",     "slot":"head" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"harvestcraft:hardenedleatherchestItem",    "slot":"chest" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"harvestcraft:hardenedleatherleggingsItem", "slot":"legs" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"harvestcraft:hardenedleatherbootsItem",    "slot":"feet" }
+                    ]
+                },
+                {
+                    "_comment" : "Studded Leather armor",
+                    "weight" : 5,
+                    "function" : "all",
+                    "functions" : [
+                        { "function":"equip", "override":"true", "count":0.5, "id":"dungeontactics:studded_helmet",     "slot":"head" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"dungeontactics:studded_chestplate", "slot":"chest" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"dungeontactics:studded_leggings",   "slot":"legs" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"dungeontactics:studded_boots",      "slot":"feet" }
+                    ]
+                },
+                {
+                    "_comment" : "Abyssalnite armor",
+                    "weight" : 1,
+                    "function" : "all",
+                    "functions" : [
+                        { "function":"equip", "override":"true", "count":0.5, "id":"abyssalcraft:ahelmet", "slot":"head" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"abyssalcraft:aplate",  "slot":"chest" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"abyssalcraft:alegs",   "slot":"legs" },
+                        { "function":"equip", "override":"true", "count":0.3, "id":"abyssalcraft:aboots",  "slot":"feet" }
+                    ]
+                },
+                {
+                    "_comment" : "Fully Geared with Cyber-level armor",
+                    "weight" : 1,
+                    "function" : "all",
+                    "functions" : [
+                        { "function":"equip", "override":"true", "count":1, "id":"wired:techvisor",         "slot":"head" },
+                        { "function":"equip", "override":"true", "count":1, "id":"cyberware:trenchcoat",    "slot":"chest" },
+                        { "function":"equip", "override":"true", "count":1, "id":"wired:camopants",         "slot":"legs" },
+                        { "function":"equip", "override":"true", "count":1, "id":"enderio:darkSteel_boots", "slot":"feet" },
+                        { "function":"equip", "override":"true", "count":1, "id":"wired:shield.reinforced", "slot":"offhand" }
+                    ]
+                }
+            ]
+        }
+    ]
 }
