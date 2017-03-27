@@ -6,9 +6,23 @@
             "function" : "choose",
             "functions" : [
                 {
-                    "weight" : 30,
+                    "weight" : 3,
                     "function" : "add",
                     "id" : "tconstruct:throwball",
+                    "damage" : 1,
+                    "count" : 1
+                },
+                {
+                    "weight" : 10,
+                    "function" : "add",
+                    "id" : "minecraft:fire_charge",
+                    "damage" : 1,
+                    "count" : 1
+                },
+                {
+                    "weight" : 30,
+                    "function" : "add",
+                    "id" : "minecraft:magma_cream",
                     "damage" : 1,
                     "count" : 1
                 }
