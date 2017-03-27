@@ -776,88 +776,183 @@
         <!-- Nether Core ores complete -->
         
         <!-- Zinc ore veins -->
-        <IfModInstalled name="nethermetals">
-            <Veins name='nmetZincVeins' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
-                <Description> 
-                  Small motherlodes with 2-4 short, thick branches.
-                </Description>
-                <OreBlock block='minecraft:netherrack' weight='0.70'/>
-                <OreBlock block='nethermetals:nether_zinc_ore' weight='0.30'/>
-                <Replaces block='minecraft:netherrack' weight='1.0'/>
-                <Replaces block='minecraft:magma' weight='1.0'/>
-                <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-        		<Replaces block='minecraft:air' weight='1.0'/>
-                <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
-                <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
-                <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
-                <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			</Veins>
-			
-			
-			
-			<!-- Tin ore veins -->
-			<Veins name='nmetZincVeins' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
-                <Description> 
-                  Small motherlodes without any branches.
-                  Similar to the deposits produced by StandardGen distributions.
-                </Description>
-                <OreBlock block='minecraft:netherrack' weight='0.70'/>
-                <OreBlock block='nethermetals:nether_tin_ore' weight='0.30'/>
-                <Replaces block='minecraft:netherrack' weight='1.0'/>
-                <Replaces block='minecraft:magma' weight='1.0'/>
-                <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                <Replaces block='minecraft:air' weight='1.0'/>
-                <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
-                <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
-                <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
-                <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-			</Veins>
-			
-			
-			
-			<!-- Uranium ore deposits below lava -->
-            <Veins name='nmetUraniumVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
-                <Description> 
-                  Small motherlodes without any branches.
-                  Similar to the deposits produced by StandardGen distributions.
-                </Description>        
-                <OreBlock block='nethermetals:nether_uranium_ore' weight='1.0'/>
-                <Replaces block='minecraft:netherrack' weight='1.0'/>
-                <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
-                <PlacesBelow block='lava' weight='1.0'/>
-                <Setting name='MotherlodeFrequency'  avg=':= 1.0 * oreFreq' range=':= 0.3 * oreFreq'/>
-                <Setting name='MotherlodeSize'       avg=':= 5.0 * oreSize' range=':= 0.3 * oreSize'/>
-                <Setting name='MotherlodeHeight'     avg=':= 20'            range=':= 32' type='normal'/>
-                <Setting name='MotherlodeRangeLimit' avg='32'               range='32' type='normal'/>
-                <Setting name='BranchFrequency'      avg='0'                range='0'/>
-                <Setting name='OreDensity'           avg='1'                range='0'/>
-                <Setting name='OreRadiusMult'        avg='1.0'              range='0.1'/>
-			</Veins>
-		</IfModInstalled>
+        <Veins name='nmetZincVeins' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes with 2-4 short, thick branches.
+            </Description>
+            <OreBlock block='minecraft:netherrack' weight='0.70'/>
+            <OreBlock block='base:ore_zinc' weight='0.30'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:air' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+
+
+
+        <!-- Tin ore veins -->
+        <Veins name='nmetZincVeins' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes without any branches.
+              Similar to the deposits produced by StandardGen distributions.
+            </Description>
+            <OreBlock block='minecraft:netherrack' weight='0.70'/>
+            <OreBlock block='base:ore_tin' weight='0.30'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:air' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+
+        <!-- Heat Sand deposits below lava -->
+        <Veins name='natuHeatSandVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes without any branches.
+              Similar to the deposits produced by StandardGen distributions.
+            </Description>        
+            <OreBlock block='natura:nether_heat_sand' weight='1.0'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='minecraft:soul_sand' weight='1.0'/>
+            <Replaces block='minecraft:gravel' weight='1.0'/>
+            <Replaces block='primal:nether_earth' weight='1.0'/>
+            <PlacesBelow block='lava' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'  avg=':= 1.0 ' range=':= 0.3 '/>
+            <Setting name='MotherlodeSize'       avg=':= 8.0 ' range=':= 1.5 '/>
+            <Setting name='MotherlodeHeight'     avg=':= 20'   range=':= 32'   type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32'      range='32'      type='normal'/>
+            <Setting name='BranchFrequency'      avg='0'       range='0'/>
+            <Setting name='OreDensity'           avg='1'       range='0'/>
+            <Setting name='OreRadiusMult'        avg='1.0'     range='0.1'/>
+        </Veins>
+        
+        <!-- Tainted Soil deposits below lava -->
+        <Veins name='natuHeatSandVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes without any branches.
+              Similar to the deposits produced by StandardGen distributions.
+            </Description>        
+            <OreBlock block='natura:nether_tainted_soil' weight='1.0'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='minecraft:soul_sand' weight='1.0'/>
+            <Replaces block='minecraft:gravel' weight='1.0'/>
+            <Replaces block='primal:nether_earth' weight='1.0'/>
+            <PlacesBelow block='lava' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'  avg=':= 1.0 ' range=':= 0.3 '/>
+            <Setting name='MotherlodeSize'       avg=':= 8.0 ' range=':= 1.5 '/>
+            <Setting name='MotherlodeHeight'     avg=':= 20'   range=':= 32'   type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32'      range='32'      type='normal'/>
+            <Setting name='BranchFrequency'      avg='0'       range='0'/>
+            <Setting name='OreDensity'           avg='1'       range='0'/>
+            <Setting name='OreRadiusMult'        avg='1.0'     range='0.1'/>
+        </Veins>
+        
+        <!-- Uranium ore deposits below lava -->
+        <Veins name='UraniumVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes without any branches.
+              Similar to the deposits produced by StandardGen distributions.
+            </Description>        
+            <OreBlock block='immersiveengineering:ore:5' weight='1.0'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='minecraft:soul_sand' weight='1.0'/>
+            <Replaces block='minecraft:gravel' weight='1.0'/>
+            <Replaces block='primal:nether_earth' weight='1.0'/>
+            <PlacesBelow block='natura:nether_heat_sand' weight='1.0'/>
+            <PlacesBelow block='natura:nether_tainted_soil' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'  avg=':= 1.0 * oreFreq' range=':= 0.3 * oreFreq'/>
+            <Setting name='MotherlodeSize'       avg=':= 5.0 * oreSize' range=':= 1.5 * oreSize'/>
+            <Setting name='MotherlodeHeight'     avg=':= 20'            range=':= 32' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32'               range='32' type='normal'/>
+            <Setting name='BranchFrequency'      avg='0'                range='0'/>
+            <Setting name='OreDensity'           avg='1'                range='0'/>
+            <Setting name='OreRadiusMult'        avg='1.0'              range='0.1'/>
+        </Veins>
+        
+        <!-- Dimensional Shard ore deposits below lava -->
+        <Veins name='rftlDimensionalVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes without any branches.
+              Similar to the deposits produced by StandardGen distributions.
+            </Description>        
+            <OreBlock block='rftools:dimensional_shard_ore' weight='1.0'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='minecraft:soul_sand' weight='1.0'/>
+            <Replaces block='minecraft:gravel' weight='1.0'/>
+            <Replaces block='primal:nether_earth' weight='1.0'/>
+            <PlacesBelow block='natura:nether_heat_sand' weight='1.0'/>
+            <PlacesBelow block='natura:nether_tainted_soil' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'  avg=':= 0.8 * oreFreq' range=':= 0.2 * oreFreq'/>
+            <Setting name='MotherlodeSize'       avg=':= 2.0 * oreSize' range=':= 0.6 * oreSize'/>
+            <Setting name='MotherlodeHeight'     avg=':= 20'            range=':= 32' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32'               range='32' type='normal'/>
+            <Setting name='BranchFrequency'      avg='0'                range='0'/>
+            <Setting name='OreDensity'           avg='1'                range='0'/>
+            <Setting name='OreRadiusMult'        avg='1.0'              range='0.1'/>
+        </Veins>
+        
+        <!-- Redstone ore deposits below lava -->
+        <Veins name='rftlDimensionalVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x6099FF99' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+            <Description> 
+              Small motherlodes without any branches.
+              Similar to the deposits produced by StandardGen distributions.
+            </Description>        
+            <OreBlock block='minecraft:redstone_ore' weight='1.0'/>
+            <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+            <Replaces block='minecraft:magma' weight='1.0'/>
+            <Replaces block='minecraft:soul_sand' weight='1.0'/>
+            <Replaces block='minecraft:gravel' weight='1.0'/>
+            <Replaces block='primal:nether_earth' weight='1.0'/>
+            <PlacesBelow block='natura:nether_heat_sand' weight='1.0'/>
+            <PlacesBelow block='natura:nether_tainted_soil' weight='1.0'/>
+            <Setting name='MotherlodeFrequency'  avg=':= 1.0 * oreFreq' range=':= 0.3 * oreFreq'/>
+            <Setting name='MotherlodeSize'       avg=':= 5.0 * oreSize' range=':= 1.5 * oreSize'/>
+            <Setting name='MotherlodeHeight'     avg=':= 20'            range=':= 32' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32'               range='32' type='normal'/>
+            <Setting name='BranchFrequency'      avg='0'                range='0'/>
+            <Setting name='OreDensity'           avg='1'                range='0'/>
+            <Setting name='OreRadiusMult'        avg='1.0'              range='0.1'/>
+        </Veins>
     </ConfigSection>
 </IfCondition>
 
