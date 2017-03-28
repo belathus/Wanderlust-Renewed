@@ -277,3 +277,9 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:rodStone>,<primal:stone_basin>,<ore:rodStone>],
          [<ore:rodStone>,null,<ore:rodStone>]]);
 */
+
+# Waystones
+#    recipes.addShaped(<waystones:waystone>,
+#        [[null, <ore:bricksStone>, null],
+#         [<ore:bricksStone>, ,<ore:bricksStone>],
+#         [<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
