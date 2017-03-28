@@ -367,10 +367,386 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
+        },
+        {
+          "xPos": 237,
+          "yPos": 21,
+          "width": 44.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Coal",
+              "size": 1.5000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 25,
+          "yPos": 51,
+          "width": 172.0,
+          "height": 83.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "You can find most any ore you\u0027ll want in the Nether. In fact, you might find that the ores are very abundant there!\n\nThat being said, nearly everything in the Nether wants to kill you. The ores you\u0027ll find there are likely going to be in precarious locations. The ores might be located in geodes filled with hazardous fluids. Or, the ore itself might try to kill you, in Tiberium\u0027s case.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 232,
+          "yPos": 37,
+          "width": 174.0,
+          "height": 104.39999999999998,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Nether_Living/2017-03-27_18.42.39.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 235,
+          "yPos": 147,
+          "width": 167.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Coal deposits are found suspended in open areas of the Nether. Take some caution mining it: some of the coal is on fire.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
         }
       ],
       "pageNumber": 4,
       "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 29,
+          "yPos": 20,
+          "width": 66.0,
+          "height": 15.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Geodes",
+              "size": 1.5000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 48,
+          "yPos": 37,
+          "width": 126.0,
+          "height": 99.11999999999995,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Nether_Living/iron_geode.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 231,
+          "yPos": 21,
+          "width": 178.0,
+          "height": 32.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Inside, however, you\u0027ll find a thin layer of ore, such as iron, like in the image below.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 23,
+          "yPos": 142,
+          "width": 177.0,
+          "height": 49.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Many ores, such as iron, are found inside of geodes. The geodes often give little hint as to what they contain, being a featureless black blob like in the image above.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 238,
+          "yPos": 53,
+          "width": 160.0,
+          "height": 96.00000000000003,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Nether_Living/iron_geode_interior.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 231,
+          "yPos": 154,
+          "width": 170.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Be extremely careful cracking open these geodes! Some are filled with hazardous fluids such as lava, quicksand, and pyrotheum.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        }
+      ],
+      "pageNumber": 6,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 29,
+          "yPos": 20,
+          "width": 102.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Lava Sea",
+              "size": 1.5000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 25,
+          "yPos": 33,
+          "width": 174.0,
+          "height": 120.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Some ores, especially some of the more useful ores, are only found specifically under the lava. This includes dimensional shards, uranium, and redstone.\n\nFortunately, there are relatively easy ways to protect yourself from the heat of lava. Fire protection potions might be the obvious route, but dried magma slime also works very well, if for a shorter duration.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 60,
+          "yPos": 156,
+          "width": 29.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "tconstruct:edible 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 98,
+          "yPos": 158,
+          "width": 25.0,
+          "height": 25.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 130,
+          "yPos": 159,
+          "width": 27.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "tconstruct:edible 34",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 8,
+      "isScrollable": false
     }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
   ]
 }

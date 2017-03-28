@@ -30,9 +30,11 @@
                 [aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1],aluminum_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, aluminum_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,aluminum_oredict[1],null],
+                 [aluminum_oredict[1],<ore:ingotIron>,aluminum_oredict[1]],
+                 [null,aluminum_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[aluminum_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[aluminum_oredict[1]]]);
         }
     }
 
@@ -69,9 +71,11 @@
                 [bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1],bronze_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, bronze_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,bronze_oredict[1],null],
+                 [bronze_oredict[1],<ore:ingotIron>,bronze_oredict[1]],
+                 [null,bronze_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[bronze_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[bronze_oredict[1]]]);
         }
     }
 
@@ -92,7 +96,7 @@
         [<enderzoo:enderZooIcon>,          <rockhounding_chemistry:miscItems:25>,<enderzoo:enderZooIcon>,                  <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,       <rockhounding_chemistry:chemicalDusts:17>],
         [<thermalfoundation:material:192>, <thermalfoundation:material:128>,     <thermalfoundation:storage>,              <thermalfoundation:material:320>,<thermalfoundation:material:256>,<thermalfoundation:ore>,       <thermalfoundation:material:64>]
     ] as minetweaker.item.IItemStack[][];
-        var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>,<ore:dustCopper>] as minetweaker.item.IIngredient[];
+    var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>,<ore:dustCopper>] as minetweaker.item.IIngredient[];
     for i, group in list_copper {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
         if !group[1].matches(<enderzoo:enderZooIcon>) { 
@@ -116,9 +120,11 @@
                 [copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1],copper_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, copper_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,copper_oredict[1],null],
+                 [copper_oredict[1],<ore:ingotIron>,copper_oredict[1]],
+                 [null,copper_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[copper_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[copper_oredict[1]]]);
         }
     }
 
@@ -130,7 +136,7 @@
         [<thermalfoundation:material:228>,<thermalfoundation:material:164>,<thermalfoundation:storage_alloy:4>,<thermalfoundation:material:356>,<thermalfoundation:material:292>,<enderzoo:enderZooIcon>,<thermalfoundation:material:100>]
     ] as minetweaker.item.IItemStack[][];
     var constantan_oredict = [<ore:nuggetConstantan>,<ore:ingotConstantan>,<ore:blockConstantan>,<ore:plateConstantan>,<ore:gearConstantan>,<ore:oreConstantan>,<ore:dustConstantan>] as minetweaker.item.IIngredient[];
-        for i, group in list_constantan {
+    for i, group in list_constantan {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
         if !group[1].matches(<enderzoo:enderZooIcon>) { 
             recipes.remove(group[1]); 
@@ -153,9 +159,11 @@
                 [constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1],constantan_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, constantan_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,constantan_oredict[1],null],
+                 [constantan_oredict[1],<ore:ingotIron>,constantan_oredict[1]],
+                 [null,constantan_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[constantan_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[constantan_oredict[1]]]);
         }
     }
 
@@ -200,9 +208,11 @@
                 [iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1],iron_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, iron_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,iron_oredict[1],null],
+                 [iron_oredict[1],<ore:ingotIron>,iron_oredict[1]],
+                 [null,iron_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[iron_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[iron_oredict[1]]]);
         }
     }
 
@@ -239,9 +249,11 @@
                 [lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1],lead_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, lead_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,lead_oredict[1],null],
+                 [lead_oredict[1],<ore:ingotIron>,lead_oredict[1]],
+                 [null,lead_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[lead_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[lead_oredict[1]]]);
         }
     }
 
@@ -304,9 +316,11 @@
                 [steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1],steel_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, steel_oredict[5]]);
             recipes.addShaped(group[4],
-                [[null,group[1],null],
-                 [group[1],<ore:ingotIron>,group[1]],
-                 [null,group[1],null]]);
+                [[null,steel_oredict[1],null],
+                 [steel_oredict[1],<ore:ingotIron>,steel_oredict[1]],
+                 [null,steel_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[steel_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[steel_oredict[1]]]);
         }
     }
 
@@ -346,6 +360,12 @@
             recipes.addShapeless(group[2], 
                 [tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1],tin_oredict[1]]);
             recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, tin_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,tin_oredict[1],null],
+                 [tin_oredict[1],<ore:ingotIron>,tin_oredict[1]],
+                 [null,tin_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[tin_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[tin_oredict[1]]]);
         }
     }
 
