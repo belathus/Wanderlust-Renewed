@@ -438,28 +438,84 @@
 
 
 # Uranium
-    #furnace.addRecipe(<immersiveengineering:metal:5>,<nethermetals:nether_uranium_ore>,0.5);
-    #recipes.remove(<modernmetals:uranium_nugget>);
-    #recipes.remove(<modernmetals:uranium_ingot>);
-    #recipes.remove(<modernmetals:uranium_block>);
-    recipes.addShapeless(<immersiveengineering:metal:25>*9,
-        [<ore:ingotUranium>]);
-    recipes.addShapeless(<immersiveengineering:metal:5>, 
-        [<ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>]);
-    recipes.addShapeless(<immersiveengineering:storage:5>, 
-        [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>]);
+    val list_uranium = [
+    #     nugget,                          ingot,                           block,                           plate,                   Gear                     ore                           dust
+        [<immersiveengineering:metal:25>, <immersiveengineering:metal:5>, <immersiveengineering:storage:5>, <base:plate:33>,         <base:gear:33>,          <immersiveengineering:ore:5>, <immersiveengineering:metal:14>],
+        [<base:nugget:33>,                <base:ingot:33>,                <base:storage_uranium>,           <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <base:ore_uranium>,           <base:dust:33>],
+        [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <rockhounding_chemistry:chemicalDusts:43>]
+    ] as minetweaker.item.IItemStack[][];
+    var uranium_oredict = [<ore:nuggetUranium>,<ore:ingotUranium>,<ore:blockUranium>,<ore:plateUranium>,<ore:gearUranium>,<ore:oreUranium>,<ore:dustUranium>] as minetweaker.item.IIngredient[];
+    for i, group in list_uranium {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_uranium[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [uranium_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [uranium_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [uranium_oredict[0],uranium_oredict[0],uranium_oredict[0],uranium_oredict[0],uranium_oredict[0],uranium_oredict[0],uranium_oredict[0],uranium_oredict[0],uranium_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [uranium_oredict[1],uranium_oredict[1],uranium_oredict[1],uranium_oredict[1],uranium_oredict[1],uranium_oredict[1],uranium_oredict[1],uranium_oredict[1],uranium_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, uranium_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,uranium_oredict[1],null],
+                 [uranium_oredict[1],<ore:ingotIron>,uranium_oredict[1]],
+                 [null,uranium_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[uranium_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[uranium_oredict[1]]]);
+        }
+    }
+    
+
 
 # Zinc
-    recipes.addShapeless(<primal:zinc_nugget>*9,[<ore:ingotZinc>]);
-    #recipes.addShaped(<fp:ItemErze:1>,
-    #    [[<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>],
-    #     [<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>],
-    #     [<ore:nuggetZinc>,<ore:nuggetZinc>,<ore:nuggetZinc>]]);
-    #recipes.remove(<basemetals:zinc_block>);
-    #recipes.remove(<esteemedinnovation:metal_storage_block:1>);
-    #recipes.remove(<esteemedinnovation:ingot:1>);
-    #recipes.remove(<basemetals:zinc_ingot>);
-    recipes.remove(<primal:zinc_ingot>);
+    val list_zinc = [
+    #     nugget,                  ingot,                   block,                   plate,                   Gear                     ore                      dust
+        [<base:nugget:34>,        <base:ingot:34>,         <base:storage_zinc>,     <base:plate:34>,         <base:gear:34>,          <base:ore_zinc>,         <base:dust:34>],
+        [<primal:zinc_nugget>,    <primal:zinc_ingot>,     <primal:zinc_block>,     <primal:zinc_plate>,     <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <primal:zinc_dust>],
+        [<enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <rockhounding_chemistry:chemicalDusts:20>]
+    ] as minetweaker.item.IItemStack[][];
+    var zinc_oredict = [<ore:nuggetZinc>,<ore:ingotZinc>,<ore:blockZinc>,<ore:plateZinc>,<ore:gearZinc>,<ore:oreZinc>,<ore:dustZinc>] as minetweaker.item.IIngredient[];
+    for i, group in list_zinc {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) { 
+            recipes.remove(group[1]); 
+            if !group[5].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_zinc[0][1], group[5], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            recipes.addShapeless(group[0]*9, [zinc_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [zinc_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [zinc_oredict[0],zinc_oredict[0],zinc_oredict[0],zinc_oredict[0],zinc_oredict[0],zinc_oredict[0],zinc_oredict[0],zinc_oredict[0],zinc_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [zinc_oredict[1],zinc_oredict[1],zinc_oredict[1],zinc_oredict[1],zinc_oredict[1],zinc_oredict[1],zinc_oredict[1],zinc_oredict[1],zinc_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, zinc_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,zinc_oredict[1],null],
+                 [zinc_oredict[1],<ore:ingotIron>,zinc_oredict[1]],
+                 [null,zinc_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[zinc_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[zinc_oredict[1]]]);
+        }
+    }
 
     
 /*
