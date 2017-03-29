@@ -179,7 +179,7 @@
     
 # Vanilla
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
-    recipes.addShaped(<minecraft:paper>*3,
+    recipes.addShaped(<minecraft:paper>*10,
         [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
          [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
     recipes.remove(<minecraft:quartz>);
