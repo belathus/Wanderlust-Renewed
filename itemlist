@@ -412,8 +412,8 @@
 <actuallyadditions:blockGrinder>, Crusher
 <actuallyadditions:blockGrinderDouble>, Double Crusher
 <actuallyadditions:blockHeatCollector>, Heat Collector
-<actuallyadditions:blockInputter>, ESD (Excellent Spaghetti Dessert)
-<actuallyadditions:blockInputterAdvanced>, Advanced ESD (Express Sending Doughnut)
+<actuallyadditions:blockInputter>, ESD (Extreme Sand Digger)
+<actuallyadditions:blockInputterAdvanced>, Advanced ESD (Extraordinary Sample Deliverer)
 <actuallyadditions:blockItemRepairer>, Item Repairer
 <actuallyadditions:blockItemViewer>, Item Interface
 <actuallyadditions:blockLampPowerer>, Lamp Controller
@@ -751,6 +751,7 @@
 <animania:block_nest>, Nest
 <animania:block_seeds>, Seeds
 <animania:block_trough>, Trough
+<animania:blue_peacock_feather>, Blue Peacock Feather
 <animania:brown_egg>, Egg
 <animania:bucket_slop>, Bucket o' Slop
 <animania:carving_knife>, Carving Knife
@@ -790,15 +791,21 @@
 <animania:entity_egg_chick_plymouth>, Plymouth Rock Chick
 <animania:entity_egg_chick_red>, Rhode Island Red Chick
 <animania:entity_egg_chick_wyandotte>, Wyandotte Chick
+<animania:entity_egg_chicken_random>, Random Chicken
 <animania:entity_egg_cow_angus>, Angus Cow
 <animania:entity_egg_cow_friesian>, Friesian Cow
 <animania:entity_egg_cow_hereford>, Hereford Cow
 <animania:entity_egg_cow_holstein>, Holstein Cow
 <animania:entity_egg_cow_longhorn>, Longhorn Cow
+<animania:entity_egg_cow_random>, Random Cow
+<animania:entity_egg_draft_horse_foal>, item.animania_entity_egg_draft_horse_foal.name
+<animania:entity_egg_draft_horse_mare>, item.animania_entity_egg_draft_horse_mare.name
+<animania:entity_egg_draft_horse_stallion>, item.animania_entity_egg_draft_horse_stallion.name
 <animania:entity_egg_ferret_grey>, Grey Ferret
 <animania:entity_egg_ferret_white>, White Ferret
 <animania:entity_egg_hamster>, Hamster
 <animania:entity_egg_hedgehog>, Hedgehog
+<animania:entity_egg_hedgehog_albino>, Albino Hedgehog
 <animania:entity_egg_hen_leghorn>, Leghorn Hen
 <animania:entity_egg_hen_orpington>, Orpington Hen
 <animania:entity_egg_hen_plymouth>, Plymouth Rock Hen
@@ -816,6 +823,7 @@
 <animania:entity_egg_peacock_white>, White Peacock
 <animania:entity_egg_peafowl_blue>, India Blue Peafowl
 <animania:entity_egg_peafowl_white>, White Peafowl
+<animania:entity_egg_pig_random>, Random Pig
 <animania:entity_egg_piglet_duroc>, Duroc Piglet
 <animania:entity_egg_piglet_hampshire>, Hampshire Piglet
 <animania:entity_egg_piglet_largeblack>, Large Black Piglet
@@ -864,6 +872,7 @@
 <animania:truffle>, Truffle
 <animania:truffle_omelette>, Truffle Omelette
 <animania:truffle_soup>, Truffle Soup
+<animania:white_peacock_feather>, White Peacock Feather
 <animus:blockantimatter>, Antimatter
 <animus:blockphantombuilder>, Phantom Builder Block
 <animus:itemaltardiviner>, Altar Diviner
@@ -947,7 +956,7 @@
 <arsmagica2:infinity_orb>, Blue Infinity Orb
 <arsmagica2:inscription_table>, Inscription Table
 <arsmagica2:inscription_upgrade>, Inscription Table Tier 1 Upgrade
-<arsmagica2:iron_inlay>, Iron Inlay
+<arsmagica2:iron_inlay>, Silver Inlay
 <arsmagica2:item_focus>, Item Focus
 <arsmagica2:item_keystone_door>, Keystone Door
 <arsmagica2:item_ore>, Vinteum Dust
@@ -1061,11 +1070,71 @@
 <base:gear>, error.base.null_part
 <base:ingot>, error.base.null_part
 <base:nugget>, error.base.null_part
+<base:ore_abyssalnite>, .base.Abyssalnite .base.base.part.ore
+<base:ore_adamantine>, .base.Adamantine .base.base.part.ore
+<base:ore_aluminum>, .base.Aluminum .base.base.part.ore
+<base:ore_aquarium>, .base.Aquarium .base.base.part.ore
+<base:ore_ardite>, .base.Ardite .base.base.part.ore
+<base:ore_brass>, .base.Brass .base.base.part.ore
+<base:ore_bronze>, .base.Bronze .base.base.part.ore
+<base:ore_cobalt>, .base.Cobalt .base.base.part.ore
+<base:ore_coldiron>, .base.Coldiron .base.base.part.ore
+<base:ore_constantan>, .base.Constantan .base.base.part.ore
+<base:ore_copper>, .base.Copper .base.base.part.ore
+<base:ore_coralium>, .base.Coralium .base.base.part.ore
+<base:ore_cupronickel>, .base.Cupronickel .base.base.part.ore
+<base:ore_dawnstone>, .base.Dawnstone .base.base.part.ore
+<base:ore_dilithium>, .base.Dilithium .base.base.part.ore
+<base:ore_dreadium>, .base.Dreadium .base.base.part.ore
+<base:ore_electrum>, .base.Electrum .base.base.part.ore
+<base:ore_gold>, .base.Gold .base.base.part.ore
+<base:ore_invar>, .base.Invar .base.base.part.ore
+<base:ore_iridium>, .base.Iridium .base.base.part.ore
+<base:ore_iron>, .base.Iron .base.base.part.ore
+<base:ore_lead>, .base.Lead .base.base.part.ore
+<base:ore_mithril>, .base.Mithril .base.base.part.ore
+<base:ore_nickel>, .base.Nickel .base.base.part.ore
+<base:ore_platinum>, .base.Platinum .base.base.part.ore
+<base:ore_silver>, .base.Silver .base.base.part.ore
+<base:ore_starsteel>, .base.Starsteel .base.base.part.ore
+<base:ore_steel>, .base.Steel .base.base.part.ore
 <base:ore_tin>, .base.Tin .base.base.part.ore
+<base:ore_titanium>, .base.Titanium .base.base.part.ore
+<base:ore_uranium>, .base.Uranium .base.base.part.ore
 <base:ore_zinc>, .base.Zinc .base.base.part.ore
 <base:plate>, error.base.null_part
+<base:storage_abyssalnite>, .base.Abyssalnite .base.base.part.storage
+<base:storage_adamantine>, .base.Adamantine .base.base.part.storage
+<base:storage_aluminum>, .base.Aluminum .base.base.part.storage
+<base:storage_aquarium>, .base.Aquarium .base.base.part.storage
+<base:storage_ardite>, .base.Ardite .base.base.part.storage
+<base:storage_brass>, .base.Brass .base.base.part.storage
 <base:storage_bronze>, .base.Bronze .base.base.part.storage
+<base:storage_cobalt>, .base.Cobalt .base.base.part.storage
+<base:storage_coldiron>, .base.Coldiron .base.base.part.storage
+<base:storage_constantan>, .base.Constantan .base.base.part.storage
+<base:storage_copper>, .base.Copper .base.base.part.storage
+<base:storage_coralium>, .base.Coralium .base.base.part.storage
+<base:storage_cupronickel>, .base.Cupronickel .base.base.part.storage
+<base:storage_dawnstone>, .base.Dawnstone .base.base.part.storage
+<base:storage_dilithium>, .base.Dilithium .base.base.part.storage
+<base:storage_dreadium>, .base.Dreadium .base.base.part.storage
+<base:storage_electrum>, .base.Electrum .base.base.part.storage
+<base:storage_gold>, .base.Gold .base.base.part.storage
+<base:storage_invar>, .base.Invar .base.base.part.storage
+<base:storage_iridium>, .base.Iridium .base.base.part.storage
+<base:storage_iron>, .base.Iron .base.base.part.storage
+<base:storage_lead>, .base.Lead .base.base.part.storage
+<base:storage_mithril>, .base.Mithril .base.base.part.storage
+<base:storage_nickel>, .base.Nickel .base.base.part.storage
+<base:storage_platinum>, .base.Platinum .base.base.part.storage
+<base:storage_silver>, .base.Silver .base.base.part.storage
+<base:storage_starsteel>, .base.Starsteel .base.base.part.storage
+<base:storage_steel>, .base.Steel .base.base.part.storage
 <base:storage_tin>, .base.Tin .base.base.part.storage
+<base:storage_titanium>, .base.Titanium .base.base.part.storage
+<base:storage_uranium>, .base.Uranium .base.base.part.storage
+<base:storage_zinc>, .base.Zinc .base.base.part.storage
 <baubles:Ring>, item.Ring.0.name
 <betterbeginnings:bone_knife>, Bone Knife
 <betterbeginnings:bone_pickaxe>, Bone Pickaxe
@@ -1610,11 +1679,11 @@
 <botania:felPumpkin>, Fel Pumpkin
 <botania:fertilizer>, Floral Fertilizer
 <botania:fireRod>, Rod of the Hells
-<botania:flightTiara>, Flügel Tiara
+<botania:flightTiara>, FlÃ¼gel Tiara
 <botania:floatingSpecialFlower>, Floating Botania Flower
 <botania:flower>, Mystical White Flower
 <botania:flowerBag>, Flower Pouch
-<botania:flugelEye>, Eye of the Flügel
+<botania:flugelEye>, Eye of the FlÃ¼gel
 <botania:forestDrum>, Drum of the Wild
 <botania:forestEye>, Eye of the Ancients
 <botania:gaiaHead>, Gaia Guardian's Head
@@ -4853,7 +4922,10 @@
 <plustic:alumitenugget>, Alumite Nugget
 <plustic:plustic.molten_alumite>, Molten Alumite
 <plustic:plustic.molten_coal>, Molten Coal
+<plustic:plustic.molten_enderium>, Molten Enderium
 <plustic:plustic.molten_iridium>, Molten Iridium
+<plustic:plustic.molten_platinum>, Molten Platinum
+<plustic:plustic.molten_signalum>, Molten Signalum
 <plustic:plustic.molten_titanium>, Molten Titanium
 <primal:arrow_quartz>, Quartz Arrow
 <primal:arrow_torch_nether>, Netherrack Torch Arrow
@@ -4891,7 +4963,7 @@
 <primal:bronze_ingot>, Bronze Ingot
 <primal:bronze_nugget>, Bronze Nugget
 <primal:bronze_plate>, Bronze Plate
-<primal:carbon_plate>, item.primal:carbon_plate.name
+<primal:carbon_plate>, Carbon Plate
 <primal:carbonate_brick>, Limestone Brick
 <primal:carbonate_flag>, Limestone Flagstone
 <primal:carbonate_slack>, Limestone Slack
@@ -5098,11 +5170,9 @@
 <primal:diamond_shovel>, Diamond Shovel
 <primal:diamond_workblade>, Diamond Work Blade
 <primal:dirt_brick>, Packed Dirt Brick
-<primal:drain_carbonate_brick>, Limestone Brick Drain
 <primal:drain_carbonate_flag>, Smooth Limestone Drain
 <primal:drain_endbrick>, End Brick Drain
 <primal:drain_endstone>, End Stone Drain
-<primal:drain_ferro_brick>, Ferrocalcite Brick Drain
 <primal:drain_ferro_flag>, Ferrocalcite Flagstone Drain
 <primal:drain_mud>, Dried Mud Drain
 <primal:drain_netherbrick>, Nether Brick Drain
@@ -5182,17 +5252,15 @@
 <primal:flint_shovel>, Flint Shovel
 <primal:flint_workblade>, Flint Work Blade
 <primal:fluid.smoke>, Smoke
-<primal:fluid.steam>, Steam
 <primal:fluid.water_condensation>, Water Condensation
+<primal:gold_plate>, Gold Plate
 <primal:golden_stick>, Golden Stick
 <primal:grate_acacia>, Acacia Wood Brick Grate
 <primal:grate_bigoak>, Dark Oak Wood Grate
 <primal:grate_birch>, Birch Wood Grate
-<primal:grate_carbonate_brick>, Limestone Brick Grate
 <primal:grate_carbonate_flag>, Smooth Limestone Grate
 <primal:grate_endbrick>, End Brick Grate
 <primal:grate_endstone>, End Stone Grate
-<primal:grate_ferro_brick>, Ferrocalcite Brick Grate
 <primal:grate_ferro_flag>, Ferrocalcite Flagstone Grate
 <primal:grate_ironwood>, Ironwood Grate
 <primal:grate_jungle>, Jungle Wood Grate
@@ -5482,11 +5550,9 @@
 <primal:soulstone_smooth>, Smooth Soulstone
 <primal:spawn_egg_canis>, Spawn Steppe Wolf
 <primal:spawn_egg_ovis>, Spawn Ovis Atre
-<primal:stairs_carbonate_brick>, Limestone Brick Stairs
 <primal:stairs_carbonate_flag>, Limestone Flagstone Stairs
 <primal:stairs_cobblestone_mossy>, Mossy Cobblestone Stairs
 <primal:stairs_dirt>, Dirt Stairs
-<primal:stairs_ferro_brick>, Ferrocalcite Brick Stairs
 <primal:stairs_ferro_flag>, Ferrocalcite Flagstone Stairs
 <primal:stairs_grass>, Grass Stairs
 <primal:stairs_ironwood>, Ironwood Stairs
@@ -5591,9 +5657,7 @@
 <primal:void_fiber>, Inanis Fiber
 <primal:void_grass>, Equisetum Inanis
 <primal:void_seed>, Equisetum Inanis Seed
-<primal:wall_carbonate_brick>, Limestone Brick Wall
 <primal:wall_carbonate_flag>, Limestone Flagstone Wall
-<primal:wall_ferro_brick>, Ferrocalcite Brick Wall
 <primal:wall_ferro_flag>, Ferrocalcite Flagstone Wall
 <primal:wall_netherrack>, Netherrack Wall
 <primal:wall_netherstone>, Netherstone Wall
@@ -6320,7 +6384,9 @@
 <rockhounding_surface:kauriGate>, Swamp Kauri Fence Gate
 <rockhounding_surface:kauriStairs>, Swamp Kauri Stairs
 <rockhounding_surface:mesquite_fruit>, Mesquite seeds
+<rockhounding_surface:mesquite_liquor>, Mesquite Juice
 <rockhounding_surface:mesquite_pie>, Mesquite Pie
+<rockhounding_surface:mesquite_tea>, Mesquite Tea
 <rockhounding_surface:mophaneChiseled>, Mophane Chiseled Plank
 <rockhounding_surface:mophaneFences>, Mophane Fence
 <rockhounding_surface:mophaneGate>, Mophane Fence Gate
@@ -7272,6 +7338,202 @@
 <theoneprobe:probe>, The One Probe
 <theoneprobe:probe_goggles>, The One Probe (Bauble)
 <theoneprobe:probenote>, The One Probe Read Me
+<thermalexpansion:augment>, Augment: item.invalid.name
+<thermalexpansion:automaton>, Terrain Smasher (Basic)
+<thermalexpansion:cache>, Cache (Basic)
+<thermalexpansion:cell>, Energy Cell (Basic)
+<thermalexpansion:device>, Aqueous Accumulator
+<thermalexpansion:dynamo>, Steam Dynamo (Basic)
+<thermalexpansion:florb>, Florb (info.cofh.empty)
+<thermalexpansion:frame>, Machine Frame
+<thermalexpansion:machine>, Redstone Furnace (Basic)
+<thermalexpansion:tank>, Portable Tank (Basic)
+<thermalexpansion:upgrade>, Hardened Upgrade Kit
+<thermalfoundation:armor.boots_bronze>, Bronze Boots
+<thermalfoundation:armor.boots_copper>, Copper Boots
+<thermalfoundation:armor.boots_electrum>, Electrum Boots
+<thermalfoundation:armor.boots_invar>, Invar Boots
+<thermalfoundation:armor.boots_lead>, Lead Boots
+<thermalfoundation:armor.boots_nickel>, Nickel Boots
+<thermalfoundation:armor.boots_platinum>, Platinum Boots
+<thermalfoundation:armor.boots_silver>, Silver Boots
+<thermalfoundation:armor.boots_tin>, Tin Boots
+<thermalfoundation:armor.helmet_bronze>, Bronze Helmet
+<thermalfoundation:armor.helmet_copper>, Copper Helmet
+<thermalfoundation:armor.helmet_electrum>, Electrum Helmet
+<thermalfoundation:armor.helmet_invar>, Invar Helmet
+<thermalfoundation:armor.helmet_lead>, Lead Helmet
+<thermalfoundation:armor.helmet_nickel>, Nickel Helmet
+<thermalfoundation:armor.helmet_platinum>, Platinum Helmet
+<thermalfoundation:armor.helmet_silver>, Silver Helmet
+<thermalfoundation:armor.helmet_tin>, Tin Helmet
+<thermalfoundation:armor.legs_bronze>, Bronze Leggings
+<thermalfoundation:armor.legs_copper>, Copper Leggings
+<thermalfoundation:armor.legs_electrum>, Electrum Leggings
+<thermalfoundation:armor.legs_invar>, Invar Leggings
+<thermalfoundation:armor.legs_lead>, Lead Leggings
+<thermalfoundation:armor.legs_nickel>, Nickel Leggings
+<thermalfoundation:armor.legs_platinum>, Platinum Leggings
+<thermalfoundation:armor.legs_silver>, Silver Leggings
+<thermalfoundation:armor.legs_tin>, Tin Leggings
+<thermalfoundation:armor.plate_bronze>, Bronze Chestplate
+<thermalfoundation:armor.plate_copper>, Copper Chestplate
+<thermalfoundation:armor.plate_electrum>, Electrum Chestplate
+<thermalfoundation:armor.plate_invar>, Invar Chestplate
+<thermalfoundation:armor.plate_lead>, Lead Chestplate
+<thermalfoundation:armor.plate_nickel>, Nickel Chestplate
+<thermalfoundation:armor.plate_platinum>, Platinum Chestplate
+<thermalfoundation:armor.plate_silver>, Silver Chestplate
+<thermalfoundation:armor.plate_tin>, Tin Chestplate
+<thermalfoundation:coin>, Iron Coin
+<thermalfoundation:diagram>, Schematic
+<thermalfoundation:fertilizer>, Phyto-Gro
+<thermalfoundation:fluid_aerotheum>, Zephyrean Aerotheum
+<thermalfoundation:fluid_crude_oil>, Crude Oil
+<thermalfoundation:fluid_cryotheum>, Gelid Cryotheum
+<thermalfoundation:fluid_ender>, Resonant Ender
+<thermalfoundation:fluid_glowstone>, Energized Glowstone
+<thermalfoundation:fluid_mana>, Primal Mana
+<thermalfoundation:fluid_petrotheum>, Tectonic Petrotheum
+<thermalfoundation:fluid_pyrotheum>, Blazing Pyrotheum
+<thermalfoundation:fluid_redstone>, Destabilized Redstone
+<thermalfoundation:geode>, Geode
+<thermalfoundation:glass>, Hardened Copper Glass
+<thermalfoundation:glass_alloy>, Hardened Steel Glass
+<thermalfoundation:material>, Pulverized Iron
+<thermalfoundation:meter>, Multimeter
+<thermalfoundation:ore>, Copper Ore
+<thermalfoundation:rockwool>, Black Rockwool
+<thermalfoundation:security>, Signalum Security Lock
+<thermalfoundation:storage>, Copper Block
+<thermalfoundation:storage_alloy>, Steel Block
+<thermalfoundation:tome>, Forge Lexicon
+<thermalfoundation:tool.axe_bronze>, Bronze Axe
+<thermalfoundation:tool.axe_copper>, Copper Axe
+<thermalfoundation:tool.axe_electrum>, Electrum Axe
+<thermalfoundation:tool.axe_invar>, Invar Axe
+<thermalfoundation:tool.axe_lead>, Lead Axe
+<thermalfoundation:tool.axe_nickel>, Nickel Axe
+<thermalfoundation:tool.axe_platinum>, Platinum Axe
+<thermalfoundation:tool.axe_silver>, Silver Axe
+<thermalfoundation:tool.axe_tin>, Tin Axe
+<thermalfoundation:tool.bow_bronze>, Bronze Reinforced Bow
+<thermalfoundation:tool.bow_copper>, Copper Reinforced Bow
+<thermalfoundation:tool.bow_diamond>, Diamond Reinforced Bow
+<thermalfoundation:tool.bow_electrum>, Electrum Reinforced Bow
+<thermalfoundation:tool.bow_gold>, Gold Reinforced Bow
+<thermalfoundation:tool.bow_invar>, Invar Reinforced Bow
+<thermalfoundation:tool.bow_iron>, Iron Reinforced Bow
+<thermalfoundation:tool.bow_lead>, Lead Reinforced Bow
+<thermalfoundation:tool.bow_nickel>, Nickel Reinforced Bow
+<thermalfoundation:tool.bow_platinum>, Platinum Reinforced Bow
+<thermalfoundation:tool.bow_silver>, Silver Reinforced Bow
+<thermalfoundation:tool.bow_stone>, Stone Reinforced Bow
+<thermalfoundation:tool.bow_tin>, Tin Reinforced Bow
+<thermalfoundation:tool.fishing_rod_bronze>, Bronze Fishing Rod
+<thermalfoundation:tool.fishing_rod_copper>, Copper Fishing Rod
+<thermalfoundation:tool.fishing_rod_diamond>, Diamond Fishing Rod
+<thermalfoundation:tool.fishing_rod_electrum>, Electrum Fishing Rod
+<thermalfoundation:tool.fishing_rod_gold>, Gold Fishing Rod
+<thermalfoundation:tool.fishing_rod_invar>, Invar Fishing Rod
+<thermalfoundation:tool.fishing_rod_iron>, Iron Fishing Rod
+<thermalfoundation:tool.fishing_rod_lead>, Lead Fishing Rod
+<thermalfoundation:tool.fishing_rod_nickel>, Nickel Fishing Rod
+<thermalfoundation:tool.fishing_rod_platinum>, Platinum Fishing Rod
+<thermalfoundation:tool.fishing_rod_silver>, Silver Fishing Rod
+<thermalfoundation:tool.fishing_rod_stone>, Stone Fishing Rod
+<thermalfoundation:tool.fishing_rod_tin>, Tin Fishing Rod
+<thermalfoundation:tool.hammer_bronze>, Bronze Hammer
+<thermalfoundation:tool.hammer_copper>, Copper Hammer
+<thermalfoundation:tool.hammer_diamond>, Diamond Hammer
+<thermalfoundation:tool.hammer_electrum>, Electrum Hammer
+<thermalfoundation:tool.hammer_gold>, Gold Hammer
+<thermalfoundation:tool.hammer_invar>, Invar Hammer
+<thermalfoundation:tool.hammer_iron>, Iron Hammer
+<thermalfoundation:tool.hammer_lead>, Lead Hammer
+<thermalfoundation:tool.hammer_nickel>, Nickel Hammer
+<thermalfoundation:tool.hammer_platinum>, Platinum Hammer
+<thermalfoundation:tool.hammer_silver>, Silver Hammer
+<thermalfoundation:tool.hammer_stone>, Stone Hammer
+<thermalfoundation:tool.hammer_tin>, Tin Hammer
+<thermalfoundation:tool.hammer_wood>, Wooden Hammer
+<thermalfoundation:tool.hoe_bronze>, Bronze Hoe
+<thermalfoundation:tool.hoe_copper>, Copper Hoe
+<thermalfoundation:tool.hoe_electrum>, Electrum Hoe
+<thermalfoundation:tool.hoe_invar>, Invar Hoe
+<thermalfoundation:tool.hoe_lead>, Lead Hoe
+<thermalfoundation:tool.hoe_nickel>, Nickel Hoe
+<thermalfoundation:tool.hoe_platinum>, Platinum Hoe
+<thermalfoundation:tool.hoe_silver>, Silver Hoe
+<thermalfoundation:tool.hoe_tin>, Tin Hoe
+<thermalfoundation:tool.pickaxe_bronze>, Bronze Pickaxe
+<thermalfoundation:tool.pickaxe_copper>, Copper Pickaxe
+<thermalfoundation:tool.pickaxe_electrum>, Electrum Pickaxe
+<thermalfoundation:tool.pickaxe_invar>, Invar Pickaxe
+<thermalfoundation:tool.pickaxe_lead>, Lead Pickaxe
+<thermalfoundation:tool.pickaxe_nickel>, Nickel Pickaxe
+<thermalfoundation:tool.pickaxe_platinum>, Platinum Pickaxe
+<thermalfoundation:tool.pickaxe_silver>, Silver Pickaxe
+<thermalfoundation:tool.pickaxe_tin>, Tin Pickaxe
+<thermalfoundation:tool.shears_bronze>, Bronze Shears
+<thermalfoundation:tool.shears_copper>, Copper Shears
+<thermalfoundation:tool.shears_diamond>, Diamond Shears
+<thermalfoundation:tool.shears_electrum>, Electrum Shears
+<thermalfoundation:tool.shears_gold>, Gold Shears
+<thermalfoundation:tool.shears_invar>, Invar Shears
+<thermalfoundation:tool.shears_lead>, Lead Shears
+<thermalfoundation:tool.shears_nickel>, Nickel Shears
+<thermalfoundation:tool.shears_platinum>, Platinum Shears
+<thermalfoundation:tool.shears_silver>, Silver Shears
+<thermalfoundation:tool.shears_stone>, Stone Shears
+<thermalfoundation:tool.shears_tin>, Tin Shears
+<thermalfoundation:tool.shears_wood>, Wooden Shears
+<thermalfoundation:tool.shield_bronze>, Bronze Shield
+<thermalfoundation:tool.shield_copper>, Copper Shield
+<thermalfoundation:tool.shield_diamond>, Diamond Shield
+<thermalfoundation:tool.shield_electrum>, Electrum Shield
+<thermalfoundation:tool.shield_gold>, Gold Shield
+<thermalfoundation:tool.shield_invar>, Invar Shield
+<thermalfoundation:tool.shield_iron>, Iron Shield
+<thermalfoundation:tool.shield_lead>, Lead Shield
+<thermalfoundation:tool.shield_nickel>, Nickel Shield
+<thermalfoundation:tool.shield_platinum>, Platinum Shield
+<thermalfoundation:tool.shield_silver>, Silver Shield
+<thermalfoundation:tool.shield_stone>, Stone Shield
+<thermalfoundation:tool.shield_tin>, Tin Shield
+<thermalfoundation:tool.shovel_bronze>, Bronze Shovel
+<thermalfoundation:tool.shovel_copper>, Copper Shovel
+<thermalfoundation:tool.shovel_electrum>, Electrum Shovel
+<thermalfoundation:tool.shovel_invar>, Invar Shovel
+<thermalfoundation:tool.shovel_lead>, Lead Shovel
+<thermalfoundation:tool.shovel_nickel>, Nickel Shovel
+<thermalfoundation:tool.shovel_platinum>, Platinum Shovel
+<thermalfoundation:tool.shovel_silver>, Silver Shovel
+<thermalfoundation:tool.shovel_tin>, Tin Shovel
+<thermalfoundation:tool.sickle_bronze>, Bronze Sickle
+<thermalfoundation:tool.sickle_copper>, Copper Sickle
+<thermalfoundation:tool.sickle_diamond>, Diamond Sickle
+<thermalfoundation:tool.sickle_electrum>, Electrum Sickle
+<thermalfoundation:tool.sickle_gold>, Gold Sickle
+<thermalfoundation:tool.sickle_invar>, Invar Sickle
+<thermalfoundation:tool.sickle_iron>, Iron Sickle
+<thermalfoundation:tool.sickle_lead>, Lead Sickle
+<thermalfoundation:tool.sickle_nickel>, Nickel Sickle
+<thermalfoundation:tool.sickle_platinum>, Platinum Sickle
+<thermalfoundation:tool.sickle_silver>, Silver Sickle
+<thermalfoundation:tool.sickle_stone>, Stone Sickle
+<thermalfoundation:tool.sickle_tin>, Tin Sickle
+<thermalfoundation:tool.sickle_wood>, Wooden Sickle
+<thermalfoundation:tool.sword_bronze>, Bronze Sword
+<thermalfoundation:tool.sword_copper>, Copper Sword
+<thermalfoundation:tool.sword_electrum>, Electrum Sword
+<thermalfoundation:tool.sword_invar>, Invar Sword
+<thermalfoundation:tool.sword_lead>, Lead Sword
+<thermalfoundation:tool.sword_nickel>, Nickel Sword
+<thermalfoundation:tool.sword_platinum>, Platinum Sword
+<thermalfoundation:tool.sword_silver>, Silver Sword
+<thermalfoundation:tool.sword_tin>, Tin Sword
+<thermalfoundation:wrench>, Crescent Hammer
 <tinkersdefense:aeonsteelingot>, item.aeonsteelingot.name
 <tinkersdefense:dogbeariumingot>, item.dogbeariumingot.name
 <tinkersdefense:gingerbread>, item.gingerbread.name
@@ -7283,6 +7545,8 @@
 <tinkersdefense:redmintIngot>, item.redmintIngot.name
 <tinkersdefense:redmintcane>, item.redmintcane.name
 <tinkersdefense:roundshield>, Buckler
+<tombmanygraves:DEATH_BLOCK>, Player Grave
+<tombmanygraves:DeathList>, Death Inventory List
 <vc:achievements/achievement_airship>, Icon - create_engine
 <vc:achievements/achievement_airship_portal>, Icon - Portal
 <vc:airship_balloon>, Airship Balloon
