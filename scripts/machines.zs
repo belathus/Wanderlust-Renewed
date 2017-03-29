@@ -279,7 +279,7 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
 */
 
 # Waystones
-#    recipes.addShaped(<waystones:waystone>,
-#        [[null, <ore:bricksStone>, null],
-#         [<ore:bricksStone>, ,<ore:bricksStone>],
-#         [<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
+    recipes.addShaped(<waystones:waystone>,
+        [[null, <ore:bricksStone>, null],
+         [<ore:bricksStone>,<actuallyadditions:blockMisc:6>,<ore:bricksStone>],
+         [<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);

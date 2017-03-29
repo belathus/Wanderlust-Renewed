@@ -13,6 +13,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_aluminum[0][1], group[5], 0.5);
+                furnace.addRecipe(list_aluminum[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -22,6 +23,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [aluminum_oredict[1]]);
             recipes.addShapeless(group[1]*9, [aluminum_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -35,6 +38,7 @@
                  [null,aluminum_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[aluminum_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[aluminum_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[aluminum_oredict[1]]]);
         }
     }
 
@@ -54,6 +58,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_bronze[0][1], group[5], 0.5);
+                furnace.addRecipe(list_bronze[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -63,6 +68,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [bronze_oredict[1]]);
             recipes.addShapeless(group[1]*9, [bronze_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -76,6 +83,7 @@
                  [null,bronze_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[bronze_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[bronze_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[bronze_oredict[1]]]);
         }
     }
 
@@ -103,6 +111,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_copper[0][1], group[5], 0.5);
+                furnace.addRecipe(list_copper[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -112,6 +121,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [copper_oredict[1]]);
             recipes.addShapeless(group[1]*9, [copper_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -125,6 +136,7 @@
                  [null,copper_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[copper_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[copper_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[copper_oredict[1]]]);
         }
     }
 
@@ -142,6 +154,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_constantan[0][1], group[5], 0.5);
+                furnace.addRecipe(list_constantan[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -151,6 +164,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [constantan_oredict[1]]);
             recipes.addShapeless(group[1]*9, [constantan_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -164,6 +179,7 @@
                  [null,constantan_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[constantan_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[constantan_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[constantan_oredict[1]]]);
         }
     }
 
@@ -191,6 +207,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_iron[0][1], group[5], 0.5);
+                furnace.addRecipe(list_iron[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -200,6 +217,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [iron_oredict[1]]);
             recipes.addShapeless(group[1]*9, [iron_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -213,6 +232,7 @@
                  [null,iron_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[iron_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[iron_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[iron_oredict[1]]]);
         }
     }
 
@@ -232,6 +252,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_lead[0][1], group[5], 0.5);
+                furnace.addRecipe(list_lead[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -241,6 +262,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [lead_oredict[1]]);
             recipes.addShapeless(group[1]*9, [lead_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -254,6 +277,7 @@
                  [null,lead_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[lead_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[lead_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[lead_oredict[1]]]);
         }
     }
 
@@ -272,6 +296,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_nickel[0][1], group[5], 0.5);
+                furnace.addRecipe(list_nickel[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -281,6 +306,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [nickel_oredict[1]]);
             recipes.addShapeless(group[1]*9, [nickel_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -294,6 +321,7 @@
                  [null,nickel_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[nickel_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[nickel_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[nickel_oredict[1]]]);
         }
     }
 
@@ -314,6 +342,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_silver[0][1], group[5], 0.5);
+                furnace.addRecipe(list_silver[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -323,6 +352,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [silver_oredict[1]]);
             recipes.addShapeless(group[1]*9, [silver_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -336,18 +367,9 @@
                  [null,silver_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[silver_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[silver_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[silver_oredict[1]]]);
         }
     }
-    #recipes.remove(<druidry:silvernugget>);
-    #recipes.remove(<basemetals:silver_nugget>);
-    #recipes.remove(<basemetals:silver_ingot>);
-    #recipes.remove(<basemetals:silver_block>);
-    recipes.addShapeless(<immersiveengineering:metal:23>*9,
-        [<ore:ingotSilver>]);
-    recipes.addShapeless(<immersiveengineering:metal:3>, 
-        [<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]);
-    recipes.addShapeless(<immersiveengineering:storage:3>, 
-        [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]);
 
 
 # Steel
@@ -366,6 +388,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_steel[0][1], group[5], 0.5);
+                furnace.addRecipe(list_steel[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -375,6 +398,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [steel_oredict[1]]);
             recipes.addShapeless(group[1]*9, [steel_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -388,6 +413,7 @@
                  [null,steel_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[steel_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[steel_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[steel_oredict[1]]]);
         }
     }
 
@@ -411,6 +437,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_tin[0][1], group[5], 0.5);
+                furnace.addRecipe(list_tin[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -420,6 +447,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [tin_oredict[1]]);
             recipes.addShapeless(group[1]*9, [tin_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -433,6 +462,7 @@
                  [null,tin_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[tin_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[tin_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[tin_oredict[1]]]);
         }
     }
 
@@ -451,6 +481,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_uranium[0][1], group[5], 0.5);
+                furnace.addRecipe(list_uranium[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -460,6 +491,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [uranium_oredict[1]]);
             recipes.addShapeless(group[1]*9, [uranium_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -473,6 +506,7 @@
                  [null,uranium_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[uranium_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[uranium_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[uranium_oredict[1]]]);
         }
     }
     
@@ -492,6 +526,7 @@
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_zinc[0][1], group[5], 0.5);
+                furnace.addRecipe(list_zinc[0][1], group[6], 0.5);
             } 
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
@@ -501,6 +536,8 @@
         
         if i == 0 {
             furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [zinc_oredict[1]]);
             recipes.addShapeless(group[1]*9, [zinc_oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -514,41 +551,6 @@
                  [null,zinc_oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:toolMallet>],[zinc_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[zinc_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[zinc_oredict[1]]]);
         }
     }
-
-    
-/*
-for i, list in list_of_lists {
-    for i, metal in list[0] {
-        if ((i == 0) && !metal[0].matches(<enderzoo:enderZooIcon>) && !metal[1].matches(<enderzoo:enderZooIcon>) && !metal[2].matches(<enderzoo:enderZooIcon>)) {
-            recipes.addShapeless(metal[0]*9,
-                [list[1][1]]);
-            recipes.addShapeless(metal[1]*9,
-                [list[1][2]]);
-            recipes.addShapeless(metal[1], 
-                [list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0],list[1][0]]);
-            recipes.addShapeless(metal[2], 
-                [list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1],list[1][1]]);
-        }
-        # Add plates
-        if (i == 0) && !metal[4].matches(<enderzoo:enderZooIcon>) {
-            recipes.addShaped(metal[4],
-                [[null,      list[1][1],          null],
-                 [list[1][1], <railcraft:gear:3>, list[1][1]],
-                 [null,      list[1][1],          null]]);
-        }
-        if (i != 0) {
-            if !metal[0].matches(<enderzoo:enderZooIcon>) {
-                recipes.remove(metal[0]);
-            }
-            if !metal[1].matches(<enderzoo:enderZooIcon>) {
-                recipes.remove(metal[1]);
-            }
-            if !metal[2].matches(<enderzoo:enderZooIcon>) {
-                recipes.remove(metal[2]);
-            }
-        }
-    }
-}
-*/
