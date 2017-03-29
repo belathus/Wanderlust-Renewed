@@ -19,6 +19,10 @@
                         {"data":{"name":"chainmail_chestplate","ench":5}},
                         {"data":{"name":"chainmail_leggings","ench":5}},
                         {"data":{"name":"chainmail_boots","ench":5}},
+						{"data":{"name":"thermalfoundation:armor.helmet_bronze","ench":5}},
+                        {"data":{"name":"thermalfoundation:armor.plate_bronze","ench":5}},
+                        {"data":{"name":"thermalfoundation:armor.legs_bronze","ench":5}},
+                        {"data":{"name":"thermalfoundation:armor.boots_bronze","ench":5}},
                         {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
                     ],
                     "weight":3
@@ -31,7 +35,7 @@
         {
             "type":"WEAPONS",
             "loot":[
-                {"data":{"name":"dungeontactics:bronze_sword","ench":5}},
+                {"data":{"name":"thermalfoundation:tool.sword_bronze","ench":5}},
                 {"data":{"name":"actuallyadditions:itemSwordQuartz","ench":5}},
                 {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
             ],
@@ -42,8 +46,10 @@
         {
             "type":"TOOLS",
             "loot":[
-                {"data":{"name":"forestry:bronzePickaxe","ench":5}},
-                {"data":{"name":"forestry:bronzeShovel","ench":5}},
+                {"data":{"name":"thermalfoundation:tool.pickaxe_bronze","ench":5}},
+                {"data":{"name":"thermalfoundation:tool.shovel_bronze","ench":5}},
+                {"data":{"name":"thermalfoundation:tool.axe_bronze","ench":5}},
+                {"data":{"name":"thermalfoundation:tool.hoe_bronze","ench":5}},
                 {"data":[
 					{"data":{"name":"forestry:apiaristBag"}},
 					{"data":{"name":"forestry:lepidopteristBag"}},
