@@ -1,6 +1,41 @@
 {
   "shaped": [],
-  "shapeless": [],
+  "shapeless": [
+    {
+      "output": {
+        "itemName": "xreliquary:glowing_bread",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 3
+      },
+      "inputs": [
+        {
+          "itemName": "primal:valus_bread",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        },
+        {
+          "itemName": "minecraft:bread",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        },
+        {
+          "itemName": "primal:corn_bread",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        },
+        {
+          "itemName": "xreliquary:glowing_water",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        }
+      ]
+    }],
   "includes": [],
   "modDependencies": [],
   "version": 0
