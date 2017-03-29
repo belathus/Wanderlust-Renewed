@@ -3,6 +3,15 @@
     recipes.remove(<actuallyadditions:itemFood:10>);
     recipes.addShapeless(<actuallyadditions:itemFood:10>,
         [<ore:bread>]);
+    recipes.remove(<actuallyadditions:itemMisc:9>);
+    recipes.addShaped(<actuallyadditions:itemMisc:9>,
+        [[<ore:cropRicegrass>],
+         [<ore:cropRicegrass>],
+         [<ore:cropRicegrass>]]);
+    recipes.addShaped(<actuallyadditions:itemMisc:9>,
+        [[<ore:cropRice>],
+         [<ore:cropRice>],
+         [<ore:cropRice>]]);
 
 # Forestry
     recipes.remove(<forestry:honeyedSlice>);
@@ -18,15 +27,6 @@
     recipes.remove(<harvestcraft:honeybreadItem>);
     recipes.addShapeless(<harvestcraft:honeybreadItem>,
         [<ore:toolCuttingboard>, <ore:bread>, <ore:foodHoneydrop>]);
-    recipes.remove(<actuallyadditions:itemMisc:9>);
-    recipes.addShaped(<actuallyadditions:itemMisc:9>,
-        [[<ore:cropRicegrass>],
-         [<ore:cropRicegrass>],
-         [<ore:cropRicegrass>]]);
-    recipes.addShaped(<actuallyadditions:itemMisc:9>,
-        [[<ore:cropRice>],
-         [<ore:cropRice>],
-         [<ore:cropRice>]]);
 
 # Reliquary
     recipes.remove(<xreliquary:glowing_bread>);
