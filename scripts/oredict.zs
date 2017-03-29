@@ -1,24 +1,31 @@
     #<ore:stickIron>.add(<fp:spaceship:12>);
+# Ash
     <ore:dustAsh>.add(<biomesoplenty:ash>);
+    #<ore:dustAsh>.add(<embers:dustAsh>);
+# Mud
+    <ore:clumpMud>.add(<biomesoplenty:mudball>);
+# gears
     #<ore:gearSteel>.add(<railcraft:gear:2>);
     #<ore:gearGilded>.add(<railcraft:gear:0>);
-    <ore:clumpMud>.add(<biomesoplenty:mudball>);
-    <ore:bricksStone>.add(<minecraft:stonebrick:1>);
-    <ore:bricksStone>.add(<minecraft:stonebrick:2>);
-    <ore:bricksStone>.add(<minecraft:stonebrick:3>);
-    #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
-    #<ore:nuggetCopper>.remove(<esteemedinnovation:nugget:1>);
-    #<ore:nuggetZinc>.add(<esteemedinnovation:nugget:1>);
-    <ore:flowerRed>.add(<minecraft:red_flower:4>);
-    <ore:flowerRed>.add(<biomesoplenty:flower_1>);
-    <ore:flowerRed>.add(<botania:flower:14>);
+# Bricks and Stone
     <ore:stone>.add(<abyssalcraft:abydreadstone>);
     <ore:stone>.add(<abyssalcraft:dreadstone>);
     <ore:stone>.add(<biomesoplenty:stone>);
     <ore:stone>.add(<chisel:limestoneextra:7>);
-    #<ore:dustAsh>.add(<embers:dustAsh>);
+    <ore:bricksStone>.add(<minecraft:stonebrick:1>);
+    <ore:bricksStone>.add(<minecraft:stonebrick:2>);
+    <ore:bricksStone>.add(<minecraft:stonebrick:3>);
+    #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
+# Flowers
+    <ore:flowerRed>.add(<minecraft:red_flower:4>);
+    <ore:flowerRed>.add(<biomesoplenty:flower_1>);
+    <ore:flowerRed>.add(<botania:flower:14>);
+# Fixes for nuggets
+    #<ore:nuggetCopper>.remove(<esteemedinnovation:nugget:1>);
+    #<ore:nuggetZinc>.add(<esteemedinnovation:nugget:1>);
     <ore:nuggetDiamod>.remove(<morebees:diamondFragment>);
     <ore:nuggetDiamond>.add(<morebees:diamondFragment>);
+# Salt
     <ore:dustSalt>.add(<primal:salt_halite_dust>);
     <ore:dustSalt>.add(<primal:salt_netjry_dust>);
     <ore:dustSalt>.add(<primal:salt_fire_dust>);
@@ -29,12 +36,18 @@
     <ore:itemSalt>.add(<primal:salt_void_dust>);
     <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
     <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
+# boats
     <ore:boatWood>.add(<minecraft:boat>);
     <ore:boatWood>.add(<minecraft:spruce_boat>);
     <ore:boatWood>.add(<minecraft:birch_boat>);
     <ore:boatWood>.add(<minecraft:jungle_boat>);
     <ore:boatWood>.add(<minecraft:acacia_boat>);
     <ore:boatWood>.add(<minecraft:dark_oak_boat>);
+# Bread
+    <ore:bread>.add(<primal:corn_bread>);
+    <ore:bread>.add(<primal:valus_bread>);
+    <ore:bread>.add(<actuallyadditions:itemMisc:9>);
+# Limestone
     <ore:stoneLimestone>.add(<primal:carbonate_stone>);
     <ore:stoneLimestone>.add(<primal:ferro_stone>);
     <ore:blockLimestone>.add(<quark:limestone>);
