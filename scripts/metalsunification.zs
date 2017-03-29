@@ -374,12 +374,12 @@
 
 # Steel
     val list_steel = [
-    #     nugget,                          ingot,                           block,                            plate,                           gear,                            dust,                            stick
-        [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>,  <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,                  <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
-        [<libvulpes:productnugget:6>,     <libvulpes:productingot:6>,      <libvulpes:metal0:6>,             <libvulpes:productplate:6>,      <libvulpes:productgear:6>,       <libvulpes:productdust:6>,       <libvulpes:productrod:6>],
-        [<base:nugget:28>,                <base:ingot:28>,                 <base:storage_steel>,             <base:plate:28>,                 <enderzoo:enderZooIcon>,         <base:dust:28>,                  <enderzoo:enderZooIcon>],
-        [<enderzoo:enderZooIcon>,         <primal:steel_ingot>,            <primal:steel_block>,             <primal:steel_plate>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
-        [<thermalfoundation:material:224>,<thermalfoundation:material:160>,<thermalfoundation:storage_alloy>,<thermalfoundation:material:352>,<thermalfoundation:material:288>,<thermalfoundation:material:96>, <enderzoo:enderZooIcon>]
+    #     nugget,                          ingot,                           block,                            plate,                           gear,                            ore,                    dust,                            stick
+        [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>,  <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,                  <base:ore_steel>,       <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
+        [<libvulpes:productnugget:6>,     <libvulpes:productingot:6>,      <libvulpes:metal0:6>,             <libvulpes:productplate:6>,      <libvulpes:productgear:6>,       <enderzoo:enderZooIcon>,<libvulpes:productdust:6>,       <libvulpes:productrod:6>],
+        [<base:nugget:28>,                <base:ingot:28>,                 <base:storage_steel>,             <base:plate:28>,                 <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<base:dust:28>,                  <enderzoo:enderZooIcon>],
+        [<enderzoo:enderZooIcon>,         <primal:steel_ingot>,            <primal:steel_block>,             <primal:steel_plate>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
+        [<thermalfoundation:material:224>,<thermalfoundation:material:160>,<thermalfoundation:storage_alloy>,<thermalfoundation:material:352>,<thermalfoundation:material:288>,<enderzoo:enderZooIcon>,<thermalfoundation:material:96>, <enderzoo:enderZooIcon>]
     ] as minetweaker.item.IItemStack[][];
     val steel_oredict = [<ore:nuggetSteel>,<ore:ingotSteel>,<ore:blockSteel>,<ore:plateSteel>,<ore:gearSteel>,<ore:oreSteel>,<ore:dustSteel>] as minetweaker.item.IIngredient[];
     for i, group in list_steel {

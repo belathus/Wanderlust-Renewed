@@ -167,15 +167,15 @@
         [<base:gear:61>, <base:plate:61>], # Vibranium
         [<base:gear:62>, <base:plate:62>]  # Violium
     ] as minetweaker.item.IItemStack[][];
-    for i, hammer in list_gallagher {
-        for j, plate in plate_list {
-            recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
-        }
-    }
-    for i, plate in plate_list {
-        #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
-        recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
-    }
+#    for i, hammer in list_gallagher {
+#        for j, plate in plate_list {
+#            recipes.addShaped(plate, [[hammer],[ingot_list[j]]]);
+#        }
+#    }
+#    for i, plate in plate_list {
+#        #recipes.addShaped(plate, [[<embers:tinkerHammer>],[ingot_list[i]]]);
+#        recipes.addShaped(plate, [[<immersiveengineering:tool:0>.transformDamage()],[ingot_list[i]]]);
+#    }
     
 # Vanilla
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
