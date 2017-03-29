@@ -247,7 +247,15 @@
 						{"data":{"name":"lava_bucket"}},
 						{"data":{"name":"arsmagica2:ore","min":1,"max":2}},
 						{"data":{"name":"waystones:warpStone"}},
-						{"data":{"name":"book","ench":6}}
+						{"data":{"name":"book","ench":6}},
+						{
+							"data":[
+								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
+								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
+								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
+								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}},
+							]
+						}
 					],
 					"weight":2
 				}
@@ -255,6 +263,14 @@
             "level":0,
             "each":true,
             "quantity":8
-        }
+        },
+		{
+			"loot":[
+				{"data":{"name":"waystones:waystone"}}
+			],
+			"level":0,
+			"each":false,
+			"quantity":1
+		}
     ]
 }
