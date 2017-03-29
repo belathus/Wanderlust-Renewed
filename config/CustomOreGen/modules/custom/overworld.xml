@@ -301,7 +301,7 @@
         </ConfigSection>
         <!-- Emerald Ore Preferred Veins -->
         <ConfigSection>
-            <Veins name='vaniEmeraldPreferredVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+            <Veins name='vaniEmeraldPreferredVeins'  inherits='PresetPipeVeins' branchType='Bezier' seed='0xB354' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <Description>
                     Short sparsely filled veins sloping up  from near the
                     bottom of the map.
@@ -329,7 +329,7 @@
             </Veins>
 
             <!-- Configuring contained material. -->
-            <Veins name='vaniEmeraldVeinsPipe'  inherits='vaniEmeraldPreferredVeins' branchType='Bezier' seed='0x54B3' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
+            <Veins name='vaniEmeraldPreferredVeinsPipe'  inherits='vaniEmeraldPreferredVeins' branchType='Bezier' seed='0xB354' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='minecraft:monster_egg' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
