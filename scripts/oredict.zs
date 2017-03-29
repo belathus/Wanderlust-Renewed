@@ -46,7 +46,7 @@
 # Bread
     <ore:bread>.add(<primal:corn_bread>);
     <ore:bread>.add(<primal:valus_bread>);
-    <ore:bread>.add(<actuallyadditions:itemMisc:9>);
+    <ore:bread>.add(<actuallyadditions:itemMisc:17>);
 # Limestone
     <ore:stoneLimestone>.add(<primal:carbonate_stone>);
     <ore:stoneLimestone>.add(<primal:ferro_stone>);
@@ -56,6 +56,10 @@
     <ore:stoneLimestone>.add(<chisel:limestone1:*>);
     <ore:blockLimestone>.add(<chisel:limestone1:*>);
     <ore:blockLimestone>.add(<biomesoplenty:stone>);
+# Fixing TAIGA's oredict
+    <ore:oreDilithium>.add(<taiga:dilithium_ore>);
+    <ore:oreDilithium>.remove(<taiga:dilithium_block>);
+    <ore:blockDilithium>.add(<taiga:dilithium_block>);
     
     
 # Adding ores to the normal oredict entries

@@ -658,8 +658,6 @@
                 </Veins>
                 
                 
-                
-                
                 <!-- Iron Veins: magnetite -->
                 <Veins name='rockDDMagnetiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
                     <Description>
@@ -905,18 +903,17 @@
             
             <!-- TAIGA -->
             <IfModInstalled name="taiga">
-                <!-- Bismuth Ore --><!--
-                <Veins name='taigaDDBismuthVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+                <Veins name='taigaDDDilithiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
     				<Description>
     					Small, fairly rare motherlodes with 2-4 horizontal veins each.
     				</Description>
-    				<OreBlock block='taiga:bismuth_ore' weight='1.0' />
+    				<OreBlock block='taiga:dilithium_ore' weight='1.0' />
     				<ReplacesOre block='stone' weight='1.0' />
     				<ReplacesOre block='cobblestone' weight='1.0' />
     				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 1.786 * _default_ ' range=':= 1.786 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 16 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 16 '                type='normal' scaleTo='base' />
     				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
     				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
     				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -930,7 +927,7 @@
     				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
     				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
     				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>-->
+    			</Veins>
                 
                 <!-- Karmesine Ore -->
                 <Veins name='taigaDDKarmesineVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>

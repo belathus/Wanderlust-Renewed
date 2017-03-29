@@ -154,13 +154,27 @@
     </recipeGroup>
 
     <recipeGroup name="BetterBeginnings" >
-        <!-- Alutine -->
+        <!-- Spawner Shards -->
         <recipe name="SpawnerShards" energyCost="1200" >
             <input>
                 <itemStack modID="enderio" itemName="itemBrokenSpawner" />
             </input>
             <output>
                 <itemStack modID="actuallyadditions" itemName="itemMisc" itemMeta="20" number="1" />
+            </output>
+        </recipe>
+    </recipeGroup>
+
+    <recipeGroup name="TAIGA" >
+        <!-- Palladium -->
+        <recipe name="SpawnerShards" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="orePalladium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustPalladium" number="2" />
+                <itemStack oreDictionary="dustDilithium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="end_stone" chance="0.15" />
             </output>
         </recipe>
     </recipeGroup>

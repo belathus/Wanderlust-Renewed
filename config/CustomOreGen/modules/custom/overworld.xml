@@ -1585,7 +1585,7 @@
             <!-- Rutile ore! -->
             <Biome name=".*"/>
             <BiomeType name="OCEAN" weight='-1.0'/>
-            <OreBlock block='libvulpes:ore0' weight='1.0'/>
+            <OreBlock block='libvulpes:ore0:8' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
@@ -1608,7 +1608,7 @@
         <Veins name='lvulRutilePreferredVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
             <!-- More common in oceans -->
             <BiomeType name="OCEAN"/>
-            <OreBlock block='libvulpes:ore0' weight='1.0'/>
+            <OreBlock block='libvulpes:ore0:8' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
 			<Setting name='MotherlodeFrequency'   avg=':= 1.613 * _default_ ' range=':= 1.613 * _default_ ' type='normal' scaleTo='base' />
