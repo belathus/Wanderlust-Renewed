@@ -138,8 +138,7 @@
 						{"data" : {"name" : "book", "ench" : 12}},
 						{"data" : {"name" : "ender_pearl", "min" : 1, "max" : 3}},
 						{"data" : {"name" : "botania:blackLotus", "min" : 1, "max" : 3}},
-                        {"data":{"name":"tconstruct:throwball"},"min":1,"max":4},
-                        {"data":{"name":"actuallyadditions:itemCrateKeeper"}}
+                        {"data":{"name":"tconstruct:throwball"},"min":1,"max":4}
 					],
 					"weight":3
 				},
@@ -156,7 +155,15 @@
 						},
 						{"data" : {"name" : "book", "ench" : 18}},
 						{"data" : {"name" : "abyssalcraft:mre"}},
-						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 4}}
+						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 4}},
+						{
+							"data":[
+								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
+								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
+								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
+								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}},
+							]
+						}
 					],
 					"weight":2
 				}

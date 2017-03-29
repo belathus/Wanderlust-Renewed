@@ -112,7 +112,15 @@
 						},
 						{"data" : {"name" : "book", "ench" : 24}},
 						{"data" : {"name" : "botania:blackLotus", "meta" : 1}},
-						{"data" : {"name":"extrautils2:ineffableglass"}}
+						{"data" : {"name":"extrautils2:ineffableglass"}},
+						{
+							"data":[
+								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
+								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
+								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
+								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}},
+							]
+						}
 					],
 					"weight":2
 				}
