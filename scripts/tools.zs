@@ -203,4 +203,7 @@
 
 # Tinker's Construct
     recipes.addShapeless(<tconstruct:throwball:1> * 5, 
-        [<minecraft:tnt>, <ore:dustRedstone>, <ore:clayball> OR <ore:slimeball>]);
+        [<minecraft:tnt>, <ore:dustRedstone>, <ore:clayball>]);
+    recipes.addShapeless(<tconstruct:throwball:1> * 5, 
+        [<minecraft:tnt>, <ore:dustRedstone>, <ore:slimeball>]);
+        
