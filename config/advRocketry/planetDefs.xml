@@ -1,0 +1,90 @@
+<galaxy>
+  <star name="Vanir" temp="100" x="0" y="0" numPlanets="10" numGasGiants="1">
+    <planet name="Inanna" >
+      <fogColor>              0.9,0.1,1   </fogColor>
+      <skyColor>                0.7,0,1   </skyColor>
+      <atmosphereDensity>           300   </atmosphereDensity>
+      <gravitationalMultiplier>     125   </gravitationalMultiplier>
+      <orbitalDistance>              50   </orbitalDistance>
+      <orbitalTheta>                 26   </orbitalTheta>
+      <orbitalPhi>                    1   </orbitalPhi>
+      <rotationalPeriod>          48000   </rotationalPeriod>
+      <biomeIds>                      0   </biomeIds>
+      <planet name="Breidablik">
+        <fogColor>            0.1,0.1,0.1   </fogColor>
+        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <atmosphereDensity>           180   </atmosphereDensity>
+        <gravitationalMultiplier>      30   </gravitationalMultiplier>
+        <orbitalDistance>              15   </orbitalDistance>
+        <orbitalTheta>                190   </orbitalTheta>
+        <orbitalPhi>                    9   </orbitalPhi>
+        <rotationalPeriod>         240000   </rotationalPeriod>
+        <biomeIds>                     94   </biomeIds>
+      </planet>
+    </planet>
+    <planet name="Sif" >
+      <fogColor>              0.9,0.1,1   </fogColor>
+      <skyColor>                0.7,0,1   </skyColor>
+      <atmosphereDensity>           300   </atmosphereDensity>
+      <gravitationalMultiplier>     125   </gravitationalMultiplier>
+      <orbitalDistance>              70   </orbitalDistance>
+      <orbitalTheta>                248   </orbitalTheta>
+      <orbitalPhi>                    0   </orbitalPhi>
+      <rotationalPeriod>          48000   </rotationalPeriod>
+      <biomeIds>                      0   </biomeIds>
+      <planet name="Magni">
+        <fogColor>            0.1,0.1,0.1   </fogColor>
+        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <atmosphereDensity>             0   </atmosphereDensity>
+        <gravitationalMultiplier>      50   </gravitationalMultiplier>
+        <orbitalDistance>              15   </orbitalDistance>
+        <orbitalTheta>                154   </orbitalTheta>
+        <orbitalPhi>                    9   </orbitalPhi>
+        <rotationalPeriod>         240000   </rotationalPeriod>
+        <biomeIds>                     94   </biomeIds>
+      </planet>
+      <planet name="Modi">
+        <fogColor>            0.1,0.1,0.1   </fogColor>
+        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <atmosphereDensity>             0   </atmosphereDensity>
+        <gravitationalMultiplier>      30   </gravitationalMultiplier>
+        <orbitalDistance>              20   </orbitalDistance>
+        <orbitalTheta>                240   </orbitalTheta>
+        <orbitalPhi>                    9   </orbitalPhi>
+        <rotationalPeriod>         240000   </rotationalPeriod>
+        <biomeIds>                     94   </biomeIds>
+      </planet>
+      <planet name="Thrud">
+        <fogColor>            0.1,0.1,0.1   </fogColor>
+        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <atmosphereDensity>            10   </atmosphereDensity>
+        <gravitationalMultiplier>      30   </gravitationalMultiplier>
+        <orbitalDistance>              25   </orbitalDistance>
+        <orbitalTheta>                190   </orbitalTheta>
+        <orbitalPhi>                    9   </orbitalPhi>
+        <rotationalPeriod>         240000   </rotationalPeriod>
+        <biomeIds>                     94   </biomeIds>
+      </planet>
+    </planet>
+    <planet name="Balder" DIMID="0" dimMapping="">
+      <fogColor>                  1,1,1   </fogColor>
+      <skyColor>                  0,0,1   </skyColor>
+      <atmosphereDensity>           100   </atmosphereDensity>
+      <gravitationalMultiplier>     100   </gravitationalMultiplier>
+      <orbitalDistance>             100    </orbitalDistance>
+      <orbitalTheta>                180   </orbitalTheta>
+      <rotationalPeriod>          24000   </rotationalPeriod>
+      <planet name="Forseti">
+        <fogColor>                  1,1,1   </fogColor>
+        <skyColor>            1.0,0.5,0.5   </skyColor>
+        <atmosphereDensity>           180   </atmosphereDensity>
+        <gravitationalMultiplier>      30   </gravitationalMultiplier>
+        <orbitalDistance>              35   </orbitalDistance>
+        <orbitalTheta>                190   </orbitalTheta>
+        <orbitalPhi>                    9   </orbitalPhi>
+        <rotationalPeriod>         240000   </rotationalPeriod>
+        <biomeIds>                     94   </biomeIds>
+      </planet>
+    </planet>
+  </star>
+</galaxy>
