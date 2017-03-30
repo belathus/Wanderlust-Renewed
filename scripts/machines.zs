@@ -165,6 +165,15 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
         [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
          [<ore:ingotSteel>,<enderio:itemMachinePart>,<ore:ingotSteel>],
          [<ore:ingotSteel>,<minecraft:piston>,       <ore:ingotSteel>]]);
+    recipes.remove(<enderio:blockAlloySmelter>);
+    recipes.addShaped(<enderio:blockAlloySmelter>,
+        [[<ore:ingotSteel>, <minecraft:furnace:*>, <ore:ingotSteel>],
+         [<minecraft:furnace:*>, <ore:itemMachineChassi>, <minecraft:furnace:*>],
+         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
+    recipes.addShaped(<enderio:blockAlloySmelter>,
+        [[<ore:ingotSteel>, <betterbeginnings:kiln>, <ore:ingotSteel>],
+         [<betterbeginnings:kiln>, <ore:itemMachineChassi>, <betterbeginnings:kiln>],
+         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
 
 # Esteemed Innovation
 /*
