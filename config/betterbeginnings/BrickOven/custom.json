@@ -7,7 +7,7 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 4
       },
       "inputs": [
         {
@@ -24,6 +24,12 @@
         },
         {
           "itemName": "primal:corn_bread",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        },
+        {
+          "itemName": "actuallyadditions:itemMisc:17",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0
