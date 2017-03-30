@@ -28,6 +28,10 @@
     recipes.addShapeless(<harvestcraft:honeybreadItem>,
         [<ore:toolCuttingboard>, <ore:bread>, <ore:foodHoneydrop>]);
 
+# Primal
+    recipes.addShapeless(<primal:corn_ground>,
+        [<ore:toolMortarandpestle>, <primal:corn_seeds>]);
+        
 # Reliquary
     recipes.remove(<xreliquary:glowing_bread>);
     recipes.addShapeless(<xreliquary:glowing_bread>,

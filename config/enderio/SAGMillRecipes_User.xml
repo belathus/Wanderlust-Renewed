@@ -167,7 +167,7 @@
 
     <recipeGroup name="TAIGA" >
         <!-- Palladium -->
-        <recipe name="SpawnerShards" energyCost="1200" >
+        <recipe name="Palladium" energyCost="1200" >
             <input>
                 <itemStack oreDictionary="orePalladium" />
             </input>
@@ -175,6 +175,30 @@
                 <itemStack oreDictionary="dustPalladium" number="2" />
                 <itemStack oreDictionary="dustDilithium" number="1" chance="0.10" />
                 <itemStack modID="minecraft" itemName="end_stone" chance="0.15" />
+            </output>
+        </recipe>
+    </recipeGroup>
+
+    <recipeGroup name="libVulpes" >
+        <!-- Rutile -->
+        <recipe name="Rutile" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreRutile" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustTitanium" number="2" />
+                <itemStack oreDictionary="dustMagnesium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <recipe name="Titanium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreTitanium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustTitanium" number="2" />
+                <itemStack oreDictionary="dustMagnesium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
             </output>
         </recipe>
     </recipeGroup>

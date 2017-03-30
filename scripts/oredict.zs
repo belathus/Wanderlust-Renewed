@@ -46,7 +46,7 @@
 # Bread
     <ore:bread>.add(<primal:corn_bread>);
     <ore:bread>.add(<primal:valus_bread>);
-    <ore:bread>.add(<actuallyadditions:itemMisc:17>);
+    <ore:bread>.add(<actuallyadditions:itemFood:17>);
 # Limestone
     <ore:stoneLimestone>.add(<primal:carbonate_stone>);
     <ore:stoneLimestone>.add(<primal:ferro_stone>);
