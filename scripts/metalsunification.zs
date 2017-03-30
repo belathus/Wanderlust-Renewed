@@ -157,11 +157,9 @@
                 furnace.addRecipe(list_constantan[0][1], group[5], 0.5);
                 furnace.addRecipe(list_constantan[0][1], group[6], 0.5);
             }
-            if i != 0 { mods.tconstruct.Casting.removeTableRecipe(group[1], <liquid:constantan>, <tconstruct:cast_custom>); }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) {
             recipes.remove(group[2]);
-            if i != 0 { mods.tconstruct.Casting.removeBasinRecipe(group[2]); }
         }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
         if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
@@ -185,11 +183,13 @@
             recipes.addShaped(group[3],[[<ore:toolMallet>],[constantan_oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[constantan_oredict[1]]]);
             recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[constantan_oredict[1]]]);
-            mods.tconstruct.Casting.addTableRecipe(group[1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
-            mods.tconstruct.Casting.addBasinRecipe(group[2], <liquid:constantan>*1296);
         }
     }
     recipes.addShapeless(list_constantan[0][6] * 2, [<ore:dustNickel>,<ore:dustCopper>]);
+    mods.tconstruct.Casting.removeTableRecipe(<base:ingot:10>, <liquid:constantan>, <tconstruct:cast_custom>);
+    mods.tconstruct.Casting.removeBasinRecipe(<base:storage_constantan>);
+    mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
+    mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
 
 
 # Iron
