@@ -4,20 +4,20 @@
 #         [<>,<>,<>]]);
 
 # Vanilla
-    recipes.addShaped(<minecraft:leather_helmet>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Cap",Lore:["Made from imphide"]}}),
-        [[<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
-         [<natura:materials:6>,null,<natura:materials:6>]]);
-    recipes.addShaped(<minecraft:leather_chestplate>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Tunic",Lore:["Made from imphide"]}}),
-        [[<natura:materials:6>,null,<natura:materials:6>],
-         [<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
-         [<natura:materials:6>,<natura:materials:6>,<natura:materials:6>]]);
-    recipes.addShaped(<minecraft:leather_leggings>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Pants",Lore:["Made from imphide"]}}),
-        [[<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
-         [<natura:materials:6>,null,<natura:materials:6>],
-         [<natura:materials:6>,null,<natura:materials:6>]]);
-    recipes.addShaped(<minecraft:leather_boots>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Boots",Lore:["Made from imphide"]}}),
-        [[<natura:materials:6>,null,<natura:materials:6>],
-         [<natura:materials:6>,null,<natura:materials:6>]]);
+    #recipes.addShaped(<minecraft:leather_helmet>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Cap",Lore:["Made from imphide"]}}),
+    #    [[<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
+    #     [<natura:materials:6>,null,<natura:materials:6>]]);
+    #recipes.addShaped(<minecraft:leather_chestplate>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Tunic",Lore:["Made from imphide"]}}),
+    #    [[<natura:materials:6>,null,<natura:materials:6>],
+    #     [<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
+    #     [<natura:materials:6>,<natura:materials:6>,<natura:materials:6>]]);
+    #recipes.addShaped(<minecraft:leather_leggings>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Pants",Lore:["Made from imphide"]}}),
+    #    [[<natura:materials:6>,<natura:materials:6>,<natura:materials:6>],
+    #     [<natura:materials:6>,null,<natura:materials:6>],
+    #     [<natura:materials:6>,null,<natura:materials:6>]]);
+    #recipes.addShaped(<minecraft:leather_boots>.withTag({ench:[{id:1,lvl:2},{id:34,lvl:1}],display:{Name:"Imp Leather Boots",Lore:["Made from imphide"]}}),
+    #    [[<natura:materials:6>,null,<natura:materials:6>],
+    #     [<natura:materials:6>,null,<natura:materials:6>]]);
 
 # Ars Magica
     recipes.remove(<arsmagica2:helmet_battlemage>);
