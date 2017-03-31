@@ -9,8 +9,10 @@
       <orbitalTheta>                 97   </orbitalTheta>
       <orbitalPhi>                   15   </orbitalPhi>
       <rotationalPeriod>           5100   </rotationalPeriod>
-      <biomeIds>                     94   </biomeIds>
+      <biomeIds>                    108   </biomeIds>
     </planet>
+    
+    
     <planet name="Nanna" DIMID="260" >
       <fogColor>              0.9,0.1,1   </fogColor>
       <skyColor>                0.7,0,1   </skyColor>
@@ -20,19 +22,21 @@
       <orbitalTheta>                 26   </orbitalTheta>
       <orbitalPhi>                    1   </orbitalPhi>
       <rotationalPeriod>          48000   </rotationalPeriod>
-      <biomeIds>                      0   </biomeIds>
+      <biomeIds>               105, 106   </biomeIds>
       <planet name="Forseti" DIMID="261" >
-        <fogColor>            0.1,0.1,0.1   </fogColor>
-        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <fogColor>          0.0, 0.0, 0.0   </fogColor>
+        <skyColor>          0.0, 0.0, 0.0   </skyColor>
         <atmosphereDensity>             0   </atmosphereDensity>
         <gravitationalMultiplier>      30   </gravitationalMultiplier>
         <orbitalDistance>              11   </orbitalDistance>
         <orbitalTheta>                 64   </orbitalTheta>
         <orbitalPhi>                   15   </orbitalPhi>
         <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>                     94   </biomeIds>
+        <biomeIds>               104, 108   </biomeIds>
       </planet>
     </planet>
+    
+    
     <planet name="Sif" DIMID="262"  >
       <fogColor>              0.9,0.1,1   </fogColor>
       <skyColor>                0.7,0,1   </skyColor>
@@ -42,41 +46,43 @@
       <orbitalTheta>                248   </orbitalTheta>
       <orbitalPhi>                    0   </orbitalPhi>
       <rotationalPeriod>          48000   </rotationalPeriod>
-      <biomeIds>                      0   </biomeIds>
+      <biomeIds>            0, 109, 111   </biomeIds>
       <planet name="Magni" DIMID="263" >
-        <fogColor>            0.1,0.1,0.1   </fogColor>
-        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <fogColor>          0.0, 0.0, 0.0   </fogColor>
+        <skyColor>          0.0, 0.0, 0.0   </skyColor>
         <atmosphereDensity>             0   </atmosphereDensity>
-        <gravitationalMultiplier>      50   </gravitationalMultiplier>
+        <gravitationalMultiplier>      30   </gravitationalMultiplier>
         <orbitalDistance>              15   </orbitalDistance>
         <orbitalTheta>                154   </orbitalTheta>
         <orbitalPhi>                    9   </orbitalPhi>
         <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>                     94   </biomeIds>
+        <biomeIds>                    108   </biomeIds>
       </planet>
       <planet name="Modi" DIMID="264" >
-        <fogColor>            0.1,0.1,0.1   </fogColor>
-        <skyColor>            0.1,0.1,0.1   </skyColor>
-        <atmosphereDensity>             0   </atmosphereDensity>
-        <gravitationalMultiplier>      30   </gravitationalMultiplier>
-        <orbitalDistance>              20   </orbitalDistance>
+        <fogColor>          0.2, 0.6, 0.0   </fogColor>
+        <skyColor>          0.2, 0.6, 0.0   </skyColor>
+        <atmosphereDensity>            75   </atmosphereDensity>
+        <gravitationalMultiplier>      50   </gravitationalMultiplier>
+        <orbitalDistance>              30   </orbitalDistance>
         <orbitalTheta>                240   </orbitalTheta>
-        <orbitalPhi>                    9   </orbitalPhi>
-        <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>                     94   </biomeIds>
+        <orbitalPhi>                   17   </orbitalPhi>
+        <rotationalPeriod>          18000   </rotationalPeriod>
+        <biomeIds>       70, 79, 103, 112   </biomeIds>
       </planet>
       <planet name="Thrud" DIMID="265" >
-        <fogColor>            0.1,0.1,0.1   </fogColor>
-        <skyColor>            0.1,0.1,0.1   </skyColor>
+        <fogColor>          0.0, 0.0, 0.0   </fogColor>
+        <skyColor>          0.0, 0.0, 0.0   </skyColor>
         <atmosphereDensity>            10   </atmosphereDensity>
-        <gravitationalMultiplier>      30   </gravitationalMultiplier>
-        <orbitalDistance>              25   </orbitalDistance>
+        <gravitationalMultiplier>      10   </gravitationalMultiplier>
+        <orbitalDistance>              65   </orbitalDistance>
         <orbitalTheta>                190   </orbitalTheta>
-        <orbitalPhi>                    9   </orbitalPhi>
-        <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>                     94   </biomeIds>
+        <orbitalPhi>                   -4   </orbitalPhi>
+        <rotationalPeriod>           6000   </rotationalPeriod>
+        <biomeIds>                    108   </biomeIds>
       </planet>
     </planet>
+    
+    
     <planet name="Frigg" DIMID="0" dimMapping="">
       <fogColor>                  1,1,1   </fogColor>
       <skyColor>                  0,0,1   </skyColor>
@@ -94,10 +100,12 @@
         <orbitalTheta>                190   </orbitalTheta>
         <orbitalPhi>                    9   </orbitalPhi>
         <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>                     94   </biomeIds>
+        <biomeIds>                    108   </biomeIds>
       </planet>
     </planet>
   </star>
+  
+  
   <star name="Kerbol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
     <planet name="Moho" DIMID="200">
       <fogColor>0x769554a</fogColor>
@@ -195,7 +203,7 @@
       <orbitalTheta>180</orbitalTheta>
       <orbitalPhi>5</orbitalPhi>
       <rotationalPeriod>24000</rotationalPeriod>
-      <biomeIds>90</biomeIds>
+      <biomeIds>89</biomeIds>
     </planet>
     <planet name="Jool" DIMID="209">
       <fogColor>0x77FFF00</fogColor>
@@ -238,7 +246,7 @@
         <orbitalTheta>180</orbitalTheta>
         <orbitalPhi>0</orbitalPhi>
         <rotationalPeriod>180000</rotationalPeriod>
-        <biomeIds>90</biomeIds>
+        <biomeIds>49</biomeIds>
       </planet>
       <planet name="Bop" DIMID="213">
         <fogColor>0x7D2691E</fogColor>
@@ -272,7 +280,56 @@
       <orbitalTheta>180</orbitalTheta>
       <orbitalPhi>6</orbitalPhi>
       <rotationalPeriod>24000</rotationalPeriod>
-      <biomeIds>193</biomeIds>
+      <biomeIds>113</biomeIds>
     </planet>
   </star>
+  <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+    <planet name="Hermes" DIMID="300">
+      <fogColor>          1.0, 0.3, 0.3   </fogColor>
+      <skyColor>          1.0, 0.0, 0.0   </skyColor>
+      <atmosphereDensity>            50   </atmosphereDensity>
+      <gravitationalMultiplier>      65   </gravitationalMultiplier>
+      <orbitalDistance>              45   </orbitalDistance>
+      <orbitalTheta>                205   </orbitalTheta>
+      <orbitalPhi>                   10   </orbitalPhi>
+      <rotationalPeriod>         480000   </rotationalPeriod>
+      <biomeIds>                    106   </biomeIds>
+    </planet>
+    
+    <planet name="Aphrodite" DIMID="301">
+      <fogColor>          1.0, 1.0, 1.0   </fogColor>
+      <skyColor>          1.0, 0.0, 0.0   </skyColor>
+      <atmosphereDensity>           120   </atmosphereDensity>
+      <gravitationalMultiplier>      65   </gravitationalMultiplier>
+      <orbitalDistance>              75   </orbitalDistance>
+      <orbitalTheta>                205   </orbitalTheta>
+      <orbitalPhi>                   10   </orbitalPhi>
+      <rotationalPeriod>         190000   </rotationalPeriod>
+      <biomeIds>              0, 89, 99   </biomeIds>
+    </planet>
+    
+    <planet name="Gaia" DIMID="302">
+      <fogColor>          1.0, 1.0, 1.0   </fogColor>
+      <skyColor>          0.0, 0.0, 1.0   </skyColor>
+      <atmosphereDensity>           120   </atmosphereDensity>
+      <gravitationalMultiplier>      90   </gravitationalMultiplier>
+      <orbitalDistance>              75   </orbitalDistance>
+      <orbitalTheta>                205   </orbitalTheta>
+      <orbitalPhi>                   10   </orbitalPhi>
+      <rotationalPeriod>          26.000   </rotationalPeriod>
+      <biomeIds>              0, 1, 4, 6   </biomeIds>
+      <planet name="Luna" DIMID="303" >
+        <fogColor>          0.0, 0.0, 0.0   </fogColor>
+        <skyColor>          0.0, 0.0, 0.0   </skyColor>
+        <atmosphereDensity>             0   </atmosphereDensity>
+        <gravitationalMultiplier>      20   </gravitationalMultiplier>
+        <orbitalDistance>              60   </orbitalDistance>
+        <orbitalTheta>                 12   </orbitalTheta>
+        <orbitalPhi>                    7   </orbitalPhi>
+        <rotationalPeriod>         720000   </rotationalPeriod>
+        <biomeIds>                    108   </biomeIds>
+      </planet>
+    </planet>
+  </star>
+  
 </galaxy>
