@@ -287,6 +287,13 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:rodStone>,null,<ore:rodStone>]]);
 */
 
+# Thermal Expansion
+    recipes.remove(<thermalexpansion:frame>);
+    recipes.addShaped(<thermalexpansion:frame>,
+        [[<ore:ingotSteel>,<ore:blockGlass>,<ore:ingotSteel>],
+         [<ore:blockGlass>,<ore:gearTin>,<ore:blockGlass>],
+         [<ore:ingotSteel>,<ore:blockGlass>,<ore:ingotSteel>]]);
+
 # Waystones
     recipes.addShaped(<waystones:waystone>,
         [[null, <ore:bricksStone>, null],
