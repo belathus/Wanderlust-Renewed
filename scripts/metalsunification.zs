@@ -186,10 +186,10 @@
         }
     }
     recipes.addShapeless(list_constantan[0][6] * 2, [<ore:dustNickel>,<ore:dustCopper>]);
-    mods.tconstruct.Casting.removeTableRecipe(<base:ingot:10>, <liquid:constantan>, <tconstruct:cast_custom>);
-    mods.tconstruct.Casting.removeBasinRecipe(<base:storage_constantan>);
-    mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
-    mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
+    #mods.tconstruct.Casting.removeTableRecipe(<base:ingot:10>, <liquid:constantan>, <tconstruct:cast_custom>);
+    #mods.tconstruct.Casting.removeBasinRecipe(<base:storage_constantan>);
+    #mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
+    #mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
 
 
 # Iron
