@@ -76,5 +76,13 @@
                 <itemStack modID="minecraft" itemName="stone" number="1" exp="0.5" />
             </output>
         </recipe>
+        <recipe name="netherrackToBrick" energyCost="750" >
+            <input>
+                <itemStack oreDictionary="netherrack" number="1" />
+            </input>
+            <output>
+                <itemStack modID="minecraft" itemName="netherbrick" number="1" exp="0.5" />
+            </output>
+        </recipe>
     </recipeGroup>
 </AlloySmelterRecipes>

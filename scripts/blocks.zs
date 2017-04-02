@@ -60,6 +60,12 @@
          [<ore:bricksStone>,<ore:dustAsh>,<ore:bricksStone>],
          [null,<ore:bricksStone>,null]]);
 */
+# Evilcraft
+    recipes.addShaped(<evilcraft:eternalWaterBlock>,
+        [[null,<ore:gemDark>,null],
+         [<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+         [null,<ore:gemDark>,null]]);
+
 # Extra Utilities
     # Portal to the Deep Dark
     recipes.remove(<extrautils2:teleporter>);
