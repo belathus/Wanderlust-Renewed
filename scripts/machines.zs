@@ -6,6 +6,8 @@
     
 var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantments:[{id:70,lvl:1}]});
 var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id:70}]}).onlyWithTag({StoredEnchantments:[{lvl:1,id:70}]});
+var mending3 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1s,id:70s}]}).onlyWithTag({StoredEnchantments:[{lvl:1s,id:70s}]});
+var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70s,lvl:1s}]}).onlyWithTag({StoredEnchantments:[{id:70s,lvl:1s}]});
 
 # Vanilla
     recipes.addShaped(<minecraft:hopper>,
@@ -21,6 +23,12 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
         [[<ore:dustVinteum>,mending2,<ore:dustVinteum>],
+         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
+         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
+        [[<ore:dustVinteum>,mending3,<ore:dustVinteum>],
+         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
+         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
+        [[<ore:dustVinteum>,mending4,<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
     recipes.remove(<arsmagica2:armor_imbuer>);
@@ -191,6 +199,14 @@ var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id
          [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
     recipes.addShaped(<evilcraft:bloodChest>,
         [[<ore:plankWood>,mending2,<ore:plankWood>],
+         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
+         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
+    recipes.addShaped(<evilcraft:bloodChest>,
+        [[<ore:plankWood>,mending3,<ore:plankWood>],
+         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
+         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
+    recipes.addShaped(<evilcraft:bloodChest>,
+        [[<ore:plankWood>,mending4,<ore:plankWood>],
          [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
          [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
          
