@@ -58,4 +58,23 @@
             </output>
         </recipe>
     </recipeGroup>
+    
+    <recipeGroup name="Smelting">
+        <recipe name="sandToGlass" energyCost="750" >
+            <input>
+                <itemStack oreDictionary="sand" number="1" />
+            </input>
+            <output>
+                <itemStack modID="minecraft" itemName="glass" number="1" exp="0.5" />
+            </output>
+        </recipe>
+        <recipe name="cobbleToStone" energyCost="750" >
+            <input>
+                <itemStack oreDictionary="cobblestone" number="1" />
+            </input>
+            <output>
+                <itemStack modID="minecraft" itemName="stone" number="1" exp="0.5" />
+            </output>
+        </recipe>
+    </recipeGroup>
 </AlloySmelterRecipes>

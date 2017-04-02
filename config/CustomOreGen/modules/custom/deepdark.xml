@@ -961,12 +961,15 @@
     				<Description>
     					Small, fairly rare motherlodes with 2-4 horizontal veins each.
     				</Description>
-    				<OreBlock block='taiga:meteoritecobble_block' weight='1.0' />
+    				<OreBlock block='taiga:meteoritecobble_block' weight='0.91' />
+                    <OreBlock block='taiga:duranite_ore' weight='0.03' />
+                    <OreBlock block='taiga:uru_ore' weight='0.03' />
+                    <OreBlock block='taiga:osram_ore' weight='0.03' />
     				<ReplacesOre block='stone' weight='1.0' />
     				<ReplacesOre block='cobblestone' weight='1.0' />
     				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.585 * _default_ ' range=':= 0.585 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeFrequency'   avg=':= 2.585 * _default_ ' range=':= 2.585 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 2.960 * _default_ ' range=':= 2.960 * _default_ ' type='normal' />
     				<Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
     				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
     				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -983,7 +986,61 @@
     				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
     			</Veins>
     			
-                <!-- Granite/Arcanite Ore Geode -->
+                <!-- Eezo Ore -->
+                <Veins name='taigaDDMeteoriteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='taiga:eezo_ore' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<ReplacesOre block='cobblestone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.285 * _default_ ' range=':= 0.285 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 6 '                 range=':= 2 '                 type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= 0.0 '               range=':= 0.0 '               type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 0.0 '               range=':= 0.0 '               type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+                
+                <!-- Vibranium -->
+                <Veins name='taigaDDVibraniumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+    				<Description>
+    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
+    				</Description>
+    				<OreBlock block='taiga:vibranium_ore' weight='1.0' />
+    				<ReplacesOre block='stone' weight='1.0' />
+    				<ReplacesOre block='cobblestone' weight='1.0' />
+    				<Biome name='.*'  />
+    				<Setting name='MotherlodeFrequency'   avg=':= 0.421 * _default_ ' range=':= 0.421 * _default_ ' type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+    				<Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 16 '                type='normal' scaleTo='base' />
+    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+    			</Veins>
+                
+                <!-- Granite/Jauxium Ore Geode -->
                 <Veins name='taigaDDGraniteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x609C661F' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
@@ -1020,14 +1077,14 @@
                     <ReplacesOre block='stone' weight='1.0'/>
                     <ReplacesOre block='cobblestone' weight='1.0'/>
                     <Replaces block='minecraft:stone:1' weight='1.0'/>
-                    <Replaces block='taiga:arcanite_ore' weight='1.0'/>
+                    <Replaces block='taiga:jauxium_ore' weight='1.0'/>
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
                 
                 
                 
-                <!-- Diorite/Mindorite Ore Geode -->
+                <!-- Diorite/Ovium Ore Geode -->
                 <Veins name='taigaDDDioriteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x60EEDFCC' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
@@ -1064,14 +1121,14 @@
                     <ReplacesOre block='stone' weight='1.0'/>
                     <ReplacesOre block='cobblestone' weight='1.0'/>
                     <Replaces block='minecraft:stone:3' weight='1.0'/>
-                    <Replaces block='taiga:mindorite_ore' weight='1.0'/>
+                    <Replaces block='taiga:ovium_ore' weight='1.0'/>
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
                 
                 
                 
-                <!-- Andesite/Eternite Ore Geode -->
+                <!-- Andesite/Karmesine Ore Geode -->
                 <Veins name='taigaDDAndesiteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x83D8' drawWireframe='false' wireframeColor='0x608B8989' drawBoundBox='false' boundBoxColor='0x608B8989'>
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
@@ -1108,7 +1165,7 @@
                     <ReplacesOre block='stone' weight='1.0'/>
                     <ReplacesOre block='cobblestone' weight='1.0'/>
                     <Replaces block='minecraft:stone:5' weight='1.0'/>
-                    <Replaces block='taiga:eternite_ore' weight='1.0'/>
+                    <Replaces block='taiga:karmesine_ore' weight='1.0'/>
                     <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
