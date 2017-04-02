@@ -987,7 +987,7 @@
     			</Veins>
     			
                 <!-- Eezo Ore -->
-                <Veins name='taigaDDMeteoriteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+                <Veins name='taigaDDEezoVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
     				<Description>
     					Small, fairly rare motherlodes with 2-4 horizontal veins each.
     				</Description>
@@ -1139,7 +1139,7 @@
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.800 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                    <Setting name='MotherlodeHeight'      avg=':= 220 '                range=':= 44 '                type='uniform' scaleTo='base' />
+                    <Setting name='MotherlodeHeight'      avg=':= 220 '                range=':= 44 '               type='uniform' scaleTo='base' />
                     <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='BranchInclination'     avg=':= 1.31 '              range=':= 0.550 '             type='uniform' />
