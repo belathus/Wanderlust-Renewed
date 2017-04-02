@@ -6,8 +6,8 @@
     
 var mending = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70,lvl:1}]}).onlyWithTag({StoredEnchantments:[{id:70,lvl:1}]});
 var mending2 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1,id:70}]}).onlyWithTag({StoredEnchantments:[{lvl:1,id:70}]});
-var mending3 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1s,id:70s}]}).onlyWithTag({StoredEnchantments:[{lvl:1s,id:70s}]});
-var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70s,lvl:1s}]}).onlyWithTag({StoredEnchantments:[{id:70s,lvl:1s}]});
+var mending3 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1 as short,id:70 as short}]}).onlyWithTag({StoredEnchantments:[{lvl:1 as short,id:70 as short}]});
+var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as short,lvl:1 as short}]}).onlyWithTag({StoredEnchantments:[{id:70 as short,lvl:1 as short}]});
 
 # Vanilla
     recipes.addShaped(<minecraft:hopper>,
@@ -25,9 +25,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70s,l
         [[<ore:dustVinteum>,mending2,<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
+    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
         [[<ore:dustVinteum>,mending3,<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
+    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
         [[<ore:dustVinteum>,mending4,<ore:dustVinteum>],
          [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
          [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);

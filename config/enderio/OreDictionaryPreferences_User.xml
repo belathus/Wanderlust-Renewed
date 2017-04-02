@@ -14,10 +14,10 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="immersiveengineering" itemName="metal" itemMeta="10" />
   </preference>
   <preference oreDictionary="dustCoal" >
-    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="0" />
+    <itemStack modID="thermalfoundation" itemName="material" itemMeta="768" />
   </preference>
   <preference oreDictionary="dustCharcoal" >
-    <itemStack modID="railcraft" itemName="dust" itemMeta="3" />
+    <itemStack modID="thermalfoundation" itemName="material" itemMeta="769" />
   </preference>
   <preference oreDictionary="dustObsidian" >
     <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="7" />
@@ -32,7 +32,7 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="immersiveengineering" itemName="metal" itemMeta="9" />
   </preference>
   <preference oreDictionary="dustTin" >
-    <itemStack modID="primal" itemName="tin_dust" itemMeta="0" />
+    <itemStack modID="base" itemName="dust" itemMeta="29" />
   </preference>
   <preference oreDictionary="dustSilver" >
     <itemStack modID="immersiveengineering" itemName="metal" itemMeta="12" />
@@ -44,11 +44,18 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="immersiveengineering" itemName="metal" itemMeta="13" />
   </preference>
   <preference oreDictionary="dustSulfur" >
-    <itemStack modID="railcraft" itemName="dust" itemMeta="1" />
+    <itemStack modID="thermalfoundation" itemName="material" itemMeta="771" />
   </preference>
   <preference oreDictionary="dustBronze" >
-    <itemStack modID="primal" itemName="bronze_dust" itemMeta="0" />
+    <itemStack modID="base" itemName="dust" itemMeta="7" />
   </preference>
+  <preference oreDictionary="dustArdite" >
+    <itemStack modID="enderio" itemName="itemPowderIngot" itemMeta="9" />
+  </preference>
+  <preference oreDictionary="dustCobalt" >
+    <itemStack modID="enderio" itemName="itemPowderIngot" itemMeta="10" />
+  </preference>
+  
   <!-- Ingots -->
   <preference oreDictionary="ingotCopper" >
     <itemStack modID="immersiveengineering" itemName="metal" itemMeta="0" />
@@ -78,7 +85,7 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="immersiveengineering" itemName="metal" itemMeta="8" />
   </preference>
   <preference oreDictionary="ingotTin" >
-    <itemStack modID="primal" itemName="tin_ingot" itemMeta="0" />
+    <itemStack modID="base" itemName="dust" itemMeta="29" />
   </preference>
   <preference oreDictionary="ingotBronze" >
     <itemStack modID="forestry" itemName="ingotBronze" itemMeta="0" />
