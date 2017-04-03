@@ -562,3 +562,12 @@
             recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[zinc_oredict[1]]]);
         }
     }
+    
+    
+    # Philisopher's Gold
+    furnace.addRecipe(<base:nugget:80>, <everlastingabilities:abilityTotem>, 1.0);
+    recipes.addShapeless(<base:nugget:80> * 9, [<base:ingot:80>]);
+    recipes.addShapeless(<base:ingot:80>, 
+        [<base:nugget:80>,<base:nugget:80>,<base:nugget:80>,
+         <base:nugget:80>,<base:nugget:80>,<base:nugget:80>,
+         <base:nugget:80>,<base:nugget:80>,<base:nugget:80>]);
