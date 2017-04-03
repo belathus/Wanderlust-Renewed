@@ -2,6 +2,11 @@
 # Ash
     <ore:dustAsh>.add(<biomesoplenty:ash>);
     #<ore:dustAsh>.add(<embers:dustAsh>);
+# Brick
+    <ore:blockBrick>.add(<minecraft:brick_block>);
+    <ore:blockBrick>.add(<tconstruct:dried_clay:*>);
+    <ore:blockBrick>.add(<primal:ciniscotta_brick:*>);
+    <ore:blockBrick>.add(<primal:terracotta_brick:*>);
 # Mud
     <ore:clumpMud>.add(<biomesoplenty:mudball>);
 # gears
