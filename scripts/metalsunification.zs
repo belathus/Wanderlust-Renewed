@@ -214,7 +214,7 @@
         if !group[1].matches(<enderzoo:enderZooIcon>) { 
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
-                furnace.addRecipe(list_iron[0][1], group[5], 0.5);
+                #furnace.addRecipe(list_iron[0][1], group[5], 0.5);
                 furnace.addRecipe(list_iron[0][1], group[6], 0.5);
             } 
         }
