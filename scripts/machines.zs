@@ -13,7 +13,12 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.addShaped(<minecraft:hopper>,
         [[<ore:ingotTin>,null,<ore:ingotTin>],
          [<ore:ingotTin>,<ore:chest>,<ore:ingotTin>],
-         [null,<ore:ingotTin>,null]]);
+         [null,<ore:ingotTin>,null]]);     
+    recipes.remove(<minecraft:furnace>);
+    recipes.addShaped(<minecraft:furnace>,
+        [[null, <ore:bricksStone>, null],
+         [<ore:bricksStone>,null,<ore:bricksStone>],
+         [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
     
 # Ars Magica 2
     recipes.remove(<arsmagica2:arcane_reconstructor>);
@@ -85,6 +90,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>],
          [<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
          [<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>]]);
+
+# Better Beginnings
+    recipes.remove(<betterbeginnings:kiln>);
+    recipes.addShaped(<betterbeginnings:kiln>,
+        [[<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>],
+         [<ore:cobblestone>, null, <ore:cobblestone>],
+         [<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>]])
 
 # Blood Magic
     # Altar
