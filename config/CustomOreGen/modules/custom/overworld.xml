@@ -1531,7 +1531,8 @@
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
-            <OreBlock block='immersiveengineering:ore:4' weight='1.0' />
+            <OreBlock block='immersiveengineering:ore:4' weight='0.90' />
+            <OreBlock block='thermalfoundation:ore:6' weight='0.10' />
             <ReplacesOre block='stone' weight='1.0' />
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*'  />
