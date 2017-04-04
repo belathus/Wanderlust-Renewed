@@ -1,0 +1,15 @@
+<recipes>
+    <recipe type="evilcraft:bloodinfuser">
+        <input>
+            <item>evilcraft:poisonSac</item>
+            <fluid amount="80">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>minecraft:dye</item>
+        </output>
+        <properties>
+            <duration>200</duration>
+            <xp>0.5</xp>
+        </properties>
+    </recipe>
+</recipes>
