@@ -332,6 +332,7 @@
                 <Replaces block='minecraft:netherrack' weight='1.0'/>
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                <Replaces block='minecraft:lava' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 '             range=':= 0.100 '             type='normal' />
@@ -360,6 +361,7 @@
                 <Replaces block='minecraft:netherrack' weight='1.0'/>
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
+                <Replaces block='minecraft:lava' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 '             range=':= 0.100 '             type='normal' />
