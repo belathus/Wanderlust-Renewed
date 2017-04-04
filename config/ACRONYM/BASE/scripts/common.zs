@@ -50,11 +50,11 @@ var alloys_list = [aquarium, brass, bronze, coldiron, constantan, cupronickel, d
         metal.registerOre(3, 15, "pickaxe", 1);
         metal.registerBlock(5, 30, "pickaxe", 1);
     }
-    for i, metal in alloys_list {
-        metal.registerDust();
-        metal.registerGear();
-        metal.registerPlate();
-        metal.registerNugget();
-        metal.registerIngot();
-        metal.registerBlock(5, 30, "pickaxe", 1);
+    for i, metal2 in alloys_list {
+        metal2.registerDust();
+        metal2.registerGear();
+        metal2.registerPlate();
+        metal2.registerNugget();
+        metal2.registerIngot();
+        metal2.registerBlock(5, 30, "pickaxe", 1);
     }

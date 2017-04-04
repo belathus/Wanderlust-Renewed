@@ -611,14 +611,7 @@
                     heights.
                 </Description>
                 <OreBlock block='arsmagica2:wakebloom' weight='1.0' />
-                <PlacesAbove block='minecraft:dirt' weight='1.0' />
-                <PlacesAbove block='minecraft:grass' weight='1.0' />
-                <PlacesAbove block='biomesoplenty:grass:2' weight='1.0' />
-                <PlacesAbove block='biomesoplenty:grass:3' weight='1.0' />
-                <PlacesAbove block='biomesoplenty:grass:4' weight='1.0' />
-                <PlacesAbove block='biomesoplenty:grass:5' weight='1.0' />
-                <PlacesAbove block='biomesoplenty:grass:7' weight='1.0' />
-                <PlacesAboveOre block='blockGrass' weight='1.0'/>
+                <PlacesAbove block='minecraft:water' weight='1.0' />
                 <Replaces block='minecraft:air' weight='1.0' />
                 <Replaces block='minecraft:tallgrass' weight='1.0' />
                 <Replaces block='biomesoplenty:plant_0' weight='1.0' />
@@ -637,7 +630,7 @@
             </Description>
             <BiomeType name='SANDY' />
             <OreBlock block='arsmagica2:desert_nova' weight='1.0' />
-            <Setting name='CloudRadius'           avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' />
+            <Setting name='CloudRadius'           avg=':= 0.015 * _default_ ' range=':= 0.015 * _default_ ' type='normal' />
             <Setting name='CloudThickness'        avg=':= 0.005 * _default_ ' range=':= 0.005 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='DistributionFrequency' avg=':= 9.000 * _default_ ' range=':= 9.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='CloudHeight'           avg=':= 70 '              range=':= 20 '              type='normal' scaleTo='base' />
@@ -671,7 +664,7 @@
                 Single blocks, generously  scattered through all
                 heights.
             </Description>
-            <OreBlock block='arsmagica2:desert_nova' weight='1.0' />
+            <OreBlock block='arsmagica2:tarma_root' weight='1.0' />
             <PlacesAbove block='minecraft:stone' weight='1.0' />
             <PlacesAbove block='minecraft:stone:1' weight='1.0' />
             <PlacesAbove block='minecraft:stone:3' weight='1.0' />

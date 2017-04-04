@@ -1,3 +1,5 @@
+val nope = <enderzoo:enderZooIcon>;
+
 # Aluminum
     val list_aluminum = [
     #    nugget                            ingot                            block                             plate                            gear                             ore                          dust
@@ -45,7 +47,7 @@
 # Bronze
     val list_bronze = [
     #    nugget                            ingot                            block                               plate                            gear                             ore                      dust
-        [<base:nugget:7>,                 <base:ingot:7>,                  <base:storage_bronze>,              <base:plate:7>,                  <base:gear:7>,                   <base:ore_bronze>,       <base:dust:7>],
+        [<base:nugget:7>,                 <base:ingot:7>,                  <base:storage_bronze>,              <base:plate:7>,                  <base:gear:7>,                   nope,                    <base:dust:7>],
         #[<basemetals:bronze_nugget>,     <basemetals:bronze_ingot>,       <basemetals:bronze_block>,          <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
         [<enderzoo:enderZooIcon>,         <forestry:ingotBronze>,          <forestry:resourceStorage:3>,       <enderzoo:enderZooIcon>,         <forestry:gearBronze>,           <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
         [<primal:bronze_nugget>,          <primal:bronze_ingot>,           <primal:bronze_block>,              <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>, <primal:bronze_dust>],
@@ -144,7 +146,7 @@
 
 # Constantan
     var list_constantan = [
-        [<immersiveengineering:metal:26>, <immersiveengineering:metal:6>,  <immersiveengineering:storage:6>,   <immersiveengineering:metal:36>,  <base:gear:10>,                  <base:ore_constantan>,  <immersiveengineering:metal:15>],
+        [<immersiveengineering:metal:26>, <immersiveengineering:metal:6>,  <immersiveengineering:storage:6>,   <immersiveengineering:metal:36>, <base:gear:10>,                  nope,                   <immersiveengineering:metal:15>],
         [<base:nugget:10>,                <base:ingot:10>,                 <base:storage_constantan>,          <base:plate:10>,                 <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<base:dust:10>],
         [<thermalfoundation:material:228>,<thermalfoundation:material:164>,<thermalfoundation:storage_alloy:4>,<thermalfoundation:material:356>,<thermalfoundation:material:292>,<enderzoo:enderZooIcon>,<thermalfoundation:material:100>]
     ] as minetweaker.item.IItemStack[][];
@@ -383,7 +385,7 @@
 # Steel
     val list_steel = [
     #     nugget,                          ingot,                           block,                            plate,                           gear,                            ore,                    dust,                            stick
-        [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>,  <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,                  <base:ore_steel>,       <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
+        [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>,  <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,                  nope,                   <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
         [<libvulpes:productnugget:6>,     <libvulpes:productingot:6>,      <libvulpes:metal0:6>,             <libvulpes:productplate:6>,      <libvulpes:productgear:6>,       <enderzoo:enderZooIcon>,<libvulpes:productdust:6>,       <libvulpes:productrod:6>],
         [<base:nugget:28>,                <base:ingot:28>,                 <base:storage_steel>,             <base:plate:28>,                 <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<base:dust:28>,                  <enderzoo:enderZooIcon>],
         [<enderzoo:enderZooIcon>,         <primal:steel_ingot>,            <primal:steel_block>,             <primal:steel_plate>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
