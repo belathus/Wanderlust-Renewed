@@ -164,6 +164,26 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotAluminum>,<ore:pearlEnderEye>,<ore:ingotAluminum>],
          [<cyberware:component:2>,<cyberware:beacon>,<cyberware:component:2>],
          [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
+    recipes.remove(<cyberware:surgeryChamber>);
+    recipes.addShaped(<cyberware:surgeryChamber>,
+        [[<ore:ingotSteel>, <forestry:thermionicTubes>, <ore:ingotSteel>],
+         [<forestry:thermionicTubes>, <forestry:hardenedMachine>, <forestry:thermionicTubes>],
+         [<ore:ingotSteel>, <minecraft:iron_door>, <ore:ingotSteel>]]);
+    recipes.remove(<cyberware:blueprintArchive>);
+    recipes.addShaped(<cyberware:blueprintArchive>,
+        [[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
+         [<ore:paper>, <ore:paper>, <ore:paper>],
+         [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
+    recipes.remove(<cyberware:componentBox>);
+    recipes.addShaped(<cyberware:componentBox>,
+        [[null, <cyberware:component:*>, null],
+         [<ore:ingotAluminum>, <ore:chestWood>, <ore:ingotAluminum>],
+         [null, <ore:ingotAluminum>, null]]);
+    recipes.remove(<cyberware:radioPost>);
+    recipes.addShaped(<cyberware:radioPost>,
+        [[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+         [<minecraft:iron_bars>, <cyberware:component:5>, <minecraft:iron_bars>],
+         [<minecraft:iron_bars>, <cyberware:component:4>, <minecraft:iron_bars>]]);
 
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);
