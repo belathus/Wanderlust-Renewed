@@ -390,7 +390,8 @@
                     <Description>
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
-                    <OreBlock block='minecraft:stone' weight='1.00' />
+                    <OreBlock block='minecraft:stone' weight='0.90' />
+                    <OreBlock block='minecraft:cobblestone' weight='0.10' />
                     <Replaces block='minecraft:netherrack' weight='1.0'/>
                     <Replaces block='minecraft:magma' weight='1.0'/>
                     <Replaces block='evilcraft:netherMonsterBlock' weight='1.0'/>
@@ -399,7 +400,7 @@
                     <Replaces block='minecraft:soul_sand' weight='1.0'/>
                     <Replaces block='minecraft:gravel' weight='1.0'/>
                     <Biome name='.*'  />
-                    <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
                     <Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 14 '                type='uniform' scaleTo='base' />
                     <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -417,16 +418,18 @@
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
                 <Veins name='vaniDiamondEmeraldGeodeMiddle'  inherits='vaniDiamondEmeraldGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                    <OreBlock block='minecraft:diamond_ore' weight='0.04' />
-                    <OreBlock block='minecraft:emerald_ore' weight='0.02' />
+                    <OreBlock block='minecraft:diamond_ore' weight='0.015' />
+                    <OreBlock block='minecraft:emerald_ore' weight='0.005' />
                     <OreBlock block='minecraft:lapis_ore' weight='0.06' />
                     <Replaces block='minecraft:stone' weight='1.0' />
+                    <Replaces block='minecraft:cobblestone' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
                 </Veins>
                 <Veins name='vaniDiamondEmeraldGeodeCenter'  inherits='vaniDiamondEmeraldGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <OreBlock block='minecraft:air' weight='1.0' />
                     <Replaces block='minecraft:stone' weight='1.0' />
+                    <Replaces block='minecraft:cobblestone' weight='1.0' />
                     <Replaces block='minecraft:diamond_ore' weight='1.0' />
                     <Replaces block='minecraft:emerald_ore' weight='1.0' />
                     <Replaces block='minecraft:lapis_ore' weight='1.0' />
@@ -466,8 +469,8 @@
                     <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 </Veins>
                 <Veins name='abysLavaGeodeMiddle'  inherits='abysLavaGeode' branchType='Bezier' seed='0xD892' drawWireframe='false' wireframeColor='0x60AF8160' drawBoundBox='false' boundBoxColor='0x60AF8160'>
-                    <OreBlock block='abyssalcraft:abydiaore' weight='0.06' />
-                    <OreBlock block='abyssalcraft:abycopore' weight='0.03' />
+                    <OreBlock block='abyssalcraft:abydiaore' weight='0.01' />
+                    <OreBlock block='abyssalcraft:abycopore' weight='0.06' />
                     <Replaces block='abyssalcraft:abystone' weight='1.0' />
                     <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                     <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -562,7 +565,7 @@
                         <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     </Veins>
                     <Veins name='abysIronLavaGeodeMiddle'  inherits='abysIronLavaGeode' branchType='Bezier' seed='0x138B' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                        <OreBlock block='abyssalcraft:abyiroore' weight='0.67' />
+                        <OreBlock block='abyssalcraft:abyiroore' weight='0.60' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
                         <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                         <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -610,8 +613,8 @@
                         <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     </Veins>
                     <Veins name='abysTinGeodeMiddle'  inherits='abysTinGeode' branchType='Bezier' seed='0x4D15' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                        <OreBlock block='abyssalcraft:abytinore' weight='0.15' />
-                        <OreBlock block='abyssalcraft:abynitore' weight='0.25' />
+                        <OreBlock block='abyssalcraft:abytinore' weight='0.085' />
+                        <OreBlock block='abyssalcraft:abynitore' weight='0.125' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
                         <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                         <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -707,8 +710,8 @@
                         <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     </Veins>
                     <Veins name='abysCopperGeodeMiddle'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                        <OreBlock block='abyssalcraft:abygolore' weight='0.08' />
-                        <OreBlock block='abyssalcraft:abycopore' weight='0.36' />
+                        <OreBlock block='abyssalcraft:abygolore' weight='0.04' />
+                        <OreBlock block='abyssalcraft:abycopore' weight='0.23' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
                         <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
@@ -757,7 +760,7 @@
                         <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     </Veins>
                     <Veins name='abysGoldGeodeMiddle'  inherits='abysGoldGeode' branchType='Bezier' seed='0x827C' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
-                        <OreBlock block='abyssalcraft:abygolore' weight='0.16' />
+                        <OreBlock block='abyssalcraft:abygolore' weight='0.12' />
                         <OreBlock block='abyssalcraft:abycopore' weight='0.06' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
                         <Replaces block='abyssalcraft:abystone' weight='1.0' />
@@ -815,12 +818,14 @@
                 <OreBlock block='immersiveengineering:ore:4' weight='0.075' />
                 <OreBlock block='thermalfoundation:ore:6' weight='0.015' />
                 <Replaces block='minecraft:stone' weight='1.0' />
+                <Replaces block='minecraft:cobblestone' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='thermNickelGeodeCenter'  inherits='thermNickelGeode' branchType='Bezier' seed='0xF9C9' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
                 <OreBlock block='abyssalcraft:antiwater' weight='1.0' />
                 <Replaces block='minecraft:stone' weight='1.0' />
+                <Replaces block='minecraft:cobblestone' weight='1.0' />
                 <Replaces block='thermalfoundation:ore:6' weight='1.0' />
                 <Replaces block='immersiveengineering:ore:4' weight='1.0' />
                 <Replaces block='minecraft:cobblestone' weight='1.0' />
