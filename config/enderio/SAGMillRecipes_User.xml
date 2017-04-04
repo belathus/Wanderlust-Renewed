@@ -166,6 +166,95 @@
     </recipeGroup>
 
     <recipeGroup name="TAIGA" >
+        <!-- Abyssum -->
+        <recipe name="Abyssum" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreAbyssum" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustAbyssum" number="2" />
+                <itemStack oreDictionary="dustOvium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="end_stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Aurorium -->
+        <recipe name="Aurorium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreAurorium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustAurorium" number="2" />
+                <itemStack oreDictionary="dustAbyssum" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="end_stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Duranite -->
+        <recipe name="Duranite" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreDuranite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustDuranite" number="2" />
+                <itemStack oreDictionary="dustOsram" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Eezo -->
+        <recipe name="Eezo" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreEezo" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustEezo" number="2" />
+                <itemStack oreDictionary="dustValyrium" number="1" chance="0.10" />
+                <itemStack oreDictionary="dustPrometheum" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Jauxum -->
+        <recipe name="Jauxum" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreJauxum" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustJauxum" number="2" />
+                <itemStack oreDictionary="dustVibranium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Karmesine -->
+        <recipe name="Karmesine" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreKarmesine" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustKarmesine" number="2" />
+                <itemStack oreDictionary="dustOvium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Osram -->
+        <recipe name="Osram" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreOsram" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustOsram" number="2" />
+                <itemStack oreDictionary="dustUru" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Ovium -->
+        <recipe name="Ovium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreOvium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustOvium" number="2" />
+                <itemStack oreDictionary="dustJauxum" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
         <!-- Palladium -->
         <recipe name="Palladium" energyCost="1200" >
             <input>
@@ -175,6 +264,63 @@
                 <itemStack oreDictionary="dustPalladium" number="2" />
                 <itemStack oreDictionary="dustDilithium" number="1" chance="0.10" />
                 <itemStack modID="minecraft" itemName="end_stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Prometheum -->
+        <recipe name="Prometheum" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="orePrometheum" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustPrometheum" number="2" />
+                <itemStack oreDictionary="dustTiberium" number="1" chance="0.10" />
+                <itemStack oreDictionary="dustEezo" number="1" chance="0.05" />
+                <itemStack modID="minecraft" itemName="netherrack" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Tiberium -->
+        <recipe name="Tiberium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreTiberium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustTiberium" number="2" />
+                <itemStack oreDictionary="dustValyrium" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="netherrack" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Uru -->
+        <recipe name="Uru" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreUru" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustUru" number="2" />
+                <itemStack oreDictionary="dustDuranite" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Valyrium -->
+        <recipe name="Valyrium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreValyrium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustValyrium" number="2" />
+                <itemStack oreDictionary="dustPrometheum" number="1" chance="0.10" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+        <!-- Vibranium -->
+        <recipe name="Vibranium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreVibranium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustVibranium" number="2" />
+                <itemStack oreDictionary="dustKarmesine" number="1" chance="0.10" />
+                <itemStack oreDictionary="dustEezo" number="1" chance="0.05" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
             </output>
         </recipe>
     </recipeGroup>
