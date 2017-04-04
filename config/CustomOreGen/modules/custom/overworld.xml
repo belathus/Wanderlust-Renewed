@@ -226,9 +226,9 @@
                 <ReplacesOre block='stone' weight='1.0' />
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Biome name='.*'  />
-                <Setting name='MotherlodeFrequency'   avg=':= 0.914 * _default_ ' range=':= 0.914 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.314 * _default_ ' range=':= 0.314 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
-                <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
+                <Setting name='MotherlodeHeight'      avg=':= 4 '                 range=':= 2 '                 type='normal' scaleTo='base' />
                 <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -268,7 +268,7 @@
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <Biome name='.*'  />
                 <BiomeType name='MOUNTAIN' weight='-1' />
-                <Setting name='MotherlodeFrequency'   avg=':= 0.357 * _default_ ' range=':= 0.357 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.107 * _default_ ' range=':= 0.107 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
                 <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
                 <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -310,7 +310,7 @@
                 <ReplacesOre block='stone' weight='1.0' />
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <BiomeType name='MOUNTAIN' weight='1.0' />
-                <Setting name='MotherlodeFrequency'   avg=':= 1.071 * _default_ ' range=':= 1.071 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.471 * _default_ ' range=':= 0.471 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 0 * _default_ '     range=':= 0 * _default_ '     type='normal' />
                 <Setting name='MotherlodeHeight'      avg=':= 8 '                 range=':= 8 '                 type='normal' scaleTo='base' />
                 <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
