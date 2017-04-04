@@ -1836,7 +1836,7 @@
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
-            <Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 16 '                type='normal' scaleTo='base' />
+            <Setting name='MotherlodeHeight'      avg=':= 66 '                range=':= 16 '                type='normal' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -1854,11 +1854,11 @@
         
         <!-- Iron Veins: Siderite -->
         <Veins name='rockSideriteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60444444' drawBoundBox='false' boundBoxColor='0x60444444'>
-            <!-- Making siderate ore in non-wet biomes -->
-            <Biome name=".*" weight='1.0' />
-            <BiomeType name='WET' weight='-1' />
+            <!-- Making siderate ore in hilly biomes -->
+            <BiomeType name='HILLS' />
             <OreBlock block='rockhounding_oretiers:ironOres:4' weight='1.0'/>
             <ReplacesOre block='stone'/>
+            <ReplacesOre block='sandstone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.769 * _default_ ' range=':= 0.769 * _default_ ' type='normal'  scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 2.648 * _default_ ' range=':= 2.648 * _default_ ' type='normal' />
