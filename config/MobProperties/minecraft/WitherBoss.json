@@ -1,6 +1,13 @@
 {
   "_name": "WitherBoss",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "add",
+      "id" : "extrautils2:ingredients"
+      "damage" : 10,
+      "count" : 1
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
