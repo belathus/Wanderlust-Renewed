@@ -1,6 +1,28 @@
 {
   "_name": "Skeleton",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "remove",
+      "id" : "extrautils2:ingredients",
+      "damage" : 10
+    },
+    {
+      "function" : "if_wither_skeleton",
+      "functions" : [
+        {
+          "function" : "if_damage_type_am2.holy"
+          "functions" : [
+            {
+              "function" : "add",
+              "id" : "extrautils2:ingredients",
+              "damage" : 10,
+              "count" : 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": [
     {
