@@ -1,6 +1,18 @@
 {
   "_name": "EnderZoo.WitherWitch",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "if_recently_hit",
+      "functions" : [
+        {
+          "function" : "add",
+          "id" : "extrautils:ingredients",
+          "damage" : 10,
+          "count" : 0.085
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
