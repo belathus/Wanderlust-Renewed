@@ -1,3 +1,4 @@
+# Metals Unification
 val nope = <enderzoo:enderZooIcon>;
 
 # Aluminum
@@ -11,12 +12,14 @@ val nope = <enderzoo:enderZooIcon>;
     var aluminum_oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>,<ore:oreAluminum>,<ore:dustAluminum>] as minetweaker.item.IIngredient[];
     for i, group in list_aluminum {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_aluminum[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_aluminum[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -43,7 +46,51 @@ val nope = <enderzoo:enderZooIcon>;
             recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[aluminum_oredict[1]]]);
         }
     }
-
+# Brass
+    val list_brass = [
+    #    nugget                  ingot                 block                 plate                 gear          ore    dust
+        [<base:nugget:6>,       <base:ingot:6>,       <base:storage_brass>, <base:plate:6>,       <base:gear:6>, nope, <base:dust:6>],
+        [<primal:brass_nugget>, <primal:brass_ingot>, <primal:brass_block>, <primal:brass_plate>,  nope,         nope,  nope]
+    ] as minetweaker.item.IItemStack[][];
+    var brass_oredict = [<ore:nuggetBrass>,<ore:ingotBrass>,<ore:blockBrass>,<ore:plateBrass>,<ore:gearBrass>,<ore:oreBrass>,<ore:dustBrass>] as minetweaker.item.IIngredient[];
+    for i, group in list_brass {
+        if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
+#            if !group[5].matches(<enderzoo:enderZooIcon>) {
+#                furnace.addRecipe(list_brass[0][1], group[5], 0.5);
+#            } 
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_brass[0][1], group[6], 0.5);
+            } 
+        }
+        if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
+        if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
+        if !group[4].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[4]); }
+        if !group[6].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
+            recipes.addShapeless(group[0]*9, [brass_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [brass_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [brass_oredict[0],brass_oredict[0],brass_oredict[0],brass_oredict[0],brass_oredict[0],brass_oredict[0],brass_oredict[0],brass_oredict[0],brass_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [brass_oredict[1],brass_oredict[1],brass_oredict[1],brass_oredict[1],brass_oredict[1],brass_oredict[1],brass_oredict[1],brass_oredict[1],brass_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, brass_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,brass_oredict[1],null],
+                 [brass_oredict[1],<ore:ingotIron>,brass_oredict[1]],
+                 [null,brass_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[brass_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[brass_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[brass_oredict[1]]]);
+        }
+    }
+    recipes.addShapeless(list_brass[0][6] * 3, [<ore:dustCopper>,<ore:dustCopper>,<ore:dustZinc>]);
+    
 # Bronze
     val list_bronze = [
     #    nugget                            ingot                            block                               plate                            gear                             ore                      dust
@@ -57,11 +104,13 @@ val nope = <enderzoo:enderZooIcon>;
     for i, group in list_bronze {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
         if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_bronze[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_bronze[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -114,8 +163,10 @@ val nope = <enderzoo:enderZooIcon>;
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_copper[0][1], group[5], 0.5);
-                furnace.addRecipe(list_copper[0][1], group[6], 0.5);
             } 
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
+                furnace.addRecipe(list_copper[0][1], group[6], 0.5);
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -157,6 +208,8 @@ val nope = <enderzoo:enderZooIcon>;
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_constantan[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_constantan[0][1], group[6], 0.5);
             }
         }
@@ -215,10 +268,12 @@ val nope = <enderzoo:enderZooIcon>;
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
         if !group[1].matches(<enderzoo:enderZooIcon>) { 
             recipes.remove(group[1]); 
-            if !group[5].matches(<enderzoo:enderZooIcon>) {
-                #furnace.addRecipe(list_iron[0][1], group[5], 0.5);
+#            if !group[5].matches(<enderzoo:enderZooIcon>) {
+#                furnace.addRecipe(list_iron[0][1], group[5], 0.5);
+#            } 
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_iron[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -262,8 +317,10 @@ val nope = <enderzoo:enderZooIcon>;
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_lead[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_lead[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -306,8 +363,10 @@ val nope = <enderzoo:enderZooIcon>;
             recipes.remove(group[1]); 
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_nickel[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_nickel[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -348,12 +407,14 @@ val nope = <enderzoo:enderZooIcon>;
     var silver_oredict = [<ore:nuggetSilver>,<ore:ingotSilver>,<ore:blockSilver>,<ore:plateSilver>,<ore:gearSilver>,<ore:oreSilver>,<ore:dustSilver>] as minetweaker.item.IIngredient[];
     for i, group in list_silver {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_silver[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_silver[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -394,12 +455,14 @@ val nope = <enderzoo:enderZooIcon>;
     val steel_oredict = [<ore:nuggetSteel>,<ore:ingotSteel>,<ore:blockSteel>,<ore:plateSteel>,<ore:gearSteel>,<ore:oreSteel>,<ore:dustSteel>] as minetweaker.item.IIngredient[];
     for i, group in list_steel {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_steel[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_steel[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -443,12 +506,14 @@ val nope = <enderzoo:enderZooIcon>;
     var tin_oredict = [<ore:nuggetTin>,<ore:ingotTin>,<ore:blockTin>,<ore:plateTin>,<ore:gearTin>,<ore:oreTin>, <ore:dustTin>] as minetweaker.item.IIngredient[];
     for i, group in list_tin {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_tin[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_tin[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -487,12 +552,14 @@ val nope = <enderzoo:enderZooIcon>;
     var uranium_oredict = [<ore:nuggetUranium>,<ore:ingotUranium>,<ore:blockUranium>,<ore:plateUranium>,<ore:gearUranium>,<ore:oreUranium>,<ore:dustUranium>] as minetweaker.item.IIngredient[];
     for i, group in list_uranium {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_uranium[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_uranium[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -532,12 +599,14 @@ val nope = <enderzoo:enderZooIcon>;
     var zinc_oredict = [<ore:nuggetZinc>,<ore:ingotZinc>,<ore:blockZinc>,<ore:plateZinc>,<ore:gearZinc>,<ore:oreZinc>,<ore:dustZinc>] as minetweaker.item.IIngredient[];
     for i, group in list_zinc {
         if !group[0].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[0]); }
-        if !group[1].matches(<enderzoo:enderZooIcon>) { 
-            recipes.remove(group[1]); 
+        if !group[1].matches(<enderzoo:enderZooIcon>) {
+            recipes.remove(group[1]);
             if !group[5].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_zinc[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(<enderzoo:enderZooIcon>) {
                 furnace.addRecipe(list_zinc[0][1], group[6], 0.5);
-            } 
+            }
         }
         if !group[2].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[2]); }
         if !group[3].matches(<enderzoo:enderZooIcon>) { recipes.remove(group[3]); }
@@ -566,7 +635,7 @@ val nope = <enderzoo:enderZooIcon>;
     }
     
     
-    # Philisopher's Gold
+    # Philosopher's Gold
     furnace.addRecipe(<base:nugget:80>, <everlastingabilities:abilityTotem>, 1.0);
     recipes.addShapeless(<base:nugget:80> * 9, [<base:ingot:80>]);
     recipes.addShapeless(<base:ingot:80>, 
