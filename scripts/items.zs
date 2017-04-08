@@ -16,7 +16,7 @@
     recipes.remove(<minecraft:name_tag>);
     recipes.addShaped(<minecraft:name_tag>,
         [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
-         [null,<bibliocraft:label:*>,null]]);
+         [null,<bibliocraft:Label:*>,null]]);
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
     recipes.addShaped(<minecraft:paper>*10,
         [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
