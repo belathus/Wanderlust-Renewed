@@ -25,6 +25,7 @@ import com.acronym.base.IMaterialType;
     var mithril     = mods.base.Materials.getOrRegister("Mithril",     23, 10079487, false);
     var nickel      = mods.base.Materials.getOrRegister("Nickel",      24, 12105910, false);
     var platinum    = mods.base.Materials.getOrRegister("Platinum",    25, 15066338, false);
+    #var plutonium   = mods.base.Materials.getOrRegister("Platinum",    63, 15066338, false);
     var silver      = mods.base.Materials.getOrRegister("Silver",      26, 12632256, false);
     var starsteel   = mods.base.Materials.getOrRegister("Starsteel",   27,  3289650,  true);
     var steel       = mods.base.Materials.getOrRegister("Steel",       28,  4408907, false);

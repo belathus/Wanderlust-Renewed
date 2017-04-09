@@ -348,4 +348,19 @@
             </output>
         </recipe>
     </recipeGroup>
+    
+    <recipeGroup name="ImmersiveEngineering" >
+        <!-- Uranium -->
+        <recipe name="Uranium" energyCost="1200" >
+            <input>
+                <itemStack oreDictionary="oreUranium" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustUranium" number="2" />
+                <itemStack oreDictionary="dustLead" number="1" chance="0.10" />
+                <itemStack oreDictionary="dustPlutonium" number="1" chance="0.02" />
+                <itemStack modID="minecraft" itemName="stone" chance="0.15" />
+            </output>
+        </recipe>
+    </recipeGroup>
 </SAGMillRecipes>

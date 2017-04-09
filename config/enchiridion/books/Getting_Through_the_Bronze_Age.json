@@ -1,4 +1,5 @@
 {
+  "modid": "",
   "uniqueName": "Getting_Through_the_Bronze_Age",
   "saveName": "Getting_Through_the_Bronze_Age",
   "displayName": "Getting Through the Bronze Age",
@@ -80,13 +81,26 @@
           "isLocked": true,
           "isHidden": false,
           "layerIndex": 1
+        },
+        {
+          "xPos": 44,
+          "yPos": 24,
+          "width": 139.0,
+          "height": 33.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Getting Through the Bronze Age",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
         }
       ],
       "pageNumber": 0,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }
