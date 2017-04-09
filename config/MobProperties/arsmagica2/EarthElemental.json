@@ -30,7 +30,7 @@
                             "function":"command",
                             "value":"tp @e[type=arsmagica2.EarthElemental,r=1] ~ -1000 ~",
                             "count":1,
-                            "suppress_output":true
+                            "suppress_output":false
                         }
                     ]
                 }
