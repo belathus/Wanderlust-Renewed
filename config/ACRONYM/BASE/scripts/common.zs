@@ -25,7 +25,7 @@ import com.acronym.base.IMaterialType;
     var mithril     = mods.base.Materials.getOrRegister("Mithril",     23, 10079487, false);
     var nickel      = mods.base.Materials.getOrRegister("Nickel",      24, 12105910, false);
     var platinum    = mods.base.Materials.getOrRegister("Platinum",    25, 15066338, false);
-    #var plutonium   = mods.base.Materials.getOrRegister("Platinum",    63, 15066338, false);
+    var plutonium   = mods.base.Materials.getOrRegister("Plutonium",   63, 12632256,  true);
     var silver      = mods.base.Materials.getOrRegister("Silver",      26, 12632256, false);
     var starsteel   = mods.base.Materials.getOrRegister("Starsteel",   27,  3289650,  true);
     var steel       = mods.base.Materials.getOrRegister("Steel",       28,  4408907, false);
@@ -37,7 +37,7 @@ import com.acronym.base.IMaterialType;
     var zinc        = mods.base.Materials.getOrRegister("Zinc",        34, 12240072, false);
 
 var metal_list = [abyssalnite, adamantine, aluminum, ardite, cobalt, copper, coralium, dilithium, gold, iridium, iron, lead,
-    mithril, nickel, platinum, silver, starsteel, tin, titanium, uranium, zinc] as com.acronym.base.IMaterialType[];
+    mithril, nickel, platinum, plutonium, silver, starsteel, tin, titanium, uranium, zinc] as com.acronym.base.IMaterialType[];
     
 var alloys_list = [aquarium, brass, bronze, coldiron, constantan, cupronickel, dawnstone, dreadium, electrum, invar, steel] as com.acronym.base.IMaterialType[];
 
