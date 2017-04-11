@@ -12,7 +12,7 @@
 
   <vanillaFurnaceRecipes>
 
-	<exclude>
+    <exclude>
       <itemStack modID="minecraft" itemName="iron_ingot" />
       <itemStack modID="minecraft" itemName="ender_pearl" />
       <itemStack oreDictionary="oreIron" />
@@ -38,7 +38,7 @@
                 <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.8" />
             </output>
         </recipe>
-    	<recipe name="Dark Steel 2" energyCost="20000" >
+        <recipe name="Dark Steel 2" energyCost="20000" >
             <input>
                 <itemStack oreDictionary="ingotSteel" />
                 <itemStack oreDictionary="gemShadow" />
@@ -59,6 +59,18 @@
         </recipe>
     </recipeGroup>
     
+    <recipeGroup name="ImmersiveEngineering">
+        <recipe name="Constantan" energyCost="5000" >
+            <input>
+                <itemStack oreDictionary="ingotCopper" />
+                <itemStack oreDictionary="ingotNickel" />
+            </input>
+            <output>
+                <itemStack modID="immersiveengineering" itemName="metal" itemMeta="6" number="2" exp="0.7" />
+            </output>
+        </recipe>
+    </recipeGroup>
+
     <recipeGroup name="Smelting">
         <recipe name="sandToGlass" energyCost="750" >
             <input>

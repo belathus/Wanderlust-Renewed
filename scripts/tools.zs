@@ -19,6 +19,10 @@
     recipes.remove(<minecraft:stone_sword>);
     recipes.remove(<minecraft:wooden_shovel>);
     recipes.remove(<minecraft:stone_shovel>);
+    # Favoring PrimalCore tools
+    recipes.remove(<<minecraft:diamond_pickaxe>);
+    recipes.remove(<<minecraft:diamond_shovel>);
+    recipes.remove(<<minecraft:diamond_sword>);
 
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
@@ -34,6 +38,24 @@
     recipes.addShaped(<minecraft:bucket>,
         [[<ore:ingotTin>,null,<ore:ingotTin>],
          [null,<ore:ingotTin>,null]]);
+
+# Actually Additions
+    # Removing a bunch of tools; AIOTs will be dungeon loot
+    # The obsidian/emerald tools should be the PrimalCore versions
+    recipes.remove(<actuallyadditions:woodenPaxel>); # Wooden AIOT
+    recipes.remove(<actuallyadditions:stonePaxel>); # Stone AIOT
+    recipes.remove(<actuallyadditions:quartzPaxel>); # Black Quartz AIOT
+    recipes.remove(<actuallyadditions:obsidianPaxel>); # Obsidian AIOT
+    recipes.remove(<actuallyadditions:itemAxeEmerald>); # Emerald Axe
+    recipes.remove(<actuallyadditions:itemAxeObsidian>); # Obsidian Axe
+    recipes.remove(<actuallyadditions:itemHoeEmerald>); # Emerald Hoe
+    recipes.remove(<actuallyadditions:itemHoeObsidian>); # Obsidian Hoe
+    recipes.remove(<actuallyadditions:itemPickaxeEmerald>); # Emerald Pickaxe
+    recipes.remove(<actuallyadditions:itemPickaxeObsidian>); # Obsidian Pickaxe
+    recipes.remove(<actuallyadditions:itemShovelEmerald>); # Emerald Shovel
+    recipes.remove(<actuallyadditions:itemShovelObsidian>); # Obsidian Shovel
+    recipes.remove(<actuallyadditions:itemSwordEmerald>); # Emerald Sword
+    recipes.remove(<actuallyadditions:itemSwordObsidian>); # Obsidian Sword
 
 # Base Metals
 #    recipes.remove(<basemetals:copper_crackhammer>);
@@ -86,6 +108,8 @@
         [[null,<ore:ingotNoctunyx>,<ore:ingotAstrium>],
          [null,<extrautils2:decorativesolidwood:1>,<ore:ingotNoctunyx>],
          [<extrautils2:decorativesolidwood:1>,null,null]]);
+    recipes.remove(<extrautils2:sickle_wood>);
+    recipes.remove(<extrautils2:sickle_stone>);
 
 # Grappling Hooks
 #    recipes.remove(<grapplemod:grapplinghook>);
@@ -200,6 +224,14 @@
 #        [[<roots:verdantSprig>],
 #         [<ore:flakeFlint>],
 #         [<ore:stickWood>]]);
+
+# Thermal Expansion
+    recipes.remove(<thermalfoundation:tool.shears_wood>);
+    recipes.remove(<thermalfoundation:tool.shears_stone>);
+    recipes.remove(<thermalfoundation:tool.hammer_wood>);
+    recipes.remove(<thermalfoundation:tool.sickle_wood>);
+    recipes.remove(<thermalfoundation:tool.hammer_stone>);
+    recipes.remove(<thermalfoundation:tool.sickle_stone>);
 
 # Tinker's Construct
     recipes.addShapeless(<tconstruct:throwball:1> * 5, 
