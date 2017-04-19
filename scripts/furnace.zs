@@ -52,3 +52,6 @@
 
 # TAIGA
 #    furnace.remove(<rockhounding_chemistry:miscItems:2>, <taiga:slagiron_ingot>);
+
+#Miscellaneous
+	furnace.addRecipe(<extrautils2:decorativeglass>, <extrautils2:compressedsand>, 0.9);

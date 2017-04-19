@@ -300,5 +300,5 @@ recipes.addShaped(<chisel:blockUranium>*16,
      [<ore:plateUranium>,null,<ore:plateUranium>],
      [<ore:rock>,<ore:plateUranium>,<ore:rock>]]);
 
-     
-     
+#Chiselable Clear Glass
+	mods.chisel.Groups.addVariation("glass", <tconstruct:clear_glass>);

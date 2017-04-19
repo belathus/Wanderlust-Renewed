@@ -65,7 +65,7 @@
     <ore:oreDilithium>.add(<taiga:dilithium_ore>);
     <ore:oreDilithium>.remove(<taiga:dilithium_block>);
     <ore:blockDilithium>.add(<taiga:dilithium_block>);
-    
+	    
     
 # Adding ores to the normal oredict entries
 #    <ore:oreEmerald>.add(<nethermetals:nether_emerald_ore>);
@@ -100,3 +100,39 @@
 #    <ore:oreUranium>.add(<nethermetals:nether_uranium_ore>);
 #    <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
 
+# Work Table Full Blocks
+	val worktable_logs = [
+		<primal:worktable_acacia_log>,
+		<primal:worktable_bigoak_log>,
+		<primal:worktable_birch_log>,
+		<primal:worktable_jungle_log>,
+		<primal:worktable_oak_log>,
+		primal:worktable_spruce_log>
+	] as minetweaker.item.IItemStack[];
+	
+	var worktableWoodLog = <ore:worktableWoodLog>;
+	
+	for i, block in worktable_logs{
+		worktableWoodLog.add(block);
+	}
+
+# Marble
+	
+	val astral_sorcery_chiseled_marble = [
+		<astralsorcery:BlockMarble:1>,
+		<astralsorcery:BlockMarble:2>,
+		<astralsorcery:BlockMarble:3>,
+		<astralsorcery:BlockMarble:4>,
+		<astralsorcery:BlockMarble:5>,
+		<astralsorcery:BlockMarble:6>
+	] as minetweaker.item.IItemStack[];
+	
+	for i, block in astral_sorcery_chiseled_marble{
+		<ore:stoneMarble>.add(block);
+		<ore:stoneMarblePolished>.add(block);
+		#mods.chisel.Groups.addVariation("marble", block);
+	}
+	
+	<ore:stoneMarble>.addAll(<ore:blockMarble>);
+	<ore:blockMarble>.addAll(<ore:stoneMarble>);
+	
