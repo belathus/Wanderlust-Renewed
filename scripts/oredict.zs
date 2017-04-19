@@ -101,18 +101,15 @@
 #    <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
 
 # Work Table Full Blocks
-	val worktable_logs = [
-		<primal:worktable_acacia_log>,
-		<primal:worktable_bigoak_log>,
-		<primal:worktable_birch_log>,
-		<primal:worktable_jungle_log>,
-		<primal:worktable_oak_log>,
-		primal:worktable_spruce_log>
-	] as minetweaker.item.IItemStack[];
-	
-	var worktableWoodLog = <ore:worktableWoodLog>;
-	
-	for i, block in worktable_logs{
-		worktableWoodLog.add(block);
-	}
+    val worktable_logs = [
+        <primal:worktable_acacia_log>,
+        <primal:worktable_bigoak_log>,
+        <primal:worktable_birch_log>,
+        <primal:worktable_jungle_log>,
+        <primal:worktable_oak_log>,
+        <primal:worktable_spruce_log>
+    ] as minetweaker.item.IItemStack[];
+    for i, block in worktable_logs{
+        <ore:worktableWoodLog>.add(block);
+    }
 
