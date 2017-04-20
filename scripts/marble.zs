@@ -15,6 +15,5 @@
 		mods.chisel.Groups.addVariation("marble", block);
 	}*/
 	
-	<ore:stoneMarble>.addAll(<ore:blockMarble>);
-	<ore:blockMarble>.mirror(<ore:stoneMarble>);
+	
 	

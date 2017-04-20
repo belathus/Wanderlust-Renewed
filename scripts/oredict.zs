@@ -112,4 +112,8 @@
     for i, block in worktable_logs{
         <ore:worktableWoodLog>.add(block);
     }
+	
+# Marble
+    <ore:stoneMarble>.addAll(<ore:blockMarble>);
+    <ore:blockMarble>.addAll(<ore:stoneMarble>);
 

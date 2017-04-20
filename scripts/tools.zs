@@ -20,9 +20,9 @@
     recipes.remove(<minecraft:wooden_shovel>);
     recipes.remove(<minecraft:stone_shovel>);
     # Favoring PrimalCore tools
-    recipes.remove(<<minecraft:diamond_pickaxe>);
-    recipes.remove(<<minecraft:diamond_shovel>);
-    recipes.remove(<<minecraft:diamond_sword>);
+    recipes.remove(<minecraft:diamond_pickaxe>);
+    recipes.remove(<minecraft:diamond_shovel>);
+    recipes.remove(<minecraft:diamond_sword>);
 
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
