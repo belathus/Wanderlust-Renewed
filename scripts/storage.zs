@@ -86,7 +86,7 @@
     # Iron
 	recipes.remove(<ironchest:BlockIronChest:0>);
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*288,<minecraft:chest>, true, 80);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*288,<quark:custom_chest>, true, 80);
+    mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*288,<quark:custom_chest:*>, true, 80);
 	mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:0>,<liquid:iron>*144,<ironchest:BlockIronChest:3>, true, 80);
 
     # Gold
