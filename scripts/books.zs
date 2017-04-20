@@ -18,11 +18,11 @@
 #Book of Unlearning
 	recipes.remove(<levelup:respec_book>);
 	recipes.addShaped(<levelup:respec_book>, 
-		[[<thermalfoundation:tool.sword_bronze>, <base:plate:22>, <thermalfoundation:tool.pickaxe_bronze>],
-		[<evilcraft:darkGem>, <minecraft:book>, <evilcraft:darkGem>],
-		[<thermalfoundation:tool.shovel_bronze>, <base:plate:22>, <thermalfoundation:tool.axe_bronze>]]);
+		[[<thermalfoundation:tool.sword_bronze>, <ore:plateLead>, <thermalfoundation:tool.pickaxe_bronze>],
+		[<ore:gemDark>, <minecraft:book>, <ore:gemDark>],
+		[<thermalfoundation:tool.shovel_bronze>, <ore:plateLead>, <thermalfoundation:tool.axe_bronze>]]);
 	#Book of Unlearning with Class Change	
 	recipes.addShaped(<levelup:respec_book:1>, 
 		[[<minecraft:iron_sword>, <cyberware:bodyPart:1>, <minecraft:iron_pickaxe>],
-		[<base:plate:21>, <minecraft:book>, <base:plate:21>],
+		[<ore:plateIron>, <minecraft:book>, <ore:plateIron>],
 		[<minecraft:iron_shovel>, null, <minecraft:iron_axe>]]);
