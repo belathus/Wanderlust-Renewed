@@ -48,16 +48,25 @@
 #   <material:mythril>.modifierHandle = 5;
 #   <material:mythril>.durabilityExtra = 5;
 
+#   Gem tool balancing
+    <material:peridot>.harvestLevelHead = 2;
+    <material:sapphire>.harvestLevelHead = 2;
+    <material:ruby>.harvestLevelHead = 2;
+    <material:topaz>.harvestLevelHead = 2;
+    <material:tanzanite>.harvestLevelHead = 2;
+    <material:malachite_gem>.harvestLevelHead = 2;
+    <material:amber>.harvestLevelHead = 2;
+    <material:amethyst>.harvestLevelHead = 2;
+
 
 # Vanilla
-#    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*8, <minecraft:cobblestone>, 200, <minecraft:cobblestone>);
-
-# Cyberware 
-    mods.tconstruct.Smeltery.addMelting(<liquid:titanium>*144, <cyberware:component:2>, 200, <cyberware:component:2>);
+    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*8,<minecraft:cobblestone>, 200);
 
 # EnderIO
     mods.tconstruct.Smeltery.removeAlloy(<liquid:darksteel>);
 
 # Extra Utilities
-#    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*72,<extrautils2:compressedcobblestone>, 200, <extrautils2:compressedcobblestone>);
+    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*72,<extrautils2:compressedcobblestone>, 200);
 
+# Cyberware 
+    mods.tconstruct.Smeltery.addMelting(<liquid:titanium>*36,<cyberware:component:2>, 200);
