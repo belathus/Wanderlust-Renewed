@@ -66,7 +66,7 @@
     mods.tconstruct.Smeltery.removeAlloy(<liquid:darksteel>);
 
 # Extra Utilities
-#    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*72,<extrautils2:compressedcobblestone>, 200, <extrautils2:compressedcobblestone>);
+    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*72,<extrautils2:compressedcobblestone>, 200);
 
 # Cyberware 
     mods.tconstruct.Smeltery.addMelting(<liquid:titanium>*36,<cyberware:component:2>, 200);
