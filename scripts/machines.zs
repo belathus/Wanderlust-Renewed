@@ -94,9 +94,9 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 # Better Beginnings
     recipes.remove(<betterbeginnings:kiln>);
     recipes.addShaped(<betterbeginnings:kiln>,
-        [[<ore:bricksStone>, <ore:cobblestone>, <ore:bricksStone>],
+        [[<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>],
          [<ore:cobblestone>, null, <ore:cobblestone>],
-         [<ore:bricksStone>, <ore:cobblestone>, <ore:bricksStone>]]);
+         [<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>]]);
 
 # Blood Magic
     # Altar
