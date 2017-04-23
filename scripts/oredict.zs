@@ -100,6 +100,45 @@
 #    <ore:oreUranium>.add(<nethermetals:nether_uranium_ore>);
 #    <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
 
+# Doors to doorWood oredict
+    val doors = [
+        <minecraft:acacia_door>,
+        <minecraft:spruce_door>,
+        <minecraft:wooden_door>,
+        <minecraft:birch_door>,
+        <minecraft:jungle_door>,
+        <minecraft:dark_oak_door>,
+        <biomesoplenty:sacred_oak_door>,
+        <biomesoplenty:cherry_door>,
+        <biomesoplenty:umbran_door>,
+        <biomesoplenty:fir_door>,
+        <biomesoplenty:ethereal_door>,
+        <biomesoplenty:magic_door>,
+        <biomesoplenty:mangrove_door>,
+        <biomesoplenty:palm_door>,
+        <biomesoplenty:redwood_door>,
+        <biomesoplenty:willow_door>,
+        <biomesoplenty:pine_door>,
+        <biomesoplenty:hellbark_door>,
+        <biomesoplenty:jacaranda_door>,
+        <biomesoplenty:mahogany_door>,
+        <biomesoplenty:ebony_door>,
+        <biomesoplenty:eucalyptus_door>,
+        <natura:overworld_doors:*>,
+        <natura:nether_doors:*>,
+        <thebetweenlands:weedwood_door_item>,
+        <thebetweenlands:rubber_tree_plank_door_item>,
+        <thebetweenlands:weedwood_door>,
+        <thebetweenlands:rubber_tree_plank_door>
+    ] as minetweaker.item.IItemStack[];
+    for i, door in doors {
+        <ore:doorWood>.add(door);
+    }
+	
+# Marble
+    <ore:stoneMarble>.addAll(<ore:blockMarble>);
+    <ore:blockMarble>.addAll(<ore:stoneMarble>);
+
 # Work Table Full Blocks
     val worktable_logs = [
         <primal:worktable_acacia_log>,
@@ -112,8 +151,4 @@
     for i, block in worktable_logs{
         <ore:worktableWoodLog>.add(block);
     }
-	
-# Marble
-    <ore:stoneMarble>.addAll(<ore:blockMarble>);
-    <ore:blockMarble>.addAll(<ore:stoneMarble>);
 
