@@ -166,6 +166,16 @@
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
+    recipes.addShapeless(<primal:flint_shovel>, 
+        [<primal:flint_shovel>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
+        function(output, inputs, crafting) {
+            return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
+        });
+    recipes.addShapeless(<primal:flint_hoe>, 
+        [<primal:flint_hoe>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
+        function(output, inputs, crafting) {
+            return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
+        });
     recipes.addShapeless(<primal:quartz_hatchet>, 
         [<primal:quartz_hatchet>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
