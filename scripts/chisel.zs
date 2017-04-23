@@ -1,4 +1,4 @@
-
+/*
 mods.chisel.Groups.removeGroup("blockAluminum");
 mods.chisel.Groups.removeGroup("blockBronze");
 mods.chisel.Groups.removeGroup("blockCobalt");
@@ -299,6 +299,8 @@ recipes.addShaped(<chisel:blockUranium>*16,
     [[<ore:rock>,<ore:plateUranium>,<ore:rock>],
      [<ore:plateUranium>,null,<ore:plateUranium>],
      [<ore:rock>,<ore:plateUranium>,<ore:rock>]]);
+
+*/
 
 #Chiselable Clear Glass
 	mods.chisel.Groups.addVariation("glass", <tconstruct:clear_glass>);
