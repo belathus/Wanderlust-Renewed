@@ -25,6 +25,8 @@
             <xp>0.5</xp>
         </properties>
     </recipe>
+    
+    <!-- Sulfur to Dull Dust -->
     <recipe type="evilcraft:bloodinfuser">
         <input>
             <item type="oredict">dustSulfur</item>
@@ -39,4 +41,40 @@
             <xp>0.5</xp>
         </properties>
     </recipe>
+    
+    <!-- Sunstone to Blood Opal -->
+    <recipe type="evilcraft:bloodinfuser">
+        <input>
+            <item type="oredict">gemSunstone</item>
+            <fluid amount="500">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>primal:opal</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>200</duration>
+            <xp>1.5</xp>
+        </properties>
+    </recipe>
+
+    <!-- Lilypad to Wakebloom -->
+    <recipe type="evilcraft:bloodinfuser">
+        <input>
+            <item>minecraft:waterlily</item>
+            <fluid amount="300">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>arsmagica2:wakebloom</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>200</duration>
+            <xp>0.5</xp>
+        </properties>
+    </recipe>
+    
+    <!-- Rock to Slate; tier 2 -->
+    <!-- Black lotus (Actually Additions) to black lotus (Botania); tier 2 -->
+    <!-- Ferrocalcate to blank rune; tier 3 -->
 </recipes>
