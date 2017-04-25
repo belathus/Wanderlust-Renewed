@@ -27,7 +27,7 @@
     </recipe>
     <recipe type="evilcraft:bloodinfuser">
         <input>
-            <item>abyssalcraft:sulfur</item>
+            <item type="oredict">dustSulfur</item>
             <fluid amount="250">evilcraftblood</fluid>
         </input>
         <output>
