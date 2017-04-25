@@ -12,4 +12,31 @@
             <xp>0.5</xp>
         </properties>
     </recipe>
+    <recipe type="evilcraft:bloodinfuser">
+        <input>
+            <item>betterbeginnings:bone_shard</item>
+            <fluid amount="250">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>minecraft:flint</item>
+        </output>
+        <properties>
+            <duration>200</duration>
+            <xp>0.5</xp>
+        </properties>
+    </recipe>
+    <recipe type="evilcraft:bloodinfuser">
+        <input>
+            <item>abyssalcraft:sulfur</item>
+            <fluid amount="250">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:dullDust</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>200</duration>
+            <xp>0.5</xp>
+        </properties>
+    </recipe>
 </recipes>
