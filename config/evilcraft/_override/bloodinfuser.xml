@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+    
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">darkGem</condition>
+        <condition type="config">darkPowerGem</condition>
+        <condition type="config">evilcraftblood</condition>
+        <input>
+            <item>evilcraft:darkGem</item>
+            <fluid amount="250">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:darkPowerGem</item>
+        </output>
+        <properties>
+            <duration>200</duration>
+            <xp>0.5</xp>
+        </properties>
+    </recipe>
+    
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">undeadSapling</condition>
+        <condition type="config">evilcraftblood</condition>
+        <input>
+            <item>minecraft:deadbush</item>
+            <fluid amount="2000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:undeadSapling</item>
+        </output>
+        <properties>
+            <duration>200</duration>
+            <xp>1.5</xp>
+        </properties>
+    </recipe>
+    
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">blook</condition>
+        <condition type="config">evilcraftblood</condition>
+        <input>
+            <item>minecraft:book</item>
+            <fluid amount="500">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:blook</item>
+        </output>
+        <properties>
+            <duration>500</duration>
+            <tier>1</tier>
+            <xp>1</xp>
+        </properties>
+    </recipe>
+    
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">darkBrick</condition>
+        <condition type="config">darkBloodBrick</condition>
+        <condition type="config">evilcraftblood</condition>
+        <input>
+            <item>evilcraft:darkBrick</item>
+            <fluid amount="1000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:darkBloodBrick</item>
+        </output>
+        <properties>
+            <duration>250</duration>
+            <tier>2</tier>
+            <xp>1.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">corruptedTear</condition>
+        <input>
+            <item>minecraft:ghast_tear</item>
+            <fluid amount="10000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:corruptedTear</item>
+        </output>
+        <properties>
+            <duration>500</duration>
+            <tier>3</tier>
+            <xp>2.5</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">bowlOfPromises</condition>
+        <input>
+            <item meta="0">evilcraft:bowlOfPromises</item>
+            <fluid amount="5000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="2">evilcraft:bowlOfPromises</item>
+        </output>
+        <properties>
+            <duration>1000</duration>
+            <tier>0</tier>
+            <xp>2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">bowlOfPromises</condition>
+        <input>
+            <item meta="0">evilcraft:bowlOfPromises</item>
+            <fluid amount="5000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="3">evilcraft:bowlOfPromises</item>
+        </output>
+        <properties>
+            <duration>1000</duration>
+            <tier>1</tier>
+            <xp>2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">bowlOfPromises</condition>
+        <input>
+            <item meta="0">evilcraft:bowlOfPromises</item>
+            <fluid amount="5000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="4">evilcraft:bowlOfPromises</item>
+        </output>
+        <properties>
+            <duration>1000</duration>
+            <tier>2</tier>
+            <xp>2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">bowlOfPromises</condition>
+        <input>
+            <item meta="0">evilcraft:bowlOfPromises</item>
+            <fluid amount="5000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="5">evilcraft:bowlOfPromises</item>
+        </output>
+        <properties>
+            <duration>1000</duration>
+            <tier>3</tier>
+            <xp>2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>other</tag>
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">bloodyCobblestone</condition>
+        <input>
+            <item>minecraft:mossy_cobblestone</item>
+            <fluid amount="500">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:bloodyCobblestone</item>
+        </output>
+        <properties>
+            <duration>250</duration>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">darkBlock</condition>
+        <condition type="config">darkPowerGemBlock</condition>
+        <condition type="config">evilcraftblood</condition>
+        <input>
+            <item>evilcraft:darkBlock</item>
+            <fluid amount="2250">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:darkPowerGemBlock</item>
+        </output>
+        <properties>
+            <duration>1800</duration>
+            <xp>5</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">promiseAcceptor</condition>
+        <input>
+            <item type="oredict">blockSilver</item>
+            <fluid amount="10000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="0">evilcraft:promiseAcceptor</item>
+        </output>
+        <properties>
+            <duration>500</duration>
+            <tier>0</tier>
+            <xp>5</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">promiseAcceptor</condition>
+        <input>
+            <item>minecraft:gold_block</item>
+            <fluid amount="40000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="1">evilcraft:promiseAcceptor</item>
+        </output>
+        <properties>
+            <duration>2000</duration>
+            <tier>1</tier>
+            <xp>8</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">promiseAcceptor</condition>
+        <input>
+            <item>minecraft:diamond_block</item>
+            <fluid amount="160000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="2">evilcraft:promiseAcceptor</item>
+        </output>
+        <properties>
+            <duration>5000</duration>
+            <tier>2</tier>
+            <xp>10</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>other</tag>
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">bloodOrb</condition>
+        <input>
+            <item meta="0">evilcraft:bloodOrb</item>
+            <fluid amount="3500">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item meta="1">evilcraft:bloodOrb</item>
+        </output>
+        <properties>
+            <duration>3000</duration>
+            <tier>1</tier>
+            <xp>2.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">undeadPlank</condition>
+        <condition type="config">reinforcedUndeadPlank</condition>
+        <input>
+            <item>evilcraft:undeadPlank</item>
+            <fluid amount="1000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:reinforcedUndeadPlank</item>
+        </output>
+        <properties>
+            <duration>250</duration>
+            <tier>2</tier>
+            <xp>1.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="config">bloodInfuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">vengeanceEssence</condition>
+        <condition type="config">garmonbozia</condition>
+        <input>
+            <item meta="1">evilcraft:vengeanceEssence</item>
+            <fluid amount="50000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:garmonbozia</item>
+        </output>
+        <properties>
+            <duration>1200</duration>
+            <tier>3</tier>
+            <xp>20</xp>
+        </properties>
+    </recipe>
+    
+</recipes>
