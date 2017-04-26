@@ -255,6 +255,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
 # Immersive Engineering
+    # Coke Oven
     recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
         [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
          [<primal:ciniscotta>,<ore:sandstone>,<primal:ciniscotta>],
@@ -275,6 +276,16 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
          [<primal:terracotta>,<ore:blockSoulstone>,<primal:terracotta>],
          [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
+    # Blast Furnace
+    recipes.remove(<immersiveengineering:stoneDecoration:1>);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 3,
+        [[<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>],
+         [<ore:ingotBrickSeared>, <ore:slimecrystalMagma>, <ore:ingotBrickSeared>],
+         [<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>]]);
+    recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 3,
+        [[<ore:ingotBrickSeared>, <ore:ingotBrickNether>, <ore:ingotBrickSeared>],
+         [<ore:ingotBrickNether>, <ore:slimecrystalMagma>, <ore:ingotBrickNether>],
+         [<ore:ingotBrickSeared>, <ore:ingotBrickNether>, <ore:ingotBrickSeared>]]);
 
 # Minecolonies
     recipes.remove(<minecolonies:supplyChestDeployer>);
