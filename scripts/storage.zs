@@ -94,12 +94,9 @@
     mods.tconstruct.Casting.addBasinRecipe(<ironchest:BlockIronChest:1>,<liquid:gold>*144,<ironchest:BlockIronChest:4>, true, 80);
     
     # Mithril (AKA Diamond)
-    <ironchest:BlockIronChest:2>.displayName = "Mithril Chest";
     recipes.remove(<ironchest:BlockIronChest:2>);
     recipes.addShaped(<ironchest:BlockIronChest:2>,
-        [[null, null, null],
-         [<ore:ingotMithril>,<ironchest:BlockIronChest:1>,<ore:ingotMithril>],
-         [null, null, null]]);
+        [[<ore:ingotMithril>,<ironchest:BlockIronChest:1>,<ore:ingotMithril>]]);
 
     # Copper
     recipes.remove(<ironchest:BlockIronChest:3>);
