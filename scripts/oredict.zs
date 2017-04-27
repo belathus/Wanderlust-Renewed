@@ -82,6 +82,8 @@
 # gears
     #<ore:gearSteel>.add(<railcraft:gear:2>);
     #<ore:gearGilded>.add(<railcraft:gear:0>);
+# Glass
+    <ore:blockGlassColorless>.add(<tconstruct:clear_glass>);
 # Limestone
     <ore:stoneLimestone>.add(<primal:carbonate_stone>);
     <ore:stoneLimestone>.add(<primal:ferro_stone>);
