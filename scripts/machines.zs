@@ -19,7 +19,39 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[null, <ore:bricksStone>, null],
          [<ore:bricksStone>,null,<ore:bricksStone>],
          [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
-    
+
+# Actually Additions
+    # Redstonia crystal = itemCrystal
+    # <actuallyadditions:blockMisc:2> = Black Quartz Block
+    # <actuallyadditions:blockMisc:4> = wood casing
+    # <actuallyadditions:blockMisc:5> = charcoal block
+    # <actuallyadditions:blockMisc:6> = ender pearl block
+    # <actuallyadditions:blockMisc:7> = Casing?
+    # <actuallyadditions:blockMisc:8> = Ender Casing?
+    # <actuallyadditions:blockMisc:9> = Iron Casing?
+    # <actuallyadditions:itemCrystal:0> = redstonia crystal
+    # <actuallyadditions:itemCrystal:1> = lapis crystal
+    # <actuallyadditions:itemCrystal:2> = diamond crystal
+    # <actuallyadditions:itemCrystal:3> = void crystal
+    # <actuallyadditions:itemCrystal:4> = emerald crystal
+    # <actuallyadditions:itemCrystal:5> = iron crystal
+    # <actuallyadditions:blockCrystal:3> = void crystal block
+    recipes.remove(<actuallyadditions:blockGrinder>);
+    recipes.remove(<actuallyadditions:blockGrinderDouble>);
+    recipes.remove(<actuallyadditions:blockMisc:9>); # Iron casing
+    recipes.addShaped(<actuallyadditions:blockMisc:9>,
+        [[<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>],
+         [<ore:stickWood>, <actuallyadditions:itemMisc:5>, <ore:stickWood>],
+         [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>]]);
+    recipes.addShaped(<actuallyadditions:blockGrinder>,
+        [[<ore:ingotSteel>, <extrautils2:spike_diamond>, <ore:ingotSteel>],
+         [<actuallyadditions:itemMisc:7>, <ore:frameSteel>, <actuallyadditions:itemMisc:7>],
+         [<actuallyadditions:itemCrystal>, <ore:ingotSteel>, <actuallyadditions:itemCrystal>]]);
+    recipes.addShaped(<actuallyadditions:blockGrinderDouble>,
+        [[<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>],
+         [<actuallyadditions:blockGrinder:*>, <ore:frameSteel>, <actuallyadditions:blockGrinder:*>],
+         [<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>]]);
+
 # Ars Magica 2
     recipes.remove(<arsmagica2:arcane_reconstructor>);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
