@@ -128,11 +128,11 @@
     #<ore:nuggetDiamod>.remove(<morebees:diamondFragment>);
     #<ore:nuggetDiamond>.add(<morebees:diamondFragment>);
 # Fixing TAIGA's oredict
-    <ore:oreDilithium>.add(<taiga:dilithium_ore>);
-    <ore:oreDilithium>.remove(<taiga:dilithium_block>);
-    <ore:blockDilithium>.add(<taiga:dilithium_block>);
-	    
-    
+    #<ore:oreDilithium>.add(<taiga:dilithium_ore>);
+    #<ore:oreDilithium>.remove(<taiga:dilithium_block>);
+    #<ore:blockDilithium>.add(<taiga:dilithium_block>);
+
+
 # Adding ores to the normal oredict entries
 #    <ore:oreEmerald>.add(<nethermetals:nether_emerald_ore>);
 #    <ore:oreDiamond>.add(<nethermetals:nether_diamond_ore>);
