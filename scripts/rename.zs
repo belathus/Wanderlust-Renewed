@@ -11,3 +11,6 @@
 # Evilcraft
     <evilcraft:promiseAcceptor:0>.displayName = "Silver Promise Acceptor";
     #<evilcraft:promiseAcceptor:2>.displayName = "Mithril Promise Acceptor";
+    
+# Iron Chests
+    <ironchest:BlockIronChest:2>.displayName = "Mithril Chest";
