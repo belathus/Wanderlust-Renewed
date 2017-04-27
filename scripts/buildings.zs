@@ -19,7 +19,7 @@
     
     recipes.remove(<minecolonies:blockHutLumberjack>);
     recipes.addShapeless(<minecolonies:blockHutLumberjack>,
-         [<primal:copper_saw>, <immersiveengineering:woodenDevice0>]);
+         [<primal:copper_saw>.noReturn(), <immersiveengineering:woodenDevice0>]);
     
     recipes.remove(<minecolonies:blockHutBuilder>);
     recipes.addShapeless(<minecolonies:blockHutBuilder>,
