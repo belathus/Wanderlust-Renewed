@@ -71,8 +71,12 @@
     <ore:flowerRed>.add(<botania:flower:14>);
 # Frames
     <ore:woodFrame>.add(<actuallyadditions:blockMisc:4>);
+    <ore:ironFrame>.add(<ironchest:BlockIronChest>);
     #<ore:ironFrame>.add(<actuallyadditions:blockMisc:9>);
     <ore:steelFrame>.add(<actuallyadditions:blockMisc:9>);
+    <ore:steelFrame>.add(<enderio:itemMachinePart>);
+    <ore:steelFrame>.add(<rftools:machine_frame>);
+    <ore:steelFrame>.add(<deepresonance:machine_frame>);
     <ore:enderFrame>.add(<actuallyadditions:blockMisc:8>);
     
 # gears
