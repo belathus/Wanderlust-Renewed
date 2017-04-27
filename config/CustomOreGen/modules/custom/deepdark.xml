@@ -371,35 +371,35 @@
                     </Veins>
                 </Cloud>
             </IfModInstalled>
-            
+
             <!-- Base Metals -->
             <IfModInstalled name="basemetals">
                 <Veins name='baseDDMercuryVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='basemetals:mercury_ore' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 1.583 * _default_ ' range=':= 1.583 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.222 * _default_ ' range=':= 1.222 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='basemetals:mercury_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 1.583 * _default_ ' range=':= 1.583 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.222 * _default_ ' range=':= 1.222 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
             </IfModInstalled>
-            
+
             <!-- EvilCraft -->
             <IfModInstalled name="evilcraft">
                 <Veins name='evilDDDarkGemVeins'  inherits='PresetHintVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60554444' drawBoundBox='false' boundBoxColor='0x60554444'>
@@ -427,35 +427,35 @@
                     <Setting name='OreRadiusMult'           avg=':= _default_ '     range=':= _default_ '       type='normal' />
                 </Veins>
             </IfModInstalled>
-            
+
             <!-- Forestry -->
             <IfModInstalled name="forestry">
                 <Veins name='foreDDApatiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='forestry:resources' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 1.413 * _default_ ' range=':= 1.413 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 2.122 * _default_ ' range=':= 2.122 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='forestry:resources' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 1.413 * _default_ ' range=':= 1.413 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 2.122 * _default_ ' range=':= 2.122 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 56 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.183 * _default_ ' range=':= 1.183 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                     <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.185 * _default_ ' range=':= 1.185 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>    
             </IfModInstalled>
-            
+
             <!-- FuturePack -->
             <IfModInstalled name="base">
                 <Veins name='baseDDZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6000FF00' drawBoundBox='false' boundBoxColor='0x6000FF00'>
@@ -489,138 +489,167 @@
             <IfModInstalled name="immersiveengineering">
                 <!-- Copper Veins -->
                 <Veins name='iengDDCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='ImmersiveEngineering:ore:0' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.620 * _default_ ' range=':= 1.620 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-    			
-    			
-    			<!-- Aluminum Veins -->
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='ImmersiveEngineering:ore:0' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.620 * _default_ ' range=':= 1.620 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
+
+                <!-- Aluminum Veins -->
                 <Veins name='iengDDAluminumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 1.016 * _default_ ' range=':= 1.016 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.420 * _default_ ' range=':= 1.420 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-    			
-    			
-    			<!-- Lead (80%) and Silver (20%) Veins -->
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 1.016 * _default_ ' range=':= 1.016 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.420 * _default_ ' range=':= 1.420 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
+
+                <!-- Lead (80%) and Silver (20%) Veins -->
                 <Veins name='iengDDLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='ImmersiveEngineering:ore:2' weight='0.8' />
-    				<OreBlock block='ImmersiveEngineering:ore:3' weight='0.2' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.867 * _default_ ' range=':= 0.867 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.320 * _default_ ' range=':= 1.320 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 22 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-    			
-    			
-    			<!-- Nickel Veins -->
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='ImmersiveEngineering:ore:2' weight='0.8' />
+                    <OreBlock block='ImmersiveEngineering:ore:3' weight='0.2' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.867 * _default_ ' range=':= 0.867 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.320 * _default_ ' range=':= 1.320 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 22 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
+
+                <!-- Nickel Veins -->
                 <Veins name='iengDDNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.816 * _default_ ' range=':= 0.816 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 1.420 * _default_ ' range=':= 1.420 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-    			
-    			
-    			<!-- Uranium Veins -->
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.816 * _default_ ' range=':= 0.816 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.420 * _default_ ' range=':= 1.420 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
+
+                <!-- Uranium Veins -->
                 <Veins name='iengDDUraniumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.216 * _default_ ' range=':= 0.216 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 0.920 * _default_ ' range=':= 0.920 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 14 '                range=':= 12 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='ImmersiveEngineering:ore:5' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.216 * _default_ ' range=':= 0.216 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.920 * _default_ ' range=':= 0.920 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 14 '                range=':= 12 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+            </IfModInstalled>
+
+            <!-- LibVulpes -->
+            <IfModInstalled name="libvulpes">
+                <Veins name='libvDDDilithiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='libvulpes:ore0' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <ReplacesOre block='cobblestone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 16 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
             </IfModInstalled>
             
             <!-- Rockhounding! -->
@@ -904,142 +933,142 @@
             <!-- TAIGA -->
             <IfModInstalled name="taiga">
                 <Veins name='taigaDDDilithiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='taiga:dilithium_ore' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<ReplacesOre block='cobblestone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 16 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='taiga:dilithium_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <ReplacesOre block='cobblestone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 28 '                range=':= 16 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
                 
                 <!-- Karmesine Ore -->
                 <Veins name='taigaDDKarmesineVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='taiga:karmesine_ore' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<ReplacesOre block='cobblestone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-                
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='taiga:karmesine_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <ReplacesOre block='cobblestone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.645 * _default_ ' range=':= 0.645 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
                 <!-- Meteorite Ore -->
                 <Veins name='taigaDDMeteoriteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='taiga:meteoritecobble_block' weight='0.91' />
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='taiga:meteoritecobble_block' weight='0.91' />
                     <OreBlock block='taiga:duranite_ore' weight='0.03' />
                     <OreBlock block='taiga:uru_ore' weight='0.03' />
                     <OreBlock block='taiga:osram_ore' weight='0.03' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<ReplacesOre block='cobblestone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 2.585 * _default_ ' range=':= 2.585 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 2.960 * _default_ ' range=':= 2.960 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 0.890 * _default_ ' range=':= 0.890 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-    			
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <ReplacesOre block='cobblestone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 2.585 * _default_ ' range=':= 2.585 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 2.960 * _default_ ' range=':= 2.960 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 32 '                range=':= 16 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 0.890 * _default_ ' range=':= 0.890 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
                 <!-- Eezo Ore -->
                 <Veins name='taigaDDEezoVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='taiga:eezo_ore' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<ReplacesOre block='cobblestone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.285 * _default_ ' range=':= 0.285 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 6 '                 range=':= 2 '                 type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= 0.0 '               range=':= 0.0 '               type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 0.0 '               range=':= 0.0 '               type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-                
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='taiga:eezo_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <ReplacesOre block='cobblestone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.285 * _default_ ' range=':= 0.285 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 6 '                 range=':= 2 '                 type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= 0.0 '               range=':= 0.0 '               type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 0.0 '               range=':= 0.0 '               type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
                 <!-- Vibranium -->
                 <Veins name='taigaDDVibraniumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E78125'>
-    				<Description>
-    					Small, fairly rare motherlodes with 2-4 horizontal veins each.
-    				</Description>
-    				<OreBlock block='taiga:vibranium_ore' weight='1.0' />
-    				<ReplacesOre block='stone' weight='1.0' />
-    				<ReplacesOre block='cobblestone' weight='1.0' />
-    				<Biome name='.*'  />
-    				<Setting name='MotherlodeFrequency'   avg=':= 0.421 * _default_ ' range=':= 0.421 * _default_ ' type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
-    				<Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 16 '                type='normal' scaleTo='base' />
-    				<Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
-    				<Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-    				<Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
-    				<Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    				<Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-    			</Veins>
-                
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='taiga:vibranium_ore' weight='1.0' />
+                    <ReplacesOre block='stone' weight='1.0' />
+                    <ReplacesOre block='cobblestone' weight='1.0' />
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.421 * _default_ ' range=':= 0.421 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 0.960 * _default_ ' range=':= 0.960 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 16 '                type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 1.091 * _default_ ' range=':= 1.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+
                 <!-- Granite/Jauxium Ore Geode -->
                 <Veins name='taigaDDGraniteGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x3621' drawWireframe='false' wireframeColor='0x609C661F' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                     <Description>
