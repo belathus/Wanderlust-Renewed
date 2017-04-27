@@ -2,6 +2,9 @@
 #<morebees:emeraldFragment>.displayName = "Emerald Fragment";
 #<druidry:flint_axe>.displayName = "Simple Flint Hatchet";
 
+# Actually Additions
+    <actuallyadditions:blockMisc:9>.displayName = "Steel Casing";
+
 # Ars Magica
     <arsmagica2:iron_inlay>.displayName = "Silver Inlay";
     
