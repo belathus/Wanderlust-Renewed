@@ -1,7 +1,12 @@
 
+# Vanilla
+    recipes.remove(<minecraft:bread>);
+    furnace.remove(<minecraft:bread>);
+    furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughItem>, 0.7);
+
 # Actually Additions
     recipes.remove(<actuallyadditions:itemFood:10>);
-    recipes.addShapeless(<actuallyadditions:itemFood:10>,
+    recipes.addShapeless(<actuallyadditions:itemFood:10> * 2,
         [<ore:bread>]);
     recipes.remove(<actuallyadditions:itemMisc:9>);
     recipes.addShaped(<actuallyadditions:itemMisc:9>,
@@ -19,6 +24,13 @@
         [[<forestry:honeyDrop>, <forestry:honeyDrop>, <forestry:honeyDrop>],
          [<forestry:honeyDrop>, <ore:bread>, <forestry:honeyDrop>],
          [<forestry:honeyDrop>, <forestry:honeyDrop>, <forestry:honeyDrop>]]);
+
+# Natura
+    recipes.remove(<natura:materials:1>);
+    recipes.addShaped(<natura:materials:1>, 
+        [[<ore:rock>],
+         [<ore:cropBarley>],
+         [<primal:stone_basin>]]);
 
 # Pam's Harvestcraft
     recipes.remove(<harvestcraft:rawtofurkeyItem>);

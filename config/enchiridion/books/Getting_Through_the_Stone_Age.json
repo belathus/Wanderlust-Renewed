@@ -83,14 +83,14 @@
           "layerIndex": 1
         },
         {
-          "xPos": 14,
-          "yPos": 21,
-          "width": 177.0,
-          "height": 65.0,
+          "xPos": 224,
+          "yPos": 139,
+          "width": 194.0,
+          "height": 56.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Welcome to the world. First thing is first: you need to survive. For that, you\u0027ll need food and shelter.\n\nLook around. Depending on where you are, you\u0027ll find plants on the ground that contain edibles.",
+              "text": "[color\u003dblack]Blackberries are most commonly found in swamps. Blueberries and raspberries are common in areas with moderate rainfall and moderate temperatures.\nMaloberries only grow where it is cold.",
               "size": 1.0
             }
           },
@@ -99,10 +99,10 @@
           "layerIndex": 2
         },
         {
-          "xPos": 15,
+          "xPos": 27,
           "yPos": 88,
-          "width": 162.0,
-          "height": 62.0,
+          "width": 139.0,
+          "height": 61.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
@@ -148,14 +148,14 @@
           "layerIndex": 4
         },
         {
-          "xPos": 13,
+          "xPos": 15,
           "yPos": 155,
           "width": 178.0,
           "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Corn. Grows fast, grows tall. You can harvest the ears of corn without harvesting the rest of the plant.",
+              "text": "[color\u003dblack]Corn. Grows fast, grows tall. You can harvest the ears of corn without harvesting the rest of the plant. The ears will grow back.",
               "size": 1.0
             }
           },
@@ -164,14 +164,15 @@
           "layerIndex": 5
         },
         {
-          "xPos": 248,
-          "yPos": 17,
-          "width": 150.0,
-          "height": 80.0,
+          "xPos": 27,
+          "yPos": 4,
+          "width": 149.0,
+          "height": 14.0,
           "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/chicken-n-egg.png"
+              "text": "[color\u003dblack]Collecting Food",
+              "size": 1.5000001
             }
           },
           "isLocked": false,
@@ -179,20 +180,82 @@
           "layerIndex": 6
         },
         {
-          "xPos": 237,
-          "yPos": 106,
-          "width": 176.0,
-          "height": 79.0,
+          "xPos": 329,
+          "yPos": 7,
+          "width": 76.0,
+          "height": 57.0,
           "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "text": "[color\u003dblack]Chickens need a nest to lay eggs. They also need to be well fed and hydrated, so toss them some seeds and give them a trough full of water.",
-              "size": 1.0
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/barley.png"
             }
           },
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 7
+        },
+        {
+          "xPos": 15,
+          "yPos": 21,
+          "width": 177.0,
+          "height": 65.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Welcome to the world. First thing is first: you need to survive. For that, you\u0027ll need food and shelter.\n\nLook around. Depending on where you are, you\u0027ll find plants on the ground that contain edibles.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 232,
+          "yPos": 68,
+          "width": 84.0,
+          "height": 64.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/berrybush.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 241,
+          "yPos": 14,
+          "width": 92.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Barley can be found in grassy areas. It can be used to make bread.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 321,
+          "yPos": 67,
+          "width": 97.0,
+          "height": 64.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Berry bushes can be an abundant food source. They come in 4 types: raspberry, blueberry, maloberry, and blackberry.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
         }
       ],
       "pageNumber": 1,
@@ -379,15 +442,15 @@
           "layerIndex": 7
         },
         {
-          "xPos": 26,
-          "yPos": 21,
-          "width": 126.0,
-          "height": 11.0,
+          "xPos": 20,
+          "yPos": 14,
+          "width": 148.0,
+          "height": 10.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
               "text": "[b][color\u003dblack]Acquiring Hardware",
-              "size": 1.0
+              "size": 1.5000001
             }
           },
           "isLocked": false,
@@ -833,7 +896,7 @@
           "xPos": 64,
           "yPos": 105,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -883,7 +946,7 @@
           "xPos": 236,
           "yPos": 159,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -917,7 +980,7 @@
           "xPos": 236,
           "yPos": 117,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -935,7 +998,7 @@
           "xPos": 320,
           "yPos": 118,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -953,7 +1016,7 @@
           "xPos": 320,
           "yPos": 159,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -968,7 +1031,7 @@
           "layerIndex": 12
         }
       ],
-      "pageNumber": 19,
+      "pageNumber": 24,
       "isScrollable": false
     },
     {
@@ -1054,14 +1117,14 @@
           "layerIndex": 2
         },
         {
-          "xPos": 238,
-          "yPos": 109,
-          "width": 61.0,
-          "height": 7.0,
+          "xPos": 239,
+          "yPos": 14,
+          "width": 168.0,
+          "height": 17.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Flaked Flint",
+              "text": "[color\u003dblack]\u003cinsert note here about crafting tables\u003e",
               "size": 1.0
             }
           },
@@ -1115,7 +1178,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 5
+          "layerIndex": 6
         },
         {
           "xPos": 65,
@@ -1129,22 +1192,6 @@
               "recipeType": "ShapedOreRecipe",
               "item": "primal:worktable_acacia_log",
               "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 246,
-          "yPos": 12,
-          "width": 159.0,
-          "height": 36.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Wattle can be used just like planks can, allowing you to craft a normal crafting table.",
-              "size": 1.0
             }
           },
           "isLocked": false,
@@ -1202,6 +1249,22 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 9
+        },
+        {
+          "xPos": 238,
+          "yPos": 109,
+          "width": 61.0,
+          "height": 7.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Flaked Flint",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
         }
       ],
       "pageNumber": 10,
@@ -1325,7 +1388,7 @@
           "xPos": 65,
           "yPos": 49,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1343,7 +1406,7 @@
           "xPos": 28,
           "yPos": 153,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1393,7 +1456,7 @@
           "xPos": 283,
           "yPos": 78,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1427,7 +1490,7 @@
           "xPos": 277,
           "yPos": 156,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1445,7 +1508,7 @@
           "xPos": 115,
           "yPos": 153,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1531,7 +1594,7 @@
           "xPos": 149,
           "yPos": 26,
           "width": 40.0,
-          "height": 40.0,
+          "height": 44.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1615,7 +1678,7 @@
           "xPos": 25,
           "yPos": 112,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1633,7 +1696,7 @@
           "xPos": 91,
           "yPos": 162,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1651,7 +1714,7 @@
           "xPos": 324,
           "yPos": 62,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1669,7 +1732,7 @@
           "xPos": 252,
           "yPos": 18,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1687,7 +1750,7 @@
           "xPos": 254,
           "yPos": 105,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1705,7 +1768,7 @@
           "xPos": 316,
           "yPos": 160,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1720,7 +1783,7 @@
           "layerIndex": 11
         }
       ],
-      "pageNumber": 21,
+      "pageNumber": 26,
       "isScrollable": false
     },
     {
@@ -2347,7 +2410,7 @@
           "xPos": 58,
           "yPos": 148,
           "width": 77.0,
-          "height": 77.0,
+          "height": 38.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2440,7 +2503,7 @@
           "layerIndex": 17
         }
       ],
-      "pageNumber": 20,
+      "pageNumber": 25,
       "isScrollable": false
     },
     {
@@ -2524,14 +2587,14 @@
           "layerIndex": 2
         },
         {
-          "xPos": 237,
-          "yPos": 17,
-          "width": 183.0,
-          "height": 69.0,
+          "xPos": 9,
+          "yPos": 77,
+          "width": 186.0,
+          "height": 93.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Tin Ore\nTin is less frequent than copper. In general, you can find it as a moderately sized motherlode with long branches. The motherlodes seem to average around 16 meters below sea level. Tin can also be found in giant clouds of ore.",
+              "text": "[color\u003dblack]Copper Ore\n\nCopper is one of the most common ores you can find. You\u0027ll find it in several different types of distribution: layered veins with moderately sized motherlodes and long branches; rare, but massive clouds of copper with hints of the cloud near the surface; and small clusters.",
               "size": 1.0
             }
           },
@@ -2540,20 +2603,66 @@
           "layerIndex": 3
         },
         {
-          "xPos": 9,
-          "yPos": 77,
-          "width": 186.0,
-          "height": 93.0,
+          "xPos": 241,
+          "yPos": 178,
+          "width": 173.0,
+          "height": 43.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Copper Ore\nCopper is one of the most common ores you can find. You\u0027ll find it in several different types of distribution: layered veins with moderately sized motherlodes and long branches; rare, but massive clouds of copper with hints of the cloud near the surface; and small clusters.",
+              "text": "[color\u003dblack]A copper \"cloud\" after having the stone stripped away. Note how sparse the ore is spaced.\nThere is a lot of ore here!",
               "size": 1.0
             }
           },
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
+        },
+        {
+          "xPos": 72,
+          "yPos": 68,
+          "width": 25.0,
+          "height": 25.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "immersiveengineering:ore 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 247,
+          "yPos": 5,
+          "width": 155.0,
+          "height": 67.8125,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/copper_cluster.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 247,
+          "yPos": 108,
+          "width": 155.0,
+          "height": 68.58750000000023,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/copper_cloud.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
         },
         {
           "xPos": 9,
@@ -2569,65 +2678,17 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 5
-        },
-        {
-          "xPos": 237,
-          "yPos": 151,
-          "width": 174.0,
-          "height": 45.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Additional Note:\nSometimes, zombies can be found carrying copper, tin, and zinc ingots. Exterminating zombies may sometimes reveal these ingots.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 237,
-          "yPos": 98,
-          "width": 182.0,
-          "height": 46.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Zinc Ore\nMuch like tin ore, zinc spawns in motherlodes found about 16 meters below sea level. Zinc also rarely can be found in giant clouds of ore.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 7
-        },
-        {
-          "xPos": 237,
-          "yPos": 98,
-          "width": 182.0,
-          "height": 46.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Zinc Ore\nMuch like tin ore, zinc spawns in motherlodes found about 16 meters below sea level. Zinc also rarely can be found in giant clouds of ore.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
           "layerIndex": 8
         },
         {
-          "xPos": 237,
-          "yPos": 98,
-          "width": 182.0,
-          "height": 46.0,
+          "xPos": 239,
+          "yPos": 75,
+          "width": 175.0,
+          "height": 18.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Zinc Ore\nMuch like tin ore, zinc spawns in motherlodes found about 16 meters below sea level. Zinc also rarely can be found in giant clouds of ore.",
+              "text": "[color\u003dblack]A copper cluster; commonly found anywhere.",
               "size": 1.0
             }
           },
@@ -2768,7 +2829,7 @@
           "layerIndex": 5
         }
       ],
-      "pageNumber": 16,
+      "pageNumber": 17,
       "isScrollable": false
     },
     {
@@ -2884,8 +2945,709 @@
           "layerIndex": 4
         }
       ],
-      "pageNumber": 17,
+      "pageNumber": 18,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 238,
+          "yPos": 153,
+          "width": 175.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Chickens need a nest to lay eggs. They also need to be well fed and hydrated, so toss them some seeds and give them a trough full of water.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 246,
+          "yPos": 65,
+          "width": 150.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/chicken-n-egg.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 94,
+          "yPos": 11,
+          "width": 92.0,
+          "height": 54.05000000000001,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/cherrytree.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 14,
+          "yPos": 70,
+          "width": 182.0,
+          "height": 57.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Animals can also be an excellent source of food; not just the animals themselves and the meat that slaughtering them would produce, but the animals can be encouraged to produce other goods as well.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 107,
+          "yPos": 132,
+          "width": 88.0,
+          "height": 84.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Happy, and well-fed pigs are known to find truffles and share them with their owner. Making mud pits for the pigs to play in helps.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 9,
+          "yPos": 132,
+          "width": 90.0,
+          "height": 57.37500000000004,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/pigs\u0026truffles.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 244,
+          "yPos": 12,
+          "width": 157.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Truffles can be used to make some excellent foods, such as omelets, soup, and chocolate truffles.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 14,
+          "yPos": 12,
+          "width": 79.0,
+          "height": 51.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Certain trees have fruit growing from the branches, such as this cherry tree.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 2,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 11,
+          "yPos": 13,
+          "width": 182.0,
+          "height": 83.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Tin Ore\n\nTin is less frequent than copper. In general, you can find it as a moderately sized motherlode with long branches. The motherlodes seem to average around 16 meters below sea level. Tin can also be found in giant clouds of ore.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 236,
+          "yPos": 13,
+          "width": 182.0,
+          "height": 55.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Zinc Ore\n\nMuch like tin ore, zinc spawns in motherlodes found about 16 meters below sea level. Zinc also rarely can be found in giant clouds of ore.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 237,
+          "yPos": 151,
+          "width": 174.0,
+          "height": 45.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Additional Note:\nSometimes, zombies can be found carrying copper, tin, and zinc ingots. Exterminating zombies may sometimes reveal these ingots.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 281,
+          "yPos": 6,
+          "width": 24.0,
+          "height": 24.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "base:ore_zinc",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 52,
+          "yPos": 5,
+          "width": 24.0,
+          "height": 24.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "forestry:resources 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 16,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 236,
+          "yPos": 13,
+          "width": 183.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Using the first drying rack, you can place up to 4 fish on it at a time. Fish have a small chance to rot, but this chance is greatly reduced if you salt the fish first.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 108,
+          "yPos": 131,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "slabWood:slabWood:slabWood",
+              "recipeType": "ShapedOreRecipe",
+              "item": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 104,
+          "yPos": 50,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "cordageGeneral:cordageGeneral:cordageGeneral:cordageGeneral",
+              "recipeType": "ShapedOreRecipe",
+              "item": "fishing:itemNet",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 11,
+          "yPos": 9,
+          "width": 178.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Fish can also be an excellent source of food. You can fish the old fashioned way, using a fishing pole, or you can use nets or traps.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 11,
+          "yPos": 51,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "cordageGeneral:primal:slat_oak:32767:cordageGeneral:primal:slat_oak:32767:primal:slat_oak:32767:cordageGeneral:primal:slat_oak:32767:cordageGeneral",
+              "recipeType": "ShapedOreRecipe",
+              "item": "primal:fish_trap_oak",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 9,
+          "yPos": 132,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "primal:slat_oak:32767:primal:slat_oak:32767:primal:slat_oak:32767:pinBasic:cordageGeneral:pinBasic:minecraft:planks:0:minecraft:planks:0",
+              "recipeType": "ShapedOreRecipe",
+              "item": "primal:drying_rack_oak",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 10,
+          "yPos": 103,
+          "width": 182.0,
+          "height": 26.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Once caught, fish can be eaten raw, cooked, or dried. We\u0027ll cover drying first.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 282,
+          "yPos": 61,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "foodSalt:minecraft:fish:0",
+              "recipeType": "ShapelessOreRecipe",
+              "item": "primal:fish_cod_salted",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 264,
+          "yPos": 111,
+          "width": 116.0,
+          "height": 96.57000000000022,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Getting_Through_the_Stone_Age/dryingrack.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        }
+      ],
+      "pageNumber": 3,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 59,
+          "yPos": 123,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "slabWood:slabWood:slabWood:slabWood:slabWood:slabWood:plankWood:ingotIron:plankWood",
+              "recipeType": "ShapedOreRecipe",
+              "item": "rockhounding_chemistry:saltSeasoner",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 17,
+          "yPos": 94,
+          "width": 180.0,
+          "height": 24.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]You\u0027ll also need a seasoning rack to make the salt edible.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 11,
+          "yPos": 10,
+          "width": 178.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Various types of salt can be found in many locations.\n",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 59,
+          "yPos": 39,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "ingotBrick:ingotBrick:stone:stone:stone",
+              "recipeType": "ShapedOreRecipe",
+              "item": "rockhounding_chemistry:saltMaker",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        }
+      ],
+      "pageNumber": 4,
       "isScrollable": false
     }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
   ]
 }
