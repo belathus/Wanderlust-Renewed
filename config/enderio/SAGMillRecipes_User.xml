@@ -3,94 +3,120 @@
  -->
 
 <SAGMillRecipes>
+    <recipeGroup name="Nether Ores">
+        <recipe name="NetherPlatinum" energyCost="3200" >
+            <input>
+                <itemStack oreDictionary="oreNetherPlatinum" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustPlatinum" number="4" />
+                <itemStack oreDictionary="dustIridium" chance="0.2" />
+                <itemStack modID="minecraft" itemName="netherrack" chance="0.15" />
+            </output>
+        </recipe>
+    </recipeGroup>
+    
+    <recipeGroup name="Metallurgy">
+        <recipe name="PlatinumOre" energyCost="3600" >
+            <input>
+                <itemStack oreDictionary="orePlatinum" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustPlatinum" number="2" />
+                <itemStack oreDictionary="dustIridium" chance="0.1" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+        </recipe>
+    </recipeGroup>
+    
     <recipeGroup name="Rockhounding" >
         <!-- Magnetite -->
         <recipe name="MagnetiteOre" energyCost="3600" >
-          <!-- 150% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreMagnetite" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" number="3" />
-              <itemStack oreDictionary="dustNickel" chance="0.2" />
-              <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
-          </output>
-      </recipe>
+            <!-- 150% output compared to vanilla iron ore -->
+            <input>
+                  <itemStack oreDictionary="oreMagnetite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" number="3" />
+                <itemStack oreDictionary="dustNickel" chance="0.2" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+       </recipe>
 
-      <recipe name="HematiteOre" energyCost="3600" >
-          <!-- 150% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreHematite" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" number="3" />
-              <itemStack oreDictionary="dustNickel" chance="0.2" />
-              <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
-          </output>
-      </recipe>
+        <recipe name="HematiteOre" energyCost="3600" >
+            <!-- 150% output compared to vanilla iron ore -->
+            <input>
+                <itemStack oreDictionary="oreHematite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" number="3" />
+                <itemStack oreDictionary="dustNickel" chance="0.2" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+        </recipe>
 
-      <recipe name="GoethiteOre" energyCost="3600" >
-          <!-- 100% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreGoethite" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" number="2" />
-              <itemStack oreDictionary="dustAluminum" chance="0.2" />
-              <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
-          </output>
-      </recipe>
+        <recipe name="GoethiteOre" energyCost="3600" >
+            <!-- 100% output compared to vanilla iron ore -->
+            <input>
+                <itemStack oreDictionary="oreGoethite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" number="2" />
+                <itemStack oreDictionary="dustAluminum" chance="0.2" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+        </recipe>
 
-      <recipe name="LimoniteOre" energyCost="3600" >
-          <!-- 100% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreLimonite" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" number="2" />
-              <itemStack oreDictionary="dustNickel" chance="0.2" />
-              <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
-          </output>
-      </recipe>
+        <recipe name="LimoniteOre" energyCost="3600" >
+            <!-- 100% output compared to vanilla iron ore -->
+            <input>
+                <itemStack oreDictionary="oreLimonite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" number="2" />
+                <itemStack oreDictionary="dustNickel" chance="0.2" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+        </recipe>
 
-      <recipe name="SideriteOre" energyCost="3600" >
-          <!-- 67% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreSiderite" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" number="1" />
-              <itemStack oreDictionary="dustIron" number="1" chance="0.33" />
-              <itemStack oreDictionary="dustNickel" chance="0.12" />
-              <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
-          </output>
-      </recipe>
+        <recipe name="SideriteOre" energyCost="3600" >
+            <!-- 67% output compared to vanilla iron ore -->
+            <input>
+                <itemStack oreDictionary="oreSiderite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" number="1" />
+                <itemStack oreDictionary="dustIron" number="1" chance="0.33" />
+                <itemStack oreDictionary="dustNickel" chance="0.12" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+        </recipe>
 
-      <recipe name="BogIronOre" energyCost="3600" >
-          <!-- 50% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreBogIron" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" number="1" />
-              <itemStack oreDictionary="dustNickel" chance="0.1" />
-              <itemStack modID="minecraft" itemName="dirt" chance="0.5" />
-          </output>
-      </recipe>
+        <recipe name="BogIronOre" energyCost="3600" >
+            <!-- 50% output compared to vanilla iron ore -->
+            <input>
+                <itemStack oreDictionary="oreBogIron" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" number="1" />
+                <itemStack oreDictionary="dustNickel" chance="0.1" />
+                <itemStack modID="minecraft" itemName="dirt" chance="0.5" />
+            </output>
+        </recipe>
 
-      <recipe name="TaconiteOre" energyCost="3600" >
-          <!-- 33% output compared to vanilla iron ore -->
-          <input>
-              <itemStack oreDictionary="oreTaconite" />
-          </input>
-          <output>
-              <itemStack oreDictionary="dustIron" chance="0.75" />
-              <itemStack oreDictionary="dustNickel" chance="0.07" />
-              <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
-          </output>
-      </recipe>
+        <recipe name="TaconiteOre" energyCost="3600" >
+            <!-- 33% output compared to vanilla iron ore -->
+            <input>
+                <itemStack oreDictionary="oreTaconite" />
+            </input>
+            <output>
+                <itemStack oreDictionary="dustIron" chance="0.75" />
+                <itemStack oreDictionary="dustNickel" chance="0.07" />
+                <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+            </output>
+        </recipe>
 
-      <recipe name="BandedIronOre" energyCost="3600" >
+        <recipe name="BandedIronOre" energyCost="3600" >
             <!-- 25% output compared to vanilla iron ore -->
             <input>
                 <itemStack oreDictionary="oreBandediron" />

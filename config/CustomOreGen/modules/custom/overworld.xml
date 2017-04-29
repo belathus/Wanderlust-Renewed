@@ -618,7 +618,7 @@
                 <ReplacesOre block='snowLayer' weight='1.0' />
                 <Setting name='MotherlodeRangeLimit' avg=' 20 ' range=' 5 ' type='uniform' />
                 <Setting name='MotherlodeHeight' avg=' 63' range='1' scaleTo='biome' />
-                <Setting name='MotherlodeFrequency' avg=':= 1.222 * _default_ ' range=':= 1.222 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeFrequency' avg=':= 0.522 * _default_ ' range=':= 0.522 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
         </cloud>
 
