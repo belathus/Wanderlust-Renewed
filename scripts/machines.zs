@@ -52,6 +52,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<actuallyadditions:blockGrinder:*>, <ore:frameSteel>, <actuallyadditions:blockGrinder:*>],
          [<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>]]);
 
+# Advanced Rocketry
+    recipes.remove(<advancedrocketry:blastBrick>);
+    recipes.addShaped(<advancedrocketry:blastBrick> * 9,
+        [[<modularutilities:stone_decor>,<modularutilities:stone_decor>,<modularutilities:stone_decor>],
+         [<minecraft:magma>,<minecraft:magma>,<minecraft:magma>],
+         [<ore:blockSeared>,<ore:blockSeared>,<ore:blockSeared>]]);
+
 # Ars Magica 2
     recipes.remove(<arsmagica2:arcane_reconstructor>);
     recipes.addShaped(<arsmagica2:arcane_reconstructor>,
