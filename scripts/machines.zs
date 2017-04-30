@@ -415,6 +415,18 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
          [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze", isStub:1}), <minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+         [<ore:plankWood>,<ore:ingotCopper>,<ore:plankWood>]]);
+    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+         [<ore:plankWood>,<ore:ingotTin>,<ore:plankWood>]]);
+    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+         [<ore:plankWood>,<ore:ingotSteel>,<ore:plankWood>]]);
 
 # Roots
 /*
