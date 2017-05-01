@@ -1,5 +1,5 @@
 <minecraft:stick>.addTooltip(format.green("Obtained by punching leaves."));
-<minecraft:iron_ore>.addTooltip(format.green("Rare!"));
+<minecraft:iron_ore>.addTooltip(format.green("Rare! Crafting it takes XP."));
 <minecraft:flint>.addTooltip(format.green("Punch a stone block to knap this into chipped flint."));
 <minecraft:wooden_pickaxe>.addTooltip(format.green("Try making a flint pickaxe instead."));
 <minecraft:stone_pickaxe>.addTooltip(format.green("Try making a flint pickaxe instead."));
