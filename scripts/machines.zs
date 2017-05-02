@@ -154,6 +154,36 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotSilver>,null,<ore:ingotSilver>],
          [<ore:hardenedClay>,<ore:ingotGold>,<ore:hardenedClay>],
          [<ore:hardenedClay>,<ore:blockSilver>,<ore:hardenedClay>]]);
+
+# Bibliocraft
+    recipes.addShaped(<bibliocraft:FurniturePaneler>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>],
+         [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+    recipes.addShaped(<bibliocraft:FurniturePaneler:1>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>],
+         [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]);
+    recipes.addShaped(<bibliocraft:FurniturePaneler:2>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>],
+         [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]);
+    recipes.addShaped(<bibliocraft:FurniturePaneler:3>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>],
+         [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]);
+    recipes.addShaped(<bibliocraft:FurniturePaneler:4>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
+         [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]);
+    recipes.addShaped(<bibliocraft:FurniturePaneler:5>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>],
+         [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]);
+    recipes.addShaped(<bibliocraft:FurniturePaneler:6>,
+        [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
+         [<bibliocraft:FramingBoard>, <bibliocraft:FramingBoard>, <bibliocraft:FramingBoard>],
+         [<bibliocraft:FramingSheet>, <bibliocraft:FramingSheet>, <bibliocraft:FramingSheet>]]);
     
 # Botania
     # Mana Spreader
