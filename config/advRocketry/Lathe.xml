@@ -1,2 +1,10 @@
 <Recipes>
+  <recipe timeRequired="10" power="50">
+    <input>
+      <itemStack>minecraft:iron_ingot 3</itemStack>
+    </input>
+    <output>
+      <itemStack>minecraft:iron_ingot 3</itemStack>
+    </output>
+  </recipe>
 </Recipes>
