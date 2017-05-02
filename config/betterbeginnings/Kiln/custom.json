@@ -1,5 +1,263 @@
 {
-  "recipes": [],
+  "recipes": [
+    {
+      "input": {
+        "itemName": "oreAdamantine",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 2,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreAluminum",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 3,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreArdite",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 5,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreCobalt",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 8,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreCopper",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "immersiveengineering:metal",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreLead",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "immersiveengineering:metal",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 2,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreMithril",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 29,3
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreNickel",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 24,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "orePlatinum",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 25,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "orePlutonium",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 63,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreSilver",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 26,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreTin",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 29,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreTitanium",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 30,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreUranium",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 33,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    {
+      "input": {
+        "itemName": "oreZinc",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "base:ingot",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 34,
+        "stackSize": 1
+      },
+      "experience": 0.35
+    },
+    //furnace.addRecipe(<minecraft:magma_cream> * 4, <xreliquary:mob_ingredient:7>, 1.5);
+    {
+      "input": {
+        "itemName": "xreliquary:mob_ingredient",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 7
+      },
+      "output": {
+        "itemName": "minecraft:magma_cream",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 4
+      },
+      "experience": 0.35
+    }
+  ],
   "includes": [],
   "modDependencies": [],
   "version": 0
