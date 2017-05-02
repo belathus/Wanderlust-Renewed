@@ -31,9 +31,25 @@
         "stackSize": 2
       },
       "experience": 0.5
+    },
+    {
+      "input": {
+        "itemName": "blockQuartz",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "enderio:blockFusedQuartz",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      },
+      "experience": 0.8
     }
   ],
   "includes": [],
-  "modDependencies": [],
+  "modDependencies": ["enderio", "primal"],
   "version": 0
 }
