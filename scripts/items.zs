@@ -232,6 +232,11 @@
             [[galla],[<ore:plateIron>]]);
     }
 
+# Refined Storage
+    recipes.remove(<refinedstorage:quartz_enriched_iron>);
+    recipes.addShapeless(<base:dust:81> * 2,
+        [<ore:dustSteel>, <ore:dustSteel>, <ore:dustQuartz>]);
+
 # Reliquary
     recipes.addShaped(<xreliquary:glowing_water>*5,
         [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
