@@ -399,9 +399,6 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:ingotAdamant>, <minecraft:enchanting_table:*>, <ore:ingotAdamant>]]);
 
 # Refined Storage
-    recipes.remove(<refinedstorage:quartz_enriched_iron>);
-    recipes.addShapeless(<refinedstorage:quartz_enriched_iron> * 2,
-        [<ore:ingotSteel>, <ore:ingotSteel>, <ore:gemQuartz>]);
     recipes.remove(<refinedstorage:machine_casing>);
     recipes.addShaped(<refinedstorage:machine_casing>,
         [[<ore:ingotSteel>, <refinedstorage:quartz_enriched_iron>, <ore:ingotSteel>],
