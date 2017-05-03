@@ -10,7 +10,11 @@
         mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
         mods.immersiveengineering.Crusher.addRecipe(<base:dust:25>*2,<base:ore_platinum>,3600,<base:dust:20>,0.20);
         mods.immersiveengineering.Crusher.addRecipe(<base:dust:25>*2,<thermalfoundation:ore:6>,3600,<base:dust:20>,0.20);
-        
+
+    # Quartz Enriched Iron stuff
+        mods.immersiveengineering.Crusher.addRecipe(<actuallyadditions:itemDust:5>, <minecraft:quartz>, 900);
+        mods.immersiveengineering.Crusher.addRecipe(<base:dust:81>, <refinedstorage:quartz_enriched_iron>, 1800);
+
     # Railcraft Firestone
         #mods.immersiveengineering.Crusher.addRecipe(<railcraft:firestone_raw>,<railcraft:ore_magic:0>,3600);
 
