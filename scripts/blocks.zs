@@ -87,6 +87,27 @@
         [[null,<arsmagica2:wooden_leg>,null],
          [<arsmagica2:wooden_leg>,<ore:plankWood>,<arsmagica2:wooden_leg>],
          [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
+    # Stone Spike
+    recipes.remove(<extrautils2:spike_stone>);
+    recipes.addShaped(<extrautils2:spike_stone> * 4,
+        [[null, <ore:rock>, null],
+         [<ore:rock>, <ore:cobblestone>, <ore:rock>],
+         [<ore:cobblestone>, <ore:compressed1xCobblestone>, <ore:cobblestone>]]);
+    # Iron Spike
+    recipes.addShaped(<extrautils2:spike_iron> * 4,
+        [[null, <dungeontactics:iron_sword>, null],
+         [<dungeontactics:iron_sword>, <ore:ingotIron>, <dungeontactics:iron_sword>],
+         [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>]]);
+    # Gold Spike
+    recipes.addShaped(<extrautils2:spike_gold> * 4,
+        [[null, <dungeontactics:golden_sword>, null],
+         [<dungeontactics:golden_sword>, <ore:ingotGold>, <dungeontactics:golden_sword>],
+         [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>]]);
+    # Diamond Spikes
+    recipes.addShaped(<extrautils2:spike_diamond> * 4,
+        [[null,<dungeontactics:diamond_sword>,null],
+         [<dungeontactics:diamond_sword>,<ore:gemDiamond>,<dungeontactics:diamond_sword>],
+         [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
          
 # Immersive Engineering
     recipes.addShaped(<immersiveengineering:treatedWood>*3,
