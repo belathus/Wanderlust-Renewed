@@ -89,10 +89,12 @@
     <ore:stoneLimestone>.add(<primal:ferro_stone>);
     <ore:stoneLimestone>.add(<chisel:limestone:*>);
     <ore:stoneLimestone>.add(<chisel:limestone1:*>);
+    <ore:stoneLimestone>.add(<thebetweenlands:limestone>);
     <ore:blockLimestone>.add(<quark:limestone>);
     <ore:blockLimestone>.add(<chisel:limestone:*>);
     <ore:blockLimestone>.add(<chisel:limestone1:*>);
     <ore:blockLimestone>.add(<biomesoplenty:stone>);
+    <ore:blockLimestone>.add(<thebetweenlands:limestone>);
 # Marble
     <ore:stoneMarble>.add(<astralsorcery:BlockMarble:*>);
     <ore:stoneMarble>.add(<quark:marble:1>);
