@@ -94,7 +94,8 @@
     <ore:blockLimestone>.add(<chisel:limestone1:*>);
     <ore:blockLimestone>.add(<biomesoplenty:stone>);
 # Marble
-    <ore:stoneMarble>.addAll(<ore:blockMarble>);
+    <ore:stoneMarble>.add(<astralsorcery:BlockMarble:*>);
+    <ore:stoneMarble>.add(<quark:marble:1>);
     <ore:blockMarble>.addAll(<ore:stoneMarble>);
 # Mud
     <ore:clumpMud>.add(<biomesoplenty:mudball>);
