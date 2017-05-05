@@ -37,6 +37,10 @@
 # Animania
     recipes.addShapeless(<animania:block_mud> * 2,
         [<evilcraft:bucketEternalWater>,<ore:dirt>]);
+
+# Astral Sorcery
+    recipes.remove(<astralsorcery:BlockMarble:*>);
+
 # Chisel
     recipes.addShapeless(<chisel:basalt>,
         [<ore:stoneBasalt>]);
