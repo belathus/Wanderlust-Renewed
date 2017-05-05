@@ -71,8 +71,13 @@
             <biome type="PLAINS" />
             <biome type="HILLS" />
             <biome type="SANDY" />
-            <biome type="NETHER" />
+            <biome type="NETHER" exclude="true" />
             <biome type="END" exclude="true" />
+        </biomeFilter>
+    </entry>
+    <entry id="NetherEarthElemental" mobName="arsmagica2.EarthElemental" rate="30">
+        <biomeFilter type="any">
+            <biome type="NETHER" />
         </biomeFilter>
     </entry>
     <entry id="FireElemental" mobName="arsmagica2.FireElemental" rate="7">

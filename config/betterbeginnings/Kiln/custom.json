@@ -1,6 +1,109 @@
 {
-  "recipes": [],
+  "recipes": [
+    {
+      "input": {
+        "itemName": "primal:terraclay_clump",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "primal:terracotta",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      },
+      "experience": 0.5
+    },
+    {
+      "input": {
+        "itemName": "primal:cinisclay_clump",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "primal:ciniscotta",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      },
+      "experience": 0.5
+    },
+    {
+      "input": {
+        "itemName": "blockQuartz",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "enderio:blockFusedQuartz",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.8
+    },
+    {
+      "input": {
+        "itemName": "mudball",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "biomesoplenty:mud_brick",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2
+      },
+      "experience": 0.1
+    },
+    {
+      "input": {
+        "itemName": "slimeballBlood",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "bloodmagic:BlockBloodStoneBrick",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.8
+    },
+    {
+      "input": {
+        "itemName": "blockLimestone",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "astralsorcery:BlockMarble",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.4
+    }
+  ],
   "includes": [],
-  "modDependencies": [],
+  "modDependencies": [
+    "enderio",
+    "primal",
+    "astralsorcery",
+    "bloodmagic",
+    "biomesoplenty"
+  ],
   "version": 0
 }

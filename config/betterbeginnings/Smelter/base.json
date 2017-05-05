@@ -2,6 +2,96 @@
     "recipes": [
         {
             "input": {
+                "itemName": "oreAdamantine",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 2,
+                "stackSize": 1
+            },
+            "experience": 2.5,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        },
+        {
+            "input": {
+                "itemName": "oreArdite",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 5,
+                "stackSize": 1
+            },
+            "experience": 1.5,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        },
+        {
+            "input": {
+                "itemName": "oreCobalt",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 8,
+                "stackSize": 1
+            },
+            "experience": 1.7,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        },
+        {
+            "input": {
+                "itemName": "oreMithril",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+            "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 23,
+                "stackSize": 1
+            },
+            "experience": 2.0,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        },
+        {
+            "input": {
+                "itemName": "orePlatinum",
+                "isOreDictionary": true,
+                "isWildcard": false,
+                "damage": 0
+            },
+                "output": {
+                "itemName": "base:ingot",
+                "isOreDictionary": false,
+                "isWildcard": false,
+                "damage": 25,
+                "stackSize": 1
+            },
+            "experience": 1.8,
+            "boosterCount": 1,
+            "bonusPerBoostLevel": 1
+        },
+        {
+            "input": {
                 "itemName": "oreTin",
                 "isOreDictionary": true,
                 "isWildcard": false,
@@ -35,7 +125,8 @@
             "experience": 0.7,
             "boosterCount": 1,
             "bonusPerBoostLevel": 1
-        }],
+        }
+    ],
     "includes": [],
     "modDependencies": ["base"],
     "version": 0

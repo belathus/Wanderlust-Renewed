@@ -31,17 +31,15 @@
             [[hammer],[<minecraft:stone_slab:7>]]);
     }
     # making sticks
-/*
     recipes.addShaped(<minecraft:stick>*8,
-        [[<druidry:flint_axe:*>.transformDamage()],
+        [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:logWood>]]);
     recipes.addShaped(<minecraft:stick>*4,
-        [[<druidry:flint_axe:*>.transformDamage()],
+        [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:plankWood>]]);
     recipes.addShaped(<minecraft:stick>*2,
-        [[<druidry:flint_axe:*>.transformDamage()],
+        [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:slabWood>]]);
-*/
     recipes.addShapeless(<minecraft:clay_ball>*4,
         [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucketEternalWater>]);
     recipes.addShapeless(<minecraft:clay_ball>*4,
@@ -80,6 +78,16 @@
     recipes.remove(<abyssalcraft:necronomicon>);
     recipes.addShapeless(<abyssalcraft:necronomicon>,
         [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
+
+# Advanced Rocketry
+    recipes.remove(<advancedrocketry:productrod>); # Titanium aluminide
+    recipes.remove(<advancedrocketry:productrod:1>); # Titanium Iridium
+    recipes.addShaped(<advancedrocketry:productrod>,
+        [[<ore:ingotTitaniumAluminide>],
+         [<ore:ingotTitaniumAluminide>]]);
+    recipes.addShaped(<advancedrocketry:productrod:1>,
+        [[<ore:ingotTitaniumIridium>],
+         [<ore:ingotTitaniumIridium>]]);
 
 # Ars Magica 2
     recipes.remove(<arsmagica2:spell_parchment>);
@@ -154,6 +162,22 @@
 
 # Immersive Engineering
     
+# LibVulpes
+    recipes.remove(<libvulpes:productrod:1>); # Iron rod
+    recipes.remove(<libvulpes:productrod:4>); # Copper rod
+    recipes.remove(<libvulpes:productrod:6>); # Steel rod
+    recipes.remove(<libvulpes:productrod:7>); # Titanium rod
+    recipes.remove(<libvulpes:productrod:10>); # Iridium rod
+    recipes.addShaped(<libvulpes:productrod:4>,
+        [[<ore:ingotCopper>],
+         [<ore:ingotCopper>]]);
+    recipes.addShaped(<libvulpes:productrod:7>,
+        [[<ore:ingotTitanium>],
+         [<ore:ingotTitanium>]]);
+    recipes.addShaped(<libvulpes:productrod:10>,
+        [[<ore:ingotIridium>],
+         [<ore:ingotIridium>]]);
+
 # More Bees
     recipes.addShapeless(<morebees:diamondFragment>*9,[<ore:gemDiamond>]);
     recipes.addShapeless(<morebees:emeraldFragment>*9,[<ore:gemEmerald>]);
@@ -207,6 +231,11 @@
         recipes.addShaped(<primal:iron_ring> * 4,
             [[galla],[<ore:plateIron>]]);
     }
+
+# Refined Storage
+    recipes.remove(<refinedstorage:quartz_enriched_iron>);
+    recipes.addShapeless(<base:dust:81> * 2,
+        [<ore:dustSteel>, <ore:dustSteel>, <ore:dustQuartz>]);
 
 # Reliquary
     recipes.addShaped(<xreliquary:glowing_water>*5,

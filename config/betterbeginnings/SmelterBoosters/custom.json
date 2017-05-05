@@ -1,5 +1,51 @@
 {
-  "boosters": [],
+  "boosters": [
+    {
+      "boosterItem": {
+        "itemName": "dustRedstone",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "boostAmount": 0.8
+    },
+    {
+      "boosterItem": {
+        "itemName": "dustGlowstone",
+        "isOreDictionary": true,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "boostAmount": 1.1
+    },
+    {
+      "boosterItem": {
+        "itemName": "primal:earthwax_clump",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "boostAmount": 0.5
+    },
+    {
+      "boosterItem": {
+        "itemName": "primal:netherwax_clump",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "boostAmount": 0.8
+    },
+    {
+      "boosterItem": {
+        "itemName": "immersiveengineering:material",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 7
+      },
+      "boostAmount": 1.3
+    }
+  ],
   "includes": [],
   "modDependencies": [],
   "version": 0
