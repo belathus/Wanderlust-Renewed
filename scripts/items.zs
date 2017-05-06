@@ -46,6 +46,7 @@
         [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterRod>.reuse()]);
     recipes.remove(<minecraft:flint>);
     recipes.addShapeless(<minecraft:flint>, [<ore:gravel>,<ore:gravel>,<ore:gravel>]);
+    recipes.addShapeless(<minecraft:torch>,[<primal:torch_wood_lit>]);
     
 # Actually Additions
     recipes.remove(<actuallyadditions:itemMisc:10>);
