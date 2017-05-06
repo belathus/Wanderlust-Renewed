@@ -1,13 +1,5 @@
 {
     "name":"_rooms",
-		"exclusive" : true,
-	"inherit" : [
-		"builtin:secrets",
-		"builtin:theme",
-		"builtin:generator",
-		"builtin:size",
-		"builtin:segments"
-	],
     "levels":{
         "0":{
             "range":40,
