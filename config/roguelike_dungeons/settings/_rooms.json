@@ -1,13 +1,5 @@
 {
     "name":"_rooms",
-		"exclusive" : true,
-	"inherit" : [
-		"builtin:secrets",
-		"builtin:theme",
-		"builtin:generator",
-		"builtin:size",
-		"builtin:segments"
-	],
     "levels":{
         "0":{
             "range":40,
@@ -180,7 +172,6 @@
 					{"name" : "cyberware.cyberzombie", "equip":true},
 					{"name" : "arsmagica2.EarthElemental", "equip":true},
 					{"name" : "Quark.dweller", "equip":true},
-					{"name" : "embers.ancientGolem", "equip":true},
 					{"name" : "abyssalcraft.depthsghoul", "equip":true},
                     {"name" : "arsmagica2.HellCow", "equip":true},
 					{"name" : "Zombie", "equip":true}
