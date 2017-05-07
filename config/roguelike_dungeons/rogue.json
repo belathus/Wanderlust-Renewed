@@ -1,0 +1,26 @@
+{
+    "name":"classic",
+    "criteria":{
+        "dimensionWL":[
+            0
+        ],
+        "weight":1
+    },
+    "inherit":[
+        "default:_loot_all",
+        "default:_loot0",
+        "default:_loot1",
+        "default:_loot2",
+        "default:_loot3",
+        "default:_loot4",
+        "default:_rooms",
+        "default:base",
+        "builtin:theme"
+	],
+    "tower":{
+        "type":"ROGUE",
+        "theme":{
+            "base":"TOWER"
+        }
+    }
+}

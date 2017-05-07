@@ -16,10 +16,76 @@
         ],
         "weight":1
     },
+    "exclusive":true,
+	"inherit":[
+		"default:_loot_all",
+        "default:_loot0",
+        "default:_loot1",
+        "default:_loot2",
+        "default:_loot3",
+        "default:_loot4",
+        "default:_rooms",
+        "default:base"
+	],
     "tower":{
         "type":"JUNGLE",
         "theme":{
-            "base":"ETHO"
+            "base":"ETHO",
+            "primary":{
+                "walls":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"botanicaladdons:irisPlanks",
+                        "meta":13
+                    }
+                },
+                "pillar":{
+                    "type":"METABLOCK",
+                    "data":{
+						"name":"botanicaladdons:irisLog3",
+                        "meta":1
+					}
+                },
+                "stair":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"biomesoplenty:willow_stairs"
+                    }
+                },
+                "floor":{
+                    "name":"quark:stained_clay_tiles",
+                    "meta":5
+                }
+            },
+            "secondary":{
+                "walls":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"biomesoplenty:planks_0",
+                        "meta":8
+                    }
+                },
+                "pillar":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"biomesoplenty:log_2",
+                        "meta":4
+                    }
+                },
+                "stair":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"quark:stained_clay_tiles_red_stairs"
+                    }
+                },
+                "floor":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"quark:stained_clay_tiles",
+                        "meta":14
+                    }
+                }
+            }
         }
     },
 	"inherit":[
