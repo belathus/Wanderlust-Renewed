@@ -17,15 +17,15 @@
                             "count" : 1
                         },
                         {
-                            "_comment" : "Adding bronze ingots to the pigzombie's drops",
+                            "_comment" : "Adding brass ingots to the pigzombie's drops",
                             "weight" : 4,
                             "function" : "add",
-                            "id" : "primal:brass_ingot",
-                            "damage" : 0,
+                            "id" : "base:ingot",
+                            "damage" : 6,
                             "count" : 1
                         },
                         {
-                            "_comment" : "Adding bronze ingots to the pigzombie's drops",
+                            "_comment" : "Adding aluminum brass ingots to the pigzombie's drops",
                             "weight" : 4,
                             "function" : "add",
                             "id" : "tconstruct:ingots",
@@ -78,8 +78,8 @@
                         {
                             "function" : "add",
                             "weight" : 7,
-                            "id" : "primal:brass_nugget",
-                            "damage" : 0,
+                            "id" : "base:nugget",
+                            "damage" : 6,
                             "count" : "0~1"
                         },
                         {
