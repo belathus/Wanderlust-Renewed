@@ -26,15 +26,40 @@
         "default:base"
 	],
     "tower":{
-        "type":"PYRAMID",
+        "type":"RUIN",
         "theme":{
             "base":"ENIKO",
             "primary":{
                 "walls":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"chisel:wool_black",
+                        "name":"rockhounding_surface:beechChiseled",
                         "meta":1
+                    }
+                },
+                "pillar":{
+                    "data":{
+                        "name":"rockhounding_rocks:doricsB",
+                        "meta":12
+                    }
+                },
+                "stair":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"forestry:stairs.walnut"
+                    }
+                },
+                "floor":{
+                    "name":"rockhounding_surface:beechChiseled",
+                    "meta":2
+                }
+            },
+            "secondary":{
+                "walls":{
+                    "type":"METABLOCK",
+                    "data":{
+                        "name":"chisel:temple",
+                        "meta":13
                     }
                 },
                 "pillar":{
@@ -57,32 +82,6 @@
 						{"name":"chisel:sandstone-scribbles","meta":14},
 						{"name":"chisel:sandstone-scribbles","meta":15}
 					]
-                },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"quark:stone_andesite_stairs"
-                    }
-                },
-                "floor":{
-                    "name":"quark:stained_clay_tiles",
-                    "meta":3
-                }
-            },
-            "secondary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"chisel:temple",
-                        "meta":13
-                    }
-                },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:customBrick",
-                        "meta":15
-                    }
                 },
                 "stair":{
                     "type":"METABLOCK",
@@ -171,7 +170,7 @@
                     "walls":{
                         "type":"METABLOCK",
                         "data":{
-                            "name":"rockhounding_rocks:bricksA",
+                            "name":"chisel:basaltextra",
                             "meta":0
                         }
                     },
@@ -458,6 +457,30 @@
                             {
                                 "name":"rockhounding_chemistry:alloyBBlocks",
                                 "meta":8,
+                                "weight":1
+                            },
+                            {
+                                "name":"immersiveengineering:stoneDecoration",
+                                "meta":3,
+                                "weight":1,
+                                "comment":"Coal Coke"
+                            },
+                            {
+                                "name":"actuallyadditions:blockMisc",
+                                "meta":2,
+                                "weight":1,
+                                "comment":"Black Quartz"
+                            },
+                            {
+                                "name":"evilcraft:bloodWaxedCoalBlock",
+                                "weight":1
+                            },
+                            {
+                                "name":"base:storage_lead",
+                                "weight":1
+                            },
+                            {
+                                "name":"quark:charcoal_block",
                                 "weight":1
                             },
                             {
