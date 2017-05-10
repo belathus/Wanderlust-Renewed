@@ -300,7 +300,6 @@ recipes.addShaped(<chisel:blockUranium>*16,
      [<ore:plateUranium>,null,<ore:plateUranium>],
      [<ore:rock>,<ore:plateUranium>,<ore:rock>]]);
 
-*/
 
 # Limestone
     mods.chisel.Groups.addVariation("limestone", <quark:limestone>);
@@ -321,3 +320,4 @@ recipes.addShaped(<chisel:blockUranium>*16,
 
 #Chiselable Clear Glass
     mods.chisel.Groups.addVariation("glass", <tconstruct:clear_glass>);
+*/
