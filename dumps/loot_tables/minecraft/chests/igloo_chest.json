@@ -1,0 +1,314 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "entryName": "minecraft:stone_axe",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "evilcraft:originsOfDarkness",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "name": "evilcraft:originsOfDarkness"
+        },
+        {
+          "entryName": "evilcraft:condensedBlood",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:condensedBlood"
+        },
+        {
+          "entryName": "evilcraft:boxOfEternalClosure",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:boxOfEternalClosure"
+        },
+        {
+          "entryName": "astralsorcery:constellation_paper",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "name": "astralsorcery:ItemConstellationPaper"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0
+      }
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "evilcraft:originsOfDarkness",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "name": "evilcraft:originsOfDarkness"
+        },
+        {
+          "entryName": "evilcraft:condensedBlood",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:condensedBlood"
+        },
+        {
+          "entryName": "evilcraft:boxOfEternalClosure",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:boxOfEternalClosure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_apiculture_bees",
+      "entries": [
+        {
+          "entryName": "bee_steadfast_drone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:beeDroneGE"
+        },
+        {
+          "entryName": "bee_wintry_drone",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesWintry",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:beeDroneGE"
+        },
+        {
+          "entryName": "empty",
+          "weight": 7,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "PolarBearSoulVial",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{entityId:\"PolarBear\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "enderio:itemSoulVessel"
+        },
+        {
+          "entryName": "enderio:itemSoulVessel:0",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:itemSoulVessel"
+        },
+        {
+          "entryName": "enderio:itemBasicCapacitor54",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "enderio:set_capacitor"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:itemBasicCapacitor"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

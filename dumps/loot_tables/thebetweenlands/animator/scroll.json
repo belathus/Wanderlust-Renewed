@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "name": "scroll",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:angry_pebble",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 30.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:angry_pebble"
+        },
+        {
+          "entryName": "thebetweenlands:voodoo_doll",
+          "weight": 28,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:voodoo_doll"
+        },
+        {
+          "entryName": "thebetweenlands:swift_pick",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:swift_pick"
+        },
+        {
+          "entryName": "thebetweenlands:skull_mask",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:skull_mask"
+        },
+        {
+          "entryName": "thebetweenlands:wights_bane",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:wights_bane"
+        },
+        {
+          "entryName": "thebetweenlands:sludge_slicer",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:sludge_slicer"
+        },
+        {
+          "entryName": "thebetweenlands:critter_cruncher",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:critter_cruncher"
+        },
+        {
+          "entryName": "thebetweenlands:hag_hacker",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:hag_hacker"
+        },
+        {
+          "entryName": "amulet_socket",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 38.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "valonite_shard",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 19.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:ring_of_power",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:ring_of_power"
+        },
+        {
+          "entryName": "thebetweenlands:loot/music_disc",
+          "weight": 2,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "thebetweenlands:loot/music_disc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

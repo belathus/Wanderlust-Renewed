@@ -1,0 +1,179 @@
+{
+  "pools": [
+    {
+      "name": "runes",
+      "entries": [
+        {
+          "entryName": "arsmagica2:rune",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:rune"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "cosmetic",
+      "entries": [
+        {
+          "entryName": "arsmagica2:vinteum_torch",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:vinteum_torch"
+        },
+        {
+          "entryName": "arsmagica2:particle_emitter",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:particle_emitter"
+        },
+        {
+          "entryName": "arsmagica2:redstone_inlay",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:redstone_inlay"
+        },
+        {
+          "entryName": "arsmagica2:gold_inlay",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:gold_inlay"
+        },
+        {
+          "entryName": "arsmagica2:iron_inlay",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:iron_inlay"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "spell_stuff",
+      "entries": [
+        {
+          "entryName": "arsmagica2:item_ore",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:item_ore"
+        },
+        {
+          "entryName": "arsmagica2:infinity_orb",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:infinity_orb"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

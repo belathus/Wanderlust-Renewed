@@ -17,6 +17,7 @@
             }
         }, function(output, crafting, player){
             player.removeXP(1);
+            player.sendChat("Removed 1 XP.");
         });
     recipes.addShapeless(<minecraft:iron_ore>, 
         [<rockhounding_oretiers:ironOres:3>],
@@ -28,6 +29,7 @@
             }
         }, function(output, crafting, player){
             player.removeXP(1);
+            player.sendChat("Removed 1 XP.");
         });
     recipes.addShapeless(<minecraft:piston>,
         [<minecraft:sticky_piston>,<evilcraft:bucketEternalWater>]);
