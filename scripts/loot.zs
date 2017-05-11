@@ -1,5 +1,7 @@
 #vanilla.loot.removeChestLoot("blacksmith", <abyssalcraft:corpick>);
 
+import loottweaker.vanilla.loot.Functions;
+
 # Abandoned Mineshaft
     val mineshaft = loottweaker.vanilla.loot.LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 
@@ -24,312 +26,36 @@
     mineshaft.getPool("custom").addItemEntry(<astralsorcery:ItemConstellationPaper>, 10, 2);
     mineshaft.getPool("custom").addItemEntryHelper(<cyberware:neuropozyne>, 15, 0, [Functions.setCount(16,64)], []);
     mineshaft.getPool("custom").addItemEntry(<dungeontactics:magic_teather>, 10, 0);
+    mineshaft.getPool("custom").addItemEntryHelper(<dungeontactics:heart_jar>, 10, 0, [Functions.setCount(1,2)], []);
+    mineshaft.getPool("custom").addItemEntry(<dungeontactics:gilded_pickaxe>, 3, 0);
+    mineshaft.getPool("custom").addItemEntryHelper(<wired:energydrink>, 15, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<wired:powerbar>, 15, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntry(<wired:shield.riot>, 10, 0);
+    mineshaft.getPool("custom").addItemEntry(<wired:shield.reinforced>, 10, 0);
+    mineshaft.getPool("custom").addItemEntry(<wired:shield.alloyed>, 10, 0);
+    mineshaft.getPool("custom").addItemEntry(<wired:baton.shock>, 1, 0);
+    
+    mineshaft.addPool("custom1", 2, 4, 2, 4);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:iron_ingot>, 10, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:gold_ingot>, 5, 0, [Functions.setCount(1,3)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:redstone>, 5, 0, [Functions.setCount(4,9)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:dye:4>, 5, 0, [Functions.setCount(4,9)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:diamond>, 3, 0, [Functions.setCount(1,2)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:coal>, 10, 0, [Functions.setCount(3,8)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:bread>, 15, 0, [Functions.setCount(8,16)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:melon_seeds>, 10, 0, [Functions.setCount(2,4)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:pumpkin_seeds>, 10, 0, [Functions.setCount(2,4)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:beetroot_seeds>, 10, 0, [Functions.setCount(2,4)], []);
+    mineshaft.getPool("custom1").addItemEntry(<evilcraft:originsOfDarkness>, 1, 5);
+    mineshaft.getPool("custom1").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
+    mineshaft.getPool("custom1").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
 /*
 {
   "pools": [
     {
-      "name": "main",
-      "entries": [
-        {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "DT:HeartJar",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "dungeontactics:heart_jar"
-        },
-        {
-          "entryName": "DT:GildedPick",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_pickaxe"
-        },
-        {
-          "entryName": "wired:energydrink",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:energydrink"
-        },
-        {
-          "entryName": "wired:powerbar",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:powerbar"
-        },
-        {
-          "entryName": "wired:shieldRiot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:shield.riot"
-        },
-        {
-          "entryName": "wired:shieldReinforced",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:shield.reinforced"
-        },
-        {
-          "entryName": "wired:shieldAlloyed",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:shield.alloyed"
-        },
-        {
-          "entryName": "wired:baton.shock",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:baton.shock"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
       "name": "pool1",
       "entries": [
         {
-          "entryName": "minecraft:iron_ingot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "entryName": "minecraft:gold_ingot",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "entryName": "minecraft:redstone",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 9.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:redstone"
-        },
-        {
-          "entryName": "minecraft:dye",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "count": {
-                "min": 4.0,
-                "max": 9.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:dye"
-        },
-        {
-          "entryName": "minecraft:diamond",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond"
-        },
-        {
-          "entryName": "minecraft:coal",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "entryName": "minecraft:bread",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bread"
-        },
-        {
-          "entryName": "minecraft:melon_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:melon_seeds"
-        },
-        {
-          "entryName": "minecraft:pumpkin_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:pumpkin_seeds"
-        },
-        {
-          "entryName": "minecraft:beetroot_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:beetroot_seeds"
-        },
-        {
           "entryName": "everlastingabilities:abilityTotem",
           "weight": 1,
           "quality": 5,
@@ -338,33 +64,6 @@
             null
           ],
           "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
         },
         {
           "entryName": "DT:DuctTape",
