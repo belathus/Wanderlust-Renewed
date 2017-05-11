@@ -3,6 +3,7 @@
 import loottweaker.vanilla.loot.Functions;
 
 # Abandoned Mineshaft
+/*
     val mineshaft = loottweaker.vanilla.loot.LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 
     # mineshaft.clear();
@@ -49,6 +50,7 @@ import loottweaker.vanilla.loot.Functions;
     mineshaft.getPool("custom1").addItemEntry(<evilcraft:originsOfDarkness>, 1, 5);
     mineshaft.getPool("custom1").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
     mineshaft.getPool("custom1").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
+*/
 /*
 {
   "pools": [
