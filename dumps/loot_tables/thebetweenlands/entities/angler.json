@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "name": "angler",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:angler_meat_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "thebetweenlands:angler_meat_raw"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

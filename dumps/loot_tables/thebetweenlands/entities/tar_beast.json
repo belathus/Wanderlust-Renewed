@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "tar_beast",
+      "entries": [
+        {
+          "entryName": "tar_beast_heart",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 24.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "tar_drip",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 26.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

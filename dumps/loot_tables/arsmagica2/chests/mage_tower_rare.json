@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "name": "runes",
+      "entries": [
+        {
+          "entryName": "arsmagica2:rune",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:rune"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "spell_stuff",
+      "entries": [
+        {
+          "entryName": "arsmagica2:item_ore",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:item_ore"
+        },
+        {
+          "entryName": "arsmagica2:infinity_orb",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arsmagica2:infinity_orb"
+        }
+      ],
+      "rolls": 6.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

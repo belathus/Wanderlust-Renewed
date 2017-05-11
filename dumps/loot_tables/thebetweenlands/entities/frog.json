@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "name": "frog",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:frog_legs_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "thebetweenlands:frog_legs_raw"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "poison_gland",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 30.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "properties": {
+            "thebetweenlands:frog_type": 4
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

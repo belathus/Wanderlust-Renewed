@@ -1,0 +1,271 @@
+{
+  "pools": [
+    {
+      "name": "dark_druid",
+      "entries": [
+        {
+          "entryName": "talisman_piece_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": false,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 1
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:swamp_talisman"
+        },
+        {
+          "entryName": "talisman_piece_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": false,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 2
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:swamp_talisman"
+        },
+        {
+          "entryName": "talisman_piece_3",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": false,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 3
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:swamp_talisman"
+        },
+        {
+          "entryName": "talisman_piece_4",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": false,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 4
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:swamp_talisman"
+        },
+        {
+          "entryName": "talisman_piece_random",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": true,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 1
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            },
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": true,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 2
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            },
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": true,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 3
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            },
+            {
+              "properties": {
+                "thebetweenlands:has_item": {
+                  "has_item": true,
+                  "combine_stacks": true,
+                  "item": {
+                    "id": "thebetweenlands:swamp_talisman",
+                    "meta": 4
+                  },
+                  "inventories": [
+                    "held",
+                    "main"
+                  ],
+                  "size_operator": "\u003e\u003d"
+                }
+              },
+              "entity": "killer",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:swamp_talisman"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}
