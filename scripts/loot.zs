@@ -36,7 +36,7 @@ import loottweaker.vanilla.loot.Functions;
     mineshaft.getPool("custom").addItemEntry(<wired:shield.alloyed>, 10, 0);
     mineshaft.getPool("custom").addItemEntry(<wired:baton.shock>, 1, 0);
     
-    mineshaft.addPool("custom1", 2, 4, 2, 4);
+    mineshaft.addPool("custom1", 2, 4, 1, 1);
     mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:iron_ingot>, 10, 0, [Functions.setCount(1,5)], []);
     mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:gold_ingot>, 5, 0, [Functions.setCount(1,3)], []);
     mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:redstone>, 5, 0, [Functions.setCount(4,9)], []);
