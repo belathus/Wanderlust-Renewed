@@ -26,7 +26,7 @@
         "default:base"
 	],
     "tower":{
-        "type":"RUIN",
+        "type":"ROGUE",
         "theme":{
             "base":"ENIKO",
             "primary":{
@@ -39,18 +39,18 @@
                 },
                 "pillar":{
                     "data":{
-                        "name":"rockhounding_rocks:doricsB",
-                        "meta":12
+                        "name":"rockhounding_rocks:doricsA",
+                        "meta":9
                     }
                 },
                 "stair":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"forestry:stairs.walnut"
+                        "name":"abyssalcraft:dcstairs"
                     }
                 },
                 "floor":{
-                    "name":"rockhounding_surface:beechChiseled",
+                    "name":"abyssalcraft:darkstone_brick",
                     "meta":2
                 }
             },
@@ -58,8 +58,8 @@
                 "walls":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"chisel:temple",
-                        "meta":13
+                        "name":"abyssalcraft:darkstone_brick",
+                    "meta":2
                     }
                 },
                 "pillar":{
@@ -87,13 +87,6 @@
                     "type":"METABLOCK",
                     "data":{
                         "name":"biomesoplenty:magic_stairs"
-                    }
-                },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"chisel:wool_cyan",
-                        "meta":1
                     }
                 }
             }
