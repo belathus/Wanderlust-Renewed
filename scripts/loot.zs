@@ -1,13 +1,15 @@
-#vanilla.loot.removeChestLoot("blacksmith", <abyssalcraft:corpick>);
-
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 
-# Abandoned Mineshaft
+# Vanilla Abandoned Mineshaft
 /*
     val mineshaft = loottweaker.vanilla.loot.LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 
     # mineshaft.clear();
-    mineshaft.addPool("custom", 1, 1, 1, 1);
+    customPool = mineshaft.addPool("custom", 1, 1, 1, 1);
     mineshaft.getPool("custom").addItemEntry(<minecraft:golden_apple>, 20, 0);
     mineshaft.getPool("custom").addItemEntry(<minecraft:golden_apple:1>, 1, 0);
     mineshaft.getPool("custom").addItemEntry(<minecraft:name_tag>, 30, 0);
@@ -51,6 +53,30 @@ import loottweaker.vanilla.loot.Functions;
     mineshaft.getPool("custom1").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
     mineshaft.getPool("custom1").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
 */
+
+# Level Up
+    val digCommon = LootTables.getTable("levelup:digging/common_dig");
+    val digUncommon = LootTables.getTable("levelup:digging/uncommon_dig");
+    val digRare = LootTables.getTable("levelup:digging/rare_dig");
+    val digCommonPool = digCommon.getPool("common_treasure");
+    val digUncommonPool = digUncommon.getPool("uncommon_treasure");
+    val digRarePool = digRare.getPool("rare_treasure");
+    # Common Pool (85%)
+    digCommonPool.removeItemEntry(<minecraft:stone_axe>);
+    digCommonPool.removeItemEntry(<minecraft:stone_pickaxe>);
+    digCommonPool.removeItemEntry(<minecraft:stone_shovel>);
+    digCommonPool.removeItemEntry(<minecraft:stone_sword>);
+    digCommonPool.removeItemEntry(<minecraft:bowl>);
+    digCommonPool.removeItemEntry(<minecraft:painting>);
+    digCommonPool.addItemEntryHelper(<primal:plant_fiber>, 20, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,3,0)], []);
+    # Uncommon Pool (14%)
+    digUncommonPool.addItemEntryHelper(<tconstruct:edible:1>, 4, 1, [Functions.setCount(2, 4), Functions.lootingEnchantBonus(0,2,0)], []); # Blue Slime
+    digUncommonPool.addItemEntryHelper(<tconstruct:edible:2>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []); # Purple Slime
+    digUncommonPool.addItemEntryHelper(<tconstruct:edible:3>, 3, 1, [Functions.setCount(1, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Coagulated Blood Slime
+    digUncommonPool.addItemEntryHelper(<tconstruct:edible:4>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Magma Slime
+    # Rare Pool (1%)
+    digUncommonPool.addItemEntryHelper(<primal:opal>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Blood Opal
+
 /*
 {
   "pools": [
