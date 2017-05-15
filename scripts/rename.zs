@@ -2,6 +2,9 @@
 #<morebees:emeraldFragment>.displayName = "Emerald Fragment";
 #<druidry:flint_axe>.displayName = "Simple Flint Hatchet";
 
+# Vanilla
+    <minecraft:iron_ore>.displayName = "Iron Ore";
+
 # Actually Additions
     <actuallyadditions:blockMisc:9>.displayName = "Steel Casing";
 
