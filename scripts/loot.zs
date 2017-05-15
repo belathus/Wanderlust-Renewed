@@ -55,12 +55,12 @@ import loottweaker.vanilla.loot.Functions;
 */
 
 # Level Up
-    val digCommon = LootTables.getTable("levelup:digging/common_dig");
+    val digCommon =   LootTables.getTable("levelup:digging/common_dig");
     val digUncommon = LootTables.getTable("levelup:digging/uncommon_dig");
-    val digRare = LootTables.getTable("levelup:digging/rare_dig");
-    val digCommonPool = digCommon.getPool("common_treasure");
+    val digRare =     LootTables.getTable("levelup:digging/rare_dig");
+    val digCommonPool =   digCommon.getPool("common_treasure");
     val digUncommonPool = digUncommon.getPool("uncommon_treasure");
-    val digRarePool = digRare.getPool("rare_treasure");
+    val digRarePool =     digRare.getPool("rare_treasure");
     # Common Pool (85%)
     digCommonPool.removeItemEntry(<minecraft:stone_axe>);
     digCommonPool.removeItemEntry(<minecraft:stone_pickaxe>);
@@ -76,7 +76,6 @@ import loottweaker.vanilla.loot.Functions;
     digCommonPool.addItemEntryHelper(<primal:rock_netherrack>, 3, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
     digCommonPool.addItemEntryHelper(<primal:rock_sarsen>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
     digCommonPool.addItemEntryHelper(<primal:rock_vitrified>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
-
     # Uncommon Pool (14%)
     digUncommonPool.removeItemEntry(<minecraft:bowl>);
     digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:24>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Nickel Nugget
@@ -107,7 +106,16 @@ import loottweaker.vanilla.loot.Functions;
     digRarePool.addItemEntryHelper(<biomesoplenty:gem:5>, 5, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Malachite
     digRarePool.addItemEntryHelper(<biomesoplenty:gem:6>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Sapphire
     digRarePool.addItemEntryHelper(<biomesoplenty:gem:7>, 5, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Amber
-
+    
+    # Fishing Loot
+    val fishLoot = LootTables.getTable("levelup:fishing/fishing_loot");
+    val fishLootPool = fishLoot.getPool("fishing_bonus");
+    fishLootPool.addItemEntryHelper(<primal:muck>, 20, 1, [Functions.enchantWithLevels(1, 30, false)], []);
+    fishLootPool.addItemEntryHelper(<botania:manaResource:16>, 5, 1, [Functions:setCount(1, 3)], []); # Mana String
+    fishLootPool.addItemEntryHelper(<botania:manaResource:22>, 3, 1, [], []); # Mana cloth
+    fishLootPool.addItemEntryHelper(<fishing:itemNet>, 3, 1, [], []); # Mana cloth
+    fishLootPool.addItemEntryHelper(<quark:ancient_tome>, 1, 1, [Functions.parse("function: 'quark:enchant_tome'")], []);
+    
 /*
 {
   "pools": [
