@@ -23,6 +23,12 @@
     recipes.remove(<minecraft:diamond_pickaxe>);
     recipes.remove(<minecraft:diamond_shovel>);
     recipes.remove(<minecraft:diamond_sword>);
+    
+    recipes.addShaped(<minecraft:diamond_sword>, [<primal:diamond_workblade>.noReturn()]);
+    recipes.addShaped(<minecraft:diamond_shovel>, [<primal:diamond_shovel>.noReturn()]);
+    recipes.addShaped(<minecraft:diamond_axe>, [<primal:diamond_axe>.noReturn()]);
+    recipes.addShaped(<minecraft:diamond_hoe>, [<primal:diamond_hoe>.noReturn()]);
+    recipes.addShaped(<minecraft:diamond_pickaxe>, [<primal:diamond_pickaxe>.noReturn()]);
 
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
@@ -46,6 +52,16 @@
     recipes.remove(<actuallyadditions:stonePaxel>); # Stone AIOT
     recipes.remove(<actuallyadditions:quartzPaxel>); # Black Quartz AIOT
     recipes.remove(<actuallyadditions:obsidianPaxel>); # Obsidian AIOT
+    recipes.remove(<actuallyadditions:diamondPaxel>); # Diamond AIOT
+    recipes.remove(<actuallyadditions:emeraldPaxel>); # Emerald AIOT
+    recipes.remove(<actuallyadditions:goldPaxel>); # Gold AIOT
+    recipes.remove(<actuallyadditions:ironPaxel>); # Iron AIOT
+    recipes.remove(<actuallyadditions:itemPaxelCrystalBlack>); # Void Crystal AIOT
+    recipes.remove(<actuallyadditions:itemPaxelCrystalBlue>); # Palis Crystal AIOT
+    recipes.remove(<actuallyadditions:itemPaxelCrystalGreen>); # Emeradic Crystal AIOT
+    recipes.remove(<actuallyadditions:itemPaxelCrystalLightBlue>); # Diamatine Crystal AIOT
+    recipes.remove(<actuallyadditions:itemPaxelCrystalRed>); # Restonia Crystal AIOT
+    recipes.remove(<actuallyadditions:itemPaxelCrystalWhite>); # Enori Crystal AIOT
     recipes.remove(<actuallyadditions:itemAxeEmerald>); # Emerald Axe
     recipes.remove(<actuallyadditions:itemAxeObsidian>); # Obsidian Axe
     recipes.remove(<actuallyadditions:itemHoeEmerald>); # Emerald Hoe
@@ -101,6 +117,12 @@
 # Dungeon Tactics
     recipes.remove(<dungeontactics:wooden_sword>);
     recipes.remove(<dungeontactics:stone_sword>);
+    recipes.remove(<dungeontactics:iron_sword>);
+    recipes.remove(<dungeontactics:diamond_sword>);
+    recipes.remove(<dungeontactics:gold_sword>);
+    recipes.addShapeless(<dungeontactics:iron_sword>, [<minecraft:iron_sword>.noReturn()]);
+    recipes.addShapeless(<dungeontactics:diamond_sword>, [<minecraft:diamond_sword>.noReturn()]);
+    recipes.addShapeless(<dungeontactics:gold_sword>, [<minecraft:gold_sword>.noReturn()]);
 
 # Extra Utilities
     recipes.remove(<extrautils2:itemdestructionwand>);
