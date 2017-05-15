@@ -69,13 +69,44 @@ import loottweaker.vanilla.loot.Functions;
     digCommonPool.removeItemEntry(<minecraft:bowl>);
     digCommonPool.removeItemEntry(<minecraft:painting>);
     digCommonPool.addItemEntryHelper(<primal:plant_fiber>, 20, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,3,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_stone>, 5, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_andesite>, 5, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_diorite>, 5, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_granite>, 5, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_netherrack>, 3, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_sarsen>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+    digCommonPool.addItemEntryHelper(<primal:rock_vitrified>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
+
     # Uncommon Pool (14%)
+    digUncommonPool.removeItemEntry(<minecraft:bowl>);
+    digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:24>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Nickel Nugget
+    digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:20>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Copper Nugget
+    digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:23>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Silver Nugget
+    digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:29>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Iron Nugget
+    digUncommonPool.addItemEntryHelper(<minecraft:gold_nugget>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Iron Nugget
     digUncommonPool.addItemEntryHelper(<tconstruct:edible:1>, 4, 1, [Functions.setCount(2, 4), Functions.lootingEnchantBonus(0,2,0)], []); # Blue Slime
     digUncommonPool.addItemEntryHelper(<tconstruct:edible:2>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []); # Purple Slime
     digUncommonPool.addItemEntryHelper(<tconstruct:edible:3>, 3, 1, [Functions.setCount(1, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Coagulated Blood Slime
     digUncommonPool.addItemEntryHelper(<tconstruct:edible:4>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Magma Slime
     # Rare Pool (1%)
-    digUncommonPool.addItemEntryHelper(<primal:opal>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Blood Opal
+    digRarePool.removeItemEntry(<minecraft:stone_axe>);
+    digRarePool.removeItemEntry(<minecraft:stone_pickaxe>);
+    digRarePool.removeItemEntry(<minecraft:stone_shovel>);
+    digRarePool.removeItemEntry(<minecraft:stone_sword>);
+    digRarePool.addItemEntryHelper(<primal:flint_axe>,       5, 1, [Functions.enchantWithLevels(20, 30, false)], []);
+    digRarePool.addItemEntryHelper(<primal:flint_hatchet>,   5, 1, [Functions.enchantWithLevels(20, 30, false)], []);
+    digRarePool.addItemEntryHelper(<primal:flint_pickaxe>,   5, 1, [Functions.enchantWithLevels(20, 30, false)], []);
+    digRarePool.addItemEntryHelper(<primal:flint_shovel>,    5, 1, [Functions.enchantWithLevels(20, 30, false)], []);
+    digRarePool.addItemEntryHelper(<primal:flint_workblade>, 5, 1, [Functions.enchantWithLevels(20, 30, false)], []);
+    digRarePool.addItemEntryHelper(<minecraft:quartz>, 3, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Nether Quartz
+    digRarePool.addItemEntryHelper(<primal:opal>, 1, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Blood Opal
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:1>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Ruby
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:2>, 4, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Peridot
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:3>, 3, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Topaz
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:4>, 1, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Tanzanite
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:5>, 5, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Malachite
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:6>, 2, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Sapphire
+    digRarePool.addItemEntryHelper(<biomesoplenty:gem:7>, 5, 1, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0,1,0)], []); # Amber
 
 /*
 {
