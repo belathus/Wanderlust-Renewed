@@ -4,56 +4,6 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 
-# Vanilla Abandoned Mineshaft
-/*
-    val mineshaft = loottweaker.vanilla.loot.LootTables.getTable("minecraft:chests/abandoned_mineshaft");
-
-    # mineshaft.clear();
-    customPool = mineshaft.addPool("custom", 1, 1, 1, 1);
-    mineshaft.getPool("custom").addItemEntry(<minecraft:golden_apple>, 20, 0);
-    mineshaft.getPool("custom").addItemEntry(<minecraft:golden_apple:1>, 1, 0);
-    mineshaft.getPool("custom").addItemEntry(<minecraft:name_tag>, 30, 0);
-    mineshaft.getPool("custom").addItemEntryHelper(<minecraft:book>, 10, 0, [Functions.parse("function:'minecraft:enchant_randomly'")], []);
-    mineshaft.getPool("custom").addItemEntry(<minecraft:iron_pickaxe>, 5, 0);
-    mineshaft.getPool("custom").addItemEntry(null, 5, 0);
-    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:abyssalnite_ingot>, 3, 0, [Functions.setCount(1,3)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<immersiveengineering:metal>, 7, 0, [Functions.setCount(1,5)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<base:ingot:29>, 7, 0, [Functions.setCount(1,5)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<base:ingot:34>, 7, 0, [Functions.setCount(1,5)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:shadowfragment>, 8, 0, [Functions.setCount(1,10)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:shadowshard>, 5, 0, [Functions.setCount(1,6)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:shadowgem>, 3, 0, [Functions.setCount(1,3)], []);
-    mineshaft.getPool("custom").addItemEntry(<evilcraft:originsOfDarkness>, 1, 5);
-    mineshaft.getPool("custom").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
-    mineshaft.getPool("custom").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
-    mineshaft.getPool("custom").addItemEntry(<astralsorcery:ItemConstellationPaper>, 10, 2);
-    mineshaft.getPool("custom").addItemEntryHelper(<cyberware:neuropozyne>, 15, 0, [Functions.setCount(16,64)], []);
-    mineshaft.getPool("custom").addItemEntry(<dungeontactics:magic_teather>, 10, 0);
-    mineshaft.getPool("custom").addItemEntryHelper(<dungeontactics:heart_jar>, 10, 0, [Functions.setCount(1,2)], []);
-    mineshaft.getPool("custom").addItemEntry(<dungeontactics:gilded_pickaxe>, 3, 0);
-    mineshaft.getPool("custom").addItemEntryHelper(<wired:energydrink>, 15, 0, [Functions.setCount(1,5)], []);
-    mineshaft.getPool("custom").addItemEntryHelper(<wired:powerbar>, 15, 0, [Functions.setCount(1,5)], []);
-    mineshaft.getPool("custom").addItemEntry(<wired:shield.riot>, 10, 0);
-    mineshaft.getPool("custom").addItemEntry(<wired:shield.reinforced>, 10, 0);
-    mineshaft.getPool("custom").addItemEntry(<wired:shield.alloyed>, 10, 0);
-    mineshaft.getPool("custom").addItemEntry(<wired:baton.shock>, 1, 0);
-    
-    mineshaft.addPool("custom1", 2, 4, 1, 1);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:iron_ingot>, 10, 0, [Functions.setCount(1,5)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:gold_ingot>, 5, 0, [Functions.setCount(1,3)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:redstone>, 5, 0, [Functions.setCount(4,9)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:dye:4>, 5, 0, [Functions.setCount(4,9)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:diamond>, 3, 0, [Functions.setCount(1,2)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:coal>, 10, 0, [Functions.setCount(3,8)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:bread>, 15, 0, [Functions.setCount(8,16)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:melon_seeds>, 10, 0, [Functions.setCount(2,4)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:pumpkin_seeds>, 10, 0, [Functions.setCount(2,4)], []);
-    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:beetroot_seeds>, 10, 0, [Functions.setCount(2,4)], []);
-    mineshaft.getPool("custom1").addItemEntry(<evilcraft:originsOfDarkness>, 1, 5);
-    mineshaft.getPool("custom1").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
-    mineshaft.getPool("custom1").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
-*/
-
 # Level Up
     val digCommon =   LootTables.getTable("levelup:digging/common_dig");
     val digUncommon = LootTables.getTable("levelup:digging/uncommon_dig");
@@ -115,7 +65,58 @@ import loottweaker.vanilla.loot.Functions;
     fishLootPool.addItemEntryHelper(<botania:manaResource:22>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<fishing:itemNet>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<quark:ancient_tome>, 1, 1, [Functions.parse("function: 'quark:enchant_tome'")], []);
+
+# Vanilla Abandoned Mineshaft
+/*
+    val mineshaft = loottweaker.vanilla.loot.LootTables.getTable("minecraft:chests/abandoned_mineshaft");
+
+    # mineshaft.clear();
+    customPool = mineshaft.addPool("custom", 1, 1, 1, 1);
+    mineshaft.getPool("custom").addItemEntry(<minecraft:golden_apple>, 20, 0);
+    mineshaft.getPool("custom").addItemEntry(<minecraft:golden_apple:1>, 1, 0);
+    mineshaft.getPool("custom").addItemEntry(<minecraft:name_tag>, 30, 0);
+    mineshaft.getPool("custom").addItemEntryHelper(<minecraft:book>, 10, 0, [Functions.parse("function:'minecraft:enchant_randomly'")], []);
+    mineshaft.getPool("custom").addItemEntry(<minecraft:iron_pickaxe>, 5, 0);
+    mineshaft.getPool("custom").addItemEntry(null, 5, 0);
+    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:abyssalnite_ingot>, 3, 0, [Functions.setCount(1,3)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<immersiveengineering:metal>, 7, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<base:ingot:29>, 7, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<base:ingot:34>, 7, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:shadowfragment>, 8, 0, [Functions.setCount(1,10)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:shadowshard>, 5, 0, [Functions.setCount(1,6)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<abyssalcraft:shadowgem>, 3, 0, [Functions.setCount(1,3)], []);
+    mineshaft.getPool("custom").addItemEntry(<evilcraft:originsOfDarkness>, 1, 5);
+    mineshaft.getPool("custom").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
+    mineshaft.getPool("custom").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
+    mineshaft.getPool("custom").addItemEntry(<astralsorcery:ItemConstellationPaper>, 10, 2);
+    mineshaft.getPool("custom").addItemEntryHelper(<cyberware:neuropozyne>, 15, 0, [Functions.setCount(16,64)], []);
+    mineshaft.getPool("custom").addItemEntry(<dungeontactics:magic_teather>, 10, 0);
+    mineshaft.getPool("custom").addItemEntryHelper(<dungeontactics:heart_jar>, 10, 0, [Functions.setCount(1,2)], []);
+    mineshaft.getPool("custom").addItemEntry(<dungeontactics:gilded_pickaxe>, 3, 0);
+    mineshaft.getPool("custom").addItemEntryHelper(<wired:energydrink>, 15, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntryHelper(<wired:powerbar>, 15, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom").addItemEntry(<wired:shield.riot>, 10, 0);
+    mineshaft.getPool("custom").addItemEntry(<wired:shield.reinforced>, 10, 0);
+    mineshaft.getPool("custom").addItemEntry(<wired:shield.alloyed>, 10, 0);
+    mineshaft.getPool("custom").addItemEntry(<wired:baton.shock>, 1, 0);
     
+    mineshaft.addPool("custom1", 2, 4, 1, 1);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:iron_ingot>, 10, 0, [Functions.setCount(1,5)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:gold_ingot>, 5, 0, [Functions.setCount(1,3)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:redstone>, 5, 0, [Functions.setCount(4,9)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:dye:4>, 5, 0, [Functions.setCount(4,9)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:diamond>, 3, 0, [Functions.setCount(1,2)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:coal>, 10, 0, [Functions.setCount(3,8)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:bread>, 15, 0, [Functions.setCount(8,16)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:melon_seeds>, 10, 0, [Functions.setCount(2,4)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:pumpkin_seeds>, 10, 0, [Functions.setCount(2,4)], []);
+    mineshaft.getPool("custom1").addItemEntryHelper(<minecraft:beetroot_seeds>, 10, 0, [Functions.setCount(2,4)], []);
+    mineshaft.getPool("custom1").addItemEntry(<evilcraft:originsOfDarkness>, 1, 5);
+    mineshaft.getPool("custom1").addItemEntryHelper(<evilcraft:condensedBlood>, 5, 1, [Functions.setCount(32,64)], []);
+    mineshaft.getPool("custom1").addItemEntry(<evilcraft:boxOfEternalClosure>, 1, 4);
+*/
+
+ 
 /*
 {
   "pools": [
