@@ -24,7 +24,18 @@ import loottweaker.vanilla.loot.Functions;
     fishJTable.addItemEntryHelper(<primal:terraclay_clump>, 5, 1, [], []);
     fishJTable.addItemEntryHelper(<primal:earthwax_clump>, 5, 1, [], []);
     
-    
+# Actually Additions
+    val jamChest = LootTables.getTable("actuallyadditions:jamHouse");
+    # No actual pools in the jamhouse.
+    val caveChest = LootTables.getTable("actuallyadditions:lushCaves");
+    # No pools in the lush caves either.
+
+# Astral Sorcery
+    val shrineChest = LootTables.getTable("astralsorcery:chest_shrine");
+    val shrinePool = shrineChest.getPool("astralsorcery:chest_shrine");
+
+# Immersive Engineering
+    val engHouse = LootTables.getTable("immersiveengineering:chests/engineers_house");
 
 # Level Up
     val digCommon =   LootTables.getTable("levelup:digging/common_dig");
@@ -50,6 +61,7 @@ import loottweaker.vanilla.loot.Functions;
     digCommonPool.addItemEntryHelper(<primal:rock_vitrified>, 1, 1, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0,1,0)], []);
     # Uncommon Pool (14%)
     digUncommonPool.removeItemEntry(<minecraft:bowl>);
+    digUncommonPool.addItemEntryHelper(<minecraft:feather>, 10, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []);
     digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:24>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Nickel Nugget
     digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:20>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Copper Nugget
     digUncommonPool.addItemEntryHelper(<immersiveengineering:metal:23>, 1, 1, [Functions.setCount(2, 5), Functions.lootingEnchantBonus(0,2,0)], []); # Silver Nugget
@@ -87,8 +99,14 @@ import loottweaker.vanilla.loot.Functions;
     fishLootPool.addItemEntryHelper(<botania:manaResource:22>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<fishing:itemNet>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<quark:ancient_tome>, 1, 1, [Functions.parse("function: 'quark:enchant_tome'")], []);
+    fishLootPool.addItemEntryHelper(<enderio:itemBasicCapacitor:3>, 1, 1, [Functions.parse("function: 'enderio:set_capacitor'")], []);[
     
-    
+# The Between Lands
+    val betweenTable1 = LootTables.getTable("thebetweenlands:loot/common_chest_loot");
+    val betweenTable2 = LootTables.getTable("thebetweenlands:loot/common_pot_loot");
+    val betweenTable3 = LootTables.getTable("thebetweenlands:loot/dungeon_chest_loot");
+    val betweenTable4 = LootTables.getTable("thebetweenlands:loot/dungeon_pot_loot");
+    val betweenTable5 = LootTables.getTable("thebetweenlands:loot/music_disc");
 
 # Vanilla Abandoned Mineshaft
 /*
