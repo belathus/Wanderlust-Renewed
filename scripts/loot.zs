@@ -8,6 +8,7 @@ import loottweaker.vanilla.loot.Functions;
     val digCommon =   LootTables.getTable("levelup:digging/common_dig");
     val digUncommon = LootTables.getTable("levelup:digging/uncommon_dig");
     val digRare =     LootTables.getTable("levelup:digging/rare_dig");
+/*
     val digCommonPool =   digCommon.getPool("common_treasure");
     val digUncommonPool = digUncommon.getPool("uncommon_treasure");
     val digRarePool =     digRare.getPool("rare_treasure");
@@ -61,7 +62,7 @@ import loottweaker.vanilla.loot.Functions;
     val fishLoot = LootTables.getTable("levelup:fishing/fishing_loot");
     val fishLootPool = fishLoot.getPool("fishing_bonus");
     fishLootPool.addItemEntryHelper(<primal:muck>, 20, 1, [Functions.enchantWithLevels(1, 30, false)], []);
-    fishLootPool.addItemEntryHelper(<botania:manaResource:16>, 5, 1, [Functions:setCount(1, 3)], []); # Mana String
+    fishLootPool.addItemEntryHelper(<botania:manaResource:16>, 5, 1, [Functions.setCount(1, 3)], []); # Mana String
     fishLootPool.addItemEntryHelper(<botania:manaResource:22>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<fishing:itemNet>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<quark:ancient_tome>, 1, 1, [Functions.parse("function: 'quark:enchant_tome'")], []);

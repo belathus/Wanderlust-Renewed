@@ -24,11 +24,11 @@
     recipes.remove(<minecraft:diamond_shovel>);
     recipes.remove(<minecraft:diamond_sword>);
     
-    recipes.addShaped(<minecraft:diamond_sword>, [<primal:diamond_workblade>.noReturn()]);
-    recipes.addShaped(<minecraft:diamond_shovel>, [<primal:diamond_shovel>.noReturn()]);
-    recipes.addShaped(<minecraft:diamond_axe>, [<primal:diamond_axe>.noReturn()]);
-    recipes.addShaped(<minecraft:diamond_hoe>, [<primal:diamond_hoe>.noReturn()]);
-    recipes.addShaped(<minecraft:diamond_pickaxe>, [<primal:diamond_pickaxe>.noReturn()]);
+    recipes.addShapeless(<minecraft:diamond_sword>, [<primal:diamond_workblade>.noReturn()]);
+    recipes.addShapeless(<minecraft:diamond_shovel>, [<primal:diamond_shovel>.noReturn()]);
+    recipes.addShapeless(<minecraft:diamond_axe>, [<primal:diamond_axe>.noReturn()]);
+    recipes.addShapeless(<minecraft:diamond_hoe>, [<primal:diamond_hoe>.noReturn()]);
+    recipes.addShapeless(<minecraft:diamond_pickaxe>, [<primal:diamond_pickaxe>.noReturn()]);
 
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
@@ -119,10 +119,10 @@
     recipes.remove(<dungeontactics:stone_sword>);
     recipes.remove(<dungeontactics:iron_sword>);
     recipes.remove(<dungeontactics:diamond_sword>);
-    recipes.remove(<dungeontactics:gold_sword>);
+    recipes.remove(<dungeontactics:golden_sword>);
     recipes.addShapeless(<dungeontactics:iron_sword>, [<minecraft:iron_sword>.noReturn()]);
     recipes.addShapeless(<dungeontactics:diamond_sword>, [<minecraft:diamond_sword>.noReturn()]);
-    recipes.addShapeless(<dungeontactics:gold_sword>, [<minecraft:gold_sword>.noReturn()]);
+    recipes.addShapeless(<dungeontactics:golden_sword>, [<minecraft:golden_sword>.noReturn()]);
 
 # Extra Utilities
     recipes.remove(<extrautils2:itemdestructionwand>);
