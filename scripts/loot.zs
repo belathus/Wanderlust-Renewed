@@ -3,12 +3,33 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
+/*
+# Vanilla
+    val fishTTable = LootTables.getTable("minecraft:gameplay/fishing/treasure");
+    val fishFTable = LootTables.getTable("minecraft:gameplay/fishing/fish");
+    val fishJTable = LootTables.getTable("minecraft:gameplay/fishing/junk");
+    val fishTPool = fishTTable.getPool("main");
+    val fishFPool = fishFTable.getPool("main");
+    val fishJPool = fishJTable.getPool("main");
+    # Fish (85%)
+    # Treasure (5%)
+    fishTTable.addItemEntryHelper(<primal:flint_pickaxe>, 1, 1, [Functions.enchantWithLevels(25, 30, true)], []);
+    fishTTable.addItemEntryHelper(<fishing:itemNet>, 1, 1, [], []);
+    fishTTable.addItemEntryHelper(<primal:fish_trap_oak>, 1, 1, [], []);
+    # Junk (10%)
+    fishJTable.addItemEntryHelper(<primal:muck>, 10, 1, [], []);
+    fishJTable.addItemEntryHelper(<minecraft:clayball>, 10, 1, [], []);
+    fishJTable.addItemEntryHelper(<primal:mud_clump>, 10, 1, [], []);
+    fishJTable.addItemEntryHelper(<primal:cinisclay_clump>, 2, 1, [], []);
+    fishJTable.addItemEntryHelper(<primal:terraclay_clump>, 5, 1, [], []);
+    fishJTable.addItemEntryHelper(<primal:earthwax_clump>, 5, 1, [], []);
+    
+    
 
 # Level Up
     val digCommon =   LootTables.getTable("levelup:digging/common_dig");
     val digUncommon = LootTables.getTable("levelup:digging/uncommon_dig");
     val digRare =     LootTables.getTable("levelup:digging/rare_dig");
-/*
     val digCommonPool =   digCommon.getPool("common_treasure");
     val digUncommonPool = digUncommon.getPool("uncommon_treasure");
     val digRarePool =     digRare.getPool("rare_treasure");
@@ -61,11 +82,13 @@ import loottweaker.vanilla.loot.Functions;
     # Fishing Loot
     val fishLoot = LootTables.getTable("levelup:fishing/fishing_loot");
     val fishLootPool = fishLoot.getPool("fishing_bonus");
-    fishLootPool.addItemEntryHelper(<primal:muck>, 20, 1, [Functions.enchantWithLevels(1, 30, false)], []);
+    fishLootPool.addItemEntryHelper(<primal:muck>, 20, 1, [], []);
     fishLootPool.addItemEntryHelper(<botania:manaResource:16>, 5, 1, [Functions.setCount(1, 3)], []); # Mana String
     fishLootPool.addItemEntryHelper(<botania:manaResource:22>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<fishing:itemNet>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<quark:ancient_tome>, 1, 1, [Functions.parse("function: 'quark:enchant_tome'")], []);
+    
+    
 
 # Vanilla Abandoned Mineshaft
 /*
