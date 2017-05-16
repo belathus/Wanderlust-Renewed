@@ -287,11 +287,10 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[null, <cyberware:component:*>, null],
          [<ore:ingotAluminum>, <ore:chestWood>, <ore:ingotAluminum>],
          [null, <ore:ingotAluminum>, null]]);
-#    recipes.remove(<cyberware:radioPost>);
-#    recipes.addShaped(<cyberware:radioPost>,
-#        [[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
-#         [<minecraft:iron_bars>, <cyberware:component:5>, <minecraft:iron_bars>],
-#         [<minecraft:iron_bars>, <cyberware:component:4>, <minecraft:iron_bars>]]);
+    recipes.remove(<cyberware:radioPost>);
+    recipes.addShaped(<cyberware:radioPost> * 6,
+        [[<ore:stickAluminum>, <cyberware:component:5>, <ore:stickAluminum>],
+         [<ore:stickAluminum>, <cyberware:component:4>, <ore:stickAluminum>]]);
 
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);
