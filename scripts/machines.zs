@@ -473,17 +473,17 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<thermalexpansion:frame:64>);
     recipes.remove(<thermalexpansion:frame:128>);
     recipes.addShaped(<thermalexpansion:frame>,
-        [[<ore:ingotSteel>,<ore:blockGlass>,<ore:ingotSteel>],
-         [<ore:blockGlass>,<ore:gearTin>,<ore:blockGlass>],
-         [<ore:ingotSteel>,<ore:blockGlass>,<ore:ingotSteel>]]);
+        [[<ore:ingotSteel>,<ore:blockGlassHardened>,<ore:ingotSteel>],
+         [<ore:blockGlassHardened>,<ore:gearTin>,<ore:blockGlassHardened>],
+         [<ore:ingotSteel>,<ore:blockGlassHardened>,<ore:ingotSteel>]]);
     recipes.addShaped(<thermalexpansion:frame:64>,
-        [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],
-         [<ore:blockGlass>, <ore:gearCopper>, <ore:blockGlass>],
-         [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+        [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>],
+         [<ore:blockGlassHardened>, <ore:gearCopper>, <ore:blockGlassHardened>],
+         [<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>]]);
     recipes.addShaped(<thermalexpansion:frame:128>,
-        [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],
-         [<ore:blockGlass>, <ore:gearLead>, <ore:blockGlass>],
-         [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+        [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>],
+         [<ore:blockGlassHardened>, <ore:gearLead>, <ore:blockGlassHardened>],
+         [<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>]]);
     recipes.remove(<thermalexpansion:machine:*>);
     # Redstone Furnace
     recipes.addShaped(<thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}),
