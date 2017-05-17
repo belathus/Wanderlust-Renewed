@@ -357,6 +357,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
+# Forestry
+    recipes.remove(<forestry:fabricator>);
+    recipes.addShaped(<forestry:fabricator>,
+        [[<ore:ingotNickel>, <ore:blockGlassHardened>, <ore:ingotNickel>],
+         [<ore:blockGlassHardened>, <forestry:sturdyMachine>, <ore:blockGlassHardened>],
+         [<ore:ingotNickel>, <ore:chestWood>, <ore:ingotNickel>]]);
+
 # Immersive Engineering
     # Coke Oven
     recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
