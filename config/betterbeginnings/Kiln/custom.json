@@ -95,6 +95,38 @@
         "stackSize": 1
       },
       "experience": 0.4
+    },
+    {
+      "input": {
+        "itemName": "rockhounding_rocks:blocksG",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "enderio:blockFusedQuartz",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.6
+    },
+    {
+      "input": {
+        "itemName": "rockhounding_rocks:rocksG",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "enderio:blockFusedQuartz",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1
+      },
+      "experience": 0.6
     }
   ],
   "includes": [],
