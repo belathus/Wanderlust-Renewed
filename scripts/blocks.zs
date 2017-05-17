@@ -52,7 +52,14 @@
         [[<ore:stone>,<ore:stone>,<ore:stone>],
          [<ore:stone>,<evilcraft:bucketEternalWater>,<ore:stone>],
          [<ore:stone>,<ore:stone>,<ore:stone>]]);
-        
+
+# Deep Resonance
+    recipes.remove(<deepresonance:dense_glass>);
+    recipes.addShaped(<deepresonance:dense_glass> * 5,
+        [[<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>],
+         [<ore:blockGlassHardened>, <ore:dustObsidian>, <ore:blockGlassHardened>],
+         [<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>]]);
+
 # Embers
 /*    recipes.remove(<embers:ashenStone>);
     recipes.addShaped(<embers:ashenStone>*4,
