@@ -3,7 +3,7 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
-/*
+
 # Vanilla
     val fishTTable = LootTables.getTable("minecraft:gameplay/fishing/treasure");
     val fishFTable = LootTables.getTable("minecraft:gameplay/fishing/fish");
@@ -13,16 +13,16 @@ import loottweaker.vanilla.loot.Functions;
     val fishJPool = fishJTable.getPool("main");
     # Fish (85%)
     # Treasure (5%)
-    fishTTable.addItemEntryHelper(<primal:flint_pickaxe>, 1, 1, [Functions.enchantWithLevels(25, 30, true)], []);
-    fishTTable.addItemEntryHelper(<fishing:itemNet>, 1, 1, [], []);
-    fishTTable.addItemEntryHelper(<primal:fish_trap_oak>, 1, 1, [], []);
+    #fishTPool.addItemEntryHelper(<primal:flint_pickaxe>, 1, 1, [Functions.enchantWithLevels(25, 30, true)], []);
+    fishTPool.addItemEntryHelper(<fishing:itemNet>, 1, 1, [], []);
+    fishTPool.addItemEntryHelper(<primal:fish_trap_oak>, 1, 1, [], []);
     # Junk (10%)
-    fishJTable.addItemEntryHelper(<primal:muck>, 10, 1, [], []);
-    fishJTable.addItemEntryHelper(<minecraft:clayball>, 10, 1, [], []);
-    fishJTable.addItemEntryHelper(<primal:mud_clump>, 10, 1, [], []);
-    fishJTable.addItemEntryHelper(<primal:cinisclay_clump>, 2, 1, [], []);
-    fishJTable.addItemEntryHelper(<primal:terraclay_clump>, 5, 1, [], []);
-    fishJTable.addItemEntryHelper(<primal:earthwax_clump>, 5, 1, [], []);
+    fishJPool.addItemEntry(<primal:muck>, 10, 1);
+    fishJPool.addItemEntry(<minecraft:clay_ball>, 10, 1);
+    fishJPool.addItemEntry(<primal:mud_clump>, 10, 1);
+    fishJPool.addItemEntry(<primal:cinisclay_clump>, 2, 1);
+    fishJPool.addItemEntry(<primal:terraclay_clump>, 5, 1);
+    fishJPool.addItemEntry(<primal:earthwax_clump>, 5, 1);
     
 # Actually Additions
     val jamChest = LootTables.getTable("actuallyadditions:jamHouse");
@@ -46,6 +46,7 @@ import loottweaker.vanilla.loot.Functions;
     val digRarePool =     digRare.getPool("rare_treasure");
     # Common Pool (85%)
     digCommonPool.removeItemEntry(<minecraft:stone_axe>);
+/*
     digCommonPool.removeItemEntry(<minecraft:stone_pickaxe>);
     digCommonPool.removeItemEntry(<minecraft:stone_shovel>);
     digCommonPool.removeItemEntry(<minecraft:stone_sword>);
@@ -99,7 +100,7 @@ import loottweaker.vanilla.loot.Functions;
     fishLootPool.addItemEntryHelper(<botania:manaResource:22>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<fishing:itemNet>, 3, 1, [], []); # Mana cloth
     fishLootPool.addItemEntryHelper(<quark:ancient_tome>, 1, 1, [Functions.parse("function: 'quark:enchant_tome'")], []);
-    fishLootPool.addItemEntryHelper(<enderio:itemBasicCapacitor:3>, 1, 1, [Functions.parse("function: 'enderio:set_capacitor'")], []);[
+    fishLootPool.addItemEntryHelper(<enderio:itemBasicCapacitor:3>, 1, 1, [Functions.parse("function: 'enderio:set_capacitor'")], []);
     
 # The Between Lands
     val betweenTable1 = LootTables.getTable("thebetweenlands:loot/common_chest_loot");
