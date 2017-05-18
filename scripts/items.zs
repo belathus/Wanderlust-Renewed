@@ -83,10 +83,10 @@
 # Advanced Rocketry
     recipes.remove(<advancedrocketry:productrod>); # Titanium aluminide
     recipes.remove(<advancedrocketry:productrod:1>); # Titanium Iridium
-    recipes.addShaped(<advancedrocketry:productrod>,
+    recipes.addShaped(<advancedrocketry:productrod> * 2,
         [[<ore:ingotTitaniumAluminide>],
          [<ore:ingotTitaniumAluminide>]]);
-    recipes.addShaped(<advancedrocketry:productrod:1>,
+    recipes.addShaped(<advancedrocketry:productrod:1> * 2,
         [[<ore:ingotTitaniumIridium>],
          [<ore:ingotTitaniumIridium>]]);
 
@@ -162,20 +162,32 @@
     #recipes.remove(<fp:spaceship:12>);
 
 # Immersive Engineering
-    
+    recipes.remove(<immersiveengineering:material:1>);
+    recipes.remove(<immersiveengineering:material:2>);
+    recipes.remove(<immersiveengineering:material:3>);
+    recipes.addShaped(<immersiveengineering:material:1> * 2,
+        [[<ore:ingotIron>],
+         [<ore:ingotIron>]]);
+    recipes.addShaped(<immersiveengineering:material:2> * 2,
+        [[<ore:ingotSteel>],
+         [<ore:ingotSteel>]]);
+    recipes.addShaped(<immersiveengineering:material:3> * 2,
+        [[<ore:ingotAluminum>],
+         [<ore:ingotAluminum>]]);
+
 # LibVulpes
-    recipes.remove(<libvulpes:productrod:1>); # Iron rod
+    recipes.remove(<libvulpes:productrod:1>); # Iron rod (covered by Immersive Engineering)
     recipes.remove(<libvulpes:productrod:4>); # Copper rod
-    recipes.remove(<libvulpes:productrod:6>); # Steel rod
+    recipes.remove(<libvulpes:productrod:6>); # Steel rod (covered by Immersive Engineering)
     recipes.remove(<libvulpes:productrod:7>); # Titanium rod
     recipes.remove(<libvulpes:productrod:10>); # Iridium rod
-    recipes.addShaped(<libvulpes:productrod:4>,
+    recipes.addShaped(<libvulpes:productrod:4> * 2,
         [[<ore:ingotCopper>],
          [<ore:ingotCopper>]]);
-    recipes.addShaped(<libvulpes:productrod:7>,
+    recipes.addShaped(<libvulpes:productrod:7> * 2,
         [[<ore:ingotTitanium>],
          [<ore:ingotTitanium>]]);
-    recipes.addShaped(<libvulpes:productrod:10>,
+    recipes.addShaped(<libvulpes:productrod:10> * 2,
         [[<ore:ingotIridium>],
          [<ore:ingotIridium>]]);
 
