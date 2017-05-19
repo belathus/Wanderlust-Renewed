@@ -161,4 +161,30 @@
         mods.immersiveengineering.ArcFurnace.addRecipe(boot[1] * 1, boot[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
     }
     
+    var pickaxes = [
+        [<minecraft:iron_pickaxe>,                          <immersiveengineering:metal:29>],
+        [<minecraft:golden_pickaxe>,                        <minecraft:gold_nugget>],
+        [<abyssalcraft:apick>,                              <abyssalcraft:ingotnugget>]
+        [<abyssalcraft:corpick>,                            <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:dreadiumpickaxe>,                    <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:ethaxiumpickaxe>,                    <abyssalcraft:ingotnugget:3>],
+        [<botania:elementiumPick>,                          <botania:manaResource:19>],
+        [<botania:manasteelPick>,                           <botania:manaResource:17>],
+        [<botania:terraPick>,                               <botania:manaResource:18>],
+        [<dungeontactics:gilded_pickaxe>,                   <immersiveengineering:metal:29>],
+        [<dungeontactics:jewelled_pickaxe>,                 <immersiveengineering:metal:29>],
+        [<forestry:bronzePickaxe>,                          <base:nugget:7>],
+        [<thermalfoundation:tool.pickaxe_bronze>,           <base:nugget:7>],
+        [<thermalfoundation:tool.pickaxe_copper>,           <immersiveengineering:metal:20>],
+        [<thermalfoundation:tool.pickaxe_electrum>,         <immersiveengineering:metal:27>],
+        [<thermalfoundation:tool.pickaxe_invar>,            <base:nugget:19>],
+        [<thermalfoundation:tool.pickaxe_lead>,             <immersiveengineering:metal:22>],
+        [<thermalfoundation:tool.pickaxe_nickel>,           <immersiveengineering:metal:24>],
+        [<thermalfoundation:tool.pickaxe_platinum>,         <base:nugget:25>],
+        [<thermalfoundation:tool.pickaxe_silver>,           <immersiveengineering:metal:23>],
+        [<thermalfoundation:tool.pickaxe_tin>,              <base:nugget:29>]
+    ] as minetweaker.item.IItemStack[][];
     
+    for i, picks in pickaxes {
+        mods.immersiveengineering.ArcFurnace.addRecipe(picks[1] * 9, picks[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
