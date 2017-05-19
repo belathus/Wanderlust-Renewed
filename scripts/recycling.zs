@@ -124,7 +124,7 @@
         # Pickaxes
         [<minecraft:iron_pickaxe>,                          <immersiveengineering:metal:29>],
         [<minecraft:golden_pickaxe>,                        <minecraft:gold_nugget>],
-        [<abyssalcraft:apick>,                              <abyssalcraft:ingotnugget>]
+        [<abyssalcraft:apick>,                              <abyssalcraft:ingotnugget>],
         [<abyssalcraft:corpick>,                            <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumpickaxe>,                    <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumpickaxe>,                    <abyssalcraft:ingotnugget:3>],
@@ -146,7 +146,7 @@
         # Axes
         [<minecraft:iron_axe>,                              <immersiveengineering:metal:29>],
         [<minecraft:golden_axe>,                            <minecraft:gold_nugget>],
-        [<abyssalcraft:aaxe>,                               <abyssalcraft:ingotnugget>]
+        [<abyssalcraft:aaxe>,                               <abyssalcraft:ingotnugget>],
         [<abyssalcraft:coraxe>,                             <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumaxe>,                        <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumaxe>,                        <abyssalcraft:ingotnugget:3>],
@@ -172,7 +172,7 @@
         # Hoes
         [<minecraft:iron_hoe>,                              <immersiveengineering:metal:29>],
         [<minecraft:golden_hoe>,                            <minecraft:gold_nugget>],
-        [<abyssalcraft:ahoe>,                               <abyssalcraft:ingotnugget>]
+        [<abyssalcraft:ahoe>,                               <abyssalcraft:ingotnugget>],
         [<abyssalcraft:corhoe>,                             <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumhoe>,                        <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumhoe>,                        <abyssalcraft:ingotnugget:3>],
