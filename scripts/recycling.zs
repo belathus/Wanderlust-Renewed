@@ -1,167 +1,126 @@
 # Lists
     # Format is <armor>, <ingot returned>
-    var chestplates = [
-        [<minecraft:iron_chestplate>, <minecraft:iron_ingot>],                              # 0
-        [<minecraft:chainmail_chestplate>, <minecraft:iron_ingot>],                         # 1
-        [<dungeontactics:gilded_chestplate>, <minecraft:iron_ingot>],                       # 2
-        [<dungeontactics:jewelled_chestplate>, <minecraft:iron_ingot>],                     # 3
-        [<minecraft:golden_chestplate>, <minecraft:gold_ingot>],                            # 4
-        [<abyssalcraft:aplate>, <abyssalcraft:abyingot>],                                   # 5
-        [<abyssalcraft:corplate>, <abyssalcraft:cingot>],                                   # 6
-        [<abyssalcraft:corplatep>, <abyssalcraft:cingot>],                                  # 7
-        [<abyssalcraft:depthsplate>, <abyssalcraft:cingot>],                                # 8
-        [<abyssalcraft:dplate>, <abyssalcraft:abyingot>],                                   # 9
-        [<abyssalcraft:dreadiumplate>, <abyssalcraft:dreadiumingot>],                       # 10
-        [<abyssalcraft:dreadiumsamuraiplate>, <abyssalcraft:dreadiumingot>],                # 11
-        [<abyssalcraft:ethaxiumplate>, <abyssalcraft:ethaxiumingot>],                       # 12
-        [<actuallyadditions:itemChestCrystalBlack>, <actuallyadditions:itemCrystal:3>],     # 13
-        [<actuallyadditions:itemChestCrystalBlue>, <actuallyadditions:itemCrystal:1>],      # 14
-        [<actuallyadditions:itemChestCrystalGreen>, <actuallyadditions:itemCrystal:4>],     # 15
-        [<actuallyadditions:itemChestCrystalLightBlue>, <actuallyadditions:itemCrystal:2>], # 16
-        [<actuallyadditions:itemChestCrystalRed>, <actuallyadditions:itemCrystal>],         # 17
-        [<actuallyadditions:itemChestCrystalWhite>, <actuallyadditions:itemCrystal:5>],     # 18
-        [<actuallyadditions:itemChestEmerald>, <minecraft:emerald>],                        # 19
-        [<actuallyadditions:itemChestObsidian>, <actuallyadditions:itemMisc:5>],            # 20
-        [<actuallyadditions:itemChestQuartz>, <minecraft:obsidian>],                        # 21
-        [<botania:elementiumChest>, <botania:manaResource:7>],                              # 22
-        [<botania:manasteelChest>, <botania:manaResource>],                                 # 23
-        [<botania:terrasteelChest>, <botania:manaResource:4>],                              # 24
-        [<enderio:darkSteel_chestplate>, <enderio:itemAlloy:6>],                            # 25
-        [<thermalfoundation:armor.plate_bronze>, <base:ingot:7>],                           # 26
-        [<thermalfoundation:armor.plate_copper>, <immersiveengineering:metal>],             # 27
-        [<thermalfoundation:armor.plate_electrum>, <immersiveengineering:metal:7>],         # 28
-        [<thermalfoundation:armor.plate_invar>, <base:ingot:19>],                           # 29
-        [<thermalfoundation:armor.plate_lead>, <immersiveengineering:metal:2>],             # 30
-        [<thermalfoundation:armor.plate_nickel>, <immersiveengineering:metal:4>],           # 31
-        [<thermalfoundation:armor.plate_platinum>, <base:ingot:25>],                        # 32
-        [<thermalfoundation:armor.plate_silver>, <immersiveengineering:metal:3>],           # 33
-        [<thermalfoundation:armor.plate_tin>, <base:ingot:29>]                              # 34
+    var returns24 = [
+        [<minecraft:iron_chestplate>,               <immersiveengineering:metal:29>],
+        [<dungeontactics:gilded_chestplate>,        <immersiveengineering:metal:29>],
+        [<dungeontactics:jewelled_chestplate>,      <immersiveengineering:metal:29>],
+        [<minecraft:golden_chestplate>,             <minecraft:gold_nugget>],
+        [<abyssalcraft:aplate>,                     <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:corplate>,                   <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:corplatep>,                  <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:depthsplate>,                <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:dplate>,                     <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:dreadiumplate>,              <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:dreadiumsamuraiplate>,       <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:ethaxiumplate>,              <abyssalcraft:ingotnugget:3>],
+        [<botania:elementiumChest>,                 <botania:manaResource:19>],
+        [<botania:manasteelChest>,                  <botania:manaResource:17>],
+        [<botania:terrasteelChest>,                 <botania:manaResource:18>],
+        [<thermalfoundation:armor.plate_bronze>,    <base:nugget:7>],
+        [<thermalfoundation:armor.plate_copper>,    <immersiveengineering:metal:20>],
+        [<thermalfoundation:armor.plate_electrum>,  <immersiveengineering:metal:27>],
+        [<thermalfoundation:armor.plate_invar>,     <base:nugget:19>],
+        [<thermalfoundation:armor.plate_lead>,      <immersiveengineering:metal:22>],
+        [<thermalfoundation:armor.plate_nickel>,    <immersiveengineering:metal:24>],
+        [<thermalfoundation:armor.plate_platinum>,  <base:nugget:25>],
+        [<thermalfoundation:armor.plate_silver>,    <immersiveengineering:metal:23>],
+        [<thermalfoundation:armor.plate_tin>,       <base:nugget:29>]
     ] as minetweaker.item.IItemStack[][];
-    var helmets = [
-        [<minecraft:iron_helmet>, <minecraft:iron_ingot>],                                  # 0
-        [<minecraft:chainmail_helmet>, <minecraft:iron_ingot>],                             # 1
-        [<dungeontactics:gilded_helmet>, <minecraft:iron_ingot>],                           # 2
-        [<dungeontactics:jewelled_helmet>, <minecraft:iron_ingot>],                         # 3
-        [<minecraft:golden_helmet>, <minecraft:gold_ingot>],                                # 4
-        [<abyssalcraft:ahelmet>, <abyssalcraft:abyingot>],                                  # 5
-        [<abyssalcraft:corhelmet>, <abyssalcraft:cingot>],                                  # 6
-        [<abyssalcraft:corhelmetp>, <abyssalcraft:cingot>],                                 # 7
-        [<abyssalcraft:depthshelmet>, <abyssalcraft:cingot>],                               # 8
-        [<abyssalcraft:dhelmet>, <abyssalcraft:abyingot>],                                  # 9
-        [<abyssalcraft:dreadiumhelmet>, <abyssalcraft:dreadiumingot>],                      # 10
-        [<abyssalcraft:dreadiumsamuraihelmet>, <abyssalcraft:dreadiumingot>],               # 11
-        [<abyssalcraft:ethaxiumhelmet>, <abyssalcraft:ethaxiumingot>],                      # 12
-        [<actuallyadditions:itemHelmCrystalBlack>, <actuallyadditions:itemCrystal:3>],      # 13
-        [<actuallyadditions:itemHelmCrystalBlue>, <actuallyadditions:itemCrystal:1>],       # 14
-        [<actuallyadditions:itemHelmCrystalGreen>, <actuallyadditions:itemCrystal:4>],      # 15
-        [<actuallyadditions:itemHelmCrystalLightBlue>, <actuallyadditions:itemCrystal:2>],  # 16
-        [<actuallyadditions:itemHelmCrystalRed>, <actuallyadditions:itemCrystal>],          # 17
-        [<actuallyadditions:itemHelmCrystalWhite>, <actuallyadditions:itemCrystal:5>],      # 18
-        [<actuallyadditions:itemHelmEmerald>, <minecraft:emerald>],                         # 19
-        [<actuallyadditions:itemHelmObsidian>, <actuallyadditions:itemMisc:5>],             # 20
-        [<actuallyadditions:itemHelmQuartz>, <minecraft:obsidian>],                         # 21
-        [<botania:elementiumHelm>, <botania:manaResource:7>],                               # 22
-        [<botania:manasteelHelm>, <botania:manaResource>],                                  # 23
-        [<botania:terrasteelHelm>, <botania:manaResource:4>],                               # 24
-        [<enderio:darkSteel_helmet>, <enderio:itemAlloy:6>],                                # 25
-        [<thermalfoundation:armor.helmet_bronze>, <base:ingot:7>],                          # 26
-        [<thermalfoundation:armor.helmet_copper>, <immersiveengineering:metal>],            # 27
-        [<thermalfoundation:armor.helmet_electrum>, <immersiveengineering:metal:7>],        # 28
-        [<thermalfoundation:armor.helmet_invar>, <base:ingot:19>],                          # 29
-        [<thermalfoundation:armor.helmet_lead>, <immersiveengineering:metal:2>],            # 30
-        [<thermalfoundation:armor.helmet_nickel>, <immersiveengineering:metal:4>],          # 31
-        [<thermalfoundation:armor.helmet_platinum>, <base:ingot:25>],                       # 32
-        [<thermalfoundation:armor.helmet_silver>, <immersiveengineering:metal:3>],          # 33
-        [<thermalfoundation:armor.helmet_tin>, <base:ingot:29>]                             # 34
-    ] as minetweaker.item.IItemStack[][];
-    var leggings = [
-        [<minecraft:iron_leggings>, <minecraft:iron_ingot>],                                # 0
-        [<minecraft:chainmail_leggings>, <minecraft:iron_ingot>],                           # 1
-        [<dungeontactics:gilded_leggings>, <minecraft:iron_ingot>],                         # 2
-        [<dungeontactics:jewelled_leggings>, <minecraft:iron_ingot>],                       # 3
-        [<minecraft:golden_leggings>, <minecraft:gold_ingot>],                              # 4
-        [<abyssalcraft:alegs>, <abyssalcraft:abyingot>],                                    # 5
-        [<abyssalcraft:corlegs>, <abyssalcraft:cingot>],                                    # 6
-        [<abyssalcraft:corlegsp>, <abyssalcraft:cingot>],                                   # 7
-        [<abyssalcraft:depthslegs>, <abyssalcraft:cingot>],                                 # 8
-        [<abyssalcraft:dlegs>, <abyssalcraft:abyingot>],                                    # 9
-        [<abyssalcraft:dreadiumlegs>, <abyssalcraft:dreadiumingot>],                        # 10
-        [<abyssalcraft:dreadiumsamurailegs>, <abyssalcraft:dreadiumingot>],                 # 11
-        [<abyssalcraft:ethaxiumlegs>, <abyssalcraft:ethaxiumingot>],                        # 12
-        [<actuallyadditions:itemPantsCrystalBlack>, <actuallyadditions:itemCrystal:3>],     # 13
-        [<actuallyadditions:itemPantsCrystalBlue>, <actuallyadditions:itemCrystal:1>],      # 14
-        [<actuallyadditions:itemPantsCrystalGreen>, <actuallyadditions:itemCrystal:4>],     # 15
-        [<actuallyadditions:itemPantsCrystalLightBlue>, <actuallyadditions:itemCrystal:2>], # 16
-        [<actuallyadditions:itemPantsCrystalRed>, <actuallyadditions:itemCrystal>],         # 17
-        [<actuallyadditions:itemPantsCrystalWhite>, <actuallyadditions:itemCrystal:5>],     # 18
-        [<actuallyadditions:itemPantsEmerald>, <minecraft:emerald>],                        # 19
-        [<actuallyadditions:itemPantsObsidian>, <actuallyadditions:itemMisc:5>],            # 20
-        [<actuallyadditions:itemPantsQuartz>, <minecraft:obsidian>],                        # 21
-        [<botania:elementiumLegs>, <botania:manaResource:7>],                               # 22
-        [<botania:manasteelLegs>, <botania:manaResource>],                                  # 23
-        [<botania:terrasteelLegs>, <botania:manaResource:4>],                               # 24
-        [<enderio:darkSteel_leggings>, <enderio:itemAlloy:6>],                              # 25
-        [<thermalfoundation:armor.legs_bronze>, <base:ingot:7>],                            # 26
-        [<thermalfoundation:armor.legs_copper>, <immersiveengineering:metal>],              # 27
-        [<thermalfoundation:armor.legs_electrum>, <immersiveengineering:metal:7>],          # 28
-        [<thermalfoundation:armor.legs_invar>, <base:ingot:19>],                            # 29
-        [<thermalfoundation:armor.legs_lead>, <immersiveengineering:metal:2>],              # 30
-        [<thermalfoundation:armor.legs_nickel>, <immersiveengineering:metal:4>],            # 31
-        [<thermalfoundation:armor.legs_platinum>, <base:ingot:25>],                         # 32
-        [<thermalfoundation:armor.legs_silver>, <immersiveengineering:metal:3>],            # 33
-        [<thermalfoundation:armor.legs_tin>, <base:ingot:29>]                               # 34
-    ] as minetweaker.item.IItemStack[][];
-    var boots = [
-        [<minecraft:iron_boots>, <minecraft:iron_ingot>],                                   # 0
-        [<minecraft:chainmail_boots>, <minecraft:iron_ingot>],                              # 1
-        [<dungeontactics:gilded_boots>, <minecraft:iron_ingot>],                            # 2
-        [<dungeontactics:jewelled_boots>, <minecraft:iron_ingot>],                          # 3
-        [<minecraft:golden_boots>, <minecraft:gold_ingot>],                                 # 4
-        [<abyssalcraft:aboots>, <abyssalcraft:abyingot>],                                   # 5
-        [<abyssalcraft:corboots>, <abyssalcraft:cingot>],                                   # 6
-        [<abyssalcraft:corbootsp>, <abyssalcraft:cingot>],                                  # 7
-        [<abyssalcraft:depthsboots>, <abyssalcraft:cingot>],                                # 8
-        [<abyssalcraft:dboots>, <abyssalcraft:abyingot>],                                   # 9
-        [<abyssalcraft:dreadiumboots>, <abyssalcraft:dreadiumingot>],                       # 10
-        [<abyssalcraft:dreadiumsamuraiboots>, <abyssalcraft:dreadiumingot>],                # 11
-        [<abyssalcraft:ethaxiumboots>, <abyssalcraft:ethaxiumingot>],                       # 12
-        [<actuallyadditions:itemBootsCrystalBlack>, <actuallyadditions:itemCrystal:3>],     # 13
-        [<actuallyadditions:itemBootsCrystalBlue>, <actuallyadditions:itemCrystal:1>],      # 14
-        [<actuallyadditions:itemBootsCrystalGreen>, <actuallyadditions:itemCrystal:4>],     # 15
-        [<actuallyadditions:itemBootsCrystalLightBlue>, <actuallyadditions:itemCrystal:2>], # 16
-        [<actuallyadditions:itemBootsCrystalRed>, <actuallyadditions:itemCrystal>],         # 17
-        [<actuallyadditions:itemBootsCrystalWhite>, <actuallyadditions:itemCrystal:5>],     # 18
-        [<actuallyadditions:itemBootsEmerald>, <minecraft:emerald>],                        # 19
-        [<actuallyadditions:itemBootsObsidian>, <actuallyadditions:itemMisc:5>],            # 20
-        [<actuallyadditions:itemBootsQuartz>, <minecraft:obsidian>],                        # 21
-        [<botania:elementiumBoots>, <botania:manaResource:7>],                              # 22
-        [<botania:manasteelBoots>, <botania:manaResource>],                                 # 23
-        [<botania:terrasteelBoots>, <botania:manaResource:4>],                              # 24
-        [<enderio:darkSteel_boots>, <enderio:itemAlloy:6>],                                 # 25
-        [<thermalfoundation:armor.boots_bronze>, <base:ingot:7>],                           # 26
-        [<thermalfoundation:armor.boots_copper>, <immersiveengineering:metal>],             # 27
-        [<thermalfoundation:armor.boots_electrum>, <immersiveengineering:metal:7>],         # 28
-        [<thermalfoundation:armor.boots_invar>, <base:ingot:19>],                           # 29
-        [<thermalfoundation:armor.boots_lead>, <immersiveengineering:metal:2>],             # 30
-        [<thermalfoundation:armor.boots_nickel>, <immersiveengineering:metal:4>],           # 31
-        [<thermalfoundation:armor.boots_platinum>, <base:ingot:25>],                        # 32
-        [<thermalfoundation:armor.boots_silver>, <immersiveengineering:metal:3>],           # 33
-        [<thermalfoundation:armor.boots_tin>, <base:ingot:29>]                              # 34
-    ] as minetweaker.item.IItemStack[][];
-    for i, armor in chestplates {
-        mods.immersiveengineering.ArcFurnace.addRecipe(armor[1] * 2, armor[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
-    }
-    for i, helm in helmets {
-        mods.immersiveengineering.ArcFurnace.addRecipe(helm[1] * 1, helm[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
-    }
-    for i, legs in leggings {
-        mods.immersiveengineering.ArcFurnace.addRecipe(legs[1] * 2, legs[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
-    }
-    for i, boot in boots {
-        mods.immersiveengineering.ArcFurnace.addRecipe(boot[1] * 1, boot[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
-    }
     
-    var pickaxes = [
+    var returns21 = [
+        [<minecraft:iron_leggings>,                 <immersiveengineering:metal:29>],
+        [<dungeontactics:gilded_leggings>,          <immersiveengineering:metal:29>],
+        [<dungeontactics:jewelled_leggings>,        <immersiveengineering:metal:29>],
+        [<minecraft:golden_leggings>,               <minecraft:gold_nugget>],
+        [<abyssalcraft:alegs>,                      <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:corlegs>,                    <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:corlegsp>,                   <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:depthslegs>,                 <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:dlegs>,                      <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:dreadiumlegs>,               <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:dreadiumsamurailegs>,        <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:ethaxiumlegs>,               <abyssalcraft:ingotnugget:3>],
+        [<botania:elementiumLegs>,                  <botania:manaResource:19>],
+        [<botania:manasteelLegs>,                   <botania:manaResource:17>],
+        [<botania:terrasteelLegs>,                  <botania:manaResource:18>],
+        [<thermalfoundation:armor.legs_bronze>,     <base:nugget:7>],
+        [<thermalfoundation:armor.legs_copper>,     <immersiveengineering:metal:20>],
+        [<thermalfoundation:armor.legs_electrum>,   <immersiveengineering:metal:27>],
+        [<thermalfoundation:armor.legs_invar>,      <base:nugget:19>],
+        [<thermalfoundation:armor.legs_lead>,       <immersiveengineering:metal:22>],
+        [<thermalfoundation:armor.legs_nickel>,     <immersiveengineering:metal:24>],
+        [<thermalfoundation:armor.legs_platinum>,   <base:nugget:25>],
+        [<thermalfoundation:armor.legs_silver>,     <immersiveengineering:metal:23>],
+        [<thermalfoundation:armor.legs_tin>,        <base:nugget:29>]
+    ] as minetweaker.item.IItemStack[][];
+    
+    var returns16 = [
+        [<minecraft:chainmail_chestplate>,          <immersiveengineering:metal:29>],
+    ] as minetweaker.item.IItemStack[][];
+    
+    var returns15 = [
+        [<minecraft:iron_helmet>,                   <immersiveengineering:metal:29>],
+        [<dungeontactics:gilded_helmet>,            <immersiveengineering:metal:29>],
+        [<dungeontactics:jewelled_helmet>,          <immersiveengineering:metal:29>],
+        [<minecraft:golden_helmet>,                 <minecraft:gold_nugget>],
+        [<abyssalcraft:ahelmet>,                    <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:corhelmet>,                  <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:corhelmetp>,                 <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:depthshelmet>,               <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:dhelmet>,                    <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:dreadiumhelmet>,             <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:dreadiumsamuraihelmet>,      <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:ethaxiumhelmet>,             <abyssalcraft:ingotnugget:3>],
+        [<botania:elementiumHelm>,                  <botania:manaResource:19>],
+        [<botania:manasteelHelm>,                   <botania:manaResource:17>],
+        [<botania:terrasteelHelm>,                  <botania:manaResource:18>],
+        [<thermalfoundation:armor.helmet_bronze>,   <base:nugget:7>],
+        [<thermalfoundation:armor.helmet_copper>,   <immersiveengineering:metal:20>],
+        [<thermalfoundation:armor.helmet_electrum>, <immersiveengineering:metal:27>],
+        [<thermalfoundation:armor.helmet_invar>,    <base:nugget:19>],
+        [<thermalfoundation:armor.helmet_lead>,     <immersiveengineering:metal:22>],
+        [<thermalfoundation:armor.helmet_nickel>,   <immersiveengineering:metal:24>],
+        [<thermalfoundation:armor.helmet_platinum>, <base:nugget:25>],
+        [<thermalfoundation:armor.helmet_silver>,   <immersiveengineering:metal:23>],
+        [<thermalfoundation:armor.helmet_tin>,      <base:nugget:29>]
+    ] as minetweaker.item.IItemStack[][];
+
+    var returns14 = [
+        [<minecraft:chainmail_leggings>,            <immersiveengineering:metal:29>],
+    ] as minetweaker.item.IItemStack[][];
+
+    var returns12 = [
+        [<minecraft:iron_boots>,                   <immersiveengineering:metal:29>],
+        [<dungeontactics:gilded_boots>,            <immersiveengineering:metal:29>],
+        [<dungeontactics:jewelled_boots>,          <immersiveengineering:metal:29>],
+        [<minecraft:golden_boots>,                 <minecraft:gold_nugget>],
+        [<abyssalcraft:aboots>,                    <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:corboots>,                  <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:corbootsp>,                 <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:depthsboots>,               <abyssalcraft:ingotnugget:1>],
+        [<abyssalcraft:dboots>,                    <abyssalcraft:ingotnugget>],
+        [<abyssalcraft:dreadiumboots>,             <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:dreadiumsamuraiboots>,      <abyssalcraft:ingotnugget:2>],
+        [<abyssalcraft:ethaxiumboots>,             <abyssalcraft:ingotnugget:3>],
+        [<botania:elementiumBoots>,                <botania:manaResource:19>],
+        [<botania:manasteelBoots>,                 <botania:manaResource:17>],
+        [<botania:terrasteelBoots>,                <botania:manaResource:18>],
+        [<thermalfoundation:armor.boots_bronze>,   <base:nugget:7>],
+        [<thermalfoundation:armor.boots_copper>,   <immersiveengineering:metal:20>],
+        [<thermalfoundation:armor.boots_electrum>, <immersiveengineering:metal:27>],
+        [<thermalfoundation:armor.boots_invar>,    <base:nugget:19>],
+        [<thermalfoundation:armor.boots_lead>,     <immersiveengineering:metal:22>],
+        [<thermalfoundation:armor.boots_nickel>,   <immersiveengineering:metal:24>],
+        [<thermalfoundation:armor.boots_platinum>, <base:nugget:25>],
+        [<thermalfoundation:armor.boots_silver>,   <immersiveengineering:metal:23>],
+        [<thermalfoundation:armor.boots_tin>,      <base:nugget:29>]
+    ] as minetweaker.item.IItemStack[][];
+
+    var returns10 = [
+        [<minecraft:chainmail_helmet>,             <immersiveengineering:metal:29>],
+    ] as minetweaker.item.IItemStack[][];
+
+    var returns9 = [
         [<minecraft:iron_pickaxe>,                          <immersiveengineering:metal:29>],
         [<minecraft:golden_pickaxe>,                        <minecraft:gold_nugget>],
         [<abyssalcraft:apick>,                              <abyssalcraft:ingotnugget>]
@@ -184,7 +143,35 @@
         [<thermalfoundation:tool.pickaxe_silver>,           <immersiveengineering:metal:23>],
         [<thermalfoundation:tool.pickaxe_tin>,              <base:nugget:29>]
     ] as minetweaker.item.IItemStack[][];
-    
-    for i, picks in pickaxes {
-        mods.immersiveengineering.ArcFurnace.addRecipe(picks[1] * 9, picks[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+
+    var returns6 = [
+        [<minecraft:chainmail_boots>,             <immersiveengineering:metal:29>],
+    ] as minetweaker.item.IItemStack[][];
+
+    for i, items24 in returns24 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items24[1] * 24, items24[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items21 in returns21 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items21[1] * 21, items24[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items16 in returns16 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items16[1] * 16, items16[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items15 in returns15 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items15[1] * 15, items15[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items14 in returns14 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items14[1] * 14, items14[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items12 in returns12 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items12[1] * 12, items12[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items10 in returns10 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items10[1] * 10, items10[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items9 in returns9 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items9[1]  * 9,  items9[0],  <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    }
+    for i, items6 in returns6 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items6[1]  * 6,  items6[0],  <immersiveengineering:material:13>, 20, 120, [], "Recycling");
     }
