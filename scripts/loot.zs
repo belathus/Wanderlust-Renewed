@@ -45,8 +45,8 @@ import loottweaker.vanilla.loot.Functions;
     val digUncommonPool = digUncommon.getPool("uncommon_treasure");
     val digRarePool =     digRare.getPool("rare_treasure");
     # Common Pool (85%)
-    digCommonPool.removeItemEntry(<minecraft:stone_axe>);
 /*
+    digCommonPool.removeItemEntry(<minecraft:stone_axe>);
     digCommonPool.removeItemEntry(<minecraft:stone_pickaxe>);
     digCommonPool.removeItemEntry(<minecraft:stone_shovel>);
     digCommonPool.removeItemEntry(<minecraft:stone_sword>);

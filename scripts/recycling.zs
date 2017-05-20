@@ -254,33 +254,33 @@
         [<thermalfoundation:tool.shovel_tin>,               <base:nugget:29>]
     ] as minetweaker.item.IItemStack[][];
 
-    for i, items24 in returns24 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items24[1] * 24, items24[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns24 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 24, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items21 in returns21 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items21[1] * 21, items24[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns21 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 21, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items16 in returns16 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items16[1] * 16, items16[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns16 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 16, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items15 in returns15 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items15[1] * 15, items15[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns15 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 15, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items14 in returns14 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items14[1] * 14, items14[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns14 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 14, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items12 in returns12 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items12[1] * 12, items12[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns12 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 12, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items10 in returns10 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items10[1] * 10, items10[0], <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns10 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 10, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items9 in returns9 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items9[1]  * 9,  items9[0],  <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns9 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 9,  items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items6 in returns6 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items6[1]  * 6,  items6[0],  <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns6 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 6,  items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
-    for i, items3 in returns3 {
-        mods.immersiveengineering.ArcFurnace.addRecipe(items3[1]  * 3,  items3[0],  <immersiveengineering:material:13>, 20, 120, [], "Recycling");
+    for i, items in returns3 {
+        mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 3,  items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");
     }
