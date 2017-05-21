@@ -1,16 +1,22 @@
 {
-    "_comment" : "Adding shadow gems and shadow shard drops",
+    "_comment" : "Adding shadow shards and shadow fragment drops",
     "function" : "all",
     "functions" : [
         {
             "function" : "add",
-            "id" : "abyssalcraft:shadowgem",
+            "id" : "abyssalcraft:shadowshard",
             "damage" : 0,
             "count" : 0.025
         },
         {
             "function" : "add",
             "id" : "abyssalcraft:shadowshard",
+            "damage" : 0,
+            "count" : 0.005
+        },
+        {
+            "function" : "add",
+            "id" : "abyssalcraft:shadowfragment",
             "damage" : 0,
             "count" : 0.50
         },
@@ -19,15 +25,21 @@
             "functions" : [
                 {
                     "function" : "add",
-                    "id" : "abyssalcraft:shadowshard",
+                    "id" : "abyssalcraft:shadowfragment",
                     "damage" : 0,
                     "count" : 0.50
                 },
                 {
                     "function" : "add",
-                    "id" : "abyssalcraft:shadowgem",
+                    "id" : "abyssalcraft:shadowshard",
                     "damage" : 0,
                     "count" : 0.01
+                },
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowgem",
+                    "damage" : 0,
+                    "count" : 0.005
                 }
             ]
         },
@@ -36,15 +48,21 @@
             "functions" : [
                 {
                     "function" : "add",
-                    "id" : "abyssalcraft:shadowshard",
+                    "id" : "abyssalcraft:shadowfragment",
                     "damage" : 0,
                     "count" : 0.50
                 },
                 {
                     "function" : "add",
-                    "id" : "abyssalcraft:shadowgem",
+                    "id" : "abyssalcraft:shadowshard",
                     "damage" : 0,
                     "count" : 0.01
+                },
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowgem",
+                    "damage" : 0,
+                    "count" : 0.005
                 }
             ]
         },
@@ -53,15 +71,21 @@
             "functions" : [
                 {
                     "function" : "add",
-                    "id" : "abyssalcraft:shadowshard",
+                    "id" : "abyssalcraft:shadowfragment",
                     "damage" : 0,
                     "count" : 0.50
                 },
                 {
                     "function" : "add",
-                    "id" : "abyssalcraft:shadowgem",
+                    "id" : "abyssalcraft:shadowshard",
                     "damage" : 0,
                     "count" : 0.01
+                },
+                {
+                    "function" : "add",
+                    "id" : "abyssalcraft:shadowgem",
+                    "damage" : 0,
+                    "count" : 0.005
                 }
             ]
         }
