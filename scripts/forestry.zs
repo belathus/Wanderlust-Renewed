@@ -27,4 +27,9 @@
     mods.forestry.Squeezer.addRecipe(<liquid:evilcraftpoison> * 250, [<evilcraft:poisonSac>], 40, <biomesoplenty:jelled_poison> % 5);
 
 # Immersive Engineering
-    mods.forestry.Carpenter.addRecipe(<immersiveengineering:treatedWood>, [<ore:plankWood>], 40, <liquid:creosote> * 125);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:treatedWood>, [[<ore:plankWood>]], 40, <liquid:creosote> * 125);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:woodenDevice0>, [[<ore:chestWood>]], 360, <liquid:creosote> * 1000);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:woodenDevice0>,
+        [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+         [<ore:plankWood>, null,            <ore:plankWood>],
+         [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 360, <liquid:creosote> * 1000);
