@@ -56,13 +56,13 @@
     },
     {
       "item": "guideapi:ItemGuideBook",
-      "handlerType": "rightclick",
+      "handlerType": "copynbt",
       "matchDamage": false,
       "matchNBT": false
     },
     {
       "item": "bloodmagic:ItemSanguineBook",
-      "handlerType": "rightclick",
+      "handlerType": "copynbt",
       "matchDamage": false,
       "matchNBT": false
     },

@@ -117,9 +117,9 @@
          [<dungeontactics:golden_sword>, <ore:ingotGold>, <dungeontactics:golden_sword>],
          [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>]]);
     # Diamond Spikes
-    recipes.addShaped(<extrautils2:spike_diamond> * 4,
-        [[null,<dungeontactics:diamond_sword>,null],
-         [<dungeontactics:diamond_sword>,<ore:gemDiamond>,<dungeontactics:diamond_sword>],
+    recipes.addShaped(<extrautils2:spike_diamond> * 3,
+        [[null,<ore:pointDiamond>,null],
+         [<ore:flakeDiamond>,<ore:gemDiamond>,<ore:flakeDiamond>],
          [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
          
 # Immersive Engineering
