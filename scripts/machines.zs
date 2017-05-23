@@ -10,10 +10,18 @@ var mending3 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{lvl:1 as
 var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as short,lvl:1 as short}]}).onlyWithTag({StoredEnchantments:[{id:70 as short,lvl:1 as short}]});
 
 # Vanilla
+    recipes.addShaped(<minecraft:piston>,
+        [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+         [<ore:cobblestone>,<ore:ingotNickel>,<ore:cobblestone>],
+         [<ore:cobblestone>,<ore:dustRedstone>,<ore:cobblestone>]]);
     recipes.addShaped(<minecraft:hopper>,
         [[<ore:ingotTin>,null,<ore:ingotTin>],
          [<ore:ingotTin>,<ore:chest>,<ore:ingotTin>],
-         [null,<ore:ingotTin>,null]]);     
+         [null,<ore:ingotTin>,null]]);
+    recipes.addShaped(<minecraft:hopper>,
+        [[<ore:ingotNickel>,null,<ore:ingotNickel>],
+         [<ore:ingotNickel>,<ore:chest>,<ore:ingotNickel>],
+         [null,<ore:ingotNickel>,null]]);
     recipes.remove(<minecraft:furnace>);
     recipes.addShaped(<minecraft:furnace>,
         [[null, <ore:bricksStone>, null],
