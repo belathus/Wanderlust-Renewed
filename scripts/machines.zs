@@ -426,11 +426,23 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+         [<minecraft:stone_brick_stairs>,<xreliquary:salamander_eye>.reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
          [<minecraft:stone_brick_stairs>,<minecraft:nether_star>.withTag({display:{Lore:["Not used up when crafting"]}}).reuse(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+         [<minecraft:stone_brick_stairs>,<minecraft:nether_star>.reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
          [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.withTag({display:{Lore:["Not used up when crafting"]}}).reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+         [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.reuse(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
 #    recipes.addShaped(<rockhounding_oretiers:bloomery>,
 #        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],

@@ -1,5 +1,9 @@
 # This file will cover recipes added to Immersive Engineering's crusher, coke oven, and other machines
 
+# Blast Furnace
+    mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:block_coke>, 12000);
+    mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:item_coke>, 1200);
+
 # Coke Oven
     # Rockhounding Ores
         mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 2, 1000, <ore:itemAnthracite>, 1800);

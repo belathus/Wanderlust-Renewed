@@ -46,6 +46,7 @@ Ore entries for <ore:logWood> :
     <natura:overworld_logs2:*>
     <natura:redwood_logs:*>
     <natura:nether_logs:*>
+    <natura:nether_logs2:*>
     <botanicaladdons:irisLog0>
     <botanicaladdons:irisLog0:1>
     <botanicaladdons:irisLog0:2>
@@ -274,6 +275,7 @@ Ore entries for <ore:stairWood> :
     <minecraft:jungle_stairs>
     <minecraft:acacia_stairs>
     <minecraft:dark_oak_stairs>
+    <abyssalcraft:dltstairs>
     <biomesoplenty:sacred_oak_stairs>
     <biomesoplenty:cherry_stairs>
     <biomesoplenty:umbran_stairs>
@@ -372,6 +374,7 @@ Ore entries for <ore:stickWood> :
     <biomesoplenty:bamboo>
     <biomesoplenty:plant_1:5>
     <evilcraft:darkStick>
+    <natura:sticks:*>
     <thebetweenlands:items_misc:20>
 Ore entries for <ore:treeSapling> :
     <minecraft:sapling:*>
@@ -706,8 +709,43 @@ Ore entries for <ore:blockQuartz> :
     <chisel:quartz1:12>
     <chisel:quartz1:13>
     <chisel:quartz1:14>
+    <chisel:quartz1:15>
 Ore entries for <ore:blockCoal> :
     <minecraft:coal_block>
+    <chisel:block_coal>
+    <chisel:block_coal:1>
+    <chisel:block_coal:2>
+    <chisel:block_coal:3>
+    <chisel:block_coal:4>
+    <chisel:block_coal:5>
+    <chisel:block_coal:6>
+    <chisel:block_coal:7>
+    <chisel:block_coal:8>
+    <chisel:block_coal:9>
+    <chisel:block_coal:10>
+    <chisel:block_coal:11>
+    <chisel:block_coal:12>
+    <chisel:block_coal:13>
+    <chisel:block_coal:14>
+    <chisel:block_coal:15>
+    <chisel:block_coal1>
+    <chisel:block_coal1:1>
+    <chisel:block_coal1:2>
+    <chisel:block_coal1:3>
+    <chisel:block_coal1:4>
+    <chisel:block_coal1:5>
+    <chisel:block_coal1:6>
+    <chisel:block_coal1:7>
+    <chisel:block_coal1:8>
+    <chisel:block_coal1:9>
+    <chisel:block_coal1:10>
+    <chisel:block_coal1:11>
+    <chisel:block_coal1:12>
+    <chisel:block_coal1:13>
+    <chisel:block_coal1:14>
+    <chisel:block_coal1:15>
+    <chisel:block_coal2>
+    <chisel:block_coal2:1>
 Ore entries for <ore:cropWheat> :
     <minecraft:wheat>
 Ore entries for <ore:cropPotato> :
@@ -892,6 +930,7 @@ Ore entries for <ore:stone> :
     <chisel:stonebrick1:6>
     <chisel:stonebrick1:7>
     <chisel:stonebrick1:8>
+    <chisel:stonebrick1:9>
     <chisel:stonebrickextra>
     <chisel:stonebrickextra:1>
     <chisel:stonebrickextra:2>
@@ -932,6 +971,7 @@ Ore entries for <ore:cobblestone> :
     <chisel:cobblestone1:6>
     <chisel:cobblestone1:7>
     <chisel:cobblestone1:8>
+    <chisel:cobblestone1:9>
     <chisel:cobblestoneextra>
     <chisel:cobblestoneextra:1>
     <chisel:cobblestoneextra:2>
@@ -976,6 +1016,7 @@ Ore entries for <ore:sandstone> :
     <chisel:sandstoneyellow1:6>
     <chisel:sandstoneyellow1:7>
     <chisel:sandstoneyellow1:8>
+    <chisel:sandstoneyellow1:9>
     <chisel:sandstoneyellowextra>
     <chisel:sandstoneyellowextra:1>
     <chisel:sandstoneyellowextra:2>
@@ -1008,6 +1049,7 @@ Ore entries for <ore:sandstone> :
     <chisel:sandstonered1:6>
     <chisel:sandstonered1:7>
     <chisel:sandstonered1:8>
+    <chisel:sandstonered1:9>
     <chisel:sandstoneredextra>
     <chisel:sandstoneredextra:1>
     <chisel:sandstoneredextra:2>
@@ -1128,6 +1170,7 @@ Ore entries for <ore:endstone> :
     <chisel:endstone1:6>
     <chisel:endstone1:7>
     <chisel:endstone1:8>
+    <chisel:endstone1:9>
     <chisel:endstoneextra>
     <chisel:endstoneextra:1>
     <chisel:endstoneextra:2>
@@ -1192,6 +1235,7 @@ Ore entries for <ore:stoneGranite> :
     <chisel:granite1:13>
     <chisel:granite1:14>
     <chisel:granite1:15>
+    <chisel:granite2>
 Ore entries for <ore:stoneGranitePolished> :
     <minecraft:stone:2>
     <chisel:granite>
@@ -1226,6 +1270,7 @@ Ore entries for <ore:stoneGranitePolished> :
     <chisel:granite1:13>
     <chisel:granite1:14>
     <chisel:granite1:15>
+    <chisel:granite2>
 Ore entries for <ore:stoneDiorite> :
     <minecraft:stone:3>
     <chisel:diorite>
@@ -1260,6 +1305,7 @@ Ore entries for <ore:stoneDiorite> :
     <chisel:diorite1:13>
     <chisel:diorite1:14>
     <chisel:diorite1:15>
+    <chisel:diorite2>
 Ore entries for <ore:stoneDioritePolished> :
     <minecraft:stone:4>
     <chisel:diorite>
@@ -1294,6 +1340,7 @@ Ore entries for <ore:stoneDioritePolished> :
     <chisel:diorite1:13>
     <chisel:diorite1:14>
     <chisel:diorite1:15>
+    <chisel:diorite2>
 Ore entries for <ore:stoneAndesite> :
     <minecraft:stone:5>
     <chisel:andesite>
@@ -1328,6 +1375,7 @@ Ore entries for <ore:stoneAndesite> :
     <chisel:andesite1:13>
     <chisel:andesite1:14>
     <chisel:andesite1:15>
+    <chisel:andesite2>
 Ore entries for <ore:stoneAndesitePolished> :
     <minecraft:stone:6>
     <chisel:andesite>
@@ -1362,6 +1410,7 @@ Ore entries for <ore:stoneAndesitePolished> :
     <chisel:andesite1:13>
     <chisel:andesite1:14>
     <chisel:andesite1:15>
+    <chisel:andesite2>
 Ore entries for <ore:blockGlassColorless> :
     <minecraft:glass>
     <chisel:glass>
@@ -1382,6 +1431,7 @@ Ore entries for <ore:blockGlassColorless> :
     <chisel:glass:15>
     <enderio:blockFusedQuartz:1>
     <thebetweenlands:silt_glass>
+    <tconstruct:clear_glass>
 Ore entries for <ore:blockGlass> :
     <minecraft:glass>
     <minecraft:stained_glass:*>
@@ -2203,6 +2253,7 @@ Ore entries for <ore:dustGold> :
 Ore entries for <ore:plateGold> :
     <libvulpes:productplate:2>
     <base:plate:18>
+    <immersiveengineering:metal:40>
     <thermalfoundation:material:33>
     <primal:gold_plate:*>
 Ore entries for <ore:coilGold> :
@@ -2264,6 +2315,7 @@ Ore entries for <ore:blockCopper> :
     <primal:copper_block:*>
 Ore entries for <ore:coilCopper> :
     <libvulpes:coil0:4>
+    <immersiveengineering:metalDecoration0>
 Ore entries for <ore:dustTin> :
     <libvulpes:productdust:5>
     <base:dust:29>
@@ -2347,6 +2399,7 @@ Ore entries for <ore:dustTitanium> :
 Ore entries for <ore:ingotTitanium> :
     <libvulpes:productingot:7>
     <base:ingot:30>
+    <rockhounding_chemistry:miscItems:36>
 Ore entries for <ore:nuggetTitanium> :
     <libvulpes:productnugget:7>
     <base:nugget:30>
@@ -2412,6 +2465,7 @@ Ore entries for <ore:blockAluminum> :
     <thermalfoundation:storage:4>
 Ore entries for <ore:coilAluminum> :
     <libvulpes:coil0:9>
+    <immersiveengineering:metalDecoration0:2>
 Ore entries for <ore:dustIridium> :
     <libvulpes:productdust:10>
     <base:dust:20>
@@ -2481,6 +2535,8 @@ Ore entries for <ore:concrete> :
     <advancedrocketry:concrete>
     <immersiveengineering:stoneDecoration:5>
     <immersiveengineering:stoneDecoration:6>
+Ore entries for <ore:itemLens> :
+    <advancedrocketry:lens>
 Ore entries for <ore:itemSilicon> :
     <libvulpes:productingot:3>
     <enderio:itemMaterial>
@@ -2536,6 +2592,8 @@ Ore entries for <ore:blockSunstone> :
 Ore entries for <ore:craftingTableWood> :
     <minecraft:crafting_table>
     <betterbeginnings:double_workbench>
+    <natura:overworld_workbenches:*>
+    <natura:nether_workbenches:*>
 Ore entries for <ore:dustVinteum> :
     <arsmagica2:item_ore>
 Ore entries for <ore:arcaneAsh> :
@@ -2576,6 +2634,7 @@ Ore entries for <ore:stoneMarble> :
     <chisel:marble1:6>
     <chisel:marble1:7>
     <chisel:marble1:8>
+    <chisel:marble1:9>
     <chisel:marbleextra>
     <chisel:marbleextra:1>
     <chisel:marbleextra:2>
@@ -2600,16 +2659,11 @@ Ore entries for <ore:stoneMarble> :
     <chisel:marblepillar:13>
     <chisel:marblepillar:14>
     <chisel:marblepillar:15>
+    <astralsorcery:BlockMarble:*>
+    <quark:marble:1>
 Ore entries for <ore:blockMarble> :
     <astralsorcery:BlockMarble>
-Ore entries for <ore:shardGlass> :
-    <quark:glass_shards>
-Ore entries for <ore:gemEnderBiotite> :
-    <quark:biotite>
-Ore entries for <ore:stonePolished> :
-    <quark:polished_stone>
-Ore entries for <ore:stoneMarblePolished> :
-    <quark:marble:1>
+    <quark:marble>
     <chisel:marble>
     <chisel:marble:1>
     <chisel:marble:2>
@@ -2635,6 +2689,7 @@ Ore entries for <ore:stoneMarblePolished> :
     <chisel:marble1:6>
     <chisel:marble1:7>
     <chisel:marble1:8>
+    <chisel:marble1:9>
     <chisel:marbleextra>
     <chisel:marbleextra:1>
     <chisel:marbleextra:2>
@@ -2659,150 +2714,12 @@ Ore entries for <ore:stoneMarblePolished> :
     <chisel:marblepillar:13>
     <chisel:marblepillar:14>
     <chisel:marblepillar:15>
-Ore entries for <ore:stoneLimestone> :
-    <quark:limestone>
-    <chisel:limestone>
-    <chisel:limestone:1>
-    <chisel:limestone:2>
-    <chisel:limestone:3>
-    <chisel:limestone:4>
-    <chisel:limestone:5>
-    <chisel:limestone:6>
-    <chisel:limestone:7>
-    <chisel:limestone:8>
-    <chisel:limestone:9>
-    <chisel:limestone:10>
-    <chisel:limestone:11>
-    <chisel:limestone:12>
-    <chisel:limestone:13>
-    <chisel:limestone:14>
-    <chisel:limestone:15>
-    <chisel:limestone1>
-    <chisel:limestone1:1>
-    <chisel:limestone1:2>
-    <chisel:limestone1:3>
-    <chisel:limestone1:4>
-    <chisel:limestone1:5>
-    <chisel:limestone1:6>
-    <chisel:limestone1:7>
-    <chisel:limestone1:8>
-    <chisel:limestoneextra>
-    <chisel:limestoneextra:1>
-    <chisel:limestoneextra:2>
-    <chisel:limestoneextra:3>
-    <chisel:limestoneextra:4>
-    <chisel:limestoneextra:5>
-    <chisel:limestoneextra:6>
-    <chisel:limestoneextra:7>
-    <primal:carbonate_stone>
-    <primal:ferro_stone>
-    <chisel:limestone:*>
-    <chisel:limestone1:*>
-Ore entries for <ore:stoneLimestonePolished> :
-    <quark:limestone:1>
-    <chisel:limestone>
-    <chisel:limestone:1>
-    <chisel:limestone:2>
-    <chisel:limestone:3>
-    <chisel:limestone:4>
-    <chisel:limestone:5>
-    <chisel:limestone:6>
-    <chisel:limestone:7>
-    <chisel:limestone:8>
-    <chisel:limestone:9>
-    <chisel:limestone:10>
-    <chisel:limestone:11>
-    <chisel:limestone:12>
-    <chisel:limestone:13>
-    <chisel:limestone:14>
-    <chisel:limestone:15>
-    <chisel:limestone1>
-    <chisel:limestone1:1>
-    <chisel:limestone1:2>
-    <chisel:limestone1:3>
-    <chisel:limestone1:4>
-    <chisel:limestone1:5>
-    <chisel:limestone1:6>
-    <chisel:limestone1:7>
-    <chisel:limestone1:8>
-    <chisel:limestoneextra>
-    <chisel:limestoneextra:1>
-    <chisel:limestoneextra:2>
-    <chisel:limestoneextra:3>
-    <chisel:limestoneextra:4>
-    <chisel:limestoneextra:5>
-    <chisel:limestoneextra:6>
-    <chisel:limestoneextra:7>
-Ore entries for <ore:stoneBasalt> :
-    <quark:basalt>
-    <chisel:basalt>
-    <chisel:basalt:1>
-    <chisel:basalt:2>
-    <chisel:basalt:3>
-    <chisel:basalt:4>
-    <chisel:basalt:5>
-    <chisel:basalt:6>
-    <chisel:basalt:7>
-    <chisel:basalt:8>
-    <chisel:basalt:9>
-    <chisel:basalt:10>
-    <chisel:basalt:11>
-    <chisel:basalt:12>
-    <chisel:basalt:13>
-    <chisel:basalt:14>
-    <chisel:basalt:15>
-    <chisel:basalt1>
-    <chisel:basalt1:1>
-    <chisel:basalt1:2>
-    <chisel:basalt1:3>
-    <chisel:basalt1:4>
-    <chisel:basalt1:5>
-    <chisel:basalt1:6>
-    <chisel:basalt1:7>
-    <chisel:basalt1:8>
-    <chisel:basaltextra>
-    <chisel:basaltextra:1>
-    <chisel:basaltextra:2>
-    <chisel:basaltextra:3>
-    <chisel:basaltextra:4>
-    <chisel:basaltextra:5>
-    <chisel:basaltextra:6>
-    <chisel:basaltextra:7>
-Ore entries for <ore:stoneBasaltPolished> :
-    <quark:basalt:1>
-    <chisel:basalt>
-    <chisel:basalt:1>
-    <chisel:basalt:2>
-    <chisel:basalt:3>
-    <chisel:basalt:4>
-    <chisel:basalt:5>
-    <chisel:basalt:6>
-    <chisel:basalt:7>
-    <chisel:basalt:8>
-    <chisel:basalt:9>
-    <chisel:basalt:10>
-    <chisel:basalt:11>
-    <chisel:basalt:12>
-    <chisel:basalt:13>
-    <chisel:basalt:14>
-    <chisel:basalt:15>
-    <chisel:basalt1>
-    <chisel:basalt1:1>
-    <chisel:basalt1:2>
-    <chisel:basalt1:3>
-    <chisel:basalt1:4>
-    <chisel:basalt1:5>
-    <chisel:basalt1:6>
-    <chisel:basalt1:7>
-    <chisel:basalt1:8>
-    <chisel:basaltextra>
-    <chisel:basaltextra:1>
-    <chisel:basaltextra:2>
-    <chisel:basaltextra:3>
-    <chisel:basaltextra:4>
-    <chisel:basaltextra:5>
-    <chisel:basaltextra:6>
-    <chisel:basaltextra:7>
+    <astralsorcery:BlockMarble:*>
+    <quark:marble:1>
+Ore entries for <ore:shardGlass> :
+    <quark:glass_shards>
+Ore entries for <ore:gemEnderBiotite> :
+    <quark:biotite>
 Ore entries for <ore:trapdoorWood> :
     <quark:spruce_trapdoor>
     <quark:birch_trapdoor>
@@ -2934,6 +2851,209 @@ Ore entries for <ore:bookshelfDarkOak> :
     <chisel:bookshelf_darkoak:7>
     <chisel:bookshelf_darkoak:8>
     <chisel:bookshelf_darkoak:9>
+Ore entries for <ore:stonePolished> :
+    <quark:polished_stone>
+Ore entries for <ore:stoneMarblePolished> :
+    <quark:marble:1>
+    <chisel:marble>
+    <chisel:marble:1>
+    <chisel:marble:2>
+    <chisel:marble:3>
+    <chisel:marble:4>
+    <chisel:marble:5>
+    <chisel:marble:6>
+    <chisel:marble:7>
+    <chisel:marble:8>
+    <chisel:marble:9>
+    <chisel:marble:10>
+    <chisel:marble:11>
+    <chisel:marble:12>
+    <chisel:marble:13>
+    <chisel:marble:14>
+    <chisel:marble:15>
+    <chisel:marble1>
+    <chisel:marble1:1>
+    <chisel:marble1:2>
+    <chisel:marble1:3>
+    <chisel:marble1:4>
+    <chisel:marble1:5>
+    <chisel:marble1:6>
+    <chisel:marble1:7>
+    <chisel:marble1:8>
+    <chisel:marble1:9>
+    <chisel:marbleextra>
+    <chisel:marbleextra:1>
+    <chisel:marbleextra:2>
+    <chisel:marbleextra:3>
+    <chisel:marbleextra:4>
+    <chisel:marbleextra:5>
+    <chisel:marbleextra:6>
+    <chisel:marbleextra:7>
+    <chisel:marblepillar>
+    <chisel:marblepillar:1>
+    <chisel:marblepillar:2>
+    <chisel:marblepillar:3>
+    <chisel:marblepillar:4>
+    <chisel:marblepillar:5>
+    <chisel:marblepillar:6>
+    <chisel:marblepillar:7>
+    <chisel:marblepillar:8>
+    <chisel:marblepillar:9>
+    <chisel:marblepillar:10>
+    <chisel:marblepillar:11>
+    <chisel:marblepillar:12>
+    <chisel:marblepillar:13>
+    <chisel:marblepillar:14>
+    <chisel:marblepillar:15>
+Ore entries for <ore:stoneLimestone> :
+    <quark:limestone>
+    <chisel:limestone>
+    <chisel:limestone:1>
+    <chisel:limestone:2>
+    <chisel:limestone:3>
+    <chisel:limestone:4>
+    <chisel:limestone:5>
+    <chisel:limestone:6>
+    <chisel:limestone:7>
+    <chisel:limestone:8>
+    <chisel:limestone:9>
+    <chisel:limestone:10>
+    <chisel:limestone:11>
+    <chisel:limestone:12>
+    <chisel:limestone:13>
+    <chisel:limestone:14>
+    <chisel:limestone:15>
+    <chisel:limestone1>
+    <chisel:limestone1:1>
+    <chisel:limestone1:2>
+    <chisel:limestone1:3>
+    <chisel:limestone1:4>
+    <chisel:limestone1:5>
+    <chisel:limestone1:6>
+    <chisel:limestone1:7>
+    <chisel:limestone1:8>
+    <chisel:limestone1:9>
+    <chisel:limestoneextra>
+    <chisel:limestoneextra:1>
+    <chisel:limestoneextra:2>
+    <chisel:limestoneextra:3>
+    <chisel:limestoneextra:4>
+    <chisel:limestoneextra:5>
+    <chisel:limestoneextra:6>
+    <chisel:limestoneextra:7>
+    <primal:carbonate_stone>
+    <primal:ferro_stone>
+    <chisel:limestone:*>
+    <chisel:limestone1:*>
+    <thebetweenlands:limestone>
+Ore entries for <ore:stoneLimestonePolished> :
+    <quark:limestone:1>
+    <chisel:limestone>
+    <chisel:limestone:1>
+    <chisel:limestone:2>
+    <chisel:limestone:3>
+    <chisel:limestone:4>
+    <chisel:limestone:5>
+    <chisel:limestone:6>
+    <chisel:limestone:7>
+    <chisel:limestone:8>
+    <chisel:limestone:9>
+    <chisel:limestone:10>
+    <chisel:limestone:11>
+    <chisel:limestone:12>
+    <chisel:limestone:13>
+    <chisel:limestone:14>
+    <chisel:limestone:15>
+    <chisel:limestone1>
+    <chisel:limestone1:1>
+    <chisel:limestone1:2>
+    <chisel:limestone1:3>
+    <chisel:limestone1:4>
+    <chisel:limestone1:5>
+    <chisel:limestone1:6>
+    <chisel:limestone1:7>
+    <chisel:limestone1:8>
+    <chisel:limestone1:9>
+    <chisel:limestoneextra>
+    <chisel:limestoneextra:1>
+    <chisel:limestoneextra:2>
+    <chisel:limestoneextra:3>
+    <chisel:limestoneextra:4>
+    <chisel:limestoneextra:5>
+    <chisel:limestoneextra:6>
+    <chisel:limestoneextra:7>
+Ore entries for <ore:stoneBasalt> :
+    <quark:basalt>
+    <chisel:basalt>
+    <chisel:basalt:1>
+    <chisel:basalt:2>
+    <chisel:basalt:3>
+    <chisel:basalt:4>
+    <chisel:basalt:5>
+    <chisel:basalt:6>
+    <chisel:basalt:7>
+    <chisel:basalt:8>
+    <chisel:basalt:9>
+    <chisel:basalt:10>
+    <chisel:basalt:11>
+    <chisel:basalt:12>
+    <chisel:basalt:13>
+    <chisel:basalt:14>
+    <chisel:basalt:15>
+    <chisel:basalt1>
+    <chisel:basalt1:1>
+    <chisel:basalt1:2>
+    <chisel:basalt1:3>
+    <chisel:basalt1:4>
+    <chisel:basalt1:5>
+    <chisel:basalt1:6>
+    <chisel:basalt1:7>
+    <chisel:basalt1:8>
+    <chisel:basalt1:9>
+    <chisel:basaltextra>
+    <chisel:basaltextra:1>
+    <chisel:basaltextra:2>
+    <chisel:basaltextra:3>
+    <chisel:basaltextra:4>
+    <chisel:basaltextra:5>
+    <chisel:basaltextra:6>
+    <chisel:basaltextra:7>
+Ore entries for <ore:stoneBasaltPolished> :
+    <quark:basalt:1>
+    <chisel:basalt>
+    <chisel:basalt:1>
+    <chisel:basalt:2>
+    <chisel:basalt:3>
+    <chisel:basalt:4>
+    <chisel:basalt:5>
+    <chisel:basalt:6>
+    <chisel:basalt:7>
+    <chisel:basalt:8>
+    <chisel:basalt:9>
+    <chisel:basalt:10>
+    <chisel:basalt:11>
+    <chisel:basalt:12>
+    <chisel:basalt:13>
+    <chisel:basalt:14>
+    <chisel:basalt:15>
+    <chisel:basalt1>
+    <chisel:basalt1:1>
+    <chisel:basalt1:2>
+    <chisel:basalt1:3>
+    <chisel:basalt1:4>
+    <chisel:basalt1:5>
+    <chisel:basalt1:6>
+    <chisel:basalt1:7>
+    <chisel:basalt1:8>
+    <chisel:basalt1:9>
+    <chisel:basaltextra>
+    <chisel:basaltextra:1>
+    <chisel:basaltextra:2>
+    <chisel:basaltextra:3>
+    <chisel:basaltextra:4>
+    <chisel:basaltextra:5>
+    <chisel:basaltextra:6>
+    <chisel:basaltextra:7>
 Ore entries for <ore:dustElectrum> :
     <base:dust:17>
     <immersiveengineering:metal:16>
@@ -2953,8 +3073,6 @@ Ore entries for <ore:ingotElectrum> :
     <base:ingot:17>
     <immersiveengineering:metal:7>
     <thermalfoundation:material:161>
-Ore entries for <ore:oreElectrum> :
-    <base:ore_electrum>
 Ore entries for <ore:blockElectrum> :
     <base:storage_electrum>
     <chisel:blockElectrum>
@@ -3001,6 +3119,20 @@ Ore entries for <ore:gearLumix> :
     <base:gear:46>
 Ore entries for <ore:plateLumix> :
     <base:plate:46>
+Ore entries for <ore:dustPlutonium> :
+    <base:dust:63>
+Ore entries for <ore:gearPlutonium> :
+    <base:gear:63>
+Ore entries for <ore:platePlutonium> :
+    <base:plate:63>
+Ore entries for <ore:nuggetPlutonium> :
+    <base:nugget:63>
+Ore entries for <ore:ingotPlutonium> :
+    <base:ingot:63>
+Ore entries for <ore:orePlutonium> :
+    <base:ore_plutonium>
+Ore entries for <ore:blockPlutonium> :
+    <base:storage_plutonium>
 Ore entries for <ore:dustColdiron> :
     <base:dust:9>
 Ore entries for <ore:gearColdiron> :
@@ -3011,8 +3143,6 @@ Ore entries for <ore:nuggetColdiron> :
     <base:nugget:9>
 Ore entries for <ore:ingotColdiron> :
     <base:ingot:9>
-Ore entries for <ore:oreColdiron> :
-    <base:ore_coldiron>
 Ore entries for <ore:blockColdiron> :
     <base:storage_coldiron>
 Ore entries for <ore:gearDilithium> :
@@ -3062,8 +3192,6 @@ Ore entries for <ore:ingotBronze> :
     <forestry:ingotBronze>
     <thermalfoundation:material:163>
     <primal:bronze_ingot:*>
-Ore entries for <ore:oreBronze> :
-    <base:ore_bronze>
 Ore entries for <ore:blockBronze> :
     <base:storage_bronze>
     <chisel:blockBronze>
@@ -3089,8 +3217,6 @@ Ore entries for <ore:nuggetCupronickel> :
 Ore entries for <ore:ingotCupronickel> :
     <base:ingot:13>
     <rockhounding_chemistry:alloyItems:13>
-Ore entries for <ore:oreCupronickel> :
-    <base:ore_cupronickel>
 Ore entries for <ore:blockCupronickel> :
     <base:storage_cupronickel>
     <rockhounding_chemistry:alloyBlocks:4>
@@ -3175,8 +3301,6 @@ Ore entries for <ore:gearKarmesine> :
     <base:gear:45>
 Ore entries for <ore:plateKarmesine> :
     <base:plate:45>
-Ore entries for <ore:oreSteel> :
-    <base:ore_steel>
 Ore entries for <ore:dustPalladium> :
     <base:dust:51>
     <taiga:palladium_dust>
@@ -3204,6 +3328,10 @@ Ore entries for <ore:oreZinc> :
 Ore entries for <ore:blockZinc> :
     <base:storage_zinc>
     <primal:zinc_block:*>
+Ore entries for <ore:nuggetPhilosopher'sGold> :
+    <base:nugget:80>
+Ore entries for <ore:ingotPhilosopher'sGold> :
+    <base:ingot:80>
 Ore entries for <ore:gearAluminum> :
     <base:gear:3>
     <thermalfoundation:material:260>
@@ -3221,6 +3349,7 @@ Ore entries for <ore:gearSilver> :
     <thermalfoundation:material:258>
 Ore entries for <ore:plateSilver> :
     <base:plate:26>
+    <immersiveengineering:metal:33>
     <thermalfoundation:material:322>
     <primal:silver_plate:*>
 Ore entries for <ore:nuggetSilver> :
@@ -3275,6 +3404,7 @@ Ore entries for <ore:gearNickel> :
     <thermalfoundation:material:261>
 Ore entries for <ore:plateNickel> :
     <base:plate:24>
+    <immersiveengineering:metal:34>
     <thermalfoundation:material:325>
 Ore entries for <ore:nuggetNickel> :
     <base:nugget:24>
@@ -3325,8 +3455,6 @@ Ore entries for <ore:ingotConstantan> :
     <base:ingot:10>
     <immersiveengineering:metal:6>
     <thermalfoundation:material:164>
-Ore entries for <ore:oreConstantan> :
-    <base:ore_constantan>
 Ore entries for <ore:blockConstantan> :
     <base:storage_constantan>
     <immersiveengineering:storage:6>
@@ -3337,8 +3465,6 @@ Ore entries for <ore:gearDreadium> :
     <base:gear:16>
 Ore entries for <ore:plateDreadium> :
     <base:plate:16>
-Ore entries for <ore:oreDreadium> :
-    <base:ore_dreadium>
 Ore entries for <ore:dustUranium> :
     <base:dust:33>
     <immersiveengineering:metal:14>
@@ -3347,6 +3473,7 @@ Ore entries for <ore:gearUranium> :
     <base:gear:33>
 Ore entries for <ore:plateUranium> :
     <base:plate:33>
+    <immersiveengineering:metal:35>
 Ore entries for <ore:nuggetUranium> :
     <base:nugget:33>
     <immersiveengineering:metal:25>
@@ -3417,8 +3544,6 @@ Ore entries for <ore:nuggetDawnstone> :
     <base:nugget:14>
 Ore entries for <ore:ingotDawnstone> :
     <base:ingot:14>
-Ore entries for <ore:oreDawnstone> :
-    <base:ore_dawnstone>
 Ore entries for <ore:blockDawnstone> :
     <base:storage_dawnstone>
 Ore entries for <ore:dustSeismum> :
@@ -3449,8 +3574,6 @@ Ore entries for <ore:nuggetBrass> :
 Ore entries for <ore:ingotBrass> :
     <base:ingot:6>
     <primal:brass_ingot:*>
-Ore entries for <ore:oreBrass> :
-    <base:ore_brass>
 Ore entries for <ore:blockBrass> :
     <base:storage_brass>
     <primal:brass_block:*>
@@ -3477,6 +3600,8 @@ Ore entries for <ore:gearPrometheum> :
     <base:gear:52>
 Ore entries for <ore:platePrometheum> :
     <base:plate:52>
+Ore entries for <ore:dustQuartzEnrichedIron> :
+    <base:dust:81>
 Ore entries for <ore:dustAquarium> :
     <base:dust:4>
 Ore entries for <ore:gearAquarium> :
@@ -3487,8 +3612,6 @@ Ore entries for <ore:nuggetAquarium> :
     <base:nugget:4>
 Ore entries for <ore:ingotAquarium> :
     <base:ingot:4>
-Ore entries for <ore:oreAquarium> :
-    <base:ore_aquarium>
 Ore entries for <ore:blockAquarium> :
     <base:storage_aquarium>
 Ore entries for <ore:gearIron> :
@@ -3547,11 +3670,11 @@ Ore entries for <ore:plateInvar> :
 Ore entries for <ore:nuggetInvar> :
     <base:nugget:19>
     <thermalfoundation:material:226>
+    <plustic:invarnugget>
 Ore entries for <ore:ingotInvar> :
     <base:ingot:19>
     <thermalfoundation:material:162>
-Ore entries for <ore:oreInvar> :
-    <base:ore_invar>
+    <plustic:invaringot>
 Ore entries for <ore:blockInvar> :
     <base:storage_invar>
     <chisel:blockInvar>
@@ -3562,6 +3685,7 @@ Ore entries for <ore:blockInvar> :
     <chisel:blockInvar:5>
     <chisel:blockInvar:6>
     <thermalfoundation:storage_alloy:2>
+    <plustic:invarblock>
 Ore entries for <ore:dustPlatinum> :
     <base:dust:25>
     <thermalfoundation:material:70>
@@ -3748,6 +3872,8 @@ Ore entries for <ore:seedTurnip> :
     <harvestcraft:turnipseedItem>
 Ore entries for <ore:listAllseed> :
     <biomesoplenty:turnip_seeds>
+    <natura:overworld_seeds>
+    <natura:overworld_seeds:1>
     <harvestcraft:spinachseedItem>
     <harvestcraft:kiwiseedItem>
     <harvestcraft:cabbageseedItem>
@@ -4124,6 +4250,7 @@ Ore entries for <ore:hardenedClay> :
     <chisel:hardenedclay1:6>
     <chisel:hardenedclay1:7>
     <chisel:hardenedclay1:8>
+    <chisel:hardenedclay1:9>
     <chisel:hardenedclayextra>
     <chisel:hardenedclayextra:1>
     <chisel:hardenedclayextra:2>
@@ -4289,6 +4416,14 @@ Ore entries for <ore:rodBlaze> :
     <minecraft:blaze_rod>
 Ore entries for <ore:powderBlaze> :
     <minecraft:blaze_powder>
+Ore entries for <ore:fuelCoke> :
+    <charcoal_pit:item_coke>
+    <immersiveengineering:material:6>
+Ore entries for <ore:dustAsh> :
+    <charcoal_pit:item_ash>
+    <forestry:ash>
+    <primal:ash:*>
+    <biomesoplenty:ash>
 Ore entries for <ore:bookshelfOak> :
     <chisel:bookshelf_oak>
     <chisel:bookshelf_oak:1>
@@ -4300,6 +4435,113 @@ Ore entries for <ore:bookshelfOak> :
     <chisel:bookshelf_oak:7>
     <chisel:bookshelf_oak:8>
     <chisel:bookshelf_oak:9>
+Ore entries for <ore:blockCharcoal> :
+    <chisel:block_charcoal>
+    <chisel:block_charcoal:1>
+    <chisel:block_charcoal:2>
+    <chisel:block_charcoal:3>
+    <chisel:block_charcoal:4>
+    <chisel:block_charcoal:5>
+    <chisel:block_charcoal:6>
+    <chisel:block_charcoal:7>
+    <chisel:block_charcoal:8>
+    <chisel:block_charcoal:9>
+    <chisel:block_charcoal:10>
+    <chisel:block_charcoal:11>
+    <chisel:block_charcoal:12>
+    <chisel:block_charcoal:13>
+    <chisel:block_charcoal:14>
+    <chisel:block_charcoal:15>
+    <chisel:block_charcoal1>
+    <chisel:block_charcoal1:1>
+    <chisel:block_charcoal1:2>
+    <chisel:block_charcoal1:3>
+    <chisel:block_charcoal1:4>
+    <chisel:block_charcoal1:5>
+    <chisel:block_charcoal1:6>
+    <chisel:block_charcoal1:7>
+    <chisel:block_charcoal1:8>
+    <chisel:block_charcoal1:9>
+    <chisel:block_charcoal1:10>
+    <chisel:block_charcoal1:11>
+    <chisel:block_charcoal1:12>
+    <chisel:block_charcoal1:13>
+    <chisel:block_charcoal1:14>
+    <chisel:block_charcoal1:15>
+    <chisel:block_charcoal2>
+    <chisel:block_charcoal2:1>
+    <actuallyadditions:blockMisc:5>
+Ore entries for <ore:blockFuelCoke> :
+    <chisel:block_coal_coke>
+    <chisel:block_coal_coke:1>
+    <chisel:block_coal_coke:2>
+    <chisel:block_coal_coke:3>
+    <chisel:block_coal_coke:4>
+    <chisel:block_coal_coke:5>
+    <chisel:block_coal_coke:6>
+    <chisel:block_coal_coke:7>
+    <chisel:block_coal_coke:8>
+    <chisel:block_coal_coke:9>
+    <chisel:block_coal_coke:10>
+    <chisel:block_coal_coke:11>
+    <chisel:block_coal_coke:12>
+    <chisel:block_coal_coke:13>
+    <chisel:block_coal_coke:14>
+    <chisel:block_coal_coke:15>
+    <chisel:block_coal_coke1>
+    <chisel:block_coal_coke1:1>
+    <chisel:block_coal_coke1:2>
+    <chisel:block_coal_coke1:3>
+    <chisel:block_coal_coke1:4>
+    <chisel:block_coal_coke1:5>
+    <chisel:block_coal_coke1:6>
+    <chisel:block_coal_coke1:7>
+    <chisel:block_coal_coke1:8>
+    <chisel:block_coal_coke1:9>
+    <chisel:block_coal_coke1:10>
+    <chisel:block_coal_coke1:11>
+    <chisel:block_coal_coke1:12>
+    <chisel:block_coal_coke1:13>
+    <chisel:block_coal_coke1:14>
+    <chisel:block_coal_coke1:15>
+    <chisel:block_coal_coke2>
+    <chisel:block_coal_coke2:1>
+    <immersiveengineering:stoneDecoration:3>
+Ore entries for <ore:blockCoalCoke> :
+    <chisel:block_coal_coke>
+    <chisel:block_coal_coke:1>
+    <chisel:block_coal_coke:2>
+    <chisel:block_coal_coke:3>
+    <chisel:block_coal_coke:4>
+    <chisel:block_coal_coke:5>
+    <chisel:block_coal_coke:6>
+    <chisel:block_coal_coke:7>
+    <chisel:block_coal_coke:8>
+    <chisel:block_coal_coke:9>
+    <chisel:block_coal_coke:10>
+    <chisel:block_coal_coke:11>
+    <chisel:block_coal_coke:12>
+    <chisel:block_coal_coke:13>
+    <chisel:block_coal_coke:14>
+    <chisel:block_coal_coke:15>
+    <chisel:block_coal_coke1>
+    <chisel:block_coal_coke1:1>
+    <chisel:block_coal_coke1:2>
+    <chisel:block_coal_coke1:3>
+    <chisel:block_coal_coke1:4>
+    <chisel:block_coal_coke1:5>
+    <chisel:block_coal_coke1:6>
+    <chisel:block_coal_coke1:7>
+    <chisel:block_coal_coke1:8>
+    <chisel:block_coal_coke1:9>
+    <chisel:block_coal_coke1:10>
+    <chisel:block_coal_coke1:11>
+    <chisel:block_coal_coke1:12>
+    <chisel:block_coal_coke1:13>
+    <chisel:block_coal_coke1:14>
+    <chisel:block_coal_coke1:15>
+    <chisel:block_coal_coke2>
+    <chisel:block_coal_coke2:1>
 Ore entries for <ore:blockMossy> :
     <chisel:cobblestonemossy>
     <chisel:cobblestonemossy:1>
@@ -4333,8 +4575,1115 @@ Ore entries for <ore:blockMossy> :
     <chisel:cobblestonemossy1:13>
     <chisel:cobblestonemossy1:14>
     <chisel:cobblestonemossy1:15>
+    <chisel:cobblestonemossy2>
     <minecraft:mossy_cobblestone:*>
     <minecraft:stonebrick:1>
+Ore entries for <ore:powderConcrete> :
+    <chisel:concrete_powder>
+    <chisel:concrete_powder:1>
+    <chisel:concrete_powder:2>
+    <chisel:concrete_powder:3>
+    <chisel:concrete_powder:4>
+    <chisel:concrete_powder:5>
+    <chisel:concrete_powder:6>
+    <chisel:concrete_powder:7>
+    <chisel:concrete_powder:8>
+    <chisel:concrete_powder:9>
+    <chisel:concrete_powder:10>
+    <chisel:concrete_powder:11>
+    <chisel:concrete_powder:12>
+    <chisel:concrete_powder:13>
+    <chisel:concrete_powder:14>
+    <chisel:concrete_powder:15>
+Ore entries for <ore:blockConcrete> :
+    <chisel:concrete>
+    <chisel:concrete:1>
+    <chisel:concrete:2>
+    <chisel:concrete:3>
+    <chisel:concrete:4>
+    <chisel:concrete:5>
+    <chisel:concrete:6>
+    <chisel:concrete:7>
+    <chisel:concrete:8>
+    <chisel:concrete:9>
+    <chisel:concrete:10>
+    <chisel:concrete:11>
+    <chisel:concrete:12>
+    <chisel:concrete:13>
+    <chisel:concrete:14>
+    <chisel:concrete:15>
+    <chisel:concrete_black>
+    <chisel:concrete_black:1>
+    <chisel:concrete_black:2>
+    <chisel:concrete_black:3>
+    <chisel:concrete_black:4>
+    <chisel:concrete_black:5>
+    <chisel:concrete_black:6>
+    <chisel:concrete_black:7>
+    <chisel:concrete_black:8>
+    <chisel:concrete_black:9>
+    <chisel:concrete_black:10>
+    <chisel:concrete_black:11>
+    <chisel:concrete_black:12>
+    <chisel:concrete_black:13>
+    <chisel:concrete_black:14>
+    <chisel:concrete_black:15>
+    <chisel:concrete_black1>
+    <chisel:concrete_black1:1>
+    <chisel:concrete_black1:2>
+    <chisel:concrete_black1:3>
+    <chisel:concrete_black1:4>
+    <chisel:concrete_black1:5>
+    <chisel:concrete_black1:6>
+    <chisel:concrete_black1:7>
+    <chisel:concrete_black1:8>
+    <chisel:concrete_black1:9>
+    <chisel:concrete_black1:10>
+    <chisel:concrete_black1:11>
+    <chisel:concrete_black1:12>
+    <chisel:concrete_black1:13>
+    <chisel:concrete_black1:14>
+    <chisel:concrete_black1:15>
+    <chisel:concrete_black2>
+    <chisel:concrete_red>
+    <chisel:concrete_red:1>
+    <chisel:concrete_red:2>
+    <chisel:concrete_red:3>
+    <chisel:concrete_red:4>
+    <chisel:concrete_red:5>
+    <chisel:concrete_red:6>
+    <chisel:concrete_red:7>
+    <chisel:concrete_red:8>
+    <chisel:concrete_red:9>
+    <chisel:concrete_red:10>
+    <chisel:concrete_red:11>
+    <chisel:concrete_red:12>
+    <chisel:concrete_red:13>
+    <chisel:concrete_red:14>
+    <chisel:concrete_red:15>
+    <chisel:concrete_red1>
+    <chisel:concrete_red1:1>
+    <chisel:concrete_red1:2>
+    <chisel:concrete_red1:3>
+    <chisel:concrete_red1:4>
+    <chisel:concrete_red1:5>
+    <chisel:concrete_red1:6>
+    <chisel:concrete_red1:7>
+    <chisel:concrete_red1:8>
+    <chisel:concrete_red1:9>
+    <chisel:concrete_red1:10>
+    <chisel:concrete_red1:11>
+    <chisel:concrete_red1:12>
+    <chisel:concrete_red1:13>
+    <chisel:concrete_red1:14>
+    <chisel:concrete_red1:15>
+    <chisel:concrete_red2>
+    <chisel:concrete_green>
+    <chisel:concrete_green:1>
+    <chisel:concrete_green:2>
+    <chisel:concrete_green:3>
+    <chisel:concrete_green:4>
+    <chisel:concrete_green:5>
+    <chisel:concrete_green:6>
+    <chisel:concrete_green:7>
+    <chisel:concrete_green:8>
+    <chisel:concrete_green:9>
+    <chisel:concrete_green:10>
+    <chisel:concrete_green:11>
+    <chisel:concrete_green:12>
+    <chisel:concrete_green:13>
+    <chisel:concrete_green:14>
+    <chisel:concrete_green:15>
+    <chisel:concrete_green1>
+    <chisel:concrete_green1:1>
+    <chisel:concrete_green1:2>
+    <chisel:concrete_green1:3>
+    <chisel:concrete_green1:4>
+    <chisel:concrete_green1:5>
+    <chisel:concrete_green1:6>
+    <chisel:concrete_green1:7>
+    <chisel:concrete_green1:8>
+    <chisel:concrete_green1:9>
+    <chisel:concrete_green1:10>
+    <chisel:concrete_green1:11>
+    <chisel:concrete_green1:12>
+    <chisel:concrete_green1:13>
+    <chisel:concrete_green1:14>
+    <chisel:concrete_green1:15>
+    <chisel:concrete_green2>
+    <chisel:concrete_brown>
+    <chisel:concrete_brown:1>
+    <chisel:concrete_brown:2>
+    <chisel:concrete_brown:3>
+    <chisel:concrete_brown:4>
+    <chisel:concrete_brown:5>
+    <chisel:concrete_brown:6>
+    <chisel:concrete_brown:7>
+    <chisel:concrete_brown:8>
+    <chisel:concrete_brown:9>
+    <chisel:concrete_brown:10>
+    <chisel:concrete_brown:11>
+    <chisel:concrete_brown:12>
+    <chisel:concrete_brown:13>
+    <chisel:concrete_brown:14>
+    <chisel:concrete_brown:15>
+    <chisel:concrete_brown1>
+    <chisel:concrete_brown1:1>
+    <chisel:concrete_brown1:2>
+    <chisel:concrete_brown1:3>
+    <chisel:concrete_brown1:4>
+    <chisel:concrete_brown1:5>
+    <chisel:concrete_brown1:6>
+    <chisel:concrete_brown1:7>
+    <chisel:concrete_brown1:8>
+    <chisel:concrete_brown1:9>
+    <chisel:concrete_brown1:10>
+    <chisel:concrete_brown1:11>
+    <chisel:concrete_brown1:12>
+    <chisel:concrete_brown1:13>
+    <chisel:concrete_brown1:14>
+    <chisel:concrete_brown1:15>
+    <chisel:concrete_brown2>
+    <chisel:concrete_blue>
+    <chisel:concrete_blue:1>
+    <chisel:concrete_blue:2>
+    <chisel:concrete_blue:3>
+    <chisel:concrete_blue:4>
+    <chisel:concrete_blue:5>
+    <chisel:concrete_blue:6>
+    <chisel:concrete_blue:7>
+    <chisel:concrete_blue:8>
+    <chisel:concrete_blue:9>
+    <chisel:concrete_blue:10>
+    <chisel:concrete_blue:11>
+    <chisel:concrete_blue:12>
+    <chisel:concrete_blue:13>
+    <chisel:concrete_blue:14>
+    <chisel:concrete_blue:15>
+    <chisel:concrete_blue1>
+    <chisel:concrete_blue1:1>
+    <chisel:concrete_blue1:2>
+    <chisel:concrete_blue1:3>
+    <chisel:concrete_blue1:4>
+    <chisel:concrete_blue1:5>
+    <chisel:concrete_blue1:6>
+    <chisel:concrete_blue1:7>
+    <chisel:concrete_blue1:8>
+    <chisel:concrete_blue1:9>
+    <chisel:concrete_blue1:10>
+    <chisel:concrete_blue1:11>
+    <chisel:concrete_blue1:12>
+    <chisel:concrete_blue1:13>
+    <chisel:concrete_blue1:14>
+    <chisel:concrete_blue1:15>
+    <chisel:concrete_blue2>
+    <chisel:concrete_purple>
+    <chisel:concrete_purple:1>
+    <chisel:concrete_purple:2>
+    <chisel:concrete_purple:3>
+    <chisel:concrete_purple:4>
+    <chisel:concrete_purple:5>
+    <chisel:concrete_purple:6>
+    <chisel:concrete_purple:7>
+    <chisel:concrete_purple:8>
+    <chisel:concrete_purple:9>
+    <chisel:concrete_purple:10>
+    <chisel:concrete_purple:11>
+    <chisel:concrete_purple:12>
+    <chisel:concrete_purple:13>
+    <chisel:concrete_purple:14>
+    <chisel:concrete_purple:15>
+    <chisel:concrete_purple1>
+    <chisel:concrete_purple1:1>
+    <chisel:concrete_purple1:2>
+    <chisel:concrete_purple1:3>
+    <chisel:concrete_purple1:4>
+    <chisel:concrete_purple1:5>
+    <chisel:concrete_purple1:6>
+    <chisel:concrete_purple1:7>
+    <chisel:concrete_purple1:8>
+    <chisel:concrete_purple1:9>
+    <chisel:concrete_purple1:10>
+    <chisel:concrete_purple1:11>
+    <chisel:concrete_purple1:12>
+    <chisel:concrete_purple1:13>
+    <chisel:concrete_purple1:14>
+    <chisel:concrete_purple1:15>
+    <chisel:concrete_purple2>
+    <chisel:concrete_cyan>
+    <chisel:concrete_cyan:1>
+    <chisel:concrete_cyan:2>
+    <chisel:concrete_cyan:3>
+    <chisel:concrete_cyan:4>
+    <chisel:concrete_cyan:5>
+    <chisel:concrete_cyan:6>
+    <chisel:concrete_cyan:7>
+    <chisel:concrete_cyan:8>
+    <chisel:concrete_cyan:9>
+    <chisel:concrete_cyan:10>
+    <chisel:concrete_cyan:11>
+    <chisel:concrete_cyan:12>
+    <chisel:concrete_cyan:13>
+    <chisel:concrete_cyan:14>
+    <chisel:concrete_cyan:15>
+    <chisel:concrete_cyan1>
+    <chisel:concrete_cyan1:1>
+    <chisel:concrete_cyan1:2>
+    <chisel:concrete_cyan1:3>
+    <chisel:concrete_cyan1:4>
+    <chisel:concrete_cyan1:5>
+    <chisel:concrete_cyan1:6>
+    <chisel:concrete_cyan1:7>
+    <chisel:concrete_cyan1:8>
+    <chisel:concrete_cyan1:9>
+    <chisel:concrete_cyan1:10>
+    <chisel:concrete_cyan1:11>
+    <chisel:concrete_cyan1:12>
+    <chisel:concrete_cyan1:13>
+    <chisel:concrete_cyan1:14>
+    <chisel:concrete_cyan1:15>
+    <chisel:concrete_cyan2>
+    <chisel:concrete_lightgray>
+    <chisel:concrete_lightgray:1>
+    <chisel:concrete_lightgray:2>
+    <chisel:concrete_lightgray:3>
+    <chisel:concrete_lightgray:4>
+    <chisel:concrete_lightgray:5>
+    <chisel:concrete_lightgray:6>
+    <chisel:concrete_lightgray:7>
+    <chisel:concrete_lightgray:8>
+    <chisel:concrete_lightgray:9>
+    <chisel:concrete_lightgray:10>
+    <chisel:concrete_lightgray:11>
+    <chisel:concrete_lightgray:12>
+    <chisel:concrete_lightgray:13>
+    <chisel:concrete_lightgray:14>
+    <chisel:concrete_lightgray:15>
+    <chisel:concrete_lightgray1>
+    <chisel:concrete_lightgray1:1>
+    <chisel:concrete_lightgray1:2>
+    <chisel:concrete_lightgray1:3>
+    <chisel:concrete_lightgray1:4>
+    <chisel:concrete_lightgray1:5>
+    <chisel:concrete_lightgray1:6>
+    <chisel:concrete_lightgray1:7>
+    <chisel:concrete_lightgray1:8>
+    <chisel:concrete_lightgray1:9>
+    <chisel:concrete_lightgray1:10>
+    <chisel:concrete_lightgray1:11>
+    <chisel:concrete_lightgray1:12>
+    <chisel:concrete_lightgray1:13>
+    <chisel:concrete_lightgray1:14>
+    <chisel:concrete_lightgray1:15>
+    <chisel:concrete_lightgray2>
+    <chisel:concrete_gray>
+    <chisel:concrete_gray:1>
+    <chisel:concrete_gray:2>
+    <chisel:concrete_gray:3>
+    <chisel:concrete_gray:4>
+    <chisel:concrete_gray:5>
+    <chisel:concrete_gray:6>
+    <chisel:concrete_gray:7>
+    <chisel:concrete_gray:8>
+    <chisel:concrete_gray:9>
+    <chisel:concrete_gray:10>
+    <chisel:concrete_gray:11>
+    <chisel:concrete_gray:12>
+    <chisel:concrete_gray:13>
+    <chisel:concrete_gray:14>
+    <chisel:concrete_gray:15>
+    <chisel:concrete_gray1>
+    <chisel:concrete_gray1:1>
+    <chisel:concrete_gray1:2>
+    <chisel:concrete_gray1:3>
+    <chisel:concrete_gray1:4>
+    <chisel:concrete_gray1:5>
+    <chisel:concrete_gray1:6>
+    <chisel:concrete_gray1:7>
+    <chisel:concrete_gray1:8>
+    <chisel:concrete_gray1:9>
+    <chisel:concrete_gray1:10>
+    <chisel:concrete_gray1:11>
+    <chisel:concrete_gray1:12>
+    <chisel:concrete_gray1:13>
+    <chisel:concrete_gray1:14>
+    <chisel:concrete_gray1:15>
+    <chisel:concrete_gray2>
+    <chisel:concrete_pink>
+    <chisel:concrete_pink:1>
+    <chisel:concrete_pink:2>
+    <chisel:concrete_pink:3>
+    <chisel:concrete_pink:4>
+    <chisel:concrete_pink:5>
+    <chisel:concrete_pink:6>
+    <chisel:concrete_pink:7>
+    <chisel:concrete_pink:8>
+    <chisel:concrete_pink:9>
+    <chisel:concrete_pink:10>
+    <chisel:concrete_pink:11>
+    <chisel:concrete_pink:12>
+    <chisel:concrete_pink:13>
+    <chisel:concrete_pink:14>
+    <chisel:concrete_pink:15>
+    <chisel:concrete_pink1>
+    <chisel:concrete_pink1:1>
+    <chisel:concrete_pink1:2>
+    <chisel:concrete_pink1:3>
+    <chisel:concrete_pink1:4>
+    <chisel:concrete_pink1:5>
+    <chisel:concrete_pink1:6>
+    <chisel:concrete_pink1:7>
+    <chisel:concrete_pink1:8>
+    <chisel:concrete_pink1:9>
+    <chisel:concrete_pink1:10>
+    <chisel:concrete_pink1:11>
+    <chisel:concrete_pink1:12>
+    <chisel:concrete_pink1:13>
+    <chisel:concrete_pink1:14>
+    <chisel:concrete_pink1:15>
+    <chisel:concrete_pink2>
+    <chisel:concrete_lime>
+    <chisel:concrete_lime:1>
+    <chisel:concrete_lime:2>
+    <chisel:concrete_lime:3>
+    <chisel:concrete_lime:4>
+    <chisel:concrete_lime:5>
+    <chisel:concrete_lime:6>
+    <chisel:concrete_lime:7>
+    <chisel:concrete_lime:8>
+    <chisel:concrete_lime:9>
+    <chisel:concrete_lime:10>
+    <chisel:concrete_lime:11>
+    <chisel:concrete_lime:12>
+    <chisel:concrete_lime:13>
+    <chisel:concrete_lime:14>
+    <chisel:concrete_lime:15>
+    <chisel:concrete_lime1>
+    <chisel:concrete_lime1:1>
+    <chisel:concrete_lime1:2>
+    <chisel:concrete_lime1:3>
+    <chisel:concrete_lime1:4>
+    <chisel:concrete_lime1:5>
+    <chisel:concrete_lime1:6>
+    <chisel:concrete_lime1:7>
+    <chisel:concrete_lime1:8>
+    <chisel:concrete_lime1:9>
+    <chisel:concrete_lime1:10>
+    <chisel:concrete_lime1:11>
+    <chisel:concrete_lime1:12>
+    <chisel:concrete_lime1:13>
+    <chisel:concrete_lime1:14>
+    <chisel:concrete_lime1:15>
+    <chisel:concrete_lime2>
+    <chisel:concrete_yellow>
+    <chisel:concrete_yellow:1>
+    <chisel:concrete_yellow:2>
+    <chisel:concrete_yellow:3>
+    <chisel:concrete_yellow:4>
+    <chisel:concrete_yellow:5>
+    <chisel:concrete_yellow:6>
+    <chisel:concrete_yellow:7>
+    <chisel:concrete_yellow:8>
+    <chisel:concrete_yellow:9>
+    <chisel:concrete_yellow:10>
+    <chisel:concrete_yellow:11>
+    <chisel:concrete_yellow:12>
+    <chisel:concrete_yellow:13>
+    <chisel:concrete_yellow:14>
+    <chisel:concrete_yellow:15>
+    <chisel:concrete_yellow1>
+    <chisel:concrete_yellow1:1>
+    <chisel:concrete_yellow1:2>
+    <chisel:concrete_yellow1:3>
+    <chisel:concrete_yellow1:4>
+    <chisel:concrete_yellow1:5>
+    <chisel:concrete_yellow1:6>
+    <chisel:concrete_yellow1:7>
+    <chisel:concrete_yellow1:8>
+    <chisel:concrete_yellow1:9>
+    <chisel:concrete_yellow1:10>
+    <chisel:concrete_yellow1:11>
+    <chisel:concrete_yellow1:12>
+    <chisel:concrete_yellow1:13>
+    <chisel:concrete_yellow1:14>
+    <chisel:concrete_yellow1:15>
+    <chisel:concrete_yellow2>
+    <chisel:concrete_lightblue>
+    <chisel:concrete_lightblue:1>
+    <chisel:concrete_lightblue:2>
+    <chisel:concrete_lightblue:3>
+    <chisel:concrete_lightblue:4>
+    <chisel:concrete_lightblue:5>
+    <chisel:concrete_lightblue:6>
+    <chisel:concrete_lightblue:7>
+    <chisel:concrete_lightblue:8>
+    <chisel:concrete_lightblue:9>
+    <chisel:concrete_lightblue:10>
+    <chisel:concrete_lightblue:11>
+    <chisel:concrete_lightblue:12>
+    <chisel:concrete_lightblue:13>
+    <chisel:concrete_lightblue:14>
+    <chisel:concrete_lightblue:15>
+    <chisel:concrete_lightblue1>
+    <chisel:concrete_lightblue1:1>
+    <chisel:concrete_lightblue1:2>
+    <chisel:concrete_lightblue1:3>
+    <chisel:concrete_lightblue1:4>
+    <chisel:concrete_lightblue1:5>
+    <chisel:concrete_lightblue1:6>
+    <chisel:concrete_lightblue1:7>
+    <chisel:concrete_lightblue1:8>
+    <chisel:concrete_lightblue1:9>
+    <chisel:concrete_lightblue1:10>
+    <chisel:concrete_lightblue1:11>
+    <chisel:concrete_lightblue1:12>
+    <chisel:concrete_lightblue1:13>
+    <chisel:concrete_lightblue1:14>
+    <chisel:concrete_lightblue1:15>
+    <chisel:concrete_lightblue2>
+    <chisel:concrete_magenta>
+    <chisel:concrete_magenta:1>
+    <chisel:concrete_magenta:2>
+    <chisel:concrete_magenta:3>
+    <chisel:concrete_magenta:4>
+    <chisel:concrete_magenta:5>
+    <chisel:concrete_magenta:6>
+    <chisel:concrete_magenta:7>
+    <chisel:concrete_magenta:8>
+    <chisel:concrete_magenta:9>
+    <chisel:concrete_magenta:10>
+    <chisel:concrete_magenta:11>
+    <chisel:concrete_magenta:12>
+    <chisel:concrete_magenta:13>
+    <chisel:concrete_magenta:14>
+    <chisel:concrete_magenta:15>
+    <chisel:concrete_magenta1>
+    <chisel:concrete_magenta1:1>
+    <chisel:concrete_magenta1:2>
+    <chisel:concrete_magenta1:3>
+    <chisel:concrete_magenta1:4>
+    <chisel:concrete_magenta1:5>
+    <chisel:concrete_magenta1:6>
+    <chisel:concrete_magenta1:7>
+    <chisel:concrete_magenta1:8>
+    <chisel:concrete_magenta1:9>
+    <chisel:concrete_magenta1:10>
+    <chisel:concrete_magenta1:11>
+    <chisel:concrete_magenta1:12>
+    <chisel:concrete_magenta1:13>
+    <chisel:concrete_magenta1:14>
+    <chisel:concrete_magenta1:15>
+    <chisel:concrete_magenta2>
+    <chisel:concrete_orange>
+    <chisel:concrete_orange:1>
+    <chisel:concrete_orange:2>
+    <chisel:concrete_orange:3>
+    <chisel:concrete_orange:4>
+    <chisel:concrete_orange:5>
+    <chisel:concrete_orange:6>
+    <chisel:concrete_orange:7>
+    <chisel:concrete_orange:8>
+    <chisel:concrete_orange:9>
+    <chisel:concrete_orange:10>
+    <chisel:concrete_orange:11>
+    <chisel:concrete_orange:12>
+    <chisel:concrete_orange:13>
+    <chisel:concrete_orange:14>
+    <chisel:concrete_orange:15>
+    <chisel:concrete_orange1>
+    <chisel:concrete_orange1:1>
+    <chisel:concrete_orange1:2>
+    <chisel:concrete_orange1:3>
+    <chisel:concrete_orange1:4>
+    <chisel:concrete_orange1:5>
+    <chisel:concrete_orange1:6>
+    <chisel:concrete_orange1:7>
+    <chisel:concrete_orange1:8>
+    <chisel:concrete_orange1:9>
+    <chisel:concrete_orange1:10>
+    <chisel:concrete_orange1:11>
+    <chisel:concrete_orange1:12>
+    <chisel:concrete_orange1:13>
+    <chisel:concrete_orange1:14>
+    <chisel:concrete_orange1:15>
+    <chisel:concrete_orange2>
+    <chisel:concrete_white>
+    <chisel:concrete_white:1>
+    <chisel:concrete_white:2>
+    <chisel:concrete_white:3>
+    <chisel:concrete_white:4>
+    <chisel:concrete_white:5>
+    <chisel:concrete_white:6>
+    <chisel:concrete_white:7>
+    <chisel:concrete_white:8>
+    <chisel:concrete_white:9>
+    <chisel:concrete_white:10>
+    <chisel:concrete_white:11>
+    <chisel:concrete_white:12>
+    <chisel:concrete_white:13>
+    <chisel:concrete_white:14>
+    <chisel:concrete_white:15>
+    <chisel:concrete_white1>
+    <chisel:concrete_white1:1>
+    <chisel:concrete_white1:2>
+    <chisel:concrete_white1:3>
+    <chisel:concrete_white1:4>
+    <chisel:concrete_white1:5>
+    <chisel:concrete_white1:6>
+    <chisel:concrete_white1:7>
+    <chisel:concrete_white1:8>
+    <chisel:concrete_white1:9>
+    <chisel:concrete_white1:10>
+    <chisel:concrete_white1:11>
+    <chisel:concrete_white1:12>
+    <chisel:concrete_white1:13>
+    <chisel:concrete_white1:14>
+    <chisel:concrete_white1:15>
+    <chisel:concrete_white2>
+Ore entries for <ore:blockConcreteBlack> :
+    <chisel:concrete_black>
+    <chisel:concrete_black:1>
+    <chisel:concrete_black:2>
+    <chisel:concrete_black:3>
+    <chisel:concrete_black:4>
+    <chisel:concrete_black:5>
+    <chisel:concrete_black:6>
+    <chisel:concrete_black:7>
+    <chisel:concrete_black:8>
+    <chisel:concrete_black:9>
+    <chisel:concrete_black:10>
+    <chisel:concrete_black:11>
+    <chisel:concrete_black:12>
+    <chisel:concrete_black:13>
+    <chisel:concrete_black:14>
+    <chisel:concrete_black:15>
+    <chisel:concrete_black1>
+    <chisel:concrete_black1:1>
+    <chisel:concrete_black1:2>
+    <chisel:concrete_black1:3>
+    <chisel:concrete_black1:4>
+    <chisel:concrete_black1:5>
+    <chisel:concrete_black1:6>
+    <chisel:concrete_black1:7>
+    <chisel:concrete_black1:8>
+    <chisel:concrete_black1:9>
+    <chisel:concrete_black1:10>
+    <chisel:concrete_black1:11>
+    <chisel:concrete_black1:12>
+    <chisel:concrete_black1:13>
+    <chisel:concrete_black1:14>
+    <chisel:concrete_black1:15>
+    <chisel:concrete_black2>
+Ore entries for <ore:blockConcreteRed> :
+    <chisel:concrete_red>
+    <chisel:concrete_red:1>
+    <chisel:concrete_red:2>
+    <chisel:concrete_red:3>
+    <chisel:concrete_red:4>
+    <chisel:concrete_red:5>
+    <chisel:concrete_red:6>
+    <chisel:concrete_red:7>
+    <chisel:concrete_red:8>
+    <chisel:concrete_red:9>
+    <chisel:concrete_red:10>
+    <chisel:concrete_red:11>
+    <chisel:concrete_red:12>
+    <chisel:concrete_red:13>
+    <chisel:concrete_red:14>
+    <chisel:concrete_red:15>
+    <chisel:concrete_red1>
+    <chisel:concrete_red1:1>
+    <chisel:concrete_red1:2>
+    <chisel:concrete_red1:3>
+    <chisel:concrete_red1:4>
+    <chisel:concrete_red1:5>
+    <chisel:concrete_red1:6>
+    <chisel:concrete_red1:7>
+    <chisel:concrete_red1:8>
+    <chisel:concrete_red1:9>
+    <chisel:concrete_red1:10>
+    <chisel:concrete_red1:11>
+    <chisel:concrete_red1:12>
+    <chisel:concrete_red1:13>
+    <chisel:concrete_red1:14>
+    <chisel:concrete_red1:15>
+    <chisel:concrete_red2>
+Ore entries for <ore:blockConcreteGreen> :
+    <chisel:concrete_green>
+    <chisel:concrete_green:1>
+    <chisel:concrete_green:2>
+    <chisel:concrete_green:3>
+    <chisel:concrete_green:4>
+    <chisel:concrete_green:5>
+    <chisel:concrete_green:6>
+    <chisel:concrete_green:7>
+    <chisel:concrete_green:8>
+    <chisel:concrete_green:9>
+    <chisel:concrete_green:10>
+    <chisel:concrete_green:11>
+    <chisel:concrete_green:12>
+    <chisel:concrete_green:13>
+    <chisel:concrete_green:14>
+    <chisel:concrete_green:15>
+    <chisel:concrete_green1>
+    <chisel:concrete_green1:1>
+    <chisel:concrete_green1:2>
+    <chisel:concrete_green1:3>
+    <chisel:concrete_green1:4>
+    <chisel:concrete_green1:5>
+    <chisel:concrete_green1:6>
+    <chisel:concrete_green1:7>
+    <chisel:concrete_green1:8>
+    <chisel:concrete_green1:9>
+    <chisel:concrete_green1:10>
+    <chisel:concrete_green1:11>
+    <chisel:concrete_green1:12>
+    <chisel:concrete_green1:13>
+    <chisel:concrete_green1:14>
+    <chisel:concrete_green1:15>
+    <chisel:concrete_green2>
+Ore entries for <ore:blockConcreteBrown> :
+    <chisel:concrete_brown>
+    <chisel:concrete_brown:1>
+    <chisel:concrete_brown:2>
+    <chisel:concrete_brown:3>
+    <chisel:concrete_brown:4>
+    <chisel:concrete_brown:5>
+    <chisel:concrete_brown:6>
+    <chisel:concrete_brown:7>
+    <chisel:concrete_brown:8>
+    <chisel:concrete_brown:9>
+    <chisel:concrete_brown:10>
+    <chisel:concrete_brown:11>
+    <chisel:concrete_brown:12>
+    <chisel:concrete_brown:13>
+    <chisel:concrete_brown:14>
+    <chisel:concrete_brown:15>
+    <chisel:concrete_brown1>
+    <chisel:concrete_brown1:1>
+    <chisel:concrete_brown1:2>
+    <chisel:concrete_brown1:3>
+    <chisel:concrete_brown1:4>
+    <chisel:concrete_brown1:5>
+    <chisel:concrete_brown1:6>
+    <chisel:concrete_brown1:7>
+    <chisel:concrete_brown1:8>
+    <chisel:concrete_brown1:9>
+    <chisel:concrete_brown1:10>
+    <chisel:concrete_brown1:11>
+    <chisel:concrete_brown1:12>
+    <chisel:concrete_brown1:13>
+    <chisel:concrete_brown1:14>
+    <chisel:concrete_brown1:15>
+    <chisel:concrete_brown2>
+Ore entries for <ore:blockConcreteBlue> :
+    <chisel:concrete_blue>
+    <chisel:concrete_blue:1>
+    <chisel:concrete_blue:2>
+    <chisel:concrete_blue:3>
+    <chisel:concrete_blue:4>
+    <chisel:concrete_blue:5>
+    <chisel:concrete_blue:6>
+    <chisel:concrete_blue:7>
+    <chisel:concrete_blue:8>
+    <chisel:concrete_blue:9>
+    <chisel:concrete_blue:10>
+    <chisel:concrete_blue:11>
+    <chisel:concrete_blue:12>
+    <chisel:concrete_blue:13>
+    <chisel:concrete_blue:14>
+    <chisel:concrete_blue:15>
+    <chisel:concrete_blue1>
+    <chisel:concrete_blue1:1>
+    <chisel:concrete_blue1:2>
+    <chisel:concrete_blue1:3>
+    <chisel:concrete_blue1:4>
+    <chisel:concrete_blue1:5>
+    <chisel:concrete_blue1:6>
+    <chisel:concrete_blue1:7>
+    <chisel:concrete_blue1:8>
+    <chisel:concrete_blue1:9>
+    <chisel:concrete_blue1:10>
+    <chisel:concrete_blue1:11>
+    <chisel:concrete_blue1:12>
+    <chisel:concrete_blue1:13>
+    <chisel:concrete_blue1:14>
+    <chisel:concrete_blue1:15>
+    <chisel:concrete_blue2>
+Ore entries for <ore:blockConcretePurple> :
+    <chisel:concrete_purple>
+    <chisel:concrete_purple:1>
+    <chisel:concrete_purple:2>
+    <chisel:concrete_purple:3>
+    <chisel:concrete_purple:4>
+    <chisel:concrete_purple:5>
+    <chisel:concrete_purple:6>
+    <chisel:concrete_purple:7>
+    <chisel:concrete_purple:8>
+    <chisel:concrete_purple:9>
+    <chisel:concrete_purple:10>
+    <chisel:concrete_purple:11>
+    <chisel:concrete_purple:12>
+    <chisel:concrete_purple:13>
+    <chisel:concrete_purple:14>
+    <chisel:concrete_purple:15>
+    <chisel:concrete_purple1>
+    <chisel:concrete_purple1:1>
+    <chisel:concrete_purple1:2>
+    <chisel:concrete_purple1:3>
+    <chisel:concrete_purple1:4>
+    <chisel:concrete_purple1:5>
+    <chisel:concrete_purple1:6>
+    <chisel:concrete_purple1:7>
+    <chisel:concrete_purple1:8>
+    <chisel:concrete_purple1:9>
+    <chisel:concrete_purple1:10>
+    <chisel:concrete_purple1:11>
+    <chisel:concrete_purple1:12>
+    <chisel:concrete_purple1:13>
+    <chisel:concrete_purple1:14>
+    <chisel:concrete_purple1:15>
+    <chisel:concrete_purple2>
+Ore entries for <ore:blockConcreteCyan> :
+    <chisel:concrete_cyan>
+    <chisel:concrete_cyan:1>
+    <chisel:concrete_cyan:2>
+    <chisel:concrete_cyan:3>
+    <chisel:concrete_cyan:4>
+    <chisel:concrete_cyan:5>
+    <chisel:concrete_cyan:6>
+    <chisel:concrete_cyan:7>
+    <chisel:concrete_cyan:8>
+    <chisel:concrete_cyan:9>
+    <chisel:concrete_cyan:10>
+    <chisel:concrete_cyan:11>
+    <chisel:concrete_cyan:12>
+    <chisel:concrete_cyan:13>
+    <chisel:concrete_cyan:14>
+    <chisel:concrete_cyan:15>
+    <chisel:concrete_cyan1>
+    <chisel:concrete_cyan1:1>
+    <chisel:concrete_cyan1:2>
+    <chisel:concrete_cyan1:3>
+    <chisel:concrete_cyan1:4>
+    <chisel:concrete_cyan1:5>
+    <chisel:concrete_cyan1:6>
+    <chisel:concrete_cyan1:7>
+    <chisel:concrete_cyan1:8>
+    <chisel:concrete_cyan1:9>
+    <chisel:concrete_cyan1:10>
+    <chisel:concrete_cyan1:11>
+    <chisel:concrete_cyan1:12>
+    <chisel:concrete_cyan1:13>
+    <chisel:concrete_cyan1:14>
+    <chisel:concrete_cyan1:15>
+    <chisel:concrete_cyan2>
+Ore entries for <ore:blockConcreteLightGray> :
+    <chisel:concrete_lightgray>
+    <chisel:concrete_lightgray:1>
+    <chisel:concrete_lightgray:2>
+    <chisel:concrete_lightgray:3>
+    <chisel:concrete_lightgray:4>
+    <chisel:concrete_lightgray:5>
+    <chisel:concrete_lightgray:6>
+    <chisel:concrete_lightgray:7>
+    <chisel:concrete_lightgray:8>
+    <chisel:concrete_lightgray:9>
+    <chisel:concrete_lightgray:10>
+    <chisel:concrete_lightgray:11>
+    <chisel:concrete_lightgray:12>
+    <chisel:concrete_lightgray:13>
+    <chisel:concrete_lightgray:14>
+    <chisel:concrete_lightgray:15>
+    <chisel:concrete_lightgray1>
+    <chisel:concrete_lightgray1:1>
+    <chisel:concrete_lightgray1:2>
+    <chisel:concrete_lightgray1:3>
+    <chisel:concrete_lightgray1:4>
+    <chisel:concrete_lightgray1:5>
+    <chisel:concrete_lightgray1:6>
+    <chisel:concrete_lightgray1:7>
+    <chisel:concrete_lightgray1:8>
+    <chisel:concrete_lightgray1:9>
+    <chisel:concrete_lightgray1:10>
+    <chisel:concrete_lightgray1:11>
+    <chisel:concrete_lightgray1:12>
+    <chisel:concrete_lightgray1:13>
+    <chisel:concrete_lightgray1:14>
+    <chisel:concrete_lightgray1:15>
+    <chisel:concrete_lightgray2>
+Ore entries for <ore:blockConcreteGray> :
+    <chisel:concrete_gray>
+    <chisel:concrete_gray:1>
+    <chisel:concrete_gray:2>
+    <chisel:concrete_gray:3>
+    <chisel:concrete_gray:4>
+    <chisel:concrete_gray:5>
+    <chisel:concrete_gray:6>
+    <chisel:concrete_gray:7>
+    <chisel:concrete_gray:8>
+    <chisel:concrete_gray:9>
+    <chisel:concrete_gray:10>
+    <chisel:concrete_gray:11>
+    <chisel:concrete_gray:12>
+    <chisel:concrete_gray:13>
+    <chisel:concrete_gray:14>
+    <chisel:concrete_gray:15>
+    <chisel:concrete_gray1>
+    <chisel:concrete_gray1:1>
+    <chisel:concrete_gray1:2>
+    <chisel:concrete_gray1:3>
+    <chisel:concrete_gray1:4>
+    <chisel:concrete_gray1:5>
+    <chisel:concrete_gray1:6>
+    <chisel:concrete_gray1:7>
+    <chisel:concrete_gray1:8>
+    <chisel:concrete_gray1:9>
+    <chisel:concrete_gray1:10>
+    <chisel:concrete_gray1:11>
+    <chisel:concrete_gray1:12>
+    <chisel:concrete_gray1:13>
+    <chisel:concrete_gray1:14>
+    <chisel:concrete_gray1:15>
+    <chisel:concrete_gray2>
+Ore entries for <ore:blockConcretePink> :
+    <chisel:concrete_pink>
+    <chisel:concrete_pink:1>
+    <chisel:concrete_pink:2>
+    <chisel:concrete_pink:3>
+    <chisel:concrete_pink:4>
+    <chisel:concrete_pink:5>
+    <chisel:concrete_pink:6>
+    <chisel:concrete_pink:7>
+    <chisel:concrete_pink:8>
+    <chisel:concrete_pink:9>
+    <chisel:concrete_pink:10>
+    <chisel:concrete_pink:11>
+    <chisel:concrete_pink:12>
+    <chisel:concrete_pink:13>
+    <chisel:concrete_pink:14>
+    <chisel:concrete_pink:15>
+    <chisel:concrete_pink1>
+    <chisel:concrete_pink1:1>
+    <chisel:concrete_pink1:2>
+    <chisel:concrete_pink1:3>
+    <chisel:concrete_pink1:4>
+    <chisel:concrete_pink1:5>
+    <chisel:concrete_pink1:6>
+    <chisel:concrete_pink1:7>
+    <chisel:concrete_pink1:8>
+    <chisel:concrete_pink1:9>
+    <chisel:concrete_pink1:10>
+    <chisel:concrete_pink1:11>
+    <chisel:concrete_pink1:12>
+    <chisel:concrete_pink1:13>
+    <chisel:concrete_pink1:14>
+    <chisel:concrete_pink1:15>
+    <chisel:concrete_pink2>
+Ore entries for <ore:blockConcreteLime> :
+    <chisel:concrete_lime>
+    <chisel:concrete_lime:1>
+    <chisel:concrete_lime:2>
+    <chisel:concrete_lime:3>
+    <chisel:concrete_lime:4>
+    <chisel:concrete_lime:5>
+    <chisel:concrete_lime:6>
+    <chisel:concrete_lime:7>
+    <chisel:concrete_lime:8>
+    <chisel:concrete_lime:9>
+    <chisel:concrete_lime:10>
+    <chisel:concrete_lime:11>
+    <chisel:concrete_lime:12>
+    <chisel:concrete_lime:13>
+    <chisel:concrete_lime:14>
+    <chisel:concrete_lime:15>
+    <chisel:concrete_lime1>
+    <chisel:concrete_lime1:1>
+    <chisel:concrete_lime1:2>
+    <chisel:concrete_lime1:3>
+    <chisel:concrete_lime1:4>
+    <chisel:concrete_lime1:5>
+    <chisel:concrete_lime1:6>
+    <chisel:concrete_lime1:7>
+    <chisel:concrete_lime1:8>
+    <chisel:concrete_lime1:9>
+    <chisel:concrete_lime1:10>
+    <chisel:concrete_lime1:11>
+    <chisel:concrete_lime1:12>
+    <chisel:concrete_lime1:13>
+    <chisel:concrete_lime1:14>
+    <chisel:concrete_lime1:15>
+    <chisel:concrete_lime2>
+Ore entries for <ore:blockConcreteYellow> :
+    <chisel:concrete_yellow>
+    <chisel:concrete_yellow:1>
+    <chisel:concrete_yellow:2>
+    <chisel:concrete_yellow:3>
+    <chisel:concrete_yellow:4>
+    <chisel:concrete_yellow:5>
+    <chisel:concrete_yellow:6>
+    <chisel:concrete_yellow:7>
+    <chisel:concrete_yellow:8>
+    <chisel:concrete_yellow:9>
+    <chisel:concrete_yellow:10>
+    <chisel:concrete_yellow:11>
+    <chisel:concrete_yellow:12>
+    <chisel:concrete_yellow:13>
+    <chisel:concrete_yellow:14>
+    <chisel:concrete_yellow:15>
+    <chisel:concrete_yellow1>
+    <chisel:concrete_yellow1:1>
+    <chisel:concrete_yellow1:2>
+    <chisel:concrete_yellow1:3>
+    <chisel:concrete_yellow1:4>
+    <chisel:concrete_yellow1:5>
+    <chisel:concrete_yellow1:6>
+    <chisel:concrete_yellow1:7>
+    <chisel:concrete_yellow1:8>
+    <chisel:concrete_yellow1:9>
+    <chisel:concrete_yellow1:10>
+    <chisel:concrete_yellow1:11>
+    <chisel:concrete_yellow1:12>
+    <chisel:concrete_yellow1:13>
+    <chisel:concrete_yellow1:14>
+    <chisel:concrete_yellow1:15>
+    <chisel:concrete_yellow2>
+Ore entries for <ore:blockConcreteLightBlue> :
+    <chisel:concrete_lightblue>
+    <chisel:concrete_lightblue:1>
+    <chisel:concrete_lightblue:2>
+    <chisel:concrete_lightblue:3>
+    <chisel:concrete_lightblue:4>
+    <chisel:concrete_lightblue:5>
+    <chisel:concrete_lightblue:6>
+    <chisel:concrete_lightblue:7>
+    <chisel:concrete_lightblue:8>
+    <chisel:concrete_lightblue:9>
+    <chisel:concrete_lightblue:10>
+    <chisel:concrete_lightblue:11>
+    <chisel:concrete_lightblue:12>
+    <chisel:concrete_lightblue:13>
+    <chisel:concrete_lightblue:14>
+    <chisel:concrete_lightblue:15>
+    <chisel:concrete_lightblue1>
+    <chisel:concrete_lightblue1:1>
+    <chisel:concrete_lightblue1:2>
+    <chisel:concrete_lightblue1:3>
+    <chisel:concrete_lightblue1:4>
+    <chisel:concrete_lightblue1:5>
+    <chisel:concrete_lightblue1:6>
+    <chisel:concrete_lightblue1:7>
+    <chisel:concrete_lightblue1:8>
+    <chisel:concrete_lightblue1:9>
+    <chisel:concrete_lightblue1:10>
+    <chisel:concrete_lightblue1:11>
+    <chisel:concrete_lightblue1:12>
+    <chisel:concrete_lightblue1:13>
+    <chisel:concrete_lightblue1:14>
+    <chisel:concrete_lightblue1:15>
+    <chisel:concrete_lightblue2>
+Ore entries for <ore:blockConcreteMagenta> :
+    <chisel:concrete_magenta>
+    <chisel:concrete_magenta:1>
+    <chisel:concrete_magenta:2>
+    <chisel:concrete_magenta:3>
+    <chisel:concrete_magenta:4>
+    <chisel:concrete_magenta:5>
+    <chisel:concrete_magenta:6>
+    <chisel:concrete_magenta:7>
+    <chisel:concrete_magenta:8>
+    <chisel:concrete_magenta:9>
+    <chisel:concrete_magenta:10>
+    <chisel:concrete_magenta:11>
+    <chisel:concrete_magenta:12>
+    <chisel:concrete_magenta:13>
+    <chisel:concrete_magenta:14>
+    <chisel:concrete_magenta:15>
+    <chisel:concrete_magenta1>
+    <chisel:concrete_magenta1:1>
+    <chisel:concrete_magenta1:2>
+    <chisel:concrete_magenta1:3>
+    <chisel:concrete_magenta1:4>
+    <chisel:concrete_magenta1:5>
+    <chisel:concrete_magenta1:6>
+    <chisel:concrete_magenta1:7>
+    <chisel:concrete_magenta1:8>
+    <chisel:concrete_magenta1:9>
+    <chisel:concrete_magenta1:10>
+    <chisel:concrete_magenta1:11>
+    <chisel:concrete_magenta1:12>
+    <chisel:concrete_magenta1:13>
+    <chisel:concrete_magenta1:14>
+    <chisel:concrete_magenta1:15>
+    <chisel:concrete_magenta2>
+Ore entries for <ore:blockConcreteOrange> :
+    <chisel:concrete_orange>
+    <chisel:concrete_orange:1>
+    <chisel:concrete_orange:2>
+    <chisel:concrete_orange:3>
+    <chisel:concrete_orange:4>
+    <chisel:concrete_orange:5>
+    <chisel:concrete_orange:6>
+    <chisel:concrete_orange:7>
+    <chisel:concrete_orange:8>
+    <chisel:concrete_orange:9>
+    <chisel:concrete_orange:10>
+    <chisel:concrete_orange:11>
+    <chisel:concrete_orange:12>
+    <chisel:concrete_orange:13>
+    <chisel:concrete_orange:14>
+    <chisel:concrete_orange:15>
+    <chisel:concrete_orange1>
+    <chisel:concrete_orange1:1>
+    <chisel:concrete_orange1:2>
+    <chisel:concrete_orange1:3>
+    <chisel:concrete_orange1:4>
+    <chisel:concrete_orange1:5>
+    <chisel:concrete_orange1:6>
+    <chisel:concrete_orange1:7>
+    <chisel:concrete_orange1:8>
+    <chisel:concrete_orange1:9>
+    <chisel:concrete_orange1:10>
+    <chisel:concrete_orange1:11>
+    <chisel:concrete_orange1:12>
+    <chisel:concrete_orange1:13>
+    <chisel:concrete_orange1:14>
+    <chisel:concrete_orange1:15>
+    <chisel:concrete_orange2>
+Ore entries for <ore:blockConcreteWhite> :
+    <chisel:concrete_white>
+    <chisel:concrete_white:1>
+    <chisel:concrete_white:2>
+    <chisel:concrete_white:3>
+    <chisel:concrete_white:4>
+    <chisel:concrete_white:5>
+    <chisel:concrete_white:6>
+    <chisel:concrete_white:7>
+    <chisel:concrete_white:8>
+    <chisel:concrete_white:9>
+    <chisel:concrete_white:10>
+    <chisel:concrete_white:11>
+    <chisel:concrete_white:12>
+    <chisel:concrete_white:13>
+    <chisel:concrete_white:14>
+    <chisel:concrete_white:15>
+    <chisel:concrete_white1>
+    <chisel:concrete_white1:1>
+    <chisel:concrete_white1:2>
+    <chisel:concrete_white1:3>
+    <chisel:concrete_white1:4>
+    <chisel:concrete_white1:5>
+    <chisel:concrete_white1:6>
+    <chisel:concrete_white1:7>
+    <chisel:concrete_white1:8>
+    <chisel:concrete_white1:9>
+    <chisel:concrete_white1:10>
+    <chisel:concrete_white1:11>
+    <chisel:concrete_white1:12>
+    <chisel:concrete_white1:13>
+    <chisel:concrete_white1:14>
+    <chisel:concrete_white1:15>
+    <chisel:concrete_white2>
 Ore entries for <ore:blockIce> :
     <chisel:icepillar>
     <chisel:icepillar:1>
@@ -4370,6 +5719,7 @@ Ore entries for <ore:prismarine> :
     <chisel:prismarine1:6>
     <chisel:prismarine1:7>
     <chisel:prismarine1:8>
+    <chisel:prismarine1:9>
     <chisel:prismarineextra>
     <chisel:prismarineextra:1>
     <chisel:prismarineextra:2>
@@ -4403,6 +5753,7 @@ Ore entries for <ore:prismarineBrick> :
     <chisel:prismarine1:6>
     <chisel:prismarine1:7>
     <chisel:prismarine1:8>
+    <chisel:prismarine1:9>
     <chisel:prismarineextra>
     <chisel:prismarineextra:1>
     <chisel:prismarineextra:2>
@@ -4435,6 +5786,7 @@ Ore entries for <ore:prismarineDark> :
     <chisel:prismarine1:6>
     <chisel:prismarine1:7>
     <chisel:prismarine1:8>
+    <chisel:prismarine1:9>
     <chisel:prismarineextra>
     <chisel:prismarineextra:1>
     <chisel:prismarineextra:2>
@@ -4467,6 +5819,7 @@ Ore entries for <ore:brickStone> :
     <chisel:stonebrick1:6>
     <chisel:stonebrick1:7>
     <chisel:stonebrick1:8>
+    <chisel:stonebrick1:9>
     <chisel:stonebrickextra>
     <chisel:stonebrickextra:1>
     <chisel:stonebrickextra:2>
@@ -4479,10 +5832,6 @@ Ore entries for <ore:gemApatite> :
     <forestry:apatite>
 Ore entries for <ore:brickPeat> :
     <forestry:peat>
-Ore entries for <ore:dustAsh> :
-    <forestry:ash>
-    <primal:ash:*>
-    <biomesoplenty:ash>
 Ore entries for <ore:pulpWood> :
     <forestry:woodPulp>
 Ore entries for <ore:itemBeeswax> :
@@ -4512,10 +5861,19 @@ Ore entries for <ore:oreApatite> :
     <forestry:resources>
 Ore entries for <ore:blockApatite> :
     <forestry:resourceStorage>
-Ore entries for <ore:emptiedLetter> :
-    <forestry:letters:3>
-    <forestry:letters:19>
-    <forestry:letters:35>
+Ore entries for <ore:dropHoney> :
+    <forestry:honeyDrop>
+    <harvestcraft:honeyItem>
+    <gendustry:HoneyDrop:*>
+Ore entries for <ore:itemPollen> :
+    <forestry:pollen>
+Ore entries for <ore:dropHoneydew> :
+    <forestry:honeydew>
+Ore entries for <ore:dropRoyalJelly> :
+    <forestry:royalJelly>
+Ore entries for <ore:beeComb> :
+    <forestry:beeCombs:*>
+    <gendustry:HoneyComb:*>
 Ore entries for <ore:doorWood> :
     <forestry:doors.larch:*>
     <forestry:doors.teak:*>
@@ -4546,19 +5904,38 @@ Ore entries for <ore:doorWood> :
     <forestry:doors.padauk:*>
     <forestry:doors.cocobolo:*>
     <forestry:doors.zebrawood:*>
-Ore entries for <ore:dropHoney> :
-    <forestry:honeyDrop>
-    <harvestcraft:honeyItem>
-    <gendustry:HoneyDrop:*>
-Ore entries for <ore:itemPollen> :
-    <forestry:pollen>
-Ore entries for <ore:dropHoneydew> :
-    <forestry:honeydew>
-Ore entries for <ore:dropRoyalJelly> :
-    <forestry:royalJelly>
-Ore entries for <ore:beeComb> :
-    <forestry:beeCombs:*>
-    <gendustry:HoneyComb:*>
+    <minecraft:acacia_door>
+    <minecraft:spruce_door>
+    <minecraft:wooden_door>
+    <minecraft:birch_door>
+    <minecraft:jungle_door>
+    <minecraft:dark_oak_door>
+    <biomesoplenty:sacred_oak_door>
+    <biomesoplenty:cherry_door>
+    <biomesoplenty:umbran_door>
+    <biomesoplenty:fir_door>
+    <biomesoplenty:ethereal_door>
+    <biomesoplenty:magic_door>
+    <biomesoplenty:mangrove_door>
+    <biomesoplenty:palm_door>
+    <biomesoplenty:redwood_door>
+    <biomesoplenty:willow_door>
+    <biomesoplenty:pine_door>
+    <biomesoplenty:hellbark_door>
+    <biomesoplenty:jacaranda_door>
+    <biomesoplenty:mahogany_door>
+    <biomesoplenty:ebony_door>
+    <biomesoplenty:eucalyptus_door>
+    <natura:overworld_doors:*>
+    <natura:nether_doors:*>
+    <thebetweenlands:weedwood_door_item>
+    <thebetweenlands:rubber_tree_plank_door_item>
+    <thebetweenlands:weedwood_door>
+    <thebetweenlands:rubber_tree_plank_door>
+Ore entries for <ore:emptiedLetter> :
+    <forestry:letters:3>
+    <forestry:letters:19>
+    <forestry:letters:35>
 Ore entries for <ore:oreResonating> :
     <deepresonance:resonating_ore>
 Ore entries for <ore:slabWoodOak> :
@@ -4874,10 +6251,6 @@ Ore entries for <ore:bricksStone> :
     <minecraft:stonebrick:1>
     <minecraft:stonebrick:2>
     <minecraft:stonebrick:3>
-Ore entries for <ore:slimeballBlood> :
-    <tconstruct:edible:3>
-Ore entries for <ore:slimeballPurple> :
-    <tconstruct:edible:2>
 Ore entries for <ore:fish> :
     <minecraft:fish:*>
 Ore entries for <ore:listAllmeatcooked> :
@@ -4917,11 +6290,16 @@ Ore entries for <ore:listAllmeatcooked> :
     <animania:cooked_old_spot_roast>
     <animania:cooked_orpington_chicken>
     <animania:cooked_plymouth_rock_chicken>
+    <animania:cooked_rhode_island_red_chicken>
     <animania:cooked_wyandotte_chicken>
 Ore entries for <ore:slimeballGreen> :
     <minecraft:slime_ball:*>
 Ore entries for <ore:slimeballBlue> :
     <tconstruct:edible:1>
+Ore entries for <ore:slimeballPurple> :
+    <tconstruct:edible:2>
+Ore entries for <ore:slimeballBlood> :
+    <tconstruct:edible:3>
 Ore entries for <ore:slimeballMagma> :
     <tconstruct:edible:4>
 Ore entries for <ore:nuggetManyullyn> :
@@ -5004,26 +6382,50 @@ Ore entries for <ore:slabElectrum> :
     <immersiveengineering:storageSlab:7>
 Ore entries for <ore:slabSteel> :
     <immersiveengineering:storageSlab:8>
+Ore entries for <ore:blockSheetmetalCopper> :
+    <immersiveengineering:sheetmetal>
 Ore entries for <ore:blockSheetmetalAluminum> :
     <immersiveengineering:sheetmetal:1>
 Ore entries for <ore:blockSheetmetalLead> :
     <immersiveengineering:sheetmetal:2>
+Ore entries for <ore:blockSheetmetalSilver> :
+    <immersiveengineering:sheetmetal:3>
+Ore entries for <ore:blockSheetmetalNickel> :
+    <immersiveengineering:sheetmetal:4>
+Ore entries for <ore:blockSheetmetalUranium> :
+    <immersiveengineering:sheetmetal:5>
 Ore entries for <ore:blockSheetmetalConstantan> :
     <immersiveengineering:sheetmetal:6>
+Ore entries for <ore:blockSheetmetalElectrum> :
+    <immersiveengineering:sheetmetal:7>
 Ore entries for <ore:blockSheetmetalSteel> :
     <immersiveengineering:sheetmetal:8>
 Ore entries for <ore:blockSheetmetalIron> :
     <immersiveengineering:sheetmetal:9>
+Ore entries for <ore:blockSheetmetalGold> :
+    <immersiveengineering:sheetmetal:10>
+Ore entries for <ore:slabSheetmetalCopper> :
+    <immersiveengineering:sheetmetalSlab>
 Ore entries for <ore:slabSheetmetalAluminum> :
     <immersiveengineering:sheetmetalSlab:1>
 Ore entries for <ore:slabSheetmetalLead> :
     <immersiveengineering:sheetmetalSlab:2>
+Ore entries for <ore:slabSheetmetalSilver> :
+    <immersiveengineering:sheetmetalSlab:3>
+Ore entries for <ore:slabSheetmetalNickel> :
+    <immersiveengineering:sheetmetalSlab:4>
+Ore entries for <ore:slabSheetmetalUranium> :
+    <immersiveengineering:sheetmetalSlab:5>
 Ore entries for <ore:slabSheetmetalConstantan> :
     <immersiveengineering:sheetmetalSlab:6>
+Ore entries for <ore:slabSheetmetalElectrum> :
+    <immersiveengineering:sheetmetalSlab:7>
 Ore entries for <ore:slabSheetmetalSteel> :
     <immersiveengineering:sheetmetalSlab:8>
 Ore entries for <ore:slabSheetmetalIron> :
     <immersiveengineering:sheetmetalSlab:9>
+Ore entries for <ore:slabSheetmetalGold> :
+    <immersiveengineering:sheetmetalSlab:10>
 Ore entries for <ore:stickTreatedWood> :
     <immersiveengineering:material>
 Ore entries for <ore:stickAluminum> :
@@ -5032,8 +6434,6 @@ Ore entries for <ore:fiberHemp> :
     <immersiveengineering:material:4>
 Ore entries for <ore:fabricHemp> :
     <immersiveengineering:material:5>
-Ore entries for <ore:fuelCoke> :
-    <immersiveengineering:material:6>
 Ore entries for <ore:itemSlag> :
     <immersiveengineering:material:7>
 Ore entries for <ore:dustCoke> :
@@ -5058,8 +6458,6 @@ Ore entries for <ore:fenceTreatedWood> :
     <immersiveengineering:woodenDecoration>
 Ore entries for <ore:scaffoldingTreatedWood> :
     <immersiveengineering:woodenDecoration:1>
-Ore entries for <ore:blockFuelCoke> :
-    <immersiveengineering:stoneDecoration:3>
 Ore entries for <ore:fenceSteel> :
     <immersiveengineering:metalDecoration1>
 Ore entries for <ore:fenceAluminum> :
@@ -5074,6 +6472,9 @@ Ore entries for <ore:scaffoldingAluminum> :
     <immersiveengineering:metalDecoration1:7>
 Ore entries for <ore:blockPackedIce> :
     <minecraft:packed_ice>
+Ore entries for <ore:crystalSlag> :
+    <immersiveengineering:material:7>
+    <thermalfoundation:material:864>
 Ore entries for <ore:dustOsmium> :
     <rockhounding_chemistry:chemicalDusts:47>
 Ore entries for <ore:nuggetDiamond> :
@@ -5087,17 +6488,21 @@ Ore entries for <ore:bowlWood> :
     <natura:empty_bowls>
     <natura:empty_bowls:2>
     <natura:empty_bowls:3>
-Ore entries for <ore:foodFlour> :
-    <natura:materials:1>
-    <natura:materials:2>
-    <harvestcraft:flourItem>
-    <rockhounding_surface:gypsumItems:5>
 Ore entries for <ore:cropBarley> :
     <natura:materials>
     <harvestcraft:barleyItem>
 Ore entries for <ore:cropCotton> :
     <natura:materials:3>
     <harvestcraft:cottonItem>
+Ore entries for <ore:foodFlour> :
+    <natura:materials:1>
+    <natura:materials:2>
+    <harvestcraft:flourItem>
+    <rockhounding_surface:gypsumItems:5>
+Ore entries for <ore:listAllGrain> :
+    <natura:materials>
+Ore entries for <ore:foodEqualswheat> :
+    <natura:materials:2>
 Ore entries for <ore:dustSulphur> :
     <natura:materials:4>
 Ore entries for <ore:cropRaspberry> :
@@ -5131,10 +6536,11 @@ Ore entries for <ore:glassSoul> :
     <natura:nether_glass>
 Ore entries for <ore:glass> :
     <natura:nether_glass:*>
-Ore entries for <ore:listAllGrain> :
-    <natura:materials>
-Ore entries for <ore:foodEqualswheat> :
-    <natura:materials:2>
+Ore entries for <ore:cropVine> :
+    <natura:nether_thorn_vines>
+Ore entries for <ore:crafterWood> :
+    <natura:overworld_workbenches:*>
+    <natura:nether_workbenches:*>
 Ore entries for <ore:dyeRainbow> :
     <botanicaladdons:irisDye:16>
     <botanicaladdons:irisDyeAwakened:16>
@@ -5386,11 +6792,13 @@ Ore entries for <ore:listAllmeatraw> :
     <animania:raw_orpington_chicken>
     <animania:raw_plymouth_rock_chicken>
     <animania:raw_wyandotte_chicken>
+    <animania:raw_rhode_island_red_chicken>
 Ore entries for <ore:listAllchickenraw> :
     <harvestcraft:rawtofickenItem>
     <minecraft:chicken>
     <animania:raw_orpington_chicken>
     <animania:raw_plymouth_rock_chicken>
+    <animania:raw_rhode_island_red_chicken>
     <animania:raw_wyandotte_chicken>
 Ore entries for <ore:listAllegg> :
     <harvestcraft:rawtofeegItem>
@@ -5400,6 +6808,7 @@ Ore entries for <ore:listAllchickencooked> :
     <harvestcraft:cookedtofickenItem>
     <minecraft:cooked_chicken>
     <animania:cooked_orpington_chicken>
+    <animania:cooked_rhode_island_red_chicken>
     <animania:cooked_plymouth_rock_chicken>
     <animania:cooked_wyandotte_chicken>
 Ore entries for <ore:listAllporkraw> :
@@ -5499,8 +6908,6 @@ Ore entries for <ore:listAllmilk> :
     <harvestcraft:soymilkItem>
     <minecraft:milk_bucket>
     <harvestcraft:freshmilkItem>
-    <animania:friesian_bucket_milk>
-    <animania:holstein_bucket_milk>
 Ore entries for <ore:listAllwater> :
     <minecraft:water_bucket>
     <harvestcraft:freshwaterItem>
@@ -5509,6 +6916,9 @@ Ore entries for <ore:flourEqualswheat> :
     <harvestcraft:flourItem>
 Ore entries for <ore:bread> :
     <minecraft:bread>
+    <primal:corn_bread>
+    <primal:valus_bread>
+    <actuallyadditions:itemFood:17>
 Ore entries for <ore:cropPumpkin> :
     <minecraft:pumpkin>
 Ore entries for <ore:listAllgrain> :
@@ -7176,8 +8586,6 @@ Ore entries for <ore:dustCharcoal> :
     <thermalfoundation:material:769>
 Ore entries for <ore:dustWood> :
     <thermalfoundation:material:800>
-Ore entries for <ore:crystalSlag> :
-    <thermalfoundation:material:864>
 Ore entries for <ore:crystalSlagRich> :
     <thermalfoundation:material:865>
 Ore entries for <ore:crystalCinnabar> :
@@ -7204,12 +8612,14 @@ Ore entries for <ore:rodBasalz> :
     <thermalfoundation:material:2052>
 Ore entries for <ore:dustBasalz> :
     <thermalfoundation:material:2053>
-Ore entries for <ore:ingotAlumite> :
-    <plustic:alumiteingot>
 Ore entries for <ore:nuggetAlumite> :
     <plustic:alumitenugget>
+Ore entries for <ore:ingotAlumite> :
+    <plustic:alumiteingot>
 Ore entries for <ore:blockAlumite> :
     <plustic:alumiteblock>
+Ore entries for <ore:gemQuartzBlack> :
+    <actuallyadditions:itemMisc:5>
 Ore entries for <ore:blockAsh> :
     <primal:ash_block:*>
     <primal:ash_stabilized:*>
@@ -7240,6 +8650,7 @@ Ore entries for <ore:blockLimestone> :
     <chisel:limestone:*>
     <chisel:limestone1:*>
     <biomesoplenty:stone>
+    <thebetweenlands:limestone>
 Ore entries for <ore:plankNether> :
     <primal:netherpalm_plank:*>
 Ore entries for <ore:plankLacquer> :
@@ -7389,6 +8800,8 @@ Ore entries for <ore:rockSarsen> :
 Ore entries for <ore:rockVitrified> :
     <primal:rock_vitrified:*>
 Ore entries for <ore:peltLarge> :
+    <primal:pelt_bear_black:*>
+    <primal:pelt_bear_brown:*>
     <primal:pelt_bear_polar:*>
     <primal:pelt_cow:*>
 Ore entries for <ore:pelt> :
@@ -7457,6 +8870,10 @@ Ore entries for <ore:barkSpruce> :
     <primal:bark_spruce:*>
 Ore entries for <ore:stickLacquer> :
     <primal:lacquer_stick:*>
+Ore entries for <ore:chunkNetherrack> :
+    <primal:chunk_netherrack:*>
+Ore entries for <ore:chunkSoulsand> :
+    <primal:chunk_soulsand:*>
 Ore entries for <ore:dustTannin> :
     <primal:tannin_ground:*>
 Ore entries for <ore:bottleTannin> :
@@ -7568,9 +8985,11 @@ Ore entries for <ore:stickNether> :
 Ore entries for <ore:pinNether> :
     <primal:netherpalm_pin:*>
 Ore entries for <ore:foodFat> :
+    <primal:bear_fat:*>
     <primal:lard:*>
     <primal:suet:*>
 Ore entries for <ore:foodBait> :
+    <primal:bear_fat:*>
     <primal:lard:*>
     <primal:suet:*>
     <primal:chum:*>
@@ -7592,10 +9011,14 @@ Ore entries for <ore:ingredientChumLarge> :
     <primal:wolf_meat_rotten:*>
     <primal:ovis_meat_rotten:*>
     <primal:pigman_meat_rotten:*>
+    <primal:bear_meat_rotten:*>
+    <primal:llama_meat_rotten:*>
     <primal:horse_meat_raw:*>
     <primal:wolf_meat_raw:*>
     <primal:ovis_meat_raw:*>
     <primal:pigman_meat_raw:*>
+    <primal:bear_meat_raw:*>
+    <primal:llama_meat_raw:*>
     <minecraft:rotten_flesh>
     <minecraft:rabbit>
     <minecraft:chicken>
@@ -7608,6 +9031,10 @@ Ore entries for <ore:foodBread> :
     <minecraft:bread>
 Ore entries for <ore:cropValus> :
     <primal:valus_melon:*>
+Ore entries for <ore:itemRubber> :
+    <primal:sinuous_resin:*>
+Ore entries for <ore:foodSap> :
+    <primal:sinuous_resin:*>
 Ore entries for <ore:rocksalt> :
     <primal:salt_halite_dust:*>
 Ore entries for <ore:puresalt> :
@@ -7634,8 +9061,6 @@ Ore entries for <ore:cordageVoid> :
     <primal:void_cordage:*>
 Ore entries for <ore:cordageSinuous> :
     <primal:sinuous_cordage:*>
-Ore entries for <ore:itemRubber> :
-    <primal:sinuous_resin:*>
 Ore entries for <ore:thatchingMaterial> :
     <primal:rush_stems:*>
 Ore entries for <ore:thatchingMaterialBasic> :
@@ -7716,6 +9141,15 @@ Ore entries for <ore:toolAxe> :
     <primal:opal_axe:*>
     <primal:obsidian_hatchet:*>
     <primal:obsidian_axe:*>
+Ore entries for <ore:toolHatchet> :
+    <primal:flint_hatchet:*>
+    <primal:quartz_hatchet:*>
+    <primal:diamond_hatchet:*>
+    <primal:emerald_hatchet:*>
+    <primal:opal_hatchet:*>
+    <primal:obsidian_hatchet:*>
+Ore entries for <ore:toolHatchetFlint> :
+    <primal:flint_hatchet:*>
 Ore entries for <ore:toolMallet> :
     <primal:quartz_gallagher:*>
     <primal:iron_gallagher:*>
@@ -7728,6 +9162,16 @@ Ore entries for <ore:toolSawMetal> :
 Ore entries for <ore:toolClippers> :
     <primal:quartz_clippers:*>
     <primal:iron_clippers:*>
+Ore entries for <ore:toolHatchetQuartz> :
+    <primal:quartz_hatchet:*>
+Ore entries for <ore:toolHatchetDiamond> :
+    <primal:diamond_hatchet:*>
+Ore entries for <ore:toolHatchetEmerald> :
+    <primal:emerald_hatchet:*>
+Ore entries for <ore:toolHatchetOpal> :
+    <primal:opal_hatchet:*>
+Ore entries for <ore:toolHatchetObsidian> :
+    <primal:obsidian_hatchet:*>
 Ore entries for <ore:toolSawGem> :
     <primal:diamond_saw:*>
     <primal:emerald_saw:*>
@@ -7821,6 +9265,14 @@ Ore entries for <ore:blockNichrome> :
     <rockhounding_chemistry:alloyBlocks:7>
 Ore entries for <ore:blockCunife> :
     <rockhounding_chemistry:alloyBlocks:8>
+Ore entries for <ore:blockSiena> :
+    <rockhounding_chemistry:alloyBlocks:9>
+Ore entries for <ore:blockCarborundum> :
+    <rockhounding_chemistry:alloyBlocks:10>
+Ore entries for <ore:blockTinite> :
+    <rockhounding_chemistry:alloyBlocks:11>
+Ore entries for <ore:blockHydronalium> :
+    <rockhounding_chemistry:alloyBlocks:12>
 Ore entries for <ore:blockMischmetal> :
     <rockhounding_chemistry:alloyBBlocks>
 Ore entries for <ore:blockRosegold> :
@@ -7889,6 +9341,30 @@ Ore entries for <ore:ingotCunife> :
     <rockhounding_chemistry:alloyItems:25>
 Ore entries for <ore:nuggetCunife> :
     <rockhounding_chemistry:alloyItems:26>
+Ore entries for <ore:dustSiena> :
+    <rockhounding_chemistry:alloyItems:27>
+Ore entries for <ore:ingotSiena> :
+    <rockhounding_chemistry:alloyItems:28>
+Ore entries for <ore:nuggetSiena> :
+    <rockhounding_chemistry:alloyItems:29>
+Ore entries for <ore:dustCarborundum> :
+    <rockhounding_chemistry:alloyItems:30>
+Ore entries for <ore:ingotCarborundum> :
+    <rockhounding_chemistry:alloyItems:31>
+Ore entries for <ore:nuggetCarborundum> :
+    <rockhounding_chemistry:alloyItems:32>
+Ore entries for <ore:dustTinite> :
+    <rockhounding_chemistry:alloyItems:33>
+Ore entries for <ore:ingotTinite> :
+    <rockhounding_chemistry:alloyItems:34>
+Ore entries for <ore:nuggetTinite> :
+    <rockhounding_chemistry:alloyItems:35>
+Ore entries for <ore:dustHydronalium> :
+    <rockhounding_chemistry:alloyItems:36>
+Ore entries for <ore:ingotHydronalium> :
+    <rockhounding_chemistry:alloyItems:37>
+Ore entries for <ore:nuggetHydronalium> :
+    <rockhounding_chemistry:alloyItems:38>
 Ore entries for <ore:dustMischmetal> :
     <rockhounding_chemistry:alloyBItems>
 Ore entries for <ore:ingotMischmetal> :
@@ -8329,8 +9805,6 @@ Ore entries for <ore:dustQuartzBlack> :
     <actuallyadditions:itemDust:7>
 Ore entries for <ore:oreQuartzBlack> :
     <actuallyadditions:blockMisc:3>
-Ore entries for <ore:gemQuartzBlack> :
-    <actuallyadditions:itemMisc:5>
 Ore entries for <ore:seedCanola> :
     <actuallyadditions:itemCanolaSeed>
 Ore entries for <ore:cropCanola> :
@@ -8339,8 +9813,9 @@ Ore entries for <ore:seedFlax> :
     <actuallyadditions:itemFlaxSeed>
 Ore entries for <ore:cropFlax> :
     <minecraft:string>
-Ore entries for <ore:blockCharcoal> :
-    <actuallyadditions:blockMisc:5>
+Ore entries for <ore:listBucketmilk> :
+    <animania:friesian_bucket_milk>
+    <animania:holstein_bucket_milk>
 Ore entries for <ore:nuggetEnderpearl> :
     <enderio:itemPowderIngot:5>
 Ore entries for <ore:ingotEnderiumBase> :
@@ -8413,6 +9888,8 @@ Ore entries for <ore:blockGravel> :
     <minecraft:gravel>
 Ore entries for <ore:bottleWater> :
     <minecraft:potion>
+Ore entries for <ore:soulsand> :
+    <minecraft:soul_sand>
 Ore entries for <ore:boatWood> :
     <minecraft:boat>
     <minecraft:spruce_boat>
@@ -8420,3 +9897,28 @@ Ore entries for <ore:boatWood> :
     <minecraft:jungle_boat>
     <minecraft:acacia_boat>
     <minecraft:dark_oak_boat>
+Ore entries for <ore:blockBrick> :
+    <minecraft:brick_block>
+    <tconstruct:dried_clay:*>
+    <primal:ciniscotta_brick:*>
+    <primal:terracotta_brick:*>
+Ore entries for <ore:coilElectrum> :
+    <immersiveengineering:metalDecoration0:1>
+Ore entries for <ore:woodFrame> :
+    <actuallyadditions:blockMisc:4>
+Ore entries for <ore:ironFrame> :
+    <ironchest:BlockIronChest>
+Ore entries for <ore:steelFrame> :
+    <actuallyadditions:blockMisc:9>
+    <enderio:itemMachinePart>
+    <rftools:machine_frame>
+    <deepresonance:machine_frame>
+Ore entries for <ore:enderFrame> :
+    <actuallyadditions:blockMisc:8>
+Ore entries for <ore:worktableWoodLog> :
+    <primal:worktable_acacia_log>
+    <primal:worktable_bigoak_log>
+    <primal:worktable_birch_log>
+    <primal:worktable_jungle_log>
+    <primal:worktable_oak_log>
+    <primal:worktable_spruce_log>

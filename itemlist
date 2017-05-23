@@ -313,7 +313,7 @@
 <abyssalcraft:methane>, Methane
 <abyssalcraft:monolithpillar>, Monolith Stone Pillar
 <abyssalcraft:monolithstone>, Monolith Stone
-<abyssalcraft:mre>, MRE
+<abyssalcraft:mre>, M
 <abyssalcraft:necronomicon>, Necronomicon
 <abyssalcraft:necronomicon_cor>, Abyssal Wasteland Necronomicon
 <abyssalcraft:necronomicon_dre>, Dreadlands Necronomicon
@@ -339,6 +339,7 @@
 <abyssalcraft:porkp>, Porkchop on A Plate
 <abyssalcraft:powerstonetracker>, Powerstone Tracker
 <abyssalcraft:psdl>, Dreadlands Infused Powerstone
+<abyssalcraft:rendingpedestal>, Rending Pedestal
 <abyssalcraft:ritualaltar>, Ritual Altar
 <abyssalcraft:ritualpedestal>, Ritual Pedestal
 <abyssalcraft:sacrificialaltar>, Sacrificial Altar
@@ -412,8 +413,8 @@
 <actuallyadditions:blockGrinder>, Crusher
 <actuallyadditions:blockGrinderDouble>, Double Crusher
 <actuallyadditions:blockHeatCollector>, Heat Collector
-<actuallyadditions:blockInputter>, ESD (Extreme Sand Digger)
-<actuallyadditions:blockInputterAdvanced>, Advanced ESD (Extraordinary Sample Deliverer)
+<actuallyadditions:blockInputter>, D (Extraordinary Sample Deliverer)
+<actuallyadditions:blockInputterAdvanced>, Advanced D (Ethereal System Dude)
 <actuallyadditions:blockItemRepairer>, Item Repairer
 <actuallyadditions:blockItemViewer>, Item Interface
 <actuallyadditions:blockLampPowerer>, Lamp Controller
@@ -504,7 +505,7 @@
 <actuallyadditions:itemCoffeeBeans>, Coffee Beans
 <actuallyadditions:itemCoffeeSeed>, Coffee Seeds
 <actuallyadditions:itemColorLens>, Lens of Color
-<actuallyadditions:itemCrafterOnAStick>, Crafting Table On A Stick
+<actuallyadditions:itemCrafterOntick>, Crafting Table On A Stick
 <actuallyadditions:itemCrateKeeper>, Storage Crate Keeper
 <actuallyadditions:itemCrystal>, Restonia Crystal
 <actuallyadditions:itemCrystalEmpowered>, Empowered Restonia Crystal
@@ -635,9 +636,12 @@
 <advancedrocketry:astroBed>, tile.astroBed.name
 <advancedrocketry:atmAnalyser>, Atmosphere Analyzer
 <advancedrocketry:basicLaserGun>, Basic Laser Gun
+<advancedrocketry:beacon>, Beacon
+<advancedrocketry:beaconFinder>, Beacon Finder
 <advancedrocketry:biomeChanger>, Biome Changer Remote
 <advancedrocketry:biomeScanner>, Biome Scanner
 <advancedrocketry:blastBrick>, HeatProof Brick
+<advancedrocketry:blockLens>, Lens
 <advancedrocketry:bucketHydrogen>, Tank of Hydrogen
 <advancedrocketry:bucketNitrogen>, Tank of Nitrogen
 <advancedrocketry:bucketOxygen>, Tank of Oxygen
@@ -656,11 +660,15 @@
 <advancedrocketry:drill>, Drill
 <advancedrocketry:electricMushroom>, Electric Mushroom
 <advancedrocketry:electrolyser>, Electrolyser
+<advancedrocketry:elevatorChip>, Space Elevator Chip
 <advancedrocketry:energyPipe>, Energy Pipe
+<advancedrocketry:forceField>, Force Field
+<advancedrocketry:forceFieldProjector>, Force Field Projector
 <advancedrocketry:fuelTank>, Liquid Fuel Tank
 <advancedrocketry:fuelingStation>, Fueling station
 <advancedrocketry:geode>, Geode Block
 <advancedrocketry:gravityController>, Gravity Controller
+<advancedrocketry:gravityMachine>, Gravity Controller
 <advancedrocketry:guidanceComputer>, Guidance Computer
 <advancedrocketry:hotTurf>, Oxidized Ferric Sand
 <advancedrocketry:hydrogenFluid>, Hydrogen
@@ -684,7 +692,6 @@
 <advancedrocketry:misc>, User Interface
 <advancedrocketry:monitoringStation>, Rocket Monitoring Station
 <advancedrocketry:moonTurf>, Turf
-<advancedrocketry:motor>, Motor
 <advancedrocketry:nitrogenFluid>, Nitrogen
 <advancedrocketry:observatory>, Observatory
 <advancedrocketry:oreScanner>, Ore Scanner
@@ -694,7 +701,9 @@
 <advancedrocketry:oxygenFluid>, Oxygen
 <advancedrocketry:oxygenScrubber>, CO2 Scrubber
 <advancedrocketry:oxygenVent>, Oxygen Vent
+<advancedrocketry:pipeSealer>, Pipe Seal
 <advancedrocketry:planetAnalyser>, Astrobody Data processor
+<advancedrocketry:planetHoloSelector>, Holographic Planet Selector
 <advancedrocketry:planetIdChip>, Planet Id Chip
 <advancedrocketry:planetSelector>, Planet Selector
 <advancedrocketry:platePress>, Small Plate Presser
@@ -731,6 +740,7 @@
 <advancedrocketry:solarPanel>, Solar Panel
 <advancedrocketry:spaceBoots>, Space Boots
 <advancedrocketry:spaceChestplate>, Space Suit Chest-Piece
+<advancedrocketry:spaceElevatorController>, Space Elevator
 <advancedrocketry:spaceHelmet>, Space Helmet
 <advancedrocketry:spaceLaser>, Orbital Laser Drill
 <advancedrocketry:spaceLeggings>, Space Suit Legging
@@ -798,9 +808,6 @@
 <animania:entity_egg_cow_holstein>, Holstein Cow
 <animania:entity_egg_cow_longhorn>, Longhorn Cow
 <animania:entity_egg_cow_random>, Random Cow
-<animania:entity_egg_draft_horse_foal>, item.animania_entity_egg_draft_horse_foal.name
-<animania:entity_egg_draft_horse_mare>, item.animania_entity_egg_draft_horse_mare.name
-<animania:entity_egg_draft_horse_stallion>, item.animania_entity_egg_draft_horse_stallion.name
 <animania:entity_egg_ferret_grey>, Grey Ferret
 <animania:entity_egg_ferret_white>, White Ferret
 <animania:entity_egg_hamster>, Hamster
@@ -1025,18 +1032,22 @@
 <arsmagica2:workbench_upgrade>, Magician's Workbench Upgrade: Crafting
 <astralsorcery:BlockAltar>, Luminous Crafting Table
 <astralsorcery:BlockAttunementAltar>, Attunement Altar
-<astralsorcery:BlockAttunementRelay>, Attunement Relay
+<astralsorcery:BlockAttunementRelay>, Spectral Relay
 <astralsorcery:BlockBlackMarble>, Sooty Marble
 <astralsorcery:BlockCelestialCollectorCrystal>, Floating Crystal
 <astralsorcery:BlockCelestialCrystals>, Celestial Crystal Cluster
+<astralsorcery:BlockCelestialGateway>, Celestial Gateway
 <astralsorcery:BlockCollectorCrystal>, Floating Crystal
+<astralsorcery:BlockCustomFlower>, Faint Amaranth
 <astralsorcery:BlockCustomOre>, Rock Crystal Ore
 <astralsorcery:BlockCustomSandOre>, Aquamarine Shale
 <astralsorcery:BlockFakeTree>, 
 <astralsorcery:BlockFlareLight>, Volatile Flare
 <astralsorcery:BlockLens>, Lens
 <astralsorcery:BlockMachine>, Telescope
+<astralsorcery:BlockMapDrawingTable>, Stellar Refraction Table
 <astralsorcery:BlockMarble>, Marble
+<astralsorcery:BlockMarbleStairs>, Marble Stairs
 <astralsorcery:BlockPrism>, PrismLens
 <astralsorcery:BlockRitualLink>, Ritual Anchor
 <astralsorcery:BlockRitualPedestal>, Ritual Pedestal
@@ -1048,6 +1059,10 @@
 <astralsorcery:BlockWorldIlluminator>, Cave Illuminator
 <astralsorcery:ItemArchitectWand>, Formation Wand
 <astralsorcery:ItemCelestialCrystal>, Celestial Crystal
+<astralsorcery:ItemChargedCrystalAxe>, Infused Crystal Axe
+<astralsorcery:ItemChargedCrystalPickaxe>, Infused Crystal Pickaxe
+<astralsorcery:ItemChargedCrystalShovel>, Infused Crystal Shovel
+<astralsorcery:ItemChargedCrystalSword>, Infused Crystal Sword
 <astralsorcery:ItemColoredLens>, Colored Lens
 <astralsorcery:ItemConstellationPaper>, Constellation Paper
 <astralsorcery:ItemCraftingComponent>, Aquamarine
@@ -1057,7 +1072,9 @@
 <astralsorcery:ItemCrystalSword>, Crystal Sword
 <astralsorcery:ItemExchangeWand>, Conversion Wand
 <astralsorcery:ItemHandTelescope>, Hand Telescope
+<astralsorcery:ItemIlluminationPowder>, Illumination Powder
 <astralsorcery:ItemIlluminationWand>, Illumination Wand
+<astralsorcery:ItemInfusedGlass>, Infused Glass
 <astralsorcery:ItemJournal>, Journal
 <astralsorcery:ItemLinkingTool>, Linking Tool
 <astralsorcery:ItemRockCrystalSimple>, Rock Crystal
@@ -1073,31 +1090,21 @@
 <base:ore_abyssalnite>, .base.Abyssalnite .base.base.part.ore
 <base:ore_adamantine>, .base.Adamantine .base.base.part.ore
 <base:ore_aluminum>, .base.Aluminum .base.base.part.ore
-<base:ore_aquarium>, .base.Aquarium .base.base.part.ore
 <base:ore_ardite>, .base.Ardite .base.base.part.ore
-<base:ore_brass>, .base.Brass .base.base.part.ore
-<base:ore_bronze>, .base.Bronze .base.base.part.ore
 <base:ore_cobalt>, .base.Cobalt .base.base.part.ore
-<base:ore_coldiron>, .base.Coldiron .base.base.part.ore
-<base:ore_constantan>, .base.Constantan .base.base.part.ore
 <base:ore_copper>, .base.Copper .base.base.part.ore
 <base:ore_coralium>, .base.Coralium .base.base.part.ore
-<base:ore_cupronickel>, .base.Cupronickel .base.base.part.ore
-<base:ore_dawnstone>, .base.Dawnstone .base.base.part.ore
 <base:ore_dilithium>, .base.Dilithium .base.base.part.ore
-<base:ore_dreadium>, .base.Dreadium .base.base.part.ore
-<base:ore_electrum>, .base.Electrum .base.base.part.ore
 <base:ore_gold>, .base.Gold .base.base.part.ore
-<base:ore_invar>, .base.Invar .base.base.part.ore
 <base:ore_iridium>, .base.Iridium .base.base.part.ore
 <base:ore_iron>, .base.Iron .base.base.part.ore
 <base:ore_lead>, .base.Lead .base.base.part.ore
 <base:ore_mithril>, .base.Mithril .base.base.part.ore
 <base:ore_nickel>, .base.Nickel .base.base.part.ore
 <base:ore_platinum>, .base.Platinum .base.base.part.ore
+<base:ore_plutonium>, .base.Plutonium .base.base.part.ore
 <base:ore_silver>, .base.Silver .base.base.part.ore
 <base:ore_starsteel>, .base.Starsteel .base.base.part.ore
-<base:ore_steel>, .base.Steel .base.base.part.ore
 <base:ore_tin>, .base.Tin .base.base.part.ore
 <base:ore_titanium>, .base.Titanium .base.base.part.ore
 <base:ore_uranium>, .base.Uranium .base.base.part.ore
@@ -1128,6 +1135,7 @@
 <base:storage_mithril>, .base.Mithril .base.base.part.storage
 <base:storage_nickel>, .base.Nickel .base.base.part.storage
 <base:storage_platinum>, .base.Platinum .base.base.part.storage
+<base:storage_plutonium>, .base.Plutonium .base.base.part.storage
 <base:storage_silver>, .base.Silver .base.base.part.storage
 <base:storage_starsteel>, .base.Starsteel .base.base.part.storage
 <base:storage_steel>, .base.Steel .base.base.part.storage
@@ -1679,11 +1687,11 @@
 <botania:felPumpkin>, Fel Pumpkin
 <botania:fertilizer>, Floral Fertilizer
 <botania:fireRod>, Rod of the Hells
-<botania:flightTiara>, FlÃ¼gel Tiara
+<botania:flightTiara>, Flügel Tiara
 <botania:floatingSpecialFlower>, Floating Botania Flower
 <botania:flower>, Mystical White Flower
 <botania:flowerBag>, Flower Pouch
-<botania:flugelEye>, Eye of the FlÃ¼gel
+<botania:flugelEye>, Eye of the Flügel
 <botania:forestDrum>, Drum of the Wild
 <botania:forestEye>, Eye of the Ancients
 <botania:gaiaHead>, Gaia Guardian's Head
@@ -1960,8 +1968,17 @@
 <botanicaladdons:toolbelt>, Traveller's Toolbelt
 <botanicaladdons:travelStone>, Traveller's Flowstone
 <botanicaladdons:xpTome>, Tome of the Ages
+<charcoal_pit:block_coke>, Coal Coke Block
+<charcoal_pit:brick_creosote_collector>, Brick Creosote Oil Funnel
+<charcoal_pit:item_ash>, Ash
+<charcoal_pit:item_coke>, Coal Coke
+<charcoal_pit:item_fertilizer>, Fertilizer
+<charcoal_pit:log_pile>, Log Pile
+<charcoal_pit:nether_creosote_collector>, Nether Brick Creosote Oil Funnel
+<charcoal_pit:stone_creosote_collector>, Stone Brick Creosote Oil Funnel
 <chisel:andesite>, Andesite
 <chisel:andesite1>, Andesite
+<chisel:andesite2>, Andesite
 <chisel:antiblock>, Antiblock
 <chisel:basalt>, Basalt
 <chisel:basalt1>, Basalt
@@ -1981,6 +1998,15 @@
 <chisel:blockSteel>, Block of Steel
 <chisel:blockTin>, Block of Tin
 <chisel:blockUranium>, Block of Uranium
+<chisel:block_charcoal>, Block of Charcoal
+<chisel:block_charcoal1>, Block of Charcoal
+<chisel:block_charcoal2>, Block of Charcoal
+<chisel:block_coal>, Block of Coal
+<chisel:block_coal1>, Block of Coal
+<chisel:block_coal2>, Block of Coal
+<chisel:block_coal_coke>, Block of Coal Coke
+<chisel:block_coal_coke1>, Block of Coal Coke
+<chisel:block_coal_coke2>, Block of Coal Coke
 <chisel:bloodMagic>, Chiseled Blood Rune
 <chisel:bookshelf_acacia>, Acacia Bookshelf
 <chisel:bookshelf_birch>, Birch Bookshelf
@@ -1991,6 +2017,7 @@
 <chisel:bricks>, Bricks
 <chisel:bricks1>, Bricks
 <chisel:bricksextra>, Bricks
+<chisel:brownstone>, Brownstone
 <chisel:carpet_black>, Black Wool
 <chisel:carpet_blue>, Blue Wool
 <chisel:carpet_brown>, Brown Wool
@@ -2016,9 +2043,61 @@
 <chisel:cobblestoneextra>, Cobblestone
 <chisel:cobblestonemossy>, Mossy Cobblestone
 <chisel:cobblestonemossy1>, Mossy Cobblestone
+<chisel:cobblestonemossy2>, Mossy Cobblestone
+<chisel:concrete>, Concrete
+<chisel:concrete_black>, Black Concrete
+<chisel:concrete_black1>, Black Concrete
+<chisel:concrete_black2>, Black Concrete
+<chisel:concrete_blue>, Blue Concrete
+<chisel:concrete_blue1>, Blue Concrete
+<chisel:concrete_blue2>, Blue Concrete
+<chisel:concrete_brown>, Brown Concrete
+<chisel:concrete_brown1>, Brown Concrete
+<chisel:concrete_brown2>, Brown Concrete
+<chisel:concrete_cyan>, Cyan Concrete
+<chisel:concrete_cyan1>, Cyan Concrete
+<chisel:concrete_cyan2>, Cyan Concrete
+<chisel:concrete_gray>, Gray Concrete
+<chisel:concrete_gray1>, Gray Concrete
+<chisel:concrete_gray2>, Gray Concrete
+<chisel:concrete_green>, Green Concrete
+<chisel:concrete_green1>, Green Concrete
+<chisel:concrete_green2>, Green Concrete
+<chisel:concrete_lightblue>, Light Blue Concrete
+<chisel:concrete_lightblue1>, Light Blue Concrete
+<chisel:concrete_lightblue2>, Light Blue Concrete
+<chisel:concrete_lightgray>, Light Gray Concrete
+<chisel:concrete_lightgray1>, Light Gray Concrete
+<chisel:concrete_lightgray2>, Light Gray Concrete
+<chisel:concrete_lime>, Lime Concrete
+<chisel:concrete_lime1>, Lime Concrete
+<chisel:concrete_lime2>, Lime Concrete
+<chisel:concrete_magenta>, Magenta Concrete
+<chisel:concrete_magenta1>, Magenta Concrete
+<chisel:concrete_magenta2>, Magenta Concrete
+<chisel:concrete_orange>, Orange Concrete
+<chisel:concrete_orange1>, Orange Concrete
+<chisel:concrete_orange2>, Orange Concrete
+<chisel:concrete_pink>, Pink Concrete
+<chisel:concrete_pink1>, Pink Concrete
+<chisel:concrete_pink2>, Pink Concrete
+<chisel:concrete_powder>, Concrete Powder
+<chisel:concrete_purple>, Purple Concrete
+<chisel:concrete_purple1>, Purple Concrete
+<chisel:concrete_purple2>, Purple Concrete
+<chisel:concrete_red>, Red Concrete
+<chisel:concrete_red1>, Red Concrete
+<chisel:concrete_red2>, Red Concrete
+<chisel:concrete_white>, White Concrete
+<chisel:concrete_white1>, White Concrete
+<chisel:concrete_white2>, White Concrete
+<chisel:concrete_yellow>, Yellow Concrete
+<chisel:concrete_yellow1>, Yellow Concrete
+<chisel:concrete_yellow2>, Yellow Concrete
 <chisel:diamond>, Block of Diamond
 <chisel:diorite>, Diorite
 <chisel:diorite1>, Diorite
+<chisel:diorite2>, Diorite
 <chisel:dirt>, Dirt
 <chisel:emerald>, Block of Emerald
 <chisel:endstone>, Endstone
@@ -2051,6 +2130,7 @@
 <chisel:gold>, Block of Gold
 <chisel:granite>, Granite
 <chisel:granite1>, Granite
+<chisel:granite2>, Granite
 <chisel:hardenedclay>, Hardened Clay
 <chisel:hardenedclay1>, Hardened Clay
 <chisel:hardenedclayextra>, Hardened Clay
@@ -2061,6 +2141,7 @@
 <chisel:lapis>, Lapis Lazuli Block
 <chisel:lavastone>, Lavastone
 <chisel:lavastone1>, Lavastone
+<chisel:lavastone2>, Lavastone
 <chisel:limestone>, Limestone
 <chisel:limestone1>, Limestone
 <chisel:limestoneextra>, Limestone
@@ -2110,6 +2191,7 @@
 <chisel:voidstoneRunic>, Runed Voidstone
 <chisel:waterstone>, Waterstone
 <chisel:waterstone1>, Waterstone
+<chisel:waterstone2>, Waterstone
 <chisel:wool_black>, Black Wool
 <chisel:wool_blue>, Blue Wool
 <chisel:wool_brown>, Brown Wool
@@ -2246,7 +2328,7 @@
 <dungeontactics:bounce_boots>, Bounce Boots
 <dungeontactics:bronze_hammer>, Bronze Hammer
 <dungeontactics:bronze_knife>, Bronze Knife
-<dungeontactics:bronze_sword>, Bronze Sword
+<dungeontactics:bronze_sword>, Advanced Bronze Sword
 <dungeontactics:bush_bare>, Cherry Bomb Bush (Bare)
 <dungeontactics:bush_baring>, Cherry Bomb Bush (Baring)
 <dungeontactics:candy_skull>, Candy Skull
@@ -2263,10 +2345,10 @@
 <dungeontactics:cherry_bomb>, Cherry Bomb
 <dungeontactics:copper_hammer>, Copper Hammer
 <dungeontactics:copper_knife>, Copper Knife
-<dungeontactics:copper_sword>, Copper Sword
+<dungeontactics:copper_sword>, Advanced Copper Sword
 <dungeontactics:diamond_hammer>, Diamond Hammer
 <dungeontactics:diamond_knife>, Diamond Knife
-<dungeontactics:diamond_sword>, Diamond Sword
+<dungeontactics:diamond_sword>, Advanced Diamond Sword
 <dungeontactics:ducttape>, Duct Tape
 <dungeontactics:dungeon_glass>, Dungeon Glass
 <dungeontactics:engineer_doorag>, Engineer's Doorag
@@ -2302,7 +2384,7 @@
 <dungeontactics:gilded_sword>, Gilded Sword
 <dungeontactics:golden_hammer>, Golden Hammer
 <dungeontactics:golden_knife>, Golden Knife
-<dungeontactics:golden_sword>, Golden Sword
+<dungeontactics:golden_sword>, Advanced Golden Sword
 <dungeontactics:grenade_cluster>, Cluster Grenade
 <dungeontactics:grenade_concussive>, Grenade
 <dungeontactics:grenade_cryo>, Cryo Grenade
@@ -2316,7 +2398,7 @@
 <dungeontactics:heart_jar>, Heart Jar
 <dungeontactics:iron_hammer>, Iron Hammer
 <dungeontactics:iron_knife>, Iron Knife
-<dungeontactics:iron_sword>, Iron Sword
+<dungeontactics:iron_sword>, Advanced Iron Sword
 <dungeontactics:jewelled_axe>, Jewelled Axe
 <dungeontactics:jewelled_boots>, Jewelled Boots
 <dungeontactics:jewelled_chestplate>, Jewelled Chestplate
@@ -2330,7 +2412,7 @@
 <dungeontactics:jewelled_sword>, Jewelled Sword
 <dungeontactics:lead_hammer>, Lead Hammer
 <dungeontactics:lead_knife>, Lead Knife
-<dungeontactics:lead_sword>, Lead Sword
+<dungeontactics:lead_sword>, Advanced Lead Sword
 <dungeontactics:magic_teather>, Magic Teather
 <dungeontactics:mastery_tome_leap>, Mastery Tome: Leaping
 <dungeontactics:mastery_tome_multistrike>, Mastery Tome: Multi Strike
@@ -2347,21 +2429,21 @@
 <dungeontactics:rocket_pants>, Rocket Pants
 <dungeontactics:silver_hammer>, Silver Hammer
 <dungeontactics:silver_knife>, Silver Knife
-<dungeontactics:silver_sword>, Silver Sword
+<dungeontactics:silver_sword>, Advanced Silver Sword
 <dungeontactics:slingshot>, Slingshot
 <dungeontactics:steel_hammer>, Steel Hammer
 <dungeontactics:steel_knife>, Steel Knife
-<dungeontactics:steel_sword>, Steel Sword
+<dungeontactics:steel_sword>, Advanced Steel Sword
 <dungeontactics:stone_hammer>, Stone Hammer
 <dungeontactics:stone_knife>, Stone Knife
-<dungeontactics:stone_sword>, Stone Sword
+<dungeontactics:stone_sword>, Advanced Stone Sword
 <dungeontactics:studded_boots>, Studded Leather Boots
 <dungeontactics:studded_chestplate>, Studded Leather Chestplate
 <dungeontactics:studded_helmet>, Studded Leather Helmet
 <dungeontactics:studded_leggings>, Studded Leather Leggings
 <dungeontactics:tin_hammer>, Tin Hammer
 <dungeontactics:tin_knife>, Tin Knife
-<dungeontactics:tin_sword>, Tin Sword
+<dungeontactics:tin_sword>, Advanced Tin Sword
 <dungeontactics:trap_ailment>, Ailing Trap
 <dungeontactics:trap_boom>, Boom Trap
 <dungeontactics:trap_fire>, Fire Trap
@@ -2374,7 +2456,7 @@
 <dungeontactics:wither_web>, Wither Web
 <dungeontactics:wooden_hammer>, Wooden Hammer
 <dungeontactics:wooden_knife>, Wooden Knife
-<dungeontactics:wooden_sword>, Wooden Sword
+<dungeontactics:wooden_sword>, Advanced Wooden Sword
 <enchiridion:book>, Create NEW Book
 <enderio:blockAlloySmelter>, Alloy Smelter
 <enderio:blockAttractor>, Attractor Obelisk
@@ -2457,6 +2539,8 @@
 <enderio:blockWirelessCharger>, Wireless Charger
 <enderio:blockXPVacuum>, XP Vacuum
 <enderio:blockZombieGenerator>, Zombie Generator
+<enderio:block_detector_block>, Block Detector
+<enderio:block_detector_block_silent>, Block Detector (Silent)
 <enderio:darkSteelBow>, Dark Bow
 <enderio:darkSteel_axe>, Dark Axe
 <enderio:darkSteel_boots>, Dark Boots
@@ -2588,7 +2672,7 @@
 <evilcraft:potentiaSphere>, Potentia Sphere
 <evilcraft:primedPendant>, Primed Pendant
 <evilcraft:promise>, Promise of Tenacity I
-<evilcraft:promiseAcceptor>, Iron Promise Acceptor
+<evilcraft:promiseAcceptor>, Silver Promise Acceptor
 <evilcraft:purifier>, Purifier
 <evilcraft:redstoneGrenade>, Redstone Grenade
 <evilcraft:reinforcedUndeadPlank>, Reinforced Undead Plank
@@ -2637,17 +2721,17 @@
 <extrautils2:creativeenergy>, Creative Energy Source
 <extrautils2:creativeharvest>, Creative Harvest
 <extrautils2:cursedearth>, Cursed Earth
-<extrautils2:decorativebedrock>, tile.extrautils2:decorativebedrock.bedrock_bricks.name
+<extrautils2:decorativebedrock>, Bedrock Bricks
 <extrautils2:decorativeglass>, Thickened Glass
 <extrautils2:decorativesolid>, Border Stone
-<extrautils2:decorativesolidwood>, Magical_planks
+<extrautils2:decorativesolidwood>, Magical Planks
 <extrautils2:drum>, Stone Drum
 <extrautils2:enderlilly>, Ender Lilly
 <extrautils2:endershard>, Ender Shard
 <extrautils2:fakecopy>, item.extrautils2:fakecopy.name
-<extrautils2:filter>, Item Filter
+<extrautils2:filter>, Filter
 <extrautils2:filterfluids>, Filter Fluids
-<extrautils2:flattransfernode>, Flat Transfer Node (Items)
+<extrautils2:flattransfernode>, flattransfernode 0
 <extrautils2:glasscutter>, Glass Cutter
 <extrautils2:goldenlasso>, Golden Lasso
 <extrautils2:grocket>, Transfer Node (Items)
@@ -2659,7 +2743,7 @@
 <extrautils2:itemcreativebuilderswand>, Creative Builders Wand
 <extrautils2:itemcreativedestructionwand>, Creative Destruction Wand
 <extrautils2:itemdestructionwand>, Destruction Wand
-<extrautils2:klein>, 
+<extrautils2:klein>, Klein Bottle
 <extrautils2:lawsword>, Kikoku
 <extrautils2:machine>, Machine Block
 <extrautils2:magicapple>, Magical Apple
@@ -3180,7 +3264,7 @@
 <gendustry:EnvProcessor>, Enviromental Processor
 <gendustry:ErrorSensorCover>, Error Sensor Cover
 <gendustry:Extractor>, DNA Extractor
-<gendustry:GeneSample>, INVALID Sample - ERROR
+<gendustry:GeneSample>, INVALID Sample - ROR
 <gendustry:GeneSampleBlank>, Blank Gene Sample
 <gendustry:GeneTemplate>, Genetic Template
 <gendustry:GeneticsProcessor>, Genetics Processor
@@ -4385,12 +4469,14 @@
 <minecolonies:caliper>, Caliper
 <minecolonies:scepterGold>, Building Tool
 <minecolonies:scepterGuard>, Guard-scepter
+<minecolonies:scepterPermission>, item.minecolonies.scepterPermission.name
 <minecolonies:scepterSteel>, Scan Tool
 <minecolonies:sizeCity>, item.minecolonies.sizeCity.name
 <minecolonies:sizeMetropolis>, item.minecolonies.sizeMetropolis.name
 <minecolonies:sizeSettlement>, item.minecolonies.sizeSettlement.name
 <minecolonies:sizeTown>, item.minecolonies.sizeTown.name
-<minecolonies:supplyChestDeployer>, Supply Chest
+<minecolonies:supplyCampDeployer>, SupplyCamp Chest
+<minecolonies:supplyChestDeployer>, SupplyShip Chest
 <minecraft:acacia_boat>, Acacia Boat
 <minecraft:acacia_door>, Acacia Door
 <minecraft:acacia_fence>, Acacia Fence
@@ -4575,7 +4661,7 @@
 <minecraft:iron_horse_armor>, Iron Horse Armor
 <minecraft:iron_ingot>, Iron Ingot
 <minecraft:iron_leggings>, Iron Leggings
-<minecraft:iron_ore>, Goethite Ore (Iron Ore)
+<minecraft:iron_ore>, Iron Ore
 <minecraft:iron_pickaxe>, Iron Pickaxe
 <minecraft:iron_shovel>, Iron Shovel
 <minecraft:iron_sword>, Iron Sword
@@ -4804,64 +4890,118 @@
 <morebees:nether_starFragment>, Nether Star Fragment
 <morebees:propolisCrystal>, Crystal Propolis
 <morebees:propolisMetallic>, Metallic Propolis
+<natura:amaranth_button>, Amaranth Button
+<natura:amaranth_fence>, Amaranth Fence
+<natura:amaranth_fence_gate>, Amaranth Fence Gate
+<natura:amaranth_pressure_plate>, Amaranth Prssure Plate
+<natura:amaranth_trap_door>, Amaranth Trap Door
 <natura:barley_crop>, tile.natura.barley_crop.name
 <natura:blaze_hopper>, Blaze Hopper
-<natura:bloodwood_axe>, item.natura.bloodwood_axe.name
-<natura:bloodwood_bow>, item.natura.bloodwood_bow.name
-<natura:bloodwood_kama>, item.natura.bloodwood_kama.name
-<natura:bloodwood_pickaxe>, item.natura.bloodwood_pickaxe.name
-<natura:bloodwood_shovel>, item.natura.bloodwood_shovel.name
-<natura:bloodwood_sword>, item.natura.bloodwood_sword.name
+<natura:blaze_rail>, Blaze Rail
+<natura:blaze_rail_activator>, Activator Blaze Rail
+<natura:blaze_rail_detector>, Detector Blaze Rail
+<natura:blaze_rail_golden>, Powered Blaze Rail
+<natura:bloodwood_axe>, Bloodwood Hatchet
+<natura:bloodwood_bow>, Bloodwood Bow
+<natura:bloodwood_button>, Bloodwood Button
+<natura:bloodwood_fence>, Bloodwood Fence
+<natura:bloodwood_fence_gate>, Bloodwood Fence Gate
+<natura:bloodwood_kama>, Bloodwood Kama
+<natura:bloodwood_pickaxe>, Bloodwood Pickaxe
+<natura:bloodwood_pressure_plate>, Bloodwood Prssure Plate
+<natura:bloodwood_shovel>, Bloodwood Shovel
+<natura:bloodwood_sword>, Bloodwood Sword
+<natura:bloodwood_trap_door>, Bloodwood Trap Door
 <natura:bluebells_flower>, Bluebells
-<natura:bonemeal_bag>, item.natura.bonemeal_bag.name
+<natura:bonemeal_bag>, Bone Meal Bag
 <natura:clouds>, Cloud
 <natura:colored_grass>, Topiary Grass
 <natura:colored_grass_slab>, Topiary Grass Slab
-<natura:colored_grass_stairs_autumnal>, tile.natura.colored_grass_stairs_autumnal.name
-<natura:colored_grass_stairs_bluegrass>, tile.natura.colored_grass_stairs_bluegrass.name
-<natura:colored_grass_stairs_topiary>, tile.natura.colored_grass_stairs_topiary.name
+<natura:colored_grass_stairs_autumnal>, Autumnal Grass Stairs
+<natura:colored_grass_stairs_bluegrass>, Bluegrass Stairs
+<natura:colored_grass_stairs_topiary>, Topiary Grass Stairs
 <natura:cotton_crop>, tile.natura.cotton_crop.name
-<natura:darkwood_axe>, item.natura.darkwood_axe.name
-<natura:darkwood_bow>, item.natura.darkwood_bow.name
-<natura:darkwood_kama>, item.natura.darkwood_kama.name
-<natura:darkwood_pickaxe>, item.natura.darkwood_pickaxe.name
-<natura:darkwood_shovel>, item.natura.darkwood_shovel.name
-<natura:darkwood_sword>, item.natura.darkwood_sword.name
+<natura:darkwood_axe>, Darkwood Hatchet
+<natura:darkwood_bow>, Darkwood Bow
+<natura:darkwood_button>, Darkwood Button
+<natura:darkwood_fence>, Darkwood Fence
+<natura:darkwood_fence_gate>, Darkwood Fence Gate
+<natura:darkwood_kama>, Darkwood Kama
+<natura:darkwood_pickaxe>, Darkwood Pickaxe
+<natura:darkwood_pressure_plate>, Darkwood Prssure Plate
+<natura:darkwood_shovel>, Darkwood Shovel
+<natura:darkwood_sword>, Darkwood Sword
+<natura:darkwood_trap_door>, Darkwood Trap Door
 <natura:edibles>, Raw Imphide
 <natura:empty_bowls>, Empty Ghostwood Bowl
-<natura:flint_and_blaze>, item.natura.flint_and_blaze.name
-<natura:fusewood_axe>, item.natura.fusewood_axe.name
-<natura:fusewood_bow>, item.natura.fusewood_bow.name
-<natura:fusewood_kama>, item.natura.fusewood_kama.name
-<natura:fusewood_pickaxe>, item.natura.fusewood_pickaxe.name
-<natura:fusewood_shovel>, item.natura.fusewood_shovel.name
-<natura:fusewood_sword>, item.natura.fusewood_sword.name
-<natura:ghostwood_axe>, item.natura.ghostwood_axe.name
-<natura:ghostwood_bow>, item.natura.ghostwood_bow.name
-<natura:ghostwood_kama>, item.natura.ghostwood_kama.name
-<natura:ghostwood_pickaxe>, item.natura.ghostwood_pickaxe.name
-<natura:ghostwood_shovel>, item.natura.ghostwood_shovel.name
-<natura:ghostwood_sword>, item.natura.ghostwood_sword.name
-<natura:imp_armor_boots>, item.natura.imp_armor_boots.name
-<natura:imp_armor_chestplate>, item.natura.imp_armor_chestplate.name
-<natura:imp_armor_helmet>, item.natura.imp_armor_helmet.name
-<natura:imp_armor_leggings>, item.natura.imp_armor_leggings.name
+<natura:eucalyptus_button>, Eucalyptus Button
+<natura:eucalyptus_fence>, Eucalyptus Fence
+<natura:eucalyptus_fence_gate>, Eucalyptus Fence Gate
+<natura:eucalyptus_pressure_plate>, Eucalyptus Prssure Plate
+<natura:eucalyptus_trap_door>, Eucalyptus Trap Door
+<natura:flint_and_blaze>, Flint and Blaze
+<natura:fusewood_axe>, Fusewood Hatchet
+<natura:fusewood_bow>, Fusewood Bow
+<natura:fusewood_button>, Fusewood Button
+<natura:fusewood_fence>, Fusewood Fence
+<natura:fusewood_fence_gate>, Fusewood Fence Gate
+<natura:fusewood_kama>, Fusewood Kama
+<natura:fusewood_pickaxe>, Fusewood Pickaxe
+<natura:fusewood_pressure_plate>, Fusewood Prssure Plate
+<natura:fusewood_shovel>, Fusewood Shovel
+<natura:fusewood_sword>, Fusewood Sword
+<natura:fusewood_trap_door>, Fusewood Trap Door
+<natura:ghostwood_axe>, Ghostwood Hatchet
+<natura:ghostwood_bow>, Ghostwood Bow
+<natura:ghostwood_button>, Ghostwood Button
+<natura:ghostwood_fence>, Ghostwood Fence
+<natura:ghostwood_fence_gate>, Ghostwood Fence Gate
+<natura:ghostwood_kama>, Ghostwood Kama
+<natura:ghostwood_pickaxe>, Ghostwood Pickaxe
+<natura:ghostwood_pressure_plate>, Ghostwood Prssure Plate
+<natura:ghostwood_shovel>, Ghostwood Shovel
+<natura:ghostwood_sword>, Ghostwood Sword
+<natura:ghostwood_trap_door>, Ghostwood Trap Door
+<natura:hopseed_button>, Hopseed Button
+<natura:hopseed_fence>, Hopseed Fence
+<natura:hopseed_fence_gate>, Hopseed Fence Gate
+<natura:hopseed_pressure_plate>, Hopseed Prssure Plate
+<natura:hopseed_trap_door>, Hopseed Trap Door
+<natura:imp_armor_boots>, Impskin Boots
+<natura:imp_armor_chestplate>, Impskin Jerkin
+<natura:imp_armor_helmet>, Impskin Helmet
+<natura:imp_armor_leggings>, Impskin Leggings
+<natura:lit_netherrack_furnace>, Nether Furnace
+<natura:maple_button>, Maple Button
+<natura:maple_fence>, Maple Fence
+<natura:maple_fence_gate>, Maple Fence Gate
+<natura:maple_pressure_plate>, Maple Prssure Plate
+<natura:maple_trap_door>, Maple Trap Door
 <natura:materials>, Barley
 <natura:nether_berrybush_blightberry>, Blightberry Bush
-<natura:nether_berrybush_duskberry>, DuskBerry Bush
+<natura:nether_berrybush_duskberry>, Duskberry Bush
 <natura:nether_berrybush_skyberry>, Skyberry Bush
 <natura:nether_berrybush_stingberry>, Stingberry Bush
-<natura:nether_blue_large_glowshroom>, tile.natura.nether_blue_large_glowshroom.all_inside.name
+<natura:nether_blue_large_glowshroom>, Blue Glowshroom
+<natura:nether_bookshelves>, Ghostwood Bookshelf
+<natura:nether_button>, Button
+<natura:nether_door_bloodwood>, tile.natura.nether_door_bloodwood.name
+<natura:nether_door_ghostwood>, tile.natura.nether_door_ghostwood.name
+<natura:nether_doors>, Ghostwood Door
 <natura:nether_glass>, Soul Glass
 <natura:nether_glowshroom>, Green Glowshroom
-<natura:nether_green_large_glowshroom>, tile.natura.nether_green_large_glowshroom.all_inside.name
+<natura:nether_green_large_glowshroom>, Green Glowshroom
 <natura:nether_heat_sand>, Heat Sand
 <natura:nether_leaves>, Ghostwood Leaves
 <natura:nether_leaves2>, Darkwood Leaves
+<natura:nether_lever>, Lever
 <natura:nether_logs>, Ghostwood
+<natura:nether_logs2>, Bloodwood
 <natura:nether_planks>, Ghostwood Planks
-<natura:nether_purple_large_glowshroom>, tile.natura.nether_purple_large_glowshroom.all_inside.name
+<natura:nether_pressure_plate>, Pressure Plate
+<natura:nether_purple_large_glowshroom>, Purple Glowshroom
 <natura:nether_sapling>, Ghostwood Sapling
+<natura:nether_sapling2>, Bloodwood Sapling
 <natura:nether_slab>, Ghostwood Slab
 <natura:nether_stairs_bloodwood>, Blood Stairs
 <natura:nether_stairs_darkwood>, Darkwood Stairs
@@ -4869,15 +5009,24 @@
 <natura:nether_stairs_ghostwood>, Ghostwood Stairs
 <natura:nether_tainted_soil>, Tainted Soil
 <natura:nether_thorn_vines>, Thornvines
-<natura:netherquartz_axe>, item.natura.netherquartz_axe.name
-<natura:netherquartz_kama>, item.natura.netherquartz_kama.name
-<natura:netherquartz_pickaxe>, item.natura.netherquartz_pickaxe.name
-<natura:netherquartz_shovel>, item.natura.netherquartz_shovel.name
-<natura:netherquartz_sword>, item.natura.netherquartz_sword.name
+<natura:nether_workbenches>, Maple Workbench
+<natura:netherquartz_axe>, Quartz Hatchet
+<natura:netherquartz_kama>, Quartz Kama
+<natura:netherquartz_pickaxe>, Quartz Pickaxe
+<natura:netherquartz_shovel>, Quartz Shovel
+<natura:netherquartz_sword>, Quartz Sword
+<natura:netherrack_furnace>, Nether Furnace
 <natura:overworld_berrybush_blackberry>, Blackberry Bush
 <natura:overworld_berrybush_blueberry>, Blueberry Bush
 <natura:overworld_berrybush_maloberry>, Maloberry Bush
 <natura:overworld_berrybush_raspberry>, Raspberry Bush
+<natura:overworld_bookshelves>, Maple Bookshelf
+<natura:overworld_door_eucalyptus>, tile.natura.overworld_door_eucalyptus.name
+<natura:overworld_door_hopseed>, tile.natura.overworld_door_hopseed.name
+<natura:overworld_door_redwood>, tile.natura.overworld_door_redwood.name
+<natura:overworld_door_redwood_bark>, tile.natura.overworld_door_redwood_bark.name
+<natura:overworld_door_sakura>, tile.natura.overworld_door_sakura.name
+<natura:overworld_doors>, Eucalyptus Door
 <natura:overworld_leaves>, Maple Leaves
 <natura:overworld_leaves2>, Willow Leaves
 <natura:overworld_logs>, Maple Wood
@@ -4885,8 +5034,8 @@
 <natura:overworld_planks>, Maple Planks
 <natura:overworld_sapling>, Maple Sapling
 <natura:overworld_sapling2>, Willow Sapling
-<natura:overworld_seed_bags>, item.natura.overworld_seed_bags.barley_seed_bag.name
-<natura:overworld_seeds>, item.natura.overworld_seeds.barley_seeds.name
+<natura:overworld_seed_bags>, Barley Seed Bag
+<natura:overworld_seeds>, Barley Seeds
 <natura:overworld_slab>, Maple Slab
 <natura:overworld_slab2>, Eucalyptus Slab
 <natura:overworld_stairs_amaranth>, Amaranth Stairs
@@ -4898,16 +5047,62 @@
 <natura:overworld_stairs_silverbell>, Silverbell Stairs
 <natura:overworld_stairs_tiger>, Tiger Stairs
 <natura:overworld_stairs_willow>, Willow Stairs
+<natura:overworld_workbenches>, Maple Workbench
+<natura:redwood_button>, Redwood Button
+<natura:redwood_fence>, Redwood Fence
+<natura:redwood_fence_gate>, Redwood Fence Gate
 <natura:redwood_leaves>, Redwood Leaves
 <natura:redwood_logs>, Redwood Bark
+<natura:redwood_pressure_plate>, Redwood Prssure Plate
 <natura:redwood_sapling>, Redwood Sapling
+<natura:redwood_trap_door>, Redwood Trap Door
 <natura:respawn_obelisk>, Inactive Respawn Obelisk
-<natura:seed_bags>, item.natura.seed_bags.wheat_seed_bag.name
+<natura:saguaro>, Saguaro Cactus
+<natura:saguaro_baby>, Baby Saguaro Cactus
+<natura:saguaro_fruit>, Saguaro Fruit
+<natura:saguaro_fruit_item>, Saguaro Fruit
+<natura:sakura_button>, Sakura Button
+<natura:sakura_fence>, Sakura Fence
+<natura:sakura_fence_gate>, Sakura Fence Gate
+<natura:sakura_pressure_plate>, Sakura Prssure Plate
+<natura:sakura_trap_door>, Sakura Trap Door
+<natura:seed_bags>, Wheat Seed Bag
+<natura:silverbell_button>, Silverbell Button
+<natura:silverbell_fence>, Silverbell Fence
+<natura:silverbell_fence_gate>, Silverbell Fence Gate
+<natura:silverbell_pressure_plate>, Silverbell Prssure Plate
+<natura:silverbell_trap_door>, Silverbell Trap Door
 <natura:soups>, Mushroom Stew
+<natura:sticks>, Maple Sticks
+<natura:tiger_button>, Tiger Button
+<natura:tiger_fence>, Tiger Fence
+<natura:tiger_fence_gate>, Tiger Fence Gate
+<natura:tiger_pressure_plate>, Tiger Prssure Plate
+<natura:tiger_trap_door>, Tiger Trap Door
+<natura:willow_button>, Willow Button
+<natura:willow_fence>, Willow Fence
+<natura:willow_fence_gate>, Willow Fence Gate
+<natura:willow_pressure_plate>, Willow Prssure Plate
+<natura:willow_trap_door>, Willow Trap Door
 <naturescompass:NaturesCompass>, Nature's Compass
+<ninjagear:katana>, Katana
+<ninjagear:ninjaGear_chest>, Ninja Gear Chest
+<ninjagear:ninjaGear_feet>, Ninja Gear Shoes
+<ninjagear:ninjaGear_head>, Ninja Gear Mask
+<ninjagear:ninjaGear_legs>, Ninja Gear Leggings
+<ninjagear:ropeBlock>, Ninja Rope
+<ninjagear:ropeCoil>, Rope Coil
+<ninjagear:ropeItem>, Ninja Rope
+<ninjagear:sai>, Sai
+<ninjagear:shuriken>, Shuriken
+<ninjagear:smoke>, Smoke Bomb Smoke Cloud
+<ninjagear:smokebomb>, Smoke Bomb
 <overlord:baby_skeleton_maker>, Baby Skeleton Maker
-<overlord:baby_spawner>, Baby Skeleton Placer
-<overlord:converted_spawner>, Converted Skeleton Placer
+<overlord:baby_spawner>, Baby Skeleton Spawn Egg
+<overlord:converted_spawner>, Converted Skeleton Spawn Egg
+<overlord:crown>, Overlord's Crown
+<overlord:keychain_empty>, Keychain
+<overlord:keychain_occupied>, Keychain
 <overlord:milk_bottle>, Milk Bottle
 <overlord:overlords_seal>, Overlord's Seal
 <overlord:overlords_stamp>, Overlord's Stamp
@@ -4915,15 +5110,21 @@
 <overlord:skeleton_maker>, Skeleton Warrior Maker
 <overlord:skinsuit>, Skinsuit
 <overlord:squad_editor>, Squad Editor
-<overlord:warrior_spawner>, Skeleton Warrior Placer
+<overlord:warrior_spawner>, Skeleton Warrior Spawn Egg
 <persistentbits:chunk_loader>, Chunk Loader
 <plustic:alumiteblock>, Alumite Block
 <plustic:alumiteingot>, Alumite Ingot
 <plustic:alumitenugget>, Alumite Nugget
+<plustic:invarblock>, Invar Block
+<plustic:invaringot>, Invar Ingot
+<plustic:invarnugget>, Invar Nugget
+<plustic:katana>, Katana
 <plustic:plustic.molten_alumite>, Molten Alumite
-<plustic:plustic.molten_coal>, Molten Coal
+<plustic:plustic.molten_coal>, Liquifacted Coal.name
 <plustic:plustic.molten_enderium>, Molten Enderium
+<plustic:plustic.molten_invar>, Molten Invar
 <plustic:plustic.molten_iridium>, Molten Iridium
+<plustic:plustic.molten_lumium>, Molten Lumium
 <plustic:plustic.molten_platinum>, Molten Platinum
 <plustic:plustic.molten_signalum>, Molten Signalum
 <plustic:plustic.molten_titanium>, Molten Titanium
@@ -4951,6 +5152,12 @@
 <primal:bark_netherpalm>, Corypha Plate
 <primal:bark_oak>, Oak Bark
 <primal:bark_spruce>, Spruce Bark
+<primal:bear_fat>, Bear Fat
+<primal:bear_meat_cooked>, Cooked Bear Meat
+<primal:bear_meat_dried>, Dried Bear Meat
+<primal:bear_meat_raw>, Raw Bear Meat
+<primal:bear_meat_rotten>, Rotten Bear Meat
+<primal:bear_meat_salted>, Salted Bear Meat
 <primal:bone_knapp>, Flaked Bone
 <primal:bone_point>, Flaked Bone Point
 <primal:brass_block>, Brass Block
@@ -4970,6 +5177,8 @@
 <primal:carbonate_stone>, Limestone Stone
 <primal:cheese_white>, Cow Cheese
 <primal:chum>, Chum
+<primal:chunk_netherrack>, Chunk of Netherrack
+<primal:chunk_soulsand>, Chunk of Soulsand
 <primal:cinisclay>, Ciniscotta Unfired
 <primal:cinisclay_block>, Cinis Clay
 <primal:cinisclay_clump>, Cinis Clay Clump
@@ -4980,7 +5189,7 @@
 <primal:copper_ingot>, Copper Ingot
 <primal:copper_nugget>, Copper Nugget
 <primal:copper_plate>, Copper Plate
-<primal:copper_saw>, Copper Handsaw
+<primal:copper_saw>, Copper Hand Saw
 <primal:copper_strand>, Copper Strand
 <primal:corn_bread>, Corn Bread
 <primal:corn_cob>, Corn Cob
@@ -5166,7 +5375,7 @@
 <primal:diamond_knapp>, Flaked Diamond
 <primal:diamond_pickaxe>, Diamond Pickaxe
 <primal:diamond_point>, Flaked Diamond Point
-<primal:diamond_saw>, Diamond Handsaw
+<primal:diamond_saw>, Diamond Hand Saw
 <primal:diamond_shovel>, Diamond Shovel
 <primal:diamond_workblade>, Diamond Work Blade
 <primal:dirt_brick>, Packed Dirt Brick
@@ -5200,7 +5409,7 @@
 <primal:emerald_knapp>, Flaked Emerald
 <primal:emerald_pickaxe>, Emerald Pickaxe
 <primal:emerald_point>, Flaked Emerald Point
-<primal:emerald_saw>, Emerald Handsaw
+<primal:emerald_saw>, Emerald Hand Saw
 <primal:emerald_shovel>, Emerald Shovel
 <primal:emerald_workblade>, Emerald Work Blade
 <primal:fence_ironwood>, Ironwood Fence
@@ -5350,6 +5559,11 @@
 <primal:leather_strip>, Leather Strip
 <primal:lever_nether>, Netherrack Lever
 <primal:lever_wood>, Lever
+<primal:llama_meat_charqui>, Charqui
+<primal:llama_meat_cooked>, Cooked Llama Meat
+<primal:llama_meat_raw>, Raw Llama Meat
+<primal:llama_meat_rotten>, Rotten Llama Meat
+<primal:llama_meat_salted>, Salted Llama Meat
 <primal:loam_block>, Loam
 <primal:mortar>, Mortar
 <primal:muck>, Muck
@@ -5382,7 +5596,7 @@
 <primal:netherpalm_plank>, Corypha Plank
 <primal:netherpalm_seed>, item.primal:netherpalm_seed.name
 <primal:netherpalm_stick>, Corypha Stick
-<primal:netherstone>, Dense Netherrack Stone
+<primal:netherstone>, Netherstone
 <primal:netherwax_block>, Calcified Paraffin
 <primal:netherwax_clump>, Calcified Paraffin Clump
 <primal:obsidian_axe>, Obsidian Axe
@@ -5409,6 +5623,8 @@
 <primal:ovis_meat_dried>, Dried Atre Mutton
 <primal:ovis_meat_raw>, Raw Atre Mutton
 <primal:ovis_meat_rotten>, Rotten Atre Mutton
+<primal:pelt_bear_black>, Black Bear Pelt
+<primal:pelt_bear_brown>, Brown Bear Pelt
 <primal:pelt_bear_polar>, Polar Bear Pelt
 <primal:pelt_cow>, Cow Pelt
 <primal:pelt_dog>, White Wolf Pelt
@@ -5548,7 +5764,10 @@
 <primal:soulstone_flagstone>, Flagstone Soulstone
 <primal:soulstone_normal>, Soulstone
 <primal:soulstone_smooth>, Smooth Soulstone
+<primal:spawn_egg_blackbear>, Spawn Black Bear
+<primal:spawn_egg_brownbear>, Spawn Brown Bear
 <primal:spawn_egg_canis>, Spawn Steppe Wolf
+<primal:spawn_egg_creeper>, Spawn Nether Creepr
 <primal:spawn_egg_ovis>, Spawn Ovis Atre
 <primal:stairs_carbonate_flag>, Limestone Flagstone Stairs
 <primal:stairs_cobblestone_mossy>, Mossy Cobblestone Stairs
@@ -5694,8 +5913,8 @@
 <primal:worktable_birch_log>, Birch Log Work Table
 <primal:worktable_birch_slab>, Birch Work Table
 <primal:worktable_endstone>, End Stone Work Table
-<primal:worktable_ironwood_log>, Ironwood Log Worktable
-<primal:worktable_ironwood_slab>, Ironwood Worktable
+<primal:worktable_ironwood_log>, Ironwood Log Crafting Table
+<primal:worktable_ironwood_slab>, Ironwood Crafting Table
 <primal:worktable_jungle_log>, Jungle Log Work Table
 <primal:worktable_jungle_slab>, Jungle Work Table
 <primal:worktable_lacquer_slab>, Lacquer Work Table
@@ -5703,7 +5922,7 @@
 <primal:worktable_mud_slab>, Dried Mud Work Table Slab
 <primal:worktable_netherearth_shelf>, Nether Earth Work Table
 <primal:worktable_netherearth_slab>, Nether Earth Work Table Slab
-<primal:worktable_netherpalm_slab>, Corypha Worktable
+<primal:worktable_netherpalm_slab>, Corypha Crafting Table
 <primal:worktable_netherstone>, Netherstone Work Table
 <primal:worktable_oak_log>, Oak Work Log Table
 <primal:worktable_oak_slab>, Oak Work Table
@@ -6130,18 +6349,27 @@
 <rockhounding_chemistry:chemFlask>, Flask
 <rockhounding_chemistry:chemicalDusts>, Cerium Dust
 <rockhounding_chemistry:chemicalExtractor>, Chemical Extractor
+<rockhounding_chemistry:chemicalFires>, Boric Acid
 <rockhounding_chemistry:chemicalItems>, Sodium Polyacrylate
 <rockhounding_chemistry:crawlerAssembler>, Mine Crawler Assembler
 <rockhounding_chemistry:cubeCrossbow>, CuBe Crossbow
 <rockhounding_chemistry:cylinder>, Graduated Cylinder
 <rockhounding_chemistry:dekatron>, Dekatron
+<rockhounding_chemistry:depositionChamber>, Deposition Chamber
+<rockhounding_chemistry:earthBreaker>, Boundary Breaker
+<rockhounding_chemistry:fireBlock>, Green Flames
 <rockhounding_chemistry:fluid.acrylic_acid>, Polyacrylic Acid
+<rockhounding_chemistry:fluid.ammonia>, Ammonia
 <rockhounding_chemistry:fluid.chloromethane>, Chloromethane
 <rockhounding_chemistry:fluid.hydrochloric_acid>, Hydrochloric Acid
 <rockhounding_chemistry:fluid.hydrofluoric_acid>, Hydrofluoric Acid
+<rockhounding_chemistry:fluid.nitric_acid>, Nitric Acid
+<rockhounding_chemistry:fluid.phosphoric_acid>, Phosphoric Acid
 <rockhounding_chemistry:fluid.silicone>, Silicone
+<rockhounding_chemistry:fluid.sodium_cyanide>, Sodium Cyanide
 <rockhounding_chemistry:fluid.sulfuric_acid>, Sulfuric Acid
 <rockhounding_chemistry:fluid.syngas>, Syngas
+<rockhounding_chemistry:fluid.titanium_tetrachloride>, Titanium Tetrachloride
 <rockhounding_chemistry:gear>, Crushing Gear
 <rockhounding_chemistry:halideShards>, Boleite Shard
 <rockhounding_chemistry:ingotPattern>, Ingot Pattern
@@ -6152,7 +6380,7 @@
 <rockhounding_chemistry:laserSplitter>, Redstone Laser Node
 <rockhounding_chemistry:metalAlloyer>, Metal Alloyer
 <rockhounding_chemistry:mineCrawler>, Mine Crawler
-<rockhounding_chemistry:mineralAnalyzer>, Mineral Analyzer
+<rockhounding_chemistry:mineralAnalyzer>, Leaching Vat
 <rockhounding_chemistry:mineralOres>, Uninspected Mineral
 <rockhounding_chemistry:mineralSizer>, Mineral Sizer
 <rockhounding_chemistry:miscItems>, Basic Logic Chip
@@ -6165,11 +6393,13 @@
 <rockhounding_chemistry:petrographerTable>, Petrographer Table
 <rockhounding_chemistry:phosphateShards>, Faustite Shard
 <rockhounding_chemistry:saltMaker>, Evaporation Tank
-<rockhounding_chemistry:saltSeasoner>, Salt Seasoning Rack
+<rockhounding_chemistry:saltSeasoner>, Seasoning Rack
 <rockhounding_chemistry:scalBat>, Compound Bat
 <rockhounding_chemistry:scalBow>, Long Range Bow
 <rockhounding_chemistry:silicateShards>, Axinite Shard
 <rockhounding_chemistry:siliconeCartridge>, Silicone Cartridge
+<rockhounding_chemistry:smokeBlock>, Screen Smoke
+<rockhounding_chemistry:splashSmoke>, Smoke Screen Flask
 <rockhounding_chemistry:sulfateShards>, Alunite Shard
 <rockhounding_chemistry:sulfideShards>, Abramovite Shard
 <rockhounding_chemistry:testTube>, Test Tube
@@ -6342,15 +6572,24 @@
 <rockhounding_surface:araucariaFences>, Araucarioxylon Fence
 <rockhounding_surface:araucariaGate>, Araucarioxylon Fence Gate
 <rockhounding_surface:araucariaStairs>, Araucarioxylon Stairs
+<rockhounding_surface:azuriteChiseled>, Fossil Azurite Chiseled Plank
+<rockhounding_surface:azuriteFences>, Fossil Azurite Fence
+<rockhounding_surface:azuriteGate>, Fossil Azurite Fence Gate
+<rockhounding_surface:azuriteStairs>, Fossil Azurite Stairs
+<rockhounding_surface:beechChiseled>, Fossil Beech Chiseled Plank
+<rockhounding_surface:beechFences>, Fossil Beech Fence
+<rockhounding_surface:beechGate>, Fossil Beech Fence Gate
+<rockhounding_surface:beechStairs>, Fossil Beech Stairs
 <rockhounding_surface:betulaChiseled>, Petrified Betula Chiseled Plank
-<rockhounding_surface:betulaFences>, Petrified betula Fence
-<rockhounding_surface:betulaGate>, Petrified betula Fence Gate
-<rockhounding_surface:betulaStairs>, Petrified betula Stairs
-<rockhounding_surface:bogLogs>, Bog Oak Log
+<rockhounding_surface:betulaFences>, Petrified Betula Fence
+<rockhounding_surface:betulaGate>, Petrified Betula Fence Gate
+<rockhounding_surface:betulaStairs>, Petrified Betula Stairs
+<rockhounding_surface:bogLogs>, Bog Oak
 <rockhounding_surface:castanoChiseled>, Castanoxylon Chiseled Plank
 <rockhounding_surface:castanoFences>, Castanoxylon Fence
 <rockhounding_surface:castanoGate>, Castanoxylon Fence Gate
 <rockhounding_surface:castanoStairs>, Castanoxylon Stairs
+<rockhounding_surface:coldLogs>, Fossil Azurite Wood
 <rockhounding_surface:compostBin>, Compost Bin
 <rockhounding_surface:driftwoodChiseled>, Driftwood Chiseled Plank
 <rockhounding_surface:driftwoodFences>, Driftwood Fence
@@ -6359,7 +6598,7 @@
 <rockhounding_surface:fluid.acidic_water>, Acidic Water
 <rockhounding_surface:fluid.aging_bath>, Aging Bath
 <rockhounding_surface:fluid.casting_bath>, Casting Bath
-<rockhounding_surface:fossilLogs>, Palmoxylon Log
+<rockhounding_surface:fossilLogs>, Palmoxylon
 <rockhounding_surface:fossilPlanks>, Bog Oak Plank
 <rockhounding_surface:fossilSlabsHi>, Bog Oak Slab
 <rockhounding_surface:fossilSlabsLo>, Bog Oak Slab
@@ -6402,7 +6641,7 @@
 <rockhounding_surface:palmFences>, Palmoxylon Fence
 <rockhounding_surface:palmGate>, Palmoxylon Fence Gate
 <rockhounding_surface:palmStairs>, Palmoxylon Stairs
-<rockhounding_surface:petrifiedLogs>, Petrified betula Log
+<rockhounding_surface:petrifiedLogs>, Petrified Betula
 <rockhounding_surface:pineChiseled>, Swamp Pine Chiseled Plank
 <rockhounding_surface:pineFences>, Swamp Pine Fence
 <rockhounding_surface:pineGate>, Swamp Pine Fence Gate
@@ -6414,6 +6653,10 @@
 <rockhounding_surface:rainbowFences>, Rainbow Wood Fence
 <rockhounding_surface:rainbowGate>, Rainbow Wood Fence Gate
 <rockhounding_surface:rainbowStairs>, Rainbow Wood Stairs
+<rockhounding_surface:redwoodChiseled>, Yellow Cat Redwood Chiseled Plank
+<rockhounding_surface:redwoodFences>, Yellow Cat Redwood Fence
+<rockhounding_surface:redwoodGate>, Yellow Cat Redwood Fence Gate
+<rockhounding_surface:redwoodStairs>, Yellow Cat Redwood Stairs
 <rockhounding_surface:ricegrassCrop>, Indian Ricegrass
 <rockhounding_surface:ricegrassItem>, Indian Ricegrass
 <rockhounding_surface:ricegrassSeeds>, Indian Ricegrass Seeds
@@ -6426,6 +6669,10 @@
 <rockhounding_surface:spruceFences>, Bog Spruce Fence
 <rockhounding_surface:spruceGate>, Bog Spruce Fence Gate
 <rockhounding_surface:spruceStairs>, Bog Spruce Stairs
+<rockhounding_surface:teredoChiseled>, Teredo-Bored Chiseled Plank
+<rockhounding_surface:teredoFences>, Teredo-Bored Fence
+<rockhounding_surface:teredoGate>, Teredo-Bored Fence Gate
+<rockhounding_surface:teredoStairs>, Teredo-Bored Stairs
 <rockhounding_surface:truffleAuction>, Truffle Auction Table
 <rockhounding_surface:truffle_canape>, Truffle Canape
 <rockhounding_surface:truffle_fillet>, Fillet with Truffles
@@ -6466,15 +6713,27 @@
 <spartanshields:shield_basic_bronze>, Bronze Plated Shield
 <spartanshields:shield_basic_copper>, Copper Braced Shield
 <spartanshields:shield_basic_diamond>, Diamond Reinforced Shield
+<spartanshields:shield_basic_electrum>, Electrum Plated Shield
+<spartanshields:shield_basic_enderium>, Enderium Strengthened Shield
 <spartanshields:shield_basic_gold>, Gold Gilded Shield
+<spartanshields:shield_basic_invar>, Invar Plated Shield
 <spartanshields:shield_basic_iron>, Iron Plated Shield
+<spartanshields:shield_basic_lead>, Lead Plated Shield
+<spartanshields:shield_basic_lumium>, Radiant Lumium Shield
+<spartanshields:shield_basic_nickel>, Nickel Braced Shield
 <spartanshields:shield_basic_obsidian>, Bulky Obsidian Shield
+<spartanshields:shield_basic_platinum>, Platinum Plated Shield
+<spartanshields:shield_basic_signalum>, Signalum Strengthened Shield
 <spartanshields:shield_basic_silver>, Silver Gilded Shield
 <spartanshields:shield_basic_steel>, Steel Plated Shield
 <spartanshields:shield_basic_stone>, Stone Braced Shield
 <spartanshields:shield_basic_tin>, Tin Braced Shield
 <spartanshields:shield_basic_wood>, Crude Wooden Shield
-<spartanshields:shield_riot_enderio>, Fluxed Riot Shield
+<spartanshields:shield_botania_elementium>, Elementium Plated Shield
+<spartanshields:shield_botania_manasteel>, Manasteel Plated Shield
+<spartanshields:shield_botania_terrasteel>, Terrasteel Strengthened Shield
+<spartanshields:shield_flux_ra>, Flux-Infused Shield
+<spartanshields:shield_riot_enderio>, Dark Steel Riot Shield
 <spartanshields:shield_riot_rftools>, Infused Riot Shield
 <spiceoflife:bookfoodjournal>, Food Journal
 <spiceoflife:lunchbag>, Lunch Bag
@@ -6966,6 +7225,8 @@
 <thebetweenlands:cragrock_bricks>, Cragrock Bricks
 <thebetweenlands:cragrock_chiseled>, Chiseled Cragrock
 <thebetweenlands:cragrock_pillar>, Cragrock Pillar
+<thebetweenlands:cragrock_slab>, Cragrock Slab
+<thebetweenlands:cragrock_stairs>, Cragrock Stairs
 <thebetweenlands:cragrock_tiles>, Cragrock Tiles
 <thebetweenlands:cragrock_wall>, Cragrock Wall
 <thebetweenlands:crimson_middle_gem>, Crimson Middle Gem
@@ -7126,7 +7387,10 @@
 <thebetweenlands:pitstone_bricks>, Pitstone Bricks
 <thebetweenlands:pitstone_chiseled>, Chiseled Pitstone
 <thebetweenlands:pitstone_pillar>, Pitstone Pillar
+<thebetweenlands:pitstone_slab>, Pitstone Slab
+<thebetweenlands:pitstone_stairs>, Pitstone Stairs
 <thebetweenlands:pitstone_tiles>, Pitstone Tiles
+<thebetweenlands:pitstone_wall>, Pitstone Wall
 <thebetweenlands:poison_ivy>, Poison Ivy
 <thebetweenlands:poisoned_angler_tooth_arrow>, Poisoned Angler Tooth Arrow
 <thebetweenlands:polished_dentrothyst>, Green Polished Dentrothyst
@@ -7252,6 +7516,8 @@
 <thebetweenlands:tall_cattail>, Tall Cattail
 <thebetweenlands:tangled_root>, Tangled Root
 <thebetweenlands:tar>, tile.thebetweenlands.tar.name
+<thebetweenlands:tar_beast_spawner>, Tar Beast Spawner
+<thebetweenlands:tar_loot_pot>, Tar Pot of Chance
 <thebetweenlands:tar_solid>, Solid Tar
 <thebetweenlands:tar_solid_slab>, Solid Tar Slab
 <thebetweenlands:tar_solid_stairs>, Solid Tar Stairs
@@ -7534,18 +7800,20 @@
 <thermalfoundation:tool.sword_silver>, Silver Sword
 <thermalfoundation:tool.sword_tin>, Tin Sword
 <thermalfoundation:wrench>, Crescent Hammer
+<tinkersdefense:aeonsteelblock>, tile.aeonsteelblock.name
 <tinkersdefense:aeonsteelingot>, item.aeonsteelingot.name
+<tinkersdefense:crestmount>, tile.crestmount.name
+<tinkersdefense:dogbeariumblock>, tile.dogbeariumblock.name
 <tinkersdefense:dogbeariumingot>, item.dogbeariumingot.name
-<tinkersdefense:gingerbread>, item.gingerbread.name
-<tinkersdefense:greenmintIngot>, item.greenmintIngot.name
-<tinkersdefense:greenmintcane>, item.greenmintcane.name
-<tinkersdefense:gumdrop>, item.gumdrop.black.name
+<tinkersdefense:greencandyblock>, tile.greencandyblock.name
 <tinkersdefense:heatershield>, Heater Shield
+<tinkersdefense:queensgoldblock>, tile.queensgoldblock.name
 <tinkersdefense:queensgoldingot>, item.queensgoldingot.name
-<tinkersdefense:redmintIngot>, item.redmintIngot.name
-<tinkersdefense:redmintcane>, item.redmintcane.name
+<tinkersdefense:redcandyblock>, tile.redcandyblock.name
 <tinkersdefense:roundshield>, Buckler
-<tombmanygraves:DEATH_BLOCK>, Player Grave
+<tinkersdefense:sheathe>, item.null.name
+<tinkersdefense:zweihander>, item.null.name
+<tombmanygraves:ATH_BLOCK>, Player Grave
 <tombmanygraves:DeathList>, Death Inventory List
 <vc:achievements/achievement_airship>, Icon - create_engine
 <vc:achievements/achievement_airship_portal>, Icon - Portal
@@ -7561,12 +7829,7 @@
 <vc:item_airship_dismounter>, Dismounter
 <vc:item_balloon_colorizer>, Balloon Colorizer
 <vc:item_viesoline>, Viesoline Pellets
-<vc:module_chip>, Module Chip
-<vc:module_fuel_infinite>, Infinite Fuel Module
-<vc:module_inventory_large>, Large Inventory Module
-<vc:module_inventory_small>, Small Inventory Module
-<vc:module_speed_increase_major>, Major Speed Boost Module
-<vc:module_speed_increase_minor>, Minor Speed Boost Module
+<vc:modules/airship_module>, Logic Chip
 <vc:patterns/airship_balloon_pattern>, Plain Balloon Pattern
 <vc:v1/item_airship_v1>, Oak Viesdenburg
 <vc:v2/item_airship_v2>, Oak Viesigible
