@@ -374,21 +374,34 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 
 # Immersive Engineering
     # Conveyor Belts
+    val conveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})
     recipes.remove(<immersiveengineering:conveyor>);
-    recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8,[
-        [<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
-        [<ore:gearStone>,<ore:dustRedstone>,<ore:gearStone>]]);
-    recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 12,[
-        [<ore:leather>,<ore:leather>,<ore:leather>],
-        [<ore:gearStone>,<ore:dustRedstone>,<ore:gearStone>]]);
+    recipes.addShaped(conveyor * 8,
+        [[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
+         [<ore:gearStone>,<ore:dustRedstone>,<ore:gearStone>]]);
+    recipes.addShaped(conveyor * 12,
+        [[<ore:leather>,<ore:leather>,<ore:leather>],
+         [<ore:gearStone>,<ore:dustRedstone>,<ore:gearStone>]]);
     recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}) * 3,
-        [[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotBrass>],
-         [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), null],
-         [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotBrass>]]);
+        [[conveyor, <ore:ingotBrass>],
+         [conveyor, null],
+         [conveyor, <ore:ingotBrass>]]);
     recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}) * 3,
-        [[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotBrass>],
-         [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), null],
-         [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), null]]);
+        [[conveyor, <ore:ingotBrass>, conveyor],
+         [null, conveyor, null]]);
+    recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}) * 3,
+        [[conveyor, <ore:ingotIron>],
+         [conveyor, null],
+         [conveyor, <ore:ingotIron>]]);
+    recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}) * 3,
+        [[conveyor, <ore:ingotIron>, conveyor],
+         [null, conveyor, null]]);
+    recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
+        [[conveyor],
+         [<minecraft:trapdoor:*>]]);
+    recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
+        [[<ore:scaffoldingSteel>],
+         [conveyor]]);
     # Coke Oven
     recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
         [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
