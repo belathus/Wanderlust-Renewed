@@ -125,7 +125,7 @@
     recipes.addShapeless(<dungeontactics:golden_sword>, [<minecraft:golden_sword>.noReturn()]);
 
 # EvilCraft
-    val rodBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
+    val rodBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_bare"]});
     val brushBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_bare"]});
     val capBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
     recipes.remove(<evilcraft:broomPart>);
@@ -141,12 +141,9 @@
         [[<evilcraft:darkGemCrushed>],
          [<ore:gemDark>],
          [<evilcraft:darkGemCrushed>]]);
+    # Rods
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_undead"]}),
         [rodBare, <evilcraft:undeadPlank>, <evilcraft:undeadPlank>, <evilcraft:undeadPlank>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_feather"]}),
-        [rodBare, <minecraft:feather:*>, <minecraft:feather:*>, <minecraft:feather:*>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_wither"]}),
-        [rodBare, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_wood"]}),
         [rodBare, <ore:plankWood>, <ore:plankWood>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_stone"]}),
@@ -171,12 +168,18 @@
         [rodBare, <minecraft:end_stone>, <minecraft:end_stone>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_purpur"]}),
         [rodBare, <minecraft:purpur_block>, <minecraft:purpur_block>]);
+    # Brushes
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_wheat"]}),
         [brushBare, <minecraft:hay_block>, <minecraft:hay_block>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_wool"]}),
         [brushBare, <minecraft:wool:*>, <minecraft:wool:*>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_leaves"]}),
         [brushBare, <ore:treeLeaves>, <ore:treeLeaves>]);
+    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_feather"]}),
+        [brushBare, <minecraft:feather:*>, <minecraft:feather:*>, <minecraft:feather:*>]);
+    # Caps
+    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_wither"]}),
+        [capBare, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_dark"]}),
         [capBare, <ore:gemDark>, <ore:gemDark>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_diamond"]}),
