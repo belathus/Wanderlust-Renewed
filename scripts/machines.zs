@@ -304,7 +304,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<deepresonance:machine_frame>);
     recipes.addShaped(<deepresonance:machine_frame>,
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
-         [<ore:gearAluminum>,null,<ore:gearAluminum>],
+         [<ore:gearLead>,null,<ore:gearLead>],
          [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
 
 # EnderIo
@@ -320,8 +320,8 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<enderio:blockSagMill>);
     recipes.addShaped(<enderio:blockSagMill>,
         [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
-         [<ore:ingotSteel>,<enderio:itemMachinePart>,<ore:ingotSteel>],
-         [<ore:ingotSteel>,<minecraft:piston>,       <ore:ingotSteel>]]);
+         [<ore:ingotSteel>,<ore:itemMachineChassi>,<ore:ingotSteel>],
+         [<ore:ingotSteel>,<immersiveengineering:metalDecoration0:5>,<ore:ingotSteel>]]);
     recipes.remove(<enderio:blockAlloySmelter>);
     recipes.addShaped(<enderio:blockAlloySmelter>,
         [[<ore:ingotSteel>, <minecraft:furnace:*>, <ore:ingotSteel>],
