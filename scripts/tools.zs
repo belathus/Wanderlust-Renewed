@@ -72,6 +72,31 @@
     recipes.remove(<actuallyadditions:itemShovelObsidian>); # Obsidian Shovel
     recipes.remove(<actuallyadditions:itemSwordEmerald>); # Emerald Sword
     recipes.remove(<actuallyadditions:itemSwordObsidian>); # Obsidian Sword
+    recipes.remove(<actuallyadditions:itemPickaxeQuartz>);
+    recipes.addShaped(<actuallyadditions:itemPickaxeQuartz>,
+        [[<ore:gemDark>, <ore:gemDark>, <ore:gemDark>],
+         [null, <minecraft:stick>, null],
+         [null, <minecraft:stick>, null]]);
+    recipes.remove(<actuallyadditions:itemAxeQuartz>);
+    recipes.addShapedMirrored(<actuallyadditions:itemAxeQuartz>,
+        [[<ore:gemDark>, <ore:gemDark>],
+         [<ore:gemDark>, <ore:stickWood>],
+         [null,          <ore:stickWood>]]);
+    recipes.remove(<actuallyadditions:itemHoeQuartz>);
+    recipes.addShapedMirrored(<actuallyadditions:itemHoeQuartz>,
+        [[<ore:gemDark>, <ore:gemDark>],
+         [null,          <ore:stickWood>],
+         [null,          <ore:stickWood>]]);
+    recipes.remove(<actuallyadditions:itemSwordQuartz>);
+    recipes.addShaped(<actuallyadditions:itemSwordQuartz>,
+        [[<ore:gemDark>],
+         [<ore:gemDark>],
+         [<ore:stickWood>]]);
+    recipes.remove(<actuallyadditions:itemShovelQuartz>);
+    recipes.addShaped(<actuallyadditions:itemShovelQuartz>,
+        [[<ore:gemDark>],
+         [<ore:stickWood>],
+         [<ore:stickWood>]]);
 
 # Base Metals
 #    recipes.remove(<basemetals:copper_crackhammer>);
