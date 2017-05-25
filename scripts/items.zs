@@ -301,6 +301,9 @@
 # Rockhounding
     # Fuel to fuel pellets
     recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
+    #recipes.remove(<rockhounding_chemistry:miscItems:19>);
+    recipes.addShaped(<rockhounding_chemistry:miscItems:19>,
+        [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);
