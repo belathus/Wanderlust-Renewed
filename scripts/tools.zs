@@ -162,7 +162,7 @@
     val capBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
     recipes.remove(<evilcraft:broomPart>);
     recipes.addShaped(rodBare,
-        [[minecraft:chorus_flower, <evilcraft:darkStick>, minecraft:chorus_flower],
+        [[minecraft:chorus_flower, <evilcraft:darkStick>, <minecraft:chorus_flower>],
          [<evilcraft:darkGemCrushed>, <evilcraft:darkStick>, <evilcraft:darkGemCrushed>],
          [minecraft:chorus_flower, <evilcraft:darkStick>, minecraft:chorus_flower]]);
     recipes.addShaped(brushBare,

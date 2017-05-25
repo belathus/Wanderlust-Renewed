@@ -11,8 +11,8 @@
          [<evilcraft:darkGemCrushed>, <ore:ingotSilver>, <evilcraft:darkGemCrushed>]]);
          
 # Extra Utilities
-    val ghast_lasso = <extrautils2:goldenlasso:1>.withTag({Animal: {id: "Ghast"}, No_Place: 1 as byte})
-    val bat_lasso = <extrautils2:goldenlasso>.withTag({Animal: {id: "Bat"}, No_Place: 1 as byte})
+    val ghast_lasso = <extrautils2:goldenlasso:1>.withTag({Animal: {id: "Ghast"}, No_Place: 1 as byte});
+    val bat_lasso = <extrautils2:goldenlasso>.withTag({Animal: {id: "Bat"}, No_Place: 1 as byte});
     recipes.addShaped(<extrautils2:angelring>,
         [[<base:nugget:80>, <minecraft:chorus_flower>, <base:nugget:80>],
          [<base:nugget:80>, <extrautils2:ingredients>, <base:nugget:80>],
