@@ -49,6 +49,7 @@
     recipes.addShapeless(<minecraft:torch>,[<primal:torch_wood_lit>]);
     
 # Actually Additions
+    recipes.addShapeless(<actuallyadditions:itemMisc:5>, [<evilcraft:darkGem>]);
     recipes.remove(<actuallyadditions:itemMisc:10>);
     recipes.remove(<actuallyadditions:itemMisc:11>);
     recipes.remove(<actuallyadditions:itemSpawnerChanger>);
@@ -69,6 +70,36 @@
         [[<ore:nuggetPhilosophersGold>, <actuallyadditions:itemMisc:20>, <ore:nuggetPhilosophersGold>],
          [<actuallyadditions:itemMisc:20>, <actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemMisc:20>],
          [<ore:nuggetPhilosophersGold>, <actuallyadditions:itemMisc:20>, <ore:nuggetPhilosophersGold>]]);
+    # Lens
+    recipes.remove(<actuallyadditions:itemMisc:18>);
+    recipes.addShaped(<actuallyadditions:itemMisc:18>,
+        [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+         [<ore:blockGlass>, <ore:gemDark>, <ore:blockGlass>],
+         [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+    recipes.remove(<actuallyadditions:itemMiningLens>);
+    recipes.addShaped(<actuallyadditions:itemMiningLens>,
+        [[<ore:blockDiamond>, <base:ingot:80>, <ore:blockSteel>],
+         [<ore:blockCoal>, <actuallyadditions:itemMisc:18>, <evilcraft:darkBlock>],
+         [<ore:gemQuartz>, <ore:blockLapis>, <ore:blockEmerald>]]);
+    recipes.remove(<actuallyadditions:itemFilter>);
+    recipes.addShaped(<actuallyadditions:itemFilter>,
+        [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
+         [<minecraft:iron_bars>, <ore:gemDark>, <minecraft:iron_bars>],
+         [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
+    recipes.remove(<actuallyadditions:itemCrateKeeper>);
+    recipes.addShaped(<actuallyadditions:itemCrateKeeper>,
+        [[<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>],
+         [<ore:ingotIron>, <ore:gemDark>,   <ore:ingotIron>],
+         [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>]]);
+    recipes.remove(<actuallyadditions:itemMisc:7>);
+    recipes.addShaped(<actuallyadditions:itemMisc:7>, # Coil
+        [[null, <actuallyadditions:itemCrystal>, null],
+         [<actuallyadditions:itemCrystal>, <ore:gemDark>, <actuallyadditions:itemCrystal>],
+         [null, <actuallyadditions:itemCrystal>, null]]);
+    # Ender Star
+    recipes.remove(<actuallyadditions:itemMisc:19>);
+    recipes.addShapeless(<actuallyadditions:itemMisc:19>,
+        [<minecraft:nether_star>, <minecraft:dragon_breath>, <ore:gemDark>, <minecraft:prismarine_shard>]);
          
 # AbyssalCraft
     recipes.remove(<abyssalcraft:ironp>);
@@ -140,6 +171,9 @@
 #    recipes.addShaped(<esteemedinnovation:blank_mold>,
 #        [[<ore:ingotBrick>,<embers:plateCaminiteRaw>,<ore:ingotBrick>],
 #         [<ore:ingotBrick>,<ore:ingotBrickSeared>,<ore:ingotBrick>]]);
+
+# EvilCraft
+    recipes.addShapeless(<evilcraft:darkGem>, [<actuallyadditions:itemMisc:5>]);
 
 # Fishing Net Mod
     recipes.remove(<fishing:itemNet>);
