@@ -31,6 +31,8 @@
     <ore:coilCopper>.add(<immersiveengineering:metalDecoration0>);
     <ore:coilElectrum>.add(<immersiveengineering:metalDecoration0:1>);
     <ore:coilAluminum>.add(<immersiveengineering:metalDecoration0:2>);
+# Dark Gems
+    <ore:gemDark>.add(<actuallyadditions:itemMisc:5>);
 # Doors to doorWood oredict
     val doors = [
         <minecraft:acacia_door>,
