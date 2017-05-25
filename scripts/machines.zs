@@ -374,7 +374,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 
 # Immersive Engineering
     # Conveyor Belts
-    val conveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})
+    val conveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"});
     recipes.remove(<immersiveengineering:conveyor>);
     recipes.addShaped(conveyor * 8,
         [[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
@@ -402,6 +402,10 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
         [[<ore:scaffoldingSteel>],
          [conveyor]]);
+    recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
+        [conveyor]);
+    recipes.addShapeless(conveyor,
+        [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
     # Coke Oven
     recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
         [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
