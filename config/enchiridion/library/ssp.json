@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "item": "asteralsorcery:ItemJournal",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "arsmagica2:arcane_compendium",
       "handlerType": "rightclick",
       "matchDamage": false,
