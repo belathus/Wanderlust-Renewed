@@ -3,12 +3,12 @@
     recipes.addShaped(<evilcraft:vengeanceRing>,
         [[<evilcraft:darkGemCrushed>, <ore:ingotBrass>, <evilcraft:darkGemCrushed>],
          [<ore:ingotBrass>, null, <ore:ingotBrass>],
-             [<evilcraft:darkGemCrushed>, <ore:ingotBrass>, <evilcraft:darkGemCrushed>]]);
+         [<evilcraft:darkGemCrushed>, <ore:ingotBrass>, <evilcraft:darkGemCrushed>]]);
     recipes.remove(<evilcraft:vengeanceFocus>);
     recipes.addShaped(<evilcraft:vengeanceFocus>,
-        [[<evilcraft:darkGemCrushed>, <minecraft:iron_ingot>, <evilcraft:darkGemCrushed>],
-         [<minecraft:iron_ingot>, <evilcraft:vengeanceRing>, <minecraft:iron_ingot>],
-         [<evilcraft:darkGemCrushed>, <minecraft:iron_ingot>, <evilcraft:darkGemCrushed>]]);
+        [[<evilcraft:darkGemCrushed>, <ore:ingotSilver>, <evilcraft:darkGemCrushed>],
+         [<ore:ingotSilver>, <evilcraft:vengeanceRing>, <ore:ingotSilver>],
+         [<evilcraft:darkGemCrushed>, <ore:ingotSilver>, <evilcraft:darkGemCrushed>]]);
          
 # Extra Utilities
     val ghast_lasso = <extrautils2:goldenlasso:1>.withTag({Animal: {id: "Ghast"}, No_Place: 1 as byte})
