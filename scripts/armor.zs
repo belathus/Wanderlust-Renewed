@@ -19,6 +19,26 @@
     #    [[<natura:materials:6>,null,<natura:materials:6>],
     #     [<natura:materials:6>,null,<natura:materials:6>]]);
 
+    # Actually Additions
+    recipes.remove(<actuallyadditions:itemHelmQuartz>);
+    recipes.remove(<actuallyadditions:itemChestQuartz>);
+    recipes.remove(<actuallyadditions:itemPantsQuartz>);
+    recipes.remove(<actuallyadditions:itemBootsQuartz>);
+    recipes.addShaped(<actuallyadditions:itemHelmQuartz>,
+        [[<ore:gemDark>, <ore:gemDark>, <ore:gemDark>],
+         [<ore:gemDark>, null,          <ore:gemDark>]]);
+    recipes.addShaped(<actuallyadditions:itemChestQuartz>,
+        [[<ore:gemDark>, null,          <ore:gemDark>],
+         [<ore:gemDark>, <ore:gemDark>, <ore:gemDark>],
+         [<ore:gemDark>, <ore:gemDark>, <ore:gemDark>]]);
+    recipes.addShaped(<actuallyadditions:itemPantsQuartz>,
+        [[<ore:gemDark>, <ore:gemDark>, <ore:gemDark>],
+         [<ore:gemDark>, null,          <ore:gemDark>],
+         [<ore:gemDark>, null,          <ore:gemDark>]]);
+    recipes.addShaped(<actuallyadditions:itemBootsQuartz>,
+        [[<ore:gemDark>, null, <ore:gemDark>],
+         [<ore:gemDark>, null, <ore:gemDark>]]);
+
 # Ars Magica
     recipes.remove(<arsmagica2:helmet_battlemage>);
     recipes.remove(<arsmagica2:chest_battlemage>);
