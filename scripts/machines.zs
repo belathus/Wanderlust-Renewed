@@ -49,7 +49,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<actuallyadditions:blockMisc:9>); # Iron casing
     recipes.addShaped(<actuallyadditions:blockMisc:9>,
         [[<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>],
-         [<ore:stickWood>, <actuallyadditions:itemMisc:5>, <ore:stickWood>],
+         [<ore:stickWood>, <ore:gemDark>, <ore:stickWood>],
          [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>]]);
     recipes.addShaped(<actuallyadditions:blockGrinder>,
         [[<ore:ingotSteel>, <extrautils2:spike_diamond>, <ore:ingotSteel>],
@@ -59,6 +59,10 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>],
          [<actuallyadditions:blockGrinder:*>, <ore:frameSteel>, <actuallyadditions:blockGrinder:*>],
          [<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>]]);
+    recipes.addShapeless(<actuallyadditions:blockLaserRelayItemWhitelist>,
+        [<actuallyadditions:blockLaserRelayItem>, <actuallyadditions:itemMisc:8>, <ore:gemDark>, <actuallyadditions:itemCrystal>]);
+    recipes.addShapeless(<actuallyadditions:blockInputterAdvanced>,
+        [<actuallyadditions:blockInputter>, <actuallyadditions:itemMisc:8>, <ore:gemDark>, <actuallyadditions:itemCrystal>]);
 
 # Advanced Rocketry
     recipes.remove(<advancedrocketry:blastBrick>);
