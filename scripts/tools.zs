@@ -30,6 +30,11 @@
     recipes.addShapeless(<minecraft:diamond_hoe>, [<primal:diamond_hoe>.noReturn()]);
     recipes.addShapeless(<minecraft:diamond_pickaxe>, [<primal:diamond_pickaxe>.noReturn()]);
 
+    recipes.addShaped(<minecraft:golden_sword>,
+        [[<ore:ingotGold>],
+         [<ore:ingotGold>],
+         [<ore:stickWood>]]);
+
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
         [<ore:flakeFlint>,<ore:ringIron>]);
@@ -145,9 +150,11 @@
     recipes.remove(<dungeontactics:iron_sword>);
     recipes.remove(<dungeontactics:diamond_sword>);
     recipes.remove(<dungeontactics:golden_sword>);
+    recipes.remove(<dungeontactics:copper_sword>);
     recipes.addShapeless(<dungeontactics:iron_sword>, [<minecraft:iron_sword>.noReturn()]);
     recipes.addShapeless(<dungeontactics:diamond_sword>, [<minecraft:diamond_sword>.noReturn()]);
     recipes.addShapeless(<dungeontactics:golden_sword>, [<minecraft:golden_sword>.noReturn()]);
+    recipes.addShapeless(<dungeontactics:copper_sword>, [<thermalfoundation:tool.sword_copper>.noReturn()]);
 
 # EvilCraft
     val rodBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_bare"]});
@@ -155,9 +162,9 @@
     val capBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
     recipes.remove(<evilcraft:broomPart>);
     recipes.addShaped(rodBare,
-        [[null, <evilcraft:darkStick>, null],
-         [<evilcraft:darkGemCrushed>, <minecraft:elytra>.reuse(), <evilcraft:darkGemCrushed>],
-         [null, <evilcraft:darkStick>, null]]);
+        [[minecraft:chorus_flower, <evilcraft:darkStick>, minecraft:chorus_flower],
+         [<evilcraft:darkGemCrushed>, <evilcraft:darkStick>, <evilcraft:darkGemCrushed>],
+         [minecraft:chorus_flower, <evilcraft:darkStick>, minecraft:chorus_flower]]);
     recipes.addShaped(brushBare,
         [[<evilcraft:darkGemCrushed>, <evilcraft:darkGemCrushed>, <evilcraft:darkGemCrushed>],
          [null, <evilcraft:darkStick>, null],
