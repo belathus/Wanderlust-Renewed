@@ -1,5 +1,5 @@
 <galaxy>
-  <star name="Vanir" temp="100" x="0" y="0" numPlanets="10" numGasGiants="1">
+  <star name="Vanir" temp="100" x="10" y="0" numPlanets="0" numGasGiants="0">
     <planet name="Forseti" DIMID="259" >
       <fogColor>            0.1,0.1,0.1   </fogColor>
       <skyColor>            0.1,0.1,0.1   </skyColor>
@@ -106,7 +106,7 @@
   </star>
   
   
-  <star name="Kerbol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+  <star name="Kerbol" temp="100" x="0" y="10" numPlanets="0" numGasGiants="0">
     <planet name="Moho" DIMID="200">
       <fogColor>0x769554a</fogColor>
       <skyColor>0x7000000</skyColor>
@@ -283,7 +283,7 @@
       <biomeIds>113</biomeIds>
     </planet>
   </star>
-  <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+  <star name="Sol" temp="100" x="10" y="10" numPlanets="0" numGasGiants="0">
     <planet name="Hermes" DIMID="300">
       <fogColor>          1.0, 0.3, 0.3   </fogColor>
       <skyColor>          1.0, 0.0, 0.0   </skyColor>
