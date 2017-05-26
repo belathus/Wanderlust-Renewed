@@ -61,14 +61,8 @@
       "matchNBT": false
     },
     {
-      "item": "guideapi:ItemGuideBook",
-      "handlerType": "copynbt",
-      "matchDamage": false,
-      "matchNBT": false
-    },
-    {
       "item": "bloodmagic:ItemSanguineBook",
-      "handlerType": "copynbt",
+      "handlerType": "rightclick",
       "matchDamage": false,
       "matchNBT": false
     },
@@ -182,7 +176,7 @@
     },
     {
       "item": "guideapi:ItemGuideBook",
-      "handlerType": "copynbt",
+      "handlerType": "rightclick",
       "matchDamage": false,
       "matchNBT": false
     },
