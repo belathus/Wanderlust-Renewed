@@ -18,7 +18,7 @@
          [<base:nugget:80>, <extrautils2:ingredients>, <base:nugget:80>],
          [bat_lasso, <ore:ingotGold>, ghast_lasso]]);
     recipes.addShaped(<extrautils2:angelring:1>,
-        [[<minecraft:feather>, <extrautils2:angelring:*>, <minecraft:feather>]];
+        [[<minecraft:feather>, <extrautils2:angelring:*>, <minecraft:feather>]]);
     recipes.addShaped(<extrautils2:angelring:2>,
         [[<ore:dyePurple>, <extrautils2:angelring:*>, <ore:dyePink>]]);
     recipes.addShaped(<extrautils2:angelring:3>,
