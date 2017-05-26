@@ -99,6 +99,11 @@
          [<ore:ingotBrass>,<ore:chest>,<ore:ingotBrass>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
 
+# Immersive Engineering
+    # Encourage players to actually make reinforced crates by making them vastly cheaper
+    recipes.remove(<immersiveengineering:woodenDevice0:5>);
+    recipes.addShapeless(<immersiveengineering:woodenDevice0:5>,
+        [<ore:plateSteel>, <immersiveengineering:woodenDevice0>]);
 
 # Iron Chests
     # Iron
