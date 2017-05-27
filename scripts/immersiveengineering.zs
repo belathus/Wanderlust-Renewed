@@ -68,7 +68,7 @@
     # Pyrite:      weight:20, fail:10%, Iron:0.50, Sulfur:0.50
         mods.immersiveengineering.Excavator.removeMineral("Pyrite");
     # Quartzite:   weight: 5, Fail:30%, Quartz:0.6, CertusQuartz:0.4
-        mods.immersiveengineering.Excavator.getMineral("Quarzite").addOre("oreDark", 0.25);
+        mods.immersiveengineering.Excavator.getMineral("Quartzite").addOre("oreDark", 0.25);
     # Sphalerite: adding new mineral group
         mods.immersiveengineering.Excavator.addMineral("Sphalerite", 15, 0.2, ["oreZinc", "oreGoethite"], [0.75, 0.25]);
     # Silver:      weight:10, Fail:20%, Silver:0.55, Lead:0.4, Dense Silver:0.05
