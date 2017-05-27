@@ -34,10 +34,10 @@
     recipes.addShaped(<minecraft:stick>*8,
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:logWood>]]);
-    recipes.addShaped(<minecraft:stick>*4,
+    recipes.addShaped(<minecraft:stick>*2,
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:plankWood>]]);
-    recipes.addShaped(<minecraft:stick>*2,
+    recipes.addShaped(<minecraft:stick>*1,
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:slabWood>]]);
     recipes.addShapeless(<minecraft:clay_ball>*4,

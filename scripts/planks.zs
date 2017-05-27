@@ -1,6 +1,7 @@
 
 # Planks List
     var list_logs = [
+        # Log, Plank, Stairs, Slab
         [<biomesoplenty:log_0:4>, <biomesoplenty:planks_0:0>, <biomesoplenty:sacred_oak_stairs>, <biomesoplenty:wood_slab_0:0>],
         [<biomesoplenty:log_0:5>, <biomesoplenty:planks_0:1>, <biomesoplenty:cherry_stairs>, <biomesoplenty:wood_slab_0:1>],
         [<biomesoplenty:log_0:6>, <biomesoplenty:planks_0:2>, <biomesoplenty:umbran_stairs>, <biomesoplenty:wood_slab_0:2>],
@@ -173,10 +174,13 @@
         recipes.addShapeless(plank * 3, 
             [stair, stair, stair, stair]);
         recipes.remove(stair);
-        recipes.addShapedMirrored(stair * 8, 
+        recipes.addShapedMirrored(stair * 8,
             [[plank, null, null],
              [plank, plank, null],
              [plank, plank, plank]]);
+        recipes.addShapedMirrored(stair * 4,
+            [[plank, null],
+             [plank, plank]]);
         recipes.addShapeless(plank, 
             [slab, slab]);
     }
