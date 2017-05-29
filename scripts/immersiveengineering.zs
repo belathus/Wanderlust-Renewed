@@ -9,6 +9,9 @@
         mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 2, 1000, <ore:itemAnthracite>, 1800);
 
 # Crusher
+    # Evilcraft
+        mods.immersiveengineering.Crusher.addRecipe(<evilcraft:darkGemCrushed>,<abyssalcraft:shadowgem>,600);
+
     # Platinum processing
         mods.immersiveengineering.Crusher.removeRecipe(<base:ore_platinum>);
         mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
