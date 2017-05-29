@@ -12,6 +12,9 @@
     # Evilcraft
         mods.immersiveengineering.Crusher.addRecipe(<evilcraft:darkGemCrushed>,<abyssalcraft:shadowgem>,600);
 
+    # Extra Utilities
+        mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>,<extrautils2:redorchid>,600);
+
     # Platinum processing
         mods.immersiveengineering.Crusher.removeRecipe(<base:ore_platinum>);
         mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
