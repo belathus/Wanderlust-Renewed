@@ -8,6 +8,9 @@
     furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 0.5);
     furnace.addRecipe(<minecraft:magma_cream> * 4, <xreliquary:mob_ingredient:7>, 1.5);
 
+# Base
+    furnace.addRecipe(<base:ingot:25>, <base:dust:25>, 0.5);
+
 # Biomes O' Plenty
     furnace.addRecipe(<biomesoplenty:mud_brick>, <ore:clumpMud>);
 
