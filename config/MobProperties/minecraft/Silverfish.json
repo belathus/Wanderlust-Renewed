@@ -1,6 +1,70 @@
 {
   "_name": "Silverfish",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "choose",
+      "functions" : [
+        {
+          "function" : "add",
+          "weight" : 10,
+          "id" : "immersiveengineering:metal",
+          "damage" : 23,
+          "count" : "0~1"
+        }
+      ]
+    }
+    {
+      "function" : "if_above_looting_0",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            {
+              "function" : "add",
+              "weight" : 10,
+              "id" : "immersiveengineering:metal",
+              "damage" : 23,
+              "count" : "0~1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_1",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            {
+              "function" : "add",
+              "weight" : 10,
+              "id" : "immersiveengineering:metal",
+              "damage" : 23,
+              "count" : "0~1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_2",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            {
+              "function" : "add",
+              "weight" : 10,
+              "id" : "immersiveengineering:metal",
+              "damage" : 23,
+              "count" : "0~1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
