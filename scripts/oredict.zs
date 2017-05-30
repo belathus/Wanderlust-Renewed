@@ -1,4 +1,6 @@
     #<ore:stickIron>.add(<fp:spaceship:12>);
+# Aquamarine Ore
+    <ore:oreAquamarine>.add(<astralsorcery:blockCustomSandOre>);
 # Ash
     <ore:dustAsh>.add(<biomesoplenty:ash>);
     #<ore:dustAsh>.add(<embers:dustAsh>);
@@ -9,6 +11,8 @@
     <ore:boatWood>.add(<minecraft:jungle_boat>);
     <ore:boatWood>.add(<minecraft:acacia_boat>);
     <ore:boatWood>.add(<minecraft:dark_oak_boat>);
+# Bone Black
+    <ore:blockBone>.add(<minecraft:bone_block>);
 # Bread
     <ore:bread>.add(<primal:corn_bread>);
     <ore:bread>.add(<primal:valus_bread>);
@@ -103,6 +107,8 @@
     <ore:blockMarble>.addAll(<ore:stoneMarble>);
 # Mud
     <ore:clumpMud>.add(<biomesoplenty:mudball>);
+# Rock Crystal Ore
+    <ore:oreRockCrystal>.add(<astralsorcery:blockCustomOre>);
 # Salt
     <ore:dustSalt>.add(<primal:salt_halite_dust>);
     <ore:dustSalt>.add(<primal:salt_netjry_dust>);
@@ -114,6 +120,8 @@
     <ore:itemSalt>.add(<primal:salt_void_dust>);
     <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
     <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
+# Uninspected Minerals
+    <ore:oreUninspected>.add(<rockhounding_chemistry:mineralOres>);
 # Work Table Full Blocks
     val worktable_logs = [
         <primal:worktable_acacia_log>,
