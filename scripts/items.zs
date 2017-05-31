@@ -152,9 +152,13 @@
     #recipes.addShapeless(<arsmagica2:spell_parchment>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:jewelled_knife:*>.transformDamage()]);
     recipes.addShapeless(<arsmagica2:spell_parchment>,
-        [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:flint_workblade:*>.transformDamage()]);
+        [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
     recipes.addShapeless(<arsmagica2:spell_parchment>,
-        [<minecraft:rabbit_hide>,<ore:dustSalt>,<primal:quartz_workblade:*>.transformDamage()]);
+        [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
+    recipes.addShapeless(<arsmagica2:spell_parchment> * 2,
+        [<ore:rawhide>,<ore:dustSalt>,<ore:itemKnife>]);
+    recipes.addShapeless(<arsmagica2:spell_parchment>.withTag({display:{Name:"§rSpell Vellum"}}) * 3,
+        [<ore:leather>,<ore:dustSalt>,<ore:itemKnife>]);
     furnace.remove(<arsmagica2:item_ore:6>);
     recipes.addShapeless(<arsmagica2:item_ore:6>,
         [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
