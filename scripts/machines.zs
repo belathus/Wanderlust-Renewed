@@ -462,6 +462,16 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
          [<ore:gearAluminum>,null,<ore:gearAluminum>],
          [<ore:plateSteel>,<ore:dustRedstone>,<ore:plateSteel>]]);
+    recipes.remove(<rftools:environmental_controller>);
+    recipes.addShaped(<rftools:environmental_controller>,
+        [[<xreliquary:mob_ingredient:11>, <cyberware:beaconLarge>, <xreliquary:mob_ingredient:11>],
+         [<biomesoplenty:terrestrial_artifact>, <rftools:machine_frame:*>, <biomesoplenty:terrestrial_artifact>],
+         [<xreliquary:mob_ingredient:11>, <evilcraft:weatherContainer:3>, <xreliquary:mob_ingredient:11>]]);
+    recipes.remove(<rftools:saturation_module>);
+    recipes.addShaped(<rftools:saturation_module>,
+        [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "Zombie"}), null],
+         [<minecraft:redstone>, <base:ingot:80>, <minecraft:redstone>],
+         [null, <minecraft:golden_apple:1>, null]]);
 
 # Rockhounding
     recipes.remove(<rockhounding_oretiers:bloomery>);
