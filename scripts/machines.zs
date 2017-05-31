@@ -470,8 +470,24 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<rftools:saturation_module>);
     recipes.addShaped(<rftools:saturation_module>,
         [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "Zombie"}), null],
-         [<minecraft:redstone>, <base:ingot:80>, <minecraft:redstone>],
+         [<ore:ingotBrass>, <base:ingot:80>, <ore:ingotBrass>],
          [null, <minecraft:golden_apple:1>, null]]);
+    recipes.addShaped(<rftools:storage_module>,
+        [[null, <ore:chestWood>, null],
+         [<ore:nuggetBrass>, <minecraft:iron_ingot>, <ore:nuggetBrass>],
+         [<ore:gemQuartz>, <ore:dustRedstone>, <ore:gemQuartz>]]);
+    recipes.addShaped(<rftools:storage_module:1>,
+        [[null, <ore:chestWood>, null],
+         [<ore:ingotBrass>, <rftools:storage_module>, <ore:ingotBrass>],
+         [<ore:gemQuartz>, <ore:dustRedstone>, <ore:gemQuartz>]]);
+    recipes.addShaped(<rftools:storage_module:2>,
+        [[null, <ore:chestWood>, null],
+         [<ore:blockBrass>, <rftools:storage_module:1>, <ore:blockBrass>],
+         [<ore:blockQuartz>, <ore:blockRedstone>, <ore:blockQuartz>]]);
+#    recipes.addShaped(<rftools:storage_module:6>,
+#        [[<minecraft:ender_pearl>, <ore:chestWood>, <minecraft:ender_pearl>],
+#         [<minecraft:gold_nugget>, <minecraft:iron_ingot>, <minecraft:gold_nugget>],
+#         [<minecraft:quartz>, <ore:blockRedstone>, <minecraft:quartz>]]);
 
 # Rockhounding
     recipes.remove(<rockhounding_oretiers:bloomery>);
