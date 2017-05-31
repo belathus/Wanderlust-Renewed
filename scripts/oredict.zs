@@ -1,6 +1,6 @@
     #<ore:stickIron>.add(<fp:spaceship:12>);
 # Aquamarine Ore
-    <ore:oreAquamarine>.add(<astralsorcery:blockCustomSandOre>);
+    <ore:oreAquamarine>.add(<astralsorcery:BlockCustomSandOre>);
 # Ash
     <ore:dustAsh>.add(<biomesoplenty:ash>);
     #<ore:dustAsh>.add(<embers:dustAsh>);
@@ -108,7 +108,7 @@
 # Mud
     <ore:clumpMud>.add(<biomesoplenty:mudball>);
 # Rock Crystal Ore
-    <ore:oreRockCrystal>.add(<astralsorcery:blockCustomOre>);
+    <ore:oreRockCrystal>.add(<astralsorcery:BlockCustomOre>);
 # Salt
     <ore:dustSalt>.add(<primal:salt_halite_dust>);
     <ore:dustSalt>.add(<primal:salt_netjry_dust>);

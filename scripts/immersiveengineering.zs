@@ -106,7 +106,7 @@
     # Dark Ore Vein
         mods.immersiveengineering.Excavator.addMineral("Blackened", 10, 0.5, ["oreDark", "oreIron", "oreMithril"], [0.6452, 0.2569, 0.0979]);
     # Radioactive Vein
-        mods.immersiveengineering.Excavator.addMineral("Radioactive", 15, 0.3, ["oreRedstone", "oreResonating", "oreChimerite], [0.7024, 0.2119, 0.0857]);
+        mods.immersiveengineering.Excavator.addMineral("Radioactive", 15, 0.3, ["oreRedstone", "oreResonating", "oreChimerite"], [0.7024, 0.2119, 0.0857]);
     # Fossil Vein
         mods.immersiveengineering.Excavator.addMineral("Fossil", 20, 0.1, ["blockBone", "oreCoal", "oreDiamond"], [0.6158, 0.3784, 0.0058]);
     # Mineral Vein
