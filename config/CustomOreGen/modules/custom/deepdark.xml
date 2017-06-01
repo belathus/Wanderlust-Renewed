@@ -409,8 +409,8 @@
                     <OreBlock block='evilcraft:darkOre' weight='1.0' />
                     <ReplacesOre block='stone' weight='1.0' />
                     <Biome name='.*'  />
-                    <Setting name='MotherlodeFrequency'     avg='30'                range='8'                   type='normal'  scaleTo='base' />
-                    <Setting name='MotherlodeSize'          avg='0.6'               range='0'                   type='normal' />
+                    <Setting name='MotherlodeFrequency'     avg='37.5'              range='8'                   type='normal'  scaleTo='base' />
+                    <Setting name='MotherlodeSize'          avg='1.2'               range='0.4'                 type='normal' />
                     <Setting name='MotherlodeHeight'        avg='36'                range='30'                  type='uniform' scaleTo='base' />
                     <Setting name='MotherlodeRangeLimit'    avg=':= _default_ '     range=':= _default_ '       type='normal' />
                     <Setting name='BranchFrequency'         avg='0'                 range='0'                   type='normal' />
