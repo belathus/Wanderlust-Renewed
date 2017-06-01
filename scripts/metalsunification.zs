@@ -394,6 +394,51 @@ val nope = <enderzoo:enderZooIcon>;
         }
     }
 
+# Platinum
+    val list_platinum = [
+    #    nugget             ingot            block                    plate            gear            ore                  dust
+        [<base:nugget:25>, <base:ingot:25>, <base:storage_platinum>, <base:plate:25>, <base:gear:25>, <base:ore_platinum>, <base:dust:25>],
+        [<thermalfoundation:material:198>,<thermalfoundation:material:134>,<thermalfoundation:storage:6>,<thermalfoundation:material:326>,
+            <thermalfoundation:material:262>,<thermalfoundation:ore:6>,<thermalfoundation:material:70>],
+        [nope, nope, nope, nope, nope, nope, <rockhounding_chemistry:chemicalDusts:44>]
+    ] as minetweaker.item.IItemStack[][];
+    var platinum_oredict = [<ore:nuggetPlatinum>,<ore:ingotPlatinum>,<ore:blockPlatinum>,<ore:platePlatinum>,<ore:gearPlatinum>,<ore:orePlatinum>,<ore:dustPlatinum>] as minetweaker.item.IIngredient[];
+    for i, group in list_platinum {
+        if !group[0].matches(nope) { recipes.remove(group[0]); }
+        if !group[1].matches(nope) {
+            recipes.remove(group[1]);
+            if !group[5].matches(nope) {
+                furnace.addRecipe(list_platinum[0][1], group[5], 0.5);
+            }
+            if !group[6].matches(nope) {
+                furnace.addRecipe(list_platinum[0][1], group[6], 0.5);
+            }
+        }
+        if !group[2].matches(nope) { recipes.remove(group[2]); }
+        if !group[3].matches(nope) { recipes.remove(group[3]); }
+        if !group[4].matches(nope) { recipes.remove(group[4]); }
+        if !group[6].matches(nope) { recipes.remove(group[6]); }
+        
+        if i == 0 {
+            furnace.remove(group[1]);
+            furnace.addRecipe(group[1], group[5], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.5);
+            recipes.addShapeless(group[0]*9, [platinum_oredict[1]]);
+            recipes.addShapeless(group[1]*9, [platinum_oredict[2]]);
+            recipes.addShapeless(group[1], 
+                [platinum_oredict[0],platinum_oredict[0],platinum_oredict[0],platinum_oredict[0],platinum_oredict[0],platinum_oredict[0],platinum_oredict[0],platinum_oredict[0],platinum_oredict[0]]);
+            recipes.addShapeless(group[2], 
+                [platinum_oredict[1],platinum_oredict[1],platinum_oredict[1],platinum_oredict[1],platinum_oredict[1],platinum_oredict[1],platinum_oredict[1],platinum_oredict[1],platinum_oredict[1]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, platinum_oredict[5]]);
+            recipes.addShaped(group[4],
+                [[null,platinum_oredict[1],null],
+                 [platinum_oredict[1],<ore:ingotIron>,platinum_oredict[1]],
+                 [null,platinum_oredict[1],null]]);
+            recipes.addShaped(group[3],[[<ore:toolMallet>],[platinum_oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:toolMalletStone>],[platinum_oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[platinum_oredict[1]]]);
+        }
+    }
 
 # Silver
     var list_silver = [
