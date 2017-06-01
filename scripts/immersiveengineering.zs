@@ -115,24 +115,36 @@
 # Squeezer
     mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
     var seeds = [
-        <biomesoplenty:turnip_seeds>, <natura:overworld_seeds>,        <natura:overworld_seeds:1>,   <harvestcraft:spinachseedItem>,
-        <harvestcraft:kiwiseedItem>,  <harvestcraft:cabbageseedItem>,  <harvestcraft:cornseedItem>,  <harvestcraft:cucumberseedItem>,
-        <harvestcraft:onionseedItem>, <harvestcraft:artichokeseedItem>,<harvestcraft:cottonseedItem>,<harvestcraft:cactusfruitseedItem>,
-        <harvestcraft:spiceleafseedItem>, <harvestcraft:mustardseedItem>, <harvestcraft:candleberryseedItem>, <harvestcraft:beetseedItem>,
-        <harvestcraft:beanseedItem>, <harvestcraft:eggplantseedItem>, <harvestcraft:raspberryseedItem>, <harvestcraft:blueberryseedItem>,
-        <harvestcraft:chilipepperseedItem>, <harvestcraft:grapeseedItem>, <harvestcraft:lettuceseedItem>, <harvestcraft:curryleafseedItem>,
-        <harvestcraft:rhubarbseedItem>, <harvestcraft:gingerseedItem>, <harvestcraft:asparagusseedItem>, <harvestcraft:cantaloupeseedItem>,
-        <harvestcraft:wintersquashseedItem>, <harvestcraft:rutabagaseedItem>, <harvestcraft:brusselsproutseedItem>, <harvestcraft:okraseedItem>,
-        <harvestcraft:sesameseedsseedItem>, <harvestcraft:cauliflowerseedItem>, <harvestcraft:radishseedItem>, <harvestcraft:broccoliseedItem>,
-        <harvestcraft:zucchiniseedItem>, <harvestcraft:tomatoseedItem>, <harvestcraft:scallionseedItem>, <harvestcraft:waterchestnutseedItem>,
-        <harvestcraft:bambooshootseedItem>, <harvestcraft:celeryseedItem>, <harvestcraft:peasseedItem>, <harvestcraft:peanutseedItem>,
-        <harvestcraft:teaseedItem>, <harvestcraft:parsnipseedItem>, <harvestcraft:soybeanseedItem>, <harvestcraft:garlicseedItem>,
-        <harvestcraft:coffeeseedItem>, <harvestcraft:oatsseedItem>, <harvestcraft:strawberryseedItem>, <harvestcraft:seaweedseedItem>,
-        <harvestcraft:barleyseedItem>, <harvestcraft:whitemushroomseedItem>, <harvestcraft:riceseedItem>, <harvestcraft:sweetpotatoseedItem>,
-        <harvestcraft:leekseedItem>, <harvestcraft:pineappleseedItem>, <harvestcraft:blackberryseedItem>, <harvestcraft:cranberryseedItem>,
-        <harvestcraft:bellpepperseedItem>, <harvestcraft:turnipseedItem>, <harvestcraft:ryeseedItem>
+        <actuallyadditions:itemCanolaSeed>,   <actuallyadditions:itemCoffeeSeed>,   <actuallyadditions:itemFlaxSeed>,
+        <actuallyadditions:itemRiceSeed>,     <biomesoplenty:turnip_seeds>,         <natura:overworld_seeds>,
+        <natura:overworld_seeds:1>,           <harvestcraft:bellpepperseedItem>,    <harvestcraft:cranberryseedItem>,
+        <harvestcraft:cabbageseedItem>,       <harvestcraft:cornseedItem>,          <harvestcraft:cucumberseedItem>,
+        <harvestcraft:onionseedItem>,         <harvestcraft:artichokeseedItem>,     <harvestcraft:cottonseedItem>,
+        <harvestcraft:cactusfruitseedItem>,   <harvestcraft:spiceleafseedItem>,     <harvestcraft:mustardseedItem>,
+        <harvestcraft:candleberryseedItem>,   <harvestcraft:beetseedItem>,          <harvestcraft:beanseedItem>,
+        <harvestcraft:eggplantseedItem>,      <harvestcraft:raspberryseedItem>,     <harvestcraft:blueberryseedItem>,
+        <harvestcraft:chilipepperseedItem>,   <harvestcraft:grapeseedItem>,         <harvestcraft:lettuceseedItem>,
+        <harvestcraft:curryleafseedItem>,     <harvestcraft:rhubarbseedItem>,       <harvestcraft:gingerseedItem>,
+        <harvestcraft:asparagusseedItem>,     <harvestcraft:cantaloupeseedItem>,    <harvestcraft:wintersquashseedItem>,
+        <harvestcraft:rutabagaseedItem>,      <harvestcraft:brusselsproutseedItem>, <harvestcraft:okraseedItem>,
+        <harvestcraft:sesameseedsseedItem>,   <harvestcraft:cauliflowerseedItem>,   <harvestcraft:radishseedItem>,
+        <harvestcraft:broccoliseedItem>,      <harvestcraft:zucchiniseedItem>,      <harvestcraft:tomatoseedItem>,
+        <harvestcraft:scallionseedItem>,      <harvestcraft:waterchestnutseedItem>, <harvestcraft:bambooshootseedItem>,
+        <harvestcraft:celeryseedItem>,        <harvestcraft:peasseedItem>,          <harvestcraft:peanutseedItem>,
+        <harvestcraft:teaseedItem>,           <harvestcraft:parsnipseedItem>,       <harvestcraft:soybeanseedItem>,
+        <harvestcraft:garlicseedItem>,        <harvestcraft:coffeeseedItem>,        <harvestcraft:oatsseedItem>,
+        <harvestcraft:strawberryseedItem>,    <harvestcraft:seaweedseedItem>,       <harvestcraft:barleyseedItem>,
+        <harvestcraft:whitemushroomseedItem>, <harvestcraft:riceseedItem>,          <harvestcraft:sweetpotatoseedItem>,
+        <harvestcraft:leekseedItem>,          <harvestcraft:pineappleseedItem>,     <harvestcraft:blackberryseedItem>,
+        <harvestcraft:spinachseedItem>,       <harvestcraft:turnipseedItem>,        <harvestcraft:kiwiseedItem>,
+        <harvestcraft:ryeseedItem>
     ] as minetweaker.item.IItemStack[];
     for i, seed in seeds {
         mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, seed, 6400);
     }
+    
+# Refinery
+    mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:ethanol> * 8, <liquid:seed.oil> * 8, 80);
+    mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:juice> * 8,   <liquid:seed.oil> * 8, 80);
+    mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:juice> * 8,   <liquid:plantoil> * 8, 80);
     
