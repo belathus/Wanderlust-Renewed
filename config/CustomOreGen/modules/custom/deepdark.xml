@@ -1,7 +1,7 @@
 
 <IfModInstalled name="extrautils2">
     <ConfigSection>
-        <IfCondition condition=':=dimension.generator.class="ChunkProviderDark" | dimension.generator.class="ChunkProviderDeepDark"'>
+        <IfCondition condition=':=dimension.generator.class="ChunkProviderDark" | dimension.generator.class="ChunkProviderDeepDark" | dimension.generator.class="ChunkProviderSpecialDim" | dimension.generator.class="ChunkProviderDream"'>
             
             <!-- Vanilla! -->
             <!-- Covers: clay, gold, lapis, redstone, diamond, emerald -->
