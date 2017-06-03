@@ -73,9 +73,9 @@
     # Lens
     recipes.remove(<actuallyadditions:itemMisc:18>);
     recipes.addShaped(<actuallyadditions:itemMisc:18>,
-        [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-         [<ore:blockGlass>, <ore:gemDark>, <ore:blockGlass>],
-         [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+        [[<ore:nuggetBrass>, <ore:gemDark>, <ore:nuggetBrass>],
+         [<ore:nuggetBrass>, <ore:blockGlass>, <ore:nuggetBrass>],
+         [<ore:nuggetBrass>, <ore:gemDark>, <ore:nuggetBrass>]]);
     recipes.remove(<actuallyadditions:itemMiningLens>);
     recipes.addShaped(<actuallyadditions:itemMiningLens>,
         [[<ore:blockDiamond>, <base:ingot:80>, <ore:blockSteel>],
