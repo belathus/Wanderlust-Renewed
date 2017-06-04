@@ -567,9 +567,9 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:blockGlassHardened>,<ore:gearTin>,<ore:blockGlassHardened>],
          [<ore:ingotSteel>,<ore:blockGlassHardened>,<ore:ingotSteel>]]);
     recipes.addShaped(<thermalexpansion:frame:64>,
-        [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>],
-         [<ore:blockGlassHardened>, <ore:gearCopper>, <ore:blockGlassHardened>],
-         [<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>]]);
+        [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
+         [<ore:blockGlass>, <ore:gearCopper>, <ore:blockGlass>],
+         [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
     recipes.addShaped(<thermalexpansion:frame:128>,
         [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>],
          [<ore:blockGlassHardened>, <ore:gearLead>, <ore:blockGlassHardened>],

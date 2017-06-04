@@ -76,14 +76,14 @@
     <ore:flowerRed>.add(<biomesoplenty:flower_1>);
     <ore:flowerRed>.add(<botania:flower:14>);
 # Frames
-    <ore:woodFrame>.add(<actuallyadditions:blockMisc:4>);
-    <ore:ironFrame>.add(<ironchest:BlockIronChest>);
-    #<ore:ironFrame>.add(<actuallyadditions:blockMisc:9>);
-    <ore:steelFrame>.add(<actuallyadditions:blockMisc:9>);
-    <ore:steelFrame>.add(<enderio:itemMachinePart>);
-    <ore:steelFrame>.add(<rftools:machine_frame>);
-    <ore:steelFrame>.add(<deepresonance:machine_frame>);
-    <ore:enderFrame>.add(<actuallyadditions:blockMisc:8>);
+    <ore:frameWood>.add(<actuallyadditions:blockMisc:4>);
+    <ore:frameIron>.add(<ironchest:BlockIronChest>);
+    #<ore:frameIron>.add(<actuallyadditions:blockMisc:9>);
+    <ore:frameSteel>.add(<actuallyadditions:blockMisc:9>);
+    <ore:frameSteel>.add(<enderio:itemMachinePart>);
+    <ore:frameSteel>.add(<rftools:machine_frame>);
+    <ore:frameSteel>.add(<deepresonance:machine_frame>);
+    <ore:frameEnder>.add(<actuallyadditions:blockMisc:8>);
     
 # gears
     #<ore:gearSteel>.add(<railcraft:gear:2>);
