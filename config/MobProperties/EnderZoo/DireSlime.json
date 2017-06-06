@@ -1,47 +1,57 @@
 {
   "_name": "EnderZoo.DireSlime",
   "drops": [
+    {
+      "_comment" : "Adding slime pearls to the dirt slime's drops",
+      "function" : "add",
+      "id" : "xreliquary:mob_ingredient",
+      "damage" : 4,
+      "count" : 0.005
+    },
+    {
+      "function" : "if_above_looting_0",
+      "functions" : [
         {
-            "_comment" : "Adding slime pearls to the dirt slime's drops",
-            "function" : "add",
-            "id" : "xreliquary:mob_ingredient",
-            "damage" : 4,
-            "count" : 0.005
-        },
-        {
-            "function" : "if_above_looting_0",
-            "functions" : [
-                {
-                    "function" : "add",
-                    "id" : "xreliquary:mob_ingredient",
-                    "damage" : 4,
-                    "count" : 0.005
-                }
-            ]
-        },
-        {
-            "function" : "if_above_looting_1",
-            "functions" : [
-                {
-                    "function" : "add",
-                    "id" : "xreliquary:mob_ingredient",
-                    "damage" : 4,
-                    "count" : 0.005
-                }
-            ]
-        },
-        {
-            "function" : "if_above_looting_2",
-            "functions" : [
-                {
-                    "function" : "add",
-                    "id" : "xreliquary:mob_ingredient",
-                    "damage" : 4,
-                    "count" : 0.005
-                }
-            ]
+          "function" : "add",
+          "id" : "xreliquary:mob_ingredient",
+          "damage" : 4,
+          "count" : 0.005
         }
-    ],
+      ]
+    },
+    {
+      "function" : "if_above_looting_1",
+      "functions" : [
+        {
+          "function" : "add",
+          "id" : "xreliquary:mob_ingredient",
+          "damage" : 4,
+          "count" : 0.005
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_2",
+      "functions" : [
+        {
+          "function" : "add",
+          "id" : "xreliquary:mob_ingredient",
+          "damage" : 4,
+          "count" : 0.005
+        }
+      ]
+    },
+    {
+      "function" : "set_block",
+      "id" : "tconstruct:molten_dirt",
+      "data" : 0,
+      "update" : 3,
+      "override" : "replaceable",
+      "x" : 0,
+      "y" : 0,
+      "z" : 0
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
