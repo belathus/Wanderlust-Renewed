@@ -47,6 +47,23 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<actuallyadditions:blockGrinder>);
     recipes.remove(<actuallyadditions:blockGrinderDouble>);
     recipes.remove(<actuallyadditions:blockMisc:9>); # Iron casing
+    recipes.remove(<actuallyadditions:blockItemRepairer>);
+    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
+        [[<actuallyadditions:blockCrystalEmpowered:2>, mending, <actuallyadditions:blockCrystalEmpowered:2>],
+         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
+         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
+    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
+        [[<actuallyadditions:blockCrystalEmpowered:2>, mending2, <actuallyadditions:blockCrystalEmpowered:2>],
+         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
+         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
+    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
+        [[<actuallyadditions:blockCrystalEmpowered:2>, mending3, <actuallyadditions:blockCrystalEmpowered:2>],
+         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
+         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
+    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
+        [[<actuallyadditions:blockCrystalEmpowered:2>, mending4, <actuallyadditions:blockCrystalEmpowered:2>],
+         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
+         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
     recipes.addShaped(<actuallyadditions:blockMisc:9>,
         [[<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>],
          [<ore:stickWood>, <ore:gemDark>, <ore:stickWood>],
