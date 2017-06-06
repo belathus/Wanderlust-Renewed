@@ -4,11 +4,11 @@
         "title":
         {
             "image" : "cmm:textures/wlr.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
+            "posX" : 17,
+            "posY" : 0,
+            "width" : 300,
+            "height" : 150,
+            "alignment" : "top_left"
         }
     },
     
@@ -17,10 +17,11 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : 50,
+            "posY" : 138,
+            "width" : 150,
             "height" : 20,
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -31,10 +32,11 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : 50,
+            "posY" : 162,
+            "width" : 150,
             "height" : 20,
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -45,10 +47,11 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : 50,
+            "posY" : 186,
+            "width" : 150,
             "height" : 20,
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -59,10 +62,11 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 50,
+            "posY" : 222,
+            "width" : 68,
             "height" : 20,
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -73,10 +77,11 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 132,
+            "posY" : 222,
+            "width" : 68,
             "height" : 20,
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "quit"
@@ -86,10 +91,11 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 24,
+            "posY" : 222,
             "width" : 20,
             "height" : 20,
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -100,10 +106,11 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : 4,
+            "posY" : 222,
             "width" : 20,
             "height" : 20,
+            "alignment" : "top_left",
             "texture" : "custommainmenu:textures/gui/buttons.png",
             "action" : 
             {
@@ -137,17 +144,19 @@
     {
         "splash-text":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
+            "posX" : 290,
+            "posY" : 100,
+            "color" : 8454016,
+            "alignment" : "top_left",
             "texts" : "file:cmm:texts/splashes.txt"
         },
         
         "panorama":
         {
             "images" : [
-                "cmm:textures/panorama_%c.png"
+                "cmm:textures/bela/panorama_%c.png",
+                "cmm:textures/divine/panorama_%c.png",
+                "cmm:textures/nether/panorama_%c.png"
             ],
             "animate" : true,
             "animationSpeed" : 1,
