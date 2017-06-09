@@ -77,12 +77,15 @@
     <ore:flowerRed>.add(<botania:flower:14>);
 # Frames
     <ore:frameWood>.add(<actuallyadditions:blockMisc:4>);
-    <ore:frameIron>.add(<ironchest:BlockIronChest>);
-    #<ore:frameIron>.add(<actuallyadditions:blockMisc:9>);
-    <ore:frameSteel>.add(<actuallyadditions:blockMisc:9>);
-    <ore:frameSteel>.add(<enderio:itemMachinePart>);
+    #<ore:frameIron>.add(<ironchest:BlockIronChest>);
+    <ore:frameIron>.add(<actuallyadditions:blockMisc:9>);
+    <ore:frameIron>.add(<thermalexpansion:frame:64>);
+    #<ore:frameSteel>.add(<actuallyadditions:blockMisc:9>);
+    <ore:frameIndustrial>.add(<enderio:itemMachinePart>);
     <ore:frameSteel>.add(<rftools:machine_frame>);
     <ore:frameSteel>.add(<deepresonance:machine_frame>);
+    <ore:frameSteel>.add(<thermalexpansion:frame>);
+    <ore:frameElectrum>.add(<thermalexpansion:frame:128>);
     <ore:frameEnder>.add(<actuallyadditions:blockMisc:8>);
     
 # gears
