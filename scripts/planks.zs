@@ -205,3 +205,23 @@
         recipes.addShaped(plank * 4,
             [[<ore:toolSawGem>], [log]]);
     }
+
+recipes.addShaped(<minecraft:oak_stairs> * 4,
+    [[<minecraft:planks>, null],
+     [<minecraft:planks>, <minecraft:planks>]]);
+recipes.addShaped(<minecraft:spruce_stairs> * 4,
+    [[<minecraft:planks:1>, null],
+     [<minecraft:planks:1>, <minecraft:planks:1>]]);
+recipes.addShapedMirrored(<minecraft:birch_stairs> * 4,
+    [[<minecraft:planks:2>, null],
+     [<minecraft:planks:2>, <minecraft:planks:2>]]);
+recipes.addShaped(<minecraft:jungle_stairs> * 4,
+    [[<minecraft:planks:3>, null],
+     [<minecraft:planks:3>, <minecraft:planks:3>]]);
+recipes.addShaped(<minecraft:acacia_stairs> * 4,
+    [[<minecraft:planks:4>, null],
+     [<minecraft:planks:4>, <minecraft:planks:4>]]);
+recipes.addShaped(<minecraft:dark_oak_stairs> * 4,
+    [[<minecraft:planks:5>, null],
+     [<minecraft:planks:5>, <minecraft:planks:5>]]);
+     
