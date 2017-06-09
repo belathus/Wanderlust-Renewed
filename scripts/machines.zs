@@ -64,10 +64,10 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<actuallyadditions:blockCrystalEmpowered:2>, mending4, <actuallyadditions:blockCrystalEmpowered:2>],
          [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
          [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
-    recipes.addShaped(<actuallyadditions:blockMisc:9>,
-        [[<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>],
-         [<ore:stickWood>, <ore:gemDark>, <ore:stickWood>],
-         [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>]]);
+    recipes.addShaped(<actuallyadditions:blockMisc:9>, # Iron Casing
+        [[<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>],
+         [<ore:fusedQuartz>, <ore:gemDark>, <ore:fusedQuartz>],
+         [<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>]]);
     recipes.addShaped(<actuallyadditions:blockGrinder>,
         [[<ore:ingotSteel>, <extrautils2:spike_diamond>, <ore:ingotSteel>],
          [<actuallyadditions:itemMisc:7>, <ore:frameSteel>, <actuallyadditions:itemMisc:7>],
@@ -331,13 +331,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 # EnderIo
     recipes.remove(<enderio:itemMachinePart>);
     recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:plateSteel>,<ore:ingotSteel>,<ore:plateSteel>],
-         [<ore:ingotSteel>,<enderio:itemBasicCapacitor>,<ore:ingotSteel>],
-         [<ore:plateSteel>,<ore:ingotSteel>,<ore:plateSteel>]]);
+        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+         [<advancedrocketry:ic:3>,<ore:frameSteel>,<advancedrocketry:ic:4>],
+         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
     recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:ingotSteel>,<ore:plateSteel>,<ore:ingotSteel>],
-         [<ore:plateSteel>,<enderio:itemBasicCapacitor>,<ore:plateSteel>],
-         [<ore:ingotSteel>,<ore:plateSteel>,<ore:ingotSteel>]]);
+        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+         [<advancedrocketry:ic:4>,<ore:frameSteel>,<advancedrocketry:ic:3>],
+         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
     recipes.remove(<enderio:blockSagMill>);
     recipes.addShaped(<enderio:blockSagMill>,
         [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
@@ -580,17 +580,17 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<thermalexpansion:frame:64>);
     recipes.remove(<thermalexpansion:frame:128>);
     recipes.addShaped(<thermalexpansion:frame>,
-        [[<ore:ingotSteel>,<ore:blockGlassHardened>,<ore:ingotSteel>],
-         [<ore:blockGlassHardened>,<ore:gearTin>,<ore:blockGlassHardened>],
-         [<ore:ingotSteel>,<ore:blockGlassHardened>,<ore:ingotSteel>]]);
+        [[<ore:ingotSteel>,<advancedrocketry:misc:0>,<ore:ingotSteel>],
+         [<enderio:itemBasicCapacitor>,<ore:frameIron>,<enderio:itemBasicCapacitor>],
+         [<ore:ingotSteel>,<ore:gearTin>,<ore:ingotSteel>]]);
     recipes.addShaped(<thermalexpansion:frame:64>,
         [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
          [<ore:blockGlass>, <ore:gearCopper>, <ore:blockGlass>],
          [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
     recipes.addShaped(<thermalexpansion:frame:128>,
-        [[<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>],
+        [[<ore:ingotElectrum>, <ore:blockGlassHardened>, <ore:ingotElectrum>],
          [<ore:blockGlassHardened>, <ore:gearLead>, <ore:blockGlassHardened>],
-         [<ore:ingotSteel>, <ore:blockGlassHardened>, <ore:ingotSteel>]]);
+         [<ore:ingotElectrum>, <ore:blockGlassHardened>, <ore:ingotElectrum>]]);
     recipes.remove(<thermalexpansion:machine:*>);
     # Redstone Furnace
     recipes.addShaped(<thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}),
