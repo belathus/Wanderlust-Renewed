@@ -1,6 +1,14 @@
 <Recipes>
     <Recipe timeRequired="10" power="50">
         <input>
+            <oreDict>plankWood</oreDict>
+        </input>
+        <output>
+            <itemStack>minecraft:stick 3 0</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="10" power="50">
+        <input>
             <itemStack>biomesoplenty:log_0 1 4</itemStack>
         </input>
         <output>
