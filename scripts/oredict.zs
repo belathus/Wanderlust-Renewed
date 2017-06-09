@@ -121,7 +121,12 @@
     <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
     <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 # Uninspected Minerals
-    <ore:oreUninspected>.add(<rockhounding_chemistry:mineralOres>);
+    <ore:oreUninspected>.add(<rockhounding_chemistry:mineralOres>);    
+# Wood
+    <ore:logWood>.add(<rockhounding_surface:bogLogs:*>);
+    <ore:logWood>.add(<rockhounding_surface:fossilLogs:*>);
+    <ore:logWood>.add(<rockhounding_surface:petrifiedLogs:*>);
+    <ore:plankWood>.add(<rockhounding_surface:fossilPlanks:*>);
 # Work Table Full Blocks
     val worktable_logs = [
         <primal:worktable_acacia_log>,
