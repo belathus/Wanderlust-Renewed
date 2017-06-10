@@ -77,12 +77,15 @@
     <ore:flowerRed>.add(<botania:flower:14>);
 # Frames
     <ore:frameWood>.add(<actuallyadditions:blockMisc:4>);
-    <ore:frameIron>.add(<ironchest:BlockIronChest>);
-    #<ore:frameIron>.add(<actuallyadditions:blockMisc:9>);
-    <ore:frameSteel>.add(<actuallyadditions:blockMisc:9>);
-    <ore:frameSteel>.add(<enderio:itemMachinePart>);
+    #<ore:frameIron>.add(<ironchest:BlockIronChest>);
+    <ore:frameIron>.add(<actuallyadditions:blockMisc:9>);
+    <ore:frameIron>.add(<thermalexpansion:frame:64>);
+    #<ore:frameSteel>.add(<actuallyadditions:blockMisc:9>);
+    <ore:frameIndustrial>.add(<enderio:itemMachinePart>);
     <ore:frameSteel>.add(<rftools:machine_frame>);
     <ore:frameSteel>.add(<deepresonance:machine_frame>);
+    <ore:frameSteel>.add(<thermalexpansion:frame>);
+    <ore:frameElectrum>.add(<thermalexpansion:frame:128>);
     <ore:frameEnder>.add(<actuallyadditions:blockMisc:8>);
     
 # gears
@@ -121,7 +124,12 @@
     <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
     <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 # Uninspected Minerals
-    <ore:oreUninspected>.add(<rockhounding_chemistry:mineralOres>);
+    <ore:oreUninspected>.add(<rockhounding_chemistry:mineralOres>);    
+# Wood
+    <ore:logWood>.add(<rockhounding_surface:bogLogs:*>);
+    <ore:logWood>.add(<rockhounding_surface:fossilLogs:*>);
+    <ore:logWood>.add(<rockhounding_surface:petrifiedLogs:*>);
+    <ore:plankWood>.add(<rockhounding_surface:fossilPlanks:*>);
 # Work Table Full Blocks
     val worktable_logs = [
         <primal:worktable_acacia_log>,

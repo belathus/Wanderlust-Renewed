@@ -224,6 +224,14 @@
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
         [<ore:gravel>, <minecraft:potion:0>, <ore:gravel>],
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
+    recipes.addShaped(<immersiveengineering:metalDecoration0:7> * 2,
+        [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
+         [<ore:ingotCopper>, <evilcraft:bucketEternalWater>, <ore:ingotCopper>],
+         [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+    recipes.addShaped(<immersiveengineering:metalDecoration0:7> * 2,
+        [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
+         [<ore:ingotCopper>, <botania:waterRod>.reuse(), <ore:ingotCopper>],
+         [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
 
 # PrimalCore
     recipes.addShaped(<primal:mud_clump>*64,

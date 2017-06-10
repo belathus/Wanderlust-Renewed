@@ -1,10 +1,18 @@
 <Recipes>
-  <recipe timeRequired="10" power="50">
+  <Recipe timeRequired="10" power="50">
     <input>
-      <itemStack>minecraft:iron_ingot 3</itemStack>
+      <oreDict>plankWood</oreDict>
     </input>
     <output>
-      <itemStack>minecraft:iron_ingot 3</itemStack>
+      <itemStack>minecraft:stick 3 0</itemStack>
     </output>
-  </recipe>
+  </Recipe>
+  <Recipe timeRequired="10" power="50">
+    <input>
+      <oreDict>logWood</oreDict>
+    </input>
+    <output>
+      <itemStack>minecraft:stick 12 0</itemStack>
+    </output>
+  </Recipe>
 </Recipes>

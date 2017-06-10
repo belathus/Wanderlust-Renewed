@@ -1,7 +1,26 @@
 <Asteroids>
-	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="0.2" richnessVariability="0.5">
-		<ore itemStack="minecraft:iron_ore" chance="15" />
-		<ore itemStack="minecraft:gold_ore" chance="10" />
-		<ore itemStack="minecraft:redstone_ore" chance="10" />
-	</asteroid>
+  <asteroid name="Small Chondrite Asteroid" distance="10" mass="1000" massVariability="0.5" minLevel="0" probability="1" richness="0.2" richnessVariability="0.5">
+    <ore itemStack="rockhounding_oretiers:ironOres" chance="15" />
+    <ore itemStack="minecraft:clay" chance="25" />
+    <ore itemStack="minecraft:redstone_ore" chance="10" />
+    <ore itemStack="minecraft:glowstone" chance="10" />
+    <ore itemStack="immersiveengineering:ore 4" chance="5" />
+  </asteroid>
+  <asteroid name="Large Chondrite Asteroid" distance="15" mass="36000" massVariability="500" minLevel="0" probability="1" richness="0.8" richnessVariability="0.5">
+    <ore itemStack="rockhounding_oretiers:ironOres" chance="15" />
+    <ore itemStack="minecraft:clay" chance="25" />
+    <ore itemStack="minecraft:redstone_ore" chance="10" />
+    <ore itemStack="minecraft:glowstone" chance="10" />
+    <ore itemStack="immersiveengineering:ore 4" chance="5" />
+  </asteroid>
+  <asteroid name="Red Magic Boulder (do not taunt)" distance="15" mass="3600" massVariability="500" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
+    <ore itemStack="minecraft:redstone_ore" chance="14" />
+    <ore itemStack="arsmagica2:ore 4" chance="4" />
+  </asteroid>
+  <asteroid name="Blue Magic Boulder (do not taunt)" distance="15" mass="3600" massVariability="500" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
+    <ore itemStack="minecraft:lapis_ore" chance="14" />
+    <ore itemStack="minecraft:diamond_ore" chance="1" />
+    <ore itemStack="arsmagica2:ore" chance="8" />
+    <ore itemStack="arsmagica2:ore 2" chance="3" />
+  </asteroid>
 </Asteroids>

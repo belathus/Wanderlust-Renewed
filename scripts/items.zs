@@ -40,6 +40,29 @@
     recipes.addShaped(<minecraft:stick>*1,
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:slabWood>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<tconstruct:hatchet:*>.transformDamage()],
+         [<ore:treeSapling>]]);
+    recipes.addShaped(<minecraft:stick>*8,
+        [[<bloodmagic:ItemBoundAxe>.reuse()],
+         [<ore:logWood>]]);
+    recipes.addShaped(<minecraft:stick>*2,
+        [[<bloodmagic:ItemBoundAxe>.reuse()],
+         [<ore:plankWood>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<bloodmagic:ItemBoundAxe>.reuse()],
+         [<ore:slabWood>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<bloodmagic:ItemBoundAxe>.reuse()],
+         [<ore:treeSapling>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<ore:itemKnife>],
+         [<ore:treeSapling>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<ore:toolAxe>],
+         [<ore:treeSapling>]]);
+         
+    # making reusable water recipes
     recipes.addShapeless(<minecraft:clay_ball>*4,
         [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucketEternalWater>]);
     recipes.addShapeless(<minecraft:clay_ball>*4,
