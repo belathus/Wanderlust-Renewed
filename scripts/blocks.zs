@@ -16,6 +16,7 @@
                 return output;
             } else {
                 return null;
+            }
         });
     recipes.addShapeless(<minecraft:iron_ore>, 
         [<rockhounding_oretiers:ironOres:3>],
@@ -26,6 +27,7 @@
                 return output;
             } else {
                 return null;
+            }
         });
     recipes.addShapeless(<minecraft:piston>,
         [<minecraft:sticky_piston>,<evilcraft:bucketEternalWater>]);
