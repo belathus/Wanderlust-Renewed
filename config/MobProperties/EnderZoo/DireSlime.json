@@ -42,15 +42,20 @@
       ]
     },
     {
-      "function" : "set_block",
-      "id" : "tconstruct:molten_dirt",
+      "function": "all",
       "count" : 0.20,
-      "data" : 0,
-      "update" : 3,
-      "override" : "replaceable",
-      "x" : 0,
-      "y" : 0,
-      "z" : 0
+      "functions": [
+        {
+          "function" : "set_block",
+          "id" : "tconstruct:molten_dirt",
+          "data" : 0,
+          "update" : 3,
+          "override" : "replaceable",
+          "x" : 0,
+          "y" : 0,
+          "z" : 0
+        }
+      ]
     }
   ],
   "pre_stats": [],
