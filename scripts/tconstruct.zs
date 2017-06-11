@@ -60,13 +60,13 @@
 
 
 # Vanilla
-    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*8,<minecraft:cobblestone>, 200);
+    #mods.tconstruct.Smeltery.addMelting(<liquid:stone>*8,<minecraft:cobblestone>, 350);
 
 # EnderIO
     mods.tconstruct.Smeltery.removeAlloy(<liquid:darksteel>);
 
 # Extra Utilities
-    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*72,<extrautils2:compressedcobblestone>, 200);
+    mods.tconstruct.Smeltery.addMelting(<liquid:stone>*648,<extrautils2:compressedcobblestone>, 350);
 
 # Cyberware 
-    mods.tconstruct.Smeltery.addMelting(<liquid:titanium>*36,<cyberware:component:2>, 200);
+    mods.tconstruct.Smeltery.addMelting(<liquid:titanium>*36,<cyberware:component:2>, 350);

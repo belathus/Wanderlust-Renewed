@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "item": "integrateddynamics:on_the_dynamics_of_integration",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "astralsorcery:ItemJournal",
       "handlerType": "rightclick",
       "matchDamage": false,
