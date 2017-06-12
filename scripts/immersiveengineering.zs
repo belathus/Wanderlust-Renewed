@@ -16,9 +16,9 @@
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>,<extrautils2:redorchid>,600);
 
     # Platinum processing
-        mods.immersiveengineering.Crusher.removeRecipe(<base:ore_platinum>);
+        mods.immersiveengineering.Crusher.removeRecipe(<base:platinum.ore>);
         mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
-        mods.immersiveengineering.Crusher.addRecipe(<base:dust:25>*2,<base:ore_platinum>,3600,<base:dust:20>,0.20);
+        mods.immersiveengineering.Crusher.addRecipe(<base:dust:25>*2,<base:platinum.ore>,3600,<base:dust:20>,0.20);
         mods.immersiveengineering.Crusher.addRecipe(<base:dust:25>*2,<thermalfoundation:ore:6>,3600,<base:dust:20>,0.20);
 
     # Quartz Enriched Iron stuff

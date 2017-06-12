@@ -136,7 +136,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
     recipes.addShaped(<arsmagica2:flicker_focus:1>,
         [[<minecraft:porkchop>, <minecraft:beef>, <minecraft:chicken>],
-         [<arsmagica2:flicker_jar:3>, <dungeontactics:silver_sword>, <arsmagica2:flicker_jar:9>],
+         [<arsmagica2:flicker_jar:3>, <dungeontactics:silver_cutlass>, <arsmagica2:flicker_jar:9>],
          [<arsmagica2:rune:1>, <arsmagica2:evil_book>, <arsmagica2:rune:1>]]);
 #    recipes.addShaped(<arsmagica2:flicker_focus:4>,                # Change iron tools to silver tools
 #        [[<minecraft:iron_shovel>, null, <minecraft:iron_pickaxe>],

@@ -40,7 +40,7 @@
     
     recipes.remove(<minecolonies:blockHutGuardTower>);
     recipes.addShapeless(<minecolonies:blockHutGuardTower>,
-         [<minecraft:bow>, <immersiveengineering:woodenDevice0>, <dungeontactics:bronze_sword>]);
+         [<minecraft:bow>, <immersiveengineering:woodenDevice0>, <dungeontactics:bronze_cutlass>]);
           
     recipes.remove(<minecolonies:blockHutWareHouse>);
     recipes.addShapeless(<minecolonies:blockHutWareHouse>,

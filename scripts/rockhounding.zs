@@ -26,14 +26,14 @@
         # <liquid:iridium>, <base:ingot:20>
     # Iron
         mods.rockhounding_oretiers.Bloomery.add(<abyssalcraft:abyiroore>, <liquid:bloom>, 320, <minecraft:iron_ingot>);
-        mods.rockhounding_oretiers.Bloomery.add(<base:ore_iron>, <liquid:bloom>, 288, <minecraft:iron_ingot>);
+        mods.rockhounding_oretiers.Bloomery.add(<base:iron.ore>, <liquid:bloom>, 288, <minecraft:iron_ingot>);
     # Lead
-        #mods.rockhounding_oretiers.Bloomery.add(<base:ore_lead>, <liquid:lead>, 288, <immersiveengineering:metal:2>);
+        #mods.rockhounding_oretiers.Bloomery.add(<base:lead.ore>, <liquid:lead>, 288, <immersiveengineering:metal:2>);
         #mods.rockhounding_oretiers.Bloomery.add(<immersiveengineering:ore:2>, <liquid:lead>, 288, <immersiveengineering:metal:2>);
         #mods.rockhounding_oretiers.Bloomery.add(<thermalfoundation:ore:3>, <liquid:lead>, 288, <immersiveengineering:metal:2>);
     # Mithril -- Do not process here; No fluid
     # Nickel
-        mods.rockhounding_oretiers.Bloomery.add(<base:ore_nickel>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
+        mods.rockhounding_oretiers.Bloomery.add(<base:nickel.ore>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
         mods.rockhounding_oretiers.Bloomery.add(<immersiveengineering:ore:4>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
         mods.rockhounding_oretiers.Bloomery.add(<thermalfoundation:ore:5>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
     # Platinum -- Do not process here

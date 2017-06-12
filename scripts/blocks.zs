@@ -180,13 +180,13 @@
          [<ore:cobblestone>, <ore:compressed1xCobblestone>, <ore:cobblestone>]]);
     # Iron Spike
     recipes.addShaped(<extrautils2:spike_iron> * 4,
-        [[null, <dungeontactics:iron_sword>, null],
-         [<dungeontactics:iron_sword>, <ore:ingotIron>, <dungeontactics:iron_sword>],
+        [[null, <dungeontactics:iron_cutlass>, null],
+         [<dungeontactics:iron_cutlass>, <ore:ingotIron>, <dungeontactics:iron_cutlass>],
          [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>]]);
     # Gold Spike
     recipes.addShaped(<extrautils2:spike_gold> * 4,
-        [[null, <dungeontactics:golden_sword>, null],
-         [<dungeontactics:golden_sword>, <ore:ingotGold>, <dungeontactics:golden_sword>],
+        [[null, <dungeontactics:golden_cutlass>, null],
+         [<dungeontactics:golden_cutlass>, <ore:ingotGold>, <dungeontactics:golden_cutlass>],
          [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>]]);
     # Diamond Spikes
     recipes.addShaped(<extrautils2:spike_diamond> * 3,

@@ -193,6 +193,14 @@
 # Base Metals
 #    recipes.remove(<basemetals:iron_rod>);
 
+# Cooking For Blockheads
+#    recipes.remove();
+#    recipes.addShaped(<fishing:itemNet>,
+#        [[],
+#         [],
+#         []]);
+
+
 # Esteemed Innovation
 #    recipes.remove(<esteemedinnovation:blank_mold>);
 #    recipes.addShaped(<esteemedinnovation:blank_mold>,

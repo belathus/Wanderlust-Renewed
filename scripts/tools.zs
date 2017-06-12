@@ -145,16 +145,16 @@
 #    recipes.remove(<druidry:flint_axe>);
 
 # Dungeon Tactics
-    recipes.remove(<dungeontactics:wooden_sword>);
-    recipes.remove(<dungeontactics:stone_sword>);
-    recipes.remove(<dungeontactics:iron_sword>);
-    recipes.remove(<dungeontactics:diamond_sword>);
-    recipes.remove(<dungeontactics:golden_sword>);
-    recipes.remove(<dungeontactics:copper_sword>);
-    recipes.addShapeless(<dungeontactics:iron_sword>, [<minecraft:iron_sword>.noReturn()]);
-    recipes.addShapeless(<dungeontactics:diamond_sword>, [<minecraft:diamond_sword>.noReturn()]);
-    recipes.addShapeless(<dungeontactics:golden_sword>, [<minecraft:golden_sword>.noReturn()]);
-    recipes.addShapeless(<dungeontactics:copper_sword>, [<thermalfoundation:tool.sword_copper>.noReturn()]);
+#    recipes.remove(<dungeontactics:wooden_sword>);
+#    recipes.remove(<dungeontactics:stone_sword>);
+#    recipes.remove(<dungeontactics:iron_sword>);
+#    recipes.remove(<dungeontactics:diamond_sword>);
+#    recipes.remove(<dungeontactics:golden_sword>);
+#    recipes.remove(<dungeontactics:copper_sword>);
+#    recipes.addShapeless(<dungeontactics:iron_sword>, [<minecraft:iron_sword>.noReturn()]);
+#    recipes.addShapeless(<dungeontactics:diamond_sword>, [<minecraft:diamond_sword>.noReturn()]);
+#    recipes.addShapeless(<dungeontactics:golden_sword>, [<minecraft:golden_sword>.noReturn()]);
+#    recipes.addShapeless(<dungeontactics:copper_sword>, [<thermalfoundation:tool.sword_copper>.noReturn()]);
 
 # EvilCraft
     val rodBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_bare"]});
@@ -209,6 +209,8 @@
         [brushBare, <ore:treeLeaves>, <ore:treeLeaves>]);
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_feather"]}),
         [brushBare, <minecraft:feather:*>, <minecraft:feather:*>, <minecraft:feather:*>]);
+    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_twig"]}),
+        [brushBare, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]);
     # Caps
     recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_wither"]}),
         [capBare, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]);
