@@ -36,10 +36,12 @@ import com.acronym.base.IMaterialType;
     var uranium     = mods.base.Materials.getOrRegister("Uranium",     33,  7772956, false);
     var zinc        = mods.base.Materials.getOrRegister("Zinc",        34, 12240072, false);
 
-var metal_list = [abyssalnite, adamantine, aluminum, ardite, cobalt, copper, coralium, dilithium, gold, iridium, iron, lead,
-    mithril, nickel, platinum, plutonium, silver, starsteel, tin, titanium, uranium, zinc] as com.acronym.base.IMaterialType[];
+var metal_list = [abyssalnite, adamantine, ardite, cobalt, coralium, dilithium, iridium,
+    mithril, platinum, plutonium, starsteel, tin, titanium, zinc] as com.acronym.base.IMaterialType[];
     
-var alloys_list = [aquarium, brass, bronze, coldiron, constantan, cupronickel, dawnstone, dreadium, electrum, invar, steel] as com.acronym.base.IMaterialType[];
+var alloys_list = [aquarium, brass, bronze, coldiron, constantan, cupronickel, dawnstone, dreadium, electrum, invar] as com.acronym.base.IMaterialType[];
+
+var gear_only = [aluminum,copper,gold,iron,lead,nickel,silver,steel,uranium] as com.acronym.base.IMaterialType[];
 
 # Register dusts
     for i, metal in metal_list {
@@ -58,4 +60,7 @@ var alloys_list = [aquarium, brass, bronze, coldiron, constantan, cupronickel, d
         metal2.registerNugget();
         metal2.registerIngot();
         metal2.registerBlock(5, 30, "pickaxe", 1);
+    }
+    for i, metal3 in gear_only {
+        metal3.registerGear()
     }
