@@ -5,7 +5,6 @@ val nope = <enderzoo:enderZooIcon>;
     val list_aluminum = [
     #    nugget                            ingot                            block                             plate                            gear                             ore                          dust
         [<immersiveengineering:metal:21>, <immersiveengineering:metal:1>,  <immersiveengineering:storage:1>, <immersiveengineering:metal:31>, <base:gear:3>,                   <immersiveengineering:ore:1>,<immersiveengineering:metal:10>],
-        [<base:nugget:3>,                 <base:ingot:3>,                  <base:aluminum.block>,          <base:plate:3>,                  <enderzoo:enderZooIcon>,         <base:aluminum.ore>,         <base:dust:3>],
         [<libvulpes:productnugget:9>,     <libvulpes:productingot:9>,      <libvulpes:metal0:9>,             <libvulpes:productplate:9>,      <enderzoo:enderZooIcon>,         <libvulpes:ore0:9>,          <libvulpes:productdust:9>],
         [<thermalfoundation:material:196>,<thermalfoundation:material:132>,<thermalfoundation:storage:4>,    <thermalfoundation:material:324>,<thermalfoundation:material:260>,<thermalfoundation:ore:4>,   <thermalfoundation:material:68>]
     ] as minetweaker.item.IItemStack[][];
@@ -251,7 +250,6 @@ val nope = <enderzoo:enderZooIcon>;
     var list_iron = [ # nugget                  ingot                    block                    plate                            gear                            ore                     dust
         [<immersiveengineering:metal:29>,      <minecraft:iron_ingot>,  <minecraft:iron_block>,  <immersiveengineering:metal:39>, <base:gear:21>,                 <minecraft:iron_ore>,    <immersiveengineering:metal:18>],
         [<betterbeginnings:iron_nugget>,       <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <actuallyadditions:itemDust>],
-        [<base:nugget:21>,                     <base:ingot:21>,         <base:iron.block>,     <base:plate:21>,                 <enderzoo:enderZooIcon>,        <base:iron.ore>,         <base:dust:21>],
         [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <abyssalcraft:abyiroore>,<bloodmagic:ItemComponent:19>],
         #[<basemetals:iron_nugget>,            <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <basemetals:iron_plate>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>],
         [<enderzoo:enderZooIcon>,              <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>, <enderio:itemPowderIngot:1>],
@@ -305,7 +303,6 @@ val nope = <enderzoo:enderZooIcon>;
 # Lead
     var list_lead = [ # nugget             ingot                                 block                            plate                            gear                             ore                          dust
         [<immersiveengineering:metal:22>, <immersiveengineering:metal:2>,       <immersiveengineering:storage:2>,<immersiveengineering:metal:32>, <base:gear:22>,                  <immersiveengineering:ore:2>,<immersiveengineering:metal:11>],
-        [<base:nugget:22>,                <base:ingot:22>,                      <base:lead.block>,             <base:plate:22>,                 <enderzoo:enderZooIcon>,         <base:lead.ore>,             <base:dust:22>],
         [<primal:lead_nugget>,            <primal:lead_ingot>,                  <primal:lead_block>,             <primal:lead_plate>,             <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,     <primal:lead_dust>],
         [<enderzoo:enderZooIcon>,         <rockhounding_chemistry:miscItems:27>,<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,     <rockhounding_chemistry:chemicalDusts:19>],
         [<thermalfoundation:material:195>,<thermalfoundation:material:131>,     <thermalfoundation:storage:3>,   <thermalfoundation:material:323>,<thermalfoundation:material:259>,<thermalfoundation:ore:3>,   <thermalfoundation:material:67>]
@@ -352,7 +349,6 @@ val nope = <enderzoo:enderZooIcon>;
 # Nickel
     var list_nickel = [
         [<immersiveengineering:metal:24>, <immersiveengineering:metal:4>,  <immersiveengineering:storage:4>,<base:plate:24>,                 <base:gear:24>,                  <immersiveengineering:ore:4>,<immersiveengineering:metal:13>],
-        [<base:nugget:24>,                <base:ingot:24>,                 <base:nickel.block>,           <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <base:nickel.ore>,           <base:dust:24>],
         [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,     <rockhounding_chemistry:chemicalDusts:26>],
         [<thermalfoundation:material:197>,<thermalfoundation:material:133>,<thermalfoundation:storage:5>,   <thermalfoundation:material:325>,<thermalfoundation:material:261>,<thermalfoundation:ore:5>,   <thermalfoundation:material:69>]
     ] as minetweaker.item.IItemStack[][];
@@ -444,7 +440,6 @@ val nope = <enderzoo:enderZooIcon>;
     var list_silver = [
         # Nugget [0]                       Ingot [1]                       Block [2]                         Plate [3]                        Gear [4]                         Ore [5]                       Dust [6]
         [<immersiveengineering:metal:23>, <immersiveengineering:metal:3>,  <immersiveengineering:storage:3>,<base:plate:26>,                 <base:gear:26>,                  <immersiveengineering:ore:3>, <immersiveengineering:metal:12>],
-        [<base:nugget:26>,                <base:ingot:26>,                 <base:silver.block>,           <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <base:silver.ore>,            <base:dust:26>],
         [<primal:silver_nugget>,          <primal:silver_ingot>,           <primal:silver_block>,           <primal:silver_plate>,           <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,      <primal:silver_dust:*>],
         [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,      <rockhounding_chemistry:chemicalDusts:23>],
         [<thermalfoundation:material:194>,<thermalfoundation:material:130>,<thermalfoundation:storage:2>,   <thermalfoundation:material:322>,<thermalfoundation:material:258>,<thermalfoundation:ore:2>,    <thermalfoundation:material:66>]
@@ -493,7 +488,6 @@ val nope = <enderzoo:enderZooIcon>;
     #     nugget,                          ingot,                           block,                            plate,                           gear,                            ore,                    dust,                            stick
         [<immersiveengineering:metal:28>, <immersiveengineering:metal:8>,  <immersiveengineering:storage:8>, <immersiveengineering:metal:38>, <base:gear:28>,                  nope,                   <immersiveengineering:metal:17>, <immersiveengineering:material:2>],
         [<libvulpes:productnugget:6>,     <libvulpes:productingot:6>,      <libvulpes:metal0:6>,             <libvulpes:productplate:6>,      <libvulpes:productgear:6>,       <enderzoo:enderZooIcon>,<libvulpes:productdust:6>,       <libvulpes:productrod:6>],
-        [<base:nugget:28>,                <base:ingot:28>,                 <base:steel.block>,             <base:plate:28>,                 <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<base:dust:28>,                  <enderzoo:enderZooIcon>],
         [<enderzoo:enderZooIcon>,         <primal:steel_ingot>,            <primal:steel_block>,             <primal:steel_plate>,            <enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>],
         [<thermalfoundation:material:224>,<thermalfoundation:material:160>,<thermalfoundation:storage_alloy>,<thermalfoundation:material:352>,<thermalfoundation:material:288>,<enderzoo:enderZooIcon>,<thermalfoundation:material:96>, <enderzoo:enderZooIcon>]
     ] as minetweaker.item.IItemStack[][];
@@ -591,7 +585,6 @@ val nope = <enderzoo:enderZooIcon>;
     val list_uranium = [
     #     nugget,                          ingot,                           block,                           plate,                   Gear                     ore                           dust
         [<immersiveengineering:metal:25>, <immersiveengineering:metal:5>, <immersiveengineering:storage:5>, <base:plate:33>,         <base:gear:33>,          <immersiveengineering:ore:5>, <immersiveengineering:metal:14>],
-        [<base:nugget:33>,                <base:ingot:33>,                <base:uranium.block>,           <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <base:uranium.ore>,           <base:dust:33>],
         [<enderzoo:enderZooIcon>,         <enderzoo:enderZooIcon>,        <enderzoo:enderZooIcon>,          <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>, <enderzoo:enderZooIcon>,      <rockhounding_chemistry:chemicalDusts:43>]
     ] as minetweaker.item.IItemStack[][];
     var uranium_oredict = [<ore:nuggetUranium>,<ore:ingotUranium>,<ore:blockUranium>,<ore:plateUranium>,<ore:gearUranium>,<ore:oreUranium>,<ore:dustUranium>] as minetweaker.item.IIngredient[];

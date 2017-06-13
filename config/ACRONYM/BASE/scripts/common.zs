@@ -62,5 +62,5 @@ var gear_only = [aluminum,copper,gold,iron,lead,nickel,silver,steel,uranium] as 
         metal2.registerBlock(5, 30, "pickaxe", 1);
     }
     for i, metal3 in gear_only {
-        metal3.registerGear()
+        metal3.registerGear();
     }

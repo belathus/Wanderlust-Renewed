@@ -1,3 +1,4 @@
+
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 
@@ -44,33 +45,37 @@ var gears_only = [aluminum,copper,gold,iron,lead,nickel,silver,steel,uranium] as
 
 # Register dusts
 for i, metal in metal_list {
-  metal.registerParts("dust", "gear", "plate", "nugget", "ingot");
-  var ores = metal.registerParts("ore");
+  metal.registerParts(["dust", "gear", "plate", "nugget", "ingot"] as string[]);
+  var ores = metal.registerParts(["ore"] as string[]);
   for i, ore in ores {
-    ore.addMaterialData("variants", "minecraft:stone,minecraft:endstone,minecraft:netherrack");
-    ore.addMaterialData("hardness", "3,3,3");
-    ore.addMaterialData("resistance", "15,15,15");
-    ore.addMaterialData("harvestTool", "pickaxe,pickaxe,pickaxe");
-    ore.addMaterialData("harvestLevel", "1,1,1");
+    var oreData = ore.getData();
+    oreData.addDataValue("variants", "minecraft:stone,minecraft:endstone,minecraft:netherrack");
+    oreData.addDataValue("hardness", "3,3,3");
+    oreData.addDataValue("resistance", "15,15,15");
+    oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
+    oreData.addDataValue("harvestLevel", "1,1,1");
   } 
-  var blocks = metal.registerParts("block");
+  var blocks = metal.registerParts(["block"] as string[]);
   for i, block in blocks {
-    block.addMaterialData("hardness", "5");
-    block.addMaterialData("resistance", "30");
-    block.addMaterialData("harvestTool", "pickaxe");
-    block.addMaterialData("harvestLevel", "1");
+    var blockData = block.getData();
+    blockData.addDataValue("hardness", "5");
+    blockData.addDataValue("resistance", "30");
+    blockData.addDataValue("harvestTool", "pickaxe");
+    blockData.addDataValue("harvestLevel", "1");
   }
 }
 for i, metal2 in alloys_list {
-  metal2.registerParts("dust", "gear", "plate", "nugget", "ingot");
-  var blocks = metal2.registerParts("block");
+  metal2.registerParts(["dust", "gear", "plate", "nugget", "ingot"] as string[]);
+  var blocks = metal2.registerParts(["block"] as string[]);
   for i, block in blocks {
-    block.addMaterialData("hardness", "5");
-    block.addMaterialData("resistance", "30");
-    block.addMaterialData("harvestTool", "pickaxe");
-    block.addMaterialData("harvestLevel", "1");
+    var blockData = block.getData();
+    blockData.addDataValue("hardness", "5");
+    blockData.addDataValue("resistance", "30");
+    blockData.addDataValue("harvestTool", "pickaxe");
+    blockData.addDataValue("harvestLevel", "1");
   }
 }
 for i, metal3 in gear_only {
-  metal3.registerParts("gear");
+  metal3.registerParts(["gear"] as string[]);
 }
+

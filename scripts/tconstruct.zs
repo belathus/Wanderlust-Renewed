@@ -49,14 +49,14 @@
 #   <material:mythril>.durabilityExtra = 5;
 
 #   Gem tool balancing
-    <material:peridot>.harvestLevelHead = 2;
-    <material:sapphire>.harvestLevelHead = 2;
-    <material:ruby>.harvestLevelHead = 2;
-    <material:topaz>.harvestLevelHead = 2;
-    <material:tanzanite>.harvestLevelHead = 2;
-    <material:malachite_gem>.harvestLevelHead = 2;
-    <material:amber>.harvestLevelHead = 2;
-    <material:amethyst>.harvestLevelHead = 2;
+#    <material:peridot>.harvestLevelHead = 2;
+#    <material:sapphire>.harvestLevelHead = 2;
+#    <material:ruby>.harvestLevelHead = 2;
+#    <material:topaz>.harvestLevelHead = 2;
+#    <material:tanzanite>.harvestLevelHead = 2;
+#    <material:malachite_gem>.harvestLevelHead = 2;
+#    <material:amber>.harvestLevelHead = 2;
+#    <material:amethyst>.harvestLevelHead = 2;
 
 
 # Vanilla
