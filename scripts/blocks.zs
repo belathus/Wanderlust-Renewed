@@ -11,23 +11,25 @@
         [<rockhounding_oretiers:ironOres:2>],
         function(output, inputs, crafting) {
             if crafting.player.xp > 1 {
-                crafting.player.removeXP(1);
-                crafting.player.sendChat("Removed 1 XP.");
                 return output;
             } else {
                 return null;
             }
+        }, function(output, crafting, player){
+            player.removeXP(1);
+            player.sendChat("Removed 1 XP.");
         });
     recipes.addShapeless(<minecraft:iron_ore>, 
         [<rockhounding_oretiers:ironOres:3>],
         function(output, inputs, crafting) {
             if crafting.player.xp > 1 {
-                crafting.player.removeXP(1);
-                crafting.player.sendChat("Removed 1 XP.");
                 return output;
             } else {
                 return null;
             }
+        }, function(output, crafting, player){
+            player.removeXP(1);
+            player.sendChat("Removed 1 XP.");
         });
     recipes.addShapeless(<minecraft:piston>,
         [<minecraft:sticky_piston>,<evilcraft:bucketEternalWater>]);
