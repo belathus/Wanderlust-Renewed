@@ -581,7 +581,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<thermalexpansion:frame:128>);
     recipes.addShaped(<thermalexpansion:frame>,
         [[<ore:ingotSteel>,<advancedrocketry:misc:0>,<ore:ingotSteel>],
-         [<enderio:itemBasicCapacitor>,<ore:frameIron>,<enderio:itemBasicCapacitor>],
+         [<enderio:itemBasicCapacitor>,<thermalexpansion:frame:64>,<enderio:itemBasicCapacitor>],
          [<ore:ingotSteel>,<ore:gearTin>,<ore:ingotSteel>]]);
     recipes.addShaped(<thermalexpansion:frame:64>,
         [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
