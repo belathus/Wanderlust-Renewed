@@ -2,7 +2,7 @@
 # Vanilla
     recipes.remove(<minecraft:bread>);
     furnace.remove(<minecraft:bread>);
-    furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughitem>, 0.7);
+    furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughItem>, 0.7);
 
 # Actually Additions
     recipes.remove(<actuallyadditions:itemFood:10>);
@@ -33,11 +33,11 @@
          [<primal:stone_basin>]]);
 
 # Pam's Harvestcraft
-    recipes.remove(<harvestcraft:rawtofurkeyitem>);
-    recipes.addShapeless(<harvestcraft:rawtofurkeyitem>,
+    recipes.remove(<harvestcraft:rawtofurkeyItem>);
+    recipes.addShapeless(<harvestcraft:rawtofurkeyItem>,
         [<ore:toolCuttingboard>, <ore:foodFirmtofu>, <ore:foodOliveoil>, <ore:bread>]);
-    recipes.remove(<harvestcraft:honeybreaditem>);
-    recipes.addShapeless(<harvestcraft:honeybreaditem>,
+    recipes.remove(<harvestcraft:honeybreadItem>);
+    recipes.addShapeless(<harvestcraft:honeybreadItem>,
         [<ore:toolCuttingboard>, <ore:bread>, <ore:foodHoneydrop>]);
 
 # Primal

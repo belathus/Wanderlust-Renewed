@@ -276,9 +276,9 @@
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
 # Pam's Harvestcraft
-    recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
+    recipes.addShapeless(<harvestcraft:freshwaterItem> * 64,
         [<evilcraft:bucketEternalWater>]);
-    recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
+    recipes.addShapeless(<harvestcraft:freshwaterItem> * 64,
         [<botania:waterRod>.reuse()]);
 
 # PrimalCore

@@ -28,7 +28,7 @@
     
     recipes.remove(<minecolonies:blockHutDeliveryman>);
     recipes.addShapeless(<minecolonies:blockHutDeliveryman>,
-         [<harvestcraft:hardenedleatherbootsitem>, <immersiveengineering:woodenDevice0>]);
+         [<harvestcraft:hardenedleatherbootsItem>, <immersiveengineering:woodenDevice0>]);
     
     recipes.remove(<minecolonies:blockHutFarmer>);
     recipes.addShapeless(<minecolonies:blockHutFarmer>,

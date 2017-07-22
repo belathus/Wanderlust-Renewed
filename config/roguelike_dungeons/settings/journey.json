@@ -1,6 +1,5 @@
 {
     "name":"journey",
-    "namespace":"journey",
     "criteria":{
         "dimensionWL":[
             0
@@ -18,6 +17,7 @@
         "default:base"
 	],
     "exclusive":true,
+    "namespace":"journey",
     "tower":{
         "type":"RUIN",
         "theme":{
@@ -119,41 +119,7 @@
         },
         "3":{
             "theme":{
-                "base":"ENDER",
-                "primary":{
-                    "walls":{
-                        "type":"JUMBLE",
-                        "data":[
-                            {"name":"chisel:endstone","meta":1},
-                            {"name":"chisel:endstone","meta":2},
-                            {"name":"obsidian"}
-                        ]
-                    },
-                    "floor":{
-                        "type":"COLUMNS",
-                        "data":[
-                            {"name":"minecraft:stained_hardened_clay"},
-                            {"name":"minecraft:stained_hardened_clay","meta":10}
-                        ]
-                    },
-                    "pillar":{
-                        "data":{"name":"chisel:endstoneextra","meta":3}
-                    }
-                },
-                "secondary":{
-                    "walls":{
-                        "type":"WEIGHTED",
-                        "data":[
-                            {"name":"chisel:voidstone","meta":0,"weight":10},
-                            {"name":"chisel:voidstone","meta":2,"weight":5},
-                            {"name":"chisel:voidstone","meta":6,"weight":2},
-                            {"name":"chisel:energizedVoidstone","meta":6,"weight":1}
-                        ]
-                    },
-                    "pillar":{
-                        "data":{"name":"minecraft:purpur_pillar"}
-                    }
-                }
+                "base":"ENDER"
             }
         },
         "4":{

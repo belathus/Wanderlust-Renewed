@@ -14,7 +14,6 @@
         ],
         "weight":1
     },
-    "namespace":"abyssalcraft",
     "exclusive":true,
 	"inherit":[
 		"default:_loot_all",
@@ -449,6 +448,11 @@
                                 "weight":1
                             },
                             {
+                                "name":"rockhounding_chemistry:alloyBBlocks",
+                                "meta":8,
+                                "weight":1
+                            },
+                            {
                                 "name":"immersiveengineering:stoneDecoration",
                                 "meta":3,
                                 "weight":1,
@@ -465,7 +469,7 @@
                                 "weight":1
                             },
                             {
-                                "name":"primal:lead_block",
+                                "name":"base:storage_lead",
                                 "weight":1
                             },
                             {
