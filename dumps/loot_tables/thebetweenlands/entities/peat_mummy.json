@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "name": "peat_mummy",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 8,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "shimmer_stone_single",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:shimmer_stone"
+        },
+        {
+          "entryName": "shimmer_stone_multi",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:shimmer_stone"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "carried_shimmerstone",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:shimmer_stone",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:shimmer_stone"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "properties": {
+            "thebetweenlands:has_shimmerstone": true
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

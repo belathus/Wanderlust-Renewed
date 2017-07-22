@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "name": "life_essence",
+      "entries": [
+        {
+          "entryName": "botania:manaResource",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 8.0,
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "botania:true_guardian_killer"
+                }
+              ]
+            }
+          ],
+          "name": "botania:manaResource"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "music_disc",
+      "entries": [
+        {
+          "entryName": "botania:recordGaia1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:recordGaia1"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

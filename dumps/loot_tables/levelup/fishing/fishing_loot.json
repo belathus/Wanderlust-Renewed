@@ -1,0 +1,131 @@
+{
+  "pools": [
+    {
+      "name": "fishing_bonus",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:reeds",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:reeds"
+        },
+        {
+          "entryName": "minecraft:arrow",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:arrow"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:bucket",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:chainmail_chestplate",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:chainmail_chestplate"
+        },
+        {
+          "entryName": "minecraft:chainmail_leggings",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:chainmail_leggings"
+        },
+        {
+          "entryName": "minecraft:chainmail_helmet",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:chainmail_helmet"
+        },
+        {
+          "entryName": "minecraft:chainmail_boots",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:chainmail_boots"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

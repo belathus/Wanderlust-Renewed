@@ -1,0 +1,442 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:stone_axe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "entryName": "minecraft:wooden_axe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:wooden_axe"
+        },
+        {
+          "entryName": "abyssalcraft:darkstone_axe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:daxe"
+        },
+        {
+          "entryName": "abyssalcraft:darkstone_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:dpick"
+        },
+        {
+          "entryName": "abyssalcraft:darkstone_shovel",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:dshovel"
+        },
+        {
+          "entryName": "abyssalcraft:darkstone_sword",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:dsword"
+        },
+        {
+          "entryName": "abyssalcraft:darklands_oak_wood",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:dltlog"
+        },
+        {
+          "entryName": "abyssalcraft:cobblestone_upgrade_kit",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:cobbleu"
+        },
+        {
+          "entryName": "biomesoplenty:pear",
+          "weight": 4,
+          "quality": 2,
+          "type": "item",
+          "name": "biomesoplenty:pear"
+        },
+        {
+          "entryName": "biomesoplenty:peach",
+          "weight": 4,
+          "quality": 2,
+          "type": "item",
+          "name": "biomesoplenty:peach"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "evilcraft:originsOfDarkness",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "name": "evilcraft:originsOfDarkness"
+        },
+        {
+          "entryName": "evilcraft:condensedBlood",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:condensedBlood"
+        },
+        {
+          "entryName": "evilcraft:boxOfEternalClosure",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:boxOfEternalClosure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "minecraft:stone_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_pickaxe"
+        },
+        {
+          "entryName": "minecraft:wooden_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "evilcraft:originsOfDarkness",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "name": "evilcraft:originsOfDarkness"
+        },
+        {
+          "entryName": "evilcraft:condensedBlood",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:condensedBlood"
+        },
+        {
+          "entryName": "evilcraft:boxOfEternalClosure",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:boxOfEternalClosure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool2",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:fish",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "evilcraft:originsOfDarkness",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "name": "evilcraft:originsOfDarkness"
+        },
+        {
+          "entryName": "evilcraft:condensedBlood",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:condensedBlood"
+        },
+        {
+          "entryName": "evilcraft:boxOfEternalClosure",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:boxOfEternalClosure"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "pool3",
+      "entries": [
+        {
+          "entryName": "minecraft:stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:planks",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:planks"
+        },
+        {
+          "entryName": "minecraft:log",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:log"
+        },
+        {
+          "entryName": "minecraft:log2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:log2"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "evilcraft:originsOfDarkness",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "name": "evilcraft:originsOfDarkness"
+        },
+        {
+          "entryName": "evilcraft:condensedBlood",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:condensedBlood"
+        },
+        {
+          "entryName": "evilcraft:boxOfEternalClosure",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "evilcraft:boxOfEternalClosure"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "forestry_apiculture_bees",
+      "entries": [
+        {
+          "entryName": "forestry:scoop",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:scoop"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "botania_inject_pool",
+      "entries": [
+        {
+          "entryName": "botania_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "botania:inject/spawn_bonus_chest"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

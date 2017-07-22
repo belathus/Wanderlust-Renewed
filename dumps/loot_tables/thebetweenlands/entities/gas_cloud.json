@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "gas_cloud",
+      "entries": [],
+      "rolls": 0.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}
