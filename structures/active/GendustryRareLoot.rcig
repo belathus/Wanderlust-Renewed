@@ -1,0 +1,255 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "gendustryRareLoot",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:IndustrialApiary",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 17,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 11,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 20,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 14,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 13,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 22,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 10,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 19,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 18,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 21,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 12,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 15,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:apiary.upgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:IndustrialGrafter",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "charge": {
+              "nbtType": "int",
+              "nbt": 100000
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:IndustrialScoop",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "charge": {
+              "nbtType": "int",
+              "nbt": 5000
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

@@ -1,0 +1,141 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "gendustryUncommonLoot",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "gendustry:GeneticsProcessor",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "gendustry:EnvProcessor",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "gendustry:MutagenTank",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "gendustry:PowerModule",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "gendustry:BeeReceptacle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "forestry:can",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "liquiddna"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "forestry:can",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "protein"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "forestry:can",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "mutagen"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
