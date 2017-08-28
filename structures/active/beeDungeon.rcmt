@@ -5,6 +5,65 @@
       {
         "type": "replace",
         "transformer": {
+          "id": "replace_a048d7e8",
+          "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d12",
+          "destination": [
+            {
+              "block": "forestry:fluid.short.mead",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:fluid.bio.ethanol",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:fluid.biomass",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:fluid.ice",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:fluid.juice",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:fluid.milk",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:fluid.seed.oil",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "gendustry:mutagen",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "gendustry:protein",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "gendustry:liquiddna",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "replace",
+        "transformer": {
           "id": "replace_a7f35e85",
           "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d6",
           "destination": [
@@ -23,8 +82,8 @@
           "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d7",
           "destination": [
             {
-              "block": "forestry:slabs.1",
-              "metadata": 6,
+              "block": "forestry:slabs.vanilla.fireproof.0",
+              "metadata": 1,
               "tileEntity": "null"
             }
           ]
@@ -109,8 +168,8 @@
           "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d4",
           "destination": [
             {
-              "block": "forestry:planks.fireproof.1",
-              "metadata": 0,
+              "block": "forestry:planks.fireproof.0",
+              "metadata": 3,
               "tileEntity": "null"
             }
           ]

@@ -249,6 +249,16 @@
           }
         }
       }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "gendustry:MutatronAdv",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""
