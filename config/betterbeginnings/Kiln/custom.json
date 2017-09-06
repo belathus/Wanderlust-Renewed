@@ -12,7 +12,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 2
+        "stackSize": 2,
+        "nbt": null
       },
       "experience": 0.5
     },
@@ -28,7 +29,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 2
+        "stackSize": 2,
+        "nbt": null
       },
       "experience": 0.5
     },
@@ -44,13 +46,14 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "experience": 0.8
     },
     {
       "input": {
-        "itemName": "mudball",
+        "itemName": "clumpMud",
         "isOreDictionary": true,
         "isWildcard": false,
         "damage": 0
@@ -76,7 +79,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "experience": 0.8
     },
@@ -92,7 +96,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "experience": 0.4
     },
@@ -108,7 +113,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "experience": 0.6
     },
@@ -124,7 +130,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "experience": 0.6
     }
