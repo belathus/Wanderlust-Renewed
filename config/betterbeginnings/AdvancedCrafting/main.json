@@ -6,7 +6,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "sBs",
@@ -39,7 +40,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -50,7 +52,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " I",
@@ -76,7 +79,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": true
@@ -87,7 +91,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I ",
@@ -113,7 +118,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -124,7 +130,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " I",
@@ -150,7 +157,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": true
@@ -161,7 +169,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I ",
@@ -187,7 +196,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -198,7 +208,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DDD",
@@ -218,28 +229,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -250,7 +265,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "D D",
@@ -271,28 +287,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 6
+          "stackSize": 6,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -303,7 +323,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DDD",
@@ -324,28 +345,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -356,7 +381,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "D D",
@@ -376,28 +402,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -408,7 +438,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DDD",
@@ -435,21 +466,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 5
+          "stackSize": 5,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -460,7 +494,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " D",
@@ -486,21 +521,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": true
@@ -511,7 +549,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "D ",
@@ -537,21 +576,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -562,7 +604,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DID",
@@ -601,21 +644,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 32
+          "stackSize": 32,
+          "nbt": null
         },
         {
           "itemName": "gemLapis",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 32
+          "stackSize": 32,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 16
+          "stackSize": 16,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -626,7 +672,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "PPP",
@@ -653,14 +700,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "stickWood",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -671,7 +720,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "ROR",
@@ -704,7 +754,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 16
+          "stackSize": 16,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -715,7 +766,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "NNN",
@@ -748,14 +800,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:obsidian",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -766,7 +820,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "#E#",
@@ -799,14 +854,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "nuggetIron",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -817,7 +874,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I#I",
@@ -850,14 +908,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "nuggetIron",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -868,7 +928,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/  ",
@@ -894,7 +955,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -905,7 +967,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 4
+        "stackSize": 4,
+        "nbt": null
       },
       "recipe": [
         "CRC",
@@ -938,14 +1001,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 8
+          "stackSize": 8,
+          "nbt": null
         },
         {
           "itemName": "minecraft:flint",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 8
+          "stackSize": 8,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -956,7 +1021,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "WWW",
@@ -977,14 +1043,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:stick",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -992,5 +1060,5 @@
   ],
   "includes": [],
   "modDependencies": [],
-  "version": 2
+  "version": 0
 }
