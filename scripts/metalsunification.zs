@@ -27,8 +27,8 @@ val nope = <enderzoo:enderZooIcon>;
         
         if i == 0 {
             furnace.remove(group[1]);
-            furnace.addRecipe(group[1], group[5], 0.5);
-            furnace.addRecipe(group[1], group[6], 0.5);
+            #furnace.addRecipe(group[1], group[5], 0.5);
+            #furnace.addRecipe(group[1], group[6], 0.5);
             recipes.addShapeless(group[0]*9, [aluminum_oredict[1]]);
             recipes.addShapeless(group[1]*9, [aluminum_oredict[2]]);
             recipes.addShapeless(group[1], 
