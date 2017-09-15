@@ -428,23 +428,23 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.addShapeless(conveyor,
         [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
     # Coke Oven
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
         [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
          [<primal:ciniscotta>,<ore:sandstone>,<primal:ciniscotta>],
          [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
         [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
          [<primal:terracotta>,<ore:sandstone>,<primal:terracotta>],
          [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
         [[<ore:clayball>,<ore:ingotBrick>,<ore:clayball>],
          [<ore:ingotBrick>,<ore:blockSoulstone>,<ore:ingotBrick>],
          [<ore:clayball>,<ore:ingotBrick>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
         [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
          [<primal:ciniscotta>,<ore:blockSoulstone>,<primal:ciniscotta>],
          [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 2,
+    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
         [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
          [<primal:terracotta>,<ore:blockSoulstone>,<primal:terracotta>],
          [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
