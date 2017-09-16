@@ -120,4 +120,68 @@
 		</properties>
 	</recipe>
 
+	<recipe type="integrateddynamics:dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">tconstruct</condition>
+		<condition type="config">dryingBasin</condition>
+		<input>
+      <fluid amount="144">dirt</fluid>
+			<item meta="4">tconstruct:edible</item>
+		</input>
+		<output>
+			<item meta="3">tconstruct:slime_dirt</item>
+		</output>
+		<properties>
+			<duration>200</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">tconstruct</condition>
+		<condition type="config">dryingBasin</condition>
+		<input>
+      <fluid amount="144">dirt</fluid>
+			<item meta="2">tconstruct:edible</item>
+		</input>
+		<output>
+			<item meta="2">tconstruct:slime_dirt</item>
+		</output>
+		<properties>
+			<duration>200</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">tconstruct</condition>
+		<condition type="config">dryingBasin</condition>
+		<input>
+      <fluid amount="144">dirt</fluid>
+			<item meta="1">tconstruct:edible</item>
+		</input>
+		<output>
+			<item meta="1">tconstruct:slime_dirt</item>
+		</output>
+		<properties>
+			<duration>200</duration>
+		</properties>
+
+	<recipe type="integrateddynamics:dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">tconstruct</condition>
+		<condition type="config">dryingBasin</condition>
+		<input>
+      <fluid amount="144">dirt</fluid>
+			<item meta="*">minecraft:slime_ball</item>
+		</input>
+		<output>
+			<item meta="0">tconstruct:slime_dirt</item>
+		</output>
+		<properties>
+			<duration>200</duration>
+		</properties>
+	</recipe>
+	</recipe>
+
 </recipes>
