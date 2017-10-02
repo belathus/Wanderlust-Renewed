@@ -105,6 +105,10 @@
         [<rockhounding_surface:petrifiedLogs:1>,<rockhounding_surface:fossilPlanks:9>,<rockhounding_surface:castanoStairs>,<rockhounding_surface:fossilSlabsLo:9>],
         [<rockhounding_surface:petrifiedLogs:2>,<rockhounding_surface:fossilPlanks:10>,<rockhounding_surface:opalizedStairs>,<rockhounding_surface:fossilSlabsLo:10>],
         [<rockhounding_surface:petrifiedLogs:3>,<rockhounding_surface:fossilPlanks:11>,<rockhounding_surface:rainbowStairs>,<rockhounding_surface:fossilSlabsLo:11>],
+        [<rockhounding_surface:coldLogs>,<rockhounding_surface:fossilPlanks:12>,<rockhounding_surface:azuriteStairs>,<rockhounding_surface:fossilSlabsLo:12>],
+        [<rockhounding_surface:coldLogs:1>,<rockhounding_surface:fossilPlanks:13>,<rockhounding_surface:teredoStairs>,<rockhounding_surface:fossilSlabsLo:13>],
+        [<rockhounding_surface:coldLogs:2>,<rockhounding_surface:fossilPlanks:14>,<rockhounding_surface:beechStairs>,<rockhounding_surface:fossilSlabsLo:14>],
+        [<rockhounding_surface:coldLogs:3>,<rockhounding_surface:fossilPlanks:15>,<rockhounding_surface:redwoodStairs>,<rockhounding_surface:fossilSlabsLo:15>],
         [<primal:netherpalm_log:*>,<primal:netherpalm_plank>,<primal:stairs_netherpalm>,<primal:slab_netherpalm>]
     ] as minetweaker.item.IItemStack[][];
     
