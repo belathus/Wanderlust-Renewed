@@ -135,6 +135,23 @@
         "nbt": null
       },
       "experience": 0.6
+    },
+    {
+      "input": {
+        "itemName": "tconstruct:soil",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0
+      },
+      "output": {
+        "itemName": "tconstruct:materials",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 2,
+        "nbt": null
+      },
+      "experience": 0.3
     }
   ],
   "includes": [],
@@ -144,7 +161,8 @@
     "astralsorcery",
     "bloodmagic",
     "biomesoplenty",
-    "rockhounding_rocks"
+    "rockhounding_rocks",
+    "tconstruct"
   ],
   "version": 0
 }
