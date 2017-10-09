@@ -27,6 +27,23 @@
                     "count" : 1
                 }
             ]
+        },
+        {
+            "function" : "if_has_potion_minecraft:weakness",
+            "functions" : [
+                {
+                    "function" : "choose",
+                    "functions" : [
+                        {
+                            "weight" : 5,
+                            "function" : "add",
+                            "id" : "arsmagica2:item_ore",
+                            "damage" : 4,
+                            "count" : 1
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
