@@ -25,6 +25,11 @@
               "id" : "immersiveengineering:metal",
               "damage" : 23,
               "count" : "0~1"
+            },
+            { 
+              "function" : "external",
+              "count" : 0.1,
+              "file" : "earthdrops" 
             }
           ]
         }
@@ -42,6 +47,11 @@
               "id" : "immersiveengineering:metal",
               "damage" : 23,
               "count" : "0~1"
+            },
+            { 
+              "function" : "external",
+              "count" : 0.15,
+              "file" : "earthdrops" 
             }
           ]
         }
@@ -61,6 +71,11 @@
               "count" : "0~1"
             }
           ]
+        },
+        { 
+          "function" : "external",
+          "count" : 0.2,
+          "file" : "earthdrops" 
         }
       ]
     }
