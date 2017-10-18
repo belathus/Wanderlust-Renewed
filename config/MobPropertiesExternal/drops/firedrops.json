@@ -25,6 +25,13 @@
                     "id" : "minecraft:magma_cream",
                     "damage" : 0,
                     "count" : 1
+                },
+                {
+                    "weight" : 30,
+                    "function" : "add",
+                    "id" : "tconstruct:edible",
+                    "damage" : 4,
+                    "count" : 1
                 }
             ]
         }

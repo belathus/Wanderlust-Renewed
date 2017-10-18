@@ -1,6 +1,52 @@
 {
   "_name": "evilcraft.netherfish",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "if_above_looting_0",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            { 
+              "function" : "external",
+              "count" : 0.1,
+              "file" : "firedrops" 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_1",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            { 
+              "function" : "external",
+              "count" : 0.15,
+              "file" : "firedrops" 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_2",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            { 
+              "function" : "external",
+              "count" : 0.2,
+              "file" : "firedrops" 
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": [
     {

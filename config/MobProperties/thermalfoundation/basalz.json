@@ -1,6 +1,52 @@
 {
   "_name": "thermalfoundation.basalz",
-  "drops": [],
+  "drops": [
+    {
+      "function" : "if_above_looting_0",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            { 
+              "function" : "external",
+              "count" : 0.1,
+              "file" : "earthdrops" 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_1",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            { 
+              "function" : "external",
+              "count" : 0.5,
+              "file" : "earthdrops" 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function" : "if_above_looting_2",
+      "functions" : [
+        {
+          "function" : "choose",
+          "functions" : [
+            { 
+              "function" : "external",
+              "count" : 0.9,
+              "file" : "earthdrops" 
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
