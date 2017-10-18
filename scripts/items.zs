@@ -145,46 +145,46 @@
          [<ore:ingotTitaniumIridium>]]);
 
 # Ars Magica 2
-    recipes.remove(<arsmagica2:spell_parchment>);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.remove(<astralsorcery:ItemCraftingComponent:5>);
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<roots:druidKnife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:wooden_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:iron_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:golden_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:diamond_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:gilded_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:tin_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:copper_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:bronze_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:stone_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:steel_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:silver_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:lead_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<arsmagica2:spell_parchment>,
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:jewelled_knife:*>.transformDamage()]);
-    recipes.addShapeless(<arsmagica2:spell_parchment>,
-        [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
-    recipes.addShapeless(<arsmagica2:spell_parchment>,
-        [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
-    recipes.addShapeless(<arsmagica2:spell_parchment> * 2,
-        [<ore:rawhide>,<ore:dustSalt>,<ore:itemKnife>]);
-    recipes.addShapeless(<arsmagica2:spell_parchment>.withTag({display:{Name:"§rSpell Vellum"}}) * 3,
-        [<ore:leather>,<ore:dustSalt>,<ore:itemKnife>]);
-    furnace.remove(<arsmagica2:item_ore:6>);
-    recipes.addShapeless(<arsmagica2:item_ore:6>,
-        [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5> * 2,
+    #    [<ore:rawhide>,<ore:dustSalt>,<ore:itemKnife>]);
+    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>.withTag({display:{Name:"§rSpell Vellum"}}) * 3,
+    #    [<ore:leather>,<ore:dustSalt>,<ore:itemKnife>]);
+    #furnace.remove(<arsmagica2:item_ore:6>);
+    #recipes.addShapeless(<arsmagica2:item_ore:6>,
+    #    [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
 
 # Backpack
 #    recipes.remove(<backpack:stick:0>);
@@ -268,11 +268,11 @@
     recipes.remove(<naturescompass:NaturesCompass>);
     recipes.addShaped(<naturescompass:NaturesCompass>,
         [[<ore:vine>,<minecraft:log:*>,<ore:vine>],
-         [<minecraft:log:*>,<arsmagica2:tarma_root>,<minecraft:log:*>],
+         [<minecraft:log:*>,<ore:listAllveggie>,<minecraft:log:*>],
          [<ore:vine>,<minecraft:log:*>,<ore:vine>]]);
     recipes.addShaped(<naturescompass:NaturesCompass>,
         [[<minecraft:log:*>,<ore:vine>,<minecraft:log:*>],
-         [<ore:vine>,<arsmagica2:tarma_root>,<ore:vine>],
+         [<ore:vine>,<ore:listAllveggie>,<ore:vine>],
          [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
 
 # Pam's Harvestcraft
@@ -332,7 +332,12 @@
         [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
          [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
          [<minecraft:dye:2>,<ore:paneGlass>,<minecraft:dye:11>]]);
-
+    recipes.addShaped(<xreliquary:mob_ingredient:11>,
+        [[<ore:toolAxe>],
+         [<xreliquary:mob_ingredient:11>]]);
+    recipes.addShaped(<xreliquary:mob_ingredient:6>,
+        [[<ore:toolAxe>],
+         [<minecraft:skull:2>]]);
 # Rockhounding
     # Fuel to fuel pellets
     recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
@@ -360,15 +365,15 @@
 # Waystones
     recipes.remove(<waystones:warpScroll>);
     recipes.addShapeless(<waystones:warpScroll>,
-        [<arsmagica2:spell_parchment>,<ore:dustRedstone>]);
+        [<astralsorcery:ItemCraftingComponent:5>,<ore:dustRedstone>]);
     recipes.addShapeless(<waystones:warpScroll>,
-        [<arsmagica2:spell_parchment>,<ore:powderMana>]);
+        [<astralsorcery:ItemCraftingComponent:5>,<ore:powderMana>]);
     recipes.addShapeless(<waystones:warpScroll>,
-        [<arsmagica2:spell_parchment>,<ore:dustVinteum>]);
+        [<astralsorcery:ItemCraftingComponent:5>,<ore:dustVinteum>]);
     recipes.addShapeless(<waystones:warpScroll>*3,
-        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<ore:dustGlowstone>]);
+        [<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<ore:dustGlowstone>]);
     recipes.addShapeless(<waystones:warpScroll>*3,
-        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<ore:powderBlaze>]);
+        [<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<ore:powderBlaze>]);
     recipes.addShapeless(<waystones:warpScroll>*8,
-        [<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,
-        <arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<arsmagica2:spell_parchment>,<evilcraft:darkGemCrushed>]);
+        [<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,
+        <astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<evilcraft:darkGemCrushed>]);
