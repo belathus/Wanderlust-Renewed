@@ -16,6 +16,10 @@
     mods.botania.ManaInfusion.addAlchemy(<quark:basalt>,<ore:stoneMarble>,200);
     mods.botania.ManaInfusion.addAlchemy(<minecraft:stone>,<ore:stoneBasalt>,200);
     
+# Runic Altar
+    mods.botania.RuneAltar.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 7 as short, id: 16 as short}]}), [<astralsorcery:ItemIlluminationPowder>, <abyssalcraft:shadowgem>, <botania:rune:8>, <quark:ancient_tome>, <evilcraft:bloodOrb:1>, <bloodmagic:ItemSoulGem:1>.withTag({souls: 256.0}), <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]})], 10000);
+
+
 # Orechid
 #    mods.botania.Orechid.removeOre("*");
     mods.botania.Orechid.addOre(<ore:oreCoal>, 40);                         # Coal Ore
