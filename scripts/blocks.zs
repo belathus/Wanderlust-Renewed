@@ -171,8 +171,8 @@
     # Wooden Spikes
     recipes.remove(<extrautils2:spike_wood>);
     recipes.addShaped(<extrautils2:spike_wood> * 4,
-        [[null,<arsmagica2:wooden_leg>,null],
-         [<arsmagica2:wooden_leg>,<ore:plankWood>,<arsmagica2:wooden_leg>],
+        [[null,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),null],
+         [<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),<ore:plankWood>,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"})],
          [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
     # Stone Spike
     recipes.remove(<extrautils2:spike_stone>);

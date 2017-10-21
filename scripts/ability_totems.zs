@@ -1,3 +1,4 @@
+/*
 recipes.addShaped(<everlastingabilities:abilityTotem>.withTag({"everlastingabilities:abilityStoreStack":[{level:1, name:"ability.abilities.everlastingabilities.haste.name"}]}),
     [[<base:nugget:80>,<minecraft:golden_pickaxe>,<base:nugget:80>]]);
 
@@ -49,3 +50,4 @@ recipes.addShaped(<everlastingabilities:abilityTotem>.withTag({"everlastingabili
     [[<base:nugget:80>,null,<base:nugget:80>],
      [<base:nugget:80>,<minecraft:potion>.withTag({Potion:"minecraft:invisibility"}),<base:nugget:80>],
      [<base:nugget:80>,null,<base:nugget:80>]]);
+*/
