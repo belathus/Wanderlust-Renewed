@@ -9,7 +9,7 @@
     <actuallyadditions:blockMisc:9>.displayName = "Steel Casing";
 
 # Ars Magica
-    <arsmagica2:iron_inlay>.displayName = "Silver Inlay";
+#    <arsmagica2:iron_inlay>.displayName = "Silver Inlay";
 
 # Dungeon Tactics
 #    <dungeontactics:bronze_sword>.displayName = "Advanced Bronze Sword";

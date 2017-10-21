@@ -674,7 +674,7 @@ val nope = <enderzoo:enderZooIcon>;
     
     
     # Philosopher's Gold
-    furnace.addRecipe(<base:nugget:80>, <everlastingabilities:abilityTotem>, 1.0);
+    #furnace.addRecipe(<base:nugget:80>, <everlastingabilities:abilityTotem>, 1.0);
     recipes.addShapeless(<base:nugget:80> * 9, [<base:ingot:80>]);
     recipes.addShapeless(<base:ingot:80>, 
         [<base:nugget:80>,<base:nugget:80>,<base:nugget:80>,

@@ -76,7 +76,7 @@
         [<forestry:logs.fireproof.6:2>, <forestry:planks.fireproof.1:10>,<forestry:stairs.fireproof.padauk>,<forestry:slabs.fireproof.3:2>],
         [<forestry:logs.fireproof.6:3>, <forestry:planks.fireproof.1:11>,<forestry:stairs.fireproof.cocobolo>,<forestry:slabs.fireproof.3:3>],
         [<forestry:logs.fireproof.7:0>, <forestry:planks.fireproof.1:12>,<forestry:stairs.fireproof.zebrawood>,<forestry:slabs.fireproof.3:4>],
-        [<arsmagica2:witchwood_log>, <arsmagica2:witchwood_planks>,<arsmagica2:witchwood_stairs>,<arsmagica2:witchwood_slab>],
+        #[<arsmagica2:witchwood_log>, <arsmagica2:witchwood_planks>,<arsmagica2:witchwood_stairs>,<arsmagica2:witchwood_slab>],
         [<botania:dreamwood>,<botania:dreamwood:1>,<botania:dreamwood1Stairs>,<botania:dreamwood1Slab>],
         [<botania:livingwood>,<botania:livingwood:1>,<botania:livingwood1Stairs>,<botania:livingwood1Slab>],
         [<natura:overworld_logs:0>, <natura:overworld_planks:0>,<natura:overworld_stairs_maple>,<natura:overworld_slab:0>],

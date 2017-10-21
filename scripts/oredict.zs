@@ -63,10 +63,10 @@
         <biomesoplenty:eucalyptus_door>,
         <natura:overworld_doors:*>,
         <natura:nether_doors:*>,
-        <thebetweenlands:weedwood_door_item>,
-        <thebetweenlands:rubber_tree_plank_door_item>,
-        <thebetweenlands:weedwood_door>,
-        <thebetweenlands:rubber_tree_plank_door>
+        #<thebetweenlands:weedwood_door_item>,
+        #<thebetweenlands:rubber_tree_plank_door_item>,
+        #<thebetweenlands:weedwood_door>,
+        #<thebetweenlands:rubber_tree_plank_door>
     ] as minetweaker.item.IItemStack[];
     for i, door in doors {
         <ore:doorWood>.add(door);
@@ -98,12 +98,12 @@
     <ore:stoneLimestone>.add(<primal:ferro_stone>);
     <ore:stoneLimestone>.add(<chisel:limestone:*>);
     <ore:stoneLimestone>.add(<chisel:limestone1:*>);
-    <ore:stoneLimestone>.add(<thebetweenlands:limestone>);
+    #<ore:stoneLimestone>.add(<thebetweenlands:limestone>);
     <ore:blockLimestone>.add(<quark:limestone>);
     <ore:blockLimestone>.add(<chisel:limestone:*>);
     <ore:blockLimestone>.add(<chisel:limestone1:*>);
     <ore:blockLimestone>.add(<biomesoplenty:stone>);
-    <ore:blockLimestone>.add(<thebetweenlands:limestone>);
+    #<ore:blockLimestone>.add(<thebetweenlands:limestone>);
 # Marble
     <ore:stoneMarble>.add(<astralsorcery:BlockMarble:*>);
     <ore:stoneMarble>.add(<quark:marble:1>);
