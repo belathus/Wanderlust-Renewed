@@ -334,7 +334,7 @@
          [<minecraft:dye:2>,<ore:paneGlass>,<minecraft:dye:11>]]);
     recipes.addShaped(<xreliquary:mob_ingredient:11>,
         [[<ore:toolAxe>],
-         [<xreliquary:mob_ingredient:11>]]);
+         [<enderio:blockEndermanSkull>]]);
     recipes.addShaped(<xreliquary:mob_ingredient:6>,
         [[<ore:toolAxe>],
          [<minecraft:skull:2>]]);
