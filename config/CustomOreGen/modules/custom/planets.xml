@@ -18,7 +18,7 @@
                 <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
                 <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
                 <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Veins name='fupaDDNeonBlocks' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
+                <Veins name='fupaDDNeonBlocks' branchType='Bezier'  inherits='PresetLayeredVeins' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
                     <Description>
                         Nope.
                     </Description>

@@ -158,7 +158,7 @@
     var list_all_planks = [
         <minecraft:planks:*>,
         <biomesoplenty:planks_0:*>, <forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,
-        <forestry:planks.fireproof.1:*>, <arsmagica2:witchwood_planks>, <botania:dreamwood:1>, <botania:livingwood:1>,
+        <forestry:planks.fireproof.1:*>, <botania:dreamwood:1>, <botania:livingwood:1>,# <arsmagica2:witchwood_planks>,
         <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>
     ] as minetweaker.item.IItemStack[];
     for i, plank in list_all_planks {

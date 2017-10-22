@@ -726,6 +726,40 @@
         },
         {
           "xPos": 239,
+          "yPos": 89,
+          "width": 110.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 44
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "[color\u003dblue]Additional Hints",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "[color\u003dblack]Additional Hints",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 239,
           "yPos": 79,
           "width": 110.0,
           "height": 10.0,
@@ -756,7 +790,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 9
+          "layerIndex": 10
         }
       ],
       "pageNumber": 0,
@@ -2092,7 +2126,7 @@
               "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -2116,7 +2150,7 @@
           "xPos": 16,
           "yPos": 55,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2638,7 +2672,7 @@
           "xPos": 247,
           "yPos": 5,
           "width": 155.0,
-          "height": 67.8125,
+          "height": 67.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
@@ -2653,7 +2687,7 @@
           "xPos": 247,
           "yPos": 108,
           "width": 155.0,
-          "height": 68.58750000000023,
+          "height": 68.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
@@ -2695,6 +2729,40 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 9
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
         }
       ],
       "pageNumber": 15,
@@ -2827,6 +2895,40 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
         }
       ],
       "pageNumber": 17,
@@ -2943,6 +3045,40 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
         }
       ],
       "pageNumber": 18,
@@ -3047,7 +3183,7 @@
           "xPos": 94,
           "yPos": 11,
           "width": 92.0,
-          "height": 54.05000000000001,
+          "height": 54.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
@@ -3094,7 +3230,7 @@
           "xPos": 9,
           "yPos": 132,
           "width": 90.0,
-          "height": 57.37500000000004,
+          "height": 57.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
@@ -3136,6 +3272,40 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 9
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
         }
       ],
       "pageNumber": 2,
@@ -3284,6 +3454,40 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
         }
       ],
       "pageNumber": 16,
@@ -3495,7 +3699,7 @@
           "xPos": 264,
           "yPos": 111,
           "width": 116.0,
-          "height": 96.57000000000022,
+          "height": 96.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
@@ -3505,6 +3709,40 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 10
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
         }
       ],
       "pageNumber": 3,
@@ -3641,9 +3879,177 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 5
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
         }
       ],
       "pageNumber": 4,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 199,
+          "yPos": 210,
+          "width": 32.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "Getting_Through_the_Stone_Age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 15,
+          "yPos": 24,
+          "width": 174.0,
+          "height": 79.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Iron is hard to make early on. So is getting a bucket. Try searching for marble structures (from the mod Astral Sorcery) for iron ingots. This could potentially give you a bit of a head start on making a smeltery or starting a farm away from naturally occuring water.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 244,
+          "yPos": 26,
+          "width": 171.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Speaking of farming, you don\u0027t really need a bucket to move water around. Try using a wooden bowl.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 44,
       "isScrollable": false
     }
   ],
