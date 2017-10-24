@@ -338,13 +338,13 @@
                 <Setting name='SegmentRadius'  avg=':= 0.919 * _default_ * 0.5 ' range=':= 0.919 * _default_ * 0.5 ' type='normal' />
                 <Setting name='OreDensity'     avg=':= 1.000 '                   range=':= 0.000 '                   type='normal' />
             </Veins>
-    </ConfigSection>
+        </ConfigSection>
     </ConfigSection>
     
     <!-- Ars Magica 2 -->
     <!-- Vinteum, Chimerite, Blue Topaz, and possibly Moonstone and Sunstone -->
     <IfModInstalled name="arsmagica2">
-        <!-- Vinteum Ore -->
+        <!-- Vinteum Ore 
         <Cloud name='arsmVinteumCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x600000EE' drawBoundBox='false' boundBoxColor='0x600000EE'>
             <Description>
             Large irregular clouds filled  lightly with ore.
@@ -395,9 +395,9 @@
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </Cloud>
+        </Cloud>-->
         
-        <!-- Chimerite Ore -->
+        <!-- Chimerite Ore 
         <Cloud name='arsmChimeriteCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x6022FF22' drawBoundBox='false' boundBoxColor='0x6022FF22'>
             <Description>
             Large irregular clouds filled  lightly with ore.
@@ -448,9 +448,9 @@
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </Cloud>
+        </Cloud>-->
         
-        <!-- Blue Topaz Ore -->
+        <!-- Blue Topaz Ore 
         <Cloud name='arsmBlueTopazCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
             <Description>
                 Large irregular clouds filled  lightly with ore.
@@ -501,9 +501,9 @@
                 <Replaces block='minecraft:gravel' weight='1.0' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.222 * _default_ ' range=':= 0.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </Cloud>
+        </Cloud>-->
         
-        <!-- Aum -->
+        <!-- Aum 
         <cloud name='arsmAumCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0FFEE' drawBoundBox='false' boundBoxColor='0x60C0FFEE'>
             <Description>
                 Create a phantom "cloud" where nothing spawns
@@ -542,9 +542,9 @@
                 <Setting name='MotherlodeHeight' avg=' 66' range='5' scaleTo='biome' />
                 <Setting name='MotherlodeFrequency' avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </cloud>
+        </cloud>-->
         
-        <!-- Cerublossom -->
+        <!-- Cerublossom 
         <cloud name='arsmCerublossomCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
             <Description>
                 Create a phantom "cloud" where nothing spawns
@@ -584,9 +584,9 @@
                 <Setting name='MotherlodeHeight' avg=' 66' range='5' scaleTo='biome' />
                 <Setting name='MotherlodeFrequency' avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </cloud>
+        </cloud>-->
 
-        <!-- Wakebloom -->
+        <!-- Wakebloom 
         <cloud name='arsmWakebloomCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
             <Description>
                 Create a phantom "cloud" where nothing spawns
@@ -620,9 +620,9 @@
                 <Setting name='MotherlodeHeight' avg=' 63' range='1' scaleTo='biome' />
                 <Setting name='MotherlodeFrequency' avg=':= 0.522 * _default_ ' range=':= 0.522 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </cloud>
+        </cloud>-->
 
-        <!-- Desert Nova -->
+        <!-- Desert Nova 
         <cloud name='arsmDesertNovaCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
             <Description>
                 Create a phantom "cloud" where nothing spawns
@@ -656,9 +656,9 @@
                 <Setting name='MotherlodeHeight' avg=' 68' range='12' scaleTo='biome' />
                 <Setting name='MotherlodeFrequency' avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
             </Veins>
-        </cloud>
+        </cloud>-->
         
-        <!-- Tarma Root -->
+        <!-- Tarma Root 
         <Veins name='arsmTarmaRootBlocks' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
             <Description>
                 Single blocks, generously  scattered through all
@@ -674,8 +674,8 @@
             <Setting name='MotherlodeHeight'     avg='34'                    range='28'                    scaleTo='biome' />
             <Setting name='MotherlodeFrequency'  avg=':= 2.222 * _default_ ' range=':= 2.222 * _default_ ' type='normal' scaleTo='base' />
         </Veins>
-        
-        <!-- Liquid Essence Geode -->
+        -->
+        <!-- Liquid Essence Geode 
         <IfModInstalled name="rockhounding_rocks">
             <Veins name='arsmEssenceGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x891B' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <Description>
@@ -776,12 +776,12 @@
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
-        </IfModInstalled>
+        </IfModInstalled>-->
     </IfModInstalled>
 
     <!-- Base -->
     <IfModInstalled name="base">
-        <Veins name='baseZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
+        <Veins name='baseZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -852,7 +852,7 @@
             </Veins>
         </Cloud>
         <!-- Tin Veins -->
-        <Veins name='baseTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60999999' drawBoundBox='false' boundBoxColor='0x60999999'>
+        <Veins name='baseTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -1551,7 +1551,7 @@
         </Veins>
 
         <!-- Nickel Veins. -->
-        <Veins name='iengNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
+        <Veins name='iengNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
