@@ -11,6 +11,9 @@
 # Ars Magica
 #    <arsmagica2:iron_inlay>.displayName = "Silver Inlay";
 
+# Biomes O' Plenty
+  <biomesoplenty:berries>.displayName = "Redcurrant";
+
 # Dungeon Tactics
 #    <dungeontactics:bronze_sword>.displayName = "Advanced Bronze Sword";
 #    <dungeontactics:copper_sword>.displayName = "Advanced Copper Sword";

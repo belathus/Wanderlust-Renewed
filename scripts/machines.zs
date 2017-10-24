@@ -330,13 +330,21 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 
 # EnderIo
     recipes.remove(<enderio:itemMachinePart>);
-    recipes.addShaped(<enderio:itemMachinePart>,
-        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-         [<advancedrocketry:ic:3>,<ore:frameSteel>,<advancedrocketry:ic:4>],
-         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-    recipes.addShaped(<enderio:itemMachinePart>,
+    recipes.addShapedMirrored(<enderio:itemMachinePart>,
         [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
          [<advancedrocketry:ic:4>,<ore:frameSteel>,<advancedrocketry:ic:3>],
+         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+         [<advancedrocketry:ic:4>,<rftools:machine_frame>,<advancedrocketry:ic:3>],
+         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+         [<advancedrocketry:ic:4>,<deepresonance:machine_frame>,<advancedrocketry:ic:3>],
+         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+         [<advancedrocketry:ic:4>,<thermalexpansion:frame:0>,<advancedrocketry:ic:3>],
          [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
     recipes.remove(<enderio:blockSagMill>);
     recipes.addShaped(<enderio:blockSagMill>,
