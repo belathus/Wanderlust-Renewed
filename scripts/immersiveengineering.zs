@@ -9,12 +9,18 @@
         mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 2, 1000, <ore:itemAnthracite>, 1800);
 
 # Crusher
+    # Dungeon Tactics
+        mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder>,<dungeontactics:flower_cinder>,200,<minecraft:blaze_powder>,0.2);
+        
     # Evilcraft
         mods.immersiveengineering.Crusher.addRecipe(<evilcraft:darkGemCrushed>,<abyssalcraft:shadowgem>,600);
 
     # Extra Utilities
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>,<extrautils2:redorchid>,600);
-
+    
+    # PrimalCore
+        mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*4,<primal:sharp_bone:*>,600);
+        
     # Platinum processing
         mods.immersiveengineering.Crusher.removeRecipe(<base:platinum.ore>);
         mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
