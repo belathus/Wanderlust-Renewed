@@ -267,13 +267,13 @@
 # Nature's Compass
     recipes.remove(<naturescompass:NaturesCompass>);
     recipes.addShaped(<naturescompass:NaturesCompass>,
-        [[<ore:vine>,<minecraft:log:*>,<ore:vine>],
-         [<minecraft:log:*>,<ore:listAllveggie>,<minecraft:log:*>],
-         [<ore:vine>,<minecraft:log:*>,<ore:vine>]]);
+        [[<ore:vine>,<ore:logWood>,<ore:vine>],
+         [<ore:logWood>,<ore:listAllveggie>,<ore:logWood>],
+         [<ore:vine>,<ore:logWood>,<ore:vine>]]);
     recipes.addShaped(<naturescompass:NaturesCompass>,
-        [[<minecraft:log:*>,<ore:vine>,<minecraft:log:*>],
+        [[<ore:logWood>,<ore:vine>,<ore:logWood>],
          [<ore:vine>,<ore:listAllveggie>,<ore:vine>],
-         [<minecraft:log:*>,<ore:vine>,<minecraft:log:*>]]);
+         [<ore:logWood>,<ore:vine>,<ore:logWood>]]);
 
 # Pam's Harvestcraft
     recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
