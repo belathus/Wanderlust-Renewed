@@ -6,6 +6,8 @@
     
     mods.botania.ManaInfusion.removeRecipe(<botania:manaResource>);
     mods.botania.ManaInfusion.addInfusion(<botania:manaResource>, <ore:ingotSilver>, 3000);
+    mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
+    mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSilver>, 24000);
     mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tacoitem>.withTag({display:{Lore:["It is taco night!"]}}), <ore:oreTaconite>, 300);
     
     # interrupt the stone cycle
