@@ -137,6 +137,14 @@
     </Recipe>
     <Recipe timeRequired="80" power="10">
         <input>
+            <itemStack>evilcraft:undeadLog 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>evilcraft:undeadPlank 6 0</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="80" power="10">
+        <input>
             <itemStack>forestry:logs.0 1 0</itemStack>
         </input>
         <output>
@@ -621,6 +629,14 @@
         </input>
         <output>
             <itemStack>botania:livingwood 6 1</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="80" power="10">
+        <input>
+            <itemStack>integrateddynamics:menrilLog 1 4</itemStack>
+        </input>
+        <output>
+            <itemStack>integrateddynamics:menrilPlanks 6 0</itemStack>
         </output>
     </Recipe>
     <Recipe timeRequired="80" power="10">
