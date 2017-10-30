@@ -20,7 +20,6 @@
 			},
             "rooms":[
                 {"mode":"single", "type":"CAKE"},
-                {"mode":"single", "type":"TREETHO"},
                 {"mode":"single", "type":"FIRE"},
                 {"mode":"single", "type":"ENIKO"},
                 {"mode":"random", "type":"LINKERTOP", "weight":1},
@@ -53,7 +52,6 @@
 				],
 				"SKELETON" : [
 					{"name" : "abyssalcraft.demonchicken"},
-					{"name" : "arsmagica2.WaterElemental"},
 					{"name" : "Skeleton", "equip":true}
 				]
             },
@@ -83,21 +81,17 @@
             "numRooms":19,
             "spawners":{
                 "SPIDER" : [
-					{"name" : "arsmagica2.Hecate", "equip":true},
 					{"name" : "Spider"},
                     {"name": "CaveSpider"}
 				],
 				"ZOMBIE" : [
 					{"name" : "abyssalcraft.shadowcreature"},
 					{"name" : "EnderZoo.FallenKnight", "equip":true},
-					{"name" : "arsmagica2.Dryad", "equip":true},
 					{"name" : "cyberware.cyberzombie", "equip":true},
-					{"name" : "arsmagica2.EarthElemental", "equip":true},
 					{"name" : "Quark.dweller", "equip":true},
 					{"name" : "Zombie", "equip":true}
 				],
 				"SKELETON" : [
-					{"name" : "arsmagica2.WaterElemental"},
 					{"name" : "Quark.wraith"},
 					{"name" : "Quark.pirate"},
                     {"name" : "EnderZoo.FallenKnight", "equip":true},
@@ -133,27 +127,23 @@
             "numRooms":21,
             "spawners":{
                 "SPIDER" : [
-					{"name" : "arsmagica2.Hecate", "equip":true},
 					{"name" : "abyssalcraft.shadowmonster", "equip":true},
-					{"name" : "Spider"},
-                    {"name": "CaveSpider"}
+					{"name" : "Spider", "weight":3},
+                    {"name": "CaveSpider", "weight":2}
 				],
 				"ZOMBIE" : [
 					{"name" : "abyssalcraft.shadowcreature"},
-					{"name" : "EnderZoo.FallenKnight", "equip":true},
-					{"name" : "cyberware.cyberzombie", "equip":true},
-					{"name" : "arsmagica2.EarthElemental", "equip":true},
-					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "EnderZoo.FallenKnight", "equip":true, "weight":2},
+					{"name" : "cyberware.cyberzombie", "equip":true, "weight":2},
+					{"name" : "Quark.dweller", "equip":true, "weight":2},
 					{"name" : "abyssalcraft.depthsghoul", "equip":true},
-					{"name" : "Zombie", "equip":true}
+					{"name" : "Zombie", "equip":true, "weight":3}
 				],
 				"SKELETON" : [
-					{"name" : "arsmagica2.WaterElemental"},
 					{"name" : "Quark.wraith"},
 					{"name" : "Quark.pirate"},
                     {"name" : "EnderZoo.FallenKnight", "equip":true},
                     {"name" : "EnderZoo.WitherWitch", "equip":true},
-                    {"name" : "arsmagica2.ManaElemental", "equip":true},
 					{"name" : "Skeleton", "equip":true}
 				]
             },
@@ -186,36 +176,27 @@
             "numRooms":23,
             "spawners":{
                 "SPIDER" : [
-					{"name" : "arsmagica2.Hecate", "equip":true},
 					{"name" : "abyssalcraft.shadowmonster", "equip":true},
-					{"name" : "abyssalcraft.shadowbeast", "equip":true},
-					{"name" : "Spider"},
-                    {"name": "CaveSpider"}
+					{"name" : "abyssalcraft.shadowbeast", "equip":true, "weight":2},
+					{"name" : "Spider", "weight":3},
+                    {"name": "CaveSpider", "weight":2}
 				],
 				"ZOMBIE" : [
-					{"name" : "abyssalcraft.shadowcreature"},
-					{"name" : "EnderZoo.FallenKnight", "equip":true},
-					{"name" : "cyberware.cyberzombie", "equip":true},
-					{"name" : "arsmagica2.EarthElemental", "equip":true},
-					{"name" : "Quark.dweller", "equip":true},
+					{"name" : "abyssalcraft.shadowcreature", "weight":3},
+					{"name" : "EnderZoo.FallenKnight", "equip":true, "weight":2},
+					{"name" : "cyberware.cyberzombie", "equip":true, "weight":2},
+					{"name" : "Quark.dweller", "equip":true, "weight":2},
 					{"name" : "abyssalcraft.depthsghoul", "equip":true},
-                    {"name" : "arsmagica2.HellCow", "equip":true},
-					{"name" : "Zombie", "equip":true}
+					{"name" : "Zombie", "equip":true, "weight":3}
 				],
 				"SKELETON" : [
-					{"name" : "arsmagica2.WaterElemental"},
-					{"name" : "Quark.wraith"},
-					{"name" : "Quark.pirate"},
-                    {"name" : "EnderZoo.FallenKnight", "equip":true},
-                    {"name" : "EnderZoo.WitherWitch", "equip":true},
-                    {"name" : "arsmagica2.ManaElemental", "equip":true},
+					{"name" : "Quark.wraith", "weight":2},
+					{"name" : "Quark.pirate", "weight":2},
+                    {"name" : "EnderZoo.FallenKnight", "equip":true, "weight":2},
+                    {"name" : "EnderZoo.WitherWitch", "equip":true, "weight":2},
                     {"name" : "abyssalcraft.gskeleton", "equip":true},
-					{"name" : "Skeleton", "equip":true}
-				],
-                "BLAZE":[
-                    {"name":"Blaze"},
-                    {"name":"arsmagica2.FireElemental"}
-                ]
+					{"name" : "Skeleton", "equip":true, "weight":3}
+				]
             },
             "rooms":[
                 {"mode":"single","type":"DARKHALL"},
@@ -250,8 +231,13 @@
             "spawners":{
                 "CREEPER":[
                     {"name":"Creeper"},
-                    {"name":"EnderZoo.ConcussionCreeper"},
-                    {"name":"arsmagica2.ManaCreeper"}
+                    {"name":"EnderZoo.ConcussionCreeper"}
+                ],
+                "BLAZE":[
+                    {"name":"Blaze", "weight":6},
+                    {"name":"thermalfoundation.blizz", "weight":1},
+                    {"name":"thermalfoundation.blitz", "weight":1},
+                    {"name":"thermalfoundation.basalz", "weight":1}
                 ]
             }
         }
