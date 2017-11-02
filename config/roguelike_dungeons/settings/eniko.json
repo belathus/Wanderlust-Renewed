@@ -1,5 +1,6 @@
 {
-    "name":"pyramid",
+    "name":"eniko",
+    "namespace":"eniko",
     "criteria":{
         "dimensionWL":[
             0
@@ -7,9 +8,8 @@
         "weight":1
     },
     "biomeTypes":[
-        "SANDY"
+        "MOUNTAIN"
     ],
-    "namespace":"pyramid",
 	"inherit":[
         "default:_loot_all",
         "default:_loot0",
@@ -21,10 +21,11 @@
         "default:base",
         "builtin:theme"
 	],
+    "exclusive":true,
     "tower":{
-        "type":"ETHO",
+        "type":"ENIKO",
         "theme":{
-            "base":"ETHO"
+            "base":"ENIKO"
         }
     }
 }
