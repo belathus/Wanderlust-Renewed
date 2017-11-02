@@ -1,8 +1,8 @@
 # This file will cover recipes added to Immersive Engineering's crusher, coke oven, and other machines
 
 # Blast Furnace
-    mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:block_coke>, 12000);
-    mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:item_coke>, 1200);
+    #mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:block_coke>, 12000);
+    #mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:item_coke>, 1200);
 
 # Coke Oven
     # Rockhounding Ores
@@ -104,15 +104,15 @@
         mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("oreResonating", 0.15);
         
     # Chimerite Vein
-        mods.immersiveengineering.Excavator.addMineral("Chimerite", 15, 0.35, ["oreChimerite", "oreVinteum", "oreSunstone"], [0.6842, 0.2723, 0.0435]);
+        #mods.immersiveengineering.Excavator.addMineral("Chimerite", 15, 0.35, ["oreChimerite", "oreVinteum", "oreSunstone"], [0.6842, 0.2723, 0.0435]);
     # Vinteum Vein
-        mods.immersiveengineering.Excavator.addMineral("Vinteum", 20, 0.2, ["oreVinteum", "oreBlueTopaz", "oreMoonstone"], [0.6287, 0.2571, 0.1142]);
+        #mods.immersiveengineering.Excavator.addMineral("Vinteum", 20, 0.2, ["oreVinteum", "oreBlueTopaz", "oreMoonstone"], [0.6287, 0.2571, 0.1142]);
     # Meteorite Vein
-        mods.immersiveengineering.Excavator.addMineral("Meteorite", 10, 0.5, ["oreIron", "oreSunstone", "oreMoonstone"], [0.4805, 0.3147, 0.2048]);
+        #mods.immersiveengineering.Excavator.addMineral("Meteorite", 10, 0.5, ["oreIron", "oreSunstone", "oreMoonstone"], [0.4805, 0.3147, 0.2048]);
     # Dark Ore Vein
         mods.immersiveengineering.Excavator.addMineral("Blackened", 10, 0.5, ["oreDark", "oreIron", "oreMithril"], [0.6452, 0.2569, 0.0979]);
     # Radioactive Vein
-        mods.immersiveengineering.Excavator.addMineral("Radioactive", 15, 0.3, ["oreRedstone", "oreResonating", "oreChimerite"], [0.7024, 0.2119, 0.0857]);
+        mods.immersiveengineering.Excavator.addMineral("Radioactive", 15, 0.3, ["oreRedstone", "oreResonating"], [0.7024, 0.2119]);
     # Fossil Vein
         mods.immersiveengineering.Excavator.addMineral("Fossil", 20, 0.1, ["blockBone", "oreCoal", "oreDiamond"], [0.6158, 0.3784, 0.0058]);
     # Mineral Vein
@@ -121,8 +121,8 @@
 # Squeezer
     mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
     var seeds = [
-        <actuallyadditions:itemCanolaSeed>,   <actuallyadditions:itemCoffeeSeed>,   <actuallyadditions:itemFlaxSeed>,
-        <actuallyadditions:itemRiceSeed>,     <biomesoplenty:turnip_seeds>,         <natura:overworld_seeds>,
+        #<actuallyadditions:itemCanolaSeed>,   <actuallyadditions:itemCoffeeSeed>,   <actuallyadditions:itemFlaxSeed>,   <actuallyadditions:itemRiceSeed>,
+        <biomesoplenty:turnip_seeds>,         <natura:overworld_seeds>,
         <natura:overworld_seeds:1>,           <harvestcraft:bellpepperseeditem>,    <harvestcraft:cranberryseeditem>,
         <harvestcraft:cabbageseeditem>,       <harvestcraft:cornseeditem>,          <harvestcraft:cucumberseeditem>,
         <harvestcraft:onionseeditem>,         <harvestcraft:artichokeseeditem>,     <harvestcraft:cottonseeditem>,

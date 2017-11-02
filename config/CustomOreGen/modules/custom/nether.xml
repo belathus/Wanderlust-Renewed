@@ -1015,7 +1015,7 @@
         
         <!-- Resonating ore deposits below lava -->
           <IfModInstalled name="deepresonance">
-             <Veins name='deepNetherResonatingVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='false' wireframeColor='0x60FF9999' drawBoundBox='false' boundBoxColor='0x6099FF99'>
+             <Veins name='deepNetherResonatingVeins' branchType='Bezier'  inherits='PresetSmallDeposits' drawWireframe='true' wireframeColor='0x60FF6666' drawBoundBox='false' boundBoxColor='0x60FF6666'>
                  <Description> 
                    Small motherlodes without any branches.
                    Similar to the deposits produced by StandardGen distributions.
