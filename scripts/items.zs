@@ -190,6 +190,9 @@
 #    recipes.remove(<backpack:stick:0>);
 #    recipes.remove(<backpack:stick:1>);
 
+# Base
+    recipes.addShapeless(<base:nugget:80>, [<nuggetGold>, <evilcraft:garmonbozia>]);
+
 # Base Metals
 #    recipes.remove(<basemetals:iron_rod>);
 
