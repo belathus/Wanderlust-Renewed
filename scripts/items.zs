@@ -213,6 +213,9 @@
 # EvilCraft
     recipes.addShapeless(<evilcraft:darkGem>, [<actuallyadditions:itemMisc:5>]);
 
+# Extra Utilities
+    <extrautils2:bagofholding>.addTooltip(format.red("Will delete contents upon switching to creative mode"));
+
 # Fishing Net Mod
     recipes.remove(<fishing:itemNet>);
     recipes.addShaped(<fishing:itemNet>,
