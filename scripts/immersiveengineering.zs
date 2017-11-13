@@ -9,6 +9,11 @@
         mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 2, 1000, <ore:itemAnthracite>, 1800);
 
 # Crusher
+    # Advanced Rocketry
+        mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productdust:3>);
+        mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:3>,<libvulpes:productingot:3>,200);
+        mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:3>,<ore:itemSilicon>,200);
+        
     # Dungeon Tactics
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder>,<dungeontactics:flower_cinder>,200,<minecraft:blaze_powder>,0.2);
         

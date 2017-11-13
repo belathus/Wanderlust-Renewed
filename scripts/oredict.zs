@@ -75,6 +75,15 @@
     <ore:flowerRed>.add(<minecraft:red_flower:4>);
     <ore:flowerRed>.add(<biomesoplenty:flower_1>);
     <ore:flowerRed>.add(<botania:flower:14>);
+# Food
+    <ore:listAllmuttonraw>.add(<primal:ovis_meat_raw>);
+    <ore:listAllmuttonraw>.add(<animania:raw_prime_mutton>);
+    <ore:listAllmuttoncooked>.add(<primal:ovis_meat_cooked>);
+    <ore:listAllmuttoncooked>.add(<animania:cooked_prime_mutton>);
+    <ore:listAllmeatraw>.add(<primal:ovis_meat_raw>);
+    <ore:listAllmeatraw>.add(<animania:raw_prime_mutton>);
+    <ore:listAllmeatcooked>.add(<primal:ovis_meat_cooked>);
+    #<ore:listAllmeatcooked>.add(<animania:cooked_prime_mutton>);
 # Frames
     <ore:frameWood>.add(<actuallyadditions:blockMisc:4>);
     #<ore:frameIron>.add(<ironchest:BlockIronChest>);
