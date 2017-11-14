@@ -1,10 +1,10 @@
 <Recipes>
-    <Recipe timeRequired="80" power="10">
+    <Recipe timeRequired="10" power="10">
         <input>
-            <oreDict>plankWood 1</oreDict>
+            <itemStack>minecraft:planks 1 0</itemStack>
         </input>
         <output>
-            <itemStack>minecraft:stick 3 0</itemStack>
+            <itemStack>minecraft:wooden_slab 2 0</itemStack>
         </output>
     </Recipe>
     <Recipe timeRequired="80" power="10">
