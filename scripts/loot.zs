@@ -8,7 +8,7 @@ import loottweaker.vanilla.loot.Functions;
   # Remove iron ingot from zombie drops, but add copper, tin, and zinc
   val zombie = LootTables.getTable("minecraft:entities/zombie");
   val zombie_pool1 = zombie.getPool("pool1");
-  pool1.removeItemEntry(<minecraft:iron_ingot>);
-  pool1.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []);
-  pool1.addItemEntryHelper(<base:ingot:29>, 1, 0, [], []);
-  pool1.addItemEntryHelper(<base:ingot:34>, 1, 0, [], []);
+  zombie_pool1.removeItemEntry(<minecraft:iron_ingot>);
+  zombie_pool1.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []);
+  zombie_pool1.addItemEntryHelper(<base:ingot:29>, 1, 0, [], []);
+  zombie_pool1.addItemEntryHelper(<base:ingot:34>, 1, 0, [], []);
