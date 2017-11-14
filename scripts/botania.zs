@@ -18,6 +18,32 @@
     mods.botania.ManaInfusion.addAlchemy(<quark:basalt>,<ore:stoneMarble>,200);
     mods.botania.ManaInfusion.addAlchemy(<minecraft:stone>,<ore:stoneBasalt>,200);
     
+    # Duplicate more stuff
+    mods.botania.ManaInfusion.addConjuration(<biomesoplenty:dirt> * 2, <biomesoplenty:dirt>, 500);
+    mods.botania.ManaInfusion.addConjuration(<biomesoplenty:dirt:1> * 2, <biomesoplenty:dirt:1>, 500);
+    mods.botania.ManaInfusion.addConjuration(<biomesoplenty:dirt:2> * 2, <biomesoplenty:dirt:2>, 500);
+    mods.botania.ManaInfusion.addConjuration(<minecraft:sand:1> * 2, <minecraft:sand:1>, 500);
+    mods.botania.ManaInfusion.addConjuration(<forestry:ash> * 2, <ore:dustAsh>, 500);
+    
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:0> * 2, <ore:dyeWhite>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:1> * 2, <ore:dyeOrange>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:2> * 2, <ore:dyeMagenta>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:3> * 2, <ore:dyeLightBlue>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:4> * 2, <ore:dyeYellow>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:5> * 2, <ore:dyeLime>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:6> * 2, <ore:dyePink>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:7> * 2, <ore:dyeGray>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:8> * 2, <ore:dyeLightGray>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:9> * 2, <ore:dyeCyan>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:10> * 2, <ore:dyePurple>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:11> * 2, <ore:dyeBlue>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:12> * 2, <ore:dyeBrown>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:13> * 2, <ore:dyeGreen>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:14> * 2, <ore:dyeRed>, 500);
+    mods.botania.ManaInfusion.addConjuration(<botania:dye:15> * 2, <ore:dyeBlack>, 500);
+    
+    mods.botania.ManaInfusion.addConjuration(<evilcraft:darkGem> * 2,<ore:gemDark>, 2500);
+    
 # Runic Altar
     mods.botania.RuneAltar.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 7 as short, id: 16 as short}]}), [<astralsorcery:ItemIlluminationPowder>, <abyssalcraft:shadowgem>, <botania:rune:8>, <quark:ancient_tome>, <evilcraft:bloodOrb:1>, <bloodmagic:ItemSoulGem:1>.withTag({souls: 256.0}), <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]})], 10000);
 
