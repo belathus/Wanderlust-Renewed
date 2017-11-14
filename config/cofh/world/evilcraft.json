@@ -1,0 +1,50 @@
+{
+  "populate": {
+    "darkore": {
+      "distribution": "uniform",
+      "generator": {
+        "block": "evilcraft:darkOre",
+        "material": ["stone", "quark:limestone"],
+        "cluster-size": 1
+      },
+      "cluster-count": 25,
+      "min-height": 6,
+      "max-height": 66,
+      "retrogen": "true",
+      "biome": {
+        "restriction": "blacklist",
+        "value": [{"type": "dictionary", "entry": "SPOOKY"}]
+      },
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    },
+    "darkore_spooky": {
+      "distribution": "uniform",
+      "generator": {
+        "block": "evilcraft:darkOre",
+        "material": ["stone", "quark:limestone"],
+        "cluster-size": 1
+      },
+      "cluster-count": 75,
+      "min-height": 6,
+      "max-height": 66,
+      "retrogen": "true",
+      "biome": {
+        "restriction": "whitelist",
+        "value": [{"type": "dictionary", "entry": "SPOOKY"}]
+      },
+      "dimension": {
+        "restriction": "blacklist",
+        "value": [
+          -1,
+          1
+        ]
+      }
+    }
+  }
+}
