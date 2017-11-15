@@ -394,6 +394,16 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
+# Extra Utilities 2
+    recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
+        [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+         [<ore:cobblestone>, <ore:ingotBrass>, <ore:cobblestone>],
+         [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+    recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
+        [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>],
+         [<ore:ingotBrass>, <extrautils2:machine>, <ore:ingotBrass>],
+         [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+
 # Forestry
     recipes.remove(<forestry:fabricator>);
     recipes.addShaped(<forestry:fabricator>,
