@@ -47,8 +47,14 @@
          [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
          [null,<ore:plankWood>,null]]);
     recipes.addShaped(<minecraft:bucket>,
-        [[<ore:ingotTin>,null,<ore:ingotTin>],
-         [null,<ore:ingotTin>,null]]);
+        [[<ore:ingotCopper>,null,<ore:ingotCopper>],
+         [null,<ore:ingotCopper>,null]]);
+    recipes.addShaped(<minecraft:bucket>,
+        [[<ore:ingotBrass>,null,<ore:ingotBrass>],
+         [null,<ore:ingotBrass>,null]]);
+    recipes.addShaped(<minecraft:bucket>,
+        [[<ore:ingotNickel>,null,<ore:ingotNickel>],
+         [null,<ore:ingotNickel>,null]]);
 
 # Actually Additions
     # Removing a bunch of tools; AIOTs will be dungeon loot
