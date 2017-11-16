@@ -350,6 +350,7 @@
     #recipes.remove(<rockhounding_chemistry:miscItems:19>);
     recipes.addShaped(<rockhounding_chemistry:miscItems:19>,
         [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+    recipes.remove(<rockhounding_chemistry:miscItems:19>);
 
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);

@@ -33,6 +33,7 @@
     #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
 # Coils
     <ore:coilCopper>.add(<immersiveengineering:metalDecoration0>);
+    <ore:coilCopper>.add(<rockhounding_chemistry:miscItems:20>);
     <ore:coilElectrum>.add(<immersiveengineering:metalDecoration0:1>);
     <ore:coilAluminum>.add(<immersiveengineering:metalDecoration0:2>);
 # Dark Gems

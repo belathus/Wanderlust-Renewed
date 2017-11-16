@@ -394,12 +394,31 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
          [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
 
+# Extra Utilities 2
+    recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
+        [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+         [<ore:cobblestone>, <ore:ingotBrass>, <ore:cobblestone>],
+         [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+    recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
+        [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>],
+         [<ore:ingotBrass>, <extrautils2:machine>, <ore:ingotBrass>],
+         [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+
 # Forestry
     recipes.remove(<forestry:fabricator>);
     recipes.addShaped(<forestry:fabricator>,
         [[<ore:ingotNickel>, <ore:blockGlassHardened>, <ore:ingotNickel>],
          [<ore:blockGlassHardened>, <forestry:sturdyMachine>, <ore:blockGlassHardened>],
          [<ore:ingotNickel>, <ore:chestWood>, <ore:ingotNickel>]]);
+    recipes.remove(<forestry:engine_clockwork>);
+    recipes.addShaped(<forestry:engine_clockwork>,
+        [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+         [null, <ore:blockGlass>, null],
+         [<ore:gearBrass>, <minecraft:clock>, <ore:gearBrass>]]);
+    recipes.addShaped(<forestry:engine_biogas>,
+        [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>],
+         [null, <ore:blockGlass>, null],
+         [<ore:gearBrass>, <minecraft:piston:*>, <ore:gearBrass>]]);
 
 # Immersive Engineering
     # Conveyor Belts
@@ -568,6 +587,22 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
          [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
          [<ore:plankWood>,<ore:ingotSteel>,<ore:plankWood>]]);
+    recipes.addShaped(<rockhounding_chemistry:owcBlocks:6>,
+        [[<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>],
+         [<rockhounding_chemistry:miscItems:28>, <rockhounding_chemistry:miscItems:26>, <rockhounding_chemistry:miscItems:28>],
+         [<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>]]);
+    recipes.addShaped(<rockhounding_chemistry:owcBlocks:7>,
+        [[<rockhounding_chemistry:miscItems:28>, <ore:wireCopper>, <ore:blockIron>],
+         [<minecraft:comparator>, <ore:wireCopper>, <ore:blockIron>],
+         [<rockhounding_chemistry:miscItems:28>, <ore:wireCopper>, <ore:blockIron>]]);
+    recipes.addShaped(<rockhounding_chemistry:miscItems:20>,
+        [[<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>],
+         [<ore:wireCopper>, null, <ore:wireCopper>],
+         [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>]]);
+    recipes.addShaped(<rockhounding_chemistry:miscItems:32>,
+        [[<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>],
+         [<ore:wireCopper>, <rockhounding_chemistry:miscItems:31>, <ore:wireCopper>],
+         [<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>]]);
 
 # Roots
 /*
