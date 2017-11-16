@@ -267,6 +267,7 @@
          [<extrautils2:decorativesolidwood:1>,null,null]]);
     recipes.remove(<extrautils2:sickle_wood>);
     recipes.remove(<extrautils2:sickle_stone>);
+    recipes.remove(<extrautils2:itembuilderswand>);
 
 # Grappling Hooks
 #    recipes.remove(<grapplemod:grapplinghook>);
