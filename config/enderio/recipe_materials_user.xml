@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Binder Composite" required="true">
+    <crafting>
+      <level maxlevel="0"/>
+      <grid size="3x3">
+        <item name="oredict:gravel" /><item name="oredict:gravel" /><item name="oredict:gravel" />
+        <item name="oredict:sand" /><item name="oredict:clayball" /><item name="oredict:sand" />
+        <item name="oredict:gravel" /><item name="oredict:gravel" /><item name="oredict:gravel" />
+      </grid>
+      <output name="BINDER_COMPOSITE" amount="16" />
+    </crafting>
+    <crafting>
+      <level minlevel="1" maxlevel="2"/>
+      <grid size="3x3">
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+        <item name="oredict:sand" /><item name="oredict:gravel" /><item name="oredict:sand" />
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+      </grid>
+      <output name="BINDER_COMPOSITE" amount="8" />
+    </crafting>
+    <crafting>
+      <level minlevel="3"/>
+      <grid size="3x3">
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+        <item name="oredict:sand" /><item name="oredict:gravel" /><item name="oredict:sand" />
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+      </grid>
+      <output name="BINDER_COMPOSITE" amount="4" />
+    </crafting>
 
+    <crafting>
+      <level maxlevel="0"/>
+      <grid size="3x3">
+        <item name="oredict:gravel" /><item name="oredict:gravel" /><item name="oredict:gravel" />
+        <item name="oredict:itemSlag" /><item name="oredict:clayball" /><item name="oredict:itemSlag" />
+        <item name="oredict:gravel" /><item name="oredict:gravel" /><item name="oredict:gravel" />
+      </grid>
+      <output name="BINDER_COMPOSITE" amount="24" />
+    </crafting>
+    <crafting>
+      <level minlevel="1" maxlevel="2"/>
+      <grid size="3x3">
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+        <item name="oredict:sand" /><item name="oredict:gravel" /><item name="oredict:sand" />
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+      </grid>
+      <output name="BINDER_COMPOSITE" amount="12" />
+    </crafting>
+    <crafting>
+      <level minlevel="3"/>
+      <grid size="3x3">
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+        <item name="oredict:itemSlag" /><item name="oredict:gravel" /><item name="oredict:itemSlag" />
+        <item name="oredict:gravel" /><item name="oredict:clayball" /><item name="oredict:gravel" />
+      </grid>
+      <output name="BINDER_COMPOSITE" amount="6" />
+    </crafting>
+  </recipe>
 </enderio:recipes>
