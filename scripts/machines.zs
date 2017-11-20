@@ -420,6 +420,25 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [null, <ore:blockGlass>, null],
          [<ore:gearBrass>, <minecraft:piston:*>, <ore:gearBrass>]]);
 
+# Gendustry
+    recipes.remove(<gendustry:BeeReceptacle>);
+    recipes.addShaped(<gendustry:BeeReceptacle>,
+        [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+         [<ore:dropRoyalJelly>, <minecraft:glass_pane:*>, <ore:dropRoyalJelly>],
+         [<minecraft:redstone>, <minecraft:light_weighted_pressure_plate:*>, <minecraft:redstone>]]);
+    recipes.addShaped(<gendustry:Labware> * 16,
+        [[<minecraft:glass_pane:*>, null, <minecraft:glass_pane:*>],
+         [<minecraft:glass_pane:*>, <ore:itemPollen>, <minecraft:glass_pane:*>],
+         [null, <minecraft:glass_pane:*>, null]]);
+#    recipes.addShaped(<gendustry:Mutatron>,
+#        [[<gendustry:BeeReceptacle:*>, <gendustry:GeneticsProcessor:*>, <ore:ingotBronze>],
+#         [<gendustry:PowerModule:*>, <forestry:sturdyMachine:*>, <gendustry:BeeReceptacle:*>],
+#         [<gendustry:BeeReceptacle:*>, <gendustry:MutagenTank:*>, <ore:ingotBronze>]]);
+#    recipes.addShaped(<gendustry:MutatronAdv>,
+#        [[<ore:gearBronze>, <minecraft:quartz:*>, <ore:gearBronze>],
+#         [<gendustry:GeneticsProcessor:*>, <gendustry:Mutatron:*>, <gendustry:GeneticsProcessor:*>],
+#         [<ore:gearBronze>, <gendustry:PowerModule:*>, <ore:gearBronze>]]);
+
 # Immersive Engineering
     # Conveyor Belts
     val conveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"});
