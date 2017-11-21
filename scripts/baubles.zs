@@ -1,21 +1,21 @@
 # EvilCraft
-    recipes.remove(<evilcraft:vengeanceRing>);
-    recipes.addShaped(<evilcraft:vengeanceRing>,
-        [[<evilcraft:darkGemCrushed>, <ore:ingotBrass>, <evilcraft:darkGemCrushed>],
+    recipes.remove(<evilcraft:vengeance_ring>);
+    recipes.addShaped(<evilcraft:vengeance_ring>,
+        [[<evilcraft:dark_gem_crushed>, <ore:ingotBrass>, <evilcraft:dark_gem_crushed>],
          [<ore:ingotBrass>, null, <ore:ingotBrass>],
-         [<evilcraft:darkGemCrushed>, <ore:ingotBrass>, <evilcraft:darkGemCrushed>]]);
-    recipes.remove(<evilcraft:vengeanceFocus>);
-    recipes.addShaped(<evilcraft:vengeanceFocus>,
-        [[<evilcraft:darkGemCrushed>, <ore:ingotSilver>, <evilcraft:darkGemCrushed>],
-         [<ore:ingotSilver>, <evilcraft:vengeanceRing>, <ore:ingotSilver>],
-         [<evilcraft:darkGemCrushed>, <ore:ingotSilver>, <evilcraft:darkGemCrushed>]]);
+         [<evilcraft:dark_gem_crushed>, <ore:ingotBrass>, <evilcraft:dark_gem_crushed>]]);
+    recipes.remove(<evilcraft:vengeance_focus>);
+    recipes.addShaped(<evilcraft:vengeance_focus>,
+        [[<evilcraft:dark_gem_crushed>, <ore:ingotSilver>, <evilcraft:dark_gem_crushed>],
+         [<ore:ingotSilver>, <evilcraft:vengeance_ring>, <ore:ingotSilver>],
+         [<evilcraft:dark_gem_crushed>, <ore:ingotSilver>, <evilcraft:dark_gem_crushed>]]);
          
 # Extra Utilities
     val ghast_lasso = <extrautils2:goldenlasso:1>.withTag({Animal: {id: "Ghast"}, No_Place: 1 as byte});
     val bat_lasso = <extrautils2:goldenlasso>.withTag({Animal: {id: "Bat"}, No_Place: 1 as byte});
     recipes.addShaped(<extrautils2:angelring>,
-        [[<base:nugget:80>, <minecraft:chorus_flower>, <base:nugget:80>],
-         [<base:nugget:80>, <extrautils2:ingredients>, <base:nugget:80>],
+        [[<ore:nuggetPhilosophersgold>, <minecraft:chorus_flower>, <ore:nuggetPhilosophersgold>],
+         [<ore:nuggetPhilosophersgold>, <extrautils2:ingredients>, <ore:nuggetPhilosophersgold>],
          [bat_lasso, <ore:ingotGold>, ghast_lasso]]);
     recipes.addShaped(<extrautils2:angelring:1>,
         [[<minecraft:feather>, <extrautils2:angelring:*>, <minecraft:feather>]]);

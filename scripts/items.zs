@@ -7,16 +7,16 @@
 
     var list_gallagher = [
         <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
-    ] as minetweaker.item.IItemStack[];
+    ] as crafttweaker.item.IItemStack[];
     val hammers = [
         <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
-    ] as minetweaker.item.IItemStack[];
+    ] as crafttweaker.item.IItemStack[];
     
 # Vanilla
     recipes.remove(<minecraft:name_tag>);
     recipes.addShaped(<minecraft:name_tag>,
         [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
-         [null,<bibliocraft:Label:*>,null]]);
+         [null,<bibliocraft:label:*>,null]]);
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
     recipes.addShaped(<minecraft:paper>*10,
         [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
@@ -31,6 +31,7 @@
             [[hammer],[<minecraft:stone_slab:7>]]);
     }
     # making sticks
+print("34"); /*
     recipes.addShaped(<minecraft:stick>*8,
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:logWood>]]);
@@ -44,16 +45,16 @@
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:treeSapling>]]);
     recipes.addShaped(<minecraft:stick>*8,
-        [[<bloodmagic:ItemBoundAxe>.reuse()],
+        [[<bloodmagic:ItemBoundAxe>.giveBack()],
          [<ore:logWood>]]);
     recipes.addShaped(<minecraft:stick>*2,
-        [[<bloodmagic:ItemBoundAxe>.reuse()],
+        [[<bloodmagic:ItemBoundAxe>.giveBack()],
          [<ore:plankWood>]]);
     recipes.addShaped(<minecraft:stick>*1,
-        [[<bloodmagic:ItemBoundAxe>.reuse()],
+        [[<bloodmagic:ItemBoundAxe>.giveBack()],
          [<ore:slabWood>]]);
     recipes.addShaped(<minecraft:stick>*1,
-        [[<bloodmagic:ItemBoundAxe>.reuse()],
+        [[<bloodmagic:ItemBoundAxe>.giveBack()],
          [<ore:treeSapling>]]);
     recipes.addShaped(<minecraft:stick>*1,
         [[<ore:itemKnife>],
@@ -61,17 +62,19 @@
     recipes.addShaped(<minecraft:stick>*1,
         [[<ore:toolAxe>],
          [<ore:treeSapling>]]);
+*/
          
     # making reusable water recipes
     recipes.addShapeless(<minecraft:clay_ball>*4,
-        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucketEternalWater>]);
+        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucket_eternal_water>]);
     recipes.addShapeless(<minecraft:clay_ball>*4,
-        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterRod>.reuse()]);
+        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterrod>.giveBack()]);
     recipes.remove(<minecraft:flint>);
     recipes.addShapeless(<minecraft:flint>, [<ore:gravel>,<ore:gravel>,<ore:gravel>]);
     recipes.addShapeless(<minecraft:torch>,[<primal:torch_wood_lit>]);
-    
+    print("75!");
 # Actually Additions
+/*
     recipes.addShapeless(<actuallyadditions:itemMisc:5>, [<evilcraft:darkGem>]);
     recipes.remove(<actuallyadditions:itemMisc:10>);
     recipes.remove(<actuallyadditions:itemMisc:11>);
@@ -99,31 +102,32 @@
         [[<ore:nuggetBrass>, <ore:gemDark>, <ore:nuggetBrass>],
          [<ore:nuggetBrass>, <ore:blockGlass>, <ore:nuggetBrass>],
          [<ore:nuggetBrass>, <ore:gemDark>, <ore:nuggetBrass>]]);
-    recipes.remove(<actuallyadditions:itemMiningLens>);
-    recipes.addShaped(<actuallyadditions:itemMiningLens>,
-        [[<ore:blockDiamond>, <base:ingot:80>, <ore:blockSteel>],
-         [<ore:blockCoal>, <actuallyadditions:itemMisc:18>, <evilcraft:darkBlock>],
+    recipes.remove(<actuallyadditions:item_mining_lens>);
+    recipes.addShaped(<actuallyadditions:item_mining_lens>,
+        [[<ore:blockDiamond>, <materialpart:philosophersgold:ingot>, <ore:blockSteel>],
+         [<ore:blockCoal>, <actuallyadditions:item_misc:18>, <evilcraft:dark_block>],
          [<ore:gemQuartz>, <ore:blockLapis>, <ore:blockEmerald>]]);
-    recipes.remove(<actuallyadditions:itemFilter>);
-    recipes.addShaped(<actuallyadditions:itemFilter>,
+    recipes.remove(<actuallyadditions:item_filter>);
+    recipes.addShaped(<actuallyadditions:item_filter>,
         [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
          [<minecraft:iron_bars>, <ore:gemDark>, <minecraft:iron_bars>],
          [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
-    recipes.remove(<actuallyadditions:itemCrateKeeper>);
-    recipes.addShaped(<actuallyadditions:itemCrateKeeper>,
+    recipes.remove(<actuallyadditions:item_crate_keeper>);
+    recipes.addShaped(<actuallyadditions:item_crate_keeper>,
         [[<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>],
          [<ore:ingotIron>, <ore:gemDark>,   <ore:ingotIron>],
          [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>]]);
-    recipes.remove(<actuallyadditions:itemMisc:7>);
-    recipes.addShaped(<actuallyadditions:itemMisc:7>, # Coil
-        [[null, <actuallyadditions:itemCrystal>, null],
-         [<actuallyadditions:itemCrystal>, <ore:gemDark>, <actuallyadditions:itemCrystal>],
+    recipes.remove(<actuallyadditions:item_misc:7>);
+    recipes.addShaped(<actuallyadditions:item_misc:7>, # Coil
+        [[null, <actuallyadditions:item_crystal>, null],
+         [<actuallyadditions:item_crystal>, <ore:gemDark>, <actuallyadditions:item_crystal>],
          [null, <actuallyadditions:itemCrystal>, null]]);
     # Ender Star
-    recipes.remove(<actuallyadditions:itemMisc:19>);
-    recipes.addShapeless(<actuallyadditions:itemMisc:19>,
+    recipes.remove(<actuallyadditions:item_misc:19>);
+    recipes.addShapeless(<actuallyadditions:item_misc:19>,
         [<minecraft:nether_star>, <minecraft:dragon_breath>, <ore:gemDark>, <minecraft:prismarine_shard>]);
-         
+*/   
+    print("130!");
 # AbyssalCraft
     recipes.remove(<abyssalcraft:ironp>);
     recipes.addShaped(<abyssalcraft:ironp>,
@@ -132,7 +136,7 @@
     #recipes.addShapeless(<fp:spaceship:12>,[<ore:stickIron>]);
     recipes.remove(<abyssalcraft:necronomicon>);
     recipes.addShapeless(<abyssalcraft:necronomicon>,
-        [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolfFlesh:*>]);
+        [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolf_flesh:*>]);
 
 # Advanced Rocketry
     recipes.remove(<advancedrocketry:productrod>); # Titanium aluminide
@@ -145,60 +149,61 @@
          [<ore:ingotTitaniumIridium>]]);
 
 # Ars Magica 2
-    #recipes.remove(<astralsorcery:ItemCraftingComponent:5>);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.remove(<astralsorcery:itemcraftingcomponent:5>);
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<roots:druidKnife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:wooden_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:iron_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:golden_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:diamond_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:gilded_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:tin_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:copper_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:bronze_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:stone_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:steel_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:silver_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:lead_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:jewelled_knife:*>.transformDamage()]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5> * 2,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5> * 2,
     #    [<ore:rawhide>,<ore:dustSalt>,<ore:itemKnife>]);
-    #recipes.addShapeless(<astralsorcery:ItemCraftingComponent:5>.withTag({display:{Name:"§rSpell Vellum"}}) * 3,
+    #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>.withTag({display:{Name:"§rSpell Vellum"}}) * 3,
     #    [<ore:leather>,<ore:dustSalt>,<ore:itemKnife>]);
     #furnace.remove(<arsmagica2:item_ore:6>);
     #recipes.addShapeless(<arsmagica2:item_ore:6>,
     #    [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
 
+print("192");
 # Backpack
 #    recipes.remove(<backpack:stick:0>);
 #    recipes.remove(<backpack:stick:1>);
 
-# Base
-    recipes.addShapeless(<base:nugget:80>, [<ore:nuggetGold>, <evilcraft:garmonbozia>]);
-
+# ContentTweaker
+    recipes.addShapeless(<materialpart:philosophers_gold:nugget>, [<ore:nuggetGold>, <evilcraft:garmonbozia>]);
+  print("200!");
 # Base Metals
 #    recipes.remove(<basemetals:iron_rod>);
 
 # Cooking For Blockheads
 #    recipes.remove();
-#    recipes.addShaped(<fishing:itemNet>,
+#    recipes.addShaped(<giacomos_fishing_net:itemnet>,
 #        [[],
 #         [],
 #         []]);
@@ -211,26 +216,25 @@
 #         [<ore:ingotBrick>,<ore:ingotBrickSeared>,<ore:ingotBrick>]]);
 
 # EvilCraft
-    recipes.addShapeless(<evilcraft:darkGem>, [<actuallyadditions:itemMisc:5>]);
+    #recipes.addShapeless(<evilcraft:dark_gem>, [<actuallyadditions:item_misc:5>]);
 
 # Extra Utilities
-    <extrautils2:bagofholding>.addTooltip(format.red("Will delete contents upon switching to creative mode"));
 
 # Fishing Net Mod
-    recipes.remove(<fishing:itemNet>);
-    recipes.addShaped(<fishing:itemNet>,
+    recipes.remove(<giacomos_fishing_net:itemnet>);
+    recipes.addShaped(<giacomos_fishing_net:itemnet>,
         [[null,<ore:cordageGeneral>,null],
          [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
          [null,<ore:cordageGeneral>,null]]);
 
 # Forestry
-    recipes.addShaped(<forestry:bogEarth>*6,
+    recipes.addShaped(<forestry:bog_earth>*6,
         [[<ore:dirt>,<ore:sand>,<ore:dirt>],
-         [<ore:sand>,<evilcraft:bucketEternalWater>,<ore:sand>],
+         [<ore:sand>,<evilcraft:bucket_eternal_water>,<ore:sand>],
          [<ore:dirt>,<ore:sand>,<ore:dirt>]]);
-    recipes.addShaped(<forestry:bogEarth>*6,
+    recipes.addShaped(<forestry:bog_earth>*6,
         [[<ore:dirt>,<ore:sand>,<ore:dirt>],
-         [<ore:sand>,<botania:waterRod>.reuse(),<ore:sand>],
+         [<ore:sand>,<botania:waterrod>.giveBack(),<ore:sand>],
          [<ore:dirt>,<ore:sand>,<ore:dirt>]]);
 
 # Futurepack
@@ -267,30 +271,31 @@
          [<ore:ingotIridium>]]);
 
 # More Bees
-    recipes.addShapeless(<morebees:diamondFragment>*9,[<ore:gemDiamond>]);
-    recipes.addShapeless(<morebees:emeraldFragment>*9,[<ore:gemEmerald>]);
+#    recipes.addShapeless(<morebees:diamond_fragment>*9,[<ore:gemDiamond>]);
+#    recipes.addShapeless(<morebees:emerald_fragment>*9,[<ore:gemEmerald>]);
 
 # Nature's Compass
-    recipes.remove(<naturescompass:NaturesCompass>);
-    recipes.addShaped(<naturescompass:NaturesCompass>,
+    recipes.remove(<naturescompass:naturescompass>);
+    recipes.addShaped(<naturescompass:naturescompass>,
         [[<ore:vine>,<ore:logWood>,<ore:vine>],
          [<ore:logWood>,<ore:listAllveggie>,<ore:logWood>],
          [<ore:vine>,<ore:logWood>,<ore:vine>]]);
-    recipes.addShaped(<naturescompass:NaturesCompass>,
+    recipes.addShaped(<naturescompass:naturescompass>,
         [[<ore:logWood>,<ore:vine>,<ore:logWood>],
          [<ore:vine>,<ore:listAllveggie>,<ore:vine>],
          [<ore:logWood>,<ore:vine>,<ore:logWood>]]);
 
 # Pam's Harvestcraft
     recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
-        [<evilcraft:bucketEternalWater>]);
+        [<evilcraft:bucket_eternal_water>]);
     recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
-        [<botania:waterRod>.reuse()]);
+        [<botania:waterrod>.giveBack()]);
 
 # PrimalCore
     recipes.remove(<primal:iron_ring>);
     recipes.addShapeless(<primal:plant_cordage>,
         [<ore:fiberHemp>,<ore:fiberHemp>]);
+print("300 (close enough)");    
     recipes.addShaped(<primal:torch_wood>*8,
         [[<ore:fuelCoke>],
          [<ore:cordagePlant>],
@@ -308,10 +313,10 @@
          [<ore:cordagePlant>],
          [<ore:stickWood>]]);
     for i, galla in list_gallagher {
+#        recipes.addShaped(<primal:carbonate_slack> * 4, 
+#            [[galla],[<biomesoplenty:stone>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
-            [[galla],[<biomesoplenty:stone>]]);
-        recipes.addShaped(<primal:carbonate_slack> * 4, 
-            [[galla],[<chisel:limestoneextra:7>]]);
+            [[galla],[<chisel:limestone2:7>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
             [[galla],[<primal:carbonate_stone>]]);
         recipes.addShaped(<primal:carbonate_slack> * 4, 
@@ -321,36 +326,36 @@
     }
 
 # Refined Storage
-    recipes.remove(<refinedstorage:quartz_enriched_iron>);
-    recipes.addShapeless(<base:dust:81> * 2,
-        [<ore:dustSteel>, <ore:dustSteel>, <ore:dustQuartz>]);
+#    recipes.remove(<refinedstorage:quartz_enriched_iron>);
+#    recipes.addShapeless(<materialpart:quartz_enriched_iron:dust> * 2,
+#        [<ore:dustSteel>, <ore:dustSteel>, <ore:dustQuartz>]);
 
 # Reliquary
     recipes.addShaped(<xreliquary:glowing_water>*5,
-        [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+        [[<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
          [<ore:paneGlass>,<ore:dustGlowstone>,<ore:paneGlass>],
          [<ore:cropNetherWart>,<ore:paneGlass>,<ore:gunpowder>]]);
     recipes.addShaped(<xreliquary:attraction_potion>*5,
-        [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+        [[<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
          [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
          [<minecraft:dye:1>,<ore:paneGlass>,<minecraft:dye:3>]]);
     recipes.addShaped(<xreliquary:fertile_potion>*5,
-        [[<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+        [[<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
          [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
          [<minecraft:dye:2>,<ore:paneGlass>,<minecraft:dye:11>]]);
-    recipes.addShaped(<xreliquary:mob_ingredient:11>,
-        [[<ore:toolAxe>],
-         [<enderio:blockEndermanSkull>]]);
+#    recipes.addShaped(<xreliquary:mob_ingredient:11>,
+#        [[<ore:toolAxe>],
+#         [<enderio:blockEndermanSkull>]]);
     recipes.addShaped(<xreliquary:mob_ingredient:6>,
         [[<ore:toolAxe>],
          [<minecraft:skull:2>]]);
 # Rockhounding
     # Fuel to fuel pellets
-    recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
-    #recipes.remove(<rockhounding_chemistry:miscItems:19>);
-    recipes.addShaped(<rockhounding_chemistry:miscItems:19>,
-        [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
-    recipes.remove(<rockhounding_chemistry:miscItems:19>);
+#    recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
+    #recipes.remove(<rockhounding_chemistry:misc_items:19>);
+#    recipes.addShaped(<rockhounding_chemistry:misc_items:19>,
+#        [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+#    recipes.remove(<rockhounding_chemistry:misc_items:19>);
 
 # Tinker's Construct
     recipes.remove(<tconstruct:soil>);
@@ -370,17 +375,18 @@
          [<ore:rodStone>]]);
 
 # Waystones
-    recipes.remove(<waystones:warpScroll>);
-    recipes.addShapeless(<waystones:warpScroll>,
-        [<astralsorcery:ItemCraftingComponent:5>,<ore:dustRedstone>]);
-    recipes.addShapeless(<waystones:warpScroll>,
-        [<astralsorcery:ItemCraftingComponent:5>,<ore:powderMana>]);
-    recipes.addShapeless(<waystones:warpScroll>,
-        [<astralsorcery:ItemCraftingComponent:5>,<ore:dustVinteum>]);
-    recipes.addShapeless(<waystones:warpScroll>*3,
-        [<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<ore:dustGlowstone>]);
-    recipes.addShapeless(<waystones:warpScroll>*3,
-        [<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<ore:powderBlaze>]);
-    recipes.addShapeless(<waystones:warpScroll>*8,
-        [<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,
-        <astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<astralsorcery:ItemCraftingComponent:5>,<evilcraft:darkGemCrushed>]);
+    recipes.remove(<waystones:warp_scroll>);
+    recipes.addShapeless(<waystones:warp_scroll>,
+        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustRedstone>]);
+    recipes.addShapeless(<waystones:warp_scroll>,
+        [<astralsorcery:itemcraftingcomponent:5>,<ore:powderMana>]);
+    recipes.addShapeless(<waystones:warp_scroll>,
+        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustVinteum>]);
+    recipes.addShapeless(<waystones:warp_scroll>*3,
+        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:dustGlowstone>]);
+    recipes.addShapeless(<waystones:warp_scroll>*3,
+        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:powderBlaze>]);
+    recipes.addShapeless(<waystones:warp_scroll>*8,
+        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,
+        <astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<evilcraft:dark_gem_crushed>]);
+print("all done");

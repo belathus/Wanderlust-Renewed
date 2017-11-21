@@ -297,82 +297,83 @@
         [[<ore:flakeFlint>,<ore:cordageGeneral>,<ore:flakeFlint>],
          [<ore:flakeFlint>,<ore:stickWood>,null],
          [null,<ore:stickWood>,null]]);
-    recipes.addShapeless(<primal:flint_hatchet>, 
+/*
+    recipes.addShapeless("xp", <primal:flint_hatchet>, 
         [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 25));
         });
-#    recipes.addShapeless(<primal:flint_hatchet>, 
+#    recipes.addShapeless("xp", <primal:flint_hatchet>, 
 #        [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <druidry:branch>.noReturn()],
 #        function(output, inputs, crafting) {
 #            return inputs.hatchet.withDamage(max(0, inputs.hatchet.damage - 50));
 #        });
-    recipes.addShapeless(<primal:flint_axe>, 
+    recipes.addShapeless("xp", <primal:flint_axe>, 
         [<primal:flint_axe>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:flint_pickaxe>, 
+    recipes.addShapeless("xp", <primal:flint_pickaxe>, 
         [<primal:flint_pickaxe>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:flint_shovel>, 
+    recipes.addShapeless("xp", <primal:flint_shovel>, 
         [<primal:flint_shovel>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:flint_hoe>, 
+    recipes.addShapeless("xp", <primal:flint_hoe>, 
         [<primal:flint_hoe>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:flint_workblade>, 
+    recipes.addShapeless("xp", <primal:flint_workblade>, 
         [<primal:flint_workblade>.anyDamage().marked("tool").noReturn(), <ore:flakeFlint>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_hatchet>, 
+    recipes.addShapeless("xp", <primal:quartz_hatchet>, 
         [<primal:quartz_hatchet>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 250));
         });
-    recipes.addShapeless(<primal:quartz_axe>, 
+    recipes.addShapeless("xp", <primal:quartz_axe>, 
         [<primal:quartz_axe>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_pickaxe>, 
+    recipes.addShapeless("xp", <primal:quartz_pickaxe>, 
         [<primal:quartz_pickaxe>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 70)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_hoe>, 
+    recipes.addShapeless("xp", <primal:quartz_hoe>, 
         [<primal:quartz_hoe>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 140)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_saw>, 
+    recipes.addShapeless("xp", <primal:quartz_saw>, 
         [<primal:quartz_saw>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 140)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_shovel>, 
+    recipes.addShapeless("xp", <primal:quartz_shovel>, 
         [<primal:quartz_shovel>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 90)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_workblade>, 
+    recipes.addShapeless("xp", <primal:quartz_workblade>, 
         [<primal:quartz_workblade>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 120)).withTag(inputs.tool.tag);
         });
-    recipes.addShapeless(<primal:quartz_shears>, 
+    recipes.addShapeless("xp", <primal:quartz_shears>, 
         [<primal:quartz_shears>.anyDamage().marked("tool").noReturn(), <ore:flakeQuartz>.noReturn()],
         function(output, inputs, crafting) {
             return inputs.tool.withDamage(max(0, inputs.tool.damage - 140)).withTag(inputs.tool.tag);
         });
-
+*/
 # Copper Saw
 #    recipes.addShaped(<primal:copper_saw>,
 #        [[<ore:plateSmallCopper>,null,null],

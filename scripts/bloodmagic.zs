@@ -10,7 +10,7 @@
     #mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:ItemBoundAxe>, 3000);
 
 # Altar
-    mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemDaggerOfSacrifice>);
-    mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemDaggerOfSacrifice>, 2, 3000, 5, 5, [<dungeontactics:silver_knife>]);
+    #mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemDaggerOfSacrifice>);
+    #mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemDaggerOfSacrifice>, 2, 3000, 5, 5, [<dungeontactics:silver_knife>]);
 
 #mods.bloodmagic.SoulForge.addRecipe(<minecraft:netherrack>, 5, 10, [<minecraft:blaze_rod>, <minecraft:dirt>]);

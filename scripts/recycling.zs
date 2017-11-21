@@ -1,4 +1,10 @@
 # Lists
+  var bronze_nugget = <thermalfoundation:material:227>;
+  var invar_nugget = <thermalfoundation:material:226>;
+  var platinum_nugget = <thermalfoundation:material:198>;
+  var tin_nugget = <thermalfoundation:material:193>;
+
+
     # Format is <armor>, <ingot returned>
     var returns24 = [
         [<minecraft:iron_chestplate>,               <immersiveengineering:metal:29>],
@@ -13,19 +19,19 @@
         [<abyssalcraft:dreadiumplate>,              <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:dreadiumsamuraiplate>,       <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumplate>,              <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumChest>,                 <botania:manaresource:19>],
-        [<botania:manasteelChest>,                  <botania:manaresource:17>],
-        [<botania:terrasteelChest>,                 <botania:manaresource:18>],
-        [<thermalfoundation:armor.plate_bronze>,    <base:nugget:7>],
+        [<botania:elementiumchest>,                 <botania:manaresource:19>],
+        [<botania:manasteelchest>,                  <botania:manaresource:17>],
+        [<botania:terrasteelchest>,                 <botania:manaresource:18>],
+        [<thermalfoundation:armor.plate_bronze>,    bronze_nugget],
         [<thermalfoundation:armor.plate_copper>,    <immersiveengineering:metal:20>],
         [<thermalfoundation:armor.plate_electrum>,  <immersiveengineering:metal:27>],
-        [<thermalfoundation:armor.plate_invar>,     <base:nugget:19>],
+        [<thermalfoundation:armor.plate_invar>,     invar_nugget],
         [<thermalfoundation:armor.plate_lead>,      <immersiveengineering:metal:22>],
         [<thermalfoundation:armor.plate_nickel>,    <immersiveengineering:metal:24>],
-        [<thermalfoundation:armor.plate_platinum>,  <base:nugget:25>],
+        [<thermalfoundation:armor.plate_platinum>,  platinum_nugget],
         [<thermalfoundation:armor.plate_silver>,    <immersiveengineering:metal:23>],
-        [<thermalfoundation:armor.plate_tin>,       <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:armor.plate_tin>,       tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
     
     var returns21 = [
         [<minecraft:iron_leggings>,                 <immersiveengineering:metal:29>],
@@ -40,23 +46,23 @@
         [<abyssalcraft:dreadiumlegs>,               <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:dreadiumsamurailegs>,        <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumlegs>,               <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumLegs>,                  <botania:manaresource:19>],
-        [<botania:manasteelLegs>,                   <botania:manaresource:17>],
-        [<botania:terrasteelLegs>,                  <botania:manaresource:18>],
-        [<thermalfoundation:armor.legs_bronze>,     <base:nugget:7>],
+        [<botania:elementiumlegs>,                  <botania:manaresource:19>],
+        [<botania:manasteellegs>,                   <botania:manaresource:17>],
+        [<botania:terrasteellegs>,                  <botania:manaresource:18>],
+        [<thermalfoundation:armor.legs_bronze>,     bronze_nugget],
         [<thermalfoundation:armor.legs_copper>,     <immersiveengineering:metal:20>],
         [<thermalfoundation:armor.legs_electrum>,   <immersiveengineering:metal:27>],
-        [<thermalfoundation:armor.legs_invar>,      <base:nugget:19>],
+        [<thermalfoundation:armor.legs_invar>,      invar_nugget],
         [<thermalfoundation:armor.legs_lead>,       <immersiveengineering:metal:22>],
         [<thermalfoundation:armor.legs_nickel>,     <immersiveengineering:metal:24>],
-        [<thermalfoundation:armor.legs_platinum>,   <base:nugget:25>],
+        [<thermalfoundation:armor.legs_platinum>,   platinum_nugget],
         [<thermalfoundation:armor.legs_silver>,     <immersiveengineering:metal:23>],
-        [<thermalfoundation:armor.legs_tin>,        <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:armor.legs_tin>,        tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
     
     var returns16 = [
         [<minecraft:chainmail_chestplate>,          <immersiveengineering:metal:29>],
-    ] as minetweaker.item.IItemStack[][];
+    ] as crafttweaker.item.IItemStack[][];
     
     var returns15 = [
         [<minecraft:iron_helmet>,                   <immersiveengineering:metal:29>],
@@ -71,23 +77,23 @@
         [<abyssalcraft:dreadiumhelmet>,             <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:dreadiumsamuraihelmet>,      <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumhelmet>,             <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumHelm>,                  <botania:manaresource:19>],
-        [<botania:manasteelHelm>,                   <botania:manaresource:17>],
-        [<botania:terrasteelHelm>,                  <botania:manaresource:18>],
-        [<thermalfoundation:armor.helmet_bronze>,   <base:nugget:7>],
+        [<botania:elementiumhelm>,                  <botania:manaresource:19>],
+        [<botania:manasteelhelm>,                   <botania:manaresource:17>],
+        [<botania:terrasteelhelm>,                  <botania:manaresource:18>],
+        [<thermalfoundation:armor.helmet_bronze>,   bronze_nugget],
         [<thermalfoundation:armor.helmet_copper>,   <immersiveengineering:metal:20>],
         [<thermalfoundation:armor.helmet_electrum>, <immersiveengineering:metal:27>],
-        [<thermalfoundation:armor.helmet_invar>,    <base:nugget:19>],
+        [<thermalfoundation:armor.helmet_invar>,    invar_nugget],
         [<thermalfoundation:armor.helmet_lead>,     <immersiveengineering:metal:22>],
         [<thermalfoundation:armor.helmet_nickel>,   <immersiveengineering:metal:24>],
-        [<thermalfoundation:armor.helmet_platinum>, <base:nugget:25>],
+        [<thermalfoundation:armor.helmet_platinum>, platinum_nugget],
         [<thermalfoundation:armor.helmet_silver>,   <immersiveengineering:metal:23>],
-        [<thermalfoundation:armor.helmet_tin>,      <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:armor.helmet_tin>,      tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
 
     var returns14 = [
         [<minecraft:chainmail_leggings>,            <immersiveengineering:metal:29>],
-    ] as minetweaker.item.IItemStack[][];
+    ] as crafttweaker.item.IItemStack[][];
 
     var returns12 = [
         [<minecraft:iron_boots>,                   <immersiveengineering:metal:29>],
@@ -102,23 +108,23 @@
         [<abyssalcraft:dreadiumboots>,             <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:dreadiumsamuraiboots>,      <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumboots>,             <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumBoots>,                <botania:manaresource:19>],
-        [<botania:manasteelBoots>,                 <botania:manaresource:17>],
-        [<botania:terrasteelBoots>,                <botania:manaresource:18>],
-        [<thermalfoundation:armor.boots_bronze>,   <base:nugget:7>],
+        [<botania:elementiumboots>,                <botania:manaresource:19>],
+        [<botania:manasteelboots>,                 <botania:manaresource:17>],
+        [<botania:terrasteelboots>,                <botania:manaresource:18>],
+        [<thermalfoundation:armor.boots_bronze>,   bronze_nugget],
         [<thermalfoundation:armor.boots_copper>,   <immersiveengineering:metal:20>],
         [<thermalfoundation:armor.boots_electrum>, <immersiveengineering:metal:27>],
-        [<thermalfoundation:armor.boots_invar>,    <base:nugget:19>],
+        [<thermalfoundation:armor.boots_invar>,    invar_nugget],
         [<thermalfoundation:armor.boots_lead>,     <immersiveengineering:metal:22>],
         [<thermalfoundation:armor.boots_nickel>,   <immersiveengineering:metal:24>],
-        [<thermalfoundation:armor.boots_platinum>, <base:nugget:25>],
+        [<thermalfoundation:armor.boots_platinum>, platinum_nugget],
         [<thermalfoundation:armor.boots_silver>,   <immersiveengineering:metal:23>],
-        [<thermalfoundation:armor.boots_tin>,      <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:armor.boots_tin>,      tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
 
     var returns10 = [
         [<minecraft:chainmail_helmet>,             <immersiveengineering:metal:29>],
-    ] as minetweaker.item.IItemStack[][];
+    ] as crafttweaker.item.IItemStack[][];
 
     var returns9 = [
         # Pickaxes
@@ -128,21 +134,21 @@
         [<abyssalcraft:corpick>,                            <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumpickaxe>,                    <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumpickaxe>,                    <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumPick>,                          <botania:manaresource:19>],
-        [<botania:manasteelPick>,                           <botania:manaresource:17>],
-        [<botania:terraPick>,                               <botania:manaresource:18>],
+        [<botania:elementiumpick>,                          <botania:manaresource:19>],
+        [<botania:manasteelpick>,                           <botania:manaresource:17>],
+        [<botania:terrapick>,                               <botania:manaresource:18>],
         [<dungeontactics:gilded_pickaxe>,                   <immersiveengineering:metal:29>],
         [<dungeontactics:jewelled_pickaxe>,                 <immersiveengineering:metal:29>],
-        [<forestry:bronzePickaxe>,                          <base:nugget:7>],
-        [<thermalfoundation:tool.pickaxe_bronze>,           <base:nugget:7>],
+        [<forestry:bronze_pickaxe>,                          bronze_nugget],
+        [<thermalfoundation:tool.pickaxe_bronze>,           bronze_nugget],
         [<thermalfoundation:tool.pickaxe_copper>,           <immersiveengineering:metal:20>],
         [<thermalfoundation:tool.pickaxe_electrum>,         <immersiveengineering:metal:27>],
-        [<thermalfoundation:tool.pickaxe_invar>,            <base:nugget:19>],
+        [<thermalfoundation:tool.pickaxe_invar>,            invar_nugget],
         [<thermalfoundation:tool.pickaxe_lead>,             <immersiveengineering:metal:22>],
         [<thermalfoundation:tool.pickaxe_nickel>,           <immersiveengineering:metal:24>],
-        [<thermalfoundation:tool.pickaxe_platinum>,         <base:nugget:25>],
+        [<thermalfoundation:tool.pickaxe_platinum>,         platinum_nugget],
         [<thermalfoundation:tool.pickaxe_silver>,           <immersiveengineering:metal:23>],
-        [<thermalfoundation:tool.pickaxe_tin>,              <base:nugget:29>],
+        [<thermalfoundation:tool.pickaxe_tin>,              tin_nugget],
         # Axes
         [<minecraft:iron_axe>,                              <immersiveengineering:metal:29>],
         [<minecraft:golden_axe>,                            <minecraft:gold_nugget>],
@@ -150,21 +156,21 @@
         [<abyssalcraft:coraxe>,                             <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumaxe>,                        <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumaxe>,                        <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumAxe>,                           <botania:manaresource:19>],
-        [<botania:manasteelAxe>,                            <botania:manaresource:17>],
-        [<botania:terraAxe>,                                <botania:manaresource:18>],
+        [<botania:elementiumaxe>,                           <botania:manaresource:19>],
+        [<botania:manasteelaxe>,                            <botania:manaresource:17>],
+        [<botania:terraaxe>,                                <botania:manaresource:18>],
         [<dungeontactics:gilded_axe>,                       <immersiveengineering:metal:29>],
         [<dungeontactics:jewelled_axe>,                     <immersiveengineering:metal:29>],
-        [<thermalfoundation:tool.axe_bronze>,               <base:nugget:7>],
+        [<thermalfoundation:tool.axe_bronze>,               bronze_nugget],
         [<thermalfoundation:tool.axe_copper>,               <immersiveengineering:metal:20>],
         [<thermalfoundation:tool.axe_electrum>,             <immersiveengineering:metal:27>],
-        [<thermalfoundation:tool.axe_invar>,                <base:nugget:19>],
+        [<thermalfoundation:tool.axe_invar>,                invar_nugget],
         [<thermalfoundation:tool.axe_lead>,                 <immersiveengineering:metal:22>],
         [<thermalfoundation:tool.axe_nickel>,               <immersiveengineering:metal:24>],
-        [<thermalfoundation:tool.axe_platinum>,             <base:nugget:25>],
+        [<thermalfoundation:tool.axe_platinum>,             platinum_nugget],
         [<thermalfoundation:tool.axe_silver>,               <immersiveengineering:metal:23>],
-        [<thermalfoundation:tool.axe_tin>,                  <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:tool.axe_tin>,                  tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
 
     var returns6 = [
         # Chainmail Boots
@@ -178,29 +184,29 @@
         [<abyssalcraft:ethaxiumhoe>,                        <abyssalcraft:ingotnugget:3>],
         [<dungeontactics:gilded_hoe>,                       <immersiveengineering:metal:29>],
         [<dungeontactics:jewelled_hoe>,                     <immersiveengineering:metal:29>],
-        [<thermalfoundation:tool.hoe_bronze>,               <base:nugget:7>],
+        [<thermalfoundation:tool.hoe_bronze>,               bronze_nugget],
         [<thermalfoundation:tool.hoe_copper>,               <immersiveengineering:metal:20>],
         [<thermalfoundation:tool.hoe_electrum>,             <immersiveengineering:metal:27>],
-        [<thermalfoundation:tool.hoe_invar>,                <base:nugget:19>],
+        [<thermalfoundation:tool.hoe_invar>,                invar_nugget],
         [<thermalfoundation:tool.hoe_lead>,                 <immersiveengineering:metal:22>],
         [<thermalfoundation:tool.hoe_nickel>,               <immersiveengineering:metal:24>],
-        [<thermalfoundation:tool.hoe_platinum>,             <base:nugget:25>],
+        [<thermalfoundation:tool.hoe_platinum>,             platinum_nugget],
         [<thermalfoundation:tool.hoe_silver>,               <immersiveengineering:metal:23>],
-        [<thermalfoundation:tool.hoe_tin>,                  <base:nugget:29>],
+        [<thermalfoundation:tool.hoe_tin>,                  tin_nugget],
         # Shears
         [<minecraft:shears>,                                <immersiveengineering:metal:29>],
-        [<botania:elementiumShears>,                        <botania:manaresource:19>],
-        [<botania:manasteelShears>,                         <botania:manaresource:17>],
-        [<rockhounding_chemistry:bamShears>,                <rockhounding_chemistry:alloyItems:8>],
-        [<thermalfoundation:tool.shears_bronze>,            <base:nugget:7>],
+        [<botania:elementiumshears>,                        <botania:manaresource:19>],
+        [<botania:manasteelshears>,                         <botania:manaresource:17>],
+#        [<rockhounding_chemistry:bamShears>,                <rockhounding_chemistry:alloyItems:8>],
+        [<thermalfoundation:tool.shears_bronze>,            bronze_nugget],
         [<thermalfoundation:tool.shears_copper>,            <immersiveengineering:metal:20>],
         [<thermalfoundation:tool.shears_electrum>,          <immersiveengineering:metal:27>],
-        [<thermalfoundation:tool.shears_invar>,             <base:nugget:19>],
+        [<thermalfoundation:tool.shears_invar>,             invar_nugget],
         [<thermalfoundation:tool.shears_lead>,              <immersiveengineering:metal:22>],
         [<thermalfoundation:tool.shears_nickel>,            <immersiveengineering:metal:24>],
-        [<thermalfoundation:tool.shears_platinum>,          <base:nugget:25>],
+        [<thermalfoundation:tool.shears_platinum>,          platinum_nugget],
         [<thermalfoundation:tool.shears_silver>,            <immersiveengineering:metal:23>],
-        [<thermalfoundation:tool.shears_tin>,               <base:nugget:29>],
+        [<thermalfoundation:tool.shears_tin>,               tin_nugget],
         # Swords
         [<minecraft:golden_sword>,                          <minecraft:gold_nugget>],
         [<minecraft:iron_sword>,                            <immersiveengineering:metal:29>],
@@ -208,10 +214,10 @@
         [<abyssalcraft:corsword>,                           <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumsword>,                      <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumsword>,                      <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumSword>,                         <botania:manaresource:19>],
-        [<botania:manasteelSword>,                          <botania:manaresource:17>],
-        [<botania:terraSword>,                              <botania:manaresource:18>],
-        [<dungeontactics:bronze_cutlass>,                   <base:nugget:7>],
+        [<botania:elementiumsword>,                         <botania:manaresource:19>],
+        [<botania:manasteelsword>,                          <botania:manaresource:17>],
+        [<botania:terrasword>,                              <botania:manaresource:18>],
+        [<dungeontactics:bronze_cutlass>,                   bronze_nugget],
         [<dungeontactics:copper_cutlass>,                   <immersiveengineering:metal:20>],
         [<dungeontactics:gilded_cutlass>,                   <immersiveengineering:metal:29>],
         [<dungeontactics:gilded_sword>,                     <immersiveengineering:metal:29>],
@@ -222,18 +228,18 @@
         [<dungeontactics:lead_cutlass>,                     <immersiveengineering:metal:22>],
         [<dungeontactics:silver_cutlass>,                   <immersiveengineering:metal:23>],
         [<dungeontactics:steel_cutlass>,                    <immersiveengineering:metal:28>],
-        [<dungeontactics:tin_cutlass>,                      <base:nugget:29>],
-        [<rockhounding_chemistry:bamSword>,                 <rockhounding_chemistry:alloyItems:8>],
-        [<thermalfoundation:tool.sword_bronze>,             <base:nugget:7>],
+        [<dungeontactics:tin_cutlass>,                      tin_nugget],
+#        [<rockhounding_chemistry:bamSword>,                 <rockhounding_chemistry:alloyItems:8>],
+        [<thermalfoundation:tool.sword_bronze>,             bronze_nugget],
         [<thermalfoundation:tool.sword_copper>,             <immersiveengineering:metal:20>],
         [<thermalfoundation:tool.sword_electrum>,           <immersiveengineering:metal:27>],
-        [<thermalfoundation:tool.sword_invar>,              <base:nugget:19>],
+        [<thermalfoundation:tool.sword_invar>,              invar_nugget],
         [<thermalfoundation:tool.sword_lead>,               <immersiveengineering:metal:22>],
         [<thermalfoundation:tool.sword_nickel>,             <immersiveengineering:metal:24>],
-        [<thermalfoundation:tool.sword_platinum>,           <base:nugget:25>],
+        [<thermalfoundation:tool.sword_platinum>,           platinum_nugget],
         [<thermalfoundation:tool.sword_silver>,             <immersiveengineering:metal:23>],
-        [<thermalfoundation:tool.sword_tin>,                <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:tool.sword_tin>,                tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
 
     var returns3 = [
         [<minecraft:golden_shovel>,                         <minecraft:gold_nugget>],
@@ -242,19 +248,19 @@
         [<abyssalcraft:corshovel>,                          <abyssalcraft:ingotnugget:1>],
         [<abyssalcraft:dreadiumshovel>,                     <abyssalcraft:ingotnugget:2>],
         [<abyssalcraft:ethaxiumshovel>,                     <abyssalcraft:ingotnugget:3>],
-        [<botania:elementiumShovel>,                        <botania:manaresource:19>],
-        [<botania:manasteelShovel>,                         <botania:manaresource:17>],
-        [<forestry:bronzeShovel>,                           <base:nugget:7>],
-        [<thermalfoundation:tool.shovel_bronze>,            <base:nugget:7>],
+        [<botania:elementiumshovel>,                        <botania:manaresource:19>],
+        [<botania:manasteelshovel>,                         <botania:manaresource:17>],
+        [<forestry:bronze_shovel>,                           bronze_nugget],
+        [<thermalfoundation:tool.shovel_bronze>,            bronze_nugget],
         [<thermalfoundation:tool.shovel_copper>,            <immersiveengineering:metal:20>],
         [<thermalfoundation:tool.shovel_electrum>,          <immersiveengineering:metal:27>],
-        [<thermalfoundation:tool.shovel_invar>,             <base:nugget:19>],
+        [<thermalfoundation:tool.shovel_invar>,             invar_nugget],
         [<thermalfoundation:tool.shovel_lead>,              <immersiveengineering:metal:22>],
         [<thermalfoundation:tool.shovel_nickel>,            <immersiveengineering:metal:24>],
-        [<thermalfoundation:tool.shovel_platinum>,          <base:nugget:25>],
+        [<thermalfoundation:tool.shovel_platinum>,          platinum_nugget],
         [<thermalfoundation:tool.shovel_silver>,            <immersiveengineering:metal:23>],
-        [<thermalfoundation:tool.shovel_tin>,               <base:nugget:29>]
-    ] as minetweaker.item.IItemStack[][];
+        [<thermalfoundation:tool.shovel_tin>,               tin_nugget]
+    ] as crafttweaker.item.IItemStack[][];
 
     for i, items in returns24 {
         mods.immersiveengineering.ArcFurnace.addRecipe(items[1] * 24, items[0], <immersiveengineering:material:7>, 20, 120, [], "Recycling");

@@ -1,4 +1,5 @@
 # Mana Infusion
+/*
     #mods.botania.ManaInfusion.removeRecipe(<>);
     #mods.botania.ManaInfusion.addInfusion(<>,<>,);
     #mods.botania.ManaInfusion.addAlchemy(<>,<>,);
@@ -103,3 +104,4 @@
     mods.botania.PureDaisy.addRecipe(<primal:netherpalm_plank:*>,<minecraft:planks>, 150);
     mods.botania.PureDaisy.addRecipe(<natura:nether_heat_sand>,<minecraft:sand:1>, 150);
     mods.botania.PureDaisy.addRecipe(<primal:ash_block>,<minecraft:snow>, 150);
+*/

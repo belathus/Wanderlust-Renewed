@@ -5,9 +5,9 @@
 
 
 # Cooking For Blockheads
-    recipes.remove(<cookingforblockheads:recipeBook:2>);
-    recipes.addShaped(<cookingforblockheads:recipeBook:2>,
-        [[<minecraft:crafting_table:*>, <cookingforblockheads:recipeBook:1>, <minecraft:crafting_table:*>]]);
+    recipes.remove(<cookingforblockheads:recipe_book:2>);
+    recipes.addShaped(<cookingforblockheads:recipe_book:2>,
+        [[<minecraft:crafting_table:*>, <cookingforblockheads:recipe_book:1>, <minecraft:crafting_table:*>]]);
 
 # Level-Up: Book of Unlearning
 #    recipes.remove(<levelup:respec_book>);
@@ -29,6 +29,6 @@
     recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Getting_Through_the_Iron_Age"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:ingotBronze>]);
     recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Nether_Living"}),
-        [<ore:paper>,<ore:paper>,<ore:paper>,<primal:thin_slab_netherpalm>]);
+        [<ore:paper>,<ore:paper>,<ore:paper>,<primal:thin_slab_corypha>]);
     recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Fantastic_Creatures"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:materialFlesh>,<ore:materialFlesh>]);

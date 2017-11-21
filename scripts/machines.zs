@@ -29,7 +29,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
 
 # Actually Additions
-    # Redstonia crystal = itemCrystal
+    # Redstonia crystal = item_crystal
     # <actuallyadditions:blockMisc:2> = Black Quartz Block
     # <actuallyadditions:blockMisc:4> = wood casing
     # <actuallyadditions:blockMisc:5> = charcoal block
@@ -37,54 +37,54 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     # <actuallyadditions:blockMisc:7> = Casing?
     # <actuallyadditions:blockMisc:8> = Ender Casing?
     # <actuallyadditions:blockMisc:9> = Iron Casing?
-    # <actuallyadditions:itemCrystal:0> = redstonia crystal
-    # <actuallyadditions:itemCrystal:1> = lapis crystal
-    # <actuallyadditions:itemCrystal:2> = diamond crystal
-    # <actuallyadditions:itemCrystal:3> = void crystal
-    # <actuallyadditions:itemCrystal:4> = emerald crystal
-    # <actuallyadditions:itemCrystal:5> = iron crystal
-    # <actuallyadditions:blockCrystal:3> = void crystal block
-    recipes.remove(<actuallyadditions:blockGrinder>);
-    recipes.remove(<actuallyadditions:blockGrinderDouble>);
-    recipes.remove(<actuallyadditions:blockMisc:9>); # Iron casing
-    recipes.remove(<actuallyadditions:blockItemRepairer>);
-    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
-        [[<actuallyadditions:blockCrystalEmpowered:2>, mending, <actuallyadditions:blockCrystalEmpowered:2>],
-         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
-         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
-    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
-        [[<actuallyadditions:blockCrystalEmpowered:2>, mending2, <actuallyadditions:blockCrystalEmpowered:2>],
-         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
-         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
-    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
-        [[<actuallyadditions:blockCrystalEmpowered:2>, mending3, <actuallyadditions:blockCrystalEmpowered:2>],
-         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
-         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
-    recipes.addShaped(<actuallyadditions:blockItemRepairer>,
-        [[<actuallyadditions:blockCrystalEmpowered:2>, mending4, <actuallyadditions:blockCrystalEmpowered:2>],
-         [<actuallyadditions:itemMisc:7>, <ore:frameEnder>, <actuallyadditions:itemMisc:7>],
-         [<actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:blockCrystalEmpowered:2>]]);
-    recipes.addShaped(<actuallyadditions:blockMisc:9>, # Iron Casing
-        [[<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>],
-         [<ore:fusedQuartz>, <ore:gemDark>, <ore:fusedQuartz>],
-         [<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>]]);
-    recipes.addShaped(<actuallyadditions:blockGrinder>,
-        [[<ore:ingotSteel>, <extrautils2:spike_diamond>, <ore:ingotSteel>],
-         [<actuallyadditions:itemMisc:7>, <ore:frameSteel>, <actuallyadditions:itemMisc:7>],
-         [<actuallyadditions:itemCrystal>, <ore:ingotSteel>, <actuallyadditions:itemCrystal>]]);
-    recipes.addShaped(<actuallyadditions:blockGrinderDouble>,
-        [[<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>],
-         [<actuallyadditions:blockGrinder:*>, <ore:frameSteel>, <actuallyadditions:blockGrinder:*>],
-         [<ore:cobblestone>, <actuallyadditions:itemMisc:8>, <ore:cobblestone>]]);
-    recipes.addShapeless(<actuallyadditions:blockLaserRelayItemWhitelist>,
-        [<actuallyadditions:blockLaserRelayItem>, <actuallyadditions:itemMisc:8>, <ore:gemDark>, <actuallyadditions:itemCrystal>]);
-    recipes.addShapeless(<actuallyadditions:blockInputterAdvanced>,
-        [<actuallyadditions:blockInputter>, <actuallyadditions:itemMisc:8>, <ore:gemDark>, <actuallyadditions:itemCrystal>]);
+    # <actuallyadditions:item_crystal:0> = redstonia crystal
+    # <actuallyadditions:item_crystal:1> = lapis crystal
+    # <actuallyadditions:item_crystal:2> = diamond crystal
+    # <actuallyadditions:item_crystal:3> = void crystal
+    # <actuallyadditions:item_crystal:4> = emerald crystal
+    # <actuallyadditions:item_crystal:5> = iron crystal
+    # <actuallyadditions:block_crystal:3> = void crystal block
+#    recipes.remove(<actuallyadditions:block_grinder>);
+#    recipes.remove(<actuallyadditions:block_grinder_double>);
+#    recipes.remove(<actuallyadditions:block_misc:9>); # Iron casing
+#    recipes.remove(<actuallyadditions:block_item_repairer>);
+#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
+#        [[<actuallyadditions:block_crystal_empowered:2>, mending, <actuallyadditions:block_crystal_empowered:2>],
+#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
+#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
+#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
+#        [[<actuallyadditions:block_crystal_empowered:2>, mending2, <actuallyadditions:block_crystal_empowered:2>],
+#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
+#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
+#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
+#        [[<actuallyadditions:block_crystal_empowered:2>, mending3, <actuallyadditions:block_crystal_empowered:2>],
+#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
+#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
+#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
+#        [[<actuallyadditions:block_crystal_empowered:2>, mending4, <actuallyadditions:block_crystal_empowered:2>],
+#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
+#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
+#    recipes.addShaped(<actuallyadditions:blockMisc:9>, # Iron Casing
+#        [[<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>],
+#         [<ore:fusedQuartz>, <ore:gemDark>, <ore:fusedQuartz>],
+#         [<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>]]);
+#    recipes.addShaped(<actuallyadditions:block_grinder>,
+#        [[<ore:ingotSteel>, <extrautils2:spike_diamond>, <ore:ingotSteel>],
+#         [<actuallyadditions:item_misc:7>, <ore:frameSteel>, <actuallyadditions:item_misc:7>],
+#         [<actuallyadditions:item_crystal>, <ore:ingotSteel>, <actuallyadditions:item_crystal>]]);
+#    recipes.addShaped(<actuallyadditions:block_grinder_double>,
+#        [[<ore:cobblestone>, <actuallyadditions:item_misc:8>, <ore:cobblestone>],
+#         [<actuallyadditions:block_grinder:*>, <ore:frameSteel>, <actuallyadditions:block_grinder:*>],
+#         [<ore:cobblestone>, <actuallyadditions:item_misc:8>, <ore:cobblestone>]]);
+#    recipes.addShapeless(<actuallyadditions:block_laser_relay_item_whitelist>,
+#        [<actuallyadditions:block_laser_relay_item>, <actuallyadditions:item_misc:8>, <ore:gemDark>, <actuallyadditions:item_crystal>]);
+#    recipes.addShapeless(<actuallyadditions:block_inputter_advanced>,
+#        [<actuallyadditions:block_inputter>, <actuallyadditions:item_misc:8>, <ore:gemDark>, <actuallyadditions:item_crystal>]);
 
 # Advanced Rocketry
-    recipes.remove(<advancedrocketry:blastBrick>);
-    recipes.addShaped(<advancedrocketry:blastBrick> * 9,
-        [[<modularutilities:stone_decor>,<modularutilities:stone_decor>,<modularutilities:stone_decor>],
+    recipes.remove(<advancedrocketry:blastbrick>);
+    recipes.addShaped(<advancedrocketry:blastbrick> * 9,
+        [[<ore:blockBrick>,<ore:blockBrick>,<ore:blockBrick>],
          [<minecraft:magma>,<minecraft:magma>,<minecraft:magma>],
          [<ore:blockSeared>,<ore:blockSeared>,<ore:blockSeared>]]);
 
@@ -160,59 +160,59 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 #         [<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>]]);
 
 # Better Beginnings
-    recipes.remove(<betterbeginnings:kiln>);
-    recipes.addShaped(<betterbeginnings:kiln>,
-        [[<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>],
-         [<ore:cobblestone>, null, <ore:cobblestone>],
-         [<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>]]);
-    recipes.addShaped(<betterbeginnings:kiln>,
-        [[<tconstruct:dried_clay:1>, <ore:cobblestone>, <tconstruct:dried_clay:1>],
-         [<ore:cobblestone>, null, <ore:cobblestone>],
-         [<tconstruct:dried_clay:1>, <ore:cobblestone>, <tconstruct:dried_clay:1>]]);
+    #recipes.remove(<betterbeginnings:kiln>);
+    #recipes.addShaped(<betterbeginnings:kiln>,
+    #    [[<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>],
+    #     [<ore:cobblestone>, null, <ore:cobblestone>],
+    #     [<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>]]);
+    #recipes.addShaped(<betterbeginnings:kiln>,
+    #    [[<tconstruct:dried_clay:1>, <ore:cobblestone>, <tconstruct:dried_clay:1>],
+    #     [<ore:cobblestone>, null, <ore:cobblestone>],
+    #     [<tconstruct:dried_clay:1>, <ore:cobblestone>, <tconstruct:dried_clay:1>]]);
 
 # Blood Magic
     # Altar
-    recipes.remove(<bloodmagic:BlockAltar>);
-    recipes.addShaped(<bloodmagic:BlockAltar>,
-        [[<ore:stone>,null,<ore:stone>],
-         [<ore:stone>,<minecraft:furnace>,<ore:stone>],
-         [<ore:ingotSilver>,<bloodmagic:ItemMonsterSoul>,<ore:ingotSilver>]]);
+#    recipes.remove(<bloodmagic:BlockAltar>);
+#    recipes.addShaped(<bloodmagic:BlockAltar>,
+#        [[<ore:stone>,null,<ore:stone>],
+#         [<ore:stone>,<minecraft:furnace>,<ore:stone>],
+#         [<ore:ingotSilver>,<bloodmagic:ItemMonsterSoul>,<ore:ingotSilver>]]);
     # Soul Forge
-    recipes.remove(<bloodmagic:BlockSoulForge>);
-    recipes.addShaped(<bloodmagic:BlockSoulForge>,
-        [[<ore:ingotSilver>,null,<ore:ingotSilver>],
-         [<ore:hardenedClay>,<ore:ingotGold>,<ore:hardenedClay>],
-         [<ore:hardenedClay>,<ore:blockSilver>,<ore:hardenedClay>]]);
+#    recipes.remove(<bloodmagic:BlockSoulForge>);
+#    recipes.addShaped(<bloodmagic:BlockSoulForge>,
+#        [[<ore:ingotSilver>,null,<ore:ingotSilver>],
+#         [<ore:hardenedClay>,<ore:ingotGold>,<ore:hardenedClay>],
+#         [<ore:hardenedClay>,<ore:blockSilver>,<ore:hardenedClay>]]);
 
 # Bibliocraft
-    recipes.addShaped(<bibliocraft:FurniturePaneler>,
+    recipes.addShaped(<bibliocraft:furniturepaneler>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>],
          [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
-    recipes.addShaped(<bibliocraft:FurniturePaneler:1>,
+    recipes.addShaped(<bibliocraft:furniturepaneler:1>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>],
          [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]);
-    recipes.addShaped(<bibliocraft:FurniturePaneler:2>,
+    recipes.addShaped(<bibliocraft:furniturepaneler:2>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>],
          [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]);
-    recipes.addShaped(<bibliocraft:FurniturePaneler:3>,
+    recipes.addShaped(<bibliocraft:furniturepaneler:3>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>],
          [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]);
-    recipes.addShaped(<bibliocraft:FurniturePaneler:4>,
+    recipes.addShaped(<bibliocraft:furniturepaneler:4>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
          [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]);
-    recipes.addShaped(<bibliocraft:FurniturePaneler:5>,
+    recipes.addShaped(<bibliocraft:furniturepaneler:5>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>],
          [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]);
-    recipes.addShaped(<bibliocraft:FurniturePaneler:6>,
+    recipes.addShaped(<bibliocraft:furniturepaneler:6>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
-         [<bibliocraft:FramingBoard>, <bibliocraft:FramingBoard>, <bibliocraft:FramingBoard>],
-         [<bibliocraft:FramingSheet>, <bibliocraft:FramingSheet>, <bibliocraft:FramingSheet>]]);
+         [<bibliocraft:framingboard>, <bibliocraft:framingboard>, <bibliocraft:framingboard>],
+         [<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>]]);
     
 # Botania
     # Mana Spreader
@@ -225,19 +225,19 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<cookingforblockheads:oven>);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotIron>,<betterbeginnings:brick_oven>,<ore:ingotIron>],
+         [<ore:ingotIron>,<minecraft:furnace>,<ore:ingotIron>],
          [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotAluminum>,<betterbeginnings:brick_oven>,<ore:ingotAluminum>],
+         [<ore:ingotAluminum>,<minecraft:furnace>,<ore:ingotAluminum>],
          [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotBrass>,<betterbeginnings:brick_oven>,<ore:ingotBrass>],
+         [<ore:ingotBrass>,<minecraft:furnace>,<ore:ingotBrass>],
          [<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]]);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
-         [<ore:ingotBronze>,<betterbeginnings:brick_oven>,<ore:ingotBronze>],
+         [<ore:ingotBronze>,<minecraft:furnace>,<ore:ingotBronze>],
          [<ore:ingotBronze>,<ore:ingotBronze>,<ore:ingotBronze>]]);
     recipes.addShaped(<cookingforblockheads:sink>,
         [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
@@ -276,50 +276,50 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [<ore:chest>, <ore:ingotBrass>, <ore:ingotBrass>]);
 
 # Cyberware
-    recipes.remove(<cyberware:engineeringTable>);
-    recipes.addShaped(<cyberware:engineeringTable>,
-        [[<immersiveengineering:tool>,<ore:gearSteel>,<ore:ingotSteel>],
-         [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
-         [<ore:ingotSteel>,<forestry:sturdyMachine>,<ore:ingotSteel>]]);
-    recipes.remove(<cyberware:charger>);
-    recipes.addShaped(<cyberware:charger>,
-        [[<ore:ingotAluminum>,<ore:barsIron>,<ore:ingotAluminum>],
-         [<ore:ingotAluminum>,<immersiveengineering:metalDecoration0>,<ore:ingotAluminum>],
-         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
-    recipes.remove(<cyberware:scanner>);
-    recipes.addShaped(<cyberware:scanner>,
-        [[<ore:ingotAluminum>,<cyberware:cybereyes>,<ore:ingotAluminum>],
-         [<ore:ingotAluminum>,<forestry:hardenedMachine>,<ore:ingotAluminum>],
-         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
-    recipes.remove(<cyberware:beacon>);
-    recipes.addShaped(<cyberware:beacon>,
-        [[<cyberware:component:5>,null,null],
-         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
-         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
-    recipes.remove(<cyberware:beaconLarge>);
-    recipes.addShaped(<cyberware:beaconLarge>,
-        [[<ore:ingotAluminum>,<ore:pearlEnderEye>,<ore:ingotAluminum>],
-         [<cyberware:component:2>,<cyberware:beacon>,<cyberware:component:2>],
-         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
-    recipes.remove(<cyberware:surgeryChamber>);
-    recipes.addShaped(<cyberware:surgeryChamber>,
-        [[<ore:ingotSteel>, <forestry:thermionicTubes>, <ore:ingotSteel>],
-         [<forestry:thermionicTubes>, <forestry:hardenedMachine>, <forestry:thermionicTubes>],
-         [<ore:ingotSteel>, <minecraft:iron_door>, <ore:ingotSteel>]]);
-    recipes.remove(<cyberware:blueprintArchive>);
-    recipes.addShaped(<cyberware:blueprintArchive>,
-        [[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
-         [<ore:paper>, <ore:paper>, <ore:paper>],
-         [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
-    recipes.remove(<cyberware:componentBox>);
-    recipes.addShaped(<cyberware:componentBox>,
-        [[null, <cyberware:component:*>, null],
-         [<ore:ingotAluminum>, <ore:chestWood>, <ore:ingotAluminum>],
-         [null, <ore:ingotAluminum>, null]]);
-    recipes.remove(<cyberware:radioPost>);
-    recipes.addShaped(<cyberware:radioPost> * 6,
-        [[<ore:stickAluminum>, <cyberware:component:5>, <ore:stickAluminum>],
-         [<ore:stickAluminum>, <cyberware:component:4>, <ore:stickAluminum>]]);
+#    recipes.remove(<cyberware:engineeringTable>);
+#    recipes.addShaped(<cyberware:engineeringTable>,
+#        [[<immersiveengineering:tool>,<ore:gearSteel>,<ore:ingotSteel>],
+#         [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+#         [<ore:ingotSteel>,<forestry:sturdy_machine>,<ore:ingotSteel>]]);
+#    recipes.remove(<cyberware:charger>);
+#    recipes.addShaped(<cyberware:charger>,
+#        [[<ore:ingotAluminum>,<ore:barsIron>,<ore:ingotAluminum>],
+#         [<ore:ingotAluminum>,<immersiveengineering:metalDecoration0>,<ore:ingotAluminum>],
+#         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+#    recipes.remove(<cyberware:scanner>);
+#    recipes.addShaped(<cyberware:scanner>,
+#        [[<ore:ingotAluminum>,<cyberware:cybereyes>,<ore:ingotAluminum>],
+#         [<ore:ingotAluminum>,<forestry:hardenedMachine>,<ore:ingotAluminum>],
+#         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+#    recipes.remove(<cyberware:beacon>);
+#    recipes.addShaped(<cyberware:beacon>,
+#        [[<cyberware:component:5>,null,null],
+#         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
+#         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
+#    recipes.remove(<cyberware:beaconLarge>);
+#    recipes.addShaped(<cyberware:beaconLarge>,
+#        [[<ore:ingotAluminum>,<ore:pearlEnderEye>,<ore:ingotAluminum>],
+#         [<cyberware:component:2>,<cyberware:beacon>,<cyberware:component:2>],
+#         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
+#    recipes.remove(<cyberware:surgeryChamber>);
+#    recipes.addShaped(<cyberware:surgeryChamber>,
+#        [[<ore:ingotSteel>, <forestry:thermionicTubes>, <ore:ingotSteel>],
+#         [<forestry:thermionicTubes>, <forestry:hardenedMachine>, <forestry:thermionicTubes>],
+#         [<ore:ingotSteel>, <minecraft:iron_door>, <ore:ingotSteel>]]);
+#    recipes.remove(<cyberware:blueprintArchive>);
+#    recipes.addShaped(<cyberware:blueprintArchive>,
+#        [[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
+#         [<ore:paper>, <ore:paper>, <ore:paper>],
+#         [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
+#    recipes.remove(<cyberware:componentBox>);
+#    recipes.addShaped(<cyberware:componentBox>,
+#        [[null, <cyberware:component:*>, null],
+#         [<ore:ingotAluminum>, <ore:chestWood>, <ore:ingotAluminum>],
+#         [null, <ore:ingotAluminum>, null]]);
+#    recipes.remove(<cyberware:radioPost>);
+#    recipes.addShaped(<cyberware:radioPost> * 6,
+#        [[<ore:stickAluminum>, <cyberware:component:5>, <ore:stickAluminum>],
+#         [<ore:stickAluminum>, <cyberware:component:4>, <ore:stickAluminum>]]);
 
 # Deep Resonance
     recipes.remove(<deepresonance:machine_frame>);
@@ -329,37 +329,37 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
 
 # EnderIo
-    recipes.remove(<enderio:itemMachinePart>);
-    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-         [<advancedrocketry:ic:4>,<ore:frameSteel>,<advancedrocketry:ic:3>],
-         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-         [<advancedrocketry:ic:4>,<rftools:machine_frame>,<advancedrocketry:ic:3>],
-         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-         [<advancedrocketry:ic:4>,<deepresonance:machine_frame>,<advancedrocketry:ic:3>],
-         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-         [<advancedrocketry:ic:4>,<thermalexpansion:frame:0>,<advancedrocketry:ic:3>],
-         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-    recipes.remove(<enderio:blockSagMill>);
-    recipes.addShaped(<enderio:blockSagMill>,
-        [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
-         [<ore:ingotSteel>,<ore:itemMachineChassi>,<ore:ingotSteel>],
-         [<ore:ingotSteel>,<immersiveengineering:metalDecoration0:5>,<ore:ingotSteel>]]);
-    recipes.remove(<enderio:blockAlloySmelter>);
-    recipes.addShaped(<enderio:blockAlloySmelter>,
-        [[<ore:ingotSteel>, <minecraft:furnace:*>, <ore:ingotSteel>],
-         [<minecraft:furnace:*>, <ore:itemMachineChassi>, <minecraft:furnace:*>],
-         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
-    recipes.addShaped(<enderio:blockAlloySmelter>,
-        [[<ore:ingotSteel>, <betterbeginnings:kiln>, <ore:ingotSteel>],
-         [<betterbeginnings:kiln>, <ore:itemMachineChassi>, <betterbeginnings:kiln>],
-         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
+#    recipes.remove(<enderio:itemMachinePart>);
+#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+#         [<advancedrocketry:ic:4>,<ore:frameSteel>,<advancedrocketry:ic:3>],
+#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+#         [<advancedrocketry:ic:4>,<rftools:machine_frame>,<advancedrocketry:ic:3>],
+#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+#         [<advancedrocketry:ic:4>,<deepresonance:machine_frame>,<advancedrocketry:ic:3>],
+#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
+#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
+#         [<advancedrocketry:ic:4>,<thermalexpansion:frame:0>,<advancedrocketry:ic:3>],
+#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
+#    recipes.remove(<enderio:blockSagMill>);
+#    recipes.addShaped(<enderio:blockSagMill>,
+#        [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
+#         [<ore:ingotSteel>,<ore:itemMachineChassi>,<ore:ingotSteel>],
+#         [<ore:ingotSteel>,<immersiveengineering:metalDecoration0:5>,<ore:ingotSteel>]]);
+#    recipes.remove(<enderio:blockAlloySmelter>);
+#    recipes.addShaped(<enderio:blockAlloySmelter>,
+#        [[<ore:ingotSteel>, <minecraft:furnace:*>, <ore:ingotSteel>],
+#         [<minecraft:furnace:*>, <ore:itemMachineChassi>, <minecraft:furnace:*>],
+#         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
+#    recipes.addShaped(<enderio:blockAlloySmelter>,
+#        [[<ore:ingotSteel>, <betterbeginnings:kiln>, <ore:ingotSteel>],
+#         [<betterbeginnings:kiln>, <ore:itemMachineChassi>, <betterbeginnings:kiln>],
+#         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
 
 # Esteemed Innovation
 /*
@@ -370,29 +370,29 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:ingotBrickSeared>,<ore:ingotBrickSeared>,<ore:ingotBrickSeared>]]);
 */
 # Evilcraft
-    recipes.remove(<evilcraft:bloodChest>);
-    recipes.addShaped(<evilcraft:bloodChest>,
+    recipes.remove(<evilcraft:blood_chest>);
+    recipes.addShaped(<evilcraft:blood_chest>,
         [[<ore:plankWood>,mending,<ore:plankWood>],
-         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
-         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
-    recipes.addShaped(<evilcraft:bloodChest>,
+         [<evilcraft:dark_power_gem>,<ore:chest>,<evilcraft:dark_power_gem>],
+         [<ore:plankWood>,<evilcraft:dark_power_gem>,<ore:plankWood>]]);
+    recipes.addShaped(<evilcraft:blood_chest>,
         [[<ore:plankWood>,mending2,<ore:plankWood>],
-         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
-         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
-    recipes.addShaped(<evilcraft:bloodChest>,
+         [<evilcraft:dark_power_gem>,<ore:chest>,<evilcraft:dark_power_gem>],
+         [<ore:plankWood>,<evilcraft:dark_power_gem>,<ore:plankWood>]]);
+    recipes.addShaped(<evilcraft:blood_chest>,
         [[<ore:plankWood>,mending3,<ore:plankWood>],
-         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
-         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
-    recipes.addShaped(<evilcraft:bloodChest>,
+         [<evilcraft:dark_power_gem>,<ore:chest>,<evilcraft:dark_power_gem>],
+         [<ore:plankWood>,<evilcraft:dark_power_gem>,<ore:plankWood>]]);
+    recipes.addShaped(<evilcraft:blood_chest>,
         [[<ore:plankWood>,mending4,<ore:plankWood>],
-         [<evilcraft:darkPowerGem>,<ore:chest>,<evilcraft:darkPowerGem>],
-         [<ore:plankWood>,<evilcraft:darkPowerGem>,<ore:plankWood>]]);
+         [<evilcraft:dark_power_gem>,<ore:chest>,<evilcraft:dark_power_gem>],
+         [<ore:plankWood>,<evilcraft:dark_power_gem>,<ore:plankWood>]]);
          
-    recipes.remove(<evilcraft:colossalBloodChest>);
-    recipes.addShaped(<evilcraft:colossalBloodChest>,
-        [[<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>],
-         [<evilcraft:darkPowerGem>,<evilcraft:bloodChest>,<evilcraft:darkPowerGem>],
-         [<evilcraft:reinforcedUndeadPlank>,<evilcraft:darkPowerGem>,<evilcraft:reinforcedUndeadPlank>]]);
+    recipes.remove(<evilcraft:colossal_blood_chest>);
+    recipes.addShaped(<evilcraft:colossal_blood_chest>,
+        [[<evilcraft:reinforced_undead_plank>,<evilcraft:dark_power_gem>,<evilcraft:reinforced_undead_plank>],
+         [<evilcraft:dark_power_gem>,<evilcraft:blood_chest>,<evilcraft:dark_power_gem>],
+         [<evilcraft:reinforced_undead_plank>,<evilcraft:dark_power_gem>,<evilcraft:reinforced_undead_plank>]]);
 
 # Extra Utilities 2
     recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
@@ -408,7 +408,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<forestry:fabricator>);
     recipes.addShaped(<forestry:fabricator>,
         [[<ore:ingotNickel>, <ore:blockGlassHardened>, <ore:ingotNickel>],
-         [<ore:blockGlassHardened>, <forestry:sturdyMachine>, <ore:blockGlassHardened>],
+         [<ore:blockGlassHardened>, <forestry:sturdy_machine>, <ore:blockGlassHardened>],
          [<ore:ingotNickel>, <ore:chestWood>, <ore:ingotNickel>]]);
     recipes.remove(<forestry:engine_clockwork>);
     recipes.addShaped(<forestry:engine_clockwork>,
@@ -421,22 +421,22 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:gearBrass>, <minecraft:piston:*>, <ore:gearBrass>]]);
 
 # Gendustry
-    recipes.remove(<gendustry:BeeReceptacle>);
-    recipes.addShaped(<gendustry:BeeReceptacle>,
+    recipes.remove(<gendustry:bee_receptacle>);
+    recipes.addShaped(<gendustry:bee_receptacle>,
         [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
          [<ore:dropRoyalJelly>, <minecraft:glass_pane:*>, <ore:dropRoyalJelly>],
          [<minecraft:redstone>, <minecraft:light_weighted_pressure_plate:*>, <minecraft:redstone>]]);
-    recipes.addShaped(<gendustry:Labware> * 16,
+    recipes.addShaped(<gendustry:labware> * 16,
         [[<minecraft:glass_pane:*>, null, <minecraft:glass_pane:*>],
          [<minecraft:glass_pane:*>, <ore:itemPollen>, <minecraft:glass_pane:*>],
          [null, <minecraft:glass_pane:*>, null]]);
-#    recipes.addShaped(<gendustry:Mutatron>,
-#        [[<gendustry:BeeReceptacle:*>, <gendustry:GeneticsProcessor:*>, <ore:ingotBronze>],
-#         [<gendustry:PowerModule:*>, <forestry:sturdyMachine:*>, <gendustry:BeeReceptacle:*>],
-#         [<gendustry:BeeReceptacle:*>, <gendustry:MutagenTank:*>, <ore:ingotBronze>]]);
-#    recipes.addShaped(<gendustry:MutatronAdv>,
+#    recipes.addShaped(<gendustry:mutatron>,
+#        [[<gendustry:bee_receptacle:*>, <gendustry:GeneticsProcessor:*>, <ore:ingotBronze>],
+#         [<gendustry:PowerModule:*>, <forestry:sturdy_machine:*>, <gendustry:bee_receptacle:*>],
+#         [<gendustry:bee_receptacle:*>, <gendustry:mutagen_tank:*>, <ore:ingotBronze>]]);
+#    recipes.addShaped(<gendustry:mutatron_advanced>,
 #        [[<ore:gearBronze>, <minecraft:quartz:*>, <ore:gearBronze>],
-#         [<gendustry:GeneticsProcessor:*>, <gendustry:Mutatron:*>, <gendustry:GeneticsProcessor:*>],
+#         [<gendustry:GeneticsProcessor:*>, <gendustry:mutatron:*>, <gendustry:GeneticsProcessor:*>],
 #         [<ore:gearBronze>, <gendustry:PowerModule:*>, <ore:gearBronze>]]);
 
 # Immersive Engineering
@@ -474,33 +474,33 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.addShapeless(conveyor,
         [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
     # Coke Oven
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
-        [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
-         [<primal:ciniscotta>,<ore:sandstone>,<primal:ciniscotta>],
-         [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
-        [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
-         [<primal:terracotta>,<ore:sandstone>,<primal:terracotta>],
-         [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
+    recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
+        [[<ore:clayball>,<primal:ciniscotta_brick>,<ore:clayball>],
+         [<primal:ciniscotta_brick>,<ore:sandstone>,<primal:ciniscotta_brick>],
+         [<ore:clayball>,<primal:ciniscotta_brick>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
+        [[<ore:clayball>,<primal:terracotta_brick>,<ore:clayball>],
+         [<primal:terracotta_brick>,<ore:sandstone>,<primal:terracotta_brick>],
+         [<ore:clayball>,<primal:terracotta_brick>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
         [[<ore:clayball>,<ore:ingotBrick>,<ore:clayball>],
          [<ore:ingotBrick>,<ore:blockSoulstone>,<ore:ingotBrick>],
          [<ore:clayball>,<ore:ingotBrick>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
-        [[<ore:clayball>,<primal:ciniscotta>,<ore:clayball>],
-         [<primal:ciniscotta>,<ore:blockSoulstone>,<primal:ciniscotta>],
-         [<ore:clayball>,<primal:ciniscotta>,<ore:clayball>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration> * 3,
-        [[<ore:clayball>,<primal:terracotta>,<ore:clayball>],
-         [<primal:terracotta>,<ore:blockSoulstone>,<primal:terracotta>],
-         [<ore:clayball>,<primal:terracotta>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
+        [[<ore:clayball>,<primal:ciniscotta_brick>,<ore:clayball>],
+         [<primal:ciniscotta_brick>,<ore:blockSoulstone>,<primal:ciniscotta_brick>],
+         [<ore:clayball>,<primal:ciniscotta_brick>,<ore:clayball>]]);
+    recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
+        [[<ore:clayball>,<primal:terracotta_brick>,<ore:clayball>],
+         [<primal:terracotta_brick>,<ore:blockSoulstone>,<primal:terracotta_brick>],
+         [<ore:clayball>,<primal:terracotta_brick>,<ore:clayball>]]);
     # Blast Furnace
-    recipes.remove(<immersiveengineering:stoneDecoration:1>);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 3,
+    recipes.remove(<immersiveengineering:stone_decoration:1>);
+    recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3,
         [[<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>],
          [<ore:ingotBrickSeared>, <ore:slimecrystalMagma>, <ore:ingotBrickSeared>],
          [<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 3,
+    recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3,
         [[<ore:ingotBrickSeared>, <ore:ingotBrickNether>, <ore:ingotBrickSeared>],
          [<ore:ingotBrickNether>, <ore:slimecrystalMagma>, <ore:ingotBrickNether>],
          [<ore:ingotBrickSeared>, <ore:ingotBrickNether>, <ore:ingotBrickSeared>]]);
@@ -508,16 +508,16 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
     recipes.addShaped(<persistentbits:chunk_loader>,
-        [[null, <xreliquary:void_tear_empty>, null],
+        [[null, <xreliquary:void_tear>, null],
          [<ore:gemDiamond>, <ore:ingotAdamant>, <ore:gemDiamond>],
          [<ore:ingotAdamant>, <minecraft:enchanting_table:*>, <ore:ingotAdamant>]]);
 
 # Refined Storage
-    recipes.remove(<refinedstorage:machine_casing>);
-    recipes.addShaped(<refinedstorage:machine_casing>,
-        [[<ore:ingotSteel>, <refinedstorage:quartz_enriched_iron>, <ore:ingotSteel>],
-         [<refinedstorage:quartz_enriched_iron>, <ore:frameIron>, <refinedstorage:quartz_enriched_iron>],
-         [<ore:ingotSteel>, <refinedstorage:quartz_enriched_iron>, <ore:ingotSteel>]]);
+    #recipes.remove(<refinedstorage:machine_casing>);
+    #recipes.addShaped(<refinedstorage:machine_casing>,
+    #    [[<ore:ingotSteel>, <refinedstorage:quartz_enriched_iron>, <ore:ingotSteel>],
+    #     [<refinedstorage:quartz_enriched_iron>, <ore:frameIron>, <refinedstorage:quartz_enriched_iron>],
+    #     [<ore:ingotSteel>, <refinedstorage:quartz_enriched_iron>, <ore:ingotSteel>]]);
 
 # RFTools
     recipes.remove(<rftools:machine_frame>);
@@ -527,13 +527,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:plateSteel>,<ore:dustRedstone>,<ore:plateSteel>]]);
     recipes.remove(<rftools:environmental_controller>);
     recipes.addShaped(<rftools:environmental_controller>,
-        [[<xreliquary:mob_ingredient:11>, <cyberware:beaconLarge>, <xreliquary:mob_ingredient:11>],
+        [[<xreliquary:mob_ingredient:11>, <advancedrocketry:satelliteprimaryfunction:3>, <xreliquary:mob_ingredient:11>],
          [<biomesoplenty:terrestrial_artifact>, <rftools:machine_frame:*>, <biomesoplenty:terrestrial_artifact>],
-         [<xreliquary:mob_ingredient:11>, <evilcraft:weatherContainer:3>, <xreliquary:mob_ingredient:11>]]);
+         [<xreliquary:mob_ingredient:11>, <evilcraft:weather_container:3>, <xreliquary:mob_ingredient:11>]]);
     recipes.remove(<rftools:saturation_module>);
     recipes.addShaped(<rftools:saturation_module>,
         [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "Zombie"}), null],
-         [<ore:ingotBrass>, <base:ingot:80>, <ore:ingotBrass>],
+         [<ore:ingotBrass>, <ore:ingotPhilosophersGold>, <ore:ingotBrass>],
          [null, <minecraft:golden_apple:1>, null]]);
     recipes.addShaped(<rftools:storage_module>,
         [[null, <ore:chestWood>, null],
@@ -556,72 +556,72 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<rockhounding_oretiers:bloomery>);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>,<xreliquary:salamander_eye>.withTag({display:{Lore:["Not used up when crafting"]}}).reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<xreliquary:salamander_eye>.withTag({display:{Lore:["Not used up when crafting"]}}).giveBack(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>,<xreliquary:salamander_eye>.reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<xreliquary:salamander_eye>.giveBack(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>,<minecraft:nether_star>.withTag({display:{Lore:["Not used up when crafting"]}}).reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:nether_star>.withTag({display:{Lore:["Not used up when crafting"]}}).giveBack(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
         [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>,<minecraft:nether_star>.reuse(),<minecraft:stone_brick_stairs>],
+         [<minecraft:stone_brick_stairs>,<minecraft:nether_star>.giveBack(),<minecraft:stone_brick_stairs>],
          [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
 #    recipes.addShaped(<rockhounding_oretiers:bloomery>,
 #        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-#         [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.withTag({display:{Lore:["Not used up when crafting"]}}).reuse(),<minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.withTag({display:{Lore:["Not used up when crafting"]}}).giveBack(),<minecraft:stone_brick_stairs>],
 #         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
 #    recipes.addShaped(<rockhounding_oretiers:bloomery>,
 #        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-#         [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.reuse(),<minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<arsmagica2:fire_ears>.giveBack(),<minecraft:stone_brick_stairs>],
 #         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
 #    recipes.addShaped(<rockhounding_oretiers:bloomery>,
 #        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-#         [<minecraft:stone_brick_stairs>,<railcraft:firestone_refined>.withTag({display:{Lore:["Not used up when crafting.","Must be fully charged."]}}).reuse(),<minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<railcraft:firestone_refined>.withTag({display:{Lore:["Not used up when crafting.","Must be fully charged."]}}).giveBack(),<minecraft:stone_brick_stairs>],
 #         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
-    recipes.addShaped(<rockhounding_oretiers:bloomery>,
-        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({isStub:1, entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
-         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
-    recipes.addShaped(<rockhounding_oretiers:bloomery>,
-        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
-         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
-    recipes.addShaped(<rockhounding_oretiers:bloomery>,
-        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
-         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze", isStub:1}), <minecraft:stone_brick_stairs>],
-         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
-    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
-        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-         [<ore:plankWood>,<ore:ingotCopper>,<ore:plankWood>]]);
-    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
-        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-         [<ore:plankWood>,<ore:ingotTin>,<ore:plankWood>]]);
-    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
-        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-         [<ore:plankWood>,<ore:ingotSteel>,<ore:plankWood>]]);
-    recipes.addShaped(<rockhounding_chemistry:owcBlocks:6>,
-        [[<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>],
-         [<rockhounding_chemistry:miscItems:28>, <rockhounding_chemistry:miscItems:26>, <rockhounding_chemistry:miscItems:28>],
-         [<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>]]);
-    recipes.addShaped(<rockhounding_chemistry:owcBlocks:7>,
-        [[<rockhounding_chemistry:miscItems:28>, <ore:wireCopper>, <ore:blockIron>],
-         [<minecraft:comparator>, <ore:wireCopper>, <ore:blockIron>],
-         [<rockhounding_chemistry:miscItems:28>, <ore:wireCopper>, <ore:blockIron>]]);
-    recipes.addShaped(<rockhounding_chemistry:miscItems:20>,
-        [[<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>],
-         [<ore:wireCopper>, null, <ore:wireCopper>],
-         [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>]]);
-    recipes.addShaped(<rockhounding_chemistry:miscItems:32>,
-        [[<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>],
-         [<ore:wireCopper>, <rockhounding_chemistry:miscItems:31>, <ore:wireCopper>],
-         [<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>]]);
+#    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+#        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+#         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({isStub:1, entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+#    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+#        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+#         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze"}), <minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+#    recipes.addShaped(<rockhounding_oretiers:bloomery>,
+#        [[<minecraft:brick_block>,<minecraft:brick_block>,<minecraft:brick_block>],
+#         [<minecraft:stone_brick_stairs>, <enderio:itemBrokenSpawner>.withTag({isStub: 1, entityId: "Blaze"}).onlyWithTag({entityId:"Blaze", isStub:1}), <minecraft:stone_brick_stairs>],
+#         [<minecraft:stone_brick_stairs>,<minecraft:furnace>,<minecraft:stone_brick_stairs>]]);
+#    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+#        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+#         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+#         [<ore:plankWood>,<ore:ingotCopper>,<ore:plankWood>]]);
+#    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+#        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+#         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+#         [<ore:plankWood>,<ore:ingotTin>,<ore:plankWood>]]);
+#    recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+#        [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+#         [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
+#         [<ore:plankWood>,<ore:ingotSteel>,<ore:plankWood>]]);
+#    recipes.addShaped(<rockhounding_chemistry:owcBlocks:6>,
+#        [[<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>],
+#         [<rockhounding_chemistry:miscItems:28>, <rockhounding_chemistry:miscItems:26>, <rockhounding_chemistry:miscItems:28>],
+#         [<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>]]);
+#    recipes.addShaped(<rockhounding_chemistry:owcBlocks:7>,
+#        [[<rockhounding_chemistry:miscItems:28>, <ore:wireCopper>, <ore:blockIron>],
+#         [<minecraft:comparator>, <ore:wireCopper>, <ore:blockIron>],
+#         [<rockhounding_chemistry:miscItems:28>, <ore:wireCopper>, <ore:blockIron>]]);
+#    recipes.addShaped(<rockhounding_chemistry:miscItems:20>,
+#        [[<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>],
+#         [<ore:wireCopper>, null, <ore:wireCopper>],
+#         [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>]]);
+#    recipes.addShaped(<rockhounding_chemistry:miscItems:32>,
+#        [[<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>],
+#         [<ore:wireCopper>, <rockhounding_chemistry:miscItems:31>, <ore:wireCopper>],
+#         [<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>]]);
 
 # Roots
 /*
@@ -643,7 +643,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.remove(<thermalexpansion:frame:128>);
     recipes.addShaped(<thermalexpansion:frame>,
         [[<ore:ingotSteel>,<advancedrocketry:misc:0>,<ore:ingotSteel>],
-         [<enderio:itemBasicCapacitor>,<thermalexpansion:frame:64>,<enderio:itemBasicCapacitor>],
+         [<ore:rodBlaze>,<thermalexpansion:frame:64>,<ore:rodBlaze>],
          [<ore:ingotSteel>,<ore:gearTin>,<ore:ingotSteel>]]);
     recipes.addShaped(<thermalexpansion:frame:64>,
         [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
@@ -711,5 +711,5 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 # Waystones
     recipes.addShaped(<waystones:waystone>,
         [[null, <ore:bricksStone>, null],
-         [<ore:bricksStone>,<actuallyadditions:blockMisc:6>,<ore:bricksStone>],
+         [<ore:bricksStone>,<xreliquary:mob_ingredient:11>,<ore:bricksStone>],
          [<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);

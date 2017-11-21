@@ -4,26 +4,12 @@
     furnace.remove(<minecraft:bread>);
     furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughitem>, 0.7);
 
-# Actually Additions
-    recipes.remove(<actuallyadditions:itemFood:10>);
-    recipes.addShapeless(<actuallyadditions:itemFood:10> * 2,
-        [<ore:bread>]);
-    recipes.remove(<actuallyadditions:itemMisc:9>);
-    recipes.addShaped(<actuallyadditions:itemMisc:9>,
-        [[<ore:cropRicegrass>],
-         [<ore:cropRicegrass>],
-         [<ore:cropRicegrass>]]);
-    recipes.addShaped(<actuallyadditions:itemMisc:9>,
-        [[<ore:cropRice>],
-         [<ore:cropRice>],
-         [<ore:cropRice>]]);
-
 # Forestry
-    recipes.remove(<forestry:honeyedSlice>);
-    recipes.addShaped(<forestry:honeyedSlice> * 4,
-        [[<forestry:honeyDrop>, <forestry:honeyDrop>, <forestry:honeyDrop>],
-         [<forestry:honeyDrop>, <ore:bread>, <forestry:honeyDrop>],
-         [<forestry:honeyDrop>, <forestry:honeyDrop>, <forestry:honeyDrop>]]);
+    recipes.remove(<forestry:honeyed_slice>);
+    recipes.addShaped(<forestry:honeyed_slice> * 4,
+        [[<forestry:honey_drop>, <forestry:honey_drop>, <forestry:honey_drop>],
+         [<forestry:honey_drop>, <ore:bread>, <forestry:honey_drop>],
+         [<forestry:honey_drop>, <forestry:honey_drop>, <forestry:honey_drop>]]);
 
 # Natura
     recipes.remove(<natura:materials:1>);
@@ -50,6 +36,6 @@
         [<ore:bread>, <xreliquary:glowing_water>]);
 
 # Rockhounding
-    recipes.remove(<rockhounding_surface:truffle_toast>);
-    recipes.addShapeless(<rockhounding_surface:truffle_toast>,
-        [<ore:foodTruffle>, <ore:bread>]);
+    #recipes.remove(<rockhounding_surface:truffle_toast>);
+    #recipes.addShapeless(<rockhounding_surface:truffle_toast>,
+    #    [<ore:foodTruffle>, <ore:bread>]);

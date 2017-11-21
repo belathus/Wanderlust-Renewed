@@ -6,9 +6,13 @@
 
 
 # Vanilla
+    recipes.addShapeless(<minecraft:piston>,
+        [<minecraft:sticky_piston>,<evilcraft:bucket_eternal_water>]);
+    recipes.addShapeless(<minecraft:piston>,
+        [<minecraft:sticky_piston>,<botania:waterrod>.giveBack()]);
     recipes.remove(<minecraft:iron_ore>);
-    recipes.addShapeless(<minecraft:iron_ore>, 
-        [<rockhounding_oretiers:ironOres:2>],
+    recipes.addShapeless("ore_uses_xp", <minecraft:iron_ore>, 
+        [<rockhounding_oretiers:iron_ores:2>],
         function(output, inputs, crafting) {
             if crafting.player.xp > 1 {
                 return output;
@@ -19,8 +23,8 @@
             player.removeXP(1);
             player.sendChat("Removed 1 XP.");
         });
-    recipes.addShapeless(<minecraft:iron_ore>, 
-        [<rockhounding_oretiers:ironOres:3>],
+    recipes.addShapeless("ore_uses_xp_two", <minecraft:iron_ore>, 
+        [<rockhounding_oretiers:iron_ores:3>],
         function(output, inputs, crafting) {
             if crafting.player.xp > 1 {
                 return output;
@@ -31,12 +35,9 @@
             player.removeXP(1);
             player.sendChat("Removed 1 XP.");
         });
-    recipes.addShapeless(<minecraft:piston>,
-        [<minecraft:sticky_piston>,<evilcraft:bucketEternalWater>]);
-    recipes.addShapeless(<minecraft:piston>,
-        [<minecraft:sticky_piston>,<botania:waterRod>.reuse()]);
 
 # Actually Additions
+/*
     recipes.remove(<actuallyadditions:blockMisc:2>);
     recipes.addShaped(<actuallyadditions:blockMisc:2>,
         [[<ore:gemDark>, <ore:gemDark>],
@@ -44,78 +45,79 @@
     recipes.addShaped(<actuallyadditions:blockMisc>,
         [[<ore:gemDark>],
          [<ore:gemDark>]]);
-    recipes.remove(<actuallyadditions:blockColoredLamp:*>);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+    recipes.remove(<actuallyadditions:block_colored_lamp:*>);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeWhite>, <ore:gemDark>, <ore:dyeWhite>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:1>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:1>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeOrange>, <ore:gemDark>, <ore:dyeOrange>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:2>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:2>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeMagenta>, <ore:gemDark>, <ore:dyeMagenta>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:3>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:3>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeLightBlue>, <ore:gemDark>, <ore:dyeLightBlue>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:4>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:4>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeYellow>, <ore:gemDark>, <ore:dyeYellow>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:5>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:5>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeLime>, <ore:gemDark>, <ore:dyeLime>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:6>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:6>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyePink>, <ore:gemDark>, <ore:dyePink>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:7>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:7>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeGray>, <ore:gemDark>, <ore:dyeGray>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:8>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:8>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeLightGray>, <ore:gemDark>, <ore:dyeLightGray>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:9>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:9>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeCyan>, <ore:gemDark>, <ore:dyeCyan>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:10>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:10>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyePurple>, <ore:gemDark>, <ore:dyePurple>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:11>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:11>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeBlue>, <ore:gemDark>, <ore:dyeBlue>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:12>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:12>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeBrown>, <ore:gemDark>, <ore:dyeBrown>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:13>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:13>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeGreen>, <ore:gemDark>, <ore:dyeGreen>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:14>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:14>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeRed>, <ore:gemDark>, <ore:dyeRed>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:blockColoredLamp:15>,
-        [[<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>],
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+    recipes.addShaped(<actuallyadditions:block_colored_lamp:15>,
+        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
          [<ore:dyeBlack>, <ore:gemDark>, <ore:dyeBlack>],
-         [<ore:glowstone>, <actuallyadditions:itemCrystal:1>, <ore:glowstone>]]);
+         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
+*/
 
 # Animania
-    recipes.addShapeless(<animania:block_mud> * 2,
-        [<evilcraft:bucketEternalWater>,<ore:dirt>]);
+#    recipes.addShapeless(<animania:block_mud> * 2,
+#        [<evilcraft:bucket_eternal_water>,<ore:dirt>]);
 
 # Astral Sorcery
-    recipes.remove(<astralsorcery:BlockMarble:*>);
+#    recipes.remove(<astralsorcery:blockmarble:*>);
 
 # Chisel
     recipes.addShapeless(<chisel:basalt>,
@@ -124,7 +126,7 @@
         [<ore:stoneLimestone>]);
     recipes.addShaped(<chisel:waterstone>*8,
         [[<ore:stone>,<ore:stone>,<ore:stone>],
-         [<ore:stone>,<evilcraft:bucketEternalWater>,<ore:stone>],
+         [<ore:stone>,<evilcraft:bucket_eternal_water>,<ore:stone>],
          [<ore:stone>,<ore:stone>,<ore:stone>]]);
 
 # Deep Resonance
@@ -148,18 +150,18 @@
          [null,<ore:bricksStone>,null]]);
 */
 # Evilcraft
-    recipes.addShaped(<evilcraft:eternalWaterBlock>,
+    recipes.addShaped(<evilcraft:eternal_water_block>,
         [[null,<ore:gemDark>,null],
-         [<ore:paneGlass>,<evilcraft:bucketEternalWater>,<ore:paneGlass>],
+         [<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
          [null,<ore:gemDark>,null]]);
 
 # Extra Utilities
     # Portal to the Deep Dark
     recipes.remove(<extrautils2:teleporter>);
     recipes.addShaped(<extrautils2:teleporter>,
-        [[<ore:compressed1xCobblestone>,<abyssalcraft:darkstone>,<ore:compressed1xCobblestone>],
+        [[<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>],
          [<ore:dropofevil>,<biomesoplenty:terrestrial_artifact>,<ore:dropofevil>],
-         [<ore:compressed1xCobblestone>,<abyssalcraft:darkstone>,<ore:compressed1xCobblestone>]]);
+         [<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>]]);
 
     # Fixing a recipe conflict; polished stone block
     recipes.remove(<extrautils2:decorativesolid:2>);
@@ -197,62 +199,84 @@
          [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
          
 # Immersive Engineering
-    recipes.addShaped(<immersiveengineering:treatedWood>*3,
-        [[<immersiveengineering:treatedWoodStairs0>,<immersiveengineering:treatedWoodStairs0>],
-         [<immersiveengineering:treatedWoodStairs0>,<immersiveengineering:treatedWoodStairs0>]]);
-    recipes.addShaped(<immersiveengineering:treatedWood>,
-        [[<immersiveengineering:treatedWoodSlab>],
-         [<immersiveengineering:treatedWoodSlab>]]);
-    # Alternative Concrete recipes
-    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 8,[
+    recipes.addShaped(<immersiveengineering:treated_wood>*3,
+        [[<immersiveengineering:treated_wood_stairs0>,<immersiveengineering:treated_wood_stairs0>],
+         [<immersiveengineering:treated_wood_stairs0>,<immersiveengineering:treated_wood_stairs0>]]);
+    recipes.addShaped(<immersiveengineering:treated_wood>,
+        [[<immersiveengineering:treated_wood_slab>],
+         [<immersiveengineering:treated_wood_slab>]]);
+    # Alternative Concrete recipes using sand
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8,[
         [<ore:sand>, <ore:clayball>, <ore:sand>],
-        [<ore:gravel>, <evilcraft:bucketEternalWater>, <ore:gravel>],
+        [<ore:gravel>, <evilcraft:bucket_eternal_water>, <ore:gravel>],
         [<ore:sand>, <ore:clayball>, <ore:sand>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 8,[
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8,[
         [<ore:sand>, <ore:clayball>, <ore:sand>],
-        [<ore:gravel>, <botania:waterRod>.reuse(), <ore:gravel>],
+        [<ore:gravel>, <botania:waterrod>.giveBack(), <ore:gravel>],
         [<ore:sand>, <ore:clayball>, <ore:sand>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 8,[
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8,[
         [<ore:sand>, <ore:clayball>, <ore:sand>],
         [<ore:gravel>, <minecraft:potion:0>, <ore:gravel>],
         [<ore:sand>, <ore:clayball>, <ore:sand>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 12,[
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8,[
+        [<ore:sand>, <ore:clayball>, <ore:sand>],
+        [<ore:gravel>, <xreliquary:emperor_chalice>.giveBack(), <ore:gravel>],
+        [<ore:sand>, <ore:clayball>, <ore:sand>]]);
+    # Concrete using slag
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12,[
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
-        [<ore:gravel>, <evilcraft:bucketEternalWater>, <ore:gravel>],
+        [<ore:gravel>, <evilcraft:bucket_eternal_water>, <ore:gravel>],
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 12,[
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12,[
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
-        [<ore:gravel>, <botania:waterRod>.reuse(), <ore:gravel>],
+        [<ore:gravel>, <botania:waterrod>.giveBack(), <ore:gravel>],
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
-    recipes.addShaped(<immersiveengineering:stoneDecoration:5> * 12,[
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12,[
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
         [<ore:gravel>, <minecraft:potion:0>, <ore:gravel>],
         [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
-    recipes.addShaped(<immersiveengineering:metalDecoration0:7> * 2,
+    recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12,[
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>],
+        [<ore:gravel>, <xreliquary:emperor_chalice>.giveBack(), <ore:gravel>],
+        [<ore:itemSlag>, <ore:clayball>, <ore:itemSlag>]]);
+    # Radiator block
+    recipes.addShaped(<immersiveengineering:metal_decoration0:7> * 2,
         [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
-         [<ore:ingotCopper>, <evilcraft:bucketEternalWater>, <ore:ingotCopper>],
+         [<ore:ingotCopper>, <evilcraft:bucket_eternal_water>, <ore:ingotCopper>],
          [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
-    recipes.addShaped(<immersiveengineering:metalDecoration0:7> * 2,
+    recipes.addShaped(<immersiveengineering:metal_decoration0:7> * 2,
         [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
-         [<ore:ingotCopper>, <botania:waterRod>.reuse(), <ore:ingotCopper>],
+         [<ore:ingotCopper>, <botania:waterrod>.giveBack(), <ore:ingotCopper>],
+         [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+    recipes.addShaped(<immersiveengineering:metal_decoration0:7> * 2,
+        [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
+         [<ore:ingotCopper>, <minecraft:potion:0>, <ore:ingotCopper>],
+         [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+    recipes.addShaped(<immersiveengineering:metal_decoration0:7> * 2,
+        [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
+         [<ore:ingotCopper>, <xreliquary:emperor_chalice>.giveBack(), <ore:ingotCopper>],
          [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
 
 # PrimalCore
     recipes.addShaped(<primal:mud_clump>*64,
         [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-         [<ore:dirt>,<evilcraft:bucketEternalWater>,<ore:dirt>],
+         [<ore:dirt>,<evilcraft:bucket_eternal_water>,<ore:dirt>],
          [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
     recipes.addShaped(<primal:mud_clump>*64,
         [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-         [<ore:dirt>,<botania:waterRod>.reuse(),<ore:dirt>],
+         [<ore:dirt>,<botania:waterrod>.giveBack(),<ore:dirt>],
+         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+    recipes.addShaped(<primal:mud_clump>*64,
+        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
+         [<ore:dirt>,<xreliquary:emperor_chalice>.giveBack(),<ore:dirt>],
          [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
 
 # Rockhounding
-    recipes.addShaped(<rockhounding_surface:gypsum>*8,
-        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
-         [<rockhounding_surface:whiteSand>,<evilcraft:bucketEternalWater>,<rockhounding_surface:whiteSand>],
-         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
-    recipes.addShaped(<rockhounding_surface:gypsum>*8,
-        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
-         [<rockhounding_surface:whiteSand>,<botania:waterRod>.reuse(),<rockhounding_surface:whiteSand>],
-         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
+#    recipes.addShaped(<rockhounding_surface:gypsum>*8,
+#        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
+#         [<rockhounding_surface:whiteSand>,<evilcraft:bucket_eternal_water>,<rockhounding_surface:whiteSand>],
+#         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
+#    recipes.addShaped(<rockhounding_surface:gypsum>*8,
+#        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
+#         [<rockhounding_surface:whiteSand>,<botania:waterrod>.giveBack(),<rockhounding_surface:whiteSand>],
+#         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);

@@ -10,5 +10,5 @@ import loottweaker.vanilla.loot.Functions;
   val zombie_pool1 = zombie.getPool("pool1");
   zombie_pool1.removeItemEntry(<minecraft:iron_ingot>);
   zombie_pool1.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []);
-  zombie_pool1.addItemEntryHelper(<base:ingot:29>, 1, 0, [], []);
-  zombie_pool1.addItemEntryHelper(<base:ingot:34>, 1, 0, [], []);
+  zombie_pool1.addItemEntryHelper(<contenttweaker:material_part:81>, 1, 0, [], []);
+  zombie_pool1.addItemEntryHelper(<contenttweaker:material_part:67>, 1, 0, [], []);

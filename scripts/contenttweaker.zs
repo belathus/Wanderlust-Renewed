@@ -36,6 +36,8 @@ var tin         = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(83
 var titanium    = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(11972521).build();
 var uranium     = MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(7772956).build();
 var zinc        = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(12240072).build();
+var phils_gold  = MaterialSystem.getMaterialBuilder().setName("Philosopher's Gold").setColor(16766720).build();
+var quartz_iron = MaterialSystem.getMaterialBuilder().setName("Quartz Enriched Iron").setColor(15132648).build();
 
 var metal_list = [
   abyssalnite,
@@ -59,7 +61,6 @@ var alloys_list = [
   brass,
   bronze,
   #coldiron,
-  constantan,
   cupronickel,
   #dawnstone,
   dreadium,
@@ -68,6 +69,7 @@ var alloys_list = [
 
 var gears_only = [
   aluminum,
+  constantan,
   copper,
   gold,
   iron,
@@ -110,9 +112,9 @@ for i, metal2 in alloys_list {
     blockData.addDataValue("harvestLevel", "1");
   }
 }
-#for i, metal3 in gears_only {
-#  metal3.registerParts(["gear"] as string[]);
-#}
+for i, metal3 in gears_only {
+  metal3.registerPart("gear");
+}
 
 # Now adding specific things
 electrum.registerParts(["gear"] as string[]);
@@ -124,5 +126,8 @@ for i, ore in electrum_ores {
   oreData.addDataValue("resistance", "15,15,15");
   oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
   oreData.addDataValue("harvestLevel", "1,1,1");
-} 
+}
+
+phils_gold.registerParts(["nugget", "ingot"] as string[]);
+quartz_iron.registerPart("dust");
 

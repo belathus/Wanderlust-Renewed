@@ -2,14 +2,11 @@
 #    furnace.addRecipe(<>, <>, 0.5);
 
 # Vanilla
-#    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreIron>, 0.5);
-#    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreGoethite>, 0.5);
-#    furnace.addRecipe(<taiga:slagiron_ingot>, <ore:oreLimonite>, 0.5);
     furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 0.5);
     furnace.addRecipe(<minecraft:magma_cream> * 4, <xreliquary:mob_ingredient:7>, 1.5);
 
 # Base
-    furnace.addRecipe(<base:ingot:25>, <base:dust:25>, 0.5);
+    furnace.addRecipe(<contenttweaker:material_part:53>, <contenttweaker:material_part:49>, 0.5);
 
 # Biomes O' Plenty
     furnace.addRecipe(<biomesoplenty:mud_brick>, <ore:clumpMud>);
@@ -18,7 +15,7 @@
     furnace.addRecipe(<extrautils2:decorativeglass>, <extrautils2:compressedsand>, 0.9);
 
 # Forestry
-    furnace.addRecipe(<forestry:peat>*2, <rockhounding_oretiers:coalBlocks:3>, 0.5);
+    furnace.addRecipe(<forestry:peat>*2, <rockhounding_oretiers:coal_blocks:3>, 0.5);
 
 # Nethermetals
 /*    furnace.remove(<*>, <nethermetals:nether_emerald_ore>);
@@ -53,6 +50,3 @@
     furnace.remove(<*>, <nethermetals:nether_uranium_ore>);
     furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
 */
-
-# Refined Storage
-    furnace.addRecipe(<refinedstorage:quartz_enriched_iron>, <base:dust:81>, 0.0);
