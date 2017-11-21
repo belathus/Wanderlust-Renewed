@@ -1,0 +1,128 @@
+# Configuration file
+
+compatibility {
+    # Set to true to prevent the magnetism potion from working around solegnolias from Botania (Might have a negative impact on performance). This has no effect client-side [default: true]
+    B:respectSolegnolias=true
+}
+
+
+general {
+    # Set to false to hide the separate creative item tab. This has no effect server-side [default: true]
+    B:addSeparateTab=true
+
+    # If set to true, this allows the creation of longer potions (and tipped arrows) by combining up to 8 of them in a crafting grid with a slime ball in the center. This should be set to the same value as the server if playing SMP, or recipes may conflict [default: true]
+    B:allowPotionCombining=true
+
+    # If set to true, this allows the creation of shorter potions (and tipped arrows) by combining up to 8 glass bottles or arrows with the potion in the center. This should be set to the same value as the server if playing SMP, or recipes may conflict [default: true]
+    B:allowPotionSplitting=true
+
+    # Set to false to disable vial potions [default: true]
+    B:breakingPotions=true
+
+    # Set to false to disable random cheat death killing and set it on timer=0 [default: true]
+    B:cheatDeathRandom=true
+
+    # Set to false to disable hardcore cheat death [default: true]
+    B:hardcoreCheatDeath=true
+
+    # If set to true a brewing stand will run not only on blaze powder but also a fire below will suffice [default: true]
+    B:useFireUndernathBrewingStand=true
+
+    # Set to false to disable version checking on startup [default: true]
+    B:versionCheck=true
+}
+
+
+potions {
+    #  [default: true]
+    B:p_cheatDeath=true
+
+    #  [default: true]
+    B:p_combustion=true
+
+    #  [default: true]
+    B:p_concentration=true
+
+    #  [default: true]
+    B:p_crumbling=true
+
+    #  [default: true]
+    B:p_detection=true
+
+    #  [default: true]
+    B:p_dislocation=true
+
+    #  [default: true]
+    B:p_freezing=true
+
+    #  [default: true]
+    B:p_fuse=true
+
+    #  [default: true]
+    B:p_gravity=true
+
+    #  [default: true]
+    B:p_hurry=true
+
+    #  [default: true]
+    B:p_learning=true
+
+    #  [default: true]
+    B:p_leech=true
+
+    #  [default: true]
+    B:p_magnetism=true
+
+    #  [default: true]
+    B:p_pacifism=true
+
+    #  [default: true]
+    B:p_photosynthesis=true
+
+    #  [default: true]
+    B:p_piper=true
+
+    #  [default: true]
+    B:p_recall=true
+
+    #  [default: true]
+    B:p_reincarnation=true
+
+    #  [default: true]
+    B:p_return=true
+
+    #  [default: true]
+    B:p_sails=true
+
+    #  [default: true]
+    B:p_sinking=true
+}
+
+
+tooltips {
+    # Choose what to toggle potion descriptions with. Valid options are: SHIFT, ALT, CTRL F3H, NONE. This has no effect server-side [default: SHIFT]
+    S:descriptionMode=SHIFT
+
+    # Set to false to hide the bad joke in the potion tooltip. This has no effect server-side [default: true]
+    B:showBadJoke=true
+
+    # Set to false to hide the instruction message to show potion descriptions. This has no effect server-side [default: true]
+    B:showF3message=true
+
+    # If set to true, lets JEI do the tooltip wrapping instead of fixed one when JEI is installed. This has no effect server-side [default: true]
+    B:useJEITooltipWrapping=true
+}
+
+
+visual {
+    # Set to false to set static color for potion of cheat death [default: true]
+    B:rainbowCheatDeath=true
+
+    # Set to false to disable custom particles [default: true]
+    B:useCustomParticles=true
+
+    # Set to true to use the old textures for combustion, cheat death, reincarnation, leech, pacifism, and piper [default: false]
+    B:useOldTextures=false
+}
+
+
