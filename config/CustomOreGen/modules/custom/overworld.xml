@@ -6,7 +6,7 @@
      lazuli, clay, diamond, emerald, dark gems, apatite, resonating
      ore, zinc, copper, tin, aluminum, uranium, nickel, ...
      ================================================================= -->
-<IfCondition condition=':=dimension.generator.class="ChunkProviderGenerate" | dimension.generator.class="ChunkProviderGenerateBOP"'>
+<IfCondition condition=':=dimension.generator.class="ChunkProviderGenerate" | dimension.generator.class="ChunkGeneratorOverworldBOP"'>
     <!-- Vanilla -->
     <!-- Clay, Gold, Coal (maybe?), lapis lazuli, diamond, emerald -->
     <ConfigSection>
@@ -343,11 +343,11 @@
 
     <!-- Base -->
     <IfModInstalled name="base">
-        <Veins name='baseZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
+        <Veins name='baseZincVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x609999FF' drawBoundBox='false' boundBoxColor='0x609999FF'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
-            <OreBlock block='base:zinc.ore' weight='1.0' />
+            <OreBlock block='contenttweaker:sub_block_holder_0:9' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <Biome name='.*' />
             <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
@@ -378,7 +378,7 @@
                 then set up a semi-permanent  mining base and spend some
                 time actually  mining the ore.
             </Description>
-            <OreBlock block='base:zinc.ore' weight='1.0' />
+            <OreBlock block='contenttweaker:sub_block_holder_0:9' weight='1.0' />
             <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'/>
             <Setting name='CloudRadius'           avg=':= 1.707 * _default_ ' range=':= 1.707 * _default_ ' type='normal' />
@@ -405,7 +405,7 @@
                     that  the frequency of the parent  distribution will
                     already be scaled  by that.
                 </Description>
-                <OreBlock block='base:zinc.ore' weight='1.0' />
+                <OreBlock block='contenttweaker:sub_block_holder_0:9' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -418,7 +418,7 @@
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
-            <OreBlock block='base:tin.ore' weight='1.0' />
+            <OreBlock block='contenttweaker:sub_block_holder_3:2' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Biome name='.*' />
@@ -450,7 +450,7 @@
                 then set up a semi-permanent  mining base and spend some
                 time actually  mining the ore.
             </Description>
-            <OreBlock block='base:tin.ore' weight='1.0' />
+            <OreBlock block='contenttweaker:sub_block_holder_3:2' weight='1.0' />
             <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'/>
             <Setting name='CloudRadius'           avg=':= 1.707 * _default_ ' range=':= 1.707 * _default_ ' type='normal' />
@@ -477,7 +477,7 @@
                     that  the frequency of the parent  distribution will
                     already be scaled  by that.
                 </Description>
-                <OreBlock block='base:tin.ore' weight='1.0' />
+                <OreBlock block='contenttweaker:sub_block_holder_3:2' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -907,7 +907,7 @@
         </Veins>
 
         <!-- Nickel Veins. -->
-        <Veins name='iengNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
+        <Veins name='iengNickelVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
             <Description>
                 Small, fairly rare motherlodes with 2-4 horizontal veins each.
             </Description>
@@ -1025,7 +1025,7 @@
                     Instead of being air-filled, this one is filled with
                     liquid essence.
                 </Description>
-                <OreBlock block='rockhounding_rocks:rocksA:2' weight='1.00' />
+                <OreBlock block='primal:sarsen_stone' weight='1.00' />
                 <ReplacesOre block='stone' weight='1.0'/>
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <ReplacesOre block='stoneGranite' weight='1.0'/>
@@ -1057,13 +1057,13 @@
             </Veins>
             <Veins name='intdMenrilGeodeMiddle'  inherits='intdMenrilGeode' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='abyssalcraft:abydiaore' weight='0.005' />
-                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
+                <Replaces block='primal:sarsen_stone' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='intdMenrilGeodeCenter'  inherits='intdMenrilGeode' branchType='Bezier' seed='0x6AC2' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                <OreBlock block='integrateddynamics:blockMenrilResin' weight='1.0' />
-                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
+                <OreBlock block='integrateddynamics:block_menril_resin' weight='1.0' />
+                <Replaces block='primal:sarsen_stone' weight='1.0' />
                 <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -1075,7 +1075,7 @@
                     Instead of being air-filled, this one is filled with
                     liquid essence.
                 </Description>
-                <OreBlock block='rockhounding_rocks:rocksA:2' weight='1.00' />
+                <OreBlock block='primal:sarsen_stone' weight='1.00' />
                 <ReplacesOre block='stone' weight='1.0'/>
                 <ReplacesOre block='stoneLimestone' weight='1.0'/>
                 <ReplacesOre block='stoneGranite' weight='1.0'/>
@@ -1106,13 +1106,13 @@
             </Veins>
             <Veins name='intdPreferredMenrilGeodeMiddle'  inherits='intdPreferredMenrilGeode' branchType='Bezier' seed='0x7EC1' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
                 <OreBlock block='abyssalcraft:abydiaore' weight='0.005' />
-                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
+                <Replaces block='primal:sarsen_stone' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
             </Veins>
             <Veins name='intdPreferredMenrilGeodeCenter'  inherits='intdPreferredMenrilGeode' branchType='Bezier' seed='0x7EC1' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
-                <OreBlock block='integrateddynamics:blockMenrilResin' weight='1.0' />
-                <Replaces block='rockhounding_rocks:rocksA:2' weight='1.0' />
+                <OreBlock block='integrateddynamics:block_menril_resin' weight='1.0' />
+                <Replaces block='primal:sarsen_stone' weight='1.0' />
                 <Replaces block='abyssalcraft:abydiaore' weight='1.0' />
                 <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
                 <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
@@ -1126,7 +1126,7 @@
             <!-- Rutile ore! -->
             <Biome name=".*"/>
             <BiomeType name="OCEAN" weight='-1.0'/>
-            <OreBlock block='libvulpes:ore0:8' weight='1.0'/>
+            <OreBlock block='contenttweaker:sub_block_holder_3:3' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.613 * _default_ ' range=':= 0.613 * _default_ ' type='normal' scaleTo='base' />
@@ -1149,7 +1149,7 @@
         <Veins name='lvulRutilePreferredVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
             <!-- More common in oceans -->
             <BiomeType name="OCEAN"/>
-            <OreBlock block='libvulpes:ore0:8' weight='1.0'/>
+            <OreBlock block='contenttweaker:sub_block_holder_3:3' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 1.613 * _default_ ' range=':= 1.613 * _default_ ' type='normal' scaleTo='base' />
@@ -1182,7 +1182,7 @@
             <!-- Make magnetite iron ore spawn high in sandy biomes -->
             <BiomeType name="BEACH"/>
             <BiomeType name="SANDY"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:0' weight='1.0' />
+            <OreBlock block='rockhounding_oretiers:iron_ores:0' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
@@ -1209,7 +1209,7 @@
             <!-- Make magnetite iron ore spawn low in non-hot biomes -->
             <Biome name='.*' weight='1.0' />
             <BiomeType name="HOT" weight='-1'/>
-            <OreBlock block='rockhounding_oretiers:ironOres:0' weight='1.0' />
+            <OreBlock block='rockhounding_oretiers:iron_ores:0' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
@@ -1234,7 +1234,7 @@
         <Veins name='rockHematiteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60775555' drawBoundBox='false' boundBoxColor='0x60775555'>
             <!-- Making hematite iron ore very common in cold biomes -->
             <BiomeType name="COLD"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:1' weight='1.0' />
+            <OreBlock block='rockhounding_oretiers:iron_ores:1' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
@@ -1259,7 +1259,7 @@
         <Veins name='rockGoethiteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60444444' drawBoundBox='false' boundBoxColor='0x60444444'>
             <!-- Making goethite ore spawn anywhere, but less common than other ores -->
             <Biome name=".*"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:2' weight='1.0'/>
+            <OreBlock block='rockhounding_oretiers:iron_ores:2' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.769 * _default_ ' range=':= 0.769 * _default_ ' type='normal'  scaleTo='base' />
@@ -1288,7 +1288,7 @@
             <!-- Make magnetite iron ore spawn high in sandy biomes -->
             <BiomeType name="BEACH"/>
             <BiomeType name="SANDY"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:3' weight='1.0' />
+            <OreBlock block='rockhounding_oretiers:iron_ores:3' weight='1.0' />
             <ReplacesOre block='stone'           weight='1.0' />
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.000 * _default_ ' range=':= 2.000 * _default_ ' type='normal' scaleTo='base' />
@@ -1313,7 +1313,7 @@
         <Veins name='rockSideriteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60444444' drawBoundBox='false' boundBoxColor='0x60444444'>
             <!-- Making siderate ore in hilly biomes -->
             <BiomeType name='HILLS' />
-            <OreBlock block='rockhounding_oretiers:ironOres:4' weight='1.0'/>
+            <OreBlock block='rockhounding_oretiers:iron_ores:4' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='sandstone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
@@ -1339,7 +1339,7 @@
         <Veins name='rockTaconiteVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
             <!-- Making taconite ore spawn anywhere, and more common than other ores, but only at high altitudes -->
             <Biome name=".*"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:6' weight='1.0'/>
+            <OreBlock block='rockhounding_oretiers:iron_ores:6' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.309 * _default_ ' range=':= 2.309 * _default_ ' type='normal'  scaleTo='base' />
@@ -1362,7 +1362,7 @@
         <Veins name='rockTaconiteMountainVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
             <!-- Making taconite ore spawn anywhere, and more common than other ores, but only at high altitudes -->
             <Biome name=".*"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:6' weight='1.0'/>
+            <OreBlock block='rockhounding_oretiers:iron_ores:6' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 2.309 * _default_ ' range=':= 2.309 * _default_ ' type='normal'  scaleTo='base' />
@@ -1387,7 +1387,7 @@
         <Veins name='rockBogIronVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60666666' drawBoundBox='false' boundBoxColor='0x60666666'>
             <!-- Making bog iron ore spawn in swampy biomes -->
             <BiomeType name="SWAMP"/>
-            <OreBlock block='rockhounding_oretiers:ironOres:5' weight='1.0'/>
+            <OreBlock block='rockhounding_oretiers:iron_ores:5' weight='1.0'/>
             <ReplacesOre block='dirt' weight='1.0'/>
             <ReplacesOre block='blockDirt' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
@@ -1420,7 +1420,7 @@
                 then set up a semi-permanent  mining base and spend some
                 time actually  mining the ore.
             </Description>
-            <OreBlock block='rockhounding_oretiers:ironOres:7' weight='1.0' />
+            <OreBlock block='rockhounding_oretiers:iron_ores:7' weight='1.0' />
             <Replaces block='minecraft:stone' weight='1.0' />
             <BiomeType name='MOUNTAIN'/>
             <BiomeType name='HILLS'/>
@@ -1448,7 +1448,7 @@
                     that  the frequency of the parent  distribution will
                     already be scaled  by that.
                 </Description>
-                <OreBlock block='rockhounding_oretiers:ironOres:7' weight='1.0' />
+                <OreBlock block='rockhounding_oretiers:iron_ores:7' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
