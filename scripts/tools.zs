@@ -47,67 +47,61 @@
          [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
          [null,<ore:plankWood>,null]]);
     recipes.addShaped(<minecraft:bucket>,
-        [[<ore:ingotCopper>,null,<ore:ingotCopper>],
-         [null,<ore:ingotCopper>,null]]);
-    recipes.addShaped(<minecraft:bucket>,
-        [[<ore:ingotBrass>,null,<ore:ingotBrass>],
-         [null,<ore:ingotBrass>,null]]);
-    recipes.addShaped(<minecraft:bucket>,
-        [[<ore:ingotNickel>,null,<ore:ingotNickel>],
-         [null,<ore:ingotNickel>,null]]);
+        [[<ore:ingotTin>,null,<ore:ingotTin>],
+         [null,<ore:ingotTin>,null]]);
 
 # Actually Additions
     # Removing a bunch of tools; AIOTs will be dungeon loot
     # The obsidian/emerald tools should be the PrimalCore versions
-    recipes.remove(<actuallyadditions:woodenPaxel>); # Wooden AIOT
-    recipes.remove(<actuallyadditions:stonePaxel>); # Stone AIOT
-    recipes.remove(<actuallyadditions:quartzPaxel>); # Black Quartz AIOT
-    recipes.remove(<actuallyadditions:obsidianPaxel>); # Obsidian AIOT
-    recipes.remove(<actuallyadditions:diamondPaxel>); # Diamond AIOT
-    recipes.remove(<actuallyadditions:emeraldPaxel>); # Emerald AIOT
-    recipes.remove(<actuallyadditions:goldPaxel>); # Gold AIOT
-    recipes.remove(<actuallyadditions:ironPaxel>); # Iron AIOT
-    recipes.remove(<actuallyadditions:itemPaxelCrystalBlack>); # Void Crystal AIOT
-    recipes.remove(<actuallyadditions:itemPaxelCrystalBlue>); # Palis Crystal AIOT
-    recipes.remove(<actuallyadditions:itemPaxelCrystalGreen>); # Emeradic Crystal AIOT
-    recipes.remove(<actuallyadditions:itemPaxelCrystalLightBlue>); # Diamatine Crystal AIOT
-    recipes.remove(<actuallyadditions:itemPaxelCrystalRed>); # Restonia Crystal AIOT
-    recipes.remove(<actuallyadditions:itemPaxelCrystalWhite>); # Enori Crystal AIOT
-    recipes.remove(<actuallyadditions:itemAxeEmerald>); # Emerald Axe
-    recipes.remove(<actuallyadditions:itemAxeObsidian>); # Obsidian Axe
-    recipes.remove(<actuallyadditions:itemHoeEmerald>); # Emerald Hoe
-    recipes.remove(<actuallyadditions:itemHoeObsidian>); # Obsidian Hoe
-    recipes.remove(<actuallyadditions:itemPickaxeEmerald>); # Emerald Pickaxe
-    recipes.remove(<actuallyadditions:itemPickaxeObsidian>); # Obsidian Pickaxe
-    recipes.remove(<actuallyadditions:itemShovelEmerald>); # Emerald Shovel
-    recipes.remove(<actuallyadditions:itemShovelObsidian>); # Obsidian Shovel
-    recipes.remove(<actuallyadditions:itemSwordEmerald>); # Emerald Sword
-    recipes.remove(<actuallyadditions:itemSwordObsidian>); # Obsidian Sword
-    recipes.remove(<actuallyadditions:itemPickaxeQuartz>);
-    recipes.addShaped(<actuallyadditions:itemPickaxeQuartz>,
-        [[<ore:gemDark>, <ore:gemDark>, <ore:gemDark>],
-         [null, <minecraft:stick>, null],
-         [null, <minecraft:stick>, null]]);
-    recipes.remove(<actuallyadditions:itemAxeQuartz>);
-    recipes.addShapedMirrored(<actuallyadditions:itemAxeQuartz>,
-        [[<ore:gemDark>, <ore:gemDark>],
-         [<ore:gemDark>, <ore:stickWood>],
-         [null,          <ore:stickWood>]]);
-    recipes.remove(<actuallyadditions:itemHoeQuartz>);
-    recipes.addShapedMirrored(<actuallyadditions:itemHoeQuartz>,
-        [[<ore:gemDark>, <ore:gemDark>],
-         [null,          <ore:stickWood>],
-         [null,          <ore:stickWood>]]);
-    recipes.remove(<actuallyadditions:itemSwordQuartz>);
-    recipes.addShaped(<actuallyadditions:itemSwordQuartz>,
-        [[<ore:gemDark>],
-         [<ore:gemDark>],
-         [<ore:stickWood>]]);
-    recipes.remove(<actuallyadditions:itemShovelQuartz>);
-    recipes.addShaped(<actuallyadditions:itemShovelQuartz>,
-        [[<ore:gemDark>],
-         [<ore:stickWood>],
-         [<ore:stickWood>]]);
+#    recipes.remove(<actuallyadditions:woodenPaxel>); # Wooden AIOT
+#    recipes.remove(<actuallyadditions:stonePaxel>); # Stone AIOT
+#    recipes.remove(<actuallyadditions:quartzPaxel>); # Black Quartz AIOT
+#    recipes.remove(<actuallyadditions:obsidianPaxel>); # Obsidian AIOT
+#    recipes.remove(<actuallyadditions:diamondPaxel>); # Diamond AIOT
+#    recipes.remove(<actuallyadditions:emeraldPaxel>); # Emerald AIOT
+#    recipes.remove(<actuallyadditions:goldPaxel>); # Gold AIOT
+#    recipes.remove(<actuallyadditions:ironPaxel>); # Iron AIOT
+#    recipes.remove(<actuallyadditions:itemPaxelCrystalBlack>); # Void Crystal AIOT
+#    recipes.remove(<actuallyadditions:itemPaxelCrystalBlue>); # Palis Crystal AIOT
+#    recipes.remove(<actuallyadditions:itemPaxelCrystalGreen>); # Emeradic Crystal AIOT
+#    recipes.remove(<actuallyadditions:itemPaxelCrystalLightBlue>); # Diamatine Crystal AIOT
+#    recipes.remove(<actuallyadditions:itemPaxelCrystalRed>); # Restonia Crystal AIOT
+#    recipes.remove(<actuallyadditions:itemPaxelCrystalWhite>); # Enori Crystal AIOT
+#    recipes.remove(<actuallyadditions:itemAxeEmerald>); # Emerald Axe
+#    recipes.remove(<actuallyadditions:itemAxeObsidian>); # Obsidian Axe
+#    recipes.remove(<actuallyadditions:itemHoeEmerald>); # Emerald Hoe
+#    recipes.remove(<actuallyadditions:itemHoeObsidian>); # Obsidian Hoe
+#    recipes.remove(<actuallyadditions:itemPickaxeEmerald>); # Emerald Pickaxe
+#    recipes.remove(<actuallyadditions:itemPickaxeObsidian>); # Obsidian Pickaxe
+#    recipes.remove(<actuallyadditions:itemShovelEmerald>); # Emerald Shovel
+#    recipes.remove(<actuallyadditions:itemShovelObsidian>); # Obsidian Shovel
+#    recipes.remove(<actuallyadditions:itemSwordEmerald>); # Emerald Sword
+#    recipes.remove(<actuallyadditions:itemSwordObsidian>); # Obsidian Sword
+#    recipes.remove(<actuallyadditions:itemPickaxeQuartz>);
+#    recipes.addShaped(<actuallyadditions:itemPickaxeQuartz>,
+#        [[<ore:gemDark>, <ore:gemDark>, <ore:gemDark>],
+#         [null, <minecraft:stick>, null],
+#         [null, <minecraft:stick>, null]]);
+#    recipes.remove(<actuallyadditions:itemAxeQuartz>);
+#    recipes.addShapedMirrored(<actuallyadditions:itemAxeQuartz>,
+#        [[<ore:gemDark>, <ore:gemDark>],
+#         [<ore:gemDark>, <ore:stickWood>],
+#         [null,          <ore:stickWood>]]);
+#    recipes.remove(<actuallyadditions:itemHoeQuartz>);
+#    recipes.addShapedMirrored(<actuallyadditions:itemHoeQuartz>,
+#        [[<ore:gemDark>, <ore:gemDark>],
+#         [null,          <ore:stickWood>],
+#         [null,          <ore:stickWood>]]);
+#    recipes.remove(<actuallyadditions:itemSwordQuartz>);
+#    recipes.addShaped(<actuallyadditions:itemSwordQuartz>,
+#        [[<ore:gemDark>],
+#         [<ore:gemDark>],
+#         [<ore:stickWood>]]);
+#    recipes.remove(<actuallyadditions:itemShovelQuartz>);
+#    recipes.addShaped(<actuallyadditions:itemShovelQuartz>,
+#        [[<ore:gemDark>],
+#         [<ore:stickWood>],
+#         [<ore:stickWood>]]);
 
 # Base Metals
 #    recipes.remove(<basemetals:copper_crackhammer>);
@@ -131,21 +125,21 @@
 
 # Blood Magic
     # Sacrificial Dagger
-    recipes.remove(<bloodmagic:ItemSacrificialDagger>);
-    recipes.addShaped(<bloodmagic:ItemSacrificialDagger>,
-        [[null,<ore:pointFlint>,null],
-         [<evilcraft:hardenedBloodShard>,<ore:flakeFlint>,<evilcraft:hardenedBloodShard>],
-         [null,<ore:stickWood>,null]]);
+#    recipes.remove(<bloodmagic:ItemSacrificialDagger>);
+#    recipes.addShaped(<bloodmagic:ItemSacrificialDagger>,
+#        [[null,<ore:pointFlint>,null],
+#         [<evilcraft:hardened_blood_shard>,<ore:flakeFlint>,<evilcraft:hardened_blood_shard>],
+#         [null,<ore:stickWood>,null]]);
     # Rudimentary Soul Snare
-    recipes.remove(<bloodmagic:ItemSoulSnare>);
-    recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
-        [[<ore:rock>,null,<ore:rock>],
-         [null,<fishing:itemNet>,null],
-         [<ore:rock>,null,<ore:rock>]]);
-    recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
-        [[null,<ore:rock>,null],
-         [<ore:rock>,<fishing:itemNet>,<ore:rock>],
-         [null,<ore:rock>,null]]);
+#    recipes.remove(<bloodmagic:ItemSoulSnare>);
+#    recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
+#        [[<ore:rock>,null,<ore:rock>],
+#         [null,<fishing:item_net>,null],
+#         [<ore:rock>,null,<ore:rock>]]);
+#    recipes.addShaped(<bloodmagic:ItemSoulSnare>*4,
+#        [[null,<ore:rock>,null],
+#         [<ore:rock>,<fishing:item_net>,<ore:rock>],
+#         [null,<ore:rock>,null]]);
 
 # Druidry
 #    recipes.remove(<druidry:flint_axe>);
@@ -163,100 +157,100 @@
 #    recipes.addShapeless(<dungeontactics:copper_sword>, [<thermalfoundation:tool.sword_copper>.noReturn()]);
 
 # EvilCraft
-    val rodBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_bare"]});
-    val brushBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_bare"]});
-    val capBare = <evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
-    recipes.remove(<evilcraft:broomPart>);
+    val rodBare = <evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_bare"]});
+    val brushBare = <evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_bare"]});
+    val capBare = <evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
+    recipes.remove(<evilcraft:broom_part>);
     recipes.addShaped(rodBare,
-        [[<minecraft:chorus_flower>, <evilcraft:darkStick>, <minecraft:chorus_flower>],
-         [<evilcraft:darkGemCrushed>, <evilcraft:darkStick>, <evilcraft:darkGemCrushed>],
-         [<minecraft:chorus_flower>, <evilcraft:darkStick>, <minecraft:chorus_flower>]]);
+        [[<minecraft:chorus_flower>, <evilcraft:dark_stick>, <minecraft:chorus_flower>],
+         [<evilcraft:dark_gem_crushed>, <evilcraft:dark_stick>, <evilcraft:dark_gem_crushed>],
+         [<minecraft:chorus_flower>, <evilcraft:dark_stick>, <minecraft:chorus_flower>]]);
     recipes.addShaped(brushBare,
-        [[<evilcraft:darkGemCrushed>, <evilcraft:darkGemCrushed>, <evilcraft:darkGemCrushed>],
-         [null, <evilcraft:darkStick>, null],
-         [null, <evilcraft:darkStick>, null]]);
+        [[<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem_crushed>, <evilcraft:dark_gem_crushed>],
+         [null, <evilcraft:dark_stick>, null],
+         [null, <evilcraft:dark_stick>, null]]);
     recipes.addShaped(capBare,
-        [[<evilcraft:darkGemCrushed>],
+        [[<evilcraft:dark_gem_crushed>],
          [<ore:gemDark>],
-         [<evilcraft:darkGemCrushed>]]);
+         [<evilcraft:dark_gem_crushed>]]);
     # Rods
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_undead"]}),
-        [rodBare, <evilcraft:undeadPlank>, <evilcraft:undeadPlank>, <evilcraft:undeadPlank>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_wood"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_undead"]}),
+        [rodBare, <evilcraft:undead_plank>, <evilcraft:undead_plank>, <evilcraft:undead_plank>]);
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_wood"]}),
         [rodBare, <ore:plankWood>, <ore:plankWood>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_stone"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_stone"]}),
         [rodBare, <ore:stone>, <ore:stone>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_bone"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_bone"]}),
         [rodBare, <minecraft:bone>, <minecraft:bone>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_blaze"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_blaze"]}),
         [rodBare, <minecraft:blaze_rod>, <minecraft:blaze_rod>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_reed"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_reed"]}),
         [rodBare, <minecraft:reeds>, <minecraft:reeds>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_netherrack"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_netherrack"]}),
         [rodBare, <minecraft:netherrack>, <minecraft:netherrack>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_obsidian"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_obsidian"]}),
         [rodBare, <minecraft:obsidian>, <minecraft:obsidian>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_prismarine"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_prismarine"]}),
         [rodBare, <minecraft:prismarine>, <minecraft:prismarine>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_ice"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_ice"]}),
         [rodBare, <minecraft:ice>, <minecraft:ice>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_sponge"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_sponge"]}),
         [rodBare, <minecraft:sponge>, <minecraft:sponge>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_endstone"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_endstone"]}),
         [rodBare, <minecraft:end_stone>, <minecraft:end_stone>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:rod_purpur"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:rod_purpur"]}),
         [rodBare, <minecraft:purpur_block>, <minecraft:purpur_block>]);
     # Brushes
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_wheat"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_wheat"]}),
         [brushBare, <minecraft:hay_block>, <minecraft:hay_block>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_wool"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_wool"]}),
         [brushBare, <minecraft:wool:*>, <minecraft:wool:*>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_leaves"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_leaves"]}),
         [brushBare, <ore:treeLeaves>, <ore:treeLeaves>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_feather"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_feather"]}),
         [brushBare, <minecraft:feather:*>, <minecraft:feather:*>, <minecraft:feather:*>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:brush_twig"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_twig"]}),
         [brushBare, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]);
     # Caps
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_wither"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_wither"]}),
         [capBare, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_dark"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_gem_dark"]}),
         [capBare, <ore:gemDark>, <ore:gemDark>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_diamond"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_gem_diamond"]}),
         [capBare, <ore:gemDiamond>, <ore:gemDiamond>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_emerald"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_gem_emerald"]}),
         [capBare, <ore:gemEmerald>, <ore:gemEmerald>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_quartz"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_gem_quartz"]}),
         [capBare, <ore:gemQuartz>, <ore:gemQuartz>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_gem_darkPower"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_gem_darkPower"]}),
         [capBare, <ore:gemDarkPower>, <ore:gemDarkPower>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_iron"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_iron"]}),
         [capBare, <ore:ingotIron>, <ore:ingotIron>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_gold"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_gold"]}),
         [capBare, <ore:ingotGold>, <ore:ingotGold>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_copper"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_copper"]}),
         [capBare, <ore:ingotCopper>, <ore:ingotCopper>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_silver"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_silver"]}),
         [capBare, <ore:ingotSilver>, <ore:ingotSilver>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_alubrass"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_alubrass"]}),
         [capBare, <ore:ingotAlubrass>, <ore:ingotAlubrass>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_ardite"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_ardite"]}),
         [capBare, <ore:ingotArdite>, <ore:ingotArdite>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_cobalt"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_cobalt"]}),
         [capBare, <ore:ingotCobalt>, <ore:ingotCobalt>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_metal_manyullyn"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_metal_manyullyn"]}),
         [capBare, <ore:ingotManyullyn>, <ore:ingotManyullyn>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_slime"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_slime"]}),
         [capBare, <ore:slimeball>, <ore:slimeball>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_skeleton"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_skeleton"]}),
         [capBare, <minecraft:skull>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_witherskeleton"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_witherskeleton"]}),
         [capBare, <minecraft:skull:1>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_zombie"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_zombie"]}),
         [capBare, <minecraft:skull:2>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_player"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_player"]}),
         [capBare, <minecraft:skull:3>]);
-    recipes.addShapeless(<evilcraft:broomPart>.withTag({broom_parts_tag: ["evilcraft:cap_head_creeper"]}),
+    recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_creeper"]}),
         [capBare, <minecraft:skull:4>]);
 
 # Extra Utilities
@@ -267,7 +261,6 @@
          [<extrautils2:decorativesolidwood:1>,null,null]]);
     recipes.remove(<extrautils2:sickle_wood>);
     recipes.remove(<extrautils2:sickle_stone>);
-    recipes.remove(<extrautils2:itembuilderswand>);
 
 # Grappling Hooks
 #    recipes.remove(<grapplemod:grapplinghook>);
@@ -292,11 +285,11 @@
 #         [null,<grapplemod:launcheritem>,null]]);
 
 # Nomadic Tents
-    recipes.remove(<yurtmod:mallet>);
-    recipes.addShaped(<yurtmod:mallet>,
-        [[null,<ore:rock>,<ore:stickWood>],
-         [null,<yurtmod:tent_canvas>,<ore:rock>],
-         [<ore:stickWood>,null,null]]);
+#    recipes.remove(<yurtmod:mallet>);
+#    recipes.addShaped(<yurtmod:mallet>,
+#        [[null,<ore:rock>,<ore:stickWood>],
+#         [null,<yurtmod:tent_canvas>,<ore:rock>],
+#         [<ore:stickWood>,null,null]]);
 
 # PrimalCore
     recipes.remove(<primal:flint_axe>);

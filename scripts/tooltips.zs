@@ -15,7 +15,7 @@
     <minecraft:stone_axe>.addTooltip(format.green("Try making a flint hatchet instead."));
 
 # Better Beginnings
-    <betterbeginnings:kiln>.addTooltip(format.green("Try drying clay on a drying rack to make the bricks."));
+#    <betterbeginnings:kiln>.addTooltip(format.green("Try drying clay on a drying rack to make the bricks."));
   
 # Dungeon Tactics
 #    <dungeontactics:bronze_sword>.addTooltip(format.green("Works with some mastery tomes."));

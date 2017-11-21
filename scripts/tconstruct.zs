@@ -8,15 +8,15 @@
         <forestry:logs.fireproof.3:*>, <forestry:logs.fireproof.4:*>, <forestry:logs.fireproof.5:*>,
         <forestry:logs.fireproof.6:*>, <forestry:logs.fireproof.7:*>, #<arsmagica2:witchwood_log>,
         <botania:dreamwood>, <botania:livingwood>, <natura:overworld_logs:*>, <natura:overworld_logs2:*>,
-        <natura:redwood_logs:1>, <natura:nether_logs:*>, <abyssalcraft:dltlog>, <integrateddynamics:menrilLog>,
-        <primal:netherpalm_log:*>
+        <natura:redwood_logs:1>, <natura:nether_logs:*>, <abyssalcraft:dltlog>, <integrateddynamics:menril_log>,
+        <primal:corypha_stalk:*>
     ] as minetweaker.item.IItemStack[];
     var list_planks = [
         <minecraft:planks:*>,
         <biomesoplenty:planks_0:*>, <forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,
         <forestry:planks.fireproof.1:*>, <botania:dreamwood:1>, <botania:livingwood:1>, #<arsmagica2:witchwood_planks>,
         <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>, <integrateddynamics:menrilPlanks>,
-        <primal:netherpalm_plank>
+        <primal:planks:*>
     ] as minetweaker.item.IItemStack[];
 # Each plank and log should make treated wood
     for i, plank in list_planks {
