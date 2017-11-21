@@ -8,23 +8,23 @@
         [<ore:chestWood>]);
 
 # Actually Additions
-    #Storage Crate Keeper
-    val primal_storage_crates = [
-        <primal:storage_crate_acacia>,
-        <primal:storage_crate_bigoak>,
-        <primal:storage_crate_birch>,
-        <primal:storage_crate_jungle>,
-        <primal:storage_crate_oak>,
-        <primal:storage_crate_ironwood>,
-        <primal:storage_crate_netherpalm>,
-        <primal:storage_crate_lacquer>
-    ] as minetweaker.item.IItemStack[];
+#    #Storage Crate Keeper
+#    val primal_storage_crates = [
+#        <primal:storage_crate>,
+#        <primal:storage_crate>,
+#        <primal:storage_crate>,
+#        <primal:storage_crate>,
+#        <primal:storage_crate>,
+#        <primal:storage_crate>,
+#        <primal:storage_crate>,
+#        <primal:storage_crate>
+#    ] as minetweaker.item.IItemStack[];
 
-    for i, block in primal_storage_crates{
-        recipes.addShaped(<actuallyadditions:itemCrateKeeper>, 
-        [[null, <ore:gemDark>, null],
-        [<ore:gemDark>, block, <ore:gemDark>]]);
-    }
+#    for i, block in primal_storage_crates{
+#        recipes.addShaped(<actuallyadditions:itemCrateKeeper>, 
+#        [[null, <ore:gemDark>, null],
+#        [<ore:gemDark>, block, <ore:gemDark>]]);
+#    }
 
 # Backpacks
 /*
