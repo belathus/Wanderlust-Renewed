@@ -35,93 +35,115 @@
         <dimensionExclude name="Twilight Forest"/>
     </entry>
     -->
-    <entry id="EnderMiny" mobName="EnderZoo.Enderminy" rate="30">
-        <biomeFilter type="any">
-              <biome type="END" />
-        </biomeFilter>
-    </entry>
-    
-    <!-- Ars Magica 2 -->
-    <entry id="DarkMage" mobName="arsmagica2.DarkMage" rate="5">
-        <biomeFilter type="any">
-            <biome type="DEAD" />
-            <biome type="PLAINS" />
-            <biome type="HILLS" />
-            <biome type="SPOOKY" />
-            <biome type="NETHER" exclude="true" />
-            <biome type="END" exclude="true" />
-        </biomeFilter>
-    </entry>
-    <entry id="Darkling" mobName="arsmagica2.Darkling" rate="5">
-        <biomeFilter type="any">
-            <biome type="NETHER" />
-            <biome type="SPOOKY" />
-            <biome type="END" />
-        </biomeFilter>
-    </entry>
-    <entry id="Dryad" mobName="arsmagica2.Dryad" creaturetype="CREATURE" rate="5">
-        <biomeFilter type="any">
-            <biome type="LUSH" />
-            <biome type="NETHER" exclude="true" />
-            <biome type="END" exclude="true" />
-        </biomeFilter>
-    </entry>
-    <entry id="EarthElemental" mobName="arsmagica2.EarthElemental" rate="5">
-        <biomeFilter type="any">
-            <biome type="PLAINS" />
-            <biome type="HILLS" />
-            <biome type="SANDY" />
-            <biome type="NETHER" exclude="true" />
-            <biome type="END" exclude="true" />
-        </biomeFilter>
-    </entry>
-    <entry id="NetherEarthElemental" mobName="arsmagica2.EarthElemental" rate="30">
-        <biomeFilter type="any">
-            <biome type="NETHER" />
-        </biomeFilter>
-    </entry>
-    <entry id="FireElemental" mobName="arsmagica2.FireElemental" rate="7">
-        <biomeFilter type="any">
-            <biome type="NETHER" />
-        </biomeFilter>
-    </entry>
-    <entry id="Hecate" mobName="arsmagica2.Hecate" rate="5">
-        <biomeFilter type="any">
-            <biome type="SPOOKY" />
-        </biomeFilter>
-    </entry>
-    <entry id="HellCow" mobName="arsmagica2.HellCow" rate="1" minGroupSize="1" maxGroupSize="1">
-        <biomeFilter type="any">
-            <biome type="NETHER" />
-        </biomeFilter>
-    </entry>
-    <entry id="LightMage" mobName="arsmagica2.LightMage" rate="2">
-        <biomeFilter type="any">
-            <biome type="PLAINS" />
-            <biome type="HILLS" />
-        </biomeFilter>
-    </entry>
-    <entry id="ManaCreeper" mobName="arsmagica2.ManaCreeper" rate="3">
-        <biomeFilter type="any">
-            <biome type="MAGICAL" />
-            <biome type="NETHER" exclude="true" />
-            <biome type="END" exclude="true" />
-        </biomeFilter>
-    </entry>
-    <entry id="ManaElemental" mobName="arsmagica2.ManaElemental" rate="3">
-        <biomeFilter type="any">
-            <biome type="MAGICAL" />
-            <biome type="NETHER" exclude="true" />
-            <biome type="END" exclude="true" />
-        </biomeFilter>
-    </entry>
-    <entry id="WaterElemental" mobName="arsmagica2.WaterElemental" creatureType="WATER_CREATURE" rate="5">
-        <biomeFilter type="any">
-            <biome type="OCEAN" />
-            <biome type="RIVER" />
-            <biome type="SWAMP" />
-            <biome type="NETHER" exclude="true" />
-            <biome type="END" exclude="true" />
-        </biomeFilter>
-    </entry>
+  <entry id="EnderMiny" mobName="EnderZoo.Enderminy" rate="30">
+    <biomeFilter type="any">
+      <biome type="END" />
+    </biomeFilter>
+  </entry>
+
+  <!-- Ars Magica 2 -->
+  <entry id="DarkMage" mobName="arsmagica2.DarkMage" rate="5">
+    <biomeFilter type="any">
+      <biome type="DEAD" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="SPOOKY" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="Darkling" mobName="arsmagica2.Darkling" rate="5">
+    <biomeFilter type="any">
+      <biome type="NETHER" />
+      <biome type="SPOOKY" />
+      <biome type="END" />
+    </biomeFilter>
+  </entry>
+  <entry id="Dryad" mobName="arsmagica2.Dryad" creaturetype="CREATURE" rate="5">
+    <biomeFilter type="any">
+      <biome type="LUSH" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="EarthElemental" mobName="arsmagica2.EarthElemental" rate="5">
+    <biomeFilter type="any">
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="SANDY" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="NetherEarthElemental" mobName="arsmagica2.EarthElemental" rate="30">
+    <biomeFilter type="any">
+      <biome type="NETHER" />
+    </biomeFilter>
+  </entry>
+  <entry id="FireElemental" mobName="arsmagica2.FireElemental" rate="7">
+    <biomeFilter type="any">
+      <biome type="NETHER" />
+    </biomeFilter>
+  </entry>
+  <entry id="Hecate" mobName="arsmagica2.Hecate" rate="5">
+    <biomeFilter type="any">
+      <biome type="SPOOKY" />
+    </biomeFilter>
+  </entry>
+  <entry id="HellCow" mobName="arsmagica2.HellCow" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="NETHER" />
+    </biomeFilter>
+  </entry>
+  <entry id="LightMage" mobName="arsmagica2.LightMage" rate="2">
+    <biomeFilter type="any">
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+    </biomeFilter>
+  </entry>
+  <entry id="ManaCreeper" mobName="arsmagica2.ManaCreeper" rate="3">
+    <biomeFilter type="any">
+      <biome type="MAGICAL" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="ManaElemental" mobName="arsmagica2.ManaElemental" rate="3">
+    <biomeFilter type="any">
+      <biome type="MAGICAL" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="WaterElemental" mobName="arsmagica2.WaterElemental" creatureType="WATER_CREATURE" rate="5">
+    <biomeFilter type="any">
+      <biome type="OCEAN" />
+      <biome type="RIVER" />
+      <biome type="SWAMP" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="WitherWitch" mobName="witherwitch" rate="5" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
+  </entry>
+  <entry id="EnderMiny" mobName="enderminy" rate="30">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="JUNGLE" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
+  </entry>
 </SpawnConfig>
