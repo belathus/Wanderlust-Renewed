@@ -21,7 +21,7 @@
         mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dark_gem_crushed>,<abyssalcraft:shadowgem>,600);
 
     # Extra Utilities
-        mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>,<extrautils2:redorchid>,600);
+        #mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>,<extrautils2:redorchid>,600);
     
     # PrimalCore
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*4,<primal:sharp_bone:*>,600);
@@ -115,7 +115,7 @@
 */
 
 # Squeezer
-    mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
+    #mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
     var seeds = [
         #<actuallyadditions:itemCanolaSeed>,   <actuallyadditions:itemCoffeeSeed>,   <actuallyadditions:itemFlaxSeed>,   <actuallyadditions:itemRiceSeed>,
         <biomesoplenty:turnip_seeds>,         <natura:overworld_seeds>,
