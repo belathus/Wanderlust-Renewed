@@ -1,0 +1,18 @@
+//Pregenerator ExampleFile
+//To add a command just start a line in the textfile with the valid command type and its parameters.
+//This is a example file for the /pregen loadfromFile you dont need this file to pregenerate. Just use this file format in your own file.
+//Lines that start with the // will be skipped from reading.
+//Tasks are generated in order from top to bottom
+//this file is only generated if the pregeneration folder isn't created yet.
+//Valid Command Types: startradius, startcircle, startarea, startextention, startmassradius.
+//Command Parameters:
+//startradius: <ChunkCenterX> <ChunkCenterZ> <RadiusInChunks> <Dimension> <(Optional)PostProcessing or PostProcessingOnly>
+//startcircle: <ChunkCenterX> <ChunkCenterZ> <RadiusInChunks> <Dimension> <(Optional)PostProcessing or PostProcessingOnly>
+//startarea: <ChunkXStart> <ChunkZStart> <ChunkXEnd> <ChunkZEnd> <Dimension> <(Optional)PostProcessing or PostProcessingOnly>
+//startextention: <Type(circle/square)> <ChunkCenterX> <ChunkCenterZ> <MinRadiusInChunks> <MaxRadiusInChunks> <Dimension> <(Optional)PostProcessing or PostProcessingOnly>
+//startmassradius <Type(circle/square)> <ChunkCenterX> <ChunkCenterZ> <RadiusInChunks> <Dimension> <(Optional)PostProcessing or PostProcessingOnly>
+//Examples: 
+//startradius 0 0 100 0
+//startextension square 0 0 20 100 0
+//startmassradius square 0 0 10000 0
+//startradius 0 0 100 0 PostProcessing
