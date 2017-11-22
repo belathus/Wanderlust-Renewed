@@ -22,11 +22,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotNickel>,null,<ore:ingotNickel>],
          [<ore:ingotNickel>,<ore:chest>,<ore:ingotNickel>],
          [null,<ore:ingotNickel>,null]]);
-    recipes.remove(<minecraft:furnace>);
-    recipes.addShaped(<minecraft:furnace>,
-        [[null, <ore:bricksStone>, null],
-         [<ore:bricksStone>,null,<ore:bricksStone>],
-         [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
+    #recipes.remove(<minecraft:furnace>);
+    #recipes.addShaped(<minecraft:furnace>,
+    #    [[null, <ore:bricksStone>, null],
+    #     [<ore:bricksStone>,null,<ore:bricksStone>],
+    #     [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
 
 # Actually Additions
     # Redstonia crystal = item_crystal
