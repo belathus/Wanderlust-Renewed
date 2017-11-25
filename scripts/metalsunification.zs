@@ -39,7 +39,7 @@ function unify(list as crafttweaker.item.IItemStack[][], oredict as crafttweaker
         if i == 0 {
             furnace.remove(group[1]);
             furnace.addRecipe(group[1], group[5], 0.5);
-            furnace.addRecipe(group[1], group[6], 0.5);
+            furnace.addRecipe(group[1], group[6], 0.1);
             recipes.addShapeless(group[0]*9, [oredict[1]]);
             recipes.addShapeless(group[1]*9, [oredict[2]]);
             recipes.addShapeless(group[1], 
@@ -251,6 +251,17 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     ] as crafttweaker.item.IItemStack[][];
     var tin_oredict = [<ore:nuggetTin>,<ore:ingotTin>,<ore:blockTin>,<ore:plateTin>,<ore:gearTin>,<ore:oreTin>, <ore:dustTin>] as crafttweaker.item.IIngredient[];
     unify(list_tin, tin_oredict);
+    mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:193>);
+    mods.tconstruct.Casting.removeTableRecipe(<forestry:ingot_tin>);
+    mods.tconstruct.Casting.removeBasinRecipe(<forestry:resource_storage:2>);
+    mods.tconstruct.Casting.addTableRecipe(list_tin[0][1], <tconstruct:cast_custom:0>, <liquid:tin>, 144, false); # Ingot
+    mods.tconstruct.Casting.addTableRecipe(list_tin[0][0], <tconstruct:cast_custom:1>, <liquid:tin>, 16, false); # Nugget
+    mods.tconstruct.Casting.addTableRecipe(list_tin[0][3], <tconstruct:cast_custom:3>, <liquid:tin>, 144, false); # Plate
+    mods.tconstruct.Casting.addTableRecipe(list_tin[0][4], <tconstruct:cast_custom:4>, <liquid:tin>, 576, false); # Gear
+    mods.tconstruct.Casting.addBasinRecipe(list_tin[0][2], null, <liquid:tin>, 1296, false);
+    mods.tconstruct.Casting.addBasinRecipe(list_tin[0][2], null, <liquid:tin>, 576, false);
+
+
 
 
 # Uranium
