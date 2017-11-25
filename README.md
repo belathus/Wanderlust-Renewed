@@ -1,5 +1,5 @@
 # Wanderlust-Renewed
-Minecraft 1.10.2 Modpack focused on exploration
+Minecraft 1.12.2 Modpack focused on exploration
 
 This modpack will focus on driving exploration by creating large, (hopefully) easy to find deposits that spawn rarely, creating custom structures that spawn during world generation, custom dungeons with unique loot that might only be found in those specific dungeons (identifying the type of dungeon should be fairly simple; at the very least, they'll be made of a unique material), custom villages that are (hopefully) completely different than vanilla, and so on.
 
