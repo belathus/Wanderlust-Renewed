@@ -117,7 +117,13 @@
 #        [<evilcraft:bucket_eternal_water>,<ore:dirt>]);
 
 # Astral Sorcery
-#    recipes.remove(<astralsorcery:blockmarble:*>);
+    recipes.addShapeless(<astralsorcery:blockmarblestairs>, [<quark:stone_marble_bricks_stairs>]);
+    recipes.addShapeless(<astralsorcery:blockmarble>, [<quark:marble>]);
+    recipes.addShapeless(<astralsorcery:blockmarble:1>, [<quark:world_stone_bricks:4>]);
+    recipes.addShapeless(<astralsorcery:blockmarbleslab>, [<quark:stone_marble_bricks_slab>]);
+    recipes.addShaped(<astralsorcery:blockmarbleslab> * 6,
+        [[<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
+    
 
 # Chisel
     recipes.addShapeless(<chisel:basalt>,
@@ -280,3 +286,16 @@
 #        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
 #         [<rockhounding_surface:whiteSand>,<botania:waterrod>.giveBack(),<rockhounding_surface:whiteSand>],
 #         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
+
+# Quark
+    recipes.remove(<quark:marble:1>);
+    recipes.addShaped(<quark:marble:1> * 4,
+        [[<quark:marble>, null, <quark:marble>],
+         [null, null, null],
+         [<quark:marble>, null, <quark:marble>]]);
+    recipes.addShapeless(<quark:stone_marble_bricks_slab>, [<astralsorcery:blockmarbleslab>]);
+    recipes.addShapeless(<quark:stone_marble_bricks_stairs>, [<astralsorcery:blockmarblestairs>]);
+    recipes.addShapeless(<quark:marble>, [<astralsorcery:blockmarble>]);
+    recipes.addShapeless(<quark:world_stone_bricks:4>, [<astralsorcery:blockmarble:1>]);
+    recipes.addShaped(<quark:stone_marble_slab> * 6,
+        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
