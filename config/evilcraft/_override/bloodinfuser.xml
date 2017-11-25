@@ -253,7 +253,7 @@
     <recipe type="evilcraft:bloodinfuser">
         <tag>other</tag>
         <condition type="config">blood_infuser</condition>
-        <condition type="config">bloodOrb</condition>
+        <condition type="config">blood_orb</condition>
         <input>
             <item meta="0">evilcraft:blood_orb</item>
             <fluid amount="3500">evilcraftblood</fluid>
