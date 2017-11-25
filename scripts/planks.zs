@@ -2,6 +2,12 @@
 # Planks List
     var list_logs = [
         # Log, Plank, Stairs, Slab
+        [<minecraft:log:0>, <minecraft:planks:0>, <minecraft:oak_stairs>, <minecraft:wooden_slab:0>],                               # Oak
+        [<minecraft:log:1>, <minecraft:planks:1>, <minecraft:spruce_stairs>, <minecraft:wooden_slab:1>],                            # Spruce
+        [<minecraft:log:2>, <minecraft:planks:2>, <minecraft:birch_stairs>, <minecraft:wooden_slab:2>],                             # Birch
+        [<minecraft:log:3>, <minecraft:planks:3>, <minecraft:jungle_stairs>, <minecraft:wooden_slab:3>],                            # Jungle
+        [<minecraft:log2:0>, <minecraft:planks:4>, <minecraft:acacia_stairs>, <minecraft:wooden_slab:4>],                           # Acacia
+        [<minecraft:log2:1>, <minecraft:planks:5>, <minecraft:dark_oak_stairs>, <minecraft:wooden_slab:5>],                         # Dark Oak
         [<biomesoplenty:log_0:4>, <biomesoplenty:planks_0:0>, <biomesoplenty:sacred_oak_stairs>, <biomesoplenty:wood_slab_0:0>],
         [<biomesoplenty:log_0:5>, <biomesoplenty:planks_0:1>, <biomesoplenty:cherry_stairs>, <biomesoplenty:wood_slab_0:1>],
         [<biomesoplenty:log_0:6>, <biomesoplenty:planks_0:2>, <biomesoplenty:umbran_stairs>, <biomesoplenty:wood_slab_0:2>],
@@ -136,8 +142,8 @@
 #        [<botanicaladdons:altLog0:3>,   <botanicaladdons:altPlanks:3>,      null, null],
 #        [<botanicaladdons:altLog1:0>,   <botanicaladdons:altPlanks:4>,      null, null],
 #        [<botanicaladdons:altLog1:1>,   <botanicaladdons:altPlanks:5>,      null, null],
-        [<integrateddynamics:menril_log>,<integrateddynamics:menril_planks>,  null, null],
-        [<evilcraft:undead_log>,         <evilcraft:undead_plank>,            null, null]
+        [<integrateddynamics:menril_log>,<integrateddynamics:menril_planks>,  <integrateddynamics:menril_planks_stairs>, null],
+        [<evilcraft:undead_log>,         <evilcraft:undead_plank>,            <evilcraft:undead_plank_stairs>, null]
     ] as crafttweaker.item.IItemStack[][];
 # For Loop; removes all plank recipes then re-adds them using the above nested array.
     for i, log_pair in list_logs {
@@ -147,34 +153,25 @@
         var slab = log_pair[3];
         recipes.remove(plank);
         recipes.remove(slab);
-        recipes.addShaped(plank * 2, 
-            [[<primal:flint_saw:*>],[log]]);
+        # Planks
+        recipes.addShapeless(plank * 2, [log]);
+        recipes.addShaped(plank * 3, 
+            [[<ore:toolSawFlint>],[log]]);
         recipes.addShaped(plank * 4, 
-            [[<primal:quartz_saw:*>],[log]]);
+            [[<ore:toolSawIron>],[log]]);
         recipes.addShaped(plank * 4, 
-            [[<primal:iron_saw:*>],[log]]);
+            [[<ore:toolSawCopper>],[log]]);
         recipes.addShaped(plank * 4, 
-            [[<primal:copper_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:diamond_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:emerald_saw:*>],[log]]);
+            [[<ore:toolSawGem>],[log]]);
+        # slabs
         recipes.addShaped(slab * 2, 
-            [[<primal:flint_saw:*>],   [plank]]);
+            [[<ore:toolSawFlint>],   [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:quartz_saw:*>],  [plank]]);
+            [[<ore:toolSawIron>],  [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:iron_saw:*>],    [plank]]);
+            [[<ore:toolSawCopper>],    [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<primal:copper_saw:*>],  [plank]]);
-        recipes.addShaped(slab * 2, 
-            [[<primal:diamond_saw:*>], [plank]]);
-        recipes.addShaped(slab * 2, 
-            [[<primal:emerald_saw:*>], [plank]]);
-        recipes.addShaped(plank * 4,
-            [[<ore:toolSawMetal>], [log]]);
-        recipes.addShaped(plank * 4,
-            [[<ore:toolSawGem>], [log]]);
+            [[<ore:toolSawGem>],  [plank]]);
         recipes.addShapeless(plank * 3, 
             [stair, stair, stair, stair]);
         recipes.remove(stair);
@@ -182,9 +179,9 @@
             [[plank, null, null],
              [plank, plank, null],
              [plank, plank, plank]]);
-        recipes.addShapedMirrored(stair * 4,
-            [[plank, null],
-             [plank, plank]]);
+        #recipes.addShapedMirrored(stair * 4,
+        #    [[plank, null],
+        #     [plank, plank]]);
         recipes.addShapeless(plank, 
             [slab, slab]);
     }
@@ -192,40 +189,18 @@
         var log = log_pair[0];
         var plank = log_pair[1];
         recipes.remove(plank);
-        recipes.addShaped(plank * 4, 
-            [[<primal:flint_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:quartz_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:iron_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:copper_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:diamond_saw:*>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<primal:emerald_saw:*>],[log]]);
+        recipes.addShapeless(plank * 2, [log]);
+        recipes.addShaped(plank * 3,
+            [[<ore:toolSawFlint>], [log]]);
         recipes.addShaped(plank * 4,
-            [[<ore:toolSawMetal>], [log]]);
+            [[<ore:toolSawIron>], [log]]);
+        recipes.addShaped(plank * 4,
+            [[<ore:toolSawCopper>], [log]]);
         recipes.addShaped(plank * 4,
             [[<ore:toolSawGem>], [log]]);
     }
-
-recipes.addShapedMirrored(<minecraft:oak_stairs> * 4,
-    [[<minecraft:planks>, null],
-     [<minecraft:planks>, <minecraft:planks>]]);
-recipes.addShapedMirrored(<minecraft:spruce_stairs> * 4,
-    [[<minecraft:planks:1>, null],
-     [<minecraft:planks:1>, <minecraft:planks:1>]]);
-recipes.addShapedMirrored(<minecraft:birch_stairs> * 4,
-    [[<minecraft:planks:2>, null],
-     [<minecraft:planks:2>, <minecraft:planks:2>]]);
-recipes.addShapedMirrored(<minecraft:jungle_stairs> * 4,
-    [[<minecraft:planks:3>, null],
-     [<minecraft:planks:3>, <minecraft:planks:3>]]);
-recipes.addShapedMirrored(<minecraft:acacia_stairs> * 4,
-    [[<minecraft:planks:4>, null],
-     [<minecraft:planks:4>, <minecraft:planks:4>]]);
-recipes.addShapedMirrored(<minecraft:dark_oak_stairs> * 4,
-    [[<minecraft:planks:5>, null],
-     [<minecraft:planks:5>, <minecraft:planks:5>]]);
-     
+    recipes.addShapeless(<evilcraft:undead_plank> * 3, 
+        [<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>]);
+    recipes.addShapeless(<integrateddynamics:menril_planks> * 3, 
+        [<integrateddynamics:menril_planks_stairs>,<integrateddynamics:menril_planks_stairs>,<integrateddynamics:menril_planks_stairs>,<integrateddynamics:menril_planks_stairs>]);
+    
