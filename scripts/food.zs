@@ -3,6 +3,11 @@
     recipes.remove(<minecraft:bread>);
     furnace.remove(<minecraft:bread>);
     furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughitem>, 0.7);
+    recipes.remove(<minecraft:cake>);
+    recipes.addShaped("Standard_Cake",<minecraft:cake>,
+      [[<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>],
+       [<ore:listAllsugar>,<ore:listAllegg>,<ore:listAllsugar>],
+       [<ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>]]);
 
 # Forestry
     recipes.remove(<forestry:honeyed_slice>);
@@ -12,6 +17,11 @@
          [<forestry:honey_drop>, <forestry:honey_drop>, <forestry:honey_drop>]]);
 
 # Natura
+    recipes.remove(<natura:materials:0>);
+    recipes.addShaped(<natura:materials:0>, 
+        [[<ore:rock>],
+         [<ore:cropWheat>],
+         [<primal:stone_basin>]]);
     recipes.remove(<natura:materials:1>);
     recipes.addShaped(<natura:materials:1>, 
         [[<ore:rock>],

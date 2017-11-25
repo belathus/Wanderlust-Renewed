@@ -119,6 +119,10 @@
     <ore:stoneMarble>.add(<astralsorcery:blockmarble:*>);
     <ore:stoneMarble>.add(<quark:marble:1>);
     <ore:blockMarble>.addAll(<ore:stoneMarble>);
+# Milk
+    <ore:listAllmilk>.add(<forestry:can>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}));
+    <ore:listAllmilk>.add(<forestry:capsule>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}));
+    <ore:listAllmilk>.add(<forestry:refractory>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}));
 # Mud
     <ore:clumpMud>.add(<biomesoplenty:mudball>);
 # Rock Crystal Ore
