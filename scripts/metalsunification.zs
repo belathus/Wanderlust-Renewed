@@ -109,8 +109,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 
 # Brass
     val list_brass = [
-    #    nugget                  ingot                  block                plate                gear                 ore   dust
-        [ctMat.withDamage(94),  ctMat.withDamage(95), ctOre.withDamage(7), ctMat.withDamage(93), ctMat.withDamage(92), nope, ctMat.withDamage(91)],
+    #    nugget                      ingot                      block                      plate                      gear                      ore  dust
+        [<materialpart:brass:nugget>,<materialpart:brass:ingot>,<materialpart:brass:block>,<materialpart:brass:plate>,<materialpart:brass:gear>,nope,<materialpart:brass:dust>],
         [<primal:brass_nugget>,  <primal:brass_ingot>,  <primal:metalblock:12>,<primal:brass_plate>,  nope,                  nope, nope]
     ] as crafttweaker.item.IItemStack[][];
     var brass_oredict = [<ore:nuggetBrass>,<ore:ingotBrass>,<ore:blockBrass>,<ore:plateBrass>,<ore:gearBrass>,<ore:oreBrass>,<ore:dustBrass>] as crafttweaker.item.IIngredient[];
@@ -119,9 +119,9 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     
 # Bronze
     val list_bronze = [
-    #    nugget                 ingot                  block                plate                 gear                  ore   dust
-        [ctMat.withDamage(100), ctMat.withDamage(101), ctOr2.withDamage(7), ctMat.withDamage(99), ctMat.withDamage(98), nope, ctMat.withDamage(97)],
-        [nope,                <forestry:ingot_bronze>, <forestry:resource_storage:3>,   nope, <forestry:gear_bronze>, nope, nope],
+    #    nugget                       ingot                       block                       plate                       gear                       ore  dust
+        [<materialpart:bronze:nugget>,<materialpart:bronze:ingot>,<materialpart:bronze:block>,<materialpart:bronze:plate>,<materialpart:bronze:gear>,nope,<materialpart:bronze:dust>],
+        [nope,                        <forestry:ingot_bronze>,    <forestry:resource_storage:3>,   nope,                  <forestry:gear_bronze>,    nope,nope],
         [<primal:bronze_nugget>, <primal:bronze_ingot>, <primal:metalblock:11>,        nope, nope,                nope, <primal:bronze_dust>],
         [teMat.withDamage(227),teMat.withDamage(163),<thermalfoundation:storage_alloy:3>,teMat.withDamage(355),teMat.withDamage(291),nope, teMat.withDamage(99)]
     ] as crafttweaker.item.IItemStack[][];
@@ -132,7 +132,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Copper
     val list_copper = [
         # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(20), ieMat,               ieSto,               ieMat.withDamage(30), ctMat.withDamage(172), ieOre.withDamage(0), ieMat.withDamage(9)],
+        [ieMat.withDamage(20), ieMat,               ieSto,               ieMat.withDamage(30), ctMat.withDamage(91), ieOre.withDamage(0), ieMat.withDamage(9)],
         #[nope,                 nope,                nope,                nope,                 nope,                  nope,                <enderio:itemPowderIngot:3>],
         [nope,                 <abyssalcraft:copperingot>, nope,         nope,                 nope,                  <abyssalcraft:abycopore>, nope],
         [lvNug.withDamage(4),  lvIng.withDamage(4), lvSto.withDamage(4), lvPla.withDamage(4),  nope,                  lvOre.withDamage(4),      nope],
