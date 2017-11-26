@@ -1,13 +1,13 @@
 
 # Minecolonies
     recipes.remove(<minecolonies:supplychestdeployer>);
-    recipes.addShaped(<minecolonies:supplychestdeployer>,
-        [[<ore:boatWood>, <forestry:hardened_machine>, <ore:boatWood>],
-         [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
+#    recipes.addShaped(<minecolonies:supplychestdeployer>,
+#        [[<ore:boatWood>, <forestry:hardened_machine>, <ore:boatWood>],
+#         [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
     recipes.remove(<minecolonies:supplycampdeployer>);
-    recipes.addShaped(<minecolonies:supplycampdeployer>,
-        [[<ore:chestWood>, <forestry:hardened_machine>, <ore:chestWood>],
-         [<ore:chestWood>, <ore:chestWood>, <ore:chestWood>]]);
+#    recipes.addShaped(<minecolonies:supplycampdeployer>,
+#        [[<ore:chestWood>, <forestry:hardened_machine>, <ore:chestWood>],
+#         [<ore:chestWood>, <ore:chestWood>, <ore:chestWood>]]);
          
     recipes.remove(<minecolonies:blockhutcitizen>);
     recipes.addShapeless(<minecolonies:blockhutcitizen>,
