@@ -87,6 +87,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:blockBrick>,<ore:blockBrick>,<ore:blockBrick>],
          [<minecraft:magma>,<minecraft:magma>,<minecraft:magma>],
          [<ore:blockSeared>,<ore:blockSeared>,<ore:blockSeared>]]);
+    recipes.remove(<advancedrocketry:platepress>);
 
 # Ars Magica 2
 #    recipes.remove(<arsmagica2:arcane_reconstructor>);
