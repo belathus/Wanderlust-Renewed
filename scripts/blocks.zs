@@ -167,8 +167,8 @@
 
 # Extra Utilities
     # Portal to the Deep Dark
-    recipes.remove(<extrautils2:teleporter>);
-    recipes.addShaped(<extrautils2:teleporter>,
+    recipes.remove(<extrautils2:teleporter:1>);
+    recipes.addShaped(<extrautils2:teleporter:1>,
         [[<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>],
          [<ore:dropofevil>,<biomesoplenty:terrestrial_artifact>,<ore:dropofevil>],
          [<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>]]);
