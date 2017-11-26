@@ -259,7 +259,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     mods.tconstruct.Casting.addTableRecipe(list_tin[0][3], <tconstruct:cast_custom:3>, <liquid:tin>, 144, false); # Plate
     mods.tconstruct.Casting.addTableRecipe(list_tin[0][4], <tconstruct:cast_custom:4>, <liquid:tin>, 576, false); # Gear
     mods.tconstruct.Casting.addBasinRecipe(list_tin[0][2], null, <liquid:tin>, 1296, false);
-    mods.tconstruct.Casting.addBasinRecipe(list_tin[0][2], null, <liquid:tin>, 576, false);
 
 
 
