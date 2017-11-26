@@ -123,6 +123,10 @@
     recipes.addShapeless(<astralsorcery:blockmarbleslab>, [<quark:stone_marble_bricks_slab>]);
     recipes.addShaped(<astralsorcery:blockmarbleslab> * 6,
         [[<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
+    recipes.addShapedMirrored(<astralsorcery:blockmarblestairs> * 8,
+        [[<astralsorcery:blockmarble:1>,null,null],
+         [<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,null],
+         [<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
     
 
 # Chisel
