@@ -22,13 +22,13 @@
 #        [<minecraft:iron_shovel>, null, <minecraft:iron_axe>]]);
 
 # Enchiridion
-    recipes.addShaped(<enchiridion:book>.withTag({identifier:"Getting_Through_the_Stone_Age"}),
+    recipes.addShaped(<enchiridion:book>.withTag({identifier:"getting_through_the_stone_age"}),
         [[<ore:rock>, <ore:rock>]]);
-    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Getting_Through_the_Bronze_Age"}),
+    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"getting_through_the_bronze_age"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:ingotCopper>]);
-    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Getting_Through_the_Iron_Age"}),
+    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"getting_through_the_iron_age"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:ingotBronze>]);
-    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Nether_Living"}),
+    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"nether_living"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<primal:thin_slab_corypha>]);
-    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"Fantastic_Creatures"}),
+    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"fantastic_creatures"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:materialFlesh>,<ore:materialFlesh>]);

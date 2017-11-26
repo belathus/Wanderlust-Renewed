@@ -1,7 +1,7 @@
 {
   "modid": "",
-  "uniqueName": "Nether_Living",
-  "saveName": "Nether_Living",
+  "uniqueName": "nether_living",
+  "saveName": "nether_living",
   "displayName": "Surviving and Exploiting the Nether",
   "displayInfo": "",
   "colorHex": "FFFFFFFF",
@@ -93,7 +93,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Nether_Living",
+                  "bookID": "nether_living",
                   "pageNumber": 0
                 }
               },
@@ -108,8 +108,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Nether_Living/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Nether_Living/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/nether_living/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/nether_living/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -127,7 +127,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Nether_Living",
+                  "bookID": "nether_living",
                   "pageNumber": 14
                 }
               },
@@ -142,8 +142,8 @@
               "unhoveredText": "[u]Mining in the Nether",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Nether_Living/transp.png",
-              "unhoveredResource": "enchiridion:images/Nether_Living/transp.png"
+              "hoveredResource": "enchiridion:images/nether_living/transp.png",
+              "unhoveredResource": "enchiridion:images/nether_living/transp.png"
             }
           },
           "isLocked": false,
@@ -177,7 +177,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Nether_Living",
+                  "bookID": "nether_living",
                   "pageNumber": 4
                 }
               },
@@ -192,8 +192,8 @@
               "unhoveredText": "[u]Foraging in the Nether",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Nether_Living/transp.png",
-              "unhoveredResource": "enchiridion:images/Nether_Living/transp.png"
+              "hoveredResource": "enchiridion:images/nether_living/transp.png",
+              "unhoveredResource": "enchiridion:images/nether_living/transp.png"
             }
           },
           "isLocked": false,
@@ -279,7 +279,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Nether_Living",
+                  "bookID": "nether_living",
                   "pageNumber": 0
                 }
               },
@@ -294,8 +294,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Nether_Living/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Nether_Living/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/nether_living/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/nether_living/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -413,7 +413,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Nether_Living",
+                  "bookID": "nether_living",
                   "pageNumber": 0
                 }
               },
@@ -428,8 +428,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Nether_Living/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Nether_Living/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/nether_living/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/nether_living/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -492,7 +492,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Nether_Living/2017-03-27_18.42.39.png"
+              "path": "enchiridion:images/nether_living/2017-03-27_18.42.39.png"
             }
           },
           "isLocked": false,
@@ -607,7 +607,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Nether_Living/iron_geode.png"
+              "path": "enchiridion:images/nether_living/iron_geode.png"
             }
           },
           "isLocked": false,
@@ -654,7 +654,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Nether_Living/iron_geode_interior.png"
+              "path": "enchiridion:images/nether_living/iron_geode_interior.png"
             }
           },
           "isLocked": false,
@@ -949,7 +949,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Nether_Living/valus_omniferum.png"
+              "path": "enchiridion:images/nether_living/valus_omniferum.png"
             }
           },
           "isLocked": false,
@@ -1267,7 +1267,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Nether_Living/ovis_atre.png"
+              "path": "enchiridion:images/nether_living/ovis_atre.png"
             }
           },
           "isLocked": false,

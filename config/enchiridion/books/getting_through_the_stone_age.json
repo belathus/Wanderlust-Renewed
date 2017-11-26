@@ -1,7 +1,7 @@
 {
   "modid": "",
-  "uniqueName": "Getting_Through_the_Stone_Age",
-  "saveName": "Getting_Through_the_Stone_Age",
+  "uniqueName": "getting_through_the_stone_age",
+  "saveName": "getting_through_the_stone_age",
   "displayName": "Getting Through the Stone Age",
   "displayInfo": "",
   "colorHex": "FFFFFFFF",
@@ -9,11 +9,11 @@
   "hasCustomIcon": true,
   "showBackground": true,
   "legacyTexture": false,
-  "backgroundResource": "enchiridion:images/Getting_Through_the_Stone_Age/stone_bg2.png",
-  "backgroundStartX": -10,
-  "backgroundStartY": -10,
-  "backgroundEndX": 440,
-  "backgroundEndY": 240,
+  "backgroundResource": "enchiridion:images/getting_through_the_stone_age/stone_bg2.png",
+  "BACKGROUND_START_X": 0,
+  "BACKGROUND_START_Y": 0,
+  "BACKGROUND_END_X": 0,
+  "BACKGROUND_END_Y": 0,
   "defaultPage": 0,
   "isLocked": false,
   "forgetPageOnClose": false,
@@ -106,7 +106,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/corn.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/corn.png"
             }
           },
           "isLocked": false,
@@ -124,7 +124,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -139,8 +139,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -187,7 +187,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/barley.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/barley.png"
             }
           },
           "isLocked": false,
@@ -218,7 +218,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/berrybush.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/berrybush.png"
             }
           },
           "isLocked": false,
@@ -336,7 +336,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -351,8 +351,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -379,13 +379,12 @@
           "xPos": 57,
           "yPos": 41,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "flakeFlint:cordageGeneral:stickWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:flint_hatchet 0",
               "hideTooltip": false
             }
           },
@@ -433,7 +432,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "primal:flint_knapp",
               "hideTooltip": false
             }
           },
@@ -552,7 +550,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 1
                 }
               },
@@ -567,8 +565,8 @@
               "unhoveredText": "[color\u003dblack]Collecting Food",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png"
             }
           },
           "isLocked": true,
@@ -586,7 +584,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 9
                 }
               },
@@ -601,8 +599,8 @@
               "unhoveredText": "[color\u003dblack]Acquiring Hardware",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png"
             }
           },
           "isLocked": true,
@@ -636,7 +634,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 19
                 }
               },
@@ -651,8 +649,8 @@
               "unhoveredText": "[color\u003dblack]Processing Ores",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png"
             }
           },
           "isLocked": false,
@@ -667,7 +665,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/stone_age_title.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/stone_age_title.png"
             }
           },
           "isLocked": true,
@@ -701,7 +699,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 15
                 }
               },
@@ -716,8 +714,8 @@
               "unhoveredText": "[color\u003dblack]Finding Ores",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png"
             }
           },
           "isLocked": false,
@@ -726,7 +724,7 @@
         },
         {
           "xPos": 239,
-          "yPos": 89,
+          "yPos": 91,
           "width": 110.0,
           "height": 10.0,
           "feature": {
@@ -735,7 +733,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 44
                 }
               },
@@ -750,8 +748,8 @@
               "unhoveredText": "[color\u003dblack]Additional Hints",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png"
             }
           },
           "isLocked": false,
@@ -769,7 +767,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 29
                 }
               },
@@ -784,8 +782,8 @@
               "unhoveredText": "[color\u003dblack]Dealing with Monsters",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/transp.png"
             }
           },
           "isLocked": false,
@@ -871,7 +869,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -886,8 +884,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": true,
@@ -934,9 +932,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:stonebrick:0:minecraft:stonebrick:0:minecraft:stonebrick:0:minecraft:stonebrick:0:minecraft:coal:1:minecraft:stonebrick:0:minecraft:stonebrick:0:minecraft:stonebrick:0:minecraft:stonebrick:0",
               "recipeType": "ShapedRecipes",
-              "item": "betterbeginnings:smelter",
+              "itemString": "tconstruct:smeltery_controller 0",
               "hideTooltip": false
             }
           },
@@ -968,9 +965,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:clay:0:mortar:biomesoplenty:dirt:2",
               "recipeType": "ShapelessOreRecipe",
-              "item": "tconstruct:soil 0",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
@@ -1002,9 +998,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "primal:terraclay_clump:0:minecraft:dye:15:biomesoplenty:dirt:2",
               "recipeType": "ShapelessRecipes",
-              "item": "tconstruct:soil 0",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
@@ -1020,9 +1015,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "primal:carbonate_slack:0:dustAsh:clumpMud",
               "recipeType": "ShapelessOreRecipe",
-              "item": "tconstruct:soil 0",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
@@ -1038,9 +1032,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "primal:earthwax_clump:0:gunpowder:gravel",
               "recipeType": "ShapelessOreRecipe",
-              "item": "tconstruct:soil 0",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
@@ -1120,13 +1113,12 @@
           "xPos": 68,
           "yPos": 11,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "minecraft:flint:0:cordageGeneral:stickWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:flint_shovel 0",
               "hideTooltip": false
             }
           },
@@ -1174,7 +1166,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "primal:flint_knapp",
               "hideTooltip": false
             }
           },
@@ -1202,13 +1193,12 @@
           "xPos": 65,
           "yPos": 148,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "minecraft:log2:0:primal:quartz_hatchet:32767",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:worktable_acacia_log",
               "hideTooltip": false
             }
           },
@@ -1220,13 +1210,12 @@
           "xPos": 272,
           "yPos": 51,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "betterbeginnings:double_workbench:32767",
               "recipeType": "ShapedRecipes",
-              "item": "minecraft:crafting_table",
               "hideTooltip": false
             }
           },
@@ -1245,7 +1234,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -1260,8 +1249,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -1363,7 +1352,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -1378,8 +1367,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": true,
@@ -1406,13 +1395,12 @@
           "xPos": 65,
           "yPos": 49,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "flakeFlint:cordageGeneral:flakeFlint:flakeFlint:stickWood:flakeFlint:stickWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:flint_pickaxe 0",
               "hideTooltip": false
             }
           },
@@ -1424,13 +1412,12 @@
           "xPos": 28,
           "yPos": 153,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "flakeFlint:minecraft:flint:0:flakeFlint:cordageGeneral:flakeFlint:stickWood:flakeFlint",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:flint_workblade 0",
               "hideTooltip": false
             }
           },
@@ -1474,13 +1461,12 @@
           "xPos": 283,
           "yPos": 78,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "flakeFlint:flakeFlint:pinBasic:stickWood:stickWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:flint_saw 0",
               "hideTooltip": false
             }
           },
@@ -1508,13 +1494,12 @@
           "xPos": 277,
           "yPos": 156,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "minecraft:stone:32767:cordageGeneral:minecraft:stone:32767:minecraft:stone:32767:stickWood:minecraft:stone:32767:stickWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:stone_gallagher 0",
               "hideTooltip": false
             }
           },
@@ -1526,13 +1511,12 @@
           "xPos": 115,
           "yPos": 153,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "primal:quartz_workblade:32767:stickWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:wood_pin",
               "hideTooltip": false
             }
           },
@@ -1612,13 +1596,12 @@
           "xPos": 149,
           "yPos": 26,
           "width": 40.0,
-          "height": 44.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:soil:0",
               "recipeType": "VanillaFurnace",
-              "item": "tconstruct:materials 0",
               "hideTooltip": false
             }
           },
@@ -1653,7 +1636,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -1668,8 +1651,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": true,
@@ -1696,13 +1679,12 @@
           "xPos": 25,
           "yPos": 112,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
               "recipeType": "ShapedRecipes",
-              "item": "tconstruct:smeltery_controller 0",
               "hideTooltip": false
             }
           },
@@ -1714,13 +1696,12 @@
           "xPos": 91,
           "yPos": 162,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:materials:0:blockGlass:tconstruct:materials:0:blockGlass:blockGlass:blockGlass:tconstruct:materials:0:blockGlass:tconstruct:materials:0",
               "recipeType": "ShapedOreRecipe",
-              "item": "tconstruct:seared_tank 1",
               "hideTooltip": false
             }
           },
@@ -1732,13 +1713,12 @@
           "xPos": 324,
           "yPos": 62,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
               "recipeType": "ShapedRecipes",
-              "item": "tconstruct:smeltery_io 0",
               "hideTooltip": false
             }
           },
@@ -1750,13 +1730,12 @@
           "xPos": 252,
           "yPos": 18,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
               "recipeType": "ShapedRecipes",
-              "item": "tconstruct:faucet 0",
               "hideTooltip": false
             }
           },
@@ -1768,13 +1747,12 @@
           "xPos": 254,
           "yPos": 105,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
               "recipeType": "ShapedRecipes",
-              "item": "tconstruct:casting 1",
               "hideTooltip": false
             }
           },
@@ -1786,13 +1764,12 @@
           "xPos": 316,
           "yPos": 160,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
               "recipeType": "ShapedRecipes",
-              "item": "tconstruct:casting 0",
               "hideTooltip": false
             }
           },
@@ -1927,7 +1904,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -1942,8 +1919,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": true,
@@ -2104,9 +2081,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "paper:paper:paper:ingotCopper",
               "recipeType": "ShapelessOreRecipe",
-              "item": "enchiridion:book 0 {identifier:\"Getting_Through_the_Bronze_Age\"}",
+              "itemString": "enchiridion:book 0 {identifier:\"getting_through_the_stone_age\"}",
               "hideTooltip": false
             }
           },
@@ -2125,7 +2101,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -2140,8 +2116,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -2289,7 +2265,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -2304,8 +2280,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": true,
@@ -2336,7 +2312,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "primal:terraclay_clump",
+              "itemString": "primal:terraclay_clump",
               "hideTooltip": false
             }
           },
@@ -2368,7 +2344,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "biomesoplenty:dirt 2",
+              "itemString": "biomesoplenty:dirt 2",
               "hideTooltip": false
             }
           },
@@ -2432,9 +2408,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "vine:minecraft:log:32767:vine:minecraft:log:32767:roots:oldRoot:0:minecraft:log:32767:vine:minecraft:log:32767:vine",
               "recipeType": "ShapedOreRecipe",
-              "item": "naturescompass:NaturesCompass {}",
+              "itemString": "naturescompass:naturescompass {}",
               "hideTooltip": false
             }
           },
@@ -2512,7 +2487,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "primal:mud_clump",
+              "itemString": "primal:mud_clump",
               "hideTooltip": false
             }
           },
@@ -2560,7 +2535,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "biomesoplenty:ash",
+              "itemString": "forestry:ash",
               "hideTooltip": false
             }
           },
@@ -2724,7 +2699,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "immersiveengineering:ore 0",
               "hideTooltip": false
             }
           },
@@ -2740,7 +2714,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/copper_cluster.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/copper_cluster.png"
             }
           },
           "isLocked": false,
@@ -2755,7 +2729,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/copper_cloud.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/copper_cloud.png"
             }
           },
           "isLocked": false,
@@ -2805,7 +2779,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -2820,8 +2794,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -2971,7 +2945,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -2986,8 +2960,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -3121,7 +3095,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -3136,8 +3110,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -3236,7 +3210,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/chicken-n-egg.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/chicken-n-egg.png"
             }
           },
           "isLocked": false,
@@ -3251,7 +3225,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/cherrytree.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/cherrytree.png"
             }
           },
           "isLocked": false,
@@ -3298,7 +3272,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/pigs\u0026truffles.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/pigs\u0026truffles.png"
             }
           },
           "isLocked": false,
@@ -3348,7 +3322,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -3363,8 +3337,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -3495,7 +3469,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "base:ore_zinc",
               "hideTooltip": false
             }
           },
@@ -3511,7 +3484,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "forestry:resources 2",
               "hideTooltip": false
             }
           },
@@ -3530,7 +3502,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -3545,8 +3517,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -3641,13 +3613,12 @@
           "xPos": 108,
           "yPos": 131,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "slabWood:slabWood:slabWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
               "hideTooltip": false
             }
           },
@@ -3659,13 +3630,12 @@
           "xPos": 104,
           "yPos": 50,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "minecraft:string:0:minecraft:string:0:minecraft:string:0:minecraft:string:0",
               "recipeType": "ShapedRecipes",
-              "item": "fishing:itemNet",
               "hideTooltip": false
             }
           },
@@ -3693,13 +3663,12 @@
           "xPos": 11,
           "yPos": 51,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "cordageGeneral:primal:slat_oak:32767:cordageGeneral:primal:slat_oak:32767:primal:slat_oak:32767:cordageGeneral:primal:slat_oak:32767:cordageGeneral",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:fish_trap_oak",
               "hideTooltip": false
             }
           },
@@ -3711,13 +3680,12 @@
           "xPos": 9,
           "yPos": 132,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "primal:slat_oak:32767:primal:slat_oak:32767:primal:slat_oak:32767:pinBasic:cordageGeneral:pinBasic:minecraft:planks:0:minecraft:planks:0",
               "recipeType": "ShapedOreRecipe",
-              "item": "primal:drying_rack_oak",
               "hideTooltip": false
             }
           },
@@ -3745,13 +3713,12 @@
           "xPos": 282,
           "yPos": 61,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "foodSalt:minecraft:fish:0",
               "recipeType": "ShapelessOreRecipe",
-              "item": "primal:fish_cod_salted",
               "hideTooltip": false
             }
           },
@@ -3767,7 +3734,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/dryingrack.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/dryingrack.png"
             }
           },
           "isLocked": false,
@@ -3785,7 +3752,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -3800,8 +3767,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -3880,13 +3847,12 @@
           "xPos": 105,
           "yPos": 114,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "slabWood:slabWood:slabWood:slabWood:slabWood:slabWood:plankWood:ingotIron:plankWood",
               "recipeType": "ShapedOreRecipe",
-              "item": "rockhounding_chemistry:saltSeasoner",
               "hideTooltip": false
             }
           },
@@ -3930,13 +3896,12 @@
           "xPos": 10,
           "yPos": 119,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
               "ingredients": "ingotBrick:ingotBrick:stone:stone:stone",
               "recipeType": "ShapedOreRecipe",
-              "item": "rockhounding_chemistry:saltMaker",
               "hideTooltip": false
             }
           },
@@ -3955,7 +3920,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -3970,8 +3935,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/return arrow (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/return arrow (white).png"
             }
           },
           "isLocked": false,
@@ -3986,7 +3951,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/virginwater.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/virginwater.png"
             }
           },
           "isLocked": false,
@@ -4136,7 +4101,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -4151,8 +4116,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -4270,7 +4235,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -4285,8 +4250,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -4388,7 +4353,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -4403,8 +4368,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -4503,7 +4468,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/Getting_Through_the_Stone_Age/brine.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/brine.png"
             }
           },
           "isLocked": false,
@@ -4553,7 +4518,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -4568,8 +4533,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -4655,7 +4620,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -4670,8 +4635,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -4786,9 +4751,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "blockBrick:cobblestone:blockBrick:cobblestone:cobblestone:blockBrick:cobblestone:blockBrick",
-              "recipeType": "ShapedOreRecipe",
-              "item": "betterbeginnings:kiln",
+              "recipeType": "ShapedRecipes",
+              "itemString": "minecraft:furnace",
               "hideTooltip": false
             }
           },
@@ -4807,7 +4771,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -4822,8 +4786,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -4838,7 +4802,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "minecraft:clay",
+              "itemString": "minecraft:clay",
               "hideTooltip": false
             }
           },
@@ -4854,7 +4818,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "tconstruct:dried_clay 0",
+              "itemString": "tconstruct:dried_clay 0",
               "hideTooltip": false
             }
           },
@@ -4870,9 +4834,8 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:2:tconstruct:materials:2:tconstruct:materials:2:tconstruct:materials:2",
               "recipeType": "ShapedRecipes",
-              "item": "tconstruct:dried_clay 1",
+              "itemString": "tconstruct:dried_clay 1",
               "hideTooltip": false
             }
           },
@@ -4888,7 +4851,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
+              "itemString": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
               "hideTooltip": false
             }
           },
@@ -4952,7 +4915,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "minecraft:clay_ball",
               "hideTooltip": false
             }
           },
@@ -4968,7 +4930,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
               "hideTooltip": false
             }
           },
@@ -4984,7 +4945,6 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
-              "item": "tconstruct:materials 2",
               "hideTooltip": false
             }
           },
@@ -5071,7 +5031,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Stone_Age",
+                  "bookID": "getting_through_the_stone_age",
                   "pageNumber": 0
                 }
               },
@@ -5086,8 +5046,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (red).png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Stone_Age/arrow_left (white).png"
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
             }
           },
           "isLocked": false,
@@ -5234,8 +5194,5 @@
       "pageNumber": 19,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }

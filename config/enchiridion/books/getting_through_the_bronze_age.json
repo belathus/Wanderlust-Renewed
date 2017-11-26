@@ -1,7 +1,7 @@
 {
   "modid": "",
-  "uniqueName": "Getting_Through_the_Bronze_Age",
-  "saveName": "Getting_Through_the_Bronze_Age",
+  "uniqueName": "getting_through_the_bronze_age",
+  "saveName": "getting_through_the_bronze_age",
   "displayName": "Getting Through the Bronze Age",
   "displayInfo": "",
   "colorHex": "FFFFFFFF",
@@ -10,10 +10,10 @@
   "showBackground": true,
   "legacyTexture": false,
   "backgroundResource": "enchiridion:textures/books/rustic2.png",
-  "backgroundStartX": -10,
-  "backgroundStartY": -10,
-  "backgroundEndX": 440,
-  "backgroundEndY": 240,
+  "BACKGROUND_START_X": 0,
+  "BACKGROUND_START_Y": 0,
+  "BACKGROUND_END_X": 0,
+  "BACKGROUND_END_Y": 0,
   "defaultPage": 0,
   "isLocked": false,
   "forgetPageOnClose": false,
@@ -109,7 +109,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Bronze_Age",
+                  "bookID": "getting_through_the_bronze_age",
                   "pageNumber": 0
                 }
               },
@@ -124,8 +124,8 @@
               "unhoveredText": "The Carpenter",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Bronze_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Bronze_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_bronze_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_bronze_age/transp.png"
             }
           },
           "isLocked": false,
@@ -143,7 +143,7 @@
               "action": {
                 "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
                 "properties": {
-                  "bookID": "Getting_Through_the_Bronze_Age",
+                  "bookID": "getting_through_the_bronze_age",
                   "pageNumber": 0
                 }
               },
@@ -158,8 +158,8 @@
               "unhoveredText": "Processing Iron",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Getting_Through_the_Bronze_Age/transp.png",
-              "unhoveredResource": "enchiridion:images/Getting_Through_the_Bronze_Age/transp.png"
+              "hoveredResource": "enchiridion:images/getting_through_the_bronze_age/transp.png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_bronze_age/transp.png"
             }
           },
           "isLocked": false,
