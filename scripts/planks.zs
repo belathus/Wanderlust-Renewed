@@ -142,6 +142,14 @@
 #        [<botanicaladdons:altLog0:3>,   <botanicaladdons:altPlanks:3>,      null, null],
 #        [<botanicaladdons:altLog1:0>,   <botanicaladdons:altPlanks:4>,      null, null],
 #        [<botanicaladdons:altLog1:1>,   <botanicaladdons:altPlanks:5>,      null, null],
+        [<twilightforest:twilight_log>, <minecraft:planks>, null, null],
+        [<twilightforest:twilight_log:1>, <minecraft:planks:1>, null, null],
+        [<twilightforest:twilight_log:3>, <minecraft:planks:1>, null, null],
+        [<twilightforest:twilight_log:2>, <minecraft:planks:2>, null, null],
+        [<twilightforest:magic_log:0>, <minecraft:planks:1>, null, null],                       # Timewood
+        [<twilightforest:magic_log:1>, <minecraft:planks:0>, null, null],                       # Transwood
+        [<twilightforest:magic_log:2>, <minecraft:planks:2>, null, null],                       # Minewood
+        [<twilightforest:magic_log:3>, <minecraft:planks:5>, null, null],                       # Sortingwood
         [<integrateddynamics:menril_log>,<integrateddynamics:menril_planks>,  <integrateddynamics:menril_planks_stairs>, null],
         [<evilcraft:undead_log>,         <evilcraft:undead_plank>,            <evilcraft:undead_plank_stairs>, null]
     ] as crafttweaker.item.IItemStack[][];
