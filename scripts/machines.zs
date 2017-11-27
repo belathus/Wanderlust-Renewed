@@ -396,6 +396,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<evilcraft:reinforced_undead_plank>,<evilcraft:dark_power_gem>,<evilcraft:reinforced_undead_plank>]]);
 
 # Extra Utilities 2
+    recipes.remove(<extrautils2:machine>);
+    recipes.addShaped(<extrautils2:machine> * 2,
+        [[<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],
+         [<ore:plateSteel>,<ore:gearSteel>, <ore:plateSteel>],
+         [<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>]]);
     recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
         [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
          [<ore:cobblestone>, <ore:ingotBrass>, <ore:cobblestone>],
@@ -505,6 +510,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotBrickSeared>, <ore:ingotBrickNether>, <ore:ingotBrickSeared>],
          [<ore:ingotBrickNether>, <ore:slimecrystalMagma>, <ore:ingotBrickNether>],
          [<ore:ingotBrickSeared>, <ore:ingotBrickNether>, <ore:ingotBrickSeared>]]);
+
+# Integrated Dynamics
+    # Squeezer
+    recipes.addShaped(<integrateddynamics:squeezer>,
+        [[<ore:stickWood>,<ore:blockBrass>,<ore:stickWood>],
+         [<ore:stickWood>,null,            <ore:stickWood>],
+         [<ore:plankWood>,<ore:ingotBrass>,<ore:plankWood>]]);
 
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
