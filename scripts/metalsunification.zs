@@ -225,8 +225,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 
 # Silver
     var list_silver = [
-        # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(23), ieMat.withDamage(3), ieSto.withDamage(3), ieMat.withDamage(33), ctMat.withDamage(177), ieOre.withDamage(3), ieMat.withDamage(12)],
+        # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]                    Ore [5]              Dust [6]
+        [ieMat.withDamage(23), ieMat.withDamage(3), ieSto.withDamage(3), ieMat.withDamage(33), <materialpart:silver:gear>, ieOre.withDamage(3), ieMat.withDamage(12)],
         [<primal:silver_nugget>,          <primal:silver_ingot>,           <primal:metalblock:6>,           <primal:silver_plate>,           nope,         nope,      <primal:silver_dust:*>],
         #[nope,         nope,         nope,         nope,         nope,         nope,      <rockhounding_chemistry:chemicalDusts:23>],
         [teMat.withDamage(194),teMat.withDamage(130),teSto.withDamage(2),   teMat.withDamage(322),teMat.withDamage(258),teOre.withDamage(2),    teMat.withDamage(66)]
