@@ -250,6 +250,27 @@
         "restriction": "whitelist",
         "value": [7]
       }
+    },
+    "crystal_tf": {
+      "distribution": "uniform",
+      "generator": {
+        "block": {
+          "name": "astralsorcery:blockcustomore",
+          "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 1
+      },
+      "cluster-count": 1,
+      "chunk-chance": 16,
+      "min-height": 3,
+      "max-height": 3,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [7]
+      }
     }
   }
 }
