@@ -39,6 +39,20 @@
          [<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>]]);
 */
 
+# EvilCraft
+    #recipes.addShaped(<evilcraft:blood_extractor>.withTag({capacity: 5000}),
+    #    [[null,<ore:gemDark>,null],
+    #     [<ore:ingotBrass>,<ore:blockGlass>,<ore:ingotBrass>],
+    #     [null,<ore:gemDark>,null]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 16000}),
+        [[null,<ore:gemDark>,null],
+         [<ore:ingotBrass>,<ore:blockGlass>,<ore:ingotBrass>],
+         [null,<ore:gemDark>,null]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 144000}),
+        [[null,<evilcraft:dark_block>,null],
+         [<ore:blockBrass>,<ore:blockGlass>,<ore:blockBrass>],
+         [null,<evilcraft:dark_block>,null]]);
+
 # Forestry
     recipes.remove(<forestry:adventurer_bag>);
     recipes.remove(<forestry:apiarist_bag>);
