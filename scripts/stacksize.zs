@@ -1,6 +1,7 @@
 val setTo64 = [
     <primal:rock_andesite>, <primal:rock_diorite>, <primal:rock_granite>, <primal:rock_netherrack>,
-    <primal:rock_sarsen>, <primal:rock_stone>, <primal:rock_vitrified>, <minecraft:egg>
+    <primal:rock_sarsen>, <primal:rock_stone>, <primal:rock_vitrified>, <minecraft:egg>,
+    <minecraft:snowball>
 ] as crafttweaker.item.IItemStack[];
 
 for i, stack in setTo64 {
