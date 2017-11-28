@@ -44,6 +44,10 @@
     #    [[null,<ore:gemDark>,null],
     #     [<ore:ingotBrass>,<ore:blockGlass>,<ore:ingotBrass>],
     #     [null,<ore:gemDark>,null]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 1000}),
+        [[null,<ore:nuggetBrass>,null],
+         [<ore:nuggetBrass>,<ore:blockGlass>,<ore:nuggetBrass>],
+         [null,<ore:nuggetBrass>,null]]);
     recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 16000}),
         [[null,<ore:gemDark>,null],
          [<ore:ingotBrass>,<ore:blockGlass>,<ore:ingotBrass>],
