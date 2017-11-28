@@ -56,6 +56,22 @@
         [[null,<evilcraft:dark_block>,null],
          [<ore:blockBrass>,<ore:blockGlass>,<ore:blockBrass>],
          [null,<evilcraft:dark_block>,null]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 288000}),
+        [[<ore:blockBrass>,<evilcraft:dark_block>,<ore:blockBrass>],
+         [<evilcraft:dark_block>,<ore:blockGlass>,<evilcraft:dark_block>],
+         [<ore:blockBrass>,<evilcraft:dark_block>,<ore:blockBrass>]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 288000}),
+        [[<evilcraft:dark_block>,<ore:blockBrass>,<evilcraft:dark_block>],
+         [<ore:blockBrass>,<ore:blockGlass>,<ore:blockBrass>],
+         [<evilcraft:dark_block>,<ore:blockBrass>,<evilcraft:dark_block>]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 288000}),
+        [[<ore:blockIron>,<evilcraft:dark_block>,<ore:blockIron>],
+         [<evilcraft:dark_block>,<ore:blockGlass>,<evilcraft:dark_block>],
+         [<ore:blockIron>,<evilcraft:dark_block>,<ore:blockIron>]]);
+    recipes.addShaped(<evilcraft:dark_tank>.withTag({capacity: 288000}),
+        [[<evilcraft:dark_block>,<ore:blockIron>,<evilcraft:dark_block>],
+         [<ore:blockIron>,<ore:blockGlass>,<ore:blockIron>],
+         [<evilcraft:dark_block>,<ore:blockIron>,<evilcraft:dark_block>]]);
 
 # Forestry
     recipes.remove(<forestry:adventurer_bag>);
