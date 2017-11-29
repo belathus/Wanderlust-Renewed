@@ -52,8 +52,7 @@
 				{"data" : {"name" : "dungeontactics:jewelled_pickaxe", "ench" : 20}},
 				{"data" : {"name" : "dungeontactics:jewelled_shovel", "ench" : 20}},
 				{"data" : {"name" : "dungeontactics:jewelled_axe", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_hoe", "ench" : 20}},
-				{"data" : {"name" : "actuallyadditions:diamondPaxel", "ench" : 20}}
+				{"data" : {"name" : "dungeontactics:jewelled_hoe", "ench" : 20}}
 			],
 			"level" : 3,
 			"each" : true,
@@ -71,8 +70,8 @@
 						{"data" : {"name" : "gold_ingot", "min" : 2, "max" : 4}},
 						{"data" : {"name" : "emerald", "min" : 1, "max" : 2}},
 						{"data" : {"name" : "dye", "meta" : 4, "min" : 4, "max" : 16}},
-						{"data" : {"name" : "evilcraft:bloodWaxedCoal", "min" : 1, "max" : 4}},
-						{"data" : {"name" : "evilcraft:bloodPotash", "min" : 1, "max" : 4}},
+						{"data" : {"name" : "evilcraft:blood_waxed_coal", "min" : 1, "max" : 4}},
+						{"data" : {"name" : "evilcraft:blood_potash", "min" : 1, "max" : 4}},
 						{"data" : {"name" : "xreliquary:holy_hand_grenade", "min" : 1, "max" : 4}}
 					],
 					"weight":5
@@ -89,16 +88,14 @@
 							]
 						},
 						{"data" : {"name" : "book", "ench" : 20}},
-						{"data" : {"name" : "integrateddynamics:menrilTorch", "min" : 1, "max" : 2}},
-						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 8}},
+						{"data" : {"name" : "integrateddynamics:menril_torch", "min" : 1, "max" : 2}},
 						{
 							"data" : [
-								{"data" : {"name" : "evilcraft:weatherContainer", "meta" : 1}},
-								{"data" : {"name" : "evilcraft:weatherContainer", "meta" : 2}}
+								{"data" : {"name" : "evilcraft:weather_container", "meta" : 1}},
+								{"data" : {"name" : "evilcraft:weather_container", "meta" : 2}}
 							]
 						},
-						{"data" : {"name" : "tconstruct:punji", "min" : 1, "max" : 8}},
-						{"data" : {"name" : "actuallyadditions:itemSmallToMediumCrateUpgrade"}}
+						{"data" : {"name" : "tconstruct:punji", "min" : 1, "max" : 8}}
 					],
 					"weight":3
 				},
@@ -113,15 +110,7 @@
 						},
 						{"data" : {"name" : "book", "ench" : 24}},
 						{"data" : {"name" : "botania:blackLotus", "meta" : 1}},
-						{"data" : {"name":"extrautils2:ineffableglass"}},
-						{
-							"data":[
-								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
-								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}}
-							]
-						}
+						{"data" : {"name":"extrautils2:ineffableglass"}}
 					],
 					"weight":2
 				}

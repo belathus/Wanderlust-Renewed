@@ -68,7 +68,7 @@
                         {"data":{"name":"primal:flint_shears","ench":2}},
                         {"data":{"name":"primal:flint_saw","ench":2}},
                         {"data":{"name":"primal:flint_shovel","ench":2}},
-                        {"data":{"name":"fishing:itemNet","min":1,"max":5}}
+                        {"data":{"name":"giacomos_fishing_net:itemnet","min":1,"max":5}}
                     ],
                     "weight":5
                 },
@@ -95,55 +95,7 @@
         {
             "type":"SMITH",
             "loot":[
-                {
-                    "data":{
-                        "name":"primal:flint_workblade",
-                        "nbt":{
-                            "display":{
-                                "type":"COMPOUND",
-                                "value":{
-                                    "Name":{
-                                        "type":"STRING",
-                                        "value":"Tempered Workblade"
-                                    },
-                                    "Lore":{
-                                        "type":"STRING",
-                                        "value":"Reasonably Sharp"
-                                    }
-                                }
-                            },
-                            "ench":{
-                                "type":"LIST",
-                                "value":{
-                                    "type":"COMPOUND",
-                                    "value":[
-                                        {
-                                            "id":{
-                                                "type":"INT",
-                                                "value":16
-                                            },
-                                            "lvl":{
-                                                "type":"INT",
-                                                "value":1
-                                            }
-                                        },
-                                        {
-                                            "id":{
-                                                "type":"INT",
-                                                "value":34
-                                            },
-                                            "lvl":{
-                                                "type":"INT",
-                                                "value":3
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    "weight":10
-                }
+                {"data":{"name":"primal:flint_workblade","ench":6}, "weight":10}
             ],
             "level":0,
             "each":true,
@@ -155,14 +107,14 @@
                     "data":[
                         {"data":{"name":"leather"}},
                         {"data":{"name":"rabbit_hide"}},
-                        {"data":{"name":"primal:wolf_pelt"}},
+                        {"data":{"name":"primal:pelt_wolf"}},
                         {"data":{"name":"harvestcraft:hardenedleatheritem"}},
                         {"data":{"name":"lead"}},
                         {"data":{"name":"saddle"}},
                         {"data":{"name":"paper","min":1,"max":2}},
                         {"data":{"name":"name_tag"}},
                         {"data":{"name":"egg"}},
-                        {"data":{"name":"primal:wattle_oak"}},
+                        {"data":{"name":"planks"}},
                         {
                             "data":[						
                                 {"data":{"name":"botania:grassSeeds"}},
@@ -189,23 +141,22 @@
                 },
                 {
                     "data":[
-                        {"data":{"name":"primal:ash","min":1,"max":2}},
+                        {"data":{"name":"primal:ash_common","min":1,"max":2}},
                         {"data":{"name":"book","min":1,"max":3}},
                         {"data":{"name":"minecraft:brick","min":1,"max":3}},
                         {"data":{"name":"botania:fertilizer","min":1,"max":4}},
-                        {"data":{"name":"waystones:warpScroll"}},
+                        {"data":{"name":"waystones:warp_scroll"}},
                         {"data":{"name":"ender_pearl"}},
                         {"data":{"name":"dye","meta":4,"min":1,"max":4}},
                         {"data":{"name":"rabbit_foot"}},
                         {"data":{"name":"redstone","min":1,"max":4}},
                         {"data":{"name":"slime_ball","min":1,"max":2}},
                         {"data":{"name":"emerald"}},
-                        {"data":{"name":"evilcraft:darkGem"}},
-                        {"data":{"name":"bloodmagic:ItemSlate","min":1,"max":4}},
+                        {"data":{"name":"evilcraft:dark_gem"}},
                         {"data":{"name":"botania:teruTeruBozu"}},
                         {"data":{"name":"book","ench":2}},
                         {"data":{"name":"tconstruct:throwball","min":1,"max":3}},
-                        {"data":{"name":"immersiveengineering:woodenDevice0"}}
+                        {"data":{"name":"immersiveengineering:wooden_device0"}}
                     ],
                     "weight":3
                 },
@@ -234,23 +185,14 @@
                             ],
                             "min":1, "max":2
                         },
-                        {"data":{"name":"bloodmagic:BlockBloodRune","min":1,"max":5}},
                         {"data":{"name":"vine","min":4,"max":8}},
-                        {"data":{"name":"base:nugget","meta":34,"comment":"Zinc","min":4,"max":8}},
-                        {"data":{"name":"immersiveengineering:metal","comment":"Copper","meta":20,"min":6,"max":8}},
-                        {"data":{"name":"base:nugget","meta":29,"comment":"Tin","min":4,"max":8}},
+                        {"data":{"name":"primal:zinc_ingot","comment":"Zinc","min":1,"max":2}},
+                        {"data":{"name":"forestry:ingot_copper","comment":"Copper","min":1,"max":2}},
+                        {"data":{"name":"contenttweaker:material_part","meta":67,"comment":"Tin","min":1,"max":2}},
                         {"data":{"name":"primal:iron_ring","min":1,"max":2}},
                         {"data":{"name":"lava_bucket"}},
-                        {"data":{"name":"waystones:warpStone"}},
-                        {"data":{"name":"book","ench":6}},
-                        {
-                            "data":[
-                                {"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
-                                {"data":{"name":"actuallyadditions:itemCrateKeeper"}},
-                                {"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
-                                {"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}}
-                            ]
-                        }
+                        {"data":{"name":"waystones:warp_stone"}},
+                        {"data":{"name":"book","ench":6}}
                     ],
                     "weight":2
                 }

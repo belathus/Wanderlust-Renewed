@@ -71,55 +71,7 @@
         {
             "type":"STARTER",
             "loot":[
-                {
-                    "data":{
-                        "name":"leather_leggings",
-                        "nbt":{
-                            "display":{
-                                "type":"COMPOUND",
-                                "value":{
-                                    "Name":{
-                                        "type":"STRING",
-                                        "value":"Surplus Pantaloons"
-                                    },
-                                    "Lore":{
-                                        "type":"STRING",
-                                        "value":"Always a favourite"
-                                    }
-                                }
-                            },
-                            "ench":{
-                                "type":"LIST",
-                                "value":{
-                                    "type":"COMPOUND",
-                                    "value":[
-                                        {
-                                            "id":{
-                                                "type":"INT",
-                                                "value":0
-                                            },
-                                            "lvl":{
-                                                "type":"INT",
-                                                "value":1
-                                            }
-                                        },
-                                        {
-                                            "id":{
-                                                "type":"INT",
-                                                "value":34
-                                            },
-                                            "lvl":{
-                                                "type":"INT",
-                                                "value":2
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    "weight":10
-                }
+                {"data":{ "type":"specialty", "equipment":"legs","quality":"gold","level":6},"weight":10}
             ],
             "level":[
                 0,

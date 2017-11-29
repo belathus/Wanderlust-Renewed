@@ -116,14 +116,14 @@
                         {"data":{"name":"immersiveengineering:metal","meta":2,"comment":"Lead","min":1,"max":4}},
 						{
 							"data" : [
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":0, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":1, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":2, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":3, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":4, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":5, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":6, "min":1, "max":2}},
-								{"data" : {"name" : "rockhounding_oretiers:ironOres", "meta":7, "min":1, "max":2}}
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":0, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":1, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":2, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":3, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":4, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":5, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":6, "min":1, "max":2}},
+								{"data" : {"name" : "rockhounding_oretiers:iron_ores", "meta":7, "min":1, "max":2}}
 							]
 						},
                         {"data":{"name":"primal:torch_wood_lit"},"min":1,"max":8}
@@ -154,16 +154,7 @@
 							]
 						},
 						{"data" : {"name" : "book", "ench" : 18}},
-						{"data" : {"name" : "abyssalcraft:mre"}},
-						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 4}},
-						{
-							"data":[
-								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
-								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}}
-							]
-						}
+						{"data" : {"name" : "abyssalcraft:mre"}}
 					],
 					"weight":2
 				}

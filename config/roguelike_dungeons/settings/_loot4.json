@@ -55,8 +55,7 @@
 						
 					],
 					"weight":3
-				},
-				{"data" : {"name" : "actuallyadditions:emeraldPaxel", "ench" : 30}, "weight" : 2}
+				}
 			],
 			"level" : 4,
 			"each" : true,
@@ -80,9 +79,7 @@
 					"data" : [
 						{"data" : {"name" : "abyssalcraft:mre"}},
 						{"data" : {"name" : "botania:blackLotus"}},
-						{"data" : {"name" : "book", "ench" : 30}},
-						{"data" : {"name" : "cyberware:neuropozyne", "min" : 1, "max" : 16}},
-						{"data" : {"name" : "actuallyadditions:itemMediumToLargeCrateUpgrade"}}
+						{"data" : {"name" : "book", "ench" : 30}}
 					],
 					"weight" : 3
 				},
@@ -101,14 +98,6 @@
 								{"data" : {"name" : "botania:rune", "meta" : 14}},
 								{"data" : {"name" : "botania:rune", "meta" : 15}}
 							]
-						},
-						{
-							"data":[
-								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
-								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}}
-							]
 						}
 					],
 					"weight" : 2
@@ -124,8 +113,8 @@
 			"loot":[
 				{"data":{"name":"primal:arrow_torch_nether"}, "min":1, "max":8},
 				{"data":{"name":"tconstruct:throwball"}, "min":1, "max":6},
-				{"data":{"name":"fishing:itemNet"}, "min":1, "max":4},
-				{"data":{"name":"integrateddynamics:menrilTorch"}, "min":1, "max":6},
+				{"data":{"name":"giacomos_fishing_net:itemnet"}, "min":1, "max":4},
+				{"data":{"name":"integrateddynamics:menril_torch"}, "min":1, "max":6},
 				{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
 				{"data":{"name":"primal:lantern_nether"}, "min":1, "max":2},
 				{"data":{"name":"xreliquary:holy_hand_grenade"}, "min":1, "max":4}

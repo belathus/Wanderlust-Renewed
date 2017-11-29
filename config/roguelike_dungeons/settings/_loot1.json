@@ -36,7 +36,7 @@
             "type":"WEAPONS",
             "loot":[
                 {"data":{"name":"thermalfoundation:tool.sword_bronze","ench":5}},
-                {"data":{"name":"actuallyadditions:itemSwordQuartz","ench":5}},
+                {"data":{"name":"primal:quartz_workblade","ench":5}},
                 {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
             ],
             "level":1,
@@ -51,14 +51,14 @@
                 {"data":{"name":"thermalfoundation:tool.axe_bronze","ench":5}},
                 {"data":{"name":"thermalfoundation:tool.hoe_bronze","ench":5}},
                 {"data":[
-					{"data":{"name":"forestry:apiaristBag"}},
-					{"data":{"name":"forestry:lepidopteristBag"}},
-					{"data":{"name":"forestry:minerBag"}},
-					{"data":{"name":"forestry:diggerBag"}},
-					{"data":{"name":"forestry:foresterBag"}},
-					{"data":{"name":"forestry:hunterBag"}},
-					{"data":{"name":"forestry:adventurerBag"}},
-					{"data":{"name":"forestry:builderBag"}}
+					{"data":{"name":"forestry:apiarist_bag"}},
+					{"data":{"name":"forestry:lepidopterist_bag"}},
+					{"data":{"name":"forestry:miner_bag"}},
+					{"data":{"name":"forestry:digger_bag"}},
+					{"data":{"name":"forestry:forester_bag"}},
+					{"data":{"name":"forestry:hunter_bag"}},
+					{"data":{"name":"forestry:adventurer_bag"}},
+					{"data":{"name":"forestry:builder_bag"}}
 					]
 				}
             ],
@@ -81,10 +81,10 @@
                 {
                     "data":[
                         {"data":{"name":"book","min":1,"max":4}},
-                        {"data":{"name":"base:ingot","meta":7,"comment":"Bronze","min":1,"max":3}},
-                        {"data":{"name":"abyssalcraft:tiningot","min":1,"max":3}},
+                        {"data":{"name":"contenttweaker:material_part","meta":94,"comment":"Bronze","min":1,"max":3}},
+                        {"data":{"name":"contenttweaker:material_part","meta":67,"comment":"Tin","min":1,"max":3}},
                         {"data":{"name":"primal:zinc_ingot","min":1,"max":3}},
-                        {"data":{"name":"immersiveengineering:metal","comment":"Copper","min":1,"max":3}},
+                        {"data":{"name":"forestry:ingot_copper","comment":"Copper","min":1,"max":3}},
                         {"data":{"name":"primal:iron_ring","min":1,"max":2}},
                         {"data":{"name":"redstone","min":2,"max":8}},
                         {
@@ -116,17 +116,17 @@
                         {"data":{"name":"emerald","min":1,"max":3}},
                         {
                             "data":[
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":0,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":1,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":2,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":3,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":4,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":5,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":6,"min":1,"max":2}},
-                                {"data":{"name":"rockhounding_oretiers:ironOres","meta":7,"min":1,"max":2}}
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":0,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":1,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":2,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":3,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":4,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":5,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":6,"min":1,"max":2}},
+                                {"data":{"name":"rockhounding_oretiers:iron_ores","meta":7,"min":1,"max":2}}
                             ]
                         },
-                        {"data":{"name":"evilcraft:darkGemCrushed","min":1,"max":2}},
+                        {"data":{"name":"evilcraft:dark_gem_crushed","min":1,"max":2}},
                         {"data":{"name":"anvil","meta":1}},
                         {"data":{"name":"netherbrick","min":1,"max":3}},
                         {"data":{"name":"book","ench":7}},
@@ -150,8 +150,6 @@
                         {"data":{"name":"botania:manaResource","min":1,"max":4}},
                         {"data":{"name":"piston"}},
                         {"data":{"name":"anvil"}},
-                        {"data":{"name":"extrautils2:redorchid","min":1,"max":2}},
-                        {"data":{"name":"extrautils2:enderlilly","min":1,"max":2}},
                         {
                             "data":[
                                 {"data":{"name":"quark:rune","meta":0,"min":1,"max":2}},
@@ -172,15 +170,7 @@
                                 {"data":{"name":"quark:rune","meta":15,"min":1,"max":2}}
                             ]
                         },
-                        {"data":{"name":"book","ench":12}},
-                        {
-							"data":[
-								{"data":{"name":"actuallyadditions:itemChestToCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemCrateKeeper"}},
-								{"data":{"name":"actuallyadditions:itemSmallToMediumCrateUpgrade"}},
-								{"data":{"name":"actuallyadditions:itemMediumToLargeCrateUpgrade"}}
-							]
-						}
+                        {"data":{"name":"book","ench":12}}
                     ],
                     "weight":2
                 }

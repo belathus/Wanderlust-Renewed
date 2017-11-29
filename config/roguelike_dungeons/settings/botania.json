@@ -36,15 +36,15 @@
                 "walls":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"botanicaladdons:irisPlanks",
-                        "meta":13
+                        "name":"biomesoplenty:planks_0",
+                        "meta":9
                     }
                 },
                 "pillar":{
                     "type":"METABLOCK",
                     "data":{
-						"name":"botanicaladdons:irisLog3",
-                        "meta":1
+						"name":"biomesoplenty:log_2",
+                        "meta":5
 					}
                 },
                 "stair":{
@@ -89,16 +89,6 @@
             }
         }
     },
-	"inherit":[
-		"default:_loot_all",
-        "default:_loot0",
-        "default:_loot1",
-        "default:_loot2",
-        "default:_loot3",
-        "default:_loot4",
-        "default:_rooms",
-        "default:base"
-	],
     "levels":{
         "0":{
             "theme":{
