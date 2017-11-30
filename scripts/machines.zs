@@ -518,6 +518,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:stickWood>,null,            <ore:stickWood>],
          [<ore:plankWood>,<ore:ingotBrass>,<ore:plankWood>]]);
 
+# Mekanism
+    recipes.remove(<mekanism:machineblock:8>);
+    recipes.addShaped(<mekanism:machineblock:8>,
+        [[<ore:gearSteel>, <rockhounding_oretiers:bloomery>, <ore:gearSteel>],
+         [<ore:dustRedstone>, <ore:ingotOsmium>, <ore:dustRedstone>],
+         [<ore:gearSteel>, <rockhounding_oretiers:bloomery>, <ore:gearSteel>]]);
+
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
     recipes.addShaped(<persistentbits:chunk_loader>,
