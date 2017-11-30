@@ -932,6 +932,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapedRecipes",
               "itemString": "tconstruct:smeltery_controller 0",
               "hideTooltip": false
@@ -965,6 +966,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapelessOreRecipe",
               "itemString": "tconstruct:soil 0",
               "hideTooltip": false
@@ -998,6 +1000,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapelessRecipes",
               "itemString": "tconstruct:soil 0",
               "hideTooltip": false
@@ -1015,6 +1018,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapelessOreRecipe",
               "itemString": "tconstruct:soil 0",
               "hideTooltip": false
@@ -1032,6 +1036,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapelessOreRecipe",
               "itemString": "tconstruct:soil 0",
               "hideTooltip": false
@@ -2081,6 +2086,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapelessOreRecipe",
               "itemString": "enchiridion:book 0 {identifier:\"getting_through_the_stone_age\"}",
               "hideTooltip": false
@@ -2404,10 +2410,11 @@
           "xPos": 58,
           "yPos": 148,
           "width": 77.0,
-          "height": 38.5,
+          "height": 77.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapedOreRecipe",
               "itemString": "naturescompass:naturescompass {}",
               "hideTooltip": false
@@ -4735,7 +4742,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]While there are several methods of processing ore, while we\u0027re in the Stone Age, we are very limited. For the most part, you\u0027re limited to processing copper, tin, zinc, lead, and silver. The easiest method to process these may be the kiln.",
+              "text": "[color\u003dblack]While there are several methods of processing ore, while we\u0027re in the Stone Age, we are very limited. For the most part, you\u0027re limited to processing copper, tin, zinc, lead, and silver. The easiest method to process these may be the furnace.",
               "size": 1.0
             }
           },
@@ -4751,6 +4758,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapedRecipes",
               "itemString": "minecraft:furnace",
               "hideTooltip": false
@@ -4834,6 +4842,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
               "recipeType": "ShapedRecipes",
               "itemString": "tconstruct:dried_clay 1",
               "hideTooltip": false
@@ -4883,7 +4892,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]The kiln is made with clay. You\u0027ll be able to find clay mostly at the bottom of swamps and rivers, but you\u0027ll also find plenty digging around. You\u0027ll need to dry the clay.",
+              "text": "[color\u003dblack]\u003cthe recipe changed\u003e",
               "size": 1.0
             }
           },
