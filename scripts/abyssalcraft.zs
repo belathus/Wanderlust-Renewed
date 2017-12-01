@@ -5,3 +5,11 @@
 
   game.setLocalization("ac.ritual.sharpnessRitual", "Extreme Sharpness Infusion");
   game.setLocalization("ac.ritual.sharpnessRitual.desc", "Empowers an enchanted book with sharpness by infusing it with catalysts from multiple magical disciplines.");
+
+  # mods.abyssalcraft.InfusionRitual.addRitual(<unlocalizedName>, <bookType>, <dimension>, <requiredEnergy>, <livingSacrifice>, <item>, <sacrifice>, [offerings], nbt*, [tags]*)
+  mods.abyssalcraft.InfusionRitual.addRitual("vengeanceUpgrade",
+    2, 51, 15000, false, <evilcraft:vengeance_pickaxe>.withTag({ench: [{lvl: 5 as short, id: 35 as short}, {lvl: 3 as short, id: 68 as short}]}), <evilcraft:vengeance_pickaxe>,
+    [<quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 35 as short}]})), <materialpart:philosophers_gold:ingot>], true, ["ench"]);
+
+  game.setLocalization("ac.ritual.vengeanceUpgrade", "Upgrading the Vengeance Pickaxe");
+  game.setLocalization("ac.ritual.vengeanceUpgrade.desc", "Further empowers a vengeance pickaxe to bestow more fortune upon those who are willing to take the risk.");
