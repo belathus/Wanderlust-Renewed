@@ -11,7 +11,9 @@
     <ore:boatWood>.add(<minecraft:jungle_boat>);
     <ore:boatWood>.add(<minecraft:acacia_boat>);
     <ore:boatWood>.add(<minecraft:dark_oak_boat>);
-# Bone Black
+# Bones
+    <ore:boneWithered>.add(<nex:item_bone_wither>);
+# Bone Block
     <ore:blockBone>.add(<minecraft:bone_block>);
 # Bread
     <ore:bread>.add(<primal:corn_bread>);
