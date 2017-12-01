@@ -71,3 +71,7 @@
 
 # Cyberware 
     #mods.tconstruct.Melting.addRecipe(<liquid:titanium>*36,<cyberware:component:2>, 350);
+    
+# Fixing a brass problem
+    mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
+    mods.tconstruct.Alloy.addRecipe(<liquid:brass> * 3, [<liquid:copper> * 2, <liquid:zinc> * 1]);
