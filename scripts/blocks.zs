@@ -6,6 +6,7 @@
 
 
 # Vanilla
+    furnace.addRecipe(<minecraft:dirt>, <primal:mud_wet>);
     recipes.addShapeless(<minecraft:piston>,
         [<minecraft:sticky_piston>,<evilcraft:bucket_eternal_water>]);
     recipes.addShapeless(<minecraft:piston>,
@@ -127,7 +128,13 @@
         [[<astralsorcery:blockmarble:1>,null,null],
          [<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,null],
          [<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
-    
+
+# Biomes O' Plenty
+    recipes.remove(<biomesoplenty:mud>);
+    recipes.addShaped(<biomesoplenty:mud>, 
+        [[<ore:clumpMud>,null,<ore:clumpMud>],
+         [null,null,null],
+         [<ore:clumpMud>,null,<ore:clumpMud>]]);
 
 # Chisel
     recipes.addShapeless(<chisel:basalt>,
@@ -266,6 +273,13 @@
         [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
          [<ore:ingotCopper>, <xreliquary:emperor_chalice>.giveBack(), <ore:ingotCopper>],
          [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+
+# Mekanism
+    recipes.remove(<mekanism:cardboardbox>);
+    recipes.addShaped(<mekanism:cardboardbox>,
+        [[<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]+,
+         [<ore:pulpWood>, <minecraft:nether_star>, <ore:pulpWood>],
+         [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]]);
 
 # PrimalCore
     recipes.addShaped(<primal:mud_clump>*64,
