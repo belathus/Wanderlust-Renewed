@@ -35,7 +35,7 @@
          [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 360, <liquid:creosote> * 1000);
 
 # Integrated Dynamics
-    mods.forestry.Carpenter.addRecipe(<integrateddynamics:menril_sapling>, [[<ore:treeSapling>]], 40, <liquid:menril> * 8000);
+    mods.forestry.Carpenter.addRecipe(<integrateddynamics:menril_sapling>, [[<ore:treeSapling>]], 40, <liquid:menrilresin> * 8000);
 
 # Rockhounding Ore Teirs
-    mods.forestry.Carpenter.addRecipe(<minecraft:coal_block>, [[<rockhounding_oretiers:seam_fire>]], 40, <liquid:menril> * 200);
+    mods.forestry.Carpenter.addRecipe(<minecraft:coal_block>, [[<rockhounding_oretiers:seam_fire>]], 40, <liquid:water> * 200);
