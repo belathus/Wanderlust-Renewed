@@ -38,6 +38,7 @@ var uranium     = MaterialSystem.getMaterialBuilder().setName("Uranium").setColo
 var zinc        = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(12240072).build();
 var phils_gold  = MaterialSystem.getMaterialBuilder().setName("Philosopher's Gold").setColor(16766720).build();
 var quartz_iron = MaterialSystem.getMaterialBuilder().setName("Quartz Enriched Iron").setColor(15132648).build();
+#var gunmetal    = MaterialSystem.getMaterialBuilder().setName("Gunmetal").setColor(13476413).build();
 
 var metal_list = [
   abyssalnite,
@@ -64,6 +65,7 @@ var alloys_list = [
   cupronickel,
   #dawnstone,
   dreadium,
+  #gunmetal,
   invar
 ] as Material[];
 
@@ -130,4 +132,5 @@ for i, ore in electrum_ores {
 
 phils_gold.registerParts(["nugget", "ingot"] as string[]);
 quartz_iron.registerPart("dust");
+#gunmetal.registerPart("molten");
 

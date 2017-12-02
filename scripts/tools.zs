@@ -284,6 +284,55 @@
 #         [<ore:gemChimerite>,<ore:wireSteel>,<ore:gemChimerite>],
 #         [null,<grapplemod:launcheritem>,null]]);
 
+# ================================== #
+# ============ NetherEx ============ #
+# ================================== #
+    recipes.addShaped(<nex:tool_sword_bone>,
+        [[<minecraft:golden_sword>],
+         [<ore:boneWithered>],
+         [<ore:boneWithered>]]);
+    recipes.addShaped(<nex:tool_sword_bone>,
+        [[<ore:ingotGold>],
+         [<ore:ingotGold>],
+         [<ore:boneWithered>]]);
+    recipes.addShaped(<nex:tool_shovel_bone>,
+        [[<minecraft:golden_shovel>],
+         [<ore:boneWithered>],
+         [<ore:boneWithered>]]);
+    recipes.addShaped(<nex:tool_shovel_bone>,
+        [[<ore:ingotGold>],
+         [<ore:boneWithered>],
+         [<ore:boneWithered>]]);
+    recipes.addShaped(<nex:tool_pickaxe_bone>,
+        [[null, <minecraft:golden_pickaxe>, null],
+         [<ore:boneWithered>],
+         [<ore:boneWithered>]]);
+    recipes.addShaped(<nex:tool_pickaxe_bone>,
+        [[<ore:ingotGold>, <ore:ingotGold>,    <ore:ingotGold>],
+         [null,            <ore:boneWithered>, null],
+         [null,            <ore:boneWithered>, null]]);
+    recipes.addShaped(<nex:tool_hoe_bone>,
+        [[<minecraft:golden_hoe>],
+         [<ore:boneWithered>],
+         [<ore:boneWithered>]]);
+    recipes.addShapedMirrored(<nex:tool_hoe_bone>,
+        [[<ore:ingotGold>, <ore:ingotGold>],
+         [null, <ore:boneWithered>],
+         [null, <ore:boneWithered>]]);
+    recipes.addShaped(<nex:tool_hammer_bone>,
+        [[<ore:blockGold>, <ore:blockGold>, <ore:blockGold>],
+         [null, <ore:boneWithered>, null],
+         [null, <ore:boneWithered>, null]]);
+    recipes.addShaped(<nex:tool_axe_bone>,
+        [[<minecraft:golden_axe>],
+         [<ore:boneWithered>],
+         [<ore:boneWithered>]]);
+    recipes.addShapedMirrored(<nex:tool_axe_bone>,
+        [[<ore:ingotGold>, <ore:ingotGold>],
+         [<ore:ingotGold>, <ore:boneWithered>],
+         [null,            <ore:boneWithered>]]);
+
+
 # Nomadic Tents
 #    recipes.remove(<yurtmod:mallet>);
 #    recipes.addShaped(<yurtmod:mallet>,

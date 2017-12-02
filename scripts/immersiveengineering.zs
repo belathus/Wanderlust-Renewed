@@ -13,6 +13,9 @@
         mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productdust:3>);
         mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:3>,<libvulpes:productingot:3>,200);
         mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:3>,<ore:itemSilicon>,200);
+
+    # Astral Sorcery
+        mods.immersiveengineering.Crusher.addRecipe(<astralsorcery:itemcraftingcomponent:2>*2,<astralsorcery:blockcustomore:1>,3600,<immersiveengineering:metal:18>,0.2);
         
     # Dungeon Tactics
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder>,<dungeontactics:flower_cinder>,200,<minecraft:blaze_powder>,0.2);

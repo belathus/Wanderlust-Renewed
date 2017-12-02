@@ -379,12 +379,12 @@
           "xPos": 57,
           "yPos": 41,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "flakeFlint:cordageGeneral:stickWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:flint_hatchet 0",
               "hideTooltip": false
             }
           },
@@ -1118,12 +1118,12 @@
           "xPos": 68,
           "yPos": 11,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:flint:0:cordageGeneral:stickWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:flint_shovel 0",
               "hideTooltip": false
             }
           },
@@ -1171,6 +1171,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
+              "itemString": "primal:flint_knapp",
               "hideTooltip": false
             }
           },
@@ -1198,12 +1199,12 @@
           "xPos": 65,
           "yPos": 148,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:log2:0:primal:quartz_hatchet:32767",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:worktable_shelf 0 {type:\"oak\"}",
               "hideTooltip": false
             }
           },
@@ -1215,12 +1216,12 @@
           "xPos": 272,
           "yPos": 51,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "betterbeginnings:double_workbench:32767",
               "recipeType": "ShapedRecipes",
+              "itemString": "minecraft:crafting_table",
               "hideTooltip": false
             }
           },
@@ -1400,16 +1401,16 @@
           "xPos": 65,
           "yPos": 49,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "flakeFlint:cordageGeneral:flakeFlint:flakeFlint:stickWood:flakeFlint:stickWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:flint_pickaxe 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 4
         },
@@ -1417,12 +1418,12 @@
           "xPos": 28,
           "yPos": 153,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "flakeFlint:minecraft:flint:0:flakeFlint:cordageGeneral:flakeFlint:stickWood:flakeFlint",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:flint_workblade 0",
               "hideTooltip": false
             }
           },
@@ -1466,16 +1467,16 @@
           "xPos": 283,
           "yPos": 78,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "flakeFlint:flakeFlint:pinBasic:stickWood:stickWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:flint_saw 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 8
         },
@@ -1499,16 +1500,16 @@
           "xPos": 277,
           "yPos": 156,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:stone:32767:cordageGeneral:minecraft:stone:32767:minecraft:stone:32767:stickWood:minecraft:stone:32767:stickWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:stone_gallagher 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 10
         },
@@ -1516,16 +1517,16 @@
           "xPos": 115,
           "yPos": 153,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "primal:quartz_workblade:32767:stickWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:wood_pin",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 11
         }
@@ -1684,16 +1685,16 @@
           "xPos": 25,
           "yPos": 112,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
-              "recipeType": "ShapedRecipes",
+              "recipeType": "ShapelessRecipes",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
         },
@@ -1701,16 +1702,16 @@
           "xPos": 91,
           "yPos": 162,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:0:blockGlass:tconstruct:materials:0:blockGlass:blockGlass:blockGlass:tconstruct:materials:0:blockGlass:tconstruct:materials:0",
-              "recipeType": "ShapedOreRecipe",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 7
         },
@@ -1718,16 +1719,16 @@
           "xPos": 324,
           "yPos": 62,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
-              "recipeType": "ShapedRecipes",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 8
         },
@@ -1735,16 +1736,16 @@
           "xPos": 252,
           "yPos": 18,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
-              "recipeType": "ShapedRecipes",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "tconstruct:soil 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 9
         },
@@ -1752,16 +1753,16 @@
           "xPos": 254,
           "yPos": 105,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
               "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:smeltery_controller 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 10
         },
@@ -1769,16 +1770,16 @@
           "xPos": 316,
           "yPos": 160,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0:tconstruct:materials:0",
-              "recipeType": "ShapedRecipes",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:seared_tank 0",
               "hideTooltip": false
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 11
         }
@@ -2082,7 +2083,7 @@
           "xPos": 16,
           "yPos": 55,
           "width": 80.0,
-          "height": 40.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2410,7 +2411,7 @@
           "xPos": 58,
           "yPos": 148,
           "width": 77.0,
-          "height": 77.0,
+          "height": 38.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2706,6 +2707,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
+              "itemString": "immersiveengineering:ore 0",
               "hideTooltip": false
             }
           },
@@ -3194,37 +3196,6 @@
           "layerIndex": 1
         },
         {
-          "xPos": 238,
-          "yPos": 153,
-          "width": 175.0,
-          "height": 46.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Chickens need a nest to lay eggs. They also need to be well fed and hydrated, so toss them some seeds and give them a trough full of water.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 2
-        },
-        {
-          "xPos": 246,
-          "yPos": 65,
-          "width": 150.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
-            "properties": {
-              "path": "enchiridion:images/getting_through_the_stone_age/chicken-n-egg.png"
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 3
-        },
-        {
           "xPos": 94,
           "yPos": 11,
           "width": 92.0,
@@ -3237,70 +3208,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 4
-        },
-        {
-          "xPos": 14,
-          "yPos": 70,
-          "width": 182.0,
-          "height": 57.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Animals can also be an excellent source of food; not just the animals themselves and the meat that slaughtering them would produce, but the animals can be encouraged to produce other goods as well.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 5
-        },
-        {
-          "xPos": 107,
-          "yPos": 132,
-          "width": 88.0,
-          "height": 84.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Happy, and well-fed pigs are known to find truffles and share them with their owner. Making mud pits for the pigs to play in helps.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 9,
-          "yPos": 132,
-          "width": 90.0,
-          "height": 57.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
-            "properties": {
-              "path": "enchiridion:images/getting_through_the_stone_age/pigs\u0026truffles.png"
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 7
-        },
-        {
-          "xPos": 244,
-          "yPos": 12,
-          "width": 157.0,
-          "height": 39.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Truffles can be used to make some excellent foods, such as omelets, soup, and chocolate truffles.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 8
+          "layerIndex": 3
         },
         {
           "xPos": 14,
@@ -3316,7 +3224,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 9
+          "layerIndex": 4
         },
         {
           "xPos": 199,
@@ -3350,7 +3258,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 10
+          "layerIndex": 5
         }
       ],
       "pageNumber": 2,
@@ -3476,6 +3384,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
+              "itemString": "contenttweaker:material_part 77",
               "hideTooltip": false
             }
           },
@@ -3491,6 +3400,7 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureItem",
             "properties": {
+              "itemString": "mekanism:oreblock 2",
               "hideTooltip": false
             }
           },
@@ -3620,12 +3530,12 @@
           "xPos": 108,
           "yPos": 131,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "slabWood:slabWood:slabWood",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
               "hideTooltip": false
             }
           },
@@ -3637,12 +3547,12 @@
           "xPos": 104,
           "yPos": 50,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "minecraft:string:0:minecraft:string:0:minecraft:string:0:minecraft:string:0",
-              "recipeType": "ShapedRecipes",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "giacomos_fishing_net:itemnet",
               "hideTooltip": false
             }
           },
@@ -3651,8 +3561,8 @@
           "layerIndex": 4
         },
         {
-          "xPos": 11,
-          "yPos": 9,
+          "xPos": 9,
+          "yPos": 8,
           "width": 178.0,
           "height": 39.0,
           "feature": {
@@ -3670,12 +3580,12 @@
           "xPos": 11,
           "yPos": 51,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "cordageGeneral:primal:slat_oak:32767:cordageGeneral:primal:slat_oak:32767:primal:slat_oak:32767:cordageGeneral:primal:slat_oak:32767:cordageGeneral",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:fish_trap 0 {type:\"oak\"}",
               "hideTooltip": false
             }
           },
@@ -3685,14 +3595,14 @@
         },
         {
           "xPos": 9,
-          "yPos": 132,
+          "yPos": 134,
           "width": 80.0,
-          "height": 80.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
-              "ingredients": "primal:slat_oak:32767:primal:slat_oak:32767:primal:slat_oak:32767:pinBasic:cordageGeneral:pinBasic:minecraft:planks:0:minecraft:planks:0",
               "recipeType": "ShapedOreRecipe",
+              "itemString": "primal:drying_rack 0 {type:\"oak\"}",
               "hideTooltip": false
             }
           },
