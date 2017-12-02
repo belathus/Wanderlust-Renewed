@@ -16,7 +16,7 @@
   mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_oretiers:iron_ores:5>,   <minecraft:iron_ingot> * 1,                       false, 0.05, 200);   # Bog Iron
   mods.astralsorcery.StarlightInfusion.addInfusion(<tconstruct:ore>,                      <materialpart:cobalt:ingot>.getItemStack() * 3,   false, 0.05, 200);   # Cobalt
   mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:ore>,            <immersiveengineering:metal> * 3,                 false, 0.05, 200);   # Copper
-  mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:sub_block_holder_2:13>,<immersiveengineering:metal:7> * 3,               false, 0.05, 200);   # Electrum
+
   mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_oretiers:iron_ores:2>,   <minecraft:iron_ingot> * 3,                       false, 0.05, 200);   # Goethite
   mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_oretiers:iron_ores:1>,   <minecraft:iron_ingot> * 4,                       false, 0.05, 200);   # Hematite
   mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:sub_block_holder_2:5>, <materialpart:iridium:ingot>.getItemStack() * 3,  false, 0.05, 200);   # Iridium
@@ -37,6 +37,9 @@
   mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:sub_block_holder_3:3>, <materialpart:titanium:ingot>.getItemStack() * 3, false, 0.05, 200);   # Titanium
   mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:ore:5>,          <immersiveengineering:metal:5> * 3,               false, 0.05, 200);   # Uranium
   mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:sub_block_holder_0:9>, <materialpart:zinc:ingot>.getItemStack() * 3,     false, 0.05, 200);   # Zinc
+
+  mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:sub_block_holder_2:13>,<immersiveengineering:metal:7> * 3,               false, 0.05, 200);   # Electrum
+
   # Processing non-metals
 #  mods.astralsorcery.StarlightInfusion.addInfusion(<ore:oreAmethyst>,   <biomesoplenty:gem> * 4,             false, 0.05, 200);   # Amethyst
 #  mods.astralsorcery.StarlightInfusion.addInfusion(<ore:oreRuby>,       <biomesoplenty:gem:1> * 4,           false, 0.05, 200);   # Ruby
