@@ -37,82 +37,6 @@
             player.sendChat("Removed 1 XP.");
         });
 
-# Actually Additions
-/*
-    recipes.remove(<actuallyadditions:blockMisc:2>);
-    recipes.addShaped(<actuallyadditions:blockMisc:2>,
-        [[<ore:gemDark>, <ore:gemDark>],
-         [<ore:gemDark>, <ore:gemDark>]]);
-    recipes.addShaped(<actuallyadditions:blockMisc>,
-        [[<ore:gemDark>],
-         [<ore:gemDark>]]);
-    recipes.remove(<actuallyadditions:block_colored_lamp:*>);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeWhite>, <ore:gemDark>, <ore:dyeWhite>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:1>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeOrange>, <ore:gemDark>, <ore:dyeOrange>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:2>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeMagenta>, <ore:gemDark>, <ore:dyeMagenta>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:3>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeLightBlue>, <ore:gemDark>, <ore:dyeLightBlue>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:4>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeYellow>, <ore:gemDark>, <ore:dyeYellow>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:5>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeLime>, <ore:gemDark>, <ore:dyeLime>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:6>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyePink>, <ore:gemDark>, <ore:dyePink>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:7>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeGray>, <ore:gemDark>, <ore:dyeGray>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:8>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeLightGray>, <ore:gemDark>, <ore:dyeLightGray>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:9>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeCyan>, <ore:gemDark>, <ore:dyeCyan>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:10>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyePurple>, <ore:gemDark>, <ore:dyePurple>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:11>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeBlue>, <ore:gemDark>, <ore:dyeBlue>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:12>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeBrown>, <ore:gemDark>, <ore:dyeBrown>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:13>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeGreen>, <ore:gemDark>, <ore:dyeGreen>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:14>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeRed>, <ore:gemDark>, <ore:dyeRed>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-    recipes.addShaped(<actuallyadditions:block_colored_lamp:15>,
-        [[<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>],
-         [<ore:dyeBlack>, <ore:gemDark>, <ore:dyeBlack>],
-         [<ore:glowstone>, <actuallyadditions:item_crystal:1>, <ore:glowstone>]]);
-*/
-
 # Animania
 #    recipes.addShapeless(<animania:block_mud> * 2,
 #        [<evilcraft:bucket_eternal_water>,<ore:dirt>]);
@@ -153,19 +77,6 @@
          [<ore:blockGlassHardened>, <ore:dustObsidian>, <ore:blockGlassHardened>],
          [<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>]]);
 
-# Embers
-/*    recipes.remove(<embers:ashenStone>);
-    recipes.addShaped(<embers:ashenStone>*4,
-        [[null,<ore:stone>,null],
-         [<ore:stone>,<ore:dustAsh>,<ore:stone>],
-         [null,<ore:stone>,null]]);
-
-    recipes.remove(<embers:ashenBrick>);
-    recipes.addShaped(<embers:ashenBrick>*4,
-        [[null,<ore:bricksStone>,null],
-         [<ore:bricksStone>,<ore:dustAsh>,<ore:bricksStone>],
-         [null,<ore:bricksStone>,null]]);
-*/
 # Evilcraft
     recipes.addShaped(<evilcraft:eternal_water_block>,
         [[null,<ore:gemDark>,null],
