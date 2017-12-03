@@ -30,40 +30,8 @@
         recipes.addShaped(<minecraft:quartz>*2,
             [[hammer],[<minecraft:stone_slab:7>]]);
     }
-    # making sticks
-print("34"); /*
-    recipes.addShaped(<minecraft:stick>*8,
-        [[<tconstruct:hatchet:*>.transformDamage()],
-         [<ore:logWood>]]);
-    recipes.addShaped(<minecraft:stick>*2,
-        [[<tconstruct:hatchet:*>.transformDamage()],
-         [<ore:plankWood>]]);
-    recipes.addShaped(<minecraft:stick>*1,
-        [[<tconstruct:hatchet:*>.transformDamage()],
-         [<ore:slabWood>]]);
-    recipes.addShaped(<minecraft:stick>*1,
-        [[<tconstruct:hatchet:*>.transformDamage()],
-         [<ore:treeSapling>]]);
-    recipes.addShaped(<minecraft:stick>*8,
-        [[<bloodmagic:ItemBoundAxe>.giveBack()],
-         [<ore:logWood>]]);
-    recipes.addShaped(<minecraft:stick>*2,
-        [[<bloodmagic:ItemBoundAxe>.giveBack()],
-         [<ore:plankWood>]]);
-    recipes.addShaped(<minecraft:stick>*1,
-        [[<bloodmagic:ItemBoundAxe>.giveBack()],
-         [<ore:slabWood>]]);
-    recipes.addShaped(<minecraft:stick>*1,
-        [[<bloodmagic:ItemBoundAxe>.giveBack()],
-         [<ore:treeSapling>]]);
-    recipes.addShaped(<minecraft:stick>*1,
-        [[<ore:itemKnife>],
-         [<ore:treeSapling>]]);
-    recipes.addShaped(<minecraft:stick>*1,
-        [[<ore:toolAxe>],
-         [<ore:treeSapling>]]);
-*/
-         
+    recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
+    
     # making reusable water recipes
     recipes.addShapeless(<minecraft:clay_ball>*4,
         [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucket_eternal_water>]);
@@ -72,7 +40,40 @@ print("34"); /*
     recipes.remove(<minecraft:flint>);
     recipes.addShapeless(<minecraft:flint>, [<ore:gravel>,<ore:gravel>,<ore:gravel>]);
     recipes.addShapeless(<minecraft:torch>,[<primal:torch_wood_lit>]);
-    print("75!");
+
+    # making sticks
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<ore:itemKnife>],
+         [<ore:treeSapling>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<ore:toolAxe>],
+         [<ore:treeSapling>]]);
+print("51"); /*
+    recipes.addShaped(<minecraft:stick>*8,
+        [[<tconstruct:hatchet:*>.transformDamage()],
+         [<ore:logWood>]]);
+    recipes.addShaped(<minecraft:stick>*2,
+        [[<tconstruct:hatchet:*>.transformDamage()],
+         [<ore:plankWood>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<tconstruct:hatchet:*>.transformDamage()],
+         [<ore:slabWood>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<tconstruct:hatchet:*>.transformDamage()],
+         [<ore:treeSapling>]]);
+    #recipes.addShaped(<minecraft:stick>*8,
+    #    [[<bloodmagic:ItemBoundAxe>.giveBack()],
+    #     [<ore:logWood>]]);
+    #recipes.addShaped(<minecraft:stick>*2,
+    #    [[<bloodmagic:ItemBoundAxe>.giveBack()],
+    #     [<ore:plankWood>]]);
+    #recipes.addShaped(<minecraft:stick>*1,
+    #    [[<bloodmagic:ItemBoundAxe>.giveBack()],
+    #     [<ore:slabWood>]]);
+    #recipes.addShaped(<minecraft:stick>*1,
+    #    [[<bloodmagic:ItemBoundAxe>.giveBack()],
+    #     [<ore:treeSapling>]]);
+*/
 # Actually Additions
 /*
     recipes.addShapeless(<actuallyadditions:itemMisc:5>, [<evilcraft:darkGem>]);
