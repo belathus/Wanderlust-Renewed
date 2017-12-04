@@ -75,3 +75,28 @@
 # Fixing a brass problem
     mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
     mods.tconstruct.Alloy.addRecipe(<liquid:brass> * 3, [<liquid:copper> * 2, <liquid:zinc> * 1]);
+
+# Removing rods from being melted; then readding with 72 mb output
+    # Aluminum
+    mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>, <immersiveengineering:material:3>);
+    mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 72, <immersiveengineering:material:3>, 150);
+    # Copper
+    mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <libvulpes:productrod:4>);
+    mods.tconstruct.Melting.addRecipe(<liquid:copper> * 72, <libvulpes:productrod:4>, 230);
+    # Iron
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <libvulpes:productrod:1>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <immersiveengineering:material:1>);
+    mods.tconstruct.Melting.addRecipe(<liquid:iron> * 72, <libvulpes:productrod:1>, 345);
+    mods.tconstruct.Melting.addRecipe(<liquid:iron> * 72, <immersiveengineering:material:1>, 345);
+    # Steel
+    mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <libvulpes:productrod:6>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:material:2>);
+    mods.tconstruct.Melting.addRecipe(<liquid:steel> * 72, <libvulpes:productrod:6>, 300);
+    mods.tconstruct.Melting.addRecipe(<liquid:steel> * 72, <immersiveengineering:material:2>, 300);
+    # Titanium
+    mods.tconstruct.Melting.removeRecipe(<liquid:titanium>, <libvulpes:productrod:7>);
+    mods.tconstruct.Melting.addRecipe(<liquid:titanium> * 72, <libvulpes:productrod:7>, 370);
+    # Iridium
+    mods.tconstruct.Melting.removeRecipe(<liquid:iridium>, <libvulpes:productrod:10>);
+    mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 72, <libvulpes:productrod:10>, 600);
+    
