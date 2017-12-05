@@ -3,7 +3,7 @@
     "darkore": {
       "distribution": "uniform",
       "generator": {
-        "block": "evilcraft:darkOre",
+        "block": "evilcraft:dark_ore",
         "material": ["stone", "quark:limestone"],
         "cluster-size": 1
       },
@@ -26,7 +26,7 @@
     "darkore_spooky": {
       "distribution": "uniform",
       "generator": {
-        "block": "evilcraft:darkOre",
+        "block": "evilcraft:dark_ore",
         "material": ["stone", "quark:limestone"],
         "cluster-size": 1
       },
