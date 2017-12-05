@@ -89,6 +89,13 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:blockSeared>,<ore:blockSeared>,<ore:blockSeared>]]);
     recipes.remove(<advancedrocketry:platepress>);
 
+# Applied Energistics
+    recipes.remove(<appliedenergistics2:grindstone>);
+    recipes.addShaped(<appliedenergistics2:grindstone>,
+        [[<ore:stone>, <ore:gearBrass>, <ore:stone>],
+         [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
+         [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
+
 # Ars Magica 2
 #    recipes.remove(<arsmagica2:arcane_reconstructor>);
 #    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
