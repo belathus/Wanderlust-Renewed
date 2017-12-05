@@ -24,18 +24,18 @@
 #         [null, <ore:ingotVibrantAlloy>, null]], <liquid:glass>*250);
 
 # Evilcraft
-    mods.forestry.Squeezer.addRecipe(<liquid:evilcraftpoison> * 250, [<evilcraft:poison_sac>], 40, <biomesoplenty:jelled_poison> % 5);
+    mods.forestry.Squeezer.addRecipe(<liquid:evilcraftpoison> * 250, [<evilcraft:poison_sac>], 20, <biomesoplenty:jelled_poison> % 5);
 
 # Immersive Engineering
-    mods.forestry.Carpenter.addRecipe(<immersiveengineering:treated_wood>, [[<ore:plankWood>]], 40, <liquid:creosote> * 125);
-    mods.forestry.Carpenter.addRecipe(<immersiveengineering:wooden_device0>, [[<ore:chestWood>]], 360, <liquid:creosote> * 1000);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:treated_wood>, [[<ore:plankWood>]], 20, <liquid:creosote> * 125);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:wooden_device0>, [[<ore:chestWood>]], 180, <liquid:creosote> * 1000);
     mods.forestry.Carpenter.addRecipe(<immersiveengineering:wooden_device0>,
         [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
          [<ore:plankWood>, null,            <ore:plankWood>],
-         [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 360, <liquid:creosote> * 1000);
+         [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 180, <liquid:creosote> * 1000);
 
 # Integrated Dynamics
-    mods.forestry.Carpenter.addRecipe(<integrateddynamics:menril_sapling>, [[<ore:treeSapling>]], 40, <liquid:menrilresin> * 8000);
+    mods.forestry.Carpenter.addRecipe(<integrateddynamics:menril_sapling>, [[<ore:treeSapling>]], 20, <liquid:menrilresin> * 8000);
 
 # Rockhounding Ore Teirs
-    mods.forestry.Carpenter.addRecipe(<minecraft:coal_block>, [[<rockhounding_oretiers:seam_fire>]], 40, <liquid:water> * 200);
+    mods.forestry.Carpenter.addRecipe(<minecraft:coal_block>, [[<rockhounding_oretiers:seam_fire>]], 20, <liquid:water> * 200);
