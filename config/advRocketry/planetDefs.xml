@@ -1,77 +1,83 @@
 <galaxy>
   <star name="Vanir" temp="100" x="10" y="0" numPlanets="0" numGasGiants="0">
-    <planet name="Forseti" DIMID="259" >
-      <fogColor>            0.1,0.1,0.1   </fogColor>
-      <skyColor>            0.1,0.1,0.1   </skyColor>
-      <atmosphereDensity>             0   </atmosphereDensity>
-      <gravitationalMultiplier>      22   </gravitationalMultiplier>
-      <orbitalDistance>              31   </orbitalDistance>
-      <orbitalTheta>                 97   </orbitalTheta>
-      <orbitalPhi>                   15   </orbitalPhi>
-      <rotationalPeriod>           5100   </rotationalPeriod>
-      <biomeIds>                    108   </biomeIds>
+    <planet name="Hermod" DIMID="259" >
+      <fogColor>0.1,0.1,0.1</fogColor>
+      <skyColor>0.1,0.1,0.1</skyColor>
+      <atmosphereDensity>0</atmosphereDensity>
+      <gravitationalMultiplier>22</gravitationalMultiplier>
+      <orbitalDistance>31</orbitalDistance>
+      <orbitalTheta>97</orbitalTheta>
+      <orbitalPhi>15</orbitalPhi>
+      <rotationalPeriod>5100</rotationalPeriod>
+      <biomeIds>108</biomeIds>
     </planet>
     
     
     <planet name="Nanna" DIMID="260" >
-      <fogColor>              0.9,0.1,1   </fogColor>
-      <skyColor>                0.7,0,1   </skyColor>
-      <atmosphereDensity>           300   </atmosphereDensity>
-      <gravitationalMultiplier>     125   </gravitationalMultiplier>
-      <orbitalDistance>              50   </orbitalDistance>
-      <orbitalTheta>                 26   </orbitalTheta>
-      <orbitalPhi>                    1   </orbitalPhi>
-      <rotationalPeriod>          48000   </rotationalPeriod>
-      <biomeIds>               105, 106   </biomeIds>
+      <fogColor>0.9,0.1,1</fogColor>
+      <skyColor>0.7,0,1</skyColor>
+      <atmosphereDensity>300</atmosphereDensity>
+      <gravitationalMultiplier>125</gravitationalMultiplier>
+      <orbitalDistance>50</orbitalDistance>
+      <orbitalTheta>26</orbitalTheta>
+      <orbitalPhi>1</orbitalPhi>
+      <rotationalPeriod>48000   </rotationalPeriod>
+      <biomeIds>105,106</biomeIds>
       <planet name="Forseti" DIMID="261" >
-        <fogColor>          0.0, 0.0, 0.0   </fogColor>
-        <skyColor>          0.0, 0.0, 0.0   </skyColor>
-        <atmosphereDensity>             0   </atmosphereDensity>
-        <gravitationalMultiplier>      30   </gravitationalMultiplier>
-        <orbitalDistance>              11   </orbitalDistance>
-        <orbitalTheta>                 64   </orbitalTheta>
-        <orbitalPhi>                   15   </orbitalPhi>
-        <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>               104, 108   </biomeIds>
+        <fogColor>0.0,0.0,0.0</fogColor>
+        <skyColor>0.0,0.0,0.0</skyColor>
+        <atmosphereDensity>0</atmosphereDensity>
+        <gravitationalMultiplier>30</gravitationalMultiplier>
+        <orbitalDistance>11</orbitalDistance>
+        <orbitalTheta>64</orbitalTheta>
+        <orbitalPhi>15</orbitalPhi>
+        <rotationalPeriod>240000</rotationalPeriod>
+        <biomeIds>104,108</biomeIds>
+        <OreGen>
+          <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
+        </OreGen>
       </planet>
     </planet>
     
     
     <planet name="Sif" DIMID="262"  >
-      <fogColor>              0.9,0.1,1   </fogColor>
-      <skyColor>                0.7,0,1   </skyColor>
-      <atmosphereDensity>           300   </atmosphereDensity>
-      <gravitationalMultiplier>     125   </gravitationalMultiplier>
-      <orbitalDistance>              70   </orbitalDistance>
-      <orbitalTheta>                248   </orbitalTheta>
-      <orbitalPhi>                    0   </orbitalPhi>
-      <rotationalPeriod>          48000   </rotationalPeriod>
-      <biomeIds>            0, 109, 111   </biomeIds>
+      <fogColor>0.9,0.1,1</fogColor>
+      <skyColor>0.7,0,1</skyColor>
+      <atmosphereDensity>300</atmosphereDensity>
+      <gravitationalMultiplier>125</gravitationalMultiplier>
+      <orbitalDistance>70</orbitalDistance>
+      <orbitalTheta>248</orbitalTheta>
+      <orbitalPhi>0</orbitalPhi>
+      <rotationalPeriod>48000</rotationalPeriod>
+      <biomeIds>0,109,111</biomeIds>
       <planet name="Magni" DIMID="263" >
-        <fogColor>          0.0, 0.0, 0.0   </fogColor>
-        <skyColor>          0.0, 0.0, 0.0   </skyColor>
-        <atmosphereDensity>             0   </atmosphereDensity>
-        <gravitationalMultiplier>      30   </gravitationalMultiplier>
-        <orbitalDistance>              15   </orbitalDistance>
-        <orbitalTheta>                154   </orbitalTheta>
-        <orbitalPhi>                    9   </orbitalPhi>
-        <rotationalPeriod>         240000   </rotationalPeriod>
-        <biomeIds>                    108   </biomeIds>
+        <fogColor>0.0,0.0,0.0</fogColor>
+        <skyColor>0.0,0.0,0.0</skyColor>
+        <atmosphereDensity>0</atmosphereDensity>
+        <gravitationalMultiplier>30</gravitationalMultiplier>
+        <orbitalDistance>15</orbitalDistance>
+        <orbitalTheta>154</orbitalTheta>
+        <orbitalPhi>9</orbitalPhi>
+        <rotationalPeriod>240000</rotationalPeriod>
+        <biomeIds>108</biomeIds>
+        <OreGen>
+          <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
+        </OreGen>
       </planet>
       <planet name="Modi" DIMID="264" >
-        <fogColor>0.2, 0.6, 0.0</fogColor>
-        <skyColor>0.2, 0.6, 0.0</skyColor>
+        <fogColor>0.2,0.6,0.0</fogColor>
+        <skyColor>0.2,0.6,0.0</skyColor>
         <atmosphereDensity>75</atmosphereDensity>
         <gravitationalMultiplier>50</gravitationalMultiplier>
         <orbitalDistance>30</orbitalDistance>
         <orbitalTheta>240</orbitalTheta>
         <orbitalPhi>17</orbitalPhi>
         <rotationalPeriod>18000</rotationalPeriod>
-        <biomeIds>70, 79, 103, 112</biomeIds>
+        <biomeIds>70,79,103,112</biomeIds>
       </planet>
       <planet name="Thrud" DIMID="265" >
-        <fogColor>0.0, 0.0, 0.0</fogColor>
-        <skyColor>0.0, 0.0, 0.0</skyColor>
+        <fogColor>0.0,0.0,0.0</fogColor>
+        <skyColor>0.0,0.0,0.0</skyColor>
         <atmosphereDensity>10</atmosphereDensity>
         <gravitationalMultiplier>10</gravitationalMultiplier>
         <orbitalDistance>65</orbitalDistance>
@@ -79,6 +85,9 @@
         <orbitalPhi>-4</orbitalPhi>
         <rotationalPeriod>6000</rotationalPeriod>
         <biomeIds>108</biomeIds>
+        <OreGen>
+          <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
+        </OreGen>
       </planet>
     </planet>
     
@@ -101,6 +110,9 @@
         <orbitalPhi>9</orbitalPhi>
         <rotationalPeriod>240000</rotationalPeriod>
         <biomeIds>108</biomeIds>
+        <OreGen>
+          <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
+        </OreGen>
       </planet>
     </planet>
   </star>
