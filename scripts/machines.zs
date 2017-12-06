@@ -292,6 +292,10 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>],
          [<ore:ingotBrass>, <extrautils2:machine>, <ore:ingotBrass>],
          [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+    recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
+        [[<ore:ingotBrass>, <extrautils2:spike_diamond>, <ore:ingotBrass>],
+         [<ore:ingotBrass>, <extrautils2:machine>, <ore:ingotBrass>],
+         [<ore:ingotBrass>, <ore:dustRedstone>, <ore:ingotBrass>]]);
 
 # Forestry
     recipes.remove(<forestry:fabricator>);
