@@ -1,5 +1,41 @@
 <IfModInstalled name="advancedrocketry">
     <IfCondition condition=':=dimension.generator.class="ChunkProviderPlanet"'>
+        <Veins name='mekaOsmiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60E78125' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+            <Description>
+                Small, fairly rare motherlodes with 2-4 horizontal veins each.
+            </Description>
+            <OreBlock block='mekanism:oreblock' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <ReplacesOre block='stoneMarble' weight='1.0'/>
+            <ReplacesOre block='stoneGranite' weight='1.0'/>
+            <ReplacesOre block='stoneDiorite' weight='1.0'/>
+            <ReplacesOre block='stoneAndesite' weight='1.0'/>
+            <ReplacesOre block='stoneBasalt' weight='1.0'/>
+            <ReplacesOre block='stoneSarsen' weight='1.0'/>
+            <ReplacesOre block='stoneBlue' weight='1.0'/>
+            <ReplacesOre block='stoneOrtho' weight='1.0'/>
+            <ReplacesOre block='stoneSchist' weight='1.0'/>
+            <ReplacesOre block='stoneCarbonate' weight='1.0'/>
+            <ReplacesOre block='stoneFerro' weight='1.0'/>
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.416 * _default_ ' range=':= 1.416 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.060 * _default_ ' range=':= 1.060 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 52 '                range=':= 16 '                type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= 0.750 * _default_ ' range=':= 0.750 * _default_ ' type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 1.991 * _default_ ' range=':= 1.991 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
         <IfModInstalled name="fp">
             <cloud name='fupaPlanetAlutineCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x60C0C0FF' drawBoundBox='false' boundBoxColor='0x60C0C0FF'>
                 <Description>
