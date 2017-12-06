@@ -85,5 +85,5 @@ import loottweaker.vanilla.loot.Functions;
 # ===== Tinker's Construct =====
 # ==============================
   val tc_slime = LootTables.getTable("tconstruct:entities/blueslime");
-  val tc_slime_crystal = tc_slime.addPool("crystal", 1, 1, 0, 0)
+  val tc_slime_crystal = tc_slime.addPool("crystal", 1, 1, 0, 0);
   tc_slime_crystal.addItemEntryHelper(<xreliquary:mob_ingredient:4>, 1, 0, [], [Condition.randomChanceWithLooting(0.1, 0.05)]); # Add slime crystal
