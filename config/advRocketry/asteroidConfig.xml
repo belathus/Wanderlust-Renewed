@@ -18,8 +18,9 @@
     <!-- <ore itemStack="arsmagica2:ore 4" chance="4" /> -->
   </asteroid>
   <asteroid name="Blue Magic Boulder (do not taunt)" distance="15" mass="3600" massVariability="500" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:lapis_ore" chance="14" />
+    <ore itemStack="minecraft:lapis_ore" chance="29" />
     <ore itemStack="minecraft:diamond_ore" chance="1" />
+    <ore itemStack="extrautils2:ingredients:5" chance="5" />
     <!-- <ore itemStack="arsmagica2:ore" chance="8" />
     <ore itemStack="arsmagica2:ore 2" chance="3" /> -->
   </asteroid>
