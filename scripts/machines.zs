@@ -526,11 +526,24 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:plankWood>,<ore:ingotBrass>,<ore:plankWood>]]);
 
 # Mekanism
+    # Steel Casing
+    recipes.remove(<mekanism:basicblock:8>);
+    recipes.addShaped(<mekanism:basicblock:8>,
+        [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>],
+         [<ore:blockGlassHardened>, <ore:alloyAdvanced>, <ore:blockGlassHardened>],
+         [<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>]]);
+    # Metallurgic Infuser
     recipes.remove(<mekanism:machineblock:8>);
     recipes.addShaped(<mekanism:machineblock:8>,
-        [[<ore:gearSteel>, <rockhounding_oretiers:bloomery>, <ore:gearSteel>],
-         [<ore:dustRedstone>, <ore:ingotOsmium>, <ore:dustRedstone>],
-         [<ore:gearSteel>, <rockhounding_oretiers:bloomery>, <ore:gearSteel>]]);
+        [[<ore:ingotIron>, <rockhounding_oretiers:bloomery>, <ore:ingotIron>],
+         [<ore:dustRedstone>, <ore:ingotBrass>, <ore:dustRedstone>],
+         [<ore:ingotIron>, <rockhounding_oretiers:bloomery>, <ore:ingotIron>]]);
+    # Digital Miner
+    recipes.remove(<mekanism:machineblock:4>);
+    recipes.addShaped(<mekanism:machineblock:4>,
+        [[<mekanism:atomicalloy>, <mekanism:controlcircuit>, <mekanism:atomicalloy>],
+         [<mekanism:machineblock:15>, <mekanism:robit>, <mekanism:machineblock:15>],
+         [<mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>]]);
 
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
