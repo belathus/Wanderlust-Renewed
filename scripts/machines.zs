@@ -467,6 +467,27 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 #        [[<minecraft:ender_pearl>, <ore:chestWood>, <minecraft:ender_pearl>],
 #         [<minecraft:gold_nugget>, <minecraft:iron_ingot>, <minecraft:gold_nugget>],
 #         [<minecraft:quartz>, <ore:blockRedstone>, <minecraft:quartz>]]);
+    # Dialing Device
+    recipes.remove(<rftools:dialing_device>);
+    recipes.addShaped(<rftools:dialing_device>,
+        [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+         [<minecraft:redstone_torch>, <rftools:machine_frame>, <minecraft:redstone_torch>],
+         [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+    recipes.remove(<rftools:matter_receiver>);
+    recipes.addShaped(<rftools:matter_receiver>,
+        [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+         [<minecraft:redstone>, <rftools:machine_frame>, <minecraft:redstone>],
+         [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
+    recipes.remove(<rftools:matter_beamer>);
+    recipes.addShaped(<rftools:matter_beamer>,
+        [[<minecraft:redstone_block>, <minecraft:glowstone>, <minecraft:redstone_block>],
+         [<minecraft:glowstone>, <rftools:machine_frame>, <minecraft:glowstone>],
+         [<minecraft:redstone_block>, <minecraft:glowstone>, <minecraft:redstone_block>]]);
+    recipes.remove(<rftools:matter_transmitter>);
+    recipes.addShaped(<rftools:matter_transmitter>,
+        [[<minecraft:ender_pearl>, <mekanism:teleportationcore>, <minecraft:ender_pearl>],
+         [<minecraft:redstone>, <rftools:machine_frame>, <minecraft:redstone>],
+         [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
 # Rockhounding
     recipes.remove(<rockhounding_oretiers:bloomery>);
