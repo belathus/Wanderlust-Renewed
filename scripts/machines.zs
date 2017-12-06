@@ -28,59 +28,6 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     #     [<ore:bricksStone>,null,<ore:bricksStone>],
     #     [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
 
-# Actually Additions
-    # Redstonia crystal = item_crystal
-    # <actuallyadditions:blockMisc:2> = Black Quartz Block
-    # <actuallyadditions:blockMisc:4> = wood casing
-    # <actuallyadditions:blockMisc:5> = charcoal block
-    # <actuallyadditions:blockMisc:6> = ender pearl block
-    # <actuallyadditions:blockMisc:7> = Casing?
-    # <actuallyadditions:blockMisc:8> = Ender Casing?
-    # <actuallyadditions:blockMisc:9> = Iron Casing?
-    # <actuallyadditions:item_crystal:0> = redstonia crystal
-    # <actuallyadditions:item_crystal:1> = lapis crystal
-    # <actuallyadditions:item_crystal:2> = diamond crystal
-    # <actuallyadditions:item_crystal:3> = void crystal
-    # <actuallyadditions:item_crystal:4> = emerald crystal
-    # <actuallyadditions:item_crystal:5> = iron crystal
-    # <actuallyadditions:block_crystal:3> = void crystal block
-#    recipes.remove(<actuallyadditions:block_grinder>);
-#    recipes.remove(<actuallyadditions:block_grinder_double>);
-#    recipes.remove(<actuallyadditions:block_misc:9>); # Iron casing
-#    recipes.remove(<actuallyadditions:block_item_repairer>);
-#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
-#        [[<actuallyadditions:block_crystal_empowered:2>, mending, <actuallyadditions:block_crystal_empowered:2>],
-#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
-#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
-#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
-#        [[<actuallyadditions:block_crystal_empowered:2>, mending2, <actuallyadditions:block_crystal_empowered:2>],
-#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
-#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
-#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
-#        [[<actuallyadditions:block_crystal_empowered:2>, mending3, <actuallyadditions:block_crystal_empowered:2>],
-#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
-#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
-#    recipes.addShaped(<actuallyadditions:block_item_repairer>,
-#        [[<actuallyadditions:block_crystal_empowered:2>, mending4, <actuallyadditions:block_crystal_empowered:2>],
-#         [<actuallyadditions:item_misc:7>, <ore:frameEnder>, <actuallyadditions:item_misc:7>],
-#         [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:2>]]);
-#    recipes.addShaped(<actuallyadditions:blockMisc:9>, # Iron Casing
-#        [[<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>],
-#         [<ore:fusedQuartz>, <ore:gemDark>, <ore:fusedQuartz>],
-#         [<ore:ingotIron>, <ore:fusedQuartz>, <ore:ingotIron>]]);
-#    recipes.addShaped(<actuallyadditions:block_grinder>,
-#        [[<ore:ingotSteel>, <extrautils2:spike_diamond>, <ore:ingotSteel>],
-#         [<actuallyadditions:item_misc:7>, <ore:frameSteel>, <actuallyadditions:item_misc:7>],
-#         [<actuallyadditions:item_crystal>, <ore:ingotSteel>, <actuallyadditions:item_crystal>]]);
-#    recipes.addShaped(<actuallyadditions:block_grinder_double>,
-#        [[<ore:cobblestone>, <actuallyadditions:item_misc:8>, <ore:cobblestone>],
-#         [<actuallyadditions:block_grinder:*>, <ore:frameSteel>, <actuallyadditions:block_grinder:*>],
-#         [<ore:cobblestone>, <actuallyadditions:item_misc:8>, <ore:cobblestone>]]);
-#    recipes.addShapeless(<actuallyadditions:block_laser_relay_item_whitelist>,
-#        [<actuallyadditions:block_laser_relay_item>, <actuallyadditions:item_misc:8>, <ore:gemDark>, <actuallyadditions:item_crystal>]);
-#    recipes.addShapeless(<actuallyadditions:block_inputter_advanced>,
-#        [<actuallyadditions:block_inputter>, <actuallyadditions:item_misc:8>, <ore:gemDark>, <actuallyadditions:item_crystal>]);
-
 # Advanced Rocketry
     recipes.remove(<advancedrocketry:blastbrick>);
     recipes.addShaped(<advancedrocketry:blastbrick> * 9,
@@ -95,77 +42,6 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:stone>, <ore:gearBrass>, <ore:stone>],
          [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
-
-# Ars Magica 2
-#    recipes.remove(<arsmagica2:arcane_reconstructor>);
-#    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
-#        [[<ore:dustVinteum>,mending,<ore:dustVinteum>],
-#         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
-#         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
-#    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
-#        [[<ore:dustVinteum>,mending2,<ore:dustVinteum>],
-#         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
-#         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
-#    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
-#        [[<ore:dustVinteum>,mending3,<ore:dustVinteum>],
-#         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
-#         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
-#    recipes.addShaped(<arsmagica2:arcane_reconstructor>,
-#        [[<ore:dustVinteum>,mending4,<ore:dustVinteum>],
-#         [<ore:ingotSilver>,<arsmagica2:crafting_altar>,<ore:ingotSilver>],
-#         [<ore:ingotSilver>,<arsmagica2:magic_wall>,<ore:ingotSilver>]]);
-#    recipes.remove(<arsmagica2:armor_imbuer>);
-#    recipes.addShaped(<arsmagica2:armor_imbuer>,
-#        [[<arsmagica2:crafting_altar>,<minecraft:carpet:*>,<arsmagica2:crafting_altar>],
-#         [<ore:obsidian>,<minecraft:enchanting_table>,<ore:obsidian>],
-#         [<ore:obsidian>,<ore:blockSilver>,<ore:obsidian>]]);
-#    recipes.remove(<arsmagica2:crafting_altar>);
-#    recipes.addShaped(<arsmagica2:crafting_altar>,
-#        [[<ore:nuggetSilver>,<ore:dustVinteum>,<ore:nuggetSilver>],
-#         [<ore:nuggetSilver>,<ore:bricksStone>,<ore:nuggetSilver>],
-#         [<ore:nuggetSilver>,<ore:ingotSilver>,<ore:nuggetSilver>]]);
-#    recipes.remove(<arsmagica2:occulus>);
-#    recipes.addShaped(<arsmagica2:occulus>,
-#        [[<ore:ingotSilver>,<ore:gemBlueTopaz>,<ore:ingotSilver>],
-#         [null,<ore:ingotSilver>,null],
-#         [<ore:bricksStone>,<ore:bricksStone>,<ore:bricksStone>]]);
-#    recipes.addShaped(<arsmagica2:flicker_habitat>,
-#        [[<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
-#         [<ore:dustVinteum>, <arsmagica2:block:1>, <ore:dustVinteum>],
-#         [<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>]]);
-#    recipes.addShaped(<arsmagica2:flicker_lure>,
-#        [[<ore:gemChimerite>, <ore:ingotSilver>],
-#         [<ore:dustVinteum>, <minecraft:stonebrick:*>],
-#         [<minecraft:stonebrick:*>, <minecraft:stonebrick:*>]]);
-#    recipes.remove(<arsmagica2:iron_inlay>);
-#    recipes.addShaped(<arsmagica2:iron_inlay>,
-#        [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
-#         [<ore:ingotSilver>, <ore:arcaneAsh>, <ore:ingotSilver>],
-#         [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
-#    recipes.addShaped(<arsmagica2:flicker_focus:1>,
-#        [[<minecraft:porkchop>, <minecraft:beef>, <minecraft:chicken>],
-#         [<arsmagica2:flicker_jar:3>, <dungeontactics:silver_cutlass>, <arsmagica2:flicker_jar:9>],
-#         [<arsmagica2:rune:1>, <arsmagica2:evil_book>, <arsmagica2:rune:1>]]);
-#    recipes.addShaped(<arsmagica2:flicker_focus:4>,                # Change iron tools to silver tools
-#        [[<minecraft:iron_shovel>, null, <minecraft:iron_pickaxe>],
-#         [<arsmagica2:flicker_jar:4>, <arsmagica2:essence:4>, <arsmagica2:flicker_jar:7>],
-#         [null, <arsmagica2:rune>, null]]);
-#    recipes.addShaped(<arsmagica2:summoner>,
-#        [[<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
-#         [<ore:ingotSilver>, <minecraft:obsidian:*>, <ore:ingotSilver>],
-#         [<minecraft:obsidian:*>, <minecraft:obsidian:*>, <minecraft:obsidian:*>]]);
-#    recipes.addShaped(<arsmagica2:crystal_wrench>,
-#        [[<ore:ingotSilver>, null, <ore:ingotSilver>],
-#         [<arsmagica2:cerublossom:*>, <ore:dustVinteum>, <arsmagica2:desert_nova:*>],
-#         [null, <ore:ingotSilver>, null]]);
-#    recipes.addShaped(<arsmagica2:flicker_jar>,
-#        [[<ore:nuggetSilver>, <arsmagica2:magic_wall:*>, <ore:nuggetSilver>],
-#         [<ore:paneGlassColorless>, null, <ore:paneGlassColorless>],
-#         [null, <ore:paneGlassColorless>, null]]);
-#    recipes.addShaped(<arsmagica2:keystone>,
-#        [[<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>],
-#         [<ore:ingotSilver>, <ore:dustVinteum>, <ore:ingotSilver>],
-#         [<ore:ingotGold>, <ore:ingotSilver>, <ore:ingotGold>]]);
 
 # Better Beginnings
     #recipes.remove(<betterbeginnings:kiln>);
