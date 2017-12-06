@@ -12,7 +12,10 @@ import loottweaker.vanilla.loot.Functions;
   zombie_pool1.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []);
   zombie_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 1, 0, [], []);
   zombie_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 1, 0, [], []);
-  
+
+# ==============================
+# =====    Abyssalcraft    =====
+# ==============================
   # Remove Abyssalcraft's ingots and add the favored ingot type
   val simple_dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
   val simple_dungeon_main = simple_dungeon.getPool("main");
@@ -60,10 +63,27 @@ import loottweaker.vanilla.loot.Functions;
   blacksmith_main.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
   blacksmith_main.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
   blacksmith_main.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
-  
-# Astral Sorcery
+
+
+# ==============================
+# =====   Astral Sorcery   =====
+# ==============================
   val as_shrine = LootTables.getTable("astralsorcery:loot_tables/chest_shrine");
   val as_shrine_pool = as_shrine.getPool("astralsorcery:chest_shrine");
   as_shrine_pool.addItemEntryHelper(<immersiveengineering:metal:0>, 15, 0, [Functions.setCount(2, 5)], []); # Add copper ingot
   as_shrine_pool.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(2, 5)], []); # Add tin ingot
   as_shrine_pool.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(2, 5)], []); # Add zinc ingot
+
+# ==============================
+# =====     Ender  Zoo     =====
+# ==============================
+  <entity:enderzoo:fallenknight>.addDrop(<xreliquary:mob_ingredient> % 2);
+  <entity:enderzoo:fallenknight>.addDrop(<xreliquary:mob_ingredient:1> % 2);
+  <entity:enderzoo:fallenknight>.addDrop(<xreliquary:mob_ingredient:6> % 2);
+  
+# ==============================
+# ===== Tinker's Construct =====
+# ==============================
+  val tc_slime = LootTables.getTable("tconstruct:entities/blueslime");
+  val tc_slime_crystal = tc_slime.addPool("crystal", 1, 1, 0, 0)
+  tc_slime_crystal.addItemEntryHelper(<xreliquary:mob_ingredient:4>, 1, 0, [], [Condition.randomChanceWithLooting(0.1, 0.05)]); # Add slime crystal
