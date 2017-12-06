@@ -273,6 +273,14 @@ print("192");
         [[<ore:ingotIridium>],
          [<ore:ingotIridium>]]);
 
+# Mekanism
+    # Teleportation Core
+    recipes.remove(<mekanism:teleportationcore>);
+    recipes.addShaped(<mekanism:teleportationcore>,
+        [[<ore:enderpearl>, <mekanism:atomicalloy>, <ore:enderpearl>],
+         [<ore:ingotOsmium>, <biomesoplenty:terrestrial_artifact>, <ore:ingotOsmium>],
+         [<ore:enderpearl>, <mekanism:atomicalloy>, <ore:enderpearl>]]);
+
 # More Bees
 #    recipes.addShapeless(<morebees:diamond_fragment>*9,[<ore:gemDiamond>]);
 #    recipes.addShapeless(<morebees:emerald_fragment>*9,[<ore:gemEmerald>]);
