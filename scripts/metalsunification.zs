@@ -290,8 +290,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 
 # Zinc
     val list_zinc = [
-    #    nugget,               ingot,                block,               plate,                Gear                  ore                  dust
-        [ctMat.withDamage(80), ctMat.withDamage(81), ctOr1.withDamage(9), ctMat.withDamage(79), ctMat.withDamage(78), ctOre.withDamage(9), ctMat.withDamage(77)],
+    #    nugget,                     ingot,                     block,                     plate,                     Gear                      ore                  dust
+        [<materialpart:zinc:nugget>, <materialpart:zinc:ingot>, <materialpart:zinc:block>, <materialpart:zinc:plate>, <materialpart:zinc:gear>, ctOre.withDamage(9), <materialpart:zinc:dust>],
         [<primal:zinc_nugget>,    <primal:zinc_ingot>,     <primal:metalblock:8>,     <primal:zinc_plate>,     nope, nope, <primal:zinc_dust>],
         #[nope, nope, nope, nope, nope, nope, <rockhounding_chemistry:chemicalDusts:20>]
     ] as crafttweaker.item.IItemStack[][];
