@@ -86,4 +86,4 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
   val tc_slime = LootTables.getTable("tconstruct:entities/blueslime");
   val tc_slime_crystal = tc_slime.addPool("crystal", 1, 1, 0, 0);
-  tc_slime_crystal.addItemEntryHelper(<xreliquary:mob_ingredient:4>, 1, 0, [], [Condition.randomChanceWithLooting(0.1, 0.05)]); # Add slime crystal
+  tc_slime_crystal.addItemEntryHelper(<xreliquary:mob_ingredient:4>, 1, 0, [], [Conditions.randomChanceWithLooting(0.1, 0.05)]); # Add slime crystal
