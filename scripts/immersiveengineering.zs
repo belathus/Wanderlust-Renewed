@@ -9,38 +9,30 @@
         mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 2, 1000, <ore:itemAnthracite>, 1800);
 
 # Crusher
+    val amt = 3;
+    val chance = 0.30;
     # Advanced Rocketry
         mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productdust:3>);
         mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:3>,<libvulpes:productingot:3>,200);
         mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:3>,<ore:itemSilicon>,200);
 
     # Astral Sorcery
-        mods.immersiveengineering.Crusher.addRecipe(<astralsorcery:itemcraftingcomponent:2>*2,<astralsorcery:blockcustomore:1>,3600,<immersiveengineering:metal:18>,0.2);
+        mods.immersiveengineering.Crusher.addRecipe(<astralsorcery:itemcraftingcomponent:2> * amt, <astralsorcery:blockcustomore:1>, 3600, <immersiveengineering:metal:18>, chance);
         
     # Dungeon Tactics
-        mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder>,<dungeontactics:flower_cinder>,200,<minecraft:blaze_powder>,0.2);
+        mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder>, <dungeontactics:flower_cinder>, 200, <minecraft:blaze_powder>, 0.2);
         
     # Evilcraft
-        mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dark_gem_crushed>,<abyssalcraft:shadowgem>,600);
+        mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dark_gem_crushed>, <abyssalcraft:shadowgem>,600);
 
-    # Extra Utilities
-        #mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>,<extrautils2:redorchid>,600);
-    
     # PrimalCore
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*4,<primal:sharp_bone:*>,600);
         
     # Platinum processing
         mods.immersiveengineering.Crusher.removeRecipe(<contenttweaker:sub_block_holder_2:2>);
         mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
-        mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:material_part:49>*2,<contenttweaker:sub_block_holder_2:2>,3600,<contenttweaker:material_part:35>,0.20);
-        mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:material_part:49>*2,<thermalfoundation:ore:6>,3600,<contenttweaker:material_part:35>,0.20);
-
-    # Quartz Enriched Iron stuff
-        #mods.immersiveengineering.Crusher.addRecipe(<actuallyadditions:itemDust:5>, <minecraft:quartz>, 900);
-        #mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:material_part:81>, <refinedstorage:quartz_enriched_iron>, 1800);
-
-    # Railcraft Firestone
-        #mods.immersiveengineering.Crusher.addRecipe(<railcraft:firestone_raw>,<railcraft:ore_magic:0>,3600);
+        mods.immersiveengineering.Crusher.addRecipe(<materialpart:platinum:dust>.getItemStack() * amt, <contenttweaker:sub_block_holder_2:2>, 3600, <materialpart:iridium:dust>.getItemStack(), chance);
+        mods.immersiveengineering.Crusher.addRecipe(<materialpart:platinum:dust>.getItemStack() * amt, <thermalfoundation:ore:6>, 3600, <materialpart:iridium:dust>.getItemStack(), chance);
 
     # Rockhounding Ores
         # Magnetite
