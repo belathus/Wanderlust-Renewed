@@ -53,7 +53,6 @@
         mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>*1,<rockhounding_oretiers:iron_ores:7>,3600);
         
 # Excavator
-/*
     # Bauxite:     weight:20, fail:20%, Aluminum:0.90, Titanium:0.05, Dense Aluminum:0.05
         mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("oreRuby", 0.015);
         mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("oreSapphire", 0.02);
@@ -89,7 +88,7 @@
     # Sphalerite: adding new mineral group
         mods.immersiveengineering.Excavator.addMineral("Sphalerite", 15, 0.2, ["oreZinc", "oreGoethite"], [0.75, 0.25]);
     # Silver:      weight:10, Fail:20%, Silver:0.55, Lead:0.4, Dense Silver:0.05
-        mods.immersiveengineering.Excavator.getMineral("Silver").addOre("oreVinteum", 0.1624);
+        #mods.immersiveengineering.Excavator.getMineral("Silver").addOre("oreVinteum", 0.1624);
     # Uranium:     weight:10, Fail:35%, Uranium:0.55, Lead:0.30, Plutonium:0.10, Dense Uranium:0.05
         mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("oreResonating", 0.15);
         
@@ -98,16 +97,15 @@
     # Vinteum Vein
         #mods.immersiveengineering.Excavator.addMineral("Vinteum", 20, 0.2, ["oreVinteum", "oreBlueTopaz", "oreMoonstone"], [0.6287, 0.2571, 0.1142]);
     # Meteorite Vein
-        #mods.immersiveengineering.Excavator.addMineral("Meteorite", 10, 0.5, ["oreIron", "oreSunstone", "oreMoonstone"], [0.4805, 0.3147, 0.2048]);
+        #mods.immersiveengineering.Excavator.addMineral("Meteorite", 10, 0.5, ["oreLimonite", "oreSunstone", "oreMoonstone"], [0.4805, 0.3147, 0.2048]);
     # Dark Ore Vein
-        mods.immersiveengineering.Excavator.addMineral("Blackened", 10, 0.5, ["oreDark", "oreIron", "oreMithril"], [0.6452, 0.2569, 0.0979]);
+        mods.immersiveengineering.Excavator.addMineral("Blackened", 10, 0.5, ["oreDark", "oreGoethite", "oreMithril"], [0.6452, 0.2569, 0.0979]);
     # Radioactive Vein
         mods.immersiveengineering.Excavator.addMineral("Radioactive", 15, 0.3, ["oreRedstone", "oreResonating"], [0.7024, 0.2119]);
     # Fossil Vein
         mods.immersiveengineering.Excavator.addMineral("Fossil", 20, 0.1, ["blockBone", "oreCoal", "oreDiamond"], [0.6158, 0.3784, 0.0058]);
     # Mineral Vein
-        mods.immersiveengineering.Excavator.addMineral("Mineral", 15, 0.2, ["oreUninspected"], [1.0]);
-*/
+        #mods.immersiveengineering.Excavator.addMineral("Mineral", 15, 0.2, ["oreUninspected"], [1.0]);
 
 # Squeezer
     #mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
