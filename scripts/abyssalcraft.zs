@@ -6,10 +6,18 @@
   game.setLocalization("ac.ritual.sharpnessRitual", "Extreme Sharpness Infusion");
   game.setLocalization("ac.ritual.sharpnessRitual.desc", "Empowers an enchanted book with sharpness by infusing it with catalysts from multiple magical disciplines.");
 
+  val nugget = <materialpart:philosophers_gold:nugget>.getItemStack();
   # mods.abyssalcraft.InfusionRitual.addRitual(<unlocalizedName>, <bookType>, <dimension>, <requiredEnergy>, <livingSacrifice>, <item>, <sacrifice>, [offerings], nbt*, [tags]*)
   mods.abyssalcraft.InfusionRitual.addRitual("vengeanceUpgrade",
     2, 51, 15000, false, <evilcraft:vengeance_pickaxe>.withTag({ench: [{lvl: 5 as short, id: 35 as short}, {lvl: 3 as short, id: 68 as short}]}), <evilcraft:vengeance_pickaxe>,
-    [<quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 35 as short}]}), <materialpart:philosophers_gold:ingot>.getItemStack()], false, ["ench"]);
+    [<quark:ancient_tome>.withTag({ench: [{lvl: 3 as short, id: 35 as short}]}), nugget, <ore:dropofevil>, nugget, <ore:dropofevil>, nugget, <ore:dropofevil>, nugget], true, ["ench"]);
 
   game.setLocalization("ac.ritual.vengeanceUpgrade", "Upgrading the Vengeance Pickaxe");
   game.setLocalization("ac.ritual.vengeanceUpgrade.desc", "Further empowers a vengeance pickaxe to bestow more fortune upon those who are willing to take the risk.");
+
+  mods.abyssalcraft.InfusionRitual.addRitual("dropofevil",
+    1, 0, 1000, false, <extrautils2:ingredients:10>, <minecraft:ghast_tear>,
+    [<nex:item_dust_wither>, <nex:item_dust_wither>, <nex:item_dust_wither>, <nex:item_dust_wither>], false, []);
+
+  game.setLocalization("ac.ritual.dropofevil", "Creating a Drop of Evil");
+  game.setLocalization("ac.ritual.dropofevil.desc", "The drop of evil is a potent substance; it can empower monsters that come near it. Using it to empower a spawner or the very dirt beneath your feet might be useful in a controlled environment.");
