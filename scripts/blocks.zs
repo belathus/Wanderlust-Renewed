@@ -187,10 +187,10 @@
 
 # Mekanism
     recipes.remove(<mekanism:cardboardbox>);
-    recipes.addShaped(<mekanism:cardboardbox>,
-        [[<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>],
-         [<ore:pulpWood>, <minecraft:nether_star>, <ore:pulpWood>],
-         [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]]);
+    #recipes.addShaped(<mekanism:cardboardbox>,
+    #    [[<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>],
+    #     [<ore:pulpWood>, <minecraft:nether_star>, <ore:pulpWood>],
+    #     [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]]);
 
 # PrimalCore
     recipes.addShaped(<primal:mud_clump>*64,
