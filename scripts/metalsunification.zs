@@ -217,8 +217,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 
 # Platinum
     val list_platinum = [
-    #    nugget                ingot                 block                plate                 gear                  ore                  dust
-        [ctMat.withDamage(52), ctMat.withDamage(53), ctOr2.withDamage(4), ctMat.withDamage(51), ctMat.withDamage(25), ctOr2.withDamage(3), ctMat.withDamage(49)],
+    #    nugget                         ingot                         block                         plate                         gear                          ore                  dust
+        [<materialpart:platinum:nugget>,<materialpart:platinum:ingot>,<materialpart:platinum:block>,<materialpart:platinum:plate>,<materialpart:platinum:gear>, ctOr2.withDamage(3),<materialpart:platinum:dust>],
         [teMat.withDamage(198),teMat.withDamage(134),teSto.withDamage(6),teMat.withDamage(326),teMat.withDamage(262),teOre.withDamage(6), teMat.withDamage(70)],
         #[nope, nope, nope, nope, nope, nope, <rockhounding_chemistry:chemicalDusts:44>]
     ] as crafttweaker.item.IItemStack[][];
