@@ -44,3 +44,26 @@
 #        [[null,<arsmagica2:essence:5>,null],
 #         [<arsmagica2:gold_inlay>,<abyssalcraft:aboots>,<arsmagica2:gold_inlay>],
 #         [null,<arsmagica2:essence:5>,null]]);
+
+# Tinker's Construct
+    recipes.remove(<tconstruct:slime_boots:*>);
+    recipes.addShaped(<tconstruct:slime_boots>,
+        [[<ore:ingotKnightslime>, <dungeontactics:bounce_boots:*>, <ore:ingotKnightslime>],
+         [<ore:ingotKnightslime>, null, <ore:ingotKnightslime>],
+         [<tconstruct:slime_congealed>, null, <tconstruct:slime_congealed>]]);
+    recipes.addShaped(<tconstruct:slime_boots:1>,
+        [[<ore:ingotKnightslime>, <dungeontactics:bounce_boots:*>, <ore:ingotKnightslime>],
+         [<ore:ingotKnightslime>, null, <ore:ingotKnightslime>],
+         [<tconstruct:slime_congealed:1>, null, <tconstruct:slime_congealed:1>]]);
+    recipes.addShaped(<tconstruct:slime_boots:2>,
+        [[<ore:ingotKnightslime>, <dungeontactics:bounce_boots:*>, <ore:ingotKnightslime>],
+         [<ore:ingotKnightslime>, null, <ore:ingotKnightslime>],
+         [<tconstruct:slime_congealed:2>, null, <tconstruct:slime_congealed:2>]]);
+    recipes.addShaped(<tconstruct:slime_boots:3>,
+        [[<ore:ingotKnightslime>, <dungeontactics:bounce_boots:*>, <ore:ingotKnightslime>],
+         [<ore:ingotKnightslime>, null, <ore:ingotKnightslime>],
+         [<tconstruct:slime_congealed:3>, null, <tconstruct:slime_congealed:3>]]);
+    recipes.addShaped(<tconstruct:slime_boots:4>,
+        [[<ore:ingotKnightslime>, <dungeontactics:bounce_boots:*>, <ore:ingotKnightslime>],
+         [<ore:ingotKnightslime>, null, <ore:ingotKnightslime>],
+         [<tconstruct:slime_congealed:4>, null, <tconstruct:slime_congealed:4>]]);
