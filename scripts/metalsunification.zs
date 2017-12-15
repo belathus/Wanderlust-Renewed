@@ -301,8 +301,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     
     # Philosopher's Gold
     #furnace.addRecipe(ctMat.withDamage(127), <everlastingabilities:abilityTotem>, 1.0);
-    val pnugget = <materialpart:philosophersgold:nugget>.getItemStack();
-    val pingot = <materialpart:philosophersgold:ingot>.getItemStack();
+    var pnugget = <contenttweaker:material_part:132>;
+    var pingot = <contenttweaker:material_part:133>;
     recipes.addShapeless(pnugget * 9, [pingot]);
     recipes.addShapeless(pingot, 
         [pnugget,pnugget,pnugget,
