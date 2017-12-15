@@ -5,6 +5,9 @@
 # Vanilla
     mods.forestry.Squeezer.addRecipe(<liquid:water> * 250, [<primal:valus_melon>], 20, <forestry:fertilizer_bio> % 5);
 
+# Applied Energistics
+    mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material>, [[<ore:gemQuartz>]], 10, <liquid:menrilresin> * 1000);
+
 # Biomes O' Plenty
     mods.forestry.Squeezer.addRecipe(<liquid:blood> * 15, [<minecraft:rotten_flesh>], 20, <forestry:fertilizer_bio> % 5);
 
@@ -27,8 +30,8 @@
     mods.forestry.Squeezer.addRecipe(<liquid:evilcraftpoison> * 250, [<evilcraft:poison_sac>], 20, <biomesoplenty:jelled_poison> % 5);
 
 # Immersive Engineering
-    mods.forestry.Carpenter.addRecipe(<immersiveengineering:treated_wood>, [[<ore:plankWood>]], 20, <liquid:creosote> * 125);
-    mods.forestry.Carpenter.addRecipe(<immersiveengineering:wooden_device0>, [[<ore:chestWood>]], 180, <liquid:creosote> * 1000);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:treated_wood>, [[<ore:plankWood>]], 10, <liquid:creosote> * 125);
+    mods.forestry.Carpenter.addRecipe(<immersiveengineering:wooden_device0>, [[<ore:chestWood>]], 90, <liquid:creosote> * 1000);
     mods.forestry.Carpenter.addRecipe(<immersiveengineering:wooden_device0>,
         [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
          [<ore:plankWood>, null,            <ore:plankWood>],
