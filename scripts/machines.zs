@@ -22,11 +22,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotNickel>,null,<ore:ingotNickel>],
          [<ore:ingotNickel>,<ore:chest>,<ore:ingotNickel>],
          [null,<ore:ingotNickel>,null]]);
-    #recipes.remove(<minecraft:furnace>);
-    #recipes.addShaped(<minecraft:furnace>,
-    #    [[null, <ore:bricksStone>, null],
-    #     [<ore:bricksStone>,null,<ore:bricksStone>],
-    #     [<ore:slabStoneBricks>,<ore:slabStoneBricks>,<ore:slabStoneBricks>]]);
+    recipes.remove(<minecraft:furnace>);
+    recipes.addShaped(<minecraft:furnace>,
+        [[<tconstruct:materials:2>,<tconstruct:materials:2>,<tconstruct:materials:2>],
+         [<tconstruct:materials:2>,<ore:charcoal>,          <tconstruct:materials:2>],
+         [<tconstruct:materials:2>,<tconstruct:materials:2>,<tconstruct:materials:2>]]);
 
 # Advanced Rocketry
     recipes.remove(<advancedrocketry:blastbrick>);
@@ -42,31 +42,6 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:stone>, <ore:gearBrass>, <ore:stone>],
          [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
-
-# Better Beginnings
-    #recipes.remove(<betterbeginnings:kiln>);
-    #recipes.addShaped(<betterbeginnings:kiln>,
-    #    [[<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>],
-    #     [<ore:cobblestone>, null, <ore:cobblestone>],
-    #     [<ore:blockBrick>, <ore:cobblestone>, <ore:blockBrick>]]);
-    #recipes.addShaped(<betterbeginnings:kiln>,
-    #    [[<tconstruct:dried_clay:1>, <ore:cobblestone>, <tconstruct:dried_clay:1>],
-    #     [<ore:cobblestone>, null, <ore:cobblestone>],
-    #     [<tconstruct:dried_clay:1>, <ore:cobblestone>, <tconstruct:dried_clay:1>]]);
-
-# Blood Magic
-    # Altar
-#    recipes.remove(<bloodmagic:BlockAltar>);
-#    recipes.addShaped(<bloodmagic:BlockAltar>,
-#        [[<ore:stone>,null,<ore:stone>],
-#         [<ore:stone>,<minecraft:furnace>,<ore:stone>],
-#         [<ore:ingotSilver>,<bloodmagic:ItemMonsterSoul>,<ore:ingotSilver>]]);
-    # Soul Forge
-#    recipes.remove(<bloodmagic:BlockSoulForge>);
-#    recipes.addShaped(<bloodmagic:BlockSoulForge>,
-#        [[<ore:ingotSilver>,null,<ore:ingotSilver>],
-#         [<ore:hardenedClay>,<ore:ingotGold>,<ore:hardenedClay>],
-#         [<ore:hardenedClay>,<ore:blockSilver>,<ore:hardenedClay>]]);
 
 # Bibliocraft
     recipes.addShaped(<bibliocraft:furniturepaneler>,
