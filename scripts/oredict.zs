@@ -34,6 +34,8 @@
     <ore:bricksStone>.add(<minecraft:stonebrick:2>);
     <ore:bricksStone>.add(<minecraft:stonebrick:3>);
     #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
+# Certus
+    <ore:oreCertusQuartzOnly>.add(<appliedenergistics2:quartz_ore>);
 # Coils
     <ore:coilCopper>.add(<immersiveengineering:metal_decoration0>);
 #    <ore:coilCopper>.add(<rockhounding_chemistry:misc_items:20>);
