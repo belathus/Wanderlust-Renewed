@@ -142,19 +142,19 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 
 # Copper
     val list_copper = [
-        # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(20), ieMat,               ieSto,               ieMat.withDamage(30), ctMat.withDamage(91), ieOre.withDamage(0), ieMat.withDamage(9)],
-        #[nope,                 nope,                nope,                nope,                 nope,                  nope,                <enderio:itemPowderIngot:3>],
-        [nope,                 <abyssalcraft:copperingot>, nope,         nope,                 nope,                  <abyssalcraft:abycopore>, nope],
-        [lvNug.withDamage(4),  lvIng.withDamage(4), lvSto.withDamage(4), lvPla.withDamage(4),  nope,                  lvOre.withDamage(4),      nope],
-        #[nope,                <fp:ItemErze:2>,     <fp:erz_blocke:2>,   nope,                 nope,                  nope,                nope],
-        [nope,                 <forestry:ingot_copper>, <forestry:resource_storage:1>, nope,     <forestry:gear_copper>, <forestry:resources:1>, nope],
-        #[<embers:nuggetCopper>,<embers:ingotCopper>,<embers:blockCopper>,<embers:plateCopper>, nope,                 nope,                 nope],
-        #[<esteemedinnovation:nugget>,<esteemedinnovation:ingot>,<esteemedinnovation:metal_storage_block>, nope,nope, nope,                 nope],
-        [<primal:copper_nugget>,<primal:copper_ingot>, <primal:metalblock:10>,nope,             nope,                  nope,                 <primal:copper_dust>],
-        #[<railcraft:nugget:2>, <railcraft:ingot:1>, <railcraft:generic>, nope,                nope,                  nope,                 nope],
-        #[nope,                <rockhounding_chemistry:miscItems:25>,nope,nope,                nope,                  nope,                 <rockhounding_chemistry:chemicalDusts:17>],
-        [teMat.withDamage(192), teMat.withDamage(128), teSto,            teMat.withDamage(320),teMat.withDamage(256), teOre,                teMat.withDamage(64)],
+        # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]                    Ore [5]              Dust [6]
+        [ieMat.withDamage(20), ieMat,               ieSto,               ieMat.withDamage(30), <materialpart:copper:gear>, ieOre.withDamage(0), ieMat.withDamage(9)],
+        #[nope,                 nope,                nope,                nope,                 nope,                      nope,                <enderio:itemPowderIngot:3>],
+        [nope,                 <abyssalcraft:copperingot>, nope,         nope,                 nope,                       <abyssalcraft:abycopore>, nope],
+        [lvNug.withDamage(4),  lvIng.withDamage(4), lvSto.withDamage(4), lvPla.withDamage(4),  nope,                       lvOre.withDamage(4),      nope],
+        #[nope,                <fp:ItemErze:2>,     <fp:erz_blocke:2>,   nope,                 nope,                       nope,                nope],
+        [nope,                 <forestry:ingot_copper>, <forestry:resource_storage:1>, nope,     <forestry:gear_copper>,   <forestry:resources:1>, nope],
+        #[<embers:nuggetCopper>,<embers:ingotCopper>,<embers:blockCopper>,<embers:plateCopper>, nope,                      nope,                 nope],
+        #[<esteemedinnovation:nugget>,<esteemedinnovation:ingot>,<esteemedinnovation:metal_storage_block>, nope,nope,      nope,                 nope],
+        [<primal:copper_nugget>,<primal:copper_ingot>, <primal:metalblock:10>,nope,             nope,                      nope,                 <primal:copper_dust>],
+        #[<railcraft:nugget:2>, <railcraft:ingot:1>, <railcraft:generic>, nope,                nope,                       nope,                 nope],
+        #[nope,                <rockhounding_chemistry:miscItems:25>,nope,nope,                nope,                       nope,                 <rockhounding_chemistry:chemicalDusts:17>],
+        [teMat.withDamage(192), teMat.withDamage(128), teSto,            teMat.withDamage(320),teMat.withDamage(256),      teOre,                teMat.withDamage(64)],
         [<mekanism:nugget:5>,<mekanism:ingot:5>,<mekanism:basicblock:12>,nope,nope,nope,nope]
     ] as crafttweaker.item.IItemStack[][];
     var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>,<ore:dustCopper>] as crafttweaker.item.IIngredient[];
@@ -164,7 +164,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Constantan
     var list_constantan = [
         # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5] Dust [6]
-        [ieMat.withDamage(26), ieMat.withDamage(6), ieSto.withDamage(6), ieMat.withDamage(36), ctMat.withDamage(104), nope,   ieMat.withDamage(15)],
+        [ieMat.withDamage(26), ieMat.withDamage(6), ieSto.withDamage(6), ieMat.withDamage(36), <materialpart:constantan:gear>, nope,   ieMat.withDamage(15)],
         [teMat.withDamage(228),teMat.withDamage(164),<thermalfoundation:storage_alloy:4>,teMat.withDamage(356),teMat.withDamage(292),nope,teMat.withDamage(100)]
     ] as crafttweaker.item.IItemStack[][];
     var constantan_oredict = [<ore:nuggetConstantan>,<ore:ingotConstantan>,<ore:blockConstantan>,<ore:plateConstantan>,<ore:gearConstantan>,<ore:oreConstantan>,<ore:dustConstantan>] as crafttweaker.item.IIngredient[];
@@ -179,7 +179,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Iron
     var list_iron = [ 
     #    nugget                  ingot                    block                    plate                 gear                   ore                   dust
-        [ieMat.withDamage(29),  <minecraft:iron_ingot>,  <minecraft:iron_block>,   ieMat.withDamage(39), ctMat.withDamage(174), <minecraft:iron_ore>, ieMat.withDamage(18)],
+        [ieMat.withDamage(29),  <minecraft:iron_ingot>,  <minecraft:iron_block>,   ieMat.withDamage(39), <materialpart:iron:gear>, <minecraft:iron_ore>, ieMat.withDamage(18)],
         [nope,              nope, nope, nope,         nope,        <abyssalcraft:abyiroore>,nope],
         #[<basemetals:iron_nugget>, nope, nope, <basemetals:iron_plate>, nope, nope, nope],
         #[nope, nope, nope, nope, nope, nope, <enderio:itemPowderIngot:1>],
@@ -196,7 +196,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Lead
     var list_lead = [ 
         # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(22), ieMat.withDamage(2), ieSto.withDamage(2), ieMat.withDamage(32), ctMat.withDamage(175), ieOre.withDamage(2), ieMat.withDamage(11)],
+        [ieMat.withDamage(22), ieMat.withDamage(2), ieSto.withDamage(2), ieMat.withDamage(32), <materialpart:lead:gear>, ieOre.withDamage(2), ieMat.withDamage(11)],
         [<primal:lead_nugget>, <primal:lead_ingot>, <primal:metalblock:7>, <primal:lead_plate>,  nope,                  nope,                <primal:lead_dust>],
         #[nope,         <rockhounding_chemistry:miscItems:27>,nope,         nope,         nope,         nope,     <rockhounding_chemistry:chemicalDusts:19>],
         [teMat.withDamage(195),teMat.withDamage(131),     teSto.withDamage(3),   teMat.withDamage(323),teMat.withDamage(259),teOre.withDamage(3),   teMat.withDamage(67)]
@@ -208,7 +208,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Nickel
     var list_nickel = [
         # Nugget [0]           Ingot [1]             Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(24), ieMat.withDamage(4),  ieSto.withDamage(4), ieMat.withDamage(34), ctMat.withDamage(176), ieOre.withDamage(4), ieMat.withDamage(13)],
+        [ieMat.withDamage(24), ieMat.withDamage(4),  ieSto.withDamage(4), ieMat.withDamage(34), <materialpart:nickel:gear>, ieOre.withDamage(4), ieMat.withDamage(13)],
         #[nope,                nope,                 nope,                nope,                 nope,                  nope,                <rockhounding_chemistry:chemicalDusts:26>],
         [teMat.withDamage(197),teMat.withDamage(133),teSto.withDamage(5), teMat.withDamage(325),teMat.withDamage(261), teOre.withDamage(5), teMat.withDamage(69)]
     ] as crafttweaker.item.IItemStack[][];
@@ -240,7 +240,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Steel
     val list_steel = [
     #     nugget,              ingot,                block,               plate,                gear,                  ore,  dust,                 stick
-        [ieMat.withDamage(28), ieMat.withDamage(8),  ieSto.withDamage(8), ieMat.withDamage(38), ctMat.withDamage(28),  nope, ieMat.withDamage(17), <immersiveengineering:material:2>],
+        [ieMat.withDamage(28), ieMat.withDamage(8),  ieSto.withDamage(8), ieMat.withDamage(38), <materialpart:steel:gear>,  nope, ieMat.withDamage(17), <immersiveengineering:material:2>],
         [lvNug.withDamage(6),  lvIng.withDamage(6),  lvSto.withDamage(6), lvPla.withDamage(6),  lvPla.withDamage(6),   nope, lvDus.withDamage(6),  <libvulpes:productrod:6>],
         [nope,                 <primal:steel_ingot>, <primal:metalblock:1>,<primal:steel_plate>, nope,                  nope, nope, nope],
         [teMat.withDamage(224),teMat.withDamage(160),<thermalfoundation:storage_alloy>,teMat.withDamage(352),teMat.withDamage(288),nope,teMat.withDamage(96), nope],
@@ -280,7 +280,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 # Uranium
     val list_uranium = [
     #    nugget,               ingot,               block,               plate,                Gear                   ore                  dust
-        [ieMat.withDamage(25), ieMat.withDamage(5), ieSto.withDamage(5), ieMat.withDamage(34), ctMat.withDamage(179), ieOre.withDamage(5), ieMat.withDamage(14)]
+        [ieMat.withDamage(25), ieMat.withDamage(5), ieSto.withDamage(5), ieMat.withDamage(34), <materialpart:uranium:gear>, ieOre.withDamage(5), ieMat.withDamage(14)]
         #[nope,                 nope,                nope,                nope,                 nope,                 nope,               <rockhounding_chemistry:chemicalDusts:43>]
     ] as crafttweaker.item.IItemStack[][];
     var uranium_oredict = [<ore:nuggetUranium>,<ore:ingotUranium>,<ore:blockUranium>,<ore:plateUranium>,<ore:gearUranium>,<ore:oreUranium>,<ore:dustUranium>] as crafttweaker.item.IIngredient[];
