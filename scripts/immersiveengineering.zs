@@ -145,6 +145,7 @@
     
 # Refinery
     mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:ethanol> * 8, <liquid:seed.oil> * 8, 80);
+    mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 20, <liquid:oxygen> * 10, <liquid:hydrogen> * 10, 1000);
     #mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:juice> * 8,   <liquid:seed.oil> * 8, 80);
     #mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:juice> * 8,   <liquid:plantoil> * 8, 80);
     
