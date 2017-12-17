@@ -17,7 +17,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "advancedrocketry:sawBlade",
+        "id": "advancedrocketry:sawblade",
         "damage": 0,
         "count": 1
       }
@@ -27,7 +27,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "libvulpes:holoProjector",
+        "id": "libvulpes:holoprojector",
         "damage": 0,
         "count": 1
       }
@@ -77,7 +77,7 @@
       "min": 2,
       "max": 3,
       "item": {
-        "id": "libvulpes:advancedMotor",
+        "id": "libvulpes:advancedmotor",
         "damage": 0,
         "count": 1
       }
@@ -87,31 +87,51 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "libvulpes:enhancedMotor",
+        "id": "libvulpes:enhancedmotor",
         "damage": 0,
         "count": 1
       }
     },
     {
       "weight": 1.0,
-      "min": 3,
-      "max": 9,
+      "min": 8,
+      "max": 32,
       "item": {
-        "id": "base:ingot",
-        "damage": 6,
+        "id": "minecraft:cactus",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 2,
+      "max": 6,
+      "item": {
+        "id": "contenttweaker:material_part",
+        "damage": 74,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.08515378087759018,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "contenttweaker:material_part",
+        "damage": 39,
         "count": 1
       }
     },
     {
       "weight": 1.0,
-      "min": 2,
-      "max": 6,
+      "min": 1,
+      "max": 2,
       "item": {
-        "id": "base:ingot",
-        "damage": 7,
+        "id": "immersiveengineering:storage",
+        "damage": 0,
         "count": 1
       }
     }
   ],
-  "dependencyExpression": "$libVulpes \u0026 $base \u0026 $advancedRocketry"
+  "dependencyExpression": "$libvulpes \u0026 $contenttweaker \u0026 $advancedrocketry"
 }
