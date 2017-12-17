@@ -274,48 +274,6 @@ print("192");
          [<ore:ingotIridium>]]);
 
 # Magic Bees
-
-    # Abyssalcraft + TE For Loops for Forestry Capsules
-    var antimatter_containers = [
-        <forestry:can:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
-        <forestry:capsule:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
-        <forestry:refractory:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
-        <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})
-    ] as crafttweaker.item.IItemStack[];
-    var coralium_containers = [
-        <forestry:can:1>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
-        <forestry:refractory:1>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
-        <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000})
-    ] as crafttweaker.item.IItemStack[];
-    for i, a_container in antimatter_containers {
-        for j, c_container in coralium_containers{
-            # Essence of False Life
-            recipes.addShaped(<magicbees:resource:7>,
-                [[null, a_container, null],
-                [<thermalfoundation:fertilizer:*>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:fertilizer:*>],
-                [null, c_container, null]]);
-            # Essence of a Shallow Grave
-            recipes.addShaped(<magicbees:resource:8>,
-                [[null, a_container, null],
-                [<thermalfoundation:material:864>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:864>],
-                [null, c_container, null]]);
-            # Essence of Fickle Permanence
-            recipes.addShaped(<magicbees:resource:12>,
-                [[null, a_container, null],
-                [<thermalfoundation:material:866>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:2051>],
-                [null, c_container, null]]);
-            # Essence of Lost Time
-            recipes.addShaped(<magicbees:resource:9>,
-                [[null, a_container, null],
-                [<thermalfoundation:material:2049>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:833>],
-                [null, c_container, null]]);
-            # Essence of Everlasting Durability
-            recipes.addShaped(<magicbees:resource:10>,
-                [[null, a_container, null],
-                [<thermalfoundation:material:2053>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:770>],
-                [null, c_container, null]]);
-        }
-    }
     # Essence of a False Life
     recipes.addShaped(<magicbees:resource:7>,
         [[null, <botania:rune:2>, null],
@@ -366,6 +324,47 @@ print("192");
         [[<botania:rune:12>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <thermalfoundation:material:894>],
         [<magicbees:resource:8>, <dungeontactics:flower_bramble>, <magicbees:resource:9>],
         [<evilcraft:inverted_potentia:1>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <xreliquary:mob_ingredient:8>]]);
+    # Abyssalcraft + TE For Loops for Forestry Capsules
+    var antimatter_containers = [
+        <forestry:can:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
+        <forestry:capsule:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
+        <forestry:refractory:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
+        <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})
+    ] as crafttweaker.item.IItemStack[];
+    var coralium_containers = [
+        <forestry:can:1>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
+        <forestry:refractory:1>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
+        <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000})
+    ] as crafttweaker.item.IItemStack[];
+    for i, a_container in antimatter_containers {
+        for j, c_container in coralium_containers{
+            # Essence of False Life
+            recipes.addShaped(<magicbees:resource:7>,
+                [[null, a_container, null],
+                [<thermalfoundation:fertilizer:*>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:fertilizer:*>],
+                [null, c_container, null]]);
+            # Essence of a Shallow Grave
+            recipes.addShaped(<magicbees:resource:8>,
+                [[null, a_container, null],
+                [<thermalfoundation:material:864>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:864>],
+                [null, c_container, null]]);
+            # Essence of Fickle Permanence
+            recipes.addShaped(<magicbees:resource:12>,
+                [[null, a_container, null],
+                [<thermalfoundation:material:866>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:2051>],
+                [null, c_container, null]]);
+            # Essence of Lost Time
+            recipes.addShaped(<magicbees:resource:9>,
+                [[null, a_container, null],
+                [<thermalfoundation:material:2049>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:833>],
+                [null, c_container, null]]);
+            # Essence of Everlasting Durability
+            recipes.addShaped(<magicbees:resource:10>,
+                [[null, a_container, null],
+                [<thermalfoundation:material:2053>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:770>],
+                [null, c_container, null]]);
+        }
+    }
 # Mekanism
     # Teleportation Core
     recipes.remove(<mekanism:teleportationcore>);
