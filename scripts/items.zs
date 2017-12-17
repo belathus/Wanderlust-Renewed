@@ -305,12 +305,12 @@ print("192");
                 [<thermalfoundation:material:866>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:2051>],
                 [null, c_container, null]]);
             # Essence of Lost Time
-            recipes.addShaped(<magicbees:resource:12>,
+            recipes.addShaped(<magicbees:resource:9>,
                 [[null, a_container, null],
                 [<thermalfoundation:material:2049>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:833>],
                 [null, c_container, null]]);
             # Essence of Everlasting Durability
-            recipes.addShaped(<magicbees:resource:12>,
+            recipes.addShaped(<magicbees:resource:10>,
                 [[null, a_container, null],
                 [<thermalfoundation:material:2053>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:770>],
                 [null, c_container, null]]);
@@ -362,7 +362,7 @@ print("192");
         [<xreliquary:mob_ingredient:4>, <dungeontactics:flower_bark>, <xreliquary:mob_ingredient:4>],
         [<evilcraft:dark_gem>, <xreliquary:mob_ingredient:10>, <evilcraft:dark_gem>]]);
     # Essence of Scornful Oblivion
-    recipes.addShaped(<magicbees:resource:10> * 3,
+    recipes.addShaped(<magicbees:resource:11> * 3,
         [[<botania:rune:12>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <thermalfoundation:material:894>],
         [<magicbees:resource:8>, <dungeontactics:flower_bramble>, <magicbees:resource:9>],
         [<evilcraft:inverted_potentia:1>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <xreliquary:mob_ingredient:8>]]);
