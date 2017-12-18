@@ -1121,7 +1121,7 @@
     </IfModInstalled>
 
     <!-- LibVulpes -->
-    <IfModInstalled name="libVulpes">
+    <IfModInstalled name="libvulpes">
         <Veins name='lvulRutileVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60555555' drawBoundBox='false' boundBoxColor='0x60555555'>
             <!-- Rutile ore! -->
             <Biome name=".*"/>
