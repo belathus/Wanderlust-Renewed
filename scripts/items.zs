@@ -329,14 +329,14 @@ print("192");
         [<evilcraft:inverted_potentia:1>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <xreliquary:mob_ingredient:8>]]);
     # Abyssalcraft + TE For Loops for Forestry Capsules
     var antimatter_containers = [
-        <forestry:can:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
-        <forestry:capsule:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
-        <forestry:refractory:1>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
+        <forestry:can:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
+        <forestry:capsule:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
+        <forestry:refractory:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
         <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})
     ] as crafttweaker.item.IItemStack[];
     var coralium_containers = [
-        <forestry:can:1>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
-        <forestry:refractory:1>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
+        <forestry:can:*>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
+        <forestry:refractory:*>.withTag({Fluid: {FluidName: "liquidcoralium", Amount: 1000}}),
         <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000})
     ] as crafttweaker.item.IItemStack[];
     for i, a_container in antimatter_containers {
