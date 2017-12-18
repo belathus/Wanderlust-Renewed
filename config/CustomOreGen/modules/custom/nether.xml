@@ -26,6 +26,7 @@
             </Description>
             <OreBlock block='minecraft:quartz_ore' weight='1.0' />
             <Replaces block='minecraft:netherrack' weight='1.0' />
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 6.247 * _default_ ' range=':= 6.247 * _default_ ' type='normal' scaleTo='base' />
@@ -58,6 +59,7 @@
                 <OreBlock block='rockhounding_oretiers:seamFire' weight='0.02' />
                 <OreBlock block='evilcraft:dark_ore' weight='0.01' />
                 <Replaces block='minecraft:netherrack' weight='1.0'/>
+                <Replaces block='nex:block_netherrack' weight='1.0' />
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                 <Replaces block='minecraft:lava' weight='1.0'/>
@@ -92,6 +94,7 @@
             <OreBlock block='minecraft:netherrack' weight='0.72' />
             <OreBlock block='minecraft:iron_ore' weight='0.28' />
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:lava' weight='1.0'/>
@@ -130,6 +133,7 @@
                      <OreBlock block='minecraft:gold_ore' weight='0.03' />
                     <OreBlock block='tconstruct:ore:1' weight='0.02' />
                     <Replaces block='minecraft:netherrack' weight='1.0'/>
+                    <Replaces block='nex:block_netherrack' weight='1.0' />
                     <Replaces block='minecraft:magma' weight='1.0'/>
                     <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                     <Replaces block='minecraft:lava' weight='1.0'/>
@@ -167,6 +171,7 @@
                 <OreBlock block='immersiveengineering:ore:2' weight='0.08' />
                 <OreBlock block='immersiveengineering:ore:3' weight='0.17' />
                 <Replaces block='minecraft:netherrack' weight='1.0'/>
+                <Replaces block='nex:block_netherrack' weight='1.0' />
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                 <Replaces block='minecraft:lava' weight='1.0'/>
@@ -202,6 +207,7 @@
                     <OreBlock block='minecraft:netherrack' weight='0.70' />
                     <OreBlock block='minecraft:redstone_ore' weight='0.30' />
                     <Replaces block='minecraft:netherrack' weight='1.0'/>
+                    <Replaces block='nex:block_netherrack' weight='1.0' />
                     <Replaces block='minecraft:magma' weight='1.0'/>
                     <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                     <Replaces block='minecraft:lava' weight='1.0'/>
@@ -238,6 +244,7 @@
                 <OreBlock block='minecraft:lapis_ore' weight='0.38' />
                 <OreBlock block='tconstruct:ore:0' weight='0.02' />
                 <Replaces block='minecraft:netherrack' weight='1.0'/>
+                <Replaces block='nex:block_netherrack' weight='1.0' />
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                 <Replaces block='minecraft:lava' weight='1.0'/>
@@ -272,6 +279,7 @@
             <OreBlock block='minecraft:stone'              weight='0.99' />
             <OreBlock block='minecraft:diamond_ore'        weight='0.01' />
             <Replaces block='minecraft:netherrack'         weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='minecraft:magma'              weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Biome name='.*'  />
@@ -300,6 +308,7 @@
             </Description>
             <OreBlock block='minecraft:emerald_ore' weight='1.0' />
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Biome name='.*'  />
@@ -333,6 +342,7 @@
                     <OreBlock block='minecraft:stone' weight='0.90' />
                     <OreBlock block='minecraft:cobblestone' weight='0.10' />
                     <Replaces block='minecraft:netherrack' weight='1.0'/>
+                    <Replaces block='nex:block_netherrack' weight='1.0' />
                     <Replaces block='minecraft:magma' weight='1.0'/>
                     <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                     <Replaces block='minecraft:air' weight='1.0'/>
@@ -435,6 +445,7 @@
                         </Description>
                         <OreBlock block='abyssalcraft:stone' weight='1.00' />
                         <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='nex:block_netherrack' weight='1.0' />
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
@@ -480,6 +491,7 @@
                         </Description>
                         <OreBlock block='abyssalcraft:stone' weight='1.00' />
                         <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='nex:block_netherrack' weight='1.0' />
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
@@ -528,6 +540,7 @@
                         </Description>
                         <OreBlock block='abyssalcraft:stone' weight='1.00' />
                         <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='nex:block_netherrack' weight='1.0' />
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
@@ -575,6 +588,7 @@
                         </Description>
                         <OreBlock block='abyssalcraft:stone' weight='1.00' />
                         <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='nex:block_netherrack' weight='1.0' />
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
@@ -625,6 +639,7 @@
                         </Description>
                         <OreBlock block='abyssalcraft:stone' weight='1.00' />
                         <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='nex:block_netherrack' weight='1.0' />
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
@@ -675,6 +690,7 @@
                         </Description>
                         <OreBlock block='abyssalcraft:stone' weight='1.00' />
                         <Replaces block='minecraft:netherrack' weight='1.0'/>
+                        <Replaces block='nex:block_netherrack' weight='1.0' />
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
@@ -730,6 +746,7 @@
                 <OreBlock block='minecraft:stone' weight='0.80' />
                 <OreBlock block='minecraft:cobblestone' weight='0.20' />
                 <Replaces block='minecraft:netherrack' weight='1.0'/>
+                <Replaces block='nex:block_netherrack' weight='1.0' />
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
@@ -782,6 +799,7 @@
             <OreBlock block='minecraft:netherrack' weight='0.70'/>
             <OreBlock block='contenttweaker:sub_block_holder_0:9' weight='0.30'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
@@ -814,6 +832,7 @@
             <OreBlock block='minecraft:netherrack' weight='0.70'/>
             <OreBlock block='contenttweaker:sub_block_holder_0:9' weight='0.30'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
@@ -843,6 +862,7 @@
             </Description>        
             <OreBlock block='natura:nether_heat_sand' weight='1.0'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='minecraft:soul_sand' weight='1.0'/>
@@ -866,6 +886,7 @@
             </Description>        
             <OreBlock block='natura:nether_tainted_soil' weight='1.0'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='minecraft:soul_sand' weight='1.0'/>
@@ -889,6 +910,7 @@
             </Description>        
             <OreBlock block='immersiveengineering:ore:5' weight='1.0'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='minecraft:soul_sand' weight='1.0'/>
@@ -913,6 +935,7 @@
             </Description>        
             <OreBlock block='rftools:dimensional_shard_ore:1' weight='1.0'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='minecraft:soul_sand' weight='1.0'/>
@@ -937,6 +960,7 @@
             </Description>        
             <OreBlock block='minecraft:redstone_ore' weight='1.0'/>
             <Replaces block='minecraft:netherrack' weight='1.0'/>
+            <Replaces block='nex:block_netherrack' weight='1.0' />
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='minecraft:soul_sand' weight='1.0'/>
@@ -962,6 +986,7 @@
                  </Description>        
                  <OreBlock block='deepresonance:resonating_ore:1' weight='1.0'/>
                  <Replaces block='minecraft:netherrack' weight='1.0'/>
+                 <Replaces block='nex:block_netherrack' weight='1.0' />
                  <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                  <Replaces block='minecraft:magma' weight='1.0'/>
                  <Replaces block='minecraft:soul_sand' weight='1.0'/>
