@@ -3,11 +3,11 @@
 # Blast Furnace
     #mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:block_coke>, 12000);
     #mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:item_coke>, 1200);
-    mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal:*>, 4000);
-    mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal1:*>, 4000);
-    mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal2:*>, 4000);
-    mods.immersiveengineering.BlastFurnace.addFuel(<forestry:charcoal>, 4000);
-    mods.immersiveengineering.BlastFurnace.addFuel(<mekanism:basicblock:3>, 4000);
+    mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal:*>, 3000);
+    mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal1:*>, 3000);
+    mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal2:*>, 3000);
+    mods.immersiveengineering.BlastFurnace.addFuel(<forestry:charcoal>, 3000);
+    #mods.immersiveengineering.BlastFurnace.addFuel(<mekanism:basicblock:3>, 3000);
 
 # Coke Oven
     # Rockhounding Ores

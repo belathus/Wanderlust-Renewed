@@ -31,6 +31,9 @@
             [[hammer],[<minecraft:stone_slab:7>]]);
     }
     recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
+    recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal:*>]);
+    recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal1:*>]);
+    recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal2:*>]);
     
     # making reusable water recipes
     recipes.addShapeless(<minecraft:clay_ball>*4,
