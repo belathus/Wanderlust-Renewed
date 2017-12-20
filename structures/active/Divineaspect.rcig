@@ -4,41 +4,61 @@
   "items": [
     {
       "weight": 1.0,
-      "min": 1,
-      "max": 2,
+      "min": 4,
+      "max": 8,
       "item": {
-        "id": "minecraft:slime",
+        "id": "evilcraft:dark_gem",
         "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.2,
-      "min": 2,
-      "max": 6,
-      "item": {
-        "id": "contenttweaker:material_part",
-        "damage": 74,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.08,
-      "min": 1,
-      "max": 4,
-      "item": {
-        "id": "contenttweaker:material_part",
-        "damage": 39,
         "count": 1
       }
     },
     {
       "weight": 1.0,
+      "min": 4,
+      "max": 8,
+      "item": {
+        "id": "evilcraft:dark_gem_crushed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
       "min": 1,
       "max": 2,
       "item": {
-        "id": "immersiveengineering:storage",
+        "id": "immersiveengineering:metal",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 2,
+      "max": 6,
+      "item": {
+        "id": "contenttweaker:material_part",
+        "damage": 67,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 3,
+      "max": 9,
+      "item": {
+        "id": "immersiveengineering:metal",
         "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "immersiveengineering:metal",
+        "damage": 8,
         "count": 1
       }
     },
@@ -66,5 +86,5 @@
       }
     }
   ],
-  "dependencyExpression": "$astralsorcery \u0026 $contenttweaker \u0026 $immersiveengineering"
+  "dependencyExpression": "$evilcraft \u0026 $astralsorcery \u0026 $contenttweaker \u0026 $immersiveengineering"
 }
