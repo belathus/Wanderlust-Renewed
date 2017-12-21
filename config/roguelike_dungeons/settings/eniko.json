@@ -26,5 +26,15 @@
         "theme":{
             "base":"ENIKO"
         }
-    }
+    },
+    "themes":[
+        {
+            "level":0,
+            "base":"ENIKO"
+        },
+        {
+            "level":1,
+            "base":"ENIKO2"
+        }
+    ]
 }
