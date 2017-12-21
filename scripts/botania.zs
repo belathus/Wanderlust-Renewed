@@ -4,14 +4,14 @@
     #mods.botania.ManaInfusion.addAlchemy(<>,<>,);
     #mods.botania.ManaInfusion.addConjuration(<>,<>,);
     
-    mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
+    #mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
     mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSilver>, 3000);
-    mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
+    #mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
     mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSilver>, 24000);
     mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tacoitem>.withTag({display:{Lore:["It is taco night!"]}}), <ore:oreTaconite>, 300);
     
     # interrupt the stone cycle
-    mods.botania.ManaInfusion.removeRecipe(<minecraft:stone:5>);
+    #mods.botania.ManaInfusion.removeRecipe(<minecraft:stone:5>);
     mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:5>,<minecraft:stone>,200);
     mods.botania.ManaInfusion.addAlchemy(<quark:limestone>,<minecraft:stone:1>,200);
     mods.botania.ManaInfusion.addAlchemy(<quark:marble>,<ore:stoneLimestone>,200);
