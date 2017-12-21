@@ -1,245 +1,78 @@
 {
     "name":"_rooms",
-    "levels":{
-        "0":{
-            "range":40,
-            "numRooms":15,
-            "spawners" : {
-				"SPIDER" : [
-					{"name" : "abyssalcraft.demonsheep"},
-					{"name" : "Spider"}
-				],
-				"ZOMBIE" : [
-					{"name" : "abyssalcraft.demoncow"},
-					{"name" : "Zombie", "equip":true}
-				],
-				"SKELETON" : [
-					{"name" : "abyssalcraft.demonchicken"},
-					{"name" : "Skeleton", "equip":true}
-				]
-			},
-            "rooms":[
-                {"mode":"single", "type":"CAKE"},
-                {"mode":"single", "type":"FIRE"},
-                {"mode":"single", "type":"ENIKO"},
-                {"mode":"random", "type":"LINKERTOP", "weight":1},
-                {"mode":"random", "type":"BRICK", "weight":2},
-                {"mode":"random", "type":"CORNER", "weight":1},
-                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":2},
-                {"mode":"random", "type":"PYRAMIDCORNER", "weight":1}
-            ],
-            "secrets":[
-                {"type":"BEDROOM", "num":1},
-                {"type":"SMITH", "num":1},
-                {"type":"FIREWORK", "num":1},
-                {"type":"PYRAMIDTOMB", "num":1},
-                {"type":"STORAGE", "num":1}
-            ]
-        },
-        "1":{
-            "range":55,
-            "numRooms":17,
-            "spawners":{
-                "SPIDER" : [
-					{"name" : "abyssalcraft.demonsheep"},
-					{"name" : "BiomesOPlenty.wasp"},
-					{"name" : "Spider"}
-				],
-				"ZOMBIE" : [
-					{"name" : "abyssalcraft.demoncow"},
-					{"name" : "abyssalcraft.shadowcreature"},
-					{"name" : "Zombie", "equip":true}
-				],
-				"SKELETON" : [
-					{"name" : "abyssalcraft.demonchicken"},
-					{"name" : "Skeleton", "equip":true}
-				]
-            },
-            "rooms":[
-                {"mode":"single", "type":"BTEAM"},
-                {"mode":"single", "type":"LIBRARY"},
-                {"mode":"single", "type":"MESS"},
-                {"mode":"single", "type":"LAB"},
-                {"mode":"single", "type":"MUSIC"},
-                {"mode":"single", "type":"FIRE"},
-                {"mode":"single", "type":"PIT"},
-                {"mode":"single", "type":"STORAGE"},
-                {"mode":"random", "type":"CORNER", "weight":1},
-                {"mode":"random", "type":"BRICK", "weight":5},
-                {"mode":"random", "type":"PYRAMIDTOMB", "weight":1},
-                {"mode":"random", "type":"PYRAMIDSPAWNER", "weight":1}
-            ],
-            "secrets":[
-                {"type":"PYRAMIDTOMB", "num":2},
-                {"type":"BRICK", "num":2},
-                {"type":"CRYPT", "num":2},
-                {"type":"PRISON", "num":2}
-            ]
-        },
-        "2":{
-            "range":70,
-            "numRooms":19,
-            "spawners":{
-                "SPIDER" : [
-					{"name" : "Spider"},
-                    {"name": "CaveSpider"}
-				],
-				"ZOMBIE" : [
-					{"name" : "abyssalcraft.shadowcreature"},
-					{"name" : "EnderZoo.FallenKnight", "equip":true},
-					{"name" : "cyberware.cyberzombie", "equip":true},
-					{"name" : "Quark.dweller", "equip":true},
-					{"name" : "Zombie", "equip":true}
-				],
-				"SKELETON" : [
-					{"name" : "Quark.wraith"},
-					{"name" : "Quark.pirate"},
-                    {"name" : "EnderZoo.FallenKnight", "equip":true},
-					{"name" : "Skeleton", "equip":true}
-				]
-            },
-            "rooms":[
-                {"mode":"single", "type":"OSSUARY"},
-                {"mode":"single", "type":"LIBRARY"},
-                {"mode":"single", "type":"CORNER"},
-                {"mode":"single", "type":"LINKERTOP"},
-                {"mode":"single", "type":"PRISON"},
-                {"mode":"single", "type":"ETHO"},
-                {"mode":"single", "type":"ENCHANT"},
-                {"mode":"single", "type":"CAKE"},
-                {"mode":"single", "type":"STORAGE"},
-                {"mode":"single", "type":"FIRE"},
-                {"mode":"random", "type":"CRYPT", "weight":5},
-                {"mode":"random", "type":"ENIKO", "weight":2},
-                {"mode":"random", "type":"CREEPER", "weight":2},
-                {"mode":"random", "type":"SPIDER", "weight":1},
-                {"mode":"random", "type":"BRICK", "weight":10}
-            ],
-            "secrets":[
-                {"type":"PYRAMIDTOMB", "num":2},
-                {"type":"BRICK", "num":2},
-                {"type":"CRYPT", "num":2},
-                {"type":"PRISON", "num":2}
-            ]
-        },
-        "3":{
-            "range":85,
-            "numRooms":21,
-            "spawners":{
-                "SPIDER" : [
-					{"name" : "abyssalcraft.shadowmonster", "equip":true},
-					{"name" : "Spider", "weight":3},
-                    {"name": "CaveSpider", "weight":2}
-				],
-				"ZOMBIE" : [
-					{"name" : "abyssalcraft.shadowcreature"},
-					{"name" : "EnderZoo.FallenKnight", "equip":true, "weight":2},
-					{"name" : "cyberware.cyberzombie", "equip":true, "weight":2},
-					{"name" : "Quark.dweller", "equip":true, "weight":2},
-					{"name" : "abyssalcraft.depthsghoul", "equip":true},
-					{"name" : "Zombie", "equip":true, "weight":3}
-				],
-				"SKELETON" : [
-					{"name" : "Quark.wraith"},
-					{"name" : "Quark.pirate"},
-                    {"name" : "EnderZoo.FallenKnight", "equip":true},
-                    {"name" : "EnderZoo.WitherWitch", "equip":true},
-					{"name" : "Skeleton", "equip":true}
-				]
-            },
-            "rooms":[
-                {"mode":"single","type":"OSSUARY"},
-                {"mode":"single","type":"ENDER"},
-                {"mode":"single","type":"CORNER"},
-                {"mode":"single","type":"MESS"},
-                {"mode":"single","type":"AVIDYA"},
-                {"mode":"single","type":"SMITH"},
-                {"mode":"single","type":"STORAGE"},
-                {"mode":"random","type":"CRYPT", "weight":2},
-                {"mode":"random","type":"PRISON","weight":2},
-                {"mode":"random","type":"BRICK","weight":5},
-                {"mode":"random","type":"SLIME","weight":2},
-                {"mode":"random","type":"CREEPER","weight":1},
-                {"mode":"random","type":"SPIDER","weight":1},
-                {"mode":"random","type":"PIT","weight":1},
-                {"mode":"random","type":"PYRAMIDTOMB","weight":2}
-            ],
-            "secrets":[
-                {"type":"PYRAMIDTOMB", "num":2},
-                {"type":"BRICK", "num":2},
-                {"type":"CRYPT", "num":2},
-                {"type":"PRISON", "num":2}
-            ]
-        },
-        "4":{
-            "range":100,
-            "numRooms":23,
-            "spawners":{
-                "SPIDER" : [
-					{"name" : "abyssalcraft.shadowmonster", "equip":true},
-					{"name" : "abyssalcraft.shadowbeast", "equip":true, "weight":2},
-					{"name" : "Spider", "weight":3},
-                    {"name": "CaveSpider", "weight":2}
-				],
-				"ZOMBIE" : [
-					{"name" : "abyssalcraft.shadowcreature", "weight":3},
-					{"name" : "EnderZoo.FallenKnight", "equip":true, "weight":2},
-					{"name" : "cyberware.cyberzombie", "equip":true, "weight":2},
-					{"name" : "Quark.dweller", "equip":true, "weight":2},
-					{"name" : "abyssalcraft.depthsghoul", "equip":true},
-					{"name" : "Zombie", "equip":true, "weight":3}
-				],
-				"SKELETON" : [
-					{"name" : "Quark.wraith", "weight":2},
-					{"name" : "Quark.pirate", "weight":2},
-                    {"name" : "EnderZoo.FallenKnight", "equip":true, "weight":2},
-                    {"name" : "EnderZoo.WitherWitch", "equip":true, "weight":2},
-                    {"name" : "abyssalcraft.gskeleton", "equip":true},
-					{"name" : "Skeleton", "equip":true, "weight":3}
-				]
-            },
-            "rooms":[
-                {"mode":"single","type":"DARKHALL"},
-                {"mode":"single","type":"REWARD"},
-                {"mode":"single","type":"NETHERFORT"},
-                {"mode":"single","type":"CORNER"},
-                {"mode":"single","type":"NETHER"},
-                {"mode":"single","type":"OSSUARY"},
-                {"mode":"single","type":"MUSIC"},
-                {"mode":"single","type":"ENIKO"},
-                {"mode":"single","type":"STORAGE"},
-                {"mode":"single","type":"LAB"},
-                {"mode":"single","type":"FIRE"},
-                {"mode":"random","type":"BLAZE", "weight":1},
-                {"mode":"random","type":"BRICK", "weight":5},
-                {"mode":"random","type":"PYRAMIDTOMB", "weight":2},
-                {"mode":"random","type":"CRYPT", "weight":2},
-                {"mode":"random","type":"OBSIDIAN", "weight":3},
-                {"mode":"random","type":"PRISON", "weight":2},
-                {"mode":"random","type":"SPIDER", "weight":1},
-                {"mode":"random","type":"ENDER", "weight":1},
-                {"mode":"random","type":"SLIME", "weight":5}
-            ],
-            "secrets":[
-                {"type":"PYRAMIDTOMB", "num":2},
-                {"type":"BRICK", "num":2},
-                {"type":"CRYPT", "num":2},
-                {"type":"PRISON", "num":2}
-            ]
-        },
-        "all":{
-            "spawners":{
-                "CREEPER":[
-                    {"name":"Creeper"},
-                    {"name":"EnderZoo.ConcussionCreeper"}
-                ],
-                "BLAZE":[
-                    {"name":"Blaze", "weight":6},
-                    {"name":"thermalfoundation.blizz", "weight":1},
-                    {"name":"thermalfoundation.blitz", "weight":1},
-                    {"name":"thermalfoundation.basalz", "weight":1}
-                ]
-            }
-        }
-    }
+    "rooms":[
+        {"level":[0,1,2,4], "type":"single", "name":"FIRE"},
+        {"level":[0,2,4], "type":"single", "name":"CAKE"},
+        {"level":[0,2,4], "type":"single", "name":"ENIKO"},
+        {"level":[1,2], "type":"single", "name":"LIBRARY"},
+        {"level":[1,3], "type":"single", "name":"MESS"},
+        {"level":[1,2], "type":"single", "name":"LAB"},
+        {"level":[1,4], "type":"single", "name":"MUSIC"},
+
+        {"level":[1,2,3,4], "type":"single", "name":"STORAGE", "count":1},
+        {"level":[0,1,2,3,4], "type":"secret", "name":"PYRAMIDTOMB", "count":2},
+        {"level":[0,1,2,3,4], "type":"secret", "name":"BRICK", "count":2},
+        {"level":[0,1,2,3,4], "type":"secret", "name":"CRYPT", "count":2},
+        {"level":[0,1,2,3,4], "type":"secret", "name":"PRISON", "count":2},
+
+        {"level":0, "type":"random", "name":"BRICK", "weight":2},
+        {"level":0, "type":"random", "name":"CORNER", "weight":2},
+        {"level":0, "type":"random", "name":"PYRAMIDCORNER", "weight":1},
+        {"level":0, "type":"random", "name":"PYRAMIDSPAWNER", "weight":1},
+        {"level":0, "type":"secret", "name":"BEDROOM", "count":1},
+        {"level":0, "type":"secret", "name":"SMITH", "count":1},
+        {"level":0, "type":"secret", "name":"FIREWORK", "count":1},
+        {"level":0, "type":"secret", "name":"PYRAMIDTOMB", "count":1},
+        {"level":0, "type":"secret", "name":"STORAGE", "count":1},
+
+        {"level":1, "type":"single", "name":"BTEAM"},
+        {"level":1, "type":"single", "name":"PYRAMIDTOMB"},
+        {"level":1, "type":"single", "name":"PIT"},
+        {"level":1, "type":"random", "name":"BRICK", "weight":4},
+        {"level":1, "type":"random", "name":"CORNER", "weight":1},
+
+        {"level":2, "type":"single", "name":"OSSUARY"},
+        {"level":2, "type":"single", "name":"ENDER"},
+        {"level":2, "type":"random", "name":"CORNER", "weight":1},
+        {"level":2, "type":"single", "name":"PRISON"},
+        {"level":2, "type":"single", "name":"ETHO"},
+        {"level":2, "type":"single", "name":"ENCHANT"},
+        {"level":2, "type":"single", "name":"PYRAMIDTOMB"},
+        {"level":2, "type":"random", "name":"CRYPT", "weight":1},
+        {"level":2, "type":"random", "name":"ENIKO", "weight":2},
+        {"level":2, "type":"random", "name":"CREEPER", "weight":2},
+        {"level":2, "type":"random", "name":"SPIDER", "weight":1},
+        {"level":2, "type":"random", "name":"BRICK", "weight":6},
+        
+        {"level":3, "type":"single", "name":"OSSUARY"},
+        {"level":3, "type":"single", "name":"AVIDYA"},
+        {"level":3, "type":"single", "name":"SLIME"},
+        {"level":3, "type":"single", "name":"OBSIDIAN"},
+        {"level":3, "type":"random", "name":"CORNER", "weight":1},
+        {"level":3, "type":"random", "name":"ENDER", "weight":3},
+        {"level":3, "type":"random", "name":"PRISON", "weight":2},
+        {"level":3, "type":"random", "name":"BRICK", "weight":8},
+        {"level":3, "type":"random", "name":"CREEPER", "weight":4},
+        {"level":3, "type":"random", "name":"SPIDER", "weight":3},
+        {"level":3, "type":"random", "name":"PIT", "weight":2},
+        {"level":3, "type":"random", "name":"PYRAMIDTOMB", "weight":2},
+
+        {"level":4, "type":"single", "name":"DARKHALL"},
+        {"level":4, "type":"single", "name":"REWARD"},
+        {"level":4, "type":"single", "name":"NETHERFORT"},
+        {"level":4, "type":"single", "name":"CORNER"},
+        {"level":4, "type":"single", "name":"NETHER"},
+        {"level":4, "type":"single", "name":"OBSIDIAN"},
+        {"level":4, "type":"single", "name":"OSSUARY"},
+        {"level":4, "type":"single", "name":"SMITH"},
+        {"level":4, "type":"random", "name":"SLIME", "weight":2},
+        {"level":4, "type":"random", "name":"BLAZE", "weight":3},
+        {"level":4, "type":"random", "name":"BRICK", "weight":10},
+        {"level":4, "type":"random", "name":"PYRAMIDTOMB", "weight":4},
+        {"level":4, "type":"random", "name":"ENDER", "weight":4},
+        {"level":4, "type":"random", "name":"PRISON", "weight":3},
+        {"level":4, "type":"random", "name":"CRYPT", "weight":3},
+        {"level":4, "type":"random", "name":"SPIDER", "weight":2},
+        {"level":4, "type":"random", "name":"CREEPER", "weight":2}
+    ]
 }

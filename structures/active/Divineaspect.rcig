@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Divineaspect",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 8,
+      "item": {
+        "id": "evilcraft:dark_gem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 8,
+      "item": {
+        "id": "evilcraft:dark_gem_crushed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "immersiveengineering:metal",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 2,
+      "max": 6,
+      "item": {
+        "id": "contenttweaker:material_part",
+        "damage": 67,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 3,
+      "max": 9,
+      "item": {
+        "id": "immersiveengineering:metal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "immersiveengineering:metal",
+        "damage": 8,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "forge:bucketfilled",
+        "damage": 0,
+        "count": 1",
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "FluidName": {
+              "nbtType": "string",
+              "nbt": "astralsorcery.liquidstarlight"
+            },
+            "amount": {
+              "nbtType": "int",
+              "nbt": "1000"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": "$evilcraft \u0026 $astralsorcery \u0026 $contenttweaker \u0026 $immersiveengineering"
+}

@@ -51,7 +51,7 @@
     recipes.addShaped(<minecraft:stick>*1,
         [[<ore:toolAxe>],
          [<ore:treeSapling>]]);
-print("51"); /*
+/*
     recipes.addShaped(<minecraft:stick>*8,
         [[<tconstruct:hatchet:*>.transformDamage()],
          [<ore:logWood>]]);
@@ -131,7 +131,6 @@ print("51"); /*
     recipes.addShapeless(<actuallyadditions:item_misc:19>,
         [<minecraft:nether_star>, <minecraft:dragon_breath>, <ore:gemDark>, <minecraft:prismarine_shard>]);
 */   
-    print("130!");
 # AbyssalCraft
     recipes.remove(<abyssalcraft:ironp>);
     recipes.addShaped(<abyssalcraft:ironp>,
@@ -375,7 +374,32 @@ print("192");
         [[<ore:enderpearl>, <mekanism:atomicalloy>, <ore:enderpearl>],
          [<ore:ingotOsmium>, <biomesoplenty:terrestrial_artifact>, <ore:ingotOsmium>],
          [<ore:enderpearl>, <mekanism:atomicalloy>, <ore:enderpearl>]]);
-
+    # Speed Upgrade
+    recipes.remove(<mekanism:speedupgrade>);
+    recipes.addShaped(<mekanism:speedupgrade>,
+        [[<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>],
+         [<ore:circuitElite>,<ore:ingotOsmium>,<ore:circuitElite>],
+         [<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>]]);
+    recipes.remove(<mekanism:energyupgrade>);
+    recipes.addShaped(<mekanism:energyupgrade>,
+        [[<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>],
+         [<ore:circuitUltimate>,<ore:ingotOsmium>,<ore:circuitUltimate>],
+         [<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>,<ore:ingotRefinedGlowstone>]]);
+    recipes.remove(<mekanism:controlcircuit:1>);
+    recipes.addShaped(<mekanism:controlcircuit:1>,
+        [[<ore:ingotOsmium>, <advancedrocketry:ic:3>, <ore:ingotOsmium>],
+         [<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>],
+         [<ore:ingotOsmium>, <advancedrocketry:ic:4>, <ore:ingotOsmium>]]);
+    recipes.remove(<mekanism:controlcircuit:2>);
+    recipes.addShaped(<mekanism:controlcircuit:2>,
+        [[<ore:ingotLead>, <advancedrocketry:ic:3>, <ore:ingotLead>],
+         [<ore:alloyElite>, <ore:circuitAdvanced>, <ore:alloyElite>],
+         [<ore:ingotLead>, <advancedrocketry:ic:4>, <ore:ingotLead>]]);
+    recipes.remove(<mekanism:controlcircuit:3>);
+    recipes.addShaped(<mekanism:controlcircuit:3>,
+        [[<ore:ingotUranium>, <advancedrocketry:ic:3>, <ore:ingotUranium>],
+         [<ore:alloyUltimate>, <ore:circuitElite>, <ore:alloyUltimate>],
+         [<ore:ingotUranium>, <advancedrocketry:ic:4>, <ore:ingotUranium>]]);
 # More Bees
 #    recipes.addShapeless(<morebees:diamond_fragment>*9,[<ore:gemDiamond>]);
 #    recipes.addShapeless(<morebees:emerald_fragment>*9,[<ore:gemEmerald>]);

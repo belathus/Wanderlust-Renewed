@@ -399,13 +399,120 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<mekanism:atomicalloy>, <mekanism:controlcircuit>, <mekanism:atomicalloy>],
          [<mekanism:machineblock:15>, <mekanism:robit>, <mekanism:machineblock:15>],
          [<mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>]]);
-
+     recipes.remove(<mekanism:machineblock:5>);
+     recipes.remove(<mekanism:machineblock:6>);
+     recipes.remove(<mekanism:machineblock:7>);
+    # Smelting Factory
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 0}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock:10>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 0}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 0}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 0}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 0}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Enriching Factory
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 1}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 1}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 1}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 1}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 1}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Crushing Factory
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 2}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock:3>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 2}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 2}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 2}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 2}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Compressing Factory
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 3}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock:1>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 3}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 3}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 3}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 3}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Combining
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 4}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock:2>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 4}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 4}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 4}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 4}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Purifying
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 5}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock:9>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 5}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 5}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 5}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 5}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Injecting Factory
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 6}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock2:3>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 6}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 6}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 6}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 6}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+    # Infusing Factory
+    recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 7}),
+        [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
+         [<ore:circuitAdvanced>, <mekanism:machineblock:8>, <ore:circuitAdvanced>],
+         [<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 7}),
+        [[<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>],
+         [<ore:circuitElite>, <mekanism:machineblock:5>.withTag({recipeType: 7}), <ore:circuitElite>],
+         [<ore:blockOsmium>, <ore:circuitElite>, <ore:blockOsmium>]]);
+    recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 7}),
+        [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
+         [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 7}), <ore:circuitUltimate>],
+         [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+         
 # Persistent Bits
     recipes.remove(<persistentbits:chunk_loader>);
     recipes.addShaped(<persistentbits:chunk_loader>,
         [[null, <xreliquary:void_tear>, null],
-         [<ore:gemDiamond>, <ore:ingotAdamant>, <ore:gemDiamond>],
-         [<ore:ingotAdamant>, <minecraft:enchanting_table:*>, <ore:ingotAdamant>]]);
+         [<ore:gemDiamond>, <ore:ingotPlatinum>, <ore:gemDiamond>],
+         [<ore:ingotPlatinum>, <minecraft:enchanting_table:*>, <ore:ingotPlatinum>]]);
 
 # Refined Storage
     #recipes.remove(<refinedstorage:machine_casing>);
