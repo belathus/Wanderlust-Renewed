@@ -9,7 +9,7 @@
         {"level":[1,2], "type":"single", "name":"LAB"},
         {"level":[1,4], "type":"single", "name":"MUSIC"},
 
-        {"level":[1,2,3,4], "type":"secret", "name":"STORAGE", "count":1},
+        {"level":[1,2,3,4], "type":"single", "name":"STORAGE", "count":1},
         {"level":[0,1,2,3,4], "type":"secret", "name":"PYRAMIDTOMB", "count":2},
         {"level":[0,1,2,3,4], "type":"secret", "name":"BRICK", "count":2},
         {"level":[0,1,2,3,4], "type":"secret", "name":"CRYPT", "count":2},
@@ -27,7 +27,7 @@
 
         {"level":1, "type":"single", "name":"BTEAM"},
         {"level":1, "type":"single", "name":"PYRAMIDTOMB"},
-        {"level":1, "type":"random", "name":"PIT", "weight":1},
+        {"level":1, "type":"single", "name":"PIT"},
         {"level":1, "type":"random", "name":"BRICK", "weight":4},
         {"level":1, "type":"random", "name":"CORNER", "weight":1},
 
