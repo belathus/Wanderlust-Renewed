@@ -1,84 +1,66 @@
 <Asteroids>
-  <asteroid name="sm. CI Chondride" distance="10" mass="2000" massVariability="1700" minLevel="0" probability="1" richness="0.2" richnessVariability="0.5">
-    <ore itemStack="minecraft:stone" chance="25" />
-    <ore itemStack="minecraft:cobblestone" chance="50" />
+  <asteroid name="sm. CI Chondride" distance="10" mass="2000" massVariability="1700" timeMultiplier="0.5" probability="1" richness="0.2" richnessVariability="0.5">
     <ore itemStack="rockhounding_oretiers:iron_ores" chance="15" />
     <ore itemStack="minecraft:clay" chance="25" />
     <ore itemStack="minecraft:redstone_ore" chance="10" />
     <ore itemStack="minecraft:glowstone" chance="10" />
     <ore itemStack="immersiveengineering:ore 4" chance="5" />
   </asteroid>
-  <asteroid name="med. CI Chondrite" distance="20" mass="20000" massVariability="17000" minLevel="0" probability="0.5" richness="0.8" richnessVariability="0.5">
-    <ore itemStack="minecraft:stone" chance="25" />
-    <ore itemStack="minecraft:cobblestone" chance="50" />
+  <asteroid name="med. CI Chondrite" distance="20" mass="20000" massVariability="17000" timeMultiplier="0.5" probability="0.5" richness="0.8" richnessVariability="0.5">
     <ore itemStack="rockhounding_oretiers:iron_ores" chance="15" />
     <ore itemStack="minecraft:clay" chance="25" />
     <ore itemStack="minecraft:redstone_ore" chance="10" />
     <ore itemStack="minecraft:glowstone" chance="10" />
     <ore itemStack="immersiveengineering:ore 4" chance="5" />
   </asteroid>
-  <asteroid name="lg. CI Chondrite" distance="35" mass="200000" massVariability="170000" minLevel="0" probability="0.1" richness="0.8" richnessVariability="0.5">
-    <ore itemStack="minecraft:stone" chance="25" />
-    <ore itemStack="minecraft:cobblestone" chance="50" />
+  <asteroid name="lg. CI Chondrite" distance="35" mass="200000" massVariability="170000" timeMultiplier="0.5" probability="0.1" richness="0.8" richnessVariability="0.5">
     <ore itemStack="rockhounding_oretiers:ironOres" chance="15" />
     <ore itemStack="minecraft:clay" chance="25" />
     <ore itemStack="minecraft:redstone_ore" chance="10" />
     <ore itemStack="minecraft:glowstone" chance="10" />
     <ore itemStack="immersiveengineering:ore 4" chance="5" />
   </asteroid>
-  <asteroid name="sm. IAB asteroid" distance="25" mass="2000" massVariability="1700" minLevel="0" probability="0.1" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:stone" chance="100" />
-    <ore itemStack="minecraft:cobblestone" chance="100" />
+  <asteroid name="sm. IAB asteroid" distance="25" mass="2000" massVariability="1700" timeMultiplier="1" probability="0.1" richness="0.3" richnessVariability="0.1">
     <ore itemStack="rockhounding_oretiers:iron_ores" chance="50" />
     <ore itemStack="immersiveengineering:ore 4" chance="10" />
     <ore itemStack="astralsorcery:blockcustomore 1" chance="5" />
     <ore itemStack="contenttweaker:sub_block_holder_1 5" chance="5" />
     <ore itemStack="mekanism:oreblock" chance="3" />
   </asteroid>
-  <asteroid name="med. IAB asteroid" distance="50" mass="20000" massVariability="17000" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:stone" chance="100" />
-    <ore itemStack="minecraft:cobblestone" chance="100" />
+  <asteroid name="med. IAB asteroid" distance="50" mass="20000" massVariability="17000" timeMultiplier="1" probability="0.05" richness="0.3" richnessVariability="0.1">
     <ore itemStack="rockhounding_oretiers:iron_ores" chance="50" />
     <ore itemStack="immersiveengineering:ore 4" chance="10" />
     <ore itemStack="astralsorcery:blockcustomore 1" chance="5" />
     <ore itemStack="contenttweaker:sub_block_holder_1 5" chance="5" />
     <ore itemStack="mekanism:oreblock" chance="3" />
   </asteroid>
-  <asteroid name="lg. IAB asteroid" distance="75" mass="200000" massVariability="170000" minLevel="0" probability="0.01" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:stone" chance="100" />
-    <ore itemStack="minecraft:cobblestone" chance="100" />
+  <asteroid name="lg. IAB asteroid" distance="75" mass="200000" massVariability="170000" timeMultiplier="1" probability="0.01" richness="0.3" richnessVariability="0.1">
     <ore itemStack="rockhounding_oretiers:iron_ores" chance="50" />
     <ore itemStack="immersiveengineering:ore 4" chance="10" />
     <ore itemStack="astralsorcery:blockcustomore 1" chance="5" />
     <ore itemStack="contenttweaker:sub_block_holder_1 5" chance="5" />
     <ore itemStack="mekanism:oreblock" chance="3" />
   </asteroid>
-  <asteroid name="Sm. LL" distance="65" mass="2000" massVariability="1700" minLevel="0" probability="0.1" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:stone" chance="100" />
-    <ore itemStack="minecraft:cobblestone" chance="100" />
+  <asteroid name="Sm. LL" distance="65" mass="2000" massVariability="1700" timeMultiplier="2" probability="0.1" richness="0.3" richnessVariability="0.1">
     <ore itemStack="thermalfoundation:ore 6" chance="5" /><!-- Platinum -->
     <ore itemStack="minecraft:gold_ore" chance="10" /><!-- Gold -->
     <ore itemStack="immersiveengineering:ore 3" chance="20" /><!-- Silver -->
   </asteroid>
-  <asteroid name="Med. LL" distance="155" mass="20000" massVariability="17000" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:stone" chance="100" />
-    <ore itemStack="minecraft:cobblestone" chance="100" />
+  <asteroid name="Med. LL" distance="155" mass="20000" massVariability="17000" timeMultiplier="2" probability="0.05" richness="0.3" richnessVariability="0.1">
     <ore itemStack="thermalfoundation:ore 6" chance="5" /><!-- Platinum -->
     <ore itemStack="minecraft:gold_ore" chance="10" /><!-- Gold -->
     <ore itemStack="immersiveengineering:ore 3" chance="20" /><!-- Silver -->
   </asteroid>
-  <asteroid name="Lg. LL" distance="200" mass="200000" massVariability="170000" minLevel="0" probability="0.025" richness="0.3" richnessVariability="0.1">
-    <ore itemStack="minecraft:stone" chance="100" />
-    <ore itemStack="minecraft:cobblestone" chance="100" />
+  <asteroid name="Lg. LL" distance="200" mass="200000" massVariability="170000" timeMultiplier="3" probability="0.025" richness="0.3" richnessVariability="0.1">
     <ore itemStack="thermalfoundation:ore 6" chance="5" /><!-- Platinum -->
     <ore itemStack="minecraft:gold_ore" chance="10" /><!-- Gold -->
     <ore itemStack="immersiveengineering:ore 3" chance="20" /><!-- Silver -->
   </asteroid>
-  <asteroid name="Red Boulder" distance="170" mass="3600" massVariability="500" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
+  <asteroid name="Red Boulder" distance="170" mass="3600" massVariability="500" timeMultiplier="2" probability="0.05" richness="0.5" richnessVariability="0.4">
     <ore itemStack="minecraft:redstone_ore" chance="14" />
     <!-- <ore itemStack="arsmagica2:ore 4" chance="4" /> -->
   </asteroid>
-  <asteroid name="Blue Boulder" distance="170" mass="3600" massVariability="500" minLevel="0" probability="0.05" richness="0.3" richnessVariability="0.1">
+  <asteroid name="Blue Boulder" distance="170" mass="3600" massVariability="500" timeMultiplier="2" probability="0.05" richness="0.5" richnessVariability="0.4">
     <ore itemStack="minecraft:lapis_ore" chance="29" />
     <ore itemStack="minecraft:diamond_ore" chance="1" />
     <ore itemStack="extrautils2:ingredients:5" chance="5" />
