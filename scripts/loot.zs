@@ -12,19 +12,59 @@ import loottweaker.vanilla.loot.Functions;
   zombie_pool1.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []);
   zombie_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 1, 0, [], []);
   zombie_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 1, 0, [], []);
+  
+  val simple_dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
+  simple_dungeon.clear();
+  val simple_dungeon_treasure = simple_dungeon.addPool("treasure", 1, 3, 0, 0);
+  val simple_dungeon_metal = simple_dungeon.addPool("metal", 1, 4, 0, 0);
+  val simple_dungeon_mundane = simple_dungeon.addPool("mundane", 1, 1, 0, 0);
+  
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:saddle>, 20, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_apple>, 15, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_apple:1>, 2, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:record_13>, 15, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:record_cat>, 15, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:name_tag>, 20, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_horse_armor>, 10, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:iron_horse_armor>, 15, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:diamond_horse_armor>, 5, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:book>, 15, 0, [Functions.enchantRandomly()], []);
+  simple_dungeon_treasure.addItemEntryHelper(<quark:rune>, 20, 0, [Functions.setMetadata(0,15)], []);
+  simple_dungeon_treasure.addItemEntryJSON(<quark:ancient_tome>, 8, 2, ["function: 'quark:enchant_tome'"], []);
+  simple_dungeon_treasure.addItemEntryHelper(<dungeontactics:magic_teather>, 5, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<dungeontactics:heart_jar>, 5, 0, [], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:iron_ingot>, 10, 0, [Functions.setCount(1, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:gold_ingot>, 5, 0, [Functions.setCount(1, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:bread>, 20, 0, [Functions.setCount(1, 3)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:wheat>, 20, 0, [Functions.setCount(1, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:bucket>, 10, 0, [], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:redstone>, 15, 0, [Functions.setCount(1, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:coal>, 15, 0, [Functions.setCount(1, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:melon_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:pumpkin_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<minecraft:beetroot_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
+  simple_dungeon_metal.addItemEntryHelper(<dungeontactics:ducttape>, 10, 0, [], []);
+  simple_dungeon_metal.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
+  simple_dungeon_metal.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
+  simple_dungeon_metal.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
 
+  simple_dungeon_mundane.addItemEntryHelper(<minecraft:bone>, 10, 0, [Functions.setCount(1, 8)], []);
+  simple_dungeon_mundane.addItemEntryHelper(<minecraft:gunpowder>, 10, 0, [Functions.setCount(1, 8)], []);
+  simple_dungeon_mundane.addItemEntryHelper(<minecraft:rotten_flesh>, 10, 0, [Functions.setCount(1, 8)], []);
+  simple_dungeon_mundane.addItemEntryHelper(<minecraft:string>, 10, 0, [Functions.setCount(1, 8)], []);
+#  simple_dungeon_mundane.addItemEntryJSON(<forestry:beedronege>, 1, 0, ["speciesUid: 'forestry.speciesSteadfast'","function: 'minecraft:set_species_nbt'"], []);
+  simple_dungeon_mundane.addEmptyEntry(9);
+  simple_dungeon_mundane.addLootTableEntry("botania:inject/simple_dungeon", 1);
+  
 # ==============================
 # =====    Abyssalcraft    =====
 # ==============================
-  # Remove Abyssalcraft's ingots and add the favored ingot type
-  val simple_dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
-  val simple_dungeon_main = simple_dungeon.getPool("main");
-  val simple_dungeon_pool1 = simple_dungeon.getPool("pool1");
-#  simple_dungeon_main.removeItemEntry(<abyssalcraft:copperingot>);
-#  simple_dungeon_main.removeItemEntry(<abyssalcraft:tiningot>);
-  simple_dungeon_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  simple_dungeon_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  simple_dungeon_pool1.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
+  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:abyssalnite_ingot>, 3, 0, [Functions.setCount(1,3)], []);
+  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:refined_coralium_ingot>, 1, 0, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:coralium_gem>, 8, 0, [Functions.setCount(1,5)], []);
+  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadow_fragment>, 8, 0, [Functions.setCount(1,10)], []);
+  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadow_gem_shard>, 5, 0, [Functions.setCount(1,5)], []);
+  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadow_gem>, 3, 0, [Functions.setCount(1,3)], []);
   
   # Remove Abyssalcraft's ingots and add the favored ingot type
   val abandoned_mine = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
@@ -80,6 +120,13 @@ import loottweaker.vanilla.loot.Functions;
   <entity:enderzoo:fallenknight>.addDrop(<xreliquary:mob_ingredient> % 2);
   <entity:enderzoo:fallenknight>.addDrop(<xreliquary:mob_ingredient:1> % 2);
   <entity:enderzoo:fallenknight>.addDrop(<xreliquary:mob_ingredient:6> % 2);
+
+# ==============================
+# =====     Evilcraft      =====
+# ==============================
+  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:origins_of_darkness>, 1, 5, [], []);
+  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:condensed_blood>, 10, 0, [Functions.setCount(1,5)], []);
+#  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:box_of_eternal_closure>, 10, 0, [], []);
   
 # ==============================
 # ===== Tinker's Construct =====
