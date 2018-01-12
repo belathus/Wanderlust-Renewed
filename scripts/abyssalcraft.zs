@@ -24,3 +24,11 @@
 
   game.setLocalization("ac.ritual.dropofevil", "Creating a Drop of Evil");
   game.setLocalization("ac.ritual.dropofevil.desc", "The drop of evil is a potent substance; it can empower monsters that come near it. Using it to empower a spawner or the very dirt beneath your feet might be useful in a controlled environment.");
+
+# Enchanted Moonstone ritual
+  mods.abyssalcraft.InfusionRitual.addRitual("moonstoneRitual",
+    1, 0, 2500, false, <extrautils2:ingredients:5>, <rockhounding_rocks:rocks_f:14>, 
+    [<abyssalcraft:transmutationgem:*>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>]);
+  
+  game.setLocalization("ac.ritual.moonstoneRitual", "Moonstone Infusion");
+  game.setLocalization("ac.ritual.moonstoneRitual.desc", "Infuses a mundane block of moonstone with lunar reactive dust, giving it celestial properties.");
