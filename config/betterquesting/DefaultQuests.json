@@ -429,7 +429,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 1,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 0,
@@ -446,7 +446,7 @@
         "1:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 0,
+          "groupDetect:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
           "consume:1": 0,
@@ -652,10 +652,22 @@
               "Count:3": 2,
               "OreDict:8": "",
               "Damage:3": 0
-            },
-            "2:10": {
-              "id:8": "botania:manacookie",
+            }
+          }
+        },
+        "2:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 2,
+          "choices:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
               "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "botania:manacookie",
+              "Count:3": 6,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -737,13 +749,138 @@
               "Damage:3": 0
             },
             "3:10": {
+              "id:8": "minecraft:totem_of_undying",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "2:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 2,
+          "choices:9": {
+            "0:10": {
               "id:8": "botania:manacookie",
-              "Count:3": 1,
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "4:10": {
-              "id:8": "minecraft:totem_of_undying",
+            "1:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Acquiring Hardware",
+          "desc:8": "Getting a regular furnace requires a lot more work in these parts. Maybe the lessons you learn while obtaining them can help in future endeavors?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:furnace",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "rockhounding_oretiers:tier_items",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "harvestcraft:flouritem",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 1
+        },
+        "2:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 2,
+          "choices:9": {
+            "0:10": {
+              "id:8": "integrateddynamics:menril_torch",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:vine",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
@@ -803,6 +940,12 @@
           "x:3": 24,
           "y:3": 180,
           "id:3": 7
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 24,
+          "y:3": 96,
+          "id:3": 8
         }
       },
       "lineID:3": 0,
