@@ -5,6 +5,65 @@
       {
         "type": "replace",
         "transformer": {
+          "id": "replace_355776bf",
+          "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d14",
+          "destination": [
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 1,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 2,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 3,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 4,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 5,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 6,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 7,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_0",
+              "metadata": 15,
+              "tileEntity": "null"
+            },
+            {
+              "block": "forestry:bee_combs_1",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "replace",
+        "transformer": {
           "id": "replace_a048d7e8",
           "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d12",
           "destination": [
