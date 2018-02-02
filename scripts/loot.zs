@@ -15,10 +15,14 @@ import loottweaker.vanilla.loot.Functions;
   
   val simple_dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
   simple_dungeon.clear();
+  val simple_dungeon_main = simple_dungeon.addPool("main", 1, 1, 0, 0);
+  val simple_dungeon_pool1 = simple_dungeon.addPool("pool1", 1, 1, 0, 0);
   val simple_dungeon_treasure = simple_dungeon.addPool("treasure", 1, 3, 0, 0);
   val simple_dungeon_metal = simple_dungeon.addPool("metal", 1, 4, 0, 0);
   val simple_dungeon_mundane = simple_dungeon.addPool("mundane", 1, 1, 0, 0);
   
+  simple_dungeon_main.addItemEntryHelper(<minecraft:iron_ingot>, 1, 0, [], []);
+  simple_dungeon_pool1.addItemEntryHelper(<minecraft:iron_ingot>, 1, 0, [], []);
   simple_dungeon_treasure.addItemEntryHelper(<minecraft:saddle>, 20, 0, [], []);
   simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_apple>, 15, 0, [], []);
   simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_apple:1>, 2, 0, [], []);
@@ -28,7 +32,7 @@ import loottweaker.vanilla.loot.Functions;
   simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_horse_armor>, 10, 0, [], []);
   simple_dungeon_treasure.addItemEntryHelper(<minecraft:iron_horse_armor>, 15, 0, [], []);
   simple_dungeon_treasure.addItemEntryHelper(<minecraft:diamond_horse_armor>, 5, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:book>, 15, 0, [Functions.enchantRandomly()], []);
+  simple_dungeon_treasure.addItemEntryHelper(<minecraft:book>, 15, 0, [Functions.enchantWithLevels(15, 30, true)], []);
   simple_dungeon_treasure.addItemEntryHelper(<quark:rune>, 20, 0, [Functions.setMetadata(0,15)], []);
   simple_dungeon_treasure.addItemEntryJSON(<quark:ancient_tome>, 8, 2, ["function: 'quark:enchant_tome'"], []);
   simple_dungeon_treasure.addItemEntryHelper(<dungeontactics:magic_tether>, 5, 0, [], []);
