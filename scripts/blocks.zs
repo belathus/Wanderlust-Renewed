@@ -159,6 +159,9 @@
         [[null,<ore:pointDiamond>,null],
          [<ore:flakeDiamond>,<ore:gemDiamond>,<ore:flakeDiamond>],
          [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
+
+    # Shrotcut Stick Recipe Removal
+    recipes.removeByRecipeName("extrautils2:shortcut_stick");
          
 # Immersive Engineering
     recipes.addShaped(<immersiveengineering:treated_wood>*3,
@@ -225,6 +228,9 @@
     #    [[<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>],
     #     [<ore:pulpWood>, <minecraft:nether_star>, <ore:pulpWood>],
     #     [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]]);
+
+# Misty World
+    recipes.removeByRecipeName("mist:door");
 
 # PrimalCore
     recipes.addShaped(<primal:mud_clump>*64,
