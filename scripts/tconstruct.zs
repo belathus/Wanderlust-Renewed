@@ -34,6 +34,10 @@
 
 # Remove iron ore processing from the Smeltery
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_ore>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_chestplate>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_leggings>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_boots>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_helmet>);
     #mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <railcraft:ore:5>);
 
 # Making magic saplings
