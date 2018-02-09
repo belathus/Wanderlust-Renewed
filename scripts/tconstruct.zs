@@ -38,6 +38,7 @@
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_leggings>);
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_boots>);
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_helmet>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:anvil>);
     #mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <railcraft:ore:5>);
 
 # Making magic saplings
