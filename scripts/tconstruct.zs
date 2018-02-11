@@ -32,15 +32,6 @@
 # pouring water on burning coal deposits should put the fire out
     mods.tconstruct.Casting.addBasinRecipe(<minecraft:coal_block>,<rockhounding_oretiers:seam_fire>,<liquid:water>,200,true);
 
-# Remove iron ore processing from the Smeltery
-    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_ore>);
-    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_chestplate>);
-    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_leggings>);
-    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_boots>);
-    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_helmet>);
-    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:anvil>);
-    #mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <railcraft:ore:5>);
-
 # Making magic saplings
     mods.tconstruct.Casting.addBasinRecipe(<integrateddynamics:menril_sapling>,<minecraft:sapling:*>,<liquid:menrilresin>,8000,true);
     #mods.tconstruct.Casting.addBasinRecipe(<arsmagica2:witchwood_sapling>,<minecraft:sapling:*>,<liquid:liquid_essence>,125,true);
@@ -67,6 +58,17 @@
 
 # Vanilla
     #mods.tconstruct.Melting.addRecipe(<liquid:stone>*8,<minecraft:cobblestone>, 350);
+    # Remove iron ore processing from the Smeltery
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_ore>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_chestplate>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_leggings>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_boots>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_helmet>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:anvil>);
+    #mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <railcraft:ore:5>);
+
+# Cyberware 
+    #mods.tconstruct.Melting.addRecipe(<liquid:titanium>*36,<cyberware:component:2>, 350);
 
 # EnderIO
     #mods.tconstruct.Alloying.removeRecipe(<liquid:darksteel>);
@@ -74,9 +76,9 @@
 # Extra Utilities
     mods.tconstruct.Melting.addRecipe(<liquid:stone>*648,<extrautils2:compressedcobblestone>, 350);
 
-# Cyberware 
-    #mods.tconstruct.Melting.addRecipe(<liquid:titanium>*36,<cyberware:component:2>, 350);
-    
+# Mekanism
+    mods.tconstruct.Melting.removeRecipe(<liquid:refinedobsidian>, <mekanism:otherdust:5>);
+
 # Fixing a brass problem
     mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
     mods.tconstruct.Alloy.addRecipe(<liquid:brass> * 3, [<liquid:copper> * 2, <liquid:zinc> * 1]);
