@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Neuroprozyne",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "cyberware:neuropozyne",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": "$cyberware"
+}
