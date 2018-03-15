@@ -1,8 +1,8 @@
 {
-    "name":"botania",
-    "namespace":"botania",
-    "criteria":{
-        "biomeTypes":[
+    "name": "botania",
+    "namespace": "botania",
+    "criteria": {
+        "biomeTypes": [
             "PLAINS",
             "FOREST",
             "MAGICAL",
@@ -12,395 +12,377 @@
             "SAVANNA",
             "DENSE"
         ],
-        "dimensionWL":[
+        "dimensionWL": [
             0
         ],
-        "weight":1
+        "weight": 1
     },
-    "exclusive":true,
-	"inherit":[
-		"default:_loot_all",
+    "exclusive": true,
+    "inherit": [
+        "default:_loot_all",
         "default:_loot0",
         "default:_loot1",
         "default:_loot2",
         "default:_loot3",
         "default:_loot4",
         "default:_rooms"
-	],
-    "tower":{
-        "type":"JUNGLE",
-        "theme":{
-            "base":"ETHO",
-            "primary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"biomesoplenty:planks_0",
-                        "meta":9
+    ],
+    "tower": {
+        "type": "JUNGLE",
+        "theme": {
+            "base": "ETHO",
+            "primary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:planks_0",
+                        "meta": 9
                     }
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-						"name":"biomesoplenty:log_2",
-                        "meta":5
-					}
-                },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"biomesoplenty:willow_stairs"
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:log_2",
+                        "meta": 5
                     }
                 },
-                "floor":{
-                    "name":"quark:stained_clay_tiles",
-                    "meta":5
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:willow_stairs"
+                    }
+                },
+                "floor": {
+                    "name": "quark:stained_clay_tiles",
+                    "meta": 5
                 }
             },
-            "secondary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"biomesoplenty:planks_0",
-                        "meta":8
+            "secondary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:planks_0",
+                        "meta": 8
                     }
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"biomesoplenty:log_2",
-                        "meta":4
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:log_2",
+                        "meta": 4
                     }
                 },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"quark:stained_clay_tiles_red_stairs"
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "quark:stained_clay_tiles_red_stairs"
                     }
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"quark:stained_clay_tiles",
-                        "meta":14
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "quark:stained_clay_tiles",
+                        "meta": 14
                     }
                 }
             }
         }
     },
-    "themes":[
-        {
-            "level":0,
-            "base":"QUARTZ",
-            "primary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:livingwood",
-                        "meta":2
+    "themes": [{
+            "level": 0,
+            "base": "QUARTZ",
+            "primary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:livingwood",
+                        "meta": 2
                     }
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"minecraft:log",
-                        "meta":1
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "minecraft:log",
+                        "meta": 1
                     }
                 },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"quark:stained_clay_tiles_brown_stairs"
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "quark:stained_clay_tiles_brown_stairs"
                     }
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"dirt"
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "dirt"
                     }
                 }
             },
-            "secondary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"chisel:limestone2",
-                        "meta":7
+            "secondary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "chisel:limestone2",
+                        "meta": 7
                     }
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"chisel:limestone2",
-                        "meta":4
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "chisel:limestone2",
+                        "meta": 4
                     }
                 },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"natura:overworld_stairs_silverbell"
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "natura:overworld_stairs_silverbell"
                     }
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"chisel:limestone",
-                        "meta":5
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "chisel:limestone",
+                        "meta": 5
                     }
                 }
             }
         },
         {
-            "level":1,
-            "base":"QUARTZ",
-            "primary":{
-                "walls":{
-                    "type":"JUMBLE",
-                    "data":[
-                        {
-                            "name":"rockhounding_rocks:bricks_a",
-                            "meta":11
-                        },
-                        {
-                            "name":"rockhounding_rocks:shorts_a",
-                            "meta":11
-                        }
-                    ]
-                },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"biomesoplenty:log_1",
-                        "meta":5
+            "level": 1,
+            "base": "QUARTZ",
+            "primary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "quark:biome_cobblestone",
+                        "meta": 1
                     }
                 },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"biomesoplenty:magic_stairs"
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:log_1",
+                        "meta": 5
                     }
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:altgrass",
-                        "meta":4
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "biomesoplenty:magic_stairs"
+                    }
+                },
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:altgrass",
+                        "meta": 4
                     }
                 }
             },
-            "secondary":{
-                "walls":{
-                    "type":"LAYERS",
-                    "data":[
-                        {
-                            "name":"botania:quartzTypeMana",
-                            "meta":1
+            "secondary": {
+                "walls": {
+                    "type": "LAYERS",
+                    "data": [{
+                            "name": "botania:quartzTypeMana",
+                            "meta": 1
                         },
                         {
-                            "name":"chisel:diorite1",
-                            "meta":6
+                            "name": "chisel:diorite1",
+                            "meta": 6
                         }
                     ]
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeMana",
-                        "meta":2
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeMana",
+                        "meta": 2
                     }
                 },
-                "stair":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzStairsMana"
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzStairsMana"
                     }
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"chisel:diorite1",
-                        "meta":1
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "chisel:diorite1",
+                        "meta": 1
                     }
                 }
             }
         },
         {
-            "level":2,
-            "base":"ENIKO",
-            "primary":{
-                "walls":{
-                    "name":"quark:midori_block"
+            "level": 2,
+            "base": "ENIKO",
+            "primary": {
+                "walls": {
+                    "name": "quark:midori_block"
                 },
-                "pillar":{
-                    "name":"forestry:logs.4",
-                    "meta":1
+                "pillar": {
+                    "name": "minecraft:log",
+                    "meta": 2
                 },
-                "stair":{
-                    "name":"quark:midori_block_stairs"
+                "stair": {
+                    "name": "quark:midori_block_stairs"
                 },
-                "floor":{
-                    "name":"botania:altgrass",
-                    "meta":2
+                "floor": {
+                    "name": "botania:altgrass",
+                    "meta": 2
                 }
             },
-            "secondary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeElf",
-                        "meta":1
+            "secondary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeElf",
+                        "meta": 1
                     }
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeElf",
-                        "meta":2
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeElf",
+                        "meta": 2
                     }
                 },
-                "stair":{
-                    "name":"botania:quartzStairsElf"
+                "stair": {
+                    "name": "botania:quartzStairsElf"
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeElf",
-                        "meta":4
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeElf",
+                        "meta": 4
                     }
                 }
             }
         },
         {
-            "level":3,
-            "base":"ENIKO",
-            "primary":{
-                "walls":{
-                    "type":"JUMBLE",
-                    "data":[
-                        {
-                            "name":"chisel:valentines",
-                            "meta":4
+            "level": 3,
+            "base": "ENIKO",
+            "primary": {
+                "walls": {
+                    "type": "JUMBLE",
+                    "data": [{
+                            "name": "chisel:valentines",
+                            "meta": 4
                         },
                         {
-                            "name":"chisel:valentines",
-                            "meta":5
+                            "name": "chisel:valentines",
+                            "meta": 5
                         },
                         {
-                            "name":"chisel:valentines",
-                            "meta":6
+                            "name": "chisel:valentines",
+                            "meta": 6
                         },
                         {
-                            "name":"chisel:valentines",
-                            "meta":8
+                            "name": "chisel:valentines",
+                            "meta": 8
                         }
                     ]
                 },
-                "pillar":{
-                    "name":"natura:overworld_logs2",
-                    "meta":1
+                "pillar": {
+                    "name": "natura:overworld_logs2",
+                    "meta": 1
                 },
-                "stair":{
-                    "name":"natura:overworld_stairs_eucalyptus"
+                "stair": {
+                    "name": "natura:overworld_stairs_eucalyptus"
                 },
-                "floor":{
-                    "name":"minecraft:pink_glazed_terracotta"
+                "floor": {
+                    "name": "minecraft:pink_glazed_terracotta"
                 }
             },
-            "secondary":{
-                "walls":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeLavender",
-                        "meta":1
+            "secondary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeLavender",
+                        "meta": 1
                     }
                 },
-                "pillar":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeLavender",
-                        "meta":2
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeLavender",
+                        "meta": 2
                     }
                 },
-                "stair":{
-                    "name":"botania:quartzStairsLavender"
+                "stair": {
+                    "name": "botania:quartzStairsLavender"
                 },
-                "floor":{
-                    "type":"METABLOCK",
-                    "data":{
-                        "name":"botania:quartzTypeLavender",
-                        "meta":4
+                "floor": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "botania:quartzTypeLavender",
+                        "meta": 4
                     }
                 }
             }
         },
         {
-            "level":4,
-            "base":"RAINBOW",
-            "primary":{
-                "walls":{
-                    "type":"JUMBLE",
-                    "data":[
-                        {
-                            "name":"rockhounding_rocks:bricks_vanilla",
-                            "meta":14
+            "level": 4,
+            "base": "RAINBOW",
+            "primary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "minecraft:red_nether_brick"
+                    }
+                },
+                "pillar": {
+                    "name": "minecraft:log",
+                    "meta": 1
+                },
+                "stair": {
+                    "name": "primal:stairs_corypha"
+                },
+                "floor": {
+                    "type": "WEIGHTED",
+                    "data": [{
+                            "name": "botania:altGrass",
+                            "meta": 3,
+                            "weight": 500
                         },
                         {
-                            "name":"rockhounding_rocks:shorts_vanilla",
-                            "meta":14
-                        }
-                    ]    
-                },
-                "pillar":{
-                    "name":"forestry:logs.fireproof.6",
-                    "meta":1
-                },
-                "stair":{
-                    "name":"forestry:stairs.fireproof.cocobolo"
-                },
-                "floor":{
-                    "type":"WEIGHTED",
-                    "data":[
-                        {
-                            "name":"botania:altGrass",
-                            "meta":3,
-                            "weight":500
+                            "name": "magma",
+                            "weight": 50
                         },
                         {
-                            "name":"magma",
-                            "weight":50
-                        },
-                        {
-                            "name":"botania:enchantedSoil",
-                            "weight":1
+                            "name": "botania:enchantedSoil",
+                            "weight": 1
                         }
                     ]
                 }
             },
-            "secondary":{
-                "walls":{
-                    "type":"JUMBLE",
-                    "data":[
-                        {
-                            "name":"botania:biomeStoneB",
-                            "meta":7
+            "secondary": {
+                "walls": {
+                    "type": "JUMBLE",
+                    "data": [{
+                            "name": "botania:biomeStoneB",
+                            "meta": 7
                         },
                         {
-                            "name":"botania:biomeStoneA",
-                            "meta":7
+                            "name": "botania:biomeStoneA",
+                            "meta": 7
                         },
                         {
-                            "name":"botania:biomeStoneA",
-                            "meta":15
+                            "name": "botania:biomeStoneA",
+                            "meta": 15
                         }
-                        
+
                     ]
                 },
-                "pillar":{
-                    "name":"chisel:netherbrick",
-                    "meta":7
+                "pillar": {
+                    "name": "chisel:netherbrick",
+                    "meta": 7
                 },
-                "stair":{
-                    "name":"tconstruct:lavawood_stairs"
+                "stair": {
+                    "name": "tconstruct:lavawood_stairs"
                 }
             }
         }
