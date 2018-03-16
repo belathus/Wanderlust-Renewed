@@ -6,7 +6,7 @@
     mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal:*>, 3000);
     mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal1:*>, 3000);
     mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal2:*>, 3000);
-    mods.immersiveengineering.BlastFurnace.addFuel(<forestry:charcoal>, 3000);
+    #mods.immersiveengineering.BlastFurnace.addFuel(<forestry:charcoal>, 3000);
     #mods.immersiveengineering.BlastFurnace.addFuel(<mekanism:basicblock:3>, 3000);
 
 # Coke Oven

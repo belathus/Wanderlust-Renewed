@@ -24,7 +24,7 @@
         [<biomesoplenty:log_3:5>, <biomesoplenty:planks_0:13>, <biomesoplenty:mahogany_stairs>, <biomesoplenty:wood_slab_1:5>],
         [<biomesoplenty:log_3:6>, <biomesoplenty:planks_0:14>, <biomesoplenty:ebony_stairs>, <biomesoplenty:wood_slab_1:6>],
         [<biomesoplenty:log_3:7>, <biomesoplenty:planks_0:15>, <biomesoplenty:eucalyptus_stairs>, <biomesoplenty:wood_slab_1:7>],
-        [<forestry:logs.0:0>, <forestry:planks.0:0>,<forestry:stairs.larch>,<forestry:slabs.0:0>],
+        /* [<forestry:logs.0:0>, <forestry:planks.0:0>,<forestry:stairs.larch>,<forestry:slabs.0:0>],
         [<forestry:logs.0:1>, <forestry:planks.0:1>,<forestry:stairs.teak>,<forestry:slabs.0:1>],
         [<forestry:logs.0:2>, <forestry:planks.0:2>,<forestry:stairs.acacia>,<forestry:slabs.0:2>],
         [<forestry:logs.0:3>, <forestry:planks.0:3>,<forestry:stairs.lime>,<forestry:slabs.0:3>],
@@ -81,7 +81,7 @@
         [<forestry:logs.fireproof.6:1>, <forestry:planks.fireproof.1:9>, <forestry:stairs.fireproof.ipe>,<forestry:slabs.fireproof.3:1>],
         [<forestry:logs.fireproof.6:2>, <forestry:planks.fireproof.1:10>,<forestry:stairs.fireproof.padauk>,<forestry:slabs.fireproof.3:2>],
         [<forestry:logs.fireproof.6:3>, <forestry:planks.fireproof.1:11>,<forestry:stairs.fireproof.cocobolo>,<forestry:slabs.fireproof.3:3>],
-        [<forestry:logs.fireproof.7:0>, <forestry:planks.fireproof.1:12>,<forestry:stairs.fireproof.zebrawood>,<forestry:slabs.fireproof.3:4>],
+        [<forestry:logs.fireproof.7:0>, <forestry:planks.fireproof.1:12>,<forestry:stairs.fireproof.zebrawood>,<forestry:slabs.fireproof.3:4>], */
         #[<arsmagica2:witchwood_log>, <arsmagica2:witchwood_planks>,<arsmagica2:witchwood_stairs>,<arsmagica2:witchwood_slab>],
         [<botania:dreamwood>,<botania:dreamwood:1>,<botania:dreamwood1stairs>,<botania:dreamwood1slab>],
         [<botania:livingwood>,<botania:livingwood:1>,<botania:livingwood1stairs>,<botania:livingwood1slab>],
@@ -115,8 +115,8 @@
 #        [<rockhounding_surface:coldLogs:1>,<rockhounding_surface:fossilPlanks:13>,<rockhounding_surface:teredoStairs>,<rockhounding_surface:fossilSlabsLo:13>],
 #        [<rockhounding_surface:coldLogs:2>,<rockhounding_surface:fossilPlanks:14>,<rockhounding_surface:beechStairs>,<rockhounding_surface:fossilSlabsLo:14>],
 #        [<rockhounding_surface:coldLogs:3>,<rockhounding_surface:fossilPlanks:15>,<rockhounding_surface:redwoodStairs>,<rockhounding_surface:fossilSlabsLo:15>],
-        [<primal:corypha_stalk:*>,<primal:planks:3>,<primal:stairs_corypha>,<primal:slab_corypha>],
-        [<terraqueous:trunk1>, <terraqueous:planks>, <terraqueous:type_earth:40>, <terraqueous:type_earth:50>],
+        [<primal:corypha_stalk:*>,<primal:planks:3>,<primal:stairs_corypha>,<primal:slab_corypha>]
+        /*,[<terraqueous:trunk1>, <terraqueous:planks>, <terraqueous:type_earth:40>, <terraqueous:type_earth:50>],
         [<terraqueous:trunk1:1>, <terraqueous:planks:1>, <terraqueous:type_earth:41>, <terraqueous:type_earth:51>],
         [<terraqueous:trunk1:2>, <terraqueous:planks:2>, <terraqueous:type_earth:42>, <terraqueous:type_earth:52>],
         [<terraqueous:trunk1:3>, <terraqueous:planks:3>, <terraqueous:type_earth:43>, <terraqueous:type_earth:53>],
@@ -125,7 +125,7 @@
         [<terraqueous:trunk2:1>, <terraqueous:planks:6>, <terraqueous:type_earth:46>, <terraqueous:type_earth:56>],
         [<terraqueous:trunk2:2>, <terraqueous:planks:7>, <terraqueous:type_earth:47>, <terraqueous:type_earth:57>],
         [<terraqueous:trunk2:3>, <terraqueous:planks:8>, <terraqueous:type_earth:48>, <terraqueous:type_earth:58>],
-        [<terraqueous:trunk2:4>, <terraqueous:planks:9>, <terraqueous:type_earth:49>, <terraqueous:type_earth:59>]
+        [<terraqueous:trunk2:4>, <terraqueous:planks:9>, <terraqueous:type_earth:49>, <terraqueous:type_earth:59>] */
     ] as crafttweaker.item.IItemStack[][];
     
     var list_logs2 = [

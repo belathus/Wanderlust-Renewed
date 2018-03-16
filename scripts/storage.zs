@@ -80,7 +80,7 @@
     recipes.remove(<forestry:digger_bag>);
     recipes.remove(<forestry:forester_bag>);
     recipes.remove(<forestry:hunter_bag>);
-    recipes.remove(<forestry:lepidopterist_bag>);
+    #recipes.remove(<forestry:lepidopterist_bag>);
     recipes.remove(<forestry:miner_bag>);
 #    recipes.addShaped(<forestry:adventurer_bag>,
 #        [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
@@ -106,10 +106,10 @@
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
          [<ore:feather>,<ore:chest>,<ore:feather>],
          [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
-    recipes.addShaped(<forestry:lepidopterist_bag>,
-        [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
-         [<ore:stickWood>,<forestry:butterfly_chest>,<ore:stickWood>],
-         [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
+    #recipes.addShaped(<forestry:lepidopterist_bag>,
+#        [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
+#         [<ore:stickWood>,<forestry:butterfly_chest>,<ore:stickWood>],
+#         [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
 /*
     recipes.addShaped(<forestry:miner_bag>,
         [[<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>],
@@ -191,8 +191,9 @@
     # Planks List
     var list_all_planks = [
         <minecraft:planks:*>,
-        <biomesoplenty:planks_0:*>, <forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,
-        <forestry:planks.fireproof.1:*>, <botania:dreamwood:1>, <botania:livingwood:1>,# <arsmagica2:witchwood_planks>,
+        <biomesoplenty:planks_0:*>, 
+        #<forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,<forestry:planks.fireproof.1:*>,
+         <botania:dreamwood:1>, <botania:livingwood:1>,# <arsmagica2:witchwood_planks>,
         <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>
     ] as crafttweaker.item.IItemStack[];
     for i, plank in list_all_planks {

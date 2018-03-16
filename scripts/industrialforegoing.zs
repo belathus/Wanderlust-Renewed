@@ -1,7 +1,7 @@
 # =======================
 # ===== Laser Drill =====
 # =======================
-  mods.industrialforegoing.LaserDrill.remove(<minecraft:gold_ore>);
+  /* mods.industrialforegoing.LaserDrill.remove(<minecraft:gold_ore>);
   mods.industrialforegoing.LaserDrill.remove(<minecraft:iron_ore>);
   mods.industrialforegoing.LaserDrill.remove(<minecraft:coal_ore>);
   mods.industrialforegoing.LaserDrill.remove(<minecraft:lapis_ore>);
@@ -56,4 +56,4 @@
   mods.industrialforegoing.LaserDrill.add(14,<minecraft:redstone_ore>,            3); # Redstone
   mods.industrialforegoing.LaserDrill.add(0, <immersiveengineering:ore:3>,        2); # Silver
   mods.industrialforegoing.LaserDrill.add(8, <materialpart:tin:ore_minecraft_stone>.getItemStack(),  2); # Tin
-  mods.industrialforegoing.LaserDrill.add(8, <materialpart:zinc:ore_minecraft_stone>.getItemStack(), 1); # Zinc
+  mods.industrialforegoing.LaserDrill.add(8, <materialpart:zinc:ore_minecraft_stone>.getItemStack(), 1); # Zinc */

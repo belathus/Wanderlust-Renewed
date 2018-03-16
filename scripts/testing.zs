@@ -3,7 +3,7 @@ val fluid_items =
     <forestry:capsule>,
     <forestry:can>,
     <forestry:refractory>,
-    <ceramics:clay_bucket>
+    #<ceramics:clay_bucket>
   ] as crafttweaker.item.IItemStack[];
 
   for i, fluid in fluid_items {
