@@ -185,9 +185,9 @@
         recipes.addShaped(slab * 2, 
             [[<ore:toolSawFlint>],   [plank]]);
         recipes.addShaped(slab * 2, 
-            [[<ore:toolSawIron>],  [plank]]);
-        recipes.addShaped(slab * 2, 
-            [[<ore:toolSawCopper>],    [plank]]);
+            [[<ore:toolSawMetal>],  [plank]]);
+        #recipes.addShaped(slab * 2, 
+            #[[<ore:toolSawCopper>],    [plank]]);
         recipes.addShaped(slab * 2, 
             [[<ore:toolSawGem>],  [plank]]);
         recipes.addShapeless(plank * 3, 
