@@ -204,9 +204,39 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Chassis">
     <alloying energy="3600" exp="1">
       <input name="SIMPLE_CHASSIS"/>
-      <input name="dyeMachine" amount="6"/>
+      <input name="dyeMachine"/>
       <output name="CHASSIS"/>
     </alloying>
+  </recipe>
+
+  <recipe name="Soul Chassis">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS"/>
+      <input name="dyeSoulMachine"/>
+      <output name="SOUL_CHASSIS"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Enhanced Chassis" required="true">
+    <crafting>
+      <grid>
+        <item name="enderio:block_dark_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_dark_iron_bars"/>
+        <item name="ingotEndSteel"/><item name="CHASSIS"/><item name="ingotEndSteel"/>
+        <item name="enderio:block_dark_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_dark_iron_bars"/>
+      </grid>
+      <output name="ENHANCED_CHASSIS"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Unsouled Chassis" required="true">
+    <crafting>
+      <grid>
+        <item name="INDUSTRIAL_INSULATION"/><item name="GUARDIAN_DIODE"/><item name="INDUSTRIAL_INSULATION"/>
+        <item name="INDUSTRIAL_INSULATION"/><item name="SOUL_CHASSIS"/><item name="INDUSTRIAL_INSULATION"/>
+        <item name="INDUSTRIAL_INSULATION"/><item name="GUARDIAN_DIODE"/><item name="INDUSTRIAL_INSULATION"/>
+      </grid>
+      <output name="UNSOULED_CHASSIS"/>
+    </crafting>
   </recipe>
 
   <recipe name="Machine Dye">
@@ -216,7 +246,18 @@ XML editor will display that as tooltips when editing this file.
         <item name="POWDER_QUARTZ"/><item name="ORGANIC_BLACK_DYE"/><item name="POWDER_QUARTZ"/>
         <item name="ORGANIC_GREEN_DYE"/><item name="POWDER_QUARTZ"/><item name="dustLapis"/>
       </grid>
-      <output name="dyeMachine" amount="9"/>
+      <output name="dyeMachine" amount="6"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Soul Machine Dye">
+    <crafting>
+      <grid>
+        <item name="dustLapis"/><item name="POWDER_QUARTZ"/><item name="ORGANIC_BROWN_DYE"/>
+        <item name="POWDER_QUARTZ"/><item name="ORGANIC_BLACK_DYE"/><item name="POWDER_QUARTZ"/>
+        <item name="ORGANIC_BROWN_DYE"/><item name="POWDER_QUARTZ"/><item name="dustLapis"/>
+      </grid>
+      <output name="dyeSoulMachine" amount="6"/>
     </crafting>
   </recipe>
 
@@ -226,6 +267,38 @@ XML editor will display that as tooltips when editing this file.
         <item /><item name="stickWood"/><item />
         <item name="stickWood"/><item /><item name="stickWood"/>
         <item /><item name="stickWood"/><item />
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Gear, ae2 messes things up" required="true">
+    <crafting>
+      <grid>
+        <item name="stickWood"/><item /><item name="stickWood"/>
+        <item /><item /><item />
+        <item name="stickWood"/><item /><item name="stickWood"/>
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Gear, just to be sure" required="true">
+    <crafting>
+      <grid size="3x2">
+        <item name="stickWood"/><item /><item name="stickWood"/>
+        <item name="stickWood"/><item /><item name="stickWood"/>
+      </grid>
+      <output name="GEAR_WOOD"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Gear, better save than sorry" required="true">
+    <crafting>
+      <grid size="2x3">
+        <item name="stickWood"/><item name="stickWood"/>
+        <item /><item />
+        <item name="stickWood"/><item name="stickWood"/>
       </grid>
       <output name="GEAR_WOOD"/>
     </crafting>
@@ -378,6 +451,22 @@ XML editor will display that as tooltips when editing this file.
       </grid>
       <output name="enderio:block_reinforced_obsidian"/>
     </crafting>
+  </recipe>
+
+  <alias name="INSULATION_METAL" item="dustTin">
+    <dependency item="dustTin" reverse="false"/>
+  </alias>
+  <alias name="INSULATION_METAL" item="dustIron">
+    <dependency item="dustTin" reverse="true"/>
+  </alias>
+
+  <recipe name="Alloy: Industrial Insulation" required="true">
+    <alloying energy="5000" exp="0.5">
+      <input name="dustLapis"/>
+      <input name="minecraft:wool"/>
+      <input name="INSULATION_METAL"/>
+      <output name="INDUSTRIAL_INSULATION"/>
+    </alloying>
   </recipe>
 
   <recipe name="Dark Steel Anvil" required="true">
