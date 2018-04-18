@@ -7,7 +7,8 @@ $stdin.each do |line|
     mods[modName] += 1
     total += 1
 end
-mods.sort_by.reverse {|key, value| value}.each do |key, value|
+mods.sort_by {|key, value| value}.reverse.each do |key, value|
     puts "#{key} : #{value}, #{((value.to_f/total)*100.0).round(2)}%"
 end
-puts "#{total} IDs used"
+puts "#{total}/4096 IDs used"
+puts "#{(total/4096.0*100).round(2)}%"
