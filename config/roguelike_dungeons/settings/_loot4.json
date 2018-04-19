@@ -112,8 +112,6 @@
 			"loot":[
 				{"data":{"name":"primal:arrow_torch_nether"}, "min":1, "max":8},
 				{"data":{"name":"tconstruct:throwball"}, "min":1, "max":6},
-				{"data":{"name":"giacomos_fishing_net:itemnet"}, "min":1, "max":4},
-				{"data":{"name":"integrateddynamics:menril_torch"}, "min":1, "max":6},
 				{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
 				{"data":{"name":"primal:lantern_nether"}, "min":1, "max":2},
 				{"data":{"name":"xreliquary:holy_hand_grenade"}, "min":1, "max":4}
@@ -124,7 +122,7 @@
 		},
 		{
 			"loot" : [
-				{"data" : {"name" : "<minecraft:potion>", "nbt":"{Potion: \"cofhcore:regeneration5\"}"}, "weight" : 1}
+				{"data" : {"name" : "minecraft:potion", "nbt":"{Potion: \"cofhcore:regeneration5\"}"}, "weight" : 1}
 			],
 			"level" : 4,
 			"each" : false,

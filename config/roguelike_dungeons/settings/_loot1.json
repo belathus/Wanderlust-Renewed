@@ -19,11 +19,7 @@
                         {"data":{"name":"chainmail_chestplate","ench":5}},
                         {"data":{"name":"chainmail_leggings","ench":5}},
                         {"data":{"name":"chainmail_boots","ench":5}},
-						{"data":{"name":"thermalfoundation:armor.helmet_bronze","ench":5}},
-                        {"data":{"name":"thermalfoundation:armor.plate_bronze","ench":5}},
-                        {"data":{"name":"thermalfoundation:armor.legs_bronze","ench":5}},
-                        {"data":{"name":"thermalfoundation:armor.boots_bronze","ench":5}},
-                        {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
+                        {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
                     ],
                     "weight":3
                 }
@@ -35,9 +31,8 @@
         {
             "type":"WEAPONS",
             "loot":[
-                {"data":{"name":"thermalfoundation:tool.sword_bronze","ench":5}},
                 {"data":{"name":"primal:quartz_workblade","ench":5}},
-                {"data":{"name":"spartanshields:shield_basic_bronze","ench":5}}
+                {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
             ],
             "level":1,
             "each":true,
@@ -46,10 +41,6 @@
         {
             "type":"TOOLS",
             "loot":[
-                {"data":{"name":"thermalfoundation:tool.pickaxe_bronze","ench":5}},
-                {"data":{"name":"thermalfoundation:tool.shovel_bronze","ench":5}},
-                {"data":{"name":"thermalfoundation:tool.axe_bronze","ench":5}},
-                {"data":{"name":"thermalfoundation:tool.hoe_bronze","ench":5}},
                 {"data":[
 					{"data":{"name":"forestry:apiarist_bag"}},
 					{"data":{"name":"forestry:miner_bag"}},
@@ -64,16 +55,6 @@
             "level":1,
             "each":true,
             "quantity":3
-        },
-		{
-            "type":"TOOLS",
-            "loot":[
-                {"data":{"name":"theoneprobe:probe"}},
-				{"data":{"name":"theoneprobe:probe_goggles"}}
-            ],
-            "level":1,
-            "each":false,
-            "quantity":2
         },
         {
             "loot":[
@@ -136,16 +117,11 @@
                 },
                 {
                     "data":[
-                        {"data":{"name":"natura:edibles","min":1,"max":2}},
-                        {"data":{"name":"natura:edibles","meta":1,"min":1,"max":2}},
-                        {"data":{"name":"natura:materials", "meta":6 ,"min":1,"max":2}},
                         {"data":{"name":"iron_ingot","min":1,"max":2}},
                         {"data":{"name":"immersiveengineering:metal","meta":18,"min":1,"max":4}},
                         {"data":{"name":"naturescompass:NaturesCompass"}},
                         {"data":{"name":"enchanting_table"}},
                         {"data":{"name":"diamond","min":1,"max":4}},
-                        {"data":{"name":"abyssalcraft:shadowgem","min":1,"max":2}},
-                        {"data":{"name":"extrautils2:decorativesolidwood","meta":1,"min":1,"max":2}},
                         {"data":{"name":"botania:manaResource","min":1,"max":4}},
                         {"data":{"name":"piston"}},
                         {"data":{"name":"anvil"}},
