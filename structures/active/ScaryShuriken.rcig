@@ -1,0 +1,432 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "ScaryShuriken",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:shuriken",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StatsOriginal": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "Accuracy": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.755
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 934
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 4
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.855
+                }
+              }
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Pretty Scary Shuriken"
+                }
+              }
+            },
+            "Stats": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.1
+                },
+                "Accuracy": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.755
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 934
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 4
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.855
+                }
+              }
+            },
+            "Special": {
+              "nbtType": "compound",
+              "nbt": {
+                "Categories": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "tool"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "no_melee"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "projectile"
+                    }
+                  ]
+                }
+              }
+            },
+            "TinkerData": {
+              "nbtType": "compound",
+              "nbt": {
+                "UsedModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "Materials": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "cobalt"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "ardite"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "netherrack"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "manyullyn"
+                    }
+                  ]
+                },
+                "Modifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "necrotic"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "soulbound"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "beheading"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "smite"
+                    }
+                  ]
+                }
+              }
+            },
+            "Modifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "momentum"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -14122284
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "lightweight"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -14122284
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "stonebound"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -3063280
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "petramor"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -3063280
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "aridiculous"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -4698289
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "hellish"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -4698289
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "insatiable"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -6202120
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "coldblooded"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -6202120
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "necrotic"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": 6160384
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "soulbound"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": 16120748
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "beheading"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": 1070923
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "smite"
+                    },
+                    "current": {
+                      "nbtType": "int",
+                      "nbt": 24
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": 15258880
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    },
+                    "max": {
+                      "nbtType": "int",
+                      "nbt": 24
+                    },
+                    "extraInfo": {
+                      "nbtType": "string",
+                      "nbt": "23 / 24"
+                    }
+                  }
+                }
+              ]
+            },
+            "Traits": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "string",
+                  "nbt": "momentum"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "lightweight"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "stonebound"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "petramor"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "aridiculous"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "hellish"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "insatiable"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "coldblooded"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "necrotic"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "smite"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": "$plustic \u0026 $tconstruct \u0026 $enderio"
+}

@@ -77,7 +77,6 @@
 				},
 				{
 					"data" : [
-						{"data" : {"name" : "abyssalcraft:mre"}},
 						{"data" : {"name" : "botania:blackLotus"}},
 						{"data" : {"name" : "book", "ench" : 30}}
 					],
@@ -125,7 +124,7 @@
 		},
 		{
 			"loot" : [
-				{"data" : {"name" : "abyssalcraft:anticorflesh"}, "weight" : 1}
+				{"data" : {"name" : "<minecraft:potion>", "nbt":"{Potion: \"cofhcore:regeneration5\"}"}, "weight" : 1}
 			],
 			"level" : 4,
 			"each" : false,

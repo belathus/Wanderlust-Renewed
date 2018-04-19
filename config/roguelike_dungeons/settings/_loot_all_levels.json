@@ -14,7 +14,6 @@
         {
             "type":"POTIONS",
             "loot":[
-                {"data":{"name":"natura:soups","meta":4},"weight":1},
                 {"data":{"name":"dungeontactics:bag_potion"},"weight":5}
             ],
             "level":[0,1,2,3,4],
@@ -62,7 +61,13 @@
 		{
 			"type":"REWARD",
 			"loot" : [
-				{"data" : {"name" : "abyssalcraft:anticorflesh"}, "weight" : 1}
+				{  
+                    "data":{  
+                        "name":"tconstruct:shuriken",
+                        "nbt":"{StatsOriginal: {AttackSpeedMultiplier: 1.0, Accuracy: 1.0, MiningSpeed: 6.755, FreeModifiers: 3, Durability: 934, HarvestLevel: 4, Attack: 5.855}, display: {Name: \"Pretty Scary Shuriken\"}, Stats: {AttackSpeedMultiplier: 1.1, Accuracy: 1.0, MiningSpeed: 6.755, FreeModifiers: 0, Durability: 934, HarvestLevel: 4, Attack: 5.855}, Special: {Categories: [\"tool\", \"no_melee\", \"projectile\"]}, TinkerData: {UsedModifiers: 3, Materials: [\"cobalt\", \"ardite\", \"netherrack\", \"manyullyn\"], Modifiers: [\"necrotic\", \"soulbound\", \"beheading\", \"smite\"]}, Modifiers: [{identifier: \"momentum\", color: -14122284, level: 1}, {identifier: \"lightweight\", color: -14122284, level: 1}, {identifier: \"stonebound\", color: -3063280, level: 1}, {identifier: \"petramor\", color: -3063280, level: 1}, {identifier: \"aridiculous\", color: -4698289, level: 1}, {identifier: \"hellish\", color: -4698289, level: 1}, {identifier: \"insatiable\", color: -6202120, level: 1}, {identifier: \"coldblooded\", color: -6202120, level: 1}, {identifier: \"necrotic\", color: 6160384, level: 1}, {identifier: \"soulbound\", color: 16120748}, {identifier: \"beheading\", color: 1070923, level: 1}, {identifier: \"smite\", current: 24, color: 15258880, level: 1, max: 24, extraInfo: \"23 / 24\"}], Traits: [\"momentum\", \"lightweight\", \"stonebound\", \"petramor\", \"aridiculous\", \"hellish\", \"insatiable\", \"coldblooded\", \"necrotic\", \"smite\"]}"
+                    },
+                    "weight":1
+                }
 			],
 			"level" : [0,1,2,3,4],
 			"each" : true,
@@ -181,7 +186,6 @@
                 {"data":{"name":"primal:fish_puffer_salted","min":1,"max":3}},
                 {"data":{"name":"primal:fish_salmon_salted","min":1,"max":3}},
                 {"data":{"name":"primal:pigman_meat_salted","min":1,"max":3}},
-                {"data":{"name":"harvestcraft:saltedsunflowerseedsitem","min":1,"max":8}},
                 {"data":{"name":"primal:fish_clown_dried","min":1,"max":3}},
                 {"data":{"name":"primal:fish_cod_dried","min":1,"max":3}},
                 {"data":{"name":"primal:fish_lava_worm_dried","min":1,"max":3}},
