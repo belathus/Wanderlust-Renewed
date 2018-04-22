@@ -9,11 +9,7 @@
                         {"data":{"name":"leather_helmet","ench":2}},
                         {"data":{"name":"leather_chestplate","ench":2}},
                         {"data":{"name":"leather_leggings","ench":2}},
-                        {"data":{"name":"leather_boots","ench":2}},
-                        {"data":{"name":"harvestcraft:hardenedleatherhelmitem","ench":2}},
-                        {"data":{"name":"harvestcraft:hardenedleatherchestitem","ench":2}},
-                        {"data":{"name":"harvestcraft:hardenedleatherleggingsitem","ench":2}},
-                        {"data":{"name":"harvestcraft:hardenedleatherbootsitem","ench":2}}
+                        {"data":{"name":"leather_boots","ench":2}}
                     ],
                     "weight":5
                 },
@@ -38,7 +34,7 @@
                     "data":[
                         {"data":{"name":"primal:flint_workblade","ench":2}},
                         {"data":{"name":"primal:stone_gallagher","ench":2}},
-                        {"data":{"name":"spartanshields:shield_basic_wood","ench":2}}
+                        {"data":{"name":"erebus:bamboo_shield","ench":2}}
                     ],
                     "weight":5
                 },
@@ -46,7 +42,7 @@
                     "data":[
                         {"data":{"name":"primal:quartz_workblade","ench":2}},
                         {"data":{"name":"primal:quartz_gallagher","ench":2}},
-                        {"data":{"name":"spartanshields:shield_basic_stone","ench":2}}
+                        {"data":{"name":"dungeontactics:stone_shield","ench":2}}
                     ],
                     "weight":3
                 }
@@ -67,8 +63,7 @@
                         {"data":{"name":"primal:flint_pickaxe","ench":2}},
                         {"data":{"name":"primal:flint_shears","ench":2}},
                         {"data":{"name":"primal:flint_saw","ench":2}},
-                        {"data":{"name":"primal:flint_shovel","ench":2}},
-                        {"data":{"name":"giacomos_fishing_net:itemnet","min":1,"max":5}}
+                        {"data":{"name":"primal:flint_shovel","ench":2}}
                     ],
                     "weight":5
                 },
@@ -80,10 +75,7 @@
                         {"data":{"name":"primal:quartz_pickaxe","ench":2}},
                         {"data":{"name":"primal:quartz_shears","ench":2}},
                         {"data":{"name":"primal:quartz_shovel","ench":2}},
-                        {"data":{"name":"primal:quartz_saw","ench":2}},
-                        {"data":{"name":"abyssalcraft:dpick","ench":2}},
-                        {"data":{"name":"abyssalcraft:dshovel","ench":2}},
-                        {"data":{"name":"abyssalcraft:daxe","ench":2}}
+                        {"data":{"name":"primal:quartz_saw","ench":2}}
                     ],
                     "weight":3
                 }
@@ -108,7 +100,6 @@
                         {"data":{"name":"leather"}},
                         {"data":{"name":"rabbit_hide"}},
                         {"data":{"name":"primal:pelt_wolf"}},
-                        {"data":{"name":"harvestcraft:hardenedleatheritem"}},
                         {"data":{"name":"lead"}},
                         {"data":{"name":"saddle"}},
                         {"data":{"name":"paper","min":1,"max":2}},
@@ -145,7 +136,6 @@
                         {"data":{"name":"book","min":1,"max":3}},
                         {"data":{"name":"minecraft:brick","min":1,"max":3}},
                         {"data":{"name":"botania:fertilizer","min":1,"max":4}},
-                        {"data":{"name":"waystones:warp_scroll"}},
                         {"data":{"name":"ender_pearl"}},
                         {"data":{"name":"dye","meta":4,"min":1,"max":4}},
                         {"data":{"name":"rabbit_foot"}},
@@ -172,7 +162,6 @@
                             ],
                             "min":1, "max":2
                         },
-                        {"data":{"name":"abyssalcraft:coralium","min":1,"max":3}},
                         {"data":{"name":"obsidian","min":2,"max":5}},
                         {"data":{"name":"furnace"}},
                         {
@@ -191,7 +180,6 @@
                         {"data":{"name":"contenttweaker:material_part","meta":67,"comment":"Tin","min":1,"max":2}},
                         {"data":{"name":"primal:iron_ring","min":1,"max":2}},
                         {"data":{"name":"lava_bucket"}},
-                        {"data":{"name":"waystones:warp_stone"}},
                         {"data":{"name":"book","ench":6}}
                     ],
                     "weight":2
@@ -200,14 +188,6 @@
             "level":0,
             "each":true,
             "quantity":8
-        },
-        {
-            "loot":[
-                {"data":{"name":"waystones:waystone"}}
-            ],
-            "level":0,
-            "each":false,
-            "quantity":1
         }
     ]
 }

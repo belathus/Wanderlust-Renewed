@@ -22,6 +22,20 @@
     </sagmilling>
   </recipe>
 
+  <recipe name="Sagmill: Charcoal Block" required="false">
+    <sagmilling energy="2400">
+      <input name="blockCharcoal"/>
+      <output name="dustCharcoal" amount="9"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Emerald Dust" required="false">
+    <sagmilling energy="2400">
+      <input name="gemEmerald"/>
+      <output name="dustEmerald"/>
+    </sagmilling>
+  </recipe>
+
   <!-- Mod: Forestry -->
 
   <recipe name="Sagmill: Log" required="false">

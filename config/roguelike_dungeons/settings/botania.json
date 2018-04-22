@@ -53,7 +53,7 @@
                     }
                 },
                 "floor": {
-                    "name": "quark:stained_clay_tiles",
+                    "name": "minecraft:stained_hardened_clay",
                     "meta": 5
                 }
             },
@@ -75,13 +75,13 @@
                 "stair": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "quark:stained_clay_tiles_red_stairs"
+                        "name": "minecraft:red_sandstone_stairs"
                     }
                 },
                 "floor": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "quark:stained_clay_tiles",
+                        "name": "minecraft:stained_hardened_clay",
                         "meta": 14
                     }
                 }
@@ -109,7 +109,7 @@
                 "stair": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "quark:stained_clay_tiles_brown_stairs"
+                        "name": "erebus:stairs_umbertile_smooth"
                     }
                 },
                 "floor": {
@@ -137,7 +137,7 @@
                 "stair": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "natura:overworld_stairs_silverbell"
+                        "name": "biomesoplenty:jacaranda_stairs"
                     }
                 },
                 "floor": {
@@ -287,11 +287,11 @@
                     ]
                 },
                 "pillar": {
-                    "name": "natura:overworld_logs2",
-                    "meta": 1
+                    "name": "biomesoplenty:log_3",
+                    "meta": 4
                 },
                 "stair": {
-                    "name": "natura:overworld_stairs_eucalyptus"
+                    "name": "biomesoplenty:mahogany_stairs"
                 },
                 "floor": {
                     "name": "minecraft:pink_glazed_terracotta"

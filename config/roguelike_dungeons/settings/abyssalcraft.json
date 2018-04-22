@@ -47,20 +47,19 @@
                 "stair":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"abyssalcraft:dcstairs"
+                        "name":"botania:biomestonea11stairs"
                     }
                 },
                 "floor":{
-                    "name":"abyssalcraft:darkstone_brick",
-                    "meta":2
+                    "name":"botania:biomestoneb",
+                    "meta":3
                 }
             },
             "secondary":{
                 "walls":{
-                    "type":"METABLOCK",
                     "data":{
-                        "name":"abyssalcraft:darkstone_brick",
-                    "meta":2
+                        "name":"botania:biomestoneb",
+                        "meta":3
                     }
                 },
                 "pillar":{
@@ -140,14 +139,14 @@
                 "pillar":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"abyssalcraft:dltlog",
-                        "meta":5
+                        "name":"biomesoplenty:log_0",
+                        "meta":6
                     }
                 },
                 "stair":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"quark:stone_basalt_bricks_stairs"
+                        "name":"nex:stairs_basalt_brick"
                     }
                 },
                 "floor":{
@@ -242,8 +241,9 @@
                             "weight":5
                         },
                         {
-                            "name":"abyssalcraft:monolithpillar",
-                            "weight":1
+                            "name":"astralsorcery:blockblackmarble",
+                            "meta":2,
+                            "weight":15
                         }
                     ]
                 },
@@ -268,8 +268,8 @@
                             "meta":6
                         },
                         {
-                            "name":"quark:polished_netherrack",
-                            "meta":1
+                            "name":"chisel:netherrack",
+                            "meta":11
                         }
                     ]
                 }
@@ -299,7 +299,8 @@
                             "meta":3
                         },
                         {
-                            "name":"abyssalcraft:monolithpillar"
+                            "name":"astralsorcery:blockblackmarble",
+                            "meta":2
                         }
                     ]
                 },
@@ -337,7 +338,7 @@
                             "weight":3
                         },
                         {
-                            "name":"abyssalcraft:monolithpillar",
+                            "name":"astralsorcery:blockblackmarble",
                             "weight":2
                         },
                         {
@@ -349,16 +350,12 @@
                 "stair":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"quark:stone_basalt_bricks_stairs"
+                        "name":"nex:stairs_basalt_brick"
                     }
                 },
                 "floor":{
                     "type":"WEIGHTED",
                     "data":[
-                        {
-                            "name":"abyssalcraft:shoggothbiomass",
-                            "weight":1
-                        },
                         {
                             "name":"immersiveengineering:stone_decoration",
                             "meta":3,
@@ -399,7 +396,7 @@
                 "stair":{
                     "type":"METABLOCK",
                     "data":{
-                        "name":"quark:stone_limestone_bricks_stairs"
+                        "name":"thebetweenlands:limestone_brick_stairs"
                     }
                 },
                 "floor":{
@@ -436,10 +433,6 @@
                     "type":"WEIGHTED",
                     "data":[
                         {
-                            "name":"abyssalcraft:shoggothbiomass",
-                            "weight":1
-                        },
-                        {
                             "name":"immersiveengineering:stone_decoration",
                             "meta":3,
                             "weight":1,
@@ -452,11 +445,6 @@
                         },
                         {
                             "name":"evilcraft:blood_waxed_coal_block",
-                            "weight":1
-                        },
-                        {
-                            "name":"thermalfoundation:storage",
-                            "meta":3,
                             "weight":1
                         },
                         {
@@ -492,7 +480,7 @@
                     }
                 },
                 "floor":{
-                    "name":"quark:stained_clay_tiles",
+                    "name":"minecraft:stained_hardened_clay",
                     "meta":11
                 }
             }
