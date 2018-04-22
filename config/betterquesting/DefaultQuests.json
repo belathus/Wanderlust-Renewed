@@ -182,11 +182,16 @@
           "index:3": 1,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "minecraft:pumpkin_pie",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:potion",
               "Count:3": 1,
               "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "harvestcraft:chocolateicecreamitem"
+                "Potion:8": "minecraft:healing"
               },
               "OreDict:8": "",
               "Damage:3": 0
@@ -402,12 +407,8 @@
           "index:3": 1,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "quark:candle",
               "Count:3": 8,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "quark:candle"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -888,12 +889,8 @@
               "Damage:3": 0
             },
             "1:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "minecraft:bread",
               "Count:3": 4,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "harvestcraft:flouritem"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -910,12 +907,8 @@
           "index:3": 2,
           "choices:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "quark:candle",
               "Count:3": 16,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "integrateddynamics:menril_torch"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             },
@@ -1017,12 +1010,8 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "chisel:temple",
               "Count:3": 32,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "chisel:temple"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
