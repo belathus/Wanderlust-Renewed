@@ -3,14 +3,14 @@
 # ===============================
   mods.astralsorcery.LightTransmutation.addTransmutation(<rockhounding_oretiers:iron_ores:2>, <astralsorcery:blockcustomore:1>, 100);
   mods.astralsorcery.LightTransmutation.addTransmutation(<rockhounding_oretiers:iron_ores:3>, <astralsorcery:blockcustomore:1>, 100);
-  mods.astralsorcery.LightTransmutation.addTransmutation(<mist:iron_ore>, <astralsorcery:blockcustomore:1>, 100);
-  mods.astralsorcery.LightTransmutation.addTransmutation(<abyssalcraft:abyiroore>, <astralsorcery:blockcustomore:1>, 100);
+#  mods.astralsorcery.LightTransmutation.addTransmutation(<mist:iron_ore>, <astralsorcery:blockcustomore:1>, 100);
+#  mods.astralsorcery.LightTransmutation.addTransmutation(<abyssalcraft:abyiroore>, <astralsorcery:blockcustomore:1>, 100);
 
 
 # ===============================
 # ===== Starlight  Infusion =====
 # ===============================
-  //mods.astralsorcery.StarlightInfusion.addInfusion(IItemStack input, IItemStack output, boolean consumeMultiple, float consumptionChance, int craftingTickTime);
+  #mods.astralsorcery.StarlightInfusion.addInfusion(IItemStack input, IItemStack output, boolean consumeMultiple, float consumptionChance, int craftingTickTime);
   # Processing metals
   mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:ore:1>,          <immersiveengineering:metal:1> * 3,               false, 0.05, 200);   # Aluminum
   mods.astralsorcery.StarlightInfusion.addInfusion(<tconstruct:ore:1>,                    <materialpart:ardite:ingot>.getItemStack() * 3,   false, 0.05, 200);   # Ardite
@@ -27,10 +27,10 @@
   mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:ore:2>,          <immersiveengineering:metal:2> * 3,               false, 0.05, 200);   # Lead
   mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_oretiers:iron_ores:3>,   <minecraft:iron_ingot> * 3,                       false, 0.05, 200);   # Limonite
   mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_oretiers:iron_ores:0>,   <minecraft:iron_ingot> * 4,                       false, 0.05, 200);   # Magnetite
-  mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:ore:8>,             <materialpart:mithril:ingot>.getItemStack() * 3,  false, 0.05, 200);   # Mithril
+#  mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:ore:8>,             <materialpart:mithril:ingot>.getItemStack() * 3,  false, 0.05, 200);   # Mithril
   mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:ore:4>,          <immersiveengineering:metal:4> * 3,               false, 0.05, 200);   # Nickel
   mods.astralsorcery.StarlightInfusion.addInfusion(<mekanism:oreblock>,                   <mekanism:ingot:1> * 3,                           false, 0.05, 200);   # Osmium
-  mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:ore:6>,             <materialpart:platinum:ingot>.getItemStack() * 3, false, 0.05, 200);   # Platinum
+#  mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:ore:6>,             <materialpart:platinum:ingot>.getItemStack() * 3, false, 0.05, 200);   # Platinum
   mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:sub_block_holder_0:6>, <materialpart:plutonium:ingot>.getItemStack() * 3,false, 0.05, 200);   # Plutonium
   mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_oretiers:iron_ores:4>,   <minecraft:iron_ingot> * 2,                       false, 0.05, 200);   # Siderite
   mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:ore:3>,          <immersiveengineering:metal:3> * 3,               false, 0.05, 200);   # Silver

@@ -6,7 +6,7 @@
     mods.forestry.Squeezer.addRecipe(<liquid:water> * 250, [<primal:valus_melon>], 20, <forestry:fertilizer_bio> % 5);
 
 # Applied Energistics
-    mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material>, [[<appliedenergistics2:material:11>]], 10, <liquid:menrilresin> * 1000);
+    #mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material>, [[<appliedenergistics2:material:11>]], 10, <liquid:menrilresin> * 1000);
 
 # Biomes O' Plenty
     mods.forestry.Squeezer.addRecipe(<liquid:blood> * 15, [<minecraft:rotten_flesh>], 20, <forestry:fertilizer_bio> % 5);
@@ -27,7 +27,7 @@
 #         [null, <ore:ingotVibrantAlloy>, null]], <liquid:glass>*250);
 
 # Evilcraft
-    mods.forestry.Squeezer.addRecipe(<liquid:evilcraftpoison> * 250, [<evilcraft:poison_sac>], 20, <biomesoplenty:jelled_poison> % 5);
+    #mods.forestry.Squeezer.addRecipe(<liquid:evilcraftpoison> * 250, [<evilcraft:poison_sac>], 20, <biomesoplenty:jelled_poison> % 5);
 
 # Forestry
     mods.forestry.Carpenter.addRecipe(<forestry:apiary>, [[<forestry:bee_house>]], 25, <liquid:seed.oil> * 250);
@@ -41,7 +41,7 @@
          [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 180, <liquid:creosote> * 1000);
 
 # Integrated Dynamics
-    mods.forestry.Carpenter.addRecipe(<integrateddynamics:menril_sapling>, [[<ore:treeSapling>]], 20, <liquid:menrilresin> * 8000);
+    #mods.forestry.Carpenter.addRecipe(<integrateddynamics:menril_sapling>, [[<ore:treeSapling>]], 20, <liquid:menrilresin> * 8000);
 
 # Rockhounding Ore Teirs
     mods.forestry.Carpenter.addRecipe(<minecraft:coal_block>, [[<rockhounding_oretiers:seam_fire>]], 20, <liquid:water> * 200);
