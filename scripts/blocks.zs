@@ -76,10 +76,10 @@
         [<appliedenergistics2:part:15>, <evilcraft:bucket_eternal_water>]);
 
 # Astral Sorcery
-    recipes.addShapeless(<astralsorcery:blockmarblestairs>, [<quark:stone_marble_bricks_stairs>]);
+#    recipes.addShapeless(<astralsorcery:blockmarblestairs>, [<quark:stone_marble_bricks_stairs>]);
     recipes.addShapeless(<astralsorcery:blockmarble>, [<quark:marble>]);
     recipes.addShapeless(<astralsorcery:blockmarble:1>, [<quark:world_stone_bricks:4>]);
-    recipes.addShapeless(<astralsorcery:blockmarbleslab>, [<quark:stone_marble_bricks_slab>]);
+#    recipes.addShapeless(<astralsorcery:blockmarbleslab>, [<quark:stone_marble_bricks_slab>]);
     recipes.addShaped(<astralsorcery:blockmarbleslab> * 6,
         [[<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
     recipes.addShapedMirrored(<astralsorcery:blockmarblestairs> * 8,
@@ -105,11 +105,11 @@
          [<ore:stone>,<ore:stone>,<ore:stone>]]);
 
 # Deep Resonance
-    recipes.remove(<deepresonance:dense_glass>);
-    recipes.addShaped(<deepresonance:dense_glass> * 5,
-        [[<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>],
-         [<ore:blockGlassHardened>, <ore:dustObsidian>, <ore:blockGlassHardened>],
-         [<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>]]);
+#    recipes.remove(<deepresonance:dense_glass>);
+#    recipes.addShaped(<deepresonance:dense_glass> * 5,
+#        [[<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>],
+#         [<ore:blockGlassHardened>, <ore:dustObsidian>, <ore:blockGlassHardened>],
+#         [<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>]]);
 
 # Evilcraft
     recipes.addShaped(<evilcraft:eternal_water_block>,
@@ -118,50 +118,50 @@
          [null,<ore:gemDark>,null]]);
 
 # Extra Utilities
-    # Portal to the Deep Dark
-    recipes.remove(<extrautils2:teleporter:1>);
-    recipes.addShaped(<extrautils2:teleporter:1>,
-        [[<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>],
-         [<ore:dropofevil>,<biomesoplenty:terrestrial_artifact>,<ore:dropofevil>],
-         [<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>]]);
-
-    # Fixing a recipe conflict; polished stone block
-    recipes.remove(<extrautils2:decorativesolid:2>);
-    recipes.addShaped(<extrautils2:decorativesolid:2>*4,
-        [[<ore:bricksStone>,null,<ore:bricksStone>],
-         [null,null,null],
-         [<ore:bricksStone>,null,<ore:bricksStone>]]);
-         
-    # Wooden Spikes
-    recipes.remove(<extrautils2:spike_wood>);
-    recipes.addShaped(<extrautils2:spike_wood> * 4,
-        [[null,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),null],
-         [<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),<ore:plankWood>,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"})],
-         [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
-    # Stone Spike
-    recipes.remove(<extrautils2:spike_stone>);
-    recipes.addShaped(<extrautils2:spike_stone> * 4,
-        [[null, <ore:rock>, null],
-         [<ore:rock>, <ore:cobblestone>, <ore:rock>],
-         [<ore:cobblestone>, <ore:compressed1xCobblestone>, <ore:cobblestone>]]);
-    # Iron Spike
-    recipes.addShaped(<extrautils2:spike_iron> * 4,
-        [[null, <dungeontactics:iron_cutlass>, null],
-         [<dungeontactics:iron_cutlass>, <ore:ingotIron>, <dungeontactics:iron_cutlass>],
-         [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>]]);
-    # Gold Spike
-    recipes.addShaped(<extrautils2:spike_gold> * 4,
-        [[null, <dungeontactics:golden_cutlass>, null],
-         [<dungeontactics:golden_cutlass>, <ore:ingotGold>, <dungeontactics:golden_cutlass>],
-         [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>]]);
-    # Diamond Spikes
-    recipes.addShaped(<extrautils2:spike_diamond> * 3,
-        [[null,<ore:pointDiamond>,null],
-         [<ore:flakeDiamond>,<ore:gemDiamond>,<ore:flakeDiamond>],
-         [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
-
-    # Shrotcut Stick Recipe Removal
-    recipes.removeByRecipeName("extrautils2:shortcut_stick");
+#    # Portal to the Deep Dark
+#    recipes.remove(<extrautils2:teleporter:1>);
+#    recipes.addShaped(<extrautils2:teleporter:1>,
+#        [[<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>],
+#         [<ore:dropofevil>,<biomesoplenty:terrestrial_artifact>,<ore:dropofevil>],
+#         [<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>]]);
+#
+#    # Fixing a recipe conflict; polished stone block
+#    recipes.remove(<extrautils2:decorativesolid:2>);
+#    recipes.addShaped(<extrautils2:decorativesolid:2>*4,
+#        [[<ore:bricksStone>,null,<ore:bricksStone>],
+#         [null,null,null],
+#         [<ore:bricksStone>,null,<ore:bricksStone>]]);
+#         
+#    # Wooden Spikes
+#    recipes.remove(<extrautils2:spike_wood>);
+#    recipes.addShaped(<extrautils2:spike_wood> * 4,
+#        [[null,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),null],
+#         [<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),<ore:plankWood>,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"})],
+#         [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
+#    # Stone Spike
+#    recipes.remove(<extrautils2:spike_stone>);
+#    recipes.addShaped(<extrautils2:spike_stone> * 4,
+#        [[null, <ore:rock>, null],
+#         [<ore:rock>, <ore:cobblestone>, <ore:rock>],
+#         [<ore:cobblestone>, <ore:compressed1xCobblestone>, <ore:cobblestone>]]);
+#    # Iron Spike
+#    recipes.addShaped(<extrautils2:spike_iron> * 4,
+#        [[null, <dungeontactics:iron_cutlass>, null],
+#         [<dungeontactics:iron_cutlass>, <ore:ingotIron>, <dungeontactics:iron_cutlass>],
+#         [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>]]);
+#    # Gold Spike
+#    recipes.addShaped(<extrautils2:spike_gold> * 4,
+#        [[null, <dungeontactics:golden_cutlass>, null],
+#         [<dungeontactics:golden_cutlass>, <ore:ingotGold>, <dungeontactics:golden_cutlass>],
+#         [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>]]);
+#    # Diamond Spikes
+#    recipes.addShaped(<extrautils2:spike_diamond> * 3,
+#        [[null,<ore:pointDiamond>,null],
+#         [<ore:flakeDiamond>,<ore:gemDiamond>,<ore:flakeDiamond>],
+#         [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
+#
+#    # Shrotcut Stick Recipe Removal
+#    recipes.removeByRecipeName("extrautils2:shortcut_stick");
          
 # Immersive Engineering
     recipes.addShaped(<immersiveengineering:treated_wood>*3,
@@ -230,7 +230,7 @@
     #     [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]]);
 
 # Misty World
-    recipes.removeByRecipeName("mist:door");
+#    recipes.removeByRecipeName("mist:door");
 
 # PrimalCore
     recipes.addShaped(<primal:mud_clump>*64,
@@ -262,9 +262,9 @@
         [[<quark:marble>, null, <quark:marble>],
          [null, null, null],
          [<quark:marble>, null, <quark:marble>]]);
-    recipes.addShapeless(<quark:stone_marble_bricks_slab>, [<astralsorcery:blockmarbleslab>]);
-    recipes.addShapeless(<quark:stone_marble_bricks_stairs>, [<astralsorcery:blockmarblestairs>]);
+#    recipes.addShapeless(<quark:stone_marble_bricks_slab>, [<astralsorcery:blockmarbleslab>]);
+#    recipes.addShapeless(<quark:stone_marble_bricks_stairs>, [<astralsorcery:blockmarblestairs>]);
     recipes.addShapeless(<quark:marble>, [<astralsorcery:blockmarble>]);
     recipes.addShapeless(<quark:world_stone_bricks:4>, [<astralsorcery:blockmarble:1>]);
-    recipes.addShaped(<quark:stone_marble_slab> * 6,
-        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
+#    recipes.addShaped(<quark:stone_marble_slab> * 6,
+#        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
