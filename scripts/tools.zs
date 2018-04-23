@@ -254,13 +254,13 @@
         [capBare, <minecraft:skull:4>]);
 
 # Extra Utilities
-    recipes.remove(<extrautils2:itemdestructionwand>);
-    recipes.addShaped(<extrautils2:itemdestructionwand>,
-        [[null,<ore:ingotNoctunyx>,<ore:ingotAstrium>],
-         [null,<extrautils2:decorativesolidwood:1>,<ore:ingotNoctunyx>],
-         [<extrautils2:decorativesolidwood:1>,null,null]]);
-    recipes.remove(<extrautils2:sickle_wood>);
-    recipes.remove(<extrautils2:sickle_stone>);
+#    recipes.remove(<extrautils2:itemdestructionwand>);
+#    recipes.addShaped(<extrautils2:itemdestructionwand>,
+#        [[null,<ore:ingotNoctunyx>,<ore:ingotAstrium>],
+#         [null,<extrautils2:decorativesolidwood:1>,<ore:ingotNoctunyx>],
+#         [<extrautils2:decorativesolidwood:1>,null,null]]);
+#    recipes.remove(<extrautils2:sickle_wood>);
+#    recipes.remove(<extrautils2:sickle_stone>);
 
 # Grappling Hooks
 #    recipes.remove(<grapplemod:grapplinghook>);
@@ -437,12 +437,12 @@
 #         [<ore:stickWood>]]);
 
 # Thermal Expansion
-    recipes.remove(<thermalfoundation:tool.shears_wood>);
-    recipes.remove(<thermalfoundation:tool.shears_stone>);
-    recipes.remove(<thermalfoundation:tool.hammer_wood>);
-    recipes.remove(<thermalfoundation:tool.sickle_wood>);
-    recipes.remove(<thermalfoundation:tool.hammer_stone>);
-    recipes.remove(<thermalfoundation:tool.sickle_stone>);
+    #recipes.remove(<thermalfoundation:tool.shears_wood>);
+    #recipes.remove(<thermalfoundation:tool.shears_stone>);
+    #recipes.remove(<thermalfoundation:tool.hammer_wood>);
+    #recipes.remove(<thermalfoundation:tool.sickle_wood>);
+    #recipes.remove(<thermalfoundation:tool.hammer_stone>);
+    #recipes.remove(<thermalfoundation:tool.sickle_stone>);
 
 # Tinker's Construct
     recipes.addShapeless(<tconstruct:throwball:1> * 5, 
