@@ -15,4 +15,4 @@
     #<evilcraft:promise_acceptor:2>.displayName = "Mithril Promise Acceptor";
     
 # Iron Chests
-    <ironchest:iron_chest:2>.displayName = "Mithril Chest";
+    #<ironchest:iron_chest:2>.displayName = "Mithril Chest";

@@ -1,13 +1,12 @@
 # Metals Unification
 val nope = <minecraft:barrier>;
-val ctMat = <contenttweaker:material_part>;
 val ctOre = <contenttweaker:sub_block_holder_0>;
 val ctOr1 = <contenttweaker:sub_block_holder_1>;
 val ctOr2 = <contenttweaker:sub_block_holder_2>;
 val ctOr3 = <contenttweaker:sub_block_holder_3>;
-/* val teMat = <thermalfoundation:material>;
-val teSto = <thermalfoundation:storage>;
-val teOre = <thermalfoundation:ore>; */
+# val teMat = <thermalfoundation:material>;
+# val teSto = <thermalfoundation:storage>;
+# val teOre = <thermalfoundation:ore>;
 val ieMat = <immersiveengineering:metal>;
 val ieSto = <immersiveengineering:storage>;
 val ieOre = <immersiveengineering:ore>;
@@ -170,8 +169,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     var constantan_oredict = [<ore:nuggetConstantan>,<ore:ingotConstantan>,<ore:blockConstantan>,<ore:plateConstantan>,<ore:gearConstantan>,<ore:oreConstantan>,<ore:dustConstantan>] as crafttweaker.item.IIngredient[];
     unifyalloy(list_constantan, constantan_oredict);
     recipes.addShapeless(list_constantan[0][6] * 2, [<ore:dustNickel>,<ore:dustCopper>]);
-    #mods.tconstruct.Casting.removeTableRecipe(ctMat.withDamage(10), <liquid:constantan>, <tconstruct:cast_custom>);
-    #mods.tconstruct.Casting.removeBasinRecipe(ctOre.withDamage());
+    #mods.tconstruct.Casting.removeTableRecipe(<materialpart:constantan:ingot>, <liquid:constantan>, <tconstruct:cast_custom>);
+    #mods.tconstruct.Casting.removeBasinRecipe(<materialpart:constantan:block>);
     #mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
     #mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
 
@@ -300,7 +299,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     
     
     # Philosopher's Gold
-    #furnace.addRecipe(ctMat.withDamage(127), <everlastingabilities:abilityTotem>, 1.0);
+    #furnace.addRecipe(<materialpart:philosophersgold:ingot>, <everlastingabilities:abilityTotem>, 1.0);
     var pnugget = <contenttweaker:material_part:132>;
     var pingot = <contenttweaker:material_part:133>;
     recipes.addShapeless(pnugget * 9, [pingot]);
