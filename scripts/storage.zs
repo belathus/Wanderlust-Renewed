@@ -27,17 +27,15 @@
 #    }
 
 # Backpacks
-/*
-    recipes.remove(<backpack:backpack_frame:2>);
-    recipes.addShaped(<backpack:backpack_frame:2>,
-        [[<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>],
-         [<ore:fabricHemp>,null,<ore:fabricHemp>],
-         [<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>]]);
-    recipes.addShaped(<backpack:backpack_frame:2>,
-        [[<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>],
-         [<ore:stickIron>,null,<ore:stickIron>],
-         [<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>]]);
-*/
+#    recipes.remove(<backpack:backpack_frame:2>);
+#    recipes.addShaped(<backpack:backpack_frame:2>,
+#        [[<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>],
+#         [<ore:fabricHemp>,null,<ore:fabricHemp>],
+#         [<ore:stickIron>,<ore:fabricHemp>,<ore:stickIron>]]);
+#    recipes.addShaped(<backpack:backpack_frame:2>,
+#        [[<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>],
+#         [<ore:stickIron>,null,<ore:stickIron>],
+#         [<ore:fabricHemp>,<ore:stickIron>,<ore:fabricHemp>]]);
 
 # EvilCraft
     #recipes.addShaped(<evilcraft:blood_extractor>.withTag({capacity: 5000}),
@@ -141,73 +139,73 @@
 
 # Iron Chests
     # Iron
-    recipes.remove(<ironchest:iron_chest:0>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:0>,<minecraft:chest>,<liquid:iron>,288,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:0>,<quark:custom_chest:*>,<liquid:iron>,288,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:0>,<ironchest:iron_chest:3>,<liquid:iron>,144,true);
+    #recipes.remove(<ironchest:iron_chest:0>);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:0>,<minecraft:chest>,<liquid:iron>,288,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:0>,<quark:custom_chest:*>,<liquid:iron>,288,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:0>,<ironchest:iron_chest:3>,<liquid:iron>,144,true);
 
     # Gold
-    recipes.remove(<ironchest:iron_chest:1>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>,<ironchest:iron_chest:0>,<liquid:gold>,288,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>,<ironchest:iron_chest:4>,<liquid:gold>,144,true);
+    #recipes.remove(<ironchest:iron_chest:1>);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>,<ironchest:iron_chest:0>,<liquid:gold>,288,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>,<ironchest:iron_chest:4>,<liquid:gold>,144,true);
     
     # Mithril (AKA Diamond)
-    recipes.remove(<ironchest:iron_chest:2>);
-    recipes.addShaped(<ironchest:iron_chest:2>,
-        [[<ore:ingotMithril>,<ironchest:iron_chest:1>,<ore:ingotMithril>]]);
+    #recipes.remove(<ironchest:iron_chest:2>);
+    #recipes.addShaped(<ironchest:iron_chest:2>,
+    #    [[<ore:ingotMithril>,<ironchest:iron_chest:1>,<ore:ingotMithril>]]);
 
     # Copper
-    recipes.remove(<ironchest:iron_chest:3>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>,<minecraft:chest>,<liquid:copper>,288,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>,<quark:custom_chest:*>,<liquid:copper>,288,true);
+    #recipes.remove(<ironchest:iron_chest:3>);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>,<minecraft:chest>,<liquid:copper>,288,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>,<quark:custom_chest:*>,<liquid:copper>,288,true);
 
     # Silver
-    recipes.remove(<ironchest:iron_chest:4>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:4>,<ironchest:iron_chest:3>,<liquid:silver>,144,true);
+    #recipes.remove(<ironchest:iron_chest:4>);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:4>,<ironchest:iron_chest:3>,<liquid:silver>,144,true);
 
     # Crystal
-    recipes.remove(<ironchest:iron_chest:5>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:5>,<ironchest:iron_chest:1>,<liquid:glass>,2000,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:5>,<ironchest:iron_chest:2>,<liquid:glass>,1000,true);
+    #recipes.remove(<ironchest:iron_chest:5>);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:5>,<ironchest:iron_chest:1>,<liquid:glass>,2000,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:5>,<ironchest:iron_chest:2>,<liquid:glass>,1000,true);
 
     # Obsidian
-    recipes.remove(<ironchest:iron_chest:6>);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>,<ironchest:iron_chest:1>,<liquid:obsidian>,576,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>,<ironchest:iron_chest:2>,<liquid:obsidian>,288,true);
+    #recipes.remove(<ironchest:iron_chest:6>);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>,<ironchest:iron_chest:1>,<liquid:obsidian>,576,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>,<ironchest:iron_chest:2>,<liquid:obsidian>,288,true);
 
     # Chest Upgrades
-    <ironchest:gold_diamond_chest_upgrade>.displayName = "Gold to Mithril Chest Upgrade";
-    <ironchest:diamond_crystal_chest_upgrade>.displayName = "Mithril to Crystal Chest Upgrade";
-    <ironchest:diamond_obsidian_chest_upgrade>.displayName = "Mithril to Obsidian Chest Upgrade";
-    recipes.remove(<ironchest:wood_iron_chest_upgrade>);
-    recipes.remove(<ironchest:wood_copper_chest_upgrade>);
-    recipes.remove(<ironchest:copper_iron_chest_upgrade>);
-    recipes.remove(<ironchest:copper_silver_chest_upgrade>);
-    recipes.remove(<ironchest:silver_gold_chest_upgrade>);
-    recipes.remove(<ironchest:iron_gold_chest_upgrade>);
-    recipes.remove(<ironchest:gold_diamond_chest_upgrade>);
-    recipes.remove(<ironchest:diamond_crystal_chest_upgrade>);
-    recipes.remove(<ironchest:diamond_obsidian_chest_upgrade>);
+    #<ironchest:gold_diamond_chest_upgrade>.displayName = "Gold to Mithril Chest Upgrade";
+    #<ironchest:diamond_crystal_chest_upgrade>.displayName = "Mithril to Crystal Chest Upgrade";
+    #<ironchest:diamond_obsidian_chest_upgrade>.displayName = "Mithril to Obsidian Chest Upgrade";
+    #recipes.remove(<ironchest:wood_iron_chest_upgrade>);
+    #recipes.remove(<ironchest:wood_copper_chest_upgrade>);
+    #recipes.remove(<ironchest:copper_iron_chest_upgrade>);
+    #recipes.remove(<ironchest:copper_silver_chest_upgrade>);
+    #recipes.remove(<ironchest:silver_gold_chest_upgrade>);
+    #recipes.remove(<ironchest:iron_gold_chest_upgrade>);
+    #recipes.remove(<ironchest:gold_diamond_chest_upgrade>);
+    #recipes.remove(<ironchest:diamond_crystal_chest_upgrade>);
+    #recipes.remove(<ironchest:diamond_obsidian_chest_upgrade>);
     # Planks List
-    var list_all_planks = [
-        <minecraft:planks:*>,
-        <biomesoplenty:planks_0:*>, 
-        #<forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,<forestry:planks.fireproof.1:*>,
-         <botania:dreamwood:1>, <botania:livingwood:1>,# <arsmagica2:witchwood_planks>,
-        <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>
-    ] as crafttweaker.item.IItemStack[];
-    for i, plank in list_all_planks {
-        mods.tconstruct.Casting.addBasinRecipe(<ironchest:wood_iron_chest_upgrade>,plank,<liquid:iron>,288,true);
-    }
-    for i, plank in list_all_planks {
-        mods.tconstruct.Casting.addBasinRecipe(<ironchest:wood_copper_chest_upgrade>,plank,<liquid:copper>,288,true);
-    }
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:copper_iron_chest_upgrade>,<ironchest:wood_copper_chest_upgrade>,<liquid:iron>,144,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:copper_silver_chest_upgrade>,<ironchest:wood_copper_chest_upgrade>,<liquid:silver>,288,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:silver_gold_chest_upgrade>,<ironchest:copper_silver_chest_upgrade>,<liquid:gold>,144,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_gold_chest_upgrade>,<ironchest:wood_iron_chest_upgrade>,<liquid:gold>,288,true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_gold_chest_upgrade>,<ironchest:copper_iron_chest_upgrade>,<liquid:gold>,144,true);
-    recipes.addShaped(<ironchest:gold_diamond_chest_upgrade>,
-        [[<ore:ingotMithril>,<ironchest:iron_gold_chest_upgrade>,<ore:ingotMithril>]]);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamond_crystal_chest_upgrade>,  <ironchest:gold_diamond_chest_upgrade>, <liquid:glass>, 1000, true);
-    mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamond_obsidian_chest_upgrade>, <ironchest:gold_diamond_chest_upgrade>, <liquid:obsidian>, 288, true);
+    #var list_all_planks = [
+    #    <minecraft:planks:*>,
+    #    <biomesoplenty:planks_0:*>, 
+    #    #<forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,<forestry:planks.fireproof.1:*>,
+    #     <botania:dreamwood:1>, <botania:livingwood:1>,# <arsmagica2:witchwood_planks>,
+    #    <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>
+    #] as crafttweaker.item.IItemStack[];
+    #for i, plank in list_all_planks {
+    #    mods.tconstruct.Casting.addBasinRecipe(<ironchest:wood_iron_chest_upgrade>,plank,<liquid:iron>,288,true);
+    #}
+    #for i, plank in list_all_planks {
+    #    mods.tconstruct.Casting.addBasinRecipe(<ironchest:wood_copper_chest_upgrade>,plank,<liquid:copper>,288,true);
+    #}
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:copper_iron_chest_upgrade>,<ironchest:wood_copper_chest_upgrade>,<liquid:iron>,144,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:copper_silver_chest_upgrade>,<ironchest:wood_copper_chest_upgrade>,<liquid:silver>,288,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:silver_gold_chest_upgrade>,<ironchest:copper_silver_chest_upgrade>,<liquid:gold>,144,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_gold_chest_upgrade>,<ironchest:wood_iron_chest_upgrade>,<liquid:gold>,288,true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_gold_chest_upgrade>,<ironchest:copper_iron_chest_upgrade>,<liquid:gold>,144,true);
+    #recipes.addShaped(<ironchest:gold_diamond_chest_upgrade>,
+    #    [[<ore:ingotMithril>,<ironchest:iron_gold_chest_upgrade>,<ore:ingotMithril>]]);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamond_crystal_chest_upgrade>,  <ironchest:gold_diamond_chest_upgrade>, <liquid:glass>, 1000, true);
+    #mods.tconstruct.Casting.addBasinRecipe(<ironchest:diamond_obsidian_chest_upgrade>, <ironchest:gold_diamond_chest_upgrade>, <liquid:obsidian>, 288, true);
