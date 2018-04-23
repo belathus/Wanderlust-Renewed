@@ -31,7 +31,7 @@
 #    <dungeontactics:wooden_sword>.addTooltip(format.green("Works with some mastery tomes."));
 
 # Extra Utilities
-    <extrautils2:bagofholding>.addTooltip(format.red("Will delete contents upon switching to creative mode"));
+#    <extrautils2:bagofholding>.addTooltip(format.red("Will delete contents upon switching to creative mode"));
 
 # PrimalCore
     <primal:rock_stone>.addTooltip(format.green("You can throw this or make a cool book."));
