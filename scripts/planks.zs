@@ -211,14 +211,14 @@
         recipes.addShaped(plank * 3,
             [[<ore:toolSawFlint>], [log]]);
         recipes.addShaped(plank * 4,
-            [[<ore:toolSawIron>], [log]]);
+            [[<ore:toolSawMetal>], [log]]);
         recipes.addShaped(plank * 4,
-            [[<ore:toolSawCopper>], [log]]);
+            [[<ore:toolSawMetal>], [log]]);
         recipes.addShaped(plank * 4,
             [[<ore:toolSawGem>], [log]]);
     }
     recipes.addShapeless(<evilcraft:undead_plank> * 3, 
         [<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>]);
-    recipes.addShapeless(<integrateddynamics:menril_planks> * 3, 
+#    recipes.addShapeless(<integrateddynamics:menril_planks> * 3, 
         [<integrateddynamics:menril_planks_stairs>,<integrateddynamics:menril_planks_stairs>,<integrateddynamics:menril_planks_stairs>,<integrateddynamics:menril_planks_stairs>]);
     
