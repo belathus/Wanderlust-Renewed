@@ -28,16 +28,16 @@
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder>, <dungeontactics:flower_cinder>, 200, <minecraft:blaze_powder>, 0.2);
         
     # Evilcraft
-        mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dark_gem_crushed>, <abyssalcraft:shadowgem>,600);
+        #mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dark_gem_crushed>, <abyssalcraft:shadowgem>,600);
 
     # PrimalCore
         mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*4,<primal:sharp_bone:*>,600);
         
     # Platinum processing
         mods.immersiveengineering.Crusher.removeRecipe(<contenttweaker:sub_block_holder_2:2>);
-        mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
+        #mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:ore:6>);
         mods.immersiveengineering.Crusher.addRecipe(<materialpart:platinum:dust>.getItemStack() * amt, <contenttweaker:sub_block_holder_2:2>, 3600, <materialpart:iridium:dust>.getItemStack(), chance);
-        mods.immersiveengineering.Crusher.addRecipe(<materialpart:platinum:dust>.getItemStack() * amt, <thermalfoundation:ore:6>, 3600, <materialpart:iridium:dust>.getItemStack(), chance);
+        #mods.immersiveengineering.Crusher.addRecipe(<materialpart:platinum:dust>.getItemStack() * amt, <thermalfoundation:ore:6>, 3600, <materialpart:iridium:dust>.getItemStack(), chance);
 
     # Rockhounding Ores
         # Magnetite
@@ -116,28 +116,29 @@
     #mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
     var seeds = [
         #<actuallyadditions:itemCanolaSeed>,   <actuallyadditions:itemCoffeeSeed>,   <actuallyadditions:itemFlaxSeed>,   <actuallyadditions:itemRiceSeed>,
-        <biomesoplenty:turnip_seeds>,         <natura:overworld_seeds>,
-        <natura:overworld_seeds:1>,           <harvestcraft:bellpepperseeditem>,    <harvestcraft:cranberryseeditem>,
-        <harvestcraft:cabbageseeditem>,       <harvestcraft:cornseeditem>,          <harvestcraft:cucumberseeditem>,
-        <harvestcraft:onionseeditem>,         <harvestcraft:artichokeseeditem>,     <harvestcraft:cottonseeditem>,
-        <harvestcraft:cactusfruitseeditem>,   <harvestcraft:spiceleafseeditem>,     <harvestcraft:mustardseeditem>,
-        <harvestcraft:candleberryseeditem>,   <harvestcraft:beetseeditem>,          <harvestcraft:beanseeditem>,
-        <harvestcraft:eggplantseeditem>,      <harvestcraft:raspberryseeditem>,     <harvestcraft:blueberryseeditem>,
-        <harvestcraft:chilipepperseeditem>,   <harvestcraft:grapeseeditem>,         <harvestcraft:lettuceseeditem>,
-        <harvestcraft:curryleafseeditem>,     <harvestcraft:rhubarbseeditem>,       <harvestcraft:gingerseeditem>,
-        <harvestcraft:asparagusseeditem>,     <harvestcraft:cantaloupeseeditem>,    <harvestcraft:wintersquashseeditem>,
-        <harvestcraft:rutabagaseeditem>,      <harvestcraft:brusselsproutseeditem>, <harvestcraft:okraseeditem>,
-        <harvestcraft:sesameseedsseeditem>,   <harvestcraft:cauliflowerseeditem>,   <harvestcraft:radishseeditem>,
-        <harvestcraft:broccoliseeditem>,      <harvestcraft:zucchiniseeditem>,      <harvestcraft:tomatoseeditem>,
-        <harvestcraft:scallionseeditem>,      <harvestcraft:waterchestnutseeditem>, <harvestcraft:bambooshootseeditem>,
-        <harvestcraft:celeryseeditem>,        <harvestcraft:peasseeditem>,          <harvestcraft:peanutseeditem>,
-        <harvestcraft:teaseeditem>,           <harvestcraft:parsnipseeditem>,       <harvestcraft:soybeanseeditem>,
-        <harvestcraft:garlicseeditem>,        <harvestcraft:coffeeseeditem>,        <harvestcraft:oatsseeditem>,
-        <harvestcraft:strawberryseeditem>,    <harvestcraft:seaweedseeditem>,       <harvestcraft:barleyseeditem>,
-        <harvestcraft:whitemushroomseeditem>, <harvestcraft:riceseeditem>,          <harvestcraft:sweetpotatoseeditem>,
-        <harvestcraft:leekseeditem>,          <harvestcraft:pineappleseeditem>,     <harvestcraft:blackberryseeditem>,
-        <harvestcraft:spinachseeditem>,       <harvestcraft:turnipseeditem>,        <harvestcraft:kiwiseeditem>,
-        <harvestcraft:ryeseeditem>
+        <biomesoplenty:turnip_seeds>         
+        #<natura:overworld_seeds>,
+        #<natura:overworld_seeds:1>,           <harvestcraft:bellpepperseeditem>,    <harvestcraft:cranberryseeditem>,
+        #<harvestcraft:cabbageseeditem>,       <harvestcraft:cornseeditem>,          <harvestcraft:cucumberseeditem>,
+        #<harvestcraft:onionseeditem>,         <harvestcraft:artichokeseeditem>,     <harvestcraft:cottonseeditem>,
+        #<harvestcraft:cactusfruitseeditem>,   <harvestcraft:spiceleafseeditem>,     <harvestcraft:mustardseeditem>,
+        #<harvestcraft:candleberryseeditem>,   <harvestcraft:beetseeditem>,          <harvestcraft:beanseeditem>,
+        #<harvestcraft:eggplantseeditem>,      <harvestcraft:raspberryseeditem>,     <harvestcraft:blueberryseeditem>,
+        #<harvestcraft:chilipepperseeditem>,   <harvestcraft:grapeseeditem>,         <harvestcraft:lettuceseeditem>,
+        #<harvestcraft:curryleafseeditem>,     <harvestcraft:rhubarbseeditem>,       <harvestcraft:gingerseeditem>,
+        #<harvestcraft:asparagusseeditem>,     <harvestcraft:cantaloupeseeditem>,    <harvestcraft:wintersquashseeditem>,
+        #<harvestcraft:rutabagaseeditem>,      <harvestcraft:brusselsproutseeditem>, <harvestcraft:okraseeditem>,
+        #<harvestcraft:sesameseedsseeditem>,   <harvestcraft:cauliflowerseeditem>,   <harvestcraft:radishseeditem>,
+        #<harvestcraft:broccoliseeditem>,      <harvestcraft:zucchiniseeditem>,      <harvestcraft:tomatoseeditem>,
+        #<harvestcraft:scallionseeditem>,      <harvestcraft:waterchestnutseeditem>, <harvestcraft:bambooshootseeditem>,
+        #<harvestcraft:celeryseeditem>,        <harvestcraft:peasseeditem>,          <harvestcraft:peanutseeditem>,
+        #<harvestcraft:teaseeditem>,           <harvestcraft:parsnipseeditem>,       <harvestcraft:soybeanseeditem>,
+        #<harvestcraft:garlicseeditem>,        <harvestcraft:coffeeseeditem>,        <harvestcraft:oatsseeditem>,
+        #<harvestcraft:strawberryseeditem>,    <harvestcraft:seaweedseeditem>,       <harvestcraft:barleyseeditem>,
+        #<harvestcraft:whitemushroomseeditem>, <harvestcraft:riceseeditem>,          <harvestcraft:sweetpotatoseeditem>,
+        #<harvestcraft:leekseeditem>,          <harvestcraft:pineappleseeditem>,     <harvestcraft:blackberryseeditem>,
+        #<harvestcraft:spinachseeditem>,       <harvestcraft:turnipseeditem>,        <harvestcraft:kiwiseeditem>,
+        #<harvestcraft:ryeseeditem>
     ] as crafttweaker.item.IItemStack[];
     for i, seed in seeds {
         mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, seed, 6400);

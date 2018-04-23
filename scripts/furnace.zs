@@ -12,7 +12,7 @@
     furnace.addRecipe(<biomesoplenty:mud_brick>, <ore:clumpMud>);
 
 # Extra Utilities
-    furnace.addRecipe(<extrautils2:decorativeglass>, <extrautils2:compressedsand>, 0.9);
+    #furnace.addRecipe(<extrautils2:decorativeglass>, <extrautils2:compressedsand>, 0.9);
 
 # Forestry
     furnace.addRecipe(<forestry:peat>*2, <rockhounding_oretiers:coal_blocks:3>, 0.5);
