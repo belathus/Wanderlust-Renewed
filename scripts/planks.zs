@@ -160,7 +160,7 @@
         [<twilightforest:magic_log:1>, <minecraft:planks:0>, null, null],                       # Transwood
         [<twilightforest:magic_log:2>, <minecraft:planks:2>, null, null],                       # Minewood
         [<twilightforest:magic_log:3>, <minecraft:planks:5>, null, null],                       # Sortingwood
-$        [<integrateddynamics:menril_log>,<integrateddynamics:menril_planks>,  <integrateddynamics:menril_planks_stairs>, null],
+#        [<integrateddynamics:menril_log>,<integrateddynamics:menril_planks>,  <integrateddynamics:menril_planks_stairs>, null],
         [<evilcraft:undead_log>,         <evilcraft:undead_plank>,            <evilcraft:undead_plank_stairs>, null]
     ] as crafttweaker.item.IItemStack[][];
 # For Loop; removes all plank recipes then re-adds them using the above nested array.
