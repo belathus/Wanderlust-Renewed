@@ -6,7 +6,7 @@
      lazuli, clay, diamond, emerald, dark gems, apatite, resonating
      ore, zinc, copper, tin, aluminum, uranium, nickel, ...
      ================================================================= -->
-<IfCondition condition=':=dimension.generator.class="ChunkProviderGenerate" | dimension.generator.class="ChunkGeneratorOverworldBOP"'>
+<IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld" | dimension.generator.class="ChunkGeneratorOverworldBOP"'>
     <!-- Vanilla -->
     <!-- Clay, Gold, Coal (maybe?), lapis lazuli, diamond, emerald -->
     <ConfigSection>
