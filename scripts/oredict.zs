@@ -25,10 +25,10 @@
     <ore:blockBrick>.add(<primal:ciniscotta_brick:*>);
     <ore:blockBrick>.add(<primal:terracotta_brick:*>);
 # Bricks and Stone
-    <ore:stone>.add(<abyssalcraft:stone:2>);
-    <ore:stone>.add(<abyssalcraft:stone:3>);
-    <ore:stone>.add(<abyssalcraft:stone:4>);
-    <ore:stone>.add(<abyssalcraft:stone:6>);
+    #<ore:stone>.add(<abyssalcraft:stone:2>);
+    #<ore:stone>.add(<abyssalcraft:stone:3>);
+    #<ore:stone>.add(<abyssalcraft:stone:4>);
+    #<ore:stone>.add(<abyssalcraft:stone:6>);
     <ore:stone>.add(<chisel:limestone2:7>);
     <ore:bricksStone>.add(<minecraft:stonebrick:1>);
     <ore:bricksStone>.add(<minecraft:stonebrick:2>);
@@ -67,8 +67,8 @@
         <biomesoplenty:mahogany_door>,
         <biomesoplenty:ebony_door>,
         <biomesoplenty:eucalyptus_door>,
-        <natura:overworld_doors:*>,
-        <natura:nether_doors:*>,
+        #<natura:overworld_doors:*>,
+        #<natura:nether_doors:*>,
         #<thebetweenlands:weedwood_door_item>,
         #<thebetweenlands:rubber_tree_plank_door_item>,
         #<thebetweenlands:weedwood_door>,
@@ -104,13 +104,13 @@
     #<ore:frameWood>.add(<actuallyadditions:block_misc:4>);
     #<ore:frameIron>.add(<ironchest:iron_chest>);
     #<ore:frameIron>.add(<actuallyadditions:block_misc:9>);
-    <ore:frameIron>.add(<thermalexpansion:frame:64>);
+    #<ore:frameIron>.add(<thermalexpansion:frame:64>);
     #<ore:frameSteel>.add(<actuallyadditions:blockMisc:9>);
     #<ore:frameIndustrial>.add(<enderio:itemMachinePart>);
-    <ore:frameSteel>.add(<rftools:machine_frame>);
-    <ore:frameSteel>.add(<deepresonance:machine_frame>);
-    <ore:frameSteel>.add(<thermalexpansion:frame>);
-    <ore:frameElectrum>.add(<thermalexpansion:frame:128>);
+    #<ore:frameSteel>.add(<rftools:machine_frame>);
+    #<ore:frameSteel>.add(<deepresonance:machine_frame>);
+    #<ore:frameSteel>.add(<thermalexpansion:frame>);
+    #<ore:frameElectrum>.add(<thermalexpansion:frame:128>);
     #<ore:frameEnder>.add(<actuallyadditions:block_misc:8>);
     
 # gears
