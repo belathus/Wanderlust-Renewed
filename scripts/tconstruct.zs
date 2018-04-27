@@ -109,3 +109,9 @@
     mods.tconstruct.Melting.removeRecipe(<liquid:iridium>, <libvulpes:productrod:10>);
     mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 72, <libvulpes:productrod:10>, 600);
     
+# Removing all drying rack recipes
+    mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
+    mods.tconstruct.Drying.removeRecipe(<minecraft:deadbush>);
+    for i,item in scripts.primal.drying_recipes {
+        mods.tconstruct.Drying.removeRecipe(item[1]);
+    }

@@ -1,6 +1,6 @@
 #Drying rack unification with TiC
 
-val drying_recipes = [
+static drying_recipes as crafttweaker.item.IItemStack[][] = [
     [<tconstruct:spaghetti:1>, <tconstruct:spaghetti:2>],
     [<minecraft:rotten_flesh>, <tconstruct:edible:10>],
     [<minecraft:beef>, <tconstruct:edible:11>],
@@ -10,8 +10,11 @@ val drying_recipes = [
     [<tconstruct:edible:1>, <tconstruct:edible:31>],
     [<tconstruct:edible:2>, <tconstruct:edible:32>],
     [<tconstruct:edible:4>,<tconstruct:edible:34>],
-    [<tconstruct:edible:3>, <tconstruct:edible:33>]
-] as crafttweaker.item.IItemStack[][];
+    [<tconstruct:edible:3>, <tconstruct:edible:33>],
+    [<minecraft:clay_ball>, <tconstruct:materials:2>],
+    [<minecraft:clay>, <tconstruct:dried_clay>],
+    [<minecraft:sponge:1>, <minecraft:sponge>]
+] ;
 
 val drying_names = [
     "dry_spaghetti",
@@ -23,7 +26,10 @@ val drying_names = [
     "dry_slimeball_blue",
     "dry_slimeball_purple",
     "dry_slimeball_red",
-    "dry_blood"
+    "dry_blood",
+    "dry_clay_ball",
+    "dry_clay_block",
+    "dry_sponge"
 ] as string[];
 
 val drying_times = [
@@ -36,7 +42,10 @@ val drying_times = [
     6000,
     6000,
     6000,
-    6000
+    6000,
+    2400,
+    7200,
+    2400
 ] as int[];
 
 val leather_recipes = [

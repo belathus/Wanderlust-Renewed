@@ -268,3 +268,6 @@
     recipes.addShapeless(<quark:world_stone_bricks:4>, [<astralsorcery:blockmarble:1>]);
 #    recipes.addShaped(<quark:stone_marble_slab> * 6,
 #        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
+
+# Tinker's Contruct
+    mods.jei.JEI.removeAndHide(<tconstruct:rack:1>);
