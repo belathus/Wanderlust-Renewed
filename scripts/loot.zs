@@ -63,12 +63,12 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
 # =====    Abyssalcraft    =====
 # ==============================
-  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:abyingot>, 3, 0, [Functions.setCount(1,3)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:cingot>, 1, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:coralium>, 8, 0, [Functions.setCount(1,5)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowfragment>, 8, 0, [Functions.setCount(1,10)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowshard>, 5, 0, [Functions.setCount(1,5)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowgem>, 3, 0, [Functions.setCount(1,3)], []);
+  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:abyingot>, 3, 0, [Functions.setCount(1,3)], []);
+  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:cingot>, 1, 0, [], []);
+  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:coralium>, 8, 0, [Functions.setCount(1,5)], []);
+  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowfragment>, 8, 0, [Functions.setCount(1,10)], []);
+  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowshard>, 5, 0, [Functions.setCount(1,5)], []);
+  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowgem>, 3, 0, [Functions.setCount(1,3)], []);
   
   # Remove Abyssalcraft's ingots and add the favored ingot type
   val abandoned_mine = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
