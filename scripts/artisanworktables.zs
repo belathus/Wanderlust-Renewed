@@ -20,3 +20,51 @@ for i, rune_pair in tier_one_runes{
         .setExtraOutputThree(<botania:blacklotus>, 0.15)
         .create();
 }
+
+
+# Planks
+    # in the planks.zs script.
+
+# Gallagher
+    var gallagher_in = [
+        <ore:netherrack>,           # 0
+        <ore:stoneAndesite>,        # 1
+        <ore:stoneDiorite>,         # 2
+        <ore:stoneGranite>,         # 3
+        <ore:stone>,                # 4
+        <ore:cobblestone>,          # 5
+        <ore:blockObsidian>,        # 6
+        <ore:blockLimestone>,       # 7
+        <ore:stoneFerro>            # 8
+    ] as crafttweaker.item.IIngredient[];
+    var gallagher_out = [
+        <primal:rock_netherrack>,   # 0
+        <primal:rock_andesite>,     # 1
+        <primal:rock_diorite>,      # 2
+        <primal:rock_granite>,      # 3
+        <primal:rock_stone>,        # 4
+        <primal:rock_stone>,        # 5
+        <primal:obsidian_shard>,    # 6
+        <primal:carbonate_slack>,   # 7
+        <primal:ferro_slack>        # 8
+    ] as crafttweaker.item.IItemStack[];
+    for i, rock in gallagher_in {
+        var input = gallagher_in[i];
+        var output = gallagher_out[i];
+        RecipeBuilder.get("mason")
+            .setShapeless([input])
+            .addOutput(output * 4)
+            .addTool(<ore:toolHammer>, 1)
+            .create();
+    }
+
+    RecipeBuilder.get("mason")
+        .setShapeless([<ore:barsIron>])
+        .addOutput(<primal:slat_iron>)
+        .addTool(<ore:toolHammer>, 1)
+        .create();
+    RecipeBuilder.get("mason")
+        .setShapeless([<ore:ringIron>])
+        .addOutput(<primal:iron_strand>)
+        .addTool(<ore:toolHammer>, 1)
+        .create();
