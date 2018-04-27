@@ -44,7 +44,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
 
 # Bibliocraft
-    recipes.addShaped(<bibliocraft:furniturepaneler>,
+/*    recipes.addShaped(<bibliocraft:furniturepaneler>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>],
          [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
@@ -72,7 +72,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<bibliocraft:framingboard>, <bibliocraft:framingboard>, <bibliocraft:framingboard>],
          [<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>]]);
-    
+*/
 # Botania
     # Mana Spreader
     recipes.addShaped(<botania:spreader>,
@@ -81,7 +81,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
 
 # Cooking For Blockheads
-    recipes.remove(<cookingforblockheads:oven>);
+/*    recipes.remove(<cookingforblockheads:oven>);
     recipes.addShaped(<cookingforblockheads:oven>,
         [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],
          [<ore:ingotIron>,<minecraft:furnace>,<ore:ingotIron>],
@@ -133,7 +133,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [<ore:chest>, <ore:ingotBronze>, <ore:ingotBronze>]);
     recipes.addShapeless(<cookingforblockheads:fridge>,
         [<ore:chest>, <ore:ingotBrass>, <ore:ingotBrass>]);
-
+*/
 # Cyberware
 #    recipes.remove(<cyberware:engineeringTable>);
 #    recipes.addShaped(<cyberware:engineeringTable>,
@@ -181,11 +181,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 #         [<ore:stickAluminum>, <cyberware:component:4>, <ore:stickAluminum>]]);
 
 # Deep Resonance
-    recipes.remove(<deepresonance:machine_frame>);
-    recipes.addShaped(<deepresonance:machine_frame>,
-        [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
-         [<ore:gearLead>,null,<ore:gearLead>],
-         [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
+#    recipes.remove(<deepresonance:machine_frame>);
+#    recipes.addShaped(<deepresonance:machine_frame>,
+#        [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
+#         [<ore:gearLead>,null,<ore:gearLead>],
+#         [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
 
 # EnderIo
 #    recipes.remove(<enderio:itemMachinePart>);
@@ -254,7 +254,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<evilcraft:reinforced_undead_plank>,<evilcraft:dark_power_gem>,<evilcraft:reinforced_undead_plank>]]);
 
 # Extra Utilities 2
-    recipes.remove(<extrautils2:machine>);
+/*    recipes.remove(<extrautils2:machine>);
     recipes.addShaped(<extrautils2:machine> * 2,
         [[<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],
          [<ore:plateSteel>,<ore:gearSteel>, <ore:plateSteel>],
@@ -271,7 +271,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotBrass>, <extrautils2:spike_diamond>, <ore:ingotBrass>],
          [<ore:ingotBrass>, <extrautils2:machine>, <ore:ingotBrass>],
          [<ore:ingotBrass>, <ore:dustRedstone>, <ore:ingotBrass>]]);
-
+*/
 # Forestry
     recipes.remove(<forestry:fabricator>);
     recipes.addShaped(<forestry:fabricator>,
@@ -289,15 +289,15 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:gearBrass>, <minecraft:piston:*>, <ore:gearBrass>]]);
 
 # Gendustry
-    recipes.remove(<gendustry:bee_receptacle>);
-    recipes.addShaped(<gendustry:bee_receptacle>,
-        [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-         [<ore:dropRoyalJelly>, <minecraft:glass_pane:*>, <ore:dropRoyalJelly>],
-         [<minecraft:redstone>, <minecraft:light_weighted_pressure_plate:*>, <minecraft:redstone>]]);
-    recipes.addShaped(<gendustry:labware> * 16,
-        [[<minecraft:glass_pane:*>, null, <minecraft:glass_pane:*>],
-         [<minecraft:glass_pane:*>, <ore:itemPollen>, <minecraft:glass_pane:*>],
-         [null, <minecraft:glass_pane:*>, null]]);
+#    recipes.remove(<gendustry:bee_receptacle>);
+#    recipes.addShaped(<gendustry:bee_receptacle>,
+#        [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+#         [<ore:dropRoyalJelly>, <minecraft:glass_pane:*>, <ore:dropRoyalJelly>],
+#         [<minecraft:redstone>, <minecraft:light_weighted_pressure_plate:*>, <minecraft:redstone>]]);
+#    recipes.addShaped(<gendustry:labware> * 16,
+#        [[<minecraft:glass_pane:*>, null, <minecraft:glass_pane:*>],
+#         [<minecraft:glass_pane:*>, <ore:itemPollen>, <minecraft:glass_pane:*>],
+#         [null, <minecraft:glass_pane:*>, null]]);
 #    recipes.addShaped(<gendustry:mutatron>,
 #        [[<gendustry:bee_receptacle:*>, <gendustry:GeneticsProcessor:*>, <ore:ingotBronze>],
 #         [<gendustry:PowerModule:*>, <forestry:sturdy_machine:*>, <gendustry:bee_receptacle:*>],
@@ -375,10 +375,10 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 
 # Integrated Dynamics
     # Squeezer
-    recipes.addShaped(<integrateddynamics:squeezer>,
-        [[<ore:stickWood>,<ore:blockBrass>,<ore:stickWood>],
-         [<ore:stickWood>,null,            <ore:stickWood>],
-         [<ore:plankWood>,<ore:ingotBrass>,<ore:plankWood>]]);
+#    recipes.addShaped(<integrateddynamics:squeezer>,
+#        [[<ore:stickWood>,<ore:blockBrass>,<ore:stickWood>],
+#         [<ore:stickWood>,null,            <ore:stickWood>],
+#         [<ore:plankWood>,<ore:ingotBrass>,<ore:plankWood>]]);
 
 # Mekanism
     # Steel Casing
@@ -508,11 +508,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
          
 # Persistent Bits
-    recipes.remove(<persistentbits:chunk_loader>);
-    recipes.addShaped(<persistentbits:chunk_loader>,
-        [[null, <xreliquary:void_tear>, null],
-         [<ore:gemDiamond>, <ore:ingotPlatinum>, <ore:gemDiamond>],
-         [<ore:ingotPlatinum>, <minecraft:enchanting_table:*>, <ore:ingotPlatinum>]]);
+    #recipes.remove(<persistentbits:chunk_loader>);
+    #recipes.addShaped(<persistentbits:chunk_loader>,
+    #    [[null, <xreliquary:void_tear>, null],
+    #     [<ore:gemDiamond>, <ore:ingotPlatinum>, <ore:gemDiamond>],
+    #     [<ore:ingotPlatinum>, <minecraft:enchanting_table:*>, <ore:ingotPlatinum>]]);
 
 # Refined Storage
     #recipes.remove(<refinedstorage:machine_casing>);
@@ -522,7 +522,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     #     [<ore:ingotSteel>, <refinedstorage:quartz_enriched_iron>, <ore:ingotSteel>]]);
 
 # RFTools
-    recipes.remove(<rftools:machine_frame>);
+/*    recipes.remove(<rftools:machine_frame>);
     recipes.addShaped(<rftools:machine_frame>,
         [[<ore:plateSteel>,<advancedrocketry:misc:0>,<ore:plateSteel>],
          [<ore:gearAluminum>,null,<ore:gearAluminum>],
@@ -574,7 +574,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<minecraft:ender_pearl>, <mekanism:teleportationcore>, <minecraft:ender_pearl>],
          [<minecraft:redstone>, <rftools:machine_frame>, <minecraft:redstone>],
          [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-
+*/
 # Rockhounding
     recipes.remove(<rockhounding_oretiers:bloomery>);
     recipes.addShaped(<rockhounding_oretiers:bloomery>,
@@ -661,7 +661,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 */
 
 # Thermal Expansion
-    recipes.remove(<thermalexpansion:frame>);
+/*    recipes.remove(<thermalexpansion:frame>);
     recipes.remove(<thermalexpansion:frame:64>);
     recipes.remove(<thermalexpansion:frame:128>);
     recipes.addShaped(<thermalexpansion:frame>,
@@ -730,9 +730,9 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[null, <minecraft:piston:*>, null],
          [<ore:blockGlass>, <thermalexpansion:frame>, <ore:blockGlass>],
          [<ore:gearInvar>, <thermalfoundation:material:513>, <ore:gearInvar>]]);
-
+*/
 # Waystones
-    recipes.addShaped(<waystones:waystone>,
-        [[null, <ore:bricksStone>, null],
-         [<ore:bricksStone>,<xreliquary:mob_ingredient:11>,<ore:bricksStone>],
-         [<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
+    #recipes.addShaped(<waystones:waystone>,
+    #    [[null, <ore:bricksStone>, null],
+    #     [<ore:bricksStone>,<xreliquary:mob_ingredient:11>,<ore:bricksStone>],
+    #     [<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
