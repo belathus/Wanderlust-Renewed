@@ -10,8 +10,7 @@ val drying_recipes = [
     ["dry_slimeball_blue", 6000, <tconstruct:edible:1>, <tconstruct:edible:31>],
     ["dry_slimeball_purple", 6000, <tconstruct:edible:2>, <tconstruct:edible:32>],
     ["dry_slimeball_red", 6000, <tconstruct:edible:4>,<tconstruct:edible:34>],
-    ["dry_blood", 6000, <tconstruct:edible:3>, <tconstruct:edible:33>],
-    ["dry_clay_ball", 2400, ]
+    ["dry_blood", 6000, <tconstruct:edible:3>, <tconstruct:edible:33>]
 ] as crafttweaker.item.IItemStack[][];
 
 val leather_recipes = [
@@ -63,3 +62,4 @@ for i,item in leather_recipes {
         <minecraft:leather>
     );
 }
+
