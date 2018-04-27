@@ -88,7 +88,7 @@ for i, metal in metal_list {
   var ores = metal.registerParts(["ore"] as string[]);
   for i, ore in ores {
     var oreData = ore.getData();
-    oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack");
+    oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:ferro_stone");
     oreData.addDataValue("hardness", "3,3,3");
     oreData.addDataValue("resistance", "15,15,15");
     oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
