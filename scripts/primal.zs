@@ -1,17 +1,43 @@
 #Drying rack unification with TiC
 
 val drying_recipes = [
-    ["dry_spaghetti", 18000, <tconstruct:spaghetti:1>, <tconstruct:spaghetti:2>],
-    ["dry_rotten_flesh", 6000, <minecraft:rotten_flesh>, <tconstruct:edible:10>],
-    ["dry_beef", 6000, <minecraft:beef>, <tconstruct:edible:11>],
-    ["dry_chicken", 6000, <minecraft:chicken>, <tconstruct:edible:12>],
-    ["dry_porkchop", 6000, <minecraft:porkchop>, <tconstruct:edible:13>],
-    ["dry_slimeball_green", 6000, <minecraft:slime_ball>, <tconstruct:edible:30>],
-    ["dry_slimeball_blue", 6000, <tconstruct:edible:1>, <tconstruct:edible:31>],
-    ["dry_slimeball_purple", 6000, <tconstruct:edible:2>, <tconstruct:edible:32>],
-    ["dry_slimeball_red", 6000, <tconstruct:edible:4>,<tconstruct:edible:34>],
-    ["dry_blood", 6000, <tconstruct:edible:3>, <tconstruct:edible:33>]
+    [<tconstruct:spaghetti:1>, <tconstruct:spaghetti:2>],
+    [<minecraft:rotten_flesh>, <tconstruct:edible:10>],
+    [<minecraft:beef>, <tconstruct:edible:11>],
+    [<minecraft:chicken>, <tconstruct:edible:12>],
+    [<minecraft:porkchop>, <tconstruct:edible:13>],
+    [<minecraft:slime_ball>, <tconstruct:edible:30>],
+    [<tconstruct:edible:1>, <tconstruct:edible:31>],
+    [<tconstruct:edible:2>, <tconstruct:edible:32>],
+    [<tconstruct:edible:4>,<tconstruct:edible:34>],
+    [<tconstruct:edible:3>, <tconstruct:edible:33>]
 ] as crafttweaker.item.IItemStack[][];
+
+val drying_names = [
+    "dry_spaghetti",
+    "dry_rotten_flesh",
+    "dry_beef",
+    "dry_chicken",
+    "dry_porkchop",
+    "dry_slimeball_green",
+    "dry_slimeball_blue",
+    "dry_slimeball_purple",
+    "dry_slimeball_red",
+    "dry_blood"
+] as string[];
+
+val drying_times = [
+    18000,
+    6000,
+    6000,
+    6000,
+    6000,
+    6000,
+    6000,
+    6000,
+    6000,
+    6000
+] as int[];
 
 val leather_recipes = [
     <minecraft:cooked_porkchop>,
@@ -47,10 +73,10 @@ val leather_recipes = [
 
 for i,item in drying_recipes {
     mods.primal.DryingRack.addNonRottingRecipe(
+        drying_names[i], 
+        drying_times[i], 
         item[0], 
-        item[1], 
-        item[2], 
-        item[3]
+        item[1]
     );
 }
 
@@ -63,3 +89,9 @@ for i,item in leather_recipes {
     );
 }
 
+mods.primal.DryingRack.addNonRottingRecipe(
+    "dry_sapling", 
+    7200, 
+    <ore:treeSapling>, 
+    <minecraft:deadbush>
+);
