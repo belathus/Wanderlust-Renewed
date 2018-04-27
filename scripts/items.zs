@@ -14,9 +14,9 @@
     
 # Vanilla
     recipes.remove(<minecraft:name_tag>);
-    recipes.addShaped(<minecraft:name_tag>,
-        [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
-         [null,<bibliocraft:label:*>,null]]);
+#    recipes.addShaped(<minecraft:name_tag>,
+#        [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+#         [null,<bibliocraft:label:*>,null]]);
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
     recipes.addShaped(<minecraft:paper>*10,
         [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
@@ -36,10 +36,10 @@
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal2:*>]);
     
     # making reusable water recipes
-    recipes.addShapeless(<minecraft:clay_ball>*4,
-        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<minecraft:clay_ball>*4,
-        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterrod>.giveBack()]);
+#    recipes.addShapeless(<minecraft:clay_ball>*4,
+#        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<evilcraft:bucket_eternal_water>]);
+#    recipes.addShapeless(<minecraft:clay_ball>*4,
+#        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterrod>.giveBack()]);
     recipes.remove(<minecraft:flint>);
     recipes.addShapeless(<minecraft:flint>, [<ore:gravel>,<ore:gravel>,<ore:gravel>]);
     recipes.addShapeless(<minecraft:torch>,[<primal:torch_wood_lit>]);
@@ -132,14 +132,14 @@
         [<minecraft:nether_star>, <minecraft:dragon_breath>, <ore:gemDark>, <minecraft:prismarine_shard>]);
 */   
 # AbyssalCraft
-    recipes.remove(<abyssalcraft:ironp>);
-    recipes.addShaped(<abyssalcraft:ironp>,
-       [[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>]]);
+#    recipes.remove(<abyssalcraft:ironp>);
+#    recipes.addShaped(<abyssalcraft:ironp>,
+#       [[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>]]);
 
     #recipes.addShapeless(<fp:spaceship:12>,[<ore:stickIron>]);
-    recipes.remove(<abyssalcraft:necronomicon>);
-    recipes.addShapeless(<abyssalcraft:necronomicon>,
-        [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolf_flesh:*>]);
+#    recipes.remove(<abyssalcraft:necronomicon>);
+#    recipes.addShapeless(<abyssalcraft:necronomicon>,
+#        [<ore:paper>,<ore:paper>,<ore:paper>,<evilcraft:werewolf_flesh:*>]);
 
 # Advanced Rocketry
     recipes.remove(<advancedrocketry:productrod>); # Titanium aluminide
@@ -226,11 +226,11 @@ print("192");
 # Extra Utilities
 
 # Fishing Net Mod
-    recipes.remove(<giacomos_fishing_net:itemnet>);
-    recipes.addShaped(<giacomos_fishing_net:itemnet>,
-        [[null,<ore:cordageGeneral>,null],
-         [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
-         [null,<ore:cordageGeneral>,null]]);
+#    recipes.remove(<giacomos_fishing_net:itemnet>);
+#    recipes.addShaped(<giacomos_fishing_net:itemnet>,
+#        [[null,<ore:cordageGeneral>,null],
+#         [<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+#         [null,<ore:cordageGeneral>,null]]);
 
 # Forestry
     recipes.addShaped(<forestry:bog_earth>*6,
@@ -327,7 +327,7 @@ print("192");
         [<magicbees:resource:8>, <dungeontactics:flower_bramble>, <magicbees:resource:9>],
         [<evilcraft:inverted_potentia:1>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <xreliquary:mob_ingredient:8>]]);
     # Abyssalcraft + TE For Loops for Forestry Capsules
-    var antimatter_containers = [
+/*    var antimatter_containers = [
         <forestry:can:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
         <forestry:capsule:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
         <forestry:refractory:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
@@ -366,7 +366,7 @@ print("192");
                 [<thermalfoundation:material:2053>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:770>],
                 [null, c_container, null]]);
         }
-    }
+    }*/
 # Mekanism
     # Teleportation Core
     recipes.remove(<mekanism:teleportationcore>);
@@ -416,10 +416,10 @@ print("192");
          [<ore:logWood>,<ore:vine>,<ore:logWood>]]);
 
 # Pam's Harvestcraft
-    recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
-        [<evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
-        [<botania:waterrod>.giveBack()]);
+#    recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
+#        [<evilcraft:bucket_eternal_water>]);
+#    recipes.addShapeless(<harvestcraft:freshwateritem> * 64,
+#        [<botania:waterrod>.giveBack()]);
 
 # PrimalCore
     recipes.remove(<primal:iron_ring>);
@@ -505,18 +505,18 @@ print("300 (close enough)");
          [<ore:rodStone>]]);
 
 # Waystones
-    recipes.remove(<waystones:warp_scroll>);
-    recipes.addShapeless(<waystones:warp_scroll>,
-        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustRedstone>]);
-    recipes.addShapeless(<waystones:warp_scroll>,
-        [<astralsorcery:itemcraftingcomponent:5>,<ore:powderMana>]);
-    recipes.addShapeless(<waystones:warp_scroll>,
-        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustVinteum>]);
-    recipes.addShapeless(<waystones:warp_scroll>*3,
-        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:dustGlowstone>]);
-    recipes.addShapeless(<waystones:warp_scroll>*3,
-        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:powderBlaze>]);
-    recipes.addShapeless(<waystones:warp_scroll>*8,
-        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,
-        <astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<evilcraft:dark_gem_crushed>]);
+#    recipes.remove(<waystones:warp_scroll>);
+#    recipes.addShapeless(<waystones:warp_scroll>,
+#        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustRedstone>]);
+#    recipes.addShapeless(<waystones:warp_scroll>,
+#        [<astralsorcery:itemcraftingcomponent:5>,<ore:powderMana>]);
+#    recipes.addShapeless(<waystones:warp_scroll>,
+#        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustVinteum>]);
+#    recipes.addShapeless(<waystones:warp_scroll>*3,
+#        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:dustGlowstone>]);
+#    recipes.addShapeless(<waystones:warp_scroll>*3,
+#        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:powderBlaze>]);
+#    recipes.addShapeless(<waystones:warp_scroll>*8,
+#        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,
+#        <astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<evilcraft:dark_gem_crushed>]);
 print("all done");
