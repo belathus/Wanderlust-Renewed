@@ -179,6 +179,12 @@
             [[<ore:toolSawMetal>],[log]]);
         recipes.addShaped(plank * 4, 
             [[<ore:toolSawGem>],[log]]);
+        mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
+            .setShapeless([log])
+            .addOutput(plank * 4)
+            .addTool(<ore:artisansHandsaw>, 1)
+            .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
+            .create();
         # slabs
         recipes.addShaped(slab * 2, 
             [[<ore:toolSawFlint>],   [plank]]);
@@ -186,6 +192,12 @@
             [[<ore:toolSawMetal>],  [plank]]);
         recipes.addShaped(slab * 2, 
             [[<ore:toolSawGem>],    [plank]]);
+        mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
+            .setShapeless([plank])
+            .addOutput(slab * 2)
+            .addTool(<ore:artisansHandsaw>, 1)
+            .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
+            .create();
         recipes.addShapeless(plank * 3, 
             [stair, stair, stair, stair]);
         recipes.remove(stair);

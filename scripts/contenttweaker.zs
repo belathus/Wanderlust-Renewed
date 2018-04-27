@@ -17,9 +17,11 @@ var copper      = MaterialSystem.getMaterialBuilder().setName("Copper").setColor
 var coralium    = MaterialSystem.getMaterialBuilder().setName("Coralium").setColor(683580).build();
 var cupronickel = MaterialSystem.getMaterialBuilder().setName("Cupronickel").setColor(14129986).build();
 #var dawnstone   = MaterialSystem.getMaterialBuilder().setName("Dawnstone").setColor(16299319).build();
+var diamond     = MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(4566181).build();
 var dilithium   = MaterialSystem.getMaterialBuilder().setName("Dilithium").setColor(16751515).build();
 var dreadium    = MaterialSystem.getMaterialBuilder().setName("Dreadium").setColor(8847360).build();
 var electrum    = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(9602857).build();
+var emerald     = MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(6078004).build();
 var gold        = MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16766720).build();
 var invar       = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(13421708).build();
 var iridium     = MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(16777185).build();
@@ -88,7 +90,7 @@ for i, metal in metal_list {
   var ores = metal.registerParts(["ore"] as string[]);
   for i, ore in ores {
     var oreData = ore.getData();
-    oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:ferro_stone");
+    oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
     oreData.addDataValue("hardness", "3,3,3");
     oreData.addDataValue("resistance", "15,15,15");
     oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
@@ -133,4 +135,19 @@ for i, ore in electrum_ores {
 phils_gold.registerParts(["nugget", "ingot"] as string[]);
 quartz_iron.registerPart("dust");
 gunmetal.registerPart("molten");
+
+var diamond_ore = diamond.registerPart("ore").getData();
+  diamond_ore.addDataValue("variants", "primal:typestone/ferro_stone_normal");
+  diamond_ore.addDataValue("drops", "minecraft:diamond");
+  diamond_ore.addDataValue("hardness", "5");
+  diamond_ore.addDataValue("resistance", "30");
+  diamond_ore.addDataValue("harvestTool", "pickaxe");
+  diamond_ore.addDataValue("harvestLevel", "2");
+var emerald_ore = emerald.registerPart("ore").getData();
+  emerald_ore.addDataValue("variants", "primal:typestone/ferro_stone_normal");
+  emerald_ore.addDataValue("drops", "minecraft:emerald");
+  emerald_ore.addDataValue("hardness", "5");
+  emerald_ore.addDataValue("resistance", "30");
+  emerald_ore.addDataValue("harvestTool", "pickaxe");
+  emerald_ore.addDataValue("harvestLevel", "2");
 

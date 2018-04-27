@@ -43,8 +43,43 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
 
+# Artisan Worktables
+    recipes.addShaped(<artisanworktables:worktable:1>, # Carpenter's
+        [[<ore:artisansHandsaw>],
+         [<ore:workbench>]]);
+    recipes.addShaped(<artisanworktables:workstation:1>,
+        [[<ore:workbench>],
+         [<artisanworktables:worktable:1>],
+         [<ore:chest>]]);
+    recipes.addShaped(<artisanworktables:workshop:1>,
+        [[<ore:workbench>],
+         [<artisanworktables:workstation:1>],
+         [<ore:chest>]]);
+    recipes.addShaped(<artisanworktables:worktable:2>, # mason's
+        [[<ore:ingotBrick>,<ore:slabStone>,<ore:ingotBrick>],
+         [<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>]]);
+    recipes.addShaped(<artisanworktables:workstation:2>,
+        [[<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>,],
+         [<ore:ingotBrick>,<artisanworktables:worktable:2>,<ore:ingotBrick>],
+         [<ore:ingotBrick>,<ore:chest>,<ore:ingotBrick>]]);
+    recipes.addShaped(<artisanworktables:workshop:2>,
+        [[<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>],
+         [<ore:ingotBrick>,<artisanworktables:workstation:2>,<ore:ingotBrick>],
+         [<ore:ingotBrick>,<ore:chest>,<ore:ingotBrick>]]);
+    recipes.addShaped(<artisanworktables:worktable:7>, # Mage's
+        [[<minecraft:enchanting_table>],
+         [<ore:workbench>]]);
+    recipes.addShaped(<artisanworktables:workstation:7>,
+        [[<ore:workbench>],
+         [<artisanworktables:worktable:7>],
+         [<ore:chest>]]);
+    recipes.addShaped(<artisanworktables:workshop:7>,
+        [[<ore:workbench>],
+         [<artisanworktables:workstation:7>],
+         [<ore:chest>]]);
+
 # Bibliocraft
-/*    recipes.addShaped(<bibliocraft:furniturepaneler>,
+    recipes.addShaped(<bibliocraft:furniturepaneler>,
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>],
          [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
@@ -72,7 +107,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<minecraft:iron_ingot>, <ore:toolSawMetal>.noReturn(), <minecraft:iron_ingot>],
          [<bibliocraft:framingboard>, <bibliocraft:framingboard>, <bibliocraft:framingboard>],
          [<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>]]);
-*/
+
 # Botania
     # Mana Spreader
     recipes.addShaped(<botania:spreader>,
