@@ -64,6 +64,8 @@
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
+                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='primal:.*' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 2.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -98,6 +100,8 @@
             <ReplacesOre block='netherrack' weight='1.0'/>
             <Replaces block='minecraft:gravel' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
+            <Replaces block='nex:.*' weight='1.0'/>
+            <Replaces block='primal:.*' weight='1.0'/> 
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 0.333 * _default_ ' range=':= 0.333 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -136,6 +140,8 @@
                     <ReplacesOre block='netherrack' weight='1.0'/>
                     <Replaces block='minecraft:gravel' weight='1.0'/>
                     <Replaces block='minecraft:air' weight='1.0'/>
+                    <Replaces block='nex:.*' weight='1.0'/>
+                    <Replaces block='primal:.*' weight='1.0'/> 
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -173,6 +179,8 @@
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
+                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='primal:.*' weight='1.0'/> 
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.350 * _default_ ' range=':= 0.350 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -208,6 +216,8 @@
                     <Replaces block='minecraft:lava' weight='1.0'/>
                     <Replaces block='minecraft:gravel' weight='1.0'/>
                     <Replaces block='minecraft:air' weight='1.0'/>
+                    <Replaces block='nex:.*' weight='1.0'/>
+                    <Replaces block='primal:.*' weight='1.0'/> 
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -244,6 +254,8 @@
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
+                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='primal:.*' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.210 * _default_ ' range=':= 0.210 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -331,7 +343,16 @@
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
                     <OreBlock block='primal:ferro_stone' weight='1.00' />
-                    <ReplacesRegexp block='.*' weight='1.0'/>
+                    <ReplacesOre block='netherrack' weight='1.0'/>
+                    <Replaces block='minecraft:magma' weight='1.0'/>
+                    <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                    <Replaces block='minecraft:air' weight='1.0'/>
+                    <Replaces block='minecraft:lava' weight='1.0'/>
+                    <Replaces block='nex:block_hyphae' weight='1.0'/>
+                    <ReplacesOre block='netherrack' weight='1.0'/>
+                    <Replaces block='minecraft:gravel' weight='1.0'/>
+                    <Replaces block='nex:.*' weight='1.0'/>
+                    <Replaces block='primal:.*' weight='1.0'/>
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -376,7 +397,16 @@
                         Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
                     </Description>
                     <OreBlock block='primal:ferro_stone' weight='1.00' />
-                    <ReplacesRegexp block='.*' weight='1.0'/>
+                    <ReplacesOre block='netherrack' weight='1.0'/>
+                    <Replaces block='minecraft:magma' weight='1.0'/>
+                    <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                    <Replaces block='minecraft:air' weight='1.0'/>
+                    <Replaces block='nex:.*' weight='1.0'/>
+                    <Replaces block='primal:.*' weight='1.0'/> 
+                    <Replaces block='minecraft:lava' weight='1.0'/>
+                    <Replaces block='nex:block_hyphae' weight='1.0'/>
+                    <ReplacesOre block='netherrack' weight='1.0'/>
+                    <Replaces block='minecraft:gravel' weight='1.0'/>
                     <Biome name='.*'  />
                     <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                     <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -421,7 +451,16 @@
                             Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                         </Description>
                         <OreBlock block='primal:ferro_stone' weight='1.00' />
-                    <ReplacesRegexp block='.*' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='primal:.*' weight='1.0'/> 
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
                         <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                         <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -460,7 +499,16 @@
                             Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                         </Description>
                         <OreBlock block='primal:ferro_stone' weight='1.00' />
-                        <ReplacesRegexp block='.*' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='primal:.*' weight='1.0'/> 
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
                         <Setting name='MotherlodeFrequency'   avg=':= 0.075 * _default_ ' range=':= 0.075 * _default_ ' type='normal' scaleTo='base' />
                         <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -502,7 +550,16 @@
                             Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                         </Description>
                         <OreBlock block='primal:ferro_stone' weight='1.00' />
-                        <ReplacesRegexp block='.*' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='primal:.*' weight='1.0'/> 
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
                         <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                         <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -543,7 +600,16 @@
                             Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                         </Description>
                         <OreBlock block='primal:ferro_stone' weight='1.00' />
-                        <ReplacesRegexp block='.*' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='primal:.*' weight='1.0'/> 
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
                         <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                         <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -587,7 +653,16 @@
                             Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                         </Description>
                         <OreBlock block='primal:ferro_stone' weight='1.00' />
-                        <ReplacesRegexp block='.*' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='primal:.*' weight='1.0'/> 
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
+                        <Replaces block='nex:block_hyphae' weight='1.0'/>
                         <Biome name='.*'  />
                         <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                         <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -631,7 +706,16 @@
                             Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
                         </Description>
                         <OreBlock block='primal:ferro_stone' weight='1.00' />
-                        <ReplacesRegexp block='.*' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:magma' weight='1.0'/>
+                        <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                        <Replaces block='minecraft:air' weight='1.0'/>
+                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='primal:.*' weight='1.0'/> 
+                        <Replaces block='minecraft:lava' weight='1.0'/>
+                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <ReplacesOre block='netherrack' weight='1.0'/>
+                        <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
                         <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                         <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -679,7 +763,15 @@
                     Large geodes of ferrocalcite filled with air. An inside layer has a high rate of spawning ores.
                 </Description>
                 <OreBlock block='primal:ferro_stone' weight='1.00' />
-                <ReplacesRegexp block='.*' weight='1.0'/>
+                <ReplacesOre block='netherrack' weight='1.0'/>
+                <Replaces block='minecraft:magma' weight='1.0'/>
+                <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                <Replaces block='minecraft:air' weight='1.0'/>
+                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='primal:.*' weight='1.0'/> 
+                <Replaces block='minecraft:lava' weight='1.0'/>
+                <ReplacesOre block='netherrack' weight='1.0'/>
+                <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -729,6 +821,8 @@
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
+            <Replaces block='nex:.*' weight='1.0'/>
+            <Replaces block='primal:.*' weight='1.0'/> 
             <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
@@ -761,6 +855,8 @@
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
+            <Replaces block='nex:.*' weight='1.0'/>
+            <Replaces block='primal:.*' weight='1.0'/> 
             <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
