@@ -5,9 +5,9 @@
 
 
 # Cooking For Blockheads
-    recipes.remove(<cookingforblockheads:recipe_book:2>);
-    recipes.addShaped(<cookingforblockheads:recipe_book:2>,
-        [[<minecraft:crafting_table:*>, <cookingforblockheads:recipe_book:1>, <minecraft:crafting_table:*>]]);
+    #recipes.remove(<cookingforblockheads:recipe_book:2>);
+    #recipes.addShaped(<cookingforblockheads:recipe_book:2>,
+    #    [[<minecraft:crafting_table:*>, <cookingforblockheads:recipe_book:1>, <minecraft:crafting_table:*>]]);
 
 # Level-Up: Book of Unlearning
 #    recipes.remove(<levelup:respec_book>);

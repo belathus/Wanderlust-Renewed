@@ -322,10 +322,10 @@ print("192");
         [<xreliquary:mob_ingredient:4>, <dungeontactics:flower_bark>, <xreliquary:mob_ingredient:4>],
         [<evilcraft:dark_gem>, <xreliquary:mob_ingredient:10>, <evilcraft:dark_gem>]]);
     # Essence of Scornful Oblivion
-    recipes.addShaped(<magicbees:resource:11> * 3,
-        [[<botania:rune:12>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <thermalfoundation:material:894>],
-        [<magicbees:resource:8>, <dungeontactics:flower_bramble>, <magicbees:resource:9>],
-        [<evilcraft:inverted_potentia:1>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <xreliquary:mob_ingredient:8>]]);
+    #recipes.addShaped(<magicbees:resource:11> * 3,
+    #    [[<botania:rune:12>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <thermalfoundation:material:894>],
+    #    [<magicbees:resource:8>, <dungeontactics:flower_bramble>, <magicbees:resource:9>],
+    #    [<evilcraft:inverted_potentia:1>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <xreliquary:mob_ingredient:8>]]);
     # Abyssalcraft + TE For Loops for Forestry Capsules
 /*    var antimatter_containers = [
         <forestry:can:*>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}),
