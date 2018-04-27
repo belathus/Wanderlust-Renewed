@@ -90,8 +90,8 @@ for i,item in leather_recipes {
 }
 
 mods.primal.DryingRack.addNonRottingRecipe(
-        "dry_sapling", 
-        7200, 
-        <ore:treeSapling>, 
-        <minecraft:deadbush>
-    );
+    "dry_sapling", 
+    7200, 
+    <ore:treeSapling>, 
+    <minecraft:deadbush>
+);
