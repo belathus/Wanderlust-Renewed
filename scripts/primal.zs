@@ -6,6 +6,8 @@ static drying_recipes as crafttweaker.item.IItemStack[][] = [
     [<minecraft:beef>, <tconstruct:edible:11>],
     [<minecraft:chicken>, <tconstruct:edible:12>],
     [<minecraft:porkchop>, <tconstruct:edible:13>],
+    [<minecraft:mutton>, <tconstruct:edible:14>],
+    [<minecraft:rabbit>, <tconstruct:edible:15>],
     [<minecraft:slime_ball>, <tconstruct:edible:30>],
     [<tconstruct:edible:1>, <tconstruct:edible:31>],
     [<tconstruct:edible:2>, <tconstruct:edible:32>],
@@ -22,6 +24,8 @@ val drying_names = [
     "dry_beef",
     "dry_chicken",
     "dry_porkchop",
+    "dry_mutton",
+    "dry_rabbit",
     "dry_slimeball_green",
     "dry_slimeball_blue",
     "dry_slimeball_purple",
@@ -34,6 +38,8 @@ val drying_names = [
 
 val drying_times = [
     18000,
+    6000,
+    6000,
     6000,
     6000,
     6000,

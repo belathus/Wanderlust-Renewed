@@ -270,4 +270,4 @@
 #        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
 
 # Tinker's Contruct
-    mods.jei.JEI.removeAndHide(<tconstruct:rack:1>);
+    recipes.remove(<tconstruct:rack:1>);

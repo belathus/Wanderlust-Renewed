@@ -115,3 +115,12 @@
     for i,item in scripts.primal.drying_recipes {
         mods.tconstruct.Drying.removeRecipe(item[1]);
     }
+    val fish_array = [
+        <tconstruct:edible:20>,
+        <tconstruct:edible:21>,
+        <tconstruct:edible:22>,
+        <tconstruct:edible:23>
+    ] as crafttweaker.item.IItemStack[];
+    for i,item in fish_array {
+        mods.tconstruct.Drying.removeRecipe(item);
+    }
