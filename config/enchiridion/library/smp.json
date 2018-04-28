@@ -13,6 +13,12 @@
       "matchNBT": false
     },
     {
+      "item": "ebwizardry:spell_book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "integrateddynamics:on_the_dynamics_of_integration",
       "handlerType": "rightclick",
       "matchDamage": false,
