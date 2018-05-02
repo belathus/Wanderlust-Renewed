@@ -44,20 +44,24 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
 
 # Artisan Worktables
+    #### Carpenter's Table ####
     recipes.addShaped(<artisanworktables:worktable:1>, # Carpenter's
-        [[<ore:artisansHandsaw>],
-         [<ore:workbench>]]);
+        [[null,<ore:artisansHandsaw>,null],
+         [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+         [<ore:plankWood>,null,<ore:plankWood>]]);
     recipes.addShaped(<artisanworktables:workstation:1>,
-        [[<ore:workbench>],
-         [<artisanworktables:worktable:1>],
-         [<ore:chest>]]);
+        [[null,<ore:workbench>,null],
+         [<ore:plankWood>,<artisanworktables:worktable:1>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
     recipes.addShaped(<artisanworktables:workshop:1>,
-        [[<ore:workbench>],
-         [<artisanworktables:workstation:1>],
-         [<ore:chest>]]);
+        [[null,<ore:workbench>,null],
+         [<ore:plankWood>,<artisanworktables:workstation:1>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
+    #### Mason's Table ####
     recipes.addShaped(<artisanworktables:worktable:2>, # mason's
         [[<ore:ingotBrick>,<ore:slabStone>,<ore:ingotBrick>],
-         [<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>]]);
+         [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+         [<ore:plankWood>,null,<ore:plankWood>]]);
     recipes.addShaped(<artisanworktables:workstation:2>,
         [[<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>,],
          [<ore:ingotBrick>,<artisanworktables:worktable:2>,<ore:ingotBrick>],
@@ -66,17 +70,32 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>],
          [<ore:ingotBrick>,<artisanworktables:workstation:2>,<ore:ingotBrick>],
          [<ore:ingotBrick>,<ore:chest>,<ore:ingotBrick>]]);
+    #### Engineer's Table ####
+    recipes.addShaped(<artisanworktables:worktable:6>,
+        [[<ore:ingotSteel>,<ore:slabSheetmetalCopper>,<ore:ingotSteel>],
+         [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+         [<ore:plankWood>,null,<ore:plankWood>]]);
+    recipes.addShaped(<artisanworktables:workstation:6>,
+        [[<ore:ingotSteel>,<ore:slabSheetmetalCopper>,<ore:ingotSteel>,],
+         [<ore:ingotSteel>,<artisanworktables:worktable:6>,<ore:ingotSteel>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
+    recipes.addShaped(<artisanworktables:workshop:6>,
+        [[<ore:ingotSteel>,<ore:slabSheetmetalCopper>,<ore:ingotSteel>],
+         [<ore:ingotSteel>,<artisanworktables:workstation:6>,<ore:ingotSteel>],
+         [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>]]);
+    #### Mage's Table ####
     recipes.addShaped(<artisanworktables:worktable:7>, # Mage's
-        [[<minecraft:enchanting_table>],
-         [<ore:workbench>]]);
+        [[null,<minecraft:enchanting_table>,null],
+         [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+         [<ore:plankWood>,null,<ore:plankWood>]]);
     recipes.addShaped(<artisanworktables:workstation:7>,
         [[<ore:workbench>],
-         [<artisanworktables:worktable:7>],
-         [<ore:chest>]]);
+         [<ore:stickIronwood>,<artisanworktables:worktable:7>,<ore:stickIronwood>],
+         [<ore:plankIronwood>,<ore:chest>,<ore:plankIronwood>]]);
     recipes.addShaped(<artisanworktables:workshop:7>,
-        [[<ore:workbench>],
-         [<artisanworktables:workstation:7>],
-         [<ore:chest>]]);
+        [[null,<ore:workbench>,null],
+         [<ore:plankIronwood>,<artisanworktables:workstation:7>,<ore:plankIronwood>],
+         [<ore:plankIronwood>,<primal:storage_crate:6>,<ore:plankIronwood>]]);
 
 # Bibliocraft
     recipes.addShaped(<bibliocraft:furniturepaneler>,
@@ -223,37 +242,7 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
 #         [<ore:plateSteel>,<deepresonance:resonating_plate>,<ore:plateSteel>]]);
 
 # EnderIo
-#    recipes.remove(<enderio:itemMachinePart>);
-#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-#         [<advancedrocketry:ic:4>,<ore:frameSteel>,<advancedrocketry:ic:3>],
-#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-#         [<advancedrocketry:ic:4>,<rftools:machine_frame>,<advancedrocketry:ic:3>],
-#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-#         [<advancedrocketry:ic:4>,<deepresonance:machine_frame>,<advancedrocketry:ic:3>],
-#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-#    recipes.addShapedMirrored(<enderio:itemMachinePart>,
-#        [[<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>],
-#         [<advancedrocketry:ic:4>,<thermalexpansion:frame:0>,<advancedrocketry:ic:3>],
-#         [<ore:plateAluminum>,<ore:slimeball>,<ore:plateAluminum>]]);
-#    recipes.remove(<enderio:blockSagMill>);
-#    recipes.addShaped(<enderio:blockSagMill>,
-#        [[<ore:gearSteel>,<extrautils2:spike_diamond>,<ore:gearSteel>],
-#         [<ore:ingotSteel>,<ore:itemMachineChassi>,<ore:ingotSteel>],
-#         [<ore:ingotSteel>,<immersiveengineering:metalDecoration0:5>,<ore:ingotSteel>]]);
-#    recipes.remove(<enderio:blockAlloySmelter>);
-#    recipes.addShaped(<enderio:blockAlloySmelter>,
-#        [[<ore:ingotSteel>, <minecraft:furnace:*>, <ore:ingotSteel>],
-#         [<minecraft:furnace:*>, <ore:itemMachineChassi>, <minecraft:furnace:*>],
-#         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
-#    recipes.addShaped(<enderio:blockAlloySmelter>,
-#        [[<ore:ingotSteel>, <betterbeginnings:kiln>, <ore:ingotSteel>],
-#         [<betterbeginnings:kiln>, <ore:itemMachineChassi>, <betterbeginnings:kiln>],
-#         [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>]]);
+#    These recipes should be modified in the EnderIO configs; or at least removed there. All of its recipes are easily configured in its own config.
 
 # Esteemed Innovation
 /*

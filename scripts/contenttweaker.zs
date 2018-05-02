@@ -84,40 +84,50 @@ var gears_only = [
   uranium
 ] as Material[];
 
+var ore_only = [
+  aluminum,
+  copper,
+  gold,
+  iron,
+  lead,
+  nickel,
+  silver,
+  uranium
+] as Material[];
+
 # Register dusts
 for i, metal in metal_list {
   metal.registerParts(["dust", "gear", "plate", "nugget", "ingot"] as string[]);
-  var ores = metal.registerParts(["ore"] as string[]);
-  for i, ore in ores {
-    var oreData = ore.getData();
-    oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
-    oreData.addDataValue("hardness", "3,3,3");
-    oreData.addDataValue("resistance", "15,15,15");
-    oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
-    oreData.addDataValue("harvestLevel", "1,1,1");
-  } 
-  var blocks = metal.registerParts(["block"] as string[]);
-  for i, block in blocks {
-    var blockData = block.getData();
-    blockData.addDataValue("hardness", "5");
-    blockData.addDataValue("resistance", "30");
-    blockData.addDataValue("harvestTool", "pickaxe");
-    blockData.addDataValue("harvestLevel", "1");
-  }
+  var oreData = metal.registerPart("ore").getData();
+  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
+  oreData.addDataValue("hardness", "3,3,3,5");
+  oreData.addDataValue("resistance", "15,15,15,30");
+  oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe");
+  oreData.addDataValue("harvestLevel", "1,1,1,2");
+  var blockData = metal.registerPart("block").getData();
+  blockData.addDataValue("hardness", "5");
+  blockData.addDataValue("resistance", "30");
+  blockData.addDataValue("harvestTool", "pickaxe");
+  blockData.addDataValue("harvestLevel", "1");
 }
 for i, metal2 in alloys_list {
   metal2.registerParts(["dust", "gear", "plate", "nugget", "ingot"] as string[]);
-  var blocks = metal2.registerParts(["block"] as string[]);
-  for i, block in blocks {
-    var blockData = block.getData();
-    blockData.addDataValue("hardness", "5");
-    blockData.addDataValue("resistance", "30");
-    blockData.addDataValue("harvestTool", "pickaxe");
-    blockData.addDataValue("harvestLevel", "1");
-  }
+  var blockData = metal2.registerPart("block").getData();
+  blockData.addDataValue("hardness", "5");
+  blockData.addDataValue("resistance", "30");
+  blockData.addDataValue("harvestTool", "pickaxe");
+  blockData.addDataValue("harvestLevel", "1");
 }
 for i, metal3 in gears_only {
   metal3.registerPart("gear");
+}
+for i, metal4 in ore_only {
+  var the_ore = metal4.registerPart("ore").getData();
+  the_ore.addDataValue("variants", "minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
+  the_ore.addDataValue("hardness", "3,3,3,5");
+  the_ore.addDataValue("resistance", "15,15,15,30");
+  the_ore.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe");
+  the_ore.addDataValue("harvestLevel", "1,1,1,2");
 }
 
 # Now adding specific things
@@ -125,11 +135,11 @@ electrum.registerParts(["gear"] as string[]);
 var electrum_ores = electrum.registerParts(["ore"] as string[]);
 for i, ore in electrum_ores {
   var oreData = ore.getData();
-  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack");
-  oreData.addDataValue("hardness", "3,3,3");
-  oreData.addDataValue("resistance", "15,15,15");
-  oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
-  oreData.addDataValue("harvestLevel", "1,1,1");
+  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
+  oreData.addDataValue("hardness", "3,3,3,5");
+  oreData.addDataValue("resistance", "15,15,15,30");
+  oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe");
+  oreData.addDataValue("harvestLevel", "1,1,1,2");
 }
 
 phils_gold.registerParts(["nugget", "ingot"] as string[]);
@@ -150,4 +160,3 @@ var emerald_ore = emerald.registerPart("ore").getData();
   emerald_ore.addDataValue("resistance", "30");
   emerald_ore.addDataValue("harvestTool", "pickaxe");
   emerald_ore.addDataValue("harvestLevel", "2");
-
