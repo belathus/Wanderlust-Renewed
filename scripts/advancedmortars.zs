@@ -12,7 +12,7 @@ Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 4, 
 Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 2, 4, [<primal:rush_stems>]);
 Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 1, 4, [<primal:rush_tips>]);
 Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 2, 4, [<primal:nether_root>]);
-Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 1, 4, [<primal:red_flower>]);
+Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 1, 4, [<minecraft:red_flower>]);
 Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:urushi_ground> * 2, 4, [<primal:daucus_murn_fronds_withered>]);
 Mortar.addRecipe(["wood","stone","iron","diamond"], <primal:nether_fiber_pulp> * 1, 4, [<primal:nether_tinder>]);
 Mortar.addRecipe(["wood","stone","iron","diamond"], <minecraft:dye:15> * 3, 4, [<ore:bone>]);
