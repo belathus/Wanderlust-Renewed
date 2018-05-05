@@ -6,6 +6,42 @@
      lazuli, clay, diamond, emerald, dark gems, apatite, resonating
      ore, zinc, copper, tin, aluminum, uranium, nickel, ...
      ================================================================= -->
+<IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld"'>
+    <IfModInstalled name="biomesoplenty">
+        <Veins name='bipSiltyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+            <Description>
+                Small motherlodes without any branches. Similar to the
+                deposits produced by StandardGen distributions.
+            </Description>
+            <OreBlock block='biomesoplenty:dirt' weight='1.0' />
+            <ReplacesOre block='sand' weight='1.0' />
+            <Replaces block='minecraft:gravel' weight='1.0' />
+            <Replaces block='minecraft:dirt' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <Biome name='.*'  />
+            <Biome name='Ocean'  weight='-1' />
+            <Biome name='Desert'  weight='-1' />
+            <Biome name='Mountain'  weight='-1' />
+            <Setting name='MotherlodeFrequency'   avg=':= 2.252 * _default_ ' range=':= 2.252 * _default_ ' type='normal'  scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='seaLevel' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+    </IfModInstalled>
+</IfCondition>
 <IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld" | dimension.generator.class="ChunkGeneratorOverworldBOP"'>
     <!-- Vanilla -->
     <!-- Clay, Gold, Coal (maybe?), lapis lazuli, diamond, emerald -->
