@@ -48,3 +48,4 @@ Mortar.addRecipe(["wood","stone","iron","diamond"], <tconstruct:soil:0> * 2, 6,
 Mortar.addRecipe(["iron","diamond"], <tconstruct:soil:0> * 1, 6, [<ore:itemSlag>, <ore:clayball>]);
 
 Mortar.addRecipe(["wood","stone","iron","diamond"], <enderio:item_material:22> * 8, 5, [<ore:gravel>*4, <ore:clayball>*2, <ore:sand>*2]);
+Mortar.addRecipe(["wood","stone","iron","diamond"], <enderio:item_material:22> * 16, 5, [<ore:gravel>*4, <ore:clayball>*2, <ore:itemSlag>*2]);

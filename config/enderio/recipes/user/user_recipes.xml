@@ -1,4 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Simple Chassis" disabled="true">
+  <recipe name="Sagmill: oreMagnetite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreMagnetite" />
+      <output name="POWDER_IRON" amount="3" />
+      <output name="dustCopper" chance="0.2" />
+      <output name="dustNickel" chance="0.2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreHematite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreHematite" />
+      <output name="POWDER_IRON" amount="3" />
+      <output name="dustLead" chance="0.2" />
+      <output name="dustSilver" chance="0.2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreGoethite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreGoethite" />
+      <output name="POWDER_IRON" amount="2" />
+      <output name="dustNickel" chance="0.05" />
+      <output name="dustAluminum" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreLimonite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreLimonite" />
+      <output name="POWDER_IRON" amount="2" />
+      <output name="dustNetherQuartz" chance="0.1" />
+      <output name="dustCertusQuartz" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreSiderite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreSiderite" />
+      <output name="POWDER_IRON" amount="1" />
+      <output name="POWDER_IRON" chance="0.33" amount="1" />
+      <output name="dustTin" chance="0.05" />
+      <output name="dustNickel" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreBog Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreBog" />
+      <output name="POWDER_IRON" amount="1" />
+      <output name="dustAluminum" chance="0.05" />
+      <output name="dustNickel" chance="0.03" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreTaconite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTaconite" />
+      <output name="POWDER_IRON" chance="0.75" amount="1" />
+      <output name="dustTin" chance="0.02" />
+      <output name="dustNickel" chance="0.07" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreBif Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreBif" />
+      <output name="POWDER_IRON" chance="0.5" amount="1" />
+      <output name="dustTin" chance="0.01" />
+      <output name="dustNickel" chance="0.02" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Cinderflower" required="false">
+    <sagmilling energy="600">
+      <input name="dungeontactics:flower_cinder" />
+      <output name="blazepowder" chance="0.5" amount="1" />
+    </sagmilling>
+  </recipe>
+
+  <!-- ###########################################
+       ######### Existing Ore Processing #########
+       ########################################### -->
+
+  <recipe name="Sagmill: orePlatinum Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="orePlatinum" />
+      <output name="dustPlatinum" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="dustIridium" chance="0.1"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreNickel Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreNickel" />
+      <output name="dustNickel" amount="2" />
+      <output name="dustPlatinum" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreRutile Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreRutile" />
+      <output name="dustRutile" amount="2" />
+      <output name="dustMagnesium" amount="1" chance="0.10" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreTitanium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTitanium" />
+      <output name="dustTitanium" amount="2" />
+      <output name="dustMagnesium" amount="1" chance="0.10" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreUranium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreUranium" />
+      <output name="dustUranium" amount="2" />
+      <output name="dustLead" amount="1" chance="0.10" />
+      <output name="dustPlutonium" amount="1" chance="0.02" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <grindingball name="Promise 1" grinding="1.2" chance="1.25" power="0.85" durability="400000" >
+    <item name="evilcraft:promise_acceptor:0"/>
+  </grindingball>
+
+  <grindingball name="Promise 2" grinding="1.2" chance="1.25" power="0.85" durability="1600000" >
+    <item name="evilcraft:promise_acceptor:1"/>
+  </grindingball>
+
+  <grindingball name="Promise 3" grinding="1.2" chance="1.25" power="0.85" durability="6400000" >
+    <item name="evilcraft:promise_acceptor:2"/>
+  </grindingball>
 
 </enderio:recipes>
