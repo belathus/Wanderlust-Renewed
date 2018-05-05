@@ -3,6 +3,7 @@
     #<ore:oreAquamarine>.add(<astralsorcery:blockCustomSandOre>);
 # Ash
     <ore:dustAsh>.add(<biomesoplenty:ash>);
+    <ore:dustAsh>.add(<primal:ash_common>);
     #<ore:dustAsh>.add(<embers:dustAsh>);
 # boats
     <ore:boatWood>.add(<minecraft:boat>);
