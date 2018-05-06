@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "evilcraft:origins_of_darkness",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evilcraft:origins_of_darkness"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

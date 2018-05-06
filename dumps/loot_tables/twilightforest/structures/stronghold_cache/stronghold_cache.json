@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "name": "common",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_cache/common",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_cache/common"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_cache/uncommon",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_cache/uncommon"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_cache/ultrarare",
+          "weight": 25,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_cache/ultrarare"
+        },
+        {
+          "entryName": "twilightforest:structures/stronghold_cache/rare",
+          "weight": 75,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_cache/rare"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

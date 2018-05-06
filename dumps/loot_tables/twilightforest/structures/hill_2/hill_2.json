@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "common",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/useless",
+          "weight": 25,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/useless"
+        },
+        {
+          "entryName": "twilightforest:structures/hill_2/common",
+          "weight": 75,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/hill_2/common"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/hill_2/uncommon",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/hill_2/uncommon"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/hill_2/ultrarare",
+          "weight": 25,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/hill_2/ultrarare"
+        },
+        {
+          "entryName": "twilightforest:structures/hill_2/rare",
+          "weight": 75,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/hill_2/rare"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

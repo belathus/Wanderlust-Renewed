@@ -1,0 +1,192 @@
+{
+  "pools": [
+    {
+      "name": "spirit",
+      "entries": [
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_spirit",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{spiritTag:{playerName:\"\",innerEntity:\"\",remainingLife:0,isSwarm:1b,swarmTier:0,buildupDuration:0,frozenDuration:0,playerId:\"\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1665,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "forgotten_player",
+      "entries": [
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_kroeserr",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"kroeserr\",spiritTag:{playerName:\"kroeserr\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"068d4de0-3a75-4c6a-9f01-8c37e16a394c\",frozenDuration:0},playerId:\"068d4de0-3a75-4c6a-9f01-8c37e16a394c\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player__EeB_",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"_EeB_\",spiritTag:{playerName:\"_EeB_\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"e1dc75c6-dcf9-4e0c-8fbf-9c6e5e44527c\",frozenDuration:0},playerId:\"e1dc75c6-dcf9-4e0c-8fbf-9c6e5e44527c\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_Davivs69",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"Davivs69\",spiritTag:{playerName:\"Davivs69\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"777e7aa3-9373-4511-8d75-f99d23ebe252\",frozenDuration:0},playerId:\"777e7aa3-9373-4511-8d75-f99d23ebe252\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_Jona",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"Jona\",spiritTag:{playerName:\"Jona\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"3e13f558-fb72-4949-a842-07879924bc49\",frozenDuration:0},playerId:\"3e13f558-fb72-4949-a842-07879924bc49\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_dodo3231",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"dodo3231\",spiritTag:{playerName:\"dodo3231\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"b5c31e33-8224-4f96-a4bf-73721be9d2ec\",frozenDuration:0},playerId:\"b5c31e33-8224-4f96-a4bf-73721be9d2ec\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player__KillaH229_",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"_KillaH229_\",spiritTag:{playerName:\"_KillaH229_\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"b2faeaab-fc87-4f91-98d3-836024f268ae\",frozenDuration:0},playerId:\"b2faeaab-fc87-4f91-98d3-836024f268ae\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_Notch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"Notch\",spiritTag:{playerName:\"Notch\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"069a79f4-44e9-4726-a5be-fca90e38aaf5\",frozenDuration:0},playerId:\"069a79f4-44e9-4726-a5be-fca90e38aaf5\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_jeb_",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"jeb_\",spiritTag:{playerName:\"jeb_\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"853c80ef-3c37-49fd-aa49-938b674adae6\",frozenDuration:0},playerId:\"853c80ef-3c37-49fd-aa49-938b674adae6\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_Dinnerbone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"Dinnerbone\",spiritTag:{playerName:\"Dinnerbone\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"61699b2e-d327-4a01-9f1e-0ea8c3f06bc6\",frozenDuration:0},playerId:\"61699b2e-d327-4a01-9f1e-0ea8c3f06bc6\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_direwolf20",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"direwolf20\",spiritTag:{playerName:\"direwolf20\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"bbb87dbe-690f-4205-bdc5-72ffb8ebc29d\",frozenDuration:0},playerId:\"bbb87dbe-690f-4205-bdc5-72ffb8ebc29d\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        },
+        {
+          "entryName": "evilcraft:box_of_eternal_closure_player_iChun",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{playerName:\"iChun\",spiritTag:{playerName:\"iChun\",innerEntity:\"\",remainingLife:0,isSwarm:0b,swarmTier:0,buildupDuration:0,playerId:\"0b7509f0-2458-4160-9ce1-2772b9a45ac2\",frozenDuration:0},playerId:\"0b7509f0-2458-4160-9ce1-2772b9a45ac2\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "evilcraft:box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1665,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

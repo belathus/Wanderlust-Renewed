@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "name": "default",
+      "entries": [
+        {
+          "entryName": "minecraft:arrow",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "entryName": "minecraft:fire_charge",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fire_charge"
+        },
+        {
+          "entryName": "minecraft:spectral_arrow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spectral_arrow"
+        },
+        {
+          "entryName": "minecraft:snowball",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:snowball"
+        },
+        {
+          "entryName": "minecraft:water_bucket",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:water_bucket"
+        },
+        {
+          "entryName": "minecraft:lava_bucket",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:lava_bucket"
+        },
+        {
+          "entryName": "dimdoors:dispenser_splash_potions",
+          "weight": 15,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "dimdoors:dispenser_splash_potions"
+        },
+        {
+          "entryName": "dimdoors:dispenser_potion_arrows",
+          "weight": 15,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "dimdoors:dispenser_potion_arrows"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

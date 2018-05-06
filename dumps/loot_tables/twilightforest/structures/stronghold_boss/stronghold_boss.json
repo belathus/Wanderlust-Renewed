@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "common",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_boss/common",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_boss/common"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_boss/uncommon",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_boss/uncommon"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_boss/rare",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_boss/rare"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "trophy",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/stronghold_boss/trophy",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/stronghold_boss/trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "beans",
+      "entries": [
+        {
+          "entryName": "twilightforest:magic_beans",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:magic_beans"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.005,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

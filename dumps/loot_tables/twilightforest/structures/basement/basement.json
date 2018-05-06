@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "common",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/useless",
+          "weight": 25,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/useless"
+        },
+        {
+          "entryName": "twilightforest:structures/basement/common",
+          "weight": 75,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/basement/common"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/basement/uncommon",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/basement/uncommon"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/basement/ultrarare",
+          "weight": 25,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/basement/ultrarare"
+        },
+        {
+          "entryName": "twilightforest:structures/basement/rare",
+          "weight": 75,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/basement/rare"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

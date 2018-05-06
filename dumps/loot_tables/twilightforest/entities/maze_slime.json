@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "charm",
+      "entries": [
+        {
+          "entryName": "twilightforest:charm_of_keeping_1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_keeping_1"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.005,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "slime",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/slime",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/slime"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

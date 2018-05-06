@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "evilcraft:ender_tear",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "evilcraft:ender_tear"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.1,
+          "looting_multiplier": 0.3,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

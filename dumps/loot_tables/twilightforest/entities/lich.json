@@ -1,0 +1,210 @@
+{
+  "pools": [
+    {
+      "name": "scepter",
+      "entries": [
+        {
+          "entryName": "twilightforest:zombie_scepter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:zombie_scepter"
+        },
+        {
+          "entryName": "twilightforest:lifedrain_scepter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:lifedrain_scepter"
+        },
+        {
+          "entryName": "twilightforest:twilight_scepter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:twilight_scepter"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "bling",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "minecraft:golden_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:golden_helmet"
+        },
+        {
+          "entryName": "minecraft:golden_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "entryName": "minecraft:golden_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:golden_leggings"
+        },
+        {
+          "entryName": "minecraft:golden_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:golden_boots"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "pearls",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "bones",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "trophy",
+      "entries": [
+        {
+          "entryName": "twilightforest:trophy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "twilightforest:trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

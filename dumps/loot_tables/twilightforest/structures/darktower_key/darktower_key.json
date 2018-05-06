@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "key",
+      "entries": [
+        {
+          "entryName": "twilightforest:tower_key",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:tower_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "common",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/darktower_key/common",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/darktower_key/common"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/darktower_key/uncommon",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/darktower_key/uncommon"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "twilightforest:structures/darktower_key/rare",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:structures/darktower_key/rare"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

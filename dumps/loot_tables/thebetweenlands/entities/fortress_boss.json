@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "name": "fortress_boss_ring",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:ring_of_recruitment",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:ring_of_recruitment"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "fortress_boss_amulet",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:amulet_slot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:amulet_slot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "spook_candy",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:candy_blue",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_blue"
+        },
+        {
+          "entryName": "thebetweenlands:candy_red",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_red"
+        },
+        {
+          "entryName": "thebetweenlands:candy_yellow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_yellow"
+        }
+      ],
+      "rolls": 8.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "properties": {
+            "thebetweenlands:is_event_active": {
+              "event": "thebetweenlands:spook",
+              "active": true
+            }
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "winter_mince_pie",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:mince_pie",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:mince_pie"
+        }
+      ],
+      "rolls": 6.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "properties": {
+            "thebetweenlands:is_event_active": {
+              "event": "thebetweenlands:winter",
+              "active": true
+            }
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

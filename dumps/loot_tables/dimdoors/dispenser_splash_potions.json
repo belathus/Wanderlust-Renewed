@@ -1,0 +1,912 @@
+{
+  "pools": [
+    {
+      "name": "water",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:water\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "mundane",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:mundane\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "thick",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:thick\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "awkward",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:awkward\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "night_vision",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:night_vision\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "night_vision_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_night_vision\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "invisibility",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:invisibility\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "invisibility_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_invisibility\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "leaping",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:leaping\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "leaping_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_leaping\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "leaping_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_leaping\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "fire_resistance",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:fire_resistance\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "fire_resistance_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_fire_resistance\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "swiftness",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:swiftness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "swiftness_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_swiftness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "swiftness_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_swiftness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "slowness",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:slowness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "slowness_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_slowness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "water_breathing",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:water_breathing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "water_breathing_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_water_breathing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "healing",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:healing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "healing_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_healing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "harming",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:harming\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "harming_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_harming\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "poison",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:poison\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "poison_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_poison\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "poison_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_poison\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "regeneration",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:regeneration\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "regeneration_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_regeneration\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "regeneration_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_regeneration\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "strength",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strength\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "strength_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_strength\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "strength_II",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_strength\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "weakness",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:weakness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "weakness_long",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_weakness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "luck",
+      "entries": [
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:luck\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "name": "diamond",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "iron",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "emerald",
+      "entries": [
+        {
+          "entryName": "minecraft:emerald_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "gold",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lapis",
+      "entries": [
+        {
+          "entryName": "minecraft:lapis_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:lapis_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "horn",
+      "entries": [
+        {
+          "entryName": "twilightforest:crumble_horn",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:crumble_horn"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "trophy",
+      "entries": [
+        {
+          "entryName": "twilightforest:trophy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "twilightforest:trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

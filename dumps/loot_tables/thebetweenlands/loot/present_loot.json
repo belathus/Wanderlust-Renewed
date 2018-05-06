@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "name": "present",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:mince_pie",
+          "weight": 66,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:mince_pie"
+        },
+        {
+          "entryName": "thebetweenlands:christmas_pudding",
+          "weight": 66,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:christmas_pudding"
+        },
+        {
+          "entryName": "thebetweenlands:candy_cane",
+          "weight": 66,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:candy_cane"
+        },
+        {
+          "entryName": "thebetweenlands:christmas_on_the_marsh",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:christmas_on_the_marsh"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

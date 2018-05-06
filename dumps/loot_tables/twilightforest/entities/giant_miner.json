@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "pick",
+      "entries": [
+        {
+          "entryName": "twilightforest:giant_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:giant_pickaxe"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

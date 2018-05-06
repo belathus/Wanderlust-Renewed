@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "name": "scales",
+      "entries": [
+        {
+          "entryName": "twilightforest:naga_scale",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 11.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:naga_scale"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "trophy",
+      "entries": [
+        {
+          "entryName": "twilightforest:trophy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "twilightforest:trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

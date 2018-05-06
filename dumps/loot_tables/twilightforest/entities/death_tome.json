@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "name": "paper",
+      "entries": [
+        {
+          "entryName": "minecraft:paper",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:paper"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "book",
+      "entries": [
+        {
+          "entryName": "minecraft:writable_book",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "name": "minecraft:writable_book"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 19,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "twilightforest:enchanted_book/books",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:enchanted_book/books"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "map_focus",
+      "entries": [
+        {
+          "entryName": "twilightforest:magic_map_focus",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:magic_map_focus"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.005,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "name": "wizardry",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/novice_wands",
+          "weight": 3,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/novice_wands"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wizard_armour",
+          "weight": 6,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wizard_armour"
+        },
+        {
+          "entryName": "ebwizardry:subsets/arcane_tomes",
+          "weight": 6,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/arcane_tomes"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wand_upgrades",
+          "weight": 2,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wand_upgrades"
+        },
+        {
+          "entryName": "ebwizardry:magic_crystal",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:magic_crystal"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "ebwizardry:armour_upgrade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:armour_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:identification_scroll"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

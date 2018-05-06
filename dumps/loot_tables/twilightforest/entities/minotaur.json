@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "twilightforest:raw_meef",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:raw_meef"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "map_focus",
+      "entries": [
+        {
+          "entryName": "twilightforest:magic_map_focus",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:magic_map_focus"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.005,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

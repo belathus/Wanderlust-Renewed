@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "name": "minecolonies: Barbarian",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "minecraft:iron_sword",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "entryName": "minecraft:stone_sword",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_sword"
+        },
+        {
+          "entryName": "minecolonies:ancienttome",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecolonies:ancienttome"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

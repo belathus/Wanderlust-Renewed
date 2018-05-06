@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "fur",
+      "entries": [
+        {
+          "entryName": "twilightforest:alpha_fur",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:alpha_fur"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "icebombs",
+      "entries": [
+        {
+          "entryName": "twilightforest:ice_bomb",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:ice_bomb"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

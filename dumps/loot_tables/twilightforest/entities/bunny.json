@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "name": "vanilla",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/rabbit",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/rabbit"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

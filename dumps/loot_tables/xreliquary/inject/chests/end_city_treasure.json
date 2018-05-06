@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "xreliquary:nebulous_heart",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
+        },
+        {
+          "entryName": "xreliquary:ender_staff",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "xreliquary:ender_staff"
+        },
+        {
+          "entryName": "xreliquary:rending_gale",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "xreliquary:rending_gale"
+        },
+        {
+          "entryName": "empty",
+          "weight": 64,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

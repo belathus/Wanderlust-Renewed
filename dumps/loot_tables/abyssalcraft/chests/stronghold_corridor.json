@@ -1,0 +1,177 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "abyssalcraft:transmutationgem",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:transmutationgem"
+        },
+        {
+          "entryName": "abyssalcraft:abyingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:abyingot"
+        },
+        {
+          "entryName": "abyssalcraft:cingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:cingot"
+        },
+        {
+          "entryName": "abyssalcraft:cpearl",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:cpearl"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "abyssalcraft:apick",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:apick"
+        },
+        {
+          "entryName": "abyssalcraft:aplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:aplate"
+        },
+        {
+          "entryName": "abyssalcraft:ahelmet",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:ahelmet"
+        },
+        {
+          "entryName": "abyssalcraft:alegs",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:alegs"
+        },
+        {
+          "entryName": "abyssalcraft:aboots",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:aboots"
+        },
+        {
+          "entryName": "abyssalcraft:oc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:oc"
+        },
+        {
+          "entryName": "abyssalcraft:crystal",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 24.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "abyssalcraft:crystal"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

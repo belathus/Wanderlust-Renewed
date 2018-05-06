@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "xreliquary:withered_rib",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
+        },
+        {
+          "entryName": "xreliquary:slime_pearl",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
+        },
+        {
+          "entryName": "xreliquary:molten_core",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
+        },
+        {
+          "entryName": "xreliquary:void_tear",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "xreliquary:void_tear"
+        },
+        {
+          "entryName": "xreliquary:salamander_eye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "xreliquary:salamander_eye"
+        },
+        {
+          "entryName": "xreliquary:interdiction_torch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "xreliquary:interdiction_torch"
+        },
+        {
+          "entryName": "empty",
+          "weight": 61,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
