@@ -83,6 +83,16 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
         [[<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>],
          [<ore:ingotBrick>,<artisanworktables:workstation:2>,<ore:ingotBrick>],
          [<ore:ingotBrick>,<ore:chest>,<ore:ingotBrick>]]);
+    #### Basic Table ####
+    recipes.addShaped(<artisanworktables:worktable:5>,
+        [[<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+         [<ore:plankWood>,null,<ore:plankWood>]]);
+    recipes.addShaped(<artisanworktables:workstation:5>,
+        [[<ore:plankWood>,<artisanworktables:worktable:5>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
+    recipes.addShaped(<artisanworktables:workshop:5>,
+        [[<ore:plankWood>,<artisanworktables:workstation:5>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
     #### Engineer's Table ####
     recipes.addShaped(<artisanworktables:worktable:6>,
         [[<ore:ingotSteel>,<ore:slabSheetmetalCopper>,<ore:ingotSteel>],
