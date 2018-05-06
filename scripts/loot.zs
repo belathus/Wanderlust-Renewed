@@ -128,15 +128,15 @@ import loottweaker.vanilla.loot.Functions;
   dd_default_pool.addItemEntryHelper(<contenttweaker:material_part:81>, 10, 0, [Functions.setCount(1,5)], []);
   dd_default_pool.addItemEntryHelper(<immersiveengineering:metal:3>, 10, 0, [Functions.setCount(1,5)], []);
   val dd_main_pool = LootTables.getTable("dimdoors:dungeon_chest").getPool("main");
-  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome>, 100, 0, [Functions.setMetadata(0)], []);
-  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome>, 10, 0, [Functions.setMetadata(1)], []);
-  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome>, 1, 0, [Functions.setMetadata(2)], []);
-  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "aer"}]}})], []);
-  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "aqua"}]}})], []);
-  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "ignis"}]}})], []);
-  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "ordo"}]}})], []);
-  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "perditio"}]}})], []);
-  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "terra"}]}})], []);
+  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome:0>, 100, 0, [], []);
+  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome:1>, 10, 0, [], []);
+  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome:2>, 1, 0, [], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), 20, 0, [Functions.setCount(2, 6)], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), 20, 0, [Functions.setCount(2, 6)], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), 20, 0, [Functions.setCount(2, 6)], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), 20, 0, [Functions.setCount(2, 6)], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), 20, 0, [Functions.setCount(2, 6)], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), 20, 0, [Functions.setCount(2, 6)], []);
 
 # ==============================
 # =====  Dungeon  Tactics  =====

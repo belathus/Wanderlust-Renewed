@@ -36,29 +36,29 @@ import mods.artisanworktables.builder.RecipeBuilder;
   #### Pyromancer ####
     RecipeBuilder.get("tailor")
       .setShapeless(
-        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_hat>)
-      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+        [<xreliquary:infernal_claws>,<ebwizardry:wizard_hat>])
+      .setSecondaryIngredients([<twilightforest:fiery_blood>,<twilightforest:fiery_tears>,<tconstruct:edible:34>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_hat_fire>)
       .create();
     RecipeBuilder.get("tailor")
       .setShapeless(
-        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_robe>)
-      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+        [<xreliquary:infernal_claws>,<ebwizardry:wizard_robe>])
+      .setSecondaryIngredients([<twilightforest:fiery_blood>,<twilightforest:fiery_tears>,<tconstruct:edible:34>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_robe_fire>)
       .create();
     RecipeBuilder.get("tailor")
       .setShapeless(
-        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_leggings>)
-      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+        [<xreliquary:infernal_claws>,<ebwizardry:wizard_leggings>])
+      .setSecondaryIngredients([<twilightforest:fiery_blood>,<twilightforest:fiery_tears>,<tconstruct:edible:34>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_leggings_fire>)
       .create();
     RecipeBuilder.get("tailor")
       .setShapeless(
-        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_boots>)
-      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+        [<xreliquary:infernal_claws>,<ebwizardry:wizard_boots>])
+      .setSecondaryIngredients([<twilightforest:fiery_blood>,<twilightforest:fiery_tears>,<tconstruct:edible:34>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_boots_fire>)
       .create();
@@ -126,6 +126,13 @@ import mods.artisanworktables.builder.RecipeBuilder;
       .setShapeless([<ore:ringIron>])
       .addOutput(<primal:iron_strand>)
       .addTool(<ore:toolHammer>, 1)
+      .create();
+    RecipeBuilder.get("mason")
+      .setShapeless(
+        [<xreliquary:infernal_claws>,<ebwizardry:wizard_boots>])
+      .setSecondaryIngredients([<twilightforest:fiery_blood>,<twilightforest:fiery_tears>,<tconstruct:edible:34>])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_boots_fire>)
       .create();
 
 # ===========================

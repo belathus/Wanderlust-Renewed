@@ -1,32 +1,6 @@
 {
   "list": [
     {
-      "name": "wood",
-      "harvestLevel": 0,
-      "maxUses": 59,
-      "efficiency": 2.0,
-      "damage": 0.0,
-      "enchantability": 15,
-      "color": "73523e",
-      "shiny": false,
-      "ingredient": "ore:plankWood",
-      "langKey": "material.athenaeum.wood",
-      "oreDictKey": "artisansToolWood"
-    },
-    {
-      "name": "stone",
-      "harvestLevel": 1,
-      "maxUses": 131,
-      "efficiency": 4.0,
-      "damage": 1.0,
-      "enchantability": 5,
-      "color": "969696",
-      "shiny": false,
-      "ingredient": "ore:stone",
-      "langKey": "material.athenaeum.stone",
-      "oreDictKey": "artisansToolStone"
-    },
-    {
       "name": "iron",
       "harvestLevel": 2,
       "maxUses": 250,
@@ -129,6 +103,19 @@
       "ingredient": "ore:ingotConstantan",
       "langKey": "material.athenaeum.constantan",
       "oreDictKey": "artisansToolConstantan"
+    },
+    {
+      "name": "brass",
+      "harvestLevel": 2,
+      "maxUses": 350,
+      "efficiency": 5.5,
+      "damage": 2.0,
+      "enchantability": 15,
+      "color": "b5a642",
+      "shiny": true,
+      "ingredient": "ore:ingotBrass",
+      "langKey": "material.athenaeum.brass",
+      "oreDictKey": "artisansToolBrass"
     },
     {
       "name": "copper",
