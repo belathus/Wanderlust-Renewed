@@ -119,6 +119,26 @@ import loottweaker.vanilla.loot.Functions;
   as_shrine_pool.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(2, 5)], []); # Add zinc ingot
 
 # ==============================
+# =====  Dimension  Doors  =====
+# ==============================
+  val dd_default_pool = LootTables.getTable("dimdoors:dungeon_chest").getPool("default");
+  dd_default_pool.removeEntry("minecraft:iron_ingot");
+  dd_default_pool.addItemEntryHelper(<immersiveengineering:metal:0>, 10, 0, [Functions.setCount(1,5)], []);
+  dd_default_pool.addItemEntryHelper(<contenttweaker:material_part:67>, 10, 0, [Functions.setCount(1,5)], []);
+  dd_default_pool.addItemEntryHelper(<contenttweaker:material_part:81>, 10, 0, [Functions.setCount(1,5)], []);
+  dd_default_pool.addItemEntryHelper(<immersiveengineering:metal:3>, 10, 0, [Functions.setCount(1,5)], []);
+  val dd_main_pool = LootTables.getTable("dimdoors:dungeon_chest").getPool("main");
+  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome>, 100, 0, [Functions.setMetadata(0)], []);
+  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome>, 10, 0, [Functions.setMetadata(1)], []);
+  dd_main_pool.addItemEntryHelper(<ebwizardry:arcane_tome>, 1, 0, [Functions.setMetadata(2)], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "aer"}]}})], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "aqua"}]}})], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "ignis"}]}})], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "ordo"}]}})], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "perditio"}]}})], []);
+  dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>, 20, 0, [Functions.setCount(2, 6), Functions.setNBT({Aspects: [{amount: 1, key: "terra"}]}})], []);
+
+# ==============================
 # =====  Dungeon  Tactics  =====
 # ==============================
 
@@ -150,4 +170,9 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
   val tc_slime = LootTables.getTable("tconstruct:entities/blueslime");
   val tc_slime_crystal = tc_slime.addPool("crystal", 1, 1, 0, 0);
-  tc_slime_crystal.addItemEntryHelper(<xreliquary:mob_ingredient:4>, 1, 0, [], [Conditions.randomChanceWithLooting(0.1, 0.05)]); # Add slime crystal
+  tc_slime_crystal.addItemEntryHelper(<xreliquary:mob_ingredient:4>, 1, 0, [], [Conditions.randomChanceWithLooting(0.1, 0.05)]); # Add slime crystal  
+
+# ==============================
+# =====  Twilight  Forest  =====
+# ==============================
+  #val tf_tree_pool = LootTables.getTable("twilightforest:structures/tree_cache").getPool("main");

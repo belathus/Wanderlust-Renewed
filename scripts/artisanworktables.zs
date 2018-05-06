@@ -1,15 +1,84 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
 # ===========================
-# ====  Taylor's  Table  ====
+# ====  Tailor's  Table  ====
 # ===========================
-  # None, yet.
+    RecipeBuilder.get("tailor")
+      .setShaped(
+        [[<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>],
+         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>]])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_hat>)
+      .create();
+    RecipeBuilder.get("tailor")
+      .setShaped(
+        [[<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>],
+         [<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>],
+         [<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>]])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_robe>)
+      .create();
+    RecipeBuilder.get("tailor")
+      .setShaped(
+        [[<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>],
+         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>],
+         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>]])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_leggings>)
+      .create();
+    RecipeBuilder.get("tailor")
+      .setShaped(
+        [[<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>],
+         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>]])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_boots>)
+      .create();
+  #### Pyromancer ####
+    RecipeBuilder.get("tailor")
+      .setShapeless(
+        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_hat>)
+      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_hat_fire>)
+      .create();
+    RecipeBuilder.get("tailor")
+      .setShapeless(
+        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_robe>)
+      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_robe_fire>)
+      .create();
+    RecipeBuilder.get("tailor")
+      .setShapeless(
+        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_leggings>)
+      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_leggings_fire>)
+      .create();
+    RecipeBuilder.get("tailor")
+      .setShapeless(
+        [[<xreliquary:infernal_claws>,<ebwizardry:wizard_boots>)
+      .setSecondaryIngredients([<twililghtforest:fiery_blood>,<twililghtforest:fiery_tears>,<tconstruct:edible:34>])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<ebwizardry:wizard_boots_fire>)
+      .create();
+
 
 # ===========================
 # ==== Carpenter's Table ====
 # ===========================
   # Planks
       # in the planks.zs script.
+    RecipeBuilder.get("carpenter")
+      .setShapeless([<ore:plankWood>])
+      .setFluid(<liquid:creosote> * 125)
+      .addOutput(<immersiveengineering:treated_wood>)
+      .create();
+    RecipeBuilder.get("carpenter")
+      .setShapeless([<ore:logWood>])
+      .setFluid(<liquid:creosote> * 500)
+      .addOutput(<immersiveengineering:treated_wood> * 4)
+      .create();
 
 
 # ===========================

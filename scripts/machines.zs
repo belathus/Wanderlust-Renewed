@@ -44,6 +44,19 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
 
 # Artisan Worktables
+    #### Tailor's Table ####
+    recipes.addShaped(<artisanworktables:worktable:0>, # Carpenter's
+        [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+         [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+         [<ore:plankWood>,null,<ore:plankWood>]]);
+    recipes.addShaped(<artisanworktables:workstation:0>,
+        [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+         [<ore:plankWood>,<artisanworktables:worktable:0>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
+    recipes.addShaped(<artisanworktables:workshop:0>,
+        [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+         [<ore:plankWood>,<artisanworktables:workstation:0>,<ore:plankWood>],
+         [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
     #### Carpenter's Table ####
     recipes.addShaped(<artisanworktables:worktable:1>, # Carpenter's
         [[null,<ore:artisansHandsaw>,null],
