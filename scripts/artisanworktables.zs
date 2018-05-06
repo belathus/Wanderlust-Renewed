@@ -5,31 +5,31 @@ import mods.artisanworktables.builder.RecipeBuilder;
 # ===========================
     RecipeBuilder.get("tailor")
       .setShaped(
-        [[<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>],
-         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>]])
+        [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+         [<ebwizardry:magic_silk>,null,<ebwizardry:magic_silk>]])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_hat>)
       .create();
     RecipeBuilder.get("tailor")
       .setShaped(
-        [[<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>],
-         [<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>],
-         [<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>]])
+        [[<ebwizardry:magic_silk>,null,<ebwizardry:magic_silk>],
+         [<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+         [<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>]])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_robe>)
       .create();
     RecipeBuilder.get("tailor")
       .setShaped(
-        [[<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>,<ore:ebwizardry:magic_silk>],
-         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>],
-         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>]])
+        [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
+         [<ebwizardry:magic_silk>,null,<ebwizardry:magic_silk>],
+         [<ebwizardry:magic_silk>,null,<ebwizardry:magic_silk>]])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_leggings>)
       .create();
     RecipeBuilder.get("tailor")
       .setShaped(
-        [[<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>],
-         [<ore:ebwizardry:magic_silk>,null,<ore:ebwizardry:magic_silk>]])
+        [[<ebwizardry:magic_silk>,null,<ebwizardry:magic_silk>],
+         [<ebwizardry:magic_silk>,null,<ebwizardry:magic_silk>]])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_boots>)
       .create();
