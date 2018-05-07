@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_food",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_tool",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_book",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_potion",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_record",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

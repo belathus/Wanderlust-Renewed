@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_leap",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_smash",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_riposte",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_pierce",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_multistrike",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_smokebomb",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_roar",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_pummel",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}
