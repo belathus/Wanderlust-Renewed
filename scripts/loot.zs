@@ -129,7 +129,7 @@ import loottweaker.vanilla.loot.Functions;
   dd_default_pool.addItemEntryHelper(<immersiveengineering:metal:3>, 10, 0, [Functions.setCount(1,5)], []);
   val dd_main_pool = LootTables.getTable("dimdoors:dungeon_chest").getPool("main");
   dd_main_pool.setRolls(0, 4);
-  dd_main_pool.addItemEntryHelper(<ebwizardry:spell_book>, 20, 0, [Functions.parse({function: "ebwizardry:random_spell"})], []);
+  dd_main_pool.addItemEntryHelper(<ebwizardry:spell_book>, 20, 0, [Functions.parse({"function": "ebwizardry:random_spell"})], []);
   dd_main_pool.addItemEntry(<ebwizardry:arcane_tome:1>, 5, 0);
   dd_main_pool.addItemEntry(<ebwizardry:arcane_tome:2>, 1, 0);
   dd_main_pool.addItemEntryHelper(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), 20, 0, [Functions.setCount(2, 6)], []);
@@ -142,6 +142,106 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
 # =====  Dungeon  Tactics  =====
 # ==============================
+  val dt_ore_pool = LootTables.getTable("dungeontactics:loot_tables/loot_bags/ore_bag").getPool("main");
+  dt_ore_pool.clear();
+  dt_ore_pool.addItemEntryHelper(<minecraft:coal_ore>,                  50, 0, [Functions.setCount(2, 4)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:redstone_ore>,              10, 0, [Functions.setCount(2, 3)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:lapis_ore>,                 10, 0, [Functions.setCount(2, 3)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:iron_ore>,                  35, 0, [Functions.setCount(1, 2)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:gold_ore>,                  12, 0, [Functions.setCount(1, 2)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:diamond_ore>,                5, 0, [Functions.setCount(1, 2)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:emerald_ore>,                3, 0, [Functions.setCount(1, 2)], []);
+  dt_ore_pool.addItemEntryHelper(<minecraft:quartz_ore>,                20, 0, [Functions.setCount(1, 2)], []);
+  dt_ore_pool.addItemEntryHelper(<contenttweaker:sub_block_holder_0:9>, 20, 0, [Functions.setCount(1, 2)], []); # zinc
+  dt_ore_pool.addItemEntryHelper(<contenttweaker:sub_block_holder_3:2>, 20, 0, [Functions.setCount(1, 2)], []); # tin
+  dt_ore_pool.addItemEntryHelper(<contenttweaker:sub_block_holder_3:3>,  7, 0, [Functions.setCount(1, 2)], []); # rutile
+  dt_ore_pool.addItemEntryHelper(<immersiveengineering:ore:0>,          32, 0, [Functions.setCount(1, 2)], []); # copper
+  dt_ore_pool.addItemEntryHelper(<immersiveengineering:ore:1>,          15, 0, [Functions.setCount(1, 2)], []); # aluminum
+  dt_ore_pool.addItemEntryHelper(<immersiveengineering:ore:2>,          18, 0, [Functions.setCount(1, 2)], []); # lead
+  dt_ore_pool.addItemEntryHelper(<immersiveengineering:ore:3>,          14, 0, [Functions.setCount(1, 2)], []); # silver
+  dt_ore_pool.addItemEntryHelper(<immersiveengineering:ore:4>,          10, 0, [Functions.setCount(1, 2)], []); # nickel
+  dt_ore_pool.addItemEntryHelper(<immersiveengineering:ore:5>,           1, 0, [Functions.setCount(1, 2)], []); # uranium
+  dt_ore_pool.addItemEntryHelper(<forestry:resources:0>,                20, 0, [Functions.setCount(1, 4)], []); # apatite
+  
+  val dt_book_pool = LootTables.getTable("dungeontactics:loot_tables/loot_bags/book_bag").getPool("main");
+  dt_book_pool.clear();
+  dt_book_pool.addItemEntryHelper(<ebwizardry:spell_book>, 5, 0, [Functions.parse({"function": "ebwizardry:random_spell"})], []);
+  dt_book_pool.addItemEntry(<minecraft:book>, 15, 0);
+  dt_book_pool.addItemEntryHelper(<minecraft:book>, 15, 0, [Functions.enchantWithLevels(15, 30, false)], []);
+  dt_book_pool.addItemEntry(<dungeontactics:magic_scroll>, 10, 0);
+  dt_book_pool.addItemEntryHelper(<dungeontactics:magic_scroll>, 10, 0, [Functions.enchantWithLevels(15, 30, false)], []);
+
+  val dt_tool_pool = LootTables.getTable("dungeontactics:loot_tables/loot_bags/tool_bag").getPool("main");
+  dt_tool_pool.clear();
+  val tool_dam = {"damage": {"min": 0.5, "max": 1.0}, "function": "set_damage"};
+  val tool_ench = {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance","chance": 0.2}]};
+  dt_tool_pool.addItemEntryHelper(<primal:diamond_workblade>, 1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:diamond_shovel>,    1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:diamond_axe>,       1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:diamond_hoe>,       1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:diamond_pickaxe>,   1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:diamond_saw>,       1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_workblade>,  20, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_shovel>,     20, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_axe>,        20, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_hatchet>,    20, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_hoe>,        16, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_pickaxe>,    20, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:flint_saw>,        20, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_workblade>,  8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_shovel>,     8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_axe>,        8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_hatchet>,    8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_hoe>,        6, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_saw>,       10, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_pickaxe>,    8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_shears>,     8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:emerald_workblade>, 1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:emerald_shovel>,    1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:emerald_axe>,       1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:emerald_hatchet>,   1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:emerald_hoe>,       1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:emerald_pickaxe>,   1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:opal_workblade>,    1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:opal_shovel>,       1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:opal_axe>,          1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:opal_hatchet>,      1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:opal_hoe>,          1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:opal_pickaxe>,      1, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:obsidian_workblade>,4, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:obsidian_shovel>,   4, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:obsidian_axe>,      4, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:obsidian_hatchet>,  4, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:obsidian_hoe>,      3, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:obsidian_pickaxe>,  4, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:copper_saw>,       12, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:iron_saw>,          8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:stone_gallagher>,  30, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:iron_gallagher>,    8, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:nether_gallagher>, 18, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntryHelper(<primal:quartz_gallagher>, 12, 0, [Functions.parse(tool_dam), Functions.parse(tool_ench)], []);
+  dt_tool_pool.addItemEntry(<minecraft:bucket>, 35, 0);
+  dt_tool_pool.addItemEntry(<minecraft:flint_and_steel>, 35, 0);
+  dt_tool_pool.addItemEntry(<minecraft:fishing_rod>, 35, 0);
+  dt_tool_pool.addItemEntry(<enderio:item_yeta_wrench>, 15, 0);
+  dt_tool_pool.addItemEntry(<enderio:item_conduit_probe>, 10, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:magic_wand>, 20, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_earth_wand>, 5 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_fire_wand>, 5, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_healing_wand>, 5, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_ice_wand>, 5, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_lightning_wand>, 5, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_necromancy_wand>, 5, 0);
+  dt_tool_pool.addItemEntry(<ebwizardry:basic_sorcery_wand>, 5, 0);
+  dt_tool_pool.addItemEntry(<evilcraft:blood_extractor>.withTag({Fluid: {FluidName: ""evilcraftblood"", Amount: 5000}}), 20, 0);
+  dt_tool_pool.addItemEntry(<evilcraft:blood_extractor>.withTag({Fluid: {FluidName: ""evilcraftblood"", Amount: 20000}}), 15, 0);
+  dt_tool_pool.addItemEntry(<thaumcraft:scribing_tools>, 20, 0);
+  dt_tool_pool.addItemEntry(<evilcraft:veined_scribing_tools>.withTag({Fluid: {FluidName: ""evilcraftblood"", Amount: 2000}}), 5, 0);
+  dt_tool_pool.addItemEntry(<naturescompass:naturescompass>, 20, 0);
+  dt_tool_pool.addItemEntry(<botania:sextant>, 20, 0);
+  dt_tool_pool.addItemEntry(<chisel:chisel_iron>, 35, 0);
+  dt_tool_pool.addItemEntry(<chisel:chisel_diamond>, 10, 0);
+  dt_tool_pool.addItemEntry(<chisel:chisel_hitech>, 3, 0);
 
 # ==============================
 # =====     Ender  Zoo     =====
