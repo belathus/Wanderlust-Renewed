@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_toxic",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_sapping",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_heavy",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_emaciated",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_unintelligible",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_darkened",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_famine",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_barren",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_searing",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:charm_bleak",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

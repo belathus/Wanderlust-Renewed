@@ -1,0 +1,371 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:milk_bucket",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glass_bottle",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "weight": 5
+                },
+                {
+                    "entryName": "water",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"water\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "awkward",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"awkward\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "night_vision",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"night_vision\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "invisibility",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"invisibility\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "leaping",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"leaping\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "fire_resistance",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"fire_resistance\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "swiftness",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"swiftness\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "slowness",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"slowness\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "water_breathing",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"water_breathing\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "healing",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"healing\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "harming",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"harming\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "poison",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"poison\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "regeneration",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"regeneration\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "strength",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"strength\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "weakness",
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"weakness\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "night_vision_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"night_vision\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "invisibility_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"invisibility\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "leaping_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"leaping\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "fire_resistance_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"fire_resistance\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "swiftness_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"swiftness\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "slowness_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"slowness\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "water_breathing_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"water_breathing\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "healing_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"healing\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "harming_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"harming\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "poison_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"poison\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "regeneration_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"regeneration\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "strength_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"strength\"}"
+                        }
+                    ]
+                },
+                {
+                    "entryName": "weakness_splash",
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"weakness\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

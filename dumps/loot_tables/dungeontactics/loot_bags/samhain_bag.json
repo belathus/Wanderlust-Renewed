@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_pie",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:candy_skull",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:mushroom_stew",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:porkchop",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_porkchop",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fish",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_fish",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cake",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:melon",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beef",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_beef",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chicken",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_chicken",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potato",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:baked_potato",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:poisonous_potato",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_pie",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rabbit",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_rabbit",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rabbit_stew",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:mutton",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_mutton",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_soup",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:ration_standard",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:ration_iron",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}
