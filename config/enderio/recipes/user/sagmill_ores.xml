@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <!-- Iron -->
+
+  <recipe name="Sagmill: oreIron Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreIron" />
+      <output name="immersiveengineering:metal:18" amount="2" />
+      <output name="contenttweaker:material_part:63" chance="0.05" required="false" />
+      <output name="immersiveengineering:metal:13" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Iron Ingot" required="true">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotIron" />
+      <output name="immersiveengineering:metal:18" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Iron Dust" required="true">
+    <smelting>
+      <input name="POWDER_IRON" />
+      <output name="minecraft:iron_ingot" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Iron Block" required="true">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockIron" />
+      <output name="immersiveengineering:metal:18" amount="9" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: oreMagnetite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreMagnetite" />
+      <output name="immersiveengineering:metal:18" amount="3" />
+      <output name="immersiveengineering:metal:9" chance="0.2" />
+      <output name="immersiveengineering:metal:13" chance="0.2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreHematite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreHematite" />
+      <output name="immersiveengineering:metal:18" amount="3" />
+      <output name="immersiveengineering:metal:11" chance="0.2" />
+      <output name="immersiveengineering:metal:12" chance="0.2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreGoethite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreGoethite" />
+      <output name="immersiveengineering:metal:18" amount="2" />
+      <output name="immersiveengineering:metal:13" chance="0.05" />
+      <output name="immersiveengineering:metal:10" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreLimonite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreLimonite" />
+      <output name="immersiveengineering:metal:18" amount="2" />
+      <output name="minecraft:quartz" chance="0.1" />
+      <output name="appliedenergistics2:material:2" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreSiderite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreSiderite" />
+      <output name="immersiveengineering:metal:18" amount="1" />
+      <output name="immersiveengineering:metal:18" chance="0.33" amount="1" />
+      <output name="contenttweaker:material_part:63" chance="0.05" />
+      <output name="immersiveengineering:metal:13" chance="0.1" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreBog Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreBog" />
+      <output name="immersiveengineering:metal:18" amount="1" />
+      <output name="immersiveengineering:metal:10" chance="0.05" />
+      <output name="immersiveengineering:metal:13" chance="0.03" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreTaconite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTaconite" />
+      <output name="immersiveengineering:metal:18" chance="0.75" amount="1" />
+      <output name="contenttweaker:material_part:63" chance="0.02" />
+      <output name="immersiveengineering:metal:13" chance="0.07" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreBif Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreBif" />
+      <output name="immersiveengineering:metal:18" chance="0.5" amount="1" />
+      <output name="contenttweaker:material_part:63" chance="0.01" />
+      <output name="immersiveengineering:metal:13" chance="0.02" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Cinderflower" required="false">
+    <sagmilling energy="600">
+      <input name="dungeontactics:flower_cinder" />
+      <output name="blazepowder" chance="0.5" amount="1" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Gold -->
+
+  <recipe name="Sagmill: oreGold Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreGold" />
+      <output name="immersiveengineering:metal:19" amount="2" />
+      <output name="immersiveengineering:metal:9" chance="0.2" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Gold Ingot" required="true">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotGold" />
+      <output name="immersiveengineering:metal:19" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Gold Dust" required="true">
+    <smelting>
+      <input name="dustGold" />
+      <output name="minecraft:gold_ingot" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Gold Block" required="true">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockGold" />
+      <output name="immersiveengineering:metal:19" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Copper -->
+
+  <recipe name="Sagmill: oreCopper Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreCopper" />
+      <output name="immersiveengineering:metal:9" amount="2" />
+      <output name="immersiveengineering:metal:19" chance="0.125" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Copper Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotCopper" />
+      <output name="immersiveengineering:metal:9" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Copper Dust" required="false">
+    <smelting>
+      <input name="dustCopper" />
+      <output name="immersiveengineering:metal:0" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Copper Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockCopper" />
+      <output name="immersiveengineering:metal:9" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Tin -->
+
+  <recipe name="Sagmill: oreTin Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTin" />
+      <output name="contenttweaker:material_part:63" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="immersiveengineering:metal:18" chance="0.1"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Tin Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotTin" />
+      <output name="contenttweaker:material_part:63" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Tin Dust" required="false">
+    <smelting>
+      <input name="dustTin" />
+      <output name="contenttweaker:material_part:67" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Tin Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockTin" />
+      <output name="contenttweaker:material_part:63" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Lead -->
+
+  <recipe name="Sagmill: oreLead Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreLead" />
+      <output name="immersiveengineering:metal:11" amount="2" />
+      <output name="immersiveengineering:metal:12" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Lead Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotLead" />
+      <output name="immersiveengineering:metal:11" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Lead Dust" required="false">
+    <smelting>
+      <input name="dustLead" />
+      <output name="immersiveengineering:metal:2" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Lead Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockLead" />
+      <output name="immersiveengineering:metal:11" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Silver -->
+
+  <recipe name="Sagmill: oreSilver Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreSilver" />
+      <output name="immersiveengineering:metal:12" amount="2" />
+      <output name="immersiveengineering:metal:11" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Silver Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotSilver" />
+      <output name="immersiveengineering:metal:12" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Silver Dust" required="false">
+    <smelting>
+      <input name="dustSilver" />
+      <output name="immersiveengineering:metal:3" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Silver Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockSilver" />
+      <output name="immersiveengineering:metal:12" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Nickel -->
+
+  <recipe name="Sagmill: oreNickel Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreNickel" />
+      <output name="immersiveengineering:metal:13" amount="2" />
+      <output name="contenttweaker:material_part:49" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Nickel Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotNickel" />
+      <output name="immersiveengineering:metal:13" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Nickel Dust" required="false">
+    <smelting>
+      <input name="dustNickel" />
+      <output name="immersiveengineering:metal:4" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Nickel Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockNickel" />
+      <output name="immersiveengineering:metal:13" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Aluminium -->
+
+  <recipe name="Sagmill: oreAluminium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreAluminium" />
+      <output name="immersiveengineering:metal:10" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="immersiveengineering:metal:18" chance="0.1"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Aluminium Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotAluminium" />
+      <output name="immersiveengineering:metal:10" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Aluminium Dust" required="false">
+    <smelting>
+      <input name="dustAluminium" />
+      <output name="immersiveengineering:metal:1" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Aluminium Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockAluminium" />
+      <output name="immersiveengineering:metal:10" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Aluminum -->
+
+  <recipe name="Sagmill: oreAluminum Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreAluminum" />
+      <output name="immersiveengineering:metal:10" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="immersiveengineering:metal:18" chance="0.1"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Aluminum Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotAluminum" />
+      <output name="immersiveengineering:metal:10" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Aluminum Dust" required="false">
+    <smelting>
+      <input name="dustAluminum" />
+      <output name="immersiveengineering:metal:1" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Aluminum Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockAluminum" />
+      <output name="immersiveengineering:metal:10" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Coal -->
+
+  <recipe name="Sagmill: oreCoal Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreCoal" />
+      <output name="minecraft:coal" amount="3" />
+      <output name="enderio:item_material:23" chance="0.6" />
+      <output name="gemDiamond" chance="0.001" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Nether Coal Ore" required="false">
+    <sagmilling energy="3200">
+      <input name="oreNetherCoal" />
+      <output name="minecraft:coal" amount="5" />
+      <output name="enderio:item_material:23" chance="0.6" />
+      <output name="gemDiamond" chance="0.001" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Dense Coal Ore" required="false">
+    <sagmilling energy="4800">
+      <input name="denseoreCoal" />
+      <output name="oreCoal" amount="4" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Redstone -->
+
+  <recipe name="Sagmill: oreRedstone Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreRedstone" />
+      <output name="minecraft:redstone" amount="8" />
+      <output name="minecraft:redstone" chance="0.2" />
+      <output name="itemSilicon" chance="0.8" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Nether Redstone Ore" required="false">
+    <sagmilling energy="3200">
+      <input name="oreNetherRedstone" />
+      <output name="minecraft:redstone" amount="21" />
+      <output name="minecraft:redstone" amount="2" chance="0.2" />
+      <output name="itemSilicon" amount="2" chance="0.8" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Dense Redstone Ore" required="false">
+    <sagmilling energy="4800">
+      <input name="denseoreRedstone" />
+      <output name="oreRedstone" amount="4" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Diamond -->
+
+  <recipe name="Sagmill: oreDiamond Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreDiamond" />
+      <output name="gemDiamond" amount="2" />
+      <output name="gemDiamond" chance="0.25" />
+      <output name="enderio:item_material:23" chance="0.05" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Nether Diamond Ore" required="false">
+    <sagmilling energy="3200">
+      <input name="oreNetherDiamond" />
+      <output name="gemDiamond" amount="5" />
+      <output name="gemDiamond" amount="2" chance="0.25" />
+      <output name="enderio:item_material:23" amount="2" chance="0.05" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Dense Diamond Ore" required="false">
+    <sagmilling energy="4800">
+      <input name="denseoreDiamond" />
+      <output name="oreDiamond" amount="4" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Emerald -->
+
+  <recipe name="Sagmill: oreEmerald Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreEmerald" />
+      <output name="gemEmerald" amount="2" />
+      <output name="gemEmerald" chance="0.25" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Lapis -->
+
+  <recipe name="Sagmill: oreLapis Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreLapis" />
+      <output name="minecraft:dye:4" amount="8" />
+      <output name="minecraft:dye:4" chance="0.2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Quartz -->
+
+  <recipe name="Sagmill: oreQuartz Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreQuartz" />
+      <output name="gemQuartz" amount="2" />
+      <output name="POWDER_QUARTZ" chance="0.1" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Apatite (Forestry) -->
+
+  <recipe name="Sagmill: oreApatite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreApatite" />
+      <output name="gemApatite" amount="12" />
+      <output name="immersiveengineering:material:25" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- CertusQuartz (AE2) -->
+
+  <recipe name="Sagmill: appliedenergistics2:quartz_ore Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="appliedenergistics2:quartz_ore" />
+      <output name="crystalCertusQuartz" amount="2" />
+      <output name="appliedenergistics2:material:2" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- ChargedCertusQuartz (AE2) -->
+
+  <recipe name="Sagmill: oreChargedCertusQuartz Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreChargedCertusQuartz" />
+      <output name="appliedenergistics2:material:1" amount="2" />
+      <output name="appliedenergistics2:material:2" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Ruby (BoP) -->
+
+  <recipe name="Sagmill: oreRuby Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreRuby" />
+      <output name="gemRuby" amount="2" />
+      <output name="gemRuby" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Peridot (BoP) -->
+
+  <recipe name="Sagmill: orePeridot Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="orePeridot" />
+      <output name="gemPeridot" amount="2" />
+      <output name="gemPeridot" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Topaz (BoP) -->
+
+  <recipe name="Sagmill: oreTopaz Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTopaz" />
+      <output name="gemTopaz" amount="2" />
+      <output name="gemTopaz" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Tanzanite (BoP) -->
+
+  <recipe name="Sagmill: oreTanzanite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTanzanite" />
+      <output name="gemTanzanite" amount="2" />
+      <output name="gemTanzanite" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Malachite (BoP) -->
+
+  <recipe name="Sagmill: oreMalachite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreMalachite" />
+      <output name="gemMalachite" amount="2" />
+      <output name="gemMalachite" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Sapphire (BoP) -->
+
+  <recipe name="Sagmill: oreSapphire Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreSapphire" />
+      <output name="gemSapphire" amount="2" />
+      <output name="gemSapphire" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Amber (BoP) -->
+
+  <recipe name="Sagmill: oreAmber Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreAmber" />
+      <output name="gemAmber" amount="2" />
+      <output name="gemAmber" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Amethyst (BoP) -->
+
+  <recipe name="Sagmill: oreAmethyst Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreAmethyst" />
+      <output name="gemAmethyst" amount="2" />
+      <output name="gemAmethyst" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Zinc (Metallurgy) -->
+
+  <recipe name="Sagmill: oreZinc Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreZinc" />
+      <output name="contenttweaker:material_part:77" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Zinc Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotZinc" />
+      <output name="contenttweaker:material_part:77" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Zinc Dust" required="false">
+    <smelting>
+      <input name="dustZinc" />
+      <output name="contenttweaker:material_part:81" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Zinc Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockZinc" />
+      <output name="contenttweaker:material_part:77" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Platinum (Metallurgy) -->
+
+  <recipe name="Sagmill: orePlatinum Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="orePlatinum" />
+      <output name="contenttweaker:material_part:49" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="contenttweaker:material_part:35" chance="0.1"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Platinum Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotPlatinum" />
+      <output name="contenttweaker:material_part:49" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Platinum Dust" required="false">
+    <smelting>
+      <input name="dustPlatinum" />
+      <output name="contenttweaker:material_part:53" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Platinum Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockPlatinum" />
+      <output name="contenttweaker:material_part:49" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Osmium (Mekanism) -->
+
+  <recipe name="Sagmill: oreOsmium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreOsmium" />
+      <output name="mekanism:dust:2" amount="2" />
+      <output name="mekanism:dust:2" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Osmium Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotOsmium" />
+      <output name="mekanism:dust:2" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Osmium Dust" required="false">
+    <smelting>
+      <input name="dustOsmium" />
+      <output name="mekanism:ingot:1" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Osmium Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockOsmium" />
+      <output name="mekanism:dust:2" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Ardite (TiC) -->
+
+  <recipe name="Sagmill: oreArdite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreArdite" />
+      <output name="contenttweaker:material_part:7" amount="2" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Ardite Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotArdite" />
+      <output name="contenttweaker:material_part:7" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Ardite Dust" required="false">
+    <smelting>
+      <input name="dustArdite" />
+      <output name="contenttweaker:material_part:11" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Ardite Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockArdite" />
+      <output name="contenttweaker:material_part:7" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Cobalt (TiC) -->
+
+  <recipe name="Sagmill: oreCobalt Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreCobalt" />
+      <output name="contenttweaker:material_part:14" amount="2" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Cobalt Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotCobalt" />
+      <output name="contenttweaker:material_part:14" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Cobalt Dust" required="false">
+    <smelting>
+      <input name="dustCobalt" />
+      <output name="contenttweaker:material_part:18" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Cobalt Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockCobalt" />
+      <output name="contenttweaker:material_part:14" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Uranium -->
+
+  <recipe name="Sagmill: oreUranium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreUranium" />
+      <output name="immersiveengineering:metal:14" amount="2" />
+      <output name="immersiveengineering:metal:11" amount="1" chance="0.10" />
+      <output name="contenttweaker:material_part:56" amount="1" chance="0.02" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Uranium Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotUranium" />
+      <output name="immersiveengineering:metal:14" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Uranium Dust" required="false">
+    <smelting>
+      <input name="dustUranium" />
+      <output name="immersiveengineering:metal:5" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Uranium Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockUranium" />
+      <output name="immersiveengineering:metal:14" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Steel -->
+
+  <recipe name="Sagmill: Steel Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotSteel" />
+      <output name="immersiveengineering:metal:17" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Steel Dust" required="false">
+    <smelting>
+      <input name="dustSteel" />
+      <output name="immersiveengineering:metal:8" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Steel Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockSteel" />
+      <output name="immersiveengineering:metal:17" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Titanium -->
+
+  <recipe name="Sagmill: oreTitanium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTitanium" />
+      <output name="contenttweaker:material_part:70" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Titanium Ingot" required="false">
+    <sagmilling energy="2400" bonus="none">
+      <input name="ingotTitanium" />
+      <output name="contenttweaker:material_part:70" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Smelting: Titanium Dust" required="false">
+    <smelting>
+      <input name="dustTitanium" />
+      <output name="contenttweaker:material_part:74" />
+    </smelting>
+  </recipe>
+
+  <recipe name="Sagmill: Titanium Block" required="false">
+    <sagmilling energy="3600" bonus="none">
+      <input name="blockTitanium" />
+      <output name="contenttweaker:material_part:70" amount="9" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Rutile -->
+
+  <recipe name="Sagmill: oreRutile Ore" disabled="true"/>
+  
+  <!-- Quark -->
+
+  <recipe name="Sagmill: Quark Ender Biotite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="quark:biotite_ore" />
+      <output name="gemEnderBiotite" amount="2" />
+      <output name="gemEnderBiotite" amount="1" chance="0.15"/>
+      <output name="minecraft:end_stone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Thermal Non-Standard Ores -->
+  <recipe name="Sagmill: Iridium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreIridium" />
+      <output name="contenttweaker:material_part:35" amount="2" />
+      <output name="minecraft:cobblestone" chance="0.15" />
+      <output name="contenttweaker:material_part:49" chance="0.1" required="false" />
+    </sagmilling>
+  </recipe>
+  <!-- Astral Sorcery -->
+  <recipe name="Sagmill: Astral Starmetal Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreAstralStarmetal" />
+      <output name="astralsorcery:itemcraftingcomponent:2" amount="2" />
+      <output name="minecraft:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+</enderio:recipes>

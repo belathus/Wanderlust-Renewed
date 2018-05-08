@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <!-- ###########################################
+       #########      Remove Alloys      #########
+       ########################################### -->
+
+  <recipe name="Alloy: Steel" disabled="true"/>
+
+  <!-- ###########################################
+       #########      Modify Alloys      #########
+       ########################################### -->
+
+  <recipe name="Alloy: Dark Steel" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotIron"/>
+      <input name="oredict:dustObsidian"/>
+      <input name="oredict:gemDarkCrushed"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Dark Steel 2" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotIron"/>
+      <input name="oredict:dustObsidian"/>
+      <input name="enderzoo:witheringdust"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Dark Steel 3" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotIron"/>
+      <input name="oredict:dustObsidian"/>
+      <input name="quark:black_ash"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+</enderio:recipes>

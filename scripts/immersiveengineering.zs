@@ -1,6 +1,15 @@
 # This file will cover recipes added to Immersive Engineering's crusher, coke oven, and other machines
+#####################
+###  Arc Furnace  ###
+#####################
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotIron>, null, 40, 512, [<ore:dustObsidian>, <ore:gemDarkCrushed>], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotIron>, null, 40, 512, [<ore:dustObsidian>, <enderzoo:witheringdust>], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotIron>, null, 40, 512, [<ore:dustObsidian>, <quark:black_ash>], "Alloying");
 
-# Blast Furnace
+#####################
+### Blast Furnace ###
+#####################
     #mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:block_coke>, 12000);
     #mods.immersiveengineering.BlastFurnace.addFuel(<charcoal_pit:item_coke>, 1200);
     mods.immersiveengineering.BlastFurnace.addFuel(<chisel:block_charcoal:*>, 3000);
@@ -9,11 +18,15 @@
     #mods.immersiveengineering.BlastFurnace.addFuel(<forestry:charcoal>, 3000);
     #mods.immersiveengineering.BlastFurnace.addFuel(<mekanism:basicblock:3>, 3000);
 
-# Coke Oven
+#####################
+###   Coke Oven   ###
+#####################
     # Rockhounding Ores
         mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 2, 1000, <ore:itemAnthracite>, 1800);
 
-# Crusher
+#####################
+###    Crusher    ###
+#####################
     val amt = 3;
     val chance = 0.30;
     # Advanced Rocketry
@@ -56,8 +69,10 @@
         mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>*1,<rockhounding_oretiers:iron_ores:6>,3600);
         # Banded Iron
         mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>*1,<rockhounding_oretiers:iron_ores:7>,3600);
-        
-# Excavator
+
+#####################
+###   Excavator   ###
+#####################
     # Bauxite:     weight:20, fail:20%, Aluminum:0.90, Titanium:0.05, Dense Aluminum:0.05
         #mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("oreRuby", 0.015);
         #mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("oreSapphire", 0.02);
@@ -112,7 +127,9 @@
     # Mineral Vein
         #mods.immersiveengineering.Excavator.addMineral("Mineral", 15, 0.2, ["oreUninspected"], [1.0]);
 
-# Squeezer
+#####################
+###   Squeezer    ###
+#####################
     #mods.immersiveengineering.Squeezer.addRecipe(<minecraft:redstone>, <liquid:redstone> * 25, <extrautils2:redorchid>, 12800);
     var seeds = [
         #<actuallyadditions:itemCanolaSeed>,   <actuallyadditions:itemCoffeeSeed>,   <actuallyadditions:itemFlaxSeed>,   <actuallyadditions:itemRiceSeed>,
@@ -143,8 +160,10 @@
     for i, seed in seeds {
         mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, seed, 6400);
     }
-    
-# Refinery
+
+#####################
+###   Refinery    ###
+#####################
     mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:ethanol> * 8, <liquid:seed.oil> * 8, 80);
     mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 20, <liquid:oxygen> * 10, <liquid:hydrogen> * 10, 1000);
     #mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:juice> * 8,   <liquid:seed.oil> * 8, 80);
