@@ -17,7 +17,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:cybereyeUpgrades",
+        "id": "cyberware:cybereye_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -27,7 +27,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:cybereyeUpgrades",
+        "id": "cyberware:cybereye_upgrades",
         "damage": 1,
         "count": 1
       }
@@ -37,7 +37,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:cybereyeUpgrades",
+        "id": "cyberware:cybereye_upgrades",
         "damage": 2,
         "count": 1
       }
@@ -47,7 +47,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:cybereyeUpgrades",
+        "id": "cyberware:cybereye_upgrades",
         "damage": 3,
         "count": 1
       }
@@ -57,7 +57,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:cybereyeUpgrades",
+        "id": "cyberware:cybereye_upgrades",
         "damage": 4,
         "count": 1
       }
@@ -67,7 +67,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:eyeUpgrades",
+        "id": "cyberware:eye_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -77,7 +77,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:brainUpgrades",
+        "id": "cyberware:brain_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -87,7 +87,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:brainUpgrades",
+        "id": "cyberware:brain_upgrades",
         "damage": 1,
         "count": 1
       }
@@ -97,7 +97,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:brainUpgrades",
+        "id": "cyberware:brain_upgrades",
         "damage": 2,
         "count": 1
       }
@@ -107,7 +107,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:brainUpgrades",
+        "id": "cyberware:brain_upgrades",
         "damage": 3,
         "count": 1
       }
@@ -117,7 +117,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:brainUpgrades",
+        "id": "cyberware:brain_upgrades",
         "damage": 4,
         "count": 1
       }
@@ -127,7 +127,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:brainUpgrades",
+        "id": "cyberware:brain_upgrades",
         "damage": 5,
         "count": 1
       }
@@ -147,7 +147,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:heartUpgrades",
+        "id": "cyberware:dense_battery",
         "damage": 0,
         "count": 1
       }
@@ -157,7 +157,17 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:heartUpgrades",
+        "id": "cyberware:heart_upgrades",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:heart_upgrades",
         "damage": 1,
         "count": 1
       }
@@ -167,7 +177,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:heartUpgrades",
+        "id": "cyberware:heart_upgrades",
         "damage": 2,
         "count": 1
       }
@@ -177,7 +187,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:heartUpgrades",
+        "id": "cyberware:heart_upgrades",
         "damage": 3,
         "count": 1
       }
@@ -187,7 +197,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:lungsUpgrades",
+        "id": "cyberware:lungs_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -197,7 +207,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:lungsUpgrades",
+        "id": "cyberware:lungs_upgrades",
         "damage": 1,
         "count": 1
       }
@@ -207,7 +217,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:denseBattery",
+        "id": "cyberware:lower_organs_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -217,7 +227,17 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:lowerOrgansUpgrades",
+        "id": "cyberware:lower_organs_upgrades",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:lower_organs_upgrades",
         "damage": 2,
         "count": 1
       }
@@ -227,27 +247,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:lowerOrgansUpgrades",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "cyberware:lowerOrgansUpgrades",
-        "damage": 1,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "cyberware:lowerOrgansUpgrades",
+        "id": "cyberware:lower_organs_upgrades",
         "damage": 3,
         "count": 1
       }
@@ -257,7 +257,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:skinUpgrades",
+        "id": "cyberware:skin_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -267,7 +267,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:skinUpgrades",
+        "id": "cyberware:skin_upgrades",
         "damage": 1,
         "count": 1
       }
@@ -277,7 +277,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:skinUpgrades",
+        "id": "cyberware:skin_upgrades",
         "damage": 2,
         "count": 1
       }
@@ -287,7 +287,17 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:boneUpgrades",
+        "id": "cyberware:skin_upgrades",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:muscle_upgrades",
         "damage": 0,
         "count": 1
       }
@@ -297,7 +307,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:boneUpgrades",
+        "id": "cyberware:muscle_upgrades",
         "damage": 1,
         "count": 1
       }
@@ -307,8 +317,118 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:armUpgrades",
+        "id": "cyberware:bone_upgrades",
         "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:bone_upgrades",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:bone_upgrades",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:arm_upgrades",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:hand_upgrades",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:hand_upgrades",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:hand_upgrades",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:leg_upgrades",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:leg_upgrades",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:foot_upgrades",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:foot_upgrades",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyberware:foot_upgrades",
+        "damage": 2,
         "count": 1
       }
     },
@@ -327,16 +447,6 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:boneUpgrades",
-        "damage": 2,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
         "id": "cyberware:cyberlimbs",
         "damage": 1,
         "count": 1
@@ -367,7 +477,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:handUpgrades",
+        "id": "rewired:hand",
         "damage": 0,
         "count": 1
       }
@@ -377,7 +487,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:handUpgrades",
+        "id": "rewired:hand",
         "damage": 1,
         "count": 1
       }
@@ -387,17 +497,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:handUpgrades",
-        "damage": 2,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "cyberware:legUpgrades",
+        "id": "rewired:foot",
         "damage": 0,
         "count": 1
       }
@@ -407,7 +507,17 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:legUpgrades",
+        "id": "rewired:skin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rewired:skin",
         "damage": 1,
         "count": 1
       }
@@ -417,7 +527,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:footUpgrades",
+        "id": "rewired:torso",
         "damage": 0,
         "count": 1
       }
@@ -427,7 +537,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:footUpgrades",
+        "id": "rewired:torso",
         "damage": 1,
         "count": 1
       }
@@ -437,111 +547,11 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "cyberware:footUpgrades",
-        "damage": 2,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:cyberbrain",
+        "id": "rewired:cranium",
         "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:ecd",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:derps",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:cyberstomach",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:thermopticcamo",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:kineticdampener",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "wired:ic2tap",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "cyberware:skinUpgrades",
-        "damage": 3,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "cyberware:muscleUpgrades",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "cyberware:muscleUpgrades",
-        "damage": 1,
         "count": 1
       }
     }
   ],
-  "dependencyExpression": "$cyberware"
+  "dependencyExpression": "$cyberware \u0026 $rewired"
 }

@@ -34,7 +34,7 @@
     },
     {
       "weight": 1.0,
-      "min": 4,
+      "min": 2,
       "max": 8,
       "item": {
         "id": "libvulpes:productplate",
@@ -44,7 +44,7 @@
     },
     {
       "weight": 1.0,
-      "min": 4,
+      "min": 2,
       "max": 8,
       "item": {
         "id": "libvulpes:productingot",
@@ -54,7 +54,7 @@
     },
     {
       "weight": 1.0,
-      "min": 3,
+      "min": 1,
       "max": 6,
       "item": {
         "id": "libvulpes:productboule",
@@ -64,8 +64,8 @@
     },
     {
       "weight": 1.0,
-      "min": 3,
-      "max": 6,
+      "min": 1,
+      "max": 2,
       "item": {
         "id": "libvulpes:motor",
         "damage": 0,
@@ -74,8 +74,8 @@
     },
     {
       "weight": 0.646636426448822,
-      "min": 2,
-      "max": 3,
+      "min": 1,
+      "max": 2,
       "item": {
         "id": "libvulpes:advancedmotor",
         "damage": 0,
@@ -83,7 +83,7 @@
       }
     },
     {
-      "weight": 0.25986868143081665,
+      "weight": 0.16315889358520508,
       "min": 1,
       "max": 1,
       "item": {
