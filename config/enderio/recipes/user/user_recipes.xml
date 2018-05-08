@@ -139,6 +139,41 @@
     </sagmilling>
   </recipe>
 
+  <!-- ###########################################
+       #########      Modify Alloys      #########
+       ########################################### -->
+
+  <recipe name="Alloy: Dark Steel" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotIron"/>
+      <input name="oredict:dustObsidian"/>
+      <input name="oredict:gemDarkCrushed"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Dark Steel 2" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotIron"/>
+      <input name="oredict:dustObsidian"/>
+      <input name="enderzoo:witheringdust"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Dark Steel 3" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotIron"/>
+      <input name="oredict:dustObsidian"/>
+      <input name="quark:black_ash"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+
+  <!-- ###########################################
+       #########     Grinding  Balls     #########
+       ########################################### -->
+
   <grindingball name="Promise 1" grinding="1.2" chance="1.25" power="0.85" durability="400000" >
     <item name="evilcraft:promise_acceptor:0"/>
   </grindingball>

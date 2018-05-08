@@ -253,8 +253,6 @@ import loottweaker.vanilla.loot.Functions;
 
   LootTables.getTable("dungeontactics:loot_tables/loot_bags/tool_bag").clear();
   val dt_tool_pool = LootTables.getTable("dungeontactics:loot_tables/loot_bags/tool_bag").addPool("default", 1, 1, 0, 0);
-  val tool_dam = Functions.setDamage(0.5, 1.0);
-  val tool_ench = Functions.parse({"levels": 30, "treasure": true, "function": "enchant_with_levels", "conditions": [{"condition": "random_chance", "chance": 0.2}] } as crafttweaker.data.IData);
   dt_tool_pool.addItemEntryHelper(<primal:diamond_workblade>, 1, 0, [tool_dam], []);
   dt_tool_pool.addItemEntryHelper(<primal:diamond_shovel>,    1, 0, [tool_dam, tool_ench], []);
   dt_tool_pool.addItemEntryHelper(<primal:diamond_axe>,       1, 0, [tool_dam, tool_ench], []);
