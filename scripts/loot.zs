@@ -114,8 +114,7 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
 # =====   Astral Sorcery   =====
 # ==============================
-  val as_shrine = LootTables.getTable("astralsorcery:loot_tables/chest_shrine");
-  val as_shrine_pool = as_shrine.getPool("astralsorcery:chest_shrine");
+  val as_shrine_pool = LootTables.getTable("astralsorcery:loot_tables/chest_shrine").getPool("astralsorcery:chest_shrine");
   as_shrine_pool.addItemEntryHelper(<immersiveengineering:metal:0>, 15, 0, [Functions.setCount(2, 5)], []); # Add copper ingot
   as_shrine_pool.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(2, 5)], []); # Add tin ingot
   as_shrine_pool.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(2, 5)], []); # Add zinc ingot
@@ -129,6 +128,8 @@ import loottweaker.vanilla.loot.Functions;
   dd_default_pool.addItemEntryHelper(<contenttweaker:material_part:67>, 10, 0, [Functions.setCount(1,5)], []);
   dd_default_pool.addItemEntryHelper(<contenttweaker:material_part:81>, 10, 0, [Functions.setCount(1,5)], []);
   dd_default_pool.addItemEntryHelper(<immersiveengineering:metal:3>, 10, 0, [Functions.setCount(1,5)], []);
+  dd_default_pool.addItemEntryHelper(<waystones:return_scroll>,  8, 0, [Functions.setCount(1,3)], []);
+  dd_default_pool.addItemEntryHelper(<waystones:warp_scroll>,    4, 0, [Functions.setCount(1,2)], []);
   val dd_main_pool = LootTables.getTable("dimdoors:dungeon_chest").getPool("main");
   dd_main_pool.setRolls(0, 4);
   dd_main_pool.addItemEntryHelper(<ebwizardry:spell_book>,      144, 0, [Functions.setMetadata(1, 12)], []);    # 12 novice spells

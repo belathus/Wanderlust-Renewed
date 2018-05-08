@@ -193,14 +193,13 @@
     #recipes.addShapeless(<arsmagica2:item_ore:6>,
     #    [<ore:dushAsh>,<ore:dushSulfur>,<ore:dustSaltpeter>]);
 
-print("192");
 # Backpack
 #    recipes.remove(<backpack:stick:0>);
 #    recipes.remove(<backpack:stick:1>);
 
 # ContentTweaker
     recipes.addShapeless(<materialpart:philosophers_gold:nugget>, [<ore:nuggetGold>, <evilcraft:garmonbozia>]);
-  print("200!");
+
 # Base Metals
 #    recipes.remove(<basemetals:iron_rod>);
 
@@ -425,7 +424,6 @@ print("192");
     recipes.remove(<primal:iron_ring>);
     recipes.addShapeless(<primal:plant_cordage>,
         [<ore:fiberHemp>,<ore:fiberHemp>]);
-print("300 (close enough)");    
     recipes.addShaped(<primal:torch_wood>*8,
         [[<ore:fuelCoke>],
          [<ore:cordagePlant>],
@@ -505,18 +503,17 @@ print("300 (close enough)");
          [<ore:rodStone>]]);
 
 # Waystones
-#    recipes.remove(<waystones:warp_scroll>);
-#    recipes.addShapeless(<waystones:warp_scroll>,
-#        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustRedstone>]);
-#    recipes.addShapeless(<waystones:warp_scroll>,
-#        [<astralsorcery:itemcraftingcomponent:5>,<ore:powderMana>]);
-#    recipes.addShapeless(<waystones:warp_scroll>,
-#        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustVinteum>]);
-#    recipes.addShapeless(<waystones:warp_scroll>*3,
-#        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:dustGlowstone>]);
-#    recipes.addShapeless(<waystones:warp_scroll>*3,
-#        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:powderBlaze>]);
-#    recipes.addShapeless(<waystones:warp_scroll>*8,
-#        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,
-#        <astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<evilcraft:dark_gem_crushed>]);
-print("all done");
+    recipes.remove(<waystones:warp_scroll>);
+    recipes.addShapeless(<waystones:warp_scroll>,
+        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustRedstone>]);
+    recipes.addShapeless(<waystones:warp_scroll>,
+        [<astralsorcery:itemcraftingcomponent:5>,<ore:powderMana>]);
+    recipes.addShapeless(<waystones:warp_scroll>,
+        [<astralsorcery:itemcraftingcomponent:5>,<ore:dustVinteum>]);
+    recipes.addShapeless(<waystones:warp_scroll>*3,
+        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:dustGlowstone>]);
+    recipes.addShapeless(<waystones:warp_scroll>*3,
+        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<ore:powderBlaze>]);
+    recipes.addShapeless(<waystones:warp_scroll>*8,
+        [<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,
+        <astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<astralsorcery:itemcraftingcomponent:5>,<evilcraft:dark_gem_crushed>]);
