@@ -7,7 +7,7 @@ import loottweaker.vanilla.loot.Functions;
 # variables
   val tool_dam = Functions.setDamage(0.5, 1.0);
   val tool_ench = Functions.parse({"levels": 30, "treasure": true, "function": "enchant_with_levels", "conditions": [{"condition": "random_chance", "chance": 0.2}] } as crafttweaker.data.IData);
-  val cap_funct = Functions.parse({"function": "enderio:set_data"} as crafttweaker.data.IData);
+  val cap_funct = Functions.parse({"function": "enderio:set_capacitor"} as crafttweaker.data.IData);
 
 # Vanilla
   # Remove iron ingot from zombie drops, but add copper, tin, and zinc
@@ -80,6 +80,18 @@ import loottweaker.vanilla.loot.Functions;
   val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
   val mansion = LootTables.getTable("minecraft:chests/woodland_mansion");
   
+  ###########################
+  ### Abandoned Mineshaft ###
+  ###########################
+  val mineshaft_main = simple_dungeon.getPool("main");
+  val mineshaft_pool1 = simple_dungeon.getPool("pool1");
+  mineshaft_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
+  mineshaft_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
+  mineshaft_pool1.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
+
+  ######################
+  ### Desert Pyramid ###
+  ######################
   pyramid.clear();
   val pyramid_tool = pyramid.addPool("tool", 0, 1, 0, 0);
   pyramid_tool.addItemEntryHelper(<primal:diamond_workblade>, 1, 0, [tool_dam], []);
@@ -151,7 +163,7 @@ import loottweaker.vanilla.loot.Functions;
   pyramid_tool.addItemEntry(<chisel:chisel_hitech>, 3, 0);
 
   pyramid.addPool("bones", 1, 1, 0, 0).addItemEntryHelper(<minecraft:bone>,  1, 0, [Functions.setCount(4, 8)], []);
-  pyramid.addPool("skull", 1, 2, 0, 0).addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setMetadata(0, 5)], []);
+  pyramid.addPool("skull", 1, 2, 0, 0).addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setMetadata(0, 2)], []);
 
   val pyramid_book = pyramid.addPool("book", 3, 7, 0, 0);
   pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,      144, 0, [Functions.setMetadata(1, 12)], []);    # 12 novice spells
@@ -204,13 +216,8 @@ import loottweaker.vanilla.loot.Functions;
   
   # Remove Abyssalcraft's ingots and add the favored ingot type
   val abandoned_mine = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
-  val abandoned_mine_main = simple_dungeon.getPool("main");
-  val abandoned_mine_pool1 = simple_dungeon.getPool("pool1");
 #  abandoned_mine_main.removeItemEntry(<abyssalcraft:copperingot>);
 #  abandoned_mine_main.removeItemEntry(<abyssalcraft:tiningot>);
-  abandoned_mine_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  abandoned_mine_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  abandoned_mine_pool1.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
   
   # Remove Abyssalcraft's ingots and add the favored ingot type
   val desert_pyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
@@ -232,7 +239,6 @@ import loottweaker.vanilla.loot.Functions;
   stronghold_corridor_main.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
   
   # Remove Abyssalcraft's ingots and add the favored ingot type
-  val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
   val blacksmith_main = simple_dungeon.getPool("main");
 #  blacksmith_main.removeItemEntry(<abyssalcraft:copperingot>);
 #  blacksmith_main.removeItemEntry(<abyssalcraft:tiningot>);
