@@ -18,66 +18,6 @@
           "name": "minecraft:wooden_axe"
         },
         {
-          "entryName": "abyssalcraft:darkstone_axe",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "abyssalcraft:daxe"
-        },
-        {
-          "entryName": "abyssalcraft:darkstone_pickaxe",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "abyssalcraft:dpick"
-        },
-        {
-          "entryName": "abyssalcraft:darkstone_shovel",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "abyssalcraft:dshovel"
-        },
-        {
-          "entryName": "abyssalcraft:darkstone_sword",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "abyssalcraft:dsword"
-        },
-        {
-          "entryName": "abyssalcraft:darklands_oak_wood",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:dltlog"
-        },
-        {
-          "entryName": "abyssalcraft:cobblestone_upgrade_kit",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:cobbleu"
-        },
-        {
           "entryName": "biomesoplenty:pear",
           "weight": 4,
           "quality": 2,
@@ -92,41 +32,11 @@
           "name": "biomesoplenty:peach"
         },
         {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
+          "entryName": "biomesoplenty:persimmon",
+          "weight": 4,
+          "quality": 2,
           "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
+          "name": "biomesoplenty:persimmon"
         }
       ],
       "rolls": 1.0
@@ -147,43 +57,6 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:wooden_pickaxe"
-        },
-        {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
         }
       ],
       "rolls": 1.0
@@ -242,43 +115,6 @@
             }
           ],
           "name": "minecraft:fish"
-        },
-        {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
         }
       ],
       "rolls": 3.0
@@ -363,43 +199,6 @@
             }
           ],
           "name": "minecraft:log2"
-        },
-        {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
         }
       ],
       "rolls": 4.0
@@ -418,6 +217,45 @@
       "rolls": 1.0
     },
     {
+      "name": "evilcraft:inject/chests/origins_of_darkness",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/origins_of_darkness",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/origins_of_darkness"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "evilcraft:inject/chests/condensed_blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "evilcraft:inject/chests/box_of_eternal_closure",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "botania_inject_pool",
       "entries": [
         {
@@ -429,14 +267,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

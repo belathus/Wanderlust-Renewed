@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "name": "water_treasure_ocean",
+      "entries": [
+        {
+          "entryName": "minecraft:prismarine_crystals",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:prismarine_crystals"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "water_treasure",
+      "entries": [
+        {
+          "entryName": "primal:fishtrap/water_treasure",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "primal:fishtrap/water_treasure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

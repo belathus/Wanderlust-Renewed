@@ -17,21 +17,21 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "botania:manaResource"
+          "name": "botania:manaresource"
         },
         {
           "entryName": "botania:blackLotus",
           "weight": 10,
           "quality": 0,
           "type": "item",
-          "name": "botania:blackLotus"
+          "name": "botania:blacklotus"
         },
         {
           "entryName": "botania:overgrowthSeed",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "botania:overgrowthSeed"
+          "name": "botania:overgrowthseed"
         },
         {
           "entryName": "empty",
@@ -41,14 +41,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

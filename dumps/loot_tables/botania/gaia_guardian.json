@@ -27,7 +27,7 @@
               ]
             }
           ],
-          "name": "botania:manaResource"
+          "name": "botania:manaresource"
         }
       ],
       "rolls": 1.0,
@@ -46,7 +46,7 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "botania:recordGaia1"
+          "name": "botania:recordgaia1"
         }
       ],
       "rolls": 1.0,
@@ -62,11 +62,11 @@
       ]
     },
     {
-      "name": "Ender IO",
+      "name": "main",
       "entries": [],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 5.0,
+        "max": 10.0
       }
     }
   ]

@@ -85,152 +85,6 @@
           "name": "minecraft:book"
         },
         {
-          "entryName": "abyssalcraft:abyssalnite_ingot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:abyingot"
-        },
-        {
-          "entryName": "abyssalcraft:refined_coralium_ingot",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "abyssalcraft:cingot"
-        },
-        {
-          "entryName": "abyssalcraft:copper_ingot",
-          "weight": 7,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:copperingot"
-        },
-        {
-          "entryName": "abyssalcraft:tin_ingot",
-          "weight": 7,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:tiningot"
-        },
-        {
-          "entryName": "abyssalcraft:crystallized_zinc",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 24.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "abyssalcraft:crystal"
-        },
-        {
-          "entryName": "abyssalcraft:mre",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "abyssalcraft:mre"
-        },
-        {
-          "entryName": "abyssalcraft:coralium_gem",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:coralium"
-        },
-        {
-          "entryName": "abyssalcraft:shadow_fragment",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 10.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:shadowfragment"
-        },
-        {
-          "entryName": "abyssalcraft:shadow_gem_shard",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:shadowshard"
-        },
-        {
-          "entryName": "abyssalcraft:shadow_gem",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "abyssalcraft:shadowgem"
-        },
-        {
           "entryName": "quark:rune",
           "weight": 20,
           "quality": 0,
@@ -259,56 +113,6 @@
           "name": "quark:ancient_tome"
         },
         {
-          "entryName": "betterbeginnings:marshmallow",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "betterbeginnings:marshmallow"
-        },
-        {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
-        },
-        {
           "entryName": "cyberware:neuropozyne",
           "weight": 15,
           "quality": 0,
@@ -329,7 +133,7 @@
           "weight": 15,
           "quality": 0,
           "type": "item",
-          "name": "dungeontactics:magic_teather"
+          "name": "dungeontactics:magic_tether"
         },
         {
           "entryName": "DT:HeartJar",
@@ -346,102 +150,6 @@
             }
           ],
           "name": "dungeontactics:heart_jar"
-        },
-        {
-          "entryName": "wired:energydrink",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:energydrink"
-        },
-        {
-          "entryName": "wired:powerbar",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:powerbar"
-        },
-        {
-          "entryName": "wired:shieldRiot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:shield.riot"
-        },
-        {
-          "entryName": "wired:shieldReinforced",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:shield.reinforced"
-        },
-        {
-          "entryName": "wired:shieldAlloyed",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:shield.alloyed"
-        },
-        {
-          "entryName": "wired:baton.shock",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "wired:baton.shock"
         }
       ],
       "rolls": {
@@ -595,43 +303,6 @@
           "name": "minecraft:beetroot_seeds"
         },
         {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
-        },
-        {
           "entryName": "DT:DuctTape",
           "weight": 15,
           "quality": 0,
@@ -710,46 +381,35 @@
             }
           ],
           "name": "minecraft:string"
-        },
-        {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
         }
       ],
       "rolls": 3.0
+    },
+    {
+      "name": "ebwizardry_additive_pool",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/dungeon_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "xreliquary_inject_pool",
+      "entries": [
+        {
+          "entryName": "xreliquary_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "xreliquary:inject/chests/simple_dungeon"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "name": "forestry_apiculture_bees",
@@ -765,13 +425,52 @@
               "function": "minecraft:set_species_nbt"
             }
           ],
-          "name": "forestry:beeDroneGE"
+          "name": "forestry:bee_drone_ge"
         },
         {
           "entryName": "empty",
           "weight": 9,
           "quality": 0,
           "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "evilcraft:inject/chests/origins_of_darkness",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/origins_of_darkness",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/origins_of_darkness"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "evilcraft:inject/chests/condensed_blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "evilcraft:inject/chests/box_of_eternal_closure",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }
       ],
       "rolls": 1.0
@@ -793,7 +492,30 @@
       "name": "Ender IO",
       "entries": [
         {
-          "entryName": "enderio:itemConduitProbe:0",
+          "entryName": "enderio:item_alloy_ingot:6",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_conduit_probe:0",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -813,7 +535,53 @@
               "function": "minecraft:set_data"
             }
           ],
-          "name": "enderio:itemConduitProbe"
+          "name": "enderio:item_conduit_probe"
+        },
+        {
+          "entryName": "minecraft:quartz:0",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:quartz"
+        },
+        {
+          "entryName": "minecraft:nether_wart:0",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:nether_wart"
         },
         {
           "entryName": "minecraft:ender_pearl:0",
@@ -839,51 +607,94 @@
           "name": "minecraft:ender_pearl"
         },
         {
-          "entryName": "enderio:itemBasicCapacitor45",
+          "entryName": "enderio:item_dark_steel_sword:0",
           "weight": 1,
           "quality": 1,
           "conditions": [
             {
-              "chance": 0.15,
+              "chance": 0.1,
               "condition": "minecraft:random_chance"
             }
           ],
           "type": "item",
           "functions": [
             {
-              "function": "enderio:set_capacitor"
+              "count": 1.0,
+              "function": "minecraft:set_count"
             },
             {
-              "data": 3.0,
-              "function": "minecraft:set_data"
+              "damage": {
+                "min": 1.0,
+                "max": 2000.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "enderio:set_random_dark_upgrade"
+            },
+            {
+              "function": "enderio:set_random_energy"
             }
           ],
-          "name": "enderio:itemBasicCapacitor"
+          "name": "enderio:item_dark_steel_sword"
         },
         {
-          "entryName": "enderio:itemBasicCapacitor46",
+          "entryName": "enderio:item_dark_steel_boots:0",
           "weight": 1,
           "quality": 1,
           "conditions": [
             {
-              "chance": 0.15,
+              "chance": 0.1,
               "condition": "minecraft:random_chance"
             }
           ],
           "type": "item",
           "functions": [
             {
-              "function": "enderio:set_capacitor"
+              "count": 1.0,
+              "function": "minecraft:set_count"
             },
             {
-              "data": 3.0,
-              "function": "minecraft:set_data"
+              "damage": {
+                "min": 1.0,
+                "max": 455.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "enderio:set_random_dark_upgrade"
+            },
+            {
+              "function": "enderio:set_random_energy"
             }
           ],
-          "name": "enderio:itemBasicCapacitor"
+          "name": "enderio:item_dark_steel_boots"
         },
         {
-          "entryName": "enderio:itemBasicCapacitor47",
+          "entryName": "enderio:item_material:9",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "item_basic_capacitor1",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -898,11 +709,64 @@
               "function": "enderio:set_capacitor"
             },
             {
-              "data": 3.0,
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
               "function": "minecraft:set_data"
             }
           ],
-          "name": "enderio:itemBasicCapacitor"
+          "name": "enderio:item_basic_capacitor"
+        },
+        {
+          "entryName": "item_basic_capacitor2",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "enderio:set_capacitor"
+            },
+            {
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_basic_capacitor"
+        },
+        {
+          "entryName": "item_basic_capacitor3",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "enderio:set_capacitor"
+            },
+            {
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_basic_capacitor"
         }
       ],
       "rolls": {

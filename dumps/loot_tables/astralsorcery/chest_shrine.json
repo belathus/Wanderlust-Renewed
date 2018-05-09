@@ -4,7 +4,7 @@
       "name": "astralsorcery:chest_shrine",
       "entries": [
         {
-          "entryName": "astralsorcery:ItemConstellationPaper",
+          "entryName": "astralsorcery:itemconstellationpaper",
           "weight": 18,
           "quality": 0,
           "type": "item",
@@ -14,10 +14,10 @@
               "function": "minecraft:set_data"
             }
           ],
-          "name": "astralsorcery:ItemConstellationPaper"
+          "name": "astralsorcery:itemconstellationpaper"
         },
         {
-          "entryName": "astralsorcery:ItemCraftingComponent",
+          "entryName": "astralsorcery:itemcraftingcomponent",
           "weight": 12,
           "quality": 0,
           "type": "item",
@@ -34,7 +34,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "astralsorcery:ItemCraftingComponent"
+          "name": "astralsorcery:itemcraftingcomponent"
         },
         {
           "entryName": "minecraft:bone",
@@ -141,11 +141,11 @@
       }
     },
     {
-      "name": "Ender IO",
+      "name": "main",
       "entries": [],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 5.0,
+        "max": 10.0
       }
     }
   ]

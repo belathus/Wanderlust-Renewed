@@ -246,7 +246,7 @@
         },
         {
           "entryName": "amulet_socket",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -259,7 +259,7 @@
         },
         {
           "entryName": "thebetweenlands:lore_scrap",
-          "weight": 1,
+          "weight": 4,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -274,24 +274,8 @@
           "name": "thebetweenlands:lore_scrap"
         },
         {
-          "entryName": "thebetweenlands:middle_fruit_bush_seeds",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:middle_fruit_bush_seeds"
-        },
-        {
           "entryName": "thebetweenlands:aspectrus_seeds",
-          "weight": 1,
+          "weight": 4,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -312,11 +296,11 @@
       }
     },
     {
-      "name": "Ender IO",
+      "name": "main",
       "entries": [],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 5.0,
+        "max": 10.0
       }
     }
   ]

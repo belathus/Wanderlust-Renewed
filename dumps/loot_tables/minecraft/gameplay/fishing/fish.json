@@ -56,190 +56,56 @@
           "name": "minecraft:fish"
         },
         {
-          "entryName": "harvestcraft.item.anchovyrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:anchovyrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.bassrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:bassrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.carprawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:carprawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.catfishrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:catfishrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.charrrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:charrrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.eelrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:eelrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.greenheartfishItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:greenheartfishItem"
-        },
-        {
-          "entryName": "harvestcraft.item.grouperrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:grouperrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.herringrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:herringrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.jellyfishrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:jellyfishrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.mudfishrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:mudfishrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.octopusrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:octopusrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.perchrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:perchrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.snapperrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:snapperrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.tilapiarawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:tilapiarawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.troutrawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:troutrawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.tunarawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:tunarawItem"
-        },
-        {
-          "entryName": "harvestcraft.item.walleyerawItem",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "harvestcraft:walleyerawItem"
-        },
-        {
           "entryName": "DT:SwiftFish",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_swift"
         },
         {
           "entryName": "DT:FlyingFish",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_flying"
         },
         {
           "entryName": "DT:LavaFish",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_lava"
         },
         {
           "entryName": "DT:MuscleFish",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_muscle"
         },
         {
           "entryName": "DT:LungFish",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_lung"
         },
         {
           "entryName": "DT:ObsidianFish",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_obsidian"
         },
         {
           "entryName": "DT:TunnelShark",
-          "weight": 4,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:fish_tunnel"
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

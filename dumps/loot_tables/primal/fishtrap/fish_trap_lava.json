@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "fish_trap_lava",
+      "entries": [
+        {
+          "entryName": "primal:fishing/nether_junk",
+          "weight": 10,
+          "quality": -2,
+          "type": "loot_table",
+          "name": "primal:fishing/nether_junk"
+        },
+        {
+          "entryName": "primal:fishing/nether_treasure",
+          "weight": 5,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "primal:fishing/nether_treasure"
+        },
+        {
+          "entryName": "primal:fishing/nether_fish",
+          "weight": 85,
+          "quality": -1,
+          "type": "loot_table",
+          "name": "primal:fishing/nether_fish"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

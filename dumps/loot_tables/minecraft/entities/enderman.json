@@ -43,12 +43,17 @@
       "rolls": 1.0
     },
     {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
+      "name": "evilcraft:inject/entities/ender_tear",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/entities/ender_tear",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/entities/ender_tear"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

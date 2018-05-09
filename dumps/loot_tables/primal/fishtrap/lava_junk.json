@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "name": "lava_junk",
+      "entries": [
+        {
+          "entryName": "primal:muck_molten",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "name": "primal:muck_molten"
+        },
+        {
+          "entryName": "primal:bitumin_clump",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:bitumin_clump"
+        },
+        {
+          "entryName": "primal:quartz_knapp",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:quartz_knapp"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:flint_and_steel"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

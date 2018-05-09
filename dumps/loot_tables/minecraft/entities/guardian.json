@@ -44,6 +44,18 @@
                 "max": 1.0
               },
               "function": "minecraft:looting_enchant"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
             }
           ],
           "name": "minecraft:fish"
@@ -109,14 +121,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

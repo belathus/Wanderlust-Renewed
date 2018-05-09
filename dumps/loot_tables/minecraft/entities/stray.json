@@ -83,7 +83,7 @@
               "function": "minecraft:looting_enchant"
             },
             {
-              "tag": "{Potion:\"slowness\"}",
+              "tag": "{Potion:\"minecraft:slowness\"}",
               "function": "minecraft:set_nbt"
             }
           ],
@@ -110,14 +110,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

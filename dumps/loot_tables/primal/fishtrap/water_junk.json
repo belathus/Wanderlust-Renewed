@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "name": "water_junk",
+      "entries": [
+        {
+          "entryName": "primal:muck",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:muck"
+        },
+        {
+          "entryName": "minecraft:waterlily",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:waterlily"
+        },
+        {
+          "entryName": "primal:flint_knapp",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:flint_knapp"
+        },
+        {
+          "entryName": "primal:corn_seeds",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:corn_seeds"
+        },
+        {
+          "entryName": "minecraft:tripwire_hook",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tripwire_hook"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

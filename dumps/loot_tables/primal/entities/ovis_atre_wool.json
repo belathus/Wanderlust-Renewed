@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "ovis_atre_wool",
+      "entries": [
+        {
+          "entryName": "primal:ovis_wool",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "primal:ovis_wool"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ovis_atre",
+      "entries": [
+        {
+          "entryName": "primal:entities/ovis_atre",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "primal:entities/ovis_atre"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -89,48 +89,11 @@
           "name": "minecraft:wheat"
         },
         {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
-        },
-        {
           "entryName": "astralsorcery:constellation_paper",
           "weight": 10,
           "quality": 2,
           "type": "item",
-          "name": "astralsorcery:ItemConstellationPaper"
+          "name": "astralsorcery:itemconstellationpaper"
         }
       ],
       "rolls": {
@@ -147,43 +110,32 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:golden_apple"
-        },
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ebwizardry_additive_pool",
+      "entries": [
         {
-          "entryName": "everlastingabilities:abilityTotem",
+          "entryName": "ebwizardry_additive_entry",
           "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/dungeon_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "xreliquary_inject_pool",
+      "entries": [
         {
-          "entryName": "evilcraft:originsOfDarkness",
+          "entryName": "xreliquary_inject_entry",
           "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
+          "quality": 0,
+          "type": "loot_table",
+          "name": "xreliquary:inject/chests/igloo_chest"
         }
       ],
       "rolls": 1.0
@@ -202,7 +154,7 @@
               "function": "minecraft:set_species_nbt"
             }
           ],
-          "name": "forestry:beeDroneGE"
+          "name": "forestry:bee_drone_ge"
         },
         {
           "entryName": "bee_wintry_drone",
@@ -222,13 +174,26 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "forestry:beeDroneGE"
+          "name": "forestry:bee_drone_ge"
         },
         {
           "entryName": "empty",
           "weight": 7,
           "quality": 0,
           "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "evilcraft:inject/chests/origins_of_darkness",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/origins_of_darkness",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/origins_of_darkness"
         }
       ],
       "rolls": 1.0
@@ -253,14 +218,14 @@
               "function": "minecraft:set_count"
             },
             {
-              "tag": "{entityId:\"PolarBear\"}",
+              "tag": "{entityId:\"minecraft:polar_bear\"}",
               "function": "minecraft:set_nbt"
             }
           ],
-          "name": "enderio:itemSoulVessel"
+          "name": "enderio:item_soul_vial"
         },
         {
-          "entryName": "enderio:itemSoulVessel:0",
+          "entryName": "enderio:item_soul_vial:0",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -280,10 +245,10 @@
               "function": "minecraft:set_data"
             }
           ],
-          "name": "enderio:itemSoulVessel"
+          "name": "enderio:item_soul_vial"
         },
         {
-          "entryName": "enderio:itemBasicCapacitor54",
+          "entryName": "item_basic_capacitor10",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -298,11 +263,14 @@
               "function": "enderio:set_capacitor"
             },
             {
-              "data": 3.0,
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
               "function": "minecraft:set_data"
             }
           ],
-          "name": "enderio:itemBasicCapacitor"
+          "name": "enderio:item_basic_capacitor"
         }
       ],
       "rolls": {

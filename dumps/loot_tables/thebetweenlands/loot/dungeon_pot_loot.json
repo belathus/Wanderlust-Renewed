@@ -125,22 +125,6 @@
           "name": "thebetweenlands:angry_pebble"
         },
         {
-          "entryName": "thebetweenlands:middle_fruit_bush_seeds",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:middle_fruit_bush_seeds"
-        },
-        {
           "entryName": "valonite_shard",
           "weight": 12,
           "quality": 0,
@@ -175,7 +159,7 @@
         },
         {
           "entryName": "thebetweenlands:lore_scrap",
-          "weight": 1,
+          "weight": 4,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -237,7 +221,7 @@
         },
         {
           "entryName": "thebetweenlands:aspectrus_seeds",
-          "weight": 2,
+          "weight": 12,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -258,11 +242,11 @@
       }
     },
     {
-      "name": "Ender IO",
+      "name": "main",
       "entries": [],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 5.0,
+        "max": 10.0
       }
     }
   ]

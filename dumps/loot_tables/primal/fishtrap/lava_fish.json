@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "name": "lava_fish",
+      "entries": [
+        {
+          "entryName": "primal:fish_lava_worm_raw",
+          "weight": 80,
+          "quality": 0,
+          "type": "item",
+          "name": "primal:fish_lava_worm_raw"
+        },
+        {
+          "entryName": "primal:fish_lava_crawdad_raw",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "primal:fish_lava_crawdad_raw"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

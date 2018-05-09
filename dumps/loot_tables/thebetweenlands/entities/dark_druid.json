@@ -9,23 +9,32 @@
           "quality": 0,
           "conditions": [
             {
-              "properties": {
-                "thebetweenlands:has_item": {
-                  "has_item": false,
-                  "combine_stacks": true,
-                  "item": {
-                    "id": "thebetweenlands:swamp_talisman",
-                    "meta": 1
+              "conditions": [
+                {
+                  "inverse": true,
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "properties": {
+                    "thebetweenlands:has_item": {
+                      "has_item": false,
+                      "combine_stacks": true,
+                      "item": {
+                        "id": "thebetweenlands:swamp_talisman",
+                        "meta": 1
+                      },
+                      "inventories": [
+                        "held",
+                        "main"
+                      ],
+                      "size_operator": "\u003e\u003d"
+                    }
                   },
-                  "inventories": [
-                    "held",
-                    "main"
-                  ],
-                  "size_operator": "\u003e\u003d"
+                  "entity": "killer",
+                  "condition": "minecraft:entity_properties"
                 }
-              },
-              "entity": "killer",
-              "condition": "minecraft:entity_properties"
+              ],
+              "condition": "thebetweenlands:or"
             }
           ],
           "type": "item",
@@ -47,23 +56,32 @@
           "quality": 0,
           "conditions": [
             {
-              "properties": {
-                "thebetweenlands:has_item": {
-                  "has_item": false,
-                  "combine_stacks": true,
-                  "item": {
-                    "id": "thebetweenlands:swamp_talisman",
-                    "meta": 2
+              "conditions": [
+                {
+                  "inverse": true,
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "properties": {
+                    "thebetweenlands:has_item": {
+                      "has_item": false,
+                      "combine_stacks": true,
+                      "item": {
+                        "id": "thebetweenlands:swamp_talisman",
+                        "meta": 2
+                      },
+                      "inventories": [
+                        "held",
+                        "main"
+                      ],
+                      "size_operator": "\u003e\u003d"
+                    }
                   },
-                  "inventories": [
-                    "held",
-                    "main"
-                  ],
-                  "size_operator": "\u003e\u003d"
+                  "entity": "killer",
+                  "condition": "minecraft:entity_properties"
                 }
-              },
-              "entity": "killer",
-              "condition": "minecraft:entity_properties"
+              ],
+              "condition": "thebetweenlands:or"
             }
           ],
           "type": "item",
@@ -85,23 +103,32 @@
           "quality": 0,
           "conditions": [
             {
-              "properties": {
-                "thebetweenlands:has_item": {
-                  "has_item": false,
-                  "combine_stacks": true,
-                  "item": {
-                    "id": "thebetweenlands:swamp_talisman",
-                    "meta": 3
+              "conditions": [
+                {
+                  "inverse": true,
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "properties": {
+                    "thebetweenlands:has_item": {
+                      "has_item": false,
+                      "combine_stacks": true,
+                      "item": {
+                        "id": "thebetweenlands:swamp_talisman",
+                        "meta": 3
+                      },
+                      "inventories": [
+                        "held",
+                        "main"
+                      ],
+                      "size_operator": "\u003e\u003d"
+                    }
                   },
-                  "inventories": [
-                    "held",
-                    "main"
-                  ],
-                  "size_operator": "\u003e\u003d"
+                  "entity": "killer",
+                  "condition": "minecraft:entity_properties"
                 }
-              },
-              "entity": "killer",
-              "condition": "minecraft:entity_properties"
+              ],
+              "condition": "thebetweenlands:or"
             }
           ],
           "type": "item",
@@ -123,23 +150,32 @@
           "quality": 0,
           "conditions": [
             {
-              "properties": {
-                "thebetweenlands:has_item": {
-                  "has_item": false,
-                  "combine_stacks": true,
-                  "item": {
-                    "id": "thebetweenlands:swamp_talisman",
-                    "meta": 4
+              "conditions": [
+                {
+                  "inverse": true,
+                  "condition": "minecraft:killed_by_player"
+                },
+                {
+                  "properties": {
+                    "thebetweenlands:has_item": {
+                      "has_item": false,
+                      "combine_stacks": true,
+                      "item": {
+                        "id": "thebetweenlands:swamp_talisman",
+                        "meta": 4
+                      },
+                      "inventories": [
+                        "held",
+                        "main"
+                      ],
+                      "size_operator": "\u003e\u003d"
+                    }
                   },
-                  "inventories": [
-                    "held",
-                    "main"
-                  ],
-                  "size_operator": "\u003e\u003d"
+                  "entity": "killer",
+                  "condition": "minecraft:entity_properties"
                 }
-              },
-              "entity": "killer",
-              "condition": "minecraft:entity_properties"
+              ],
+              "condition": "thebetweenlands:or"
             }
           ],
           "type": "item",
@@ -260,11 +296,11 @@
       }
     },
     {
-      "name": "Ender IO",
+      "name": "main",
       "entries": [],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 5.0,
+        "max": 10.0
       }
     }
   ]

@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "name": "ovis_atre_meat",
+      "entries": [
+        {
+          "entryName": "primal:ovis_meat_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "primal:ovis_meat_raw"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ovis_atre_pelt",
+      "entries": [
+        {
+          "entryName": "primal:pelt_ovis",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:pelt_ovis"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ovis_atre_head",
+      "entries": [
+        {
+          "entryName": "primal:armor_ovis_head",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:armor_ovis_head"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

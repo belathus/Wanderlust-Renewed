@@ -1,12 +1,24 @@
 {
   "pools": [
     {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:shulker_shell",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "looting_multiplier": 0.0625,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
     }
   ]
 }

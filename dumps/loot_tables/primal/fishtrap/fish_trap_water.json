@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "fish_trap_water",
+      "entries": [
+        {
+          "entryName": "primal:fishing/water_junk",
+          "weight": 10,
+          "quality": -2,
+          "type": "loot_table",
+          "name": "primal:fishing/water_junk"
+        },
+        {
+          "entryName": "primal:fishing/water_treasure",
+          "weight": 5,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "primal:fishing/water_treasure"
+        },
+        {
+          "entryName": "minecraft:gameplay/fishing/fish",
+          "weight": 85,
+          "quality": -1,
+          "type": "loot_table",
+          "name": "minecraft:gameplay/fishing/fish"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

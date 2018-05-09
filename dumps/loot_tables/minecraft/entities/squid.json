@@ -34,34 +34,6 @@
       "rolls": 1.0
     },
     {
-      "name": "harvestcraft",
-      "entries": [
-        {
-          "entryName": "harvestcraft.item.calamarirawItem",
-          "weight": 50,
-          "quality": 0,
-          "conditions": [
-            {
-              "inverse": false,
-              "condition": "minecraft:killed_by_player"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "harvestcraft:calamarirawItem"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
       "name": "xreliquary_inject_pool",
       "entries": [
         {
@@ -73,14 +45,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

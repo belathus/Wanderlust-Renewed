@@ -76,48 +76,11 @@
           "name": "quark:ancient_tome"
         },
         {
-          "entryName": "everlastingabilities:abilityTotem",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "everlastingabilities:abilityTotem"
-        },
-        {
-          "entryName": "evilcraft:originsOfDarkness",
-          "weight": 1,
-          "quality": 5,
-          "type": "item",
-          "name": "evilcraft:originsOfDarkness"
-        },
-        {
-          "entryName": "evilcraft:condensedBlood",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:condensedBlood"
-        },
-        {
-          "entryName": "evilcraft:boxOfEternalClosure",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            null
-          ],
-          "name": "evilcraft:boxOfEternalClosure"
-        },
-        {
           "entryName": "astralsorcery:constellation_paper",
           "weight": 10,
           "quality": 2,
           "type": "item",
-          "name": "astralsorcery:ItemConstellationPaper"
+          "name": "astralsorcery:itemconstellationpaper"
         },
         {
           "entryName": "cyberware:neuropozyne",
@@ -178,6 +141,37 @@
           "name": "dungeontactics:mastery_tome_smokebomb"
         },
         {
+          "entryName": "DT:TomeRoar",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:mastery_tome_roar"
+        },
+        {
+          "entryName": "DT:TomePummel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:mastery_tome_pummel"
+        },
+        {
+          "entryName": "DT:MagicScroll",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 39.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:magic_scroll"
+        },
+        {
           "entryName": "blueprint_electrode",
           "weight": 5,
           "quality": 0,
@@ -197,6 +191,32 @@
       }
     },
     {
+      "name": "ebwizardry_additive_pool",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/dungeon_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "xreliquary_inject_pool",
+      "entries": [
+        {
+          "entryName": "xreliquary_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "xreliquary:inject/chests/stronghold_library"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "forestry_apiculture_bees",
       "entries": [
         {
@@ -210,7 +230,7 @@
               "function": "minecraft:set_species_nbt"
             }
           ],
-          "name": "forestry:beeDroneGE"
+          "name": "forestry:bee_drone_ge"
         },
         {
           "entryName": "bee_monastic_drone",
@@ -223,7 +243,7 @@
               "function": "minecraft:set_species_nbt"
             }
           ],
-          "name": "forestry:beeDroneGE"
+          "name": "forestry:bee_drone_ge"
         },
         {
           "entryName": "empty",
@@ -235,12 +255,17 @@
       "rolls": 1.0
     },
     {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
+      "name": "evilcraft:inject/chests/box_of_eternal_closure",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

@@ -163,6 +163,30 @@
             }
           ],
           "name": "minecraft:stick"
+        },
+        {
+          "entryName": "DT:MagicPowder",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:magic_powder"
+        },
+        {
+          "entryName": "DT:MagicScroll",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 39.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:magic_scroll"
         }
       ],
       "rolls": {
@@ -182,14 +206,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

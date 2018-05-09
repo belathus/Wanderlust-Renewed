@@ -89,32 +89,6 @@
       ]
     },
     {
-      "name": "xuLootDropOfEvil",
-      "entries": [
-        {
-          "entryName": "xuLootDropOfEvil",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 10.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "extrautils2:ingredients"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "chance": 0.1,
-          "looting_multiplier": 0.1,
-          "condition": "minecraft:random_chance_with_looting"
-        }
-      ]
-    },
-    {
       "name": "xreliquary_inject_pool",
       "entries": [
         {
@@ -126,14 +100,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     },
     {
       "name": "necrotic_bone",
