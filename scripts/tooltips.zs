@@ -31,14 +31,14 @@
 #    <dungeontactics:wooden_sword>.addTooltip(format.green("Works with some mastery tomes."));
 
 # Electrobob's Wizardry
-    <ebwizardry:storage_upgrade>.addTooltip(format.green("Increases mana capacity.");
-    <ebwizardry:siphon_upgrade>.addTooltip(format.green("Wands recharge as opponents are killed.");
-    <ebwizardry:condenser_upgrade>.addTooltip(format.green("Grants passive mana regeneration.");
-    <ebwizardry:range_upgrade>.addTooltip(format.green("Grants passive mana regeneration.");
-    <ebwizardry:duration_upgrade>.addTooltip(format.green("Spells last longer.");
-    <ebwizardry:cooldown_upgrade>.addTooltip(format.green("Cast spells more frequently.");
-    <ebwizardry:attunement_upgrade>.addTooltip(format.green("Allows wand to store another spell.");
-    <ebwizardry:blast_upgrade>.addTooltip(format.green("Increases area of effect of spells.");
+    <ebwizardry:storage_upgrade>.addTooltip(format.green("Increases mana capacity."));
+    <ebwizardry:siphon_upgrade>.addTooltip(format.green("Wands recharge as opponents are killed."));
+    <ebwizardry:condenser_upgrade>.addTooltip(format.green("Grants passive mana regeneration."));
+    <ebwizardry:range_upgrade>.addTooltip(format.green("Grants passive mana regeneration."));
+    <ebwizardry:duration_upgrade>.addTooltip(format.green("Spells last longer."));
+    <ebwizardry:cooldown_upgrade>.addTooltip(format.green("Cast spells more frequently."));
+    <ebwizardry:attunement_upgrade>.addTooltip(format.green("Allows wand to store another spell."));
+    <ebwizardry:blast_upgrade>.addTooltip(format.green("Increases area of effect of spells."));
 
 # Extra Utilities
 #    <extrautils2:bagofholding>.addTooltip(format.red("Will delete contents upon switching to creative mode"));
