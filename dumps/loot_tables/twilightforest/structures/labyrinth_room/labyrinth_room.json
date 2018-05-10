@@ -2,50 +2,29 @@
   "pools": [
     {
       "name": "common",
-      "entries": [
-        {
-          "entryName": "twilightforest:structures/labyrinth_room/common",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "twilightforest:structures/labyrinth_room/common"
-        }
-      ],
-      "rolls": 4.0
+      "rolls": 4,
+      "entries": [{
+        "type": "loot_table",
+        "name": "twilightforest:structures/labyrinth_room/common"
+      }]
     },
+
     {
       "name": "uncommon",
-      "entries": [
-        {
-          "entryName": "twilightforest:structures/labyrinth_room/uncommon",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "twilightforest:structures/labyrinth_room/uncommon"
-        }
-      ],
-      "rolls": 2.0
+      "rolls": 2,
+      "entries": [{
+        "type": "loot_table",
+        "name": "twilightforest:structures/labyrinth_room/uncommon"
+      }]
     },
+
     {
       "name": "rare",
-      "entries": [
-        {
-          "entryName": "twilightforest:structures/labyrinth_room/rare",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "twilightforest:structures/labyrinth_room/rare"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      "rolls": 1,
+      "entries": [{
+        "type": "loot_table",
+        "name": "twilightforest:structures/labyrinth_room/rare"
+      }]
     }
   ]
 }

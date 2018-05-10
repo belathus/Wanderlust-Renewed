@@ -2,64 +2,45 @@
   "pools": [
     {
       "name": "common",
+      "rolls": 4,
       "entries": [
         {
-          "entryName": "twilightforest:structures/useless",
-          "weight": 25,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/useless"
+          "name": "twilightforest:structures/useless",
+          "weight": 25
         },
         {
-          "entryName": "twilightforest:structures/hill_1/common",
-          "weight": 75,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/hill_1/common"
+          "name": "twilightforest:structures/hill_1/common",
+          "weight": 75
         }
-      ],
-      "rolls": 4.0
+      ]
     },
+
     {
       "name": "uncommon",
-      "entries": [
-        {
-          "entryName": "twilightforest:structures/hill_1/uncommon",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "twilightforest:structures/hill_1/uncommon"
-        }
-      ],
-      "rolls": 2.0
+      "rolls": 2,
+      "entries": [{
+        "type": "loot_table",
+        "name": "twilightforest:structures/hill_1/uncommon"
+      }]
     },
+
     {
       "name": "rare",
+      "rolls": 1,
       "entries": [
         {
-          "entryName": "twilightforest:structures/hill_1/ultrarare",
-          "weight": 25,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/hill_1/ultrarare"
+          "name": "twilightforest:structures/hill_1/ultrarare",
+          "weight": 25
         },
         {
-          "entryName": "twilightforest:structures/hill_1/rare",
-          "weight": 75,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/hill_1/rare"
+          "name": "twilightforest:structures/hill_1/rare",
+          "weight": 75
         }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      ]
     }
   ]
 }

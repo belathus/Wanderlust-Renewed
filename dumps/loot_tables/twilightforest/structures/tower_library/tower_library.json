@@ -2,64 +2,45 @@
   "pools": [
     {
       "name": "common",
+      "rolls": 4,
       "entries": [
         {
-          "entryName": "twilightforest:structures/useless",
-          "weight": 25,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/useless"
+          "name": "twilightforest:structures/useless",
+          "weight": 25
         },
         {
-          "entryName": "twilightforest:structures/tower_library/common",
-          "weight": 75,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/tower_library/common"
+          "name": "twilightforest:structures/tower_library/common",
+          "weight": 75
         }
-      ],
-      "rolls": 4.0
+      ]
     },
+
     {
       "name": "uncommon",
-      "entries": [
-        {
-          "entryName": "twilightforest:structures/tower_library/uncommon",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "twilightforest:structures/tower_library/uncommon"
-        }
-      ],
-      "rolls": 2.0
+      "rolls": 2,
+      "entries": [{
+        "type": "loot_table",
+        "name": "twilightforest:structures/tower_library/uncommon"
+      }]
     },
+
     {
       "name": "rare",
+      "rolls": 1,
       "entries": [
         {
-          "entryName": "twilightforest:structures/tower_library/ultrarare",
-          "weight": 25,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/tower_library/ultrarare"
+          "name": "twilightforest:structures/tower_library/ultrarare",
+          "weight": 25
         },
         {
-          "entryName": "twilightforest:structures/tower_library/rare",
-          "weight": 75,
-          "quality": 0,
           "type": "loot_table",
-          "name": "twilightforest:structures/tower_library/rare"
+          "name": "twilightforest:structures/tower_library/rare",
+          "weight": 75
         }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      ]
     }
   ]
 }
