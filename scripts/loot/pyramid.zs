@@ -80,8 +80,6 @@ import loottweaker.vanilla.loot.Functions;
   pyramid_treasure.addItemEntryHelper(<minecraft:book>,               30, 0, [Functions.enchantWithLevels(15, 30, true)], []);
   pyramid_treasure.addItemEntryHelper(<quark:rune>,                   40, 0, [Functions.setMetadata(0,15)], []);
   pyramid_treasure.addItemEntryHelper(<quark:ancient_tome>,           16, 2, [ancient_tome], []);
-  pyramid_treasure.addItemEntryHelper(<dungeontactics:magic_tether>,  10, 0, [], []);
-  pyramid_treasure.addItemEntryHelper(<dungeontactics:heart_jar>,     10, 0, [], []);
   pyramid_treasure.addItemEntry(<forestry:broken_bronze_pickaxe>, 20, 0);
   pyramid_treasure.addItemEntry(<forestry:broken_bronze_shovel>, 40, 0);
   pyramid_treasure.addItemEntry(<forestry:kit_pickaxe>, 10, 0);
