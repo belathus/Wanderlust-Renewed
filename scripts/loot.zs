@@ -21,54 +21,6 @@ import loottweaker.vanilla.loot.Functions;
   zombie_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 1, 0, [], []);
   zombie_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 1, 0, [], []);
   
-  val simple_dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
-  simple_dungeon.clear();
-  val simple_dungeon_main = simple_dungeon.addPool("main", 1, 1, 0, 0);
-  val simple_dungeon_pool1 = simple_dungeon.addPool("pool1", 1, 1, 0, 0);
-  val simple_dungeon_treasure = simple_dungeon.addPool("treasure", 1, 3, 0, 0);
-  val simple_dungeon_metal = simple_dungeon.addPool("metal", 1, 4, 0, 0);
-  val simple_dungeon_mundane = simple_dungeon.addPool("mundane", 1, 1, 0, 0);
-  
-  simple_dungeon_main.addItemEntryHelper(<minecraft:iron_ingot>, 1, 0, [], []);
-  simple_dungeon_pool1.addItemEntryHelper(<minecraft:iron_ingot>, 1, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:saddle>, 20, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_apple>, 15, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_apple:1>, 2, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:record_13>, 15, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:record_cat>, 15, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:name_tag>, 20, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:golden_horse_armor>, 10, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:iron_horse_armor>, 15, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:diamond_horse_armor>, 5, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<minecraft:book>, 15, 0, [Functions.enchantWithLevels(15, 30, true)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<quark:rune>, 20, 0, [Functions.setMetadata(0,15)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<quark:ancient_tome>, 8, 2, [Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData)], []);
-  simple_dungeon_treasure.addItemEntryHelper(<dungeontactics:magic_tether>, 5, 0, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<dungeontactics:heart_jar>, 5, 0, [], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:iron_ingot>, 10, 0, [Functions.setCount(1, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:gold_ingot>, 5, 0, [Functions.setCount(1, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:bread>, 20, 0, [Functions.setCount(1, 3)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:wheat>, 20, 0, [Functions.setCount(1, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:bucket>, 10, 0, [], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:redstone>, 15, 0, [Functions.setCount(1, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:coal>, 15, 0, [Functions.setCount(1, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:melon_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:pumpkin_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<minecraft:beetroot_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
-  simple_dungeon_metal.addItemEntryHelper(<dungeontactics:ducttape>, 10, 0, [], []);
-  simple_dungeon_metal.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  simple_dungeon_metal.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  simple_dungeon_metal.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
-
-  simple_dungeon_mundane.addItemEntryHelper(<minecraft:bone>, 10, 0, [Functions.setCount(1, 8)], []);
-  simple_dungeon_mundane.addItemEntryHelper(<minecraft:gunpowder>, 10, 0, [Functions.setCount(1, 8)], []);
-  simple_dungeon_mundane.addItemEntryHelper(<minecraft:rotten_flesh>, 10, 0, [Functions.setCount(1, 8)], []);
-  simple_dungeon_mundane.addItemEntryHelper(<minecraft:string>, 10, 0, [Functions.setCount(1, 8)], []);
-#  simple_dungeon_mundane.addItemEntryHelper(<forestry:beedronege>, 1, 0, [steadfast], []);
-  simple_dungeon_mundane.addEmptyEntry(9);
-  simple_dungeon_mundane.addLootTableEntry("botania:inject/simple_dungeon", 1);
-  simple_dungeon.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
-  
   val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
   val pyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
   val end_city = LootTables.getTable("minecraft:chests/end_city_treasure");
@@ -83,183 +35,6 @@ import loottweaker.vanilla.loot.Functions;
   val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
   val mansion = LootTables.getTable("minecraft:chests/woodland_mansion");
   
-  ###########################
-  ### Abandoned Mineshaft ###
-  ###########################
-  mineshaft.clear();
-  val mineshaft_metal = mineshaft.addPool("metal", 2, 4, 0, 0);
-  mineshaft_metal.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);           # Tin
-  mineshaft_metal.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);            # Zinc
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);        # Copper
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:metal:0>, 6, 0, [Functions.setCount(1, 5)], []);       # copper
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:metal:1>, 4, 0, [Functions.setCount(1, 3)], []);       # aluminum
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:metal:2>, 2, 0, [Functions.setCount(1, 3)], []);       # lead
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:metal:3>, 3, 0, [Functions.setCount(2, 6)], []);       # silver
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:metal:4>, 1, 0, [Functions.setCount(2, 6)], []);       # nickel
-  mineshaft_metal.addItemEntryHelper(<minecraft:gold_ingot>, 3, 0, [Functions.setCount(1, 3)], []);               # gold
-  mineshaft_metal.addItemEntryHelper(<minecraft:diamond>, 1, 0, [Functions.setCount(1, 3)], []);                  # diamond
-  mineshaft_metal.addItemEntryHelper(<minecraft:emerald>, 2, 0, [Functions.setCount(1, 3)], []);                  # emerald
-  mineshaft_metal.addItemEntryHelper(<materialpart:tin:ingot>, 5, 0, [Functions.setCount(1, 3)], []);             # tin
-  mineshaft_metal.addItemEntryHelper(<materialpart:zinc:ingot>, 5, 0, [Functions.setCount(1, 3)], []);            # zinc
-  mineshaft_metal.addItemEntryHelper(<minecraft:redstone>, 5, 0, [Functions.setCount(4, 9)], []);                 # redstone
-  mineshaft_metal.addItemEntryHelper(<minecraft:dye:4>, 5, 0, [Functions.setCount(4, 9)], []);                    # lapis
-  mineshaft_metal.addItemEntryHelper(<minecraft:coal>, 15, 0, [Functions.setCount(3, 8)], []);                    # coal
-  mineshaft_metal.addItemEntryHelper(<immersiveengineering:treated_wood>, 25, 0, [Functions.setCount(3, 8)], []); # treated wood
-
-  val mineshaft_rails = mineshaft.addPool("rails", 2, 4, 0, 0);
-  mineshaft_rails.addItemEntryHelper(<minecraft:rail>, 20, 0, [Functions.setCount(4, 8)], []);
-  mineshaft_rails.addItemEntryHelper(<minecraft:golden_rail>, 5, 0, [Functions.setCount(1, 5)], []);
-  mineshaft_rails.addItemEntryHelper(<minecraft:detector_rail>, 5, 0, [Functions.setCount(1, 5)], []);
-  mineshaft_rails.addItemEntryHelper(<minecraft:activator_rail>, 5, 0, [Functions.setCount(1, 5)], []);
-  mineshaft_rails.addItemEntryHelper(<primal:torch_wood>, 15, 0, [Functions.setCount(1, 16)], []);
-  
-  val mineshaft_treasure = mineshaft.addPool("treasure", 1, 1, 0, 0);
-  mineshaft_treasure.addItemEntry(<minecraft:golden_apple>, 40, 0);
-  mineshaft_treasure.addItemEntry(<minecraft:golden_apple:1>, 2, 0);
-  mineshaft_treasure.addItemEntry(<minecraft:name_tag>, 60, 0);
-  mineshaft_treasure.addItemEntry(<forestry:broken_bronze_pickaxe>, 20, 0);
-  mineshaft_treasure.addItemEntry(<forestry:broken_bronze_shovel>, 40, 0);
-  mineshaft_treasure.addItemEntry(<forestry:kit_pickaxe>, 10, 0);
-  mineshaft_treasure.addItemEntry(<forestry:kit_shovel>, 20, 0);
-  mineshaft_treasure.addItemEntryHelper(<minecraft:iron_pickaxe>,  15, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addItemEntryHelper(<primal:diamond_pickaxe>,   1, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addItemEntryHelper(<primal:flint_pickaxe>,    20, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addItemEntryHelper(<primal:quartz_pickaxe>,    8, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addItemEntryHelper(<primal:emerald_pickaxe>,   1, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addItemEntryHelper(<primal:opal_pickaxe>,      1, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addItemEntryHelper(<primal:obsidian_pickaxe>,  4, 0, [tool_dam, tool_ench], []);
-  mineshaft_treasure.addEmptyEntry(50);
-  
-  val mineshaft_common = mineshaft.addPool("common", 1, 3, 0, 0);
-  mineshaft_common.addItemEntryHelper(<minecraft:melon_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
-  mineshaft_common.addItemEntryHelper(<minecraft:pumpkin_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
-  mineshaft_common.addItemEntryHelper(<minecraft:beetroot_seeds>, 10, 0, [Functions.setCount(2, 4)], []);
-  mineshaft_common.addItemEntry(<dungeontactics:ducttape>, 3, 0);
-  mineshaft_common.addItemEntry(<dungeontactics:magic_tether>, 3, 0);
-  mineshaft_common.addItemEntryHelper(<dungeontactics:heart_jar>, 3, 0, [Functions.setCount(2, 4)], []);
-  
-  mineshaft.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
-  mineshaft.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
-  mineshaft.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
-  mineshaft.addPool("blood", 1, 1, 0, 0).addItemEntryHelper(<evilcraft:condensed_blood>, 1, 0, [Functions.setCount(1, 32)], [Conditions.randomChance(0.25)]);
-  
-  mineshaft.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
-  
-  ######################
-  ### Desert Pyramid ###
-  ######################
-  pyramid.clear();
-  val pyramid_tool = pyramid.addPool("tool", 0, 1, 0, 0);
-  pyramid_tool.addItemEntryHelper(<primal:diamond_workblade>, 1, 0, [tool_dam], []);
-  pyramid_tool.addItemEntryHelper(<primal:diamond_shovel>,    1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:diamond_axe>,       1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:diamond_hoe>,       1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:diamond_pickaxe>,   1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:diamond_saw>,       1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_workblade>,  20, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_shovel>,     20, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_axe>,        20, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_hatchet>,    20, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_hoe>,        16, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_pickaxe>,    20, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:flint_saw>,        20, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_workblade>,  8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_shovel>,     8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_axe>,        8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_hatchet>,    8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_hoe>,        6, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_saw>,       10, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_pickaxe>,    8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_shears>,     8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:emerald_workblade>, 1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:emerald_shovel>,    1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:emerald_axe>,       1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:emerald_hatchet>,   1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:emerald_hoe>,       1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:emerald_pickaxe>,   1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:opal_workblade>,    1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:opal_shovel>,       1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:opal_axe>,          1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:opal_hatchet>,      1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:opal_hoe>,          1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:opal_pickaxe>,      1, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:obsidian_workblade>,4, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:obsidian_shovel>,   4, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:obsidian_axe>,      4, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:obsidian_hatchet>,  4, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:obsidian_hoe>,      3, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:obsidian_pickaxe>,  4, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:copper_saw>,       12, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:iron_saw>,          8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:stone_gallagher>,  30, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:iron_gallagher>,    8, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:nether_gallagher>, 18, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntryHelper(<primal:quartz_gallagher>, 12, 0, [tool_dam, tool_ench], []);
-  pyramid_tool.addItemEntry(<minecraft:bucket>, 35, 0);
-  pyramid_tool.addItemEntry(<minecraft:flint_and_steel>, 35, 0);
-  pyramid_tool.addItemEntry(<minecraft:fishing_rod>, 35, 0);
-  pyramid_tool.addItemEntry(<enderio:item_yeta_wrench>, 15, 0);
-  pyramid_tool.addItemEntry(<enderio:item_conduit_probe>, 10, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:magic_wand>, 20, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_earth_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_fire_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_healing_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_ice_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_lightning_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_necromancy_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<ebwizardry:basic_sorcery_wand>, 5, 0);
-  pyramid_tool.addItemEntry(<evilcraft:blood_extractor>.withTag({"Fluid": {"FluidName": "evilcraftblood", "Amount": 5000}}), 20, 0);
-  pyramid_tool.addItemEntry(<evilcraft:blood_extractor>.withTag({"capacity": 144000, "Fluid": {"FluidName": "evilcraftblood", "Amount": 20000}}), 15, 0);
-  pyramid_tool.addItemEntry(<thaumcraft:scribing_tools>, 20, 0);
-  pyramid_tool.addItemEntry(<evilcraft:veined_scribing_tools>.withTag({"Fluid": {FluidName: "evilcraftblood", "Amount": 2000}}), 5, 0);
-  pyramid_tool.addItemEntry(<naturescompass:naturescompass>, 20, 0);
-  pyramid_tool.addItemEntry(<botania:sextant>, 20, 0);
-  pyramid_tool.addItemEntry(<chisel:chisel_iron>, 35, 0);
-  pyramid_tool.addItemEntry(<chisel:chisel_diamond>, 10, 0);
-  pyramid_tool.addItemEntry(<chisel:chisel_hitech>, 3, 0);
-
-  pyramid.addPool("bones", 1, 1, 0, 0).addItemEntryHelper(<minecraft:bone>,  1, 0, [Functions.setCount(4, 8)], []);
-  pyramid.addPool("skull", 1, 2, 0, 0).addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setMetadata(0, 2)], []);
-
-  val pyramid_book = pyramid.addPool("book", 3, 7, 0, 0);
-  pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,      144, 0, [Functions.setMetadata(1, 12)], []);    # 12 novice spells
-  pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,       70, 0, [Functions.setMetadata(13, 47)], []);   # 35 apprentice spells
-  pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,       23, 0, [Functions.setMetadata(48, 90)], []);   # 43 advanced spells
-  pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,       36, 0, [Functions.setMetadata(111, 113)], []); #  3 novice spells
-  pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,       20, 0, [Functions.setMetadata(114, 123)], []); # 10 apprentice spells
-  pyramid_book.addItemEntryHelper(<ebwizardry:spell_book>,        7, 0, [Functions.setMetadata(124, 135)], []); # 12 advanced spells
-  pyramid_book.addItemEntry(<ebwizardry:arcane_tome:1>,          50, 0);
-  pyramid_book.addItemEntry(<ebwizardry:arcane_tome:2>,          20, 0);
-  pyramid_book.addItemEntry(<ebwizardry:arcane_tome:3>,           3, 0);
-  pyramid_book.addItemEntry(<minecraft:book>,                   100, 0);
-  pyramid_book.addItemEntryHelper(<minecraft:book>,             300, 0, [Functions.enchantWithLevels(15, 30, false)], []);
-  
-  val pyramid_upgrade = pyramid.addPool("upgrade", 1, 1, 0, 0);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:condenser_upgrade>,  1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:siphon_upgrade>,     1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:storage_upgrade>,    1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:range_upgrade>,      1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:duration_upgrade>,   1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:cooldown_upgrade>,   1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:blast_upgrade>,      1, 0, [], [Conditions.randomChance(0.15)]);
-  pyramid_upgrade.addItemEntryHelper(<ebwizardry:attunement_upgrade>, 1, 0, [], [Conditions.randomChance(0.15)]);
-
-  pyramid.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
-
-  val pyramid_ingot = pyramid.addPool("ingot", 2, 4, 0, 0);
-  pyramid_ingot.addItemEntryHelper(<immersiveengineering:metal:0>, 6, 0, [Functions.setCount(1, 5)], []); # copper
-  pyramid_ingot.addItemEntryHelper(<immersiveengineering:metal:1>, 4, 0, [Functions.setCount(1, 3)], []); # aluminum
-  pyramid_ingot.addItemEntryHelper(<immersiveengineering:metal:2>, 2, 0, [Functions.setCount(1, 3)], []); # lead
-  pyramid_ingot.addItemEntryHelper(<immersiveengineering:metal:3>, 3, 0, [Functions.setCount(2, 6)], []); # silver
-  pyramid_ingot.addItemEntryHelper(<immersiveengineering:metal:4>, 1, 0, [Functions.setCount(2, 6)], []); # nickel
-  pyramid_ingot.addItemEntryHelper(<minecraft:gold_ingot>, 3, 0, [Functions.setCount(1, 3)], []); # gold
-  pyramid_ingot.addItemEntryHelper(<minecraft:diamond>, 1, 0, [Functions.setCount(1, 3)], []); # diamond
-  pyramid_ingot.addItemEntryHelper(<minecraft:emerald>, 2, 0, [Functions.setCount(1, 3)], []); # emerald
-  pyramid_ingot.addItemEntryHelper(<materialpart:tin:ingot>, 5, 0, [Functions.setCount(1, 3)], []); # tin
-  pyramid_ingot.addItemEntryHelper(<materialpart:zinc:ingot>, 5, 0, [Functions.setCount(1, 3)], []); # zinc
-  
-  pyramid.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
-
 # ==============================
 # =====    Abyssalcraft    =====
 # ==============================
@@ -269,39 +44,6 @@ import loottweaker.vanilla.loot.Functions;
   #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowfragment>, 8, 0, [Functions.setCount(1,10)], []);
   #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowshard>, 5, 0, [Functions.setCount(1,5)], []);
   #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowgem>, 3, 0, [Functions.setCount(1,3)], []);
-  
-  # Remove Abyssalcraft's ingots and add the favored ingot type
-  val abandoned_mine = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
-#  abandoned_mine_main.removeItemEntry(<abyssalcraft:copperingot>);
-#  abandoned_mine_main.removeItemEntry(<abyssalcraft:tiningot>);
-  
-  # Remove Abyssalcraft's ingots and add the favored ingot type
-  val desert_pyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
-  val desert_pyramid_main = simple_dungeon.getPool("main");
-  val desert_pyramid_pool1 = simple_dungeon.getPool("pool1");
-#  desert_pyramid_main.removeItemEntry(<abyssalcraft:copperingot>);
-#  desert_pyramid_main.removeItemEntry(<abyssalcraft:tiningot>);
-  desert_pyramid_main.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  desert_pyramid_main.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  desert_pyramid_main.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
-  
-  # Remove Abyssalcraft's ingots and add the favored ingot type
-  val stronghold_corridor = LootTables.getTable("minecraft:chests/stronghold_corridor");
-  val stronghold_corridor_main = simple_dungeon.getPool("main");
-#  stronghold_corridor_main.removeItemEntry(<abyssalcraft:copperingot>);
-#  stronghold_corridor_main.removeItemEntry(<abyssalcraft:tiningot>);
-  stronghold_corridor_main.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  stronghold_corridor_main.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  stronghold_corridor_main.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
-  
-  # Remove Abyssalcraft's ingots and add the favored ingot type
-  val blacksmith_main = simple_dungeon.getPool("main");
-#  blacksmith_main.removeItemEntry(<abyssalcraft:copperingot>);
-#  blacksmith_main.removeItemEntry(<abyssalcraft:tiningot>);
-  blacksmith_main.addItemEntryHelper(<materialpart:zinc:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  blacksmith_main.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(1, 3)], []);
-  blacksmith_main.addItemEntryHelper(<immersiveengineering:metal>, 10, 0, [Functions.setCount(2, 5)], []);
-
 
 # ==============================
 # =====   Astral Sorcery   =====
@@ -525,8 +267,8 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
 # =====     Evilcraft      =====
 # ==============================
-  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:origins_of_darkness>, 1, 5, [], []);
-  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:condensed_blood>, 10, 0, [Functions.setCount(1,5)], []);
+#  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:origins_of_darkness>, 1, 5, [], []);
+#  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:condensed_blood>, 10, 0, [Functions.setCount(1,5)], []);
 #  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:box_of_eternal_closure>, 10, 0, [], []);
   
 # ==============================
