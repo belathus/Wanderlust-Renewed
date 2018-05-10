@@ -281,6 +281,11 @@ import loottweaker.vanilla.loot.Functions;
 #  );
 
 # ==============================
+# =====    Magnum  Opis    =====
+# ==============================
+  
+
+# ==============================
 # ===== Tinker's Construct =====
 # ==============================
   val tc_slime = LootTables.getTable("tconstruct:entities/blueslime");

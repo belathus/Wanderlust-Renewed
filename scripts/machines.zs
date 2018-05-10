@@ -107,18 +107,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
          [<ore:ingotSteel>,<artisanworktables:workstation:6>,<ore:ingotSteel>],
          [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>]]);
     #### Mage's Table ####
+    ## Evilcraft Version ##
     recipes.addShaped(<artisanworktables:worktable:7>, # Mage's
-        [[null,<minecraft:enchanting_table>,null],
-         [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
-         [<ore:plankWood>,null,<ore:plankWood>]]);
-    recipes.addShaped(<artisanworktables:workstation:7>,
-        [[<ore:workbench>],
-         [<ore:stickIronwood>,<artisanworktables:worktable:7>,<ore:stickIronwood>],
-         [<ore:plankIronwood>,<ore:chest>,<ore:plankIronwood>]]);
-    recipes.addShaped(<artisanworktables:workshop:7>,
-        [[null,<ore:workbench>,null],
-         [<ore:plankIronwood>,<artisanworktables:workstation:7>,<ore:plankIronwood>],
-         [<ore:plankIronwood>,<primal:storage_crate:6>,<ore:plankIronwood>]]);
+        [[<ore:gemMagic>,<minecraft:enchanting_table>,<ore:gemMagic>],
+         [<ore:stickWood>,<ore:coreMagic>,<ore:stickWood>],
+         [<ore:plankMagic>,null,<ore:plankMagic>]]);
 
 # Bibliocraft
     recipes.addShaped(<bibliocraft:furniturepaneler>,

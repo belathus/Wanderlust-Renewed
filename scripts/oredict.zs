@@ -130,6 +130,36 @@
     <ore:blockLimestone>.add(<chisel:limestone1:*>);
     #<ore:blockLimestone>.add(<biomesoplenty:stone>);
     #<ore:blockLimestone>.add(<thebetweenlands:limestone>);
+# Magic Cores
+    <ore:coreMagic>.add(<evilcraft:environmental_accumulation_core>);
+    <ore:coreMagic>.add(<botania:manatablet>);
+    <ore:coreMagic>.add(<bloodmagic:blood_orb>);
+    <ore:coreMagic>.add(<erebus:materials:38>);
+    <ore:coreMagic>.add(<thaumcraft:salis_mundus>);
+    #<ore:coreMagic>.add(<magnum:moon_pearl>);
+    <ore:coreMagic>.add(<twilightforest:maze_map_focus>);
+    <ore:coreMagic>.add(<minecraft:nether_star>);
+# Magic Gem
+    <ore:gemMagic>.add(<nex:item_crystal_rime>);
+    <ore:gemMagic>.add(<nex:item_crystal_amethyst>);
+    <ore:gemMagic>.add(<minecraft:prismarine_shard>);
+    <ore:gemMagic>.add(<evilcraft:dark_power_gem>);
+    <ore:gemMagic>.add(<thebetweenlands:crimson_middle_gem>);
+    <ore:gemMagic>.add(<thebetweenlands:aqua_middle_gem>);
+    <ore:gemMagic>.add(<thebetweenlands:green_middle_gem>);
+    <ore:gemMagic>.add(<astralsorcery:itemcraftingcomponent:4>);
+    <ore:gemMagic>.add(<bloodmagic:item_demon_crystal>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal:*>);
+# Magic Planks
+    <ore:plankMagic>.add(<evilcraft:undead_plank>);
+    <ore:plankMagic>.add(<botania:livingwood:*>);
+    <ore:plankMagic>.add(<botania:dreamwood:*>);
+    <ore:plankMagic>.add(<wizardry:wisdom_wood_planks>);
+    <ore:plankMagic>.add(<thaumcraft:plank_silverwood>);
+    <ore:plankMagic>.add(<advancedrocketry:planks>);
+    <ore:plankMagic>.add(<primal:planks:3>);
+    <ore:plankMagic>.add(<twilightforest:root:1>);
+    <ore:plankMagic>.add(<twilightforest:magic_log:*>);
 # Marble
     <ore:stoneMarble>.add(<astralsorcery:blockmarble:*>);
     <ore:stoneMarble>.add(<quark:marble:1>);
