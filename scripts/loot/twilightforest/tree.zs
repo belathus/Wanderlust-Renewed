@@ -48,25 +48,25 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntry(<minecraft:dye>,                    10, 0);
   
   # Add 2 to 6 rolls for saplings, fireflies, or other uncommon things (if we add them later).
-  val tf_common = tf_tree.addPool("uncommon", 2, 6, 0, 0);
-  tf_common.addItemEntryHelper(<twilightforest:firefly>,            10, 0, [Functions.setCount(1, 14)], []);
-  tf_common.addItemEntryHelper(<twilightforest:twilight_sapling:0>, 10, 0, [Functions.setCount(1, 4)], []);
-  tf_common.addItemEntryHelper(<twilightforest:twilight_sapling:1>, 10, 0, [Functions.setCount(1, 4)], []);
-  tf_common.addItemEntryHelper(<twilightforest:twilight_sapling:2>, 10, 0, [Functions.setCount(1, 4)], []);
-  tf_common.addItemEntryHelper(<twilightforest:twilight_sapling:3>, 10, 0, [Functions.setCount(1, 4)], []);
+  val tf_uncommon = tf_tree.addPool("uncommon", 2, 6, 0, 0);
+  tf_uncommon.addItemEntryHelper(<twilightforest:firefly>,            10, 0, [Functions.setCount(1, 14)], []);
+  tf_uncommon.addItemEntryHelper(<twilightforest:twilight_sapling:0>, 10, 0, [Functions.setCount(1, 4)], []);
+  tf_uncommon.addItemEntryHelper(<twilightforest:twilight_sapling:1>, 10, 0, [Functions.setCount(1, 4)], []);
+  tf_uncommon.addItemEntryHelper(<twilightforest:twilight_sapling:2>, 10, 0, [Functions.setCount(1, 4)], []);
+  tf_uncommon.addItemEntryHelper(<twilightforest:twilight_sapling:3>, 10, 0, [Functions.setCount(1, 4)], []);
   
   # Add 1 to 3 charms. Apples and pumpkin pie was on this list, but I pulled it to the "common" items table.
-  val tf_common = tf_tree.addPool("rare", 1, 3, 0, 0);
-  tf_common.addItemEntryHelper(<twilightforest:charm_of_life_1>,    10, 0, [Functions.setCount(1, 4)], []);
-  tf_common.addItemEntryHelper(<twilightforest:charm_of_keeping_1>, 10, 0, [Functions.setCount(1, 4)], []);
+  val tf_rare = tf_tree.addPool("rare", 1, 3, 0, 0);
+  tf_rare.addItemEntryHelper(<twilightforest:charm_of_life_1>,    10, 0, [Functions.setCount(1, 4)], []);
+  tf_rare.addItemEntryHelper(<twilightforest:charm_of_keeping_1>, 10, 0, [Functions.setCount(1, 4)], []);
   
   # 50% chance for 1 magic sapling. Used to be 25%. I might do that again, but we're buffing TF loot here.
-  val tf_common = tf_tree.addPool("ultrarare", 0, 1, 0, 0);
-  tf_common.addItemEntry(<twilightforest:twilight_sapling:4>,       10, 0);
-  tf_common.addItemEntry(<twilightforest:twilight_sapling:5>,       10, 0);
-  tf_common.addItemEntry(<twilightforest:twilight_sapling:6>,       10, 0);
-  tf_common.addItemEntry(<twilightforest:twilight_sapling:7>,       10, 0);
-  tf_common.addItemEntry(<twilightforest:twilight_sapling:8>,       10, 0);
+  val tf_ultrarare = tf_tree.addPool("ultrarare", 0, 1, 0, 0);
+  tf_ultrarare.addItemEntry(<twilightforest:twilight_sapling:4>,       10, 0);
+  tf_ultrarare.addItemEntry(<twilightforest:twilight_sapling:5>,       10, 0);
+  tf_ultrarare.addItemEntry(<twilightforest:twilight_sapling:6>,       10, 0);
+  tf_ultrarare.addItemEntry(<twilightforest:twilight_sapling:7>,       10, 0);
+  tf_ultrarare.addItemEntry(<twilightforest:twilight_sapling:8>,       10, 0);
   
   # Add a chance to get various materials. These used to never spawn in the TF.
   tf_tree.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
