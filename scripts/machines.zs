@@ -204,51 +204,6 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
     recipes.addShapeless(<cookingforblockheads:fridge>,
         [<ore:chest>, <ore:ingotBrass>, <ore:ingotBrass>]);
 */
-# Cyberware
-#    recipes.remove(<cyberware:engineeringTable>);
-#    recipes.addShaped(<cyberware:engineeringTable>,
-#        [[<immersiveengineering:tool>,<ore:gearSteel>,<ore:ingotSteel>],
-#         [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
-#         [<ore:ingotSteel>,<forestry:sturdy_machine>,<ore:ingotSteel>]]);
-#    recipes.remove(<cyberware:charger>);
-#    recipes.addShaped(<cyberware:charger>,
-#        [[<ore:ingotAluminum>,<ore:barsIron>,<ore:ingotAluminum>],
-#         [<ore:ingotAluminum>,<immersiveengineering:metalDecoration0>,<ore:ingotAluminum>],
-#         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
-#    recipes.remove(<cyberware:scanner>);
-#    recipes.addShaped(<cyberware:scanner>,
-#        [[<ore:ingotAluminum>,<cyberware:cybereyes>,<ore:ingotAluminum>],
-#         [<ore:ingotAluminum>,<forestry:hardenedMachine>,<ore:ingotAluminum>],
-#         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
-#    recipes.remove(<cyberware:beacon>);
-#    recipes.addShaped(<cyberware:beacon>,
-#        [[<cyberware:component:5>,null,null],
-#         [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],
-#         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
-#    recipes.remove(<cyberware:beaconLarge>);
-#    recipes.addShaped(<cyberware:beaconLarge>,
-#        [[<ore:ingotAluminum>,<ore:pearlEnderEye>,<ore:ingotAluminum>],
-#         [<cyberware:component:2>,<cyberware:beacon>,<cyberware:component:2>],
-#         [<ore:ingotAluminum>,<cyberware:component:3>,<ore:ingotAluminum>]]);
-#    recipes.remove(<cyberware:surgeryChamber>);
-#    recipes.addShaped(<cyberware:surgeryChamber>,
-#        [[<ore:ingotSteel>, <forestry:thermionicTubes>, <ore:ingotSteel>],
-#         [<forestry:thermionicTubes>, <forestry:hardenedMachine>, <forestry:thermionicTubes>],
-#         [<ore:ingotSteel>, <minecraft:iron_door>, <ore:ingotSteel>]]);
-#    recipes.remove(<cyberware:blueprintArchive>);
-#    recipes.addShaped(<cyberware:blueprintArchive>,
-#        [[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
-#         [<ore:paper>, <ore:paper>, <ore:paper>],
-#         [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
-#    recipes.remove(<cyberware:componentBox>);
-#    recipes.addShaped(<cyberware:componentBox>,
-#        [[null, <cyberware:component:*>, null],
-#         [<ore:ingotAluminum>, <ore:chestWood>, <ore:ingotAluminum>],
-#         [null, <ore:ingotAluminum>, null]]);
-#    recipes.remove(<cyberware:radioPost>);
-#    recipes.addShaped(<cyberware:radioPost> * 6,
-#        [[<ore:stickAluminum>, <cyberware:component:5>, <ore:stickAluminum>],
-#         [<ore:stickAluminum>, <cyberware:component:4>, <ore:stickAluminum>]]);
 
 # Deep Resonance
 #    recipes.remove(<deepresonance:machine_frame>);
