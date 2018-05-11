@@ -149,7 +149,12 @@
     <ore:gemMagic>.add(<thebetweenlands:green_middle_gem>);
     <ore:gemMagic>.add(<astralsorcery:itemcraftingcomponent:4>);
     <ore:gemMagic>.add(<bloodmagic:item_demon_crystal>);
-    <ore:gemMagic>.add(<advancedrocketry:crystal:*>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal:1>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal:2>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal:3>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal:4>);
+    <ore:gemMagic>.add(<advancedrocketry:crystal:5>);
 # Magic Planks
     <ore:plankMagic>.add(<evilcraft:undead_plank>);
     <ore:plankMagic>.add(<botania:livingwood:*>);

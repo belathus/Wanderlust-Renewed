@@ -14,7 +14,7 @@ import loottweaker.vanilla.loot.Functions;
   val ancient_tome = Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData);
   val eio_tool1 = Functions.parse({"function": "enderio:set_random_dark_upgrade"} as crafttweaker.data.IData);
   val eio_tool2 = Functions.parse({"function": "enderio:set_random_energy"} as crafttweaker.data.IData);
-  val village_map = Functions.parse({"function": "exploration_map", "destination": "Village", "decoration":"target_point"} as crafttweaker.data.IData);
+  #val village_map = Functions.parse({"function": "exploration_map", "destination": "Village", "decoration":"target_point"} as crafttweaker.data.IData);
 
   val bonus = LootTables.getTable("minecraft:chests/dungeon");
 
@@ -30,7 +30,7 @@ import loottweaker.vanilla.loot.Functions;
 
   # Add a treasure map to a village.
   val bonus_map = bonus.addPool("map", 1, 1, 0, 0);
-  bonus_map.addItemEntryHelper(<minecraft:map>, 1, 0, [village_map], []);
+  #bonus_map.addItemEntryHelper(<minecraft:map>, 1, 0, [village_map], []);
   
   val bonus_tool = bonus.addPool("tool", 1, 3, 0, 0);
   bonus_tool.addItemEntry(<primal:flint_workblade>,             400, 0);
