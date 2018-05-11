@@ -34,7 +34,7 @@
     <ebwizardry:storage_upgrade>.addTooltip(format.green("Increases mana capacity."));
     <ebwizardry:siphon_upgrade>.addTooltip(format.green("Wands recharge as opponents are killed."));
     <ebwizardry:condenser_upgrade>.addTooltip(format.green("Grants passive mana regeneration."));
-    <ebwizardry:range_upgrade>.addTooltip(format.green("Grants passive mana regeneration."));
+    <ebwizardry:range_upgrade>.addTooltip(format.green("Increases the effective range of a wand."));
     <ebwizardry:duration_upgrade>.addTooltip(format.green("Spells last longer."));
     <ebwizardry:cooldown_upgrade>.addTooltip(format.green("Cast spells more frequently."));
     <ebwizardry:attunement_upgrade>.addTooltip(format.green("Allows wand to store another spell."));

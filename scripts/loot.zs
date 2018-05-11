@@ -48,7 +48,7 @@ import loottweaker.vanilla.loot.Functions;
 # ==============================
 # =====   Astral Sorcery   =====
 # ==============================
-  val as_shrine_pool = LootTables.getTable("astralsorcery:loot_tables/chest_shrine").getPool("astralsorcery:chest_shrine");
+  val as_shrine_pool = LootTables.getTable("astralsorcery:chest_shrine").getPool("astralsorcery:chest_shrine");
   as_shrine_pool.removeEntry("minecraft:iron_ingot");
   as_shrine_pool.addItemEntryHelper(<immersiveengineering:metal:0>, 15, 0, [Functions.setCount(2, 5)], []); # Add copper ingot
   as_shrine_pool.addItemEntryHelper(<materialpart:tin:ingot>, 10, 0, [Functions.setCount(2, 5)], []); # Add tin ingot

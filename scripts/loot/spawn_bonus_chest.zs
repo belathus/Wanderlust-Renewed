@@ -100,6 +100,7 @@ import loottweaker.vanilla.loot.Functions;
   bonus_book.addItemEntry(<astralsorcery:itemjournal>,     1, 0);
   bonus_book.addItemEntry(<thaumcraft:thaumonomicon>,      1, 0);
   bonus_book.addItemEntry(<tconstruct:book>,               1, 0);
+  bonus_book.addItemEntry(<rustic:book>,                   1, 0);
   
   val bonus_storage = bonus.addPool("storage", 1, 1, 0, 0);
   bonus_storage.addItemEntry(<evilcraft:exalted_crafter:1>, 1, 0);
