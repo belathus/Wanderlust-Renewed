@@ -80,7 +80,7 @@
      [<ore:plankMagic>,null,<ore:plankMagic>]]);
 #### Scribe's Table ####
   recipes.addShaped(<artisanworktables:worktable:8>,
-    [[<ore:dyeBlack>,<ore:feather>,<minecraft:glass_bottle>];
+    [[<ore:dyeBlack>,<ore:feather>,<minecraft:glass_bottle>],
      [<ore:stickWood>,<minecraft:bookshelf>,<ore:stickWood>],
      [<ore:plankWood>,null,<ore:plankWood>]]);
 #### Chemist's Table ####
