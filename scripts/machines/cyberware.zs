@@ -30,7 +30,7 @@
      [<forestry:thermionic_tubes>, <forestry:hardened_machine>, <forestry:thermionic_tubes>],
      [<ore:ingotSteel>, <minecraft:iron_door>, <ore:ingotSteel>]]);
   recipes.remove(<cyberware:blueprint_archive>);
-  recipes.addShaped(<cyberware:blueprint__archive>,
+  recipes.addShaped(<cyberware:blueprint_archive>,
     [[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
      [<ore:paper>, <ore:paper>, <ore:paper>],
      [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
