@@ -47,7 +47,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<minecraft:wheat>,            10, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:string>,           10, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:stick>,            10, 0, [Functions.setCount(1, 4)], []);
-  tf_common.addItemEntryHelper(<minecraft:ingot_iron>,       30, 0, [Functions.setCount(1, 4)], []);
+  tf_common.addItemEntryHelper(<minecraft:iron_ingot>,       30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:ladder>,           30, 0, [Functions.setCount(1, 6)], []);
   tf_common.addItemEntryHelper(<minecraft:carrot>,           30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntry(<minecraft:bucket>,                 30, 0);
