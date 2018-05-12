@@ -12,14 +12,15 @@ import loottweaker.vanilla.loot.Functions;
   val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
   val ancient_tome = Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData);
   val eb_any = Functions.parse({"function": "ebwizardry:random_spell"} as crafttweaker.data.IData);
-  val eb_e_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "earth"}]} as crafttweaker.data.IData);
-  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "basic"}]} as crafttweaker.data.IData);
-  val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
-  val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
-  val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "master"}]} as crafttweaker.data.IData);
-  val eb_e_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "earth"}], "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
-  val eb_e_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "earth"}], "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
-  val eb_e_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "earth"}], "tiers":[{"tier": "master"}]} as crafttweaker.data.IData);
+#  val eb_e_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":["earth"]} as crafttweaker.data.IData);
+  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["basic"]} as crafttweaker.data.IData);
+  val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["apprentice"]} as crafttweaker.data.IData);
+  val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["advanced"]} as crafttweaker.data.IData);
+  val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["master"]} as crafttweaker.data.IData);
+#  val eb_e_novice = Functions.parse({"function": "ebwizardry:random_spell", "elements":["earth"], "tiers":["basic"]} as crafttweaker.data.IData);
+#  val eb_e_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "elements":["earth"], "tiers":["apprentice"]} as crafttweaker.data.IData);
+#  val eb_e_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":["earth"], "tiers":["advanced"]} as crafttweaker.data.IData);
+#  val eb_e_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":["earth"], "tiers":["master"]} as crafttweaker.data.IData);
 
   val tf_maze = LootTables.getTable("twilightforest:structures/hedge_maze/hedge_maze");
 
@@ -49,7 +50,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<minecraft:stick>,            10, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<ebwizardry:identification_scroll>, 30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<ebwizardry:scroll>,          30, 0, [eb_any], []);
-  tf_common.addItemEntryHelper(<ebwizardry:scroll>,          30, 0, [eb_e_any], []);
+#  tf_common.addItemEntryHelper(<ebwizardry:scroll>,          30, 0, [eb_e_any], []);
 
   val tf_uncommon = tf_maze.addPool("uncommon", 1, 3, 0, 0);
   tf_uncommon.addItemEntryHelper(<minecraft:melon>,            600, 0, [Functions.setCount(1, 5)], []);
@@ -59,8 +60,8 @@ import loottweaker.vanilla.loot.Functions;
   tf_uncommon.addItemEntryHelper(<twilightforest:firefly>,     600, 0, [Functions.setCount(1, 6)], []);
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,      180, 0, [eb_novice], []);     # 15 novice spells
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       90, 0, [eb_apprentice], []); # 45 apprentice spells
-  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,      180, 0, [eb_e_novice], []);
-  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       90, 0, [eb_e_apprentice], []);
+#  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,      180, 0, [eb_e_novice], []);
+#  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       90, 0, [eb_e_apprentice], []);
   tf_uncommon.addItemEntryHelper(<minecraft:book>,             600, 0, [Functions.setCount(1, 5)], []);
   tf_uncommon.addItemEntryHelper(<minecraft:book>,             300, 0, [Functions.enchantWithLevels(15, 30, false)], []);
 
@@ -82,7 +83,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addItemEntryHelper(<minecraft:experience_bottle>, 5, 0, [Functions.setCount(1, 2)], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_master], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_e_master], []);
-  tf_ultrarara.addEmptyEntry(36, 0);
+  tf_ultrarare.addEmptyEntry(36, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
   tf_maze.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:adventurer_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
@@ -91,4 +92,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_maze.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_maze.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_maze.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_maze.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_maze.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);

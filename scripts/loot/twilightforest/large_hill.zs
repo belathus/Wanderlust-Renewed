@@ -12,14 +12,15 @@ import loottweaker.vanilla.loot.Functions;
   val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
   val ancient_tome = Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData);
   val eb_any = Functions.parse({"function": "ebwizardry:random_spell"} as crafttweaker.data.IData);
-  val eb_s_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "sorcery"}]} as crafttweaker.data.IData);
-  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "basic"}]} as crafttweaker.data.IData);
-  val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
-  val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
-  val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "master"}]} as crafttweaker.data.IData);
-  val eb_s_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "sorcery"}], "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
-  val eb_s_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "sorcery"}], "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
-  val eb_s_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "sorcery"}], "tiers":[{"tier": "master"}]} as crafttweaker.data.IData);
+#  val eb_s_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":["sorcery"]} as crafttweaker.data.IData);
+  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["basic"]} as crafttweaker.data.IData);
+  val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["apprentice"]} as crafttweaker.data.IData);
+  val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["advanced"]} as crafttweaker.data.IData);
+  val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["master"]} as crafttweaker.data.IData);
+#  val eb_s_novice = Functions.parse({"function": "ebwizardry:random_spell", "elements":["sorcery"], "tiers":["basic"]} as crafttweaker.data.IData);
+#  val eb_s_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "elements":["sorcery"], "tiers":["apprentice"]} as crafttweaker.data.IData);
+#  val eb_s_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":["sorcery"], "tiers":["advanced"]} as crafttweaker.data.IData);
+#  val eb_s_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":["sorcery"], "tiers":["master"]} as crafttweaker.data.IData);
 
   val tf_hill_3 = LootTables.getTable("twilightforest:structures/hill_3/hill_3");
 
@@ -55,7 +56,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntry(<minecraft:bucket>,                 30, 0);
   tf_common.addItemEntryHelper(<ebwizardry:identification_scroll>, 30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<ebwizardry:scroll>,          30, 0, [eb_any], []);
-  tf_common.addItemEntryHelper(<ebwizardry:scroll>,          30, 0, [eb_s_any], []);
+#  tf_common.addItemEntryHelper(<ebwizardry:scroll>,          30, 0, [eb_s_any], []);
 
   val tf_uncommon = tf_hill_3.addPool("uncommon", 2, 4, 0, 0);
   tf_uncommon.addItemEntryHelper(<minecraft:pumpkin_pie>,      600, 0, [Functions.setCount(1, 5)], []);
@@ -71,9 +72,9 @@ import loottweaker.vanilla.loot.Functions;
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,      180, 0, [eb_novice], []);     # 15 novice spells
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       90, 0, [eb_apprentice], []); # 45 apprentice spells
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       30, 0, [eb_advanced], []);   # 55 advanced spells
-  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,      180, 0, [eb_s_novice], []);
-  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       90, 0, [eb_s_apprentice], []);
-  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       30, 0, [eb_s_advanced], []);
+#  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,      180, 0, [eb_s_novice], []);
+#  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       90, 0, [eb_s_apprentice], []);
+#  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,       30, 0, [eb_s_advanced], []);
   tf_uncommon.addItemEntryHelper(<minecraft:book>,             600, 0, [Functions.setCount(1, 5)], []);
   tf_uncommon.addItemEntryHelper(<minecraft:book>,             300, 0, [Functions.enchantWithLevels(15, 30, false)], []);
 
@@ -98,7 +99,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addItemEntryHelper(<twilightforest:charm_of_keeping_1>,    5, 0, [], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_master], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_s_master], []);
-  tf_ultrarara.addEmptyEntry(96, 0);
+  tf_ultrarare.addEmptyEntry(96, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
   tf_hill_3.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:adventurer_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
@@ -107,4 +108,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_hill_3.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_hill_3.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_hill_3.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_hill_3.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_hill_3.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);

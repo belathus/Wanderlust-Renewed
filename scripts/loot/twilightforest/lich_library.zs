@@ -12,14 +12,15 @@ import loottweaker.vanilla.loot.Functions;
   val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
   val ancient_tome = Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData);
   val eb_any = Functions.parse({"function": "ebwizardry:random_spell"} as crafttweaker.data.IData);
-  val eb_n_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "necromancy"}]} as crafttweaker.data.IData);
-  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "basic"}]} as crafttweaker.data.IData);
-  val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
-  val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
-  val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "master"}]} as crafttweaker.data.IData);
-  val eb_n_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "necromancy"}], "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
-  val eb_n_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "necromancy"}], "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
-  val eb_n_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "necromancy"}], "tiers":[{"tier": "master"}]} as crafttweaker.data.IData);
+  val eb_n_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":["necromancy"]} as crafttweaker.data.IData);
+  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["basic"]} as crafttweaker.data.IData);
+  val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["apprentice"]} as crafttweaker.data.IData);
+  val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["advanced"]} as crafttweaker.data.IData);
+  val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["master"]} as crafttweaker.data.IData);
+  val eb_n_novice = Functions.parse({"function": "ebwizardry:random_spell", "elements":["necromancy"], "tiers":["basic"]} as crafttweaker.data.IData);
+  val eb_n_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "elements":["necromancy"], "tiers":["apprentice"]} as crafttweaker.data.IData);
+  val eb_n_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":["necromancy"], "tiers":["advanced"]} as crafttweaker.data.IData);
+  val eb_n_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":["necromancy"], "tiers":["master"]} as crafttweaker.data.IData);
 
   val tf_lich = LootTables.getTable("twilightforest:structures/tower_library/tower_library");
 
@@ -84,7 +85,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addItemEntry(<twilightforest:moonworm_queen>,     1, 0);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_master], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_n_master], []);
-  tf_ultrarara.addEmptyEntry(18, 0);
+  tf_ultrarare.addEmptyEntry(18, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
   tf_lich.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:adventurer_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
@@ -93,4 +94,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_lich.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_lich.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_lich.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_lich.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_lich.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);

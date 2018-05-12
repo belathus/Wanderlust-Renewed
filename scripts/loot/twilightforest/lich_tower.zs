@@ -83,12 +83,12 @@ import loottweaker.vanilla.loot.Functions;
   ### If you adjust the weights or add items, increase the weight of the empty entry. ###
   ### The goal is to keep the chance of an ultrarare item at 25%                      ###
   val tf_ultrarare = tf_lich.addPool("ultrarare", 1, 1, 0, 0);
-  tf_ultrarare.addItemEntryHelper(<twilightforest:ender_pearl>, 1, 0, [Functions.setCount(1, 4)], []);
-  tf_ultrarare.addItemEntryHelper(<twilightforest:obsidian>,    1, 0, [Functions.setCount(1, 6)], []);
-  tf_ultrarare.addItemEntryHelper(<twilightforest:diamond>,     1, 0, [Functions.setCount(1, 2)], []);
+  tf_ultrarare.addItemEntryHelper(<minecraft:ender_pearl>,      1, 0, [Functions.setCount(1, 4)], []);
+  tf_ultrarare.addItemEntryHelper(<minecraft:obsidian>,         1, 0, [Functions.setCount(1, 6)], []);
+  tf_ultrarare.addItemEntryHelper(<minecraft:diamond>,          1, 0, [Functions.setCount(1, 2)], []);
   tf_ultrarare.addItemEntry(<twilightforest:moonworm_queen>,    1, 0);
   tf_ultrarare.addItemEntry(<twilightforest:peacock_fan>,       1, 0);
-  tf_ultrarara.addEmptyEntry(15, 0);
+  tf_ultrarare.addEmptyEntry(15, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
   tf_lich.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
@@ -97,4 +97,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_lich.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_lich.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_lich.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_lich.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_lich.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
