@@ -3,7 +3,7 @@
   This file will be for modifying the recipes of Artisan Worktables' various crafting tables.
 */
 #### Tailor's Table ####
-  recipes.addShaped(<artisanworktables:worktable:0>, # Carpenter's
+  recipes.addShaped(<artisanworktables:worktable:0>,
     [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
      [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
      [<ore:plankWood>,null,<ore:plankWood>]]);
@@ -16,7 +16,7 @@
      [<ore:plankWood>,<artisanworktables:workstation:0>,<ore:plankWood>],
      [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
 #### Carpenter's Table ####
-  recipes.addShaped(<artisanworktables:worktable:1>, # Carpenter's
+  recipes.addShaped(<artisanworktables:worktable:1>,
     [[null,<ore:artisansHandsaw>,null],
      [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
      [<ore:plankWood>,null,<ore:plankWood>]]);
@@ -29,7 +29,7 @@
      [<ore:plankWood>,<artisanworktables:workstation:1>,<ore:plankWood>],
      [<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
 #### Mason's Table ####
-  recipes.addShaped(<artisanworktables:worktable:2>, # mason's
+  recipes.addShaped(<artisanworktables:worktable:2>,
     [[<ore:ingotBrick>,<ore:slabStone>,<ore:ingotBrick>],
      [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
      [<ore:plankWood>,null,<ore:plankWood>]]);
@@ -41,6 +41,15 @@
     [[<ore:ingotBrick>,<ore:workbench>,<ore:ingotBrick>],
      [<ore:ingotBrick>,<artisanworktables:workstation:2>,<ore:ingotBrick>],
      [<ore:ingotBrick>,<ore:chest>,<ore:ingotBrick>]]);
+#### Blacksmith's Table ####
+  recipes.addShaped(<artisanworktables:worktable:3>,
+    [[<ore:stickWood>,<minecraft:anvil>,<ore:stickWood>],
+     [<ore:plankWood>,null,<ore:plankWood>]]);
+#### Jeweler's Table ####
+  recipes.addShaped(<artisanworktables:worktable:4>,
+    [[<ore:leather>,<ore:leather>,<ore:leather>],
+     [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
+     [<ore:plankWood>,null,<ore:plankWood>]]);
 #### Basic Table ####
   recipes.addShaped(<artisanworktables:worktable:5>,
     [[<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
@@ -64,8 +73,28 @@
     [[<ore:ingotSteel>,<ore:slabSheetmetalCopper>,<ore:ingotSteel>],
      [<ore:ingotSteel>,<artisanworktables:workstation:6>,<ore:ingotSteel>],
      [<ore:ingotSteel>,<ore:chest>,<ore:ingotSteel>]]);
-  #### Mage's Table ####
+#### Mage's Table ####
   recipes.addShaped(<artisanworktables:worktable:7>, # Mage's
     [[<ore:gemMagic>,<minecraft:enchanting_table>,<ore:gemMagic>],
      [<ore:stickWood>,<ore:coreMagic>,<ore:stickWood>],
      [<ore:plankMagic>,null,<ore:plankMagic>]]);
+#### Scribe's Table ####
+  recipes.addShaped(<artisanworktables:worktable:8>,
+    [[<ore:dyeBlack>,<ore:feather>,<minecraft:glass_bottle>];
+     [<ore:stickWood>,<minecraft:bookshelf>,<ore:stickWood>],
+     [<ore:plankWood>,null,<ore:plankWood>]]);
+#### Chemist's Table ####
+  recipes.addShaped(<artisanworktables:worktable:9>,
+    [[<minecraft:glass_bottle>,<minecraft:brewing_stand>,<minecraft:glass_bottle>],
+     [<ore:stickWood>,<minecraft:workbench>,<ore:stickWood>],
+     [<ore:plankWood>,null,<ore:plankWood>]]);
+#### Farmer's Table ####
+#  recipes.addShaped(<artisanworktables:worktable:10>,
+#    [[<>,<dungeontactics:barrel>,<>],
+#     [<ore:stickWood>,<minecraft:workbench>,<ore:stickWood>],
+#     [<ore:plankWood>,null,<ore:plankWood>]]);
+#### Chef's Table ####
+#  recipes.addShaped(<artisanworktables:worktable:11>,
+#    [[],
+#     [<ore:stickWood>,<minecraft:workbench>,<ore:stickWood>],
+#     [<ore:plankWood>,null,<ore:plankWood>]]);
