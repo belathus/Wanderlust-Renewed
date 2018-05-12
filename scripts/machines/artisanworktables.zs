@@ -80,21 +80,21 @@
      [<ore:plankMagic>,null,<ore:plankMagic>]]);
 #### Scribe's Table ####
   recipes.addShaped(<artisanworktables:worktable:8>,
-    [[<ore:dyeBlack>,<ore:feather>,<minecraft:glass_bottle>];
+    [[<ore:dyeBlack>,<ore:feather>,<minecraft:glass_bottle>],
      [<ore:stickWood>,<minecraft:bookshelf>,<ore:stickWood>],
      [<ore:plankWood>,null,<ore:plankWood>]]);
 #### Chemist's Table ####
   recipes.addShaped(<artisanworktables:worktable:9>,
     [[<minecraft:glass_bottle>,<minecraft:brewing_stand>,<minecraft:glass_bottle>],
-     [<ore:stickWood>,<minecraft:workbench>,<ore:stickWood>],
+     [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
      [<ore:plankWood>,null,<ore:plankWood>]]);
 #### Farmer's Table ####
 #  recipes.addShaped(<artisanworktables:worktable:10>,
 #    [[<>,<dungeontactics:barrel>,<>],
-#     [<ore:stickWood>,<minecraft:workbench>,<ore:stickWood>],
+#     [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
 #     [<ore:plankWood>,null,<ore:plankWood>]]);
 #### Chef's Table ####
 #  recipes.addShaped(<artisanworktables:worktable:11>,
 #    [[],
-#     [<ore:stickWood>,<minecraft:workbench>,<ore:stickWood>],
+#     [<ore:stickWood>,<ore:workbench>,<ore:stickWood>],
 #     [<ore:plankWood>,null,<ore:plankWood>]]);
