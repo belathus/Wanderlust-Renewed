@@ -81,8 +81,8 @@ import loottweaker.vanilla.loot.Functions;
   val tf_ultrarare = tf_maze.addPool("ultrarare", 1, 1, 0, 0);
   tf_ultrarare.addItemEntryHelper(<minecraft:diamond>,           5, 0, [Functions.setCount(1, 4)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:experience_bottle>, 5, 0, [Functions.setCount(1, 2)], []);
-  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_master], []);
-  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_e_master], []);
+  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_advanced], []);
+#  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,       1, 0, [eb_e_advanced], []);
   tf_ultrarare.addEmptyEntry(36, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.

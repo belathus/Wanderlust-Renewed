@@ -87,8 +87,8 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addItemEntryHelper(<minecraft:emerald>,                    5, 0, [Functions.setCount(1, 6)], []);
   tf_ultrarare.addItemEntryHelper(<twilightforest:peacock_fan>,           5, 0, [], []);
   tf_ultrarare.addItemEntryHelper(<twilightforest:charm_of_life_1>,       5, 0, [], []);
-  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_master], []);
-  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_s_master], []);
+  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_advanced], []);
+#  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_s_advanced], []);
   tf_ultrarare.addEmptyEntry(66, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.

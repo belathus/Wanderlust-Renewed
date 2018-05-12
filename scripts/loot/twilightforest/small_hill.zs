@@ -80,8 +80,8 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addItemEntryHelper(<twilightforest:transformation_powder>, 5, 0, [Functions.setCount(1, 12)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:diamond>,             5, 0, [Functions.setCount(1, 2)], []);
   tf_ultrarare.addItemEntryHelper(<twilightforest:steeleaf_ingot>, 5, 0, [Functions.setCount(1, 5)], []);
-  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,         1, 0, [eb_master], []);
-  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,         1, 0, [eb_s_master], []);
+  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,         1, 0, [eb_advanced], []);
+#  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,         1, 0, [eb_s_advanced], []);
   tf_ultrarare.addEmptyEntry(51, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
