@@ -1,3 +1,4 @@
+#modloaded artisanworktables
 /*
   This file will be for modifying the recipes of Artisan Worktables' various crafting tables.
 */
