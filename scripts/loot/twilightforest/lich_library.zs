@@ -11,6 +11,8 @@ import loottweaker.vanilla.loot.Functions;
   val tool_ench = Functions.parse({"levels": 30, "treasure": true, "function": "enchant_with_levels", "conditions": [{"condition": "random_chance", "chance": 0.2}] } as crafttweaker.data.IData);
   val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
   val ancient_tome = Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData);
+  val eb_any = Functions.parse({"function": "ebwizardry:random_spell"} as crafttweaker.data.IData);
+  val eb_n_any = Functions.parse({"function": "ebwizardry:random_spell", "elements":[{"element": "necromancy"}]} as crafttweaker.data.IData);
   val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "basic"}]} as crafttweaker.data.IData);
   val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "apprentice"}]} as crafttweaker.data.IData);
   val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":[{"tier": "advaced"}]} as crafttweaker.data.IData);
@@ -29,7 +31,7 @@ import loottweaker.vanilla.loot.Functions;
 */
   tf_lich.clear();
 
-  val tf_common = tf_lich.addPool("common", 2, 4, 0, 0);
+  val tf_common = tf_lich.addPool("common", 3, 7, 0, 0);
   tf_common.addItemEntryHelper(<minecraft:red_flower>,       10, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:yellow_flower>,    10, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:wheat_seeds>,      10, 0, [Functions.setCount(1, 4)], []);
@@ -50,6 +52,8 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<minecraft:dye>,              30, 0, [Functions.setCount(1, 10)], []);
   tf_common.addItemEntryHelper(<thaumcraft:phial>,           30, 0, [Functions.setCount(1, 6)], []);
   tf_common.addItemEntry(<thaumcraft:scribing_tools>,        30, 0);
+  tf_common.addItemEntryHelper(<ebwizardry:scroll>,          60, 0, [eb_any], []);
+  tf_common.addItemEntryHelper(<ebwizardry:scroll>,          60, 0, [eb_n_any], []);
 
   val tf_uncommon = tf_lich.addPool("uncommon", 1, 3, 0, 0);
   tf_uncommon.addItemEntryHelper(<minecraft:book>,             600, 0, [Functions.setCount(1, 5)], []);
