@@ -1,4 +1,4 @@
-#modloaded biblocraft
+#modloaded bibliocraft
 /*
   This file will be for modifying the recipes of Bibliocraft's machines
 */

@@ -92,4 +92,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_labyrinth.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_labyrinth.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_labyrinth.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_labyrinth.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_labyrinth.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);

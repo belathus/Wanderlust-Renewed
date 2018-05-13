@@ -78,29 +78,29 @@ import loottweaker.vanilla.loot.Functions;
   ### The goal is to keep the chance of an ultrarare item at 25%                      ###
   val tf_ultrarare = tf_stronghold_cache.addPool("ultrarare", 1, 1, 0, 0);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:bane_of_arthropods": 6}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:bane_of_arthropods": 6}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:sharpness": 5}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:sharpness": 5}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:smite": 6}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:smite": 6}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:protection": 4}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:protection": 4}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:depth_strider": 3}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:depth_strider": 3}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:mending": 1}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:mending": 1}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:frost_walker": 1}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:frost_walker": 1}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:silk_touch": 1}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:silk_touch": 1}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:fortune": 4}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:fortune": 4}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:looting": 4}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:looting": 4}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:infinity": 1}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:infinity": 1}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>, 5, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:power": 6}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:power": 6}} as crafttweaker.data.IData)], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,   1, 0, [eb_master], []);
 #  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,  1, 0, [eb_h_advanced], []);
   tf_ultrarare.addEmptyEntry(183, 0);
@@ -112,4 +112,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_stronghold_cache.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_stronghold_cache.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_stronghold_cache.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_stronghold_cache.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_stronghold_cache.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);

@@ -51,21 +51,21 @@ import loottweaker.vanilla.loot.Functions;
 
   val tf_uncommon = tf_labyrinth.addPool("uncommon", 2, 4, 0, 0);
   tf_uncommon.addItemEntryHelper(<minecraft:bow>,                      300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:infinity": 1, "minecraft:punch": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:infinity": 1, "minecraft:punch": 2}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<minecraft:bow>,                      300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:power": 3, "minecraft:flame": 1}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:power": 3, "minecraft:flame": 1}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_shovel>,     300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:efficiency": 4, "minecraft:unbreaking": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:efficiency": 4, "minecraft:unbreaking": 2}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_axe>,        300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:efficiency": 5}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:efficiency": 5}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_helmet>,     300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:respiration": 3}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:respiration": 3}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_chestplate>, 300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:protection": 3}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:protection": 3}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_leggings>,   300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:fire_protection": 4}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:fire_protection": 4}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_boots>,      300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:protection": 3}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:protection": 3}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,              180, 0, [eb_novice], []);     # 15 novice spells
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,               90, 0, [eb_apprentice], []); # 45 apprentice spells
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,               30, 0, [eb_advanced], []);   # 55 advanced spells
@@ -76,13 +76,13 @@ import loottweaker.vanilla.loot.Functions;
   tf_rare.addItemEntryHelper(<minecraft:emerald_block>,        8, 0, [Functions.setCount(1, 2)], []);
   tf_rare.addItemEntryHelper(<minecraft:ender_chest>,          8, 0, [Functions.setCount(1, 2)], []);
   tf_rare.addItemEntryHelper(<twilightforest:mazebreaker_pickaxe>, 8, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:efficiency": 5, "minecraft:unbreaking": 5, "minecraft:fortune": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:efficiency": 5, "minecraft:unbreaking": 5, "minecraft:fortune": 2}} as crafttweaker.data.IData)], []);
   tf_rare.addItemEntryHelper(<twilightforest:steeleaf_pickaxe>,8, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:efficiency": 4, "minecraft:silk_touch": 1}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:efficiency": 4, "minecraft:silk_touch": 1}} as crafttweaker.data.IData)], []);
   tf_rare.addItemEntryHelper(<twilightforest:steeleaf_sword>,  8, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:sharpness": 4, "minecraft:knockback": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:sharpness": 4, "minecraft:knockback": 2}} as crafttweaker.data.IData)], []);
   tf_rare.addItemEntryHelper(<twilightforest:steeleaf_sword>,  8, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:bane_of_arthropods": 5, "minecraft:fire_aspect": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:bane_of_arthropods": 5, "minecraft:fire_aspect": 2}} as crafttweaker.data.IData)], []);
   tf_rare.addItemEntry(<ebwizardry:arcane_tome:2>,             3, 0);
   tf_rare.addItemEntry(<ebwizardry:arcane_tome:3>,             1, 0);
 
@@ -100,4 +100,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_labyrinth.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_labyrinth.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_labyrinth.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_labyrinth.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_labyrinth.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);

@@ -49,13 +49,13 @@ import loottweaker.vanilla.loot.Functions;
 
   val tf_uncommon = tf_stronghold_room.addPool("uncommon", 2, 4, 0, 0);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_helmet>,     300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:respiration": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:respiration": 2}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_chestplate>, 300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:blast_protection": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:blast_protection": 2}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_leggings>,   300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:fire_protection": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:fire_protection": 2}} as crafttweaker.data.IData)], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_boots>,      300, 0,
-    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:feather_falling": 2}]} as crafttweaker.data.IData], []);
+    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:feather_falling": 2}} as crafttweaker.data.IData)], []);
   tf_common.addItemEntryHelper(<twilightforest:charm_of_life_1>,       300, 0, [Functions.setCount(1, 3)], []);
   tf_common.addItemEntryHelper(<twilightforest:steeleaf_ingot>,        300, 0, [Functions.setCount(1, 6)], []);
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,              180, 0, [eb_novice], []);     # 15 novice spells
@@ -88,4 +88,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_stronghold_room.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   tf_stronghold_room.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_stronghold_room.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_stronghold_room.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancienttome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_stronghold_room.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
