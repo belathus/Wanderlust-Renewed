@@ -76,6 +76,12 @@ import loottweaker.vanilla.loot.Functions;
   tf_rare.addItemEntryHelper(<minecraft:ender_chest>,          8, 0, [Functions.setCount(1, 2)], []);
   tf_rare.addItemEntryHelper(<twilightforest:mazebreaker_pickaxe>, 8, 0,
     [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:efficiency": 5, "minecraft:unbreaking": 5, "minecraft:fortune": 2}]} as crafttweaker.data.IData], []);
+  tf_rare.addItemEntryHelper(<twilightforest:steeleaf_pickaxe>,8, 0,
+    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:efficiency": 4, "minecraft:silk_touch": 1}]} as crafttweaker.data.IData], []);
+  tf_rare.addItemEntryHelper(<twilightforest:steeleaf_sword>,  8, 0,
+    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:sharpness": 4, "minecraft:knockback": 2}]} as crafttweaker.data.IData], []);
+  tf_rare.addItemEntryHelper(<twilightforest:steeleaf_sword>,  8, 0,
+    [{"function": "twilightforest:enchant", "enchantments":[{"minecraft:bane_of_arthropods": 5, "minecraft:fire_aspect": 2}]} as crafttweaker.data.IData], []);
   tf_rare.addItemEntry(<ebwizardry:arcane_tome:2>,             3, 0);
   tf_rare.addItemEntry(<ebwizardry:arcane_tome:3>,             1, 0);
 
