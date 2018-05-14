@@ -32,9 +32,6 @@ import loottweaker.vanilla.loot.Functions;
 */
   tf_aurora_cache.clear();
 
-  # Always has a key.
-  tf_aurora_cache.addPool("common", 3, 7, 0, 0).addItemEntry(<twilightforest:tower_key>, 1, 0);
-
   val tf_common = tf_aurora_cache.addPool("common", 3, 7, 0, 0);
   tf_common.addItemEntryHelper(<minecraft:gunpowder>,               30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:coal>,                    30, 0, [Functions.setCount(1,12)], []);
