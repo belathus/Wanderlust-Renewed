@@ -22,20 +22,17 @@ import loottweaker.vanilla.loot.Functions;
 #  val eb_h_advanced = Functions.parse({"function": "ebwizardry:random_spell", "elements":["healing"], "tiers":["advanced"]} as crafttweaker.data.IData);
 #  val eb_h_master = Functions.parse({"function": "ebwizardry:random_spell", "elements":["healing"], "tiers":["master"]} as crafttweaker.data.IData);
 
-  val tf_aurora_cache = LootTables.getTable("twilightforest:structures/aurora_cache/aurora_cache");
+  val tf_aurora_room = LootTables.getTable("twilightforest:structures/aurora_room/aurora_room");
 
   ############################################
-  ### Twilight Forest: Aurora Palace Cache ###
+  ### Twilight Forest: Aurora Palace Room ###
   ############################################
 /*
-    Modify the twilight forest aurora cache table to contain...
+    Modify the twilight forest aurora room table to contain...
 */
-  tf_aurora_cache.clear();
+  tf_aurora_room.clear();
 
-  # Always has a key.
-  tf_aurora_cache.addPool("common", 3, 7, 0, 0).addItemEntry(<twilightforest:tower_key>, 1, 0);
-
-  val tf_common = tf_aurora_cache.addPool("common", 3, 7, 0, 0);
+  val tf_common = tf_aurora_room.addPool("common", 3, 7, 0, 0);
   tf_common.addItemEntryHelper(<minecraft:gunpowder>,                5, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<minecraft:coal>,                     5, 0, [Functions.setCount(1,12)], []);
   tf_common.addItemEntryHelper(<minecraft:ice>,                     30, 0, [Functions.setCount(1, 6)], []);
@@ -57,7 +54,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<ebwizardry:scroll>,                 30, 0, [eb_any], []);
 #  tf_common.addItemEntryHelper(<ebwizardry:scroll>,                 30, 0, [eb_h_any], []);
 
-  val tf_uncommon = tf_aurora_cache.addPool("uncommon", 2, 4, 0, 0);
+  val tf_uncommon = tf_aurora_room.addPool("uncommon", 2, 4, 0, 0);
   tf_common.addItemEntryHelper(<twilightforest:arctic_fur>,             300, 0, [Functions.setCount(1, 8)], []);
   tf_common.addItemEntryHelper(<twilightforest:arctic_helmet>,          300, 0, [tool_dam, tool_ench], []);
   tf_common.addItemEntryHelper(<twilightforest:arctic_chestplate>,      300, 0, [tool_dam, tool_ench], []);
@@ -72,7 +69,7 @@ import loottweaker.vanilla.loot.Functions;
 #  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,               180, 0, [eb_h_novice], []);
 #  tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                90, 0, [eb_h_apprentice], []);
 
-  val tf_rare = tf_aurora_cache.addPool("rare", 1, 1, 0, 0);
+  val tf_rare = tf_aurora_room.addPool("rare", 1, 1, 0, 0);
   tf_rare.addItemEntryHelper(<twilightforest:charm_of_life_1>, 32, 0, [Functions.setCount(1, 2)], []);
   tf_rare.addItemEntryHelper(<twilightforest:arctic_fur>,      32, 0, [Functions.setCount(1, 8)], []);
   tf_rare.addItemEntryHelper(<twilightforest:ice_bow>,         32, 0, [tool_dam, tool_ench], []);
@@ -84,7 +81,7 @@ import loottweaker.vanilla.loot.Functions;
 
   ### If you adjust the weights or add items, increase the weight of the empty entry. ###
   ### The goal is to keep the chance of an ultrarare item at 25%                      ###
-  val tf_ultrarare = tf_aurora_cache.addPool("ultrarare", 1, 1, 0, 0);
+  val tf_ultrarare = tf_aurora_room.addPool("ultrarare", 1, 1, 0, 0);
   tf_rare.addItemEntry(<ebwizardry:attunement_upgrade>,         4, 0);
   tf_rare.addItemEntry(<ebwizardry:blast_upgrade>,              4, 0);
   tf_rare.addItemEntry(<ebwizardry:condenser_upgrade>,          4, 0);
@@ -98,10 +95,10 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addEmptyEntry(99, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
-  tf_aurora_cache.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:adventurer_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
-  tf_aurora_cache.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
-  tf_aurora_cache.addPool("blood", 1, 1, 0, 0).addItemEntryHelper(<evilcraft:condensed_blood>, 1, 0, [Functions.setCount(1, 32)], [Conditions.randomChance(0.25)]);
-  tf_aurora_cache.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
-  tf_aurora_cache.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
-  tf_aurora_cache.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
-  tf_aurora_cache.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_aurora_room.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:adventurer_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
+  tf_aurora_room.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
+  tf_aurora_room.addPool("blood", 1, 1, 0, 0).addItemEntryHelper(<evilcraft:condensed_blood>, 1, 0, [Functions.setCount(1, 32)], [Conditions.randomChance(0.25)]);
+  tf_aurora_room.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
+  tf_aurora_room.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
+  tf_aurora_room.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
+  tf_aurora_room.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
