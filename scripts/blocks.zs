@@ -256,6 +256,49 @@
 #         [<rockhounding_surface:whiteSand>,<botania:waterrod>.giveBack(),<rockhounding_surface:whiteSand>],
 #         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
 
+# Rustic
+    # Painted planks fixes
+    val painted_planks = [
+        <rustic:painted_wood_white>,
+        <rustic:painted_wood_orange>,
+        <rustic:painted_wood_magenta>,
+        <rustic:painted_wood_light_blue>,
+        <rustic:painted_wood_yellow>,
+        <rustic:painted_wood_lime>,
+        <rustic:painted_wood_pink>,
+        <rustic:painted_wood_gray>,
+        <rustic:painted_wood_cyan>,
+        <rustic:painted_wood_purple>,
+        <rustic:painted_wood_blue>,
+        <rustic:painted_wood_brown>,
+        <rustic:painted_wood_green>,
+        <rustic:painted_wood_red>,
+        <rustic:painted_wood_black>
+    ] as crafttweaker.item.IItemStack[];
+
+    val dyes = [
+        <ore:dyeWhite>,
+        <ore:dyeOrange>,
+        <ore:dyeMagenta>,
+        <ore:dyeLightBlue>,
+        <ore:dyeYellow>,
+        <ore:dyeLime>,
+        <ore:dyePink>,
+        <ore:dyeGray>,
+        <ore:dyeCyan>,
+        <ore:dyePurple>,
+        <ore:dyeBlue>,
+        <ore:dyeBrown>,
+        <ore:dyeGreen>,
+        <ore:dyeRed>,
+        <ore:dyeBlack>
+    ] as crafttweaker.oredict.IOreDictEntry[];
+
+    for i,item in painted_planks {
+        recipes.remove(item);
+        recipes.addShapeless("rustic_plank_" + dyes[i].name, item * 4,[dyes[i], <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>]);
+    }
+
 # Quark
     recipes.remove(<quark:marble:1>);
     recipes.addShaped(<quark:marble:1> * 4,
