@@ -72,4 +72,4 @@ mods.primal.DryingRack.addNonRottingRecipe(
 
 
 mods.primal.Cauldron.addRecipe("glowcurrant_to_glowstone", 1.0, <liquid:water> * 100, null,
-  [<ore:redstone> * 4, <dungeontactics:glowcurrent> * 4, <ore:dustBlaze>], [<minecraft:glowstone_dust>]);
+  [<ore:dustRedstone> * 4, <dungeontactics:glowcurrent> * 4, <ore:dustBlaze>], [<minecraft:glowstone_dust>]);
