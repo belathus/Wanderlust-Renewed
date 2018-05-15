@@ -296,7 +296,10 @@
 
     for i,item in painted_planks {
         recipes.remove(item);
-        recipes.addShapeless("rustic_plank_" + dyes[i].name, item * 4,[dyes[i], <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>]);
+        recipes.addShaped(item * 8, 
+        [[<ore:plankWood>, dyes[i], <ore:plankWood>],
+            [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+            [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
     }
 
 # Quark
