@@ -16,7 +16,7 @@
             <Biome name='Desert'  weight='-1' />
             <Biome name='Mountain'  weight='-1' />
             <Setting name='MotherlodeFrequency'   avg=':= 2.252 * _default_ ' range=':= 2.252 * _default_ ' type='normal'  scaleTo='base' />
-            <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
+            <Setting name='MotherlodeSize'        avg=':= 3.648 * _default_ ' range=':= 3.648 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='seaLevel' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -48,7 +48,7 @@
             <Biome name='Desert'  weight='-1' />
             <Biome name='Mountain'  weight='-1' />
             <Setting name='MotherlodeFrequency'   avg=':= 2.252 * _default_ ' range=':= 2.252 * _default_ ' type='normal'  scaleTo='base' />
-            <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
+            <Setting name='MotherlodeSize'        avg=':= 3.648 * _default_ ' range=':= 3.648 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='seaLevel' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
@@ -80,7 +80,7 @@
             <Biome name='Desert'  weight='-1' />
             <Biome name='Mountain'  weight='-1' />
             <Setting name='MotherlodeFrequency'   avg=':= 2.252 * _default_ ' range=':= 2.252 * _default_ ' type='normal'  scaleTo='base' />
-            <Setting name='MotherlodeSize'        avg=':= 1.648 * _default_ ' range=':= 1.648 * _default_ ' type='normal' />
+            <Setting name='MotherlodeSize'        avg=':= 3.648 * _default_ ' range=':= 3.648 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='seaLevel' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
