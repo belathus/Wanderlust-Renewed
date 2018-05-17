@@ -267,7 +267,7 @@
         [<rustic:painted_wood_lime>, <quark:stained_planks:5>],
         [<rustic:painted_wood_pink>, <quark:stained_planks:6>],
         [<rustic:painted_wood_gray>, <quark:stained_planks:7>],
-        [<rustic:painted_wood_light_gray>, <quark:stained_planks:8>],
+        [<rustic:painted_wood_silver>, <quark:stained_planks:8>],
         [<rustic:painted_wood_cyan>, <quark:stained_planks:9>],
         [<rustic:painted_wood_purple>, <quark:stained_planks:10>],
         [<rustic:painted_wood_blue>, <quark:stained_planks:11>],
