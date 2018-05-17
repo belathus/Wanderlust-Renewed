@@ -280,6 +280,7 @@
     for i,item in painted_planks {
         recipes.remove(item[0]);
         recipes.addShapeless(item[0], [ item[1] ]);
+        recipes.addShapeless(item[1], [ item[0] ]);
     }
 
 # Quark
