@@ -1,4 +1,4 @@
-#modinstalled roots
+#modloaded roots
 
 # Roots
   recipes.remove(<roots:altar>);
