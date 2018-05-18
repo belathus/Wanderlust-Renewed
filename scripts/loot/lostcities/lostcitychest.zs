@@ -64,6 +64,7 @@ import loottweaker.vanilla.loot.Functions;
   lc_ultrarare.addItemEntry(<immersiveengineering:blueprint>.withTag({"blueprint": "electrode"}), 1, 0);
   lc_ultrarare.addItemEntry(<immersiveengineering:blueprint>.withTag({"blueprint": "specialBullet"}), 1, 0);
   lc_ultrarare.addItemEntry(<immersiveengineering:blueprint>.withTag({"blueprint": "bullet"}), 1, 0);
+  lc_ultrarare.addItemEntry(<mekanism:nugget:1>, 1, 0);
 
   # Add a chance to get various materials. These used to never spawn in the TF.
   lc_citychest.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:builder_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
