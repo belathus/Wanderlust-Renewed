@@ -86,6 +86,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_ultrarare.addItemEntryHelper(<minecraft:diamond>,                    5, 0, [Functions.setCount(1, 2)], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:emerald>,                    5, 0, [Functions.setCount(1, 6)], []);
   tf_ultrarare.addItemEntryHelper(<twilightforest:peacock_fan>,           5, 0, [], []);
+  tf_ultrarare.addItemEntryHelper(<twilightforest:moonworm_queen>,        5, 0, [], []);
   tf_ultrarare.addItemEntryHelper(<twilightforest:charm_of_life_1>,       5, 0, [], []);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_advanced], []);
 #  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_s_advanced], []);
