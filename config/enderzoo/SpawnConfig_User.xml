@@ -142,6 +142,7 @@
       <biome type="NETHER" exclude="true" />
       <biome type="END" exclude="true" />
     </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
   </entry>
   <entry id="SteppeWolf" mobName="primal:canis_campestris" rate="30" minGroupSize="2" maxGroupSize="6">
     <biomeFilter type="all">
