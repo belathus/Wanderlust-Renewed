@@ -37,4 +37,20 @@
       <output name="ingotDarkSteel"/>
     </alloying>
   </recipe>
+
+  <recipe name="Alloy: Soularium" required="true">
+    <alloying energy="10000" exp="0.7">
+      <input name="minecraft:soul_sand"/><!-- has no oredict entry -->
+      <input name="ingotGold"/>
+      <output name="ingotSoularium"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Soularium 2" required="true">
+    <alloying energy="10000" exp="0.7">
+      <input name="minecraft:soul_sand"/><!-- has no oredict entry -->
+      <input name="ingotSilver"/>
+      <output name="ingotSoularium"/>
+    </alloying>
+  </recipe>
 </enderio:recipes>
