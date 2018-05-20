@@ -41,40 +41,6 @@
 #    recipes.addShapeless(<animania:block_mud> * 2,
 #        [<evilcraft:bucket_eternal_water>,<ore:dirt>]);
 
-# Applied Energistics
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:1>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:2>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:3>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:4>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:5>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:6>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:7>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:8>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:9>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:10>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:11>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:12>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:13>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:14>, <evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<appliedenergistics2:part:16>,
-        [<appliedenergistics2:part:15>, <evilcraft:bucket_eternal_water>]);
-
 # Astral Sorcery
 #    recipes.addShapeless(<astralsorcery:blockmarblestairs>, [<quark:stone_marble_bricks_stairs>]);
     recipes.addShapeless(<astralsorcery:blockmarble>, [<quark:marble>]);
