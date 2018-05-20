@@ -53,4 +53,12 @@
       <output name="ingotSoularium"/>
     </alloying>
   </recipe>
+  
+  <recipe name="Alloy: Bronze (Thermal Expansion)" required="false">
+    <alloying energy="4000" exp="0">
+      <input name="ingotCopper" amount="3"/>
+      <input name="ingotTin"/>
+      <output name="contenttweaker:material_part:94" amount="4"/>
+    </alloying>
+  </recipe>
 </enderio:recipes>

@@ -3,7 +3,7 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
 # ===========================
-# ==== Engineer's  Table ====
+# ====     Ender  IO     ====
 # ===========================
   # EnderIO chassis
   RecipeBuilder.get("engineer")
@@ -13,4 +13,23 @@ import mods.artisanworktables.builder.RecipeBuilder;
        [<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>]])
     .addOutput(<enderio:item_material:0>)
     .addTool(<ore:artisansSpanner>, 1)
+    .create();
+
+# ===========================
+# == Immersive Engineering ==
+# ===========================
+  # Immersive Engineering insulated LV cable
+  RecipeBuilder.get("engineer")
+    .setShapeless(
+      [<immersiveengineering:wirecoil:0>])
+    .setSecondaryIngredients([<ore:fabricHemp>])
+    .addOutput(<immersiveengineering:wirecoil:6>)
+    .create();
+  # Immersive Engineering insulated MV cable
+  RecipeBuilder.get("engineer")
+    .setShapeless(
+      [<immersiveengineering:wirecoil:1>])
+    .setFluid(<liquid:creosote> * 250)
+    .setSecondaryIngredients([<ore:fabricHemp>])
+    .addOutput(<immersiveengineering:wirecoil:7>)
     .create();
