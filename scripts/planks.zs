@@ -24,6 +24,22 @@
         [<biomesoplenty:log_3:5>, <biomesoplenty:planks_0:13>, <biomesoplenty:mahogany_stairs>, <biomesoplenty:wood_slab_1:5>],
         [<biomesoplenty:log_3:6>, <biomesoplenty:planks_0:14>, <biomesoplenty:ebony_stairs>, <biomesoplenty:wood_slab_1:6>],
         [<biomesoplenty:log_3:7>, <biomesoplenty:planks_0:15>, <biomesoplenty:eucalyptus_stairs>, <biomesoplenty:wood_slab_1:7>],
+        [<thaumcraft:log_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:stairs_greatwood>, <thaumcraft:slab_greatwood>],
+        [<thaumcraft:log_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:stairs_silverwood>, <thaumcraft:slab_silverwood>],
+        [<wizardry:wisdom_wood_log>, <wizardry:wisdom_wood_planks>, <wizardry:wisdom_wood_stairs>, <wizardry:wisdom_wood_slab>],
+        [<erebus:log_baobab>, <erebus:planks:0>, <erebus:stairs_baobab>, <erebus:slab_planks_baobab>],
+        [<erebus:log_eucalyptus>, <erebus:planks:1>, <erebus:stairs_eucalyptus>, <erebus:slab_planks_eucalyptus>],
+        [<erebus:log_mahogany>, <erebus:planks:2>, <erebus:stairs_mahogany>, <erebus:slab_planks_mahogany>],
+        [<erebus:log_mossbark>, <erebus:planks:3>, <erebus:stairs_mossbark>, <erebus:slab_planks_mossbark>],
+        [<erebus:log_asper>, <erebus:planks:4>, <erebus:stairs_asper>, <erebus:slab_planks_asper>],
+        [<erebus:log_cypress>, <erebus:planks:5>, <erebus:stairs_cypress>, <erebus:slab_planks_cypress>],
+        [<erebus:log_balsam>, <erebus:planks:6>, <erebus:stairs_balsam>, <erebus:slab_planks_balsam>],
+#        [null, <erebus:planks:7>, <erebus:stairs_white>, <erebus:slab_planks_white>],
+#        [<erebus:log_bamboo>, <erebus:planks:8>, <erebus:stairs_bamboo>, <erebus:slab_planks_bamboo>],           # Bamboo has a log, but its planks aren't made with it.
+        [<erebus:log_rotten>, <erebus:planks:9>, <erebus:stairs_rotten>, <erebus:slab_planks_rotten>],
+        [<erebus:log_marshwood>, <erebus:planks:10>, <erebus:stairs_marshwood>, <erebus:slab_planks_marshwood>],
+        [<erebus:log_scorched>, <erebus:planks:11>, <erebus:stairs_scorched>, <erebus:slab_planks_scorched>],
+#        [null, <erebus:planks:12>, <erebus:stairs_varnished>, <erebus:slab_planks_varnished>],
 #        [<forestry:logs.0:0>, <forestry:planks.0:0>,<forestry:stairs.larch>,<forestry:slabs.0:0>],
 #        [<forestry:logs.0:1>, <forestry:planks.0:1>,<forestry:stairs.teak>,<forestry:slabs.0:1>],
 #        [<forestry:logs.0:2>, <forestry:planks.0:2>,<forestry:stairs.acacia>,<forestry:slabs.0:2>],
@@ -222,6 +238,12 @@
             [[<ore:toolSawMetal>], [log]]);
         recipes.addShaped(plank * 4,
             [[<ore:toolSawGem>], [log]]);
+        mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
+            .setShapeless([log])
+            .addOutput(plank * 4)
+            .addTool(<ore:artisansHandsaw>, 1)
+            .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
+            .create();
     }
     recipes.addShapeless(<evilcraft:undead_plank> * 3, 
         [<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>,<evilcraft:undead_plank_stairs>]);
