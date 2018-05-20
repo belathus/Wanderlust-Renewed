@@ -847,4 +847,108 @@
             <itemStack>primal:netherpalm_plank 6 0</itemStack>
         </output>
     </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>thaumcraft:log_greatwood 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>thaumcraft:plank_greatwood 6 0</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>thaumcraft:log_silverwood 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>thaumcraft:plank_silverwood 6 0</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_baobob 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 0</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_eucalyptus 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 1</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_mahogany 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 2</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_mossbark 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 3</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_asper 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 4</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_cypress 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 5</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_balsam 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 6</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_rotten 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 9</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_marshwood 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 10</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>erebus:log_scorched 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>erebus:planks 6 11</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="160" power="10">
+        <input>
+            <itemStack>wizardry:wisdom_wood_log 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>wizardry:wisdom_wood_planks 6 0</itemStack>
+        </output>
+    </Recipe>
 </Recipes>
