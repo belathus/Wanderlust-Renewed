@@ -17,6 +17,10 @@
 # Forestry
     furnace.addRecipe(<forestry:peat>*2, <rockhounding_oretiers:coal_blocks:3>, 0.5);
 
+# Thaumcraft
+    furnace.remove(<minecraft:coal>, <thaumcraft:log_silverwood>);
+    furnace.remove(<minecraft:coal>, <thaumcraft:log_greatwood>);
+
 # Nethermetals
 /*    furnace.remove(<*>, <nethermetals:nether_emerald_ore>);
     furnace.remove(<*>, <nethermetals:nether_diamond_ore>);
