@@ -33,7 +33,19 @@
             "base":"ETHO",
             "primary":{
                 "walls":{
-                    "name":"erebus:umberstone"
+                    "type":"WEIGHTED",
+                    "data":[
+                        {
+                            "name":"erebus:umberstone",
+                            "weight":10
+                        },
+                        {
+                            "name":"quark:crystal",
+                            "meta":3,
+                            "weight":1
+                        }    
+                    ]
+                    
                 },
                 "pillar":{
                     "name":"thaumcraft:log_greatwood",
@@ -51,7 +63,8 @@
                     "name":"erebus:umberstone"
                 },
                 "pillar":{
-                    "name":"erebus:log_eucalyptus"  
+                    "name":"chisel:sandstoneyellow2",
+                    "meta":4  
                 },
                 "stair":{
                     "name":"thaumcraft:stairs_greatwood"
@@ -278,6 +291,78 @@
                 },
                 "stair":{
                     "name":"nex:stairs_brick_nether_lively"
+                }
+            }
+        },
+        {
+            "level":4,
+            "base":"NETHER",
+            "primary":{
+                "walls":{
+                    "name":"botania:biomestonea",
+                    "meta":11
+                },
+                "floor":{
+                    "type":"WEIGHTED",
+                    "data":[
+                        {
+                            "name":"botania:biomestonea",
+                            "meta":11,
+                            "weight":150
+                        },
+                        {
+                            "name":"thaumcraft:metal_thaumium",
+                            "weight":1
+                        }    
+                    ]
+                },
+                "pillar":{
+                    "type":"WEIGHTED",
+                    "data":[
+                        {
+                            "name":"chisel:energizedvoidstone",
+                            "meta":6,
+                            "weight":1
+                        },
+                        {
+                            "name":"nex:wall_brick_nether",
+                            "meta":2,
+                            "weight":10
+                        }
+                    ]
+                },
+                "stair":{
+                    "name":"biomesoplenty:umbran_stairs"
+                }
+            },
+            "secondary":{
+                "walls":{
+                    "type":"JUMBLE",
+                    "data":[
+                        {
+                            "name":"minecraft:purple_glazed_terracotta",
+                            "meta":0
+                        },
+                        {
+                            "name":"minecraft:purple_glazed_terracotta",
+                            "meta":1
+                        },
+                        {
+                            "name":"minecraft:purple_glazed_terracotta",
+                            "meta":2
+                        },
+                        {
+                            "name":"minecraft:purple_glazed_terracotta",
+                            "meta":3
+                        }
+                    ]
+                },
+                "stair":{
+                    "name":"botania:biomestonea11stairs"
+                },
+                "pillar":{
+                    "name":"chisel:concrete_purple1",
+                    "meta":12
                 }
             }
         }
