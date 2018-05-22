@@ -154,10 +154,10 @@
     </Recipe>
     <Recipe timeRequired="80" power="10">
         <input>
-            <itemStack>evilcraft:undeadLog 1 0</itemStack>
+            <itemStack>evilcraft:undead_log 1 0</itemStack>
         </input>
         <output>
-            <itemStack>evilcraft:undeadPlank 6 0</itemStack>
+            <itemStack>evilcraft:undead_plank 6 0</itemStack>
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
@@ -950,14 +950,14 @@
 -->
     <Recipe timeRequired="160" power="10">
         <input>
-            <itemStack>primal:netherpalm_log 1 0</itemStack>
+            <itemStack>primal:corypha_stalk 1 0</itemStack>
         </input>
         <output>
-            <itemStack>primal:netherpalm_plank 6 0</itemStack>
+            <itemStack>primal:planks 6 3</itemStack>
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>thaumcraft:log_greatwood 1 0</itemStack>
         </input>
@@ -966,7 +966,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>thaumcraft:log_silverwood 1 0</itemStack>
         </input>
@@ -975,7 +975,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_baobab 1 0</itemStack>
         </input>
@@ -984,7 +984,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_eucalyptus 1 0</itemStack>
         </input>
@@ -993,7 +993,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_mahogany 1 0</itemStack>
         </input>
@@ -1002,7 +1002,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_mossbark 1 0</itemStack>
         </input>
@@ -1011,7 +1011,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_asper 1 0</itemStack>
         </input>
@@ -1020,7 +1020,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_cypress 1 0</itemStack>
         </input>
@@ -1029,7 +1029,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_balsam 1 0</itemStack>
         </input>
@@ -1038,7 +1038,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_rotten 1 0</itemStack>
         </input>
@@ -1047,7 +1047,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_marshwood 1 0</itemStack>
         </input>
@@ -1056,7 +1056,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>erebus:log_scorched 1 0</itemStack>
         </input>
@@ -1065,7 +1065,7 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
-    <Recipe timeRequired="160" power="10">
+    <Recipe timeRequired="80" power="10">
         <input>
             <itemStack>wizardry:wisdom_wood_log 1 0</itemStack>
         </input>
