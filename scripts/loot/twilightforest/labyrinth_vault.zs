@@ -75,7 +75,7 @@ import loottweaker.vanilla.loot.Functions;
   val tf_rare = tf_labyrinth.addPool("rare", 1, 1, 0, 0);
   tf_rare.addItemEntryHelper(<minecraft:emerald_block>,        8, 0, [Functions.setCount(1, 2)], []);
   tf_rare.addItemEntryHelper(<minecraft:ender_chest>,          8, 0, [Functions.setCount(1, 2)], []);
-  tf_rare.addItemEntryHelper(<twilightforest:mazebreaker_pickaxe>, 8, 0,
+  tf_rare.addItemEntryHelper(<twilightforest:mazebreaker_pickaxe>, 25, 0,
     [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:efficiency": 5, "minecraft:unbreaking": 5, "minecraft:fortune": 2}} as crafttweaker.data.IData)], []);
   tf_rare.addItemEntryHelper(<twilightforest:steeleaf_pickaxe>,8, 0,
     [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:efficiency": 4, "minecraft:silk_touch": 1}} as crafttweaker.data.IData)], []);
