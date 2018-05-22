@@ -303,18 +303,8 @@
                     "meta":11
                 },
                 "floor":{
-                    "type":"WEIGHTED",
-                    "data":[
-                        {
-                            "name":"botania:biomestonea",
-                            "meta":11,
-                            "weight":150
-                        },
-                        {
-                            "name":"thaumcraft:metal_thaumium",
-                            "weight":1
-                        }    
-                    ]
+                    "name":"botania:biomestonea",
+                    "meta":11
                 },
                 "pillar":{
                     "type":"WEIGHTED",
