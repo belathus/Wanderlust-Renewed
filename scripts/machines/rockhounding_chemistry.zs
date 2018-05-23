@@ -1,18 +1,13 @@
 #modloaded rockhounding_chemistry
 
 # Rockhounding Chemistry
-  recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
+  # Seasoning Rack
+  recipes.addShaped(<rockhounding_chemistry:machines_a:13>,
     [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
      [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-     [<ore:plankWood>,<ore:ingotCopper>,<ore:plankWood>]]);
-  recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
-    [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-     [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-     [<ore:plankWood>,<ore:ingotTin>,<ore:plankWood>]]);
-  recipes.addShaped(<rockhounding_chemistry:saltSeasoner>,
-    [[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-     [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-     [<ore:plankWood>,<ore:ingotSteel>,<ore:plankWood>]]);
+     [<ore:plankWood>,<ore:ingotCopper> | <ore:ingotTin> | <ore:ingotSteel>,<ore:plankWood>]]);
+
+/*
   recipes.addShaped(<rockhounding_chemistry:owcBlocks:6>,
     [[<rockhounding_chemistry:miscItems:26>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:26>],
      [<rockhounding_chemistry:miscItems:28>, <rockhounding_chemistry:miscItems:26>, <rockhounding_chemistry:miscItems:28>],
@@ -29,3 +24,4 @@
     [[<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>],
      [<ore:wireCopper>, <rockhounding_chemistry:miscItems:31>, <ore:wireCopper>],
      [<rockhounding_chemistry:miscItems:31>, <ore:wireCopper>, <rockhounding_chemistry:miscItems:31>]]);
+*/
