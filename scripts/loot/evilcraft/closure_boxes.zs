@@ -72,7 +72,7 @@ import loottweaker.vanilla.loot.Functions;
       swarmTier: 0,
       buildupDuration: 0,
       playerId: "9f85e1aa-2ae1-4e59-81a4-dc28266caac7",
-      frozenDuration: 
+      frozenDuration: 0
     },
     playerId: "9f85e1aa-2ae1-4e59-81a4-dc28266caac7"
   }), 1, 0); # Random Drop: Book
