@@ -88,7 +88,7 @@ import loottweaker.vanilla.loot.Functions;
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item per chest.
   val dd_ultrarare = dd_table.addPool("ultrarare", 1, 1, 0, 0);
-  dd_ultrarare.addConditionsHelper([Condition.randomChance(0.25)]);
+  dd_ultrarare.addConditionsHelper([Conditions.randomChance(0.25)]);
   dd_ultrarare.addItemEntryHelper(<primal:diamond_workblade>,     20, 0, [tool_dam, tool_ench], []);
   dd_ultrarare.addItemEntryHelper(<primal:diamond_shovel>,        20, 0, [tool_dam, tool_ench], []);
   dd_ultrarare.addItemEntryHelper(<primal:diamond_axe>,           20, 0, [tool_dam, tool_ench], []);
