@@ -59,6 +59,8 @@ import loottweaker.vanilla.loot.Functions;
   dd_uncommon.addItemEntryHelper(<minecraft:emerald>,                    3, 0, [Functions.setCount(1, 2)], []);
   dd_uncommon.addItemEntryHelper(<minecraft:diamond>,                    3, 0, [Functions.setCount(1, 2)], []);
   dd_uncommon.addItemEntryHelper(<minecraft:ender_pearl>,               10, 0, [Functions.setCount(1, 2)], []);
+  dd_uncommon.addItemEntryHelper(<minecraft:coal>,                      20, 0, [Functions.setCount(2,12)], []);
+  dd_uncommon.addItemEntryHelper(<minecraft:quartz>,                    10, 0, [Functions.setCount(2,12)], []);
   dd_uncommon.addItemEntryHelper(<immersiveengineering:metal:0>,        15, 0, [Functions.setCount(1, 4)], []); # Add copper ingot
   dd_uncommon.addItemEntryHelper(<materialpart:tin:ingot>,              10, 0, [Functions.setCount(1, 3)], []); # Add tin ingot
   dd_uncommon.addItemEntryHelper(<materialpart:zinc:ingot>,             10, 0, [Functions.setCount(1, 3)], []); # Add zinc ingot
@@ -70,8 +72,9 @@ import loottweaker.vanilla.loot.Functions;
   
   # Rare pool. You only get one of these per chest.
   val dd_rare = dd_table.addPool("rare", 1, 1, 0, 0);
-  dd_rare.addItemEntryHelper(<astralsorcery:blockmarble:0>,         15, 0, [Functions.setCount(32, 64), Functions.setMetadata(0, 6)], []);
-  dd_rare.addItemEntryHelper(<minecraft:obsidian>,                   5, 0, [Functions.setCount(3, 7)], [])
+  dd_rare.addItemEntryHelper(<dimdoors:fabric>,                      8, 0, [Functions.setCount(16,64)], []);
+  dd_rare.addItemEntryHelper(<dimdoors:world_thread>,                8, 0, [Functions.setCount(2,12)], []);
+  dd_rare.addItemEntryHelper(<minecraft:book>,                       8, 0, [Functions.enchantWithLevels(15, 30, true)], []);
   dd_rare.addItemEntryHelper(<ebwizardry:condenser_upgrade>,         2, 0, [], []);
   dd_rare.addItemEntryHelper(<ebwizardry:siphon_upgrade>,            2, 0, [], []);
   dd_rare.addItemEntryHelper(<ebwizardry:storage_upgrade>,           2, 0, [], []);

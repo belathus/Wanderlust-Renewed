@@ -38,7 +38,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # Weighted primary output; should list all novice spells
   RecipeBuilder.get("mage")
     .setShaped(
-      [[<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>]
+      [[<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>],
        [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
        [<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>]])
     .addTool(<ore:artisansQuill>, 1)
