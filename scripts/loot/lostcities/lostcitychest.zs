@@ -16,10 +16,10 @@ import loottweaker.vanilla.loot.Functions;
   val lc_citychest = LootTables.getTable("lostcities:chests/lostcitychest");
 
   #####################################
-  ### Twilight Forest: Troll Vault ###
+  ###       Lost City:  Chest       ###
   #####################################
 /*
-    Modify the twilight forest troll vault table to contain...
+    Modify the Lost City Chest table to contain...
 */
   lc_citychest.clear();
 
