@@ -284,8 +284,6 @@
         [[null, <xreliquary:mob_ingredient>, null],
         [<evilcraft:condensed_blood>, <dungeontactics:flower_sanguine>, <evilcraft:condensed_blood>],
         [<xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient>, <xreliquary:mob_ingredient:6>]]);
-    mods.thaumcraft.Crucible.registerRecipe("essence_false_life", "", <magicbees:resource:7>, <bloodmagic:item_demon_crystal>, [<aspect:victus> * 12]);
-
     # Essence of a Shallow Grave
     recipes.addShaped(<magicbees:resource:8>,
         [[null, <botania:rune:0>, null],
