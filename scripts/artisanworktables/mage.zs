@@ -29,7 +29,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # Craft spellbooks in Artisan Worktable
   RecipeBuilder.get("mage")
     .setShaped(
-      [[null, <ebwizardry:magic_crystal>, null]
+      [[null, <ebwizardry:magic_crystal>, null],
        [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
        [null, <ebwizardry:magic_crystal>, null]])
     .addOutput(<ebwizardry:spell_book:1>)
@@ -62,7 +62,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # Weighted primary output; should list all apprentice spells
   RecipeBuilder.get("mage")
     .setShapeless([<minecraft:book>])
-    .addSecondaryIngredients([<ebwizardry:magic_crystal> * 12])
+    .setSecondaryIngredients([<ebwizardry:magic_crystal> * 12])
     .addTool(<ore:artisansQuill>, 1)
     .setExperienceRequired(80)
     .addOutput(<ebwizardry:spell_book:13>)
@@ -115,7 +115,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # Weighted primary output; should list all advanced spells
   RecipeBuilder.get("mage")
     .setShapeless([<minecraft:book>])
-    .addSecondaryIngredients([<ebwizardry:magic_crystal> * 32])
+    .setSecondaryIngredients([<ebwizardry:magic_crystal> * 32])
     .addTool(<ore:artisansQuill>, 1)
     .setExperienceRequired(320)
     .addOutput(<ebwizardry:spell_book:48>)
@@ -178,7 +178,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # Weighted primary output; should list all master spells
   RecipeBuilder.get("mage")
     .setShapeless([<minecraft:book>])
-    .addSecondaryIngredients([<ebwizardry:magic_crystal> * 64])
+    .setSecondaryIngredients([<ebwizardry:magic_crystal> * 64])
     .addTool(<ore:artisansQuill>, 1)
     .setExperienceRequired(1280)
     .addOutput(<ebwizardry:spell_book:91>)
