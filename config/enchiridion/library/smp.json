@@ -1,6 +1,18 @@
 {
   "books": [
     {
+      "item": "dungeontactics:dungeonpedia",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "forestry:book_forester",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "wizardry:book",
       "handlerType": "rightclick",
       "matchDamage": false,
