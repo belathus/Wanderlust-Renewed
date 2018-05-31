@@ -186,7 +186,7 @@ import loottweaker.vanilla.loot.Functions;
   as_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>.withTag({"capacity": 32000}),    40, 0, [], []);
   as_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>.withTag({"capacity": 48000}),    30, 0, [], []);
   as_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>.withTag({"capacity": 64000}),    20, 0, [], []);
-  as_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>.withTag({"capacity": 1440000}),  10, 0, [], []);
+  as_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>.withTag({"capacity": 144000}),   10, 0, [], []);
   as_ultrarare.addItemEntry(<thaumcraft:scribing_tools>,               400, 0);
   as_ultrarare.addItemEntry(<evilcraft:veined_scribing_tools>,         100, 0);
   as_ultrarare.addItemEntry(<naturescompass:naturescompass>,           800, 0);
