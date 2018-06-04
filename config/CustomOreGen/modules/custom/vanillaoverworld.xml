@@ -1,6 +1,6 @@
 <IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld"'>
     <IfModInstalled name="biomesoplenty">
-        <Veins name='bopLoamyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+        <Veins name='bopLoamyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.
@@ -32,7 +32,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-        <Veins name='bopSandyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+        <Veins name='bopSandyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.
@@ -64,7 +64,7 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-        <Veins name='bopSiltyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='true' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
+        <Veins name='bopSiltyDirtVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A5A9B9' drawBoundBox='false' boundBoxColor='0x60A5A9B9'>
             <Description>
                 Small motherlodes without any branches. Similar to the
                 deposits produced by StandardGen distributions.

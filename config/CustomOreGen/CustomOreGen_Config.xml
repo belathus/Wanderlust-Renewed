@@ -409,7 +409,7 @@
     
     <!-- First are the stone-based configurations; this way, they can be
          overridden using the stone oredict entry. -->
-    <Import file='modules/default/Chisel2.xml'/>
+    <!--<Import file='modules/default/Chisel2.xml'/>-->
 
     <!-- These rules allow for additional subterranean features. -->
     <Import file='modules/default/MinecraftSpecialRules.xml'/>

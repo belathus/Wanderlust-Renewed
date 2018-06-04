@@ -5,6 +5,9 @@
     <ore:dustAsh>.add(<biomesoplenty:ash>);
     <ore:dustAsh>.add(<primal:ash_common>);
     #<ore:dustAsh>.add(<embers:dustAsh>);
+    <ore:dustAsh>.add(<primal:ash_yew>);
+    <ore:dustAsh>.add(<primal:ash_ironwood>);
+    <ore:dustAsh>.add(<primal:ash_wolf>);
 # boats
     <ore:boatWood>.add(<minecraft:boat>);
     <ore:boatWood>.add(<minecraft:spruce_boat>);
@@ -189,7 +192,11 @@
 #    <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 #    <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 # Uninspected Minerals
-#    <ore:oreUninspected>.add(<rockhounding_chemistry:mineralOres>);    
+#    <ore:oreUninspected>.add(<rockhounding_chemistry:uninspected_mineral>);
+# Tree Leaves
+  <ore:treeLeaves>.add(<evilcraft:undead_leaves>);
+  <ore:treeLeaves>.add(<thaumcraft:leaves_silverwood>);
+  <ore:treeLeaves>.add(<thaumcraft:leaves_greatwood>);
 # Wood
 #    <ore:logWood>.add(<rockhounding_surface:bogLogs:*>);
 #    <ore:logWood>.add(<rockhounding_surface:fossilLogs:*>);
