@@ -2,8 +2,9 @@
 
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
+import mods.contenttweaker.VanillaFactory;
 
-var abyssalnite = MaterialSystem.getMaterialBuilder().setName("Abyssalnite").setColor(8324199).build();
+#var abyssalnite = MaterialSystem.getMaterialBuilder().setName("Abyssalnite").setColor(8324199).build();
 #var adamantine  = MaterialSystem.getMaterialBuilder().setName("Adamantine").setColor(9845820).build();
 var aluminum    = MaterialSystem.getMaterialBuilder().setName("Aluminum").setColor(11383485).build();
 #var aquarium    = MaterialSystem.getMaterialBuilder().setName("Aquarium").setColor(3305205).build();
@@ -19,7 +20,7 @@ var cupronickel = MaterialSystem.getMaterialBuilder().setName("Cupronickel").set
 #var dawnstone   = MaterialSystem.getMaterialBuilder().setName("Dawnstone").setColor(16299319).build();
 var diamond     = MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(4566181).build();
 var dilithium   = MaterialSystem.getMaterialBuilder().setName("Dilithium").setColor(16751515).build();
-var dreadium    = MaterialSystem.getMaterialBuilder().setName("Dreadium").setColor(8847360).build();
+#var dreadium    = MaterialSystem.getMaterialBuilder().setName("Dreadium").setColor(8847360).build();
 var electrum    = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(9602857).build();
 var emerald     = MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(6078004).build();
 var gold        = MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16766720).build();
@@ -43,7 +44,7 @@ var quartz_iron = MaterialSystem.getMaterialBuilder().setName("Quartz Enriched I
 var gunmetal    = MaterialSystem.getMaterialBuilder().setName("Gunmetal").setColor(13476413).build();
 
 var metal_list = [
-  abyssalnite,
+  #abyssalnite,
   #adamantine,
   ardite,
   cobalt,
@@ -66,7 +67,7 @@ var alloys_list = [
   #coldiron,
   cupronickel,
   #dawnstone,
-  dreadium,
+  #dreadium,
   gunmetal,
   invar
 ] as Material[];
@@ -142,9 +143,11 @@ for i, ore in electrum_ores {
   oreData.addDataValue("harvestLevel", "1,1,1,2");
 }
 
-phils_gold.registerParts(["nugget", "ingot"] as string[]);
+
+phils_gold.registerParts(["nugget", "ingot", "molten"] as string[]);
 quartz_iron.registerPart("dust");
 gunmetal.registerPart("molten");
+mithril.registerPart("molten");
 
 var diamond_ore = diamond.registerPart("ore").getData();
   diamond_ore.addDataValue("variants", "primal:typestone/ferro_stone_normal");
@@ -160,3 +163,10 @@ var emerald_ore = emerald.registerPart("ore").getData();
   emerald_ore.addDataValue("resistance", "30");
   emerald_ore.addDataValue("harvestTool", "pickaxe");
   emerald_ore.addDataValue("harvestLevel", "2");
+  
+  
+val r_base = VanillaFactory.createItem("reinforced_alloy_base");
+val a_base = VanillaFactory.createItem("atomic_alloy_base");
+
+r_base.register();
+a_base.register();
