@@ -88,7 +88,7 @@ import loottweaker.vanilla.loot.Functions;
   # Rare pool. You only get one of these per chest.
   val dp_rare = dp_table.addPool("rare", 1, 1, 0, 0);
   dp_rare.addItemEntryHelper(<astralsorcery:blockmarble:0>,             15, 0, [Functions.setCount(32, 64), Functions.setMetadata(0, 6)], []);
-  dp_rare.addItemEntryHelper(<minecraft:obsidian>,                       5, 0, [Functions.setCount(3, 7)], [])
+  dp_rare.addItemEntryHelper(<minecraft:obsidian>,                       5, 0, [Functions.setCount(3, 7)], []);
   dp_rare.addItemEntryHelper(<ebwizardry:condenser_upgrade>,             2, 0, [], []);
   dp_rare.addItemEntryHelper(<ebwizardry:siphon_upgrade>,                2, 0, [], []);
   dp_rare.addItemEntryHelper(<ebwizardry:storage_upgrade>,               2, 0, [], []);

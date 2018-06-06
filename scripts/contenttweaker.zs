@@ -15,7 +15,7 @@ var cobalt      = MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor
 #var coldiron    = MaterialSystem.getMaterialBuilder().setName("Coldiron").setColor(13421823).build();
 var constantan  = MaterialSystem.getMaterialBuilder().setName("Constantan").setColor(16281143).build();
 var copper      = MaterialSystem.getMaterialBuilder().setName("Copper").setColor(13137203).build();
-var coralium    = MaterialSystem.getMaterialBuilder().setName("Coralium").setColor(683580).build();
+#var coralium    = MaterialSystem.getMaterialBuilder().setName("Coralium").setColor(683580).build();
 var cupronickel = MaterialSystem.getMaterialBuilder().setName("Cupronickel").setColor(14129986).build();
 #var dawnstone   = MaterialSystem.getMaterialBuilder().setName("Dawnstone").setColor(16299319).build();
 var diamond     = MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(4566181).build();
@@ -48,7 +48,7 @@ var metal_list = [
   #adamantine,
   ardite,
   cobalt,
-  coralium,
+  #coralium,
   dilithium,
   iridium,
   mithril,
