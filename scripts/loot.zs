@@ -13,14 +13,6 @@ import loottweaker.vanilla.loot.Functions;
   val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
 
 # Vanilla
-  # Remove iron ingot from zombie drops, but add copper, tin, and zinc
-  val zombie = LootTables.getTable("minecraft:entities/zombie");
-  val zombie_pool1 = zombie.getPool("pool1");
-  zombie_pool1.removeItemEntry(<minecraft:iron_ingot>);
-  zombie_pool1.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []);
-  zombie_pool1.addItemEntryHelper(<materialpart:tin:ingot>, 1, 0, [], []);
-  zombie_pool1.addItemEntryHelper(<materialpart:zinc:ingot>, 1, 0, [], []);
-  
   val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
   val pyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
   val end_city = LootTables.getTable("minecraft:chests/end_city_treasure");
