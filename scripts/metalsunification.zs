@@ -174,6 +174,15 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     #mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
     #mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
 
+  # Gunmetal
+    var list_gunmetal = [
+        # Nugget [0]                      Ingot [1]                      Block [2]                      Plate [3]                      Gear [4]                     Ore [5] Dust [6]
+        [<materialpart:gunmetal:nugget>, <materialpart:gunmetal:ingot>, <materialpart:gunmetal:block>, <materialpart:gunmetal:plate>, <materialpart:gunmetal:gear>, nope,  <materialpart:gunmetal:dust>]
+    ] as crafttweaker.item.IItemStack[][];
+    var gunmetal_oredict = [<ore:nuggetGunmetal>,<ore:ingotGunmetal>,<ore:blockGunmetal>,<ore:plateGunmetal>,<ore:gearGunmetal>,<ore:oreGunmetal>,<ore:dustGunmetal>] as crafttweaker.item.IIngredient[];
+    unify(list_gunmetal, gunmetal_oredict);
+    recipes.addShapeless(<materialpart:gunmetal:dust>*5,
+      [<ore:dustBrass>,<ore:dustBrass>,<ore:dustBronze>,<ore:dustBronze>,<ore:dustBronze>]);
 
 # Iron
     var list_iron = [ 
