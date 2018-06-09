@@ -1074,4 +1074,12 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
+    <Recipe timeRequired="10" power="10">
+        <input>
+            <itemStack>minecraft:melon_block 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>minecraft:melon 9 0</itemStack>
+        </output>
+    </Recipe>
 </Recipes>
