@@ -6,7 +6,7 @@
   recipes.remove(<mekanism:basicblock:6>);
   recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 0}),
     [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-     [<ore:redstone>, <immersiveengineering:wooden_device0>, <ore:redstone>],
+     [<ore:dustRedstone>, <immersiveengineering:wooden_device0>, <ore:dustRedstone>],
      [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
   recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 1}),
     [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
