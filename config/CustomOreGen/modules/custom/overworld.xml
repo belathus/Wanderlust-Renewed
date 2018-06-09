@@ -1152,9 +1152,9 @@
             <OreBlock block='contenttweaker:sub_block_holder_3:3' weight='1.0'/>
             <ReplacesOre block='stone'/>
             <ReplacesOre block='stoneLimestone' weight='1.0'/>
-            <Setting name='MotherlodeFrequency'   avg=':= 1.613 * _default_ ' range=':= 1.613 * _default_ ' type='normal' scaleTo='base' />
-            <Setting name='MotherlodeSize'        avg=':= 0.922 * _default_ ' range=':= 0.922 * _default_ ' type='normal' />
-            <Setting name='MotherlodeHeight'      avg=':= 30 '                range=':= 10 '                type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency'   avg=':= 2.613 * _default_ ' range=':= 2.613 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.422 * _default_ ' range=':= 1.422 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 20 '                range=':= 10 '                type='normal' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
