@@ -9,7 +9,7 @@
       <orbitalTheta>97</orbitalTheta>
       <orbitalPhi>15</orbitalPhi>
       <rotationalPeriod>5100</rotationalPeriod>
-      <biomeIds>108</biomeIds>
+      <biomeIds>117</biomeIds>
     </planet>
     
     
@@ -22,7 +22,7 @@
       <orbitalTheta>26</orbitalTheta>
       <orbitalPhi>1</orbitalPhi>
       <rotationalPeriod>48000   </rotationalPeriod>
-      <biomeIds>105,106</biomeIds>
+      <biomeIds>114,115</biomeIds>
       <planet name="Forseti" DIMID="261" >
         <fogColor>0.0,0.0,0.0</fogColor>
         <skyColor>0.0,0.0,0.0</skyColor>
@@ -32,7 +32,7 @@
         <orbitalTheta>64</orbitalTheta>
         <orbitalPhi>15</orbitalPhi>
         <rotationalPeriod>240000</rotationalPeriod>
-        <biomeIds>104,108</biomeIds>
+        <biomeIds>113,117</biomeIds>
         <OreGen>
           <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
         </OreGen>
@@ -49,7 +49,7 @@
       <orbitalTheta>248</orbitalTheta>
       <orbitalPhi>0</orbitalPhi>
       <rotationalPeriod>48000</rotationalPeriod>
-      <biomeIds>0,109,111</biomeIds>
+      <biomeIds>0,109,121</biomeIds>
       <planet name="Magni" DIMID="263" >
         <fogColor>0.0,0.0,0.0</fogColor>
         <skyColor>0.0,0.0,0.0</skyColor>
@@ -59,7 +59,7 @@
         <orbitalTheta>154</orbitalTheta>
         <orbitalPhi>9</orbitalPhi>
         <rotationalPeriod>240000</rotationalPeriod>
-        <biomeIds>108</biomeIds>
+        <biomeIds>117</biomeIds>
         <OreGen>
           <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
         </OreGen>
@@ -73,7 +73,7 @@
         <orbitalTheta>240</orbitalTheta>
         <orbitalPhi>17</orbitalPhi>
         <rotationalPeriod>18000</rotationalPeriod>
-        <biomeIds>70,79,103,112</biomeIds>
+        <biomeIds>70,79,109,112</biomeIds>
       </planet>
       <planet name="Thrud" DIMID="265" >
         <fogColor>0.0,0.0,0.0</fogColor>
@@ -84,7 +84,7 @@
         <orbitalTheta>190</orbitalTheta>
         <orbitalPhi>-4</orbitalPhi>
         <rotationalPeriod>6000</rotationalPeriod>
-        <biomeIds>108</biomeIds>
+        <biomeIds>117</biomeIds>
         <OreGen>
           <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
         </OreGen>
@@ -109,7 +109,7 @@
         <orbitalTheta>190</orbitalTheta>
         <orbitalPhi>9</orbitalPhi>
         <rotationalPeriod>240000</rotationalPeriod>
-        <biomeIds>108</biomeIds>
+        <biomeIds>117</biomeIds>
         <OreGen>
           <ore block="deepresonance:resonating_ore" minHeight="20" maxHeight="80" clumpSize="8" chancePerChunk="12" />
         </OreGen>
@@ -305,7 +305,7 @@
       <orbitalTheta>                205   </orbitalTheta>
       <orbitalPhi>                   10   </orbitalPhi>
       <rotationalPeriod>         480000   </rotationalPeriod>
-      <biomeIds>                    106   </biomeIds>
+      <biomeIds>                    115   </biomeIds>
     </planet>
     
     <planet name="Aphrodite" DIMID="301">
@@ -339,7 +339,7 @@
         <orbitalTheta>                 12   </orbitalTheta>
         <orbitalPhi>                    7   </orbitalPhi>
         <rotationalPeriod>         720000   </rotationalPeriod>
-        <biomeIds>                    108   </biomeIds>
+        <biomeIds>                    117   </biomeIds>
       </planet>
     </planet>
   </star>
