@@ -14,6 +14,10 @@
     <minecraft:wooden_axe>.addTooltip(format.green("Try making a flint hatchet instead."));
     <minecraft:stone_axe>.addTooltip(format.green("Try making a flint hatchet instead."));
 
+# Advanced Rocketry
+    <advancedrocketry:ic:3>.addTooltip(format.green("Cheaper when made in a precision assembler."));
+    <advancedrocketry:ic:4>.addTooltip(format.green("Cheaper when made in a precision assembler."));
+
 # Better Beginnings
 #    <betterbeginnings:kiln>.addTooltip(format.green("Try drying clay on a drying rack to make the bricks."));
   
