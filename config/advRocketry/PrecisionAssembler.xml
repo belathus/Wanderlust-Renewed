@@ -1,2 +1,22 @@
 <Recipes>
+  <Recipe timeRequired="40" power="80">
+    <input>
+      <itemStack>contenttweaker:atomic_alloy_base 2 0</itemStack>
+      <oreDict>dustRedstone 2</oreDict>
+      <oreDict>dustPlutonium 1</oreDict>
+    </input>
+    <output>
+      <itemStack>mekanism:atomicalloy 2 0</itemStack>
+    </output>
+  </Recipe>
+  <Recipe timeRequired="40" power="80">
+    <input>
+      <itemStack>contenttweaker:atomic_alloy_base 1 0</itemStack>
+      <oreDict>dustRedstone 1</oreDict>
+      <oreDict>dustUranium 1</oreDict>
+    </input>
+    <output>
+      <itemStack>mekanism:atomicalloy 1 0</itemStack>
+    </output>
+  </Recipe>
 </Recipes>
