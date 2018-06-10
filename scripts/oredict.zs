@@ -40,6 +40,11 @@
     #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
 # Certus
     <ore:oreCertusQuartzOnly>.add(<appliedenergistics2:quartz_ore>);
+# Charcoal
+    <ore:charcoal>.add(<primal:charcoal_fair>);
+    <ore:charcoal>.add(<primal:charcoal_good>);
+    <ore:charcoal>.add(<primal:charcoal_high>);
+    <ore:charcoal>.add(<primal:charcoal_pure>);
 # Coils
     <ore:coilCopper>.add(<immersiveengineering:metal_decoration0>);
 #    <ore:coilCopper>.add(<rockhounding_chemistry:misc_items:20>);
