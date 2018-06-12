@@ -49,7 +49,9 @@
 
 # PrimalCore
     <primal:rock_stone>.addTooltip(format.green("You can throw this or make a cool book."));
+    <primal:adobebrick_mix>.addTooltip(format.green("Place in a brickform to dry."));
+    <primal:adobebrick_dry>.addTooltip(format.green("Made from drying the brick mix in a brickform."));
 
-# PrimalCore
+# Quark
     <quark:black_ash>.addTooltip(format.green("Place on ground to prevent mob spawns on that block."));
     <quark:black_ash>.addTooltip(format.green("Also prevents spawns on block above the ash (hiding the ash)."));
