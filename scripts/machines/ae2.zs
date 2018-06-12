@@ -4,8 +4,4 @@
 */
 
 ### Grindstone ####
-  recipes.remove(<appliedenergistics2:grindstone>);
-  recipes.addShaped(<appliedenergistics2:grindstone>,
-    [[<ore:stone>, <ore:gearBrass>, <ore:stone>],
-     [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
-     [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
+  # See "../artisanworktables/mason.zs" for the grinder recipe
