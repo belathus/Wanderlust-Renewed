@@ -15,3 +15,6 @@
 
 # Druidry
 #    <druidry:flint_axe>.maxDamage = 73;
+
+# Twilight Forest
+    <twilightforest:crumble_horn>.maxDamage = 4096;
