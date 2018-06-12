@@ -7,12 +7,14 @@
         [[<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>],
          [<ore:blockGlassHardened>, <ore:alloyAdvanced>, <ore:blockGlassHardened>],
          [<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>]]);
+
     # Metallurgic Infuser
     recipes.remove(<mekanism:machineblock:8>);
     recipes.addShaped(<mekanism:machineblock:8>,
         [[<ore:ingotIron>, <rockhounding_oretiers:bloomery>, <ore:ingotIron>],
          [<ore:dustRedstone>, <ore:ingotBrass>, <ore:dustRedstone>],
          [<ore:ingotIron>, <rockhounding_oretiers:bloomery>, <ore:ingotIron>]]);
+
     # Digital Miner
     recipes.remove(<mekanism:machineblock:4>);
     recipes.addShaped(<mekanism:machineblock:4>,
@@ -22,6 +24,13 @@
      recipes.remove(<mekanism:machineblock:5>);
      recipes.remove(<mekanism:machineblock:6>);
      recipes.remove(<mekanism:machineblock:7>);
+
+    # Electric Pump
+    recipes.addShaped(<mekanism:machineblock:12>,
+        [[null, <minecraft:bucket>, null],
+         [<mekanism:enrichedalloy>, <mekanism:basicblock:8>, <mekanism:enrichedalloy>],
+         [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+
     # Smelting Factory
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 0}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -35,6 +44,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 0}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Enriching Factory
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 1}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -48,6 +58,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 1}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Crushing Factory
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 2}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -61,6 +72,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 2}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Compressing Factory
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 3}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -74,6 +86,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 3}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Combining
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 4}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -87,6 +100,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 4}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Purifying
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 5}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -100,6 +114,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 5}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Injecting Factory
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 6}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
@@ -113,6 +128,7 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 6}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
     # Infusing Factory
     recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 7}),
         [[<ore:blockOsmium>, <ore:circuitAdvanced>, <ore:blockOsmium>],
