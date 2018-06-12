@@ -38,20 +38,38 @@ import mods.artisanworktables.builder.RecipeBuilder;
         .create();
     }
 
+    # Turn iron bars into Primalcore's iron slats.
     RecipeBuilder.get("mason")
       .setShapeless([<ore:barsIron>])
       .addOutput(<primal:slat_iron>)
       .addTool(<ore:toolHammer>, 1)
       .create();
+
+    # Turn iron rings into iron strands.
     RecipeBuilder.get("mason")
       .setShapeless([<ore:ringIron>])
       .addOutput(<primal:iron_strand>)
       .addTool(<ore:toolHammer>, 1)
       .create();
+
+    # Quartz grindstone in the mason table
+    recipes.remove(<appliedenergistics2:grindstone>);
     RecipeBuilder.get("mason")
-      .setShapeless(
-        [<xreliquary:infernal_claws>,<ebwizardry:wizard_boots>])
-      .setSecondaryIngredients([<twilightforest:fiery_blood>,<twilightforest:fiery_tears>,<tconstruct:edible:34>])
-      .addTool(<ore:artisansNeedle>, 1)
-      .addOutput(<ebwizardry:wizard_boots_fire>)
+       .setShaped(
+         [[<ore:stone>, <ore:gearBrass>, <ore:stone>],
+          [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
+          [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]])
+      .addOutput(<appliedenergistics2:grindstone>)
+      .addTool(<ore:toolHammer>, 1)
+      .create();
+
+    # Alloy Kiln
+    recipes.remove(<immersiveengineering:stone_decoration:10>);
+    RecipeBuilder.get("mason")
+       .setShaped(
+         [[<primal:adobebrick_dry>, <ore:ingotBrick>, <primal:adobebrick_dry>],
+          [<ore:stoneGranite>, <ore:sandstone>, <ore:stoneGranite>],
+          [<primal:adobebrick_dry>, <ore:ingotBrick>, <ore:adobebrick_dry>]])
+      .addOutput(<immersiveengineering:stone_decoration:10> * 2)
+      .addTool(<ore:toolChisel>, 16)
       .create();
