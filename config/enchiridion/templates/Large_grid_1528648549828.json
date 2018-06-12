@@ -1,0 +1,181 @@
+{
+  "templatename": "Large grid",
+  "features": [
+    {
+      "xPos": 137,
+      "yPos": 53,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "primal:flint_hatchet 0 {}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 77,
+      "yPos": 53,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 4",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 77,
+      "yPos": 35,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 1",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 59,
+      "yPos": 35,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 0",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 59,
+      "yPos": 53,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 3",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 59,
+      "yPos": 71,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 6",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 5
+    },
+    {
+      "xPos": 95,
+      "yPos": 53,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 5",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 6
+    },
+    {
+      "xPos": 95,
+      "yPos": 35,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stone 2",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 7
+    },
+    {
+      "xPos": 77,
+      "yPos": 71,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:grass",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 8
+    },
+    {
+      "xPos": 95,
+      "yPos": 71,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:dirt 0",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 9
+    },
+    {
+      "xPos": 56,
+      "yPos": 32,
+      "width": 100.0,
+      "height": 58.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/getting_through_the_stone_age/large_grid.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 10
+    }
+  ],
+  "uniquename": "Large_grid_1528648549828"
+}

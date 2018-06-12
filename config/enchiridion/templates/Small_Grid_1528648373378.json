@@ -1,0 +1,101 @@
+{
+  "templatename": "Small Grid",
+  "features": [
+    {
+      "xPos": 119,
+      "yPos": 45,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "primal:flint_hatchet 0 {}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 77,
+      "yPos": 53,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:stick",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 77,
+      "yPos": 35,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "primal:plant_cordage",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 59,
+      "yPos": 35,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "primal:flint_knapp",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 59,
+      "yPos": 53,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "minecraft:planks 2",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 56,
+      "yPos": 32,
+      "width": 82.0,
+      "height": 40.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/getting_through_the_stone_age/small_grid.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 5
+    }
+  ],
+  "uniquename": "Small_Grid_1528648373378"
+}
