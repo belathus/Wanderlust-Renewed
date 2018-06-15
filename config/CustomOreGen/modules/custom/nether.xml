@@ -46,46 +46,6 @@
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
         
-        <!-- Do Nether Core ores second. -->
-        <!-- Nether Coal Ore Veins -->
-        <IfModInstalled name="evilcraft" >
-            <Veins name='vaniCoalVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60333333' drawBoundBox='false' boundBoxColor='0x60333333'>
-                <Description>
-                    Small, fairly rare motherlodes with 2-4 horizontal veins each.
-                </Description>
-                <OreBlock block='minecraft:stone' weight='0.81' />
-                <OreBlock block='minecraft:coal_ore' weight='0.16' />
-                <OreBlock block='rockhounding_oretiers:seamFire' weight='0.02' />
-                <OreBlock block='evilcraft:dark_ore' weight='0.01' />
-                <ReplacesOre block='netherrack' weight='1.0'/>
-                <Replaces block='minecraft:magma' weight='1.0'/>
-                <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
-                <Replaces block='minecraft:lava' weight='1.0'/>
-                <ReplacesOre block='netherrack' weight='1.0'/>
-                <Replaces block='minecraft:gravel' weight='1.0'/>
-                <Replaces block='minecraft:air' weight='1.0'/>
-                <Replaces block='nex:.*' weight='1.0'/>
-                <Replaces block='primal:.*' weight='1.0'/>
-                <Biome name='.*'  />
-                <Setting name='MotherlodeFrequency'   avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' scaleTo='base' />
-                <Setting name='MotherlodeSize'        avg=':= 2.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
-                <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
-                <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-            </Veins>
-        </IfModInstalled>
-        
         <!-- Nether Iron Ore Veins -->
         <Veins name='ncoreIronVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60CC7722' drawBoundBox='false' boundBoxColor='0x60CC7722'>
             <Description>
