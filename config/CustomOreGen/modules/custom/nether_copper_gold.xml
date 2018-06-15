@@ -1,0 +1,52 @@
+<!-- =================================================================
+     "nether_copper_gold.xml" : This configuration file covers ore generation
+     the nether and other dimensions using ChunkProviderHell. This
+     particular file only covers copper/gold veins, which have a chance to
+     generate ardite ore.
+     ================================================================= -->
+
+<IfCondition condition=':=dimension.generator.class="ChunkProviderHell" | dimension.generator.class="ChunkGeneratorHellBOP"'>
+    <ConfigSection>
+        <!-- Copper/Gold Veins -->
+        <IfModInstalled name="dungeontactics">
+            <IfModInstalled name="tconstruct">
+                <Veins name='ncoreGoldVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                    <Description>
+                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                    </Description>
+                    <OreBlock block='minecraft:stone' weight='0.75' />
+                    <OreBlock block='immersiveengineering:ore:0' weight='0.17' />
+                    <OreBlock block='minecraft:gold_ore' weight='0.05' />
+                    <OreBlock block='contenttweaker:sub_block_holder_1:14' weight='0.02' />
+                    <ReplacesOre block='netherrack' weight='1.0'/>
+                    <Replaces block='minecraft:magma' weight='1.0'/>
+                    <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                    <Replaces block='minecraft:lava' weight='1.0'/>
+                    <ReplacesOre block='netherrack' weight='1.0'/>
+                    <Replaces block='minecraft:gravel' weight='1.0'/>
+                    <Replaces block='minecraft:air' weight='1.0'/>
+                    <Replaces block='nex:.*' weight='1.0'/>
+                    <Replaces block='primal:.*' weight='1.0'/> 
+                    <Biome name='.*'  />
+                    <Setting name='MotherlodeFrequency'   avg=':= 0.250 * _default_ ' range=':= 0.250 * _default_ ' type='normal' scaleTo='base' />
+                    <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
+                    <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
+                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                </Veins>
+            </IfModInstalled>
+        </IfModInstalled>
+
+    </ConfigSection>
+</IfCondition>
