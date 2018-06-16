@@ -183,6 +183,8 @@
     <ore:listAllmilk>.add(<forestry:refractory>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}));
 # Mud
     <ore:clumpMud>.add(<biomesoplenty:mudball>);
+# Planks
+    <ore:plankWood>.add(<wizardry:wisdom_wood_planks>);
 # Rock Crystal Ore
     <ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);
 # Salt
