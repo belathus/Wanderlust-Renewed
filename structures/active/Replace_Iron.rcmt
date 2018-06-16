@@ -1,0 +1,59 @@
+{
+  "data": {
+    "environmentMatcher": "",
+    "transformers": [
+      {
+        "type": "replace",
+        "transformer": {
+          "id": "replace_925cfa86",
+          "sourceExpression": "minecraft:iron_ore",
+          "destination": [
+            {
+              "weight": 0.25072842836380005,
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 0.25072842836380005,
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 1,
+              "tileEntity": "null"
+            },
+            {
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 2,
+              "tileEntity": "null"
+            },
+            {
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 3,
+              "tileEntity": "null"
+            },
+            {
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 4,
+              "tileEntity": "null"
+            },
+            {
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 6,
+              "tileEntity": "null"
+            },
+            {
+              "block": "rockhounding_oretiers:iron_ores",
+              "metadata": 7,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Replace All Iron Ore with RH Ore",
+    "description": [
+      "Replaces vanilla iron ore with Rockhounding variants."
+    ]
+  }
+}
