@@ -1,3 +1,5 @@
+#modloaded chisel
+
 /*
 mods.chisel.Groups.removeGroup("blockAluminum");
 mods.chisel.Groups.removeGroup("blockBronze");
@@ -299,25 +301,22 @@ recipes.addShaped(<chisel:blockUranium>*16,
     [[<ore:rock>,<ore:plateUranium>,<ore:rock>],
      [<ore:plateUranium>,null,<ore:plateUranium>],
      [<ore:rock>,<ore:plateUranium>,<ore:rock>]]);
-
-
-# Limestone
-    mods.chisel.Groups.addVariation("limestone", <quark:limestone>);
-    mods.chisel.Groups.addVariation("limestone", <quark:limestone:1>);
-    mods.chisel.Groups.addVariation("limestone", <primal:carbonate_stone>);
-    mods.chisel.Groups.addVariation("limestone", <primal:carbonate_flag>);
-# Marble
-    mods.chisel.Groups.addVariation("marble", <quark:marble>);
-    mods.chisel.Groups.addVariation("marble", <quark:marble:1>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble:1>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble:2>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble:3>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble:4>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble:5>);
-    mods.chisel.Groups.addVariation("marble", <astralsorcery:BlockMarble:6>);
-
+*/
 
 #Chiselable Clear Glass
-    mods.chisel.Groups.addVariation("glass", <tconstruct:clear_glass>);
-*/
+  mods.chisel.Groups.addVariation("glass", <tconstruct:clear_glass>);
+    
+# Slate
+  mods.chisel.Groups.addGroup("slate");
+  mods.chisel.Groups.addVariation("slate", <rustic:slate>);
+  mods.chisel.Groups.addVariation("slate", <rustic:slate_pillar>);
+  mods.chisel.Groups.addVariation("slate", <rustic:slate_roof>);
+  mods.chisel.Groups.addVariation("slate", <rustic:slate_tile>);
+  mods.chisel.Groups.addVariation("slate", <rustic:slate_brick>);
+  mods.chisel.Groups.addVariation("slate", <rustic:slate_chiseled>);
+  mods.chisel.Groups.addGroup("slate_stair");
+  mods.chisel.Groups.addVariation("slate_stair", <rustic:stairs_slate_brick>);
+  mods.chisel.Groups.addVariation("slate_stair", <rustic:stairs_slate_roof>);
+  mods.chisel.Groups.addGroup("slate_slab");
+  mods.chisel.Groups.addVariation("slate_slab", <rustic:slate_brick_slab_item>);
+  mods.chisel.Groups.addVariation("slate_slab", <rustic:slate_roof_slab_item>);
