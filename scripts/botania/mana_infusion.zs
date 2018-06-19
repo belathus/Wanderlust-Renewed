@@ -22,7 +22,8 @@
     mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:5>,<minecraft:stone>,200);
     mods.botania.ManaInfusion.addAlchemy(<quark:limestone>,<minecraft:stone:1>,200);
     mods.botania.ManaInfusion.addAlchemy(<quark:marble>,<ore:stoneLimestone>,200);
-    mods.botania.ManaInfusion.addAlchemy(<quark:basalt>,<ore:stoneMarble>,200);
+    mods.botania.ManaInfusion.addAlchemy(<rustic:slate>,<ore:stoneMarble>,200);
+    mods.botania.ManaInfusion.addAlchemy(<quark:basalt>,<rustic:slate>,200);
     mods.botania.ManaInfusion.addAlchemy(<minecraft:stone>,<ore:stoneBasalt>,200);
     
     # Duplicate more stuff
