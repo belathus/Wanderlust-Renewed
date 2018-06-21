@@ -39,3 +39,26 @@
   recipes.remove("xreliquary:items/gold_nugget");
   recipes.addShapeless(<materialpart:lead:nugget>,
     [<xreliquary:bullet>, <xreliquary:bullet>, <xreliquary:bullet>, <xreliquary:bullet>]);
+
+  # Unbreakable magic bane dagger
+  recipes.addShaped(<xreliquary:magicbane>.withTag({Unbreakable:1}),
+    [[<xreliquary:mob_ingredient:11>, <ore:ingotPhilosophersgold>],
+     [<ore:ingotIron>, <xreliquary:mob_ingredient:11>]]);
+
+  # Unbreakable cross of mercy
+  recipes.addShaped(<xreliquary:mercy_cross>.withTag({Unbreakable:1}),
+    [[<xreliquary:mob_ingredient:1>, <ore:ingotPhilosophersGold>, <xreliquary:mob_ingredient>],
+     [<ore:ingotGold>, <minecraft:leather>, <ore:ingotGold>],
+     [<minecraft:skull:1>, <ore:ingotGold>, <xreliquary:mob_ingredient:6>]]);
+  recipes.addShaped(<xreliquary:mercy_cross>.withTag({Unbreakable:1}),
+    [[<xreliquary:mob_ingredient:1>, <ore:ingotGold>, <xreliquary:mob_ingredient>],
+     [<ore:ingotPhilosophersGold>, <minecraft:leather>, <ore:ingotGold>],
+     [<minecraft:skull:1>, <ore:ingotGold>, <xreliquary:mob_ingredient:6>]]);
+  recipes.addShaped(<xreliquary:mercy_cross>.withTag({Unbreakable:1}),
+    [[<xreliquary:mob_ingredient:1>, <ore:ingotGold>, <xreliquary:mob_ingredient>],
+     [<ore:ingotGold>, <minecraft:leather>, <ore:ingotPhilosophersGold>],
+     [<minecraft:skull:1>, <ore:ingotGold>, <xreliquary:mob_ingredient:6>]]);
+  recipes.addShaped(<xreliquary:mercy_cross>.withTag({Unbreakable:1}),
+    [[<xreliquary:mob_ingredient:1>, <ore:ingotGold>, <xreliquary:mob_ingredient>],
+     [<ore:ingotGold>, <minecraft:leather>, <ore:ingotGold>],
+     [<minecraft:skull:1>, <ore:ingotPhilosophersGold>, <xreliquary:mob_ingredient:6>]]);
