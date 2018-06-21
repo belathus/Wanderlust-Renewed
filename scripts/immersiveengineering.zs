@@ -3,11 +3,6 @@
 # This file will cover recipes added to Immersive Engineering's crusher, coke oven, and other machines
 
 #####################
-###  Alloy  Kiln  ###
-#####################
-    mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, <ore:clumpLime>, 60);
-
-#####################
 ###  Arc Furnace  ###
 #####################
     mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);

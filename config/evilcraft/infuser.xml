@@ -16,6 +16,7 @@
 
     <!-- Bone shard to Flint -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">betterbeginnings</condition>
         <input>
             <item>betterbeginnings:bone_shard</item>
             <fluid amount="250">evilcraftblood</fluid>
@@ -36,7 +37,7 @@
             <fluid amount="250">evilcraftblood</fluid>
         </input>
         <output>
-            <item>evilcraft:dullDust</item>
+            <item>evilcraft:dull_dust</item>
         </output>
         <properties>
             <tier>1</tier>
@@ -47,6 +48,7 @@
     
     <!-- Sunstone to Blood Opal -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">arsmagica</condition>
         <input>
             <item type="oredict">gemSunstone</item>
             <fluid amount="10000">evilcraftblood</fluid>
@@ -63,6 +65,7 @@
 
     <!-- Lilypad to Wakebloom -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">arsmagica</condition>
         <input>
             <item>minecraft:waterlily</item>
             <fluid amount="300">evilcraftblood</fluid>
@@ -79,12 +82,13 @@
     
     <!-- Rock to Slate; tier 2 -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">bloodmagic</condition>
         <input>
             <item type="oredict">stone</item>
             <fluid amount="1000">evilcraftblood</fluid>
         </input>
         <output>
-            <item>bloodmagic:ItemSlate</item>
+            <item>bloodmagic:slate</item>
         </output>
         <properties>
             <tier>2</tier>
@@ -95,6 +99,7 @@
 
     <!-- Black lotus (Actually Additions) to black lotus (Botania); tier 2 -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">actuallyadditions</condition>
         <input>
             <item>actuallyadditions:blockBlackLotus</item>
             <fluid amount="500">evilcraftblood</fluid>
@@ -111,6 +116,7 @@
 
     <!-- Block of Quartz to blood opal -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">primal</condition>
         <input>
             <item>minecraft:quartz_block</item>
             <fluid amount="20000">evilcraftblood</fluid>
@@ -127,17 +133,258 @@
 
     <!-- Ferrocalcate to blank rune; tier 3 -->
     <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">primal</condition>
+        <condition type="mod">bloodmagic</condition>
         <input>
             <item>primal:ferro_stone</item>
             <fluid amount="5000">evilcraftblood</fluid>
         </input>
         <output>
-            <item>bloodmagic:BlockBloodRune</item>
+            <item>bloodmagic:blood_rune</item>
         </output>
         <properties>
             <tier>3</tier>
             <duration>5000</duration>
             <xp>15</xp>
+        </properties>
+    </recipe>
+    
+    <recipe type="evilcraft:bloodinfuser">
+        <condition type="mod">abyssalcraft</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <input>
+            <item>abyssalcraft:shadowgem</item>
+            <fluid amount="5000">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>evilcraft:dark_block</item>
+        </output>
+        <properties>
+            <duration>60</duration>
+            <tier>2</tier>
+            <xp>5</xp>
+        </properties>
+    </recipe>
+
+    <!-- Blood-Waxed Coke and Coal -->
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item type="oredict">fuelCoke</item>
+            <fluid amount="375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_coke</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item type="oredict">blockFuelCoke</item>
+            <fluid amount="3375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_coke_block</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item>contenttweaker:anthracite_coke</item>
+            <fluid amount="375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_anthracite_coke</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+    
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item>contenttweaker:bituminous_coke</item>
+            <fluid amount="375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_bituminous_coke</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item>contenttweaker:anthracite_coke_block</item>
+            <fluid amount="3375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_anthracite_coke_block</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item>contenttweaker:bituminous_coke_block</item>
+            <fluid amount="3375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_bituminous_coke_block</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item type="oredict">itemAnthracite</item>
+            <fluid amount="375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_anthracite_coal</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item type="oredict">itemBituminous</item>
+            <fluid amount="375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_bituminous_coal</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item type="oredict">blockAnthracite</item>
+            <fluid amount="3375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_anthracite_coal_block</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
+        </properties>
+    </recipe>
+
+    <recipe type="evilcraft:bloodinfuser">
+        <tag>convenience</tag>
+        <condition type="mod">contenttweaker</condition>
+        <condition type="mod">immersiveengineering</condition>
+        <condition type="mod">rockhounding_oretiers</condition>
+        <condition type="config">blood_infuser</condition>
+        <condition type="config">evilcraftblood</condition>
+        <condition type="config">blood_waxed_coal</condition>
+        <input>
+            <item type="oredict">blockBituminous</item>
+            <fluid amount="3375">evilcraftblood</fluid>
+        </input>
+        <output>
+            <item>contenttweaker:blood_waxed_bituminous_coal_block</item>
+        </output>
+        <properties>
+            <tier>1</tier>
+            <duration>100</duration>
+            <xp>0.2</xp>
         </properties>
     </recipe>
 </recipes>

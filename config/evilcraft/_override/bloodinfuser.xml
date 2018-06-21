@@ -305,23 +305,4 @@
             <xp>20</xp>
         </properties>
     </recipe>
-    
-    <recipe type="evilcraft:bloodinfuser">
-        <condition type="config">blood_infuser</condition>
-        <condition type="config">evilcraftblood</condition>
-        <condition type="config">vengeance_essence</condition>
-        <condition type="config">garmonbozia</condition>
-        <input>
-            <item>abyssalcraft:shadowgem</item>
-            <fluid amount="5000">evilcraftblood</fluid>
-        </input>
-        <output>
-            <item>evilcraft:dark_block</item>
-        </output>
-        <properties>
-            <duration>60</duration>
-            <tier>2</tier>
-            <xp>5</xp>
-        </properties>
-    </recipe>
 </recipes>
