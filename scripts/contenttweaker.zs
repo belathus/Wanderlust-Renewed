@@ -42,6 +42,7 @@ var zinc        = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(1
 var phils_gold  = MaterialSystem.getMaterialBuilder().setName("Philosopher's Gold").setColor(16766720).build();
 var quartz_iron = MaterialSystem.getMaterialBuilder().setName("Quartz Enriched Iron").setColor(15132648).build();
 var gunmetal    = MaterialSystem.getMaterialBuilder().setName("Gunmetal").setColor(13476413).build();
+var geode       = MaterialSystem.getMaterialBuilder().setName("Geode").setColor(16200).build();
 
 var metal_list = [
   #abyssalnite,
@@ -164,6 +165,13 @@ var emerald_ore = emerald.registerPart("ore").getData();
   emerald_ore.addDataValue("harvestTool", "pickaxe");
   emerald_ore.addDataValue("harvestLevel", "2");
   
+  
+var geode_ore = geode.registerPart("ore").getData();
+  geode_ore.addDataValue("variants", "minecraft:sandstone_bottom,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal,minecraft:red_sandstone_bottom,minecraft:hardened_clay");
+  geode_ore.addDataValue("hardness", "3,3,3,5,3,3");
+  geode_ore.addDataValue("resistance", "15,15,15,30,15,15");
+  geode_ore.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe,pickaxe,pickaxe");
+  geode_ore.addDataValue("harvestLevel", "1,1,1,2,1,1");
   
 VanillaFactory.createItem("reinforced_alloy_base").register();
 VanillaFactory.createItem("atomic_alloy_base").register();
