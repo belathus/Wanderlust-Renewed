@@ -37,65 +37,6 @@ recipes.addShaped(<dungeontactics:golden_shield>.withTag(unbreakable),
   [[<ore:ingotPhilosophersGold>, <ore:cobblestone>, <ore:ingotPhilosophersGold>],
    [null, <ore:ingotPhilosophersGold>, null]]);
 
-# ------------------------ #
-# Unbreakable gilded armor #
-# ------------------------ #
-  # Unbreakable gilded armor
-  recipes.addShaped("unbreakable_gilded_helmet", <dungeontactics:gilded_helmet>,
-    [[null, <ore:ingotPhilosophersGold>, null],
-     [<ore:ingotPhilosophersGold>, <minecraft:iron_helmet:*>.marked("armor"), <ore:ingotPhilosophersGold>],
-     [null, <ore:ingotPhilosophersGold>, null]], 
-     function(out, ins, cInfo) {
-       return out.withTag(ins.armor.tag + unbreakable);
-     }, null);
-  recipes.addShaped("unbreakable_gilded_chestplate", <dungeontactics:gilded_chestplate>,
-    [[null, <ore:ingotPhilosophersGold>, null],
-     [<ore:ingotPhilosophersGold>, <minecraft:iron_chestplate:*>.marked("armor"), <ore:ingotPhilosophersGold>],
-     [null, <ore:ingotPhilosophersGold>, null]], 
-     function(out, ins, cInfo) {
-       return out.withTag(ins.armor.tag + unbreakable);
-     }, null);
-  recipes.addShaped("unbreakable_gilded_leggings", <dungeontactics:gilded_leggings>,
-    [[null, <ore:ingotPhilosophersGold>, null],
-     [<ore:ingotPhilosophersGold>, <minecraft:iron_leggings:*>.marked("armor"), <ore:ingotPhilosophersGold>],
-     [null, <ore:ingotPhilosophersGold>, null]], 
-     function(out, ins, cInfo) {
-       return out.withTag(ins.armor.tag + unbreakable);
-     }, null);
-  recipes.addShaped("unbreakable_gilded_boots", <dungeontactics:gilded_boots>,
-    [[null, <ore:ingotPhilosophersGold>, null],
-     [<ore:ingotPhilosophersGold>, <minecraft:iron_boots:*>.marked("armor"), <ore:ingotPhilosophersGold>],
-     [null, <ore:ingotPhilosophersGold>, null]], 
-     function(out, ins, cInfo) {
-       return out.withTag(ins.armor.tag + unbreakable);
-     }, null);
-
-# ------------------------ #
-# Unbreakable gilded tools #
-# ------------------------ #
-  # Gilded Axe
-  # Gilded Battleaxe
-  # Gilded Cestus
-  recipes.addShapeless("unbreakable_gilded_cestus", <dungeontactics:gilded_cestus>,
-    [<dungeontactics:iron_cestus:*>.marked("tool"), <ore:ingotPhilosophersGold>],
-    function(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + unbreakable);
-    }, null);
-  # Gilded Cutlass
-  # Gilded Glaive
-  # Gilded Hammer
-  # Gilded Hoe
-  # Gilded Knife
-  # Gilded Pickaxe
-  # Gilded Shield
-  # Gilded Shovel
-  # Gilded Sword
-  recipes.addShaped("unbreakable_gilded_sword", <dungeontactics:gilded_sword>,
-    [[<ore:ingotPhilosophersGold>, <minecraft:iron_sword:*>.marked("tool"), <ore:ingotPhilosophersGold>]],
-    function(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + unbreakable);
-    }, null);
-
 # ------------------------- #
 # Unbreakable jeweled armor #
 # ------------------------- #
@@ -132,6 +73,65 @@ recipes.addShaped(<dungeontactics:golden_shield>.withTag(unbreakable),
      function(out, ins, cInfo) {
        return out.withTag(ins.armor.tag);
      }, null);
+
+# ------------------------ #
+# Unbreakable gilded armor #
+# ------------------------ #
+  # Unbreakable gilded armor
+  recipes.addShaped("unbreakable_gilded_helmet", <dungeontactics:gilded_helmet>.withTag(unbreakable),
+    [[null, <ore:ingotPhilosophersGold>, null],
+     [<ore:ingotPhilosophersGold>, <minecraft:iron_helmet:*>.marked("armor"), <ore:ingotPhilosophersGold>],
+     [null, <ore:ingotPhilosophersGold>, null]], 
+     function(out, ins, cInfo) {
+       return out.withTag(ins.armor.tag + {Unbreakable:1});
+     }, null);
+  recipes.addShaped("unbreakable_gilded_chestplate", <dungeontactics:gilded_chestplate>.withTag(unbreakable),
+    [[null, <ore:ingotPhilosophersGold>, null],
+     [<ore:ingotPhilosophersGold>, <minecraft:iron_chestplate:*>.marked("armor"), <ore:ingotPhilosophersGold>],
+     [null, <ore:ingotPhilosophersGold>, null]], 
+     function(out, ins, cInfo) {
+       return out.withTag(ins.armor.tag + {Unbreakable:1});
+     }, null);
+  recipes.addShaped("unbreakable_gilded_leggings", <dungeontactics:gilded_leggings>.withTag(unbreakable),
+    [[null, <ore:ingotPhilosophersGold>, null],
+     [<ore:ingotPhilosophersGold>, <minecraft:iron_leggings:*>.marked("armor"), <ore:ingotPhilosophersGold>],
+     [null, <ore:ingotPhilosophersGold>, null]], 
+     function(out, ins, cInfo) {
+       return out.withTag(ins.armor.tag + {Unbreakable:1});
+     }, null);
+  recipes.addShaped("unbreakable_gilded_boots", <dungeontactics:gilded_boots>.withTag(unbreakable),
+    [[null, <ore:ingotPhilosophersGold>, null],
+     [<ore:ingotPhilosophersGold>, <minecraft:iron_boots:*>.marked("armor"), <ore:ingotPhilosophersGold>],
+     [null, <ore:ingotPhilosophersGold>, null]], 
+     function(out, ins, cInfo) {
+       return out.withTag(ins.armor.tag + {Unbreakable:1});
+     }, null);
+
+# ------------------------ #
+# Unbreakable gilded tools #
+# ------------------------ #
+  # Gilded Axe
+  # Gilded Battleaxe
+  # Gilded Cestus
+  recipes.addShapeless("unbreakable_gilded_cestus", <dungeontactics:gilded_cestus>.withTag(unbreakable),
+    [<dungeontactics:iron_cestus:*>.marked("tool"), <ore:ingotPhilosophersGold>],
+    function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});
+    }, null);
+  # Gilded Cutlass
+  # Gilded Glaive
+  # Gilded Hammer
+  # Gilded Hoe
+  # Gilded Knife
+  # Gilded Pickaxe
+  # Gilded Shield
+  # Gilded Shovel
+  # Gilded Sword
+  recipes.addShaped("unbreakable_gilded_sword", <dungeontactics:gilded_sword>.withTag(unbreakable),
+    [[<ore:ingotPhilosophersGold>, <minecraft:iron_sword:*>.marked("tool"), <ore:ingotPhilosophersGold>]],
+    function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});
+    }, null);
 
 # ------------------------- #
 # Unbreakable jeweled tools #

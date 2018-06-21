@@ -26,36 +26,36 @@
      [<ore:ingotGunmetal>, <xreliquary:gun_part>, <ore:ingotGunmetal>]]);
 
   # Magazine
-  recipes.remove("xreliquary:items/magazine_empty");
+  recipes.removeByRecipeName("xreliquary:items/magazine_empty");
   recipes.addShaped(<xreliquary:magazine> * 5,
     [[<ore:ingotGunmetal>, null, <ore:ingotGunmetal>],
      [<ore:ingotGunmetal>, <minecraft:glass>, <ore:ingotGunmetal>],
      [<minecraft:stone>, <ore:ingotGunmetal>, <minecraft:stone>]]);
 
   # Make lead nuggets instead of gold from bullets.
-  recipes.remove("xreliquary:items/bullets/neutral");
+  recipes.removeByRecipeName("xreliquary:items/bullets/neutral");
   recipes.addShapeless(<xreliquary:bullet:1> * 8,
     [<minecraft:flint>, <ore:nuggetLead>, <ore:nuggetLead>, <minecraft:gunpowder>]);
-  recipes.remove("xreliquary:items/gold_nugget");
+  recipes.removeByRecipeName("xreliquary:items/gold_nugget");
   recipes.addShapeless(<materialpart:lead:nugget>,
     [<xreliquary:bullet>, <xreliquary:bullet>, <xreliquary:bullet>, <xreliquary:bullet>]);
 
   ### Add unbreakable tools ###
   val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
   # Unbreakable magic bane dagger
-  recipes.addShaped("unbreakable_magic_bane", <xreliquary:magicbane>,
-    [[null, <ore:ingotPhilosophersgold>, null],
-     [<ore:ingotPhilosophersgold>, <xreliquary:magicbane:*>.marked("tool"), <ore:ingotPhilosophersgold>],
-     [null, <ore:ingotPhilosophersgold>, null]],
+  recipes.addShaped("unbreakable_magic_bane", <xreliquary:magicbane>.withTag(unbreakable),
+    [[null, <ore:ingotPhilosophersGold>, null],
+     [<ore:ingotPhilosophersGold>, <xreliquary:magicbane:*>.marked("tool"), <ore:ingotPhilosophersGold>],
+     [null, <ore:ingotPhilosophersGold>, null]],
     function(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + unbreakable);
+      return out.withTag(ins.tool.tag + {Unbreakable:1});
     }, null);
 
   # Unbreakable cross of mercy
-  recipes.addShaped("unbreakable_mercy_cross", <xreliquary:mercy_cross>,
-    [[null, <ore:ingotPhilosophersgold>, null],
-     [<ore:ingotPhilosophersgold>, <xreliquary:mercy_cross:*>.marked("tool"), <ore:ingotPhilosophersgold>],
-     [null, <ore:ingotPhilosophersgold>, null]],
+  recipes.addShaped("unbreakable_mercy_cross", <xreliquary:mercy_cross>.withTag(unbreakable),
+    [[null, <ore:ingotPhilosophersGold>, null],
+     [<ore:ingotPhilosophersGold>, <xreliquary:mercy_cross:*>.marked("tool"), <ore:ingotPhilosophersGold>],
+     [null, <ore:ingotPhilosophersGold>, null]],
     function(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + unbreakable);
+      return out.withTag(ins.tool.tag + {Unbreakable:1});
     }, null);

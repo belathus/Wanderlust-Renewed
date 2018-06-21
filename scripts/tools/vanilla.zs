@@ -23,27 +23,31 @@ recipes.addShapedMirrored(<minecraft:golden_hoe>.withTag(unbreakable),
    [null,<ore:stickWood>]]);
 
 # Make unbreakable armor
-recipes.addShaped("unbreakable_golden_helmet", <minecraft:golden_helmet>,
+recipes.addShaped("unbreakable_golden_helmet", <minecraft:golden_helmet>.withTag(unbreakable),
   [[null, <ore:ingotPhilosophersGold>, null],
-   [<ore:ingotPhilosophersGold>, <minecraft:golden_helmet:*>.marked("armor"), <ore:ingotPhilosophersGold>]],
+   [<ore:ingotPhilosophersGold>, <minecraft:golden_helmet>.anyDamage().marked("armor"), <ore:ingotPhilosophersGold>],
+   [null, <ore:ingotPhilosophersGold>, null]],
   function(out, ins, cInfo) {
-    return out.withTag(ins.armor.tag + unbreakable);
+    return out.withTag(ins.armor.tag + {Unbreakable:1});
   }, null);
-recipes.addShaped("unbreakable_golden_chestplate", <minecraft:golden_chestplate>,
+recipes.addShaped("unbreakable_golden_chestplate", <minecraft:golden_chestplate>.withTag(unbreakable),
   [[null, <ore:ingotPhilosophersGold>, null],
-   [<ore:ingotPhilosophersGold>, <minecraft:golden_chestplate:*>.marked("armor"), <ore:ingotPhilosophersGold>]],
+   [<ore:ingotPhilosophersGold>, <minecraft:golden_chestplate>.anyDamage().marked("armor"), <ore:ingotPhilosophersGold>],
+   [null, <ore:ingotPhilosophersGold>, null]],
   function(out, ins, cInfo) {
-    return out.withTag(ins.armor.tag + unbreakable);
+    return out.withTag(ins.armor.tag + {Unbreakable:1});
   }, null);
-recipes.addShaped("unbreakable_golden_leggings", <minecraft:golden_leggings>,
+recipes.addShaped("unbreakable_golden_leggings", <minecraft:golden_leggings>.withTag(unbreakable),
   [[null, <ore:ingotPhilosophersGold>, null],
-   [<ore:ingotPhilosophersGold>, <minecraft:golden_leggings:*>.marked("armor"), <ore:ingotPhilosophersGold>]],
+   [<ore:ingotPhilosophersGold>, <minecraft:golden_leggings>.anyDamage().marked("armor"), <ore:ingotPhilosophersGold>],
+   [null, <ore:ingotPhilosophersGold>, null]],
   function(out, ins, cInfo) {
-    return out.withTag(ins.armor.tag + unbreakable);
+    return out.withTag(ins.armor.tag + {Unbreakable:1});
   }, null);
-recipes.addShaped("unbreakable_golden_boots", <minecraft:golden_boots>,
+recipes.addShaped("unbreakable_golden_boots", <minecraft:golden_boots>.withTag(unbreakable),
   [[null, <ore:ingotPhilosophersGold>, null],
-   [<ore:ingotPhilosophersGold>, <minecraft:golden_boots:*>.marked("armor"), <ore:ingotPhilosophersGold>]],
+   [<ore:ingotPhilosophersGold>, <minecraft:golden_boots>.anyDamage().marked("armor"), <ore:ingotPhilosophersGold>],
+   [null, <ore:ingotPhilosophersGold>, null]],
   function(out, ins, cInfo) {
-    return out.withTag(ins.armor.tag + unbreakable);
+    return out.withTag(ins.armor.tag + {Unbreakable:1});
   }, null);
