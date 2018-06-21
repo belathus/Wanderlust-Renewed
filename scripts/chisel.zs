@@ -1,40 +1,40 @@
 #modloaded chisel
 
 /*
-mods.chisel.Groups.removeGroup("blockAluminum");
-mods.chisel.Groups.removeGroup("blockBronze");
-mods.chisel.Groups.removeGroup("blockCobalt");
-mods.chisel.Groups.removeGroup("blockCopper");
-mods.chisel.Groups.removeGroup("diamond");
-mods.chisel.Groups.removeGroup("blockElectrum");
-mods.chisel.Groups.removeGroup("emerald");
-mods.chisel.Groups.removeGroup("blockGold");
-mods.chisel.Groups.removeGroup("blockInvar");
-mods.chisel.Groups.removeGroup("blockIron");
-mods.chisel.Groups.removeGroup("blockLead");
-mods.chisel.Groups.removeGroup("lapis");
-mods.chisel.Groups.removeGroup("blockNickel");
-mods.chisel.Groups.removeGroup("blockPlatinum");
-mods.chisel.Groups.removeGroup("blockSilver");
-mods.chisel.Groups.removeGroup("blockSteel");
-mods.chisel.Groups.removeGroup("blockUranium");
-mods.chisel.Groups.addGroup("dummyAluminum");
-mods.chisel.Groups.addGroup("dummyBronze");
-mods.chisel.Groups.addGroup("dummyCobalt");
-mods.chisel.Groups.addGroup("dummyCopper");
-mods.chisel.Groups.addGroup("dummyDiamond");
-mods.chisel.Groups.addGroup("dummyElectrum");
-mods.chisel.Groups.addGroup("dummyEmerald");
-mods.chisel.Groups.addGroup("dummyGold");
-mods.chisel.Groups.addGroup("dummyInvar");
-mods.chisel.Groups.addGroup("dummyIron");
-mods.chisel.Groups.addGroup("dummyLead");
-mods.chisel.Groups.addGroup("dummyLapis");
-mods.chisel.Groups.addGroup("dummyNickel");
-mods.chisel.Groups.addGroup("dummyPlatinum");
-mods.chisel.Groups.addGroup("dummySilver");
-mods.chisel.Groups.addGroup("dummySteel");
-mods.chisel.Groups.addGroup("dummyUranium");
+mods.chisel.Carving.removeGroup("blockAluminum");
+mods.chisel.Carving.removeGroup("blockBronze");
+mods.chisel.Carving.removeGroup("blockCobalt");
+mods.chisel.Carving.removeGroup("blockCopper");
+mods.chisel.Carving.removeGroup("diamond");
+mods.chisel.Carving.removeGroup("blockElectrum");
+mods.chisel.Carving.removeGroup("emerald");
+mods.chisel.Carving.removeGroup("blockGold");
+mods.chisel.Carving.removeGroup("blockInvar");
+mods.chisel.Carving.removeGroup("blockIron");
+mods.chisel.Carving.removeGroup("blockLead");
+mods.chisel.Carving.removeGroup("lapis");
+mods.chisel.Carving.removeGroup("blockNickel");
+mods.chisel.Carving.removeGroup("blockPlatinum");
+mods.chisel.Carving.removeGroup("blockSilver");
+mods.chisel.Carving.removeGroup("blockSteel");
+mods.chisel.Carving.removeGroup("blockUranium");
+mods.chisel.Carving.addGroup("dummyAluminum");
+mods.chisel.Carving.addGroup("dummyBronze");
+mods.chisel.Carving.addGroup("dummyCobalt");
+mods.chisel.Carving.addGroup("dummyCopper");
+mods.chisel.Carving.addGroup("dummyDiamond");
+mods.chisel.Carving.addGroup("dummyElectrum");
+mods.chisel.Carving.addGroup("dummyEmerald");
+mods.chisel.Carving.addGroup("dummyGold");
+mods.chisel.Carving.addGroup("dummyInvar");
+mods.chisel.Carving.addGroup("dummyIron");
+mods.chisel.Carving.addGroup("dummyLead");
+mods.chisel.Carving.addGroup("dummyLapis");
+mods.chisel.Carving.addGroup("dummyNickel");
+mods.chisel.Carving.addGroup("dummyPlatinum");
+mods.chisel.Carving.addGroup("dummySilver");
+mods.chisel.Carving.addGroup("dummySteel");
+mods.chisel.Carving.addGroup("dummyUranium");
 
 val list_chisel_aluminum = [
     <chisel:blockAluminum>,
@@ -46,7 +46,7 @@ val list_chisel_aluminum = [
     <chisel:blockAluminum:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_aluminum {
-    mods.chisel.Groups.addVariation("dummyAluminum", block);
+    mods.chisel.Carving.addVariation("dummyAluminum", block);
 }
 val list_chisel_bronze = [
     <chisel:blockBronze>,
@@ -58,7 +58,7 @@ val list_chisel_bronze = [
     <chisel:blockBronze:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_bronze {
-    mods.chisel.Groups.addVariation("dummyBronze", block);
+    mods.chisel.Carving.addVariation("dummyBronze", block);
 }
 val list_chisel_cobalt = [
     <chisel:blockCobalt>,
@@ -70,7 +70,7 @@ val list_chisel_cobalt = [
     <chisel:blockCobalt:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_cobalt {
-    mods.chisel.Groups.addVariation("dummyCobalt", block);
+    mods.chisel.Carving.addVariation("dummyCobalt", block);
 }
 val list_chisel_copper = [
     <chisel:blockCopper>,
@@ -82,7 +82,7 @@ val list_chisel_copper = [
     <chisel:blockCopper:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_copper {
-    mods.chisel.Groups.addVariation("dummyCopper", block);
+    mods.chisel.Carving.addVariation("dummyCopper", block);
 }
 val list_chisel_diamond = [
     <chisel:diamond>,
@@ -99,7 +99,7 @@ val list_chisel_diamond = [
     <chisel:diamond:11>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_diamond {
-    mods.chisel.Groups.addVariation("dummyDiamond", block);
+    mods.chisel.Carving.addVariation("dummyDiamond", block);
 }
 val list_chisel_electrum = [
     <chisel:blockElectrum>,
@@ -111,7 +111,7 @@ val list_chisel_electrum = [
     <chisel:blockElectrum:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_electrum {
-    mods.chisel.Groups.addVariation("dummyElectrum", block);
+    mods.chisel.Carving.addVariation("dummyElectrum", block);
 }
 val list_chisel_emerald = [
     <chisel:emerald>,
@@ -128,7 +128,7 @@ val list_chisel_emerald = [
     <chisel:emerald:11>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_emerald {
-    mods.chisel.Groups.addVariation("dummyEmerald", block);
+    mods.chisel.Carving.addVariation("dummyEmerald", block);
 }
 val list_chisel_gold = [
     <chisel:blockGold>,
@@ -155,7 +155,7 @@ val list_chisel_gold = [
     <chisel:gold:14>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_gold {
-    mods.chisel.Groups.addVariation("dummyGold", block);
+    mods.chisel.Carving.addVariation("dummyGold", block);
 }
 val list_chisel_invar = [
     <chisel:blockInvar>,
@@ -167,7 +167,7 @@ val list_chisel_invar = [
     <chisel:blockInvar:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_invar {
-    mods.chisel.Groups.addVariation("dummyInvar", block);
+    mods.chisel.Carving.addVariation("dummyInvar", block);
 }
 val list_chisel_iron = [
     <chisel:blockIron>,
@@ -194,7 +194,7 @@ val list_chisel_iron = [
     <chisel:iron:14>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_iron {
-    mods.chisel.Groups.addVariation("dummyIron", block);
+    mods.chisel.Carving.addVariation("dummyIron", block);
 }
 val list_chisel_lead = [
     <chisel:blockLead>,
@@ -206,7 +206,7 @@ val list_chisel_lead = [
     <chisel:blockLead:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_lead {
-    mods.chisel.Groups.addVariation("dummyLead", block);
+    mods.chisel.Carving.addVariation("dummyLead", block);
 }
 val list_chisel_lapis = [
     <chisel:lapis>,
@@ -223,7 +223,7 @@ val list_chisel_lapis = [
     <chisel:lapis:11>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_lapis {
-    mods.chisel.Groups.addVariation("dummyLapis", block);
+    mods.chisel.Carving.addVariation("dummyLapis", block);
 }
 val list_chisel_nickel = [
     <chisel:blockNickel>,
@@ -235,7 +235,7 @@ val list_chisel_nickel = [
     <chisel:blockNickel:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_nickel {
-    mods.chisel.Groups.addVariation("dummyNickel", block);
+    mods.chisel.Carving.addVariation("dummyNickel", block);
 }
 val list_chisel_platinum = [
     <chisel:blockPlatinum>,
@@ -247,7 +247,7 @@ val list_chisel_platinum = [
     <chisel:blockPlatinum:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_platinum {
-    mods.chisel.Groups.addVariation("dummyPlatinum", block);
+    mods.chisel.Carving.addVariation("dummyPlatinum", block);
 }
 val list_chisel_silver = [
     <chisel:blockSilver>,
@@ -259,7 +259,7 @@ val list_chisel_silver = [
     <chisel:blockSilver:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_silver {
-    mods.chisel.Groups.addVariation("dummySilver", block);
+    mods.chisel.Carving.addVariation("dummySilver", block);
 }
 val list_chisel_steel = [
     <chisel:blockSteel>,
@@ -271,7 +271,7 @@ val list_chisel_steel = [
     <chisel:blockSteel:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_steel {
-    mods.chisel.Groups.addVariation("dummySteel", block);
+    mods.chisel.Carving.addVariation("dummySteel", block);
 }
 val list_chisel_uranium = [
     <chisel:blockUranium>,
@@ -283,7 +283,7 @@ val list_chisel_uranium = [
     <chisel:blockUranium:6>
 ] as minetweaker.item.IItemStack[];
 for i, block in list_chisel_uranium {
-    mods.chisel.Groups.addVariation("dummyUranium", block);
+    mods.chisel.Carving.addVariation("dummyUranium", block);
 }
 
 
@@ -304,19 +304,19 @@ recipes.addShaped(<chisel:blockUranium>*16,
 */
 
 #Chiselable Clear Glass
-  mods.chisel.Groups.addVariation("glass", <tconstruct:clear_glass>);
+  mods.chisel.Carving.addVariation("glass", <tconstruct:clear_glass>);
     
 # Slate
-  mods.chisel.Groups.addGroup("slate");
-  mods.chisel.Groups.addVariation("slate", <rustic:slate>);
-  mods.chisel.Groups.addVariation("slate", <rustic:slate_pillar>);
-  mods.chisel.Groups.addVariation("slate", <rustic:slate_roof>);
-  mods.chisel.Groups.addVariation("slate", <rustic:slate_tile>);
-  mods.chisel.Groups.addVariation("slate", <rustic:slate_brick>);
-  mods.chisel.Groups.addVariation("slate", <rustic:slate_chiseled>);
-  mods.chisel.Groups.addGroup("slate_stair");
-  mods.chisel.Groups.addVariation("slate_stair", <rustic:stairs_slate_brick>);
-  mods.chisel.Groups.addVariation("slate_stair", <rustic:stairs_slate_roof>);
-  mods.chisel.Groups.addGroup("slate_slab");
-  mods.chisel.Groups.addVariation("slate_slab", <rustic:slate_brick_slab_item>);
-  mods.chisel.Groups.addVariation("slate_slab", <rustic:slate_roof_slab_item>);
+  mods.chisel.Carving.addGroup("slate");
+  mods.chisel.Carving.addVariation("slate", <rustic:slate>);
+  mods.chisel.Carving.addVariation("slate", <rustic:slate_pillar>);
+  mods.chisel.Carving.addVariation("slate", <rustic:slate_roof>);
+  mods.chisel.Carving.addVariation("slate", <rustic:slate_tile>);
+  mods.chisel.Carving.addVariation("slate", <rustic:slate_brick>);
+  mods.chisel.Carving.addVariation("slate", <rustic:slate_chiseled>);
+  mods.chisel.Carving.addGroup("slate_stair");
+  mods.chisel.Carving.addVariation("slate_stair", <rustic:stairs_slate_brick>);
+  mods.chisel.Carving.addVariation("slate_stair", <rustic:stairs_slate_roof>);
+  mods.chisel.Carving.addGroup("slate_slab");
+  mods.chisel.Carving.addVariation("slate_slab", <rustic:slate_brick_slab_item>);
+  mods.chisel.Carving.addVariation("slate_slab", <rustic:slate_roof_slab_item>);
