@@ -23,7 +23,7 @@ recipes.addShapedMirrored(<dungeontactics:golden_cutlass>.withTag(unbreakable),
    [null, null, <ore:stickWood>]]);
 recipes.addShaped(<dungeontactics:golden_cestus>.withTag(unbreakable),
   [[<ore:ingotPhilosophersGold>, <ore:stickWood>]]);
-recipes.addShaped(<dungeontactics:golden_knife>,
+recipes.addShaped(<dungeontactics:golden_knife>.withTag(unbreakable),
   [[<ore:ingotPhilosophersGold>],
    [<ore:stickWood>]]);
 recipes.addShaped("unbreakable_golden_glaive", <dungeontactics:golden_glaive>,

@@ -45,8 +45,8 @@
   # Unbreakable magic bane dagger
   recipes.addShaped("unbreakable_magic_bane", <xreliquary:magicbane>,
     [[null, <ore:ingotPhilosophersgold>, null],
-     [<ore:ingotPhilosophersgold>, <xreliquary:magicbane:*>.marked("tool"), <ore:ingotPhilosophersgold>]
-     [null, <ore:ingotPhilosophersgold>, null]], 
+     [<ore:ingotPhilosophersgold>, <xreliquary:magicbane:*>.marked("tool"), <ore:ingotPhilosophersgold>],
+     [null, <ore:ingotPhilosophersgold>, null]],
     function(out, ins, cInfo) {
       return out.withTag(ins.tool.tag + unbreakable);
     }, null);
@@ -54,8 +54,8 @@
   # Unbreakable cross of mercy
   recipes.addShaped("unbreakable_mercy_cross", <xreliquary:mercy_cross>,
     [[null, <ore:ingotPhilosophersgold>, null],
-     [<ore:ingotPhilosophersgold>, <xreliquary:mercy_cross:*>.marked("tool"), <ore:ingotPhilosophersgold>]
-     [null, <ore:ingotPhilosophersgold>, null]], 
+     [<ore:ingotPhilosophersgold>, <xreliquary:mercy_cross:*>.marked("tool"), <ore:ingotPhilosophersgold>],
+     [null, <ore:ingotPhilosophersgold>, null]],
     function(out, ins, cInfo) {
       return out.withTag(ins.tool.tag + unbreakable);
     }, null);
