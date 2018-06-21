@@ -165,8 +165,28 @@ var emerald_ore = emerald.registerPart("ore").getData();
   emerald_ore.addDataValue("harvestLevel", "2");
   
   
-val r_base = VanillaFactory.createItem("reinforced_alloy_base");
-val a_base = VanillaFactory.createItem("atomic_alloy_base");
+VanillaFactory.createItem("reinforced_alloy_base").register();
+VanillaFactory.createItem("atomic_alloy_base").register();
+VanillaFactory.createItem("anthracite_coke").register();
+VanillaFactory.createItem("bituminous_coke").register();
+VanillaFactory.createItem("blood_waxed_coke").register();
+VanillaFactory.createItem("blood_waxed_anthracite_coal").register();
+VanillaFactory.createItem("blood_waxed_bituminous_coal").register();
+VanillaFactory.createItem("blood_waxed_anthracite_coke").register();
+VanillaFactory.createItem("blood_waxed_bituminous_coke").register();
 
-r_base.register();
-a_base.register();
+val fuels = [
+  "anthracite_coke_block",
+  "bituminous_coke_block",
+  "blood_waxed_coke_block",
+  "blood_waxed_anthracite_coal_block",
+  "blood_waxed_bituminous_coal_block",
+  "blood_waxed_anthracite_coke_block",
+  "blood_waxed_bituminous_coke_block"
+] as string[];
+
+for i, fuel in fuels {
+  var block = VanillaFactory.createBlock(fuel, <blockmaterial:rock>);
+  block.setToolLevel(0);
+  block.register();
+}

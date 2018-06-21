@@ -15,12 +15,14 @@ pgold_trait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, ho
     return 0;
 };
 pgold_trait.register();
-pgold.addTrait(pgold_trait);
-pgold.representativeItem(<materialpart:philosophers_gold:ingot>);
+pgold.addMaterialTrait(pgold_trait);
+pgold.representativeItem(<item:minecraft:gold_ingot>);
 
 pgold.addHeadMaterialStats(1000, 12.0, 3.0, 2);
 pgold.addHandleMaterialStats(1.0, 50);
 pgold.addExtraMaterialStats(50);
+pgold.register();
+
 #myMat.addBowMaterialStats(float drawSpeed, float range, float bonusDamage);
 #myMat.addArrowShaftMaterialStats(float modifier, int bonusAmmo);
 #myMat.addFletchingMaterialStats(float accuracy, float modifier);
