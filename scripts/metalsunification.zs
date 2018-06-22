@@ -105,39 +105,8 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     ] as crafttweaker.item.IItemStack[][];
     var aluminum_oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>,<ore:oreAluminum>,<ore:dustAluminum>] as crafttweaker.item.IIngredient[];
     unify(list_aluminum, aluminum_oredict);
+   
 
-# Brass
-    val list_brass = [
-    #    nugget                      ingot                      block                      plate                      gear                      ore  dust
-        [<materialpart:brass:nugget>,<materialpart:brass:ingot>,<materialpart:brass:block>,<materialpart:brass:plate>,<materialpart:brass:gear>,nope,<materialpart:brass:dust>],
-        [<primal:brass_nugget>,  <primal:brass_ingot>,  <primal:metalblock:12>,<primal:brass_plate>,  nope,                  nope, nope]
-    ] as crafttweaker.item.IItemStack[][];
-    var brass_oredict = [<ore:nuggetBrass>,<ore:ingotBrass>,<ore:blockBrass>,<ore:plateBrass>,<ore:gearBrass>,<ore:oreBrass>,<ore:dustBrass>] as crafttweaker.item.IIngredient[];
-    unifyalloy(list_brass, brass_oredict);
-    recipes.addShapeless(list_brass[0][6] * 3, [<ore:dustCopper>,<ore:dustCopper>,<ore:dustZinc>]);
-    
-# Bronze
-    val list_bronze = [
-    #    nugget                       ingot                       block                       plate                       gear                       ore  dust
-        [<materialpart:bronze:nugget>,<materialpart:bronze:ingot>,<materialpart:bronze:block>,<materialpart:bronze:plate>,<materialpart:bronze:gear>,nope,<materialpart:bronze:dust>],
-        [nope,                        <forestry:ingot_bronze>,    <forestry:resource_storage:3>,   nope,                  <forestry:gear_bronze>,    nope,nope],
-        [<primal:bronze_nugget>, <primal:bronze_ingot>, <primal:metalblock:11>,        nope, nope,                nope, <primal:bronze_dust>],
-        /* [teMat.withDamage(227),teMat.withDamage(163),<thermalfoundation:storage_alloy:3>,teMat.withDamage(355),teMat.withDamage(291),nope, teMat.withDamage(99)], */
-        [<mekanism:nugget:2>,<mekanism:ingot:2>,<mekanism:basicblock:1>,nope,nope,nope,nope]
-    ] as crafttweaker.item.IItemStack[][];
-    var bronze_oredict = [<ore:nuggetBronze>,<ore:ingotBronze>,<ore:blockBronze>,<ore:plateBronze>,<ore:gearBronze>,<ore:oreBronze>,<ore:dustBronze>] as crafttweaker.item.IIngredient[];
-    unifyalloy(list_bronze, bronze_oredict);
-    recipes.addShapeless(list_bronze[0][6] * 4, [<ore:dustCopper>,<ore:dustCopper>,<ore:dustCopper>,<ore:dustTin>]);
-    /* mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:227>); */
-    mods.tconstruct.Casting.removeTableRecipe(<forestry:ingot_bronze>);
-    /* mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:355>); */
-    mods.tconstruct.Casting.removeTableRecipe(<forestry:gear_bronze>);
-    mods.tconstruct.Casting.removeBasinRecipe(<forestry:resource_storage:3>);
-    mods.tconstruct.Casting.addTableRecipe(list_bronze[0][1], <tconstruct:cast_custom:0>, <liquid:bronze>, 144, false); # Ingot
-    mods.tconstruct.Casting.addTableRecipe(list_bronze[0][0], <tconstruct:cast_custom:1>, <liquid:bronze>, 16, false); # Nugget
-    mods.tconstruct.Casting.addTableRecipe(list_bronze[0][3], <tconstruct:cast_custom:3>, <liquid:bronze>, 144, false); # Plate
-    mods.tconstruct.Casting.addTableRecipe(list_bronze[0][4], <tconstruct:cast_custom:4>, <liquid:bronze>, 576, false); # Gear
-    mods.tconstruct.Casting.addBasinRecipe(list_bronze[0][2], null, <liquid:bronze>, 1296, false);
 
 # Copper
     val list_copper = [
@@ -252,17 +221,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     unify(list_silver, silver_oredict);
 
 
-# Steel
-    val list_steel = [
-    #     nugget,              ingot,                block,               plate,                gear,                  ore,  dust,                 stick
-        [ieMat.withDamage(28), ieMat.withDamage(8),  ieSto.withDamage(8), ieMat.withDamage(38), <materialpart:steel:gear>,  nope, ieMat.withDamage(17), <immersiveengineering:material:2>],
-        [lvNug.withDamage(6),  lvIng.withDamage(6),  lvSto.withDamage(6), lvPla.withDamage(6),  lvPla.withDamage(6),   nope, lvDus.withDamage(6),  <libvulpes:productrod:6>],
-        [nope,                 <primal:steel_ingot>, <primal:metalblock:1>,<primal:steel_plate>, nope,                  nope, nope, nope],
-        #[teMat.withDamage(224),teMat.withDamage(160),<thermalfoundation:storage_alloy>,teMat.withDamage(352),teMat.withDamage(288),nope,teMat.withDamage(96), nope],
-        [<mekanism:nugget:4>,<mekanism:ingot:4>,<mekanism:basicblock:5>,nope,nope,nope,nope]
-    ] as crafttweaker.item.IItemStack[][];
-    val steel_oredict = [<ore:nuggetSteel>,<ore:ingotSteel>,<ore:blockSteel>,<ore:plateSteel>,<ore:gearSteel>,<ore:oreSteel>,<ore:dustSteel>] as crafttweaker.item.IIngredient[];
-    unifyalloy(list_steel, steel_oredict);
+
 
 # Tin
     val list_tin = [
@@ -290,7 +249,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
 
 
 
-
 # Uranium
     val list_uranium = [
     #    nugget,               ingot,               block,               plate,                Gear                   ore                  dust
@@ -311,14 +269,3 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     ] as crafttweaker.item.IItemStack[][];
     var zinc_oredict = [<ore:nuggetZinc>,<ore:ingotZinc>,<ore:blockZinc>,<ore:plateZinc>,<ore:gearZinc>,<ore:oreZinc>,<ore:dustZinc>] as crafttweaker.item.IIngredient[];
     unify(list_zinc, zinc_oredict);
-    
-    
-    # Philosopher's Gold
-    #furnace.addRecipe(<materialpart:philosophersgold:ingot>, <everlastingabilities:abilityTotem>, 1.0);
-    var pnugget = <contenttweaker:material_part:132>;
-    var pingot = <contenttweaker:material_part:133>;
-    recipes.addShapeless(pnugget * 9, [pingot]);
-    recipes.addShapeless(pingot, 
-        [pnugget,pnugget,pnugget,
-         pnugget,pnugget,pnugget,
-         pnugget,pnugget,pnugget]);
