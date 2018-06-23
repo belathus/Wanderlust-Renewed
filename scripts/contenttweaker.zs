@@ -146,6 +146,11 @@ for i, ore in electrum_ores {
 
 
 phils_gold.registerParts(["nugget", "ingot", "molten"] as string[]);
+var phils_gold_block = phils_gold.registerPart("block").getData();
+phils_gold_block.addDataValue("hardness", "5");
+phils_gold_block.addDataValue("resistance", "30");
+phils_gold_block.addDataValue("harvestTool", "pickaxe");
+phils_gold_block.addDataValue("harvestLevel", "1");
 quartz_iron.registerPart("dust");
 gunmetal.registerPart("molten");
 mithril.registerPart("molten");
