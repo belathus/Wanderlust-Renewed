@@ -9,7 +9,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
     slime_bone.color = 0xa7d799;
     slime_bone.representativeItem = <item:thebetweenlands:items_misc:14>;
 
-    slime_bone.addMaterialTrait(<ticontrait:slimeyGreen>);
+    slime_bone.addMaterialTrait(<ticontrait:slimey>);
     slime_bone.addMaterialTrait(<ticontrait:fractured>);
     slime_bone.addMaterialTrait(<ticontrait:splintering>, "head");
     slime_bone.addMaterialTrait(<ticontrait:splitting>, "shaft");
