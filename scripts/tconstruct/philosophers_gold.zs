@@ -26,6 +26,6 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
 
   #pgold.addItem(<item:contenttweaker:material_part:126>, 1, 16); # nugget
   #pgold.addItem(<item:contenttweaker:material_part:24>, 1, 144); # ingot
-  pgold.liquid = <liquid:philosophersgold>;
+  pgold.liquid = <liquid:philosophers_gold>;
   pgold.castable = true;
   pgold.register();
