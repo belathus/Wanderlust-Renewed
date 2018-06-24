@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "item": "thebetweenlands:manual_hl",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "dungeontactics:dungeonpedia",
       "handlerType": "rightclick",
       "matchDamage": false,
