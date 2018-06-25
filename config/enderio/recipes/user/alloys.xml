@@ -61,4 +61,12 @@
       <output name="contenttweaker:material_part:94" amount="4"/>
     </alloying>
   </recipe>
+  
+  <recipe name="Alloy: Brass" required="false">
+    <alloying energy="4000" exp="0">
+      <input name="ingotCopper" amount="2"/>
+      <input name="ingotZinc"/>
+      <output name="contenttweaker:material_part:88" amount="4"/>
+    </alloying>
+  </recipe>
 </enderio:recipes>
