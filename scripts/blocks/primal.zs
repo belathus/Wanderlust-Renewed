@@ -1,0 +1,66 @@
+#modloaded primal
+
+recipes.addShaped(<primal:hardened_stone>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeWhite>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:1>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeOrange>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:2>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeMagenta>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:3>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeLightBlue>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:4>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeYellow>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:5>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeLime>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:6>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyePink>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:7>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeGray>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:8>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeLightGray>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:9>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeCyan>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:10>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyePurple>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:11>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeBlue>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:12>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeBrown>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:13>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeGreen>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:14>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeRed>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
+recipes.addShaped(<primal:hardened_stone:15>,
+  [[<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:dyeBlack>,<ore:blockStoneHardened>],
+   [<ore:blockStoneHardened>,<ore:blockStoneHardened>,<ore:blockStoneHardened>]]);
