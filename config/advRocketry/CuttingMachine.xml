@@ -1074,6 +1074,24 @@
             <itemStack>forestry:wood_pulp 1 0</itemStack>
         </output>
     </Recipe>
+    <Recipe timeRequired="80" power="10">
+        <input>
+            <itemStack>thaumcraft:log_greatwood 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>thaumcraft:plank_greatwood 6 0</itemStack>
+            <itemStack>forestry:wood_pulp 1 0</itemStack>
+        </output>
+    </Recipe>
+    <Recipe timeRequired="80" power="10">
+        <input>
+            <itemStack>thaumcraft:log_silverwood 1 0</itemStack>
+        </input>
+        <output>
+            <itemStack>thaumcraft:plank_silverwood 6 0</itemStack>
+            <itemStack>forestry:wood_pulp 1 0</itemStack>
+        </output>
+    </Recipe>
     <Recipe timeRequired="10" power="10">
         <input>
             <itemStack>minecraft:melon_block 1 0</itemStack>
