@@ -11,11 +11,11 @@
      [<minecraft:glass_pane:*>, <ore:itemPollen>, <minecraft:glass_pane:*>],
      [null, <minecraft:glass_pane:*>, null]]);
   recipes.addShaped(<gendustry:mutatron>,
-    [[<gendustry:bee_receptacle:*>, <gendustry:GeneticsProcessor:*>, <ore:ingotBronze>],
-     [<gendustry:PowerModule:*>, <forestry:sturdy_machine:*>, <gendustry:bee_receptacle:*>],
+    [[<gendustry:bee_receptacle:*>, <gendustry:genetics_processor>, <ore:ingotBronze>],
+     [<gendustry:power_module>, <forestry:sturdy_machine:*>, <gendustry:bee_receptacle:*>],
      [<gendustry:bee_receptacle:*>, <gendustry:mutagen_tank:*>, <ore:ingotBronze>]]);
   recipes.addShaped(<gendustry:mutatron_advanced>,
     [[<ore:gearBronze>, <minecraft:quartz:*>, <ore:gearBronze>],
-     [<gendustry:GeneticsProcessor:*>, <gendustry:mutatron:*>, <gendustry:GeneticsProcessor:*>],
-     [<ore:gearBronze>, <gendustry:PowerModule:*>, <ore:gearBronze>]]);
+     [<gendustry:genetics_processor>, <gendustry:mutatron:*>, <gendustry:genetics_processor>],
+     [<ore:gearBronze>, <gendustry:power_module>, <ore:gearBronze>]]);
 
