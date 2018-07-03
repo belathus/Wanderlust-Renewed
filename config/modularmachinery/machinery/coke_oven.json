@@ -1,0 +1,114 @@
+{
+  "registryname": "coke_oven",
+  "localizedname": "Coke Oven",
+  "requires-blueprint": true,
+  "color": "999999",
+  "parts": [
+    // 3x3 structure. Bottom layer: all coke blocks except casing in the middle.
+    { // below controller
+      "x": 0, "y": -1, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below and right of controller
+      "x": 1, "y": -1, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below and left of controller
+      "x": -1, "y": -1, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below middle-middle; casing goes here
+      "x": 0, "y": -1, "z": 1,
+      "elements": "casings_all"
+    },
+    { // below and right of middle-middle
+      "x": 1, "y": -1, "z": 1,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below and left of middle-middle
+      "x": -1, "y": -1, "z": 1,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below middle-rear
+      "x": 0, "y": -1, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below and right of middle-rear
+      "x": 1, "y": -1, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // below and left of middle-rear
+      "x": -1, "y": -1, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    // controller is at 0, 0, 0
+    { // right of controller
+      "x": 1, "y": 0, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { //left of controller
+      "x": -1, "y": 0, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // middle-middle
+      "x": 0, "y": 0, "z": 1,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // right of middle-middle; casing goes here
+      "x": 1, "y": 0, "z": 1,
+      "elements": "casings_all"
+    },
+    { // left of middle-middle; casing goes here
+      "x": -1, "y": 0, "z": 1,
+      "elements": "casings_all"
+    },
+    { // middle-rear; casing goes here
+      "x": 0, "y": 0, "z": 2,
+      "elements": "casings_all"
+    },
+    { // right of middle-rear
+      "x": 1, "y": 0, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // left of middle-rear
+      "x": -1, "y": 0, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above controller
+      "x": 0, "y": 1, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above and right of controller
+      "x": 1, "y": 1, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above and left of controller
+      "x": -1, "y": 1, "z": 0,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above middle-middle; casing goes here
+      "x": 0, "y": 1, "z": 1,
+      "elements": "casings_all"
+    },
+    { // above and right of middle-middle
+      "x": 1, "y": 1, "z": 1,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above and left of middle-middle
+      "x": -1, "y": 1, "z": 1,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above middle-rear
+      "x": 0, "y": 1, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above and right of middle-rear
+      "x": 1, "y": 1, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    },
+    { // above and left of middle-rear
+      "x": -1, "y": 1, "z": 2,
+      "elements": "immersiveengineering:stone_decoration"
+    }
+  ]
+}
