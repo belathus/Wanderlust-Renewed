@@ -1,0 +1,31 @@
+
+{
+  "machine": "coke_oven",
+  "registryName": "coke_oven_coke_block",
+  "recipeTime": 10,
+  "requirements": [
+    {
+        "type": "energy",
+        "io-type": "input",
+        "energyPerTick": 160
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "minecraft:coal@1",
+        "amount": 1
+    },
+    {
+        "type": "fluid",
+        "io-type": "output",
+        "fluid": "creosote",
+        "amount": 250
+    },
+    {
+        "type": "item",
+        "io-type": "input",
+        "item": "ore:logWood",
+        "amount": 1
+    }
+  ]
+}
