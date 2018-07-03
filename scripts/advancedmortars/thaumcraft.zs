@@ -1,4 +1,4 @@
-#modloaded thaumcraft
+#modloaded thaumcraft advancedmortars
 
 import mods.advancedmortars.Mortar;
 
@@ -53,56 +53,15 @@ import mods.advancedmortars.Mortar;
 
 ### Recipes ###
   # Add every combination of vis in the array listed above.
-  for data1 in array {
-    for data2 in array {
-      for data3 in array {
-        if (data1 != data2) & (data1 != data3) & (data2 != data3) {
-          Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
-          Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
+  for x, data1 in array {
+    for y, data2 in array {
+      for z, data3 in array {
+        if ((x < y) | (x < z)) & (y < z) {
+          if (x != y) & (x != z) & (y != z) {
+            Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
+            Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
+          }
         }
       }
     }
   }
-/*
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, aqua, ignis, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, aqua, ordo, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, aqua, perditio, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, aqua, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, ignis, ordo, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, ignis, perditio, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, ignis, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, ordo, perditio, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, ordo, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aer, perditio, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aqua, ignis, ordo, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aqua, ignis, perditio, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aqua, ignis, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aqua, ordo, perditio, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aqua, ordo, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [aqua, perditio, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [ignis, ordo, perditio, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [ignis, ordo, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [ignis, perditio, terra, redstone]);
-  Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [ordo, perditio, terra, redstone]);
-
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, aqua, ignis, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, aqua, ordo, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, aqua, perditio, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, aqua, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, ignis, ordo, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, ignis, perditio, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, ignis, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, ordo, perditio, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, ordo, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aer, perditio, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aqua, ignis, ordo, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aqua, ignis, perditio, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aqua, ignis, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aqua, ordo, perditio, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aqua, ordo, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [aqua, perditio, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [ignis, ordo, perditio, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [ignis, ordo, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [ignis, perditio, terra, redstone]);
-  Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [ordo, perditio, terra, redstone]);
-*/

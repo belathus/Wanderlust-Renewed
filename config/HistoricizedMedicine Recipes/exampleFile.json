@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "minecraft:diamond",
+	"amount": 1
+  },
+  "top3": {	//supports the 9 crafting slots, top1, top2, top3, etc.
+	"item": "minecraft:paper"
+  },
+  "mid2": {
+	"ore": "listAllmeatraw"	//ore dictionary entry
+  },
+  "low1": {
+	"item": "minecraft:stone",	//metadata (in this case, for granite)
+	"meta": 1
+  },
+  "knowledge": "historicizedmedicine:ebers_papyrus"
+  //must be a valid knowledge sheet from the mod. other items will not work
+  //NOTE: comments are not supported in actual recipe files, do not include them.
+}

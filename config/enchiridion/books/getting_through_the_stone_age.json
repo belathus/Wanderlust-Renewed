@@ -4634,6 +4634,111 @@
       ],
       "pageNumber": 19,
       "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 206,
+          "yPos": 225,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionJumpPage",
+                "properties": {
+                  "bookID": "getting_through_the_stone_age",
+                  "pageNumber": 0
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "Return to Index",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (red).png",
+              "unhoveredResource": "enchiridion:images/getting_through_the_stone_age/arrow_left (white).png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        }
+      ],
+      "pageNumber": 46,
+      "isScrollable": false
     }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
   ]
 }
