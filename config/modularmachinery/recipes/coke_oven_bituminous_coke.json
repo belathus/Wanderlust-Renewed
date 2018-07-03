@@ -1,0 +1,30 @@
+{
+  "machine": "coke_oven",
+  "registryName": "coke_oven_bituminous_coke",
+  "recipeTime": 20,
+  "requirements": [
+    {
+        "type": "energy",
+        "io-type": "input",
+        "energyPerTick": 160
+    },
+    {
+        "type": "item",
+        "io-type": "input",
+        "item": "ore:itemBituminous",
+        "amount": 1
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "contenttweaker:bituminous_coke",
+        "amount": 1
+    },
+    {
+        "type": "fluid",
+        "io-type": "output",
+        "fluid": "creosote",
+        "amount": 750
+    }
+  ]
+}
