@@ -1,0 +1,30 @@
+{
+  "machine": "coke_oven",
+  "registryName": "coke_oven_bloodwaxed_anthracite_coke_block",
+  "recipeTime": 180,
+  "requirements": [
+    {
+        "type": "energy",
+        "io-type": "input",
+        "energyPerTick": 160
+    },
+    {
+        "type": "item",
+        "io-type": "input",
+        "item": "contenttweaker:blood_waxed_anthracite_coal_block",
+        "amount": 1
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "contenttweaker:blood_waxed_anthracite_coke_block",
+        "amount": 1
+    },
+    {
+        "type": "fluid",
+        "io-type": "output",
+        "fluid": "creosote",
+        "amount": 9000
+    }
+  ]
+}
