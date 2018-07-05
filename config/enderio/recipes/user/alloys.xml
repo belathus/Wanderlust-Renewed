@@ -69,4 +69,12 @@
       <output name="contenttweaker:material_part:88" amount="4"/>
     </alloying>
   </recipe>
+  
+  <recipe name="Alloy: Gunmetal" required="false">
+    <alloying energy="4000" exp="0">
+      <input name="ingotBronze" amount="3"/>
+      <input name="ingotBrass" amount="2"/>
+      <output name="contenttweaker:material_part:173" amount="5"/>
+    </alloying>
+  </recipe>
 </enderio:recipes>
