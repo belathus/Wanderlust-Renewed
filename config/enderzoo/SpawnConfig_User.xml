@@ -182,7 +182,7 @@
     </biomeFilter>
     <dimensionExclude name="twilight_forest"/>
   </entry>
-  <entry id="Festive" mobName="primitivemobs:rocket_creeper" creaturetype="CREATURE" rate="1">
+  <entry id="Rocket" mobName="primitivemobs:rocket_creeper" creaturetype="CREATURE" rate="1">
     <biomeFilter type="any">
       <biome type="WASTELAND" />
       <biome name="abyssalcraft:abyssal_wastelands" />
@@ -195,7 +195,7 @@
       <biome type="END" exclude="true" />
     </biomeFilter>
   </entry>
-  <entry id="Festive" mobName="primitivemobs:trollager" creaturetype="CREATURE" rate="1">
+  <entry id="Trollager" mobName="primitivemobs:trollager" creaturetype="CREATURE" rate="1">
     <biomeFilter type="any">
       <biome type="WASTELAND" />
       <biome name="abyssalcraft:abyssal_wastelands" />
@@ -204,6 +204,31 @@
       <biome name="abyssalcraft:dreadlands_mountains" />
       <biome name="abyssalcraft:dreadlands_forest" />
       <biome name="abyssalcraft:omothol" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="Festive" mobName="primitivemobs:festive_creeper" creaturetype="CREATURE" rate="1">
+    <biomeFilter type="any">
+      <biome type="WASTELAND" />
+      <biome name="abyssalcraft:abyssal_wastelands" />
+      <biome name="abyssalcraft:dark_realm" />
+      <biome name="abyssalcraft:dreadlands" />
+      <biome name="abyssalcraft:dreadlands_mountains" />
+      <biome name="abyssalcraft:dreadlands_forest" />
+      <biome name="abyssalcraft:omothol" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+  <entry id="Tool" mobName="primitivemobs:haunted_tool" creaturetype="CREATURE" rate="1">
+    <biomeFilter type="any">
+      <biome type="SPOOKY" />
+    </biomeFilter>
+  </entry>
+  <entry id="Tome" mobName="primitivemobs:bewitched_tome" creaturetype="CREATURE" rate="1">
+    <biomeFilter type="any">
+      <biome type="SPOOKY" />
       <biome type="NETHER" exclude="true" />
       <biome type="END" exclude="true" />
     </biomeFilter>
