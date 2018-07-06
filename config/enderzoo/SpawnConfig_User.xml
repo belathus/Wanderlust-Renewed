@@ -195,4 +195,17 @@
       <biome type="END" exclude="true" />
     </biomeFilter>
   </entry>
+  <entry id="Festive" mobName="primitivemobs:trollager" creaturetype="CREATURE" rate="1">
+    <biomeFilter type="any">
+      <biome type="WASTELAND" />
+      <biome name="abyssalcraft:abyssal_wastelands" />
+      <biome name="abyssalcraft:dark_realm" />
+      <biome name="abyssalcraft:dreadlands" />
+      <biome name="abyssalcraft:dreadlands_mountains" />
+      <biome name="abyssalcraft:dreadlands_forest" />
+      <biome name="abyssalcraft:omothol" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
 </SpawnConfig>
