@@ -14,7 +14,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
   coagulation.onBlockHarvestDrops = function(trait, tool, event) {
     val world = crafttweaker.world.IWorld.create(0);
     if(world.getWorldTime() % 20 == 0){
-      event.drops += <evilcraft:condensed_blood>;
+      server.commandManager.executeCommand(attacker, "summon minecraft:item ~ ~ ~ {item:{id:'evilcraft:condensed_blood',Count:1}}");
     }
   };
   coagulation.afterHit = function(tool, attacker, target, damageDealt, wasCrit, wasHit) {
