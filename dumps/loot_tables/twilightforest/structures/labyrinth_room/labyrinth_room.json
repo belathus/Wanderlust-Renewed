@@ -2,29 +2,817 @@
   "pools": [
     {
       "name": "common",
-      "rolls": 4,
-      "entries": [{
-        "type": "loot_table",
-        "name": "twilightforest:structures/labyrinth_room/common"
-      }]
+      "entries": [
+        {
+          "entryName": "contenttweaker:material_part",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 88.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 94.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#3",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#4",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "twilightforest:maze_wafer",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:maze_wafer"
+        },
+        {
+          "entryName": "twilightforest:ironwood_ingot",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ironwood_ingot"
+        },
+        {
+          "entryName": "twilightforest:firefly",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:firefly"
+        },
+        {
+          "entryName": "dungeontactics:bottled_milk",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:bottled_milk"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:identification_scroll"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 7.0
+      }
     },
-
     {
       "name": "uncommon",
-      "rolls": 2,
-      "entries": [{
-        "type": "loot_table",
-        "name": "twilightforest:structures/labyrinth_room/uncommon"
-      }]
+      "entries": [
+        {
+          "entryName": "twilightforest:steeleaf_ingot",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:steeleaf_ingot"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_helmet",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:steeleaf_helmet"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_chestplate",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:steeleaf_chestplate"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_leggings",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:steeleaf_leggings"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_boots",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:steeleaf_boots"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_pickaxe",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:steeleaf_pickaxe"
+        },
+        {
+          "entryName": "twilightforest:ironwood_helmet",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:ironwood_helmet"
+        },
+        {
+          "entryName": "twilightforest:ironwood_chestplate",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:ironwood_chestplate"
+        },
+        {
+          "entryName": "twilightforest:ironwood_leggings",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:ironwood_leggings"
+        },
+        {
+          "entryName": "twilightforest:ironwood_boots",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:ironwood_boots"
+        },
+        {
+          "entryName": "twilightforest:ironwood_sword",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "twilightforest:ironwood_sword"
+        },
+        {
+          "entryName": "twilightforest:charm_of_keeping_1",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 200,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "basic"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:spell_book-lt#2",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "apprentice"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
     },
-
     {
       "name": "rare",
-      "rolls": 1,
-      "entries": [{
-        "type": "loot_table",
-        "name": "twilightforest:structures/labyrinth_room/rare"
-      }]
+      "entries": [
+        {
+          "entryName": "contenttweaker:material_part",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 46.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "minecraft:tnt",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tnt"
+        },
+        {
+          "entryName": "primal:obsidian_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            },
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "primal:obsidian_pickaxe"
+        },
+        {
+          "entryName": "primal:obsidian_shovel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            },
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "primal:obsidian_shovel"
+        },
+        {
+          "entryName": "twilightforest:maze_map_focus",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:maze_map_focus"
+        },
+        {
+          "entryName": "ebwizardry:arcane_tome",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ebwizardry:arcane_tome"
+        },
+        {
+          "entryName": "ebwizardry:arcane_tome-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ebwizardry:arcane_tome"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ultrarare",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:compass",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:compass"
+        },
+        {
+          "entryName": "bibliocraft:compass",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "bibliocraft:compass"
+        },
+        {
+          "entryName": "naturescompass:naturescompass",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "naturescompass:naturescompass"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "advanced"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "empty",
+          "weight": 63,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bag",
+      "entries": [
+        {
+          "entryName": "forestry:adventurer_bag",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "forestry:adventurer_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee",
+      "entries": [
+        {
+          "entryName": "forestry:bee_drone_ge",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 32.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evilcraft:condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "closure_box",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "overgrowth",
+      "entries": [
+        {
+          "entryName": "botania:overgrowthseed",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:overgrowthseed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lotus",
+      "entries": [
+        {
+          "entryName": "botania:blacklotus",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:blacklotus"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tome",
+      "entries": [
+        {
+          "entryName": "quark:ancient_tome",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:enchant_tome"
+            }
+          ],
+          "name": "quark:ancient_tome"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

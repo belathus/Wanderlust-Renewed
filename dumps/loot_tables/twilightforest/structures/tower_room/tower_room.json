@@ -2,45 +2,948 @@
   "pools": [
     {
       "name": "common",
-      "rolls": 4,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/useless",
-          "weight": 25
+          "entryName": "minecraft:red_flower",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_flower"
         },
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/tower_room/common",
-          "weight": 75
+          "entryName": "minecraft:yellow_flower",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:yellow_flower"
+        },
+        {
+          "entryName": "minecraft:wheat_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "entryName": "minecraft:feather",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:feather"
+        },
+        {
+          "entryName": "minecraft:flint",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:flint"
+        },
+        {
+          "entryName": "minecraft:cactus",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cactus"
+        },
+        {
+          "entryName": "minecraft:sand",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sand"
+        },
+        {
+          "entryName": "minecraft:flower_pot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flower_pot"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:glass_bottle",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glass_bottle"
+        },
+        {
+          "entryName": "minecraft:potion",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:water\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "entryName": "minecraft:ghast_tear",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "entryName": "minecraft:spider_eye",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "entryName": "minecraft:fermented_spider_eye",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fermented_spider_eye"
+        },
+        {
+          "entryName": "minecraft:magma_cream",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "entryName": "minecraft:paper",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "entryName": "minecraft:speckled_melon",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:speckled_melon"
+        },
+        {
+          "entryName": "minecraft:blaze_powder",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:blaze_powder"
         }
-      ]
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
     },
-
     {
       "name": "uncommon",
-      "rolls": 2,
-      "entries": [{
-        "type": "loot_table",
-        "name": "twilightforest:structures/tower_room/uncommon"
-      }]
-    },
-
-    {
-      "name": "rare",
-      "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/tower_room/ultrarare",
-          "weight": 25
+          "entryName": "rustic:elixir",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:instant_health\",Duration:1,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
         },
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/tower_room/rare",
-          "weight": 75
+          "entryName": "rustic:elixir-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:regeneration\",Duration:900,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:wither\",Duration:900,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:night_vision\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:speed\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:fire_resistance\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:health_boost\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:haste\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:strength\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:ironskin\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#11",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:feather\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#12",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:blazing_trail\",Duration:3600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
         }
-      ]
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "rustic:elixir",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:blazing_trail\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:feather\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:ironskin\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"rustic:ironskin\",Duration:1800,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:strength\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:strength\",Duration:1800,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:haste\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:haste\",Duration:1800,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:health_boost\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:health_boost\",Duration:1800,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#11",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:fire_resistance\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#12",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:speed\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#13",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:speed\",Duration:1800,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#14",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:wither\",Duration:1800,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#15",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:wither\",Duration:450,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#16",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:regeneration\",Duration:1800,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#17",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:regeneration\",Duration:450,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#18",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:instant_health\",Duration:1,Amplifier:1}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "rustic:elixir-lt#19",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ElixirEffects:[{Effect:\"minecraft:night_vision\",Duration:9600,Amplifier:0}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rustic:elixir"
+        },
+        {
+          "entryName": "twilightforest:charm_of_life_1",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_life_1"
+        },
+        {
+          "entryName": "twilightforest:charm_of_keeping_1",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "entryName": "twilightforest:transformation_powder",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:transformation_powder"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ultrarare",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:obsidian",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "twilightforest:moonworm_queen",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:moonworm_queen"
+        },
+        {
+          "entryName": "twilightforest:peacock_fan",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:peacock_fan"
+        },
+        {
+          "entryName": "empty",
+          "weight": 15,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bag",
+      "entries": [
+        {
+          "entryName": "forestry:miner_bag",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "forestry:miner_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee",
+      "entries": [
+        {
+          "entryName": "forestry:bee_drone_ge",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 32.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evilcraft:condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "closure_box",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "overgrowth",
+      "entries": [
+        {
+          "entryName": "botania:overgrowthseed",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:overgrowthseed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lotus",
+      "entries": [
+        {
+          "entryName": "botania:blacklotus",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:blacklotus"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tome",
+      "entries": [
+        {
+          "entryName": "quark:ancient_tome",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:enchant_tome"
+            }
+          ],
+          "name": "quark:ancient_tome"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

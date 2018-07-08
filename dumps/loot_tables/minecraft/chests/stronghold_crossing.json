@@ -241,6 +241,28 @@
       "rolls": 1.0
     },
     {
+      "name": "randomthings:biomeCrystal",
+      "entries": [
+        {
+          "entryName": "randomthings:biomeCrystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "randomthings:biomecrystal"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
       "name": "moms_spaghetti",
       "entries": [
         {

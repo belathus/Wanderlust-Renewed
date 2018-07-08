@@ -2,45 +2,878 @@
   "pools": [
     {
       "name": "common",
-      "rolls": 4,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/useless",
-          "weight": 25
+          "entryName": "minecraft:gunpowder",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
         },
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/aurora_cache/common",
-          "weight": 75
+          "entryName": "minecraft:coal",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:ice",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ice"
+        },
+        {
+          "entryName": "minecraft:packed_ice",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:packed_ice"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:glowstone_dust",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "entryName": "contenttweaker:material_part",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 88.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#2",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 94.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#3",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#4",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#2",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "twilightforest:maze_wafer",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:maze_wafer"
+        },
+        {
+          "entryName": "twilightforest:ironwood_ingot",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ironwood_ingot"
+        },
+        {
+          "entryName": "primal:arrow_ironwood",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:arrow_ironwood"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:identification_scroll"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "twilightforest:aurora_block",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:aurora_block"
+        },
+        {
+          "entryName": "twilightforest:firefly",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:firefly"
+        },
+        {
+          "entryName": "twilightforest:charm_of_keeping_1",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "entryName": "twilightforest:ironwood_ingot-lt#2",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ironwood_ingot"
+        },
+        {
+          "entryName": "twilightforest:arctic_fur",
+          "weight": 300,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:arctic_fur"
         }
-      ]
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 7.0
+      }
     },
-
     {
       "name": "uncommon",
-      "rolls": 2,
-      "entries": [{
-        "type": "loot_table",
-        "name": "twilightforest:structures/aurora_cache/uncommon"
-      }]
-    },
-
-    {
-      "name": "rare",
-      "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/aurora_cache/ultrarare",
-          "weight": 25
+          "entryName": "ebwizardry:spell_book",
+          "weight": 180,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "basic"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
         },
         {
-          "type": "loot_table",
-          "name": "twilightforest:structures/aurora_cache/rare",
-          "weight": 75
+          "entryName": "ebwizardry:spell_book-lt#2",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "apprentice"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:spell_book-lt#3",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "advanced"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
         }
-      ]
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "twilightforest:charm_of_life_1",
+          "weight": 32,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:charm_of_life_1"
+        },
+        {
+          "entryName": "twilightforest:arctic_fur",
+          "weight": 32,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:arctic_fur"
+        },
+        {
+          "entryName": "twilightforest:ice_bow",
+          "weight": 32,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "twilightforest:ice_bow"
+        },
+        {
+          "entryName": "twilightforest:ender_bow",
+          "weight": 32,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "twilightforest:ender_bow"
+        },
+        {
+          "entryName": "twilightforest:ice_sword",
+          "weight": 32,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "twilightforest:ice_sword"
+        },
+        {
+          "entryName": "ebwizardry:arcane_tome",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ebwizardry:arcane_tome"
+        },
+        {
+          "entryName": "ebwizardry:arcane_tome-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ebwizardry:arcane_tome"
+        },
+        {
+          "entryName": "ebwizardry:attunement_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:attunement_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:blast_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:blast_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:condenser_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:condenser_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:cooldown_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:cooldown_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:duration_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:duration_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:range_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:range_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:siphon_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:siphon_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:storage_upgrade",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:storage_upgrade"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ultrarare",
+      "entries": [
+        {
+          "entryName": "minecraft:enchanted_book",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:power": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "minecraft:enchanted_book-lt#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "minecraft:enchanted_book-lt#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "minecraft:enchanted_book-lt#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:unbreaking": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "minecraft:enchanted_book-lt#5",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "ebwizardry:armour_upgrade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:armour_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "tiers": [
+                "master"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "empty",
+          "weight": 561,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bag",
+      "entries": [
+        {
+          "entryName": "forestry:adventurer_bag",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "forestry:adventurer_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee",
+      "entries": [
+        {
+          "entryName": "forestry:bee_drone_ge",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 32.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evilcraft:condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "closure_box",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "overgrowth",
+      "entries": [
+        {
+          "entryName": "botania:overgrowthseed",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:overgrowthseed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lotus",
+      "entries": [
+        {
+          "entryName": "botania:blacklotus",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:blacklotus"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tome",
+      "entries": [
+        {
+          "entryName": "quark:ancient_tome",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:enchant_tome"
+            }
+          ],
+          "name": "quark:ancient_tome"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

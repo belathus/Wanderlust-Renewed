@@ -1,12 +1,17 @@
 {
   "pools": [
     {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      "name": "egg",
+      "entries": [
+        {
+          "entryName": "minecraft:dragon_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:dragon_egg"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

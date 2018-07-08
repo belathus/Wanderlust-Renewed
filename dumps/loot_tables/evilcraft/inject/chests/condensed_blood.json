@@ -20,7 +20,13 @@
           "name": "evilcraft:condensed_blood"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.35,
+          "condition": "minecraft:random_chance"
+        }
+      ]
     }
   ]
 }

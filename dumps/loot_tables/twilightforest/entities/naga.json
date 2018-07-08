@@ -42,12 +42,50 @@
       "rolls": 1.0
     },
     {
-      "name": "main",
+      "name": "common",
       "entries": [],
       "rolls": {
-        "min": 5.0,
-        "max": 10.0
+        "min": 4.0,
+        "max": 8.0
       }
+    },
+    {
+      "name": "overgrowth",
+      "entries": [
+        {
+          "entryName": "botania:overgrowthseed",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:overgrowthseed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lotus",
+      "entries": [
+        {
+          "entryName": "botania:blacklotus",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:blacklotus"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

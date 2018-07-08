@@ -1,32 +1,107 @@
 {
   "pools": [
     {
-      "name": "main",
+      "name": "common",
       "entries": [
         {
           "entryName": "minecraft:waterlily",
-          "weight": 1,
+          "weight": 100,
           "quality": 0,
           "type": "item",
           "name": "minecraft:waterlily"
         },
         {
           "entryName": "minecraft:name_tag",
-          "weight": 1,
+          "weight": 100,
           "quality": 0,
           "type": "item",
           "name": "minecraft:name_tag"
         },
         {
           "entryName": "minecraft:saddle",
-          "weight": 1,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:saddle"
         },
         {
+          "entryName": "forestry:broken_bronze_shovel",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:broken_bronze_shovel"
+        },
+        {
+          "entryName": "forestry:broken_bronze_pickaxe",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:broken_bronze_pickaxe"
+        },
+        {
+          "entryName": "enderio:item_basic_capacitor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "enderio:set_capacitor"
+            }
+          ],
+          "name": "enderio:item_basic_capacitor"
+        },
+        {
+          "entryName": "chisel:chisel_iron",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "chisel:chisel_iron"
+        },
+        {
+          "entryName": "minecraft:bucket",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "entryName": "naturescompass:naturescompass",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "naturescompass:naturescompass"
+        },
+        {
+          "entryName": "evilcraft:blood_extractor",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "evilcraft:blood_extractor"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
           "entryName": "minecraft:bow",
-          "weight": 1,
+          "weight": 20,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -47,7 +122,7 @@
         },
         {
           "entryName": "minecraft:fishing_rod",
-          "weight": 1,
+          "weight": 20,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -67,39 +142,193 @@
           "name": "minecraft:fishing_rod"
         },
         {
-          "entryName": "minecraft:book",
-          "weight": 1,
+          "entryName": "dungeontactics:slingshot",
+          "weight": 20,
           "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:book"
-        },
-        {
-          "entryName": "DT:SlingShot",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels"
-            },
             {
               "damage": {
                 "min": 0.0,
                 "max": 0.25
               },
               "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
             }
           ],
           "name": "dungeontactics:slingshot"
+        },
+        {
+          "entryName": "primal:flint_workblade",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_workblade"
+        },
+        {
+          "entryName": "primal:flint_shovel",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_shovel"
+        },
+        {
+          "entryName": "primal:flint_axe",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_axe"
+        },
+        {
+          "entryName": "primal:flint_hatchet",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_hatchet"
+        },
+        {
+          "entryName": "primal:flint_hoe",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_hoe"
+        },
+        {
+          "entryName": "primal:flint_pickaxe",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_pickaxe"
+        },
+        {
+          "entryName": "primal:flint_saw",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:flint_saw"
+        },
+        {
+          "entryName": "primal:stone_gallagher",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "primal:stone_gallagher"
         }
       ],
       "rolls": 1.0

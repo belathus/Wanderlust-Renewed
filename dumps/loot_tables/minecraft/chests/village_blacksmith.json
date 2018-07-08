@@ -1,11 +1,11 @@
 {
   "pools": [
     {
-      "name": "main",
+      "name": "common",
       "entries": [
         {
-          "entryName": "minecraft:diamond",
-          "weight": 3,
+          "entryName": "contenttweaker:material_part",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -15,13 +15,53 @@
                 "max": 3.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "contenttweaker:material_part"
         },
         {
-          "entryName": "minecraft:iron_ingot",
+          "entryName": "contenttweaker:material_part-lt#2",
           "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#2",
+          "weight": 6,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -33,11 +73,91 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#3",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#4",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#5",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
         },
         {
           "entryName": "minecraft:gold_ingot",
-          "weight": 5,
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -52,8 +172,8 @@
           "name": "minecraft:gold_ingot"
         },
         {
-          "entryName": "minecraft:bread",
-          "weight": 15,
+          "entryName": "minecraft:diamond",
+          "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -65,11 +185,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bread"
+          "name": "minecraft:diamond"
         },
         {
-          "entryName": "minecraft:apple",
-          "weight": 15,
+          "entryName": "minecraft:emerald",
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -81,260 +201,848 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:apple"
+          "name": "minecraft:emerald"
         },
         {
-          "entryName": "minecraft:iron_pickaxe",
+          "entryName": "contenttweaker:material_part-lt#3",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:iron_pickaxe"
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
         },
         {
-          "entryName": "minecraft:iron_sword",
+          "entryName": "contenttweaker:material_part-lt#4",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:iron_sword"
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
         },
         {
-          "entryName": "minecraft:iron_chestplate",
+          "entryName": "minecraft:redstone",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:iron_chestplate"
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
         },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "immersiveengineering:treated_wood",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:treated_wood"
+        },
+        {
+          "entryName": "minecraft:melon_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "entryName": "minecraft:pumpkin_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "entryName": "minecraft:beetroot_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "entryName": "dungeontactics:ducttape",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:ducttape"
+        },
+        {
+          "entryName": "dungeontactics:magic_tether",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:magic_tether"
+        },
+        {
+          "entryName": "dungeontactics:heart_jar",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:heart_jar"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "uncommon",
+      "entries": [
         {
           "entryName": "minecraft:iron_helmet",
-          "weight": 5,
+          "weight": 30,
           "quality": 0,
           "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
           "name": "minecraft:iron_helmet"
         },
         {
-          "entryName": "minecraft:iron_leggings",
-          "weight": 5,
+          "entryName": "minecraft:iron_chestplate",
+          "weight": 30,
           "quality": 0,
           "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "minecraft:iron_leggings",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
           "name": "minecraft:iron_leggings"
         },
         {
           "entryName": "minecraft:iron_boots",
-          "weight": 5,
+          "weight": 30,
           "quality": 0,
           "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
           "name": "minecraft:iron_boots"
         },
         {
-          "entryName": "minecraft:obsidian",
-          "weight": 5,
+          "entryName": "dungeontactics:iron_cutlass",
+          "weight": 30,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 3.0,
-                "max": 7.0
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
               },
-              "function": "minecraft:set_count"
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
             }
           ],
-          "name": "minecraft:obsidian"
+          "name": "dungeontactics:iron_cutlass"
         },
         {
-          "entryName": "minecraft:sapling",
-          "weight": 5,
+          "entryName": "dungeontactics:iron_hammer",
+          "weight": 30,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 3.0,
-                "max": 7.0
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
               },
-              "function": "minecraft:set_count"
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
             }
           ],
-          "name": "minecraft:sapling"
+          "name": "dungeontactics:iron_hammer"
         },
         {
-          "entryName": "minecraft:saddle",
-          "weight": 3,
+          "entryName": "dungeontactics:iron_battleaxe",
+          "weight": 30,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:saddle"
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:iron_battleaxe"
+        },
+        {
+          "entryName": "dungeontactics:iron_glaive",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:iron_glaive"
+        },
+        {
+          "entryName": "dungeontactics:iron_knife",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:iron_knife"
+        },
+        {
+          "entryName": "dungeontactics:iron_cestus",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:iron_cestus"
+        },
+        {
+          "entryName": "dungeontactics:iron_shield",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:iron_shield"
+        },
+        {
+          "entryName": "dungeontactics:gilded_cutlass",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_cutlass"
+        },
+        {
+          "entryName": "dungeontactics:gilded_hammer",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_hammer"
+        },
+        {
+          "entryName": "dungeontactics:gilded_battleaxe",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_battleaxe"
+        },
+        {
+          "entryName": "dungeontactics:gilded_glaive",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_glaive"
+        },
+        {
+          "entryName": "dungeontactics:gilded_knife",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_knife"
+        },
+        {
+          "entryName": "dungeontactics:gilded_cestus",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_cestus"
+        },
+        {
+          "entryName": "dungeontactics:gilded_shield",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_shield"
+        },
+        {
+          "entryName": "dungeontactics:gilded_helmet",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_helmet"
+        },
+        {
+          "entryName": "dungeontactics:gilded_chestplate",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_chestplate"
+        },
+        {
+          "entryName": "dungeontactics:gilded_leggings",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_leggings"
+        },
+        {
+          "entryName": "dungeontactics:gilded_boots",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_boots"
+        },
+        {
+          "entryName": "dungeontactics:gilded_pickaxe",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "dungeontactics:gilded_pickaxe"
         },
         {
           "entryName": "minecraft:iron_horse_armor",
-          "weight": 1,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:iron_horse_armor"
         },
         {
           "entryName": "minecraft:golden_horse_armor",
-          "weight": 1,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:golden_horse_armor"
         },
         {
           "entryName": "minecraft:diamond_horse_armor",
-          "weight": 1,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:diamond_horse_armor"
         },
         {
-          "entryName": "DT:IronCutlass",
+          "entryName": "immersiveengineering:blueprint",
           "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_cutlass"
-        },
-        {
-          "entryName": "DT:IronHammer",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_hammer"
-        },
-        {
-          "entryName": "DT:IronBattleaxe",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_battleaxe"
-        },
-        {
-          "entryName": "DT:IronGlaive",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_glaive"
-        },
-        {
-          "entryName": "DT:IronKnife",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_knife"
-        },
-        {
-          "entryName": "DT:IronCestus",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_cestus"
-        },
-        {
-          "entryName": "DT:IronShield",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_shield"
-        },
-        {
-          "entryName": "DT:GildedHammer",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_hammer"
-        },
-        {
-          "entryName": "DT:GildedBattleaxe",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_battleaxe"
-        },
-        {
-          "entryName": "DT:GildedGlaive",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_glaive"
-        },
-        {
-          "entryName": "DT:GildedSword",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_sword"
-        },
-        {
-          "entryName": "DT:GildedCutlass",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_cutlass"
-        },
-        {
-          "entryName": "DT:GildedKnife",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_knife"
-        },
-        {
-          "entryName": "DT:GildedCestus",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_cestus"
-        },
-        {
-          "entryName": "DT:GildedShield",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_shield"
-        },
-        {
-          "entryName": "DT:GildedHelmet",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_helmet"
-        },
-        {
-          "entryName": "DT:GildedChestplate",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_chestplate"
-        },
-        {
-          "entryName": "DT:GildedLeggings",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_leggings"
-        },
-        {
-          "entryName": "DT:GildedBoots",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_boots"
-        },
-        {
-          "entryName": "DT:GildedPick",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_pickaxe"
-        },
-        {
-          "entryName": "DT:DuctTape",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:ducttape"
-        },
-        {
-          "entryName": "blueprint_electrode",
-          "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -347,173 +1055,289 @@
         }
       ],
       "rolls": {
-        "min": 3.0,
-        "max": 8.0
+        "min": 2.0,
+        "max": 4.0
       }
     },
     {
-      "name": "xreliquary_inject_pool",
+      "name": "rare",
       "entries": [
         {
-          "entryName": "xreliquary_inject_entry",
-          "weight": 1,
+          "entryName": "minecraft:golden_apple",
+          "weight": 40,
           "quality": 0,
-          "type": "loot_table",
-          "name": "xreliquary:inject/chests/village_blacksmith"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "evilcraft:inject/chests/origins_of_darkness",
-      "entries": [
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
         {
-          "entryName": "evilcraft:inject/chests/origins_of_darkness",
-          "weight": 1,
+          "entryName": "minecraft:golden_apple-lt#2",
+          "weight": 2,
           "quality": 0,
-          "type": "loot_table",
-          "name": "evilcraft:inject/chests/origins_of_darkness"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "evilcraft:inject/chests/condensed_blood",
-      "entries": [
-        {
-          "entryName": "evilcraft:inject/chests/condensed_blood",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "evilcraft:inject/chests/condensed_blood"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "botania_inject_pool",
-      "entries": [
-        {
-          "entryName": "botania_inject_entry",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "botania:inject/village_blacksmith"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [
-        {
-          "entryName": "enderio:item_alloy_ingot:0",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.2,
-              "condition": "minecraft:random_chance"
-            }
-          ],
           "type": "item",
           "functions": [
             {
-              "count": 2.0,
-              "function": "minecraft:set_count"
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 60,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "forestry:broken_bronze_pickaxe",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:broken_bronze_pickaxe"
+        },
+        {
+          "entryName": "forestry:broken_bronze_shovel",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:broken_bronze_shovel"
+        },
+        {
+          "entryName": "forestry:kit_pickaxe",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:kit_pickaxe"
+        },
+        {
+          "entryName": "forestry:kit_shovel",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:kit_shovel"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
             },
             {
-              "data": 0.0,
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "primal:diamond_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "primal:diamond_pickaxe"
+        },
+        {
+          "entryName": "primal:flint_pickaxe",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "primal:flint_pickaxe"
+        },
+        {
+          "entryName": "primal:quartz_pickaxe",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "primal:quartz_pickaxe"
+        },
+        {
+          "entryName": "primal:emerald_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "primal:emerald_pickaxe"
+        },
+        {
+          "entryName": "primal:opal_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "primal:opal_pickaxe"
+        },
+        {
+          "entryName": "primal:obsidian_pickaxe",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "primal:obsidian_pickaxe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "uberrare",
+      "entries": [
+        {
+          "entryName": "enderio:item_alloy_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#2",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
               "function": "minecraft:set_data"
             }
           ],
           "name": "enderio:item_alloy_ingot"
         },
         {
-          "entryName": "enderio:item_alloy_ingot:3",
+          "entryName": "enderio:item_alloy_ingot-lt#3",
           "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.35,
-              "condition": "minecraft:random_chance"
-            }
-          ],
+          "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "count": 3.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_alloy_ingot"
-        },
-        {
-          "entryName": "enderio:item_alloy_ingot:6",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.35,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 3.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_alloy_ingot"
-        },
-        {
-          "entryName": "enderio:item_alloy_ingot:5",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.3,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_alloy_ingot"
-        },
-        {
-          "entryName": "enderio:item_alloy_ingot:2",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.2,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
             {
               "data": 2.0,
               "function": "minecraft:set_data"
@@ -522,21 +1346,63 @@
           "name": "enderio:item_alloy_ingot"
         },
         {
-          "entryName": "enderio:item_material:9",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.5,
-              "condition": "minecraft:random_chance"
-            }
-          ],
+          "entryName": "enderio:item_alloy_ingot-lt#4",
+          "weight": 30,
+          "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#6",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_material",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
             {
               "data": 9.0,
               "function": "minecraft:set_data"
@@ -545,21 +1411,11 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "enderio:item_material:10",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.4,
-              "condition": "minecraft:random_chance"
-            }
-          ],
+          "entryName": "enderio:item_material-lt#2",
+          "weight": 20,
+          "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
             {
               "data": 10.0,
               "function": "minecraft:set_data"
@@ -568,21 +1424,11 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "enderio:item_material:11",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
+          "entryName": "enderio:item_material-lt#3",
+          "weight": 10,
+          "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
             {
               "data": 11.0,
               "function": "minecraft:set_data"
@@ -591,21 +1437,11 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "enderio:item_material:12",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.125,
-              "condition": "minecraft:random_chance"
-            }
-          ],
+          "entryName": "enderio:item_material-lt#4",
+          "weight": 3,
+          "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
             {
               "data": 12.0,
               "function": "minecraft:set_data"
@@ -614,21 +1450,11 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "enderio:item_material:13",
+          "entryName": "enderio:item_material-lt#5",
           "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.0625,
-              "condition": "minecraft:random_chance"
-            }
-          ],
+          "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
             {
               "data": 13.0,
               "function": "minecraft:set_data"
@@ -637,73 +1463,104 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "enderio:item_dark_steel_sword:0",
-          "weight": 1,
+          "entryName": "empty",
+          "weight": 381,
           "quality": 1,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "xrel",
+      "entries": [
+        {
+          "entryName": "xreliquary:mob_ingredient",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
+        },
+        {
+          "entryName": "xreliquary:witch_hat",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "xreliquary:witch_hat"
+        },
+        {
+          "entryName": "xreliquary:glowing_water",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "xreliquary:glowing_water"
+        },
+        {
+          "entryName": "empty",
+          "weight": 78,
+          "quality": 1,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bag",
+      "entries": [
+        {
+          "entryName": "forestry:miner_bag",
+          "weight": 1,
+          "quality": 0,
           "conditions": [
             {
-              "chance": 0.25,
+              "chance": 0.05,
               "condition": "minecraft:random_chance"
             }
           ],
           "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "damage": {
-                "min": 1.0,
-                "max": 2000.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "function": "enderio:set_random_dark_upgrade"
-            },
-            {
-              "function": "enderio:set_random_energy"
-            }
-          ],
-          "name": "enderio:item_dark_steel_sword"
-        },
+          "name": "forestry:miner_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee",
+      "entries": [
         {
-          "entryName": "enderio:item_dark_steel_boots:0",
+          "entryName": "forestry:bee_drone_ge",
           "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "damage": {
-                "min": 1.0,
-                "max": 455.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "function": "enderio:set_random_dark_upgrade"
-            },
-            {
-              "function": "enderio:set_random_energy"
-            }
-          ],
-          "name": "enderio:item_dark_steel_boots"
-        },
-        {
-          "entryName": "item_basic_capacitor11",
-          "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "conditions": [
             {
               "chance": 0.1,
@@ -713,14 +1570,39 @@
           "type": "item",
           "functions": [
             {
-              "function": "enderio:set_capacitor"
-            },
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "capacitor",
+      "entries": [
+        {
+          "entryName": "enderio:item_basic_capacitor",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
             {
               "data": {
                 "min": 3.0,
                 "max": 4.0
               },
               "function": "minecraft:set_data"
+            },
+            {
+              "function": "enderio:set_capacitor"
             }
           ],
           "name": "enderio:item_basic_capacitor"
@@ -730,6 +1612,66 @@
         "min": 1.0,
         "max": 3.0
       }
+    },
+    {
+      "name": "blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 32.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evilcraft:condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lotus",
+      "entries": [
+        {
+          "entryName": "botania:blacklotus",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:blacklotus"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "closure_box",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

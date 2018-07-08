@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "name": "mimic_drops",
+      "entries": [
+        {
+          "entryName": "minecraft:chest",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:chest"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "mimic_rare_drops",
+      "entries": [
+        {
+          "entryName": "primitivemobs:mimic_orb",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": -1.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "primitivemobs:mimic_orb"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

@@ -11,13 +11,57 @@
           "functions": [
             {
               "count": {
-                "min": 0.0,
-                "max": 1.0
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
               },
               "function": "minecraft:looting_enchant"
             }
           ],
           "name": "ebwizardry:magic_crystal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "chance": 0.35,
+              "looting_multiplier": 0.1,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "ignore_weighting": false,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:scroll"
         }
       ],
       "rolls": 1.0
@@ -29,8 +73,26 @@
           "entryName": "ebwizardry:spell_book",
           "weight": 1,
           "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "chance": 0.05,
+              "looting_multiplier": 0.01,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
           "type": "item",
           "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
             {
               "function": "ebwizardry:wizard_spell"
             }
@@ -38,26 +100,7 @@
           "name": "ebwizardry:spell_book"
         }
       ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "inverse": false,
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "chance": 0.05,
-          "looting_multiplier": 0.01,
-          "condition": "minecraft:random_chance_with_looting"
-        }
-      ]
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      "rolls": 1.0
     }
   ]
 }

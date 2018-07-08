@@ -1,27 +1,67 @@
 {
   "pools": [
     {
-      "name": "lostcities:lostcitychest",
+      "name": "common",
       "entries": [
         {
-          "entryName": "minecraft:diamond_sword",
-          "weight": 2,
+          "entryName": "contenttweaker:material_part",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 0.0,
-                "max": 1.0
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond_sword"
+          "name": "immersiveengineering:metal"
         },
         {
-          "entryName": "minecraft:gold_ingot",
-          "weight": 5,
+          "entryName": "immersiveengineering:metal-lt#2",
+          "weight": 6,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -29,6 +69,102 @@
               "count": {
                 "min": 1.0,
                 "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#3",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#4",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#5",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -37,14 +173,14 @@
         },
         {
           "entryName": "minecraft:diamond",
-          "weight": 5,
+          "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 1.0,
-                "max": 5.0
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -53,7 +189,7 @@
         },
         {
           "entryName": "minecraft:emerald",
-          "weight": 5,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -66,6 +202,279 @@
             }
           ],
           "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "immersiveengineering:treated_wood",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:treated_wood"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "uncommon",
+      "entries": [
+        {
+          "entryName": "immersiveengineering:material",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#2",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#3",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#4",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#5",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#6",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#7",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "immersiveengineering:material-lt#8",
+          "weight": 90,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:material"
         }
       ],
       "rolls": {
@@ -74,11 +483,196 @@
       }
     },
     {
-      "name": "main",
-      "entries": [],
+      "name": "rare",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ultrarare",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 9,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "immersiveengineering:blueprint",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"electrode\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "immersiveengineering:blueprint-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"specialBullet\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "immersiveengineering:blueprint-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"bullet\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "mekanism:nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mekanism:nugget"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bag",
+      "entries": [
+        {
+          "entryName": "forestry:builder_bag",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "forestry:builder_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee",
+      "entries": [
+        {
+          "entryName": "forestry:bee_drone_ge",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tome",
+      "entries": [
+        {
+          "entryName": "quark:ancient_tome",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:enchant_tome"
+            }
+          ],
+          "name": "quark:ancient_tome"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "capacitor",
+      "entries": [
+        {
+          "entryName": "enderio:item_basic_capacitor",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "enderio:set_capacitor"
+            }
+          ],
+          "name": "enderio:item_basic_capacitor"
+        }
+      ],
       "rolls": {
-        "min": 5.0,
-        "max": 10.0
+        "min": 1.0,
+        "max": 3.0
       }
     }
   ]

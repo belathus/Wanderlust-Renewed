@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "name": "treasureslime_spawnitem",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:cookie",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cookie"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:cake",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cake"
+        },
+        {
+          "entryName": "minecraft:carrot",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:magma_cream",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "entryName": "minecraft:ender_eye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "entryName": "minecraft:blaze_powder",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "entryName": "minecraft:record_wait",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:record_wait"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

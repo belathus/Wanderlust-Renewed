@@ -1,71 +1,6 @@
 {
   "pools": [
     {
-      "name": "diamond",
-      "entries": [
-        {
-          "entryName": "minecraft:diamond_block",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond_block"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "iron",
-      "entries": [
-        {
-          "entryName": "minecraft:iron_block",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:iron_block"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "emerald",
-      "entries": [
-        {
-          "entryName": "minecraft:emerald_block",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:emerald_block"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "gold",
-      "entries": [
-        {
-          "entryName": "minecraft:gold_block",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:gold_block"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "lapis",
-      "entries": [
-        {
-          "entryName": "minecraft:lapis_block",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:lapis_block"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
       "name": "horn",
       "entries": [
         {
@@ -98,12 +33,156 @@
       "rolls": 1.0
     },
     {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      "name": "common",
+      "entries": [
+        {
+          "entryName": "minecraft:lapis_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:lapis_block"
+        },
+        {
+          "entryName": "minecraft:gold_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_block"
+        },
+        {
+          "entryName": "minecraft:iron_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_block"
+        },
+        {
+          "entryName": "minecraft:diamond_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "entryName": "minecraft:emerald_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "entryName": "immersiveengineering:storage",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        },
+        {
+          "entryName": "immersiveengineering:storage-lt#9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:storage"
+        }
+      ],
+      "rolls": 5.0
     }
   ]
 }

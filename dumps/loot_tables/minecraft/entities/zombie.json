@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "main",
+      "name": "flesh",
       "entries": [
         {
           "entryName": "minecraft:rotten_flesh",
@@ -21,6 +21,7 @@
                 "min": 0.0,
                 "max": 1.0
               },
+              "limit": 10,
               "function": "minecraft:looting_enchant"
             }
           ],
@@ -30,28 +31,61 @@
       "rolls": 1.0
     },
     {
-      "name": "pool1",
+      "name": "ingot",
       "entries": [
         {
-          "entryName": "minecraft:iron_ingot",
-          "weight": 1,
+          "entryName": "minecraft:potato",
+          "weight": 2,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:potato"
         },
         {
           "entryName": "minecraft:carrot",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "name": "minecraft:carrot"
         },
         {
-          "entryName": "minecraft:potato",
+          "entryName": "primal:corn_cob",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "primal:corn_cob"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:potato"
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "contenttweaker:material_part",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
         }
       ],
       "rolls": 1.0,
@@ -68,14 +102,31 @@
       ]
     },
     {
-      "name": "xreliquary_inject_pool",
+      "name": "heart",
       "entries": [
         {
-          "entryName": "xreliquary_inject_entry",
+          "entryName": "xreliquary:mob_ingredient",
           "weight": 1,
           "quality": 0,
-          "type": "loot_table",
-          "name": "xreliquary:inject/entities/zombie"
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "chance": 0.1,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
         }
       ],
       "rolls": 1.0

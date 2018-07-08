@@ -155,7 +155,7 @@
           "type": "item",
           "functions": [
             {
-              "tag": "{StoredEnchantments:[{lvl:1s,id:15s}]}",
+              "tag": "{StoredEnchantments:[{lvl:1s,id:88s}]}",
               "function": "minecraft:set_nbt"
             },
             {
@@ -430,6 +430,47 @@
       "rolls": 1.0
     },
     {
+      "name": "lavacharm",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:lavacharm"
+        },
+        {
+          "entryName": "empty",
+          "weight": 70,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "randomthings:biomeCrystal",
+      "entries": [
+        {
+          "entryName": "randomthings:biomeCrystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "randomthings:biomecrystal"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
       "name": "evilcraft:inject/chests/condensed_blood",
       "entries": [
         {
@@ -501,7 +542,7 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "item_basic_capacitor4",
+          "entryName": "item_basic_capacitor17",
           "weight": 1,
           "quality": 1,
           "conditions": [

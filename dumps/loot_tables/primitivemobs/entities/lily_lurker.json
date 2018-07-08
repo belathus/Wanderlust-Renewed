@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "name": "lilylurker_drops",
+      "entries": [
+        {
+          "entryName": "minecraft:waterlily",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:waterlily"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lilylurker_rare_drops",
+      "entries": [
+        {
+          "entryName": "minecraft:slime_ball",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": -1.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:slime_ball"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

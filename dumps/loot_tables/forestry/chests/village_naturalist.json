@@ -104,12 +104,111 @@
       "rolls": 3.0
     },
     {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      "name": "forestry_arboriculture_items",
+      "entries": [
+        {
+          "entryName": "forestry:grafter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:grafter"
+        },
+        {
+          "entryName": "sapling_lime",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treeLime",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:sapling"
+        },
+        {
+          "entryName": "sapling_cherry",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treeCherry",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:sapling"
+        },
+        {
+          "entryName": "sapling_larch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treeLarch",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:sapling"
+        },
+        {
+          "entryName": "sapling_teak",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treeTeak",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:sapling"
+        },
+        {
+          "entryName": "sapling_padauk",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treePadauk",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:sapling"
+        }
+      ],
+      "rolls": 3.0
     }
   ]
 }

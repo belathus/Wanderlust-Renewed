@@ -428,6 +428,31 @@
       "rolls": 1.0
     },
     {
+      "name": "forestry_arboriculture_items",
+      "entries": [
+        {
+          "entryName": "forestry:sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treeSipiri",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:sapling"
+        },
+        {
+          "entryName": "empty",
+          "weight": 9,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "forestry_apiculture_bees",
       "entries": [
         {
@@ -471,6 +496,47 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "slimecube",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 80,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:slimecube"
+        },
+        {
+          "entryName": "empty",
+          "weight": 20,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "randomthings:biomeCrystal",
+      "entries": [
+        {
+          "entryName": "randomthings:biomeCrystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "randomthings:biomecrystal"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
     },
     {
       "name": "evilcraft:inject/chests/origins_of_darkness",
@@ -570,7 +636,7 @@
           "name": "enderio:item_travel_staff"
         },
         {
-          "entryName": "item_basic_capacitor7",
+          "entryName": "item_basic_capacitor20",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -595,7 +661,7 @@
           "name": "enderio:item_basic_capacitor"
         },
         {
-          "entryName": "item_basic_capacitor8",
+          "entryName": "item_basic_capacitor21",
           "weight": 1,
           "quality": 1,
           "conditions": [

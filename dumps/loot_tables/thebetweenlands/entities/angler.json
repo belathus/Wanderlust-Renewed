@@ -149,12 +149,34 @@
       ]
     },
     {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
+      "name": "bioluminescence",
+      "entries": [
+        {
+          "entryName": "erebus:materials",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "chance": 0.05,
+              "looting_multiplier": 0.02,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "erebus:materials"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

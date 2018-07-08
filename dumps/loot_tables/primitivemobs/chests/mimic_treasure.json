@@ -1,0 +1,361 @@
+{
+  "pools": [
+    {
+      "name": "mimic_ores",
+      "entries": [
+        {
+          "entryName": "minecraft:coal",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 5.0
+      }
+    },
+    {
+      "name": "mimic_supplies",
+      "entries": [
+        {
+          "entryName": "minecraft:bread",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:bucket",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "entryName": "minecraft:stone_pickaxe",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_pickaxe"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:iron_helmet",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "entryName": "minecraft:iron_leggings",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "entryName": "minecraft:iron_chestplate",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "minecraft:iron_boots",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "entryName": "minecraft:melon",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon"
+        },
+        {
+          "entryName": "minecraft:arrow",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "entryName": "minecraft:bow",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bow"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    },
+    {
+      "name": "mimic_treasure",
+      "entries": [
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:melon_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "entryName": "minecraft:pumpkin_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "entryName": "minecraft:beetroot_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:ender_eye",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "primitivemobs:mimic_orb",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "primitivemobs:mimic_orb"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

@@ -437,6 +437,126 @@
       "rolls": 1.0
     },
     {
+      "name": "lavacharm",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:lavacharm"
+        },
+        {
+          "entryName": "empty",
+          "weight": 95,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "summoningpendulum",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:summoningpendulum"
+        },
+        {
+          "entryName": "empty",
+          "weight": 90,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magichood",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:magichood"
+        },
+        {
+          "entryName": "empty",
+          "weight": 95,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "slimecube",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:slimecube"
+        },
+        {
+          "entryName": "empty",
+          "weight": 90,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "spectrecoil_number",
+      "entries": [
+        {
+          "entryName": "item",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:spectrecoil_number"
+        },
+        {
+          "entryName": "empty",
+          "weight": 90,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        null
+      ]
+    },
+    {
+      "name": "randomthings:biomeCrystal",
+      "entries": [
+        {
+          "entryName": "randomthings:biomeCrystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "randomthings:biomecrystal"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
       "name": "evilcraft:inject/chests/origins_of_darkness",
       "entries": [
         {
@@ -694,7 +814,7 @@
           "name": "enderio:item_material"
         },
         {
-          "entryName": "item_basic_capacitor1",
+          "entryName": "item_basic_capacitor14",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -719,7 +839,7 @@
           "name": "enderio:item_basic_capacitor"
         },
         {
-          "entryName": "item_basic_capacitor2",
+          "entryName": "item_basic_capacitor15",
           "weight": 1,
           "quality": 1,
           "conditions": [
@@ -744,7 +864,7 @@
           "name": "enderio:item_basic_capacitor"
         },
         {
-          "entryName": "item_basic_capacitor3",
+          "entryName": "item_basic_capacitor16",
           "weight": 1,
           "quality": 1,
           "conditions": [

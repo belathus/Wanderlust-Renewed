@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "name": "filch_lizard_001",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "filch_lizard_002",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_ingot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "filch_lizard_003",
+      "entries": [
+        {
+          "entryName": "minecraft:dye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "filch_lizard_004",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "filch_lizard_005",
+      "entries": [
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "filch_lizard_006",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "filch_lizard_007",
+      "entries": [
+        {
+          "entryName": "minecraft:flint",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
