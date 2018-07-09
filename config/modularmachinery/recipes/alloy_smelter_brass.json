@@ -1,0 +1,30 @@
+{
+  "machine": "alloy_furnace",
+  "registryName": "alloy_furnace_brass",
+  "recipeTime": 200,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 20
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "ore:ingotCopper",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "ore:ingotZinc",
+      "amount": 1
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "contenttweaker:material_part:88",
+      "amount": 3
+    }
+  ]
+}
