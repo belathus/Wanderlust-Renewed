@@ -14,3 +14,7 @@
     
     # Redstone Alloy
     mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot>, <ore:dustRedstone>, <ore:itemSilicon>, 200);
+    
+    # Modularium
+    mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>, <ore:dustRedstone>, <ore:ingotBrass>, 200);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>, <ore:dustRedstone>, <ore:dustBrass>, 200);
