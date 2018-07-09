@@ -3,11 +3,7 @@
     #<ore:oreAquamarine>.add(<astralsorcery:blockCustomSandOre>);
 # Ash
     <ore:dustAsh>.add(<biomesoplenty:ash>);
-    <ore:dustAsh>.add(<primal:ash_common>);
     #<ore:dustAsh>.add(<embers:dustAsh>);
-    <ore:dustAsh>.add(<primal:ash_yew>);
-    <ore:dustAsh>.add(<primal:ash_ironwood>);
-    <ore:dustAsh>.add(<primal:ash_wolf>);
 # boats
     <ore:boatWood>.add(<minecraft:boat>);
     <ore:boatWood>.add(<minecraft:spruce_boat>);
@@ -20,14 +16,10 @@
 # Bone Block
     <ore:blockBone>.add(<minecraft:bone_block>);
 # Bread
-    <ore:bread>.add(<primal:corn_bread>);
-    <ore:bread>.add(<primal:valus_bread>);
 #    <ore:bread>.add(<actuallyadditions:item_food:17>);
 # Brick
     <ore:blockBrick>.add(<minecraft:brick_block>);
     <ore:blockBrick>.add(<tconstruct:dried_clay:*>);
-    <ore:blockBrick>.add(<primal:ciniscotta_brick:*>);
-    <ore:blockBrick>.add(<primal:terracotta_brick:*>);
 # Bricks and Stone
     #<ore:stone>.add(<abyssalcraft:stone:2>);
     #<ore:stone>.add(<abyssalcraft:stone:3>);
@@ -40,11 +32,6 @@
     #<ore:bricksStone>.add(<botania:biomeStoneB:*>);
 # Certus
     <ore:oreCertusQuartzOnly>.add(<appliedenergistics2:quartz_ore>);
-# Charcoal
-    <ore:charcoal>.add(<primal:charcoal_fair>);
-    <ore:charcoal>.add(<primal:charcoal_good>);
-    <ore:charcoal>.add(<primal:charcoal_high>);
-    <ore:charcoal>.add(<primal:charcoal_pure>);
 # Coils
     <ore:coilCopper>.add(<immersiveengineering:metal_decoration0>);
 #    <ore:coilCopper>.add(<rockhounding_chemistry:misc_items:20>);
@@ -101,13 +88,9 @@
     <ore:flowerRed>.add(<biomesoplenty:flower_1>);
     <ore:flowerRed>.add(<botania:flower:14>);
 # Food
-    <ore:listAllmuttonraw>.add(<primal:ovis_meat_raw>);
     #<ore:listAllmuttonraw>.add(<animania:raw_prime_mutton>);
-    <ore:listAllmuttoncooked>.add(<primal:ovis_meat_cooked>);
     #<ore:listAllmuttoncooked>.add(<animania:cooked_prime_mutton>);
-    <ore:listAllmeatraw>.add(<primal:ovis_meat_raw>);
     #<ore:listAllmeatraw>.add(<animania:raw_prime_mutton>);
-    <ore:listAllmeatcooked>.add(<primal:ovis_meat_cooked>);
     #<ore:listAllmeatcooked>.add(<animania:cooked_prime_mutton>);
 # Frames
     #<ore:frameWood>.add(<actuallyadditions:block_misc:4>);
@@ -128,8 +111,6 @@
 # Glass
     <ore:blockGlassColorless>.add(<tconstruct:clear_glass>);
 # Limestone
-    <ore:stoneLimestone>.add(<primal:carbonate_stone>);
-    <ore:stoneLimestone>.add(<primal:ferro_stone>);
     <ore:stoneLimestone>.add(<chisel:limestone:*>);
     <ore:stoneLimestone>.add(<chisel:limestone1:*>);
     #<ore:stoneLimestone>.add(<thebetweenlands:limestone>);
@@ -170,7 +151,6 @@
     <ore:plankMagic>.add(<wizardry:wisdom_wood_planks>);
     <ore:plankMagic>.add(<thaumcraft:plank_silverwood>);
     <ore:plankMagic>.add(<advancedrocketry:planks>);
-    <ore:plankMagic>.add(<primal:planks:3>);
     <ore:plankMagic>.add(<twilightforest:root:1>);
     <ore:plankMagic>.add(<twilightforest:magic_log:*>);
 # Marble
@@ -188,14 +168,6 @@
 # Rock Crystal Ore
     <ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);
 # Salt
-    <ore:dustSalt>.add(<primal:salt_dust_rock>);
-    <ore:dustSalt>.add(<primal:salt_dust_netjry>);
-    <ore:dustSalt>.add(<primal:salt_dust_fire>);
-    <ore:dustSalt>.add(<primal:salt_dust_void>);
-    <ore:itemSalt>.add(<primal:salt_dust_rock>);
-    <ore:itemSalt>.add(<primal:salt_dust_netjry>);
-    <ore:itemSalt>.add(<primal:salt_dust_fire>);
-    <ore:itemSalt>.add(<primal:salt_dust_void>);
 #    <ore:foodSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 #    <ore:itemSalt>.add(<rockhounding_chemistry:chemicalItems:1>);
 # Uninspected Minerals
@@ -209,22 +181,6 @@
 #    <ore:logWood>.add(<rockhounding_surface:fossilLogs:*>);
 #    <ore:logWood>.add(<rockhounding_surface:petrifiedLogs:*>);
 #    <ore:plankWood>.add(<rockhounding_surface:fossilPlanks:*>);
-# Work Table Full Blocks
-    val worktable_logs = [
-        <primal:worktable_shelf>,
-        <primal:worktable_shelf:1>,
-        <primal:worktable_shelf:2>,
-        <primal:worktable_shelf:3>,
-        <primal:worktable_shelf:4>,
-        <primal:worktable_shelf:5>,
-        <primal:worktable_shelf:6>,
-        <primal:worktable_shelf:7>,
-        <primal:worktable_shelf:8>,
-        <primal:worktable_shelf:9>
-    ] as crafttweaker.item.IItemStack[];
-    for i, block in worktable_logs{
-        <ore:worktableWoodLog>.add(block);
-    }
 
 
 
