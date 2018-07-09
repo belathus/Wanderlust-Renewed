@@ -1,5 +1,5 @@
 # Philosopher's Gold
-  #furnace.addRecipe(<materialpart:philosophersgold:ingot>, <everlastingabilities:abilityTotem>, 1.0);
+  #furnace.addRecipe(<materialpart:philosophers_gold:ingot>, <everlastingabilities:abilityTotem>, 1.0);
   var pnugget = <materialpart:philosophers_gold:nugget>;
   var pingot = <materialpart:philosophers_gold:ingot>;
   var pblock = <materialpart:philosophers_gold:block>;
