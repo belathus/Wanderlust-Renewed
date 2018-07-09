@@ -458,25 +458,7 @@
 #    recipes.addShapeless(<materialpart:quartz_enriched_iron:dust> * 2,
 #        [<ore:dustSteel>, <ore:dustSteel>, <ore:dustQuartz>]);
 
-# Reliquary
-    recipes.addShaped(<xreliquary:glowing_water>*5,
-        [[<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
-         [<ore:paneGlass>,<ore:dustGlowstone>,<ore:paneGlass>],
-         [<ore:cropNetherWart>,<ore:paneGlass>,<ore:gunpowder>]]);
-    recipes.addShaped(<xreliquary:attraction_potion>*5,
-        [[<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
-         [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
-         [<minecraft:dye:1>,<ore:paneGlass>,<minecraft:dye:3>]]);
-    recipes.addShaped(<xreliquary:fertile_potion>*5,
-        [[<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
-         [<ore:paneGlass>,<xreliquary:mob_ingredient:9>,<ore:paneGlass>],
-         [<minecraft:dye:2>,<ore:paneGlass>,<minecraft:dye:11>]]);
-#    recipes.addShaped(<xreliquary:mob_ingredient:11>,
-#        [[<ore:toolAxe>],
-#         [<enderio:blockEndermanSkull>]]);
-    recipes.addShaped(<xreliquary:mob_ingredient:6>,
-        [[<ore:toolAxe>],
-         [<minecraft:skull:2>]]);
+
 # Rockhounding
     # Fuel to fuel pellets
 #    recipes.addShapeless(<rockhounding_oretiers:tiersItems:5>*16,[<ore:fuelCoke>]);
@@ -484,23 +466,6 @@
 #    recipes.addShaped(<rockhounding_chemistry:misc_items:19>,
 #        [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 #    recipes.remove(<rockhounding_chemistry:misc_items:19>);
-
-# Tinker's Construct
-    recipes.remove(<tconstruct:soil>);
-    recipes.addShapeless(<tconstruct:soil>,
-        [<primal:carbonate_slack>,<ore:dustAsh>,<ore:clumpMud>]);
-    recipes.addShapeless(<tconstruct:soil>,
-        [<minecraft:clay>,<ore:mortar>,<biomesoplenty:dirt:2>]);
-    recipes.addShapeless(<tconstruct:soil>,
-        [<primal:terraclay_clump>,<minecraft:dye:15>,<biomesoplenty:dirt:2>]);
-    recipes.addShapeless(<tconstruct:soil>,
-        [<primal:earthwax_clump>,<ore:gunpowder>,<ore:gravel>]);
-    recipes.remove(<tconstruct:stone_stick>);
-    recipes.addShaped(<tconstruct:stone_stick>,[[<ore:stone>],[<ore:stone>]]);
-    recipes.remove(<tconstruct:stone_torch>);
-    recipes.addShaped(<tconstruct:stone_torch>,
-        [[<ore:powderBlaze>],
-         [<ore:rodStone>]]);
 
 # Waystones
     recipes.remove(<waystones:warp_scroll>);
