@@ -12,7 +12,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
   coagulation.localizedDescription = "§oCoagulating§r\nThis tool will sometimes drop coagulated blood when used.";
   coagulation.addItem(<item:primal:opal>);
   coagulation.onBlockHarvestDrops = function(trait, tool, event) {
-    val world = crafttweaker.world.IWorld.create(0);
+    val world = event.player.world();
     if(world.getWorldTime() % 20 == 0){
       server.commandManager.executeCommand(event.player, "summon minecraft:item ~ ~ ~ {item:{id:'evilcraft:condensed_blood',Count:1}}");
     }
