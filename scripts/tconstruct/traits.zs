@@ -17,8 +17,8 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
       server.commandManager.executeCommand(event.player, "summon minecraft:item ~ ~ ~ {item:{id:'evilcraft:condensed_blood',Count:1}}");
     }
   };
-  coagulation.afterHit = function(tool, attacker, target, damageDealt, wasCrit, wasHit) {
-    val world = crafttweaker.world.IWorld.create(0);
+  coagulation.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    val world = attacker.world();
     if(world.getWorldTime() % 10 == 0){
       server.commandManager.executeCommand(attacker, "summon minecraft:item ~ ~ ~ {item:{id:'evilcraft:condensed_blood',Count:1}}");
     }
