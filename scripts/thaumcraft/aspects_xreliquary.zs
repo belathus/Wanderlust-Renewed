@@ -2,7 +2,7 @@
 
 ### Reliquary ###
   <xreliquary:mob_ingredient:0>.setAspects(<aspect:mortuus>*20); # rib bone
-  <xreliquary:mob_ingredient:1>.setAspects(<aspect:exanimis*20>); # withered rib
+  <xreliquary:mob_ingredient:1>.setAspects(<aspect:exanimis>*20); # withered rib
   <xreliquary:mob_ingredient:2>.setAspects(<aspect:bestia>*20); # chelicerae
   <xreliquary:mob_ingredient:3>.setAspects(<aspect:perditio>*20); # catalyzing gland
   <xreliquary:mob_ingredient:4>.setAspects(<aspect:aqua>*20); # slime pearl
