@@ -4,7 +4,7 @@
 # ==== Modular Machinery ==== #
 # =========================== #
 
-  removeByRecipeName("modularmachinery:energy_input_small");
+  recipes.removeByRecipeName("modularmachinery:energy_input_small");
   recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>,
     [[null, <immersiveengineering:connector:0>, null],
      [<ore:hardenedClay>,<modularmachinery:blockenergyinputhatch:0>,<ore:hardenedClay>],
