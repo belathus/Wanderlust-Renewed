@@ -1,5 +1,4 @@
-
-#modloaded loottweaker thebetweenlands
+#modloaded loottweaker primitivemobs
 
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
