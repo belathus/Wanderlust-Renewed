@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Spawner, Primitive Mobs" required="false">
+    <spawning>
+      <entity name="primitivemobs:mimic" costMultiplier="5.0" disabled="true"/>
+    </spawning>
+  </recipe>
+</enderio:recipes>
