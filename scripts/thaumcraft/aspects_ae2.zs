@@ -23,10 +23,10 @@
   <appliedenergistics2:material:24>.setAspects(<aspect:desiderium>*15,<aspect:vitreus>*15, <aspect:potentia>*10, <aspect:ordo>*10, <aspect:ignis>,<aspect:sensus>);  # Engineering (diamond) Processor
   <appliedenergistics2:material:46>.setAspects(<aspect:terra>*10,<aspect:aer>*10,<aspect:perditio>*5);                             # Skystone Dust
   <appliedenergistics2:material:46>.setAspects(<aspect:motus>*10,<aspect:alienis>*10,<aspect:perditio>*5);                         # Ender Pearl Dust
-  <appliedenergistics2:material:47>.setAspects(<aspect:alkemia>*150);                                                              # Singularity
-  <appliedenergistics2:material:48>.setAspects(<aspect:motus>*10,<aspect:alkemia>*150);                                            # Quantum Singularity
+  <appliedenergistics2:material:47>.setAspects(<aspect:alkimia>*150);                                                              # Singularity
+  <appliedenergistics2:material:48>.setAspects(<aspect:motus>*10,<aspect:alkimia>*150);                                            # Quantum Singularity
   
   <appliedenergistics2:sky_stone_block>.setAspects(<aspect:terra>*10,<aspect:aer>*10);
   <appliedenergistics2:smooth_sky_stone_block>.setAspects(<aspect:terra>*10, <aspect:aer>*10, <aspect:ignis>);
-  <appliedenergistics2:smooth_sky_stone_brick>.setAspects(<aspect:terra>*10, <aspect:aer>*10, <aspect:ordo>*5);
-  <appliedenergistics2:smooth_sky_stone_small_brick>.setAspects(<aspect:terra>*10, <aspect:aer>*10, <aspect:ordo>*5);
+  <appliedenergistics2:sky_stone_brick>.setAspects(<aspect:terra>*10, <aspect:aer>*10, <aspect:ordo>*5);
+  <appliedenergistics2:sky_stone_small_brick>.setAspects(<aspect:terra>*10, <aspect:aer>*10, <aspect:ordo>*5);
