@@ -7,9 +7,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
 # ===========================
   RecipeBuilder.get("chemist")
     .setShaped(
-      [[<minecraft:bone_meal>,<minecraft:rotten_flesh>,<minecraft:bone_meal>],
+      [[<minecraft:dye:15>,<minecraft:rotten_flesh>,<minecraft:dye:15>],
        [<minecraft:rotten_flesh>,<rustic:fertile_soil>,<minecraft:rotten_flesh>],
-       [<minecraft:bone_meal>,<minecraft:rotten_flesh>,<minecraft:bone_meal>]])
+       [<minecraft:dye:15>,<minecraft:rotten_flesh>,<minecraft:dye:15>]])
     .setFluid(<liquid:sulfuricacid> * 500)
     .setSecondaryIngredients([<xreliquary:mob_ingredient:9>,<ore:gemApatite>])
     .addOutput(<randomthings:fertilizeddirt>)
