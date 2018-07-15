@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "name": "horde_spider_string",
+      "entries": [
+        {
+          "entryName": "minecraft:string",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:string"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "horde_spider_eye",
+      "entries": [
+        {
+          "entryName": "minecraft:spider_eye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": -1.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "horde_spider_gland",
+      "entries": [
+        {
+          "entryName": "magnum:spider_silk_gland",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": -1.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "magnum:spider_silk_gland"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

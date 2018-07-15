@@ -1,10 +1,10 @@
 {
   "pools": [
     {
-      "name": "main_pech",
+      "name": "mad_baby_meat",
       "entries": [
         {
-          "entryName": "minecraft:gold_nugget",
+          "entryName": "minecraft:rotten_flesh",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -24,26 +24,34 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:gold_nugget"
+          "name": "minecraft:rotten_flesh"
         }
       ],
       "rolls": 1.0
     },
     {
-      "name": "special",
+      "name": "mad_baby_items",
       "entries": [
         {
-          "entryName": "thaumcraft:curio",
+          "entryName": "minecraft:iron_ingot",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thaumcraft:curio"
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:carrot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "entryName": "minecraft:potato",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:potato"
         }
       ],
       "rolls": 1.0,
@@ -53,7 +61,7 @@
           "condition": "minecraft:killed_by_player"
         },
         {
-          "chance": 0.0125,
+          "chance": 0.025,
           "looting_multiplier": 0.01,
           "condition": "minecraft:random_chance_with_looting"
         }
