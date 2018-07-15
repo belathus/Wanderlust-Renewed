@@ -77,4 +77,12 @@
       <output name="contenttweaker:material_part:173" amount="5"/>
     </alloying>
   </recipe>
+  
+  <recipe name="Alloy: Modularium" required="false">
+    <alloying energy="4000" exp="0">
+      <input name="dustRedstone" amount="1"/>
+      <input name="ingotBrass" amount="1"/>
+      <output name="modularmachinery:itemmodularium" amount="1"/>
+    </alloying>
+  </recipe>
 </enderio:recipes>
