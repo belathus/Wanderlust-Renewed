@@ -1,6 +1,7 @@
 #modloaded thaumcraft modtweaker
 
 ### Fixing some vanilla materials ###
+  <minecraft:coal>.setAspects(<aspect:potentia>*10,<aspect:ignis>*10);
   <minecraft:planks>.setAspects(<aspect:herba>*3);
   <minecraft:red_sandstone:1>.setAspects(<aspect:terra>*15, <aspect:perditio>*10, <aspect:praecantatio>*5);
   <minecraft:red_sandstone:2>.setAspects(<aspect:terra>*15, <aspect:perditio>*10, <aspect:ordo>*5);
