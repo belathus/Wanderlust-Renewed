@@ -13,8 +13,9 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
     #slime_bone.addMaterialTrait(<ticontrait:fractured>);
     #slime_bone.addMaterialTrait(<ticontrait:splintering>, "head");
     #slime_bone.addMaterialTrait(<ticontrait:splitting>, "shaft");
-    slime_bone.addMaterialTrait(<ticontrait:bone>);
-    slime_bone.addMaterialTrait(<ticontrait:slime>);
+    #slime_bone.addMaterialTrait(<ticontrait:bone>);
+    #slime_bone.addMaterialTrait(<ticontrait:slime>);
+    #slime_bone.addMaterialTrait(<ticontrait:cactus>);
 
     slime_bone.addHeadMaterialStats(1000, 5.09, 2.5, 1);
     slime_bone.addHandleMaterialStats(1.1, 50);
