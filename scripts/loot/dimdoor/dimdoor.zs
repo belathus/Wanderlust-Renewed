@@ -120,7 +120,7 @@ import loottweaker.vanilla.loot.Functions;
   dd_rare.addItemEntryHelper(<immersiveengineering:blueprint>.withTag({"blueprint": "bullet"}), 1, 0, [], []);
   # Dimension Doors get world thread and fabric
   dd_rare.addItemEntryHelper(<dimdoors:fabric>,                         20, 0, [Functions.setCount(16,64)], []);
-  dd_rare.addItemEntryHelper(<dimdoors:world_thread>,                   20, 0, [Functions.setCount(2,12)], []);
+  dd_rare.addItemEntryHelper(<dimdoors:world_thread>,                   40, 0, [Functions.setCount(2,12)], []);
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item 
   # per chest. These are mostly tools.
