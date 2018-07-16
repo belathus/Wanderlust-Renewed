@@ -5,7 +5,7 @@
   <ore:ingotElectricalSteel>.setAspects(<aspect:ignis>*11,<aspect:metallum>*15,<aspect:ordo>,<aspect:perditio>*15,<aspect:sensus>);
   <ore:dustCoal>.setAspects(<aspect:ignis>*10,<aspect:perditio>*15);
   <ore:itemConduitBinder>.setAspects(<aspect:aqua>,<aspect:ignis>,<aspect:perditio>,<aspect:terra>*2);
-  <ore:itemWitheringDust>.setAspects(<aspect:exanimus>*2,<aspect:mortuus>*2,<aspect:spiritus>*2);
+  <ore:itemWitheringDust>.setAspects(<aspect:exanimis>*2,<aspect:mortuus>*2,<aspect:spiritus>*2);
   <ore:ingotPulsatingIron>.setAspects(<aspect:alienis>*10,<aspect:metallum>*15,<aspect:motus>*15);
   <ore:ingotEnergeticAlloy>.setAspects(<aspect:desiderium>*10,<aspect:lux>*10,<aspect:metallum>*10,<aspect:potentia>*10,<aspect:sensus>*5);
   <ore:ingotVibrantAlloy>.setAspects(<aspect:alienis>*10,<aspect:desiderium>*10,<aspect:lux>*10,<aspect:metallum>*10,<aspect:motus>*15,<aspect:potentia>*10,<aspect:sensus>*5);
