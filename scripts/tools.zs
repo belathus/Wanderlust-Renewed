@@ -436,6 +436,10 @@
 #         [<ore:flakeFlint>],
 #         [<ore:stickWood>]]);
 
+# Shears
+    recipes.removeByRecipeName("evilcraft:deadbush");
+    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.anyDamage().transformDamage(), <ore:treeSapling>]);
+
 # Thermal Expansion
     #recipes.remove(<thermalfoundation:tool.shears_wood>);
     #recipes.remove(<thermalfoundation:tool.shears_stone>);

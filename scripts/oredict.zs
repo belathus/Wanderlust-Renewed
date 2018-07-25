@@ -227,3 +227,11 @@
 #    <ore:oreTungsten>.add(<nethermetals:nether_tungsten_ore>);
 #    <ore:oreUranium>.add(<nethermetals:nether_uranium_ore>);
 #    <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
+
+# Oredict for shears
+    <ore:toolShears>.add(<minecraft:shears>);
+    <ore:toolShears>.add(<botania:manasteelshears>);
+    <ore:toolShears>.add(<botania:elementiumshears>);
+    <ore:toolShears>.add(<enderio:item_dark_steel_shears>);
+    <ore:toolShears>.add(<thebetweenlands:syrmorite_shears>);
+    <ore:toolShears>.add(<tinkerscompendium:shears>);
