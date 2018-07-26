@@ -437,13 +437,7 @@ import crafttweaker.item.IItemCondition;
 #        [[<roots:verdantSprig>],
 #         [<ore:flakeFlint>],
 #         [<ore:stickWood>]]);
-
-# Shears
-    recipes.removeByRecipeName("evilcraft:deadbush");
-    /* for entry in <ore:toolShears>.items{
-        recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [entry.anyDamage().transformDamage(), <ore:treeSapling>]);
-    } */
-    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.transformDamage(), <ore:treeSapling>]);
+    
 # Thermal Expansion
     #recipes.remove(<thermalfoundation:tool.shears_wood>);
     #recipes.remove(<thermalfoundation:tool.shears_stone>);
