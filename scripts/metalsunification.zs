@@ -143,7 +143,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     #mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
     #mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
 
-  # Gunmetal
+# Gunmetal
     var list_gunmetal = [
         # Nugget [0]                      Ingot [1]                      Block [2]                      Plate [3]                      Gear [4]                     Ore [5] Dust [6]
         [<materialpart:gunmetal:nugget>, <materialpart:gunmetal:ingot>, <materialpart:gunmetal:block>, <materialpart:gunmetal:plate>, <materialpart:gunmetal:gear>, nope,  <materialpart:gunmetal:dust>]
@@ -257,15 +257,3 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     ] as crafttweaker.item.IItemStack[][];
     var uranium_oredict = [<ore:nuggetUranium>,<ore:ingotUranium>,<ore:blockUranium>,<ore:plateUranium>,<ore:gearUranium>,<ore:oreUranium>,<ore:dustUranium>] as crafttweaker.item.IIngredient[];
     unify(list_uranium, uranium_oredict);
-
-
-
-# Zinc
-    val list_zinc = [
-    #    nugget,                     ingot,                     block,                     plate,                     Gear                      ore                  dust
-        [<materialpart:zinc:nugget>, <materialpart:zinc:ingot>, <materialpart:zinc:block>, <materialpart:zinc:plate>, <materialpart:zinc:gear>, ctOre.withDamage(9), <materialpart:zinc:dust>],
-        [<primal:zinc_nugget>,       <primal:zinc_ingot>,       <primal:metalblock:8>,     <primal:zinc_plate>,       nope,                     nope,                <primal:zinc_dust>]
-        #[nope, nope, nope, nope, nope, nope, <rockhounding_chemistry:chemicalDusts:20>]
-    ] as crafttweaker.item.IItemStack[][];
-    var zinc_oredict = [<ore:nuggetZinc>,<ore:ingotZinc>,<ore:blockZinc>,<ore:plateZinc>,<ore:gearZinc>,<ore:oreZinc>,<ore:dustZinc>] as crafttweaker.item.IIngredient[];
-    unify(list_zinc, zinc_oredict);
