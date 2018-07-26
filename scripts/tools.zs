@@ -6,6 +6,8 @@
 #     [<>,<>,<>],
 #     [<>,<>,<>]]);
 
+import crafttweaker.item.IItemCondition;
+
 # Vanilla
     recipes.remove(<minecraft:wooden_pickaxe>);
     recipes.remove(<minecraft:stone_pickaxe>);
@@ -438,8 +440,10 @@
 
 # Shears
     recipes.removeByRecipeName("evilcraft:deadbush");
-    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.anyDamage().transformDamage(), <ore:treeSapling>]);
-
+    /* for entry in <ore:toolShears>.items{
+        recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [entry.anyDamage().transformDamage(), <ore:treeSapling>]);
+    } */
+    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.transformDamage(), <ore:treeSapling>]);
 # Thermal Expansion
     #recipes.remove(<thermalfoundation:tool.shears_wood>);
     #recipes.remove(<thermalfoundation:tool.shears_stone>);

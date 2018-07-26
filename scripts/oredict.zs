@@ -1,3 +1,5 @@
+import crafttweaker.item.IIngredient;
+
     #<ore:stickIron>.add(<fp:spaceship:12>);
 # Aquamarine Ore
     #<ore:oreAquamarine>.add(<astralsorcery:blockCustomSandOre>);
@@ -229,9 +231,22 @@
 #    <ore:oreZirconium>.add(<nethermetals:nether_zirconium_ore>);
 
 # Oredict for shears
-    <ore:toolShears>.add(<minecraft:shears>);
+    var shears = [
+        <minecraft:shears>.anyDamage(),
+        <botania:manasteelshears>.anyDamage(),
+        <botania:elementiumshears>.anyDamage(),
+        <enderio:item_dark_steel_shears>.anyDamage(),
+        <thebetweenlands:syrmorite_shears>.anyDamage(),
+        <tinkerscompendium:shears>.anyDamage()
+    ] as crafttweaker.item.IIngredient[];
+    for i, tool in shears{
+        for instance in tool.items{
+            <ore:toolShears>.add(instance);
+        }
+    }
+    /* <ore:toolShears>.add(<minecraft:shears>);
     <ore:toolShears>.add(<botania:manasteelshears>);
     <ore:toolShears>.add(<botania:elementiumshears>);
     <ore:toolShears>.add(<enderio:item_dark_steel_shears>);
     <ore:toolShears>.add(<thebetweenlands:syrmorite_shears>);
-    <ore:toolShears>.add(<tinkerscompendium:shears>);
+    <ore:toolShears>.add(<tinkerscompendium:shears>); */
