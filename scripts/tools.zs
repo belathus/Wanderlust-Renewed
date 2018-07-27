@@ -6,8 +6,6 @@
 #     [<>,<>,<>],
 #     [<>,<>,<>]]);
 
-import crafttweaker.item.IItemCondition;
-
 # Vanilla
     recipes.remove(<minecraft:wooden_pickaxe>);
     recipes.remove(<minecraft:stone_pickaxe>);
