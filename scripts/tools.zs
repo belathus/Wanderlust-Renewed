@@ -6,6 +6,8 @@
 #     [<>,<>,<>],
 #     [<>,<>,<>]]);
 
+import crafttweaker.item.IItemCondition;
+
 # Vanilla
     recipes.remove(<minecraft:wooden_pickaxe>);
     recipes.remove(<minecraft:stone_pickaxe>);
@@ -435,7 +437,7 @@
 #        [[<roots:verdantSprig>],
 #         [<ore:flakeFlint>],
 #         [<ore:stickWood>]]);
-
+    
 # Thermal Expansion
     #recipes.remove(<thermalfoundation:tool.shears_wood>);
     #recipes.remove(<thermalfoundation:tool.shears_stone>);

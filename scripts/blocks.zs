@@ -83,6 +83,11 @@
          [<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
          [null,<ore:gemDark>,null]]);
 
+    # Shear saplings into dead bush
+    recipes.removeByRecipeName("evilcraft:deadbush");
+    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.transformDamage(), <ore:treeSapling>]);
+
+
 # Extra Utilities
 #    # Portal to the Deep Dark
 #    recipes.remove(<extrautils2:teleporter:1>);
