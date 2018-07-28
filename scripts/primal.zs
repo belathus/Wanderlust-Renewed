@@ -1,4 +1,4 @@
-#Drying rack unification with TiC
+# Drying rack unification with TiC
 
 static drying_recipes as crafttweaker.item.IItemStack[][] = [
   [<tconstruct:spaghetti:1>, <tconstruct:spaghetti:2>],
@@ -16,7 +16,7 @@ static drying_recipes as crafttweaker.item.IItemStack[][] = [
   [<minecraft:clay_ball>, <tconstruct:materials:2>],
   [<minecraft:clay>, <tconstruct:dried_clay>],
   [<minecraft:sponge:1>, <minecraft:sponge>]
-] ;
+];
 
 val drying_names = [
   "dry_spaghetti",
@@ -55,6 +55,7 @@ val drying_times = [
 ] as int[];
 
 for i,item in drying_recipes {
+  
   mods.primal.DryingRack.addNonRottingRecipe(
     drying_names[i], 
     drying_times[i], 
