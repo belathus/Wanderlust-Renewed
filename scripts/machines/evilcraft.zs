@@ -35,6 +35,6 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
   recipes.addShapeless("Chalice_NBT_recipe", <evilcraft:entangled_chalice>,
     [<evilcraft:entangled_chalice>.marked("chalice")],
     function(out, ins, cInfo) {
-      val map as crafttweaker.data.IData = {rotatable:0, rotation:0, x:0, y:0, z:0, entangledChalice:{}, id:"", items:[]};
+      val map as crafttweaker.data.IData = {rotatable:0, rotation:0, x:0, y:0, z:0, entangledChalice:{tankID:"", capacity:0}, id:"", items:[]};
       return out.withTag(ins.chalice.tag - map);
     }, null);
