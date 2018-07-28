@@ -17,6 +17,17 @@
     mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:material>,<appliedenergistics2:material:10>, 1000);
     #mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tacoitem>.withTag({display:{Lore:["It is taco night!"]}}), <ore:oreTaconite>, 300);
     
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <biomesoplenty:plant_0>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <biomesoplenty:plant_0:1>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <biomesoplenty:plant_0:7>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <biomesoplenty:plant_0:8>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <biomesoplenty:plant_0:14>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <biomesoplenty:plant_1:0>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <twilightforest:twilight_plant>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <tconstruct:slime_grass_tall>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <tconstruct:slime_grass_tall:4>, 2500);
+    mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <tconstruct:slime_grass_tall:8>, 2500);
+    
     # interrupt the stone cycle
     mods.botania.ManaInfusion.removeRecipe(<minecraft:stone:5>);
     mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:5>,<minecraft:stone>,200);
@@ -32,7 +43,7 @@
     mods.botania.ManaInfusion.addConjuration(<biomesoplenty:dirt:2> * 2, <biomesoplenty:dirt:2>, 500);
     mods.botania.ManaInfusion.addConjuration(<minecraft:sand:1> * 2, <minecraft:sand:1>, 500);
     mods.botania.ManaInfusion.addConjuration(<forestry:ash> * 2, <ore:dustAsh>, 500);
-    mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:material> * 2, <appliedenergistics2:material>, 7500);
+    mods.botania.ManaInfusion.addConjuration(<appliedenergistics2:material> * 2, <appliedenergistics2:material>, 7500);
     
     mods.botania.ManaInfusion.addConjuration(<botania:dye:0> * 2, <ore:dyeWhite>, 500);
     mods.botania.ManaInfusion.addConjuration(<botania:dye:1> * 2, <ore:dyeOrange>, 500);
