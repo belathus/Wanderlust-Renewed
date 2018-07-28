@@ -1033,144 +1033,6 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
-        },
-        {
-          "xPos": 11,
-          "yPos": 30,
-          "width": 182.0,
-          "height": 38.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Now that you have a kiln, you can smelt cobblestone into stone. With stone and stone bricks available to you, you can make a smelter.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 4
-        },
-        {
-          "xPos": 63,
-          "yPos": 74,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapedRecipes",
-              "itemString": "tconstruct:smeltery_controller 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 5
-        },
-        {
-          "xPos": 240,
-          "yPos": 17,
-          "width": 175.0,
-          "height": 57.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]At this point, you\u0027ll have materials like copper, tin, and zinc. The next step is to turn these into alloys such as bronze and brass. There are two methods to make these alloys: the smeltery and the crucible.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 236,
-          "yPos": 159,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapelessOreRecipe",
-              "itemString": "tconstruct:soil 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 7
-        },
-        {
-          "xPos": 240,
-          "yPos": 85,
-          "width": 166.0,
-          "height": 32.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]The Smeltery\nYou\u0027ll need grout. There are four different recipes for grout:",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 8
-        },
-        {
-          "xPos": 236,
-          "yPos": 117,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapelessRecipes",
-              "itemString": "tconstruct:soil 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 9
-        },
-        {
-          "xPos": 320,
-          "yPos": 118,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapelessOreRecipe",
-              "itemString": "tconstruct:soil 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 10
-        },
-        {
-          "xPos": 320,
-          "yPos": 159,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapelessOreRecipe",
-              "itemString": "tconstruct:soil 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 11
         }
       ],
       "pageNumber": 25,
@@ -2033,74 +1895,6 @@
           "isLocked": true,
           "isHidden": false,
           "layerIndex": 2
-        },
-        {
-          "xPos": 21,
-          "yPos": 20,
-          "width": 122.0,
-          "height": 54.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Then you just process the grout in a furnace to make seared bricks. From there, you can make the rest of the smeltery\u0027s components.",
-              "size": 1.0
-            }
-          },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 3
-        },
-        {
-          "xPos": 21,
-          "yPos": 74,
-          "width": 163.0,
-          "height": 37.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]At a minimum, you\u0027ll need a smeltery controller, a tank, a drain, a smeltery faucet, and a casting table or basin.",
-              "size": 1.0
-            }
-          },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 4
-        },
-        {
-          "xPos": 254,
-          "yPos": 105,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapedRecipes",
-              "itemString": "tconstruct:smeltery_controller 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 5
-        },
-        {
-          "xPos": 316,
-          "yPos": 160,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapedOreRecipe",
-              "itemString": "tconstruct:seared_tank 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 6
         }
       ],
       "pageNumber": 27,
@@ -4101,22 +3895,6 @@
           "layerIndex": 1
         },
         {
-          "xPos": 59,
-          "yPos": 8,
-          "width": 80.0,
-          "height": 9.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]Ore Processing",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 2
-        },
-        {
           "xPos": 11,
           "yPos": 30,
           "width": 180.0,
@@ -4130,25 +3908,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 3
-        },
-        {
-          "xPos": 64,
-          "yPos": 100,
-          "width": 80.0,
-          "height": 80.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapedRecipes",
-              "itemString": "minecraft:furnace",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 4
+          "layerIndex": 2
         },
         {
           "xPos": 206,
@@ -4182,121 +3942,23 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 5
+          "layerIndex": 3
         },
         {
-          "xPos": 275,
-          "yPos": 135,
-          "width": 24.0,
-          "height": 24.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
-            "properties": {
-              "itemString": "minecraft:clay",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 333,
-          "yPos": 133,
-          "width": 24.0,
-          "height": 24.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
-            "properties": {
-              "itemString": "tconstruct:dried_clay 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 7
-        },
-        {
-          "xPos": 285,
-          "yPos": 52,
-          "width": 87.0,
-          "height": 87.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
-            "properties": {
-              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-              "recipeType": "ShapedRecipes",
-              "itemString": "tconstruct:dried_clay 1",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 8
-        },
-        {
-          "xPos": 305,
-          "yPos": 133,
-          "width": 22.0,
-          "height": 22.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
-            "properties": {
-              "itemString": "tconstruct:rack 1 {textureBlock:{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}}",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 9
-        },
-        {
-          "xPos": 236,
-          "yPos": 103,
-          "width": 179.0,
-          "height": 27.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]You could also simply dry an entire block of clay and use that to make a kiln.",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 10
-        },
-        {
-          "xPos": 8,
+          "xPos": 233,
           "yPos": 150,
-          "width": 190.0,
-          "height": 49.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureText",
-            "properties": {
-              "text": "[color\u003dblack]\u003cthe recipe changed\u003e",
-              "size": 1.0
-            }
-          },
-          "isLocked": false,
-          "isHidden": false,
-          "layerIndex": 11
-        },
-        {
-          "xPos": 236,
-          "yPos": 32,
           "width": 179.0,
-          "height": 48.0,
+          "height": 38.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "[color\u003dblack]Once dried, simply craft it into brick blocks.",
+              "text": "[color\u003dblack]Simply place a clay ball on the drying rack and wait for a while. The drying rack does dry faster when placed under the sun.",
               "size": 1.0
             }
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 12
+          "layerIndex": 4
         },
         {
           "xPos": 274,
@@ -4311,7 +3973,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 13
+          "layerIndex": 5
         },
         {
           "xPos": 303,
@@ -4326,7 +3988,7 @@
           },
           "isLocked": false,
           "isHidden": false,
-          "layerIndex": 14
+          "layerIndex": 6
         },
         {
           "xPos": 331,
@@ -4341,7 +4003,373 @@
           },
           "isLocked": false,
           "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 24,
+          "yPos": 9,
+          "width": 111.0,
+          "height": 11.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]Processing Ores",
+              "size": 1.3000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 312,
+          "yPos": 72,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:slat_oak",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 70,
+          "yPos": 120,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 88,
+          "yPos": 138,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 52,
+          "yPos": 138,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 52,
+          "yPos": 156,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 88,
+          "yPos": 156,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 70,
+          "yPos": 156,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
           "layerIndex": 15
+        },
+        {
+          "xPos": 52,
+          "yPos": 120,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 16
+        },
+        {
+          "xPos": 294,
+          "yPos": 72,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:slat_oak",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 17
+        },
+        {
+          "xPos": 276,
+          "yPos": 72,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:slat_oak",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 18
+        },
+        {
+          "xPos": 276,
+          "yPos": 90,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:wood_pin",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 19
+        },
+        {
+          "xPos": 312,
+          "yPos": 90,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:wood_pin",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 20
+        },
+        {
+          "xPos": 354,
+          "yPos": 90,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:drying_rack 0 {type:\"oak\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 21
+        },
+        {
+          "xPos": 294,
+          "yPos": 90,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "primal:plant_cordage",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 22
+        },
+        {
+          "xPos": 276,
+          "yPos": 108,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:planks 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 23
+        },
+        {
+          "xPos": 312,
+          "yPos": 108,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:planks 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 24
+        },
+        {
+          "xPos": 70,
+          "yPos": 138,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:coal 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 25
+        },
+        {
+          "xPos": 130,
+          "yPos": 138,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:furnace",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 26
+        },
+        {
+          "xPos": 88,
+          "yPos": 120,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 27
+        },
+        {
+          "xPos": 273,
+          "yPos": 69,
+          "width": 100.0,
+          "height": 58.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/getting_through_the_stone_age/large_grid.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 28
+        },
+        {
+          "xPos": 49,
+          "yPos": 117,
+          "width": 100.0,
+          "height": 58.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/getting_through_the_stone_age/large_grid.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 29
+        },
+        {
+          "xPos": 236,
+          "yPos": 15,
+          "width": 179.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[color\u003dblack]You\u0027re going to need a drying rack to produce dried bricks. You\u0027ll need many of the tools shown in the [i]Aquiring Hardware[/i] chapter. ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 30
         }
       ],
       "pageNumber": 24,
@@ -4731,14 +4759,11 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 3
+          "layerIndex": 2
         }
       ],
       "pageNumber": 46,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }
