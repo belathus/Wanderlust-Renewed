@@ -20,6 +20,15 @@ val nope = <minecraft:barrier>;
             nope,
             nope,
             nope
+        ],
+        [
+            <thaumcraft:nugget:8>,
+            <thaumcraft:ingot:2>,
+            <thaumcraft:metal_brass>,
+            <thaumcraft:plate:0>,
+            nope,
+            nope,
+            nope
         ]
     ] as crafttweaker.item.IItemStack[][];
     var brass_oredict = [<ore:nuggetBrass>,<ore:ingotBrass>,<ore:blockBrass>,<ore:plateBrass>,<ore:gearBrass>,<ore:oreBrass>,<ore:dustBrass>] as crafttweaker.item.IIngredient[];
