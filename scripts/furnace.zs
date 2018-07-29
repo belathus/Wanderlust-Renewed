@@ -55,6 +55,3 @@
     furnace.remove(<*>, <nethermetals:nether_uranium_ore>);
     furnace.remove(<*>, <nethermetals:nether_zirconium_ore>);
 */
-
-# PrimalCore
-    furnace.addRecipe(<minecraft:bread>, <ore:dustWheat>, 0.35);
