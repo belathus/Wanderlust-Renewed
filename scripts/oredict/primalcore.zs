@@ -3,6 +3,7 @@
   <ore:blockBrick>.add(<primal:ciniscotta_brick:*>);
   <ore:blockBrick>.add(<primal:terracotta_brick:*>);
   <ore:blockRedstone>.remove(<primal:redstone_sand>);
+  <ore:dustWheat>.add(<primal:wheat_ground>);
   <ore:bread>.addItems([
     <primal:corn_bread>,
     <primal:valus_bread>
