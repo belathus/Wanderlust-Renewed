@@ -242,3 +242,6 @@ import crafttweaker.item.IIngredient;
     for shear in shears{
         <ore:toolShears>.add(shear);
     }
+
+# Oredict flour
+    <ore:dustWheat>.add(<primal:wheat_ground>);
