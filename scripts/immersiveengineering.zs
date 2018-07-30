@@ -3,14 +3,6 @@
 # This file will cover recipes added to Immersive Engineering's crusher, coke oven, and other machines
 
 #####################
-###  Arc Furnace  ###
-#####################
-    mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
-    mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotIron>, null, 40, 512, [<ore:dustObsidian>, <ore:gemDarkCrushed>], "Alloying");
-    mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotIron>, null, 40, 512, [<ore:dustObsidian>, <enderzoo:witheringdust>], "Alloying");
-    mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotIron>, null, 40, 512, [<ore:dustObsidian>, <quark:black_ash>], "Alloying");
-
-#####################
 ###   Excavator   ###
 #####################
     # Bauxite:     weight:20, fail:20%, Aluminum:0.90, Titanium:0.05, Dense Aluminum:0.05
