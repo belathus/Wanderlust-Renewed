@@ -15,3 +15,7 @@
     <aspect:sensus>*5,
     <aspect:vitreus>*5
   );
+  <quark:marble:*>.setAspects(
+    <aspect:terra> * 5,
+    <aspect:ordo> * 5
+  );

@@ -13,3 +13,11 @@
     <aspect:lux>,
     <aspect:sensus>
   );
+  <astralsorcery:blockmarble:*>.setAspects(  # marble
+    <aspect:terra> * 5,
+    <aspect:ordo> * 5
+  );
+  <astralsorcery:blockblackmarble:*>.setAspects(  # sooty marble
+    <aspect:terra> * 5,
+    <aspect:tenebrae> * 5
+  );
