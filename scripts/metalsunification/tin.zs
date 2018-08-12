@@ -1,3 +1,6 @@
+# Metals Unification
+val nope = <minecraft:barrier>;
+
 # Tin
   val list_tin = [
   #    nugget,                   ingot,                   block,                   plate,                   gear                    ore                 dust
