@@ -42,7 +42,6 @@
 #        [<thermalfoundation:material:864>,<thermalfoundation:material:864>,<ore:dirt>,<botania:waterrod>.giveBack()]);
     recipes.remove(<minecraft:flint>);
     recipes.addShapeless(<minecraft:flint>, [<ore:gravel>,<ore:gravel>,<ore:gravel>]);
-    recipes.addShapeless(<minecraft:torch>,[<primal:torch_wood_lit>]);
 
     # making sticks
     recipes.addShaped(<minecraft:stick>*1,
