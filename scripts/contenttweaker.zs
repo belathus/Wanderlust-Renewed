@@ -11,6 +11,7 @@ var aluminum    = MaterialSystem.getMaterialBuilder().setName("Aluminum").setCol
 var ardite      = MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(16739840).build();
 var brass       = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(11904578).build();
 var bronze      = MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(13467442).build();
+var certus      = MaterialSystem.getMaterialBuilder().setName("Certus Quartz").setColor(10079487).build();
 var cobalt      = MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(18347).build();
 #var coldiron    = MaterialSystem.getMaterialBuilder().setName("Coldiron").setColor(13421823).build();
 var constantan  = MaterialSystem.getMaterialBuilder().setName("Constantan").setColor(16281143).build();
@@ -88,6 +89,7 @@ var gears_only = [
 
 var ore_only = [
   aluminum,
+  certus,
   copper,
   gold,
   iron,
