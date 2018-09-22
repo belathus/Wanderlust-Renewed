@@ -1,7 +1,7 @@
 #modloaded tconstruct
 
 # Tinker's Construct
-    #recipes.remove(<tconstruct:soil>);
+    recipes.remove(<tconstruct:soil>);
     #recipes.addShapeless(<tconstruct:soil>,
     #    [<primal:carbonate_slack>,<ore:dustAsh>,<ore:clumpMud>]);
     #recipes.addShapeless(<tconstruct:soil>,
