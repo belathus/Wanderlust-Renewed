@@ -69,7 +69,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
        .setShaped(
          [[<primal:adobebrick_dry>, <ore:ingotBrick>, <primal:adobebrick_dry>],
           [<ore:stoneGranite>, <ore:sandstone>, <ore:stoneGranite>],
-          [<primal:adobebrick_dry>, <ore:ingotBrick>, <ore:adobebrick_dry>]])
+          [<primal:adobebrick_dry>, <ore:ingotBrick>, <primal:adobebrick_dry>]])
       .addOutput(<immersiveengineering:stone_decoration:10> * 2)
       .addTool(<ore:toolChisel>, 16)
       .create();
