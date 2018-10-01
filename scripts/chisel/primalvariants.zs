@@ -23,9 +23,9 @@ val stone_map = {
     erodedendstone : <primal:eroded_end_stone>,
     desiccatedstone: <primal:desiccated_stone>,
     soulstone : <primal:soul_stone>,
-    hornblende : <primal:night_stone>
-    carbonate : <primal:carbonate_stone>
-    Ferrocalcite : <primal:ferro_stone>
+    hornblende : <primal:night_stone>,
+    carbonate : <primal:carbonate_stone>,
+    ferrocalcite : <primal:ferro_stone>
 } as IItemStack[string];
 
 # Make chisel groups for each variant
