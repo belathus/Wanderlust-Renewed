@@ -67,9 +67,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
     recipes.remove(<immersiveengineering:stone_decoration:10>);
     RecipeBuilder.get("mason")
        .setShaped(
-         [[<primal:adobebrick_dry>, <ore:ingotBrick>, <primal:adobebrick_dry>],
+         [[<primal:adobe_brick_dry>, <ore:ingotBrick>, <primal:adobe_brick_dry>],
           [<ore:stoneGranite>, <ore:sandstone>, <ore:stoneGranite>],
-          [<primal:adobebrick_dry>, <ore:ingotBrick>, <primal:adobebrick_dry>]])
+          [<primal:adobe_brick_dry>, <ore:ingotBrick>, <primal:adobe_brick_dry>]])
       .addOutput(<immersiveengineering:stone_decoration:10> * 2)
       .addTool(<ore:toolChisel>, 16)
       .create();
