@@ -31,7 +31,7 @@ val stone_map = {
 # Make chisel groups for each variant
 for key, value in stone_map {
     mods.chisel.Carving.addGroup(key);
-    for i in 0 .. 7 {
+    for i in 0 .. 8 {
         var block = value.definition.makeStack(i);
         mods.chisel.Carving.addVariation(key, block);
     }
