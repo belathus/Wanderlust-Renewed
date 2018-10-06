@@ -23,7 +23,7 @@
         {
             "type":"SUPPLIES",
             "loot":[
-                {"data":{"name":"primal:torch_wood_lit","min":2,"max":8},"weight":1},
+                {"data":{"name":"torch","min":2,"max":8},"weight":1},
                 {"data":{"name":"dungeontactics:bag_food"},"min":1,"max":3,"weight":1},
                 {"data":{"name":"dungeontactics:bag_potion"},"weight":2}
             ],
