@@ -28,7 +28,7 @@ val wood_map = {
 
 for key, value in wood_map {
     mods.chisel.Carving.addGroup(key);
-    for i in 1 .. 4 {
+    for i in 1 .. 5 {
         var block = value.definition.makeStack(i);
         mods.chisel.Carving.addVariation(key, block);
     }
@@ -36,7 +36,7 @@ for key, value in wood_map {
 
 # Loop for livingrock
 mods.chisel.Carving.addGroup("livingrock");
-for i in 0 .. 4{
+for i in 0 .. 5{
     var block = <botania:livingrock>.definition.makeStack(i);
     mods.chisel.Carving.addVariation("livingrock", block);
 }
