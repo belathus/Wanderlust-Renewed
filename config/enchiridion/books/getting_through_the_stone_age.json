@@ -3431,8 +3431,8 @@
           "layerIndex": 4
         },
         {
-          "xPos": 99,
-          "yPos": 94,
+          "xPos": 91,
+          "yPos": 75,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -3447,24 +3447,8 @@
           "layerIndex": 5
         },
         {
-          "xPos": 81,
-          "yPos": 94,
-          "width": 16.0,
-          "height": 16.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
-            "properties": {
-              "itemString": "minecraft:stick",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 6
-        },
-        {
-          "xPos": 81,
-          "yPos": 76,
+          "xPos": 73,
+          "yPos": 75,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -3476,11 +3460,11 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 7
+          "layerIndex": 6
         },
         {
-          "xPos": 99,
-          "yPos": 76,
+          "xPos": 91,
+          "yPos": 57,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -3492,11 +3476,11 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 8
+          "layerIndex": 7
         },
         {
-          "xPos": 63,
-          "yPos": 58,
+          "xPos": 73,
+          "yPos": 57,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -3508,11 +3492,11 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 9
+          "layerIndex": 8
         },
         {
-          "xPos": 141,
-          "yPos": 76,
+          "xPos": 133,
+          "yPos": 67,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -3524,22 +3508,22 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 10
+          "layerIndex": 9
         },
         {
-          "xPos": 60,
-          "yPos": 55,
-          "width": 100.0,
-          "height": 58.0,
+          "xPos": 70,
+          "yPos": 54,
+          "width": 82.0,
+          "height": 40.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureImage",
             "properties": {
-              "path": "enchiridion:images/getting_through_the_stone_age/large_grid.png"
+              "path": "enchiridion:images/getting_through_the_stone_age/small_grid.png"
             }
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 11
+          "layerIndex": 10
         },
         {
           "xPos": 20,
@@ -3555,7 +3539,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 12
+          "layerIndex": 11
         },
         {
           "xPos": 143,
@@ -3570,7 +3554,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 13
+          "layerIndex": 12
         },
         {
           "xPos": 72,
@@ -3586,7 +3570,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 14
+          "layerIndex": 13
         },
         {
           "xPos": 72,
@@ -3602,7 +3586,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 15
+          "layerIndex": 14
         },
         {
           "xPos": 132,
@@ -3618,7 +3602,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 16
+          "layerIndex": 15
         },
         {
           "xPos": 69,
@@ -3633,7 +3617,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 17
+          "layerIndex": 16
         },
         {
           "xPos": 255,
@@ -3649,7 +3633,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 18
+          "layerIndex": 17
         },
         {
           "xPos": 240,
@@ -3665,7 +3649,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 19
+          "layerIndex": 18
         },
         {
           "xPos": 361,
@@ -3681,7 +3665,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 20
+          "layerIndex": 19
         },
         {
           "xPos": 301,
@@ -3697,7 +3681,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 21
+          "layerIndex": 20
         },
         {
           "xPos": 301,
@@ -3713,7 +3697,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 22
+          "layerIndex": 21
         },
         {
           "xPos": 283,
@@ -3729,10 +3713,26 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 23
+          "layerIndex": 22
         },
         {
           "xPos": 283,
+          "yPos": 76,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:stone 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 23
+        },
+        {
+          "xPos": 319,
           "yPos": 76,
           "width": 16.0,
           "height": 16.0,
@@ -3749,22 +3749,6 @@
         },
         {
           "xPos": 319,
-          "yPos": 76,
-          "width": 16.0,
-          "height": 16.0,
-          "feature": {
-            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
-            "properties": {
-              "itemString": "minecraft:stone 0",
-              "hideTooltip": false
-            }
-          },
-          "isLocked": true,
-          "isHidden": false,
-          "layerIndex": 25
-        },
-        {
-          "xPos": 319,
           "yPos": 58,
           "width": 16.0,
           "height": 16.0,
@@ -3777,7 +3761,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 26
+          "layerIndex": 25
         },
         {
           "xPos": 301,
@@ -3793,7 +3777,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 27
+          "layerIndex": 26
         },
         {
           "xPos": 280,
@@ -3808,7 +3792,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 28
+          "layerIndex": 27
         },
         {
           "xPos": 240,
@@ -3824,7 +3808,7 @@
           },
           "isLocked": true,
           "isHidden": false,
-          "layerIndex": 29
+          "layerIndex": 28
         }
       ],
       "pageNumber": 12,
