@@ -14,7 +14,7 @@ import crafttweaker.item.IIngredient;
     <ore:boatWood>.add(<minecraft:acacia_boat>);
     <ore:boatWood>.add(<minecraft:dark_oak_boat>);
 # Bones
-    <ore:boneWithered>.add(<nex:item_bone_wither>);
+    <ore:boneWithered>.add(<nex:wither_bone>);
 # Bone Block
     <ore:blockBone>.add(<minecraft:bone_block>);
 # Bread
@@ -131,8 +131,8 @@ import crafttweaker.item.IIngredient;
     <ore:coreMagic>.add(<twilightforest:maze_map_focus>);
     <ore:coreMagic>.add(<minecraft:nether_star>);
 # Magic Gem
-    <ore:gemMagic>.add(<nex:item_crystal_rime>);
-    <ore:gemMagic>.add(<nex:item_crystal_amethyst>);
+    <ore:gemMagic>.add(<nex:rime_crystal>);
+    <ore:gemMagic>.add(<nex:amethyst_crystal>);
     <ore:gemMagic>.add(<minecraft:prismarine_shard>);
     <ore:gemMagic>.add(<evilcraft:dark_power_gem>);
     <ore:gemMagic>.add(<thebetweenlands:crimson_middle_gem>);
