@@ -5,6 +5,9 @@
     furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 0.5);
     furnace.addRecipe(<minecraft:magma_cream> * 4, <xreliquary:mob_ingredient:7>, 1.5);
     furnace.addRecipe(<minecraft:bread>, <primal:wheat_ground>, 0.5);
+    
+# Applied Energistics
+    furnace.addRecipe(<minecraft:bread>, <appliedenergistics2:material:4>, 0.5);
 
 # Base
     furnace.addRecipe(<contenttweaker:material_part:53>, <contenttweaker:material_part:49>, 0.5);
