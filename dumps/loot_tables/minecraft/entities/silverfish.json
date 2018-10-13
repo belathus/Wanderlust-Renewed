@@ -1,3 +1,74 @@
 {
-  "pools": []
+  "pools": [
+    {
+      "name": "nuggets",
+      "entries": [
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 10,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 23.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ingot",
+      "entries": [
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.005,
+              "looting_multiplier": 0.005,
+              "condition": "minecraft:random_chance_with_looting"
+            },
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
 }

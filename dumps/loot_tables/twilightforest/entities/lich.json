@@ -23,6 +23,13 @@
           "quality": 0,
           "type": "item",
           "name": "twilightforest:twilight_scepter"
+        },
+        {
+          "entryName": "twilightforest:shield_scepter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:shield_scepter"
         }
       ],
       "rolls": 1.0
@@ -197,6 +204,64 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "item": "twilightforest:shader",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_type:\"Lich\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "item": "twilightforest:shader_bag",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_rarity:\"Twilight\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
     }
   ]
 }

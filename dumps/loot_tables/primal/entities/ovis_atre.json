@@ -12,7 +12,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 2.0
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             },
@@ -64,6 +64,28 @@
       "rolls": 1.0
     },
     {
+      "name": "ovis_atre_fat",
+      "entries": [
+        {
+          "entryName": "primal:animal_fat_nether",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:animal_fat_nether"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "ovis_atre_head",
       "entries": [
         {
@@ -84,14 +106,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
     }
   ]
 }

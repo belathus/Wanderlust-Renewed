@@ -277,6 +277,15 @@
             {
               "tag": "{blueprint:\"bullet\"}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "immersiveengineering:secret_bluprintz",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
             }
           ],
           "name": "immersiveengineering:blueprint"
@@ -290,6 +299,15 @@
             {
               "tag": "{blueprint:\"specialBullet\"}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "immersiveengineering:secret_bluprintz",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
             }
           ],
           "name": "immersiveengineering:blueprint"
@@ -303,6 +321,15 @@
             {
               "tag": "{blueprint:\"electrode\"}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "immersiveengineering:secret_bluprintz",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
             }
           ],
           "name": "immersiveengineering:blueprint"

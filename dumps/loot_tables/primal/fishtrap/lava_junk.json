@@ -5,19 +5,31 @@
       "entries": [
         {
           "entryName": "primal:muck_molten",
-          "weight": 90,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:muck_molten"
-        },
-        {
-          "entryName": "primal:bitumin_clump",
-          "weight": 3,
+          "weight": 4,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": -2.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:muck_molten"
+        },
+        {
+          "entryName": "primal:bitumin_clump",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": -1.0,
+                "max": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
@@ -25,13 +37,13 @@
         },
         {
           "entryName": "primal:quartz_knapp",
-          "weight": 3,
+          "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
+                "min": -1.0,
                 "max": 2.0
               },
               "function": "minecraft:set_count"
@@ -57,14 +69,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
     }
   ]
 }

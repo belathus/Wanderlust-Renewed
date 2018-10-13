@@ -155,7 +155,7 @@
           "type": "item",
           "functions": [
             {
-              "tag": "{StoredEnchantments:[{lvl:1s,id:15s}]}",
+              "tag": "{StoredEnchantments:[{lvl:1s,id:106s}]}",
               "function": "minecraft:set_nbt"
             },
             {
@@ -220,6 +220,23 @@
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:golden_shield"
+        },
+        {
+          "entryName": "DT:GoldRing",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:golden_ring"
         },
         {
           "entryName": "DT:HeartJar",
@@ -371,11 +388,34 @@
             }
           ],
           "name": "dungeontactics:boots_of_blinding_speed"
+        },
+        {
+          "entryName": "DT:IcarusRing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:icarus_ring"
         }
       ],
       "rolls": {
         "min": 2.0,
         "max": 4.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:chests/nether_bridge",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "enderio:chests/nether_bridge"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
       }
     },
     {
@@ -482,95 +522,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [
-        {
-          "entryName": "enderio:item_dark_steel_boots:0",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.1,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "damage": {
-                "min": 1.0,
-                "max": 455.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "function": "enderio:set_random_dark_upgrade"
-            },
-            {
-              "function": "enderio:set_random_energy"
-            }
-          ],
-          "name": "enderio:item_dark_steel_boots"
-        },
-        {
-          "entryName": "enderio:item_material:11",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.5,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 11.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_material"
-        },
-        {
-          "entryName": "item_basic_capacitor4",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.15,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "function": "enderio:set_capacitor"
-            },
-            {
-              "data": {
-                "min": 3.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_basic_capacitor"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }

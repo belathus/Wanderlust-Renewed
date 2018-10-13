@@ -51,6 +51,64 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "twilightforest:ice_bomb",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "item": "twilightforest:shader",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_type:\"Alpha Yeti\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "twilightforest:ice_bomb"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "twilightforest:ice_bomb",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "item": "twilightforest:shader_bag",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_rarity:\"Twilight\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "twilightforest:ice_bomb"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
       "name": "ovis_atre_wool",
       "entries": [
         {
-          "entryName": "primal:ovis_wool",
+          "entryName": "primal:ovis_atre_wool",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -14,7 +14,7 @@
               "function": "minecraft:set_data"
             }
           ],
-          "name": "primal:ovis_wool"
+          "name": "primal:ovis_atre_wool"
         }
       ],
       "rolls": 1.0
@@ -31,14 +31,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
     }
   ]
 }

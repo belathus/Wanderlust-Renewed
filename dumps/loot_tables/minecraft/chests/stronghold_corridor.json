@@ -268,6 +268,23 @@
           "name": "dungeontactics:iron_cestus"
         },
         {
+          "entryName": "DT:IronRing",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 15.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:iron_ring"
+        },
+        {
           "entryName": "DT:DuctTape",
           "weight": 10,
           "quality": 0,
@@ -424,6 +441,13 @@
             }
           ],
           "name": "dungeontactics:boots_of_blinding_speed"
+        },
+        {
+          "entryName": "DT:IcarusRing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:icarus_ring"
         }
       ],
       "rolls": {

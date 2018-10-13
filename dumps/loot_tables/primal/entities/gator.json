@@ -42,6 +42,28 @@
       "rolls": 1.0
     },
     {
+      "name": "gator_fat",
+      "entries": [
+        {
+          "entryName": "primal:animal_fat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primal:animal_fat"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "gator_pelt",
       "entries": [
         {
@@ -62,14 +84,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
     }
   ]
 }

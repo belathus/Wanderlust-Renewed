@@ -67,7 +67,7 @@
       "name": "black_bear_fat",
       "entries": [
         {
-          "entryName": "primal:bear_fat",
+          "entryName": "primal:animal_fat",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -80,18 +80,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "primal:bear_fat"
+          "name": "primal:animal_fat"
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [],
-      "rolls": {
-        "min": 5.0,
-        "max": 10.0
-      }
     }
   ]
 }

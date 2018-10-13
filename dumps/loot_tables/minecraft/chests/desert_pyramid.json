@@ -2081,6 +2081,12 @@
           "weight": 100,
           "quality": 0,
           "type": "item",
+          "functions": [
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
           "name": "evilcraft:veined_scribing_tools"
         },
         {

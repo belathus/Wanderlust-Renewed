@@ -142,6 +142,18 @@
           "name": "minecraft:book"
         },
         {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
+        },
+        {
           "entryName": "quark:rune",
           "weight": 15,
           "quality": 0,
@@ -156,18 +168,6 @@
             }
           ],
           "name": "quark:rune"
-        },
-        {
-          "entryName": "quark:treasure_map",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:set_treasure"
-            }
-          ],
-          "name": "minecraft:filled_map"
         },
         {
           "entryName": "astralsorcery:constellation_paper",
@@ -259,6 +259,23 @@
             }
           ],
           "name": "dungeontactics:jewelled_boots"
+        },
+        {
+          "entryName": "DT:GoldRing",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 15.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:golden_ring"
         },
         {
           "entryName": "DT:HighStriker",
@@ -394,11 +411,34 @@
             }
           ],
           "name": "dungeontactics:boots_of_blinding_speed"
+        },
+        {
+          "entryName": "DT:IcarusRing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:icarus_ring"
         }
       ],
       "rolls": {
         "min": 2.0,
         "max": 6.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:chests/jungle_temple",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "enderio:chests/jungle_temple"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
       }
     },
     {
@@ -576,120 +616,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "Ender IO",
-      "entries": [
-        {
-          "entryName": "enderio:item_dark_steel_sword:0",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "damage": {
-                "min": 1.0,
-                "max": 2000.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "function": "enderio:set_random_dark_upgrade"
-            },
-            {
-              "function": "enderio:set_random_energy"
-            }
-          ],
-          "name": "enderio:item_dark_steel_sword"
-        },
-        {
-          "entryName": "enderio:item_travel_staff:0",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.1,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_travel_staff"
-        },
-        {
-          "entryName": "item_basic_capacitor7",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "function": "enderio:set_capacitor"
-            },
-            {
-              "data": {
-                "min": 3.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_basic_capacitor"
-        },
-        {
-          "entryName": "item_basic_capacitor8",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "function": "enderio:set_capacitor"
-            },
-            {
-              "data": {
-                "min": 3.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "enderio:item_basic_capacitor"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     },
     {
       "name": "moms_spaghetti",

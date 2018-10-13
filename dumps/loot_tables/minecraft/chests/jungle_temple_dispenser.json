@@ -42,6 +42,22 @@
       }
     },
     {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:chests/jungle_temple_dispenser",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "enderio:chests/jungle_temple_dispenser"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
       "name": "randomthings:biomeCrystal",
       "entries": [
         {
@@ -62,42 +78,6 @@
           "condition": "minecraft:random_chance"
         }
       ]
-    },
-    {
-      "name": "Ender IO",
-      "entries": [
-        {
-          "entryName": "item.forge.bucketFilled:0",
-          "weight": 1,
-          "quality": 1,
-          "conditions": [
-            {
-              "chance": 0.05,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{FluidName:\"fire_water\",Amount:1000}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "forge:bucketfilled"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      }
     }
   ]
 }
