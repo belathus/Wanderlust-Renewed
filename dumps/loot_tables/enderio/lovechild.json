@@ -1,0 +1,169 @@
+{
+  "pools": [
+    {
+      "name": "cbc43a43-e4f7-487c-b229-4524bfe79648",
+      "entries": [
+        {
+          "entryName": "91a47b8c-f660-40ba-9946-a0ccbbf24316",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "f972cfda-d4ee-4e99-9e8b-50c7530abad8",
+      "entries": [
+        {
+          "entryName": "35c6dd84-2086-42ea-b9b8-df7d3208a1aa",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 62.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "265a3743-8033-4e01-a4e9-a4b91b74bf3f",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": [
+                "enderio:shimmer"
+              ],
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "5b86dff8-00ee-4e09-bff4-d18a6029f7ef",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": [
+                "enderio:soulbound"
+              ],
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "2b626f28-80cd-4cb7-aa4e-8046c1f9d69e",
+      "entries": [
+        {
+          "entryName": "09918dde-cea0-4779-8817-7aad04a169ba",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_nugget"
+        },
+        {
+          "entryName": "a06f8baf-fb85-48a4-82b9-1a6b69dc9041",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "23f092cf-9218-4358-bcc0-405e4a7e6e5c",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "enderio:item_ender_food"
+        },
+        {
+          "entryName": "90d40a85-85bf-4666-b685-136c620bde50",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "enderio:block_enderman_skull"
+        },
+        {
+          "entryName": "85ac83f7-f4fe-4c04-af2d-6098f76c2624",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "entryName": "adee6edb-b171-4a94-97d7-f139167d8be3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:potato"
+        },
+        {
+          "entryName": "e53f4c41-35ae-45da-82f3-1614ba0f7352",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}
