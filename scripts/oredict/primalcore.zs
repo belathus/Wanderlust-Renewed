@@ -51,3 +51,4 @@
     <primal:worktable_shelf:8>,
     <primal:worktable_shelf:9>
   ]);
+  <ore:oreMagnetite>.remove(<primal:ore_magnetite>);
