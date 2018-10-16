@@ -84,18 +84,20 @@
         },
         "2:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "primal:flint_hatchet",
               "Count:3": 1,
-              "tag:10": {},
               "OreDict:8": "",
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -148,26 +150,26 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Work Tables",
-          "desc:8": "You might have noticed that wooden planks need to be crafted with a saw, which requires a crafting table. Work tables, an alternative to the crafting table, can be crafted without wooden planks while having the additional benefit of being able to store items on the shelves on the front of the table.\n\n§o§0If you are able to craft a regular crafting table this early, kudos to you!"
+          "desc:8": "You might have noticed that wooden planks need to be crafted with a saw in order to get 4 planks. You\u0027re going to have to get two logs for this..."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "primal:worktable_shelf",
+              "id:8": "minecraft:crafting_table",
               "Count:3": 1,
-              "tag:10": {
-                "type:8": "oak"
-              },
-              "OreDict:8": "craftingtable",
+              "OreDict:8": "craftingTableWood",
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -214,6 +216,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
             "id:8": "primal:flint_workblade",
             "Count:3": 1,
             "tag:10": {},
@@ -347,6 +352,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
             "id:8": "primal:fire_bow",
             "Count:3": 1,
             "Damage:2": 0,
@@ -371,7 +379,7 @@
             "0:10": {
               "id:8": "primal:fire_bow",
               "Count:3": 1,
-              "OreDict:8": "",
+              "OreDict:8": "toolFirebow",
               "Damage:3": 0
             }
           },
@@ -983,8 +991,12 @@
           "index:3": 1,
           "rewards:9": {
             "0:10": {
-              "id:8": "metalchests:structure_upgrade",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 9,
+                "orig_id:8": "metalchests:structure_upgrade"
+              },
               "OreDict:8": "",
               "Damage:3": 9
             },
@@ -1602,7 +1614,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "home_offset_x:3": -128,
