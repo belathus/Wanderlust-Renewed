@@ -19,19 +19,19 @@ mods.MobStages.addStage("TwilightTraveler", "primitivemobs:grovesprite");
 
 events.onPlayerChangedDimension(function event as crafttweaker.event.PlayerChangedDimensionEvent) {
   event.player.addStage("DimensionTraveler");
-  if event.id = -1 {
+  if(event.id == -1) {
     event.player.addStage("NetherTraveler");
   }
-  if event.id = 1 {
+  if(event.id == 1) {
     event.player.addStage("EndTraveler");
   }
-  if event.id = 7 {
+  if(event.id == 7) {
     event.player.addStage("TwilightTraveler");
   }
-  if event.id = 66 {
+  if(event.id == 66) {
     event.player.addStage("ErebusTraveler");
   }
-  if event.id = -67 {
+  if(event.id == -67) {
     event.player.addStage("BetweenTraveler");
   }
 }
