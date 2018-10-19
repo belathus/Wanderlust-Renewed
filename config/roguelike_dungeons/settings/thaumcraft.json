@@ -253,7 +253,7 @@
                     ]
                 },
                 "stair":{
-                    "name":"nex:stairs_brick_nether_lively"
+                    "name":"nex:lively_nether_brick_stairs"
                 }
             },
             "secondary":{
@@ -290,7 +290,7 @@
                     "meta":7
                 },
                 "stair":{
-                    "name":"nex:stairs_brick_nether_lively"
+                    "name":"nex:lively_nether_brick_stairs"
                 }
             }
         },
@@ -315,7 +315,7 @@
                             "weight":1
                         },
                         {
-                            "name":"nex:wall_brick_nether",
+                            "name":"nex:nether_brick",
                             "meta":2,
                             "weight":10
                         }
