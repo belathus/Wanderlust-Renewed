@@ -1,5 +1,5 @@
 {
-    "name":"mobspawners",
+    "name":"_spawners0",
     "spawners":[
         {
             "type":"ZOMBIE",
@@ -20,34 +20,26 @@
                     "equip":true
                 }
             ],
-            "weight":5
+            "weight":5,
+            "level":0
         },
         {
             "type":"SPIDER",
             "potentials":[
                 {
-                    "name":"spider"
-                }
-            ],
-            "weight":5
-        },
-        {
-            "type":"SPIDER",
-            "potentials":[
+                    "name":"spider",
+                    "weight":5
+                },
                 {
-                    "name":"primitivemobs:filch_lizard"
-                }
-            ],
-            "weight":3
-        },
-        {
-            "type":"SPIDER",
-            "potentials":[
+                    "name":"primitivemobs:filch_lizard",
+                    "weight":3
+                },
                 {
-                    "name":"historicizedmedicine:rat"
+                    "name":"historicizedmedicine:rat",
+                    "weight":2
                 }   
             ],
-            "weight":2
+            "level":0
         }
     ]
 }
