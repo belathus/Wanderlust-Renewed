@@ -20,7 +20,7 @@ mods.MobStages.addStage("ErebusTraveler", "primitivemobs:baby_spider");
 mods.MobStages.addStage("ErebusTraveler", "primitivemobs:mother_spider");
 
 
-events.onPlayerChangedDimension(function event as crafttweaker.event.PlayerChangedDimensionEvent) {
+events.onPlayerChangedDimension(function(event as crafttweaker.event.PlayerChangedDimensionEvent) {
   event.player.addStage("DimensionTraveler");
   if(event.id == -1) {
     if(!event.player.hasGameStage("NetherTraveler")) {
@@ -52,4 +52,4 @@ events.onPlayerChangedDimension(function event as crafttweaker.event.PlayerChang
       event.player.sendChat("You have traveled to the Betweenlands. Wights may now spawn.");
     }
   }
-}
+});

@@ -24,7 +24,7 @@ mods.MobStages.addStage("ironage", "primitivemobs:traveling_merchant");
 mods.MobStages.addStage("ironage", "enderiozoo:fallenknight");
 mods.MobStages.addStage("ironage", "enderiozoo:fallenmount");
 
-mods.MobStages.addStage("mansiontraveler", "primitivemobs:trollager");
-mods.MobStages.addStage("mansiontraveler", "primitivemobs:mimic");
+#mods.MobStages.addStage("mansiontraveler", "primitivemobs:trollager");
+#mods.MobStages.addStage("mansiontraveler", "primitivemobs:mimic");
 
 mods.MobStages.addStage("seatraveler", "primal:shark_hammerhead");
