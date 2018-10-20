@@ -5,119 +5,136 @@
       "entries": [
         {
           "entryName": "minecraft:apple",
-          "weight": 10,
+          "weight": 100,
           "quality": 0,
           "type": "item",
           "name": "minecraft:apple"
         },
         {
           "entryName": "minecraft:cookie",
-          "weight": 10,
+          "weight": 100,
           "quality": 0,
           "type": "item",
           "name": "minecraft:cookie"
         },
         {
-          "entryName": "minecraft:gold_ingot",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "entryName": "minecraft:iron_ingot",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "entryName": "minecraft:redstone",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:redstone"
-        },
-        {
-          "entryName": "minecraft:coal",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:coal"
-        },
-        {
-          "entryName": "minecraft:diamond",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond"
-        },
-        {
-          "entryName": "minecraft:cake",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:cake"
-        },
-        {
           "entryName": "minecraft:carrot",
-          "weight": 6,
+          "weight": 60,
           "quality": 0,
           "type": "item",
           "name": "minecraft:carrot"
         },
         {
-          "entryName": "minecraft:golden_apple",
-          "weight": 1,
+          "entryName": "minecraft:flint",
+          "weight": 40,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:golden_apple"
+          "name": "minecraft:flint"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 80,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:redstone"
         },
         {
           "entryName": "minecraft:ender_pearl",
-          "weight": 4,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:ender_pearl"
         },
         {
-          "entryName": "minecraft:saddle",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:saddle"
-        },
-        {
           "entryName": "minecraft:magma_cream",
-          "weight": 2,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:magma_cream"
         },
         {
           "entryName": "minecraft:ender_eye",
-          "weight": 1,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:ender_eye"
         },
         {
           "entryName": "minecraft:blaze_powder",
-          "weight": 3,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:blaze_powder"
         },
         {
-          "entryName": "minecraft:record_wait",
-          "weight": 1,
+          "entryName": "minecraft:iron_nugget",
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:record_wait"
+          "name": "minecraft:iron_nugget"
         },
         {
-          "entryName": "minecraft:dye",
-          "weight": 6,
+          "entryName": "botania:flower",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#3",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#4",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#6",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -126,7 +143,165 @@
               "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:dye"
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#7",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#8",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#9",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#10",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#11",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#12",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#13",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#14",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#15",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "botania:flower-lt#16",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:flower"
+        },
+        {
+          "entryName": "evilcraft:condensed_blood",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "evilcraft:condensed_blood"
+        },
+        {
+          "entryName": "ebwizardry:magic_crystal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:magic_crystal"
+        },
+        {
+          "entryName": "ebwizardry:mana_flask",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:mana_flask"
+        },
+        {
+          "entryName": "wizardry:devil_dust",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "wizardry:devil_dust"
         }
       ],
       "rolls": 1.0

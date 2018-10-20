@@ -52,4 +52,4 @@
     <primal:worktable_shelf:9>
   ]);
   <ore:oreMagnetite>.remove(<primal:ore_magnetite:*>);
-  recipe.addShapeless(<rockhounding_oretiers:iron_ores:0>,[<primal:ore_magnetite:*>]);
+  recipes.addShapeless(<rockhounding_oretiers:iron_ores:0>,[<primal:ore_magnetite:*>]);

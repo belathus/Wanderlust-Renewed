@@ -15,7 +15,7 @@ import loottweaker.vanilla.loot.Functions;
   val eio_tool1 = Functions.parse({"function": "enderio:set_random_dark_upgrade"} as crafttweaker.data.IData);
   val eio_tool2 = Functions.parse({"function": "enderio:set_random_energy"} as crafttweaker.data.IData);
 
-  val dungeon = LootTables.getTable("minecraft:chests/dungeon");
+  val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
 
   ######################
   ### Simple Dungeon ###

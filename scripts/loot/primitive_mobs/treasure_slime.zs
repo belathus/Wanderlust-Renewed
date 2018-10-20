@@ -20,7 +20,23 @@ import loottweaker.vanilla.loot.Functions;
 */
 
   val item = LootTables.getTable("primitivemobs:entities/special/treasure_slime").getPool("treasureslime_spawnitem");
-  item.clear();
+  item.removeEntry("minecraft:apple");
+  item.removeEntry("minecraft:cookie");
+  item.removeEntry("minecraft:gold_ingot");
+  item.removeEntry("minecraft:iron_ingot");
+  item.removeEntry("minecraft:redstone");
+  item.removeEntry("minecraft:coal");
+  item.removeEntry("minecraft:diamond");
+  item.removeEntry("minecraft:cake");
+  item.removeEntry("minecraft:carrot");
+  item.removeEntry("minecraft:golden_apple");
+  item.removeEntry("minecraft:ender_pearl");
+  item.removeEntry("minecraft:saddle");
+  item.removeEntry("minecraft:magma_cream");
+  item.removeEntry("minecraft:ender_eye");
+  item.removeEntry("minecraft:blaze_powder");
+  item.removeEntry("minecraft:record_wait");
+  item.removeEntry("minecraft:dye");
   item.addItemEntryHelper(<minecraft:apple>,               100, 0, [], []);
   item.addItemEntryHelper(<minecraft:cookie>,              100, 0, [], []);
   item.addItemEntryHelper(<minecraft:carrot>,               60, 0, [], []);
