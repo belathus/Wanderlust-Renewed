@@ -16,7 +16,7 @@ import loottweaker.vanilla.loot.Functions;
   val eio_tool2 = Functions.parse({"function": "enderio:set_random_energy"} as crafttweaker.data.IData);
   #val village_map = Functions.parse({"function": "exploration_map", "destination": "Village", "decoration":"target_point"} as crafttweaker.data.IData);
 
-  val bonus = LootTables.getTable("minecraft:chests/dungeon");
+  val bonus = LootTables.getTable("minecraft:chests/spawn_bonus_chest");
 
   #########################
   ### Spawn Bonus Chest ###
