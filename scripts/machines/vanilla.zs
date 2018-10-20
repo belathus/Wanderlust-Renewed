@@ -15,7 +15,7 @@
      null,
      function(output, crafting, player){
        if(!player.hasGameStage("fireage")) {
-         player.addStage("fireage");
+         player.addGameStage("fireage");
          player.sendChat("You have unlocked the power of fire. Creepers might spawn, now.");
        }
      });
