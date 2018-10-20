@@ -26,7 +26,7 @@
                     "name":"primitivemobs:mother_spider"
                 }
             ],
-            "levels":[0,1,2,3,4]
+            "level":[0,1,2,3,4]
         },
         {
             "type":"ENDERMAN",
@@ -44,7 +44,7 @@
                     "weight":2
                 }
             ],
-            "levels":[0,1,2,3,4]
+            "level":[0,1,2,3,4]
         },
         {
             "type":"SILVERFISH",
@@ -70,7 +70,7 @@
                     "weight":2
                 }
             ],
-            "levels":[0,1,2,3,4]
+            "level":[0,1,2,3,4]
         },
         {
             "type":"WITCH",
@@ -104,7 +104,7 @@
                     "weight":2
                 }
             ],
-            "levels":[0,1,2,3,4]
+            "level":[0,1,2,3,4]
         },
         {
             "type":"LAVASLIME",
@@ -113,7 +113,8 @@
                     "name":"minecraft:magma_cube",
                     "weight":5
                 }
-            ]
+            ],
+            "level":[0,1,2,3,4]
         },
         {
             "type":"BLAZE",
@@ -127,7 +128,7 @@
                     "weight":2
                 }
             ],
-            "levels":[0,1,2,3,4]
+            "level":[0,1,2,3,4]
         },
         {
             "type":"PIGZOMBIE",
@@ -141,7 +142,7 @@
                     "weight":3
                 }
             ],
-            "levels":[0,1,2,3,4]
+            "level":[0,1,2,3,4]
         }
     ]
 }
