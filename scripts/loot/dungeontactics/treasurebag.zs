@@ -1,3 +1,4 @@
+#norun
 #modloaded dungeontactics loottweaker
 
 import loottweaker.vanilla.loot.LootTables;
