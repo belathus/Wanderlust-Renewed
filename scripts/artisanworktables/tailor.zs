@@ -159,3 +159,16 @@ import mods.artisanworktables.builder.RecipeBuilder;
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_boots_healing>)
       .create();
+      
+      
+      
+   #### Silk Wisp ####
+    RecipeBuilder.get("tailor")
+      .setShapeless(
+        [<forestry:crafting_material:2>,<forestry:crafting_material:2>,<forestry:crafting_material:2>,
+   <forestry:crafting_material:2>,<forestry:crafting_material:2>,<forestry:crafting_material:2>,
+   <forestry:crafting_material:2>,<forestry:crafting_material:2>,<forestry:crafting_material:2>])
+      .addTool(<ore:artisansNeedle>, 1)
+      .addOutput(<forestry:crafting_material:3>)
+      .setFluid(<liquid:water> * 500)
+      .create();
