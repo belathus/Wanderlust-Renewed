@@ -3,6 +3,56 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
 # ===========================
+# ====  Dungeon Tactics  ====
+# ===========================
+# Wrench Tool Class is <ore:toolWrench>
+
+  # Name of the Thingie  
+#  RecipeBuilder.get("engineer")
+#    .setCopy(Copy.byName("minecraft:furnace"))
+#	 .addTool(<ore:toolWrench>, 1)
+#	 .create();
+
+  # DT Bronze Wrench  
+   RecipeBuilder.get("engineer")
+     .setCopy(Copy.byName("<dungeontactics:engineers_wrench_bronze>"))
+	 .create();
+
+  # DT Iron Wrench  
+   RecipeBuilder.get("engineer")
+     .setCopy(Copy.byName("<dungeontactics:engineers_wrench_iron>"))
+	 .create();
+
+  # DT Steel Wrench  
+   RecipeBuilder.get("engineer")
+     .setCopy(Copy.byName("<dungeontactics:engineers_wrench_steel>"))
+	 .addTool(<ore:toolWrench>, 1)
+	 .create();	 
+
+  # Basic Engineering Table Crafting 
+  RecipeBuilder.get("engineer")
+     .setCopy(Copy.byOutput([<dungeontactics:fan_block>,<dungeontactics:potshot>,]).noOutput())
+	 .addTool(<ore:toolWrench>, 1)
+	 .create();
+
+  # Intermediate Engineering Table Crafting 
+  RecipeBuilder.get("engineer")
+     .setCopy(Copy.byOutput([<dungeontactics:piston_glove>,
+	                         <dungeontactics:tunnelling_device>,
+	                         <dungeontactics:trap_ailment>,
+	                         <dungeontactics:trap_ambush>,
+							 <dungeontactics:trap_boom>,
+							 <dungeontactics:trap_fire>,
+							 <dungeontactics:trap_foul>,
+							 <dungeontactics:trap_port>,
+							 <dungeontactics:trap_slime>,
+							 <dungeontactics:trap_slime>],
+							 <dungeontactics:trap_spectral>).noOutput())
+	 .addTool(<ore:toolWrench>, 5)
+	 .setMinimumTier(1)
+	 .create();
+
+# ===========================
 # ====     Ender  IO     ====
 # ===========================
   # EnderIO chassis
@@ -31,7 +81,18 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .addOutput(<enderio:item_basic_capacitor:3>.withTag({eiocap:{level:4.0f},display:{Name:"Test Capacitor"}}))
     .setFluid(<liquid:sulfuric_acid> * 250)
     .create();
-
+# ===========================
+# ====   Random Things   ====
+# ===========================
+  # EnderIO chassis
+  RecipeBuilder.get("engineer")
+    .setShaped(
+      [[<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>],
+       [<ore:ingotIron>,<ore:dustBedrock>,<ore:ingotIron>],
+       [<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>]])
+    .addOutput(<enderio:item_material:0>)
+    .addTool(<ore:artisansSpanner>, 1)
+    .create();
 # ===========================
 # == Immersive Engineering ==
 # ===========================
