@@ -19,3 +19,5 @@
   recipes.addShaped(<xreliquary:mob_ingredient:6>,
     [[<ore:toolAxe>],
      [<minecraft:skull:2>]]);
+  recipes.remove(<xreliquary:mob_ingredient:15>);
+  recipes.addShapeless(<xreliquary:mob_ingredient:15>,[<minecraft:wool:14>,<minecraft:wool:15>,<xreliquary:mob_ingredient:11>,<forestry:crafting_material:3>]);
