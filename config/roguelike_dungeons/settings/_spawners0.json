@@ -1,15 +1,15 @@
 {
     "name":"_spawners0",
+    "exclusive":true,
     "spawners":[
         {
             "type":"ZOMBIE",
             "potentials":[
                 {
-                    "name":"zombie",
+                    "name":"minecraft:zombie",
                     "equip":true
                 }
             ],
-            "weight":5,
             "level":0
         },
         {
@@ -20,7 +20,6 @@
                     "equip":true
                 }
             ],
-            "weight":5,
             "level":0
         },
         {
@@ -29,10 +28,6 @@
                 {
                     "name":"spider",
                     "weight":5
-                },
-                {
-                    "name":"primitivemobs:filch_lizard",
-                    "weight":3
                 },
                 {
                     "name":"historicizedmedicine:rat",

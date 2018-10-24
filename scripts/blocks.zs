@@ -216,6 +216,11 @@
         [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
          [<ore:dirt>,<xreliquary:emperor_chalice>.giveBack(),<ore:dirt>],
          [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+    recipes.addShaped(<primal:calcified_paraffin>,
+        [[<primal:paraffin_clump>,<primal:paraffin_clump>],
+         [<primal:paraffin_clump>,<primal:paraffin_clump>]
+        ]
+    );
 
 # Rockhounding
 #    recipes.addShaped(<rockhounding_surface:gypsum>*8,

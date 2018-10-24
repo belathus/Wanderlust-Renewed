@@ -1,5 +1,6 @@
 {
     "name":"_spawners2",
+    "exclusive":true,
     "spawners":[
         {
             "type":"ZOMBIE",
@@ -109,15 +110,7 @@
                     "weight":5
                 },
                 {
-                    "name":"primitivemobs:filch_lizard",
-                    "weight":3
-                },
-                {
                     "name":"biomesoplenty:wasp",
-                    "weight":3
-                },
-                {
-                    "name":"primitivemobs:bewitched_tome",
                     "weight":3
                 },   
                 {

@@ -1,5 +1,6 @@
 {
     "name":"_spawners4",
+    "exclusive":true,
     "spawners":[
         {
             "type":"ZOMBIE",
@@ -30,11 +31,6 @@
                     "weight":3
                 },
                 {
-                    "name":"enderiozoo:lovechild",
-                    "equip":true,
-                    "weight":3
-                },
-                {
                     "name":"enderiozoo:direslime",
                     "weight":3
                 },
@@ -50,6 +46,10 @@
                 },
                 {
                     "name":"enderiozoo:witherwitch",
+                    "weight":2
+                },
+                {
+                    "name":"endermite",
                     "weight":2
                 }
             ],
@@ -126,27 +126,11 @@
                     "weight":5
                 },
                 {
-                    "name":"quark:wraith",
-                    "weight":5
-                },
-                {
-                    "name":"primitivemobs:filch_lizard",
-                    "weight":3
-                },
-                {
                     "name":"biomesoplenty:wasp",
                     "weight":3
                 },
                 {
-                    "name":"primitivemobs:bewitched_tome",
-                    "weight":3
-                },   
-                {
                     "name":"historicizedmedicine:rat",
-                    "weight":2
-                },
-                {
-                    "name":"illusioner",
                     "weight":2
                 },
                 {
@@ -158,7 +142,7 @@
                     "weight":2
                 },
                 {
-                    "name":"thaumcraft:cultistportallesser",
+                    "name":"illusioner",
                     "weight":2
                 }
             ],

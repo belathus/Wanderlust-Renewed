@@ -1,5 +1,6 @@
 {
     "name":"_spawners_all_levels",
+    "exclusive":true,
     "spawners":[
         {
             "type":"CAVESPIDER",
@@ -40,7 +41,7 @@
                     "weight":5
                 },
                 {
-                    "name":"enderiozoo:lovechild",
+                    "name":"endermite",
                     "weight":2
                 }
             ],

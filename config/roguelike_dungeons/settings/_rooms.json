@@ -15,8 +15,8 @@
         {"level":[0,1,2,3,4], "type":"secret", "name":"CRYPT", "count":2},
         {"level":[0,1,2,3,4], "type":"secret", "name":"PRISON", "count":2},
 
-        {"level":0, "type":"single", "name":"BEDROOM"},
-        {"level":0, "type":"single", "name":"SMITH"},
+        {"level":0, "type":"secret", "name":"BEDROOM", "count":1},
+        {"level":0, "type":"secret", "name":"SMITH", "count":1},
         {"level":0, "type":"single", "name":"FIREWORK"},
         {"level":0, "type":"single", "name":"STORAGE"},
         {"level":0, "type":"random", "name":"BRICK", "weight":2},
