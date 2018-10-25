@@ -26,11 +26,6 @@
                     "weight":3
                 },
                 {
-                    "name":"minecraft:husk",
-                    "equip":true,
-                    "weight":3
-                },
-                {
                     "name":"enderiozoo:direslime",
                     "weight":3
                 },
@@ -74,11 +69,6 @@
                     "weight":3
                 },
                 {
-                    "name":"stray",
-                    "equip":true,
-                    "weight":3
-                },
-                {
                     "name":"quark:ashen",
                     "equip":true,
                     "weight":2
@@ -105,6 +95,10 @@
                 },
                 {
                     "name":"witch",
+                    "weight":2
+                },
+                {
+                    "name":"twilightforest:death_tome",
                     "weight":2
                 }
             ],

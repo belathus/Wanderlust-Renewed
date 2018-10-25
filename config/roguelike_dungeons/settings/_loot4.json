@@ -7,7 +7,11 @@
 				{"data" : {"name" : "diamond_helmet", "ench" : 30}},
 				{"data" : {"name" : "diamond_chestplate", "ench" : 30}},
 				{"data" : {"name" : "diamond_leggings", "ench" : 30}},
-				{"data" : {"name" : "diamond_boots", "ench" : 30}}
+				{"data" : {"name" : "diamond_boots", "ench" : 30}},
+				{"data" : {"name" : "dungeontactics:jewelled_helmet", "ench" : 30}},
+				{"data" : {"name" : "dungeontactics:jewelled_chestplate", "ench" : 30}},
+				{"data" : {"name" : "dungeontactics:jewelled_leggings", "ench" : 30}},
+				{"data" : {"name" : "dungeontactics:jewelled_boots", "ench" : 30}}
 			],
 			"level" : 4,
 			"each" : true,
@@ -78,7 +82,9 @@
 				{
 					"data" : [
 						{"data" : {"name" : "botania:blackLotus"}},
-						{"data" : {"name" : "book", "ench" : 30}}
+						{"data" : {"name" : "book", "ench" : 30}},
+						{"data" : {"name" : "contenttweaker:material_part", "meta" : 45, "min": 1, "max" : 3}},
+						{"data":{"name":"randomthings:beans"}}
 					],
 					"weight" : 3
 				},

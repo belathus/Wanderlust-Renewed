@@ -26,11 +26,6 @@
                     "weight":3
                 },
                 {
-                    "name":"minecraft:husk",
-                    "equip":true,
-                    "weight":3
-                },
-                {
                     "name":"enderiozoo:direslime",
                     "weight":3
                 },
@@ -51,6 +46,10 @@
                 {
                     "name":"endermite",
                     "weight":2
+                },
+                {
+                    "name":"twilightforest:death_tome",
+                    "weight":2
                 }
             ],
             "level":4
@@ -70,11 +69,6 @@
                 },
                 {
                     "name":"thebetweenlands:dark_druid",
-                    "equip":true,
-                    "weight":3
-                },
-                {
-                    "name":"stray",
                     "equip":true,
                     "weight":3
                 },
