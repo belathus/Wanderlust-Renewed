@@ -32,7 +32,7 @@ import mods.artisanworktables.builder.Copy;
 
   # Basic Engineering Table Crafting 
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byOutput([<dungeontactics:fan_block>,<dungeontactics:potshot>]).noOutput())
+     .setCopy(Copy.byOutput([<dungeontactics:fan_block>,<dungeontactics:potshot>]))
 	 .addTool(<ore:toolWrench>, 1)
 	 .create();
 
@@ -48,7 +48,7 @@ import mods.artisanworktables.builder.Copy;
 							 <dungeontactics:trap_port>,
 							 <dungeontactics:trap_slime>,
 							 <dungeontactics:trap_slime>],
-							 <dungeontactics:trap_spectral>).noOutput())
+							 <dungeontactics:trap_spectral>))
 	 .addTool(<ore:toolWrench>, 5)
 	 .setMinimumTier(1)
 	 .create();
