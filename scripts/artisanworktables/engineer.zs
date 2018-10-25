@@ -31,13 +31,13 @@ import mods.artisanworktables.builder.Copy;
 	 .create();	 
 
   # Basic Engineering Table Crafting 
-  RecipeBuilder.get("engineer")
-     .setCopy(Copy.byOutput([<dungeontactics:fan_block>,<dungeontactics:potshot>,]).noOutput())
+   RecipeBuilder.get("engineer")
+     .setCopy(Copy.byOutput([<dungeontactics:fan_block>,<dungeontactics:potshot>]).noOutput())
 	 .addTool(<ore:toolWrench>, 1)
 	 .create();
 
   # Intermediate Engineering Table Crafting 
-  RecipeBuilder.get("engineer")
+   RecipeBuilder.get("engineer")
      .setCopy(Copy.byOutput([<dungeontactics:piston_glove>,
 	                         <dungeontactics:tunnelling_device>,
 	                         <dungeontactics:trap_ailment>,
