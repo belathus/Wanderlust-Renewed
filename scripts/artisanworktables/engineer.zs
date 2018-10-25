@@ -1,6 +1,7 @@
 #modloaded artisanworktables
 
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanworktables.builder.Copy;
 
 # ===========================
 # ====  Dungeon Tactics  ====
