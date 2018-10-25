@@ -58,6 +58,15 @@
             "each":true,
             "quantity":1
         },
+        {
+            "type":"REWARD",
+            "loot":[
+                {"data" : {"name" : "xreliquary:hero_medallion"}}
+            ],
+            "level":[0,1,2,3,4],
+            "each":true,
+            "quantity":1
+        },
 		{
 			"type":"REWARD",
 			"loot" : [

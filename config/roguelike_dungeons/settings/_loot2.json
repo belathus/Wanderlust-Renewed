@@ -27,7 +27,8 @@
 						{"data" : {"name" : "dungeontactics:gilded_helmet", "ench" : 12}},
 						{"data" : {"name" : "dungeontactics:gilded_chestplate", "ench" : 12}},
 						{"data" : {"name" : "dungeontactics:gilded_leggings", "ench" : 12}},
-						{"data" : {"name" : "dungeontactics:gilded_boots", "ench" : 12}}
+						{"data" : {"name" : "dungeontactics:gilded_boots", "ench" : 12}},
+						{"data":{"name":"randomthings:waterwalkingboots", "ench":12}}
 					],
 					"weight":2
 				}
@@ -151,7 +152,27 @@
 								{"data" : {"name" : "botania:rune", "meta" : 7}}
 							]
 						},
-						{"data" : {"name" : "book", "ench" : 18}}
+						{
+							"data":[
+								{"data":{"name":"xreliquary:ender_staff"}},
+								{"data":{"name":"xreliquary:glacial_staff"}},
+								{"data":{"name":"xreliquary:ice_magus_rod"}},
+								{"data":{"name":"xreliquary:magicbane"}},
+								{"data":{"name":"xreliquary:pyromancer_staff"}},
+								{"data":{"name":"xreliquary:serpent_staff"}}
+							]
+						},
+						{
+							"data":[
+								{"data":{"name":"botania:dirtrod"}},
+								{"data":{"name":"botania:waterrod"}},
+								{"data":{"name":"botania:tornadorod"}}
+							]
+						},
+						{"data" : {"name" : "book", "ench" : 18}},
+						{"data":{"name":"botania:manatablet", "nbt":"{mana: 125000}"}},
+						{"data":{"name":"metalchests:metal_chest", "meta":5}},
+						{"data":{"name":"metalchests:chest_upgrade", "meta":18}}
 					],
 					"weight":2
 				}

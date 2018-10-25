@@ -11,7 +11,8 @@
 				{"data" : {"name" : "dungeontactics:jewelled_helmet", "ench" : 20}},
 				{"data" : {"name" : "dungeontactics:jewelled_chestplate", "ench" : 20}},
 				{"data" : {"name" : "dungeontactics:jewelled_leggings", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_boots", "ench" : 20}}
+				{"data" : {"name" : "dungeontactics:jewelled_boots", "ench" : 20}},
+				{"data":{"name":"randomthings:waterwalkingboots", "ench":20}}
 			],
 			"level" : 3,
 			"each" : true,
@@ -95,7 +96,26 @@
 							]
 						},
 						{"data" : {"name" : "tconstruct:punji", "min" : 1, "max" : 8}},
-						{"data":{"name":"randomthings:beans"}}
+						{"data":{"name":"randomthings:beans"}},
+						{
+							"data":[
+								{"data":{"name":"xreliquary:ender_staff"}},
+								{"data":{"name":"xreliquary:glacial_staff"}},
+								{"data":{"name":"xreliquary:ice_magus_rod"}},
+								{"data":{"name":"xreliquary:magicbane"}},
+								{"data":{"name":"xreliquary:pyromancer_staff"}},
+								{"data":{"name":"xreliquary:serpent_staff"}}
+							]
+						},
+						{
+							"data":[
+								{"data":{"name":"botania:dirtrod"}},
+								{"data":{"name":"botania:waterrod"}},
+								{"data":{"name":"botania:tornadorod"}}
+							]
+						},
+						{"data":{"name":"metalchests:metal_chest", "meta":5}},
+						{"data":{"name":"metalchests:chest_upgrade", "meta":18}}
 					],
 					"weight":3
 				},
@@ -110,7 +130,9 @@
 						},
 						{"data" : {"name" : "book", "ench" : 24}},
 						{"data" : {"name" : "botania:blackLotus", "meta" : 1}},
-						{"data" : {"name" : "contenttweaker:material_part", "meta" : 45, "min": 1, "max" : 3}}
+						{"data" : {"name" : "contenttweaker:material_part", "meta" : 45, "min": 1, "max" : 3}},
+						{"data":{"name":"xreliquary:fortune_coin"}},
+						{"data":{"name":"botania:manatablet", "nbt":"{mana: 250000}"}}
 					],
 					"weight":2
 				}
