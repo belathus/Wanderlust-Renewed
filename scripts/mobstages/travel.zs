@@ -17,7 +17,7 @@ mods.MobStages.toggleSpawner("enderiozoo:enderminy", true);
 
 # mods.MobStages.addStage("MansionTraveler", "primitivemobs:trollager");
 # mods.MobStages.addStage("MansionTraveler", "primitivemobs:mimic");
-mods.MobStages.toggleSpawner("primitivemobs:trollager", true);
+# mods.MobStages.toggleSpawner("primitivemobs:trollager", true);
 
 mods.MobStages.addStage("BetweenTraveler", "nex:wight");
 mods.MobStages.toggleSpawner("nex:wight", true);
