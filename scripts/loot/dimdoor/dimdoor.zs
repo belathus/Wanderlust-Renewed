@@ -81,6 +81,7 @@ import loottweaker.vanilla.loot.Functions;
   dd_uncommon.addItemEntryHelper(<immersiveengineering:metal:3>,         7, 0, [Functions.setCount(1, 2)], []); # Add silver ingot
   dd_uncommon.addItemEntryHelper(<immersiveengineering:metal:4>,         3, 0, [Functions.setCount(2, 6)], []); # Add nickel ingot
   dd_uncommon.addItemEntryHelper(<minecraft:redstone>,                  14, 0, [Functions.setCount(1, 6)], []);
+  dd_uncommon.addItemEntryHelper(<erebus:silk>,                          6, 0, [Functions.setCount(1, 6)], []);
   dd_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,               10, 0, [eb_novice], []);
   dd_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                4, 0, [eb_apprentice], []);
   dd_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_advanced], []);
@@ -119,8 +120,8 @@ import loottweaker.vanilla.loot.Functions;
   dd_rare.addItemEntryHelper(<immersiveengineering:blueprint>.withTag({"blueprint": "specialBullet"}), 1, 0, [], []);
   dd_rare.addItemEntryHelper(<immersiveengineering:blueprint>.withTag({"blueprint": "bullet"}), 1, 0, [], []);
   # Dimension Doors get world thread and fabric
-  dd_rare.addItemEntryHelper(<dimdoors:fabric>,                         20, 0, [Functions.setCount(16,64)], []);
-  dd_rare.addItemEntryHelper(<dimdoors:world_thread>,                   40, 0, [Functions.setCount(2,12)], []);
+  dd_rare.addItemEntryHelper(<dimdoors:fabric>,                         40, 0, [Functions.setCount(16,64)], []);
+  dd_rare.addItemEntryHelper(<dimdoors:world_thread>,                   80, 0, [Functions.setCount(2,12)], []);
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item 
   # per chest. These are mostly tools.

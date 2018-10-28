@@ -66,6 +66,7 @@ import loottweaker.vanilla.loot.Functions;
   dungeon_treasure.addItemEntryHelper(<minecraft:book>,               30, 0, [Functions.enchantWithLevels(15, 30, true)], []);
   dungeon_treasure.addItemEntryHelper(<quark:rune>,                   40, 0, [Functions.setMetadata(0,15)], []);
   dungeon_treasure.addItemEntryHelper(<quark:ancient_tome>,           16, 2, [ancient_tome], []);
+  dungeon_treasure.addItemEntryHelper(<erebus:silk>,                   6, 0, [Functions.setCount(1, 6)], []);
   dungeon_treasure.addItemEntry(<forestry:broken_bronze_pickaxe>, 20, 0);
   dungeon_treasure.addItemEntry(<forestry:broken_bronze_shovel>, 40, 0);
   dungeon_treasure.addItemEntry(<forestry:kit_pickaxe>, 10, 0);
