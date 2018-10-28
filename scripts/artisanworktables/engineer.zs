@@ -8,9 +8,18 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # EnderIO chassis
   RecipeBuilder.get("engineer")
     .setShaped(
-      [[<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>],
-       [<ore:ingotIron>,<ore:dustBedrock>,<ore:ingotIron>],
-       [<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>]])
+      [[<ore:barsIron>,<ore:ingotSteel>,<ore:barsIron>],
+       [<ore:ingotSteel>,<ore:dustBedrock>,<ore:ingotSteel>],
+       [<ore:barsIron>,<ore:ingotSteel>,<ore:barsIron>]])
+    .addOutput(<enderio:item_material:0>)
+    .addTool(<ore:artisansSpanner>, 1)
+    .create();
+  # EnderIO chassis (V2)
+  RecipeBuilder.get("engineer")
+    .setShaped(
+      [[<ore:ingotSteel>,<ore:barsIron>,<ore:ingotSteel>],
+       [<ore:barsIron>,<ore:dustBedrock>,<ore:barsIron>],
+       [<ore:ingotSteel>,<ore:barsIron>,<ore:ingotSteel>]])
     .addOutput(<enderio:item_material:0>)
     .addTool(<ore:artisansSpanner>, 1)
     .create();
