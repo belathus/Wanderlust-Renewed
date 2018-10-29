@@ -16,17 +16,17 @@ import mods.artisanworktables.builder.Copy;
 
   # DT Bronze Wrench  
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byName("<dungeontactics:engineers_wrench_bronze>"))
+     .setCopy(Copy.byOutput(<dungeontactics:engineers_wrench_bronze>))
 	 .create();
 
   # DT Iron Wrench  
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byName("<dungeontactics:engineers_wrench_iron>"))
+     .setCopy(Copy.byOutput(<dungeontactics:engineers_wrench_iron>))
 	 .create();
 
   # DT Steel Wrench  
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byName("<dungeontactics:engineers_wrench_steel>"))
+     .setCopy(Copy.byOutput(<dungeontactics:engineers_wrench_steel>))
 	 .addTool(<ore:toolWrench>, 1)
 	 .create();	 
 
@@ -47,8 +47,8 @@ import mods.artisanworktables.builder.Copy;
 							 <dungeontactics:trap_foul>,
 							 <dungeontactics:trap_port>,
 							 <dungeontactics:trap_slime>,
-							 <dungeontactics:trap_slime>],
-							 <dungeontactics:trap_spectral>))
+							 <dungeontactics:trap_slime>,
+							 <dungeontactics:trap_spectral>]))
 	 .addTool(<ore:toolWrench>, 5)
 	 .setMinimumTier(1)
 	 .create();
