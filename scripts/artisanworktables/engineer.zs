@@ -10,23 +10,23 @@ import mods.artisanworktables.builder.Copy;
 
   # Name of the Thingie  
 #  RecipeBuilder.get("engineer")
-#    .setCopy(Copy.byName("minecraft:furnace"))
+#  .setCopy(Copy.byName("minecraft:furnace"))
 #	 .addTool(<ore:toolWrench>, 1)
 #	 .create();
 
   # DT Bronze Wrench  
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byOutput(<dungeontactics:engineers_wrench_bronze>))
+   .setCopy(Copy.byOutput([<dungeontactics:engineers_wrench_bronze>]))
 	 .create();
 
   # DT Iron Wrench  
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byOutput(<dungeontactics:engineers_wrench_iron>))
+     .setCopy(Copy.byOutput([<dungeontactics:engineers_wrench_iron>]))
 	 .create();
 
   # DT Steel Wrench  
    RecipeBuilder.get("engineer")
-     .setCopy(Copy.byOutput(<dungeontactics:engineers_wrench_steel>))
+     .setCopy(Copy.byOutput([<dungeontactics:engineers_wrench_steel>]))
 	 .addTool(<ore:toolWrench>, 1)
 	 .create();	 
 
@@ -111,4 +111,4 @@ import mods.artisanworktables.builder.Copy;
     .setFluid(<liquid:creosote> * 250)
     .setSecondaryIngredients([<ore:fabricHemp>])
     .addOutput(<immersiveengineering:wirecoil:7>)
-    .create();
+.create();
