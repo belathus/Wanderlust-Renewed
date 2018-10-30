@@ -1,6 +1,6 @@
 #modloaded forestry
 
-mods.forestry.Centrifuge.addRecipe([<forestrty:propolis> % 80,
+mods.forestry.Centrifuge.addRecipe([<forestry:propolis> % 80,
   (<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})) % 10,
   (<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})) % 10,
   (<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})) % 10,
