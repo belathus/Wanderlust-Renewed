@@ -34,7 +34,7 @@
     # Mithril -- Do not process here; No fluid
     # Nickel
         #mods.rockhounding_oretiers.Bloomery.add(<base:nickel.ore>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
-        mods.rockhounding_oretiers.Bloomery.add(<immersiveengineering:ore:4>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
+        mods.rockhounding_oretiers.Bloomery.add(<immersiveengineering:ore:4>, <liquid:nickel> * 288, <immersiveengineering:metal:4>);
         #mods.rockhounding_oretiers.Bloomery.add(<thermalfoundation:ore:5>, <liquid:nickel>, 288, <immersiveengineering:metal:4>);
     # Platinum -- Do not process here
         # <liquid:platinum>, <base:ingot:25>
