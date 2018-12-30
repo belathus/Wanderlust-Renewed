@@ -36,6 +36,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("scornful_oblivion", "",
 //mods.thaumcraft.Infusion.registerRecipe(String name, String research, IItemStack output, int instability, CTAspectStack[] aspects, IIngredient centralItem, IIngredient[] recipe);
 mods.thaumcraft.Infusion.registerRecipe("dimensional_singularity_1", "", <magicbees:resource:13> * 3, 5, [<aspect:alienis> * 10, <aspect:permutatio> * 10], <minecraft:gold_block>, [<minecraft:ender_pearl>, <minecraft:ender_pearl>]);
 
+
 mods.thaumcraft.Infusion.registerRecipe("dimensional_singularity_2", "", <magicbees:resource:13> * 3, 6, [<aspect:alienis> * 10, <aspect:permutatio> * 20, <aspect:vacuos> * 15], <magicbees:propolis>, [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:diamond>]);
 
 var hiveAspects = [<aspect:ordo> * 6, <aspect:praemunio> * 2, <aspect:bestia> * 1] as thaumcraft.aspect.CTAspectStack[];
