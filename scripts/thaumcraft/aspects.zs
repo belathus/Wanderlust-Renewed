@@ -1,6 +1,10 @@
 #modloaded thaumcraft modtweaker
 
 ### Fixing some vanilla materials ###
+  <minecraft:book>.setAspects(
+    <aspect:cognitio> * 10,
+    <aspect:bestia> * 5
+  );
   <minecraft:coal>.setAspects(
     <aspect:potentia> * 10,
     <aspect:ignis> * 10
@@ -15,6 +19,10 @@
     <aspect:terra> * 15,
     <aspect:perditio> * 10,
     <aspect:ordo> * 5
+  );
+  <minecraft:rotten_flesh>.setAspects(
+    <aspect:humanus> * 5,
+    <aspect:mortuus> * 5
   );
   <minecraft:sand:0>.setAspects(
     <aspect:terra> * 5,
@@ -43,8 +51,4 @@
   <minecraft:stonebrick:1>.setAspects(
     <aspect:herba> * 5,
     <aspect:terra> * 5
-  );
-  <minecraft:book>.setAspects(
-    <aspect:cognitio> * 10,
-    <aspect:bestia> * 5
   );
