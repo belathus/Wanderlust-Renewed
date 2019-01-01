@@ -14,7 +14,7 @@
   );
   <rustic:chili_pepper>.setAspects(
     <aspect:herba>*5,
-    <aspect:ignus>*5
+    <aspect:ignis>*5
   );
   <rustic:chili_pepper_seeds>.setAspects(
     <aspect:herba>*5,
