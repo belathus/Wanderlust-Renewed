@@ -1,0 +1,11 @@
+{
+    "name": "Drying Rack",
+    "icon": "primal:drying_rack",
+    "category": "processing_ore",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(t:TIP: you can craft a dirt stick and use it to right-click on a drying rack to give yourself an idea as to how long it will take to dry the clay.)In order to dry clay, you'll need a drying rack. These can be made with various types of wood, but you'll need a flint saw at the very least. Place the clumps of clay on the drying rack and just wait for a while. Drying racks aren't fast, by any means, but they will be a bit faster if exposed to the sun.$()$(br2)$(l:https://github.com/An-Sar/PrimalCore/wiki/Drying-Racks)Click here for info on drying racks.$(/l)"
+        }
+    ]
+}

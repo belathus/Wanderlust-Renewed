@@ -1,0 +1,35 @@
+{
+    "name": "Ore Distributions",
+    "icon": "minecraft:stone",
+    "category": "acquiring_ore",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Clusters are usually a small group of a specific type of ore. Generally, a cluster will be roughly spherical in shape and only contain a handful of similar ores."
+        },
+        {
+            "type": "text",
+            "text": "Veins consist of a motherlode with two or three long branches of ore. If you find a branch, you'll usually be able to follow the branch all the way to the motherlode, which might be very lucrative. The branches tend to be long, sometimes over hundreds of blocks long."
+        },
+        {
+            "type": "text",
+            "text": "Clouds are a huge but sparse distribution of ore over a very large area. When you find a cloud, you'll often only find a handful of ores at a time, but as you keep digging in an area, you'll find that there is a ton of that particular ore in the area. Clouds often have 'hints' near the surface, sometimes called a 'hint vein.' Hint veins often replace dirt, gravel, and sand, but they do not replace grass."
+        },
+        {
+            "type": "text",
+            "text": "Biomes where the top layer is sand, dirt, stone, or gravel are often the easiest places to find clouds, since the ore can be seen without doing any digging. Clouds are often the most lucrative types of ore distribution, but they are also the rarest and require immense amounts of digging to get all of the ore. These are usually good candidates for machines such as the Digital Miner or the Twilight Forest's mining tree."
+        },
+        {
+            "type": "text",
+            "text": "Pipe veins usually consist of a shell of ore with something filling the center. They're usually only found in the overworld, and they are mostly used for diamond and emerald ore."
+        },
+        {
+            "type": "text",
+            "text": "Geodes consist of a roughly spherical mundane stone outer shell with ore lining the inside. Usually, they are filled with fluid in the center. Geodes found in the overworld often contain magical fluids, though those found in the nether are often filled with horrible fluids. They tend to be very useful sources of ore, when you find them."
+        },
+        {
+            "type": "text",
+            "text": "Finally, there is the vertical vein. Ores found as vertical veins usually start at or near bedrock, and shoot upwards, often all the way to the surface. Only redstone and lapis are found as vertical veins, but this does mean that you can find these two ores near the surface. These veins often encourage the miner to dig down. Never dig straight down."
+        }
+    ]
+}
