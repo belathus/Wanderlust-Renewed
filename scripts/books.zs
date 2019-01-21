@@ -22,7 +22,7 @@
 #        [<minecraft:iron_shovel>, null, <minecraft:iron_axe>]]);
 
 # Enchiridion
-    recipes.addShaped(<enchiridion:book>.withTag({identifier:"getting_through_the_stone_age"}),
+    recipes.addShaped(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:getting_through_the_stone_age"}),
         [[<ore:rock>, <ore:rock>]]);
     recipes.addShapeless(<enchiridion:book>.withTag({identifier:"getting_through_the_bronze_age"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:ingotCopper>]);

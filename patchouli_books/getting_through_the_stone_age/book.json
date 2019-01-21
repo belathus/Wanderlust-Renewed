@@ -1,6 +1,8 @@
 {
 	"name": "Getting Through the Stone Age",
 	"landing_text": "In order to get through the stone age, you'll need some basics: tools, food, and some method to process ores.",
-	"version": 1,
-	"show_progress":false
+	"version": 1.1,
+	"show_progress":false,
+	"book_texture":"patchouli:textures/gui/stone_tablet.png",
+	"model":"patchouli:stone_tablet_icon"
 }
