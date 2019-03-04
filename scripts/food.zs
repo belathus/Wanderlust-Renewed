@@ -37,8 +37,8 @@
     #    [<ore:toolCuttingboard>, <ore:bread>, <ore:foodHoneydrop>]);
 
 # Primal
-    recipes.addShapeless(<primal:corn_ground>,
-        [<ore:toolMortarandpestle>, <primal:corn_seeds>]);
+    // recipes.addShapeless(<primal:corn_ground>,
+    //     [<ore:toolMortarandpestle>, <primal:corn_seeds>]);
         
 # Reliquary
     recipes.remove(<xreliquary:glowing_bread>);

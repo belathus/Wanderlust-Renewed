@@ -42,15 +42,15 @@ val nope = <minecraft:barrier>;
       <libvulpes:ore0:5>,
       <libvulpes:productdust:5>
     ],
-    [
-      <primal:tin_nugget>,      
-      <primal:tin_ingot>,      
-      <primal:metalblock:9>,   
-      <primal:tin_plate>,      
-      nope,                   
-      nope,               
-      <primal:tin_dust>
-    ],
+    // [
+    //   <primal:tin_nugget>,      
+    //   <primal:tin_ingot>,      
+    //   <primal:metalblock:9>,   
+    //   <primal:tin_plate>,      
+    //   nope,                   
+    //   nope,               
+    //   <primal:tin_dust>
+    // ],
     #[teMat.withDamage(193),teMat.withDamage(129),teSto.withDamage(1),teMat.withDamage(321),teMat.withDamage(257),teOre.withDamage(1),teMat.withDamage(65)],
     [
       <mekanism:nugget:6>,      

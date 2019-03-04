@@ -20,6 +20,7 @@
     recipes.remove(<minecraft:wooden_shovel>);
     recipes.remove(<minecraft:stone_shovel>);
     # Favoring PrimalCore tools
+    /*
     recipes.remove(<minecraft:diamond_pickaxe>);
     recipes.remove(<minecraft:diamond_shovel>);
     recipes.remove(<minecraft:diamond_sword>);
@@ -29,7 +30,7 @@
     recipes.addShapeless(<minecraft:diamond_axe>, [<primal:diamond_axe>.noReturn()]);
     recipes.addShapeless(<minecraft:diamond_hoe>, [<primal:diamond_hoe>.noReturn()]);
     recipes.addShapeless(<minecraft:diamond_pickaxe>, [<primal:diamond_pickaxe>.noReturn()]);
-
+    */
     recipes.addShaped(<minecraft:golden_sword>,
         [[<ore:ingotGold>],
          [<ore:ingotGold>],
@@ -341,11 +342,11 @@
 #         [<ore:stickWood>,null,null]]);
 
 # PrimalCore
-    recipes.remove(<primal:flint_axe>);
-    recipes.addShapedMirrored(<primal:flint_axe>.withTag({ench: [{lvl: 1, id: 34}]}),
-        [[<ore:flakeFlint>,<ore:cordageGeneral>,<ore:flakeFlint>],
-         [<ore:flakeFlint>,<ore:stickWood>,null],
-         [null,<ore:stickWood>,null]]);
+    #recipes.remove(<primal:flint_axe>);
+    #recipes.addShapedMirrored(<primal:flint_axe>.withTag({ench: [{lvl: 1, id: 34}]}),
+    #    [[<ore:flakeFlint>,<ore:cordageGeneral>,<ore:flakeFlint>],
+    #     [<ore:flakeFlint>,<ore:stickWood>,null],
+    #     [null,<ore:stickWood>,null]]);
 /*
     recipes.addShapeless("xp", <primal:flint_hatchet>, 
         [<primal:flint_hatchet>.anyDamage().marked("hatchet").noReturn(), <ore:stickWood>.noReturn()],

@@ -3,7 +3,7 @@
 #    mods.forestry.ThermionicFabricator.addCast(output stack, input array, molten glass input, :cast input:);
 
 # Vanilla
-    mods.forestry.Squeezer.addRecipe(<liquid:water> * 250, [<primal:valus_melon>], 20, <forestry:fertilizer_bio> % 5);
+    // mods.forestry.Squeezer.addRecipe(<liquid:water> * 250, [<primal:valus_melon>], 20, <forestry:fertilizer_bio> % 5);
 
 # Applied Energistics
     #mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material>, [[<appliedenergistics2:material:11>]], 10, <liquid:menrilresin> * 1000);

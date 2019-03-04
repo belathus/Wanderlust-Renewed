@@ -13,15 +13,15 @@ val nope = <minecraft:barrier>;
           <materialpart:zinc:dust>,                # dust
           nope                                     # rod
         ],
-        [
-          <primal:zinc_nugget>,
-          <primal:zinc_ingot>,
-          <primal:metalblock:8>,
-          <primal:zinc_plate>,
-          nope,
-          nope,
-          <primal:zinc_dust>
-        ],
+        // [
+        //   <primal:zinc_nugget>,
+        //   <primal:zinc_ingot>,
+        //   <primal:metalblock:8>,
+        //   <primal:zinc_plate>,
+        //   nope,
+        //   nope,
+        //   <primal:zinc_dust>
+        // ],
         [
           nope,
           <rockhounding_chemistry:metal_items:9>,

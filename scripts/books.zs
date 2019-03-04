@@ -28,7 +28,7 @@
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:ingotCopper>]);
     recipes.addShapeless(<enchiridion:book>.withTag({identifier:"getting_through_the_iron_age"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:ingotBronze>]);
-    recipes.addShapeless(<enchiridion:book>.withTag({identifier:"nether_living"}),
-        [<ore:paper>,<ore:paper>,<ore:paper>,<primal:thin_slab_corypha>]);
+    // recipes.addShapeless(<enchiridion:book>.withTag({identifier:"nether_living"}),
+    //     [<ore:paper>,<ore:paper>,<ore:paper>,<primal:thin_slab_corypha>]);
     recipes.addShapeless(<enchiridion:book>.withTag({identifier:"fantastic_creatures"}),
         [<ore:paper>,<ore:paper>,<ore:paper>,<ore:materialFlesh>,<ore:materialFlesh>]);

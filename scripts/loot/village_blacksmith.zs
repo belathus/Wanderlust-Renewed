@@ -85,12 +85,12 @@ import loottweaker.vanilla.loot.Functions;
   blacksmith_rare.addItemEntry(<forestry:kit_pickaxe>,                        10, 0);
   blacksmith_rare.addItemEntry(<forestry:kit_shovel>,                         20, 0);
   blacksmith_rare.addItemEntryHelper(<minecraft:iron_pickaxe>,                15, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primal:diamond_pickaxe>,                 1, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primal:flint_pickaxe>,                  20, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primal:quartz_pickaxe>,                  8, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primal:emerald_pickaxe>,                 1, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primal:opal_pickaxe>,                    1, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primal:obsidian_pickaxe>,                4, 0, [tool_dam, tool_ench], []);
+  // blacksmith_rare.addItemEntryHelper(<primal:diamond_pickaxe>,                 1, 0, [tool_dam, tool_ench], []);
+  // blacksmith_rare.addItemEntryHelper(<primal:flint_pickaxe>,                  20, 0, [tool_dam, tool_ench], []);
+  // blacksmith_rare.addItemEntryHelper(<primal:quartz_pickaxe>,                  8, 0, [tool_dam, tool_ench], []);
+  // blacksmith_rare.addItemEntryHelper(<primal:emerald_pickaxe>,                 1, 0, [tool_dam, tool_ench], []);
+  // blacksmith_rare.addItemEntryHelper(<primal:opal_pickaxe>,                    1, 0, [tool_dam, tool_ench], []);
+  // blacksmith_rare.addItemEntryHelper(<primal:obsidian_pickaxe>,                4, 0, [tool_dam, tool_ench], []);
 
   val blacksmith_uberrare = blacksmith.addPool("uberrare", 1, 1, 0, 0);
   blacksmith_uberrare.addItemEntryHelper(<enderio:item_alloy_ingot:0>,        15, 0, [], []); # Electrical Alloy

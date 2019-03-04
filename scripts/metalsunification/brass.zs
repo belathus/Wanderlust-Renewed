@@ -12,15 +12,15 @@ val nope = <minecraft:barrier>;
             nope,                         # ore
             <materialpart:brass:dust>     # dust
         ],
-        [
-            <primal:brass_nugget>,
-            <primal:brass_ingot>,
-            <primal:metalblock:12>,
-            <primal:brass_plate>,
-            nope,
-            nope,
-            nope
-        ],
+        // [
+        //     <primal:brass_nugget>,
+        //     <primal:brass_ingot>,
+        //     <primal:metalblock:12>,
+        //     <primal:brass_plate>,
+        //     nope,
+        //     nope,
+        //     nope
+        // ],
         [
             <thaumcraft:nugget:8>,
             <thaumcraft:ingot:2>,

@@ -1,3 +1,5 @@
+#modloaded primal
+
 # Drying rack unification with TiC
 
 static drying_recipes as crafttweaker.item.IItemStack[][] = [
