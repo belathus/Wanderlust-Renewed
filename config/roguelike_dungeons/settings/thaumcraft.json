@@ -150,8 +150,8 @@
                     "meta":1
                 },
                 "pillar":{
-                    "name":"primal:schist_green_stone",
-                    "meta":7
+                    "name":"botania:biomestonea",
+                    "meta":4
                 },
                 "stair":{
                     "name":"forestry:ash_stairs"
@@ -163,16 +163,16 @@
             "base":"SEWER",
             "primary":{
                 "walls":{
-                    "name":"magnum:anchored_stone",
-                    "meta":2
+                    "name":"chisel:basalt",
+                    "meta":7
                 },
                 "floor":{
                     "name":"botania:altgrass",
                     "meta":5
                 },
                 "pillar":{
-                    "name":"primal:purpurite_stone",
-                    "meta":7
+                    "name":"botania:biomestonea",
+                    "meta":3
                 },
                 "stair":{
                     "name":"botania:biomestonea11stairs"
@@ -183,8 +183,8 @@
                     "name":"rustic:painted_wood_purple"
                 },
                 "floor":{
-                    "name":"magnum:anchored_stone",
-                    "meta":2
+                    "name":"chisel:basalt",
+                    "meta":7
                 },
                 "pillar":{
                     "name":"quark:quilted_wool",
@@ -259,8 +259,8 @@
             },
             "secondary":{
                 "walls":{
-                    "name":"primal:blue_stone",
-                    "meta":3
+                    "name":"botania:biomestonea",
+                    "meta":2
                 },
                 "floor":{
                     "type":"WEIGHTED",

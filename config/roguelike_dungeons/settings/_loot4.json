@@ -29,7 +29,7 @@
                     ],
                     "weight":3
                 },
-                {"data" : {"name" : "primal:obsidian_workblade", "ench" : 30}, "weight":2}
+                {"data" : {"name" : "minecraft:diamond_sword", "ench" : 30}, "weight":2}
 			],
 			"level" : 4,
 			"each" : true,
@@ -41,11 +41,10 @@
 				{
 					"data":[
 						{"data" : {"name" : "dungeontactics:bag_tool"}},
-                        {"data" : {"name" : "primal:obsidian_pickaxe", "ench" : 30}},
-                        {"data" : {"name" : "primal:obsidian_shovel", "ench" : 30}},
-                        {"data" : {"name" : "primal:obsidian_axe", "ench" : 30}},
-                        {"data" : {"name" : "primal:obsidian_hatchet", "ench" : 30}},
-                        {"data" : {"name" : "primal:obsidian_hoe", "ench" : 30}}
+                        {"data" : {"name" : "minecraft:diamond_shovel", "ench" : 30}},
+                        {"data" : {"name" : "minecraft:diamond_pickaxe", "ench" : 30}},
+                        {"data" : {"name" : "minecraft:diamond_axe", "ench" : 30}},
+                        {"data" : {"name" : "minecraft:diamond_hoe", "ench" : 30}}
 					],
 					"weight":5
 				},
@@ -55,7 +54,6 @@
                         {"data" : {"name" : "diamond_pickaxe", "ench" : 30}},
 						{"data" : {"name" : "diamond_axe", "ench" : 30}},
 						{"data" : {"name" : "diamond_shovel", "ench" : 30}},
-						{"data" : {"name" : "primal:diamond_hatchet", "ench" : 30}},
 						{"data" : {"name" : "minecraft:diamond_hoe", "ench" : 30}}
 						
 					],
@@ -139,10 +137,10 @@
 		},
 		{
 			"loot":[
-				{"data":{"name":"primal:arrow_torch_nether"}, "min":1, "max":8},
+				{"data":{"name":"quark:arrow_torch"}, "min":1, "max":8},
 				{"data":{"name":"tconstruct:throwball"}, "min":1, "max":6},
 				{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
-				{"data":{"name":"primal:lantern_nether"}, "min":1, "max":2},
+				{"data":{"name":"immersiveengineering:metal_decoration2", "meta": 4}, "min":1, "max":2},
 				{"data":{"name":"xreliquary:holy_hand_grenade"}, "min":1, "max":4},
 				{"data":{"name":"botania:manatablet", "nbt":"{mana: 375000}"}}
 			],

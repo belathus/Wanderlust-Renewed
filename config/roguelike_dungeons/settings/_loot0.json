@@ -32,16 +32,16 @@
             "loot":[
                 {
                     "data":[
-                        {"data":{"name":"primal:flint_workblade","ench":2}},
-                        {"data":{"name":"primal:stone_gallagher","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_knife_cwf","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_hammer_dwf","ench":2}},
                         {"data":{"name":"erebus:bamboo_shield","ench":2}}
                     ],
                     "weight":5
                 },
                 {
                     "data":[
-                        {"data":{"name":"primal:quartz_workblade","ench":2}},
-                        {"data":{"name":"primal:quartz_gallagher","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_knife_cbl","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_hammer_gbl","ench":2}},
                         {"data":{"name":"dungeontactics:stone_shield","ench":2}}
                     ],
                     "weight":3
@@ -57,25 +57,20 @@
             "loot":[
                 {
                     "data":[
-                        {"data":{"name":"primal:flint_axe","ench":2}},
-                        {"data":{"name":"primal:flint_hatchet","ench":2}},
-                        {"data":{"name":"primal:flint_hoe","ench":2}},
-                        {"data":{"name":"primal:flint_pickaxe","ench":2}},
-                        {"data":{"name":"primal:flint_shears","ench":2}},
-                        {"data":{"name":"primal:flint_saw","ench":2}},
-                        {"data":{"name":"primal:flint_shovel","ench":2}}
+                        {"data":{"name":"primitivetools:primitive_hatchet_cwf","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_hoe_cwf","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_pick_cwf","ench":2}},
+                        {"data":{"name":"artisanworktables:artisans_handsaw_flint","ench":2}},
+                        {"data":{"name":"primitivetools:primitive_spade_cwf","ench":2}}
                     ],
                     "weight":5
                 },
                 {
                     "data":[
-                        {"data":{"name":"primal:quartz_axe","ench":2}},
-                        {"data":{"name":"primal:quartz_hatchet","ench":2}},
-                        {"data":{"name":"primal:quartz_hoe","ench":2}},
-                        {"data":{"name":"primal:quartz_pickaxe","ench":2}},
-                        {"data":{"name":"primal:quartz_shears","ench":2}},
-                        {"data":{"name":"primal:quartz_shovel","ench":2}},
-                        {"data":{"name":"primal:quartz_saw","ench":2}}
+                        {"data":{"name":"appliedenergistics2:nether_quartz_axe","ench":2}},
+                        {"data":{"name":"appliedenergistics2:nether_quartz_hoe","ench":2}},
+                        {"data":{"name":"appliedenergistics2:nether_quartz_pickaxe","ench":2}},
+                        {"data":{"name":"appliedenergistics2:nether_quartz_spade","ench":2}}
                     ],
                     "weight":3
                 }
@@ -87,7 +82,7 @@
         {
             "type":"SMITH",
             "loot":[
-                {"data":{"name":"primal:flint_workblade","ench":6}, "weight":10}
+                {"data":{"name":"primitivetools:primitive_knife_cwf","ench":6}, "weight":10}
             ],
             "level":0,
             "each":true,
@@ -99,7 +94,6 @@
                     "data":[
                         {"data":{"name":"leather"}},
                         {"data":{"name":"rabbit_hide"}},
-                        {"data":{"name":"primal:pelt_wolf"}},
                         {"data":{"name":"lead"}},
                         {"data":{"name":"saddle"}},
                         {"data":{"name":"paper","min":1,"max":2}},
@@ -121,9 +115,13 @@
                             "min":1, "max":2, "weight":5
                         },
                         {"data":{"name":"string"}},
-                        {"data":{"name":"primal:flint_knapp"}},
+                        {"data":[
+                            {"data":{"name":"primitivetools:flint_shard"}},
+                            {"data":{"name":"primitivetools:flint_flake"}},
+                            {"data":{"name":"primitivetools:flint_point"}}
+                        ], "min": 1, "max": 2},
                         {"data":{"name":"flint","min":1,"max":2}},
-                        {"data":{"name":"primal:plant_fiber","min":4,"max":8}},
+                        {"data":{"name":"primitivetools:plant_fiber","min":4,"max":8}},
                         {"data":{"name":"gunpowder","min":1,"max":3}},
                         {"data":{"name":"torch","min":4,"max":8}},
                         {"data":{"name":"botania:tinyPotato"}}
@@ -132,7 +130,7 @@
                 },
                 {
                     "data":[
-                        {"data":{"name":"primal:ash_common","min":1,"max":2}},
+                        {"data":{"name":"forestry:ash","min":1,"max":8}},
                         {"data":{"name":"book","min":1,"max":3}},
                         {"data":{"name":"minecraft:brick","min":1,"max":3}},
                         {"data":{"name":"botania:fertilizer","min":1,"max":4}},
@@ -176,10 +174,10 @@
                             "min":1, "max":2
                         },
                         {"data":{"name":"vine","min":4,"max":8}},
-                        {"data":{"name":"primal:zinc_ingot","comment":"Zinc","min":1,"max":2}},
+                        {"data":{"name":"contenttweaker:material_part","meta":81, "comment": "zinc","min":1,"max":2}},
                         {"data":{"name":"forestry:ingot_copper","comment":"Copper","min":1,"max":2}},
                         {"data":{"name":"contenttweaker:material_part","meta":67,"comment":"Tin","min":1,"max":2}},
-                        {"data":{"name":"primal:iron_ring","min":1,"max":2}},
+                        {"data":{"name":"dungeontactics:iron_ring","min":1,"max":2}},
                         {"data":{"name":"lava_bucket"}},
                         {"data":{"name":"book","ench":6}},
                         {"data":{"name":"randomthings:beans"}}
