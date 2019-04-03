@@ -204,18 +204,18 @@
 #    recipes.removeByRecipeName("mist:door");
 
 # PrimalCore
-    // recipes.addShaped(<primal:mud_clump>*64,
-    //     [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-    //      [<ore:dirt>,<evilcraft:bucket_eternal_water>,<ore:dirt>],
-    //      [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    // recipes.addShaped(<primal:mud_clump>*64,
-    //     [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-    //      [<ore:dirt>,<botania:waterrod>.giveBack(),<ore:dirt>],
-    //      [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    // recipes.addShaped(<primal:mud_clump>*64,
-    //     [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-    //      [<ore:dirt>,<xreliquary:emperor_chalice>.giveBack(),<ore:dirt>],
-    //      [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+    recipes.addShaped(<biomesoplenty:mudball>*64,
+        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
+         [<ore:dirt>,<evilcraft:bucket_eternal_water>,<ore:dirt>],
+         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+    recipes.addShaped(<biomesoplenty:mudball>*64,
+        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
+         [<ore:dirt>,<botania:waterrod>.giveBack(),<ore:dirt>],
+         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
+    recipes.addShaped(<biomesoplenty:mudball>*64,
+        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
+         [<ore:dirt>,<xreliquary:emperor_chalice>.giveBack(),<ore:dirt>],
+         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
     // recipes.addShaped(<primal:calcified_paraffin>,
     //     [[<primal:paraffin_clump>,<primal:paraffin_clump>],
     //      [<primal:paraffin_clump>,<primal:paraffin_clump>]

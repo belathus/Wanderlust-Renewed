@@ -14,22 +14,20 @@
     
 # Vanilla
     recipes.remove(<minecraft:name_tag>);
-#    recipes.addShaped(<minecraft:name_tag>,
-#        [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
-#         [null,<bibliocraft:label:*>,null]]);
+    recipes.addShaped(<minecraft:name_tag>,
+        [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+         [null,<bibliocraft:label:*>,null]]);
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
     # recipes.addShaped(<minecraft:paper>*10,
     #     [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
     #      [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
     # recipes.remove(<minecraft:quartz>);
-    # for i, hammer in list_gallagher {
-    #     recipes.addShaped(<minecraft:quartz>*4,
-    #         [[hammer],[<minecraft:quartz_block:*>]]);
-    #     recipes.addShaped(<minecraft:quartz>*3,
-    #         [[hammer],[<minecraft:quartz_stairs>]]);
-    #     recipes.addShaped(<minecraft:quartz>*2,
-    #         [[hammer],[<minecraft:stone_slab:7>]]);
-    # }
+    recipes.addShaped(<minecraft:quartz>*4,
+        [[<ore:toolMallet>],[<minecraft:quartz_block:*>]]);
+    recipes.addShaped(<minecraft:quartz>*3,
+        [[<ore:toolMallet>],[<minecraft:quartz_stairs>]]);
+    recipes.addShaped(<minecraft:quartz>*2,
+        [[<ore:toolMallet>],[<minecraft:stone_slab:7>]]);
     recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal:*>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal1:*>]);

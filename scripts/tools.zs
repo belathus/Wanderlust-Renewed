@@ -38,7 +38,7 @@
 
     recipes.remove(<minecraft:flint_and_steel>);
     recipes.addShapeless(<minecraft:flint_and_steel>,
-        [<ore:flakeFlint>,<ore:ringIron>]);
+        [<ore:flakeFlint>,<minecraft:iron_ingot>]);
     recipes.addShaped(<minecraft:lead>*2,
         [[<ore:cordageGeneral>,<ore:cordageGeneral>,null],
          [<ore:cordageGeneral>,<ore:slimeball>,null],

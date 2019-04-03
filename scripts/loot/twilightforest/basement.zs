@@ -81,8 +81,8 @@ import loottweaker.vanilla.loot.Functions;
   tf_rare.addItemEntryHelper(<minecraft:speckled_melon>,     1, 0, [Functions.setCount(1, 5)], []);
   tf_rare.addItemEntryHelper(<minecraft:apple>,              1, 0, [Functions.setCount(1, 5)], []);
   tf_rare.addItemEntryHelper(<minecraft:map>,                1, 0, [Functions.setCount(1, 5)], []);
-  // tf_rare.addItemEntryHelper(<primal:flint_pickaxe>,         1, 0, [tool_ench, tool_dam], []);
-  // tf_rare.addItemEntryHelper(<primal:flint_shovel>,          1, 0, [tool_ench, tool_dam], []);
+  tf_rare.addItemEntryHelper(<primitivetools:primitive_pick_cwv>, 1, 0, [tool_dam, tool_ench], []);
+  tf_rare.addItemEntryHelper(<primitivetools:primitive_spade_cwv>, 1, 0, [tool_dam, tool_ench], []);
   tf_rare.addItemEntry(<twilightforest:charm_of_keeping_1>,  1, 0);
   tf_rare.addItemEntry(<ebwizardry:arcane_tome:1>,           1, 0);
 

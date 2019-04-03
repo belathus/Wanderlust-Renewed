@@ -64,12 +64,12 @@ import mods.artisanworktables.builder.RecipeBuilder;
       .create();
 
     // # Alloy Kiln
-    // recipes.remove(<immersiveengineering:stone_decoration:10>);
-    // RecipeBuilder.get("mason")
-    //    .setShaped(
-    //      [[<primal:adobe_brick_dry>, <ore:ingotBrick>, <primal:adobe_brick_dry>],
-    //       [<ore:stoneGranite>, <ore:sandstone>, <ore:stoneGranite>],
-    //       [<primal:adobe_brick_dry>, <ore:ingotBrick>, <primal:adobe_brick_dry>]])
-    //   .addOutput(<immersiveengineering:stone_decoration:10> * 2)
-    //   .addTool(<ore:artisansChisel>, 1)
-    //   .create();
+    recipes.remove(<immersiveengineering:stone_decoration:10>);
+    RecipeBuilder.get("mason")
+       .setShaped(
+         [[<biomesoplenty:mud_brick>, <ore:ingotBrick>, <biomesoplenty:mud_brick>],
+          [<ore:stoneGranite>, <ore:sandstone>, <ore:stoneGranite>],
+          [<biomesoplenty:mud_brick>, <ore:ingotBrick>, <biomesoplenty:mud_brick>]])
+      .addOutput(<immersiveengineering:stone_decoration:10> * 2)
+      .addTool(<ore:artisansChisel>, 1)
+      .create();
