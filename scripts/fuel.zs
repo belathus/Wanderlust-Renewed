@@ -20,4 +20,4 @@
     furnace.setFuel(<contenttweaker:blood_waxed_bituminous_coal_block>, 48000);
 
 # PrimalCore
-    furnace.setFuel(<primal:calcified_paraffin>, 3600);
+#    furnace.setFuel(<primal:calcified_paraffin>, 3600);

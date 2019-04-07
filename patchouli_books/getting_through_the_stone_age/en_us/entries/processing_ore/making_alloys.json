@@ -1,0 +1,34 @@
+{
+    "name": "Making Alloys",
+    "icon": "tconstruct:smeltery_controller",
+    "category": "processing_ore",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The next step to escaping the stone age is to turn copper, tin, and zinc into an alloy. There are a few ways to do this."
+        },
+        {
+            "type":"spotlight",
+            "title":"The Smeltery",
+            "link_recipe":true,
+            "text":"The first is the smeltery, and to build a smeltery, you'll need to make grout. Grout requires you to find a variety of materials, and you'll need a mortar.",
+            "item":"tconstruct:smeltery_controller"
+        },
+        {
+            "type":"relations",
+            "title":"Smeltery Ingredients",
+            "text":"The materials you need to make the smeltery are listed above.",
+            "entries":[
+                "patchouli:processing_ore/limestone_slack",
+                "patchouli:processing_ore/mud",
+                "patchouli:processing_ore/ash",
+                "patchouli:processing_ore/silty_dirt",
+                "patchouli:processing_ore/binder_composite",
+                "patchouli:processing_ore/bone_meal",
+                "patchouli:processing_ore/clay",
+                "patchouli:processing_ore/earthwax"
+            ]
+        }
+    ],
+    "sortnum":0
+}

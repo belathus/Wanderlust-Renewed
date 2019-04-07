@@ -1,0 +1,13 @@
+{
+    "name": "Binder Composite",
+    "icon": "enderio:item_material:22",
+    "category": "processing_ore",
+    "pages": [
+        {
+            "type":"crafting",
+            "text":"This is a mixture of gravel, clay, and sand.",
+            "recipe":"enderio:binder_composite"
+        }
+    ],
+    "sortnum":1
+}

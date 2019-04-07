@@ -31,7 +31,7 @@
         {
             "type":"WEAPONS",
             "loot":[
-                {"data":{"name":"primal:quartz_workblade","ench":5}},
+                {"data":{"name":"dungeontactics:bronze_knife","ench":5}},
                 {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
             ],
             "level":1,
@@ -63,9 +63,9 @@
                         {"data":{"name":"book","min":1,"max":4}},
                         {"data":{"name":"contenttweaker:material_part","meta":94,"comment":"Bronze","min":1,"max":3}},
                         {"data":{"name":"contenttweaker:material_part","meta":67,"comment":"Tin","min":1,"max":3}},
-                        {"data":{"name":"primal:zinc_ingot","min":1,"max":3}},
+                        {"data":{"name":"contenttweaker:material_part","meta":81, "comment": "zinc", "min":1,"max":3}},
                         {"data":{"name":"forestry:ingot_copper","comment":"Copper","min":1,"max":3}},
-                        {"data":{"name":"primal:iron_ring","min":1,"max":2}},
+                        {"data":{"name":"dungeontactics:iron_ring","min":1,"max":2}},
                         {"data":{"name":"redstone","min":2,"max":8}},
                         {
 							"data":[
@@ -111,7 +111,7 @@
                         {"data":{"name":"netherbrick","min":1,"max":3}},
                         {"data":{"name":"book","ench":7}},
                         {"data":{"name":"torch"},"min":1,"max":4},
-                        {"data":{"name":"primal:arrow_torch_wood"}, "min":1, "max":2},
+                        {"data":{"name":"quark:arrow_torch"}, "min":1, "max":2},
                         {"data":{"name":"randomthings:beans"}}                        
                     ],
                     "weight":3

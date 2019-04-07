@@ -126,13 +126,10 @@
                 "floor":{
                     "type":"COLUMNS",
                     "data":[
-                        {"name":"primal:purpurite_stone","meta":0},
-                        {"name":"primal:purpurite_stone","meta":1},
-                        {"name":"primal:purpurite_stone","meta":2},
-                        {"name":"primal:purpurite_stone","meta":3},
-                        {"name":"primal:purpurite_stone","meta":4},
-                        {"name":"primal:purpurite_stone","meta":5},
-                        {"name":"primal:purpurite_stone","meta":6}
+                        {"name":"botania:biomestonea","meta":3},
+                        {"name":"botania:biomestonea","meta":11},
+                        {"name":"botania:biomestoneb","meta":3},
+                        {"name":"botania:biomestonea","meta":11}
                     ]
                 },
                 "pillar":{
@@ -150,7 +147,7 @@
                     ]
                 },
                 "pillar":{
-                    "data":{"name":"primal:purpurite_stone", "meta":7}
+                    "data":{"name":"botania:biomestonea0wall", "meta":3}
                 }
             }
         },

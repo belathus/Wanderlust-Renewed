@@ -48,9 +48,9 @@
 #    <extrautils2:bagofholding>.addTooltip(format.red("Will delete contents upon switching to creative mode"));
 
 # PrimalCore
-    <primal:rock_stone>.addTooltip(format.green("You can throw this or make a cool book."));
-    <primal:adobe_clump>.addTooltip(format.green("Place in a brickform to dry."));
-    <primal:adobe_brick_dry>.addTooltip(format.green("Made from drying the brick mix in a brickform."));
+#    <primal:rock_stone>.addTooltip(format.green("You can throw this or make a cool book."));
+#    <primal:adobe_clump>.addTooltip(format.green("Place in a brickform to dry."));
+#    <primal:adobe_brick_dry>.addTooltip(format.green("Made from drying the brick mix in a brickform."));
 
 # Quark
     <quark:black_ash>.addTooltip(format.green("Place on ground to prevent mob spawns on that block."));

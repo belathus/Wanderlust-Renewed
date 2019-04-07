@@ -17,13 +17,13 @@
 #  <druidry:flint_axe>.maxDamage = 73;
 
 # PrimalCore
-  <primal:emerald_pickaxe>.maxDamage = 731;
-  <primal:emerald_shovel>.maxDamage = 731;
-  <primal:emerald_hoe>.maxDamage = 731;
-  <primal:emerald_hatchet>.maxDamage = 731;
-  <primal:emerald_axe>.maxDamage = 731;
-  <primal:emerald_workblade>.maxDamage = 731;
-  <primal:emerald_saw>.maxDamage = 731;
+//   <primal:emerald_pickaxe>.maxDamage = 731;
+//   <primal:emerald_shovel>.maxDamage = 731;
+//   <primal:emerald_hoe>.maxDamage = 731;
+//   <primal:emerald_hatchet>.maxDamage = 731;
+//   <primal:emerald_axe>.maxDamage = 731;
+//   <primal:emerald_workblade>.maxDamage = 731;
+//   <primal:emerald_saw>.maxDamage = 731;
 
 # Twilight Forest
   <twilightforest:crumble_horn>.maxDamage = 4096;

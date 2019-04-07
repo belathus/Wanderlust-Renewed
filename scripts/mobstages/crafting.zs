@@ -3,7 +3,7 @@
 mods.MobStages.addStage("fireage", "minecraft:creeper");
 mods.MobStages.toggleSpawner("minecraft:creeper", true);
 
-mods.MobStages.addStage("stoneage", "primal:canis_campestris");
+#mods.MobStages.addStage("stoneage", "primal:canis_campestris");
 mods.MobStages.addStage("stoneage", "primitivemobs:filch_lizard");
 
 mods.MobStages.addStage("alchemyage", "minecraft:witch");
@@ -43,5 +43,5 @@ mods.MobStages.toggleSpawner("enderiozoo:fallenmount", true);
 #mods.MobStages.addStage("mansiontraveler", "primitivemobs:mimic");
 #mods.MobStages.toggleSpawner("primitivemobs:trollager", true);
 
-mods.MobStages.addStage("seatraveler", "primal:shark_hammerhead");
+#mods.MobStages.addStage("seatraveler", "primal:shark_hammerhead");
 #mods.MobStages.toggleSpawner("primal:shark_hammerhead", true);

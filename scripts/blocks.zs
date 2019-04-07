@@ -6,7 +6,7 @@
 
 
 # Vanilla
-    furnace.addRecipe(<minecraft:dirt>, <primal:mud_wet>);
+    // furnace.addRecipe(<minecraft:dirt>, <primal:mud_wet>);
     recipes.addShapeless(<minecraft:piston>,
         [<minecraft:sticky_piston>,<evilcraft:bucket_eternal_water>]);
     recipes.addShapeless(<minecraft:piston>,
@@ -204,23 +204,23 @@
 #    recipes.removeByRecipeName("mist:door");
 
 # PrimalCore
-    recipes.addShaped(<primal:mud_clump>*64,
+    recipes.addShaped(<biomesoplenty:mudball>*64,
         [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
          [<ore:dirt>,<evilcraft:bucket_eternal_water>,<ore:dirt>],
          [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    recipes.addShaped(<primal:mud_clump>*64,
+    recipes.addShaped(<biomesoplenty:mudball>*64,
         [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
          [<ore:dirt>,<botania:waterrod>.giveBack(),<ore:dirt>],
          [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    recipes.addShaped(<primal:mud_clump>*64,
+    recipes.addShaped(<biomesoplenty:mudball>*64,
         [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
          [<ore:dirt>,<xreliquary:emperor_chalice>.giveBack(),<ore:dirt>],
          [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    recipes.addShaped(<primal:calcified_paraffin>,
-        [[<primal:paraffin_clump>,<primal:paraffin_clump>],
-         [<primal:paraffin_clump>,<primal:paraffin_clump>]
-        ]
-    );
+    // recipes.addShaped(<primal:calcified_paraffin>,
+    //     [[<primal:paraffin_clump>,<primal:paraffin_clump>],
+    //      [<primal:paraffin_clump>,<primal:paraffin_clump>]
+    //     ]
+    // );
 
 # Rockhounding
 #    recipes.addShaped(<rockhounding_surface:gypsum>*8,
@@ -273,4 +273,4 @@
 #        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
 
 # Tinker's Contruct
-    recipes.remove(<tconstruct:rack:1>);
+    #recipes.remove(<tconstruct:rack:1>);

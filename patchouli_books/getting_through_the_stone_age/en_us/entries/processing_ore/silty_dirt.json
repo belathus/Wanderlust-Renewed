@@ -1,0 +1,16 @@
+{
+    "name": "Silty Dirt",
+    "icon": "biomesoplenty:dirt:10",
+    "category": "processing_ore",
+    "pages": [
+        {
+            "type":"text",
+            "text":"This special type of dirt is incredibly common in certain biomes (NOTE: if you are not playing a Biomes o' Plenty world type, the silty dirt instead generates as large clumps underground. As such, none of the advice about biomes will apply.)"
+        },
+        {
+            "type":"text",
+            "text":"The best way to find these biomes is by making or finding a Nature's Compass. This compass can be used to direct you to the nearest biome you specify. Look for the following biomes to find silty dirt:$(li)Cherry blossom grove$(li)Lavender fields$(li)Prairie$(li)Snowy forest$(li)Tundra"
+        }
+    ],
+    "sortnum":1
+}

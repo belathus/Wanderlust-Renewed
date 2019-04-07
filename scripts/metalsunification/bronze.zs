@@ -21,14 +21,14 @@ val nope = <minecraft:barrier>;
       nope,
       nope
     ],
-    [
-      <primal:bronze_nugget>,
-      <primal:bronze_ingot>, 
-      <primal:metalblock:11>,        
-      nope,
-      nope,
-      nope,
-      <primal:bronze_dust>],
+    // [
+    //   <primal:bronze_nugget>,
+    //   <primal:bronze_ingot>, 
+    //   <primal:metalblock:11>,        
+    //   nope,
+    //   nope,
+    //   nope,
+    //   <primal:bronze_dust>],
     /* 
     [
       <thermalfoundation:material:227>,

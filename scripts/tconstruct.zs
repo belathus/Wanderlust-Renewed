@@ -10,7 +10,7 @@
         <botania:dreamwood>, <botania:livingwood>,
         # <natura:overworld_logs:*>, <natura:overworld_logs2:*>,
         # <natura:redwood_logs:1>, <natura:nether_logs:*>, <abyssalcraft:dltlog>, <integrateddynamics:menril_log>,
-        <primal:corypha_stalk:*>
+        #<primal:corypha_stalk:*>
     ] as crafttweaker.item.IItemStack[];
     var list_planks = [
         <minecraft:planks:*>,
@@ -18,7 +18,7 @@
         # <forestry:planks.0:*>, <forestry:planks.1:*>, <forestry:planks.fireproof.0:*>,<forestry:planks.fireproof.1:*>,
         <botania:dreamwood:1>, <botania:livingwood:1>, #<arsmagica2:witchwood_planks>,
         # <natura:overworld_planks:*>, <natura:nether_planks:*>, <abyssalcraft:dltplank>, <integrateddynamics:menril_planks>,
-        <primal:planks:*>
+        #<primal:planks:*>
     ] as crafttweaker.item.IItemStack[];
 # Each plank and log should make treated wood
     for i, plank in list_planks {
@@ -110,17 +110,17 @@
     mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 72, <libvulpes:productrod:10>, 491);
     
 # Removing all drying rack recipes
-    mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
-    mods.tconstruct.Drying.removeRecipe(<minecraft:deadbush>);
-    for i,item in scripts.primal.drying_recipes {
-        mods.tconstruct.Drying.removeRecipe(item[1]);
-    }
-    val fish_array = [
-        <tconstruct:edible:20>,
-        <tconstruct:edible:21>,
-        <tconstruct:edible:22>,
-        <tconstruct:edible:23>
-    ] as crafttweaker.item.IItemStack[];
-    for i,item in fish_array {
-        mods.tconstruct.Drying.removeRecipe(item);
-    }
+    // mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
+    // mods.tconstruct.Drying.removeRecipe(<minecraft:deadbush>);
+    // for i,item in scripts.primal.drying_recipes {
+    //     mods.tconstruct.Drying.removeRecipe(item[1]);
+    // }
+    // val fish_array = [
+    //     <tconstruct:edible:20>,
+    //     <tconstruct:edible:21>,
+    //     <tconstruct:edible:22>,
+    //     <tconstruct:edible:23>
+    // ] as crafttweaker.item.IItemStack[];
+    // for i,item in fish_array {
+    //     mods.tconstruct.Drying.removeRecipe(item);
+    // }

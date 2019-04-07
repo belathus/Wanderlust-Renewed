@@ -47,7 +47,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<twilightforest:ironwood_ingot>,    30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<twilightforest:firefly>,           30, 0, [Functions.setCount(1, 5)], []);
   tf_common.addItemEntryHelper(<twilightforest:experiment_115>,    30, 0, [Functions.setCount(1, 9)], []);
-  tf_common.addItemEntryHelper(<primal:arrow_ironwood>,            30, 0, [Functions.setCount(1,12)], []);
+  // tf_common.addItemEntryHelper(<primal:arrow_ironwood>,            30, 0, [Functions.setCount(1,12)], []);
   tf_common.addItemEntryHelper(<ebwizardry:identification_scroll>, 30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntryHelper(<ebwizardry:scroll>,                30, 0, [eb_any], []);
 #  tf_common.addItemEntryHelper(<ebwizardry:scroll>,                30, 0, [eb_h_any], []);

@@ -119,7 +119,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
         [nope,                 <forestry:ingot_copper>, <forestry:resource_storage:1>, nope,     <forestry:gear_copper>,   <forestry:resources:1>, nope],
         #[<embers:nuggetCopper>,<embers:ingotCopper>,<embers:blockCopper>,<embers:plateCopper>, nope,                      nope,                 nope],
         #[<esteemedinnovation:nugget>,<esteemedinnovation:ingot>,<esteemedinnovation:metal_storage_block>, nope,nope,      nope,                 nope],
-        [<primal:copper_nugget>,<primal:copper_ingot>, <primal:metalblock:10>,nope,             nope,                      nope,                 <primal:copper_dust>],
+        #[<primal:copper_nugget>,<primal:copper_ingot>, <primal:metalblock:10>,nope,             nope,                      nope,                 <primal:copper_dust>],
         #[<railcraft:nugget:2>, <railcraft:ingot:1>, <railcraft:generic>, nope,                nope,                       nope,                 nope],
         #[nope,                <rockhounding_chemistry:miscItems:25>,nope,nope,                nope,                       nope,                 <rockhounding_chemistry:chemicalDusts:17>],
         /* [teMat.withDamage(192), teMat.withDamage(128), teSto,            teMat.withDamage(320),teMat.withDamage(256),      teOre,                teMat.withDamage(64)], */
@@ -163,7 +163,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
         [nope, nope, nope, lvPla.withDamage(1), nope,        nope, lvDus.withDamage(1)],
         #[<embers:nuggetIron>,                 nope, nope, <embers:plateIron>,              nope,        nope],
         #[<esteemedinnovation:nugget:4>,       nope, nope, nope,         nope,        nope],
-        [nope, nope, nope, <primal:iron_plate>, nope, nope, <primal:iron_dust>]
+        #[nope, nope, nope, <primal:iron_plate>, nope, nope, <primal:iron_dust>]
         #[<rockhounding_chemistry:miscItems:2>, nope, nope, nope,         nope,        nope,<rockhounding_chemistry:chemicalDusts:16>],
         #[nope, nope, nope, teMat.withDamage(32), teMat.withDamage(24), nope, teMat]
     ] as crafttweaker.item.IItemStack[][];
@@ -174,7 +174,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     var list_lead = [ 
         # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
         [ieMat.withDamage(22), ieMat.withDamage(2), ieSto.withDamage(2), ieMat.withDamage(32), <materialpart:lead:gear>, ieOre.withDamage(2), ieMat.withDamage(11)],
-        [<primal:lead_nugget>, <primal:lead_ingot>, <primal:metalblock:7>, <primal:lead_plate>,  nope,                  nope,                <primal:lead_dust>],
+        #[<primal:lead_nugget>, <primal:lead_ingot>, <primal:metalblock:7>, <primal:lead_plate>,  nope,                  nope,                <primal:lead_dust>],
         #[nope,         <rockhounding_chemistry:miscItems:27>,nope,         nope,         nope,         nope,     <rockhounding_chemistry:chemicalDusts:19>]
         #[teMat.withDamage(195),teMat.withDamage(131),     teSto.withDamage(3),   teMat.withDamage(323),teMat.withDamage(259),teOre.withDamage(3),   teMat.withDamage(67)]
     ] as crafttweaker.item.IItemStack[][];
@@ -213,7 +213,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     var list_silver = [
         # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]                    Ore [5]              Dust [6]
         [ieMat.withDamage(23), ieMat.withDamage(3), ieSto.withDamage(3), ieMat.withDamage(33), <materialpart:silver:gear>, ieOre.withDamage(3), ieMat.withDamage(12)],
-        [<primal:silver_nugget>,          <primal:silver_ingot>,           <primal:metalblock:6>,           <primal:silver_plate>,           nope,         nope,      <primal:silver_dust:*>]
+        # [<primal:silver_nugget>,          <primal:silver_ingot>,           <primal:metalblock:6>,           <primal:silver_plate>,           nope,         nope,      <primal:silver_dust:*>]
         #[nope,         nope,         nope,         nope,         nope,         nope,      <rockhounding_chemistry:chemicalDusts:23>],
         #[teMat.withDamage(194),teMat.withDamage(130),teSto.withDamage(2),   teMat.withDamage(322),teMat.withDamage(258),teOre.withDamage(2),    teMat.withDamage(66)]
     ] as crafttweaker.item.IItemStack[][];

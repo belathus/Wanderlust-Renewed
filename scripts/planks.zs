@@ -141,7 +141,7 @@
 #        [<terraqueous:trunk2:2>, <terraqueous:planks:7>, <terraqueous:type_earth:47>, <terraqueous:type_earth:57>],
 #        [<terraqueous:trunk2:3>, <terraqueous:planks:8>, <terraqueous:type_earth:48>, <terraqueous:type_earth:58>],
 #        [<terraqueous:trunk2:4>, <terraqueous:planks:9>, <terraqueous:type_earth:49>, <terraqueous:type_earth:59>],
-        [<primal:corypha_stalk:*>,<primal:planks:3>,<primal:stairs_corypha>,<primal:slab_corypha>]
+#        [<primal:corypha_stalk:*>,<primal:planks:3>,<primal:stairs_corypha>,<primal:slab_corypha>]
     ] as crafttweaker.item.IItemStack[][];
     
     var list_logs2 = [

@@ -23,16 +23,16 @@ val nope = <minecraft:barrier>;
       <libvulpes:productdust:6>,
       <libvulpes:productrod:6>
     ],
-    [
-      nope,
-      <primal:steel_ingot>,
-      <primal:metalblock:1>,
-      <primal:steel_plate>,
-      nope,
-      nope,
-      nope,
-      nope
-    ],
+    // [
+    //   nope,
+    //   <primal:steel_ingot>,
+    //   <primal:metalblock:1>,
+    //   <primal:steel_plate>,
+    //   nope,
+    //   nope,
+    //   nope,
+    //   nope
+    // ],
     /*
     [
       <thermalfoundation:material:224>,

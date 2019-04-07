@@ -1,0 +1,15 @@
+{
+    "name": "Redstone and Lapis",
+    "icon": "minecraft:redstone_ore",
+    "category": "acquiring_ore",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Redstone and lapis are found as tall vertical veins. These veins usually originate near bedrock and can extend almost all the way up to the surface. This means that you can find bits of lapis and redstone on the surface, and when you do, it is a hint that there is more underneath.$(br2)The vertical veins encourage you to dig down. $(bold)Never dig straight down.$()"
+        },
+        {
+            "type":"text",
+            "text":"Lapis ore's vertical veins are nearly identical to redstone veins, but there are a few minor differences. Lapis veins are found about half as frequently as redstone, and the origin of the vein is slightly higher, meaning you are more likely to find it on the surface."
+        }
+    ]
+}

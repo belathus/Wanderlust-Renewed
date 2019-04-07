@@ -20,7 +20,7 @@
         #mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dark_gem_crushed>, <abyssalcraft:shadowgem>,600);
 
     # PrimalCore
-        mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*4,<primal:sharp_bone:*>,600);
+        #mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*4,<primal:sharp_bone:*>,600);
         
     # Platinum processing
         mods.immersiveengineering.Crusher.removeRecipe(<contenttweaker:sub_block_holder_2:2>);

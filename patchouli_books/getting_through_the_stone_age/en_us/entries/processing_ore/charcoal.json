@@ -1,0 +1,16 @@
+{
+    "name": "Charcoal",
+    "icon": "minecraft:coal:1",
+    "category": "processing_ore",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In order to gain charcoal without first making a furnace, you'll need to make a charcoal pit. $(l:https://github.com/An-Sar/PrimalCore/wiki/Charcoal)This guide has a bit more detail, as well as some useful images.$(/l) First, you'll need to strip a log of wood with a work blade (place the log down, and shift-right-click it with a work blade). Once stripped, you then use an axe to split the logs. You then craft the split logs into log stacks."
+        },
+        {
+            "type":"text",
+            "text":"Then, partially bury the log stack under dirt. You'll need to light the log stack on fire with a fire bow, and once it is lit, finish burying the log stack. If you do not bury the log stack, it will burn into ash rather than charcoal, which can be a useful method of gathering ash when you need it. You can bury multiple log stacks together, and the fire will spread to multiple stacks, so you don't have to bury each stack individually nor light each stack individually."
+        }
+    ],
+    "sortnum":1
+}

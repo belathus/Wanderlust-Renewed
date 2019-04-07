@@ -1,0 +1,16 @@
+{
+    "name": "Crafting Table",
+    "icon": "minecraft:crafting_table",
+    "category": "acquiring_hardware",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Once you have wood, you'll be able to make yourself a crafting table. A slightly cheaper crafting table is made using the hatchet on the log in a crafting grid. Due to a reduced return on planks when crafting without a saw, the normal crafting table will require two logs."
+        },
+        {
+            "type":"text",
+            "text":"Once you have a crafting table, you can make tools such as the flint saw, which gives you 3 planks, as well as a flint axe, work blade, and other such flint tools. One thing to note about flint tools: they can be repaired in the crafting grid; no anvil required! Furthermore, when you do repair them in your crafting grid, they'll $(bold)retain any enchantments$() that have been placed on them."
+        }
+    ],
+    "sortnum":4
+}

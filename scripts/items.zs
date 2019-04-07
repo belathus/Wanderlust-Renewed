@@ -5,31 +5,29 @@
 #         [<>,<>,<>]]);
 
 
-    var list_gallagher = [
-        <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
-    ] as crafttweaker.item.IItemStack[];
-    val hammers = [
-        <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
-    ] as crafttweaker.item.IItemStack[];
+    # var list_gallagher = [
+    #     <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
+    # ] as crafttweaker.item.IItemStack[];
+    # val hammers = [
+    #     <primal:stone_gallagher:*>,<primal:iron_gallagher:*>,<primal:nether_gallagher:*>,<primal:quartz_gallagher:*>
+    # ] as crafttweaker.item.IItemStack[];
     
 # Vanilla
     recipes.remove(<minecraft:name_tag>);
-#    recipes.addShaped(<minecraft:name_tag>,
-#        [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
-#         [null,<bibliocraft:label:*>,null]]);
+    recipes.addShaped(<minecraft:name_tag>,
+        [[<ore:cordageGeneral>,null,<ore:cordageGeneral>],
+         [null,<bibliocraft:label:*>,null]]);
     recipes.removeShaped(<minecraft:string>*4,[[<minecraft:wool:*>],[<minecraft:wool:*>]]);
-    recipes.addShaped(<minecraft:paper>*10,
-        [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
-         [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
-    recipes.remove(<minecraft:quartz>);
-    for i, hammer in list_gallagher {
-        recipes.addShaped(<minecraft:quartz>*4,
-            [[hammer],[<minecraft:quartz_block:*>]]);
-        recipes.addShaped(<minecraft:quartz>*3,
-            [[hammer],[<minecraft:quartz_stairs>]]);
-        recipes.addShaped(<minecraft:quartz>*2,
-            [[hammer],[<minecraft:stone_slab:7>]]);
-    }
+    # recipes.addShaped(<minecraft:paper>*10,
+    #     [[<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>],
+    #      [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
+    # recipes.remove(<minecraft:quartz>);
+    recipes.addShaped(<minecraft:quartz>*4,
+        [[<ore:toolMallet>],[<minecraft:quartz_block:*>]]);
+    recipes.addShaped(<minecraft:quartz>*3,
+        [[<ore:toolMallet>],[<minecraft:quartz_stairs>]]);
+    recipes.addShaped(<minecraft:quartz>*2,
+        [[<ore:toolMallet>],[<minecraft:stone_slab:7>]]);
     recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal:*>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal1:*>]);
@@ -420,37 +418,37 @@
 #        [<botania:waterrod>.giveBack()]);
 
 # PrimalCore
-    recipes.remove(<primal:iron_ring>);
-    recipes.addShapeless(<primal:plant_cordage>,
-        [<ore:fiberHemp>,<ore:fiberHemp>]);
-    recipes.addShaped(<primal:torch_wood>*8,
-        [[<ore:fuelCoke>],
-         [<ore:cordagePlant>],
-         [<ore:stickWood>]]);
-    recipes.addShaped(<primal:torch_wood>*8,
-        [[<ore:itemAnthracite>],
-         [<ore:cordagePlant>],
-         [<ore:stickWood>]]);
-    recipes.addShaped(<primal:torch_wood>*6,
-        [[<ore:itemBituminous>],
-         [<ore:cordagePlant>],
-         [<ore:stickWood>]]);
-    recipes.addShaped(<primal:torch_wood>*2,
-        [[<ore:itemLignite>],
-         [<ore:cordagePlant>],
-         [<ore:stickWood>]]);
-    for i, galla in list_gallagher {
+#    recipes.remove(<primal:iron_ring>);
+#    recipes.addShapeless(<primal:plant_cordage>,
+#        [<ore:fiberHemp>,<ore:fiberHemp>]);
+#    recipes.addShaped(<primal:torch_wood>*8,
+#        [[<ore:fuelCoke>],
+#         [<ore:cordagePlant>],
+#         [<ore:stickWood>]]);
+#    recipes.addShaped(<primal:torch_wood>*8,
+#        [[<ore:itemAnthracite>],
+#         [<ore:cordagePlant>],
+#         [<ore:stickWood>]]);
+#    recipes.addShaped(<primal:torch_wood>*6,
+#        [[<ore:itemBituminous>],
+#         [<ore:cordagePlant>],
+#         [<ore:stickWood>]]);
+#    recipes.addShaped(<primal:torch_wood>*2,
+#        [[<ore:itemLignite>],
+#         [<ore:cordagePlant>],
+#         [<ore:stickWood>]]);
+#    for i, galla in list_gallagher {
 #        recipes.addShaped(<primal:carbonate_slack> * 4, 
 #            [[galla],[<biomesoplenty:stone>]]);
-        recipes.addShaped(<primal:carbonate_slack> * 4, 
-            [[galla],[<chisel:limestone2:7>]]);
-        recipes.addShaped(<primal:carbonate_slack> * 4, 
-            [[galla],[<primal:carbonate_stone>]]);
-        recipes.addShaped(<primal:carbonate_slack> * 4, 
-            [[galla],[<ore:stoneLimestone>]]);
-        recipes.addShaped(<primal:iron_ring> * 4,
-            [[galla],[<ore:plateIron>]]);
-    }
+#        recipes.addShaped(<primal:carbonate_slack> * 4, 
+#            [[galla],[<chisel:limestone2:7>]]);
+#        recipes.addShaped(<primal:carbonate_slack> * 4, 
+#            [[galla],[<primal:carbonate_stone>]]);
+#        recipes.addShaped(<primal:carbonate_slack> * 4, 
+#            [[galla],[<ore:stoneLimestone>]]);
+#        recipes.addShaped(<primal:iron_ring> * 4,
+#            [[galla],[<ore:plateIron>]]);
+#    }
 
 # Refined Storage
 #    recipes.remove(<refinedstorage:quartz_enriched_iron>);

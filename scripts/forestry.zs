@@ -3,13 +3,22 @@
 #    mods.forestry.ThermionicFabricator.addCast(output stack, input array, molten glass input, :cast input:);
 
 # Vanilla
-    mods.forestry.Squeezer.addRecipe(<liquid:water> * 250, [<primal:valus_melon>], 20, <forestry:fertilizer_bio> % 5);
+    // mods.forestry.Squeezer.addRecipe(<liquid:water> * 250, [<primal:valus_melon>], 20, <forestry:fertilizer_bio> % 5);
 
 # Applied Energistics
     #mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material>, [[<appliedenergistics2:material:11>]], 10, <liquid:menrilresin> * 1000);
 
 # Biomes O' Plenty
     mods.forestry.Squeezer.addRecipe(<liquid:blood> * 15, [<minecraft:rotten_flesh>], 20, <forestry:fertilizer_bio> % 5);
+
+# Dungeon Tactics
+mods.forestry.Carpenter.addRecipe(<minecraft:glowstone_dust>, [[<ore:dustRedstone>, <dungeontactics:glowcurrent>, <ore:dustRedstone>],
+    [<dungeontactics:glowcurrent>,<ore:dustBlaze>,<dungeontactics:glowcurrent>],
+    [<ore:dustRedstone>,<dungeontactics:glowcurrent>,<ore:dustRedstone>]
+], 30, <liquid:water> * 100);
+// mods.primal.Cauldron.addRecipe("glowcurrant_to_glowstone", 1.0, <liquid:water> * 100, null,
+//   [<ore:dustRedstone> * 4, <dungeontactics:glowcurrent> * 4, <ore:dustBlaze>], [<minecraft:glowstone_dust>]);
+
 
 # EnderIO
 #    recipes.remove(<enderio:itemBasicCapacitor:*>);

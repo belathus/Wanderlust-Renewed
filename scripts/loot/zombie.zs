@@ -20,7 +20,6 @@ val ingots = zombie.addPool("ingot", 1, 1, 0, 0);
 ingots.addConditionsHelper([Conditions.killedByPlayer(), Conditions.randomChanceWithLooting(0.025, 0.01)]);
 ingots.addItemEntryHelper(<minecraft:potato>, 2, 0, [], []);
 ingots.addItemEntryHelper(<minecraft:carrot>, 2, 0, [], []);
-ingots.addItemEntryHelper(<primal:corn_cob>, 2, 0, [], []);
 ingots.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []); # Copper
 ingots.addItemEntryHelper(<materialpart:tin:ingot>, 1, 0, [], []);       # Tin
 ingots.addItemEntryHelper(<materialpart:zinc:ingot>, 1, 0, [], []);      # Zinc

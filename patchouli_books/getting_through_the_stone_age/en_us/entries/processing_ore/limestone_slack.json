@@ -1,0 +1,20 @@
+{
+    "name": "Lime Slack",
+    "icon": "primal:carbonate_slack",
+    "category": "processing_ore",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "Limestone is commonly found nearly anywhere.",
+            "title":"Limestone Slack",
+            "item":"primal:carbonate_slack"
+        },
+        {
+            "type":"spotlight",
+            "text": "If limestone itself is lacking, you can use ferrocalcite as well, which is a dark stone commonly found in the nether.",
+            "title":"Ferrocalcite Slack",
+            "item":"primal:ferro_slack"
+        }
+    ],
+    "sortnum":1
+}

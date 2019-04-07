@@ -43,7 +43,7 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<minecraft:paper>,              30, 0, [Functions.setCount(1, 12)], []);
   tf_common.addItemEntryHelper(<minecraft:arrow>,              30, 0, [Functions.setCount(1, 12)], []);
   tf_common.addItemEntryHelper(<minecraft:paper>,              30, 0, [Functions.setCount(1, 12)], []);
-  tf_common.addItemEntryHelper(<primal:arrow_ironwood>,        30, 0, [Functions.setCount(1, 12)], []);
+  // tf_common.addItemEntryHelper(<primal:arrow_ironwood>,        30, 0, [Functions.setCount(1, 12)], []);
   tf_common.addItemEntryHelper(<minecraft:leather>,            30, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntry(<dungeontactics:bottled_milk>,        30, 0);
   tf_common.addItemEntryHelper(<ebwizardry:identification_scroll>, 30, 0, [Functions.setCount(1, 4)], []);

@@ -76,8 +76,8 @@ import loottweaker.vanilla.loot.Functions;
   tf_rare.addItemEntryHelper(<minecraft:gold_ingot>,            1, 0, [Functions.setCount(1, 5)], []);
   tf_rare.addItemEntryHelper(<twilightforest:naga_scale>,       1, 0, [Functions.setCount(1, 2)], []);
   tf_rare.addItemEntryHelper(<twilightforest:uncrafting_table>, 1, 0, [], []);
-  tf_rare.addItemEntryHelper(<primal:quartz_pickaxe>,           1, 0, [tool_ench, tool_dam], []);
-  tf_rare.addItemEntryHelper(<primal:quartz_shovel>,            1, 0, [tool_ench, tool_dam], []);
+  tf_rare.addItemEntryHelper(<appliedenergistics2:nether_quartz_pickaxe>,             1, 0, [Functions.enchantWithLevels(15, 30, false)], []);
+  tf_rare.addItemEntryHelper(<appliedenergistics2:nether_quartz_spade>,              1, 0, [Functions.enchantWithLevels(15, 30, false)], []);
   tf_rare.addItemEntry(<ebwizardry:arcane_tome:1>,              1, 0);
 
   ### If you adjust the weights or add items, increase the weight of the empty entry. ###
