@@ -11,10 +11,10 @@ mods.MobStages.addStage("alchemyage", "tconstruct:blueslime");
 mods.MobStages.toggleSpawner("minecraft:witch", true);
 mods.MobStages.toggleSpawner("tconstruct:blueslime", true);
 
-#mods.MobStages.addStage("explosionage", "primitivemobs:festive_creeper");
-#mods.MobStages.addStage("flightage", "primitivemobs:rocket_creeper");
-#mods.MobStages.toggleSpawner("primitivemobs:festive_creeper", true);
-#mods.MobStages.toggleSpawner("primitivemobs:rocket_creeper", true);
+mods.MobStages.addStage("explosionage", "primitivemobs:festive_creeper");
+mods.MobStages.addStage("flightage", "primitivemobs:rocket_creeper");
+mods.MobStages.toggleSpawner("primitivemobs:festive_creeper", true);
+mods.MobStages.toggleSpawner("primitivemobs:rocket_creeper", true);
 
 mods.MobStages.addStage("bronzeage", "primitivemobs:skeleton_warrior");
 mods.MobStages.addStage("bronzeage", "primitivemobs:treasure_slime");

@@ -33,7 +33,10 @@ mods.MobStages.toggleSpawner("primitivemobs:baby_spider", true);
 mods.MobStages.toggleSpawner("primitivemobs:mother_spider", true);
 
 events.onPlayerChangedDimension(function(event as crafttweaker.event.PlayerChangedDimensionEvent) {
-  event.player.addGameStage("DimensionTraveler");
+  if(!event.player.hasGameStage("DimensionTraveler")) {
+    event.player.addGameStage("DimensionTraveler");
+    event.player.sendChat("You have unlocked the power of fire. Creepers might spawn now.");
+  }
   if(event.to == -1) {
     if(!event.player.hasGameStage("NetherTraveler")) {
       event.player.addGameStage("NetherTraveler");
