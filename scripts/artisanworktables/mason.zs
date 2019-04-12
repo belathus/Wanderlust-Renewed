@@ -60,10 +60,10 @@ import mods.artisanworktables.builder.RecipeBuilder;
           [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
           [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]])
       .addOutput(<appliedenergistics2:grindstone>)
-      .addTool(<ore:toolHammer>, 1)
+      .addTool(<ore:artisansHammer>, 1)
       .create();
 
-    // # Alloy Kiln
+    # Alloy Kiln
     recipes.remove(<immersiveengineering:stone_decoration:10>);
     RecipeBuilder.get("mason")
        .setShaped(
@@ -73,3 +73,14 @@ import mods.artisanworktables.builder.RecipeBuilder;
       .addOutput(<immersiveengineering:stone_decoration:10> * 2)
       .addTool(<ore:artisansChisel>, 1)
       .create();
+
+    # Coke Oven
+    recipes.remove(<immersiveengineering:stone_decoration>);
+    RecipeBuilder.get("mason")
+       .setShaped(
+         [[<minecraft:clay_ball>,<ore:ingotBrick>,<minecraft:clay_ball>],
+          [<ore:ingotBrick>,<ore:sandstoneAll>,<ore:ingotBrick>],
+          [<minecraft:clay_ball>,<ore:ingotBrick>,<minecraft:clay_ball>]])
+            .addOutput(<immersiveengineering:stone_decoration> * 3)
+            .addTool(<ore:artisansChisel>, 1)
+            .create();

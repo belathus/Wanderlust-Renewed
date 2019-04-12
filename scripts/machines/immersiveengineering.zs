@@ -44,10 +44,10 @@
   //   [[<ore:clayball>,<primal:terra_brick_dry>,<ore:clayball>],
   //    [<primal:terra_brick_dry>,<ore:sandstone>,<primal:terra_brick_dry>],
   //    [<ore:clayball>,<primal:terra_brick_dry>,<ore:clayball>]]);
-  recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
-    [[<ore:clayball>,<ore:ingotBrick>,<ore:clayball>],
-     [<ore:ingotBrick>,<ore:blockSoulstone>,<ore:ingotBrick>],
-     [<ore:clayball>,<ore:ingotBrick>,<ore:clayball>]]);
+  // recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
+  //   [[<ore:clayball>,<ore:ingotBrick>,<ore:clayball>],
+  //    [<ore:ingotBrick>,<ore:blockSoulstone>,<ore:ingotBrick>],
+  //    [<ore:clayball>,<ore:ingotBrick>,<ore:clayball>]]);
   // recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
   //   [[<ore:clayball>,<primal:cinis_brick_dry>,<ore:clayball>],
   //    [<primal:cinis_brick_dry>,<ore:blockSoulstone>,<primal:cinis_brick_dry>],

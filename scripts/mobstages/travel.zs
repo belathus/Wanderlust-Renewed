@@ -1,9 +1,11 @@
 mods.MobStages.addStage("DimensionTraveler", "minecraft:zombie");
 mods.MobStages.addStage("DimensionTraveler", "minecraft:skeleton");
 mods.MobStages.addStage("DimensionTraveler", "minecraft:enderman");
+mods.MobStages.addStage("DimensionTraveler", "enderiozoo:lovechild");
 mods.MobStages.toggleSpawner("minecraft:zombie", true);
 mods.MobStages.toggleSpawner("minecraft:skeleton", true);
 mods.MobStages.toggleSpawner("minecraft:enderman", true);
+mods.MobStages.toggleSpawner("enderiozoo:lovechild", true);
 
 mods.MobStages.addStage("NetherTraveler", "enderiozoo:withercat");
 mods.MobStages.addStage("NetherTraveler", "enderiozoo:witherwitch");
@@ -35,7 +37,7 @@ mods.MobStages.toggleSpawner("primitivemobs:mother_spider", true);
 events.onPlayerChangedDimension(function(event as crafttweaker.event.PlayerChangedDimensionEvent) {
   if(!event.player.hasGameStage("DimensionTraveler")) {
     event.player.addGameStage("DimensionTraveler");
-    event.player.sendChat("You have unlocked the power of fire. Creepers might spawn now.");
+    event.player.sendChat("You have travelled beyond the overworld. Zombies, Skeletons, and Enderman are spawning now.");
   }
   if(event.to == -1) {
     if(!event.player.hasGameStage("NetherTraveler")) {
