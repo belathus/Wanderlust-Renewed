@@ -24,20 +24,24 @@ mods.MobStages.toggleSpawner("primitivemobs:treasure_slime", true);
 mods.MobStages.addStage("silverage", "primitivemobs:blazing_juggernaut");
 mods.MobStages.addStage("silverage", "primitivemobs:brain_slime");
 mods.MobStages.addStage("silverage", "ebwizardry:evil_wizard");
+mods.MobStages.addStage("silverage", "thaumcraft:brainyzombie");
 mods.MobStages.toggleSpawner("primitivemobs:blazing_juggernaut", true);
 mods.MobStages.toggleSpawner("primitivemobs:brain_slime", true);
 mods.MobStages.toggleSpawner("ebwizardry:evil_wizard", true);
+mods.MobStages.toggleSpawner("thaumcraft:brainyzombie", true);
 
 mods.MobStages.addStage("ironage", "mowziesmobs:ferrous_wroughtnaut");
 mods.MobStages.addStage("ironage", "primitivemobs:lost_miner");
 mods.MobStages.addStage("ironage", "primitivemobs:traveling_merchant");
 mods.MobStages.addStage("ironage", "enderiozoo:fallenknight");
 mods.MobStages.addStage("ironage", "enderiozoo:fallenmount");
+mods.MobStages.addStage("ironage", "cyberware:cyberzombie");
 mods.MobStages.toggleSpawner("mowziesmobs:ferrous_wroughtnaut", true);
 mods.MobStages.toggleSpawner("primitivemobs:lost_miner", true);
 mods.MobStages.toggleSpawner("primitivemobs:traveling_merchant", true);
 mods.MobStages.toggleSpawner("enderiozoo:fallenknight", true);
 mods.MobStages.toggleSpawner("enderiozoo:fallenmount", true);
+mods.MobStages.toggleSpawner("cyberware:cyberzombie", true);
 
 #mods.MobStages.addStage("mansiontraveler", "primitivemobs:trollager");
 #mods.MobStages.addStage("mansiontraveler", "primitivemobs:mimic");
