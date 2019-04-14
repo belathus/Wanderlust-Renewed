@@ -60,11 +60,22 @@
 
   # Mithril (AKA Diamond)
   recipes.remove(<metalchests:metal_chest:4>);
+  game.setLocalization("tile.metalchests:metal_chest.diamond.name","Mithril Chest");
+  mods.tconstruct.Casting.addBasinRecipe(<metalchests:metal_chest:4>,<metalchests:metal_chest:3>,<liquid:mithril>,288,true);
   mods.artisanworktables.builder.RecipeBuilder.get("basic")
-    .setShapeless([<ore:ingotMithril>,<ore:ingotMithril>,<metalchests:metal_chest:3>])
+    .setShapeless([<metalchests:metal_chest:3>])
     .addOutput(<metalchests:metal_chest:4>)
+    .setFluid(<liquid:mithril> * 288)
     .addTool(<ore:artisansFramingHammer>, 1)
     .create();
+
+  game.setLocalization("item.metalchests:chest_upgrade.wood_diamond.name", "Wood to Mithril Chest Upgrade");
+  game.setLocalization("item.metalchests:chest_upgrade.copper_diamond.name", "Copper to Mithril Chest Upgrade");
+  game.setLocalization("item.metalchests:chest_upgrade.iron_diamond.name", "Iron to Mithril Chest Upgrade");
+  game.setLocalization("item.metalchests:chest_upgrade.silver_diamond.name", "Silver to Mithril Chest Upgrade");
+  game.setLocalization("item.metalchests:chest_upgrade.gold_diamond.name", "Gold to Mithril Chest Upgrade");
+  game.setLocalization("item.metalchests:chest_upgrade.diamond_obsidian.name", "Mithril to Obsidian Chest Upgrade");
+
 
   # Obsidian
   recipes.remove(<metalchests:metal_chest:5>);
