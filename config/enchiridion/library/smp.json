@@ -287,6 +287,36 @@
       "handlerType": "customwood",
       "matchDamage": false,
       "matchNBT": false
+    },
+    {
+      "item": "astralsorcery:itemconstellationpaper",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "gbook:guidebook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "ebwizardry:identification_scroll",
+      "matchDamage": false,
+      "handlerType": "rightclick",
+      "matchNBT": false
+    },
+    {
+      "item": "ebwizardry:arcane_tome",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "dungeontactics:magic_scroll",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
     }
   ],
   "freeBooks": []
