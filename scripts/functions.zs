@@ -31,9 +31,8 @@ function unify(list as crafttweaker.item.IItemStack[][], oredict as crafttweaker
                 [[null,oredict[1],null],
                  [oredict[1],<ore:ingotIron>,oredict[1]],
                  [null,oredict[1],null]]);
-            recipes.addShaped(group[3],[[<ore:toolMallet>],[oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[oredict[1]]]);
-            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>],[oredict[1]]]);
         }
     }
 }
@@ -70,9 +69,9 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
                 [[null,oredict[1],null],
                  [oredict[1],<ore:ingotIron>,oredict[1]],
                  [null,oredict[1],null]]);
-            recipes.addShaped(group[3],[[<ore:toolMallet>],[oredict[1]]]);
+            recipes.addShaped(group[3],[[<ore:artisansHammer>.transformDamage()],[oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[oredict[1]]]);
-            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>],[oredict[1]]]);
         }
     }
 }

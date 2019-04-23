@@ -1,6 +1,7 @@
 #modloaded artisanworktables
 
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IItemStack;
 
 # ===========================
 # ====    Basic Table    ====
@@ -29,3 +30,20 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .addOutput(<forestry:bog_earth> * 8)
     .addTool(<ore:artisansTrowel>, 0)
     .create();
+
+val cordageMaterial = [<minecraft:vine>, <minecraft:leather>] as IItemStack[];
+val cordageType = [<primitivetools:cordage_vine>, <primitivetools:leather_strip>] as IItemStack[];
+val multipliers = [0.25, 0.5, 0.75] as double[];
+
+for i, item in cordageMaterial{
+  for j, multiplier in multipliers{
+    RecipeBuilder.get("basic")
+    .setShapeless([cordageMaterial[i]])
+    .addOutput(cordageType[i] * 4)
+    .addTool(<ore:artisansKnife>, 1)
+    .setExtraOutputOne(cordageType[i], multiplier)
+    .setMinimumTier(j)
+    .setMaximumTier(j)
+    .create();
+  }
+}

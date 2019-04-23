@@ -23,11 +23,11 @@
     #      [<primal:valus_fiber>,<primal:valus_fiber>,<primal:valus_fiber>]]);
     # recipes.remove(<minecraft:quartz>);
     recipes.addShaped(<minecraft:quartz>*4,
-        [[<ore:toolMallet>],[<minecraft:quartz_block:*>]]);
+        [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:quartz_block:*>]]);
     recipes.addShaped(<minecraft:quartz>*3,
-        [[<ore:toolMallet>],[<minecraft:quartz_stairs>]]);
+        [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:quartz_stairs>]]);
     recipes.addShaped(<minecraft:quartz>*2,
-        [[<ore:toolMallet>],[<minecraft:stone_slab:7>]]);
+        [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:stone_slab:7>]]);
     recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal:*>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal1:*>]);
@@ -50,16 +50,16 @@
          [<ore:treeSapling>]]);
 /*
     recipes.addShaped(<minecraft:stick>*8,
-        [[<tconstruct:hatchet:*>.transformDamage()],
+        [[<tconstruct:hatchet:*> | <ore:artisansHammer>.transformDamage()],
          [<ore:logWood>]]);
     recipes.addShaped(<minecraft:stick>*2,
-        [[<tconstruct:hatchet:*>.transformDamage()],
+        [[<tconstruct:hatchet:*> | <ore:artisansHammer>.transformDamage()],
          [<ore:plankWood>]]);
     recipes.addShaped(<minecraft:stick>*1,
-        [[<tconstruct:hatchet:*>.transformDamage()],
+        [[<tconstruct:hatchet:*> | <ore:artisansHammer>.transformDamage()],
          [<ore:slabWood>]]);
     recipes.addShaped(<minecraft:stick>*1,
-        [[<tconstruct:hatchet:*>.transformDamage()],
+        [[<tconstruct:hatchet:*> | <ore:artisansHammer>.transformDamage()],
          [<ore:treeSapling>]]);
     #recipes.addShaped(<minecraft:stick>*8,
     #    [[<bloodmagic:ItemBoundAxe>.giveBack()],
@@ -151,33 +151,33 @@
 # Ars Magica 2
     #recipes.remove(<astralsorcery:itemcraftingcomponent:5>);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<roots:druidKnife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<roots:druidKnife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:wooden_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:wooden_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:iron_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:iron_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:golden_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:golden_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:diamond_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:diamond_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:gilded_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:gilded_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:tin_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:tin_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:copper_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:copper_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:bronze_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:bronze_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:stone_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:stone_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:steel_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:steel_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:silver_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:silver_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:lead_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:lead_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
-    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:jewelled_knife:*>.transformDamage()]);
+    #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<dungeontactics:jewelled_knife:*> | <ore:artisansHammer>.transformDamage()]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
     #    [<minecraft:rabbit_hide>,<ore:dustSalt>,<ore:itemKnife>]);
     #recipes.addShapeless(<astralsorcery:itemcraftingcomponent:5>,
@@ -339,27 +339,27 @@
             # Essence of False Life
             recipes.addShaped(<magicbees:resource:7>,
                 [[null, a_container, null],
-                [<thermalfoundation:fertilizer:*>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:fertilizer:*>],
+                [<thermalfoundation:fertilizer:*>, <abyssalcraft:transmutationgem> | <ore:artisansHammer>.transformDamage(), <thermalfoundation:fertilizer:*>],
                 [null, c_container, null]]);
             # Essence of a Shallow Grave
             recipes.addShaped(<magicbees:resource:8>,
                 [[null, a_container, null],
-                [<thermalfoundation:material:864>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:864>],
+                [<thermalfoundation:material:864>, <abyssalcraft:transmutationgem> | <ore:artisansHammer>.transformDamage(), <thermalfoundation:material:864>],
                 [null, c_container, null]]);
             # Essence of Fickle Permanence
             recipes.addShaped(<magicbees:resource:12>,
                 [[null, a_container, null],
-                [<thermalfoundation:material:866>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:2051>],
+                [<thermalfoundation:material:866>, <abyssalcraft:transmutationgem> | <ore:artisansHammer>.transformDamage(), <thermalfoundation:material:2051>],
                 [null, c_container, null]]);
             # Essence of Lost Time
             recipes.addShaped(<magicbees:resource:9>,
                 [[null, a_container, null],
-                [<thermalfoundation:material:2049>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:833>],
+                [<thermalfoundation:material:2049>, <abyssalcraft:transmutationgem> | <ore:artisansHammer>.transformDamage(), <thermalfoundation:material:833>],
                 [null, c_container, null]]);
             # Essence of Everlasting Durability
             recipes.addShaped(<magicbees:resource:10>,
                 [[null, a_container, null],
-                [<thermalfoundation:material:2053>, <abyssalcraft:transmutationgem>.transformDamage(), <thermalfoundation:material:770>],
+                [<thermalfoundation:material:2053>, <abyssalcraft:transmutationgem> | <ore:artisansHammer>.transformDamage(), <thermalfoundation:material:770>],
                 [null, c_container, null]]);
         }
     }*/
