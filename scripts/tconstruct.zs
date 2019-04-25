@@ -73,7 +73,7 @@
     #mods.tconstruct.Melting.addRecipe(<liquid:titanium>*36,<cyberware:component:2>, 350);
 
 # EnderIO
-    #mods.tconstruct.Alloying.removeRecipe(<liquid:darksteel>);
+    mods.tconstruct.Alloying.removeRecipe(<liquid:darksteel>);
 
 # Extra Utilities
 #    mods.tconstruct.Melting.addRecipe(<liquid:stone>*648,<extrautils2:compressedcobblestone>, 350);
