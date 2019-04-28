@@ -149,7 +149,7 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
         [<materialpart:gunmetal:nugget>, <materialpart:gunmetal:ingot>, <materialpart:gunmetal:block>, <materialpart:gunmetal:plate>, <materialpart:gunmetal:gear>, nope,  <materialpart:gunmetal:dust>]
     ] as crafttweaker.item.IItemStack[][];
     var gunmetal_oredict = [<ore:nuggetGunmetal>,<ore:ingotGunmetal>,<ore:blockGunmetal>,<ore:plateGunmetal>,<ore:gearGunmetal>,<ore:oreGunmetal>,<ore:dustGunmetal>] as crafttweaker.item.IIngredient[];
-    unify(list_gunmetal, gunmetal_oredict);
+    unifyalloy(list_gunmetal, gunmetal_oredict);
     recipes.addShapeless(<materialpart:gunmetal:dust>*5,
       [<ore:dustBrass>,<ore:dustBrass>,<ore:dustBronze>,<ore:dustBronze>,<ore:dustBronze>]);
 

@@ -11,31 +11,31 @@
         [<minecraft:sticky_piston>,<evilcraft:bucket_eternal_water>]);
     recipes.addShapeless(<minecraft:piston>,
         [<minecraft:sticky_piston>,<botania:waterrod>.giveBack()]);
-    recipes.remove(<minecraft:iron_ore>);
-    recipes.addShapeless("ore_uses_xp", <minecraft:iron_ore>, 
-        [<rockhounding_oretiers:iron_ores:2>],
-        function(output, inputs, crafting) {
-            if crafting.player.xp > 1 {
-                return output;
-            } else {
-                return null;
-            }
-        }, function(output, crafting, player){
-            player.removeXP(1);
-            player.sendChat("Removed 1 XP.");
-        });
-    recipes.addShapeless("ore_uses_xp_two", <minecraft:iron_ore>, 
-        [<rockhounding_oretiers:iron_ores:3>],
-        function(output, inputs, crafting) {
-            if crafting.player.xp > 1 {
-                return output;
-            } else {
-                return null;
-            }
-        }, function(output, crafting, player){
-            player.removeXP(1);
-            player.sendChat("Removed 1 XP.");
-        });
+    // recipes.remove(<minecraft:iron_ore>);
+    // recipes.addShapeless("ore_uses_xp", <minecraft:iron_ore>, 
+    //     [<rockhounding_oretiers:iron_ores:2>],
+    //     function(output, inputs, crafting) {
+    //         if crafting.player.xp > 1 {
+    //             return output;
+    //         } else {
+    //             return null;
+    //         }
+    //     }, function(output, crafting, player){
+    //         player.removeXP(1);
+    //         player.sendChat("Removed 1 XP.");
+    //     });
+    // recipes.addShapeless("ore_uses_xp_two", <minecraft:iron_ore>, 
+    //     [<rockhounding_oretiers:iron_ores:3>],
+    //     function(output, inputs, crafting) {
+    //         if crafting.player.xp > 1 {
+    //             return output;
+    //         } else {
+    //             return null;
+    //         }
+    //     }, function(output, crafting, player){
+    //         player.removeXP(1);
+    //         player.sendChat("Removed 1 XP.");
+    //     });
 
 # Animania
 #    recipes.addShapeless(<animania:block_mud> * 2,

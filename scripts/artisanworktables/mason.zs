@@ -1,6 +1,7 @@
 #modloaded artisanworktables
 
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IItemStack;
 
 # ===========================
 # ====   Mason's Table   ====
@@ -84,3 +85,16 @@ import mods.artisanworktables.builder.RecipeBuilder;
             .addOutput(<immersiveengineering:stone_decoration> * 3)
             .addTool(<ore:artisansChisel>, 1)
             .create();
+
+    # Convert Goethite and Siderite to Iron Ore
+    recipes.remove(<minecraft:iron_ore>);
+    val convertableIron = [<rockhounding_oretiers:iron_ores:2>, <rockhounding_oretiers:iron_ores:4>] as IItemStack[];
+    for i, ironOre in convertableIron{
+      RecipeBuilder.get("mason")
+      .setShapeless([ironOre])
+      .addOutput(<minecraft:iron_ore>)
+      .addTool(<ore:artisansHammer>, 1)
+      .setExperienceRequired(1)
+      .create();
+    }
+    
