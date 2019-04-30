@@ -43,9 +43,9 @@
   recipes.addShapeless(<artisanworktables:worktable:6>,
     [<artisanworktables:worktable:5>,<ore:artisansHandsaw>]);
   recipes.addShapeless(<artisanworktables:workstation:6>,
-    [[<artisanworktables:worktable:6>,<ore:ingotSteel>,<ore:slabSheetmetalCopper>]);
+    [<artisanworktables:worktable:6>,<ore:ingotSteel>,<ore:slabSheetmetalCopper>]);
   recipes.addShapeless(<artisanworktables:workshop:6>,
-    [<artisanworktables:workstation:6>,<ore:blockSteel>);
+    [<artisanworktables:workstation:6>,<ore:blockSteel>]);
 #### Farmer's Table ####
   recipes.addShapeless(<artisanworktables:worktable:10>,
     [<artisanworktables:worktable:5>,<ore:artisansTrowel>]);
@@ -85,7 +85,6 @@
   recipes.addShapeless(<artisanworktables:worktable:0>,
     [<artisanworktables:worktable:5>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>]);
   recipes.addShapeless(<artisanworktables:workstation:0>,
-    [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<artisanworktables:worktable:0>]);
+    [<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<artisanworktables:worktable:0>]);
   recipes.addShapeless(<artisanworktables:workshop:0>,
-    [[<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>],
-     [<ore:plankWood>,<artisanworktables:workstation:0>]);
+    [<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ebwizardry:magic_silk>,<ore:plankWood>,<artisanworktables:workstation:0>]);

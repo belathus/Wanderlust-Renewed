@@ -63,7 +63,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<minecraft:golden_helmet>.withTag(unbreakable))
     .setRecipeFunction(function(out, ins, info) {
-      return out.withTag(ins.armor.tag + {Unbreakable:1});}
+      return out.withTag(ins.armor.tag + {Unbreakable:1});
+    })
     .create();
 
   RecipeBuilder.get("blacksmith")
@@ -73,7 +74,7 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<minecraft:golden_chestplate>.withTag(unbreakable))
     .setRecipeFunction(function(out, ins, cInfo) {
-      return out.withTag(ins.armor.tag + {Unbreakable:1});}
+      return out.withTag(ins.armor.tag + {Unbreakable:1});})
     .create();
 
   RecipeBuilder.get("blacksmith")
@@ -83,7 +84,7 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<minecraft:golden_leggings>.withTag(unbreakable))
     .setRecipeFunction(function(out, ins, cInfo) {
-      return out.withTag(ins.armor.tag + {Unbreakable:1});}
+      return out.withTag(ins.armor.tag + {Unbreakable:1});})
     .create();
 
   RecipeBuilder.get("blacksmith")
@@ -93,7 +94,7 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<minecraft:golden_boots>.withTag(unbreakable))
     .setRecipeFunction(function(out, ins, cInfo) {
-      return out.withTag(ins.armor.tag + {Unbreakable:1});}
+      return out.withTag(ins.armor.tag + {Unbreakable:1});})
     .create();
 
 #######################
@@ -135,8 +136,9 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
   RecipeBuilder.get("blacksmith")
     .setShaped([[<ore:ingotPhilosophersGold>, <ore:stickWood>]])
     .addOutput(<dungeontactics:golden_cestus>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function (out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});
+    })
     .create();
 
   # Golden Knife
@@ -154,8 +156,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:stickWood>],
        [<ore:stickWood>]])
     .addOutput(<dungeontactics:golden_glaive>)
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function (out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Golden Shield
@@ -176,8 +178,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <minecraft:iron_helmet:*>.marked("armor"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_helmet>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Chestplate
@@ -187,8 +189,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <minecraft:iron_chestplate:*>.marked("armor"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_chestplate>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Leggings
@@ -198,8 +200,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <minecraft:iron_leggings:*>.marked("armor"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_leggings>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Boots
@@ -209,8 +211,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <minecraft:iron_boots:*>.marked("armor"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_boots>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
 # ------------------------ #
@@ -223,8 +225,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <minecraft:iron_axe:*>.marked("tool"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_axe>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Battleaxe
@@ -234,16 +236,16 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <dungeontactics:iron_battleaxe:*>.marked("tool"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_battleaxe>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Cestus
   RecipeBuilder.get("blacksmith")
     .setShapeless([<dungeontactics:iron_cestus:*>.marked("tool"), <ore:ingotPhilosophersGold>])
     .addOutput(<dungeontactics:gilded_cestus>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Cutlass
@@ -251,8 +253,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .setShaped(
       [[<ore:ingotPhilosophersGold>, <dungeontactics:iron_cutlass:*>.marked("tool"), <ore:ingotPhilosophersGold>]])
     .addOutput(<dungeontactics:gilded_cutlass>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Glaive
@@ -260,8 +262,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .setShaped(
       [[<ore:ingotPhilosophersGold>, <dungeontactics:iron_glaive:*>.marked("tool"), <ore:ingotPhilosophersGold>]])
     .addOutput(<dungeontactics:gilded_glaive>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Hammer
@@ -269,24 +271,24 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .setShaped(
       [[<ore:ingotPhilosophersGold>, <dungeontactics:iron_hammer:*>.marked("tool"), <ore:ingotPhilosophersGold>]])
     .addOutput(<dungeontactics:gilded_hammer>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Hoe
   RecipeBuilder.get("blacksmith")
     .setShapeless([<minecraft:iron_hoe:*>.marked("tool"), <ore:ingotPhilosophersGold>])
     .addOutput(<dungeontactics:gilded_hoe>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Knife
   RecipeBuilder.get("blacksmith")
-    .setShapeless([<dungeontactics:iron_knife*>.marked("tool"), <ore:ingotPhilosophersGold>])
+    .setShapeless([<dungeontactics:iron_knife:*>.marked("tool"), <ore:ingotPhilosophersGold>])
     .addOutput(<dungeontactics:gilded_knife>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Pickaxe
@@ -296,24 +298,24 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <minecraft:iron_pickaxe:*>.marked("tool"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<dungeontactics:gilded_pickaxe>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Shield
   RecipeBuilder.get("blacksmith")
     .setShapeless([<minecraft:shield:*>.marked("tool"), <ore:ingotPhilosophersGold>])
     .addOutput(<dungeontactics:gilded_shield>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Shovel
   RecipeBuilder.get("blacksmith")
     .setShapeless([<minecraft:iron_shovel:*>.marked("tool"), <ore:ingotPhilosophersGold>])
     .addOutput(<dungeontactics:gilded_shovel>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Gilded Sword
@@ -321,8 +323,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .setShaped(
       [[<ore:ingotPhilosophersGold>, <minecraft:iron_sword:*>.marked("tool"), <ore:ingotPhilosophersGold>]])
     .addOutput(<dungeontactics:gilded_sword>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
 #################
@@ -337,8 +339,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
        [<ore:ingotPhilosophersGold>, <xreliquary:magicbane:*>.marked("tool"), <ore:ingotPhilosophersGold>],
        [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<xreliquary:magicbane>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
 
   # Unbreakable cross of mercy
@@ -346,8 +348,8 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .setShaped(
       [[null, <ore:ingotPhilosophersGold>, null],
        [<ore:ingotPhilosophersGold>, <xreliquary:mercy_cross:*>.marked("tool"), <ore:ingotPhilosophersGold>],
-       [null, <ore:ingotPhilosophersGold>, null]],
+       [null, <ore:ingotPhilosophersGold>, null]])
     .addOutput(<xreliquary:mercy_cross>.withTag(unbreakable))
-    .setRecipeFunction(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});}
+    .setRecipeFunction(function(out, ins, cInfo) {
+      return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
