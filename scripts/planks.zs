@@ -233,11 +233,9 @@
         recipes.remove(plank);
         recipes.addShapeless(plank * 2, [log]);
         recipes.addShaped(plank * 3,
-            [[<ore:toolSawFlint>], [log]]);
+            [[<artisanworktables:artisans_handsaw_flint>], [log]]);
         recipes.addShaped(plank * 4,
-            [[<ore:toolSawMetal>], [log]]);
-        recipes.addShaped(plank * 4,
-            [[<ore:toolSawGem>], [log]]);
+            [[<ore:artisansHandsaw>], [log]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([log])
             .addOutput(plank * 4)
