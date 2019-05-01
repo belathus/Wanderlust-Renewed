@@ -103,7 +103,7 @@ var ore_only = [
 for i, metal in metal_list {
   metal.registerParts(["dust", "gear", "plate", "nugget", "ingot"] as string[]);
   var oreData = metal.registerPart("ore").getData();
-  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
+  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,appliedenergistics2:sky_stone_block");
   oreData.addDataValue("hardness", "3,3,3,5");
   oreData.addDataValue("resistance", "15,15,15,30");
   oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe");
@@ -127,7 +127,7 @@ for i, metal3 in gears_only {
 }
 for i, metal4 in ore_only {
   var the_ore = metal4.registerPart("ore").getData();
-  the_ore.addDataValue("variants", "minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
+  the_ore.addDataValue("variants", "minecraft:end_stone,minecraft:netherrack,appliedenergistics2:sky_stone_block");
   the_ore.addDataValue("hardness", "3,3,3,5");
   the_ore.addDataValue("resistance", "15,15,15,30");
   the_ore.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe");
@@ -139,7 +139,7 @@ electrum.registerParts(["gear"] as string[]);
 var electrum_ores = electrum.registerParts(["ore"] as string[]);
 for i, ore in electrum_ores {
   var oreData = ore.getData();
-  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal");
+  oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack,appliedenergistics2:sky_stone_block");
   oreData.addDataValue("hardness", "3,3,3,5");
   oreData.addDataValue("resistance", "15,15,15,30");
   oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe");
@@ -174,7 +174,7 @@ var emerald_ore = emerald.registerPart("ore").getData();
   
   
 var geode_ore = geode.registerPart("ore").getData();
-  geode_ore.addDataValue("variants", "minecraft:sandstone_bottom,minecraft:end_stone,minecraft:netherrack,primal:typestone/ferro_stone_normal,minecraft:red_sandstone_bottom,minecraft:hardened_clay");
+  geode_ore.addDataValue("variants", "minecraft:sandstone_bottom,minecraft:end_stone,minecraft:netherrack,appliedenergistics2:sky_stone_block,minecraft:red_sandstone_bottom,minecraft:hardened_clay");
   geode_ore.addDataValue("hardness", "3,3,3,5,3,3");
   geode_ore.addDataValue("resistance", "15,15,15,30,15,15");
   geode_ore.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe,pickaxe,pickaxe,pickaxe");
