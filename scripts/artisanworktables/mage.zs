@@ -1,6 +1,8 @@
 #modloaded artisanworktables
 
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 # ===========================
 # ====   Mage's  Table   ====
@@ -206,3 +208,61 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .addOutput(<ebwizardry:spell_book:139>)
     .addOutput(<ebwizardry:spell_book:140>)
     .create();
+
+  # Philosopher's Gold transmutation
+  for i in 0 .. 8{
+    for j in 0 .. 8{
+      for k in 0 .. 8{
+        var input = [<ore:nuggetPhilosophersGold>] as IIngredient[];
+        if(8 > i + j + k && i + j + k > 0){
+          for ingot in 0 .. i{
+            input += <ore:ingotCopper>;
+          }
+          for nugget in 0 .. j{
+            input += <ore:nuggetCopper>;
+          }
+          for block in 0 .. k{
+            input += <ore:blockCopper>;
+          }
+          var transmutationRecipe =  RecipeBuilder.get("mage")
+            .setShapeless(input);
+          if(i != 0){
+            transmutationRecipe.addOutput(<ore:ingotGold>.firstItem * i);
+            if(j != 0){
+              transmutationRecipe.setExtraOutputOne(<ore:nuggetGold>.firstItem * j, 1.0f);
+            }
+            if(k != 0){
+              transmutationRecipe.setExtraOutputTwo(<ore:blockGold>.firstItem * k, 1.0f);
+            }
+            transmutationRecipe.create();
+          }
+          else if(j != 0){
+            transmutationRecipe.addOutput(<ore:nuggetGold>.firstItem * j);
+            if(i != 0){
+              transmutationRecipe.setExtraOutputOne(<ore:ingotGold>.firstItem * i, 1.0f);
+            }
+            if(k != 0){
+              transmutationRecipe.setExtraOutputTwo(<ore:blockGold>.firstItem * k, 1.0f);
+            }
+            transmutationRecipe.create();
+          }
+          else if(k != 0){
+            transmutationRecipe.addOutput(<ore:blockGold>.firstItem * k);
+            if(i != 0){
+              transmutationRecipe.setExtraOutputOne(<ore:ingotGold>.firstItem * i, 1.0f);
+            }
+            if(j != 0){
+              transmutationRecipe.setExtraOutputOne(<ore:nuggetGold>.firstItem * j, 1.0f);
+            }
+            transmutationRecipe.create();
+          }
+        }
+      }
+    }
+  }
+  // function generateTransmutationRecipe(oItem as IIngredient, tItem as IItemStack){
+  //   for i in 1..9{
+        
+  //   }
+  // }
+    
