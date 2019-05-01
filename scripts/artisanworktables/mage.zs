@@ -210,59 +210,37 @@ import crafttweaker.item.IItemStack;
     .create();
 
   # Philosopher's Gold transmutation
-  for i in 0 .. 8{
-    for j in 0 .. 8{
-      for k in 0 .. 8{
-        var input = [<ore:nuggetPhilosophersGold>] as IIngredient[];
-        if(8 > i + j + k && i + j + k > 0){
-          for ingot in 0 .. i{
-            input += <ore:ingotCopper>;
-          }
-          for nugget in 0 .. j{
-            input += <ore:nuggetCopper>;
-          }
-          for block in 0 .. k{
-            input += <ore:blockCopper>;
-          }
-          var transmutationRecipe =  RecipeBuilder.get("mage")
-            .setShapeless(input);
-          if(i != 0){
-            transmutationRecipe.addOutput(<ore:ingotGold>.firstItem * i);
-            if(j != 0){
-              transmutationRecipe.setExtraOutputOne(<ore:nuggetGold>.firstItem * j, 1.0f);
-            }
-            if(k != 0){
-              transmutationRecipe.setExtraOutputTwo(<ore:blockGold>.firstItem * k, 1.0f);
-            }
-            transmutationRecipe.create();
-          }
-          else if(j != 0){
-            transmutationRecipe.addOutput(<ore:nuggetGold>.firstItem * j);
-            if(i != 0){
-              transmutationRecipe.setExtraOutputOne(<ore:ingotGold>.firstItem * i, 1.0f);
-            }
-            if(k != 0){
-              transmutationRecipe.setExtraOutputTwo(<ore:blockGold>.firstItem * k, 1.0f);
-            }
-            transmutationRecipe.create();
-          }
-          else if(k != 0){
-            transmutationRecipe.addOutput(<ore:blockGold>.firstItem * k);
-            if(i != 0){
-              transmutationRecipe.setExtraOutputOne(<ore:ingotGold>.firstItem * i, 1.0f);
-            }
-            if(j != 0){
-              transmutationRecipe.setExtraOutputOne(<ore:nuggetGold>.firstItem * j, 1.0f);
-            }
-            transmutationRecipe.create();
-          }
-        }
+  function transmute(inputItem as IIngredient, outputItem as IItemStack, transmutationItem as IIngredient){
+    for i in 1 .. 25{
+      var input = [transmutationItem] as IIngredient[];
+      for j in 0 .. i{
+        input += inputItem;
       }
+      if(9 > i){
+        RecipeBuilder.get("mage")
+          .setShapeless(input)
+          .addOutput(outputItem * i)
+          .addTool(<ore:artisansGrimoire>, 1)
+          .setMaximumTier(1)
+          .create();
+      }
+      RecipeBuilder.get("mage")
+        .setShapeless(input)
+        .addOutput(outputItem * i)
+        .addTool(<ore:artisansGrimoire>, 1)
+        .setMinimumTier(2)
+        .create();
     }
   }
-  // function generateTransmutationRecipe(oItem as IIngredient, tItem as IItemStack){
-  //   for i in 1..9{
-        
-  //   }
-  // }
-    
+  val transmutationInput = {
+    <ore:nuggetCopper>: <minecraft:gold_nugget>,
+    <ore:ingotCopper>: <minecraft:gold_ingot>,
+    <ore:blockCopper>: <minecraft:gold_block>,
+    <ore:nuggetLead>: <immersiveengineering:metal:23>,
+    <ore:ingotLead>: <immersiveengineering:metal:3>,
+    <ore:blockLead>: <immersiveengineering:storage:3>
+  } as IItemStack[IIngredient];
+
+  for key, value in transmutationInput{
+    transmute(key, value, <ore:nuggetPhilosophersGold>);
+  }
