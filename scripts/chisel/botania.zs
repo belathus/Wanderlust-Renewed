@@ -40,3 +40,11 @@ for i in 0 .. 5{
     var block = <botania:livingrock>.definition.makeStack(i);
     mods.chisel.Carving.addVariation("livingrock", block);
 }
+
+# Azulejo
+val azulejo = <botania:custombrick>;
+mods.chisel.Carving.addGroup("azulejo");
+for i in 0 .. 16{
+    var block = azulejo.definition.makeStack(i);
+    mods.chisel.Carving.addVariation("azulejo", block);
+}

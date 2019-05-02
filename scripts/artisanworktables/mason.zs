@@ -2,6 +2,8 @@
 
 import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemDefinition;
 
 # ===========================
 # ====   Mason's Table   ====
@@ -98,3 +100,47 @@ import crafttweaker.item.IItemStack;
       .create();
     }
     
+    # Better crafting ratios for decorative blocks
+    recipes.removeByRecipeName("botania:pavement_0");
+    recipes.removeByRecipeName("botania:pavement_1");
+    recipes.removeByRecipeName("botania:pavement_2");
+    recipes.removeByRecipeName("botania:pavement_3");
+    recipes.removeByRecipeName("botania:pavement_4");
+    recipes.removeByRecipeName("botania:pavement_5");
+
+    val dyes = [<ore:dyeWhite>, <ore:dyeBlack>, <ore:dyeBlue>, <ore:dyeRed>, <ore:dyeYellow>, <ore:dyeGreen>] as IIngredient[];
+    for i, dye in dyes{
+      var pavementBlock = <botania:pavement>.definition.makeStack(i);
+      RecipeBuilder.get("mason")
+        .setShaped([
+          [<minecraft:cobblestone>, <botania:livingrock>, <minecraft:cobblestone>],
+          [<minecraft:gravel>, dye, <minecraft:gravel>],
+          [<minecraft:cobblestone>, <botania:livingrock>, <minecraft:cobblestone>]
+        ])
+        .addOutput(pavementBlock * 32)
+        .addTool(<ore:artisansChisel>, 1)
+        .create();
+    }
+
+    recipes.remove(<botania:custombrick:*>);
+    val azulejo = <botania:custombrick>;
+    RecipeBuilder.get("mason")
+        .setShaped([
+          [null, <ore:dyeBlue>, null],
+          [<ore:dyeBlue>, <minecraft:quartz_block>, <ore:dyeBlue>],
+          [null, <ore:dyeBlue>, null]
+        ])
+        .addOutput(azulejo * 16)
+        .addTool(<ore:artisansChisel>, 1)
+        .create();
+    
+    recipes.remove(<quark:midori_block>);
+    RecipeBuilder.get("mason")
+      .setShaped([
+        [null, <ore:dyeGreen>, null],
+        [<ore:dyeGreen>, <ore:bricksStone>, <ore:dyeGreen>],
+        [null, <ore:dyeGreen>, null]
+      ])
+      .addOutput(<quark:midori_block> * 16)
+      .addTool(<ore:artisansChisel>, 1)
+      .create();
