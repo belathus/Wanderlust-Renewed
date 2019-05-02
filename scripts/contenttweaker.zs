@@ -158,14 +158,14 @@ gunmetal.registerPart("molten");
 mithril.registerPart("molten");
 
 var diamond_ore = diamond.registerPart("ore").getData();
-  diamond_ore.addDataValue("variants", "primal:typestone/ferro_stone_normal");
+  diamond_ore.addDataValue("variants", "appliedenergistics2:sky_stone_block");
   diamond_ore.addDataValue("drops", "minecraft:diamond");
   diamond_ore.addDataValue("hardness", "5");
   diamond_ore.addDataValue("resistance", "30");
   diamond_ore.addDataValue("harvestTool", "pickaxe");
   diamond_ore.addDataValue("harvestLevel", "2");
 var emerald_ore = emerald.registerPart("ore").getData();
-  emerald_ore.addDataValue("variants", "primal:typestone/ferro_stone_normal");
+  emerald_ore.addDataValue("variants", "appliedenergistics2:sky_stone_block");
   emerald_ore.addDataValue("drops", "minecraft:emerald");
   emerald_ore.addDataValue("hardness", "5");
   emerald_ore.addDataValue("resistance", "30");
