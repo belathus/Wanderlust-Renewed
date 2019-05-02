@@ -7,13 +7,13 @@
 
 <IfCondition condition=':=dimension.generator.class="ChunkProviderHell" | dimension.generator.class="ChunkGeneratorHellBOP"'>
     <!-- Diamond and Emerald Geodes -->
-    <IfModInstalled name="primal">
+    <IfModInstalled name="appliedenergistics2">
         <!-- Emerald/Diamond Geodes -->
         <Veins name='vaniDiamondEmeraldGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
             <Description>
                 Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning emerald or diamond ore.
             </Description>
-            <OreBlock block='primal:ferro_stone' weight='1.00' />
+            <OreBlock block='appliedenergistics2:sky_stone_block' weight='1.00' />
             <ReplacesOre block='netherrack' weight='1.0'/>
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
@@ -23,7 +23,6 @@
             <ReplacesOre block='netherrack' weight='1.0'/>
             <Replaces block='minecraft:gravel' weight='1.0'/>
             <ReplacesRegexp block='nex:.*' weight='1.0'/>
-            <ReplacesRegexp block='primal:.*' weight='1.0'/>
             <Biome name='.*'  />
             <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
@@ -47,14 +46,14 @@
             <OreBlock block='contenttweaker:sub_block_holder_4:5' weight='0.005' /> <!-- Emerald -->
             <OreBlock block='contenttweaker:sub_block_holder_4:4' weight='0.02'  /> <!-- Ardite -->
             <OreBlock block='contenttweaker:sub_block_holder_3:10' weight='0.02' /> <!-- Cobalt -->
-            <Replaces block='primal:ferro_stone' weight='1.0' />
+            <Replaces block='appliedenergistics2:sky_stone_block' weight='1.0' />
             <Replaces block='minecraft:cobblestone' weight='1.0' />
             <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
             <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
         </Veins>
         <Veins name='vaniDiamondEmeraldGeodeCenter'  inherits='vaniDiamondEmeraldGeode' branchType='Bezier' seed='0xF5AD' drawWireframe='false' wireframeColor='0x608BF4E3' drawBoundBox='false' boundBoxColor='0x608BF4E3'>
             <OreBlock block='minecraft:air' weight='1.0' />
-            <Replaces block='primal:ferro_stone' weight='1.0' />
+            <Replaces block='appliedenergistics2:sky_stone_block' weight='1.0' />
             <Replaces block='contenttweaker:sub_block_holder_4:6' weight='1.0' />
             <Replaces block='contenttweaker:sub_block_holder_4:5' weight='1.0' />
             <Replaces block='contenttweaker:sub_block_holder_4:4' weight='1.0' />

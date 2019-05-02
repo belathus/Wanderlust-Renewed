@@ -1,0 +1,62 @@
+<!-- =================================================================
+     "nether_diamond_emerald_geode.xml" : This configuration file
+     covers ore generation in the nether and other dimensions using
+     ChunkProviderHell. This particular file only covers diamond and
+     emerald geodes that have a chance to generate ardite and cobalt.
+     ================================================================= -->
+
+<IfCondition condition=':=dimension.generator.class="ChunkProviderHell" | dimension.generator.class="ChunkGeneratorHellBOP"'>
+    <!-- Diamond and Emerald Geodes -->
+    <IfModInstalled name="appliedenergistics2">
+        <!-- Copper Geode -->
+        <ConfigSection>
+            <Veins name='abysCopperGeode'  inherits='PresetLayeredVeins' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                <Description>
+                    Large geodes of abyssal stone filled with air. An inside layer has a high rate of spawning tin, iron, copper, nitre, and gold ore.
+                </Description>
+                <OreBlock block='appliedenergistics2:sky_stone_block' weight='1.00' />
+                <ReplacesOre block='netherrack' weight='1.0'/>
+                <Replaces block='minecraft:magma' weight='1.0'/>
+                <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
+                <Replaces block='minecraft:air' weight='1.0'/>
+                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='minecraft:lava' weight='1.0'/>
+                <ReplacesOre block='netherrack' weight='1.0'/>
+                <Replaces block='minecraft:gravel' weight='1.0'/>
+                <Replaces block='nex:block_hyphae' weight='1.0'/>
+                <Biome name='.*'  />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
+                <Setting name='MotherlodeSize'        avg=':= 3.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />
+                <Setting name='MotherlodeHeight'      avg=':= 48 '                range=':= 24 '                type='uniform' scaleTo='base' />
+                <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchInclination'     avg=':= 0.000 '             range=':= 1.310 '             type='uniform' />
+                <Setting name='BranchLength'          avg=':= 0.590 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
+                <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+                <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentRadius'         avg=':= 1.891 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
+                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            </Veins>
+            <Veins name='abysCopperGeodeMiddle'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                <OreBlock block='contenttweaker:sub_block_holder_3:15' weight='0.04' />
+                <OreBlock block='contenttweaker:sub_block_holder_3:10' weight='0.23' />
+                <Replaces block='appliedenergistics2:sky_stone_block' weight='1.0' />
+                <Setting name='MotherlodeSize'        avg=':= 0.850 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+            </Veins>
+            <Veins name='abysCopperGeodeCenter'  inherits='abysCopperGeode' branchType='Bezier' seed='0x23B6' drawWireframe='false' wireframeColor='0x60EAEF57' drawBoundBox='false' boundBoxColor='0x60EAEF57'>
+                <OreBlock block='minecraft:air' weight='1.0' />
+                <Replaces block='contenttweaker:sub_block_holder_3:15' weight='1.0' />
+                <Replaces block='contenttweaker:sub_block_holder_3:10' weight='1.0' />
+                <Replaces block='appliedenergistics2:sky_stone_block' weight='1.0' />
+                <Setting name='MotherlodeSize'        avg=':= 0.500 * _default_ ' range=':= 0.100 * _default_ ' type='normal' />
+                <Setting name='BranchFrequency'       avg='0'                     range='0'                     type='normal' />
+            </Veins>
+        </ConfigSection>
+    </IfModInstalled>
+</IfCondition>
