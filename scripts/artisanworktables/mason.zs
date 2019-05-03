@@ -63,7 +63,7 @@ import crafttweaker.item.IItemDefinition;
           [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>],
           [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]])
       .addOutput(<appliedenergistics2:grindstone>)
-      .addTool(<ore:artisansHammer>, 1)
+      .addTool(<ore:toolHammer>, 1)
       .create();
 
     # Alloy Kiln
@@ -74,7 +74,7 @@ import crafttweaker.item.IItemDefinition;
           [<ore:stoneGranite>, <ore:sandstone>, <ore:stoneGranite>],
           [<biomesoplenty:mud_brick>, <ore:ingotBrick>, <biomesoplenty:mud_brick>]])
       .addOutput(<immersiveengineering:stone_decoration:10> * 2)
-      .addTool(<ore:artisansChisel>, 1)
+      .addTool(<ore:toolChisel>, 1)
       .create();
 
     # Coke Oven
@@ -85,7 +85,7 @@ import crafttweaker.item.IItemDefinition;
           [<ore:ingotBrick>,<ore:sandstoneAll>,<ore:ingotBrick>],
           [<minecraft:clay_ball>,<ore:ingotBrick>,<minecraft:clay_ball>]])
             .addOutput(<immersiveengineering:stone_decoration> * 3)
-            .addTool(<ore:artisansChisel>, 1)
+            .addTool(<ore:toolChisel>, 1)
             .create();
 
     # Convert Goethite and Siderite to Iron Ore
@@ -95,7 +95,7 @@ import crafttweaker.item.IItemDefinition;
       RecipeBuilder.get("mason")
       .setShapeless([ironOre])
       .addOutput(<minecraft:iron_ore>)
-      .addTool(<ore:artisansHammer>, 1)
+      .addTool(<ore:toolHammer>, 1)
       .setExperienceRequired(1)
       .create();
     }
@@ -118,7 +118,7 @@ import crafttweaker.item.IItemDefinition;
           [<minecraft:cobblestone>, <botania:livingrock>, <minecraft:cobblestone>]
         ])
         .addOutput(pavementBlock * 32)
-        .addTool(<ore:artisansChisel>, 1)
+        .addTool(<ore:toolChisel>, 1)
         .create();
     }
 
@@ -131,7 +131,7 @@ import crafttweaker.item.IItemDefinition;
           [null, <ore:dyeBlue>, null]
         ])
         .addOutput(azulejo * 16)
-        .addTool(<ore:artisansChisel>, 1)
+        .addTool(<ore:toolChisel>, 1)
         .create();
     
     recipes.remove(<quark:midori_block>);
@@ -142,5 +142,5 @@ import crafttweaker.item.IItemDefinition;
         [null, <ore:dyeGreen>, null]
       ])
       .addOutput(<quark:midori_block> * 16)
-      .addTool(<ore:artisansChisel>, 1)
+      .addTool(<ore:toolChisel>, 1)
       .create();

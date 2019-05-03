@@ -10,25 +10,25 @@ import crafttweaker.item.IItemStack;
     .setShapeless([<ore:sand>,<ore:dirt>])
     .setFluid(<liquid:water> * 250)
     .addOutput(<forestry:bog_earth> * 2)
-    .addTool(<ore:artisansTrowel>, 0)
+    .addTool(<quark:trowel:*>, 0)
     .create();
   RecipeBuilder.get("basic")
     .setShapeless([<ore:sand>,<ore:sand>,<ore:dirt>,<ore:dirt>])
     .setFluid(<liquid:water> * 500)
     .addOutput(<forestry:bog_earth> * 4)
-    .addTool(<ore:artisansTrowel>, 0)
+    .addTool(<quark:trowel:*>, 0)
     .create();
   RecipeBuilder.get("basic")
     .setShapeless([<ore:sand>,<ore:sand>,<ore:sand>,<ore:dirt>,<ore:dirt>,<ore:dirt>])
     .setFluid(<liquid:water> * 750)
     .addOutput(<forestry:bog_earth> * 6)
-    .addTool(<ore:artisansTrowel>, 0)
+    .addTool(<quark:trowel:*>, 0)
     .create();
   RecipeBuilder.get("basic")
     .setShapeless([<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:dirt>,<ore:dirt>,<ore:dirt>,<ore:dirt>])
     .setFluid(<liquid:water> * 1000)
     .addOutput(<forestry:bog_earth> * 8)
-    .addTool(<ore:artisansTrowel>, 0)
+    .addTool(<quark:trowel:*>, 0)
     .create();
 
 val cordageMaterial = [<minecraft:vine>, <minecraft:leather>] as IItemStack[];
@@ -40,7 +40,7 @@ for i, item in cordageMaterial{
     RecipeBuilder.get("basic")
     .setShapeless([cordageMaterial[i]])
     .addOutput(cordageType[i] * 4)
-    .addTool(<ore:artisansKnife>, 1)
+    .addTool(<ore:toolKnifeDT>, 1)
     .setExtraOutputOne(cordageType[i], multiplier)
     .setMinimumTier(j)
     .setMaximumTier(j)
