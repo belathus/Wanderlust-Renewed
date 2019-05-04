@@ -10,8 +10,6 @@ import loottweaker.vanilla.loot.Functions;
   val tool_ench = Functions.parse({"levels": 30, "treasure": true, "function": "enchant_with_levels"} as crafttweaker.data.IData);
   val cap_funct = Functions.parse({"function": "enderio:set_capacitor"} as crafttweaker.data.IData);
 
-  LootTables.getTable("minecraft:gameplay/fishing/treasure").clear();
-
   #####################################
   ###        Treasure  Slime        ###
   #####################################

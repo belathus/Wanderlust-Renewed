@@ -20,6 +20,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
   pgold.addHeadMaterialStats(1000, 12.0, 3.0, 1);
   pgold.addHandleMaterialStats(1.0, 50);
   pgold.addExtraMaterialStats(50);
+  pgold.addBowMaterialStats(2.5, 1.0, 0.0);
 
   pgold.itemLocalizer = function(thisMat, itemName){return "Philosopher's Gold " + itemName;};
   pgold.localizedName = "Philosopher's Gold";
