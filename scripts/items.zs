@@ -450,6 +450,16 @@
 #            [[galla],[<ore:plateIron>]]);
 #    }
 
+# Random Things
+    recipes.addShaped(<randomthings:summoningpendulum>, [
+        [null, <dimdoors:world_thread>, null],
+        [<dimdoors:world_thread>, <ore:ingotMithril>, <dimdoors:world_thread>]
+    ]);
+    recipes.addShaped(<randomthings:peacecandle>, [
+        [null, <ore:ingotMithril>, null],
+        [<ore:ingotMithril>, <xreliquary:interdiction_torch>, <ore:ingotMithril>]
+    ]);
+
 # Refined Storage
 #    recipes.remove(<refinedstorage:quartz_enriched_iron>);
 #    recipes.addShapeless(<materialpart:quartz_enriched_iron:dust> * 2,
