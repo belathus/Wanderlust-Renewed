@@ -43,9 +43,12 @@ mods.MobStages.toggleSpawner("enderiozoo:fallenknight", true);
 mods.MobStages.toggleSpawner("enderiozoo:fallenmount", true);
 mods.MobStages.toggleSpawner("cyberware:cyberzombie", true);
 
-#mods.MobStages.addStage("mansiontraveler", "primitivemobs:trollager");
-#mods.MobStages.addStage("mansiontraveler", "primitivemobs:mimic");
-#mods.MobStages.toggleSpawner("primitivemobs:trollager", true);
+mods.MobStages.addStage("mansiontraveler", "primitivemobs:trollager");
+mods.MobStages.addStage("mansiontraveler", "primitivemobs:mimic");
+mods.MobStages.toggleSpawner("primitivemobs:trollager", true);
+mods.MobStages.toggleSpawner("primitivemobs:mimic", true);
+
+
 
 #mods.MobStages.addStage("seatraveler", "primal:shark_hammerhead");
 #mods.MobStages.toggleSpawner("primal:shark_hammerhead", true);
