@@ -9,6 +9,6 @@ var gblock = <materialpart:gunmetal:block>;
   mods.tconstruct.Melting.addRecipe(<liquid:gunmetal>*144, <ore:ingotGunmetal>);
   mods.tconstruct.Melting.addRecipe(<liquid:gunmetal>*1296, <ore:blockGunmetal>);
 
-  mods.tconstruct.Casting.addTableRecipe(gblock, <tconstruct:cast_custom:0>, <liquid:gunmetal>, 144, false); # Ingot
+  mods.tconstruct.Casting.addTableRecipe(gingot, <tconstruct:cast_custom:0>, <liquid:gunmetal>, 144, false); # Ingot
   mods.tconstruct.Casting.addTableRecipe(gnugget, <tconstruct:cast_custom:1>, <liquid:gunmetal>, 16, false); # Nugget
   mods.tconstruct.Casting.addBasinRecipe(gblock, null, <liquid:gunmetal>, 1296, false);
