@@ -27,7 +27,7 @@ events.onPlayerCrafted(function(event as PlayerCraftedEvent){
         event.player.sendChat("You have entered the iron age. Lost Miners, Travelling Merchants, and Cyberzombies are spawning now. You also hear the knights of old rise from the depths...");
     }
 });
-events.onPlayerSmelted(function(event as PlayerCraftedEvent){
+events.onPlayerSmelted(function(event as PlayerSmeltedEvent){
     if(event.output.matches(<immersiveengineering:metal:3>) && !event.player.hasGameStage("silverage")){
         event.player.addGameStage("silverage");
         event.player.sendChat("Wizards, Blazing Juggernauts, and Brain Slimes are attracted the magical powers of your newly acquired silver.");
