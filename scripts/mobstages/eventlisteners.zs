@@ -2,6 +2,7 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerCraftedEvent;
 import crafttweaker.event.PlayerSmeltedEvent;
 import crafttweaker.event.PlayerBrewedPotionEvent; 
+import crafttweaker.event.PlayerPickupItemEvent;
 
 events.onPlayerCrafted(function(event as PlayerCraftedEvent){
     if((event.output.matches(<minecraft:tnt>)) && !event.player.hasGameStage("explosionage")){
@@ -31,5 +32,17 @@ events.onPlayerSmelted(function(event as PlayerSmeltedEvent){
     if(event.output.matches(<immersiveengineering:metal:3>) && !event.player.hasGameStage("silverage")){
         event.player.addGameStage("silverage");
         event.player.sendChat("Wizards, Blazing Juggernauts, and Brain Slimes are attracted the magical powers of your newly acquired silver.");
+    }
+});
+events.onPlayerPickupItem(function(event as PlayerPickupItemEvent){
+    if(event.item.matches(<minecraft:totem_of_undying>) && !event.player.hasGameStage("mansiontraveler"){
+        event.player.addGameStage("mansiontraveler");
+        event.player.sendChat("You have obtained the power of the undying. You can now see Trollagers and Mimics where they weren't there before.");
+    })
+})
+events.onPlayerSmelted(function(event as PlayerSmeltedEvent){
+    if(!event.player.hasGameStage("fireage")){
+        event.player.addGameStage("fireage");
+        player.sendChat("You have unlocked the power of fire. Creepers might spawn, now.");
     }
 });
