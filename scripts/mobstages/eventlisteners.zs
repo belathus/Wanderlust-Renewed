@@ -38,8 +38,8 @@ events.onPlayerPickupItem(function(event as PlayerPickupItemEvent){
     if(event.item.matches(<minecraft:totem_of_undying>) && !event.player.hasGameStage("mansiontraveler"){
         event.player.addGameStage("mansiontraveler");
         event.player.sendChat("You have obtained the power of the undying. You can now see Trollagers and Mimics where they weren't there before.");
-    })
-})
+    }
+});
 events.onPlayerSmelted(function(event as PlayerSmeltedEvent){
     if(!event.player.hasGameStage("fireage")){
         event.player.addGameStage("fireage");
