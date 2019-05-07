@@ -37,6 +37,7 @@ events.onPlayerSmelted(function(event as PlayerSmeltedEvent){
     if(!event.player.hasGameStage("fireage")){
         event.player.addGameStage("fireage");
         event.player.sendChat("You have unlocked the power of fire. Creepers might spawn, now.");
+    }
     if(event.output.matches(<immersiveengineering:metal:3>) && !event.player.hasGameStage("silverage")){
         event.player.addGameStage("silverage");
         event.player.sendChat("Wizards, Blazing Juggernauts, and Brain Slimes are attracted the magical powers of your newly acquired silver.");
