@@ -5,7 +5,7 @@ val setTo64 = [
     <minecraft:snowball>, <dungeontactics:bag_food>, <dungeontactics:bag_tool>,
     <dungeontactics:bag_ore>, <dungeontactics:bag_book>, <dungeontactics:bag_record>,
     <dungeontactics:bag_potion>, <dungeontactics:solstice_gift>, <dungeontactics:trickortreat_bag>,
-    <dungeontactics:bag_magic>, <dungeontactics:bag_quiver>
+    <dungeontactics:bag_magic>, <dungeontactics:bag_quiver>, <minecraft:sign>
 ] as crafttweaker.item.IItemStack[];
 
 for i, stack in setTo64 {
