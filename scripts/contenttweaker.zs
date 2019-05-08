@@ -29,6 +29,7 @@ var invar       = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(
 var iridium     = MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(16777185).build();
 var iron        = MaterialSystem.getMaterialBuilder().setName("Iron").setColor(15132648).build();
 var lead        = MaterialSystem.getMaterialBuilder().setName("Lead").setColor(3947580).build();
+var mazebreaker = MaterialSystem.getMaterialBuilder().setName("Mazebreaker").setColor(10007448).build();
 var mithril     = MaterialSystem.getMaterialBuilder().setName("Mithril").setColor(10079487).build();
 var nickel      = MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(12105910).build();
 var platinum    = MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(15066338).build();
@@ -59,7 +60,8 @@ var metal_list = [
   #starsteel,
   tin,
   titanium,
-  zinc
+  zinc,
+  mazebreaker
 ] as Material[];
     
 var alloys_list = [
@@ -155,6 +157,7 @@ phils_gold_block.addDataValue("harvestTool", "pickaxe");
 phils_gold_block.addDataValue("harvestLevel", "1");
 quartz_iron.registerPart("dust");
 gunmetal.registerPart("molten");
+mazebreaker.registerPart("molten");
 mithril.registerPart("molten");
 
 var diamond_ore = diamond.registerPart("ore").getData();
