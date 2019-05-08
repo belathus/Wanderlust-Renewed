@@ -31,6 +31,10 @@ events.onPlayerPickupItem(function(event as PlayerPickupItemEvent){
         event.player.addGameStage("mansiontraveler");
         event.player.sendChat("You have obtained the power of the undying. You can now see Trollagers and Mimics where they weren't there before.");
     }
+    if(event.item.item.matches(<minecraft:flint>) && !event.player.hasGameStage("stoneage")){
+        event.player.addGameStage("stoneage");
+        event.player.sendChat("You have found some flint. Filch Lizards are spawning now.");
+    }
 });
 
 events.onPlayerSmelted(function(event as PlayerSmeltedEvent){
