@@ -113,16 +113,6 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .addOutput(<dungeontactics:golden_battleaxe>.withTag(unbreakable))
     .create();
 
-  # Golden Hammer
-  RecipeBuilder.get("blacksmith")
-    .setShaped(
-      [[null, <ore:ingotPhilosophersGold>, <ore:cobblestone>],
-       [null, <ore:stickWood>, <ore:ingotPhilosophersGold>],
-       [<ore:stickWood>, null, null]])
-    .setMirrored()
-    .addOutput(<dungeontactics:golden_hammer>.withTag(unbreakable))
-    .create();
-
   # Golden Cutlass
   RecipeBuilder.get("blacksmith")
     .setShaped(
@@ -262,15 +252,6 @@ val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
     .setShaped(
       [[<ore:ingotPhilosophersGold>, <dungeontactics:iron_glaive:*>.marked("tool"), <ore:ingotPhilosophersGold>]])
     .addOutput(<dungeontactics:gilded_glaive>.withTag(unbreakable))
-    .setRecipeFunction(function(out, ins, cInfo) {
-      return out.withTag(ins.tool.tag + {Unbreakable:1});})
-    .create();
-
-  # Gilded Hammer
-  RecipeBuilder.get("blacksmith")
-    .setShaped(
-      [[<ore:ingotPhilosophersGold>, <dungeontactics:iron_hammer:*>.marked("tool"), <ore:ingotPhilosophersGold>]])
-    .addOutput(<dungeontactics:gilded_hammer>.withTag(unbreakable))
     .setRecipeFunction(function(out, ins, cInfo) {
       return out.withTag(ins.tool.tag + {Unbreakable:1});})
     .create();
