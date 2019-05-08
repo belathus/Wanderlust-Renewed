@@ -168,8 +168,6 @@ import loottweaker.vanilla.loot.Functions;
   // dd_ultrarare.addItemEntryHelper(<primal:obsidian_pickaxe>,           160, 0, [tool_dam, tool_ench], []);
   dd_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_copper>,                 240, 0, [tool_dam, tool_ench], []);
   dd_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_iron>,                   160, 0, [tool_dam, tool_ench], []);
-  dd_ultrarare.addItemEntryHelper(<dungeontactics:iron_hammer>,             160, 0, [tool_dam, tool_ench], []);
-  dd_ultrarare.addItemEntryHelper(<dungeontactics:stone_hammer>,            600, 0, [tool_dam, tool_ench], []);
   // dd_ultrarare.addItemEntryHelper(<primal:nether_gallagher>,           360, 0, [tool_dam, tool_ench], []);
   // dd_ultrarare.addItemEntryHelper(<primal:quartz_gallagher>,           240, 0, [tool_dam, tool_ench], []);
   dd_ultrarare.addItemEntry(<minecraft:bucket>,                        700, 0);

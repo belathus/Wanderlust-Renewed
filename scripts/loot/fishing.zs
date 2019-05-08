@@ -39,4 +39,3 @@ import loottweaker.vanilla.loot.Functions;
   treasure.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,                  8, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<primitivetools:primitive_spade_cwv>,              10, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,                  10, 0, [tool_dam, tool_ench], []);
-  treasure.addItemEntryHelper(<dungeontactics:stone_hammer>,            20, 0, [tool_dam, tool_ench], []);
