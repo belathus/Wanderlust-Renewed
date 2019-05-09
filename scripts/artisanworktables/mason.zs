@@ -144,3 +144,10 @@ import crafttweaker.item.IItemDefinition;
       .addOutput(<quark:midori_block> * 16)
       .addTool(<ore:toolChisel>, 1)
       .create();
+
+    #Mazestone
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:stone>])
+      .addOutput(<twilightforest:maze_stone>)
+      .setFluid(<liquid:mazebreaker>)
+      .create();

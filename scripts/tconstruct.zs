@@ -124,3 +124,6 @@
     // for i,item in fish_array {
     //     mods.tconstruct.Drying.removeRecipe(item);
     // }
+
+# Twilight Forest  
+    mods.tconstruct.Casting.addBasinRecipe(<twilightforest:maze_stone>, <minecraft:stone>, <liquid:mazebreaker>, 1, true);

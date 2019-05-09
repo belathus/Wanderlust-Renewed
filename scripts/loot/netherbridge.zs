@@ -19,7 +19,7 @@ import loottweaker.vanilla.loot.Functions;
   val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["apprentice"]} as crafttweaker.data.IData);
   val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["advanced"]} as crafttweaker.data.IData);
   val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["master"]} as crafttweaker.data.IData);
-  val imperish = {StoredEnchantments:[{lvl:1s,id:106s}]} as crafttweaker.data.IData;
+  val imperish = {StoredEnchantments: [{lvl: 1 as short, id: 108 as short}]} as crafttweaker.data.IData;
   val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
 
 # ===============================
@@ -185,21 +185,21 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntryHelper(<enderio:item_dark_steel_sword>,                     4, 0, [eio_tool1, eio_tool2, tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<enderio:item_dark_steel_bow>,                       2, 0, [eio_tool1, eio_tool2, tool_dam, tool_ench], []);
 
-  mc_ultrarare.addItemEntryHelper(<minecraft:golden_boots>,                            1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<minecraft:golden_chestplate>,                       1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<minecraft:golden_helmet>,                           1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<minecraft:golden_leggings>,                         1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<minecraft:golden_pickaxe>,                          1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<minecraft:golden_sword>,                            1, 0, [unbreakable], []);
+  mc_ultrarare.addItemEntryHelper(<minecraft:golden_boots>,                            1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<minecraft:golden_chestplate>,                       1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<minecraft:golden_helmet>,                           1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<minecraft:golden_leggings>,                         1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<minecraft:golden_pickaxe>,                          1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<minecraft:golden_sword>,                            1, 0, [Functions.setNBT(unbreakable)], []);
 
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_battleaxe>,                   1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_cestus>,                      1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_cutlass>,                     1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_glaive>,                      1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_knife>,                       1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_ring>,                        1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_shield>,                      1, 0, [unbreakable], []);
-  mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_gold>,           1, 0, [unbreakable], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_battleaxe>,                   1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_cestus>,                      1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_cutlass>,                     1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_glaive>,                      1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_knife>,                       1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_ring>,                        1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_shield>,                      1, 0, [Functions.setNBT(unbreakable)], []);
+  mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_gold>,           1, 0, [Functions.setNBT(unbreakable)], []);
 
   
   # Add a chance to get various materials.

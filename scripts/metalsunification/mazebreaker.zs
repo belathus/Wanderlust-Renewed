@@ -24,4 +24,3 @@ val mazebreakerPick = <twilightforest:mazebreaker_pickaxe>;
   mods.tconstruct.Casting.addTableRecipe(mplate, <tconstruct:cast_custom:3>, <liquid:mazebreaker>, 144, false); # Plate
   mods.tconstruct.Casting.addTableRecipe(mgear, <tconstruct:cast_custom:4>, <liquid:mazebreaker>, 576, false); # Gear
   mods.tconstruct.Casting.addBasinRecipe(mblock, null, <liquid:mazebreaker>, 1296, false);
-  
