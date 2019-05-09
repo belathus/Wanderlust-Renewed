@@ -7,7 +7,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
 # Philosopher's Gold
   val pgold = MaterialBuilder.create("philosophers_gold");
   pgold.color = 0xffd700;
-  pgold.representativeItem = <item:minecraft:gold_ingot>;
+  pgold.representativeItem = <item:contenttweaker:material_part:127>;
 
   val pgold_trait = TraitBuilder.create("pgold_trait");
   pgold_trait.color = 0xffd700;

@@ -13,7 +13,7 @@ import mods.contenttweaker.tconstruct.TraitDataRepresentation;
 # brass
   val brass = MaterialBuilder.create("brass");
   brass.color = 0xB5A642;
-  brass.representativeItem = <ore:ingotBrass>.firstItem;
+  brass.representativeItem = <item:contenttweaker:material_part:88>;
 
 # Voluminous: Less durability lost when durability is high 
   val brass_trait = TraitBuilder.create("voluminous");

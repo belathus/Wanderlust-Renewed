@@ -16,17 +16,17 @@ import crafttweaker.block.IBlockDefinition;
 # Mazebreaker
   val mazebreaker = MaterialBuilder.create("mazebreaker");
   mazebreaker.color = 0x98B398;
-  mazebreaker.representativeItem = <ore:ingotMazebreaker>.firstItem;
+  mazebreaker.representativeItem = <item:contenttweaker:material_part:289>;
 
-# Breaker of Mazes: Triples mining speed when mining blocks with a hardness greater than or equal to 20 
+# Breaker of Mazes: Triples mining speed when mining blocks with a hardness greater than or equal to 40 
   val mazebreaker_trait = TraitBuilder.create("mazebreaker");
   mazebreaker_trait.color = 0x98B398;
   mazebreaker_trait.maxLevel = 2;
   mazebreaker_trait.localizedName = "Breaker of Mazes";
   mazebreaker_trait.localizedDescription = "§oYou cannot hold me!§r\nTriples mining speed against blocks that are hard to mine.";
   mazebreaker_trait.getMiningSpeed = function(trait, tool, event) {
-    if(event.block.definition.hardness >= 20){
-        event.newSpeed *= 3;
+    if(event.block.definition.hardness >= 40){
+        event.newSpeed *= 16;
     }
   };
   mazebreaker_trait.register();

@@ -13,7 +13,7 @@ import mods.contenttweaker.tconstruct.TraitDataRepresentation;
 # Gunmetal
   val gunmetal = MaterialBuilder.create("gunmetal");
   gunmetal.color = 0xCDA23D;
-  gunmetal.representativeItem = <ore:ingotGunmetal>.firstItem;
+  gunmetal.representativeItem = <item:contenttweaker:material_part:173>;
 
 # Fire Fiend trait: Attacking enemies while on fire deals 4 + (level - 1) bonus damage and has a 10+(2*(level - 1))% change to ignite them for 3 seconds 
   val gunmetal_trait = TraitBuilder.create("fire_fiend");
