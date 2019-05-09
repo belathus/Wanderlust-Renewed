@@ -14,10 +14,10 @@ val mazebreakerPick = <twilightforest:mazebreaker_pickaxe>;
   ]);
 
 # Mazebreaker smeltery recipes
-  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*16, <ore:nuggetmazebreaker>);
-  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*144, <ore:ingotmazebreaker>);
-  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*144, <ore:dustmazebreaker>);
-  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*1296, <ore:blockmazebreaker>);
+  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*16, <ore:nuggetMazebreaker>);
+  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*144, <ore:ingotMazebreaker>);
+  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*144, <ore:dustMazebreaker>);
+  mods.tconstruct.Melting.addRecipe(<liquid:mazebreaker>*1296, <ore:blockMazebreaker>);
 
   mods.tconstruct.Casting.addTableRecipe(mingot, <tconstruct:cast_custom:0>, <liquid:mazebreaker>, 144, false); # Ingot
   mods.tconstruct.Casting.addTableRecipe(mnugget, <tconstruct:cast_custom:1>, <liquid:mazebreaker>, 16, false); # Nugget

@@ -28,7 +28,7 @@
         [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:quartz_stairs>]]);
     recipes.addShaped(<minecraft:quartz>*2,
         [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:stone_slab:7>]]);
-    recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
+    # recipes.addShapeless(<minecraft:book>, [<ore:hideTanned>, <ore:paper>, <ore:paper>, <ore:paper>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal:*>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal1:*>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal2:*>]);
