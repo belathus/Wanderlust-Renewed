@@ -45,14 +45,14 @@ function unify(list as crafttweaker.item.IItemStack[][], oredict as crafttweaker
                 [oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0]]);
             recipes.addShapeless(group[2], 
                 [oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1]]);
-            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, oredict[5]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>.reuse(), oredict[5]]);
             recipes.addShaped(group[4],
                 [[null,oredict[1],null],
                  [oredict[1],<ore:ingotIron>,oredict[1]],
                  [null,oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:artisansHammer>.transformDamage()],[oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[oredict[1]]]);
-            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.reuse()],[oredict[1]]]);
         }
     }
 }
@@ -84,14 +84,14 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
                 [oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0],oredict[0]]);
             recipes.addShapeless(group[2], 
                 [oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1],oredict[1]]);
-            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>, oredict[5]]);
+            recipes.addShapeless(group[6], [<immersiveengineering:tool:0>.reuse(), oredict[5]]);
             recipes.addShaped(group[4],
                 [[null,oredict[1],null],
                  [oredict[1],<ore:ingotIron>,oredict[1]],
                  [null,oredict[1],null]]);
             recipes.addShaped(group[3],[[<ore:artisansHammer>.transformDamage()],[oredict[1]]]);
             recipes.addShaped(group[3],[[<ore:toolMalletStone>],[oredict[1]]]);
-            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.transformDamage()],[oredict[1]]]);
+            recipes.addShaped(group[3],[[<immersiveengineering:tool:0>.reuse()],[oredict[1]]]);
         }
     }
 }
