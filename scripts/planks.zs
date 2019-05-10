@@ -98,6 +98,8 @@
         [<forestry:logs.fireproof.6:2>, <forestry:planks.fireproof.1:10>,<forestry:stairs.fireproof.padauk>,<forestry:slabs.fireproof.3:2>],
         [<forestry:logs.fireproof.6:3>, <forestry:planks.fireproof.1:11>,<forestry:stairs.fireproof.cocobolo>,<forestry:slabs.fireproof.3:3>],
         [<forestry:logs.fireproof.7:0>, <forestry:planks.fireproof.1:12>,<forestry:stairs.fireproof.zebrawood>,<forestry:slabs.fireproof.3:4>],
+        [<rustic:log:0>, <rustic:planks:0>,<rustic:stairs_olive>,<rustic:olive_slab_item>],
+        [<rustic:log:1>, <rustic:planks:1>,<rustic:stairs_ironwood>,<rustic:ironwood_slab_item>],
 #        [<arsmagica2:witchwood_log>, <arsmagica2:witchwood_planks>,<arsmagica2:witchwood_stairs>,<arsmagica2:witchwood_slab>],
         [<botania:dreamwood>,<botania:dreamwood:1>,<botania:dreamwood1stairs>,<botania:dreamwood1slab>],
         [<botania:livingwood>,<botania:livingwood:1>,<botania:livingwood1stairs>,<botania:livingwood1slab>],
@@ -146,28 +148,32 @@
     
     var list_logs2 = [
 #        [<abyssalcraft:dreadlog>,       <abyssalcraft:dreadplanks>,         null, null],
-#        [<botanicaladdons:irisLog0:0>,  <botanicaladdons:irisPlanks>,       null, null],
-#        [<botanicaladdons:irisLog0:1>,  <botanicaladdons:irisPlanks:1>,     null, null],
-#        [<botanicaladdons:irisLog0:2>,  <botanicaladdons:irisPlanks:2>,     null, null],
-#        [<botanicaladdons:irisLog0:3>,  <botanicaladdons:irisPlanks:3>,     null, null],
-#        [<botanicaladdons:irisLog1:0>,  <botanicaladdons:irisPlanks:4>,     null, null],
-#        [<botanicaladdons:irisLog1:1>,  <botanicaladdons:irisPlanks:5>,     null, null],
-#        [<botanicaladdons:irisLog1:2>,  <botanicaladdons:irisPlanks:6>,     null, null],
-#        [<botanicaladdons:irisLog1:3>,  <botanicaladdons:irisPlanks:7>,     null, null],
-#        [<botanicaladdons:irisLog2:0>,  <botanicaladdons:irisPlanks:8>,     null, null],
-#        [<botanicaladdons:irisLog2:1>,  <botanicaladdons:irisPlanks:9>,     null, null],
-#        [<botanicaladdons:irisLog2:2>,  <botanicaladdons:irisPlanks:10>,    null, null],
-#        [<botanicaladdons:irisLog2:3>,  <botanicaladdons:irisPlanks:11>,    null, null],
-#        [<botanicaladdons:irisLog3:0>,  <botanicaladdons:irisPlanks:12>,    null, null],
-#        [<botanicaladdons:irisLog3:1>,  <botanicaladdons:irisPlanks:13>,    null, null],
-#        [<botanicaladdons:irisLog3:2>,  <botanicaladdons:irisPlanks:14>,    null, null],
-#        [<botanicaladdons:irisLog3:3>,  <botanicaladdons:irisPlanks:15>,    null, null],
-#        [<botanicaladdons:altLog0:0>,   <botanicaladdons:altPlanks>,        null, null],
-#        [<botanicaladdons:altLog0:1>,   <botanicaladdons:altPlanks:1>,      null, null],
-#        [<botanicaladdons:altLog0:2>,   <botanicaladdons:altPlanks:2>,      null, null],
-#        [<botanicaladdons:altLog0:3>,   <botanicaladdons:altPlanks:3>,      null, null],
-#        [<botanicaladdons:altLog1:0>,   <botanicaladdons:altPlanks:4>,      null, null],
-#        [<botanicaladdons:altLog1:1>,   <botanicaladdons:altPlanks:5>,      null, null],
+        [<naturalpledge:irisLog0:0>,  <naturalpledge:irisPlanks>,       null, null],
+        [<naturalpledge:irisLog0:1>,  <naturalpledge:irisPlanks:1>,     null, null],
+        [<naturalpledge:irisLog0:2>,  <naturalpledge:irisPlanks:2>,     null, null],
+        [<naturalpledge:irisLog0:3>,  <naturalpledge:irisPlanks:3>,     null, null],
+        [<naturalpledge:irisLog1:0>,  <naturalpledge:irisPlanks:4>,     null, null],
+        [<naturalpledge:irisLog1:1>,  <naturalpledge:irisPlanks:5>,     null, null],
+        [<naturalpledge:irisLog1:2>,  <naturalpledge:irisPlanks:6>,     null, null],
+        [<naturalpledge:irisLog1:3>,  <naturalpledge:irisPlanks:7>,     null, null],
+        [<naturalpledge:irisLog2:0>,  <naturalpledge:irisPlanks:8>,     null, null],
+        [<naturalpledge:irisLog2:1>,  <naturalpledge:irisPlanks:9>,     null, null],
+        [<naturalpledge:irisLog2:2>,  <naturalpledge:irisPlanks:10>,    null, null],
+        [<naturalpledge:irisLog2:3>,  <naturalpledge:irisPlanks:11>,    null, null],
+        [<naturalpledge:irisLog3:0>,  <naturalpledge:irisPlanks:12>,    null, null],
+        [<naturalpledge:irisLog3:1>,  <naturalpledge:irisPlanks:13>,    null, null],
+        [<naturalpledge:irisLog3:2>,  <naturalpledge:irisPlanks:14>,    null, null],
+        [<naturalpledge:irisLog3:3>,  <naturalpledge:irisPlanks:15>,    null, null],
+        [<naturalpledge:altLog0:0>,   <naturalpledge:altPlanks>,        null, null],
+        [<naturalpledge:altLog0:1>,   <naturalpledge:altPlanks:1>,      null, null],
+        [<naturalpledge:altLog0:2>,   <naturalpledge:altPlanks:2>,      null, null],
+        [<naturalpledge:altLog0:3>,   <naturalpledge:altPlanks:3>,      null, null],
+        [<naturalpledge:altLog1:0>,   <naturalpledge:altPlanks:4>,      null, null],
+        [<naturalpledge:altLog1:1>,   <naturalpledge:altPlanks:5>,      null, null],
+        [<naturalpledge:seal_log>,    <naturalpledge:seal_planks>,      null, null],
+        [<naturalpledge:thunder_log>, <naturalpledge:thunder_planks>,   null, null],
+        [<naturalpledge:circuit_log>, <naturalpledge:circuit_planks>,   null, null],
+        [<naturalpledge:calico_log>,  <naturalpledge:calico_planks>,    null, null],
         [<twilightforest:twilight_log>, <minecraft:planks>, null, null],
         [<twilightforest:twilight_log:1>, <minecraft:planks:1>, null, null],
         [<twilightforest:twilight_log:3>, <minecraft:planks:1>, null, null],
@@ -189,29 +195,37 @@
         recipes.remove(slab);
         # Planks
         recipes.addShapeless(plank * 2, [log]);
-        recipes.addShaped(plank * 3, 
-            [[<ore:toolSawFlint>],[log]]);
+        recipes.addShaped(plank * 3,
+            [[<artisanworktables:artisans_handsaw_flint>], [log]]);
         recipes.addShaped(plank * 4, 
-            [[<ore:toolSawMetal>],[log]]);
-        recipes.addShaped(plank * 4, 
-            [[<ore:toolSawGem>],[log]]);
+            [[<ore:toolHandsaw>],[log]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([log])
             .addOutput(plank * 4)
             .addTool(<ore:artisansHandsaw>, 1)
             .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
             .create();
+        mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
+            .setShapeless([log])
+            .addOutput(plank * 4)
+            .addTool(<ore:toolHandsaw>, 1)
+            .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
+            .create();
         # slabs
         recipes.addShaped(slab * 2, 
-            [[<ore:toolSawFlint>],   [plank]]);
-        recipes.addShaped(slab * 2, 
-            [[<ore:toolSawMetal>],  [plank]]);
-        recipes.addShaped(slab * 2, 
-            [[<ore:toolSawGem>],    [plank]]);
+            [[<ore:toolHandsaw>],    [plank]]);
+        recipes.addShaped(slab * 2,
+            [[<ore:artisansHandsaw>], [log]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([plank])
             .addOutput(slab * 2)
             .addTool(<ore:artisansHandsaw>, 1)
+            .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
+            .create();
+        mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
+            .setShapeless([plank])
+            .addOutput(slab * 2)
+            .addTool(<ore:toolHandsaw>, 1)
             .setExtraOutputOne(<forestry:wood_pulp>, 0.15)
             .create();
         recipes.addShapeless(plank * 3, 
