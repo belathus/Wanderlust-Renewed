@@ -52,3 +52,5 @@
     <aspect:herba> * 5,
     <aspect:terra> * 5
   );
+
+  <minecraft:skull:1>.setAspects(<aspect:vitium> * 10, <aspect:mortuus> * 10, <aspect:spiritus> * 10, <aspect:exanimis> * 10);

@@ -15,3 +15,4 @@
   <xreliquary:mob_ingredient:11>.setAspects(<aspect:alienis>*20); # nebulous heart
   <xreliquary:mob_ingredient:12>.setAspects(<aspect:aqua>*20); # squid beak
   <xreliquary:mob_ingredient:16>.setAspects(<aspect:aqua>*20); # guardian spike
+  

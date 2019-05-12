@@ -21,3 +21,4 @@
      [<minecraft:skull:2>]]);
   recipes.remove(<xreliquary:mob_ingredient:15>);
   recipes.addShapeless(<xreliquary:mob_ingredient:15>,[<minecraft:wool:14>,<minecraft:wool:15>,<xreliquary:mob_ingredient:11>,<forestry:crafting_material:3>]);
+  recipes.addShapeless(<nex:wither_bone> * 5, [<xreliquary:mob_ingredient:1>]);
