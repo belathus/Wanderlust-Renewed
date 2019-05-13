@@ -45,40 +45,42 @@
     <aspect:alkimia>*5
   );
   <rustic:ironberries>.setAspects(
-    <aspect:herba>*5,
+    <aspect:herba> * 5,
     <aspect:metallum>
   );
   <rustic:marsh_mallow>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:mooncap_mushroom>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
+    <aspect:tenebrae> * 5
   );
   <rustic:olives>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:tomato>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:tomato_seeds>.setAspects(
-    <aspect:herba>*5,
+    <aspect:herba> * 5,
     <aspect:victus>
   );
   <rustic:wildberries>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:wind_thistle>.setAspects(
-    <aspect:herba>*5
+    <aspect:aer> * 5,
+    <aspect:herba> * 5
   );
   
   # Other stuff
   <rustic:beeswax>.setAspects(
-    <aspect:ordo>*5
+    <aspect:ordo> * 5
   );
   <rustic:dust_tiny_iron>.setAspects(
     <aspect:metallum>
   );
   <rustic:honeycomb>.setAspects(
-    <aspect:bestia>*5,
-    <aspect:ordo>*3
+    <aspect:bestia> * 5,
+    <aspect:ordo> * 3
   );
