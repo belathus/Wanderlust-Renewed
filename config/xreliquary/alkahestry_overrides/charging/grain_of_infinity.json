@@ -1,4 +1,10 @@
 {
+    "conditions": [
+        {
+            "type": "xreliquary:ore_exists",
+            "ore": "dustBedrock"
+        }
+    ],
     "type": "xreliquary:alkahestry_charging",
     "charge": 4,
     "ingredients": [
