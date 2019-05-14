@@ -6,43 +6,43 @@
     <aspect:herba>*5
   );
   <rustic:blood_orchid>.setAspects(
-    <aspect:herba>*5,
-    <aspect:victus>*5
+    <aspect:herba> * 5,
+    <aspect:victus> * 5
   );
   <rustic:chamomile>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:chili_pepper>.setAspects(
-    <aspect:herba>*5,
-    <aspect:ignis>*5
+    <aspect:herba> * 5,
+    <aspect:ignis> * 5
   );
   <rustic:chili_pepper_seeds>.setAspects(
-    <aspect:herba>*5,
+    <aspect:herba> * 5,
     <aspect:victus>
   );
   <rustic:cloudsbluff>.setAspects(
-    <aspect:herba>*5,
-    <aspect:volatus>*5
+    <aspect:herba> * 5,
+    <aspect:volatus> * 5
   );
   <rustic:cohosh>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:core_root>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:deathstalk_mushroom>.setAspects(
-    <aspect:herba>*5,
-    <aspect:mortuus>*5
+    <aspect:herba> * 5,
+    <aspect:mortuus> * 5
   );
   <rustic:ginseng>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:grapes>.setAspects(
-    <aspect:herba>*5
+    <aspect:herba> * 5
   );
   <rustic:horsetail>.setAspects(
-    <aspect:herba>*5,
-    <aspect:alkimia>*5
+    <aspect:herba> * 5,
+    <aspect:alkimia> * 5
   );
   <rustic:ironberries>.setAspects(
     <aspect:herba> * 5,
@@ -52,7 +52,7 @@
     <aspect:herba> * 5
   );
   <rustic:mooncap_mushroom>.setAspects(
-    <aspect:herba> * 5
+    <aspect:herba> * 5,
     <aspect:tenebrae> * 5
   );
   <rustic:olives>.setAspects(
