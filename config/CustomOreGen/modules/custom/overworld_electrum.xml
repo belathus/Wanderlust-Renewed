@@ -1,0 +1,42 @@
+<!-- =================================================================
+     "Overworld_Electrum" : This configuration file covers all elecrum
+     veins in the overworld. Electrum veins are mixed with electrum
+     ore (a naturally occuring ore, in case you weren't aware), gold
+     ore, and silver ore.
+     ================================================================= -->
+<IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld" | dimension.generator.class="ChunkGeneratorOverworldBOP" | dimension.generator.class="LostCityChunkGenerator"'>
+    <!-- Electrum Veins, which contain silver (Immersive Engineering), gold (Vanilla), and electrum (ContentTweaker) -->
+    <IfModInstalled name="contenttweaker">
+        <IfModInstalled name="immersiveengineering">
+            <Veins name='baseElectrumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x6094826A' drawBoundBox='false' boundBoxColor='0x6094826A'>
+                <Description>
+                    Small, fairly rare motherlode of electrum (with silver and gold mixed) with
+                    2-4 horizontal veins each. Each branch of the vein is a bit thick compared
+                    to normal veins. The motherload generates between 'Y'-level 5 and 15.
+                </Description>
+                <OreBlock block='minecraft:gold' weight='0.20' />
+                <OreBlock block='immersiveengineering:ore:3' weight='0.30' />
+                <OreBlock block='contenttweaker:sub_block_holder_2:13' weight='0.50' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
+                <Biome name='.*'  />
+                <Setting name='MotherlodeFrequency'   avg=':= 0.852 * _default_ ' range=':= 0.852 * _default_ ' type='normal'  scaleTo='base' />
+                <Setting name='MotherlodeSize'        avg=':= 1.848 * _default_ ' range=':= 1.848 * _default_ ' type='normal' />
+                <Setting name='MotherlodeHeight'      avg=':= 15 '                range=':= 10 '                type='uniform' scaleTo='seaLevel' />
+                <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='BranchLength'          avg=':= 0.890 * _default_ ' range=':= 0.890 * _default_ ' type='normal' />
+                <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+                <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentLength'         avg=':= 0.750 * _default_ ' range=':= 0.750 * _default_ ' type='normal' />
+                <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='SegmentRadius'         avg=':= 2.291 * _default_ ' range=':= 2.291 * _default_ ' type='normal' />
+                <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+                <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            </Veins>
+        </IfModInstalled>
+    </IfModInstalled>
+</IfCondition>
