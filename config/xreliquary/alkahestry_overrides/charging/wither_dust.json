@@ -1,0 +1,16 @@
+{
+    "conditions": [
+        {
+            "type": "xreliquary:ore_exists",
+            "ore": "itemWitheringDust"
+        }
+    ],
+    "type": "xreliquary:alkahestry_charging",
+    "charge": 4,
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "itemWitheringDust"
+        }
+    ]
+}

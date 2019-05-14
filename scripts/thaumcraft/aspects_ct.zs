@@ -26,3 +26,11 @@
     <aspect:potentia> * 40,
     <aspect:victus> * 10
   );
+  
+  for item in <ore:nuggetPhilosophersGold>.items {
+    item.setAspects(
+      <aspect:metallum>,
+      <aspect:auram> * 2,
+      <aspect:alkimia>
+    );
+  }
