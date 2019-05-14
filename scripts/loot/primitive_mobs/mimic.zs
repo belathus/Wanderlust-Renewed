@@ -57,7 +57,7 @@ import loottweaker.vanilla.loot.Functions;
   # Rare pool. You only get one of these per chest.
   val mt_rare = mt_table.addPool("rare", 1, 1, 0, 0);
   mt_rare.addItemEntryHelper(<botania:blacklotus>,                        15, 0, [Functions.setCount(1, 2), Functions.setMetadata(0, 6)], []);
-  mt_rare.addItemEntryHelper(<ebwizardry:arcane_tome>,                     1, 0, [Functions.setMetadata(1)], []);
+  mt_rare.addItemEntryHelper(<ebwizardry:arcane_tome:1>,                   1, 0, [], []);
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item per chest.
   val mt_ultrarare = mt_table.addPool("ultrarare", 1, 1, 0, 0);
