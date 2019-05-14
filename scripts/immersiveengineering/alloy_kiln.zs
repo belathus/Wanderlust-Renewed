@@ -4,10 +4,10 @@
 ###  Alloy  Kiln  ###
 #####################
     # Fused Quartz
-    mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, <ore:slackLime>, 400);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, <ore:dustAsh>, 400);
 
     # Quite Clear Glass
-    mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:block_fused_glass>, <ore:blockGlass>, <ore:slackLime>, 200);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:block_fused_glass>, <ore:blockGlass>, <ore:dustAsh>, 200);
     
     # Gunmetal
     mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:gunmetal:ingot> * 5, <ore:ingotBronze> * 3, <ore:ingotBrass> * 2, 1000);
