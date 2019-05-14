@@ -32,8 +32,9 @@
                 },
                 {
                     "name":"minecraft:vindication_illager",
-                    "equip":true,
-                    "weight":2
+                    "equip":false,
+                    "weight":2,
+                    "nbt":"{HandItems:[{id:\"minecraft:diamond_axe\",Count:1},{}]}"
                 }
             ],
             "level":2
