@@ -61,6 +61,10 @@ for i,item in drying_recipes {
   mods.rockhounding_oretiers.DryingPallet.add(item[0], item[1], drying_times[i] * 20);
 }
 
+# Remove drying leather
+mods.rockhounding_oretiers.DryingPallet.remove(<minecraft:leather>);
+
+
 # Bloomery
     # Abyssalnite -- No fluid
     # Adamantine -- No fluid
