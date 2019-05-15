@@ -2,6 +2,9 @@
 
 # Drying rack unification with TiC
 
+# Remove drying leather
+mods.rockhounding_oretiers.DryingPallet.remove(<minecraft:rotten_flesh>);
+
 static drying_recipes as crafttweaker.item.IItemStack[][] = [
   [<tconstruct:spaghetti:1>, <tconstruct:spaghetti:2>],
   [<minecraft:rotten_flesh>, <tconstruct:edible:10>],
@@ -60,9 +63,6 @@ val drying_times = [
 for i,item in drying_recipes {
   mods.rockhounding_oretiers.DryingPallet.add(item[0], item[1], drying_times[i] * 20);
 }
-
-# Remove drying leather
-mods.rockhounding_oretiers.DryingPallet.remove(<minecraft:leather>);
 
 
 # Bloomery
