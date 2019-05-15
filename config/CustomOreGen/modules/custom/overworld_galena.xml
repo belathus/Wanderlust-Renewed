@@ -35,5 +35,32 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
+        <Veins name='iengMountainLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x606666FF' drawBoundBox='false' boundBoxColor='0x606666FF'>
+            <Description>
+                Small, but much more common motherlodes of silver and lead in the 
+                mountains with 2-4 horizontal veins each.
+            </Description>
+            <OreBlock block='immersiveengineering:ore:2' weight='0.7' />
+            <OreBlock block='immersiveengineering:ore:3' weight='0.3' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <BiomeType name='Mountain'  />
+            <Setting name='MotherlodeFrequency'   avg=':= 2.500 * _default_ ' range=':= 2.500 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 136 '                range=':= 48 '               type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0.931 * _default_ ' range=':= 0.931 * _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0.965 * _default_ ' range=':= 0.965 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
     </IfModInstalled>
 </IfCondition>
