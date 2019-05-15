@@ -1,0 +1,39 @@
+<!-- =================================================================
+     "overworld_galena" : This configuration file covers galena veins 
+     in the overworld. These veins consist of 70% lead ore and 30%
+     silver ore. There is no specific "galena" ore, though there is in
+     real life.
+     This layered vein spawns between Y level 8 and 36 (uniform
+     distribution), has a relatively small motherlode, and 2 to 4
+     normal length and diameter branches.
+     ================================================================= -->
+<IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld" | dimension.generator.class="ChunkGeneratorOverworldBOP" | dimension.generator.class="LostCityChunkGenerator"'>
+    <IfModInstalled name="immersiveengineering">
+        <Veins name='iengLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x606666FF' drawBoundBox='false' boundBoxColor='0x606666FF'>
+            <Description>
+                Small, fairly rare motherlodes of silver and lead with 2-4 horizontal veins each.
+            </Description>
+            <OreBlock block='immersiveengineering:ore:2' weight='0.7' />
+            <OreBlock block='immersiveengineering:ore:3' weight='0.3' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency'   avg=':= 0.867 * _default_ ' range=':= 0.867 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 0.976 * _default_ ' range=':= 0.976 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 22 '                range=':= 14 '                type='normal' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0.931 * _default_ ' range=':= 0.931 * _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0.965 * _default_ ' range=':= 0.965 * _default_ ' type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+    </IfModInstalled>
+</IfCondition>
