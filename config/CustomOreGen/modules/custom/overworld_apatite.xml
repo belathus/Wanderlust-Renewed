@@ -1,0 +1,172 @@
+
+<!-- =================================================================
+     "overworld_apatite" : This configuration file covers apatite 
+     veins in the overworld. These veins consist of apatite ore. These
+     veins spawn mostly near the surface, but are 3 times more common
+     in forest biomes.
+     
+     Apatite veins spawn in 2 major types of distributions (though
+     these distributions are more concentrated in forest biomes).
+     
+     Apatite spawns as sparse veins and clouds.
+     
+     == Sparse Vein ==
+     A large vein with a relatively small chance that a given ore
+     replaces an existing block. These veins can be relatively hard to
+     follow, but they usually contain lots of ore.
+     
+     == Cloud ==
+     Hint veins spawn on the surface. There is a lot more ore below.
+     ================================================================= -->
+<IfCondition condition=':=dimension.generator.class="ChunkProviderOverworld" | dimension.generator.class="ChunkGeneratorOverworldBOP" | dimension.generator.class="LostCityChunkGenerator"'>
+    <IfModInstalled name="forestry">
+        <Veins name='foreApatiteVeins'  inherits='PresetSparseVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60FF4500' drawBoundBox='false' boundBoxColor='0x60FF4500'>
+            <Description>
+                Small motherlodes without any branches. Similar to the
+                deposits produced by StandardGen distributions.
+            </Description>
+            <OreBlock block='forestry:resources:0' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <Biome name='.*'  />
+            <BiomeType name='FOREST' weight='-1' />
+            <Setting name='MotherlodeFrequency'   avg=':= 1.252 * _default_ ' range=':= 1.252 * _default_ ' type='normal'  scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 2.148 * _default_ ' range=':= 2.148 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 120 '               range=':= 64 '                type='uniform' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='OreDensity'            avg=':= 0.25 '              range=':= 0.25 '              type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+        <Cloud name='foreApatiteCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+            </Description>
+            <OreBlock block='forestry:resources:0' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <Biome name='.*'  />
+            <BiomeType name='FOREST' weight='-1' />
+            <Setting name='CloudRadius'           avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' />
+            <Setting name='CloudThickness'        avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='DistributionFrequency' avg=':= 1.212 * _default_ ' range=':= 1.212 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='CloudHeight'           avg=':= 64 '               range=':= 64 '                type='uniform' scaleTo='base' />
+            <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Veins name='foreApatiteHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+                <Description>
+                    Single blocks, generously  scattered through all
+                    heights  (density is about that of  vanilla iron
+                    ore). They will  replace dirt and sandstone  (but
+                    not grass or sand), so  they can be found nearer to
+                    the surface than most ores.  Intened to be used as a
+                    child  distribution for large, rare  strategic
+                    deposits that would  otherwise be very difficult  to
+                    find.  Note that the  frequency is multiplied by
+                    ground level to maintain a  constant density, but
+                    not by  ore frequency because it is  assumed that
+                    the frequency of  the parent distribution will
+                    already be scaled by that.
+                </Description>
+                <OreBlock block='Forestry:resources:0' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 0.260 * _default_ ' range=':= 0.260 * _default_ ' type='normal' scaleTo='base' />
+            </Veins>
+        </Cloud>
+        
+        <!-- Apatite Ore Preferred Deposits; make more common in Forests -->
+        <Veins name='foreApatitePreferredVeins'  inherits='PresetSmallDeposits' branchType='Bezier' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Description>
+                Small motherlodes without any branches. Similar to the
+                deposits produced by StandardGen distributions.
+            </Description>
+            <OreBlock block='forestry:resources:0' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <BiomeType name='FOREST'  />
+            <Setting name='MotherlodeFrequency'   avg=':= 3.756 * _default_ ' range=':= 3.756 * _default_ ' type='normal'  scaleTo='base' />
+            <Setting name='MotherlodeSize'        avg=':= 2.148 * _default_ ' range=':= 2.148 * _default_ ' type='normal' />
+            <Setting name='MotherlodeHeight'      avg=':= 120 '               range=':= 64 '                type='uniform' scaleTo='seaLevel' />
+            <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='BranchLength'          avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal'  scaleTo='base' />
+            <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='SegmentRadius'         avg=':= 0 '                 range=':= 0 '                 type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+        </Veins>
+        <Cloud name='foreApatitePreferredCloud'  inherits='PresetStrategicCloud' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Description>
+                A large irregular cloud of ore that is 5x more common
+                in forest biomes.
+            </Description>
+            <OreBlock block='forestry:resources:0' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <ReplacesOre block='stoneLimestone' weight='1.0'/>
+            <BiomeType name='FOREST' weight='1.0' />
+            <Setting name='CloudRadius'           avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' />
+            <Setting name='CloudThickness'        avg=':= 1.101 * _default_ ' range=':= 1.101 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='DistributionFrequency' avg=':= 6.060 * _default_ ' range=':= 6.060 * _default_ ' type='normal' scaleTo='base' />
+            <Setting name='CloudHeight'           avg=':= 64 '               range=':= 64 '                type='uniform' scaleTo='base' />
+            <Setting name='ParentRangeLimit'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudSizeNoise'        avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='CloudInclination'      avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
+            <Setting name='OreVolumeNoiseCutoff'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
+            <Veins name='foreApatitePreferredHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='false' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+                <Description>
+                    Single blocks, generously  scattered through all
+                    heights  (density is about that of  vanilla iron
+                    ore). They will  replace dirt and sandstone  (but
+                    not grass or sand), so  they can be found nearer to
+                    the surface than most ores.  Intened to be used as a
+                    child  distribution for large, rare  strategic
+                    deposits that would  otherwise be very difficult  to
+                    find.  Note that the  frequency is multiplied by
+                    ground level to maintain a  constant density, but
+                    not by  ore frequency because it is  assumed that
+                    the frequency of  the parent distribution will
+                    already be scaled by that.
+                </Description>
+                <OreBlock block='Forestry:resources:0' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneLimestone' weight='1.0'/>
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 0.260 * _default_ ' range=':= 0.260 * _default_ ' type='normal' scaleTo='base' />
+            </Veins>
+        </Cloud>
+    </IfModInstalled>
