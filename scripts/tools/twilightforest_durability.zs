@@ -3,3 +3,4 @@
 
 # Twilight Forest
   <twilightforest:crumble_horn>.maxDamage = 4096; # it is way too easy to accidentally break this with its default durability.
+  <twilightforest:ore_magnet>.maxDamage = 128;
