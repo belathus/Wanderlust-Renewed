@@ -10,7 +10,7 @@ import mods.contenttweaker.tconstruct.TraitBuilder;
   coagulation.color = 0x830303;
   coagulation.localizedName = "Coagulation";
   coagulation.localizedDescription = "§oCoagulating§r\nThis tool will sometimes drop coagulated blood when used.";
-  coagulation.addItem(<item:primal:opal>);
+  coagulation.addItem(<item:evilcraft:dark_power_gem>);
   coagulation.onBlockHarvestDrops = function(trait, tool, event) {
     val world = event.player.world;
     if(world.getWorldTime() % 20 == 0){
