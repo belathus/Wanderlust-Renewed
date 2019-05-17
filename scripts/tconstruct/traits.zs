@@ -1,4 +1,4 @@
-#modloaded tconstruct contenttweaker
+#modloaded tconstruct contenttweaker evilcraft
 #loader contenttweaker
 #priority 1
 
