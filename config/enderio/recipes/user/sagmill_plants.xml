@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <!-- Erebus Plants -->
+
+  <recipe name="Sagmill: Erebus Flower Stems" required="true">
+    <sagmilling energy="1200">
+      <input name="erebus:giant_flower:15"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Biomes O' Plenty Plants -->
+
+  <recipe name="Sagmill: BOP Flower Stems" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:log_4:4"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+
+</enderio:recipes>
