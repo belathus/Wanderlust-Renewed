@@ -3,6 +3,13 @@
 #####################
 ###  Alloy  Kiln  ###
 #####################
+    # Brass
+    mods.immersiveengineering.AlloySmelter.removeRecipe(<materialpart:brass:ingot>);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:brass:ingot> * 3, <ore:ingotCopper> * 2, <ore:ingotZinc>, 400);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:brass:ingot> * 3, <ore:dustCopper> * 2, <ore:ingotZinc>, 400);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:brass:ingot> * 3, <ore:ingotCopper> * 2, <ore:dustZinc>, 400);
+    mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:brass:ingot> * 3, <ore:dustCopper> * 2, <ore:dustZinc>, 400);
+
     # Fused Quartz
     mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, <ore:dustAsh>, 400);
 
