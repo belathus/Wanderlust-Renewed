@@ -25,4 +25,64 @@
     </sagmilling>
   </recipe>
 
+  <recipe name="Sagmill: BOP Clover" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:flower_0:0"/>
+      <output name="minecraft:dye:7" chance="0.8" />
+      <output name="minecraft:dye:7" chance="0.6" />
+      <output name="minecraft:dye:7" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: BOP Swamp Flower" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:flower_0:1"/>
+      <output name="minecraft:dye:6" chance="0.8" />
+      <output name="minecraft:dye:6" chance="0.6" />
+      <output name="minecraft:dye:6" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: BOP deathbloom" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:flower_0:2"/>
+      <output name="biomesoplenty:black_dye" chance="0.8" />
+      <output name="biomesoplenty:black_dye" chance="0.6" />
+      <output name="biomesoplenty:black_dye" chance="0.3" />
+      <output name="enderio:item_material:63" chance="0.1" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: BOP glow Flower" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:flower_0:3"/>
+      <output name="minecraft:dye:6" chance="0.8" />
+      <output name="minecraft:dye:6" chance="0.6" />
+      <output name="minecraft:dye:6" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: BOP wildflower" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:flower_0:7"/>
+      <output name="minecraft:dye:13" chance="0.8" />
+      <output name="minecraft:dye:13" chance="0.6" />
+      <output name="minecraft:dye:13" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: BOP lavender" required="true">
+    <sagmilling energy="1200">
+      <input name="biomesoplenty:flower_1:0"/>
+      <output name="minecraft:dye:5" chance="0.8" />
+      <output name="minecraft:dye:5" chance="0.6" />
+      <output name="minecraft:dye:5" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+    </sagmilling>
+  </recipe>
+
 </enderio:recipes>
