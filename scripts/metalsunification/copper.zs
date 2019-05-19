@@ -61,7 +61,7 @@ val nope = <minecraft:barrier>;
     [
       nope,
       <forestry:ingot_copper>,
-      <forestry:resource_storage>,
+      <forestry:resource_storage:1>,
       nope,
       <forestry:gear_copper>,
       <forestry:resources:1>,
