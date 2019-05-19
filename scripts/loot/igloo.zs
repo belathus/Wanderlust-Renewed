@@ -87,7 +87,8 @@ import loottweaker.vanilla.loot.Functions;
   val igloo_xrel = igloo.addPool("xrel", 1, 1, 0, 0);
   igloo_xrel.addItemEntryHelper(<xreliquary:mob_ingredient:10>,          10, 0,[], []); # Frozen Core
   igloo_xrel.addEmptyEntry(60);
-  
+ 
+  igloo.addPool("lava_charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,       1, 0, [], [Conditions.randomChance(0.05)]); 
   igloo.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>,         1, 0, [], [Conditions.randomChance(0.05)]);
   igloo.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>,      1, 0, [steadfast], [Conditions.randomChance(0.10)]);
   igloo.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>,  1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.10)]);

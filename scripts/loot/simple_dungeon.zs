@@ -150,6 +150,7 @@ import loottweaker.vanilla.loot.Functions;
   dungeon_upgrade.addItemEntryHelper(<ebwizardry:arcane_tome:3>,       1, 0, [], [Conditions.randomChance(0.15)]);
 
   # Add a chance to get various materials.
+  dungeon.addPool("lava_charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,      1, 0, [], [Conditions.randomChance(0.05)]);
   dungeon.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
   dungeon.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
   dungeon.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);

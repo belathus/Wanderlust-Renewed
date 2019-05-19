@@ -213,5 +213,5 @@ import loottweaker.vanilla.loot.Functions;
   mc_table.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>,                1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
   mc_table.addPool("capacitor", 1, 2, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
   mc_table.addPool("surgery", 1, 1, 0, 0).addItemEntryHelper(<cyberware:surgery>,              1, 0, [], [Conditions.randomChance(0.15)]);
-  mc_table.addPool("lavacharm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,       1, 0, [], [Conditions.randomChance(0.25)]);
+  mc_table.addPool("lava+charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,       1, 0, [], [Conditions.randomChance(0.25)]);
   

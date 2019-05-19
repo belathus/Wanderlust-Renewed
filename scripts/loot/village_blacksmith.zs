@@ -108,6 +108,7 @@ import loottweaker.vanilla.loot.Functions;
   blacksmith_xrel.addItemEntryHelper(<xreliquary:glowing_water>,              7, 0,[Functions.setCount(1, 4)], []); # Glowing Water
   blacksmith_xrel.addEmptyEntry(78);
   
+  blacksmith.addPool("lava_charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,       1, 0, [], [Conditions.randomChance(0.05)]);
   blacksmith.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>,         1, 0, [], [Conditions.randomChance(0.05)]);
   blacksmith.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>,      1, 0, [steadfast], [Conditions.randomChance(0.10)]);
   blacksmith.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>,  1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.10)]);

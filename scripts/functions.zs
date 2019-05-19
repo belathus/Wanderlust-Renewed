@@ -2,15 +2,12 @@ function unify(list as crafttweaker.item.IItemStack[][], oredict as crafttweaker
     val nope = <minecraft:barrier>;
     for i, group in list {
         if !group[0].matches(nope) { recipes.remove(group[0]); }
-        if !group[1].matches(nope) {
-            recipes.remove(group[1]);
-            if !group[5].matches(nope) {
-                furnace.addRecipe(list[0][1], group[5], 0.5);
-            }
-            if !group[6].matches(nope) {
-                furnace.addRecipe(list[0][1], group[6], 0.5);
-            }
+        if !group[1].matches(nope) { 
+          recipes.remove(group[1]);
+          furnace.remove(group[1]);
         }
+        if !group[5].matches(nope) { furnace.addRecipe(list[0][1], group[5], 0.5); }
+        if !group[6].matches(nope) { furnace.addRecipe(list[0][1], group[6], 0.5); }
         if !group[2].matches(nope) { recipes.remove(group[2]); }
         if !group[3].matches(nope) { recipes.remove(group[3]); }
         if !group[4].matches(nope) { recipes.remove(group[4]); }
@@ -41,15 +38,10 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     val nope = <minecraft:barrier>;
     for i, group in list {
         if !group[0].matches(nope) { recipes.remove(group[0]); }
-        if !group[1].matches(nope) {
-            recipes.remove(group[1]);
-            if !group[5].matches(nope) {
-                furnace.addRecipe(list[0][1], group[5], 0.5);
-            }
-            if !group[6].matches(nope) {
-                furnace.addRecipe(list[0][1], group[6], 0.5);
-            }
-        }
+        if !group[0].matches(nope) { recipes.remove(group[0]); }
+        if !group[1].matches(nope) { recipes.remove(group[1]); }
+        if !group[5].matches(nope) { furnace.addRecipe(list[0][1], group[5], 0.5); }
+        if !group[6].matches(nope) { furnace.addRecipe(list[0][1], group[6], 0.5); }
         if !group[2].matches(nope) { recipes.remove(group[2]); }
         if !group[3].matches(nope) { recipes.remove(group[3]); }
         if !group[4].matches(nope) { recipes.remove(group[4]); }
