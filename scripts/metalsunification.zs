@@ -106,29 +106,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     var aluminum_oredict = [<ore:nuggetAluminum>,<ore:ingotAluminum>,<ore:blockAluminum>,<ore:plateAluminum>,<ore:gearAluminum>,<ore:oreAluminum>,<ore:dustAluminum>] as crafttweaker.item.IIngredient[];
     unify(list_aluminum, aluminum_oredict);
    
-
-
-# Copper
-    val list_copper = [
-        # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]                    Ore [5]              Dust [6]
-        [ieMat.withDamage(20), ieMat,               ieSto,               ieMat.withDamage(30), <materialpart:copper:gear>, ieOre.withDamage(0), ieMat.withDamage(9)],
-        #[nope,                 nope,                nope,                nope,                 nope,                      nope,                <enderio:itemPowderIngot:3>],
-        #[nope,                 <abyssalcraft:copperingot>, nope,         nope,                 nope,                       <abyssalcraft:abycopore>, nope],
-        [lvNug.withDamage(4),  lvIng.withDamage(4), lvSto.withDamage(4), lvPla.withDamage(4),  nope,                       lvOre.withDamage(4),      nope],
-        #[nope,                <fp:ItemErze:2>,     <fp:erz_blocke:2>,   nope,                 nope,                       nope,                nope],
-        [nope,                 <forestry:ingot_copper>, <forestry:resource_storage:1>, nope,     <forestry:gear_copper>,   <forestry:resources:1>, nope],
-        #[<embers:nuggetCopper>,<embers:ingotCopper>,<embers:blockCopper>,<embers:plateCopper>, nope,                      nope,                 nope],
-        #[<esteemedinnovation:nugget>,<esteemedinnovation:ingot>,<esteemedinnovation:metal_storage_block>, nope,nope,      nope,                 nope],
-        #[<primal:copper_nugget>,<primal:copper_ingot>, <primal:metalblock:10>,nope,             nope,                      nope,                 <primal:copper_dust>],
-        #[<railcraft:nugget:2>, <railcraft:ingot:1>, <railcraft:generic>, nope,                nope,                       nope,                 nope],
-        #[nope,                <rockhounding_chemistry:miscItems:25>,nope,nope,                nope,                       nope,                 <rockhounding_chemistry:chemicalDusts:17>],
-        /* [teMat.withDamage(192), teMat.withDamage(128), teSto,            teMat.withDamage(320),teMat.withDamage(256),      teOre,                teMat.withDamage(64)], */
-        [<mekanism:nugget:5>,<mekanism:ingot:5>,<mekanism:basicblock:12>,nope,nope,nope,nope]
-    ] as crafttweaker.item.IItemStack[][];
-    var copper_oredict = [<ore:nuggetCopper>,<ore:ingotCopper>,<ore:blockCopper>,<ore:plateCopper>,<ore:gearCopper>,<ore:oreCopper>,<ore:dustCopper>] as crafttweaker.item.IIngredient[];
-    unify(list_copper, copper_oredict);
-
-
 # Constantan
     var list_constantan = [
         # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5] Dust [6]
@@ -142,16 +119,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     #mods.tconstruct.Casting.removeBasinRecipe(<materialpart:constantan:block>);
     #mods.tconstruct.Casting.addTableRecipe(list_constantan[0][1], <liquid:constantan>*144, <tconstruct:cast_custom>, false);
     #mods.tconstruct.Casting.addBasinRecipe(list_constantan[0][2], <liquid:constantan>*1296);
-
-# Gunmetal
-    var list_gunmetal = [
-        # Nugget [0]                      Ingot [1]                      Block [2]                      Plate [3]                      Gear [4]                     Ore [5] Dust [6]
-        [<materialpart:gunmetal:nugget>, <materialpart:gunmetal:ingot>, <materialpart:gunmetal:block>, <materialpart:gunmetal:plate>, <materialpart:gunmetal:gear>, nope,  <materialpart:gunmetal:dust>]
-    ] as crafttweaker.item.IItemStack[][];
-    var gunmetal_oredict = [<ore:nuggetGunmetal>,<ore:ingotGunmetal>,<ore:blockGunmetal>,<ore:plateGunmetal>,<ore:gearGunmetal>,<ore:oreGunmetal>,<ore:dustGunmetal>] as crafttweaker.item.IIngredient[];
-    unifyalloy(list_gunmetal, gunmetal_oredict);
-    recipes.addShapeless(<materialpart:gunmetal:dust>*5,
-      [<ore:dustBrass>,<ore:dustBrass>,<ore:dustBronze>,<ore:dustBronze>,<ore:dustBronze>]);
 
 # Iron
     var list_iron = [ 
@@ -169,17 +136,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     ] as crafttweaker.item.IItemStack[][];
     var iron_oredict = [<ore:nuggetIron>,<ore:ingotIron>,<ore:blockIron>,<ore:plateIron>,<ore:gearIron>,<ore:oreIron>,<ore:dustIron>] as crafttweaker.item.IIngredient[];
     unify(list_iron, iron_oredict);
-
-# Lead
-    var list_lead = [ 
-        # Nugget [0]           Ingot [1]            Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(22), ieMat.withDamage(2), ieSto.withDamage(2), ieMat.withDamage(32), <materialpart:lead:gear>, ieOre.withDamage(2), ieMat.withDamage(11)],
-        #[<primal:lead_nugget>, <primal:lead_ingot>, <primal:metalblock:7>, <primal:lead_plate>,  nope,                  nope,                <primal:lead_dust>],
-        #[nope,         <rockhounding_chemistry:miscItems:27>,nope,         nope,         nope,         nope,     <rockhounding_chemistry:chemicalDusts:19>]
-        #[teMat.withDamage(195),teMat.withDamage(131),     teSto.withDamage(3),   teMat.withDamage(323),teMat.withDamage(259),teOre.withDamage(3),   teMat.withDamage(67)]
-    ] as crafttweaker.item.IItemStack[][];
-    var lead_oredict = [<ore:nuggetLead>,<ore:ingotLead>,<ore:blockLead>,<ore:plateLead>,<ore:gearLead>,<ore:oreLead>,<ore:dustLead>] as crafttweaker.item.IIngredient[];
-    unify(list_lead, lead_oredict);
 
 # Mithril
   var list_mithril = [
@@ -219,8 +175,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
     ] as crafttweaker.item.IItemStack[][];
     var silver_oredict = [<ore:nuggetSilver>,<ore:ingotSilver>,<ore:blockSilver>,<ore:plateSilver>,<ore:gearSilver>,<ore:oreSilver>,<ore:dustSilver>] as crafttweaker.item.IIngredient[];
     unify(list_silver, silver_oredict);
-
-
 
 # Uranium
     val list_uranium = [
