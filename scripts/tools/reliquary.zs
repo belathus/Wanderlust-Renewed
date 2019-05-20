@@ -37,5 +37,31 @@
   recipes.addShapeless(<xreliquary:bullet:1> * 8,
     [<minecraft:flint>, <ore:nuggetLead>, <ore:nuggetLead>, <minecraft:gunpowder>]);
   recipes.removeByRecipeName("xreliquary:items/gold_nugget");
-  recipes.addShapeless(<materialpart:lead:nugget>,
+  recipes.addShapeless(<immersiveengineering:metal:22>,
     [<xreliquary:bullet>, <xreliquary:bullet>, <xreliquary:bullet>, <xreliquary:bullet>]);
+
+
+  # Blaze Shot
+  recipes.removeByRecipeName("xreliquary:items/bullets/blaze");
+  recipes.addShapeless(<xreliquary:bullet:3> * 8,
+    [<ore:nuggetLead>, <ore:nuggetLead>, <ore:itemBlazeRod>, <ore:itemBlazePowder>]);
+
+  # Concussive Shot
+  recipes.removeByRecipeName("xreliquary:items/bullets/concussive");
+  recipes.addShapeless(<xreliquary:bullet:5> * 8,
+    [<ore:nuggetLead>, <ore:nuggetLead>, <ore:slimeball>, <ore:gunpowder>]);
+
+  # Seeker Shot
+  recipes.removeByRecipeName("xreliquary:items/bullets/seeker");
+  recipes.addShapeless(<xreliquary:bullet:7> * 8,
+    [<ore:nuggetLead>, <ore:nuggetLead>, <ore:gemLapis>, <ore:gunpowder>]);
+
+  # Sand Shot
+  recipes.removeByRecipeName("xreliquary:items/bullets/sand");
+  recipes.addShapeless(<xreliquary:bullet:8> * 8,
+    [<ore:nuggetLead>, <ore:sandstone>, <ore:slimeball>, <ore:gunpowder>]);
+
+  # Storm Shot
+  recipes.removeByRecipeName("xreliquary:items/bullets/storm");
+  recipes.addShapeless(<xreliquary:bullet:9> * 8,
+    [<ore:nuggetLead>, <ore:nuggetLead>, <xreliquary:mob_ingredient:3>, <xreliquary:mob_ingredient:3>, <ore:gunpowder>]);
