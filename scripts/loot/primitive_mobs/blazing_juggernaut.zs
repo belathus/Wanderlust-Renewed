@@ -22,7 +22,7 @@ import loottweaker.vanilla.loot.Functions;
     [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 10)], []);
     
   # 50% chance to get 1 blaze rod. This chance is re-rolled for each level of looting.
-  juggernaut.addPool("powder", 1, 1, 0, 0).addItemEntryHelper(<minecraft:blaze_rod>, 1, 0, 
+  juggernaut.addPool("rod", 1, 1, 0, 0).addItemEntryHelper(<minecraft:blaze_rod>, 1, 0, 
     [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 10)], [Conditions.killedByPlayer()]);
   
   # 15% chance to get a molten core; +10% per level of looting.
