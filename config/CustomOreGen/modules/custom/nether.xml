@@ -45,42 +45,6 @@
             <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
             <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
         </Veins>
-
-        <!-- Nether Redstone Ore Veins -->
-        <IfModInstalled name="taiga">
-                <Veins name='ncoreRedstoneVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='false' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
-                    <Description>
-                        Small, fairly rare motherlodes with 2-4 horizontal veins each.
-                    </Description>
-                    <OreBlock block='minecraft:netherrack' weight='0.70' />
-                    <OreBlock block='minecraft:redstone_ore' weight='0.30' />
-                    <ReplacesOre block='netherrack' weight='1.0'/>
-                    <ReplacesOre block='soulsand' weight='1.0'/>
-                    <Replaces block='minecraft:magma' weight='1.0'/>
-                    <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
-                    <Replaces block='minecraft:lava' weight='1.0'/>
-                    <Replaces block='minecraft:gravel' weight='1.0'/>
-                    <Replaces block='minecraft:air' weight='1.0'/>
-                    <Replaces block='nex:.*' weight='1.0'/>
-                    <Biome name='.*'  />
-                    <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.150 * _default_ ' type='normal' scaleTo='base' />
-                    <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
-                    <Setting name='MotherlodeHeight'      avg=':= 18 '                range=':= 14 '                type='uniform' scaleTo='base' />
-                    <Setting name='MotherlodeRangeLimit'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchFrequency'       avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchInclination'     avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='BranchLength'          avg=':= 0.290 * _default_ ' range=':= 0.290 * _default_ ' type='normal' />
-                    <Setting name='BranchHeightLimit'     avg=':= _default_ '         range=':= _default_ '         type='normal' scaleTo='base' />
-                    <Setting name='SegmentForkFrequency'  avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentForkLengthMult' avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentLength'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentAngle'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentPitch'          avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='SegmentRadius'         avg=':= 2.091 * _default_ ' range=':= 2.091 * _default_ ' type='normal' />
-                    <Setting name='OreDensity'            avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                    <Setting name='OreRadiusMult'         avg=':= _default_ '         range=':= _default_ '         type='normal' />
-                </Veins>
-            </IfModInstalled>
             
         <!-- Lapis Lazuli Veins -->
         <IfModInstalled name="tconstruct">

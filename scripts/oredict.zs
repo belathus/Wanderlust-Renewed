@@ -76,15 +76,15 @@ import crafttweaker.item.IIngredient;
         <ore:doorWood>.add(door);
     }
 # Dusts
-    <ore:dustOsmium>.remove(<dungeontactics:cluster_osmium>);
-    <ore:dustGold>.remove(<dungeontactics:cluster_gold>);
-    <ore:dustTin>.remove(<dungeontactics:cluster_tin>);
-    <ore:dustLead>.remove(<dungeontactics:cluster_lead>);
-    <ore:dustSilver>.remove(<dungeontactics:cluster_silver>);
-    <ore:dustPlatinum>.remove(<dungeontactics:cluster_platinum>);
-    <ore:dustTitanium>.remove(<dungeontactics:cluster_titanium>);
-    <ore:dustIron>.remove(<dungeontactics:cluster_iron>);
-    <ore:dustTungsten>.remove(<dungeontactics:cluster_tungsten>);
+    <ore:dustOsmium>.remove(<dungeontactics:osmium_cluster>);
+    <ore:dustGold>.remove(<dungeontactics:gold_cluster>);
+    <ore:dustTin>.remove(<dungeontactics:tin_cluster>);
+    <ore:dustLead>.remove(<dungeontactics:lead_cluster>);
+    <ore:dustSilver>.remove(<dungeontactics:silver_cluster>);
+    <ore:dustPlatinum>.remove(<dungeontactics:platinum_cluster>);
+    <ore:dustTitanium>.remove(<dungeontactics:titanium_cluster>);
+    <ore:dustIron>.remove(<dungeontactics:iron_cluster>);
+    <ore:dustTungsten>.remove(<dungeontactics:tungsten_cluster>);
 # Flowers
     <ore:flowerRed>.add(<minecraft:red_flower:4>);
     <ore:flowerRed>.add(<biomesoplenty:flower_1>);

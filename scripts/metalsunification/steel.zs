@@ -14,6 +14,16 @@ val nope = <minecraft:barrier>;
       <immersiveengineering:material:2> # rod
     ],
     [
+      <dungeontactics:steel_nugget>,
+      <dungeontactics:steel_ingot>,
+      <dungeontactics:steel_block>,
+      nope,
+      nope,
+      nope,
+      nope,
+      nope
+    ],
+    [
       <libvulpes:productnugget:6>,
       <libvulpes:productingot:6>,
       <libvulpes:metal0:6>,
@@ -23,17 +33,28 @@ val nope = <minecraft:barrier>;
       <libvulpes:productdust:6>,
       <libvulpes:productrod:6>
     ],
-    // [
-    //   nope,
-    //   <primal:steel_ingot>,
-    //   <primal:metalblock:1>,
-    //   <primal:steel_plate>,
-    //   nope,
-    //   nope,
-    //   nope,
-    //   nope
-    // ],
-    /*
+    [
+      <mekanism:nugget:4>,
+      <mekanism:ingot:4>,
+      <mekanism:basicblock:5>,
+      nope,
+      nope,
+      nope,
+      nope
+    ]
+/* ========================================================
+   Unused mods. Left here just in case we ever re-add them.
+   ========================================================
+    [
+      nope,
+      <primal:steel_ingot>,
+      <primal:metalblock:1>,
+      <primal:steel_plate>,
+      nope,
+      nope,
+      nope,
+      nope
+    ],
     [
       <thermalfoundation:material:224>,
       <thermalfoundation:material:160>,
@@ -44,16 +65,10 @@ val nope = <minecraft:barrier>;
       <thermalfoundation:material:96>,
       nope
     ],
-    */
-    [
-      <mekanism:nugget:4>,
-      <mekanism:ingot:4>,
-      <mekanism:basicblock:5>,
-      nope,
-      nope,
-      nope,
-      nope
-    ]
+   ========================================================
+*/
   ] as crafttweaker.item.IItemStack[][];
+  
   val steel_oredict = [<ore:nuggetSteel>,<ore:ingotSteel>,<ore:blockSteel>,<ore:plateSteel>,<ore:gearSteel>,<ore:oreSteel>,<ore:dustSteel>] as crafttweaker.item.IIngredient[];
+  
   scripts.functions.unifyalloy(list_steel, steel_oredict);
