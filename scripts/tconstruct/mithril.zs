@@ -25,13 +25,18 @@ import crafttweaker.player.IPlayer;
   mithril_trait.localizedDescription = "§oGets stronger after breaking!§r\nBreaking the tool while you have at least 30 levels consumes 30 levels, and gives you an extra modifier slot.";
   mithril_trait.calcToolHeal = function(trait, tool, unmodifiedAmount, newAmount, holder) {
     var player = holder as IPlayer;
-    if((tool.damage == tool.maxDamage) && (player.xp > 825)){
+    if(/*(tool.damage == tool.maxDamage) &&*/ (player.xp >= 825)){
       tool.updateTag({ReadyForModifier: true, stats: {FreeModifiers:1}});
       player.executeCommand("experience add -30 levels");
+      player.sendChat("Repairing the tool reveals the tool is more modifiable than before.")
     }
     if(0 > tool.damage - newAmount && tool.tag.ReadyForModifier.asBool()){
       tool.updateTag({ReadyForModifier: false});
-      var statsMap = tool.tag.Stats;
+      var statsMap = tool.tag.stats;
+      var modifiers = statsMap.memberGet("FreeModifiers") as IData;
+      var updatedMap = statsMap - "FreeModifiers";
+      var modifierMap = {FreeModifiers: modifiers.toInt() + 1} as IData;
+      updatedMap = updatedMap + modifierMap;
     }
   };
 
