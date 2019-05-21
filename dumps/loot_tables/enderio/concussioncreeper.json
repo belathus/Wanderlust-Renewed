@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "19bce010-f315-4cf0-9a28-471be2eb6ef1",
+      "entries": [
+        {
+          "entryName": "db2785ff-6327-4521-af25-93840a0c6f04",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "name": "itemEnderFragment",
+              "function": "enderio:use_things"
+            }
+          ],
+          "name": "minecraft:air"
+        },
+        {
+          "entryName": "c43feb42-bcaa-41da-982f-ec8ce9cb4bdd",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "name": "itemConfusingDust",
+              "function": "enderio:use_things"
+            }
+          ],
+          "name": "minecraft:air"
+        },
+        {
+          "entryName": "0bcb0482-8544-4352-ad91-65ed25f0a74b",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

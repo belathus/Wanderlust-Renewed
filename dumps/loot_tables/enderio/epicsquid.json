@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "name": "a910a149-bff9-485a-84de-7d69cc7a4317",
+      "entries": [
+        {
+          "entryName": "7302f2c7-7174-47db-ab47-576568039b26",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "name": "dustBedrock",
+              "function": "enderio:use_things"
+            }
+          ],
+          "name": "minecraft:air"
+        },
+        {
+          "entryName": "cbd22355-86b3-4a1d-a1f1-a5b427bfa8fc",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "name": "dustObsidian",
+              "function": "enderio:use_things"
+            }
+          ],
+          "name": "minecraft:air"
+        },
+        {
+          "entryName": "fc6c2e7b-c405-42b5-b043-2490513991ab",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

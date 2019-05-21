@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "854cc1a6-df80-4e1b-ae75-290abbb974ee",
+      "entries": [
+        {
+          "entryName": "4ef6e0e5-9b9a-46e0-920e-0143cd44dfba",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:clay_ball"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

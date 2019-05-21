@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "name": "root_pods_1",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:root_pod",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:root_pod"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "root_pods_2",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 2,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:root_pod",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:root_pod"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "plant_drops",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 14,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:items_plant_drop",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "function": "thebetweenlands:set_meta_from_array"
+            }
+          ],
+          "name": "thebetweenlands:items_plant_drop"
+        },
+        {
+          "entryName": "thebetweenlands:middle_fruit_bush_seeds",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:middle_fruit_bush_seeds"
+        },
+        {
+          "entryName": "thebetweenlands:aspectrus_seeds",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:aspectrus_seeds"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

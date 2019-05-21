@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "name": "some_shared_pool_1",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:gem_singer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:gem_singer"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "some_shared_pool_2",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:valonite_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:valonite_block"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "gem_singers_per_chest_from_shared_pool",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 3,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:gem_singer",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:gem_singer"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "valonite_block_per_chest_from_shared_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:valonite_block",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:valonite_block"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "random_filler_crap_not_from_shared_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:betweenstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:betweenstone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
