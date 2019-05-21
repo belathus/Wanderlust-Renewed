@@ -1,47 +1,24 @@
 {
   "pools": [
     {
-      "name": "goblin_drops",
+      "name": "nuggets",
       "entries": [
         {
-          "entryName": "minecraft:iron_ingot",
+          "entryName": "contenttweaker:material_part",
           "weight": 1,
           "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
           "type": "item",
           "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            },
             {
               "count": {
                 "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "goblin_rare_drops",
-      "entries": [
-        {
-          "entryName": "minecraft:emerald",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": -4.0,
-                "max": 1.0
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             },
@@ -50,19 +27,75 @@
                 "min": -2.0,
                 "max": 1.0
               },
+              "limit": 10,
               "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 52.0,
+              "function": "minecraft:set_data"
             }
           ],
+          "name": "contenttweaker:material_part"
+        }
+      ],
+      "rolls": {
+        "min": -2.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "ingot",
+      "entries": [
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.085,
+              "looting_multiplier": 0.01,
+              "condition": "minecraft:random_chance_with_looting"
+            },
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "emerald",
+      "entries": [
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.025,
+              "looting_multiplier": 0.005,
+              "condition": "minecraft:random_chance_with_looting"
+            },
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
           "name": "minecraft:emerald"
         }
       ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "inverse": false,
-          "condition": "minecraft:killed_by_player"
-        }
-      ]
+      "rolls": 1.0
     }
   ]
 }

@@ -88,6 +88,174 @@
           "name": "minecraft:diamond_hoe"
         },
         {
+          "entryName": "primitivetools:primitive_knife_cwv",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "primitivetools:primitive_knife_cwv"
+        },
+        {
+          "entryName": "primitivetools:primitive_pick_cwv",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "primitivetools:primitive_pick_cwv"
+        },
+        {
+          "entryName": "primitivetools:primitive_hatchet_cwv",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "primitivetools:primitive_hatchet_cwv"
+        },
+        {
+          "entryName": "primitivetools:primitive_hoe_cwv",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "primitivetools:primitive_hoe_cwv"
+        },
+        {
+          "entryName": "primitivetools:primitive_spade_cwv",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "primitivetools:primitive_spade_cwv"
+        },
+        {
+          "entryName": "artisanworktables:artisans_handsaw_flint",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "artisanworktables:artisans_handsaw_flint"
+        },
+        {
+          "entryName": "forestry:bronze_pickaxe",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:bronze_pickaxe"
+        },
+        {
+          "entryName": "forestry:bronze_shovel",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:bronze_shovel"
+        },
+        {
+          "entryName": "dungeontactics:iron_battleaxe",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_battleaxe"
+        },
+        {
+          "entryName": "dungeontactics:iron_cestus",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_cestus"
+        },
+        {
+          "entryName": "dungeontactics:iron_cutlass",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_cutlass"
+        },
+        {
+          "entryName": "dungeontactics:iron_glaive",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_glaive"
+        },
+        {
+          "entryName": "dungeontactics:iron_knife",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_knife"
+        },
+        {
+          "entryName": "dungeontactics:iron_shield",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_shield"
+        },
+        {
+          "entryName": "dungeontactics:golden_battleaxe",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_battleaxe"
+        },
+        {
+          "entryName": "dungeontactics:golden_cestus",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_cestus"
+        },
+        {
+          "entryName": "dungeontactics:golden_cutlass",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_cutlass"
+        },
+        {
+          "entryName": "dungeontactics:golden_glaive",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_glaive"
+        },
+        {
+          "entryName": "dungeontactics:golden_knife",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_knife"
+        },
+        {
+          "entryName": "dungeontactics:golden_shield",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_shield"
+        },
+        {
+          "entryName": "thebetweenlands:bone_pickaxe",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_pickaxe"
+        },
+        {
+          "entryName": "thebetweenlands:bone_shield",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_shield"
+        },
+        {
+          "entryName": "thebetweenlands:bone_shovel",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_shovel"
+        },
+        {
+          "entryName": "thebetweenlands:bone_sword",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_sword"
+        },
+        {
           "entryName": "dungeontactics:gilded_pickaxe",
           "weight": 6,
           "quality": 0,
@@ -130,13 +298,6 @@
           "name": "dungeontactics:gilded_glaive"
         },
         {
-          "entryName": "dungeontactics:gilded_hammer",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:gilded_hammer"
-        },
-        {
           "entryName": "dungeontactics:gilded_hoe",
           "weight": 6,
           "quality": 0,
@@ -172,102 +333,39 @@
           "name": "dungeontactics:gilded_sword"
         },
         {
-          "entryName": "dungeontactics:golden_battleaxe",
-          "weight": 8,
+          "entryName": "appliedenergistics2:nether_quartz_cutting_knife",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "dungeontactics:golden_battleaxe"
+          "name": "appliedenergistics2:nether_quartz_cutting_knife"
         },
         {
-          "entryName": "dungeontactics:golden_cestus",
-          "weight": 8,
+          "entryName": "appliedenergistics2:nether_quartz_spade",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "dungeontactics:golden_cestus"
+          "name": "appliedenergistics2:nether_quartz_spade"
         },
         {
-          "entryName": "dungeontactics:golden_cutlass",
-          "weight": 8,
+          "entryName": "appliedenergistics2:nether_quartz_axe",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "dungeontactics:golden_cutlass"
+          "name": "appliedenergistics2:nether_quartz_axe"
         },
         {
-          "entryName": "dungeontactics:golden_glaive",
-          "weight": 8,
+          "entryName": "appliedenergistics2:nether_quartz_hoe",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "dungeontactics:golden_glaive"
+          "name": "appliedenergistics2:nether_quartz_hoe"
         },
         {
-          "entryName": "dungeontactics:golden_hammer",
-          "weight": 8,
+          "entryName": "appliedenergistics2:nether_quartz_pickaxe",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "dungeontactics:golden_hammer"
-        },
-        {
-          "entryName": "dungeontactics:golden_knife",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:golden_knife"
-        },
-        {
-          "entryName": "dungeontactics:golden_shield",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:golden_shield"
-        },
-        {
-          "entryName": "dungeontactics:iron_battleaxe",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_battleaxe"
-        },
-        {
-          "entryName": "dungeontactics:iron_cestus",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_cestus"
-        },
-        {
-          "entryName": "dungeontactics:iron_cutlass",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_cutlass"
-        },
-        {
-          "entryName": "dungeontactics:iron_glaive",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_glaive"
-        },
-        {
-          "entryName": "dungeontactics:iron_hammer",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_hammer"
-        },
-        {
-          "entryName": "dungeontactics:iron_knife",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_knife"
-        },
-        {
-          "entryName": "dungeontactics:iron_shield",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:iron_shield"
+          "name": "appliedenergistics2:nether_quartz_pickaxe"
         },
         {
           "entryName": "dungeontactics:jewelled_axe",
@@ -303,13 +401,6 @@
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:jewelled_glaive"
-        },
-        {
-          "entryName": "dungeontactics:jewelled_hammer",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "dungeontactics:jewelled_hammer"
         },
         {
           "entryName": "dungeontactics:jewelled_hoe",
@@ -352,377 +443,6 @@
           "quality": 0,
           "type": "item",
           "name": "dungeontactics:jewelled_sword"
-        },
-        {
-          "entryName": "forestry:bronze_pickaxe",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "name": "forestry:bronze_pickaxe"
-        },
-        {
-          "entryName": "forestry:bronze_shovel",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "name": "forestry:bronze_shovel"
-        },
-        {
-          "entryName": "primal:diamond_axe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_axe"
-        },
-        {
-          "entryName": "primal:diamond_hatchet",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_hatchet"
-        },
-        {
-          "entryName": "primal:diamond_hoe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_hoe"
-        },
-        {
-          "entryName": "primal:diamond_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_pickaxe"
-        },
-        {
-          "entryName": "primal:diamond_plate",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_plate"
-        },
-        {
-          "entryName": "primal:diamond_saw",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_saw"
-        },
-        {
-          "entryName": "primal:diamond_shovel",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_shovel"
-        },
-        {
-          "entryName": "primal:diamond_workblade",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:diamond_workblade"
-        },
-        {
-          "entryName": "primal:emerald_axe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_axe"
-        },
-        {
-          "entryName": "primal:emerald_hatchet",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_hatchet"
-        },
-        {
-          "entryName": "primal:emerald_hoe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_hoe"
-        },
-        {
-          "entryName": "primal:emerald_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_pickaxe"
-        },
-        {
-          "entryName": "primal:emerald_saw",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_saw"
-        },
-        {
-          "entryName": "primal:emerald_shovel",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_shovel"
-        },
-        {
-          "entryName": "primal:emerald_workblade",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:emerald_workblade"
-        },
-        {
-          "entryName": "primal:flint_axe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_axe"
-        },
-        {
-          "entryName": "primal:flint_hatchet",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_hatchet"
-        },
-        {
-          "entryName": "primal:flint_hoe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_hoe"
-        },
-        {
-          "entryName": "primal:flint_pickaxe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_pickaxe"
-        },
-        {
-          "entryName": "primal:flint_saw",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_saw"
-        },
-        {
-          "entryName": "primal:flint_shears",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_shears"
-        },
-        {
-          "entryName": "primal:flint_shovel",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_shovel"
-        },
-        {
-          "entryName": "primal:flint_workblade",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:flint_workblade"
-        },
-        {
-          "entryName": "primal:obsidian_axe",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_axe"
-        },
-        {
-          "entryName": "primal:obsidian_hatchet",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_hatchet"
-        },
-        {
-          "entryName": "primal:obsidian_hoe",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_hoe"
-        },
-        {
-          "entryName": "primal:obsidian_lens",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_lens"
-        },
-        {
-          "entryName": "primal:obsidian_pickaxe",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_pickaxe"
-        },
-        {
-          "entryName": "primal:obsidian_shard",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_shard"
-        },
-        {
-          "entryName": "primal:obsidian_shovel",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_shovel"
-        },
-        {
-          "entryName": "primal:obsidian_workblade",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:obsidian_workblade"
-        },
-        {
-          "entryName": "primal:opal_axe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:opal_axe"
-        },
-        {
-          "entryName": "primal:opal_hatchet",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:opal_hatchet"
-        },
-        {
-          "entryName": "primal:opal_hoe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:opal_hoe"
-        },
-        {
-          "entryName": "primal:opal_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:opal_pickaxe"
-        },
-        {
-          "entryName": "primal:opal_shovel",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:opal_shovel"
-        },
-        {
-          "entryName": "primal:opal_workblade",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:opal_workblade"
-        },
-        {
-          "entryName": "primal:quartz_axe",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_axe"
-        },
-        {
-          "entryName": "primal:quartz_clippers",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_clippers"
-        },
-        {
-          "entryName": "primal:quartz_gallagher",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_gallagher"
-        },
-        {
-          "entryName": "primal:quartz_hatchet",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_hatchet"
-        },
-        {
-          "entryName": "primal:quartz_hoe",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_hoe"
-        },
-        {
-          "entryName": "primal:quartz_pickaxe",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_pickaxe"
-        },
-        {
-          "entryName": "primal:quartz_saw",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_saw"
-        },
-        {
-          "entryName": "primal:quartz_shears",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_shears"
-        },
-        {
-          "entryName": "primal:quartz_shovel",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_shovel"
-        },
-        {
-          "entryName": "primal:quartz_workblade",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "primal:quartz_workblade"
-        },
-        {
-          "entryName": "thebetweenlands:bone_pickaxe",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:bone_pickaxe"
-        },
-        {
-          "entryName": "thebetweenlands:bone_shield",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:bone_shield"
-        },
-        {
-          "entryName": "thebetweenlands:bone_shovel",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:bone_shovel"
-        },
-        {
-          "entryName": "thebetweenlands:bone_sword",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:bone_sword"
         },
         {
           "entryName": "twilightforest:fiery_pickaxe",
@@ -779,6 +499,48 @@
           "quality": 0,
           "type": "item",
           "name": "twilightforest:steeleaf_axe"
+        },
+        {
+          "entryName": "dungeontactics:diamond_knife",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:diamond_knife"
+        },
+        {
+          "entryName": "minecraft:diamond_shovel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "entryName": "minecraft:diamond_axe-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "entryName": "minecraft:diamond_hoe-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "entryName": "minecraft:diamond_pickaxe-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "artisanworktables:artisans_handsaw_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "artisanworktables:artisans_handsaw_diamond"
         }
       ],
       "rolls": 1.0

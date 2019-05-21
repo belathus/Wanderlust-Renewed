@@ -142,18 +142,6 @@
           "name": "minecraft:book"
         },
         {
-          "entryName": "quark:treasure_map",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:set_treasure"
-            }
-          ],
-          "name": "minecraft:filled_map"
-        },
-        {
           "entryName": "quark:rune",
           "weight": 15,
           "quality": 0,
@@ -168,6 +156,18 @@
             }
           ],
           "name": "quark:rune"
+        },
+        {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
         },
         {
           "entryName": "astralsorcery:constellation_paper",
@@ -278,6 +278,142 @@
           "name": "dungeontactics:golden_ring"
         },
         {
+          "entryName": "DT:HammerLeaping",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_hammer_leap"
+        },
+        {
+          "entryName": "DT:HammerSmash",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_hammer_smash"
+        },
+        {
+          "entryName": "DT:CutlassRiposte",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cutlass_riposte"
+        },
+        {
+          "entryName": "DT:CutlassPierce",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cutlass_pierce"
+        },
+        {
+          "entryName": "DT:KnifeStrike",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_knife_multistrike"
+        },
+        {
+          "entryName": "DT:KnifeSmoke",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_knife_smokebomb"
+        },
+        {
+          "entryName": "DT:CestusRoar",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cestus_roar"
+        },
+        {
+          "entryName": "DT:CestusPummel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "dungeontactics:master_cestus_pummel"
+        },
+        {
           "entryName": "DT:HighStriker",
           "weight": 1,
           "quality": 0,
@@ -324,6 +460,22 @@
             }
           ],
           "name": "dungeontactics:taser"
+        },
+        {
+          "entryName": "DT:Claws",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:claws"
         },
         {
           "entryName": "DT:LithenScythe",
@@ -388,6 +540,22 @@
             }
           ],
           "name": "dungeontactics:backfire_cannon"
+        },
+        {
+          "entryName": "DT:HotPotatoe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:hot_potatoe"
         },
         {
           "entryName": "DT:FireWater",

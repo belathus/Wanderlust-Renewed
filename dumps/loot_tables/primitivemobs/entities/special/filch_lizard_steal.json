@@ -9,6 +9,92 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "contenttweaker:material_part",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "immersiveengineering:metal-lt#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 88.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 94.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
         }
       ],
       "rolls": 1.0

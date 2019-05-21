@@ -534,33 +534,6 @@
           "name": "dungeontactics:iron_cutlass"
         },
         {
-          "entryName": "dungeontactics:iron_hammer",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "dungeontactics:iron_hammer"
-        },
-        {
           "entryName": "dungeontactics:iron_battleaxe",
           "weight": 30,
           "quality": 0,
@@ -721,33 +694,6 @@
             }
           ],
           "name": "dungeontactics:gilded_cutlass"
-        },
-        {
-          "entryName": "dungeontactics:gilded_hammer",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "dungeontactics:gilded_hammer"
         },
         {
           "entryName": "dungeontactics:gilded_battleaxe",
@@ -1145,7 +1091,7 @@
           "name": "minecraft:iron_pickaxe"
         },
         {
-          "entryName": "primal:diamond_pickaxe",
+          "entryName": "minecraft:diamond_pickaxe",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -1169,10 +1115,10 @@
               ]
             }
           ],
-          "name": "primal:diamond_pickaxe"
+          "name": "minecraft:diamond_pickaxe"
         },
         {
-          "entryName": "primal:flint_pickaxe",
+          "entryName": "primitivetools:primitive_pick_cwv",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -1196,10 +1142,10 @@
               ]
             }
           ],
-          "name": "primal:flint_pickaxe"
+          "name": "primitivetools:primitive_pick_cwv"
         },
         {
-          "entryName": "primal:quartz_pickaxe",
+          "entryName": "appliedenergistics2:nether_quartz_pickaxe",
           "weight": 8,
           "quality": 0,
           "type": "item",
@@ -1223,88 +1169,7 @@
               ]
             }
           ],
-          "name": "primal:quartz_pickaxe"
-        },
-        {
-          "entryName": "primal:emerald_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_pickaxe"
-        },
-        {
-          "entryName": "primal:opal_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_pickaxe"
-        },
-        {
-          "entryName": "primal:obsidian_pickaxe",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_pickaxe"
+          "name": "appliedenergistics2:nether_quartz_pickaxe"
         }
       ],
       "rolls": 1.0
@@ -1465,7 +1330,7 @@
         {
           "entryName": "empty",
           "weight": 381,
-          "quality": 1,
+          "quality": 0,
           "type": "empty"
         }
       ],
@@ -1529,8 +1394,27 @@
         {
           "entryName": "empty",
           "weight": 78,
-          "quality": 1,
+          "quality": 0,
           "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lava_charm",
+      "entries": [
+        {
+          "entryName": "randomthings:lavacharm",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "randomthings:lavacharm"
         }
       ],
       "rolls": 1.0
@@ -1666,7 +1550,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

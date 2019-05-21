@@ -876,7 +876,7 @@
       "name": "ultrarare",
       "entries": [
         {
-          "entryName": "primal:diamond_workblade",
+          "entryName": "dungeontactics:diamond_knife",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -900,10 +900,10 @@
               ]
             }
           ],
-          "name": "primal:diamond_workblade"
+          "name": "dungeontactics:diamond_knife"
         },
         {
-          "entryName": "primal:diamond_shovel",
+          "entryName": "minecraft:diamond_shovel",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -927,10 +927,10 @@
               ]
             }
           ],
-          "name": "primal:diamond_shovel"
+          "name": "minecraft:diamond_shovel"
         },
         {
-          "entryName": "primal:diamond_axe",
+          "entryName": "minecraft:diamond_axe",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -954,10 +954,10 @@
               ]
             }
           ],
-          "name": "primal:diamond_axe"
+          "name": "minecraft:diamond_axe"
         },
         {
-          "entryName": "primal:diamond_hoe",
+          "entryName": "minecraft:diamond_hoe",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -981,10 +981,37 @@
               ]
             }
           ],
-          "name": "primal:diamond_hoe"
+          "name": "minecraft:diamond_hoe"
         },
         {
-          "entryName": "primal:diamond_pickaxe",
+          "entryName": "minecraft:diamond_pickaxe",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": 39.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.5,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "artisanworktables:artisans_handsaw_diamond",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -1008,37 +1035,10 @@
               ]
             }
           ],
-          "name": "primal:diamond_pickaxe"
+          "name": "artisanworktables:artisans_handsaw_diamond"
         },
         {
-          "entryName": "primal:diamond_saw",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:diamond_saw"
-        },
-        {
-          "entryName": "primal:quartz_workblade",
+          "entryName": "appliedenergistics2:nether_quartz_cutting_knife",
           "weight": 160,
           "quality": 0,
           "type": "item",
@@ -1062,10 +1062,10 @@
               ]
             }
           ],
-          "name": "primal:quartz_workblade"
+          "name": "appliedenergistics2:nether_quartz_cutting_knife"
         },
         {
-          "entryName": "primal:quartz_shovel",
+          "entryName": "appliedenergistics2:nether_quartz_spade",
           "weight": 160,
           "quality": 0,
           "type": "item",
@@ -1089,10 +1089,10 @@
               ]
             }
           ],
-          "name": "primal:quartz_shovel"
+          "name": "appliedenergistics2:nether_quartz_spade"
         },
         {
-          "entryName": "primal:quartz_axe",
+          "entryName": "appliedenergistics2:nether_quartz_axe",
           "weight": 160,
           "quality": 0,
           "type": "item",
@@ -1116,37 +1116,10 @@
               ]
             }
           ],
-          "name": "primal:quartz_axe"
+          "name": "appliedenergistics2:nether_quartz_axe"
         },
         {
-          "entryName": "primal:quartz_hatchet",
-          "weight": 160,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:quartz_hatchet"
-        },
-        {
-          "entryName": "primal:quartz_hoe",
+          "entryName": "appliedenergistics2:nether_quartz_hoe",
           "weight": 120,
           "quality": 0,
           "type": "item",
@@ -1170,11 +1143,11 @@
               ]
             }
           ],
-          "name": "primal:quartz_hoe"
+          "name": "appliedenergistics2:nether_quartz_hoe"
         },
         {
-          "entryName": "primal:quartz_saw",
-          "weight": 200,
+          "entryName": "appliedenergistics2:nether_quartz_pickaxe",
+          "weight": 320,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -1197,550 +1170,10 @@
               ]
             }
           ],
-          "name": "primal:quartz_saw"
+          "name": "appliedenergistics2:nether_quartz_pickaxe"
         },
         {
-          "entryName": "primal:quartz_pickaxe",
-          "weight": 160,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:quartz_pickaxe"
-        },
-        {
-          "entryName": "primal:quartz_shears",
-          "weight": 160,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:quartz_shears"
-        },
-        {
-          "entryName": "primal:emerald_workblade",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_workblade"
-        },
-        {
-          "entryName": "primal:emerald_shovel",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_shovel"
-        },
-        {
-          "entryName": "primal:emerald_axe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_axe"
-        },
-        {
-          "entryName": "primal:emerald_hatchet",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_hatchet"
-        },
-        {
-          "entryName": "primal:emerald_hoe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_hoe"
-        },
-        {
-          "entryName": "primal:emerald_pickaxe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:emerald_pickaxe"
-        },
-        {
-          "entryName": "primal:opal_workblade",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_workblade"
-        },
-        {
-          "entryName": "primal:opal_shovel",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_shovel"
-        },
-        {
-          "entryName": "primal:opal_axe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_axe"
-        },
-        {
-          "entryName": "primal:opal_hatchet",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_hatchet"
-        },
-        {
-          "entryName": "primal:opal_hoe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_hoe"
-        },
-        {
-          "entryName": "primal:opal_pickaxe",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:opal_pickaxe"
-        },
-        {
-          "entryName": "primal:obsidian_workblade",
-          "weight": 80,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_workblade"
-        },
-        {
-          "entryName": "primal:obsidian_shovel",
-          "weight": 80,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_shovel"
-        },
-        {
-          "entryName": "primal:obsidian_axe",
-          "weight": 80,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_axe"
-        },
-        {
-          "entryName": "primal:obsidian_hatchet",
-          "weight": 80,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_hatchet"
-        },
-        {
-          "entryName": "primal:obsidian_hoe",
-          "weight": 60,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_hoe"
-        },
-        {
-          "entryName": "primal:obsidian_pickaxe",
-          "weight": 80,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:obsidian_pickaxe"
-        },
-        {
-          "entryName": "primal:copper_saw",
+          "entryName": "artisanworktables:artisans_handsaw_copper",
           "weight": 240,
           "quality": 0,
           "type": "item",
@@ -1764,10 +1197,10 @@
               ]
             }
           ],
-          "name": "primal:copper_saw"
+          "name": "artisanworktables:artisans_handsaw_copper"
         },
         {
-          "entryName": "primal:iron_saw",
+          "entryName": "artisanworktables:artisans_handsaw_iron",
           "weight": 160,
           "quality": 0,
           "type": "item",
@@ -1791,61 +1224,7 @@
               ]
             }
           ],
-          "name": "primal:iron_saw"
-        },
-        {
-          "entryName": "primal:iron_gallagher",
-          "weight": 160,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:iron_gallagher"
-        },
-        {
-          "entryName": "primal:quartz_gallagher",
-          "weight": 240,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 39.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.5,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            }
-          ],
-          "name": "primal:quartz_gallagher"
+          "name": "artisanworktables:artisans_handsaw_iron"
         },
         {
           "entryName": "minecraft:flint_and_steel",
@@ -2309,6 +1688,25 @@
       "rolls": 1.0
     },
     {
+      "name": "lava_charm",
+      "entries": [
+        {
+          "entryName": "randomthings:lavacharm",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "randomthings:lavacharm"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "forestry_bee",
       "entries": [
         {
@@ -2357,19 +1755,6 @@
             }
           ],
           "name": "evilcraft:condensed_blood"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "closure_box",
-      "entries": [
-        {
-          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
-          "weight": 1,
-          "quality": 1,
-          "type": "loot_table",
-          "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }
       ],
       "rolls": 1.0
@@ -2463,6 +1848,19 @@
             }
           ],
           "name": "enderio:item_basic_capacitor"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "closure_box",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }
       ],
       "rolls": 1.0

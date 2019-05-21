@@ -163,7 +163,20 @@
           "name": "dungeontactics:slingshot"
         },
         {
-          "entryName": "primal:flint_workblade",
+          "entryName": "randomthings:lavacharm",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "randomthings:lavacharm"
+        },
+        {
+          "entryName": "primitivetools:primitive_knife_cwv",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -181,10 +194,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:flint_workblade"
+          "name": "primitivetools:primitive_knife_cwv"
         },
         {
-          "entryName": "primal:flint_shovel",
+          "entryName": "primitivetools:primitive_pick_cwv",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -202,10 +215,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:flint_shovel"
+          "name": "primitivetools:primitive_pick_cwv"
         },
         {
-          "entryName": "primal:flint_axe",
+          "entryName": "primitivetools:primitive_hatchet_cwv",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -223,31 +236,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:flint_axe"
+          "name": "primitivetools:primitive_hatchet_cwv"
         },
         {
-          "entryName": "primal:flint_hatchet",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "primal:flint_hatchet"
-        },
-        {
-          "entryName": "primal:flint_hoe",
+          "entryName": "primitivetools:primitive_hoe_cwv",
           "weight": 8,
           "quality": 0,
           "type": "item",
@@ -265,10 +257,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:flint_hoe"
+          "name": "primitivetools:primitive_hoe_cwv"
         },
         {
-          "entryName": "primal:flint_pickaxe",
+          "entryName": "primitivetools:primitive_spade_cwv",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -286,10 +278,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:flint_pickaxe"
+          "name": "primitivetools:primitive_spade_cwv"
         },
         {
-          "entryName": "primal:flint_saw",
+          "entryName": "artisanworktables:artisans_handsaw_flint",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -307,28 +299,7 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:flint_saw"
-        },
-        {
-          "entryName": "primal:stone_gallagher",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "primal:stone_gallagher"
+          "name": "artisanworktables:artisans_handsaw_flint"
         }
       ],
       "rolls": 1.0

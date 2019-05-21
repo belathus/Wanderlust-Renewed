@@ -4,6 +4,67 @@
       "name": "filchlizard_spawnitem",
       "entries": [
         {
+          "entryName": "minecraft:flint",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint"
+        },
+        {
+          "entryName": "minecraft:iron_nugget",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_nugget"
+        },
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "entryName": "immersiveengineering:metal",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "contenttweaker:material_part",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 67.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 81.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
           "entryName": "minecraft:gold_ingot",
           "weight": 3,
           "quality": 0,
@@ -11,24 +72,50 @@
           "name": "minecraft:gold_ingot"
         },
         {
-          "entryName": "minecraft:iron_ingot",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "entryName": "minecraft:dye",
-          "weight": 4,
+          "entryName": "immersiveengineering:metal-lt#2",
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "data": 4.0,
+              "data": 3.0,
               "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:dye"
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#3",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 88.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "contenttweaker:material_part-lt#4",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 94.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "contenttweaker:material_part"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
         },
         {
           "entryName": "minecraft:diamond",
@@ -43,20 +130,6 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:emerald"
-        },
-        {
-          "entryName": "minecraft:ender_pearl",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:ender_pearl"
-        },
-        {
-          "entryName": "minecraft:flint",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:flint"
         }
       ],
       "rolls": 1.0

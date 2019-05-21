@@ -34,6 +34,86 @@
             }
           ],
           "name": "dungeontactics:cherry_bomb"
+        },
+        {
+          "entryName": "DT:ThrowingKnife",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife"
+        },
+        {
+          "entryName": "DT:SlownessKnife",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_slowness"
+        },
+        {
+          "entryName": "DT:WeaknessKnife",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_weakness"
+        },
+        {
+          "entryName": "DT:PoisonKnife",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_poison"
+        },
+        {
+          "entryName": "DT:CausticKnife",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_caustic"
         }
       ],
       "rolls": {

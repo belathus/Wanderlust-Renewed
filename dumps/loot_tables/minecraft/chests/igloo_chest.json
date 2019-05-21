@@ -656,7 +656,7 @@
         {
           "entryName": "empty",
           "weight": 111,
-          "quality": 1,
+          "quality": 0,
           "type": "empty"
         }
       ],
@@ -681,8 +681,27 @@
         {
           "entryName": "empty",
           "weight": 60,
-          "quality": 1,
+          "quality": 0,
           "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lava_charm",
+      "entries": [
+        {
+          "entryName": "randomthings:lavacharm",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "randomthings:lavacharm"
         }
       ],
       "rolls": 1.0
@@ -837,7 +856,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

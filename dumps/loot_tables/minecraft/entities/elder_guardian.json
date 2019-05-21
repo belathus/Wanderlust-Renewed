@@ -133,6 +133,19 @@
           "condition": "minecraft:random_chance_with_looting"
         }
       ]
+    },
+    {
+      "name": "tinkerscompendium:elderpool",
+      "entries": [
+        {
+          "entryName": "tinkerscompendium:elderdrops",
+          "weight": 15,
+          "quality": 60,
+          "type": "item",
+          "name": "tinkerscompendium:eldergills"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

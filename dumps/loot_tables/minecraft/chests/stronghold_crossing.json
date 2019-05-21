@@ -137,6 +137,86 @@
           "name": "cyberware:neuropozyne"
         },
         {
+          "entryName": "DT:ThrowingKnife",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife"
+        },
+        {
+          "entryName": "DT:SlownessKnife",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_slowness"
+        },
+        {
+          "entryName": "DT:WeaknessKnife",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_weakness"
+        },
+        {
+          "entryName": "DT:PoisonKnife",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_poison"
+        },
+        {
+          "entryName": "DT:CausticKnife",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:throwing_knife_caustic"
+        },
+        {
           "entryName": "DT:IronShield",
           "weight": 3,
           "quality": 0,

@@ -63,6 +63,34 @@
           "condition": "minecraft:killed_by_player"
         }
       ]
+    },
+    {
+      "name": "creeper_egg_drops",
+      "entries": [
+        {
+          "entryName": "primitivemobs:mysteryegg3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": -49.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "primitivemobs:mysteryegg3"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
     }
   ]
 }

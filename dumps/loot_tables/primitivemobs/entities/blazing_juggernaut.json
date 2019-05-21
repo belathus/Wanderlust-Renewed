@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "blazing_juggernaut_drops",
+      "name": "powder",
       "entries": [
         {
           "entryName": "minecraft:blaze_powder",
@@ -21,6 +21,7 @@
                 "min": 0.0,
                 "max": 1.0
               },
+              "limit": 10,
               "function": "minecraft:looting_enchant"
             }
           ],
@@ -30,17 +31,23 @@
       "rolls": 1.0
     },
     {
-      "name": "blazing_juggernaut_rare_drops",
+      "name": "rod",
       "entries": [
         {
           "entryName": "minecraft:blaze_rod",
           "weight": 1,
           "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": -1.0,
+                "min": 0.0,
                 "max": 1.0
               },
               "function": "minecraft:set_count"
@@ -50,19 +57,44 @@
                 "min": 0.0,
                 "max": 1.0
               },
+              "limit": 10,
               "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:blaze_rod"
         }
       ],
-      "rolls": 1.0,
-      "conditions": [
+      "rolls": 1.0
+    },
+    {
+      "name": "heart",
+      "entries": [
         {
-          "inverse": false,
-          "condition": "minecraft:killed_by_player"
+          "entryName": "xreliquary:mob_ingredient",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "looting_multiplier": 0.1,
+              "condition": "minecraft:random_chance_with_looting"
+            },
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }
