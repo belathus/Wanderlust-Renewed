@@ -101,13 +101,6 @@ import crafttweaker.item.IItemDefinition;
     }
     
     # Better crafting ratios for decorative blocks
-    recipes.removeByRecipeName("botania:pavement_0");
-    recipes.removeByRecipeName("botania:pavement_1");
-    recipes.removeByRecipeName("botania:pavement_2");
-    recipes.removeByRecipeName("botania:pavement_3");
-    recipes.removeByRecipeName("botania:pavement_4");
-    recipes.removeByRecipeName("botania:pavement_5");
-
     val dyes = [<ore:dyeWhite>, <ore:dyeBlack>, <ore:dyeBlue>, <ore:dyeRed>, <ore:dyeYellow>, <ore:dyeGreen>] as IIngredient[];
     for i, dye in dyes{
       var pavementBlock = <botania:pavement>.definition.makeStack(i);
@@ -122,7 +115,6 @@ import crafttweaker.item.IItemDefinition;
         .create();
     }
 
-    recipes.remove(<botania:custombrick:*>);
     val azulejo = <botania:custombrick>;
     RecipeBuilder.get("mason")
         .setShaped([
@@ -134,7 +126,6 @@ import crafttweaker.item.IItemDefinition;
         .addTool(<ore:toolChisel>, 1)
         .create();
     
-    recipes.remove(<quark:midori_block>);
     RecipeBuilder.get("mason")
       .setShaped([
         [null, <ore:dyeGreen>, null],
