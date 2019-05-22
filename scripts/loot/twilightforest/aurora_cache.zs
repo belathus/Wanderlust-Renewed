@@ -85,15 +85,15 @@ import loottweaker.vanilla.loot.Functions;
   tf_rare.addItemEntry(<ebwizardry:siphon_upgrade>,             4, 0);
   tf_rare.addItemEntry(<ebwizardry:storage_upgrade>,            4, 0);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>,   5, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:power": 5}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:power>.makeEnchantment(5).makeTag())], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>,   5, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:sharpness": 5}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:sharpness>.makeEnchantment(5).makeTag())], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>,   5, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:punch": 2}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:punch>.makeEnchantment(2).makeTag())], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>,   5, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:unbreaking": 3}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:unbreaking>.makeEnchantment(3).makeTag())], []);
   tf_ultrarare.addItemEntryHelper(<minecraft:enchanted_book>,   5, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:infinity": 1}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:infinity>.makeEnchantment(1).makeTag())], []);
   tf_ultrarare.addItemEntry(<ebwizardry:armour_upgrade>,        1, 0);
   tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,      1, 0, [eb_master], []);
 #  tf_ultrarare.addItemEntryHelper(<ebwizardry:spell_book>,      1, 0, [eb_h_advanced], []);

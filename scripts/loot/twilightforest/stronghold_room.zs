@@ -47,15 +47,17 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<ebwizardry:scroll>,                30, 0, [eb_any], []);
 #  tf_common.addItemEntryHelper(<ebwizardry:scroll>,                30, 0, [eb_h_any], []);
 
+#<enchantment:minecraft:fortune>.makeEnchantment(3).makeTag()
+
   val tf_uncommon = tf_stronghold_room.addPool("uncommon", 2, 4, 0, 0);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_helmet>,     300, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:respiration": 2}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:respiration>.makeEnchantment(2).makeTag())], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_chestplate>, 300, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:blast_protection": 2}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:blast_protection>.makeEnchantment(2).makeTag())], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_leggings>,   300, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:fire_protection": 2}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:fire_protection>.makeEnchantment(2).makeTag())], []);
   tf_uncommon.addItemEntryHelper(<twilightforest:steeleaf_boots>,      300, 0,
-    [Functions.parse({"function": "twilightforest:enchant", "enchantments":{"minecraft:feather_falling": 2}} as crafttweaker.data.IData)], []);
+    [Functions.setNBT(<enchantment:minecraft:feather_falling>.makeEnchantment(2).makeTag())], []);
   tf_common.addItemEntryHelper(<twilightforest:charm_of_life_1>,       300, 0, [Functions.setCount(1, 3)], []);
   tf_common.addItemEntryHelper(<twilightforest:steeleaf_ingot>,        300, 0, [Functions.setCount(1, 6)], []);
   tf_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,              180, 0, [eb_novice], []);     # 15 novice spells
