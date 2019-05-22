@@ -2,10 +2,12 @@ mods.MobStages.addStage("DimensionTraveler", "minecraft:zombie");
 mods.MobStages.addStage("DimensionTraveler", "minecraft:skeleton");
 mods.MobStages.addStage("DimensionTraveler", "minecraft:enderman");
 mods.MobStages.addStage("DimensionTraveler", "enderiozoo:lovechild");
+mods.MobStages.addStage("DimensionTraveler", "mekanism:babyskeleton");
 mods.MobStages.toggleSpawner("minecraft:zombie", true);
 mods.MobStages.toggleSpawner("minecraft:skeleton", true);
 mods.MobStages.toggleSpawner("minecraft:enderman", true);
 mods.MobStages.toggleSpawner("enderiozoo:lovechild", true);
+mods.MobStages.toggleSpawner("mekanism:babyskeleton", true);
 
 mods.MobStages.addStage("NetherTraveler", "enderiozoo:withercat");
 mods.MobStages.addStage("NetherTraveler", "enderiozoo:witherwitch");
