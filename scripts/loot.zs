@@ -27,23 +27,7 @@ import loottweaker.vanilla.loot.Functions;
   val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
   val mansion = LootTables.getTable("minecraft:chests/woodland_mansion");
   
-# ==============================
-# =====    Abyssalcraft    =====
-# ==============================
-  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:abyingot>, 3, 0, [Functions.setCount(1,3)], []);
-  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:cingot>, 1, 0, [], []);
-  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:coralium>, 8, 0, [Functions.setCount(1,5)], []);
-  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowfragment>, 8, 0, [Functions.setCount(1,10)], []);
-  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowshard>, 5, 0, [Functions.setCount(1,5)], []);
-  #simple_dungeon_treasure.addItemEntryHelper(<abyssalcraft:shadowgem>, 3, 0, [Functions.setCount(1,3)], []);
-
-# ==============================
-# =====     Evilcraft      =====
-# ==============================
-#  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:origins_of_darkness>, 1, 5, [], []);
-#  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:condensed_blood>, 10, 0, [Functions.setCount(1,5)], []);
-#  simple_dungeon_treasure.addItemEntryHelper(<evilcraft:box_of_eternal_closure>, 10, 0, [], []);
-  
+ 
 # ==============================
 # =====    Ice and Fire    =====
 # ==============================
@@ -52,11 +36,6 @@ import loottweaker.vanilla.loot.Functions;
 #    <plustic:katana>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.0 as float, FreeModifiers: 3, Durability: 1700, HarvestLevel: 4, Attack: 9.5 as float}, PlusTiC_Counter: 0.0 as float, display: {Name: "Timeworn Mikado"}, Stats: {AttackSpeedMultiplier: 1.2 as float, MiningSpeed: 7.0 as float, FreeModifiers: 0, Durability: 1700, HarvestLevel: 4, Attack: 11.28924 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {UsedModifiers: 3, Materials: ["lumium_plustic", "steel", "refinedobsidian", "fiery"], Modifiers: ["fiery", "sharpness", "haste", "extratraitmanyullyncoldblooded"]}, Modifiers: [{identifier: "illuminati", color: -171, level: 1}, {identifier: "glowing", color: -171, level: 1}, {identifier: "sharp", color: -5789785, level: 1}, {identifier: "dense", color: -43521, level: 1}, {identifier: "duritos", color: -43521, level: 1}, {identifier: "superheat", color: -9956606, level: 1}, {identifier: "fiery", current: 25, color: 15375922, level: 1, max: 25, extraInfo: "24 / 25"}, {identifier: "sharpness", current: 72, color: 16774902, level: 1, max: 72, extraInfo: "71 / 72"}, {identifier: "haste", current: 50, color: 9502720, level: 1, max: 50, extraInfo: "49 / 50"}, {identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "extratraitmanyullyncoldblooded", color: -6202120}], Traits: ["illuminati", "glowing", "sharp", "dense", "duritos", "superheat", "fiery", "coldblooded"]}),
 #    1
 #  );
-
-# ==============================
-# =====    Magnum  Opis    =====
-# ==============================
-  
 
 # ==============================
 # ===== Tinker's Construct =====
