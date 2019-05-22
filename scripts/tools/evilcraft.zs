@@ -3,8 +3,8 @@
 # EvilCraft
 
   # Vengeance Pickaxe; this recipe should fix the frequent problems we have with remaping enchantment IDs.
-  recipes.remove(<evilcraft:vengeance_pickaxe>.withTag(<enchantment:minecraft:fortune>.makeEnchantment(3).makeTag() + <enchantment:evilcraft:vengeance>.makeEnchantment(3).makeTag()));
-  recipes.addShaped(<evilcraft:vengeance_pickaxe>,
+  recipes.remove(<evilcraft:vengeance_pickaxe>);
+  recipes.addShaped(<evilcraft:vengeance_pickaxe>.withTag(<enchantment:minecraft:fortune>.makeEnchantment(3).makeTag() + <enchantment:evilcraft:vengeance>.makeEnchantment(3).makeTag()),
     [[<evilcraft:hardened_blood_shard>,<ore:gemDiamond>,<evilcraft:hardened_blood_shard>],
      [<ore:gemDiamond>,<evilcraft:dark_stick>,<ore:gemDiamond>],
      [null,<evilcraft:dark_stick>,null]]);
