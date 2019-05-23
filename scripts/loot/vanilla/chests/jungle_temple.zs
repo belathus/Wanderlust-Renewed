@@ -54,54 +54,72 @@ import loottweaker.vanilla.loot.Functions;
   
   # Uncommon pool. Metal ingots, glowstone, redstone, and various gems go here.
   val jt_uncommon = jt_table.addPool("uncommon", 2, 4, 0, 0);
-  jt_uncommon.addItemEntryHelper(<astralsorcery:itemcraftingcomponent>, 10, 0, [Functions.setCount(1, 2)], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:glowstone_dust>,            10, 0, [Functions.setCount(1, 3)], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:redstone>,                  14, 0, [Functions.setCount(1, 6)], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:dye:4>,                     11, 0, [Functions.setCount(1, 6)], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:diamond>,                    3, 0, [Functions.setCount(1, 3)], []); # Add diamond
-  jt_uncommon.addItemEntryHelper(<minecraft:ender_pearl>,               10, 0, [Functions.setCount(1, 2)], []);
-  jt_uncommon.addItemEntryHelper(<materialpart:tin:ingot>,              10, 0, [Functions.setCount(1, 3)], []); # Add tin ingot
-  jt_uncommon.addItemEntryHelper(<materialpart:zinc:ingot>,             10, 0, [Functions.setCount(1, 3)], []); # Add zinc ingot
-  jt_uncommon.addItemEntryHelper(<minecraft:gold_ingot>,                15, 0, [Functions.setCount(2, 7)], []); # Add gold ingot
-  jt_uncommon.addItemEntryHelper(<minecraft:emerald>,                    3, 0, [Functions.setCount(1, 3)], []); # Add emerald
-  jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:0>,        15, 0, [Functions.setCount(1, 4)], []); # Add copper ingot
-  jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:1>,         5, 0, [Functions.setCount(1, 3)], []); # Add aluminum ingot
-  jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:2>,         6, 0, [Functions.setCount(1, 3)], []); # Add lead ingot
-  jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:3>,         7, 0, [Functions.setCount(1, 2)], []); # Add silver ingot
-  jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:4>,         3, 0, [Functions.setCount(2, 6)], []); # Add nickel ingot
-  jt_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,               10, 0, [eb_novice], []);
-  jt_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                4, 0, [eb_apprentice], []);
-  jt_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_advanced], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:saddle>,                     6, 0, [], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:iron_horse_armor>,           3, 0, [], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:golden_horse_armor>,         2, 0, [], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:diamond_horse_armor>,        1, 0, [], []);
-  jt_uncommon.addItemEntryHelper(<minecraft:book>,                       1, 0, [Functions.enchantWithLevels(30, 30, true)], []);
-  jt_uncommon.addItemEntryHelper(<quark:rune>,                          15, 0, [Functions.setMetadata(0, 15)], []);
-  jt_uncommon.addItemEntryHelper(<astralsorcery:constellationpaper>,    10, 0, [], []);
-  jt_uncommon.addItemEntryHelper(<cyberware:neuropozyne>,               15, 0, [Functions.setCount(16, 64)], []);
+    jt_uncommon.addItemEntryHelper(<astralsorcery:itemcraftingcomponent>, 10, 0, [Functions.setCount(1, 2)], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:glowstone_dust>,            10, 0, [Functions.setCount(1, 3)], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:redstone>,                  14, 0, [Functions.setCount(1, 6)], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:dye:4>,                     11, 0, [Functions.setCount(1, 6)], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:diamond>,                    3, 0, [Functions.setCount(1, 3)], []); # Add diamond
+    jt_uncommon.addItemEntryHelper(<minecraft:ender_pearl>,               10, 0, [Functions.setCount(1, 2)], []);
+    jt_uncommon.addItemEntryHelper(<materialpart:tin:ingot>,              10, 0, [Functions.setCount(1, 3)], []); # Add tin ingot
+    jt_uncommon.addItemEntryHelper(<materialpart:zinc:ingot>,             10, 0, [Functions.setCount(1, 3)], []); # Add zinc ingot
+    jt_uncommon.addItemEntryHelper(<minecraft:gold_ingot>,                15, 0, [Functions.setCount(2, 7)], []); # Add gold ingot
+    jt_uncommon.addItemEntryHelper(<minecraft:emerald>,                    3, 0, [Functions.setCount(1, 3)], []); # Add emerald
+    jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:0>,        15, 0, [Functions.setCount(1, 4)], []); # Add copper ingot
+    jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:1>,         5, 0, [Functions.setCount(1, 3)], []); # Add aluminum ingot
+    jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:2>,         6, 0, [Functions.setCount(1, 3)], []); # Add lead ingot
+    jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:3>,         7, 0, [Functions.setCount(1, 2)], []); # Add silver ingot
+    jt_uncommon.addItemEntryHelper(<immersiveengineering:metal:4>,         3, 0, [Functions.setCount(2, 6)], []); # Add nickel ingot
+    jt_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,               10, 0, [eb_novice], []);
+    jt_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                4, 0, [eb_apprentice], []);
+    jt_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                1, 0, [eb_advanced], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:saddle>,                     6, 0, [], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:iron_horse_armor>,           3, 0, [], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:golden_horse_armor>,         2, 0, [], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:diamond_horse_armor>,        1, 0, [], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:book>,                       1, 0, [Functions.enchantWithLevels(30, 30, true)], []);
+    jt_uncommon.addItemEntryHelper(<quark:rune>,                          15, 0, [Functions.setMetadata(0, 15)], []);
+    jt_uncommon.addItemEntryHelper(<astralsorcery:constellationpaper>,    10, 0, [], []);
+    jt_uncommon.addItemEntryHelper(<cyberware:neuropozyne>,               15, 0, [Functions.setCount(16, 64)], []);
   # Jungle Temples have a chance to get alloys
-  jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot>,             5, 0, [Functions.setCount(1, 3)], []); # electrical steel
-  jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:1>,           3, 0, [Functions.setCount(1, 3)], []); # energetic alloy
-  jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:2>,           1, 0, [Functions.setCount(1, 3)], []); # vibrant alloy
-  jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:3>,           7, 0, [Functions.setCount(1, 3)], []); # redstone alloy
-  jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:4>,           5, 0, [Functions.setCount(1, 3)], []); # conductive iron
-  jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:5>,           3, 0, [Functions.setCount(1, 3)], []); # pulsating iron
+    jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot>,             5, 0, [Functions.setCount(1, 3)], []); # electrical steel
+    jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:1>,           3, 0, [Functions.setCount(1, 3)], []); # energetic alloy
+    jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:2>,           1, 0, [Functions.setCount(1, 3)], []); # vibrant alloy
+    jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:3>,           7, 0, [Functions.setCount(1, 3)], []); # redstone alloy
+    jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:4>,           5, 0, [Functions.setCount(1, 3)], []); # conductive iron
+    jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:5>,           3, 0, [Functions.setCount(1, 3)], []); # pulsating iron
+    jt_uncommon.addItemEntryHelper(<astralsorcery:blockmarble:0>,            15, 0, [Functions.setCount(32, 64), Functions.setMetadata(0, 6)], []);
+    jt_uncommon.addItemEntryHelper(<minecraft:obsidian>,                      5, 0, [Functions.setCount(3, 7)], []);
   
   # Rare pool. You only get one of these per chest.
   val jt_rare = jt_table.addPool("rare", 1, 1, 0, 0);
-  jt_rare.addItemEntryHelper(<astralsorcery:blockmarble:0>,             15, 0, [Functions.setCount(32, 64), Functions.setMetadata(0, 6)], []);
-  jt_rare.addItemEntryHelper(<minecraft:obsidian>,                       5, 0, [Functions.setCount(3, 7)], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:condenser_upgrade>,             2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:siphon_upgrade>,                2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:storage_upgrade>,               2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:range_upgrade>,                 2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:duration_upgrade>,              2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:cooldown_upgrade>,              2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:blast_upgrade>,                 2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:attunement_upgrade>,            2, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:arcane_tome:1>,                 3, 0, [], []);
-  jt_rare.addItemEntryHelper(<ebwizardry:arcane_tome:2>,                 1, 0, [], []);
+  # Electroblob's Wizardry upgrades
+    jt_rare.addItemEntry(<ebwizardry:armour_upgrade>,                      1, 0);
+    jt_rare.addItemEntry(<ebwizardry:attunement_upgrade>,                  2, 0);
+    jt_rare.addItemEntry(<ebwizardry:blast_upgrade>,                       2, 0);
+    jt_rare.addItemEntry(<ebwizardry:condenser_upgrade>,                   2, 0);
+    jt_rare.addItemEntry(<ebwizardry:cooldown_upgrade>,                    2, 0);
+    jt_rare.addItemEntry(<ebwizardry:duration_upgrade>,                    2, 0);
+    jt_rare.addItemEntry(<ebwizardry:range_upgrade>,                       2, 0);
+    jt_rare.addItemEntry(<ebwizardry:siphon_upgrade>,                      2, 0);
+    jt_rare.addItemEntry(<ebwizardry:storage_upgrade>,                     2, 0);
+    jt_rare.addItemEntry(<ebwizardry:arcane_tome:1>,                       3, 0);
+    jt_rare.addItemEntry(<ebwizardry:arcane_tome:2>,                       1, 0);
+  # Misc useful tools
+    jt_rare.addItemEntry(<minecraft:bucket>,                               1, 0);
+    jt_rare.addItemEntry(<astralsorcery:itemwand>,                         1, 0);
+    jt_rare.addItemEntry(<botania:sextant>,                                2, 0);
+    jt_rare.addItemEntry(<chisel:chisel_iron>,                             3, 0);
+    jt_rare.addItemEntry(<chisel:chisel_diamond>,                          2, 0);
+    jt_rare.addItemEntry(<chisel:chisel_hitech>,                           1, 0);
+    jt_rare.addItemEntry(<enderio:item_yeta_wrench>,                       3, 0);
+    jt_rare.addItemEntry(<enderio:item_conduit_probe>,                     1, 0);
+    jt_rare.addItemEntry(<evilcraft:blood_extractor>,                      2, 0);
+    jt_rare.addItemEntry(<evilcraft:veined_scribing_tools>,                1, 0);
+    jt_rare.addItemEntry(<naturescompass:naturescompass>,                  3, 0);
+    jt_rare.addItemEntry(<randomthings:enderbucket>,                       1, 0);
+    jt_rare.addItemEntry(<randomthings:reinforcedenderbucket>,             1, 0);
+    jt_rare.addItemEntry(<randomthings:waterwalkingboots>,                 1, 0);
+    jt_rare.addItemEntry(<thaumcraft:scribing_tools>,                      2, 0);
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item 
   # per chest. These are mostly tools.
@@ -126,13 +144,8 @@ import loottweaker.vanilla.loot.Functions;
   jt_ultrarare.addItemEntryHelper(<appliedenergistics2:nether_quartz_pickaxe>,       320, 0, [tool_dam, tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_copper>,       240, 0, [tool_dam, tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_iron>,         160, 0, [tool_dam, tool_ench], []);
-  jt_ultrarare.addItemEntry(<minecraft:bucket>,                                      700, 0);
-  jt_ultrarare.addItemEntry(<randomthings:enderbucket>,                               80, 0);
-  jt_ultrarare.addItemEntry(<randomthings:reinforcedenderbucket>,                     40, 0);
   jt_ultrarare.addItemEntry(<minecraft:flint_and_steel>,                             700, 0);
   jt_ultrarare.addItemEntry(<minecraft:fishing_rod>,                                 700, 0);
-  jt_ultrarare.addItemEntry(<enderio:item_yeta_wrench>,                              300, 0);
-  jt_ultrarare.addItemEntry(<enderio:item_conduit_probe>,                            200, 0);
   
   # Electroblob's Wizardry
   jt_ultrarare.addItemEntry(<ebwizardry:magic_wand>,                                 400, 0);
