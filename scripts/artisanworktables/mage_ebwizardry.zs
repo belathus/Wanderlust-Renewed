@@ -1,4 +1,4 @@
-#modloaded artisanworktables
+#modloaded artisanworktables ebwizardry
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
@@ -16,8 +16,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .create();
 
   # Weighted primary output; should list all novice spells
-  val build_novice = RecipeBuilder.get("mage")
-    .setShaped(
+  val build_novice = RecipeBuilder.get("mage");
+  build_novice.setShaped(
       [[<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>],
        [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
        [<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>]])
@@ -25,14 +25,14 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .setExperienceRequired(20);
      
   # Weighted primary output; should list all apprentice spells
-  val build_apprentice = RecipeBuilder.get("mage")
-    .setShapeless([<ebwizardry:crystal_block>,<ebwizardry:crystal_block>,<minecraft:book>])
+  val build_apprentice = RecipeBuilder.get("mage");
+  build_apprentice.setShapeless([<ebwizardry:crystal_block>,<ebwizardry:crystal_block>,<minecraft:book>])
     .addTool(<ore:artisansQuill>, 1)
     .setExperienceRequired(80);
     
   # Weighted primary output; should list all advanced spells
-  val build_advanced = RecipeBuilder.get("mage")
-    .setShaped(
+  val build_advanced = RecipeBuilder.get("mage");
+  build_advanced.setShaped(
       [[null, <ebwizardry:crystal_block>, null],
        [<ebwizardry:crystal_block>,<minecraft:book>,<ebwizardry:crystal_block>],
        [null, <ebwizardry:crystal_block>, null]])
@@ -40,8 +40,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .setExperienceRequired(320);
 
   # Weighted primary output; should list all master spells
-  val build_master = RecipeBuilder.get("mage")
-    .setShaped(
+  val build_master = RecipeBuilder.get("mage");
+  build_master.setShaped(
       [[<ebwizardry:crystal_block>, <ebwizardry:crystal_block>, <ebwizardry:crystal_block>],
        [<ebwizardry:crystal_block>, <minecraft:book>,           <ebwizardry:crystal_block>],
        [<ebwizardry:crystal_block>, <ebwizardry:crystal_block>, <ebwizardry:crystal_block>]])
