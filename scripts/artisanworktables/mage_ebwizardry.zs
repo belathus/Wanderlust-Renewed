@@ -6,48 +6,6 @@ import mods.artisanworktables.builder.RecipeBuilder;
 # ====   Mage's  Table: EBWizardry   ====
 # =======================================
 
-  # Craft spellbooks in Artisan Worktable
-  RecipeBuilder.get("mage")
-    .setShaped(
-      [[null, <ebwizardry:magic_crystal>, null],
-       [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
-       [null, <ebwizardry:magic_crystal>, null]])
-    .addOutput(<ebwizardry:spell_book:1>)
-    .create();
-
-  # Weighted primary output; should list all novice spells
-  val build_novice = RecipeBuilder.get("mage");
-  build_novice.setShaped(
-      [[<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>],
-       [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
-       [<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>]])
-    .addTool(<ore:artisansQuill>, 1)
-    .setExperienceRequired(20);
-     
-  # Weighted primary output; should list all apprentice spells
-  val build_apprentice = RecipeBuilder.get("mage");
-  build_apprentice.setShapeless([<ebwizardry:crystal_block>,<ebwizardry:crystal_block>,<minecraft:book>])
-    .addTool(<ore:artisansQuill>, 1)
-    .setExperienceRequired(80);
-    
-  # Weighted primary output; should list all advanced spells
-  val build_advanced = RecipeBuilder.get("mage");
-  build_advanced.setShaped(
-      [[null, <ebwizardry:crystal_block>, null],
-       [<ebwizardry:crystal_block>,<minecraft:book>,<ebwizardry:crystal_block>],
-       [null, <ebwizardry:crystal_block>, null]])
-    .addTool(<ore:artisansQuill>, 1)
-    .setExperienceRequired(320);
-
-  # Weighted primary output; should list all master spells
-  val build_master = RecipeBuilder.get("mage");
-  build_master.setShaped(
-      [[<ebwizardry:crystal_block>, <ebwizardry:crystal_block>, <ebwizardry:crystal_block>],
-       [<ebwizardry:crystal_block>, <minecraft:book>,           <ebwizardry:crystal_block>],
-       [<ebwizardry:crystal_block>, <ebwizardry:crystal_block>, <ebwizardry:crystal_block>]])
-    .addTool(<ore:artisansQuill>, 1)
-    .setExperienceRequired(1280);
-
   val noviceSpellbooks = [
     <ebwizardry:spell_book:2>,
     <ebwizardry:spell_book:3>,
@@ -63,7 +21,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:111>,
     <ebwizardry:spell_book:112>,
     <ebwizardry:spell_book:113>
-  ] as crafttweaker.data.IItemStack[];
+  ] as crafttweaker.item.IItemStack[];
 
   val apprenticeSpellbooks = [
     <ebwizardry:spell_book:13>,
@@ -111,7 +69,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:121>,
     <ebwizardry:spell_book:122>,
     <ebwizardry:spell_book:123>
-  ] as crafttweaker.data.IItemStack[];
+  ] as crafttweaker.item.IItemStack[];
 
   val advancedSpellbooks = [
     <ebwizardry:spell_book:48>,
@@ -169,7 +127,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:133>,
     <ebwizardry:spell_book:134>,
     <ebwizardry:spell_book:135>
-  ] as crafttweaker.data.IItemStack[];
+  ] as crafttweaker.item.IItemStack[];
 
   val masterSpellbooks = [
     <ebwizardry:spell_book:91>,
@@ -196,7 +154,65 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:138>,
     <ebwizardry:spell_book:139>,
     <ebwizardry:spell_book:140>
-  ] as crafttweaker.data.IItemStack[];
+  ] as crafttweaker.item.IItemStack[];
+
+  # Craft spellbooks in Artisan Worktable
+  RecipeBuilder.get("mage")
+    .setShaped(
+      [[null, <ebwizardry:magic_crystal>, null],
+       [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
+       [null, <ebwizardry:magic_crystal>, null]])
+    .addOutput(<ebwizardry:spell_book:1>)
+    .create();
+
+  # Weighted primary output; should list all novice spells
+  val build_novice = RecipeBuilder.get("mage");
+  build_novice.setShaped(
+      [[<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>],
+       [<ebwizardry:magic_crystal>, <minecraft:book>, <ebwizardry:magic_crystal>],
+       [<ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>]])
+    .addTool(<ore:artisansQuill>, 1)
+    .setExperienceRequired(20);
+  for book in noviceSpellbooks{
+    build_novice.addOutput(book);
+  }
+  build_novice.create();
+
+  # Weighted primary output; should list all apprentice spells
+  val build_apprentice = RecipeBuilder.get("mage");
+  build_apprentice.setShapeless([<ebwizardry:crystal_block>,<ebwizardry:crystal_block>,<minecraft:book>])
+    .addTool(<ore:artisansQuill>, 1)
+    .setExperienceRequired(80);
+  for book in apprenticeSpellbooks{
+    build_apprentice.addOutput(book);
+  }
+  build_apprentice.create();
+    
+  # Weighted primary output; should list all advanced spells
+  val build_advanced = RecipeBuilder.get("mage");
+  build_advanced.setShaped(
+      [[null, <ebwizardry:crystal_block>, null],
+       [<ebwizardry:crystal_block>,<minecraft:book>,<ebwizardry:crystal_block>],
+       [null, <ebwizardry:crystal_block>, null]])
+    .addTool(<ore:artisansQuill>, 1)
+    .setExperienceRequired(320);
+  for book in advancedSpellbooks{
+    build_advanced.addOutput(book);
+  }
+  build_advanced.create();
+
+  # Weighted primary output; should list all master spells
+  val build_master = RecipeBuilder.get("mage");
+  build_master.setShaped(
+      [[<ebwizardry:crystal_block>, <ebwizardry:crystal_block>, <ebwizardry:crystal_block>],
+       [<ebwizardry:crystal_block>, <minecraft:book>,           <ebwizardry:crystal_block>],
+       [<ebwizardry:crystal_block>, <ebwizardry:crystal_block>, <ebwizardry:crystal_block>]])
+    .addTool(<ore:artisansQuill>, 1)
+    .setExperienceRequired(1280);
+  for book in masterSpellbooks{
+    build_master.addOutput(book);
+  }
+  build_master.create();
 
   # Copying Spellbooks 
   for book in noviceSpellbooks{
@@ -207,9 +223,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
       .addOutput(book)
       .addTool(<ore:artisansQuill>, 1)
       .create();
-    build_novice.addOutput(book);
   }
-  build_novice.create();
   
   for book in apprenticeSpellbooks{
     RecipeBuilder.get("mage")
@@ -219,9 +233,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
       .addOutput(book)
       .addTool(<ore:artisansQuill>, 1)
       .create();
-    build_apprentice.addOutput(book);
   }
-  build_apprentice.create();
 
   for book in advancedSpellbooks{
   RecipeBuilder.get("mage")
@@ -231,9 +243,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .addOutput(book)
     .addTool(<ore:artisansQuill>, 1)
     .create();
-    build_advanced.addOutput(book);
   }
-  build_advanced.create();
 
   for book in masterSpellbooks{
   RecipeBuilder.get("mage")
@@ -243,6 +253,4 @@ import mods.artisanworktables.builder.RecipeBuilder;
     .addOutput(book)
     .addTool(<ore:artisansQuill>, 1)
     .create();
-    build_master.addOutput(book);
   }
-  build_master.create();
