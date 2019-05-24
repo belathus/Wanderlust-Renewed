@@ -45,7 +45,7 @@ import loottweaker.vanilla.loot.Functions;
   jt_common.addItemEntryHelper(<ebwizardry:identification_scroll>,      30, 0, [Functions.setCount(1, 4)], []);
   jt_common.addItemEntryHelper(<waystones:return_scroll>,                8, 0, [Functions.setCount(1, 3)], []);
   jt_common.addItemEntryHelper(<waystones:warp_scroll>,                  4, 0, [Functions.setCount(1, 2)], []);
-  jt_common.addItemEntryHelper(<quark:treasure_map>,                     1, 0, [Functions.parse({"function": "quark:set_treasure"} as crafttweaker.data.IData)], []);
+  jt_common.addItemEntryHelper(<minecraft:filled_map>,                     1, 0, [Functions.parse({"function": "quark:set_treasure"} as crafttweaker.data.IData)], []);
   jt_common.addItemEntryHelper(<libvulpes:battery>,                     30, 0, [Functions.setCount(3, 8)], []);
   # Unique to Jungle Temples
   jt_common.addItemEntryHelper(<minecraft:bone>,                        20, 0, [Functions.setCount(4, 5)], []);
@@ -78,7 +78,7 @@ import loottweaker.vanilla.loot.Functions;
     jt_uncommon.addItemEntryHelper(<minecraft:diamond_horse_armor>,        1, 0, [], []);
     jt_uncommon.addItemEntryHelper(<minecraft:book>,                       1, 0, [Functions.enchantWithLevels(30, 30, true)], []);
     jt_uncommon.addItemEntryHelper(<quark:rune>,                          15, 0, [Functions.setMetadata(0, 15)], []);
-    jt_uncommon.addItemEntryHelper(<astralsorcery:constellationpaper>,    10, 0, [], []);
+    jt_uncommon.addItemEntryHelper(<astralsorcery:itemconstellationpaper>,    10, 0, [], []);
     jt_uncommon.addItemEntryHelper(<cyberware:neuropozyne>,               15, 0, [Functions.setCount(16, 64)], []);
   # Jungle Temples have a chance to get alloys
     jt_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot>,             5, 0, [Functions.setCount(1, 3)], []); # electrical steel

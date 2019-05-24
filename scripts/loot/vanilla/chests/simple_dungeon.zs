@@ -164,7 +164,7 @@ import loottweaker.vanilla.loot.Functions;
     dungeon_mundane.addItemEntryHelper(<dungeontactics:heart_jar>, 3, 0, [Functions.setCount(2, 4)], []);
 
   val dungeon_upgrade = dungeon.addPool("upgrade", 1, 1, 0, 0);
-  jt_ultrarare.addConditionsHelper([Conditions.randomChance(0.25)]);
+  dungeon_upgrade.addConditionsHelper([Conditions.randomChance(0.25)]);
     dungeon_upgrade.addItemEntry(<ebwizardry:armour_upgrade>,     10, 0);
     dungeon_upgrade.addItemEntry(<ebwizardry:attunement_upgrade>, 10, 0);
     dungeon_upgrade.addItemEntry(<ebwizardry:blast_upgrade>,      10, 0);
