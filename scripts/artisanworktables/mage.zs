@@ -372,7 +372,7 @@ import crafttweaker.item.IItemStack;
 
   for book in apprenticeSpellbooks{
     RecipeBuilder.get("mage")
-      .setShapeless([<minecraft:book>, <ebwizardry:magic_crystal> * 2])
+      .setShapeless([<minecraft:book>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>])
       .setSecondaryIngredients([book])
       .setConsumeSecondaryIngredients(false)
       .addOutput(book)
@@ -382,7 +382,7 @@ import crafttweaker.item.IItemStack;
    
   for book in advancedSpellbooks{
   RecipeBuilder.get("mage")
-    .setShapeless([<minecraft:book>, <ebwizardry:magic_crystal> * 3])
+    .setShapeless([<minecraft:book>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>])
     .setSecondaryIngredients([book])
     .setConsumeSecondaryIngredients(false)
     .addOutput(book)
@@ -392,7 +392,7 @@ import crafttweaker.item.IItemStack;
 
   for book in masterSpellbooks{
   RecipeBuilder.get("mage")
-    .setShapeless([<minecraft:book>, <ebwizardry:magic_crystal> * 4])
+    .setShapeless([<minecraft:book>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>, <ebwizardry:magic_crystal>])
     .setSecondaryIngredients([book])
     .setConsumeSecondaryIngredients(false)
     .addOutput(book)
