@@ -9,6 +9,7 @@
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_boots>);
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:iron_helmet>);
     mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:anvil>);
+    mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:bucket>);
     #mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <railcraft:ore:5>);
 
 # Cyberware 
