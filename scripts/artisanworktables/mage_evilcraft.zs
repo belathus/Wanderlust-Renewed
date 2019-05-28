@@ -1,13 +1,21 @@
-#norun
 #modloaded evilcraft artisanworktables
 import mods.artisanworktables.builder.RecipeBuilder;
 
   # Evilcraft Dark Tank
+  # Maybe someday I'll create dark gem nuggets or something.
   RecipeBuilder.get("mage")
     .setShaped(
-        [[null,<ore:nuggetBrass>,null],
+        [[<evilcraft:hardened_blood_shard>,<ore:nuggetBrass>,<evilcraft:hardened_blood_shard>],
          [<ore:nuggetBrass>,<ore:blockGlass>,<ore:nuggetBrass>],
-         [null,<ore:nuggetBrass>,null]])
+         [<evilcraft:hardened_blood_shard>,<ore:nuggetBrass>,<evilcraft:hardened_blood_shard>]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 1000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
+        [[<ore:nuggetBrass>,<evilcraft:hardened_blood_shard>,<ore:nuggetBrass>],
+         [<evilcraft:hardened_blood_shard>,<ore:blockGlass>,<evilcraft:hardened_blood_shard>],
+         [<ore:nuggetBrass>,<evilcraft:hardened_blood_shard>,<ore:nuggetBrass>]])
     .addOutput(<evilcraft:dark_tank>.withTag({capacity: 1000}))
     .create();
 
