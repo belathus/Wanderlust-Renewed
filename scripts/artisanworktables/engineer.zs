@@ -46,8 +46,8 @@ import mods.artisanworktables.builder.Copy;
 							 <dungeontactics:trap_fire>,
 							 <dungeontactics:trap_foul>,
 							 <dungeontactics:trap_port>,
-							 <dungeontactics:trap_slime>,
-							 <dungeontactics:trap_slime>,
+							 <dungeontactics:trap_clamp>,
+							 <dungeontactics:trap_clamp>,
 							 <dungeontactics:trap_spectral>]))
 	 .addTool(<ore:toolWrench>, 5)
 	 .setMinimumTier(1)
