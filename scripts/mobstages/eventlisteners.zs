@@ -40,7 +40,7 @@ events.onPlayerPickupItem(function(event as PlayerPickupItemEvent){
         event.player.addGameStage("stoneage");
         event.player.sendChat("You have entered the stone age. Filch Lizards will now spawn.");
     }
-    if(event.item.item.matches(<thamcraft:salis_mundis>) && !event.player.hasGameStage("thaumicage")){
+    if(event.item.item.matches(<thaumcraft:salis_mundus>) && !event.player.hasGameStage("thaumicage")){
         event.player.addGameStage("thaumicage");
         event.player.sendChat("You have entered an age of Thaumaturgy. Wisps will now spawn.");
     }
