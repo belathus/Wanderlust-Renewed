@@ -102,6 +102,14 @@
   mods.MobStages.addStage("silverage", "thaumcraft:brainyzombie");
   mods.MobStages.toggleSpawner("thaumcraft:brainyzombie", true);
 
+# Crimson Portal
+  mods.MobStages.addStage("thaumicage", "thaumcraft:cultistportallesser");
+  mods.MobStages.toggleSpawner("thaumcraft:cultistportallesser", true);
+
+# Pech
+  mods.MobStages.addStage("thaumicage", "thaumcraft:pech");
+  mods.MobStages.toggleSpawner("thaumcraft:pech", true);
+
 # Wisp
   mods.MobStages.addStage("thaumicage", "thaumcraft:wisp");
   mods.MobStages.toggleSpawner("thaumcraft:wisp", true);
