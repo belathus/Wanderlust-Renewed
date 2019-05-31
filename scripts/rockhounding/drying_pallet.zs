@@ -21,7 +21,11 @@ static drying_recipes as crafttweaker.item.IItemStack[][] = [
   [<minecraft:clay_ball>, <tconstruct:materials:2>],
   [<minecraft:clay>, <tconstruct:dried_clay>],
   [<minecraft:sponge:1>, <minecraft:sponge>],
-  [<biomesoplenty:mudball>,<biomesoplenty:mud_brick>]
+  [<biomesoplenty:mudball>,<biomesoplenty:mud_brick>],
+  [<minecraft:fish>, <tconstruct:edible:20>],
+  [<minecraft:fish:1>, <tconstruct:edible:21>],
+  [<minecraft:fish:2>, <tconstruct:edible:22>],
+  [<minecraft:fish:3>, <tconstruct:edible:23>]
 ];
 
 val drying_names = [
@@ -40,7 +44,11 @@ val drying_names = [
   "dry_clay_ball",
   "dry_clay_block",
   "dry_sponge",
-  "dry_mudbrick"
+  "dry_mudbrick",
+  "dry_fish",
+  "dry_salmon",
+  "dry_clownfish",
+  "dry_pufferfish"
 ] as string[];
 
 # Drying time for items, in seconds
@@ -60,6 +68,10 @@ val drying_times = [
   20,
   58,
   20,
+  48,
+  48,
+  48,
+  48,
   48
 ] as int[];
 
