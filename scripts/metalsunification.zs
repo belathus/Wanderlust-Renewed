@@ -144,16 +144,6 @@ function unifyalloy(list as crafttweaker.item.IItemStack[][], oredict as crafttw
   ] as crafttweaker.item.IItemStack[][];
   var mithril_oredict = [<ore:nuggetMithril>,<ore:ingotMithril>,<ore:blockMithril>,<ore:plateMithril>,<ore:gearMithril>,<ore:oreMithril>,<ore:dustMithril>] as crafttweaker.item.IIngredient[];
   unify(list_mithril, mithril_oredict);
-    
-# Nickel
-    var list_nickel = [
-        # Nugget [0]           Ingot [1]             Block [2]            Plate [3]             Gear [4]               Ore [5]              Dust [6]
-        [ieMat.withDamage(24), ieMat.withDamage(4),  ieSto.withDamage(4), ieMat.withDamage(34), <materialpart:nickel:gear>, ieOre.withDamage(4), ieMat.withDamage(13)]
-        #[nope,                nope,                 nope,                nope,                 nope,                  nope,                <rockhounding_chemistry:chemicalDusts:26>],
-        #[teMat.withDamage(197),teMat.withDamage(133),teSto.withDamage(5), teMat.withDamage(325),teMat.withDamage(261), teOre.withDamage(5), teMat.withDamage(69)]
-    ] as crafttweaker.item.IItemStack[][];
-    var nickel_oredict = [<ore:nuggetNickel>,<ore:ingotNickel>,<ore:blockNickel>,<ore:plateNickel>,<ore:gearNickel>,<ore:oreNickel>,<ore:dustNickel>] as crafttweaker.item.IIngredient[];
-    unify(list_nickel, nickel_oredict);
 
 # Platinum
     val list_platinum = [
