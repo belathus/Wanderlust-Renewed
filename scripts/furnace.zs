@@ -15,9 +15,6 @@
 # Biomes O' Plenty
     furnace.addRecipe(<biomesoplenty:mud_brick>, <ore:clumpMud>);
 
-# Dungeon Tactics
-    furnace.remove(<dungeontactics:steel_ingot>);
-
 # Extra Utilities
     #furnace.addRecipe(<extrautils2:decorativeglass>, <extrautils2:compressedsand>, 0.9);
 
