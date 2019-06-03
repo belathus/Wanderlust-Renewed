@@ -196,9 +196,9 @@
         # Planks
         recipes.addShapeless(plank * 2, [log]);
         recipes.addShaped(plank * 3,
-            [[<artisanworktables:artisans_handsaw_flint>], [log]]);
+            [[<artisanworktables:artisans_handsaw_flint>.transformDamage()], [log]]);
         recipes.addShaped(plank * 4, 
-            [[<ore:toolHandsaw>],[log]]);
+            [[<ore:toolHandsaw>.transformDamage()],[log]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([log])
             .addOutput(plank * 4)
@@ -213,9 +213,9 @@
             .create();
         # slabs
         recipes.addShaped(slab * 2, 
-            [[<ore:toolHandsaw>],    [plank]]);
+            [[<ore:toolHandsaw>.transformDamage()],    [plank]]);
         recipes.addShaped(slab * 2,
-            [[<ore:artisansHandsaw>], [log]]);
+            [[<ore:artisansHandsaw>.transformDamage()], [log]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([plank])
             .addOutput(slab * 2)
@@ -247,9 +247,9 @@
         recipes.remove(plank);
         recipes.addShapeless(plank * 2, [log]);
         recipes.addShaped(plank * 3,
-            [[<artisanworktables:artisans_handsaw_flint>], [log]]);
+            [[<artisanworktables:artisans_handsaw_flint>.transformDamage()], [log]]);
         recipes.addShaped(plank * 4,
-            [[<ore:artisansHandsaw>], [log]]);
+            [[<ore:artisansHandsaw>.transformDamage()], [log]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([log])
             .addOutput(plank * 4)
