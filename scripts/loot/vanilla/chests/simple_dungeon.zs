@@ -73,6 +73,13 @@ import loottweaker.vanilla.loot.Functions;
   dungeon_treasure.addItemEntry(<forestry:broken_bronze_shovel>,      40, 0);
   dungeon_treasure.addItemEntry(<forestry:kit_pickaxe>,               10, 0);
   dungeon_treasure.addItemEntry(<forestry:kit_shovel>,                20, 0);
+  dungeon_treasure.addItemEntry(<randomthings:spectrecoil_number>,     5, 0);
+  dungeon_treasure.addItemEntry(<randomthings:timeinabottle>,          5, 0);
+  dungeon_treasure.addItemEntry(<randomthings:weatheregg>,             5, 0);
+  dungeon_treasure.addItemEntry(<randomthings:weatheregg:1>,           5, 0);
+  dungeon_treasure.addItemEntry(<randomthings:weatheregg:2>,           5, 0);
+  dungeon_treasure.addItemEntry(<randomthings:magichood>,              5, 0);
+  dungeon_treasure.addItemEntry(<randomthings:escaperope>,             5, 0);  
 
   # Add 1 "tool"
   val dungeon_tool = dungeon.addPool("tool", 1, 1, 0, 0);
@@ -162,6 +169,7 @@ import loottweaker.vanilla.loot.Functions;
     dungeon_mundane.addItemEntry(<dungeontactics:ducttape>,        3, 0);
     dungeon_mundane.addItemEntry(<dungeontactics:magic_tether>,    3, 0);
     dungeon_mundane.addItemEntryHelper(<dungeontactics:heart_jar>, 3, 0, [Functions.setCount(2, 4)], []);
+    dungeon_mundane.addItemEntryHelper(<randomthings:beans>,       8, 0, [Functions.setCount(3, 8)], []);
 
   val dungeon_upgrade = dungeon.addPool("upgrade", 1, 1, 0, 0);
   dungeon_upgrade.addConditionsHelper([Conditions.randomChance(0.25)]);
@@ -179,8 +187,8 @@ import loottweaker.vanilla.loot.Functions;
     dungeon_upgrade.addItemEntry(<ebwizardry:arcane_tome:3>,       1, 0);
 
   # Add a chance to get various materials.
-  dungeon.addPool("lava_charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>, 1, 0, [], [Conditions.randomChance(0.05)]);
-  dungeon.addPool("water_walking", 1, 1, 0, 0).addItemEntryHelper(<randomthings:waterwalkingboots>, 1, 0, [], [Conditions.randomChance(0.05)]);
+  dungeon.addPool("lava_charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>, 1, 0, [], [Conditions.randomChance(0.01)]);
+  dungeon.addPool("water_walking", 1, 1, 0, 0).addItemEntryHelper(<randomthings:waterwalkingboots>, 1, 0, [], [Conditions.randomChance(0.01)]);
   dungeon.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>, 1, 0, [], [Conditions.randomChance(0.05)]);
   dungeon.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
   dungeon.addPool("capacitor", 1, 3, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
