@@ -93,7 +93,16 @@
 							]
 						},
 						{"data":{"name":"metalchests:metal_chest", "meta":5}},
-						{"data":{"name":"metalchests:chest_upgrade", "meta":18}}
+						{"data":{"name":"metalchests:chest_upgrade", "meta":18}},
+						{
+							"data":[
+								{"data" : {"name" : "botania:rune", "meta" : 4}},
+								{"data" : {"name" : "botania:rune", "meta" : 5}},
+								{"data" : {"name" : "botania:rune", "meta" : 6}},
+								{"data" : {"name" : "botania:rune", "meta" : 7}}
+							]
+						},
+						{"data":{"name":"astralsorcery:itemcraftingcomponent", "min":1, "max":5}}
 					],
 					"weight" : 5
 				},
@@ -104,7 +113,24 @@
 						{"data" : {"name" : "contenttweaker:material_part", "meta" : 45, "min": 2, "max" : 3}},
 						{"data":{"name":"randomthings:beans"}},
 						{"data":{"name":"xreliquary:fortune_coin"}},
-						{"data":{"name":"enderio:block_concussion_charge"}}
+						{"data":{"name":"enderio:block_concussion_charge"}},
+						{"data":[
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 4, id: 2}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 7}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 16}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 17}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 18}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 2, id: 19}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 2, id: 20}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 21}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 32}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 34}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 35}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 48}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 2, id: 45}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 61}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 62}]}"}}
+						]}
 					],
 					"weight" : 3
 				},

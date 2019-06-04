@@ -71,7 +71,18 @@
 						{"data" : {"name" : "dye", "meta" : 4, "min" : 4, "max" : 16}},
 						{"data" : {"name" : "evilcraft:blood_waxed_coal", "min" : 1, "max" : 4}},
 						{"data" : {"name" : "evilcraft:blood_potash", "min" : 1, "max" : 4}},
-						{"data" : {"name" : "xreliquary:holy_hand_grenade", "min" : 1, "max" : 4}}
+						{"data" : {"name" : "xreliquary:holy_hand_grenade", "min" : 1, "max" : 4}},
+						{
+							"data":[
+									{"data":{"name":"botania:rune","meta":0}},
+									{"data":{"name":"botania:rune","meta":1}},
+									{"data":{"name":"botania:rune","meta":2}},
+									{"data":{"name":"botania:rune","meta":3}},
+									{"data":{"name":"botania:rune","meta":8}}
+							],
+							"min":1, "max":2
+						},
+						{"data":{"name":"astralsorcery:itemcraftingcomponent", "min":1, "max":4}}
 					],
 					"weight":5
 				},
@@ -113,7 +124,15 @@
 							]
 						},
 						{"data":{"name":"metalchests:metal_chest", "meta":5}},
-						{"data":{"name":"metalchests:chest_upgrade", "meta":18}}
+						{"data":{"name":"metalchests:chest_upgrade", "meta":18}},
+						{
+							"data":[
+								{"data" : {"name" : "botania:rune", "meta" : 4}},
+								{"data" : {"name" : "botania:rune", "meta" : 5}},
+								{"data" : {"name" : "botania:rune", "meta" : 6}},
+								{"data" : {"name" : "botania:rune", "meta" : 7}}
+							]
+						}
 					],
 					"weight":3
 				},
@@ -130,7 +149,35 @@
 						{"data" : {"name" : "botania:blackLotus", "meta" : 1}},
 						{"data" : {"name" : "contenttweaker:material_part", "meta" : 45, "min": 1, "max" : 3}},
 						{"data":{"name":"xreliquary:fortune_coin"}},
-						{"data":{"name":"botania:manatablet", "nbt":"{mana: 250000}"}}
+						{"data":{"name":"botania:manatablet", "nbt":"{mana: 250000}"}},
+						{"data":[
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 4, id: 2}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 7}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 16}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 17}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 18}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 2, id: 19}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 2, id: 20}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 21}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 32}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 34}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 35}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 5, id: 48}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 2, id: 45}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 61}]}"}},
+							{"data":{"name":"quark:ancient_tome", "nbt":"{ench: [{lvl: 3, id: 62}]}"}}
+						]},
+						{
+							"data" : [
+								{"data" : {"name" : "botania:rune", "meta" : 9}},
+								{"data" : {"name" : "botania:rune", "meta" : 10}},
+								{"data" : {"name" : "botania:rune", "meta" : 11}},
+								{"data" : {"name" : "botania:rune", "meta" : 12}},
+								{"data" : {"name" : "botania:rune", "meta" : 13}},
+								{"data" : {"name" : "botania:rune", "meta" : 14}},
+								{"data" : {"name" : "botania:rune", "meta" : 15}}
+							]
+						}
 					],
 					"weight":2
 				}

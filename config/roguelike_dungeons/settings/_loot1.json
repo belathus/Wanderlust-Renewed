@@ -107,12 +107,23 @@
                             ]
                         },
                         {"data":{"name":"evilcraft:dark_gem_crushed","min":1,"max":2}},
+                        {"data":{"name":"astralsorcery:itemcraftingcomponent"}},
                         {"data":{"name":"anvil","meta":1}},
                         {"data":{"name":"netherbrick","min":1,"max":3}},
                         {"data":{"name":"book","ench":7}},
                         {"data":{"name":"torch"},"min":1,"max":4},
                         {"data":{"name":"quark:arrow_torch"}, "min":1, "max":2},
-                        {"data":{"name":"randomthings:beans"}}                        
+                        {"data":{"name":"randomthings:beans"}},
+                        {
+                            "data":[
+                                {"data":{"name":"botania:rune","meta":0}},
+                                {"data":{"name":"botania:rune","meta":1}},
+                                {"data":{"name":"botania:rune","meta":2}},
+                                {"data":{"name":"botania:rune","meta":3}},
+                                {"data":{"name":"botania:rune","meta":8}}
+                            ],
+                            "min":1, "max":2
+                        }                        
                     ],
                     "weight":3
                 },
