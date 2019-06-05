@@ -2,6 +2,7 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
   # DungeonTactics Golden Lantern
+  recipes.remove(<dungeontactics:lantern_magic>);
   RecipeBuilder.get("mage")
     .setShaped(
       [[<materialpart:philosophers_gold:nugget>],
