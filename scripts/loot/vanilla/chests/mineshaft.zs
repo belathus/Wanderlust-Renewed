@@ -102,6 +102,27 @@ import loottweaker.vanilla.loot.Functions;
   mc_rare.addItemEntryHelper(<enderio:item_alloy_ingot:2>,               1, 0, [Functions.setCount(1, 2)], []); # Vibrant Alloy
   mc_rare.addItemEntryHelper(<enderio:item_alloy_ingot:6>,               1, 0, [Functions.setCount(1, 2)], []); # Dark Steel
   mc_rare.addItemEntryHelper(<enderio:item_material:13>,                 1, 0, [], []); # Vibrant Gear
+  mc_rare.addItemEntry(<randomthings:spectrecoil_number>,                1, 0);
+  mc_rare.addItemEntry(<randomthings:timeinabottle>,                     1, 0);
+  mc_rare.addItemEntry(<randomthings:weatheregg>,                        1, 0);
+  mc_rare.addItemEntry(<randomthings:weatheregg:1>,                      1, 0);
+  mc_rare.addItemEntry(<randomthings:weatheregg:2>,                      1, 0);
+  mc_rare.addItemEntry(<randomthings:magichood>,                         1, 0);
+  mc_rare.addItemEntry(<randomthings:escaperope>,                        1, 0);
+  mc_rare.addItemEntry(<randomthings:enderbucket>,                       1, 0);
+  mc_rare.addItemEntry(<randomthings:reinforcedenderbucket>,             1, 0);
+  mc_rare.addItemEntry(<minecraft:bucket>,                               1, 0);
+  mc_rare.addItemEntry(<astralsorcery:itemwand>,                         1, 0);
+  mc_rare.addItemEntry(<botania:sextant>,                                2, 0);
+  mc_rare.addItemEntry(<chisel:chisel_iron>,                             3, 0);
+  mc_rare.addItemEntry(<chisel:chisel_diamond>,                          2, 0);
+  mc_rare.addItemEntry(<chisel:chisel_hitech>,                           1, 0);
+  mc_rare.addItemEntry(<enderio:item_yeta_wrench>,                       3, 0);
+  mc_rare.addItemEntry(<enderio:item_conduit_probe>,                     1, 0);
+  mc_rare.addItemEntry(<evilcraft:blood_extractor>,                      2, 0);
+  mc_rare.addItemEntry(<evilcraft:veined_scribing_tools>,                1, 0);
+  mc_rare.addItemEntry(<naturescompass:naturescompass>,                  3, 0);
+  mc_rare.addItemEntry(<thaumcraft:scribing_tools>,                      2, 0);
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item per chest.
   val mc_ultrarare = mc_table.addPool("ultrarare", 1, 1, 0, 0);
@@ -110,22 +131,14 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntry(<naturescompass:naturescompass>,                         800, 0);
   mc_ultrarare.addItemEntryHelper(<minecraft:flint_and_steel>,                       700, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<minecraft:fishing_rod>,                           700, 0, [tool_dam, tool_ench], []);
-  mc_ultrarare.addItemEntry(<minecraft:bucket>,                                      700, 0);
-  mc_ultrarare.addItemEntry(<chisel:chisel_iron>,                                    700, 0);
   mc_ultrarare.addItemEntryHelper(<primitivetools:primitive_knife_cwv>,              400, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,               400, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<primitivetools:primitive_hatchet_cwv>,            400, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,        400, 0, [tool_dam, tool_ench], []);
-  mc_ultrarare.addItemEntry(<ebwizardry:magic_wand>,                                 400, 0);
-  mc_ultrarare.addItemEntry(<thaumcraft:scribing_tools>,                             400, 0);
-  mc_ultrarare.addItemEntry(<botania:sextant>,                                       400, 0);
   mc_ultrarare.addItemEntryHelper(<appliedenergistics2:nether_quartz_pickaxe>,       320, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,                320, 0, [tool_dam, tool_ench], []);
-  mc_ultrarare.addItemEntry(<enderio:item_yeta_wrench>,                              300, 0);
   mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_copper>,       240, 0, [tool_dam, tool_ench], []);
-  mc_ultrarare.addItemEntry(<enderio:item_conduit_probe>,                            200, 0);
   mc_ultrarare.addItemEntry(<evilcraft:blood_extractor>,                             200, 0);
-  mc_ultrarare.addItemEntry(<chisel:chisel_diamond>,                                 200, 0);
   mc_ultrarare.addItemEntryHelper(<appliedenergistics2:nether_quartz_cutting_knife>, 160, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<appliedenergistics2:nether_quartz_spade>,         160, 0, [tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<appliedenergistics2:nether_quartz_axe>,           160, 0, [tool_dam, tool_ench], []);
@@ -142,10 +155,8 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntry(<ebwizardry:basic_lightning_wand>,                       100, 0);
   mc_ultrarare.addItemEntry(<ebwizardry:basic_necromancy_wand>,                      100, 0);
   mc_ultrarare.addItemEntry(<ebwizardry:basic_sorcery_wand>,                         100, 0);
-  mc_ultrarare.addItemEntry(<evilcraft:veined_scribing_tools>,                       100, 0);
   mc_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>,                       100, 0, [Functions.setNBT({"capacity": 10000} as crafttweaker.data.IData)], []);
   mc_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>,                        75, 0, [Functions.setNBT({"capacity": 15000} as crafttweaker.data.IData)], []);
-  mc_ultrarare.addItemEntry(<chisel:chisel_hitech>,                                   60, 0);
   mc_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>,                        50, 0, [Functions.setNBT({"capacity": 20000} as crafttweaker.data.IData)], []);
   mc_ultrarare.addItemEntryHelper(<evilcraft:blood_extractor>,                        40, 0, [Functions.setNBT({"capacity": 25000} as crafttweaker.data.IData)], []);
   mc_ultrarare.addItemEntryHelper(<minecraft:diamond_pickaxe>,                        40, 0, [tool_dam, tool_ench], []);
@@ -161,6 +172,33 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntryHelper(<enderio:item_dark_steel_axe>,                       5, 0, [eio_tool1, eio_tool2, tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<enderio:item_dark_steel_sword>,                     4, 0, [eio_tool1, eio_tool2, tool_dam, tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<enderio:item_dark_steel_bow>,                       2, 0, [eio_tool1, eio_tool2, tool_dam, tool_ench], []);
+  
+  # Dungeon Tactics stuff
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_helmet>,                   30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_chestplate>,               30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_leggings>,                 30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_boots>,                    30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_ring>,                       40, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_hammer_leap>,                10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_hammer_smash>,               10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_cutlass_riposte>,            10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_cutlass_pierce>,             10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_knife_multistrike>,          10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_knife_smokebomb>,            10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_cestus_roar>,                10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:master_cestus_pummel>,              10, 0, [major_tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:high_striker>,                      10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:wackerjab>,                         10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:taser>,                             10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:claws>,                             10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:lithen_scythe>,                     10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:pirate_hook>,                       10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:coin_cannon>,                       10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:backfire_cannon>,                   10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:hot_potatoe>,                       10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:fire_water>,                        10, 0, [], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:boots_of_blinding_speed>,           10, 0, [major_tool_dam, tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:icarus_ring>,                       10, 0, [], []);
   
   # Add a chance to get various materials.
   mc_table.addPool("lava_charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,      1, 0, [], [Conditions.randomChance(0.05)]);
