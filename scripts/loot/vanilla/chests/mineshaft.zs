@@ -9,6 +9,8 @@ import loottweaker.vanilla.loot.Functions;
 # Variables
   val tool_dam = Functions.setDamage(0.5, 1.0);
   val tool_ench = Functions.parse({"levels": 30, "treasure": true, "function": "enchant_with_levels", "conditions": [{"condition": "random_chance", "chance": 0.2}] } as crafttweaker.data.IData);
+  val major_tool_dam = Functions.setDamage(0.01, 0.25);
+  val major_tool_ench = Functions.parse({"levels": 39, "treasure": true, "function": "enchant_with_levels"} as crafttweaker.data.IData);
   val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
   val cap_funct = Functions.parse({"function": "enderio:set_capacitor"} as crafttweaker.data.IData);
   val eio_tool1 = Functions.parse({"function": "enderio:set_random_dark_upgrade"} as crafttweaker.data.IData);
