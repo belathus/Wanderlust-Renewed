@@ -4,9 +4,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
   # DungeonTactics Golden Lantern
   RecipeBuilder.get("mage")
     .setShaped(
-      [[<materialpart:philosophersgold:nugget>],
+      [[<materialpart:philosophers_gold:nugget>],
        [<dungeontactics:lantern_iron>],
-       [<materialpart:philosophersgold:nugget>]])
+       [<materialpart:philosophers_gold:nugget>]])
     .setSecondaryIngredients([<dungeontactics:magic_powder> * 2])
     .addOutput(<dungeontactics:lantern_magic>)
     .create();
