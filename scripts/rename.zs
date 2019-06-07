@@ -1,18 +1,15 @@
 # Vanilla
-    <minecraft:iron_ore>.displayName = "Iron Ore";
-
-# Actually Additions
-#    <actuallyadditions:blockMisc:9>.displayName = "Steel Casing";
-
-# Ars Magica
-#    <arsmagica2:iron_inlay>.displayName = "Silver Inlay";
+  <minecraft:iron_ore>.displayName = "Iron Ore";
 
 # Biomes O' Plenty
   <biomesoplenty:berries>.displayName = "Redcurrant";
-    
+
+# Dungeon Tactics
+  <dungeontactics:steel_ingot>.displayName = "Burnt Iron";
+
 # Evilcraft
-    <evilcraft:promise_acceptor:0>.displayName = "Silver Promise Acceptor";
-    #<evilcraft:promise_acceptor:2>.displayName = "Mithril Promise Acceptor";
-    
+  <evilcraft:promise_acceptor:0>.displayName = "Silver Promise Acceptor";
+  #<evilcraft:promise_acceptor:2>.displayName = "Mithril Promise Acceptor";
+
 # Iron Chests
-    #<ironchest:iron_chest:2>.displayName = "Mithril Chest";
+  #<ironchest:iron_chest:2>.displayName = "Mithril Chest";
