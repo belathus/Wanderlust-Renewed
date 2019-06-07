@@ -37,6 +37,22 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
   RecipeBuilder.get("mage")
     .setShaped(
+        [[null,<ore:gemDarkPower>,null],
+         [<ore:ingotBrass>|<ore:ingotIron>,<ore:blockGlass>,<ore:ingotBrass>|<ore:ingotIron>],
+         [null,<ore:gemDarkPower>,null]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 20000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
+        [[null,<ore:ingotBrass>|<ore:ingotIron>,null],
+         [<ore:gemDarkPower>,<ore:blockGlass>,<ore:gemDarkPower>],
+         [null,<ore:ingotBrass>|<ore:ingotIron>,null]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 20000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
         [[null,<evilcraft:dark_block>,null],
          [<ore:blockBrass>|<ore:blockIron>,<ore:blockGlass>,<ore:blockBrass>|<ore:blockIron>],
          [null,<evilcraft:dark_block>,null]])
@@ -53,6 +69,22 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
   RecipeBuilder.get("mage")
     .setShaped(
+        [[null,<evilcraft:dark_power_gem_block>,null],
+         [<ore:blockBrass>|<ore:blockIron>,<ore:blockGlass>,<ore:blockBrass>|<ore:blockIron>],
+         [null,<evilcraft:dark_power_gem_block>,null]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 180000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
+        [[null,<ore:blockBrass>|<ore:blockIron>,null],
+         [<evilcraft:dark_power_gem_block>,<ore:blockGlass>,<evilcraft:dark_power_gem_block>],
+         [null,<ore:blockBrass>|<ore:blockIron>,null]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 180000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
         [[<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_block>,<ore:blockBrass>|<ore:blockIron>],
          [<evilcraft:dark_block>,<ore:blockGlass>,<evilcraft:dark_block>],
          [<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_block>,<ore:blockBrass>|<ore:blockIron>]])
@@ -65,4 +97,20 @@ import mods.artisanworktables.builder.RecipeBuilder;
          [<ore:blockBrass>|<ore:blockIron>,<ore:blockGlass>,<ore:blockBrass>|<ore:blockIron>],
          [<evilcraft:dark_block>,<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_block>]])
     .addOutput(<evilcraft:dark_tank>.withTag({capacity: 288000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
+        [[<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_power_gem_block>,<ore:blockBrass>|<ore:blockIron>],
+         [<evilcraft:dark_power_gem_block>,<ore:blockGlass>,<evilcraft:dark_power_gem_block>],
+         [<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_power_gem_block>,<ore:blockBrass>|<ore:blockIron>]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 360000}))
+    .create();
+
+  RecipeBuilder.get("mage")
+    .setShaped(
+        [[<evilcraft:dark_power_gem_block>,<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_power_gem_block>],
+         [<ore:blockBrass>|<ore:blockIron>,<ore:blockGlass>,<ore:blockBrass>|<ore:blockIron>],
+         [<evilcraft:dark_power_gem_block>,<ore:blockBrass>|<ore:blockIron>,<evilcraft:dark_power_gem_block>]])
+    .addOutput(<evilcraft:dark_tank>.withTag({capacity: 360000}))
     .create();
