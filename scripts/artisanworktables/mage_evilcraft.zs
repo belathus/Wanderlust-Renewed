@@ -38,16 +38,16 @@ import mods.artisanworktables.builder.RecipeBuilder;
   RecipeBuilder.get("mage")
     .setShaped(
         [[null,<evilcraft:dark_block>,null],
-         [<ore:blockBrass>|<ore:ingotIron>,<ore:blockGlass>,<ore:blockBrass>|<ore:ingotIron>],
+         [<ore:blockBrass>|<ore:blockIron>,<ore:blockGlass>,<ore:blockBrass>|<ore:blockIron>],
          [null,<evilcraft:dark_block>,null]])
     .addOutput(<evilcraft:dark_tank>.withTag({capacity: 144000}))
     .create();
 
   RecipeBuilder.get("mage")
     .setShaped(
-        [[null,<ore:blockBrass>|<ore:ingotIron>,null],
+        [[null,<ore:blockBrass>|<ore:blockIron>,null],
          [<evilcraft:dark_block>,<ore:blockGlass>,<evilcraft:dark_block>],
-         [null,<ore:blockBrass>|<ore:ingotIron>,null]])
+         [null,<ore:blockBrass>|<ore:blockIron>,null]])
     .addOutput(<evilcraft:dark_tank>.withTag({capacity: 144000}))
     .create();
 
