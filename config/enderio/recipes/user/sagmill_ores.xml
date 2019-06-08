@@ -886,11 +886,23 @@
       <output name="contenttweaker:material_part:49" chance="0.1" required="false" />
     </sagmilling>
   </recipe>
+
   <!-- Astral Sorcery -->
   <recipe name="Sagmill: Astral Starmetal Ore" required="false">
     <sagmilling energy="3600">
       <input name="oreAstralStarmetal" />
       <output name="astralsorcery:itemcraftingcomponent:2" amount="2" />
+      <output name="minecraft:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <!-- Electrum Ore -->
+  <recipe name="Sagmill: Electrum Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreElectrum" />
+      <output name="immersiveengineering:metal:16" amount="2" />
+      <output name="immersiveengineering:metal:12" amount="1" chance="0.08" />
+      <output name="immersiveengineering:metal:19" amount="1" chance="0.08" />
       <output name="minecraft:cobblestone" chance="0.15" />
     </sagmilling>
   </recipe>
