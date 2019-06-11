@@ -12,7 +12,7 @@ import mods.thaumcraft.LootBag;
 
 # Removing some not-potions; these get re-added.
   LootBag.removeLoot(<evilcraft:dark_gem>, [0, 1, 2]);
-  LootBag.removeLoot(<evilcraft:crushed_dark_gem>, [0, 1, 2]);
+  LootBag.removeLoot(<evilcraft:dark_gem_crushed>, [0, 1, 2]);
   LootBag.removeLoot(<evilcraft:garmonbozia>, [1, 2]);
 
 
