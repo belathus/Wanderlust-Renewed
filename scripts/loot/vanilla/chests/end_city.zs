@@ -39,42 +39,30 @@ import loottweaker.vanilla.loot.Functions;
   val ec_common = ec_table.addPool("common", 3, 7, 0, 0);
   ec_common.addItemEntryHelper(<minecraft:apple>,                       35, 0, [Functions.setCount(1, 3)], []); # apple
   ec_common.addItemEntryHelper(<minecraft:coal>,                        35, 0, [Functions.setCount(3, 8)], []); # coal
-  ec_common.addItemEntryHelper(<minecraft:gold_nugget>,                 25, 0, [Functions.setCount(1, 3)], []); # Gold nugget
   ec_common.addItemEntryHelper(<minecraft:ice>,                         25, 0, [Functions.setCount(1, 6)], []);
   ec_common.addItemEntryHelper(<minecraft:packed_ice>,                  25, 0, [Functions.setCount(1, 6)], []);
-  ec_common.addItemEntryHelper(<minecraft:melon_seeds>,                 10, 0, [Functions.setCount(2, 4)], []);
-  ec_common.addItemEntryHelper(<minecraft:pumpkin_seeds>,               10, 0, [Functions.setCount(2, 4)], []);
-  ec_common.addItemEntryHelper(<minecraft:beetroot_seeds>,              10, 0, [Functions.setCount(2, 4)], []);
   ec_common.addItemEntry(<dungeontactics:ducttape>,                      3, 0);
   ec_common.addItemEntry(<dungeontactics:magic_tether>,                  3, 0);
   ec_common.addItemEntryHelper(<dungeontactics:heart_jar>,               3, 0, [Functions.setCount(2, 4)], []);
+  ec_common.addItemEntryHelper(<astralsorcery:blockmarble:0>,           15, 0, [Functions.setCount(32, 64), Functions.setMetadata(0, 6)], []);
+  ec_common.addItemEntry(<thaumcraft:loot_bag>,                         60, 0);
   
   # Uncommon pool.
   val ec_uncommon = ec_table.addPool("uncommon", 2, 4, 0, 0);
-  ec_uncommon.addItemEntryHelper(<astralsorcery:itemcraftingcomponent>,   30, 0, [Functions.setCount(1, 2)], []);
-  ec_uncommon.addItemEntryHelper(<minecraft:glowstone_dust>,              10, 0, [Functions.setCount(1, 3)], []);
-  ec_uncommon.addItemEntryHelper(<minecraft:emerald>,                      3, 0, [Functions.setCount(1, 2)], []);
-  ec_uncommon.addItemEntryHelper(<minecraft:diamond>,                      3, 0, [Functions.setCount(1, 2)], []);
-  ec_uncommon.addItemEntryHelper(<minecraft:ender_pearl>,                 10, 0, [Functions.setCount(1, 2)], []);
   ec_uncommon.addItemEntryHelper(<minecraft:iron_ingot>,                  15, 0, [Functions.setCount(1, 6)], []); # Add iron ingot
   ec_uncommon.addItemEntryHelper(<immersiveengineering:metal:0>,          15, 0, [Functions.setCount(1, 4)], []); # Add copper ingot
   ec_uncommon.addItemEntryHelper(<materialpart:tin:ingot>,                10, 0, [Functions.setCount(1, 3)], []); # Add tin ingot
   ec_uncommon.addItemEntryHelper(<materialpart:zinc:ingot>,               10, 0, [Functions.setCount(1, 3)], []); # Add zinc ingot
-  ec_uncommon.addItemEntryHelper(<minecraft:gold_ingot>,                  10, 0, [Functions.setCount(1, 2)], []); # Add gold ingot
   ec_uncommon.addItemEntryHelper(<immersiveengineering:metal:3>,           7, 0, [Functions.setCount(1, 2)], []); # Add silver ingot
   ec_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                 10, 0, [eb_novice], []);
-  ec_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                  4, 0, [eb_apprentice], []);
-  ec_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                  1, 0, [eb_advanced], []);
-  ec_uncommon.addItemEntryHelper(<ebwizardry:identification_scroll>,      30, 0, [Functions.setCount(1, 4)], []);
-  ec_uncommon.addItemEntryHelper(<waystones:return_scroll>,                8, 0, [Functions.setCount(1, 3)], []);
-  ec_uncommon.addItemEntryHelper(<waystones:warp_scroll>,                  4, 0, [Functions.setCount(1, 2)], []);
+  ec_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                 10, 0, [eb_apprentice], []);
+  ec_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                  4, 0, [eb_advanced], []);
+  ec_uncommon.addItemEntryHelper(<ebwizardry:spell_book>,                  1, 0, [eb_master], []);
+  ec_uncommon.addItemEntry(<thaumcraft:loot_bag:1>,                       60, 0);
   
   # Rare pool. You only get one of these per chest.
   val ec_rare = ec_table.addPool("rare", 1, 1, 0, 0);
-  ec_rare.addItemEntryHelper(<astralsorcery:blockmarble:0>,             15, 0, [Functions.setCount(32, 64), Functions.setMetadata(0, 6)], []);
   ec_rare.addItemEntryHelper(<minecraft:obsidian>,                       5, 0, [Functions.setCount(3, 7)], []);
-  ec_rare.addItemEntryHelper(<minecraft:golden_apple>,                   8, 0, [], []);
-  ec_rare.addItemEntryHelper(<minecraft:golden_apple:1>,                 1, 0, [], []);
   ec_rare.addItemEntryHelper(<ebwizardry:spell_book>,                    3, 0, [eb_master], []);
   ec_rare.addItemEntryHelper(<enderio:item_alloy_ingot:0>,              15, 0, [Functions.setCount(3, 7)], []); # Electrical Alloy
   ec_rare.addItemEntryHelper(<enderio:item_alloy_ingot:1>,               3, 0, [Functions.setCount(1, 6)], []); # Energetic Alloy
@@ -88,17 +76,7 @@ import loottweaker.vanilla.loot.Functions;
   ec_rare.addItemEntryHelper(<enderio:item_material:11>,                10, 0, [Functions.setCount(1, 6)], []); # Bimetal Gear
   ec_rare.addItemEntryHelper(<enderio:item_material:12>,                 3, 0, [Functions.setCount(1, 4)], []); # Energized Gear
   ec_rare.addItemEntryHelper(<enderio:item_material:13>,                 1, 0, [Functions.setCount(1, 2)], []); # Vibrant Gear
-  ec_rare.addItemEntryHelper(<ebwizardry:condenser_upgrade>,             5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:siphon_upgrade>,                5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:storage_upgrade>,               5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:range_upgrade>,                 5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:duration_upgrade>,              5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:cooldown_upgrade>,              5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:blast_upgrade>,                 5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:attunement_upgrade>,            5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:arcane_tome:1>,                15, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:arcane_tome:2>,                 5, 0, [], []);
-  ec_rare.addItemEntryHelper(<ebwizardry:arcane_tome:3>,                 1, 0, [], []);
+  ec_rare.addItemEntry(<thaumcraft:loot_bag:2>,                         60, 0);
 
   # Ultrarare pool. Mostly tools. 25% chance that you'll get one ultrarare item per chest.
   val ec_ultrarare = ec_table.addPool("ultrarare", 1, 1, 0, 0);
