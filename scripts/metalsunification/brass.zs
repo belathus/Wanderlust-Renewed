@@ -42,6 +42,4 @@ val nope = <minecraft:barrier>;
     scripts.functions.unifyalloy(list_brass, brass_oredict);
  
     recipes.addShapeless(list_brass[0][6] * 3, [<ore:dustCopper>,<ore:dustCopper>,<ore:dustZinc>]);
-
-    furnace.remove(<thaumcraft:ingot:2>);
-    furnace.add(<materialpart:brass:ingot>, <ore:dustBrass>);
+    
