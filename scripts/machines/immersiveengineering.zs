@@ -3,37 +3,54 @@
 # Immersive Engineering
   # Conveyor Belts
   val conveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"});
-  recipes.remove(<immersiveengineering:conveyor>);
+  #recipes.remove(<immersiveengineering:conveyor>);
+
+  # Regular Conveyor
+  recipes.addShapeless(conveyor,
+    [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
   recipes.addShaped(conveyor * 8,
     [[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
      [<ore:gearStone>,<ore:dustRedstone>,<ore:gearStone>]]);
   recipes.addShaped(conveyor * 12,
     [[<ore:leather>,<ore:leather>,<ore:leather>],
      [<ore:gearStone>,<ore:dustRedstone>,<ore:gearStone>]]);
+
+  # Uncontrolled Conveyor
+  recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
+    [conveyor]);
+
+  # Vertical Conveyor
   recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}) * 3,
     [[conveyor, <ore:ingotBrass>],
      [conveyor, null],
      [conveyor, <ore:ingotBrass>]]);
-  recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}) * 3,
-    [[conveyor, <ore:ingotBrass>, conveyor],
-     [null, conveyor, null]]);
   recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}) * 3,
     [[conveyor, <ore:ingotIron>],
      [conveyor, null],
      [conveyor, <ore:ingotIron>]]);
+
+  # Splitter Conveyor
+  recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}) * 3,
+    [[conveyor, <ore:ingotBrass>, conveyor],
+     [null, conveyor, null]]);
   recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}) * 3,
     [[conveyor, <ore:ingotIron>, conveyor],
      [null, conveyor, null]]);
+
+  # Dropper Conveyor
   recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
     [[conveyor],
      [<minecraft:trapdoor:*>]]);
+
+  # Covered Conveyor
   recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
     [[<ore:scaffoldingSteel>],
      [conveyor]]);
-  recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
-    [conveyor]);
-  recipes.addShapeless(conveyor,
-    [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"})]);
+  
+  # Extracting Conveyor
+  recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}),
+    [[<ore:plankTreatedWood>, <immersiveengineering:cloth_device:2>],
+     [<immersiveengineering:material:8>, conveyor]]);
 
   # Coke Oven
   // recipes.addShaped(<immersiveengineering:stone_decoration> * 3,
