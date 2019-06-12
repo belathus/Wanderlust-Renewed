@@ -45,6 +45,15 @@ import mods.thaumcraft.LootBag;
   LootBag.addLoot(<ebwizardry:storage_upgrade> % 5, [0,1,2]);
   LootBag.addLoot(<ebwizardry:arcane_tome> % 5, [0, 1]);
   LootBag.addLoot(<ebwizardry:arcane_tome:1> % 3, [0, 1]);
+  LootBag.addLoot(<randomthings:ingredient:2> % 10, [0, 1, 2]);
+  LootBag.addLoot(<appliedenergistics2:material:1> % 8, [0, 1, 2]);
+  LootBag.addLoot(<randomthings:beans> % 10, [0]);
+  LootBag.addLoot(<minecraft:pumpkin_seeds> % 10, [0]);
+  LootBag.addLoot(<minecraft:melon_seeds> % 10, [0]);
+  LootBag.addLoot(<minecraft:beetroot_seeds> % 10, [0]);
+  LootBag.addLoot(<xreliquary:mob_ingredient:9> % 10, [0]);
+  LootBag.addLoot(<randomthings:ingredient:7> % 10, [0]);
+  LootBag.addLoot(<randomthings:waterwalkingboots> % 5, [0]);
 
 # =============================== #
 # ==== Uncommon Treasure Bag ==== #
@@ -56,6 +65,8 @@ import mods.thaumcraft.LootBag;
   LootBag.addLoot(<botania:blacklotus> % 25, [1,2]);
   LootBag.addLoot(<evilcraft:garmonbozia> % 5, [1, 2]);
   LootBag.addLoot(<ebwizardry:arcane_tome:3> % 1, [1]);
+  LootBag.addLoot(<randomthings:spectrecoil_number> % 10, [1, 2]);
+  LootBag.addLoot(<randomthings:spectreanchor> % 10, [1, 2]);
 
 # =============================== #
 # ====   Rare Treasure Bag   ==== #
@@ -69,3 +80,4 @@ import mods.thaumcraft.LootBag;
   LootBag.addLoot(<materialpart:philosophers_gold:nugget> % 5, [2]);
   LootBag.addLoot(<ebwizardry:arcane_tome:3> % 3, [2]);
   LootBag.addLoot(<botania:overgrowthseed> % 1, [2]);
+  LootBag.addLoot(<randomthings:beans:2> % 5, [2]);
