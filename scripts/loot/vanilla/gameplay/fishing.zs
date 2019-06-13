@@ -19,11 +19,8 @@ import loottweaker.vanilla.loot.Functions;
 */
 
   val treasure = LootTables.getTable("minecraft:gameplay/fishing/treasure").addPool("common", 1, 1, 0, 0);
-  treasure.addItemEntryHelper(<minecraft:waterlily>,            100, 0, [], []);
   treasure.addItemEntryHelper(<minecraft:name_tag>,             100, 0, [], []);
   treasure.addItemEntryHelper(<minecraft:saddle>,                10, 0, [], []);
-  treasure.addItemEntryHelper(<forestry:broken_bronze_shovel>,  100, 0, [], []);
-  treasure.addItemEntryHelper(<forestry:broken_bronze_pickaxe>,  50, 0, [], []);
   treasure.addItemEntryHelper(<enderio:item_basic_capacitor>,     5, 0, [Functions.setMetadata(3, 4), cap_funct], []);
   treasure.addItemEntryHelper(<chisel:chisel_iron>,              20, 0, [], []);
   treasure.addItemEntryHelper(<minecraft:bucket>,                20, 0, [], []);
@@ -31,12 +28,16 @@ import loottweaker.vanilla.loot.Functions;
   treasure.addItemEntryHelper(<evilcraft:blood_extractor>,       10, 0, [], []);
   treasure.addItemEntryHelper(<minecraft:book>,                  10, 0, [tool_ench], []);
   treasure.addItemEntryHelper(<minecraft:bow>,                   20, 0, [tool_dam, tool_ench], []);
-  treasure.addItemEntryHelper(<minecraft:fishing_rod>,           20, 0, [tool_dam, tool_ench], []);
+  treasure.addItemEntryHelper(<minecraft:fishing_rod>,           40, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<dungeontactics:slingshot>,        20, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<randomthings:lavacharm>,           1, 0, [], [Conditions.randomChance(0.05)]);
+  treasure.addItemEntry(<thaumcraft:loot_bag>,                   10, 0);
+  treasure.addItemEntry(<thaumcraft:loot_bag:1>,                  4, 0);
+  treasure.addItemEntry(<thaumcraft:loot_bag:2>,                  1, 0);
   treasure.addItemEntryHelper(<primitivetools:primitive_knife_cwv>,        10, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,         10, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<primitivetools:primitive_hatchet_cwv>,      10, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,           8, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<primitivetools:primitive_spade_cwv>,        10, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,  10, 0, [tool_dam, tool_ench], []);
+  
