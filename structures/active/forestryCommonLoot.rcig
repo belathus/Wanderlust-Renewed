@@ -7,26 +7,6 @@
       "min": 1,
       "max": 6,
       "item": {
-        "id": "harvestcraft:honeyitem",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 2,
-      "item": {
-        "id": "harvestcraft:honeybreaditem",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 8,
-      "item": {
         "id": "biomesoplenty:filled_honeycomb",
         "damage": 0,
         "count": 1
@@ -35,7 +15,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 4,
+      "max": 2,
       "item": {
         "id": "reccomplex:inventory_generation_single_tag",
         "damage": 0,
@@ -122,5 +102,5 @@
       }
     }
   ],
-  "dependencyExpression": ""
+  "dependencyExpression": "$forestry"
 }
