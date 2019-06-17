@@ -1,0 +1,16 @@
+{
+  "name": "Mob Gating",
+  "icon": "minecraft:mob_spawner",
+  "category": "collecting_food",
+  "pages": [
+      {
+          "type": "text",
+          "text": "You may have noticed the world is rather peaceful at night. Until you have ventured into other dimensions, the worst thing that will spawn on the surface are Spiders."
+      },
+      {
+        "type":"text",
+        "text":"However, venturing into another dimension will cause the common undead and Endermen to rise from the earth, acquiring flint will cause Filch Lizards to appear, creating a furnace will cause Creepers to spawn, and entering the bronze age will wake the Skeleton Warriors."
+      }
+  ],
+  "sortnum":2
+}
