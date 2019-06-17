@@ -1,11 +1,21 @@
 {
     "name": "Ash",
-    "icon": "primal:ash_common",
+    "icon": "forestry:ash",
     "category": "processing_ore",
     "pages": [
         {
             "type": "text",
-            "text": "You'll sometimes get ash by cooking on a hibachi or using a firebow to light torches. However, you're probably going to need a lot of ash, and the best way to get lots of ash would by lighting log piles on fire. This works similarly to making charcoal, $(l:processing_ore/charcoal)listed above$(/l), except you do not bury the log stacks. Left to burn in the open air will cause the log stacks to eventually burn into a pile of ash."
+            "text": "You're probably going to need a lot of ash to create a smeltery, and the best way to get lots of ash would be by making charcoal, $(l:processing_ore/charcoal)listed above$(/l)."
+        },
+        {
+            "type":"spotlight",
+            "item":"forestry:ash_block_0",
+            "text": "Harvesting the resulting ash pile should yield some ash."
+        },
+        {
+            "type":"smelting",
+            "recipe":"forestry:peat",
+            "text":"Alternatively, you can smelt peat in the furnace to get one piece of ash."
         }
     ],
     "sortnum":1
