@@ -180,7 +180,11 @@
                         {"data":{"name":"dungeontactics:iron_ring","min":1,"max":2,"ench":2}},
                         {"data":{"name":"lava_bucket"}},
                         {"data":{"name":"book","ench":6}},
-                        {"data":{"name":"randomthings:beans"}}
+                        {"data":{"name":"randomthings:beans"}},
+                        {"data":{"name":"evilcraft:dark_gem"}},
+                        {"data":{"name":"evilcraft:dark_gem_crushed"}},
+                        {"data":{"name":"metalchests:metal_chest", "comment":"Copper Chest"}},
+                        {"data":{"name":"metalchests:chest_upgrade", "comment":"Wood to Copper Chest Upgrade"}}
                     ],
                     "weight":2
                 }
