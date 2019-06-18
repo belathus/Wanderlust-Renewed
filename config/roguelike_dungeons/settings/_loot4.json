@@ -89,6 +89,7 @@
 							"data":[
 								{"data":{"name":"botania:dirtrod"}},
 								{"data":{"name":"botania:waterrod"}},
+								{"data":{"name":"botania:diviningrod"}},
 								{"data":{"name":"botania:tornadorod"}}
 							]
 						},
@@ -139,7 +140,8 @@
 						{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
 						{"data":{"name":"immersiveengineering:metal_decoration2", "meta": 4}, "min":2, "max":4},
 						{"data":{"name":"metalchests:metal_chest", "meta":4, "comment": "Mithril Chest"}},
-						{"data":{"name":"metalchests:chest_upgrade", "meta":12, "comment":"Gold to Mithril Chest Upgrade"}}		
+						{"data":{"name":"metalchests:chest_upgrade", "meta":12, "comment":"Gold to Mithril Chest Upgrade"}},
+						{"data":{"name":"astralsorcery:itemshiftingstar"}}		
 					],
 					"weight" : 3
 				},
