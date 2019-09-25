@@ -1,5 +1,5 @@
 #modloaded dungeontactics
-
+#norun
 val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
 
 #######################

@@ -8,8 +8,6 @@
     # Format is <armor>, <ingot returned>
     var returns24 = [
         [<minecraft:iron_chestplate>,               <immersiveengineering:metal:29>],
-        [<dungeontactics:gilded_chestplate>,        <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_chestplate>,      <immersiveengineering:metal:29>],
         [<minecraft:golden_chestplate>,             <minecraft:gold_nugget>],
         #[<abyssalcraft:aplate>,                     <abyssalcraft:ingotnugget>],
         #[<abyssalcraft:corplate>,                   <abyssalcraft:ingotnugget:1>],
@@ -35,8 +33,6 @@
     
     var returns21 = [
         [<minecraft:iron_leggings>,                 <immersiveengineering:metal:29>],
-        [<dungeontactics:gilded_leggings>,          <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_leggings>,        <immersiveengineering:metal:29>],
         [<minecraft:golden_leggings>,               <minecraft:gold_nugget>],
         #[<abyssalcraft:alegs>,                      <abyssalcraft:ingotnugget>],
         #[<abyssalcraft:corlegs>,                    <abyssalcraft:ingotnugget:1>],
@@ -66,8 +62,6 @@
     
     var returns15 = [
         [<minecraft:iron_helmet>,                   <immersiveengineering:metal:29>],
-        [<dungeontactics:gilded_helmet>,            <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_helmet>,          <immersiveengineering:metal:29>],
         [<minecraft:golden_helmet>,                 <minecraft:gold_nugget>],
         #[<abyssalcraft:ahelmet>,                    <abyssalcraft:ingotnugget>],
         #[<abyssalcraft:corhelmet>,                  <abyssalcraft:ingotnugget:1>],
@@ -97,8 +91,6 @@
 
     var returns12 = [
         [<minecraft:iron_boots>,                   <immersiveengineering:metal:29>],
-        [<dungeontactics:gilded_boots>,            <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_boots>,          <immersiveengineering:metal:29>],
         [<minecraft:golden_boots>,                 <minecraft:gold_nugget>],
         #[<abyssalcraft:aboots>,                    <abyssalcraft:ingotnugget>],
         #[<abyssalcraft:corboots>,                  <abyssalcraft:ingotnugget:1>],
@@ -137,8 +129,6 @@
         [<botania:elementiumpick>,                          <botania:manaresource:19>],
         [<botania:manasteelpick>,                           <botania:manaresource:17>],
         [<botania:terrapick>,                               <botania:manaresource:18>],
-        [<dungeontactics:gilded_pickaxe>,                   <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_pickaxe>,                 <immersiveengineering:metal:29>],
         [<forestry:bronze_pickaxe>,                          bronze_nugget],
         #[<thermalfoundation:tool.pickaxe_bronze>,           bronze_nugget],
         #[<thermalfoundation:tool.pickaxe_copper>,           <immersiveengineering:metal:20>],
@@ -159,8 +149,6 @@
         [<botania:elementiumaxe>,                           <botania:manaresource:19>],
         [<botania:manasteelaxe>,                            <botania:manaresource:17>],
         [<botania:terraaxe>,                                <botania:manaresource:18>],
-        [<dungeontactics:gilded_axe>,                       <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_axe>,                     <immersiveengineering:metal:29>],
         #[<thermalfoundation:tool.axe_bronze>,               bronze_nugget],
         #[<thermalfoundation:tool.axe_copper>,               <immersiveengineering:metal:20>],
         #[<thermalfoundation:tool.axe_electrum>,             <immersiveengineering:metal:27>],
@@ -182,8 +170,6 @@
         #[<abyssalcraft:corhoe>,                             <abyssalcraft:ingotnugget:1>],
         #[<abyssalcraft:dreadiumhoe>,                        <abyssalcraft:ingotnugget:2>],
         #[<abyssalcraft:ethaxiumhoe>,                        <abyssalcraft:ingotnugget:3>],
-        [<dungeontactics:gilded_hoe>,                       <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_hoe>,                     <immersiveengineering:metal:29>],
         #[<thermalfoundation:tool.hoe_bronze>,               bronze_nugget],
         #[<thermalfoundation:tool.hoe_copper>,               <immersiveengineering:metal:20>],
         #[<thermalfoundation:tool.hoe_electrum>,             <immersiveengineering:metal:27>],
@@ -219,8 +205,6 @@
         [<botania:terrasword>,                              <botania:manaresource:18>],
         [<dungeontactics:bronze_cutlass>,                   bronze_nugget],
         [<dungeontactics:copper_cutlass>,                   <immersiveengineering:metal:20>],
-        [<dungeontactics:gilded_cutlass>,                   <immersiveengineering:metal:29>],
-        [<dungeontactics:gilded_sword>,                     <immersiveengineering:metal:29>],
         [<dungeontactics:golden_cutlass>,                   <minecraft:gold_nugget>],
         [<dungeontactics:iron_cutlass>,                     <immersiveengineering:metal:29>],
         [<dungeontactics:jewelled_cutlass>,                 <immersiveengineering:metal:29>],
