@@ -17,4 +17,4 @@
   <ore:boatWood>.add(<biomesoplenty:boat_willow>);
   <ore:boatWood>.add(<thebetweenlands:weedwood_rowboat>);
   
-  <ore:boatObsidian>.add(<nex:obsidian_boat>);
+  <ore:boatObsidian>.add(<netherex:obsidian_boat>);

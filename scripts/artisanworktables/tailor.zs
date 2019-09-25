@@ -74,28 +74,28 @@ import mods.artisanworktables.builder.RecipeBuilder;
     RecipeBuilder.get("tailor")
       .setShapeless(
         [<xreliquary:mob_ingredient:10>,<ebwizardry:wizard_hat>])
-      .setSecondaryIngredients([<twilightforest:alpha_fur>,<nex:rime_block>])
+      .setSecondaryIngredients([<twilightforest:alpha_fur>,<netherex:rime_block>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_hat_ice>)
       .create();
     RecipeBuilder.get("tailor")
       .setShapeless(
         [<xreliquary:mob_ingredient:10>,<ebwizardry:wizard_robe>])
-      .setSecondaryIngredients([<twilightforest:alpha_fur>,<nex:rime_block>])
+      .setSecondaryIngredients([<twilightforest:alpha_fur>,<netherex:rime_block>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_robe_ice>)
       .create();
     RecipeBuilder.get("tailor")
       .setShapeless(
         [<xreliquary:mob_ingredient:10>,<ebwizardry:wizard_leggings>])
-      .setSecondaryIngredients([<twilightforest:alpha_fur>,<nex:rime_block>])
+      .setSecondaryIngredients([<twilightforest:alpha_fur>,<netherex:rime_block>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_leggings_ice>)
       .create();
     RecipeBuilder.get("tailor")
       .setShapeless(
         [<xreliquary:mob_ingredient:10>,<ebwizardry:wizard_boots>])
-      .setSecondaryIngredients([<twilightforest:alpha_fur>,<nex:rime_block>])
+      .setSecondaryIngredients([<twilightforest:alpha_fur>,<netherex:rime_block>])
       .addTool(<ore:artisansNeedle>, 1)
       .addOutput(<ebwizardry:wizard_boots_ice>)
       .create();

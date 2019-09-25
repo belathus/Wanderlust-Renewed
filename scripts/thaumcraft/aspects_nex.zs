@@ -1,3 +1,3 @@
-#modloaded thaumcraft modtweaker nex
+#modloaded thaumcraft modtweaker netherex
 
-<nex:wither_bone>.setAspects(<aspect:vitium>*4);
+<netherex:wither_bone>.setAspects(<aspect:vitium>*4);

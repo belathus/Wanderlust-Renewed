@@ -23,8 +23,8 @@ mods.MobStages.toggleSpawner("enderiozoo:enderminy", true);
 # mods.MobStages.addStage("MansionTraveler", "primitivemobs:mimic");
 # mods.MobStages.toggleSpawner("primitivemobs:trollager", true);
 
-mods.MobStages.addStage("BetweenTraveler", "nex:wight");
-mods.MobStages.toggleSpawner("nex:wight", true);
+mods.MobStages.addStage("BetweenTraveler", "netherex:wight");
+mods.MobStages.toggleSpawner("netherex:wight", true);
 
 mods.MobStages.addStage("TwilightTraveler", "primitivemobs:bewitched_tome");
 mods.MobStages.addStage("TwilightTraveler", "primitivemobs:grovesprite");

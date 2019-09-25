@@ -124,12 +124,12 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_shield>,                   1000, 0, [tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_gold>,        1000, 0, [tool_ench], []);
 
-  mc_ultrarare.addItemEntryHelper(<nex:golden_wither_bone_axe>,                      500, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<nex:golden_wither_bone_hammer>,                   500, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<nex:golden_wither_bone_hoe>,                      500, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<nex:golden_wither_bone_pickaxe>,                  500, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<nex:golden_wither_bone_shovel>,                   500, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<nex:golden_wither_bone_sword>,                    500, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<netherex:withered_amedian_axe>,                      500, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<netherex:withered_amedian_hammer>,                   500, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<netherex:withered_amedian_hoe>,                      500, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<netherex:withered_amedian_pickaxe>,                  500, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<netherex:withered_amedian_shovel>,                   500, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<netherex:withered_amedian_sword>,                    500, 0, [tool_ench], []);
 
   mc_ultrarare.addItemEntry(<naturescompass:naturescompass>,                         400, 0);
   mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,        400, 0, [tool_dam, tool_ench], []);
