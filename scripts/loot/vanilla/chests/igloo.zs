@@ -92,13 +92,13 @@ import loottweaker.vanilla.loot.Functions;
   igloo_uberrare.addItemEntry(<ebwizardry:arcane_tome:1>,                   4, 0);
   igloo_uberrare.addItemEntry(<ebwizardry:arcane_tome:2>,                   1, 0);
   igloo_uberrare.addItemEntry(<ebwizardry:magic_wand>,                      2, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_earth_wand>,                1, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_fire_wand>,                 1, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_healing_wand>,              1, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_ice_wand>,                  1, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_lightning_wand>,            1, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_necromancy_wand>,           1, 0);
-  igloo_uberrare.addItemEntry(<ebwizardry:basic_sorcery_wand>,              1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_earth_wand>,                1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_fire_wand>,                 1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_healing_wand>,              1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_ice_wand>,                  1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_lightning_wand>,            1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_necromancy_wand>,           1, 0);
+  igloo_uberrare.addItemEntry(<ebwizardry:novice_sorcery_wand>,              1, 0);
 
   val igloo_xrel = igloo.addPool("xrel", 1, 1, 0, 0);
   igloo_xrel.addItemEntryHelper(<xreliquary:mob_ingredient:10>,          10, 0,[], []); # Frozen Core

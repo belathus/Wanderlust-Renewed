@@ -149,13 +149,13 @@ import loottweaker.vanilla.loot.Functions;
   
   # Electroblob's Wizardry
   jt_ultrarare.addItemEntry(<ebwizardry:magic_wand>,                                 400, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_earth_wand>,                           100, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_fire_wand>,                            100, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_healing_wand>,                         100, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_ice_wand>,                             100, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_lightning_wand>,                       100, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_necromancy_wand>,                      100, 0);
-  jt_ultrarare.addItemEntry(<ebwizardry:basic_sorcery_wand>,                         100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_earth_wand>,                           100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_fire_wand>,                            100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_healing_wand>,                         100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_ice_wand>,                             100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_lightning_wand>,                       100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_necromancy_wand>,                      100, 0);
+  jt_ultrarare.addItemEntry(<ebwizardry:novice_sorcery_wand>,                         100, 0);
   
   # Thaumcraft Scribing Tools
   jt_ultrarare.addItemEntry(<thaumcraft:scribing_tools>,                             400, 0);
@@ -179,10 +179,6 @@ import loottweaker.vanilla.loot.Functions;
   jt_ultrarare.addItemEntry(<evilcraft:blood_extractor>.withTag({"capacity": 144000}),10, 0);
   
   # Dungeon Tactics stuff
-  jt_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_helmet>,                   30, 0, [tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_chestplate>,               30, 0, [tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_leggings>,                 30, 0, [tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_boots>,                    30, 0, [tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<dungeontactics:golden_ring>,                       40, 0, [tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<dungeontactics:master_hammer_leap>,                10, 0, [major_tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<dungeontactics:master_hammer_smash>,               10, 0, [major_tool_ench], []);

@@ -207,12 +207,11 @@
         [<dungeontactics:copper_cutlass>,                   <immersiveengineering:metal:20>],
         [<dungeontactics:golden_cutlass>,                   <minecraft:gold_nugget>],
         [<dungeontactics:iron_cutlass>,                     <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_cutlass>,                 <immersiveengineering:metal:29>],
-        [<dungeontactics:jewelled_sword>,                   <immersiveengineering:metal:29>],
         [<dungeontactics:lead_cutlass>,                     <immersiveengineering:metal:22>],
         [<dungeontactics:silver_cutlass>,                   <immersiveengineering:metal:23>],
         [<dungeontactics:steel_cutlass>,                    <immersiveengineering:metal:28>],
         [<dungeontactics:tin_cutlass>,                      tin_nugget],
+        [<dungeontactics:mithril_cutlass>,                   <contenttweaker:mithril:nugget>]
         #[<rockhounding_chemistry:bamSword>,                 <rockhounding_chemistry:alloyItems:8>],
         #[<thermalfoundation:tool.sword_bronze>,             bronze_nugget],
         #[<thermalfoundation:tool.sword_copper>,             <immersiveengineering:metal:20>],
