@@ -15,11 +15,21 @@
                 },
                 {
                     "data":[
+                        {"data":{"name":"silver_helmet","ench":5}},
+                        {"data":{"name":"silver_chestplate","ench":5}},
+                        {"data":{"name":"silver_leggings","ench":5}},
+                        {"data":{"name":"silver_boots","ench":5}},
+                        {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
+                    ],
+                    "weight":3
+                },
+                {
+                    "data":[
                         {"data":{"name":"chainmail_helmet","ench":5}},
                         {"data":{"name":"chainmail_chestplate","ench":5}},
                         {"data":{"name":"chainmail_leggings","ench":5}},
                         {"data":{"name":"chainmail_boots","ench":5}},
-                        {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
+                        {"data":{"name":"dungeontactics:silver_shield","ench":5}}
                     ],
                     "weight":3
                 }

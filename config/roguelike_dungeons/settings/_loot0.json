@@ -15,10 +15,19 @@
                 },
                 {
                     "data":[
-                        {"data":{"name":"dungeontactics:studded_helmet","ench":2}},
-                        {"data":{"name":"dungeontactics:studded_chestplate","ench":2}},
-                        {"data":{"name":"dungeontactics:studded_leggings","ench":2}},
-                        {"data":{"name":"dungeontactics:studded_boots","ench":2}}
+                        {"data":{"name":"dungeontactics:stone_plate_faceplate","ench":2}},
+                        {"data":{"name":"dungeontactics:stone_plate_chestpiece","ench":2}},
+                        {"data":{"name":"dungeontactics:stone_plate_greaves","ench":2}},
+                        {"data":{"name":"dungeontactics:stone_plate_boots","ench":2}}
+                    ],
+                    "weight":3
+                },
+                {
+                    "data":[
+                        {"data":{"name":"dungeontactics:bone_helmet","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_chestplate","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_leggings","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_boots","ench":2}}
                     ],
                     "weight" : 2
                 }
@@ -32,19 +41,28 @@
             "loot":[
                 {
                     "data":[
-                        {"data":{"name":"primitivetools:primitive_knife_cwf","ench":2}},
-                        {"data":{"name":"primitivetools:primitive_hammer_dwf","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_knife","ench":2}},
+                        {"data":{"name":"pyrotech:flint_sword","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_cestus","ench":2}},
                         {"data":{"name":"erebus:bamboo_shield","ench":2}}
                     ],
                     "weight":5
                 },
                 {
                     "data":[
-                        {"data":{"name":"primitivetools:primitive_knife_cbl","ench":2}},
-                        {"data":{"name":"primitivetools:primitive_hammer_gbl","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_sword","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_glaive","ench":2}},
                         {"data":{"name":"dungeontactics:stone_shield","ench":2}}
                     ],
                     "weight":3
+                },
+                {
+                    "data":[
+                        {"data":{"name":"dungeontactics:bone_battleaxe","ench":2}},
+                        {"data":{"name":"dungeontactics:bone_hammer","ench":2}},
+                        {"data":{"name":"dungeontactics:stone_shield","ench":4}}
+                    ],
+                    "weight":2
                 }
 
             ],
@@ -57,13 +75,26 @@
             "loot":[
                 {
                     "data":[
-                        {"data":{"name":"primitivetools:primitive_hatchet_cwf","ench":2}},
-                        {"data":{"name":"primitivetools:primitive_hoe_cwf","ench":2}},
-                        {"data":{"name":"primitivetools:primitive_pick_cwf","ench":2}},
-                        {"data":{"name":"artisanworktables:artisans_handsaw_flint","ench":2}},
-                        {"data":{"name":"primitivetools:primitive_spade_cwf","ench":2}}
+                        {"data":{"name":"pyrotech:crude_fishing_rod","ench":2}},
+                        {"data":{"name":"pyrotech:crude_shovel","ench":2}},
+                        {"data":{"name":"pyrotech:crude_axe","ench":2}},
+                        {"data":{"name":"pyrotech:crude_hoe","ench":2}},
+                        {"data":{"name":"pyrotech:crude_pickaxe","ench":2}},
+                        {"data":{"name":"pyrotech:crude_hammer","ench":2}}
                     ],
                     "weight":5
+                },
+                {
+                    "data":[
+                        {"data":{"name":"pyrotech:flint_hammer","ench":2}},
+                        {"data":{"name":"pyrotech:tongs_flint","ench":2}},
+                        {"data":{"name":"pyrotech:flint_and_tinder","ench":2}},
+                        {"data":{"name":"pyrotech:flint_axe","ench":2}},
+                        {"data":{"name":"pyrotech:flint_hoe","ench":2}},
+                        {"data":{"name":"pyrotech:flint_pickaxe","ench":2}},
+                        {"data":{"name":"pyrotech:flint_shovel","ench":2}}
+                    ],
+                    "weight":3
                 },
                 {
                     "data":[
@@ -72,7 +103,7 @@
                         {"data":{"name":"appliedenergistics2:nether_quartz_pickaxe","ench":2}},
                         {"data":{"name":"appliedenergistics2:nether_quartz_spade","ench":2}}
                     ],
-                    "weight":3
+                    "weight":2
                 }
             ],
             "level":0,
@@ -82,7 +113,7 @@
         {
             "type":"SMITH",
             "loot":[
-                {"data":{"name":"primitivetools:primitive_knife_cwf","ench":6}, "weight":10}
+                {"data":{"name":"pyrotech:flint_sword","ench":6}, "weight":10}
             ],
             "level":0,
             "each":true,
@@ -115,13 +146,9 @@
                             "min":1, "max":2, "weight":5
                         },
                         {"data":{"name":"string"}},
-                        {"data":[
-                            {"data":{"name":"primitivetools:flint_shard"}},
-                            {"data":{"name":"primitivetools:flint_flake"}},
-                            {"data":{"name":"primitivetools:flint_point"}}
-                        ], "min": 1, "max": 2},
+                        {"data":{"name":"pyrotech:material","meta":10, "min": 1, "max": 2}},
                         {"data":{"name":"flint","min":1,"max":2}},
-                        {"data":{"name":"primitivetools:plant_fiber","min":4,"max":8}},
+                        {"data":{"name":"pyrotech:material","meta":12, "min": 4, "max": 8}},
                         {"data":{"name":"gunpowder","min":1,"max":3}},
                         {"data":{"name":"torch","min":4,"max":8}},
                         {"data":{"name":"botania:tinyPotato"}}
