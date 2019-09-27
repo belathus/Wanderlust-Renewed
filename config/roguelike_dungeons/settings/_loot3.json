@@ -4,15 +4,34 @@
 		{	
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "dungeontactics:gilded_helmet", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:gilded_chestplate", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:gilded_leggings", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:gilded_boots", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_helmet", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_chestplate", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_leggings", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_boots", "ench" : 20}},
-				{"data":{"name":"randomthings:waterwalkingboots", "ench":20}}
+				{
+					"data": [
+						{"data" : {"name" : "dungeontactics:steel_plate_faceplate", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_plate_chestpiece", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_plate_greaves", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_plate_boots", "ench" : 20}}
+					],
+					"weight":5
+				},
+				{
+					"data": [
+						{"data" : {"name" : "botania:manaweavehelm", "ench" : 25}},
+						{"data" : {"name" : "botania:manaweavechest", "ench" : 25}},
+						{"data" : {"name" : "botania:manaweavelegs", "ench" : 25}},
+						{"data" : {"name" : "botania:manaweaveboots", "ench" : 25}}
+					],
+					"weight":3
+				},
+				{
+					"data": [
+						{"data" : {"name" : "dungeontactics:steel_helmet", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_chestplate", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_leggings", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_boots", "ench" : 20}},				
+						{"data":{"name":"randomthings:waterwalkingboots", "ench":20}}
+					],
+					"weight":5
+				}
 			],
 			"level" : 3,
 			"each" : true,
@@ -22,20 +41,29 @@
 			"type" : "WEAPONS", 
 			"loot" : [
 				{
-					"data" : [
-						{"data" : {"name" : "dungeontactics:gilded_sword", "ench" : 20}},
-						{"data" : {"name" : "dungeontactics:gilded_knife", "ench" : 20}}
+					"data":[
+						{"data" : {"name" : "dungeontactics:steel_cestus", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_knife", "ench" : 20}}
 					],
-					"min" : 1, "max" : 1
+					"weight":5
 				},
 				{
-					"data" : [
-						{"data" : {"name" : "dungeontactics:jewelled_sword", "ench" : 20}},
-						{"data" : {"name" : "dungeontactics:jewelled_knife", "ench" : 20}}
+					"data":[
+						{"data" : {"name" : "dungeontactics:steel_sword", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_cutlass", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_glaive", "ench" : 20}},
+						{"data" : {"name" : "botania:enderDagger", "ench" : 20}}
 					],
-					"min" : 1, "max" : 1
+					"weight":3
 				},
-				{"data" : {"name" : "botania:manaGun"}}
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:steel_hammer", "ench" : 20}},
+						{"data" : {"name" : "dungeontactics:steel_battleaxe", "ench" : 20}},
+						{"data" : {"name" : "botania:manaGun"}}
+					],
+					"weight":2
+				}
 			],
 			"level" : 3,
 			"each" : true,
@@ -44,14 +72,10 @@
 		{	
 			"type" : "TOOLS", 
 			"loot" : [
-				{"data" : {"name" : "dungeontactics:gilded_pickaxe", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:gilded_shovel", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:gilded_axe", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:gilded_hoe", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_pickaxe", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_shovel", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_axe", "ench" : 20}},
-				{"data" : {"name" : "dungeontactics:jewelled_hoe", "ench" : 20}}
+				{"data" : {"name" : "dungeontactics:steel_pickaxe", "ench" : 20}},
+				{"data" : {"name" : "dungeontactics:steel_shovel", "ench" : 20}},
+				{"data" : {"name" : "dungeontactics:steel_axe", "ench" : 20}},
+				{"data" : {"name" : "dungeontactics:steel_hoe", "ench" : 20}}
 			],
 			"level" : 3,
 			"each" : true,
@@ -185,7 +209,8 @@
 						},
 						{"data":{"name":"metalchests:metal_chest", "meta":4, "comment": "Mithril Chest"}},
 						{"data":{"name":"metalchests:chest_upgrade", "meta":12, "comment":"Gold to Mithril Chest Upgrade"}},
-						{"data":{"name":"astralsorcery:itemshiftingstar"}}
+						{"data":{"name":"astralsorcery:itemshiftingstar"}},
+						{"data":{"name":"dungeontactics:diamond_ring", "ench": 20}}
 					],
 					"weight":2
 				}

@@ -28,7 +28,7 @@
 						{"data" : {"name" : "dungeontactics:iron_plate_chestpiece", "ench" : 12}},
 						{"data" : {"name" : "dungeontactics:iron_plate_greaves", "ench" : 12}},
 						{"data" : {"name" : "dungeontactics:iron_plate_boots", "ench" : 12}},
-						{"data":{"name":"randomthings:waterwalkingboots", "ench":12}}
+						{"data":{"name": "randomthings:waterwalkingboots", "ench":12}}
 					],
 					"weight":2
 				}
@@ -42,16 +42,24 @@
 			"loot" : [
 				{
 					"data":[
-						{"data" : {"name" : "iron_sword", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:iron_cestus", "ench" : 12}},
 						{"data" : {"name" : "dungeontactics:iron_knife", "ench" : 12}}
+					],
+					"weight":5
+				},
+				{
+					"data":[
+						{"data" : {"name" : "iron_sword", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:iron_cutlass", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:iron_glaive", "ench" : 12}},
+						{"data" : {"name" : "botania:enderDagger", "ench" : 12}}
 					],
 					"weight":3
 				},
 				{
 					"data":[
-						{"data" : {"name" : "dungeontactics:gilded_sword", "ench" : 12}},
-						{"data" : {"name" : "dungeontactics:gilded_knife", "ench" : 12}},
-						{"data" : {"name" : "botania:enderDagger", "ench" : 12}}
+						{"data" : {"name" : "dungeontactics:iron_hammer", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:iron_battleaxe", "ench" : 12}}
 					],
 					"weight":2
 				}
@@ -68,18 +76,10 @@
 						{"data" : {"name" : "iron_pickaxe", "ench" : 12}},
 						{"data" : {"name" : "iron_axe", "ench" : 12}},
 						{"data" : {"name" : "iron_shovel", "ench" : 12}},
-						{"data" : {"name" : "chisel:chisel_iron"}}
+						{"data" : {"name" : "chisel:chisel_iron"}},
+						{"data" : {"name" : "iron_hoe"}}
 					],
 					"weight":3
-				},
-				{
-					"data":[
-						{"data" : {"name" : "dungeontactics:gilded_pickaxe", "ench" : 12}},
-						{"data" : {"name" : "dungeontactics:gilded_shovel", "ench" : 12}},
-						{"data" : {"name" : "dungeontactics:gilded_axe", "ench" : 12}},
-						{"data" : {"name" : "dungeontactics:gilded_hoe", "ench" : 12}}
-					],
-					"weight":2
 				}
 			],
 			"level" : 2,
@@ -148,7 +148,7 @@
 						},
 						{"data":{"name":"astralsorcery:itemcraftingcomponent", "min":1, "max":3}},
 						{"data":{"name":"evilcraft:dark_gem"}},
-            {"data":{"name":"evilcraft:dark_gem_crushed"}},
+            			{"data":{"name":"evilcraft:dark_gem_crushed"}},
 						{"data":{"name":"evilcraft:dark_gem", "min":1, "max":2}},
 						{"data":{"name":"evilcraft:dark_gem_crushed", "min":1, "max":2}},
 						{"data":{"name":"immersiveengineering:wooden_device0", "min":1, "max":3}},

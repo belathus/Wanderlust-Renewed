@@ -15,11 +15,10 @@
                 },
                 {
                     "data":[
-                        {"data":{"name":"silver_helmet","ench":5}},
-                        {"data":{"name":"silver_chestplate","ench":5}},
-                        {"data":{"name":"silver_leggings","ench":5}},
-                        {"data":{"name":"silver_boots","ench":5}},
-                        {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
+                        {"data":{"name":"dungeontactics:silver_helmet","ench":5}},
+                        {"data":{"name":"dungeontactics:silver_chestplate","ench":5}},
+                        {"data":{"name":"dungeontactics:silver_leggings","ench":5}},
+                        {"data":{"name":"dungeontactics:silver_boots","ench":5}}
                     ],
                     "weight":3
                 },
@@ -41,8 +40,29 @@
         {
             "type":"WEAPONS",
             "loot":[
-                {"data":{"name":"dungeontactics:bronze_knife","ench":5}},
-                {"data":{"name":"dungeontactics:bronze_shield","ench":5}}
+                {
+					"data":[
+						{"data" : {"name" : "dungeontactics:silver_cestus", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:silver_knife", "ench" : 12}}
+					],
+					"weight":5
+				},
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:silver_sword", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:silver_cutlass", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:silver_glaive", "ench" : 12}},
+						{"data" : {"name" : "botania:enderDagger", "ench" : 12}}
+					],
+					"weight":3
+				},
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:silver_hammer", "ench" : 12}},
+						{"data" : {"name" : "dungeontactics:silver_battleaxe", "ench" : 12}}
+					],
+					"weight":2
+				}
             ],
             "level":1,
             "each":true,
@@ -75,7 +95,7 @@
                         {"data":{"name":"contenttweaker:material_part","meta":67,"comment":"Tin","min":1,"max":3}},
                         {"data":{"name":"contenttweaker:material_part","meta":81, "comment": "zinc", "min":1,"max":3}},
                         {"data":{"name":"forestry:ingot_copper","comment":"Copper","min":1,"max":3}},
-                        {"data":{"name":"dungeontactics:iron_ring","min":1,"max":2,"ench":5}},
+                        {"data":{"name":"dungeontactics:golden_ring","min":1,"max":2,"ench":5}},
                         {"data":{"name":"redstone","min":2,"max":8}},
                         {
 							"data":[

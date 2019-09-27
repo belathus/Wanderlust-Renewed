@@ -4,15 +4,38 @@
 		{	
 			"type" : "ARMOUR", 
 			"loot" : [
-				{"data" : {"name" : "diamond_helmet", "ench" : 30}},
-				{"data" : {"name" : "diamond_chestplate", "ench" : 30}},
-				{"data" : {"name" : "diamond_leggings", "ench" : 30}},
-				{"data" : {"name" : "diamond_boots", "ench" : 30}},
-				{"data" : {"name" : "dungeontactics:jewelled_helmet", "ench" : 30}},
-				{"data" : {"name" : "dungeontactics:jewelled_chestplate", "ench" : 30}},
-				{"data" : {"name" : "dungeontactics:jewelled_leggings", "ench" : 30}},
-				{"data" : {"name" : "dungeontactics:jewelled_boots", "ench" : 30}},
-				{"data":{"name":"randomthings:obsidianwaterwalkingboots", "ench":30}}
+				{
+					"data":[
+						{"data" : {"name" : "dungeontactics:steel_plate_faceplate", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_plate_chestpiece", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_plate_greaves", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_plate_boots", "ench" : 30}}
+					],
+					"weight": 5
+				},
+				{
+					"data":[
+						{"data" : {"name" : "diamond_helmet", "ench" : 30}},
+						{"data" : {"name" : "diamond_chestplate", "ench" : 30}},
+						{"data" : {"name" : "diamond_leggings", "ench" : 30}},
+						{"data" : {"name" : "diamond_boots", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:diamond_plate_faceplate", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:diamond_plate_chestpiece", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:diamond_plate_greaves", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:diamond_plate_boots", "ench" : 30}},
+						{"data": {"name":"randomthings:obsidianwaterwalkingboots", "ench":30}}
+					],
+					"weight": 3
+				},
+				{
+					"data":[
+						{"data": {"name":"dungeontactics:mithril_helmet", "ench":30}},
+						{"data": {"name":"dungeontactics:mithril_chestplate", "ench":30}},
+						{"data": {"name":"dungeontactics:mithril_leggings", "ench":30}},
+						{"data": {"name":"dungeontactics:mithril_boots", "ench":30}}
+					],
+					"weight": 2
+				}
 			],
 			"level" : 4,
 			"each" : true,
@@ -23,13 +46,40 @@
 			"loot" : [
 				{
                     "data":[
+                        {"data" : {"name" : "dungeontactics:steel_hammer", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_battleaxe", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_glaive", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_sword", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_cutlass", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_knife", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:steel_shield", "ench" : 30}}
+                    ],
+                    "weight":5
+				},
+				{
+                    "data":[
                         {"data" : {"name" : "diamond_sword", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:diamond_cestus", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:diamond_knife", "ench" : 30}},
                         {"data" : {"name" : "dungeontactics:diamond_hammer", "ench" : 30}},
-                        {"data" : {"name" : "dungeontactics:diamond_knife", "ench" : 30}}
+                        {"data" : {"name" : "dungeontactics:diamond_battleaxe", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:diamond_cutlass", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:diamond_shield", "ench" : 30}}
                     ],
                     "weight":3
-                },
-                {"data" : {"name" : "minecraft:diamond_sword", "ench" : 30}, "weight":2}
+				},
+				{
+                    "data":[
+                        {"data" : {"name" : "dungeontactics:mithril_hammer", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:mithril_battleaxe", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:mithril_glaive", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:mithril_sword", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:mithril_cutlass", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:mithril_knife", "ench" : 30}},
+                        {"data" : {"name" : "dungeontactics:mithril_shield", "ench" : 30}}
+                    ],
+                    "weight":2
+                }
 			],
 			"level" : 4,
 			"each" : true,
@@ -58,6 +108,16 @@
 						
 					],
 					"weight":3
+				},
+				{
+					"data":[
+                        {"data" : {"name" : "dungeontactics:mithril_pickaxe", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:mithril_axe", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:mithril_shovel", "ench" : 30}},
+						{"data" : {"name" : "dungeontactics:mithril_hoe", "ench" : 30}}
+						
+					],
+					"weight":2
 				}
 			],
 			"level" : 4,
