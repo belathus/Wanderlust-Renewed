@@ -149,13 +149,13 @@ import loottweaker.vanilla.loot.Functions;
 
   # Electroblob's Wizardry Stuff
     dp_ultrarare.addItemEntry(<ebwizardry:magic_wand>,                   400, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_earth_wand>,             100, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_fire_wand>,              100, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_healing_wand>,           100, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_ice_wand>,               100, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_lightning_wand>,         100, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_necromancy_wand>,        100, 0);
-    dp_ultrarare.addItemEntry(<ebwizardry:basic_sorcery_wand>,           100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_earth_wand>,             100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_fire_wand>,              100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_healing_wand>,           100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_ice_wand>,               100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_lightning_wand>,         100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_necromancy_wand>,        100, 0);
+    dp_ultrarare.addItemEntry(<ebwizardry:novice_sorcery_wand>,           100, 0);
 
   # Evilcraft Stuff
     dp_ultrarare.addItemEntry(<evilcraft:blood_extractor>.withTag({"capacity": 8000}),    100, 0);
