@@ -63,5 +63,5 @@ import loottweaker.vanilla.loot.Functions;
   item.addItemEntryHelper(<botania:flower:15>,              10, 0, [], []);
   item.addItemEntryHelper(<evilcraft:condensed_blood>,      10, 0, [], []);
   item.addItemEntryHelper(<ebwizardry:magic_crystal>,       10, 0, [], []);
-  item.addItemEntryHelper(<ebwizardry:mana_flask>,          10, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:small_mana_flask>,          10, 0, [], []);
   item.addItemEntryHelper(<wizardry:devil_dust>,            10, 0, [], []);

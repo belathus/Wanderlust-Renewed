@@ -14,11 +14,6 @@ import mods.artisanworktables.builder.Copy;
 #	 .addTool(<ore:toolWrench>, 1)
 #	 .create();
 
-  # DT Bronze Wrench  
-   RecipeBuilder.get("engineer")
-   .setCopy(Copy.byOutput([<dungeontactics:engineers_wrench_bronze>]))
-	 .create();
-
   # DT Iron Wrench  
    RecipeBuilder.get("engineer")
      .setCopy(Copy.byOutput([<dungeontactics:engineers_wrench_iron>]))

@@ -307,7 +307,6 @@ recipes.addShaped(<chisel:blockUranium>*16,
   mods.chisel.Carving.addVariation("glass", <tconstruct:clear_glass>);
     
 # Slate
-  mods.chisel.Carving.addGroup("slate");
   mods.chisel.Carving.addVariation("slate", <rustic:slate>);
   mods.chisel.Carving.addVariation("slate", <rustic:slate_pillar>);
   mods.chisel.Carving.addVariation("slate", <rustic:slate_roof>);

@@ -16,7 +16,7 @@ import loottweaker.vanilla.loot.Functions;
   val eio_tool1 = Functions.parse({"function": "enderio:set_random_dark_upgrade"} as crafttweaker.data.IData);
   val eio_tool2 = Functions.parse({"function": "enderio:set_random_energy"} as crafttweaker.data.IData);
   val ancient_tome = Functions.parse({"function": "quark:enchant_tome"} as crafttweaker.data.IData);
-  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["basic"]} as crafttweaker.data.IData);
+  val eb_novice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["novice"]} as crafttweaker.data.IData);
   val eb_apprentice = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["apprentice"]} as crafttweaker.data.IData);
   val eb_advanced = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["advanced"]} as crafttweaker.data.IData);
   val eb_master = Functions.parse({"function": "ebwizardry:random_spell", "tiers":["master"]} as crafttweaker.data.IData);
@@ -176,10 +176,10 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntryHelper(<enderio:item_dark_steel_bow>,                       2, 0, [eio_tool1, eio_tool2, tool_dam, tool_ench], []);
   
   # Dungeon Tactics stuff
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_helmet>,                   30, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_chestplate>,               30, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_leggings>,                 30, 0, [tool_ench], []);
-  mc_ultrarare.addItemEntryHelper(<dungeontactics:jewelled_boots>,                    30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:silver_helmet>,                   30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:silver_chestplate>,               30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:silver_leggings>,                 30, 0, [tool_ench], []);
+  mc_ultrarare.addItemEntryHelper(<dungeontactics:silver_boots>,                    30, 0, [tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_ring>,                       40, 0, [tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<dungeontactics:master_hammer_leap>,                10, 0, [major_tool_ench], []);
   mc_ultrarare.addItemEntryHelper(<dungeontactics:master_hammer_smash>,               10, 0, [major_tool_ench], []);
