@@ -215,7 +215,7 @@
         recipes.addShaped(slab * 2, 
             [[<ore:toolHandsaw>.transformDamage()],    [plank]]);
         recipes.addShaped(slab * 2,
-            [[<ore:artisansHandsaw>.transformDamage()], [log]]);
+            [[<ore:artisansHandsaw>.transformDamage()], [plank]]);
         mods.artisanworktables.builder.RecipeBuilder.get("carpenter")
             .setShapeless([plank])
             .addOutput(slab * 2)
