@@ -19,9 +19,9 @@
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
-                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='netherex:.*' weight='1.0'/>
                 <Replaces block='minecraft:lava' weight='1.0'/>
-                <Replaces block='nex:block_hyphae' weight='1.0'/>
+                <Replaces block='netherex:block_hyphae' weight='1.0'/>
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Biome name='.*'  />

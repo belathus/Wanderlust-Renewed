@@ -26,7 +26,7 @@
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
-                <ReplacesRegexp block='nex:.*' weight='1.0'/>
+                <ReplacesRegexp block='netherex:.*' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 2.600 * _default_ ' range=':= 2.600 * _default_ ' type='normal' />

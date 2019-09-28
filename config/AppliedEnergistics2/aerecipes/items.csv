@@ -12101,13 +12101,13 @@ ebwizardry:arcane_tome:1, Tome of Arcana
 ebwizardry:arcane_tome:2, Tome of Arcana
 ebwizardry:arcane_tome:3, Tome of Arcana
 ebwizardry:wizard_handbook, The Wizard's Handbook
-ebwizardry:basic_fire_wand, Wand of Embers
-ebwizardry:basic_ice_wand, Wand of Frost
-ebwizardry:basic_lightning_wand, Wand of Sparks
-ebwizardry:basic_necromancy_wand, Wand of Shadows
-ebwizardry:basic_earth_wand, Wand of the Forest
-ebwizardry:basic_sorcery_wand, Wand of Mystery
-ebwizardry:basic_healing_wand, Wand of Healing
+ebwizardry:novice_fire_wand, Wand of Embers
+ebwizardry:novice_ice_wand, Wand of Frost
+ebwizardry:novice_lightning_wand, Wand of Sparks
+ebwizardry:novice_necromancy_wand, Wand of Shadows
+ebwizardry:novice_earth_wand, Wand of the Forest
+ebwizardry:novice_sorcery_wand, Wand of Mystery
+ebwizardry:novice_healing_wand, Wand of Healing
 ebwizardry:apprentice_fire_wand, Apprentice Pyromancer Wand
 ebwizardry:apprentice_ice_wand, Apprentice Ice Mage Wand
 ebwizardry:apprentice_lightning_wand, Apprentice Storm Mage Wand
@@ -16152,142 +16152,142 @@ mekanism:plasticfence:13, §dMagenta Plastic Barrier
 mekanism:plasticfence:14, §6Orange Plastic Barrier
 mekanism:plasticfence:15, §fWhite Plastic Barrier
 mekanism:saltblock, Salt Block
-nex:block_basalt:0, Basalt
-nex:block_basalt:1, Smooth Basalt
-nex:block_basalt:2, Basalt Bricks
-nex:block_basalt:3, Basalt Pillar
-nex:block_netherrack:0, Fiery Netherrack
-nex:block_netherrack:1, Icy Netherrack
-nex:block_netherrack:2, Lively Netherrack
-nex:block_netherrack:3, Gloomy Netherrack
-nex:block_brick_nether:0, Fiery Nether Bricks
-nex:block_brick_nether:1, Icy Nether Bricks
-nex:block_brick_nether:2, Lively Nether Bricks
-nex:block_brick_nether:3, Gloomy Nether Bricks
-nex:block_netherrack_path:0, Trodden Netherrack
-nex:block_netherrack_path:1, Fiery Trodden Netherrack
-nex:block_netherrack_path:2, Icy Trodden Netherrack
-nex:block_netherrack_path:3, Lively Trodden Netherrack
-nex:block_netherrack_path:4, Gloomy Trodden Netherrack
-nex:block_hyphae, Hyphae
-nex:block_sand_soul_tilled, Tilled Soul Sand
-nex:block_glass_soul, Soul Glass
-nex:block_glass_pane_soul, Soul Glass Pane
-nex:block_amethyst, Nether Amethyst Block
-nex:block_rime, Nether Rime Block
-nex:block_ice_frostburn, Frostburn Ice
-nex:block_bone_sliver, Bone Sliver
-nex:block_bone_chunk, Bone Chunk
-nex:block_iron_worn, Worn Iron Block
-nex:tile_urn_sorrow:0, Urn of Sorrow
-nex:tile_urn_sorrow:1, Urn of Sorrow
-nex:ore_quartz:0, Fiery Quartz Ore
-nex:ore_quartz:1, Icy Quartz Ore
-nex:ore_quartz:2, Lively Quartz Ore
-nex:ore_quartz:3, Gloomy Quartz Ore
-nex:ore_amethyst, Nether Amethyst Ore
-nex:ore_rime, Nether Rime Ore
-nex:plant_mushroom_elder:0, Brown Elder Mushroom
-nex:plant_mushroom_elder:1, Red Elder Mushroom
-nex:plant_mushroom_elder_cap:0, Brown Elder Mushroom Cap
-nex:plant_mushroom_elder_cap:1, Red Elder Mushroom Cap
-nex:plant_mushroom_elder_stem, Elder Mushroom Stem
-nex:plant_mushroom_enoki_stem, Enoki Mushroom Stem
-nex:plant_mushroom_enoki_cap, Enoki Mushroom Cap
-nex:plant_thornstalk:0, Thornstalk
-nex:fluid_ichor, Ichor
-nex:slab_vanilla:0, Red Nether Brick Slab
-nex:slab_basalt:0, Basalt Slab
-nex:slab_basalt:1, Smooth Basalt Slab
-nex:slab_basalt:2, Basalt Brick Slab
-nex:slab_basalt:3, Basalt Pillar Slab
-nex:slab_brick_nether:0, Fiery Nether Brick Slab
-nex:slab_brick_nether:1, Icy Nether Brick Slab
-nex:slab_brick_nether:2, Lively Nether Brick Slab
-nex:slab_brick_nether:3, Gloomy Nether Brick Slab
-nex:slab_vanilla_double:0, Red Nether Brick Slabs
-nex:slab_basalt_double:0, Basalt Slabs
-nex:slab_basalt_double:1, Smooth Basalt Slabs
-nex:slab_basalt_double:2, Basalt Brick Slabs
-nex:slab_basalt_double:3, Basalt Pillar Slabs
-nex:slab_brick_nether_double:0, Fiery Nether Brick Slabs
-nex:slab_brick_nether_double:1, Icy Nether Brick Slabs
-nex:slab_brick_nether_double:2, Lively Nether Brick Slabs
-nex:slab_brick_nether_double:3, Gloomy Nether Brick Slabs
-nex:stairs_brick_nether_red, Red Nether Brick Stairs
-nex:stairs_brick_nether_fiery, Fiery Nether Brick Stairs
-nex:stairs_brick_nether_icy, Icy Nether Brick Stairs
-nex:stairs_brick_nether_lively, Lively Nether Brick Stairs
-nex:stairs_brick_nether_gloomy, Gloomy Nether Brick Stairs
-nex:stairs_basalt_normal, Basalt Stairs
-nex:stairs_basalt_smooth, Smooth Basalt Stairs
-nex:stairs_basalt_brick, Basalt Brick Stairs
-nex:stairs_basalt_pillar, Basalt Pillar Stairs
-nex:wall_vanilla:0, Quartz Wall
-nex:wall_vanilla:1, Nether Brick Wall
-nex:wall_vanilla:2, Red Nether Brick Wall
-nex:wall_basalt:0, Basalt Wall
-nex:wall_basalt:1, Smooth Basalt Wall
-nex:wall_basalt:2, Basalt Brick Wall
-nex:wall_basalt:3, Basalt Pillar Wall
-nex:wall_brick_nether:0, Fiery Nether Brick Wall
-nex:wall_brick_nether:1, Icy Nether Brick Wall
-nex:wall_brick_nether:2, Lively Nether Brick Wall
-nex:wall_brick_nether:3, Gloomy Nether Brick Wall
-nex:fence_vanilla:0, Quartz Fence
-nex:fence_vanilla:1, Red Nether Brick Fence
-nex:fence_basalt:0, Basalt Fence
-nex:fence_basalt:1, Smooth Basalt Fence
-nex:fence_basalt:2, Basalt Brick Fence
-nex:fence_basalt:3, Basalt Pillar Fence
-nex:fence_brick_nether:0, Fiery Nether Brick Fence
-nex:fence_brick_nether:1, Icy Nether Brick Fence
-nex:fence_brick_nether:2, Lively Nether Brick Fence
-nex:fence_brick_nether:3, Gloomy Nether Brick Fence
-nex:fence_gate_quartz, Quartz Fence Gate
-nex:fence_gate_brick_nether, Nether Brick Fence Gate
-nex:fence_gate_brick_nether_red, Red Nether Brick Fence Gate
-nex:fence_gate_basalt_normal, Basalt Fence Gate
-nex:fence_gate_basalt_smooth, Smooth Basalt Fence Gate
-nex:fence_gate_basalt_brick, Basalt Brick Fence Gate
-nex:fence_gate_basalt_pillar, Basalt Pillar Fence Gate
-nex:fence_gate_brick_nether_fiery, Fiery Nether Brick Fence Gate
-nex:fence_gate_brick_nether_icy, Icy Nether Brick Fence Gate
-nex:fence_gate_brick_nether_lively, Lively Nether Brick Fence Gate
-nex:fence_gate_brick_nether_gloomy, Gloomy Nether Brick Fence Gate
-nex:item_brick_nether:0, Fiery Nether Brick
-nex:item_brick_nether:1, Icy Nether Brick
-nex:item_brick_nether:2, Lively Nether Brick
-nex:item_brick_nether:3, Gloomy Nether Brick
-nex:item_bone_wither, Wither Bone
-nex:item_dust_wither, Wither Dust
-nex:item_hide_salamander:0, Orange Salamander Hide
-nex:item_hide_salamander:1, Black Salamander Hide
-nex:item_crystal_amethyst, Nether Amethyst Crystal
-nex:item_crystal_rime, Nether Rime Crystal
-nex:item_crystal_rime_steel, Rime and Steel
-nex:item_spore, Spore
-nex:item_fang_spider_bone, Frost Fang
-nex:item_tear_ghast_queen, Ghast Queen Tears
-nex:item_boat_obsidian, Obsidian Boat
-nex:food_meat_ghast_raw, Raw Ghast Meat
-nex:food_meat_ghast_cooked, Cooked Ghast Meat
-nex:food_congealed_magma_cream, Congealed Magma Cream
-nex:food_mushroom_enoki, Enoki Mushroom
-nex:tool_sword_bone, Golden Bone Sword
-nex:tool_pickaxe_bone, Golden Bone Pickaxe
-nex:tool_shovel_bone, Golden Bone Shovel
-nex:tool_axe_bone, Golden Bone Axe
-nex:tool_hoe_bone, Golden Bone Hoe
-nex:tool_hammer_bone, Golden Bone Hammer
-nex:armor_helmet_bone, Bone Helmet
-nex:armor_chestplate_bone, Bone Chestplate
-nex:armor_leggings_bone, Bone Leggings
-nex:armor_boots_bone, Bone Boots
-nex:armor_helmet_hide_salamander, Salamander Hide Helmet
-nex:armor_chestplate_hide_salamander, Salamander Hide Chestplate
-nex:armor_leggings_hide_salamander, Salamander Hide Leggings
-nex:armor_boots_hide_salamander, Salamander Hide Boots
+netherex:block_basalt:0, Basalt
+netherex:block_basalt:1, Smooth Basalt
+netherex:block_basalt:2, Basalt Bricks
+netherex:block_basalt:3, Basalt Pillar
+netherex:block_netherrack:0, Fiery Netherrack
+netherex:block_netherrack:1, Icy Netherrack
+netherex:block_netherrack:2, Lively Netherrack
+netherex:block_netherrack:3, Gloomy Netherrack
+netherex:block_brick_nether:0, Fiery Nether Bricks
+netherex:block_brick_nether:1, Icy Nether Bricks
+netherex:block_brick_nether:2, Lively Nether Bricks
+netherex:block_brick_nether:3, Gloomy Nether Bricks
+netherex:block_netherrack_path:0, Trodden Netherrack
+netherex:block_netherrack_path:1, Fiery Trodden Netherrack
+netherex:block_netherrack_path:2, Icy Trodden Netherrack
+netherex:block_netherrack_path:3, Lively Trodden Netherrack
+netherex:block_netherrack_path:4, Gloomy Trodden Netherrack
+netherex:block_hyphae, Hyphae
+netherex:block_sand_soul_tilled, Tilled Soul Sand
+netherex:block_glass_soul, Soul Glass
+netherex:block_glass_pane_soul, Soul Glass Pane
+netherex:block_amethyst, Nether Amethyst Block
+netherex:block_rime, Nether Rime Block
+netherex:block_ice_frostburn, Frostburn Ice
+netherex:block_bone_sliver, Bone Sliver
+netherex:block_bone_chunk, Bone Chunk
+netherex:block_iron_worn, Worn Iron Block
+netherex:tile_urn_sorrow:0, Urn of Sorrow
+netherex:tile_urn_sorrow:1, Urn of Sorrow
+netherex:ore_quartz:0, Fiery Quartz Ore
+netherex:ore_quartz:1, Icy Quartz Ore
+netherex:ore_quartz:2, Lively Quartz Ore
+netherex:ore_quartz:3, Gloomy Quartz Ore
+netherex:ore_amethyst, Nether Amethyst Ore
+netherex:ore_rime, Nether Rime Ore
+netherex:plant_mushroom_elder:0, Brown Elder Mushroom
+netherex:plant_mushroom_elder:1, Red Elder Mushroom
+netherex:plant_mushroom_elder_cap:0, Brown Elder Mushroom Cap
+netherex:plant_mushroom_elder_cap:1, Red Elder Mushroom Cap
+netherex:plant_mushroom_elder_stem, Elder Mushroom Stem
+netherex:plant_mushroom_enoki_stem, Enoki Mushroom Stem
+netherex:plant_mushroom_enoki_cap, Enoki Mushroom Cap
+netherex:plant_thornstalk:0, Thornstalk
+netherex:fluid_ichor, Ichor
+netherex:slab_vanilla:0, Red Nether Brick Slab
+netherex:slab_basalt:0, Basalt Slab
+netherex:slab_basalt:1, Smooth Basalt Slab
+netherex:slab_basalt:2, Basalt Brick Slab
+netherex:slab_basalt:3, Basalt Pillar Slab
+netherex:slab_brick_nether:0, Fiery Nether Brick Slab
+netherex:slab_brick_nether:1, Icy Nether Brick Slab
+netherex:slab_brick_nether:2, Lively Nether Brick Slab
+netherex:slab_brick_nether:3, Gloomy Nether Brick Slab
+netherex:slab_vanilla_double:0, Red Nether Brick Slabs
+netherex:slab_basalt_double:0, Basalt Slabs
+netherex:slab_basalt_double:1, Smooth Basalt Slabs
+netherex:slab_basalt_double:2, Basalt Brick Slabs
+netherex:slab_basalt_double:3, Basalt Pillar Slabs
+netherex:slab_brick_nether_double:0, Fiery Nether Brick Slabs
+netherex:slab_brick_nether_double:1, Icy Nether Brick Slabs
+netherex:slab_brick_nether_double:2, Lively Nether Brick Slabs
+netherex:slab_brick_nether_double:3, Gloomy Nether Brick Slabs
+netherex:stairs_brick_nether_red, Red Nether Brick Stairs
+netherex:stairs_brick_nether_fiery, Fiery Nether Brick Stairs
+netherex:stairs_brick_nether_icy, Icy Nether Brick Stairs
+netherex:stairs_brick_nether_lively, Lively Nether Brick Stairs
+netherex:stairs_brick_nether_gloomy, Gloomy Nether Brick Stairs
+netherex:stairs_basalt_normal, Basalt Stairs
+netherex:stairs_basalt_smooth, Smooth Basalt Stairs
+netherex:stairs_basalt_brick, Basalt Brick Stairs
+netherex:stairs_basalt_pillar, Basalt Pillar Stairs
+netherex:wall_vanilla:0, Quartz Wall
+netherex:wall_vanilla:1, Nether Brick Wall
+netherex:wall_vanilla:2, Red Nether Brick Wall
+netherex:wall_basalt:0, Basalt Wall
+netherex:wall_basalt:1, Smooth Basalt Wall
+netherex:wall_basalt:2, Basalt Brick Wall
+netherex:wall_basalt:3, Basalt Pillar Wall
+netherex:wall_brick_nether:0, Fiery Nether Brick Wall
+netherex:wall_brick_nether:1, Icy Nether Brick Wall
+netherex:wall_brick_nether:2, Lively Nether Brick Wall
+netherex:wall_brick_nether:3, Gloomy Nether Brick Wall
+netherex:fence_vanilla:0, Quartz Fence
+netherex:fence_vanilla:1, Red Nether Brick Fence
+netherex:fence_basalt:0, Basalt Fence
+netherex:fence_basalt:1, Smooth Basalt Fence
+netherex:fence_basalt:2, Basalt Brick Fence
+netherex:fence_basalt:3, Basalt Pillar Fence
+netherex:fence_brick_nether:0, Fiery Nether Brick Fence
+netherex:fence_brick_nether:1, Icy Nether Brick Fence
+netherex:fence_brick_nether:2, Lively Nether Brick Fence
+netherex:fence_brick_nether:3, Gloomy Nether Brick Fence
+netherex:fence_gate_quartz, Quartz Fence Gate
+netherex:fence_gate_brick_nether, Nether Brick Fence Gate
+netherex:fence_gate_brick_nether_red, Red Nether Brick Fence Gate
+netherex:fence_gate_basalt_normal, Basalt Fence Gate
+netherex:fence_gate_basalt_smooth, Smooth Basalt Fence Gate
+netherex:fence_gate_basalt_brick, Basalt Brick Fence Gate
+netherex:fence_gate_basalt_pillar, Basalt Pillar Fence Gate
+netherex:fence_gate_brick_nether_fiery, Fiery Nether Brick Fence Gate
+netherex:fence_gate_brick_nether_icy, Icy Nether Brick Fence Gate
+netherex:fence_gate_brick_nether_lively, Lively Nether Brick Fence Gate
+netherex:fence_gate_brick_nether_gloomy, Gloomy Nether Brick Fence Gate
+netherex:item_brick_nether:0, Fiery Nether Brick
+netherex:item_brick_nether:1, Icy Nether Brick
+netherex:item_brick_nether:2, Lively Nether Brick
+netherex:item_brick_nether:3, Gloomy Nether Brick
+netherex:item_bone_wither, Wither Bone
+netherex:item_dust_wither, Wither Dust
+netherex:item_hide_salamander:0, Orange Salamander Hide
+netherex:item_hide_salamander:1, Black Salamander Hide
+netherex:item_crystal_amethyst, Nether Amethyst Crystal
+netherex:item_crystal_rime, Nether Rime Crystal
+netherex:item_crystal_rime_steel, Rime and Steel
+netherex:item_spore, Spore
+netherex:item_fang_spider_bone, Frost Fang
+netherex:item_tear_ghast_queen, Ghast Queen Tears
+netherex:item_boat_obsidian, Obsidian Boat
+netherex:food_meat_ghast_raw, Raw Ghast Meat
+netherex:food_meat_ghast_cooked, Cooked Ghast Meat
+netherex:food_congealed_magma_cream, Congealed Magma Cream
+netherex:food_mushroom_enoki, Enoki Mushroom
+netherex:tool_sword_bone, Golden Bone Sword
+netherex:tool_pickaxe_bone, Golden Bone Pickaxe
+netherex:tool_shovel_bone, Golden Bone Shovel
+netherex:tool_axe_bone, Golden Bone Axe
+netherex:tool_hoe_bone, Golden Bone Hoe
+netherex:tool_hammer_bone, Golden Bone Hammer
+netherex:armor_helmet_bone, Bone Helmet
+netherex:armor_chestplate_bone, Bone Chestplate
+netherex:armor_leggings_bone, Bone Leggings
+netherex:armor_boots_bone, Bone Boots
+netherex:armor_helmet_hide_salamander, Salamander Hide Helmet
+netherex:armor_chestplate_hide_salamander, Salamander Hide Chestplate
+netherex:armor_leggings_hide_salamander, Salamander Hide Leggings
+netherex:armor_boots_hide_salamander, Salamander Hide Boots
 immersiveengineering:ore:0, Copper Ore
 immersiveengineering:ore:1, Bauxite Ore
 immersiveengineering:ore:2, Lead Ore

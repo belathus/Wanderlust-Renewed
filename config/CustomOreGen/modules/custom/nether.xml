@@ -62,7 +62,7 @@
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
-                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='netherex:.*' weight='1.0'/>
                 <Biome name='.*'  />
                 <Setting name='MotherlodeFrequency'   avg=':= 0.210 * _default_ ' range=':= 0.210 * _default_ ' type='normal' scaleTo='base' />
                 <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
@@ -158,9 +158,9 @@
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
-                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='netherex:.*' weight='1.0'/>
                         <Replaces block='minecraft:lava' weight='1.0'/>
-                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <Replaces block='netherex:block_hyphae' weight='1.0'/>
                         <ReplacesOre block='netherrack' weight='1.0'/>
                         <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
@@ -205,9 +205,9 @@
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
-                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='netherex:.*' weight='1.0'/>
                         <Replaces block='minecraft:lava' weight='1.0'/>
-                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <Replaces block='netherex:block_hyphae' weight='1.0'/>
                         <ReplacesOre block='netherrack' weight='1.0'/>
                         <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
@@ -255,9 +255,9 @@
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
-                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='netherex:.*' weight='1.0'/>
                         <Replaces block='minecraft:lava' weight='1.0'/>
-                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <Replaces block='netherex:block_hyphae' weight='1.0'/>
                         <ReplacesOre block='netherrack' weight='1.0'/>
                         <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
@@ -304,9 +304,9 @@
                         <Replaces block='minecraft:magma' weight='1.0'/>
                         <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                         <Replaces block='minecraft:air' weight='1.0'/>
-                        <Replaces block='nex:.*' weight='1.0'/>
+                        <Replaces block='netherex:.*' weight='1.0'/>
                         <Replaces block='minecraft:lava' weight='1.0'/>
-                        <Replaces block='nex:block_hyphae' weight='1.0'/>
+                        <Replaces block='netherex:block_hyphae' weight='1.0'/>
                         <ReplacesOre block='netherrack' weight='1.0'/>
                         <Replaces block='minecraft:gravel' weight='1.0'/>
                         <Biome name='.*'  />
@@ -358,7 +358,7 @@
                 <Replaces block='minecraft:magma' weight='1.0'/>
                 <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
                 <Replaces block='minecraft:air' weight='1.0'/>
-                <Replaces block='nex:.*' weight='1.0'/>
+                <Replaces block='netherex:.*' weight='1.0'/>
                 <Replaces block='minecraft:lava' weight='1.0'/>
                 <ReplacesOre block='netherrack' weight='1.0'/>
                 <Replaces block='minecraft:gravel' weight='1.0'/>
@@ -411,7 +411,7 @@
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
-            <Replaces block='nex:.*' weight='1.0'/>
+            <Replaces block='netherex:.*' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
@@ -444,7 +444,7 @@
             <Replaces block='minecraft:magma' weight='1.0'/>
             <Replaces block='evilcraft:nether_monster_block' weight='1.0'/>
             <Replaces block='minecraft:air' weight='1.0'/>
-            <Replaces block='nex:.*' weight='1.0'/>
+            <Replaces block='netherex:.*' weight='1.0'/>
             <Setting name='MotherlodeFrequency'   avg=':= 0.150 * _default_ ' range=':= 0.050 * _default_ ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize'        avg=':= 1.600 * _default_ ' range=':= 1.600 * _default_ ' type='normal' />
             <Setting name='MotherlodeHeight'      avg=':= 64 '                range=':= 60 '                type='uniform' scaleTo='base' />
@@ -548,7 +548,7 @@
               <Replaces block='minecraft:magma' weight='1.0'/>
               <ReplacesOre block='netherrack' weight='1.0'/>
               <Replaces block='minecraft:gravel' weight='1.0'/>
-              <Replaces block='nex:block_netherrack' weight='1.0'/>
+              <Replaces block='netherex:block_netherrack' weight='1.0'/>
               <PlacesBelow block='natura:nether_heat_sand' weight='1.0'/>
               <PlacesBelow block='natura:nether_tainted_soil' weight='1.0'/>
               <PlacesBelow block='minecraft:magma' weight='1.0'/>
@@ -574,7 +574,7 @@
             <Replaces block='minecraft:magma' weight='1.0'/>
             <ReplacesOre block='netherrack' weight='1.0'/>
             <Replaces block='minecraft:gravel' weight='1.0'/>
-              <Replaces block='nex:block_netherrack' weight='1.0'/>
+              <Replaces block='netherex:block_netherrack' weight='1.0'/>
             <PlacesBelow block='natura:nether_heat_sand' weight='1.0'/>
             <PlacesBelow block='natura:nether_tainted_soil' weight='1.0'/>
             <PlacesBelow block='minecraft:magma' weight='1.0'/>
