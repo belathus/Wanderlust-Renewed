@@ -7,18 +7,18 @@
 */
 
 ### Furnace ###
-  recipes.remove(<minecraft:furnace>);
-  recipes.addShaped("wlr_furnace", <minecraft:furnace>,
-    [[<tconstruct:materials:2>,<tconstruct:materials:2>,<tconstruct:materials:2>],
-     [<tconstruct:materials:2>,<ore:charcoal>,          <tconstruct:materials:2>],
-     [<tconstruct:materials:2>,<tconstruct:materials:2>,<tconstruct:materials:2>]],
-     null,
-     function(output, crafting, player){
-       if(!player.hasGameStage("fireage")) {
-         player.addGameStage("fireage");
-         player.sendChat("You have unlocked the power of fire. Creepers might spawn, now.");
-       }
-     });
+#  recipes.remove(<minecraft:furnace>);
+#  recipes.addShaped("wlr_furnace", <minecraft:furnace>,
+#    [[<tconstruct:materials:2>,<tconstruct:materials:2>,<tconstruct:materials:2>],
+#     [<tconstruct:materials:2>,<ore:charcoal>,          <tconstruct:materials:2>],
+#     [<tconstruct:materials:2>,<tconstruct:materials:2>,<tconstruct:materials:2>]],
+#     null,
+#     function(output, crafting, player){
+#       if(!player.hasGameStage("fireage")) {
+#         player.addGameStage("fireage");
+#         player.sendChat("You have unlocked the power of fire. Creepers might spawn, now.");
+#       }
+#     });
 
 ### Hopper ###
   recipes.addShaped(<minecraft:hopper>,
