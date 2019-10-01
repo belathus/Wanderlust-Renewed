@@ -74,6 +74,8 @@ import loottweaker.vanilla.loot.Functions;
   mc_uncommon.addItemEntryHelper(<waystones:warp_scroll>,                4, 0, [Functions.setCount(1, 2)], []);
   mc_uncommon.addItemEntryHelper(<minecraft:emerald>,                    3, 0, [Functions.setCount(1, 2)], []);
   mc_uncommon.addItemEntryHelper(<minecraft:diamond>,                    3, 0, [Functions.setCount(1, 2)], []);
+  mc_uncommon.addItemEntry(<pyrotech:sawmill_blade_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Sawblade"}}), 5, 0);
+  mc_uncommon.addItemEntry(<pyrotech:cog_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Cog"}}), 5, 0);
   
   # Rare pool. You only get one of these per chest.
   val mc_rare = mc_table.addPool("rare", 1, 1, 0, 0);

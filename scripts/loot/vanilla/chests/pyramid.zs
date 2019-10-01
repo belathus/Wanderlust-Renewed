@@ -92,6 +92,8 @@ import loottweaker.vanilla.loot.Functions;
   dp_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:3>,           7, 0, [Functions.setCount(1, 3)], []); # redstone alloy
   dp_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:4>,           5, 0, [Functions.setCount(1, 3)], []); # conductive iron
   dp_uncommon.addItemEntryHelper(<enderio:item_alloy_ingot:5>,           3, 0, [Functions.setCount(1, 3)], []); # pulsating iron
+  dp_uncommon.addItemEntry(<pyrotech:sawmill_blade_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Sawblade"}}), 5, 0);
+  dp_uncommon.addItemEntry(<pyrotech:cog_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Cog"}}), 5, 0);
   
   # Rare pool. You only get one of these per chest.
   val dp_rare = dp_table.addPool("rare", 1, 1, 0, 0);
