@@ -80,8 +80,8 @@ import loottweaker.vanilla.loot.Functions;
   dungeon_treasure.addItemEntry(<randomthings:weatheregg:2>,           5, 0);
   dungeon_treasure.addItemEntry(<randomthings:magichood>,              5, 0);
   dungeon_treasure.addItemEntry(<randomthings:escaperope>,             5, 0);
-  dungeon_treasure.addItemEntry(<pyrotech:sawmill_blade_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Sawblade"}}), 5, 0);
-  dungeon_treasure.addItemEntry(<pyrotech:cog_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Cog"}}), 5, 0);
+  dungeon_treasure.addItemEntry(<pyrotech:sawmill_blade_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Sawblade"}}), 2, 0);
+  dungeon_treasure.addItemEntry(<pyrotech:cog_gold>.withTag({Unbreakable:1, display:{Name:"Philosopher's Gold Cog"}}), 15, 0);
 
   # Add 1 "tool"
   val dungeon_tool = dungeon.addPool("tool", 1, 1, 0, 0);
