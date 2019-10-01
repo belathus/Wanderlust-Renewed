@@ -1,3 +1,3 @@
 #modloaded tinkerscompendium
 
-  <ore:toolHandsaw>.add(<tinkerscompendium:saw>);
+  <ore:toolHandsaw>.add(<tinkerscompendium:saw:*>);
