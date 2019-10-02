@@ -44,6 +44,10 @@ events.onPlayerPickupItem(function(event as PlayerPickupItemEvent){
         event.player.addGameStage("stoneage");
         event.player.sendChat("You have entered the stone age. Filch Lizards will now spawn.");
     }
+    if(event.item.item.matches(<minecraft:coal:1>) && !event.player.hasGameStage("fireage")){
+        event.player.addGameStage("fireage");
+        event.player.sendChat("You have unlocked the power of fire. Creepers will now spawn.");
+    }
     if(event.item.item.matches(<thaumcraft:salis_mundus>) && !event.player.hasGameStage("thaumicage")){
         event.player.addGameStage("thaumicage");
         event.player.sendChat("You have entered an age of Thaumaturgy. Wisps will now spawn.");
