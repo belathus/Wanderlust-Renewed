@@ -41,3 +41,11 @@
     [[<ore:plankWood>,  <ore:plankWood>,   <ore:plankWood>],
      [<ore:cobblestone>,<ore:ingotNickel>, <ore:cobblestone>],
      [<ore:cobblestone>,<ore:dustRedstone>,<ore:cobblestone>]]);
+  # clean pistons with eternal water buckets and more.
+  recipes.addShapeless(<minecraft:piston>,
+    [<minecraft:sticky_piston>,
+      <evilcraft:bucket_eternal_water> |
+      <botania:waterrod>.giveBack() |
+      <xreliquary:emperor_chalice>.giveBack() |
+      <minecraft:potion:0>
+    ]);
