@@ -5,6 +5,11 @@
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal1:*>]);
     recipes.addShapeless(<minecraft:coal:1> * 9, [<chisel:block_charcoal2:*>]);
 
+# Dead Bush
+  # Shear saplings into dead bush
+    recipes.removeByRecipeName("evilcraft:deadbush");
+    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.transformDamage(), <ore:treeSapling>]);
+
 # Name Tag
     recipes.remove(<minecraft:name_tag>);
     recipes.addShaped(<minecraft:name_tag>,
