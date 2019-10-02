@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
   <recipe name="Sagmill: Coke" required="false">
     <sagmilling energy="2400">
       <input name="fuelCoke"/>
@@ -7,4 +8,12 @@
       <output name="dustSulfur" chance="0.1" required="false" />
     </sagmilling>
   </recipe>
+
+  <recipe name="Sagmill: Limestone Dust" required="false">
+    <sagmilling energy="2400">
+      <input name="pyrotech:rock:8"/>
+      <output name="pyrotech:material:28"/>
+    </sagmilling>
+  </recipe>
+
 </enderio:recipes>
