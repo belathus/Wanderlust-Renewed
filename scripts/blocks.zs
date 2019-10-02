@@ -3,136 +3,6 @@
 #        [[<>,<>,<>],
 #         [<>,<>,<>],
 #         [<>,<>,<>]]);
-
-
-# Vanilla
-    // furnace.addRecipe(<minecraft:dirt>, <primal:mud_wet>);
-    recipes.addShapeless(<minecraft:piston>,
-        [<minecraft:sticky_piston>,<evilcraft:bucket_eternal_water>]);
-    recipes.addShapeless(<minecraft:piston>,
-        [<minecraft:sticky_piston>,<botania:waterrod>.giveBack()]);
-    // recipes.remove(<minecraft:iron_ore>);
-    // recipes.addShapeless("ore_uses_xp", <minecraft:iron_ore>, 
-    //     [<rockhounding_oretiers:iron_ores:2>],
-    //     function(output, inputs, crafting) {
-    //         if crafting.player.xp > 1 {
-    //             return output;
-    //         } else {
-    //             return null;
-    //         }
-    //     }, function(output, crafting, player){
-    //         player.removeXP(1);
-    //         player.sendChat("Removed 1 XP.");
-    //     });
-    // recipes.addShapeless("ore_uses_xp_two", <minecraft:iron_ore>, 
-    //     [<rockhounding_oretiers:iron_ores:3>],
-    //     function(output, inputs, crafting) {
-    //         if crafting.player.xp > 1 {
-    //             return output;
-    //         } else {
-    //             return null;
-    //         }
-    //     }, function(output, crafting, player){
-    //         player.removeXP(1);
-    //         player.sendChat("Removed 1 XP.");
-    //     });
-
-# Animania
-#    recipes.addShapeless(<animania:block_mud> * 2,
-#        [<evilcraft:bucket_eternal_water>,<ore:dirt>]);
-
-# Astral Sorcery
-#    recipes.addShapeless(<astralsorcery:blockmarblestairs>, [<quark:stone_marble_bricks_stairs>]);
-    recipes.addShapeless(<astralsorcery:blockmarble>, [<quark:marble>]);
-    recipes.addShapeless(<astralsorcery:blockmarble:1>, [<quark:world_stone_bricks:4>]);
-#    recipes.addShapeless(<astralsorcery:blockmarbleslab>, [<quark:stone_marble_bricks_slab>]);
-    recipes.addShaped(<astralsorcery:blockmarbleslab> * 6,
-        [[<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
-    recipes.addShapedMirrored(<astralsorcery:blockmarblestairs> * 8,
-        [[<astralsorcery:blockmarble:1>,null,null],
-         [<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,null],
-         [<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>,<astralsorcery:blockmarble:1>]]);
-
-# Biomes O' Plenty
-    recipes.remove(<biomesoplenty:mud>);
-    recipes.addShaped(<biomesoplenty:mud>, 
-        [[<ore:clumpMud>,null,<ore:clumpMud>],
-         [null,null,null],
-         [<ore:clumpMud>,null,<ore:clumpMud>]]);
-
-# Chisel
-    recipes.addShapeless(<chisel:basalt>,
-        [<ore:stoneBasalt>]);
-    recipes.addShapeless(<chisel:limestone>,
-        [<ore:stoneLimestone>]);
-    recipes.addShaped(<chisel:waterstone>*8,
-        [[<ore:stone>,<ore:stone>,<ore:stone>],
-         [<ore:stone>,<evilcraft:bucket_eternal_water>,<ore:stone>],
-         [<ore:stone>,<ore:stone>,<ore:stone>]]);
-
-# Deep Resonance
-#    recipes.remove(<deepresonance:dense_glass>);
-#    recipes.addShaped(<deepresonance:dense_glass> * 5,
-#        [[<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>],
-#         [<ore:blockGlassHardened>, <ore:dustObsidian>, <ore:blockGlassHardened>],
-#         [<deepresonance:spent_filter>, <ore:blockGlassHardened>, <deepresonance:spent_filter>]]);
-
-# Evilcraft
-    recipes.addShaped(<evilcraft:eternal_water_block>,
-        [[null,<ore:gemDark>,null],
-         [<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
-         [null,<ore:gemDark>,null]]);
-
-    # Shear saplings into dead bush
-    recipes.removeByRecipeName("evilcraft:deadbush");
-    recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.transformDamage(), <ore:treeSapling>]);
-
-
-# Extra Utilities
-#    # Portal to the Deep Dark
-#    recipes.remove(<extrautils2:teleporter:1>);
-#    recipes.addShaped(<extrautils2:teleporter:1>,
-#        [[<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>],
-#         [<ore:dropofevil>,<biomesoplenty:terrestrial_artifact>,<ore:dropofevil>],
-#         [<ore:compressed1xCobblestone>,<abyssalcraft:stone:0>,<ore:compressed1xCobblestone>]]);
-#
-#    # Fixing a recipe conflict; polished stone block
-#    recipes.remove(<extrautils2:decorativesolid:2>);
-#    recipes.addShaped(<extrautils2:decorativesolid:2>*4,
-#        [[<ore:bricksStone>,null,<ore:bricksStone>],
-#         [null,null,null],
-#         [<ore:bricksStone>,null,<ore:bricksStone>]]);
-#         
-#    # Wooden Spikes
-#    recipes.remove(<extrautils2:spike_wood>);
-#    recipes.addShaped(<extrautils2:spike_wood> * 4,
-#        [[null,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),null],
-#         [<tconstruct:knife_blade>.onlyWithTag({Material:"wood"}),<ore:plankWood>,<tconstruct:knife_blade>.onlyWithTag({Material:"wood"})],
-#         [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
-#    # Stone Spike
-#    recipes.remove(<extrautils2:spike_stone>);
-#    recipes.addShaped(<extrautils2:spike_stone> * 4,
-#        [[null, <ore:rock>, null],
-#         [<ore:rock>, <ore:cobblestone>, <ore:rock>],
-#         [<ore:cobblestone>, <ore:compressed1xCobblestone>, <ore:cobblestone>]]);
-#    # Iron Spike
-#    recipes.addShaped(<extrautils2:spike_iron> * 4,
-#        [[null, <dungeontactics:iron_cutlass>, null],
-#         [<dungeontactics:iron_cutlass>, <ore:ingotIron>, <dungeontactics:iron_cutlass>],
-#         [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>]]);
-#    # Gold Spike
-#    recipes.addShaped(<extrautils2:spike_gold> * 4,
-#        [[null, <dungeontactics:golden_cutlass>, null],
-#         [<dungeontactics:golden_cutlass>, <ore:ingotGold>, <dungeontactics:golden_cutlass>],
-#         [<ore:ingotGold>, <ore:blockGold>, <ore:ingotGold>]]);
-#    # Diamond Spikes
-#    recipes.addShaped(<extrautils2:spike_diamond> * 3,
-#        [[null,<ore:pointDiamond>,null],
-#         [<ore:flakeDiamond>,<ore:gemDiamond>,<ore:flakeDiamond>],
-#         [<ore:gemDiamond>,<ore:blockDiamond>,<ore:gemDiamond>]]);
-#
-#    # Shrotcut Stick Recipe Removal
-#    recipes.removeByRecipeName("extrautils2:shortcut_stick");
          
 # Immersive Engineering
     recipes.addShaped(<immersiveengineering:treated_wood>*3,
@@ -195,42 +65,6 @@
 
 # Mekanism
     recipes.remove(<mekanism:cardboardbox>);
-    #recipes.addShaped(<mekanism:cardboardbox>,
-    #    [[<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>],
-    #     [<ore:pulpWood>, <minecraft:nether_star>, <ore:pulpWood>],
-    #     [<ore:pulpWood>, <ore:pulpWood>, <ore:pulpWood>]]);
-
-# Misty World
-#    recipes.removeByRecipeName("mist:door");
-
-# PrimalCore
-    recipes.addShaped(<biomesoplenty:mudball>*64,
-        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-         [<ore:dirt>,<evilcraft:bucket_eternal_water>,<ore:dirt>],
-         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    recipes.addShaped(<biomesoplenty:mudball>*64,
-        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-         [<ore:dirt>,<botania:waterrod>.giveBack(),<ore:dirt>],
-         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    recipes.addShaped(<biomesoplenty:mudball>*64,
-        [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-         [<ore:dirt>,<xreliquary:emperor_chalice>.giveBack(),<ore:dirt>],
-         [<ore:dirt>,<ore:dirt>,<ore:dirt>]]);
-    // recipes.addShaped(<primal:calcified_paraffin>,
-    //     [[<primal:paraffin_clump>,<primal:paraffin_clump>],
-    //      [<primal:paraffin_clump>,<primal:paraffin_clump>]
-    //     ]
-    // );
-
-# Rockhounding
-#    recipes.addShaped(<rockhounding_surface:gypsum>*8,
-#        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
-#         [<rockhounding_surface:whiteSand>,<evilcraft:bucket_eternal_water>,<rockhounding_surface:whiteSand>],
-#         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
-#    recipes.addShaped(<rockhounding_surface:gypsum>*8,
-#        [[<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>],
-#         [<rockhounding_surface:whiteSand>,<botania:waterrod>.giveBack(),<rockhounding_surface:whiteSand>],
-#         [<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>,<rockhounding_surface:whiteSand>]]);
 
 # Rustic
     # Painted planks fixes
@@ -265,12 +99,5 @@
         [[<quark:marble>, null, <quark:marble>],
          [null, null, null],
          [<quark:marble>, null, <quark:marble>]]);
-#    recipes.addShapeless(<quark:stone_marble_bricks_slab>, [<astralsorcery:blockmarbleslab>]);
-#    recipes.addShapeless(<quark:stone_marble_bricks_stairs>, [<astralsorcery:blockmarblestairs>]);
     recipes.addShapeless(<quark:marble>, [<astralsorcery:blockmarble>]);
     recipes.addShapeless(<quark:world_stone_bricks:4>, [<astralsorcery:blockmarble:1>]);
-#    recipes.addShaped(<quark:stone_marble_slab> * 6,
-#        [[<astralsorcery:blockmarble>,<astralsorcery:blockmarble>,<astralsorcery:blockmarble>]]);
-
-# Tinker's Contruct
-    #recipes.remove(<tconstruct:rack:1>);
