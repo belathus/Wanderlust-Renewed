@@ -30,6 +30,11 @@ var mending4 = <minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:70 as
      [<evilcraft:dark_power_gem>,<evilcraft:blood_chest>,<evilcraft:dark_power_gem>],
      [<evilcraft:reinforced_undead_plank>,<evilcraft:dark_power_gem>,<evilcraft:reinforced_undead_plank>]]);
 
+  # Eternal Water Block
+  recipes.addShaped(<evilcraft:eternal_water_block>,
+    [[null,<ore:gemDark>,null],
+     [<ore:paneGlass>,<evilcraft:bucket_eternal_water>,<ore:paneGlass>],
+     [null,<ore:gemDark>,null]]);
 
 # Convenience recipes
   recipes.addShapeless("Chalice_NBT_recipe", <evilcraft:entangled_chalice>,
