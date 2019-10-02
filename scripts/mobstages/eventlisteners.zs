@@ -12,6 +12,10 @@ events.onPlayerBrewedPotion(function(event as PlayerBrewedPotionEvent){
 });
 
 events.onPlayerCrafted(function(event as PlayerCraftedEvent){
+#    if((event.output.matches(<minecraft:furnace>) || event.output.matches(<pyrotech:stone_kiln>)) && !event.player.hasGameStage("fireage")){
+#        event.player.addGameStage("fireage");
+#        event.player.sendChat("You have unlocked the power of fire. Creepers will now spawn.");
+#    }
     if((event.output.matches(<tconstruct:smeltery_controller>)) && !event.player.hasGameStage("bronzeage")){
         if(!event.player.hasGameStage("stoneage")) { event.player.addGameStage("stoneage"); }
         if(!event.player.hasGameStage("fireage")) { event.player.addGameStage("fireage"); }
