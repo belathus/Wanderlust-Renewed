@@ -59,7 +59,7 @@ import mods.advancedmortars.Mortar;
         if ((x < y) | (x < z)) & (y < z) {
           if (x != y) & (x != z) & (y != z) {
             Mortar.addRecipe(["wood","stone","iron"], <thaumcraft:salis_mundus> * 1, 2, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
-            Mortar.addRecipe(["diamond"], <thaumcraft:salis_mundus> * 1, 1, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
+            Mortar.addRecipe(["diamond","obsidian","emerald"], <thaumcraft:salis_mundus> * 1, 1, [crystal.withTag(data1), crystal.withTag(data2), crystal.withTag(data3), redstone]);
           }
         }
       }
