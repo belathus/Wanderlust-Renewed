@@ -15,3 +15,7 @@
         [<minecraft:tnt>, <ore:dustRedstone>, <ore:clayball>]);
     recipes.addShapeless(<tconstruct:throwball:1> * 5, 
         [<minecraft:tnt>, <ore:dustRedstone>, <ore:slimeball>]);
+
+  # Get TConstruct mud bricks from Erebus mud bricks -- so you have some compatibility. 
+  #  Cycle will be BoP -> erebus -> tconstruct -> thebetweenlands -> BoP
+  recipes.addShapeless(<tconstruct:materials:1>, [<erebus:materials:22>]);
