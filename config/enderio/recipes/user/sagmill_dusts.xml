@@ -16,7 +16,7 @@
     </sagmilling>
   </recipe>
 
-  <recipe name="Sagmill: Limestone Dust" required="false">
+  <recipe name="Sagmill: Crushed Flint" required="false">
     <sagmilling energy="2400">
       <input name="pyrotech:rock:10"/>
       <output name="pyrotech:material:31" amount="3"/>
