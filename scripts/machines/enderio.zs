@@ -1,0 +1,1 @@
+mods.enderio.SagMill.addRecipe([<pyrotech:material:31> * 3], [100], <pyrotech:material:10>);
