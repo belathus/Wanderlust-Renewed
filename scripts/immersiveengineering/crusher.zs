@@ -45,3 +45,7 @@
         mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>*1,<rockhounding_oretiers:iron_ores:6>,3600);
         # Banded Iron
         mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>*1,<rockhounding_oretiers:iron_ores:7>,3600);
+
+    # Pyrotech
+        mods.immersiveengineering.Crusher.addRecipe(<pyrotech:material:31> * 3, <pyrotech:material:10>, 3600);
+        mods.immersiveengineering.Crusher.addRecipe(<pyrotech:material:28>, <pyrotech:rock:8>, 3600);

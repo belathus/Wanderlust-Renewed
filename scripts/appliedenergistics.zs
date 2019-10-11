@@ -24,3 +24,7 @@ Grinder.removeRecipe(<ore:crystalSilver>);
 Grinder.addRecipe(<immersiveengineering:metal:12>, <ore:oreSilver>, 4, <immersiveengineering:metal:12>, 0.9);
 Grinder.addRecipe(<immersiveengineering:metal:12>, <ore:ingotSilver>, 4);
 Grinder.addRecipe(<immersiveengineering:metal:12>, <ore:crystalSilver>, 4);
+
+# Pyrotech
+Grinder.addRecipe(<pyrotech:material:31> * 3, <pyrotech:material:10>, 4);
+Grinder.addRecipe(<pyrotech:material:28>, <pyrotech:rock:8>, 4);

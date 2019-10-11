@@ -142,3 +142,16 @@ import crafttweaker.item.IItemDefinition;
       .addOutput(<twilightforest:maze_stone>)
       .setFluid(<liquid:mazebreaker>)
       .create();
+  
+    # Masonry bricks
+    RecipeBuilder.get("mason")
+      .setShapeless([<ore:bricksStone>])
+      .addOutput(<pyrotech:stone_bricks>)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolSaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    RecipeBuilder.get("mason")
+      .setShapeless([<ore:slabStone>])
+      .addOutput(<pyrotech:material:16> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolSaw>|<ore:artisansHandsaw>, 1)
+      .create();

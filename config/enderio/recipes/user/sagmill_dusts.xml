@@ -18,7 +18,7 @@
 
   <recipe name="Sagmill: Crushed Flint" required="false">
     <sagmilling energy="2400">
-      <input name="pyrotech:rock:10"/>
+      <input name="pyrotech:material:10"/>
       <output name="pyrotech:material:31" amount="3"/>
     </sagmilling>
   </recipe>
