@@ -55,17 +55,12 @@ import crafttweaker.item.IItemStack;
        [<ore:twine>],
        [<ore:stickWood>]]);
     }
+
+    #IE coal coke doens't work with the loop for some reason
     mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * 8,
     [[<immersiveengineering:material:6>],
       [<ore:twine>],
       [<ore:stickWood>]]);
-    #mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * 4,
-    #  [[<minecraft:coal:*>],
-    #   [<ore:twine>],
-    #   [<ore:stickWood>]]);
-    #mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * 1,
-    #  [[<pyrotech:>], # small charcoal or coal things?
-    #   [<ore:stickWood>]]);
 
 # =============================================== #
 # ==== Convenience: Eternal water in recipes ==== #
