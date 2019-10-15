@@ -33,11 +33,11 @@ import loottweaker.vanilla.loot.Functions;
   #bonus_map.addItemEntryHelper(<minecraft:map>, 1, 0, [village_map], []);
   
   val bonus_tool = bonus.addPool("tool", 1, 3, 0, 0);
-  bonus_tool.addItemEntryHelper(<primitivetools:primitive_knife_cwv>,            400, 0, [tool_dam, tool_ench], []);
-  bonus_tool.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,               400, 0, [tool_dam, tool_ench], []);
-  bonus_tool.addItemEntryHelper(<primitivetools:primitive_hatchet_cwv>,                  400, 0, [tool_dam, tool_ench], []);
-  bonus_tool.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,                  320, 0, [tool_dam, tool_ench], []);
-  bonus_tool.addItemEntryHelper(<primitivetools:primitive_spade_cwv>,              800, 0, [tool_dam, tool_ench], []);
+  bonus_tool.addItemEntryHelper(<pyrotech:flint_sword>,            400, 0, [tool_dam, tool_ench], []);
+  bonus_tool.addItemEntryHelper(<pyrotech:flint_pickaxe>,               400, 0, [tool_dam, tool_ench], []);
+  bonus_tool.addItemEntryHelper(<pyrotech:flint_axe>,                  400, 0, [tool_dam, tool_ench], []);
+  bonus_tool.addItemEntryHelper(<pyrotech:flint_hoe>,                  320, 0, [tool_dam, tool_ench], []);
+  bonus_tool.addItemEntryHelper(<pyrotech:flint_shovel>,              800, 0, [tool_dam, tool_ench], []);
   bonus_tool.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,                  400, 0, [tool_dam, tool_ench], []);
   bonus_tool.addItemEntryHelper(<appliedenergistics2:nether_quartz_cutting_knife>,           160, 0, [tool_dam, tool_ench], []);
   bonus_tool.addItemEntryHelper(<appliedenergistics2:nether_quartz_spade>,              160, 0, [tool_dam, tool_ench], []);

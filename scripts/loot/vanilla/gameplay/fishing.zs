@@ -34,10 +34,10 @@ import loottweaker.vanilla.loot.Functions;
   treasure.addItemEntry(<thaumcraft:loot_bag>,                   10, 0);
   treasure.addItemEntry(<thaumcraft:loot_bag:1>,                  4, 0);
   treasure.addItemEntry(<thaumcraft:loot_bag:2>,                  1, 0);
-  treasure.addItemEntryHelper(<primitivetools:primitive_knife_cwv>,        10, 0, [tool_dam, tool_ench], []);
-  treasure.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,         10, 0, [tool_dam, tool_ench], []);
-  treasure.addItemEntryHelper(<primitivetools:primitive_hatchet_cwv>,      10, 0, [tool_dam, tool_ench], []);
-  treasure.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,           8, 0, [tool_dam, tool_ench], []);
-  treasure.addItemEntryHelper(<primitivetools:primitive_spade_cwv>,        10, 0, [tool_dam, tool_ench], []);
+  treasure.addItemEntryHelper(<pyrotech:flint_sword>,        10, 0, [tool_dam, tool_ench], []);
+  treasure.addItemEntryHelper(<pyrotech:flint_pickaxe>,         10, 0, [tool_dam, tool_ench], []);
+  treasure.addItemEntryHelper(<pyrotech:flint_axe>,      10, 0, [tool_dam, tool_ench], []);
+  treasure.addItemEntryHelper(<pyrotech:flint_hoe>,           8, 0, [tool_dam, tool_ench], []);
+  treasure.addItemEntryHelper(<pyrotech:flint_shovel>,        10, 0, [tool_dam, tool_ench], []);
   treasure.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,  10, 0, [tool_dam, tool_ench], []);
   

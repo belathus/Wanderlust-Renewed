@@ -73,7 +73,7 @@ import loottweaker.vanilla.loot.Functions;
   blacksmith_rare.addItemEntry(<forestry:kit_shovel>,                         20, 0);
   blacksmith_rare.addItemEntryHelper(<minecraft:iron_pickaxe>,                15, 0, [tool_dam, tool_ench], []);
   blacksmith_rare.addItemEntryHelper(<minecraft:diamond_pickaxe>,                 1, 0, [tool_dam, tool_ench], []);
-  blacksmith_rare.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,                  20, 0, [tool_dam, tool_ench], []);
+  blacksmith_rare.addItemEntryHelper(<pyrotech:flint_pickaxe>,                  20, 0, [tool_dam, tool_ench], []);
   blacksmith_rare.addItemEntryHelper(<appliedenergistics2:nether_quartz_pickaxe>,                  8, 0, [tool_dam, tool_ench], []);
 
   val blacksmith_uberrare = blacksmith.addPool("uberrare", 1, 1, 0, 0);

@@ -47,11 +47,11 @@ import loottweaker.vanilla.loot.Functions;
   LootTables.getTable("dungeontactics:loot_tables/loot_bags/tool_bag").clear();
   val dt_tool_pool = LootTables.getTable("dungeontactics:loot_tables/loot_bags/tool_bag").addPool("default", 1, 1, 0, 0);
 
-  dt_tool_pool.addItemEntryHelper(<primitivetools:primitive_knife_cwv>,            20, 0, [tool_dam, tool_ench], []);
-  dt_tool_pool.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,               20, 0, [tool_dam, tool_ench], []);
-  dt_tool_pool.addItemEntryHelper(<primitivetools:primitive_hatchet_cwv>,                  20, 0, [tool_dam, tool_ench], []);
-  dt_tool_pool.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,                  16, 0, [tool_dam, tool_ench], []);
-  dt_tool_pool.addItemEntryHelper(<primitivetools:primitive_spade_cwv>,              20, 0, [tool_dam, tool_ench], []);
+  dt_tool_pool.addItemEntryHelper(<pyrotech:flint_sword>,            20, 0, [tool_dam, tool_ench], []);
+  dt_tool_pool.addItemEntryHelper(<pyrotech:flint_pickaxe>,               20, 0, [tool_dam, tool_ench], []);
+  dt_tool_pool.addItemEntryHelper(<pyrotech:flint_axe>,                  20, 0, [tool_dam, tool_ench], []);
+  dt_tool_pool.addItemEntryHelper(<pyrotech:flint_hoe>,                  16, 0, [tool_dam, tool_ench], []);
+  dt_tool_pool.addItemEntryHelper(<pyrotech:flint_shovel>,              20, 0, [tool_dam, tool_ench], []);
   dt_tool_pool.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,                  20, 0, [tool_dam, tool_ench], []);
   dt_tool_pool.addItemEntryHelper(<dungeontactics:diamond_knife>,           20, 0, [tool_dam, tool_ench], []);
   dt_tool_pool.addItemEntryHelper(<minecraft:diamond_shovel>,              20, 0, [tool_dam, tool_ench], []);

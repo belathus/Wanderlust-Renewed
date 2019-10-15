@@ -125,11 +125,11 @@ import loottweaker.vanilla.loot.Functions;
   # per chest. These are mostly tools.
   val jt_ultrarare = jt_table.addPool("ultrarare", 1, 1, 0, 0);
   jt_ultrarare.addConditionsHelper([Conditions.randomChance(0.25)]);
-  jt_ultrarare.addItemEntryHelper(<primitivetools:primitive_knife_cwv>,              400, 0, [tool_dam, tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<primitivetools:primitive_pick_cwv>,               400, 0, [tool_dam, tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<primitivetools:primitive_hatchet_cwv>,            400, 0, [tool_dam, tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<primitivetools:primitive_hoe_cwv>,                320, 0, [tool_dam, tool_ench], []);
-  jt_ultrarare.addItemEntryHelper(<primitivetools:primitive_spade_cwv>,              800, 0, [tool_dam, tool_ench], []);
+  jt_ultrarare.addItemEntryHelper(<pyrotech:flint_sword>,              400, 0, [tool_dam, tool_ench], []);
+  jt_ultrarare.addItemEntryHelper(<pyrotech:flint_pickaxe>,               400, 0, [tool_dam, tool_ench], []);
+  jt_ultrarare.addItemEntryHelper(<pyrotech:flint_axe>,            400, 0, [tool_dam, tool_ench], []);
+  jt_ultrarare.addItemEntryHelper(<pyrotech:flint_hoe>,                320, 0, [tool_dam, tool_ench], []);
+  jt_ultrarare.addItemEntryHelper(<pyrotech:flint_shovel>,              800, 0, [tool_dam, tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_flint>,        400, 0, [tool_dam, tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<dungeontactics:diamond_knife>,                     20, 0, [tool_dam, tool_ench], []);
   jt_ultrarare.addItemEntryHelper(<minecraft:diamond_shovel>,                         20, 0, [tool_dam, tool_ench], []);
