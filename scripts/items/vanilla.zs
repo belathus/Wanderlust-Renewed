@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 
 # Charcoal
   # Convert charcoal blocks into charcoal.
@@ -31,13 +32,35 @@
 
 # Torches
     recipes.remove(<minecraft:torch>);
-    mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * 4,
-      [[<minecraft:coal:*>],
+    val coalTypes = [
+      <minecraft:coal>,
+      <minecraft:coal:1>,
+      <evilcraft:blood_waxed_coal>,
+      <pyrotech:material:1>,
+      <rockhounding_oretiers:tier_items>,
+      <rockhounding_oretiers:tier_items:1>,
+      <rockhounding_oretiers:tier_items:2>,
+      <contenttweaker:blood_waxed_bituminous_coal>,
+      <contenttweaker:blood_waxed_anthracite_coal>,
+      <contenttweaker:blood_waxed_anthracite_coke>,
+      <contenttweaker:anthracite_coke>,
+      <contenttweaker:blood_waxed_coke>,
+      <contenttweaker:blood_waxed_bituminous_coke>,
+      <contenttweaker:bituminous_coke>
+    ] as IItemStack[];
+    for i, coal in coalTypes {
+      val torchAmount = coal.burnTime / 400;
+      mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * torchAmount,
+      [[coal],
        [<ore:twine>],
        [<ore:stickWood>]]);
-    #mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * 1,
-    #  [[<pyrotech:>], # small charcoal or coal things?
-    #   [<ore:stickWood>]]);
+    }
+
+    #IE coal coke doens't work with the loop for some reason
+    mods.recipestages.Recipes.addShaped("fireage", <minecraft:torch> * 8,
+    [[<immersiveengineering:material:6>],
+      [<ore:twine>],
+      [<ore:stickWood>]]);
 
 # =============================================== #
 # ==== Convenience: Eternal water in recipes ==== #
