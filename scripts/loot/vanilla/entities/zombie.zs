@@ -24,5 +24,8 @@ ingots.addItemEntryHelper(<immersiveengineering:metal:0>, 1, 0, [], []); # Coppe
 ingots.addItemEntryHelper(<materialpart:tin:ingot>, 1, 0, [], []);       # Tin
 ingots.addItemEntryHelper(<materialpart:zinc:ingot>, 1, 0, [], []);      # Zinc
 
+val leeches = zombie.addPool("leeches", 0, 1, 1, 1);
+leeches.addItemEntryHelper(<historicizedmedicine:leech>, 2, 0, [], []);
+
 zombie.addPool("heart", 1, 1, 0, 0).addItemEntryHelper(<xreliquary:mob_ingredient:6>, 1, 0, 
   [], [Conditions.killedByPlayer(),Conditions.randomChanceWithLooting(0.1, 0.05)]);
