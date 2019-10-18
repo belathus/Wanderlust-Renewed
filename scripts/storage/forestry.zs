@@ -58,3 +58,7 @@
      [<ore:ingotBronze>|<ore:ingotBrass>,<ore:chest>,<ore:ingotBronze>|<ore:ingotBrass>],
      [<ore:cordageGeneral>,<ore:fabricHemp>,<ore:cordageGeneral>]]);
 
+  # Wax Capsules
+  recipes.addShaped(<forestry:capsule:0> * 4,
+    [[<rustic:beeswax:0>,<rustic:beeswax:0>,<rustic:beeswax:0>]]);
+
