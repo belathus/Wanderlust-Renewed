@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Tank: Treated Wood" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:plankWood"/>
+      <fluid name="creosote" amount="125"/>
+      <output name="immersiveengineering:treated_wood"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Tarred Wood" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:plankWood"/>
+      <fluid name="wood_tar" amount="125"/>
+      <output name="pyrotech:planks_tarred"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Tarred Board" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="pyrotech:material:20"/>
+      <fluid name="wood_tar" amount="50"/>
+      <output name="pyrotech:board_tarred"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Tarred Kindling" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="pyrotech:material:29"/>
+      <fluid name="wood_tar" amount="125"/>
+      <output name="pyrotech:material:30"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Tar Bale" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="pyrotech:thatch"/>
+      <fluid name="wood_tar" amount="1000"/>
+      <output name="pyrotech:wood_tar_block"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Durable Twine" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="pyrotech:material:14"/>
+      <fluid name="wood_tar" amount="50"/>
+      <output name="pyrotech:material:26"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Living Tar" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:netherrack"/>
+      <fluid name="coal_tar" amount="1000"/>
+      <output name="pyrotech:living_tar"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Flint Clay" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:dustFlint"/>
+      <fluid name="liquid_clay" amount="250"/>
+      <output name="pyrotech:material:3"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Coal Block" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:blockCharcoal"/>
+      <fluid name="coal_tar" amount="1000"/>
+      <output name="minecraft:coal_block"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Slaked Lime" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="pyrotech:material:22"/>
+      <fluid name="water" amount="125"/>
+      <output name="pyrotech:material:8"/>
+    </tanking>
+  </recipe>
+
+  <!-- Not all recipes need to be copied from the soaking pot.
+
+  <recipe name="Tank: Podzol" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="minecraft:dirt:1"/>
+      <fluid name="water" amount="250"/>
+      <output name="minecraft:dirt:2"/>
+    </tanking>
+  </recipe> 
+
+  -->
+
+</enderio:recipes>
