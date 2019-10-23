@@ -36,6 +36,19 @@ import loottweaker.vanilla.loot.Functions;
 
   val mc_table = LootTables.getTable("minecraft:chests/nether_bridge");
   mc_table.clear();
+
+  # Add a chance to get various materials.
+  mc_table.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>,        1, 0, [], [Conditions.randomChance(0.10)]);
+  mc_table.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>,     1, 0, [steadfast], [Conditions.randomChance(0.05)]);
+  mc_table.addPool("forestry_bee2", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>,    1, 0, [sinister], [Conditions.randomChance(0.05)]);
+  mc_table.addPool("blood", 1, 1, 0, 0).addItemEntryHelper(<evilcraft:condensed_blood>,        1, 0, [Functions.setCount(1, 32)], [Conditions.randomChance(0.25)]);
+  mc_table.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
+  mc_table.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>,      1, 0, [], [Conditions.randomChance(0.05)]);
+  mc_table.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>,               1, 0, [], [Conditions.randomChance(0.35)]);
+  mc_table.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>,                1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  mc_table.addPool("capacitor", 1, 2, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
+  mc_table.addPool("surgery", 1, 1, 0, 0).addItemEntryHelper(<cyberware:surgery>,              1, 0, [], [Conditions.randomChance(0.15)]);
+  mc_table.addPool("lava+charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,       1, 0, [], [Conditions.randomChance(0.25)]);
   
   # Common pool.
   val mc_common = mc_table.addPool("common", 3, 7, 0, 0);
@@ -202,18 +215,4 @@ import loottweaker.vanilla.loot.Functions;
   mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_ring>,                        1, 0, [Functions.setNBT(unbreakable)], []);
   mc_ultrarare.addItemEntryHelper(<dungeontactics:golden_shield>,                      1, 0, [Functions.setNBT(unbreakable)], []);
   mc_ultrarare.addItemEntryHelper(<artisanworktables:artisans_handsaw_gold>,           1, 0, [Functions.setNBT(unbreakable)], []);
-
-  
-  # Add a chance to get various materials.
-  mc_table.addPool("forestry_bag", 1, 1, 0, 0).addItemEntryHelper(<forestry:miner_bag>,        1, 0, [], [Conditions.randomChance(0.10)]);
-  mc_table.addPool("forestry_bee", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>,     1, 0, [steadfast], [Conditions.randomChance(0.05)]);
-  mc_table.addPool("forestry_bee2", 1, 1, 0, 0).addItemEntryHelper(<forestry:bee_drone_ge>,    1, 0, [sinister], [Conditions.randomChance(0.05)]);
-  mc_table.addPool("blood", 1, 1, 0, 0).addItemEntryHelper(<evilcraft:condensed_blood>,        1, 0, [Functions.setCount(1, 32)], [Conditions.randomChance(0.25)]);
-  mc_table.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
-  mc_table.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>,      1, 0, [], [Conditions.randomChance(0.05)]);
-  mc_table.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>,               1, 0, [], [Conditions.randomChance(0.35)]);
-  mc_table.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>,                1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
-  mc_table.addPool("capacitor", 1, 2, 0, 0).addItemEntryHelper(<enderio:item_basic_capacitor>, 1, 0, [Functions.setMetadata(3, 4), cap_funct], [Conditions.randomChance(0.25)]);
-  mc_table.addPool("surgery", 1, 1, 0, 0).addItemEntryHelper(<cyberware:surgery>,              1, 0, [], [Conditions.randomChance(0.15)]);
-  mc_table.addPool("lava+charm", 1, 1, 0, 0).addItemEntryHelper(<randomthings:lavacharm>,       1, 0, [], [Conditions.randomChance(0.25)]);
   

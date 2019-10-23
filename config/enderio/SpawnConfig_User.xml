@@ -35,5 +35,127 @@
     <dimensionExclude name="Twilight Forest"/>
   </entry>
 -->
+<entry id="EnderMiny" mobName="EnderZoo.Enderminy" rate="30">
+    <biomeFilter type="any">
+      <biome type="END" />
+    </biomeFilter>
+  </entry>
 
+  <entry id="ConcussionCreeper" mobName="concussioncreeper" creatureType="MONSTER" rate="40"
+    minGroupSize="1" maxGroupSize="3" remove="false">
+    <biomeFilter type="any">
+      <biome type="BASE_LAND_TYPES" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+      <biome type="MUSHROOM" exclude="true" />
+    </biomeFilter>   
+    <dimensionExclude name="twilight_forest"/>           
+    <dimensionExclude name="Dungeon"/>
+  </entry>
+
+  <entry id="DireWolf" mobName="direwolf" rate="30" minGroupSize="2" maxGroupSize="6">
+    <biomeFilter type="all">
+      <biome type="SNOWY" />
+      <biome type="CONIFEROUS" />      
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
+  </entry>
+
+  <entry id="EnderMiny" mobName="enderminy" rate="30">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="JUNGLE" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
+  </entry>
+
+  <entry id="FallenKnight" mobName="fallenknight" rate="30" minGroupSize="1" maxGroupSize="4">
+    <biomeFilter type="any">
+      <biome type="PLAINS" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
+  </entry>
+
+  <entry id="WitherWitch" mobName="witherwitch" rate="5" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/>
+  </entry>
+
+  <entry id="Rocket" mobName="primitivemobs:rocket_creeper" creaturetype="MONSTER" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="WASTELAND" />
+      <biome name="abyssalcraft:abyssal_wastelands" />
+      <biome name="abyssalcraft:dark_realm" />
+      <biome name="abyssalcraft:dreadlands" />
+      <biome name="abyssalcraft:dreadlands_mountains" />
+      <biome name="abyssalcraft:dreadlands_forest" />
+      <biome name="abyssalcraft:omothol" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
+  <entry id="Trollager" mobName="primitivemobs:trollager" creaturetype="MONSTER" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="WASTELAND" />
+      <biome name="abyssalcraft:abyssal_wastelands" />
+      <biome name="abyssalcraft:dark_realm" />
+      <biome name="abyssalcraft:dreadlands" />
+      <biome name="abyssalcraft:dreadlands_mountains" />
+      <biome name="abyssalcraft:dreadlands_forest" />
+      <biome name="abyssalcraft:omothol" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
+  <entry id="Festive" mobName="primitivemobs:festive_creeper" creaturetype="MONSTER" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="WASTELAND" />
+      <biome name="abyssalcraft:abyssal_wastelands" />
+      <biome name="abyssalcraft:dark_realm" />
+      <biome name="abyssalcraft:dreadlands" />
+      <biome name="abyssalcraft:dreadlands_mountains" />
+      <biome name="abyssalcraft:dreadlands_forest" />
+      <biome name="abyssalcraft:omothol" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
+  <entry id="Tool" mobName="primitivemobs:haunted_tool" creaturetype="MONSTER" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="SPOOKY" />
+    </biomeFilter>
+  </entry>
+
+  <entry id="Tome" mobName="primitivemobs:bewitched_tome" creaturetype="MONSTER" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="SPOOKY" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
+  <entry id="lavasquid" mobName="primitivemobs:flame_spewer" creaturetype="WATER_CREATURE" rate="1" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="NETHER"/>
+      <biome type="DESERT"/>
+    </biomeFilter>
+  </entry>
 </SpawnConfig>
