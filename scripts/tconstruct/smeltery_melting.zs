@@ -16,7 +16,7 @@
     #mods.tconstruct.Melting.addRecipe(<liquid:titanium>*36,<cyberware:component:2>, 350);
 
 # EBWizardry
-    mods.tconstruct.Melting.addEntityMelting(<entity:ebwizardry:wizard>, <liquid:mithril> * 16);
+    mods.tconstruct.Melting.addEntityMelting(<entity:ebwizardry:wizard>, <liquid:mana_fluid> * 16);
 
 # Extra Utilities
 #    mods.tconstruct.Melting.addRecipe(<liquid:stone>*648,<extrautils2:compressedcobblestone>, 350);
