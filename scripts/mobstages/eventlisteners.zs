@@ -20,7 +20,7 @@ events.onPlayerCrafted(function(event as PlayerCraftedEvent){
         if(!event.player.hasGameStage("stoneage")) { event.player.addGameStage("stoneage"); }
         if(!event.player.hasGameStage("fireage")) { event.player.addGameStage("fireage"); }
         event.player.addGameStage("bronzeage");
-        event.player.sendChat("You have entered the bronze age. Treasure Slimes and Skeletons will now spawn.");
+        event.player.sendChat("You have entered the bronze age. Treasure Slimes and Skeleton Warriors will now spawn.");
     }
     if(event.output.matches(<rockhounding_oretiers:bloomery:*>) && !event.player.hasGameStage("ironage")){
         if(!event.player.hasGameStage("stoneage")) { event.player.addGameStage("stoneage"); }
