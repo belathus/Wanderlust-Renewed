@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "vanilla",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/sheep/silver",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/sheep/silver"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

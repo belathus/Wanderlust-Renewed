@@ -1,0 +1,252 @@
+{
+  "pools": [
+    {
+      "name": "artefact",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/uncommon_artefacts",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/uncommon_artefacts"
+        },
+        {
+          "entryName": "ebwizardry:subsets/rare_artefacts",
+          "weight": 3,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/rare_artefacts"
+        },
+        {
+          "entryName": "ebwizardry:subsets/epic_artefacts",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/epic_artefacts"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "high_value",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/arcane_tomes",
+          "weight": 6,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/arcane_tomes"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wand_upgrades",
+          "weight": 4,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wand_upgrades"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:identification_scroll"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "ebwizardry:armour_upgrade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:armour_upgrade"
+        },
+        {
+          "entryName": "ebwizardry:astral_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:astral_diamond"
+        },
+        {
+          "entryName": "ebwizardry:purifying_elixir",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:purifying_elixir"
+        },
+        {
+          "entryName": "ebwizardry:grand_crystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:grand_crystal"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "low_value",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/elemental_crystals",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/elemental_crystals"
+        },
+        {
+          "entryName": "ebwizardry:magic_crystal",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:magic_crystal"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:paper",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "entryName": "ebwizardry:crystal_shard",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:crystal_shard"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    }
+  ]
+}

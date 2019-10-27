@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "name": "ghast_queen_loot_pool",
+      "entries": [
+        {
+          "entryName": "netherex:ghast_queen_tear",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "netherex:ghast_queen_tear"
+        },
+        {
+          "entryName": "minecraft:entities/ghast",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/ghast"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ghast_loot_pool",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/ghast",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/ghast"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

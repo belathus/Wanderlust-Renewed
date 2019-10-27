@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "black_salamander_loot_pool",
+      "entries": [
+        {
+          "entryName": "netherex:black_salamander_hide",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "netherex:black_salamander_hide"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

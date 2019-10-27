@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "ghast_loot_pool",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/ghast",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/ghast"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

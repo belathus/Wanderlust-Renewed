@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "white_mogus_loot_pool",
+      "entries": [
+        {
+          "entryName": "netherex:entity/mogus/mogus_brown",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "netherex:entity/mogus/mogus_brown"
+        },
+        {
+          "entryName": "netherex:entity/mogus/mogus_red",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "netherex:entity/mogus/mogus_red"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

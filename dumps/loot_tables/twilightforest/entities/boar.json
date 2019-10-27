@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "name": "vanilla",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/pig",
+          "weight": 500,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/pig"
+        },
+        {
+          "entryName": "minecraft:porkchop",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "tag": "{display:{Name:\"Boarkchop\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:porkchop"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

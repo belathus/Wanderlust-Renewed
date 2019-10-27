@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "gold_golem_loot_pool",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

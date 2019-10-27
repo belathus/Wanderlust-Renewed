@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "bird",
+      "entries": [
+        {
+          "entryName": "twilightforest:entities/bird",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:entities/bird"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

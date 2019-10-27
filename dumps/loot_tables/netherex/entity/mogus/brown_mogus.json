@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "brown_mogus_loot_pool",
+      "entries": [
+        {
+          "entryName": "netherex:brown_elder_mushroom",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "netherex:brown_elder_mushroom"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

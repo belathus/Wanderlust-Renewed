@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "quark:stoneling",
+      "entries": [
+        {
+          "entryName": "quark:diamond_heart",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.033,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "name": "quark:diamond_heart"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

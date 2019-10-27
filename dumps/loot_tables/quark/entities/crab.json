@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "name": "legs",
+      "entries": [
+        {
+          "entryName": "quark:crab_leg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "quark:crab_leg"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "shell",
+      "entries": [
+        {
+          "entryName": "quark:crab_shell",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:crab_shell"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.25,
+          "looting_multiplier": 0.03,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

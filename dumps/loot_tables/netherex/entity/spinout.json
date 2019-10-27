@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "spinout_loot_pool",
+      "entries": [
+        {
+          "entryName": "minecraft:quartz",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:quartz"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

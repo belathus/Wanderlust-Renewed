@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "crystals",
+      "entries": [
+        {
+          "entryName": "ebwizardry:magic_crystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ebwizardry:magic_crystal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

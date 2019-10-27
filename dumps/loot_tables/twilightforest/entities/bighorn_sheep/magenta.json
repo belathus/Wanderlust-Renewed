@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "vanilla",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/sheep/magenta",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/sheep/magenta"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

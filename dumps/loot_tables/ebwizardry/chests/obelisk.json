@@ -1,0 +1,230 @@
+{
+  "pools": [
+    {
+      "name": "high_value",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/arcane_tomes",
+          "weight": 3,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/arcane_tomes"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wand_upgrades",
+          "weight": 2,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wand_upgrades"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "tiers": [
+                "novice",
+                "apprentice",
+                "advanced"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "tiers": [
+                "novice",
+                "apprentice",
+                "advanced"
+              ],
+              "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:identification_scroll"
+        },
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "ebwizardry:grand_crystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:grand_crystal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "low_value",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/elemental_crystals",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/elemental_crystals"
+        },
+        {
+          "entryName": "ebwizardry:magic_crystal",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:magic_crystal"
+        },
+        {
+          "entryName": "ebwizardry:firebomb",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:firebomb"
+        },
+        {
+          "entryName": "ebwizardry:poison_bomb",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:poison_bomb"
+        },
+        {
+          "entryName": "ebwizardry:smoke_bomb",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:smoke_bomb"
+        },
+        {
+          "entryName": "ebwizardry:spark_bomb",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:spark_bomb"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:paper",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "entryName": "ebwizardry:crystal_shard",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:crystal_shard"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    }
+  ]
+}

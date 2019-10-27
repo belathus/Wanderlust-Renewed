@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "vanilla",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/sheep/lime",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/sheep/lime"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

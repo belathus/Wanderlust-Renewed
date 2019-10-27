@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "name": "wizardry_dispenser",
+      "entries": [
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "spells": [
+                "ebwizardry:magic_missile",
+                "ebwizardry:arc",
+                "ebwizardry:thunderbolt",
+                "ebwizardry:summon_zombie",
+                "ebwizardry:dart",
+                "ebwizardry:ice_shard",
+                "ebwizardry:firebolt",
+                "ebwizardry:poison",
+                "ebwizardry:flame_ray",
+                "ebwizardry:frost_ray"
+              ],
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
+              "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "ebwizardry:firebomb",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:firebomb"
+        },
+        {
+          "entryName": "ebwizardry:poison_bomb",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:poison_bomb"
+        },
+        {
+          "entryName": "ebwizardry:smoke_bomb",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:smoke_bomb"
+        },
+        {
+          "entryName": "ebwizardry:spark_bomb",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:spark_bomb"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

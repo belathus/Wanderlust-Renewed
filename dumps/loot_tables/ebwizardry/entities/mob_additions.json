@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "name": "wizardry",
+      "entries": [
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
+              "tiers": [
+                "novice",
+                "apprentice",
+                "advanced"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.02,
+          "looting_multiplier": 0.01,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

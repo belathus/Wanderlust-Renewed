@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "wither_bone_loot_pool",
+      "entries": [
+        {
+          "entryName": "netherex:wither_bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "netherex:wither_bone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "ebwizardry_ebwizardry_additional_mob_drops",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:entities/mob_additions"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
