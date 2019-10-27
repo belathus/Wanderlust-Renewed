@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:gold_ingot",
@@ -270,7 +270,7 @@
       }
     },
     {
-      "name": "ebwizardry_additive_pool",
+      "name": "ebwizardry_ebwizardry_additional_dungeon_loot",
       "entries": [
         {
           "entryName": "ebwizardry_additive_entry",
@@ -278,6 +278,19 @@
           "quality": 0,
           "type": "loot_table",
           "name": "ebwizardry:chests/dungeon_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "floralchemy_inject_pool",
+      "entries": [
+        {
+          "entryName": "floralchemy_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "floralchemy:inject/stronghold_crossing"
         }
       ],
       "rolls": 1.0

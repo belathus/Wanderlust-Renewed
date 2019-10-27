@@ -60,6 +60,38 @@
           "name": "thebetweenlands:sap_ball"
         },
         {
+          "entryName": "thebetweenlands:dentrothyst_shard_green",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_green"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_orange",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_orange"
+        },
+        {
           "entryName": "syrmorite_ingot",
           "weight": 28,
           "quality": 0,

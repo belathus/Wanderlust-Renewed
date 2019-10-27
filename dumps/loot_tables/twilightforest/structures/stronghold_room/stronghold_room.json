@@ -207,6 +207,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -260,10 +261,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:respiration": 2
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:2s,id:5s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_helmet"
@@ -275,10 +274,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:blast_protection": 2
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:2s,id:3s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_chestplate"
@@ -290,10 +287,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:fire_protection": 2
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:2s,id:1s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_leggings"
@@ -305,10 +300,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:feather_falling": 2
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:2s,id:2s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_boots"
@@ -321,8 +314,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -337,6 +331,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -353,6 +348,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -508,6 +504,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "master"
               ],
@@ -603,7 +600,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

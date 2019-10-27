@@ -246,7 +246,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:gold_ingot",
@@ -343,6 +343,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -516,8 +517,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -532,6 +534,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -548,6 +551,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -636,60 +640,6 @@
           "quality": 0,
           "type": "item",
           "name": "twilightforest:uncrafting_table"
-        },
-        {
-          "entryName": "primal:obsidian_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "primal:obsidian_pickaxe"
-        },
-        {
-          "entryName": "primal:obsidian_shovel",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "primal:obsidian_shovel"
         },
         {
           "entryName": "ebwizardry:arcane_tome",
@@ -807,6 +757,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "master"
               ],
@@ -902,7 +853,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

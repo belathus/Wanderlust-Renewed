@@ -12,6 +12,45 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "treasure",
+      "entries": [
+        {
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:loot_bag"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag-lt#2",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

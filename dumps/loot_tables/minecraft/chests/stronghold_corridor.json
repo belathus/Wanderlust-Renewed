@@ -40,7 +40,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:gold_ingot",
@@ -604,6 +604,22 @@
           "name": "dungeontactics:lithen_scythe"
         },
         {
+          "entryName": "DT:AlchemistsBrew",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:alchemist_brew"
+        },
+        {
           "entryName": "DT:PirateHook",
           "weight": 1,
           "quality": 0,
@@ -704,7 +720,7 @@
       }
     },
     {
-      "name": "ebwizardry_additive_pool",
+      "name": "ebwizardry_ebwizardry_additional_dungeon_loot",
       "entries": [
         {
           "entryName": "ebwizardry_additive_entry",
@@ -712,6 +728,19 @@
           "quality": 0,
           "type": "loot_table",
           "name": "ebwizardry:chests/dungeon_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "floralchemy_inject_pool",
+      "entries": [
+        {
+          "entryName": "floralchemy_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "floralchemy:inject/stronghold_corridor"
         }
       ],
       "rolls": 1.0

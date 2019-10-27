@@ -160,8 +160,7 @@
       "rolls": 1.0,
       "conditions": [
         {
-          "inverse": false,
-          "condition": "minecraft:killed_by_player"
+          "condition": "enderio:killed_by_player"
         }
       ]
     }

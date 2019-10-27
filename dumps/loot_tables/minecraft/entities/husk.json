@@ -37,7 +37,7 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:carrot",
@@ -68,6 +68,19 @@
       ]
     },
     {
+      "name": "ebwizardry_ebwizardry_additional_mob_drops",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:entities/mob_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "xreliquary_inject_pool",
       "entries": [
         {
@@ -79,6 +92,71 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "mummy",
+      "entries": [
+        {
+          "entryName": "historicizedmedicine:suture",
+          "weight": 2,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "historicizedmedicine:suture"
+        },
+        {
+          "entryName": "historicizedmedicine:reed_bandage",
+          "weight": 2,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "historicizedmedicine:reed_bandage"
+        },
+        {
+          "entryName": "historicizedmedicine:ligature",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "historicizedmedicine:ligature"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.01,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
     }
   ]
 }

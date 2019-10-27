@@ -113,7 +113,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "immersiveengineering:metal",
@@ -230,6 +230,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -251,11 +252,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:punch": 2,
-                "minecraft:infinity": 1
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:1s,id:51s},{lvl:2s,id:49s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:bow"
@@ -267,11 +265,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:flame": 1,
-                "minecraft:power": 3
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:3s,id:48s},{lvl:1s,id:50s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:bow"
@@ -283,11 +278,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:efficiency": 4,
-                "minecraft:unbreaking": 2
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:4s,id:32s},{lvl:2s,id:34s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_shovel"
@@ -299,10 +291,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:efficiency": 5
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:5s,id:32s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_axe"
@@ -314,10 +304,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:respiration": 3
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:3s,id:5s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_helmet"
@@ -329,10 +317,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:protection": 3
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:3s,id:0s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_chestplate"
@@ -344,10 +330,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:fire_protection": 4
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:4s,id:1s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_leggings"
@@ -359,10 +343,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:protection": 3
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:3s,id:0s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_boots"
@@ -375,8 +357,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -391,6 +374,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -407,6 +391,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -463,12 +448,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:fortune": 2,
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 5
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:5s,id:32s},{lvl:5s,id:34s},{lvl:2s,id:35s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:mazebreaker_pickaxe"
@@ -480,11 +461,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:efficiency": 4,
-                "minecraft:silk_touch": 1
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:4s,id:32s},{lvl:1s,id:33s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_pickaxe"
@@ -496,11 +474,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:sharpness": 4,
-                "minecraft:knockback": 2
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:4s,id:16s},{lvl:2s,id:19s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_sword"
@@ -512,11 +487,8 @@
           "type": "item",
           "functions": [
             {
-              "enchantments": {
-                "minecraft:fire_aspect": 2,
-                "minecraft:bane_of_arthropods": 5
-              },
-              "function": "twilightforest:enchant"
+              "tag": "{ench:[{lvl:5s,id:18s},{lvl:5s,id:20s}]}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "twilightforest:steeleaf_sword"
@@ -561,6 +533,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "master"
               ],
@@ -656,7 +629,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

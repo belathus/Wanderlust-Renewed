@@ -1,6 +1,250 @@
 {
   "pools": [
     {
+      "name": "forestry_bag",
+      "entries": [
+        {
+          "entryName": "forestry:miner_bag",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "forestry:miner_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee",
+      "entries": [
+        {
+          "entryName": "forestry:bee_drone_ge",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_bee2",
+      "entries": [
+        {
+          "entryName": "forestry:bee_drone_ge",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSinister",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "blood",
+      "entries": [
+        {
+          "entryName": "evilcraft:condensed_blood",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 32.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evilcraft:condensed_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "closure_box",
+      "entries": [
+        {
+          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "evilcraft:inject/chests/box_of_eternal_closure"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "overgrowth",
+      "entries": [
+        {
+          "entryName": "botania:overgrowthseed",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:overgrowthseed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lotus",
+      "entries": [
+        {
+          "entryName": "botania:blacklotus",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "botania:blacklotus"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tome",
+      "entries": [
+        {
+          "entryName": "quark:ancient_tome",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:enchant_tome"
+            }
+          ],
+          "name": "quark:ancient_tome"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "capacitor",
+      "entries": [
+        {
+          "entryName": "enderio:item_basic_capacitor",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "enderio:set_capacitor"
+            }
+          ],
+          "name": "enderio:item_basic_capacitor"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "surgery",
+      "entries": [
+        {
+          "entryName": "cyberware:surgery",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "cyberware:surgery"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lava+charm",
+      "entries": [
+        {
+          "entryName": "randomthings:lavacharm",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "name": "randomthings:lavacharm"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "common",
       "entries": [
         {
@@ -17,7 +261,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:gold_ingot",
@@ -345,8 +589,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -397,6 +642,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -452,6 +698,32 @@
             }
           ],
           "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "pyrotech:sawmill_blade_gold",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Unbreakable:1,display:{Name:\"Philosopher\u0027s Gold Sawblade\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "pyrotech:sawmill_blade_gold"
+        },
+        {
+          "entryName": "pyrotech:cog_gold",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Unbreakable:1,display:{Name:\"Philosopher\u0027s Gold Cog\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "pyrotech:cog_gold"
         }
       ],
       "rolls": {
@@ -714,6 +986,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -1182,7 +1455,7 @@
           "name": "artisanworktables:artisans_handsaw_gold"
         },
         {
-          "entryName": "nex:golden_wither_bone_axe",
+          "entryName": "netherex:withered_amedian_axe",
           "weight": 500,
           "quality": 0,
           "type": "item",
@@ -1199,10 +1472,10 @@
               ]
             }
           ],
-          "name": "nex:golden_wither_bone_axe"
+          "name": "netherex:withered_amedian_axe"
         },
         {
-          "entryName": "nex:golden_wither_bone_hammer",
+          "entryName": "netherex:withered_amedian_hammer",
           "weight": 500,
           "quality": 0,
           "type": "item",
@@ -1219,10 +1492,10 @@
               ]
             }
           ],
-          "name": "nex:golden_wither_bone_hammer"
+          "name": "netherex:withered_amedian_hammer"
         },
         {
-          "entryName": "nex:golden_wither_bone_hoe",
+          "entryName": "netherex:withered_amedian_hoe",
           "weight": 500,
           "quality": 0,
           "type": "item",
@@ -1239,10 +1512,10 @@
               ]
             }
           ],
-          "name": "nex:golden_wither_bone_hoe"
+          "name": "netherex:withered_amedian_hoe"
         },
         {
-          "entryName": "nex:golden_wither_bone_pickaxe",
+          "entryName": "netherex:withered_amedian_pickaxe",
           "weight": 500,
           "quality": 0,
           "type": "item",
@@ -1259,10 +1532,10 @@
               ]
             }
           ],
-          "name": "nex:golden_wither_bone_pickaxe"
+          "name": "netherex:withered_amedian_pickaxe"
         },
         {
-          "entryName": "nex:golden_wither_bone_shovel",
+          "entryName": "netherex:withered_amedian_shovel",
           "weight": 500,
           "quality": 0,
           "type": "item",
@@ -1279,10 +1552,10 @@
               ]
             }
           ],
-          "name": "nex:golden_wither_bone_shovel"
+          "name": "netherex:withered_amedian_shovel"
         },
         {
-          "entryName": "nex:golden_wither_bone_sword",
+          "entryName": "netherex:withered_amedian_sword",
           "weight": 500,
           "quality": 0,
           "type": "item",
@@ -1299,7 +1572,7 @@
               ]
             }
           ],
-          "name": "nex:golden_wither_bone_sword"
+          "name": "netherex:withered_amedian_sword"
         },
         {
           "entryName": "naturescompass:naturescompass",
@@ -1655,53 +1928,53 @@
           "name": "minecraft:diamond_boots"
         },
         {
-          "entryName": "ebwizardry:basic_earth_wand",
+          "entryName": "ebwizardry:novice_earth_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_earth_wand"
+          "name": "ebwizardry:novice_earth_wand"
         },
         {
-          "entryName": "ebwizardry:basic_fire_wand",
+          "entryName": "ebwizardry:novice_fire_wand",
           "weight": 200,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_fire_wand"
+          "name": "ebwizardry:novice_fire_wand"
         },
         {
-          "entryName": "ebwizardry:basic_healing_wand",
+          "entryName": "ebwizardry:novice_healing_wand",
           "weight": 50,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_healing_wand"
+          "name": "ebwizardry:novice_healing_wand"
         },
         {
-          "entryName": "ebwizardry:basic_ice_wand",
+          "entryName": "ebwizardry:novice_ice_wand",
           "weight": 50,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_ice_wand"
+          "name": "ebwizardry:novice_ice_wand"
         },
         {
-          "entryName": "ebwizardry:basic_lightning_wand",
+          "entryName": "ebwizardry:novice_lightning_wand",
           "weight": 50,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_lightning_wand"
+          "name": "ebwizardry:novice_lightning_wand"
         },
         {
-          "entryName": "ebwizardry:basic_necromancy_wand",
+          "entryName": "ebwizardry:novice_necromancy_wand",
           "weight": 50,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_necromancy_wand"
+          "name": "ebwizardry:novice_necromancy_wand"
         },
         {
-          "entryName": "ebwizardry:basic_sorcery_wand",
+          "entryName": "ebwizardry:novice_sorcery_wand",
           "weight": 50,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_sorcery_wand"
+          "name": "ebwizardry:novice_sorcery_wand"
         },
         {
           "entryName": "evilcraft:veined_scribing_tools",
@@ -2494,250 +2767,6 @@
           "condition": "minecraft:random_chance"
         }
       ]
-    },
-    {
-      "name": "forestry_bag",
-      "entries": [
-        {
-          "entryName": "forestry:miner_bag",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.1,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "name": "forestry:miner_bag"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "forestry_bee",
-      "entries": [
-        {
-          "entryName": "forestry:bee_drone_ge",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.05,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "speciesUid": "forestry.speciesSteadfast",
-              "function": "minecraft:set_species_nbt"
-            }
-          ],
-          "name": "forestry:bee_drone_ge"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "forestry_bee2",
-      "entries": [
-        {
-          "entryName": "forestry:bee_drone_ge",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.05,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "speciesUid": "forestry.speciesSinister",
-              "function": "minecraft:set_species_nbt"
-            }
-          ],
-          "name": "forestry:bee_drone_ge"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "blood",
-      "entries": [
-        {
-          "entryName": "evilcraft:condensed_blood",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 32.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "evilcraft:condensed_blood"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "closure_box",
-      "entries": [
-        {
-          "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "evilcraft:inject/chests/box_of_eternal_closure"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "overgrowth",
-      "entries": [
-        {
-          "entryName": "botania:overgrowthseed",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.05,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "name": "botania:overgrowthseed"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "lotus",
-      "entries": [
-        {
-          "entryName": "botania:blacklotus",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.35,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "name": "botania:blacklotus"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "tome",
-      "entries": [
-        {
-          "entryName": "quark:ancient_tome",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.05,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:enchant_tome"
-            }
-          ],
-          "name": "quark:ancient_tome"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "capacitor",
-      "entries": [
-        {
-          "entryName": "enderio:item_basic_capacitor",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 3.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_data"
-            },
-            {
-              "function": "enderio:set_capacitor"
-            }
-          ],
-          "name": "enderio:item_basic_capacitor"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 2.0
-      }
-    },
-    {
-      "name": "surgery",
-      "entries": [
-        {
-          "entryName": "cyberware:surgery",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.15,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "name": "cyberware:surgery"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "lava+charm",
-      "entries": [
-        {
-          "entryName": "randomthings:lavacharm",
-          "weight": 1,
-          "quality": 0,
-          "conditions": [
-            {
-              "chance": 0.25,
-              "condition": "minecraft:random_chance"
-            }
-          ],
-          "type": "item",
-          "name": "randomthings:lavacharm"
-        }
-      ],
-      "rolls": 1.0
     }
   ]
 }

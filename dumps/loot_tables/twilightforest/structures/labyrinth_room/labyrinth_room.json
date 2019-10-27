@@ -198,6 +198,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -443,8 +444,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -459,6 +461,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -511,60 +514,6 @@
             }
           ],
           "name": "minecraft:tnt"
-        },
-        {
-          "entryName": "primal:obsidian_pickaxe",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "primal:obsidian_pickaxe"
-        },
-        {
-          "entryName": "primal:obsidian_shovel",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "primal:obsidian_shovel"
         },
         {
           "entryName": "twilightforest:maze_map_focus",
@@ -650,6 +599,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -745,7 +695,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

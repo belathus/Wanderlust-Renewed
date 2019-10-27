@@ -1,10 +1,10 @@
 {
   "pools": [
     {
-      "name": "flame_spewer_drops",
+      "name": "gunpowder",
       "entries": [
         {
-          "entryName": "minecraft:gunpowder",
+          "entryName": "minecraft:rotten_flesh",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -21,20 +21,21 @@
                 "min": 0.0,
                 "max": 1.0
               },
+              "limit": 10,
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:gunpowder"
+          "name": "minecraft:rotten_flesh"
         }
       ],
       "rolls": 1.0
     },
     {
-      "name": "flame_spewer_rare_drops",
+      "name": "spewer_rare_drops",
       "entries": [
         {
           "entryName": "minecraft:diamond",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -50,6 +51,7 @@
                 "min": -2.0,
                 "max": 1.0
               },
+              "limit": 10,
               "function": "minecraft:looting_enchant"
             }
           ],
@@ -63,6 +65,36 @@
           "condition": "minecraft:killed_by_player"
         }
       ]
+    },
+    {
+      "name": "heart",
+      "entries": [
+        {
+          "entryName": "xreliquary:mob_ingredient",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "chance": 0.1,
+              "looting_multiplier": 0.05,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "xreliquary:mob_ingredient"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

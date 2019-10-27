@@ -246,7 +246,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:bucket",
@@ -279,6 +279,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -372,8 +373,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -388,6 +390,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -471,11 +474,18 @@
           "name": "twilightforest:liveroot"
         },
         {
-          "entryName": "primal:flint_pickaxe",
+          "entryName": "pyrotech:flint_pickaxe",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
             {
               "levels": 30.0,
               "treasure": true,
@@ -486,23 +496,23 @@
                   "condition": "minecraft:random_chance"
                 }
               ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
             }
           ],
-          "name": "primal:flint_pickaxe"
+          "name": "pyrotech:flint_pickaxe"
         },
         {
-          "entryName": "primal:flint_shovel",
+          "entryName": "pyrotech:flint_shovel",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
+            {
+              "damage": {
+                "min": 0.5,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            },
             {
               "levels": 30.0,
               "treasure": true,
@@ -513,16 +523,9 @@
                   "condition": "minecraft:random_chance"
                 }
               ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
-              },
-              "function": "minecraft:set_damage"
             }
           ],
-          "name": "primal:flint_shovel"
+          "name": "pyrotech:flint_shovel"
         },
         {
           "entryName": "ebwizardry:arcane_tome",
@@ -599,6 +602,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -694,7 +698,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

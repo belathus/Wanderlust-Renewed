@@ -36,6 +36,19 @@
       ]
     },
     {
+      "name": "ebwizardry_ebwizardry_additional_mob_drops",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:entities/mob_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "xreliquary_inject_pool",
       "entries": [
         {

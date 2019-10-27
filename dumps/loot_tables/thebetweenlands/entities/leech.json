@@ -108,6 +108,19 @@
           "condition": "minecraft:entity_properties"
         }
       ]
+    },
+    {
+      "name": "leech_item",
+      "entries": [
+        {
+          "entryName": "historicizedmedicine:leech",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "historicizedmedicine:leech"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

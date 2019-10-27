@@ -246,7 +246,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "minecraft:ladder",
@@ -311,6 +311,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -452,8 +453,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -468,6 +470,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -558,58 +561,38 @@
           "name": "twilightforest:uncrafting_table"
         },
         {
-          "entryName": "primal:quartz_pickaxe",
+          "entryName": "appliedenergistics2:nether_quartz_pickaxe",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
+              "levels": {
+                "min": 15.0,
+                "max": 30.0
               },
-              "function": "minecraft:set_damage"
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:quartz_pickaxe"
+          "name": "appliedenergistics2:nether_quartz_pickaxe"
         },
         {
-          "entryName": "primal:quartz_shovel",
+          "entryName": "appliedenergistics2:nether_quartz_spade",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels",
-              "conditions": [
-                {
-                  "chance": 0.2,
-                  "condition": "minecraft:random_chance"
-                }
-              ]
-            },
-            {
-              "damage": {
-                "min": 0.5,
-                "max": 1.0
+              "levels": {
+                "min": 15.0,
+                "max": 30.0
               },
-              "function": "minecraft:set_damage"
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primal:quartz_shovel"
+          "name": "appliedenergistics2:nether_quartz_spade"
         },
         {
           "entryName": "ebwizardry:arcane_tome",
@@ -691,6 +674,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -786,7 +770,7 @@
         {
           "entryName": "evilcraft:inject/chests/box_of_eternal_closure",
           "weight": 1,
-          "quality": 1,
+          "quality": 0,
           "type": "loot_table",
           "name": "evilcraft:inject/chests/box_of_eternal_closure"
         }

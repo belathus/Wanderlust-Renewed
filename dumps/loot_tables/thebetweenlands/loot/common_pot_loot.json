@@ -60,6 +60,38 @@
           "name": "thebetweenlands:sap_ball"
         },
         {
+          "entryName": "thebetweenlands:dentrothyst_shard_green",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_green"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_orange",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_orange"
+        },
+        {
           "entryName": "lurker_skin",
           "weight": 12,
           "quality": 0,
@@ -288,6 +320,13 @@
             }
           ],
           "name": "thebetweenlands:aspectrus_seeds"
+        },
+        {
+          "entryName": "thebetweenlands:bone_wayfinder",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_wayfinder"
         }
       ],
       "rolls": {

@@ -4,11 +4,11 @@
       "name": "wizardry",
       "entries": [
         {
-          "entryName": "ebwizardry:subsets/novice_wands",
+          "entryName": "ebwizardry:subsets/elemental_crystals",
           "weight": 3,
           "quality": 0,
           "type": "loot_table",
-          "name": "ebwizardry:subsets/novice_wands"
+          "name": "ebwizardry:subsets/elemental_crystals"
         },
         {
           "entryName": "ebwizardry:subsets/wizard_armour",
@@ -19,7 +19,7 @@
         },
         {
           "entryName": "ebwizardry:subsets/arcane_tomes",
-          "weight": 6,
+          "weight": 4,
           "quality": 0,
           "type": "loot_table",
           "name": "ebwizardry:subsets/arcane_tomes"
@@ -55,6 +55,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
               "function": "ebwizardry:random_spell"
             }
           ],
@@ -62,13 +63,21 @@
         },
         {
           "entryName": "ebwizardry:scroll",
-          "weight": 10,
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
               "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "name": "ebwizardry:scroll"

@@ -95,6 +95,23 @@
       ]
     },
     {
+      "name": "leeches",
+      "entries": [
+        {
+          "entryName": "historicizedmedicine:leech",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "historicizedmedicine:leech"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "bonus_rolls": 1.0
+    },
+    {
       "name": "heart",
       "entries": [
         {

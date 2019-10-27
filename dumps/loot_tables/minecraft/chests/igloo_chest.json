@@ -36,22 +36,6 @@
           "name": "minecraft:coal"
         },
         {
-          "entryName": "minecraft:gold_nugget",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_nugget"
-        },
-        {
           "entryName": "minecraft:ice",
           "weight": 25,
           "quality": 0,
@@ -84,54 +68,6 @@
           "name": "minecraft:packed_ice"
         },
         {
-          "entryName": "minecraft:melon_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:melon_seeds"
-        },
-        {
-          "entryName": "minecraft:pumpkin_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:pumpkin_seeds"
-        },
-        {
-          "entryName": "minecraft:beetroot_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:beetroot_seeds"
-        },
-        {
           "entryName": "dungeontactics:ducttape",
           "weight": 3,
           "quality": 0,
@@ -160,6 +96,13 @@
             }
           ],
           "name": "dungeontactics:heart_jar"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 60,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:loot_bag"
         }
       ],
       "rolls": {
@@ -228,22 +171,6 @@
         },
         {
           "entryName": "immersiveengineering:metal-lt#2",
-          "weight": 60,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "immersiveengineering:metal"
-        },
-        {
-          "entryName": "immersiveengineering:metal-lt#3",
           "weight": 40,
           "quality": 0,
           "type": "item",
@@ -263,7 +190,7 @@
           "name": "immersiveengineering:metal"
         },
         {
-          "entryName": "immersiveengineering:metal-lt#4",
+          "entryName": "immersiveengineering:metal-lt#3",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -283,7 +210,7 @@
           "name": "immersiveengineering:metal"
         },
         {
-          "entryName": "immersiveengineering:metal-lt#5",
+          "entryName": "immersiveengineering:metal-lt#4",
           "weight": 30,
           "quality": 0,
           "type": "item",
@@ -303,7 +230,7 @@
           "name": "immersiveengineering:metal"
         },
         {
-          "entryName": "immersiveengineering:metal-lt#6",
+          "entryName": "immersiveengineering:metal-lt#5",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -369,46 +296,6 @@
             }
           ],
           "name": "minecraft:emerald"
-        },
-        {
-          "entryName": "contenttweaker:material_part-lt#3",
-          "weight": 50,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 67.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "contenttweaker:material_part"
-        },
-        {
-          "entryName": "contenttweaker:material_part-lt#4",
-          "weight": 50,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 81.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "contenttweaker:material_part"
         },
         {
           "entryName": "minecraft:redstone",
@@ -486,8 +373,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -502,6 +390,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -509,6 +398,36 @@
             }
           ],
           "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:spell_book-lt#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
+              "tiers": [
+                "advanced"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 325,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
         }
       ],
       "rolls": {
@@ -550,20 +469,253 @@
           "name": "twilightforest:arctic_fur"
         },
         {
-          "entryName": "ebwizardry:spell_book",
+          "entryName": "enderio:item_alloy_ingot",
           "weight": 15,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "ignore_weighting": false,
-              "tiers": [
-                "advanced"
-              ],
-              "function": "ebwizardry:random_spell"
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "ebwizardry:spell_book"
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#2",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#4",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#6",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_alloy_ingot-lt#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_alloy_ingot"
+        },
+        {
+          "entryName": "enderio:item_material",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "enderio:item_material-lt#2",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "enderio:item_material-lt#3",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "enderio:item_material-lt#4",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "enderio:item_material-lt#5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:item_material"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
         }
       ],
       "rolls": 1.0
@@ -654,13 +806,69 @@
           "name": "ebwizardry:arcane_tome"
         },
         {
-          "entryName": "empty",
-          "weight": 111,
+          "entryName": "ebwizardry:magic_wand",
+          "weight": 2,
           "quality": 0,
-          "type": "empty"
+          "type": "item",
+          "name": "ebwizardry:magic_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_earth_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_earth_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_fire_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_fire_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_healing_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_healing_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_ice_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_ice_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_lightning_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_lightning_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_necromancy_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_necromancy_wand"
+        },
+        {
+          "entryName": "ebwizardry:novice_sorcery_wand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:novice_sorcery_wand"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.25,
+          "condition": "minecraft:random_chance"
+        }
+      ]
     },
     {
       "name": "xrel",

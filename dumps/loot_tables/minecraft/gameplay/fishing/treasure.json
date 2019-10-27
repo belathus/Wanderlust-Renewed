@@ -4,13 +4,6 @@
       "name": "common",
       "entries": [
         {
-          "entryName": "minecraft:waterlily",
-          "weight": 100,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:waterlily"
-        },
-        {
           "entryName": "minecraft:name_tag",
           "weight": 100,
           "quality": 0,
@@ -23,20 +16,6 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:saddle"
-        },
-        {
-          "entryName": "forestry:broken_bronze_shovel",
-          "weight": 100,
-          "quality": 0,
-          "type": "item",
-          "name": "forestry:broken_bronze_shovel"
-        },
-        {
-          "entryName": "forestry:broken_bronze_pickaxe",
-          "weight": 50,
-          "quality": 0,
-          "type": "item",
-          "name": "forestry:broken_bronze_pickaxe"
         },
         {
           "entryName": "enderio:item_basic_capacitor",
@@ -122,7 +101,7 @@
         },
         {
           "entryName": "minecraft:fishing_rod",
-          "weight": 20,
+          "weight": 40,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -176,7 +155,40 @@
           "name": "randomthings:lavacharm"
         },
         {
-          "entryName": "primitivetools:primitive_knife_cwv",
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:loot_bag"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag-lt#2",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
+        },
+        {
+          "entryName": "thaumcraft:loot_bag-lt#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
+        },
+        {
+          "entryName": "pyrotech:flint_sword",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -194,10 +206,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primitivetools:primitive_knife_cwv"
+          "name": "pyrotech:flint_sword"
         },
         {
-          "entryName": "primitivetools:primitive_pick_cwv",
+          "entryName": "pyrotech:flint_pickaxe",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -215,10 +227,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primitivetools:primitive_pick_cwv"
+          "name": "pyrotech:flint_pickaxe"
         },
         {
-          "entryName": "primitivetools:primitive_hatchet_cwv",
+          "entryName": "pyrotech:flint_axe",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -236,10 +248,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primitivetools:primitive_hatchet_cwv"
+          "name": "pyrotech:flint_axe"
         },
         {
-          "entryName": "primitivetools:primitive_hoe_cwv",
+          "entryName": "pyrotech:flint_hoe",
           "weight": 8,
           "quality": 0,
           "type": "item",
@@ -257,10 +269,10 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primitivetools:primitive_hoe_cwv"
+          "name": "pyrotech:flint_hoe"
         },
         {
-          "entryName": "primitivetools:primitive_spade_cwv",
+          "entryName": "pyrotech:flint_shovel",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -278,7 +290,7 @@
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "primitivetools:primitive_spade_cwv"
+          "name": "pyrotech:flint_shovel"
         },
         {
           "entryName": "artisanworktables:artisans_handsaw_flint",

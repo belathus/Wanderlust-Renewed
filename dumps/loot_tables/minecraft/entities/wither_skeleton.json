@@ -25,6 +25,13 @@
             }
           ],
           "name": "minecraft:coal"
+        },
+        {
+          "entryName": "netherex:wither_bone_loot_pool",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "netherex:entity/wither_skeleton"
         }
       ],
       "rolls": 1.0
@@ -87,6 +94,19 @@
           "condition": "minecraft:random_chance_with_looting"
         }
       ]
+    },
+    {
+      "name": "ebwizardry_ebwizardry_additional_mob_drops",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:entities/mob_additions"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "name": "xreliquary_inject_pool",

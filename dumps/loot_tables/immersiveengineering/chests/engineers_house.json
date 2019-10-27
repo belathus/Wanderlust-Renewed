@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "immersiveengineering:engineers_village_house",
+      "name": "immersiveengineering:engineers_village_house_0",
       "entries": [
         {
           "entryName": "treated_stick",
@@ -170,7 +170,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ore"
         },
         {
           "entryName": "copper_ingot",
@@ -267,10 +267,19 @@
             }
           ],
           "name": "immersiveengineering:metal"
-        },
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "immersiveengineering:engineers_village_house_1",
+      "entries": [
         {
           "entryName": "blueprint_bullets",
-          "weight": 4,
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -293,7 +302,7 @@
         {
           "entryName": "blueprint_specialBullets",
           "weight": 2,
-          "quality": 0,
+          "quality": 3,
           "type": "item",
           "functions": [
             {
@@ -315,7 +324,7 @@
         {
           "entryName": "blueprint_electrode",
           "weight": 1,
-          "quality": 0,
+          "quality": 2,
           "type": "item",
           "functions": [
             {
@@ -333,9 +342,103 @@
             }
           ],
           "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "revolver_barrel",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "immersiveengineering:revolver_perks"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "revolver_drum",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "immersiveengineering:revolver_perks"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "revolver_hammer",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 16.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "immersiveengineering:revolver_perks"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "empty",
+          "weight": 5,
+          "quality": 0,
+          "type": "empty"
         }
       ],
-      "rolls": 4.0
+      "rolls": 1.0
+    },
+    {
+      "name": "immersiveengineering:engineers_village_house_2",
+      "entries": [
+        {
+          "entryName": "immersiveengineering:pickaxe_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:pickaxe_steel"
+        },
+        {
+          "entryName": "immersiveengineering:shovel_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:shovel_steel"
+        },
+        {
+          "entryName": "immersiveengineering:axe_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:axe_steel"
+        },
+        {
+          "entryName": "immersiveengineering:sword_steel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:sword_steel"
+        },
+        {
+          "entryName": "empty",
+          "weight": 4,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

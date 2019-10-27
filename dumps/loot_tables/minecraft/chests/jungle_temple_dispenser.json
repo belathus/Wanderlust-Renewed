@@ -138,6 +138,19 @@
       }
     },
     {
+      "name": "ebwizardry_ebwizardry_additional_dispenser_loot",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/jungle_dispenser_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "randomthings:biomeCrystal",
       "entries": [
         {

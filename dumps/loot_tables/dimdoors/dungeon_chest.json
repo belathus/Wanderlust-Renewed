@@ -707,8 +707,9 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
-                "basic"
+                "novice"
               ],
               "function": "ebwizardry:random_spell"
             }
@@ -723,6 +724,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "apprentice"
               ],
@@ -739,6 +741,7 @@
           "functions": [
             {
               "ignore_weighting": false,
+              "undiscovered_bias": 0.0,
               "tiers": [
                 "advanced"
               ],
@@ -1204,7 +1207,7 @@
       "name": "ultrarare",
       "entries": [
         {
-          "entryName": "primitivetools:primitive_knife_cwv",
+          "entryName": "pyrotech:flint_sword",
           "weight": 400,
           "quality": 0,
           "type": "item",
@@ -1228,10 +1231,10 @@
               ]
             }
           ],
-          "name": "primitivetools:primitive_knife_cwv"
+          "name": "pyrotech:flint_sword"
         },
         {
-          "entryName": "primitivetools:primitive_pick_cwv",
+          "entryName": "pyrotech:flint_pickaxe",
           "weight": 400,
           "quality": 0,
           "type": "item",
@@ -1255,10 +1258,10 @@
               ]
             }
           ],
-          "name": "primitivetools:primitive_pick_cwv"
+          "name": "pyrotech:flint_pickaxe"
         },
         {
-          "entryName": "primitivetools:primitive_hatchet_cwv",
+          "entryName": "pyrotech:flint_axe",
           "weight": 400,
           "quality": 0,
           "type": "item",
@@ -1282,10 +1285,10 @@
               ]
             }
           ],
-          "name": "primitivetools:primitive_hatchet_cwv"
+          "name": "pyrotech:flint_axe"
         },
         {
-          "entryName": "primitivetools:primitive_hoe_cwv",
+          "entryName": "pyrotech:flint_hoe",
           "weight": 320,
           "quality": 0,
           "type": "item",
@@ -1309,10 +1312,10 @@
               ]
             }
           ],
-          "name": "primitivetools:primitive_hoe_cwv"
+          "name": "pyrotech:flint_hoe"
         },
         {
-          "entryName": "primitivetools:primitive_pick_cwv-lt#2",
+          "entryName": "pyrotech:flint_pickaxe-lt#2",
           "weight": 800,
           "quality": 0,
           "type": "item",
@@ -1336,7 +1339,7 @@
               ]
             }
           ],
-          "name": "primitivetools:primitive_pick_cwv"
+          "name": "pyrotech:flint_pickaxe"
         },
         {
           "entryName": "artisanworktables:artisans_handsaw_flint",
@@ -1759,53 +1762,53 @@
           "name": "ebwizardry:magic_wand"
         },
         {
-          "entryName": "ebwizardry:basic_earth_wand",
+          "entryName": "ebwizardry:novice_earth_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_earth_wand"
+          "name": "ebwizardry:novice_earth_wand"
         },
         {
-          "entryName": "ebwizardry:basic_fire_wand",
+          "entryName": "ebwizardry:novice_fire_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_fire_wand"
+          "name": "ebwizardry:novice_fire_wand"
         },
         {
-          "entryName": "ebwizardry:basic_healing_wand",
+          "entryName": "ebwizardry:novice_healing_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_healing_wand"
+          "name": "ebwizardry:novice_healing_wand"
         },
         {
-          "entryName": "ebwizardry:basic_ice_wand",
+          "entryName": "ebwizardry:novice_ice_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_ice_wand"
+          "name": "ebwizardry:novice_ice_wand"
         },
         {
-          "entryName": "ebwizardry:basic_lightning_wand",
+          "entryName": "ebwizardry:novice_lightning_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_lightning_wand"
+          "name": "ebwizardry:novice_lightning_wand"
         },
         {
-          "entryName": "ebwizardry:basic_necromancy_wand",
+          "entryName": "ebwizardry:novice_necromancy_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_necromancy_wand"
+          "name": "ebwizardry:novice_necromancy_wand"
         },
         {
-          "entryName": "ebwizardry:basic_sorcery_wand",
+          "entryName": "ebwizardry:novice_sorcery_wand",
           "weight": 100,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:basic_sorcery_wand"
+          "name": "ebwizardry:novice_sorcery_wand"
         },
         {
           "entryName": "evilcraft:blood_extractor",
