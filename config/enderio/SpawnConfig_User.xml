@@ -152,7 +152,7 @@
     </biomeFilter>
   </entry>
 
-  <entry id="lavasquid" mobName="primitivemobs:flame_spewer" creaturetype="WATER_CREATURE" rate="1" minGroupSize="1" maxGroupSize="1">
+  <entry id="lavasquid" mobName="primitivemobs:flame_spewer" creaturetype="WATER_CREATURE" rate="0" minGroupSize="1" maxGroupSize="1">
     <biomeFilter type="any">
       <biome type="NETHER"/>
       <biome type="DESERT"/>
