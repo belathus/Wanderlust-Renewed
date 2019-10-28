@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "item": "logisticspipes:guide_book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
       "item": "thebetweenlands:manual_hl",
       "handlerType": "rightclick",
       "matchDamage": false,
