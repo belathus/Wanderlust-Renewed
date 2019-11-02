@@ -142,3 +142,10 @@
         [[<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>],
          [<ore:circuitUltimate>, <mekanism:machineblock:6>.withTag({recipeType: 7}), <ore:circuitUltimate>],
          [<ore:blockOsmium>, <ore:circuitUltimate>, <ore:blockOsmium>]]);
+
+    # Boiler Casing
+    recipes.removeByRecipeName("mekanism:basicblock2_7");
+    recipes.addShaped(<mekanism:basicblock2:7> * 8,
+        [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+         [<ore:plateSteel>, <ore:ingotIron>, <ore:plateSteel>],
+         [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
