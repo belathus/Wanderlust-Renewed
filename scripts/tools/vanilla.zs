@@ -18,16 +18,11 @@
 #     [<ore:ingotGold>],
 #     [<ore:stickWood>]]);
 
-# Modify the flint and steel recipe
-  recipes.remove(<minecraft:flint_and_steel>);
-  recipes.addShapeless(<minecraft:flint_and_steel>,
-    [<ore:flakeFlint>,<minecraft:iron_ingot>]);
-
-# Make cordage slightly more useful.
+# Make twine slightly more useful.
   recipes.addShaped(<minecraft:lead>*2,
-    [[<ore:cordageGeneral>,<ore:cordageGeneral>,null],
-     [<ore:cordageGeneral>,<ore:slimeball>,null],
-     [null,null,<ore:cordageGeneral>]]);
+    [[<ore:twine>,<ore:twine>,null],
+     [<ore:twine>,<ore:slimeball>,null],
+     [null,null,<ore:twine>]]);
 
 # Bronze age shield recipe.
   recipes.addShaped(<minecraft:shield>,
