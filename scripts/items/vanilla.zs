@@ -11,10 +11,14 @@ import crafttweaker.item.IItemStack;
     recipes.removeByRecipeName("evilcraft:deadbush");
     recipes.addShapeless("shear_sapling", <minecraft:deadbush>, [<ore:toolShears>.transformDamage(), <ore:treeSapling>]);
 
+# Flint
+    recipes.remove(<minecraft:flint>);
+    recipes.addShapeless(<minecraft:flint>, [<ore:gravel>,<ore:gravel>,<ore:gravel>]);
+
 # Name Tag
     recipes.remove(<minecraft:name_tag>);
     recipes.addShaped(<minecraft:name_tag>,
-        [[<ore:string>|<ore:twine>,null,<ore:cordageGeneral>|<ore:twine>],
+        [[<ore:twine>,null,<ore:twine>],
          [null,<bibliocraft:label:*>,null]]);
 
 # Quartz
@@ -25,6 +29,14 @@ import crafttweaker.item.IItemStack;
         [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:quartz_stairs>]]);
     recipes.addShaped(<minecraft:quartz>*2,
         [[<ore:toolMalletStone> | <ore:artisansHammer>.transformDamage()],[<minecraft:stone_slab:7>]]);
+
+# Sticks
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<ore:itemKnife>],
+         [<ore:treeSapling>]]);
+    recipes.addShaped(<minecraft:stick>*1,
+        [[<ore:toolAxe>],
+         [<ore:treeSapling>]]);
 
 # String
   # Remove Wool to String
