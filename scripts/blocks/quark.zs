@@ -11,6 +11,6 @@
 
     # Leaf Carpets (that are missing recipes)
     recipes.addShaped(<quark:leaf_carpet:6> * 3,
-      [<quark:variant_leaves:0>,<quark:variant_leaves:0>]);
+      [[<quark:variant_leaves:0>,<quark:variant_leaves:0>]]);
     recipes.addShaped(<quark:leaf_carpet:7> * 3,
-      [<quark:variant_leaves:1>,<quark:variant_leaves:1>]);
+      [[<quark:variant_leaves:1>,<quark:variant_leaves:1>]]);

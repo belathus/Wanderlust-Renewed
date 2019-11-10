@@ -33,4 +33,4 @@ val list_mithril = [
 
 var mithril_oredict = [<ore:nuggetMithril>,<ore:ingotMithril>,<ore:blockMithril>,<ore:plateMithril>,<ore:gearMithril>,<ore:oreMithril>, <ore:dustMithril>] as crafttweaker.item.IIngredient[];
 
-scripts.functions.unify(list_mithril, silver_mithril);
+scripts.functions.unify(list_mithril, mithril_oredict);
