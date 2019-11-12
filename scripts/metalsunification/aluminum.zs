@@ -21,6 +21,15 @@ val nope = <minecraft:barrier>;
         <libvulpes:ore0:9>,
         <libvulpes:productdust:9>
       ],
+      [
+        nope,
+        <rockhounding_chemistry:metal_items:3>,
+        nope,
+        nope,
+        nope,
+        nope,
+        <rockhounding_chemistry:chemical_dusts:16>
+      ]
 /* ========================================================
    Unused mods. Left here just in case we ever re-add them.
    ========================================================
