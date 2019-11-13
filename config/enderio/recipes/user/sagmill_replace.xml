@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Sagmill: Silicon" required="true">
+    <sagmilling energy="720">
+      <input name="oredict:sand"/>
+      <output name="enderio:item_material:5" chance="0.5" />
+    </sagmilling>
+  </recipe>
+
+</enderio:recipes>
