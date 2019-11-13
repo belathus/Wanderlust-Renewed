@@ -8,4 +8,33 @@
     </sagmilling>
   </recipe>
 
+  <recipe name="Sagmill: ClayBlock" required="true">
+    <sagmilling energy="2400">
+      <input name="minecraft:clay"/>
+      <output name="minecraft:clay_ball" amount="2" />
+      <output name="minecraft:clay_ball" chance="0.1" />
+      <output name="enderio:item_material:5" amount="2" chance="0.8" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreRedstone Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreRedstone" />
+      <output name="minecraft:redstone" amount="8" />
+      <output name="minecraft:redstone" chance="0.2" />
+      <output name="enderio:item_material:5" chance="0.8" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Nether Redstone Ore" required="false">
+    <sagmilling energy="3200">
+      <input name="oreNetherRedstone" />
+      <output name="minecraft:redstone" amount="21" />
+      <output name="minecraft:redstone" amount="2" chance="0.2" />
+      <output name="enderio:item_material:5" amount="2" chance="0.8" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
 </enderio:recipes>
