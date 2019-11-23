@@ -8,3 +8,6 @@
         [[<ore:stone>,<ore:stone>,<ore:stone>],
          [<ore:stone>,<evilcraft:bucket_eternal_water>,<ore:stone>],
          [<ore:stone>,<ore:stone>,<ore:stone>]]);
+
+# Charcoal
+  recipes.removeByRecipeName("chisel:charcoal");

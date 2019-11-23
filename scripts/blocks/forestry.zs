@@ -16,3 +16,6 @@ recipes.addShapedMirrored(<forestry:ash_stairs:0> * 8,
     [[<ore:dirt>,<ore:sand>,<ore:dirt>],
      [<ore:sand>,<botania:waterrod>.giveBack(),<ore:sand>],
      [<ore:dirt>,<ore:sand>,<ore:dirt>]]);
+
+# Charcoal
+  recipes.removeByRecipeName("forestry:charcoal_block");
