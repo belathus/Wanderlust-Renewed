@@ -43,3 +43,15 @@
 
 # Twilight Forest
     mods.tconstruct.Casting.addBasinRecipe(<twilightforest:maze_stone>, <minecraft:stone>, <liquid:mazebreaker>, 1, true);
+
+# Gear casts with EnderIO gears
+    val castLiquids = [<liquid:alubrass>, <liquid:brass>] as crafttweaker.liquid.ILiquidStack[];
+    val enderioGears = [<enderio:item_material:10>, <enderio:item_material:11>, <enderio:item_material:12>, <enderio:item_material:13>, <enderio:item_material:73>] as crafttweaker.item.IItemStack[];
+    
+    //Add gold cast recipe for dark gear
+    mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <enderio:item_material:73>, <liquid:gold>, 288);
+    for castLiquid in castLiquids{
+        for enderioGear in enderioGears{
+            mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, enderioGear, castLiquid, 144);
+        }   
+    }
