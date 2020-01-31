@@ -95,15 +95,6 @@ val nope = <minecraft:barrier>;
       <mekanism:dust:3>
     ],
     [
-      nope,
-      <rockhounding_chemistry:metal_items:11>,
-      nope,
-      nope,
-      nope,
-      nope,
-      <rockhounding_chemistry:chemical_dusts:26>
-    ],
-    [
       <thaumcraft:nugget:1>,
       nope,
       nope,
@@ -115,6 +106,15 @@ val nope = <minecraft:barrier>;
 /* ========================================================
    Unused mods. Left here just in case we ever re-add them.
    ========================================================
+    [
+      nope,
+      <rockhounding_chemistry:metal_items:11>,
+      nope,
+      nope,
+      nope,
+      nope,
+      <rockhounding_chemistry:chemical_dusts:26>
+    ],
     [nope,                 <abyssalcraft:copperingot>, nope,         nope,                 nope,                       <abyssalcraft:abycopore>, nope],
     [nope,                <fp:ItemErze:2>,     <fp:erz_blocke:2>,   nope,                 nope,                       nope,                nope],
     [<embers:nuggetCopper>,<embers:ingotCopper>,<embers:blockCopper>,<embers:plateCopper>, nope,                      nope,                 nope],

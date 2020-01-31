@@ -29,6 +29,7 @@ val list_silver = [
     nope,
     <mekanism:dust:5>
   ],
+  /*
   [
     nope,
     nope,
@@ -38,6 +39,7 @@ val list_silver = [
     nope,
     <rockhounding_chemistry:chemical_dusts:43>
   ],
+  */
   [
     <thaumcraft:nugget:3>,
     nope,
@@ -55,7 +57,8 @@ val list_silver = [
     <tinkerscompendium:gear_silver>,
     nope,
     <tinkerscompendium:dust_silver>
-  ],
+  ]
+  /*,
   [
     nope,
     nope,
@@ -65,6 +68,7 @@ val list_silver = [
     nope,
     <rockhounding_chemistry:chemical_dusts:43>
   ]
+  */
 ] as crafttweaker.item.IItemStack[][];
 
 var silver_oredict = [<ore:nuggetSilver>,<ore:ingotSilver>,<ore:blockSilver>,<ore:plateSilver>,<ore:gearSilver>,<ore:oreSilver>, <ore:dustSilver>] as crafttweaker.item.IIngredient[];

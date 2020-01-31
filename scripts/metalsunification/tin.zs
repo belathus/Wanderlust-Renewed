@@ -24,6 +24,7 @@ val nope = <minecraft:barrier>;
       <forestry:resources:2>,
       nope
     ],
+    /*
     [
       nope,
       nope,
@@ -33,6 +34,7 @@ val nope = <minecraft:barrier>;
       nope,
       <rockhounding_chemistry:chemical_dusts:49>
     ],
+    */
     [
       <libvulpes:productnugget:5>,
       <libvulpes:productingot:5>,

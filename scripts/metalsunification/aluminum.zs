@@ -20,8 +20,12 @@ val nope = <minecraft:barrier>;
         nope,
         <libvulpes:ore0:9>,
         <libvulpes:productdust:9>
-      ],
-      [
+      ]
+      
+/* ========================================================
+   Unused mods. Left here just in case we ever re-add them.
+   ========================================================
+      ,[
         nope,
         <rockhounding_chemistry:metal_items:3>,
         nope,
@@ -30,9 +34,6 @@ val nope = <minecraft:barrier>;
         nope,
         <rockhounding_chemistry:chemical_dusts:16>
       ]
-/* ========================================================
-   Unused mods. Left here just in case we ever re-add them.
-   ========================================================
       [teMat.withDamage(196),teMat.withDamage(132),teSto.withDamage(4), teMat.withDamage(324),teMat.withDamage(260),        teOre.withDamage(4), teMat.withDamage(68)]
    ========================================================
 */

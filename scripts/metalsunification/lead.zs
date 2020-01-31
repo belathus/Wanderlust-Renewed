@@ -22,15 +22,7 @@ val nope = <minecraft:barrier>;
       nope,
       nope
     ],
-    [
-      nope,
-      <rockhounding_chemistry:metal_items:5>,
-      nope,
-      nope,              
-      nope,    
-      nope,
-      <rockhounding_chemistry:chemical_dusts:31>
-    ],
+    
     [
       nope,
       nope,
@@ -52,6 +44,15 @@ val nope = <minecraft:barrier>;
 /* ========================================================
    Unused mods. Left here just in case we ever re-add them.
    ========================================================
+    ,[
+      nope,
+      <rockhounding_chemistry:metal_items:5>,
+      nope,
+      nope,              
+      nope,    
+      nope,
+      <rockhounding_chemistry:chemical_dusts:31>
+    ],
     [<primal:lead_nugget>, <primal:lead_ingot>, <primal:metalblock:7>, <primal:lead_plate>,  nope,                  nope,                <primal:lead_dust>],
     [teMat.withDamage(195),teMat.withDamage(131),     teSto.withDamage(3),   teMat.withDamage(323),teMat.withDamage(259),teOre.withDamage(3),   teMat.withDamage(67)]
    ========================================================

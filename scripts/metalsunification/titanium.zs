@@ -12,7 +12,8 @@ val nope = <minecraft:barrier>;
           <contenttweaker:sub_block_holder_3:3>,       # ore
           <materialpart:titanium:dust>,                # dust
           nope                                         # rod
-        ],
+        ]
+        /*,
         [
           nope,
           <rockhounding_chemistry:metal_items:4>,
@@ -22,6 +23,7 @@ val nope = <minecraft:barrier>;
           nope,
           <rockhounding_chemistry:chemical_dusts:58>
         ]
+        */
     ] as crafttweaker.item.IItemStack[][];
 
   var titanium_oredict = [<ore:nuggetTitanium>,<ore:ingotTitanium>,<ore:blockTitanium>,<ore:plateTitanium>,<ore:gearTitanium>,<ore:oreTitanium>,<ore:dustTitanium>] as crafttweaker.item.IIngredient[];

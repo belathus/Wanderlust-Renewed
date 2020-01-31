@@ -12,6 +12,7 @@ val nope = <minecraft:barrier>;
       <immersiveengineering:ore:4>,
       <immersiveengineering:metal:13>
     ],
+    /*
     [
       nope,
       <rockhounding_chemistry:metal_items:13>,
@@ -20,7 +21,7 @@ val nope = <minecraft:barrier>;
       nope,
       nope,
       <rockhounding_chemistry:chemical_dusts:26>
-    ],
+    ],*/
     [
       nope,
       nope,
