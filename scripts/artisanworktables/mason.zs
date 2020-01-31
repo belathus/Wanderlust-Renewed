@@ -155,3 +155,67 @@ import crafttweaker.item.IItemDefinition;
       .addOutput(<pyrotech:material:16> * 2)
       .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
       .create();
+
+    # Add pyrotech anvil slab recipes
+    #Stone
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:stone>])
+      .addOutput(<minecraft:stone_slab> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Stone Bricks
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:stonebrick>])
+      .addOutput(<minecraft:stone_slab:5> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Cobblestone
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:cobblestone>])
+      .addOutput(<minecraft:stone_slab:3> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Quartz
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:quartz_block:*>])
+      .addOutput(<minecraft:stone_slab:7> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Brick
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:brick_block>])
+      .addOutput(<minecraft:stone_slab:4> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Nether Brick
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:nether_brick>])
+      .addOutput(<minecraft:stone_slab:7> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Sandstone
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:sandstone:*>])
+      .addOutput(<minecraft:stone_slab:1> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Red Sandstone
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:red_sandstone:*>])
+      .addOutput(<minecraft:stone_slab2> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
+
+    #Purpur
+    RecipeBuilder.get("mason")
+      .setShapeless([<minecraft:purpur_block>])
+      .addOutput(<minecraft:purpur_slab> * 2)
+      .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
+      .create();
