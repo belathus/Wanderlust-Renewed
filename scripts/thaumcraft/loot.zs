@@ -83,7 +83,7 @@ import mods.thaumcraft.LootBag;
 
   # EBWizardry baubles
   LootBag.addLoot(<ebwizardry:amulet_anchoring>           %  1, [1, 2]);
-  LootBag.addLoot(<ebwizardry:amulet_arcane_defense>      %  1, [1, 2]);
+  LootBag.addLoot(<ebwizardry:amulet_arcane_defence>      %  1, [1, 2]);
   LootBag.addLoot(<ebwizardry:amulet_auto_shield>         %  1, [1, 2]);
   LootBag.addLoot(<ebwizardry:amulet_banishing>           %  1, [1, 2]);
   LootBag.addLoot(<ebwizardry:amulet_channeling>          %  1, [1, 2]);
