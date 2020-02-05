@@ -46,6 +46,13 @@ import loottweaker.vanilla.loot.Functions;
   tf_common.addItemEntryHelper(<minecraft:sand>,             10, 0, [Functions.setCount(1, 4)], []);
   tf_common.addItemEntry(<minecraft:flower_pot>,             10, 0);
   tf_common.addItemEntry(<minecraft:dye>,                    10, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:1>,        3, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:2>,        3, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:3>,        3, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:4>,        3, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:5>,        9, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:6>,        3, 0);
+  tf_common.addItemEntry(<ebwizardry:magic_crystal:7>,        3, 0);
   
   # Add 2 to 6 rolls for saplings, fireflies, or other uncommon things (if we add them later).
   val tf_uncommon = tf_tree.addPool("uncommon", 2, 6, 0, 0);

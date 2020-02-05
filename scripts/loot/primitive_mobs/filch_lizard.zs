@@ -27,11 +27,20 @@ import loottweaker.vanilla.loot.Functions;
   item.removeEntry("minecraft:emerald");
   item.removeEntry("minecraft:ender_pearl");
   item.addItemEntryHelper(<minecraft:flint>,                     30, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:crystal_shard>,            30, 0, [], []);
   item.addItemEntryHelper(<minecraft:iron_nugget>,               12, 0, [], []);
   item.addItemEntryHelper(<minecraft:gold_nugget>,               10, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:0>,          10, 0, [], []);
   item.addItemEntryHelper(<immersiveengineering:metal:0>,         7, 0, [], []); # Copper
   item.addItemEntryHelper(<materialpart:tin:ingot>,               5, 0, [], []);
   item.addItemEntryHelper(<materialpart:zinc:ingot>,              5, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:1>,           4, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:2>,           4, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:3>,           4, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:4>,           4, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:5>,           4, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:6>,           4, 0, [], []);
+  item.addItemEntryHelper(<ebwizardry:magic_crystal:7>,           4, 0, [], []);
   item.addItemEntryHelper(<minecraft:iron_ingot>,                 4, 0, [], []);
   item.addItemEntryHelper(<minecraft:gold_ingot>,                 3, 0, [], []);
   item.addItemEntryHelper(<immersiveengineering:metal:3>,         3, 0, [], []); # Silver

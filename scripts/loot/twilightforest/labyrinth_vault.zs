@@ -101,3 +101,4 @@ import loottweaker.vanilla.loot.Functions;
   tf_labyrinth.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   tf_labyrinth.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
   tf_labyrinth.addPool("tome", 1, 1, 0, 0).addItemEntryHelper(<quark:ancient_tome>, 1, 0, [ancient_tome], [Conditions.randomChance(0.05)]);
+  tf_labyrinth.addPool("astral_dia", 1, 1, 0, 0).addItemEntryHelper(<ebwizardry:astral_diamond>, 1, 0, [], [Conditions.randomChance(0.05)]);

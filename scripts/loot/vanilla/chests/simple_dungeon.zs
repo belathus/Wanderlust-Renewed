@@ -198,3 +198,4 @@ import loottweaker.vanilla.loot.Functions;
   dungeon.addPool("closure_box", 1, 1, 0, 0).addLootTableEntry("evilcraft:inject/chests/box_of_eternal_closure", 1);
   dungeon.addPool("overgrowth", 1, 1, 0, 0).addItemEntryHelper(<botania:overgrowthseed>, 1, 0, [], [Conditions.randomChance(0.05)]);
   dungeon.addPool("lotus", 1, 1, 0, 0).addItemEntryHelper(<botania:blacklotus>, 1, 0, [], [Conditions.randomChance(0.35)]);
+  dungeon.addPool("astral_dia", 1, 1, 0, 0).addItemEntryHelper(<ebwizardry:astral_diamond>, 1, 0, [], [Conditions.randomChance(0.02)]);
