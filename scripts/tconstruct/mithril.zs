@@ -60,6 +60,12 @@ import crafttweaker.player.IPlayer;
     var updatedMap = statsMap - "FreeModifiers";
     var newModifiers = modifiers.asInt() + 1;
     var modifierMap = {FreeModifiers: newModifiers} as IData;
+
+    var modifiers2 = statsMap.memberGet("maxModifiers") as IData;
+    var updatedMap2 = statsMap - "maxModifiers";
+    var newModifiers2 = modifiers2.asInt() + 1;
+
+    var modifierMap = {maxModifiers: newModifiers2} as IData;
     updatedMap = updatedMap + modifierMap;
 
     return newAmount;
