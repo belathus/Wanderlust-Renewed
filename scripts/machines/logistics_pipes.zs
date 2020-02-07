@@ -9,7 +9,7 @@ recipes.addShaped(<logisticspipes:frame>,
 recipes.remove(<logisticspipes:crafting_table>);
 recipes.addShaped(<logisticspipes:crafting_table>,
   [[null,<ore:workbench>,null],
-   [<ore:woodPlank>,<logisticspipes:frame>,<ore:woodPlank>],
+   [<ore:plankWood>,<logisticspipes:frame>,<ore:plankWood>],
    [null,<minecraft:piston>,null]]);
 
 recipes.remove(<logisticspipes:crafting_table_fuzzy>);
