@@ -106,3 +106,19 @@
       <aspect:vitreus> * 15
     );
   }
+  for item in <ore:plankWood>.items {
+    item.setAspects(
+      <aspect:herba> * 3
+    );
+  }
+  for item in <ore:itemFlint>.items {
+    item.setAspects(
+      <aspect:instrumentum> * 5
+    );
+  }
+  for item in <ore:chestWood>.items {
+    item.setAspects(
+      <aspect:herba> * 20,
+      <aspect:vacuos> * 5
+    );
+  }
