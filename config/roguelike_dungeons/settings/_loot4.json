@@ -200,8 +200,7 @@
 						{"data":{"name":"tconstruct:punji"}, "min":4, "max":12},
 						{"data":{"name":"immersiveengineering:metal_decoration2", "meta": 4}, "min":2, "max":4},
 						{"data":{"name":"metalchests:metal_chest", "meta":4, "comment": "Mithril Chest"}},
-						{"data":{"name":"metalchests:chest_upgrade", "meta":12, "comment":"Gold to Mithril Chest Upgrade"}},
-						{"data":{"name":"astralsorcery:itemshiftingstar"}}		
+						{"data":{"name":"metalchests:chest_upgrade", "meta":12, "comment":"Gold to Mithril Chest Upgrade"}}
 					],
 					"weight" : 3
 				},
@@ -226,7 +225,8 @@
 						{"data":{"name":"xreliquary:holy_hand_grenade"}, "min":1, "max":2},
 						{"data" : {"name" : "contenttweaker:material_part", "meta" : 45, "min": 2, "max" : 7}},
 						{"data":{"name":"metalchests:metal_chest", "meta":5, "comment": "Obsidian Chest"}},
-						{"data":{"name":"metalchests:chest_upgrade", "meta":14, "comment":"Mithril to Obsidian Chest Upgrade"}}
+						{"data":{"name":"metalchests:chest_upgrade", "meta":14, "comment":"Mithril to Obsidian Chest Upgrade"}},
+						{"data":{"name":"astralsorcery:itemshiftingstar"}}		
 					],
 					"weight" : 2
 				}
