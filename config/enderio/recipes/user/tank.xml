@@ -21,7 +21,7 @@
     <tanking type="FILL" logic="NONE">
       <input name="pyrotech:material:20"/>
       <fluid name="wood_tar" amount="50"/>
-      <output name="pyrotech:board_tarred"/>
+      <output name="pyrotech:material:23"/>
     </tanking>
   </recipe>
 
