@@ -105,6 +105,22 @@
     </tanking>
   </recipe>
 
+  <recipe name="Tank: Clay from Mud" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:blockMud"/>
+      <fluid name="water" amount="250"/>
+      <output name="minecraft:clay_ball"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Mud from Dirt" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:dirt"/>
+      <fluid name="water" amount="1000"/>
+      <output name="biomesoplenty:mud"/>
+    </tanking>
+  </recipe>
+
   <!-- Not all recipes need to be copied from the soaking pot.
 
   <recipe name="Tank: Podzol" required="false">
