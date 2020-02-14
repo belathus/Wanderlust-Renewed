@@ -59,3 +59,7 @@
     <aspect:herba> * 5,
     <aspect:terra> * 5
   );
+  <minecraft:web>.setAspects(
+    <aspect:vinculum> * 5,
+    <aspect:bestia> * 1
+  );
