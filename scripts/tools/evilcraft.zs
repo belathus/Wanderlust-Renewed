@@ -14,11 +14,12 @@
   val brushBare = <evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:brush_bare"]});
   val capBare = <evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_bare"]});
   #recipes.remove(<evilcraft:broom_part>);
+  recipes.removeByRecipeName("evilcraft:broom_part");
   recipes.addShaped(rodBare,
     [[<minecraft:chorus_flower>, <evilcraft:dark_stick>, <minecraft:chorus_flower>],
      [<evilcraft:dark_gem_crushed>, <evilcraft:dark_stick>, <evilcraft:dark_gem_crushed>],
      [<minecraft:chorus_flower>, <evilcraft:dark_stick>, <minecraft:chorus_flower>]]);
-  recipes.addShaped(brushBare,
+/*  recipes.addShaped(brushBare,
     [[<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem_crushed>, <evilcraft:dark_gem_crushed>],
      [null, <evilcraft:dark_stick>, null],
      [null, <evilcraft:dark_stick>, null]]);
@@ -105,3 +106,4 @@
     [capBare, <minecraft:skull:3>]);
   recipes.addShapeless(<evilcraft:broom_part>.withTag({broom_parts_tag: ["evilcraft:cap_head_creeper"]}),
     [capBare, <minecraft:skull:4>]);
+*/

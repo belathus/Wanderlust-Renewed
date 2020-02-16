@@ -21,7 +21,7 @@
     <tanking type="FILL" logic="NONE">
       <input name="pyrotech:material:20"/>
       <fluid name="wood_tar" amount="50"/>
-      <output name="pyrotech:board_tarred"/>
+      <output name="pyrotech:material:23"/>
     </tanking>
   </recipe>
 
@@ -102,6 +102,22 @@
       <input name="pyrotech:material:22"/>
       <fluid name="water" amount="125"/>
       <output name="pyrotech:material:8"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Clay from Mud" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:blockMud"/>
+      <fluid name="water" amount="250"/>
+      <output name="minecraft:clay_ball"/>
+    </tanking>
+  </recipe>
+
+  <recipe name="Tank: Mud from Dirt" required="false">
+    <tanking type="FILL" logic="NONE">
+      <input name="oredict:dirt"/>
+      <fluid name="water" amount="1000"/>
+      <output name="biomesoplenty:mud"/>
     </tanking>
   </recipe>
 

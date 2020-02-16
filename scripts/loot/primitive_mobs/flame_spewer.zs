@@ -12,7 +12,7 @@ val spewer = LootTables.getTable("primitivemobs:entities/flame_spewer");
 spewer.clear();
 
 # 
-spewer.addPool("gunpowder", 1, 1, 0, 0).addItemEntryHelper(<minecraft:rotten_flesh>, 1, 0, 
+spewer.addPool("gunpowder", 1, 1, 0, 0).addItemEntryHelper(<minecraft:gunpowder>, 1, 0, 
   [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 10)], []);
 
 # Rare Drops
