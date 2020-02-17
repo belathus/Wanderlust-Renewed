@@ -319,7 +319,6 @@ recipes.addShaped(<chisel:blockUranium>*16,
   mods.chisel.Carving.addGroup("slate_slab");
   mods.chisel.Carving.addVariation("slate_slab", <rustic:slate_brick_slab_item>);
   mods.chisel.Carving.addVariation("slate_slab", <rustic:slate_roof_slab_item>);
-  mods.chisel.Carving.addGroup("limestone");
   mods.chisel.Carving.addVariation("limestone", <thebetweenlands:limestone>);
   mods.chisel.Carving.addVariation("limestone", <thebetweenlands:limestone_chiseled>);
   mods.chisel.Carving.addVariation("limestone", <thebetweenlands:cracked_limestone_bricks>);
