@@ -20,7 +20,15 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:12>,
     <ebwizardry:spell_book:111>,
     <ebwizardry:spell_book:112>,
-    <ebwizardry:spell_book:113>
+    <ebwizardry:spell_book:113>,
+    <ebwizardry:spell_book:141>,
+    <ebwizardry:spell_book:142>,
+    <ebwizardry:spell_book:143>,
+    <ebwizardry:spell_book:144>,
+    <ebwizardry:spell_book:145>,
+    <ebwizardry:spell_book:178>,
+    <ebwizardry:spell_book:194>,
+    <ebwizardry:spell_book:200>
   ] as crafttweaker.item.IItemStack[];
 
   val apprenticeSpellbooks = [
@@ -68,7 +76,26 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:120>,
     <ebwizardry:spell_book:121>,
     <ebwizardry:spell_book:122>,
-    <ebwizardry:spell_book:123>
+    <ebwizardry:spell_book:123>,
+    <ebwizardry:spell_book:124>,
+    <ebwizardry:spell_book:125>,
+    <ebwizardry:spell_book:146>,
+    <ebwizardry:spell_book:147>,
+    <ebwizardry:spell_book:148>,
+    <ebwizardry:spell_book:149>,
+    <ebwizardry:spell_book:150>,
+    <ebwizardry:spell_book:151>,
+    <ebwizardry:spell_book:174>,
+    <ebwizardry:spell_book:177>,
+    <ebwizardry:spell_book:179>,
+    <ebwizardry:spell_book:190>,
+    <ebwizardry:spell_book:195>,
+    <ebwizardry:spell_book:201>,
+    <ebwizardry:spell_book:202>,
+    <ebwizardry:spell_book:204>,
+    <ebwizardry:spell_book:214>,
+    <ebwizardry:spell_book:215>,
+    <ebwizardry:spell_book:218>
   ] as crafttweaker.item.IItemStack[];
 
   val advancedSpellbooks = [
@@ -126,7 +153,43 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:132>,
     <ebwizardry:spell_book:133>,
     <ebwizardry:spell_book:134>,
-    <ebwizardry:spell_book:135>
+    <ebwizardry:spell_book:135>,
+    <ebwizardry:spell_book:152>,
+    <ebwizardry:spell_book:153>,
+    <ebwizardry:spell_book:154>,
+    <ebwizardry:spell_book:155>,
+    <ebwizardry:spell_book:156>,
+    <ebwizardry:spell_book:157>,
+    <ebwizardry:spell_book:158>,
+    <ebwizardry:spell_book:159>,
+    <ebwizardry:spell_book:160>,
+    <ebwizardry:spell_book:161>,
+    <ebwizardry:spell_book:162>,
+    <ebwizardry:spell_book:163>,
+    <ebwizardry:spell_book:164>,
+    <ebwizardry:spell_book:165>,
+    <ebwizardry:spell_book:166>,
+    <ebwizardry:spell_book:173>,
+    <ebwizardry:spell_book:175>,
+    <ebwizardry:spell_book:176>,
+    <ebwizardry:spell_book:181>,
+    <ebwizardry:spell_book:181>,
+    <ebwizardry:spell_book:182>,
+    <ebwizardry:spell_book:184>,
+    <ebwizardry:spell_book:187>,
+    <ebwizardry:spell_book:189>,
+    <ebwizardry:spell_book:192>,
+    <ebwizardry:spell_book:193>,
+    <ebwizardry:spell_book:198>,
+    <ebwizardry:spell_book:199>,
+    <ebwizardry:spell_book:203>,
+    <ebwizardry:spell_book:209>,
+    <ebwizardry:spell_book:210>,
+    <ebwizardry:spell_book:211>,
+    <ebwizardry:spell_book:213>,
+    <ebwizardry:spell_book:216>,
+    <ebwizardry:spell_book:217>,
+    <ebwizardry:spell_book:219>
   ] as crafttweaker.item.IItemStack[];
 
   val masterSpellbooks = [
@@ -149,11 +212,30 @@ import mods.artisanworktables.builder.RecipeBuilder;
     <ebwizardry:spell_book:107>,
     <ebwizardry:spell_book:108>,
     <ebwizardry:spell_book:109>,
+    <ebwizardry:spell_book:110>,
     <ebwizardry:spell_book:136>,
+    <ebwizardry:spell_book:140>,
     <ebwizardry:spell_book:137>,
     <ebwizardry:spell_book:138>,
     <ebwizardry:spell_book:139>,
-    <ebwizardry:spell_book:140>
+    <ebwizardry:spell_book:140>,
+    <ebwizardry:spell_book:167>,
+    <ebwizardry:spell_book:168>,
+    <ebwizardry:spell_book:170>,
+    <ebwizardry:spell_book:171>,
+    <ebwizardry:spell_book:172>,
+    <ebwizardry:spell_book:182>,
+    <ebwizardry:spell_book:185>,
+    <ebwizardry:spell_book:186>,
+    <ebwizardry:spell_book:188>,
+    <ebwizardry:spell_book:191>,
+    <ebwizardry:spell_book:196>,
+    <ebwizardry:spell_book:197>,
+    <ebwizardry:spell_book:205>,
+    <ebwizardry:spell_book:206>,
+    <ebwizardry:spell_book:207>,
+    <ebwizardry:spell_book:208>,
+    <ebwizardry:spell_book:212>
   ] as crafttweaker.item.IItemStack[];
 
   # Craft spellbooks in Artisan Worktable
