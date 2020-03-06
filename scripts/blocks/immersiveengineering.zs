@@ -58,3 +58,11 @@
         [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
          [<ore:ingotCopper>, <xreliquary:emperor_chalice>.giveBack(), <ore:ingotCopper>],
          [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
+    recipes.addShaped(<immersiveengineering:treated_wood> * 8,
+        [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+         [<ore:plankWood>,
+           <forestry:capsule:*>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}})
+           | <forestry:refractory:*>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}})
+           | <forestry:can:*>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}),
+           <ore:plankWood>],
+         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
