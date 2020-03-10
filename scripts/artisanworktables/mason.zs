@@ -195,7 +195,7 @@ import crafttweaker.item.IItemDefinition;
     #Nether Brick
     RecipeBuilder.get("mason")
       .setShapeless([<minecraft:nether_brick>])
-      .addOutput(<minecraft:stone_slab:7> * 2)
+      .addOutput(<minecraft:stone_slab:6> * 2)
       .addTool(<ore:toolChisel>|<ore:toolHammer>|<ore:toolPickaxe>|<ore:toolHandsaw>|<ore:artisansHandsaw>, 1)
       .create();
 

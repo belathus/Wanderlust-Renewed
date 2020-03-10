@@ -1,5 +1,6 @@
 #modloaded artisanworktables contenttweaker
-#norun
+
+import mods.artisanworktables.builder.RecipeBuilder;
 
 # ==============================
 # ==== Processing Geode Ore ====
@@ -26,4 +27,4 @@
       .addOutput(<evilcraft:dark_gem_crushed>, 5)
       .addTool(<ore:toolHammer>, 1)
       .create();
-    }
+    

@@ -26,20 +26,20 @@
     # Advanced Control Circuit: normally basic control circuit + 2 enriched alloys
     recipes.remove(<mekanism:controlcircuit:1>);
     recipes.addShaped(<mekanism:controlcircuit:1>,
-        [[<ore:ingotLead>, <advancedrocketry:ic:3>, <ore:ingotLead>],
+        [[<ore:ingotLead>, <cyberware:component:3> | <appliedenergistics2:material:23>, <ore:ingotLead>],
          [<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>],
-         [<ore:ingotLead>, <advancedrocketry:ic:4>, <ore:ingotLead>]]);
+         [<ore:ingotLead>, <cyberware:component:3> | <appliedenergistics2:material:23>, <ore:ingotLead>]]);
 
     # Elite control circuit: normally advanced control circuit + 2 reinforced alloys.
     recipes.remove(<mekanism:controlcircuit:2>);
     recipes.addShaped(<mekanism:controlcircuit:2>,
-        [[<ore:ingotOsmium>, <advancedrocketry:ic:3>, <ore:ingotOsmium>],
+        [[<ore:ingotOsmium>, <cyberware:component:3> | <appliedenergistics2:material:23>, <ore:ingotOsmium>],
          [<ore:alloyElite>, <ore:circuitAdvanced>, <ore:alloyElite>],
-         [<ore:ingotOsmium>, <advancedrocketry:ic:4>, <ore:ingotOsmium>]]);
+         [<ore:ingotOsmium>, <cyberware:component:3> | <appliedenergistics2:material:23>, <ore:ingotOsmium>]]);
 
     # Ultimate control circuit: normally elite circuit + 2 atomic alloys.
     recipes.remove(<mekanism:controlcircuit:3>);
     recipes.addShaped(<mekanism:controlcircuit:3>,
-        [[<ore:ingotUranium>, <advancedrocketry:ic:3>, <ore:ingotUranium>],
+        [[<ore:ingotUranium>, <cyberware:component:3> | <appliedenergistics2:material:23>, <ore:ingotUranium>],
          [<ore:alloyUltimate>, <ore:circuitElite>, <ore:alloyUltimate>],
-         [<ore:ingotUranium>, <advancedrocketry:ic:4>, <ore:ingotUranium>]]);
+         [<ore:ingotUranium>, <cyberware:component:3> | <appliedenergistics2:material:23>, <ore:ingotUranium>]]);

@@ -240,6 +240,9 @@
         #     [plank, plank]]);
         recipes.addShapeless(plank, 
             [slab, slab]);
+
+        # Mekanism Sawmill Recipes
+        mods.mekanism.sawmill.addRecipe(plank, slab * 2);
     }
     for i, log_pair in list_logs2 {
         var log = log_pair[0];

@@ -2,9 +2,9 @@
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
-# ===========================
+# ============================
 # ==== blacksmith's Table ====
-# ===========================
+# ============================
 
 val unbreakable as crafttweaker.data.IData = {Unbreakable : 1};
 
